@@ -1,0 +1,197 @@
+net.imglib2.img.ImgFactory	Factory Method
+net.imglib2.IterableInterval	Factory Method
+net.imglib2.IterableRealInterval	Factory Method
+net.imglib2.RandomAccessible	Factory Method
+net.imglib2.RealRandomAccess	Factory Method
+net.imglib2.transform.integer.shear.AbstractShearTransform	Factory Method
+net.imglib2.view.iteration.SubIntervalIterable	Factory Method
+net.imglib2.img.cell.LazyCellImg$Get	(Object)Adapter
+net.imglib2.img.cell.LazyCellImg$LazyCells	(Object)Adapter
+net.imglib2.type.AbstractBitType	(Object)Adapter
+net.imglib2.img.NativeImg	(Object)Adapter
+net.imglib2.type.logic.BitType	(Object)Adapter
+net.imglib2.type.numeric.NativeARGBDoubleType	(Object)Adapter
+net.imglib2.type.numeric.complex.ComplexDoubleType	(Object)Adapter
+net.imglib2.type.numeric.complex.ComplexFloatType	(Object)Adapter
+net.imglib2.type.numeric.integer.GenericByteType	(Object)Adapter
+net.imglib2.type.numeric.integer.GenericIntType	(Object)Adapter
+net.imglib2.type.numeric.integer.GenericLongType	(Object)Adapter
+net.imglib2.type.numeric.integer.GenericShortType	(Object)Adapter
+net.imglib2.type.numeric.integer.Unsigned128BitType	(Object)Adapter
+net.imglib2.type.numeric.real.DoubleType	(Object)Adapter
+net.imglib2.type.numeric.real.FloatType	(Object)Adapter
+net.imglib2.img.sparse.ByteNtree	(Object)Adapter
+net.imglib2.img.sparse.Ntree	(Object)Adapter
+net.imglib2.img.sparse.CharNtree	(Object)Adapter
+net.imglib2.img.sparse.DoubleNtree	(Object)Adapter
+net.imglib2.img.sparse.FloatNtree	(Object)Adapter
+net.imglib2.img.sparse.IntNtree	(Object)Adapter
+net.imglib2.img.sparse.LongNtree	(Object)Adapter
+net.imglib2.img.sparse.ShortNtree	(Object)Adapter
+net.imglib2.img.basictypeaccess.LongAccess	(Object)Adapter
+net.imglib2.RandomAccessibleInterval	(Object)Adapter
+net.imglib2.view.ExtendedRandomAccessibleInterval	(Object)Adapter
+net.imglib2.img.ImgFactory	(Object)Adapter
+net.imglib2.img.ImgView	(Object)Adapter
+net.imglib2.view.iteration.SubIntervalIterable	(Object)Adapter
+net.imglib2.view.iteration.IterableTransformBuilder$Slice	(Object)Adapter
+net.imglib2.view.iteration.IterableTransformBuilder$SubInterval	(Object)Adapter
+net.imglib2.KDTree	(Object)Adapter
+net.imglib2.neighborsearch.KNearestNeighborSearchOnKDTree	(Object)Adapter
+net.imglib2.neighborsearch.NearestNeighborSearchOnKDTree	(Object)Adapter
+net.imglib2.RandomAccess	(Object)Adapter
+net.imglib2.view.composite.AbstractComposite	(Object)Adapter
+net.imglib2.img.basictypeaccess.DoubleAccess	(Object)Adapter
+net.imglib2.img.sparse.NtreeIntAccess	(Object)Adapter
+net.imglib2.IterableRealInterval	(Object)Adapter
+net.imglib2.neighborsearch.KNearestNeighborSearchOnIterableRealInterval	(Object)Adapter
+net.imglib2.neighborsearch.NearestNeighborSearchOnIterableRealInterval	(Object)Adapter
+net.imglib2.RealRandomAccessible	(Object)Adapter
+net.imglib2.view.RandomAccessibleOnRealRandomAccessible	(Object)Adapter
+net.imglib2.RealCursor	(Object)Adapter
+net.imglib2.interpolation.InterpolatorFactory	(Object)Adapter
+net.imglib2.interpolation.Interpolant	(Object)Adapter
+net.imglib2.RealRandomAccessibleRealInterval	(Object)Adapter
+net.imglib2.view.ExtendedRealRandomAccessibleRealInterval	(Object)Adapter
+net.imglib2.Sampler	(Object)Adapter
+net.imglib2.converter.readwrite.ARGBChannelSamplerConverter$ARGBChannelConvertingAccess	(Object)Adapter
+net.imglib2.converter.readwrite.RealDoubleSamplerConverter$RealConvertingDoubleAccess	(Object)Adapter
+net.imglib2.converter.readwrite.RealFloatSamplerConverter$RealConvertingFloatAccess	(Object)Adapter
+net.imglib2.RealInterval	Decorator
+net.imglib2.AbstractWrappedRealInterval	Decorator
+net.imglib2.IterableInterval	Decorator
+net.imglib2.img.ImgView	Decorator
+net.imglib2.Sampler	Decorator
+net.imglib2.KDTree$SamplerNode	Decorator
+net.imglib2.img.list.ListCursor	State
+net.imglib2.img.list.AbstractListImg	State
+net.imglib2.img.list.ListLocalizingCursor	State
+net.imglib2.img.list.ListRandomAccess	State
+net.imglib2.img.cell.LazyCellImg$LazyCells	State
+net.imglib2.img.cell.LazyCellImg$Get	State
+net.imglib2.view.TransformRandomAccess	State
+net.imglib2.transform.Transform	State
+net.imglib2.type.NativeType	State
+net.imglib2.img.array.ArrayRandomAccess	State
+net.imglib2.img.cell.CellCursor	State
+net.imglib2.img.cell.CellLocalizingCursor	State
+net.imglib2.img.cell.CellRandomAccess	State
+net.imglib2.img.planar.PlanarCursor	State
+net.imglib2.img.planar.PlanarLocalizingCursor	State
+net.imglib2.img.planar.PlanarPlaneSubsetCursor	State
+net.imglib2.img.planar.PlanarPlaneSubsetLocalizingCursor	State
+net.imglib2.img.planar.PlanarRandomAccess	State
+net.imglib2.Interval	State
+net.imglib2.FlatIterationOrder	State
+net.imglib2.type.label.BasePairCharType	State
+net.imglib2.img.NativeImg	State
+net.imglib2.type.logic.BitType	State
+net.imglib2.type.numeric.ARGBType	State
+net.imglib2.type.numeric.NativeARGBDoubleType	State
+net.imglib2.type.numeric.complex.ComplexDoubleType	State
+net.imglib2.type.numeric.complex.ComplexFloatType	State
+net.imglib2.type.numeric.integer.Unsigned128BitType	State
+net.imglib2.type.numeric.real.DoubleType	State
+net.imglib2.type.numeric.real.FloatType	State
+net.imglib2.view.RandomAccessibleOnRealRandomAccessible$RandomAccessOnRealRandomAccessible	State
+net.imglib2.RealRandomAccess	State
+net.imglib2.display.projector.IterableIntervalProjector2D	State
+net.imglib2.IterableInterval	State
+net.imglib2.display.projector.composite.CompositeXYProjector	State
+net.imglib2.display.projector.sampler.SamplingProjector2D	State
+net.imglib2.RandomAccessible	State
+net.imglib2.display.projector.RandomAccessibleProjector2D	State
+net.imglib2.view.IntervalView	State
+net.imglib2.view.composite.CompositeIntervalView	State
+net.imglib2.img.basictypeaccess.LongAccess	State
+net.imglib2.interpolation.neighborsearch.InverseDistanceWeightingInterpolator	State
+net.imglib2.neighborsearch.KNearestNeighborSearch	State
+net.imglib2.interpolation.neighborsearch.NearestNeighborSearchInterpolator	State
+net.imglib2.neighborsearch.NearestNeighborSearch	State
+net.imglib2.histogram.Histogram1d	State
+net.imglib2.histogram.BinMapper1d	State
+net.imglib2.view.iteration.IterableTransformBuilder$Slice	State
+net.imglib2.view.iteration.SubIntervalIterable	State
+net.imglib2.view.iteration.IterableTransformBuilder$SubInterval	State
+net.imglib2.img.basictypeaccess.DoubleAccess	State
+net.imglib2.interpolation.Interpolant	State
+net.imglib2.EuclideanSpace	State
+net.imglib2.neighborsearch.KNearestNeighborSearchOnIterableRealInterval	State
+net.imglib2.IterableRealInterval	State
+net.imglib2.neighborsearch.NearestNeighborSearchOnIterableRealInterval	State
+net.imglib2.view.RandomAccessibleOnRealRandomAccessible	State
+net.imglib2.RealRandomAccessible	State
+net.imglib2.converter.read.ConvertedIterableInterval	State
+net.imglib2.type.Type	State
+net.imglib2.converter.read.ConvertedRandomAccessible	State
+net.imglib2.converter.read.ConvertedRandomAccessibleInterval	State
+net.imglib2.converter.read.ConvertedRealRandomAccessible	State
+net.imglib2.converter.read.ConvertedRealRandomAccessibleRealInterval	State
+net.imglib2.converter.Converter	State
+net.imglib2.display.projector.composite.CompositeXYRandomAccessibleProjector	State
+net.imglib2.RealCursor	State
+net.imglib2.view.ExtendedRealRandomAccessibleRealInterval	State
+net.imglib2.outofbounds.RealOutOfBoundsFactory	State
+net.imglib2.type.numeric.complex.ComplexFloatType	State
+net.imglib2.img.basictypeaccess.FloatAccess	State
+net.imglib2.type.numeric.real.FloatType	State
+net.imglib2.type.numeric.ARGBType	State
+net.imglib2.img.basictypeaccess.IntAccess	State
+net.imglib2.display.projector.sampler.ProjectedSampler	State
+net.imglib2.view.MixedTransformView	State
+net.imglib2.RandomAccessible	State
+net.imglib2.view.TransformView	State
+net.imglib2.converter.RealLUTConverter	State
+net.imglib2.display.ColorTable	State
+net.imglib2.type.label.BasePairCharType	State
+net.imglib2.img.basictypeaccess.CharAccess	State
+net.imglib2.interpolation.InterpolatorFactory	State
+net.imglib2.converter.read.ConvertedCursor	State
+net.imglib2.converter.read.ConvertedRandomAccess	State
+net.imglib2.view.ExtendedRandomAccessibleInterval	State
+net.imglib2.outofbounds.OutOfBoundsFactory	State
+net.imglib2.converter.read.ConvertedRealRandomAccess	State
+net.imglib2.img.sparse.NtreeImg	State
+net.imglib2.img.sparse.NtreeAccess	State
+net.imglib2.converter.readwrite.ARGBChannelSamplerConverter$ARGBChannelConvertingAccess	State
+net.imglib2.Sampler	State
+net.imglib2.converter.readwrite.RealDoubleSamplerConverter$RealConvertingDoubleAccess	State
+net.imglib2.converter.readwrite.RealFloatSamplerConverter$RealConvertingFloatAccess	State
+net.imglib2.outofbounds.OutOfBoundsConstantValueFactory	State
+net.imglib2.img.array.AbstractArrayCursor	Bridge
+net.imglib2.type.NativeType	Bridge
+net.imglib2.img.array.AbstractArrayLocalizingCursor	Bridge
+net.imglib2.type.AbstractBitType	Bridge
+net.imglib2.img.NativeImg	Bridge
+net.imglib2.type.numeric.integer.GenericByteType	Bridge
+net.imglib2.type.numeric.integer.GenericIntType	Bridge
+net.imglib2.type.numeric.integer.GenericLongType	Bridge
+net.imglib2.type.numeric.integer.GenericShortType	Bridge
+net.imglib2.img.AbstractNativeImg	Bridge
+net.imglib2.img.basictypeaccess.LongAccess	Bridge
+net.imglib2.img.basictypeaccess.ByteAccess	Bridge
+net.imglib2.img.basictypeaccess.ShortAccess	Bridge
+net.imglib2.AbstractCursor	Template Method
+net.imglib2.AbstractCursorInt	Template Method
+net.imglib2.AbstractLocalizingCursor	Template Method
+net.imglib2.AbstractLocalizingCursorInt	Template Method
+net.imglib2.converter.AbstractConvertedCursor	Template Method
+net.imglib2.converter.AbstractConvertedIterableInterval	Template Method
+net.imglib2.converter.AbstractConvertedIterableRandomAccessibleInterval	Template Method
+net.imglib2.converter.AbstractConvertedRandomAccess	Template Method
+net.imglib2.converter.AbstractConvertedRandomAccessible	Template Method
+net.imglib2.converter.AbstractConvertedRandomAccessibleInterval	Template Method
+net.imglib2.converter.AbstractConvertedRealRandomAccess	Template Method
+net.imglib2.converter.AbstractConvertedRealRandomAccessible	Template Method
+net.imglib2.display.AbstractArrayColorTable	Template Method
+net.imglib2.display.screenimage.awt.ArrayImgAWTScreenImage	Template Method
+net.imglib2.img.ImgFactory	Template Method
+net.imglib2.KDTreeNode	Template Method
+net.imglib2.outofbounds.AbstractOutOfBoundsMirror	Template Method
+net.imglib2.type.numeric.AbstractARGBDoubleType	Template Method
+net.imglib2.type.numeric.integer.AbstractIntegerBitType	Template Method
+net.imglib2.histogram.Histogram1d	Proxy
+net.imglib2.histogram.DiscreteFrequencyDistribution	Proxy
+net.imglib2.histogram.HistogramNd	Proxy
+net.imglib2.KDTreeNode	Chain of Responsibility
+net.imglib2.transform.integer.shear.AbstractShearTransform	Chain of Responsibility

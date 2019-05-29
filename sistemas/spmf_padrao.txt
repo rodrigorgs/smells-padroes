@@ -1,0 +1,78 @@
+ca.pfv.spmf.algorithms.sequentialpatterns.clasp_AGP.idlists.creators.IdListCreator	Factory Method
+ca.pfv.spmf.algorithms.sequentialpatterns.clasp_AGP.idlists.IDList	Factory Method
+ca.pfv.spmf.algorithms.sequentialpatterns.spade_spam_AGP.idLists.creators.IdListCreator	Factory Method
+ca.pfv.spmf.algorithms.sequentialpatterns.spade_spam_AGP.idLists.IDList	Factory Method
+ca.pfv.spmf.algorithms.sequentialpatterns.clasp_AGP.dataStructures.creators.AbstractionCreator_Qualitative	Singleton
+ca.pfv.spmf.algorithms.sequentialpatterns.clasp_AGP.dataStructures.creators.ItemAbstractionPairCreator	Singleton
+ca.pfv.spmf.algorithms.sequentialpatterns.clasp_AGP.dataStructures.patterns.PatternCreator	Singleton
+ca.pfv.spmf.algorithms.sequentialpatterns.clasp_AGP.idlists.creators.IdListCreatorStandard_Map	Singleton
+ca.pfv.spmf.algorithms.sequentialpatterns.clospan_AGP.items.creators.AbstractionCreator_Qualitative	Singleton
+ca.pfv.spmf.algorithms.sequentialpatterns.clospan_AGP.items.creators.ItemAbstractionPairCreator	Singleton
+ca.pfv.spmf.algorithms.sequentialpatterns.clospan_AGP.items.patterns.PatternCreator	Singleton
+ca.pfv.spmf.algorithms.sequentialpatterns.gsp_AGP.items.creators.AbstractionCreator_Qualitative	Singleton
+ca.pfv.spmf.algorithms.sequentialpatterns.gsp_AGP.items.creators.ItemAbstractionPairCreator	Singleton
+ca.pfv.spmf.algorithms.sequentialpatterns.gsp_AGP.items.patterns.PatternCreator	Singleton
+ca.pfv.spmf.algorithms.sequentialpatterns.prefixSpan_AGP.items.creators.AbstractionCreator_Qualitative	Singleton
+ca.pfv.spmf.algorithms.sequentialpatterns.prefixSpan_AGP.items.creators.ItemAbstractionPairCreator	Singleton
+ca.pfv.spmf.algorithms.sequentialpatterns.spade_spam_AGP.candidatePatternsGeneration.CandidateGenerator_Qualitative	Singleton
+ca.pfv.spmf.algorithms.sequentialpatterns.spade_spam_AGP.dataStructures.creators.AbstractionCreator_Qualitative	Singleton
+ca.pfv.spmf.algorithms.sequentialpatterns.spade_spam_AGP.dataStructures.creators.ItemAbstractionPairCreator	Singleton
+ca.pfv.spmf.algorithms.sequentialpatterns.spade_spam_AGP.dataStructures.patterns.PatternCreator	Singleton
+ca.pfv.spmf.algorithms.sequentialpatterns.spade_spam_AGP.idLists.creators.IdListCreator_Bitmap	Singleton
+ca.pfv.spmf.algorithms.sequentialpatterns.spade_spam_AGP.idLists.creators.IdListCreator_FatBitmap	Singleton
+ca.pfv.spmf.algorithms.sequentialpatterns.spade_spam_AGP.idLists.creators.IdListCreator_StandardMap	Singleton
+ca.pfv.spmf.gui.PathsManager	Singleton
+ca.pfv.spmf.tools.MemoryLogger	Singleton
+ca.pfv.spmf.algorithms.sequentialpatterns.spade_spam_AGP.dataStructures.Sequences	(Object)Adapter
+ca.pfv.spmf.algorithms.sequentialpatterns.spade_spam_AGP.savers.SaverIntoMemory	(Object)Adapter
+ca.pfv.spmf.algorithms.sequentialpatterns.clasp_AGP.dataStructures.Sequences	(Object)Adapter
+ca.pfv.spmf.algorithms.sequentialpatterns.clasp_AGP.savers.SaverIntoMemory	(Object)Adapter
+ca.pfv.spmf.algorithms.sequentialpatterns.clospan_AGP.items.Sequences	(Object)Adapter
+ca.pfv.spmf.algorithms.sequentialpatterns.clospan_AGP.savers.SaverIntoMemory	(Object)Adapter
+ca.pfv.spmf.algorithms.sequentialpatterns.prefixSpan_AGP.items.Sequences	(Object)Adapter
+ca.pfv.spmf.algorithms.sequentialpatterns.prefixSpan_AGP.savers.SaverIntoMemory	(Object)Adapter
+ca.pfv.spmf.algorithms.sequentialpatterns.spade_spam_AGP.dataStructures.creators.AbstractionCreator	State
+ca.pfv.spmf.algorithms.sequentialpatterns.spade_spam_AGP.dataStructures.database.SequenceDatabase	State
+ca.pfv.spmf.algorithms.sequentialpatterns.gsp_AGP.items.creators.AbstractionCreator	State
+ca.pfv.spmf.algorithms.sequentialpatterns.gsp_AGP.items.SequenceDatabase	State
+ca.pfv.spmf.algorithms.sequentialpatterns.gsp_AGP.SupportCounting	State
+ca.pfv.spmf.algorithms.sequentialpatterns.gsp_AGP.items.CandidateInSequenceFinder	State
+ca.pfv.spmf.algorithms.sequentialpatterns.spade_spam_AGP.FrequentPatternEnumeration	State
+ca.pfv.spmf.algorithms.sequentialpatterns.spade_spam_AGP.candidatePatternsGeneration.CandidateGenerator	State
+ca.pfv.spmf.algorithms.sequentialpatterns.spade_spam_AGP.savers.Saver	State
+ca.pfv.spmf.algorithms.sequentialpatterns.spade_spam_AGP.FrequentPatternEnumeration_SPAM	State
+ca.pfv.spmf.algorithms.sequentialpatterns.spade_spam_AGP.AlgoCMSPADE	State
+ca.pfv.spmf.algorithms.sequentialpatterns.spade_spam_AGP.AlgoSPADE	State
+ca.pfv.spmf.algorithms.sequentialpatterns.spade_spam_AGP.AlgoSPAM_AGP	State
+ca.pfv.spmf.algorithms.sequentialpatterns.clospan_AGP.items.creators.AbstractionCreator	State
+ca.pfv.spmf.algorithms.sequentialpatterns.clospan_AGP.RecursionCloSpan	State
+ca.pfv.spmf.algorithms.sequentialpatterns.spade_spam_AGP.idLists.creators.IdListCreator	State
+ca.pfv.spmf.algorithms.sequentialpatterns.clasp_AGP.dataStructures.creators.AbstractionCreator	State
+ca.pfv.spmf.algorithms.sequentialpatterns.clasp_AGP.dataStructures.database.SequenceDatabase	State
+ca.pfv.spmf.algorithms.sequentialpatterns.prefixSpan_AGP.items.creators.AbstractionCreator	State
+ca.pfv.spmf.algorithms.sequentialpatterns.prefixSpan_AGP.items.SequenceDatabase	State
+ca.pfv.spmf.algorithms.sequentialpatterns.prefixSpan_AGP.RecursionPrefixSpan_AGP	State
+ca.pfv.spmf.algorithms.sequentialpatterns.clasp_AGP.savers.Saver	State
+ca.pfv.spmf.algorithms.sequentialpatterns.clasp_AGP.AlgoCM_ClaSP	State
+ca.pfv.spmf.algorithms.sequentialpatterns.clasp_AGP.AlgoClaSP	State
+ca.pfv.spmf.algorithms.sequentialpatterns.clasp_AGP.FrequentPatternEnumeration_ClaSP	State
+ca.pfv.spmf.algorithms.sequentialpatterns.clasp_AGP.idlists.creators.IdListCreator	State
+ca.pfv.spmf.algorithms.sequentialpatterns.clospan_AGP.savers.Saver	State
+ca.pfv.spmf.algorithms.sequentialpatterns.clospan_AGP.AlgoCloSpan	State
+ca.pfv.spmf.algorithms.sequentialpatterns.prefixSpan_AGP.savers.Saver	State
+ca.pfv.spmf.algorithms.sequentialpatterns.prefixSpan_AGP.AlgoPrefixSpan_AGP	State
+ca.pfv.spmf.algorithms.sequentialpatterns.clospan_AGP.items.abstractions.ItemAbstractionPair	State
+ca.pfv.spmf.algorithms.sequentialpatterns.clospan_AGP.items.abstractions.Abstraction_Generic	State
+ca.pfv.spmf.algorithms.sequentialpatterns.prefixSpan_AGP.items.abstractions.ItemAbstractionPair	State
+ca.pfv.spmf.algorithms.sequentialpatterns.prefixSpan_AGP.items.abstractions.Abstraction_Generic	State
+ca.pfv.spmf.algorithms.sequentialpatterns.clasp_AGP.dataStructures.abstracciones.ItemAbstractionPair	State
+ca.pfv.spmf.algorithms.sequentialpatterns.clasp_AGP.dataStructures.abstracciones.Abstraction_Generic	State
+ca.pfv.spmf.algorithms.sequentialpatterns.gsp_AGP.items.abstractions.ItemAbstractionPair	State
+ca.pfv.spmf.algorithms.sequentialpatterns.gsp_AGP.items.abstractions.Abstraction_Generic	State
+ca.pfv.spmf.algorithms.sequentialpatterns.spade_spam_AGP.dataStructures.abstractions.ItemAbstractionPair	State
+ca.pfv.spmf.algorithms.sequentialpatterns.spade_spam_AGP.dataStructures.abstractions.Abstraction_Generic	State
+ca.pfv.spmf.datastructures.triangularmatrix.AbstractTriangularMatrix	State
+ca.pfv.spmf.algorithms.sequentialpatterns.lapin.AlgoLAPIN_LCI	State
+ca.pfv.spmf.algorithms.frequentpatterns.itemsettree.AbstractItemsetTree	Template Method
+ca.pfv.spmf.patterns.AbstractItemset	Template Method
+ca.pfv.spmf.patterns.AbstractOrderedItemset	Template Method

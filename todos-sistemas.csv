@@ -1,0 +1,12 @@
+,State,Strategy,Adapter,Chain,Bridge,Proxy,Observer,Template,Composite,Decorator,Singleton,Visitor,Factory,Command,SemPadrao
+Intensive,5,0,2,0,0,2,0,0,1,0,1,0,0,0,81
+Shotgun,20,0,10,0,2,4,1,2,0,7,5,0,1,0,53
+Disperse,39,0,11,0,0,4,0,2,0,0,4,0,0,0,137
+DataClass,3,0,6,0,8,2,0,1,0,0,0,0,0,0,10
+Tradition,6,0,5,0,0,1,0,0,0,0,0,0,0,0,15
+Refused,37,0,24,0,9,2,0,4,2,1,1,0,0,0,87
+Feature,35,0,82,1,1,17,4,8,3,1,4,0,0,0,335
+GodClass,12,0,11,0,1,2,1,2,0,0,1,0,0,0,48
+BrainClass,2,0,1,0,0,0,0,0,0,0,0,0,0,0,14
+BrainMethod,3,0,2,0,1,0,0,0,0,0,2,0,0,0,54
+SemSmell,177,0,82,3,16,7,4,31,5,19,47,0,20,0,655

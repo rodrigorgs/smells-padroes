@@ -1,0 +1,89 @@
+org.apache.log4j.spi.LoggerFactory	Factory Method
+org.apache.log4j.spi.LoggerRepository	Factory Method
+org.apache.log4j.helpers.MDCKeySetExtractor	Singleton
+org.apache.log4j.helpers.NullEnumeration	Singleton
+org.apache.log4j.helpers.UtilLoggingLevel	Singleton
+org.apache.log4j.Level	Singleton
+org.apache.log4j.MDC	Singleton
+org.apache.log4j.net.SocketServer	Singleton
+org.apache.log4j.pattern.FileLocationPatternConverter	Singleton
+org.apache.log4j.pattern.FormattingInfo	Singleton
+org.apache.log4j.pattern.FullLocationPatternConverter	Singleton
+org.apache.log4j.pattern.IntegerPatternConverter	Singleton
+org.apache.log4j.pattern.LevelPatternConverter	Singleton
+org.apache.log4j.pattern.LineLocationPatternConverter	Singleton
+org.apache.log4j.pattern.LineSeparatorPatternConverter	Singleton
+org.apache.log4j.pattern.LoggerPatternConverter	Singleton
+org.apache.log4j.pattern.MessagePatternConverter	Singleton
+org.apache.log4j.pattern.MethodLocationPatternConverter	Singleton
+org.apache.log4j.pattern.NameAbbreviator	Singleton
+org.apache.log4j.pattern.NDCPatternConverter	Singleton
+org.apache.log4j.pattern.SequenceNumberPatternConverter	Singleton
+org.apache.log4j.pattern.ThreadPatternConverter	Singleton
+org.apache.log4j.Priority	Singleton
+org.apache.log4j.spi.LocationInfo	Singleton
+org.apache.log4j.varia.NullAppender	Singleton
+org.apache.log4j.net.SocketHubAppender	(Object)Adapter
+org.apache.log4j.helpers.CyclicBuffer	(Object)Adapter
+org.apache.log4j.net.SMTPAppender	(Object)Adapter
+org.apache.log4j.net.TelnetAppender	(Object)Adapter
+org.apache.log4j.net.TelnetAppender$SocketHandler	(Object)Adapter
+org.apache.log4j.pattern.CachedDateFormat	(Object)Adapter
+org.apache.log4j.pattern.DatePatternConverter	(Object)Adapter
+org.apache.log4j.pattern.RelativeTimePatternConverter$CachedTimestamp	(Object)Adapter
+org.apache.log4j.pattern.RelativeTimePatternConverter	(Object)Adapter
+org.apache.log4j.Logger	(Object)Adapter
+org.apache.log4j.jmx.HierarchyDynamicMBean	(Object)Adapter
+org.apache.log4j.or.RendererMap	(Object)Adapter
+org.apache.log4j.Hierarchy	(Object)Adapter
+org.apache.log4j.helpers.SyslogQuietWriter	(Object)Adapter
+org.apache.log4j.net.SyslogAppender	(Object)Adapter
+org.apache.log4j.Appender	(Object)Adapter
+org.apache.log4j.varia.FallbackErrorHandler	(Object)Adapter
+org.apache.log4j.spi.LoggerRepository	(Object)Adapter
+org.apache.log4j.Category	(Object)Adapter
+org.apache.log4j.Level	(Object)Adapter
+org.apache.log4j.varia.LevelMatchFilter	(Object)Adapter
+org.apache.log4j.varia.LevelRangeFilter	(Object)Adapter
+org.apache.log4j.rewrite.RewriteAppender	(Object)Adapter
+org.apache.log4j.rewrite.RewritePolicy	(Object)Adapter
+org.apache.log4j.helpers.PatternConverter	(Object)Adapter
+org.apache.log4j.EnhancedPatternLayout	(Object)Adapter
+org.apache.log4j.PatternLayout	(Object)Adapter
+org.apache.log4j.spi.TriggeringEventEvaluator	(Object)Adapter
+org.apache.log4j.net.SMTPAppender	(Object)Adapter
+org.apache.log4j.Appender	Observer
+org.apache.log4j.helpers.AppenderAttachableImpl	Observer
+org.apache.log4j.net.SocketNode	State
+org.apache.log4j.spi.LoggerRepository	State
+org.apache.log4j.varia.FallbackErrorHandler	State
+org.apache.log4j.Appender	State
+org.apache.log4j.Category	State
+org.apache.log4j.PropertyConfigurator	State
+org.apache.log4j.xml.DOMConfigurator	State
+org.apache.log4j.jmx.AppenderDynamicMBean	State
+org.apache.log4j.jmx.HierarchyDynamicMBean	State
+org.apache.log4j.rewrite.RewriteAppender	State
+org.apache.log4j.rewrite.RewritePolicy	State
+org.apache.log4j.pattern.BridgePatternConverter	State
+org.apache.log4j.pattern.LoggingEventPatternConverter	State
+org.apache.log4j.net.SMTPAppender	State
+org.apache.log4j.spi.TriggeringEventEvaluator	State
+org.apache.log4j.helpers.QuietWriter	State
+org.apache.log4j.spi.ErrorHandler	State
+org.apache.log4j.LogManager	State
+org.apache.log4j.spi.RepositorySelector	State
+org.apache.log4j.pattern.NamePatternConverter	Bridge
+org.apache.log4j.pattern.NameAbbreviator	Bridge
+org.apache.log4j.AppenderSkeleton	Template Method
+org.apache.log4j.helpers.FileWatchdog	Template Method
+org.apache.log4j.helpers.PatternConverter	Template Method
+org.apache.log4j.helpers.PatternParser$NamedPatternConverter	Template Method
+org.apache.log4j.jmx.AbstractDynamicMBean	Template Method
+org.apache.log4j.pattern.LoggingEventPatternConverter	Template Method
+org.apache.log4j.AsyncAppender	Proxy
+org.apache.log4j.helpers.AppenderAttachableImpl	Proxy
+org.apache.log4j.Category	Proxy
+org.apache.log4j.rewrite.RewriteAppender	Proxy
+org.apache.log4j.helpers.PatternConverter	Chain of Responsibility
+org.apache.log4j.spi.Filter	Chain of Responsibility

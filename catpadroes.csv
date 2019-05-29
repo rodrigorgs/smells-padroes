@@ -1,0 +1,15 @@
+padrao,catPadrao
+State,Comportamental
+Strategy,Comportamental
+Chain of Responsibility,Comportamental
+Observer,Comportamental
+Template Method,Comportamental
+Visitor,Comportamental
+Command,Comportamental
+Singleton,Criacao
+Factory Method,Criacao
+Adapter,Estrutural
+Bridge,Estrutural
+Proxy,Estrutural
+Composite,Estrutural
+Decorator,Estrutural

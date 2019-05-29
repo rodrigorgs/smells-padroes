@@ -1,0 +1,20 @@
+org.apache.commons.io.filefilter.ConditionalFileFilterAbstractTestCase	Factory Method
+org.apache.commons.io.ByteOrderMark	Singleton
+org.apache.commons.io.FileDeleteStrategy	Singleton
+org.apache.commons.io.FileSystemUtils	Singleton
+org.apache.commons.io.input.ClosedInputStream	Singleton
+org.apache.commons.io.output.ClosedOutputStream	Singleton
+org.apache.commons.io.output.NullOutputStream	Singleton
+org.apache.commons.io.output.NullWriter	Singleton
+org.apache.commons.io.output.ByteArrayOutputStream	(Object)Adapter
+org.apache.commons.io.output.DeferredFileOutputStream	(Object)Adapter
+org.apache.commons.io.filefilter.IOFileFilter	Composite
+org.apache.commons.io.filefilter.AndFileFilter	Composite
+org.apache.commons.io.filefilter.OrFileFilter	Composite
+org.apache.commons.io.filefilter.IOFileFilter	Decorator
+org.apache.commons.io.filefilter.NotFileFilter	Decorator
+org.apache.commons.io.monitor.FileAlterationListener	Observer
+org.apache.commons.io.monitor.FileAlterationObserver	Observer
+org.apache.commons.io.input.Tailer	State
+org.apache.commons.io.input.TailerListener	State
+org.apache.commons.io.output.ThresholdingOutputStream	Template Method
