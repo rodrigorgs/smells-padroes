@@ -1,0 +1,1178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method">
+		<instance>
+			<role name="Creator" element="com.itextpdf.text.pdf.Barcode" />
+			<role name="FactoryMethod()" element="com.itextpdf.text.pdf.Barcode::getBarcodeSize():com.itextpdf.text.Rectangle" />
+		</instance>
+		<instance>
+			<role name="Creator" element="com.itextpdf.text.pdf.BaseFont" />
+			<role name="FactoryMethod()" element="com.itextpdf.text.pdf.BaseFont::getFullFontStream():com.itextpdf.text.pdf.PdfStream" />
+		</instance>
+	</pattern>
+	<pattern name="Prototype" />
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="com.itextpdf.rups.io.filters.PdfFilter" />
+			<role name="uniqueInstance" element="com.itextpdf.rups.io.filters.PdfFilter::INSTANCE:com.itextpdf.rups.io.filters.PdfFilter" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.itextpdf.rups.view.Console" />
+			<role name="uniqueInstance" element="com.itextpdf.rups.view.Console::console:com.itextpdf.rups.view.Console" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.itextpdf.text.BaseColor" />
+			<role name="uniqueInstance" element="com.itextpdf.text.BaseColor::WHITE:com.itextpdf.text.BaseColor" />
+			<role name="uniqueInstance" element="com.itextpdf.text.BaseColor::LIGHT_GRAY:com.itextpdf.text.BaseColor" />
+			<role name="uniqueInstance" element="com.itextpdf.text.BaseColor::GRAY:com.itextpdf.text.BaseColor" />
+			<role name="uniqueInstance" element="com.itextpdf.text.BaseColor::DARK_GRAY:com.itextpdf.text.BaseColor" />
+			<role name="uniqueInstance" element="com.itextpdf.text.BaseColor::BLACK:com.itextpdf.text.BaseColor" />
+			<role name="uniqueInstance" element="com.itextpdf.text.BaseColor::RED:com.itextpdf.text.BaseColor" />
+			<role name="uniqueInstance" element="com.itextpdf.text.BaseColor::PINK:com.itextpdf.text.BaseColor" />
+			<role name="uniqueInstance" element="com.itextpdf.text.BaseColor::ORANGE:com.itextpdf.text.BaseColor" />
+			<role name="uniqueInstance" element="com.itextpdf.text.BaseColor::YELLOW:com.itextpdf.text.BaseColor" />
+			<role name="uniqueInstance" element="com.itextpdf.text.BaseColor::GREEN:com.itextpdf.text.BaseColor" />
+			<role name="uniqueInstance" element="com.itextpdf.text.BaseColor::MAGENTA:com.itextpdf.text.BaseColor" />
+			<role name="uniqueInstance" element="com.itextpdf.text.BaseColor::CYAN:com.itextpdf.text.BaseColor" />
+			<role name="uniqueInstance" element="com.itextpdf.text.BaseColor::BLUE:com.itextpdf.text.BaseColor" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.itextpdf.text.Chunk" />
+			<role name="uniqueInstance" element="com.itextpdf.text.Chunk::NEWLINE:com.itextpdf.text.Chunk" />
+			<role name="uniqueInstance" element="com.itextpdf.text.Chunk::NEXTPAGE:com.itextpdf.text.Chunk" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.itextpdf.text.html.WebColors" />
+			<role name="uniqueInstance" element="com.itextpdf.text.html.WebColors::NAMES:com.itextpdf.text.html.WebColors" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.itextpdf.text.pdf.GrayColor" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.GrayColor::GRAYBLACK:com.itextpdf.text.pdf.GrayColor" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.GrayColor::GRAYWHITE:com.itextpdf.text.pdf.GrayColor" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.itextpdf.text.pdf.PdfBoolean" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfBoolean::PDFTRUE:com.itextpdf.text.pdf.PdfBoolean" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfBoolean::PDFFALSE:com.itextpdf.text.pdf.PdfBoolean" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.itextpdf.text.pdf.PdfDeveloperExtension" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfDeveloperExtension::ADOBE_1_7_EXTENSIONLEVEL3:com.itextpdf.text.pdf.PdfDeveloperExtension" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.itextpdf.text.pdf.PdfGraphics2D$HyperLinkKey" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfGraphics2D$HyperLinkKey::KEY_INSTANCE:com.itextpdf.text.pdf.PdfGraphics2D$HyperLinkKey" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::_3D:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::A:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::A85:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::AA:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ABSOLUTECOLORIMETRIC:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::AC:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ACROFORM:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ACTION:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ACTIVATION:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ADBE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ACTUALTEXT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ADBE_PKCS7_DETACHED:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ADBE_PKCS7_S4:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ADBE_PKCS7_S5:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ADBE_PKCS7_SHA1:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ADBE_X509_RSA_SHA1:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ADOBE_PPKLITE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ADOBE_PPKMS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::AESV2:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::AHX:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::AIS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ALLPAGES:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ALT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ALTERNATE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::AND:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ANIMATION:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ANNOT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ANNOTS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ANTIALIAS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::AP:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::APPDEFAULT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ART:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ARTBOX:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ASCENT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::AS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ASCII85DECODE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ASCIIHEXDECODE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ASSET:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ASSETS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::AUTHEVENT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::AUTHOR:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::B:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::BACKGROUND:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::BASEENCODING:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::BASEFONT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::BASEVERSION:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::BBOX:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::BC:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::BG:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::BIBENTRY:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::BIGFIVE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::BINDING:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::BINDINGMATERIALNAME:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::BITSPERCOMPONENT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::BITSPERSAMPLE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::BL:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::BLACKIS1:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::BLACKPOINT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::BLOCKQUOTE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::BLEEDBOX:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::BLINDS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::BM:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::BORDER:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::BOUNDS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::BOX:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::BS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::BTN:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::BYTERANGE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::C:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::C0:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::C1:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CA:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ca:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CALGRAY:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CALRGB:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CAPHEIGHT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CAPTION:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CATALOG:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CATEGORY:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CCITTFAXDECODE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CENTER:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CENTERWINDOW:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CERT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CF:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CFM:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CH:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CHARPROCS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CHECKSUM:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CI:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CIDFONTTYPE0:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CIDFONTTYPE2:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CIDSET:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CIDSYSTEMINFO:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CIDTOGIDMAP:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CIRCLE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CMD:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CO:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CODE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::COLORS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::COLORSPACE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::COLLECTION:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::COLLECTIONFIELD:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::COLLECTIONITEM:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::COLLECTIONSCHEMA:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::COLLECTIONSORT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::COLLECTIONSUBITEM:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::COLUMNS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CONDITION:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CONFIGURATION:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CONFIGURATIONS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CONTACTINFO:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CONTENT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CONTENTS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::COORDS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::COUNT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::COURIER:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::COURIER_BOLD:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::COURIER_OBLIQUE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::COURIER_BOLDOBLIQUE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CREATIONDATE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CREATOR:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CREATORINFO:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CROPBOX:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CRYPT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CUEPOINT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::CUEPOINTS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::D:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DA:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DATA:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DC:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DCTDECODE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DEACTIVATION:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DECODE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DECODEPARMS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DEFAULT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DEFAULTCRYPTFILTER:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DEFAULTCMYK:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DEFAULTGRAY:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DEFAULTRGB:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DESC:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DESCENDANTFONTS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DESCENT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DEST:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DESTOUTPUTPROFILE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DESTS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DEVICEGRAY:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DEVICERGB:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DEVICECMYK:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DI:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DIFFERENCES:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DISSOLVE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DIRECTION:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DISPLAYDOCTITLE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DIV:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DL:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DM:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DOCMDP:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DOCOPEN:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DOCUMENT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DOMAIN:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DP:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DR:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DUR:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DUPLEX:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DUPLEXFLIPSHORTEDGE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DUPLEXFLIPLONGEDGE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DV:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::DW:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::E:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::EARLYCHANGE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::EF:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::EFF:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::EFOPEN:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::EMBEDDED:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::EMBEDDEDFILE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::EMBEDDEDFILES:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ENCODE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ENCODEDBYTEALIGN:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ENCODING:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ENCRYPT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ENCRYPTMETADATA:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ENDOFBLOCK:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ENDOFLINE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::EXTEND:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::EXTENSIONS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::EXTENSIONLEVEL:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::EXTGSTATE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::EXPORT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::EXPORTSTATE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::EVENT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::F:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FAR:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FB:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FDECODEPARMS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FDF:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FF:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FFILTER:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FG:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FIELDS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FIGURE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FILEATTACHMENT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FILESPEC:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FILTER:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FIRST:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FIRSTCHAR:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FIRSTPAGE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FIT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FITH:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FITV:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FITR:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FITB:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FITBH:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FITBV:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FITWINDOW:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FL:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FLAGS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FLASH:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FLASHVARS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FLATEDECODE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FO:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FONT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FONTBBOX:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FONTDESCRIPTOR:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FONTFILE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FONTFILE2:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FONTFILE3:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FONTMATRIX:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FONTNAME:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FOREGROUND:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FORM:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FORMTYPE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FORMULA:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FREETEXT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FRM:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FULLSCREEN:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FUNCTION:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FUNCTIONS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::FUNCTIONTYPE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::GAMMA:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::GBK:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::GLITTER:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::GOTO:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::GOTOE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::GOTOR:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::GROUP:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::GTS_PDFA1:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::GTS_PDFX:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::GTS_PDFXVERSION:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::H:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::H1:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::H2:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::H3:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::H4:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::H5:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::H6:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::HALIGN:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::HEIGHT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::HELV:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::HELVETICA:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::HELVETICA_BOLD:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::HELVETICA_OBLIQUE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::HELVETICA_BOLDOBLIQUE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::HF:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::HID:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::HIDE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::HIDEMENUBAR:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::HIDETOOLBAR:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::HIDEWINDOWUI:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::HIGHLIGHT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::HOFFSET:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::I:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ICCBASED:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ID:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::IDENTITY:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::IF:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::IMAGE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::IMAGEB:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::IMAGEC:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::IMAGEI:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::IMAGEMASK:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::IND:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::INDEX:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::INDEXED:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::INFO:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::INK:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::INKLIST:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::INSTANCES:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::IMPORTDATA:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::INTENT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::INTERPOLATE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ISMAP:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::IRT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ITALICANGLE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ITXT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::IX:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::JAVASCRIPT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::JBIG2DECODE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::JBIG2GLOBALS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::JPXDECODE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::JS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::K:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::KEYWORDS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::KIDS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::L:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::L2R:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::LANG:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::LANGUAGE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::LAST:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::LASTCHAR:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::LASTPAGE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::LAUNCH:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::LBL:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::LBODY:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::LENGTH:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::LENGTH1:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::LI:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::LIMITS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::LINE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::LINEAR:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::LINK:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::LISTMODE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::LOCATION:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::LOCK:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::LOCKED:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::LZWDECODE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::M:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::MATERIAL:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::MATRIX:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::MAC_EXPERT_ENCODING:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::MAC_ROMAN_ENCODING:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::MARKED:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::MARKINFO:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::MASK:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::MAX_LOWER_CASE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::MAX_CAMEL_CASE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::MAXLEN:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::MEDIABOX:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::MCID:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::MCR:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::METADATA:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::MIN_LOWER_CASE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::MIN_CAMEL_CASE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::MK:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::MMTYPE1:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::MODDATE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::N:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::N0:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::N1:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::N2:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::N3:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::N4:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::NAME:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::NAMED:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::NAMES:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::NAVIGATION:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::NAVIGATIONPANE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::NEAR:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::NEEDAPPEARANCES:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::NEWWINDOW:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::NEXT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::NEXTPAGE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::NM:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::NONE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::NONFULLSCREENPAGEMODE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::NONSTRUCT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::NOT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::NOTE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::NUMCOPIES:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::NUMS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::O:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::OBJ:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::OBJR:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::OBJSTM:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::OC:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::OCG:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::OCGS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::OCMD:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::OCPROPERTIES:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::Off:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::OFF:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ON:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ONECOLUMN:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::OPEN:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::OPENACTION:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::OP:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::op:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::OPM:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::OPT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::OR:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ORDER:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ORDERING:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ORG:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::OSCILLATING:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::OUTLINES:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::OUTPUTCONDITION:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::OUTPUTCONDITIONIDENTIFIER:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::OUTPUTINTENT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::OUTPUTINTENTS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::P:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PAGE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PAGEELEMENT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PAGELABELS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PAGELAYOUT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PAGEMODE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PAGES:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PAINTTYPE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PANOSE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PARAMS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PARENT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PARENTTREE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PARENTTREENEXTKEY:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PART:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PASSCONTEXTCLICK:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PATTERN:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PATTERNTYPE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PC:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PDF:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PDFDOCENCODING:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PERCEPTUAL:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PERMS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PG:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PI:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PICKTRAYBYPDFSIZE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PLAYCOUNT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PO:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::POLYGON:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::POLYLINE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::POPUP:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::POSITION:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PREDICTOR:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PREFERRED:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PRESENTATION:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PRESERVERB:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PREV:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PREVPAGE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PRINT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PRINTAREA:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PRINTCLIP:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PRINTPAGERANGE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PRINTSCALING:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PRINTSTATE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PRIVATE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PROCSET:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PRODUCER:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PROPERTIES:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PUBSEC:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::PV:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::Q:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::QUADPOINTS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::QUOTE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::R:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::R2L:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::RANGE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::RC:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::RBGROUPS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::REASON:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::RECIPIENTS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::RECT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::REFERENCE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::REGISTRY:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::REGISTRYNAME:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::RELATIVECOLORIMETRIC:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::RENDITION:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::RESETFORM:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::RESOURCES:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::RI:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::RICHMEDIA:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::RICHMEDIAACTIVATION:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::RICHMEDIAANIMATION:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::RICHMEDIACOMMAND:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::RICHMEDIACONFIGURATION:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::RICHMEDIACONTENT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::RICHMEDIADEACTIVATION:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::RICHMEDIAEXECUTE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::RICHMEDIAINSTANCE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::RICHMEDIAPARAMS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::RICHMEDIAPOSITION:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::RICHMEDIAPRESENTATION:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::RICHMEDIASETTINGS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::RICHMEDIAWINDOW:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ROLEMAP:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ROOT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ROTATE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ROWS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::RUBY:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::RUNLENGTHDECODE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::RV:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::S:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::SATURATION:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::SCHEMA:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::SCREEN:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::SCRIPTS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::SECT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::SEPARATION:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::SETOCGSTATE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::SETTINGS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::SHADING:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::SHADINGTYPE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::SHIFT_JIS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::SIG:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::SIGFLAGS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::SIGREF:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::SIMPLEX:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::SINGLEPAGE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::SIZE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::SMASK:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::SORT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::SOUND:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::SPAN:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::SPEED:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::SPLIT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::SQUARE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::SQUIGGLY:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ST:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::STAMP:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::STANDARD:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::STATE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::STDCF:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::STEMV:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::STMF:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::STRF:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::STRIKEOUT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::STRUCTPARENT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::STRUCTPARENTS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::STRUCTTREEROOT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::STYLE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::SUBFILTER:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::SUBJECT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::SUBMITFORM:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::SUBTYPE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::SUPPLEMENT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::SV:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::SW:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::SYMBOL:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::T:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TA:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TABLE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TABS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TBODY:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TD:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TEXT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TFOOT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TH:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::THEAD:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::THUMB:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::THREADS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TI:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TIME:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TILINGTYPE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TIMES_ROMAN:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TIMES_BOLD:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TIMES_ITALIC:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TIMES_BOLDITALIC:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TITLE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TK:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TM:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TOC:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TOCI:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TOGGLE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TOOLBAR:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TOUNICODE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TP:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TABLEROW:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TRANS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TRANSFORMPARAMS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TRANSFORMMETHOD:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TRANSPARENCY:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TRANSPARENT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TRAPPED:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TRIMBOX:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TRUETYPE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TTL:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TU:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TWOCOLUMNLEFT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TWOCOLUMNRIGHT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TWOPAGELEFT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TWOPAGERIGHT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TX:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TYPE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TYPE0:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TYPE1:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::TYPE3:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::U:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::UF:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::UHC:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::UNDERLINE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::UR:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::UR3:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::URI:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::URL:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::USAGE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::USEATTACHMENTS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::USENONE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::USEOC:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::USEOUTLINES:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::USER:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::USERPROPERTIES:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::USERUNIT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::USETHUMBS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::V:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::V2:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::VALIGN:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::VE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::VERISIGN_PPKVS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::VERSION:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::VERTICES:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::VIDEO:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::VIEW:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::VIEWS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::VIEWAREA:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::VIEWCLIP:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::VIEWERPREFERENCES:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::VIEWSTATE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::VISIBLEPAGES:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::VOFFSET:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::W:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::W2:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::WARICHU:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::WC:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::WIDGET:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::WIDTH:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::WIDTHS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::WIN:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::WIN_ANSI_ENCODING:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::WINDOW:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::WINDOWED:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::WIPE:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::WHITEPOINT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::WP:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::WS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::X:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::XA:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::XD:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::XFA:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::XML:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::XOBJECT:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::XSTEP:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::XREF:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::XREFSTM:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::XYZ:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::YSTEP:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ZADB:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ZAPFDINGBATS:com.itextpdf.text.pdf.PdfName" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfName::ZOOM:com.itextpdf.text.pdf.PdfName" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.itextpdf.text.pdf.PdfNull" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.PdfNull::PDFNULL:com.itextpdf.text.pdf.PdfNull" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.itextpdf.text.pdf.qrcode.EncodeHintType" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.qrcode.EncodeHintType::ERROR_CORRECTION:com.itextpdf.text.pdf.qrcode.EncodeHintType" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.qrcode.EncodeHintType::CHARACTER_SET:com.itextpdf.text.pdf.qrcode.EncodeHintType" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.itextpdf.text.pdf.qrcode.ErrorCorrectionLevel" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.qrcode.ErrorCorrectionLevel::L:com.itextpdf.text.pdf.qrcode.ErrorCorrectionLevel" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.qrcode.ErrorCorrectionLevel::M:com.itextpdf.text.pdf.qrcode.ErrorCorrectionLevel" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.qrcode.ErrorCorrectionLevel::Q:com.itextpdf.text.pdf.qrcode.ErrorCorrectionLevel" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.qrcode.ErrorCorrectionLevel::H:com.itextpdf.text.pdf.qrcode.ErrorCorrectionLevel" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.itextpdf.text.pdf.qrcode.GF256" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.qrcode.GF256::QR_CODE_FIELD:com.itextpdf.text.pdf.qrcode.GF256" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.qrcode.GF256::DATA_MATRIX_FIELD:com.itextpdf.text.pdf.qrcode.GF256" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.itextpdf.text.pdf.qrcode.Mode" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.qrcode.Mode::TERMINATOR:com.itextpdf.text.pdf.qrcode.Mode" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.qrcode.Mode::NUMERIC:com.itextpdf.text.pdf.qrcode.Mode" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.qrcode.Mode::ALPHANUMERIC:com.itextpdf.text.pdf.qrcode.Mode" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.qrcode.Mode::STRUCTURED_APPEND:com.itextpdf.text.pdf.qrcode.Mode" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.qrcode.Mode::BYTE:com.itextpdf.text.pdf.qrcode.Mode" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.qrcode.Mode::ECI:com.itextpdf.text.pdf.qrcode.Mode" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.qrcode.Mode::KANJI:com.itextpdf.text.pdf.qrcode.Mode" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.qrcode.Mode::FNC1_FIRST_POSITION:com.itextpdf.text.pdf.qrcode.Mode" />
+			<role name="uniqueInstance" element="com.itextpdf.text.pdf.qrcode.Mode::FNC1_SECOND_POSITION:com.itextpdf.text.pdf.qrcode.Mode" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adaptee" element="com.itextpdf.text.pdf.PdfEncryption" />
+			<role name="Adapter" element="com.itextpdf.text.pdf.PdfWriter" />
+			<role name="adaptee" element="com.itextpdf.text.pdf.PdfWriter::crypto:com.itextpdf.text.pdf.PdfEncryption" />
+			<role name="Request()" element="com.itextpdf.text.pdf.PdfWriter::setEncryption(byte[], byte[], int, int):void" />
+			<role name="Request()" element="com.itextpdf.text.pdf.PdfWriter::setEncryption(java.security.cert.Certificate[], int[], int):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.itextpdf.text.pdf.PdfName" />
+			<role name="Adapter" element="com.itextpdf.text.pdf.PdfWriter" />
+			<role name="adaptee" element="com.itextpdf.text.pdf.PdfWriter::DOCUMENT_CLOSE:com.itextpdf.text.pdf.PdfName" />
+			<role name="adaptee" element="com.itextpdf.text.pdf.PdfWriter::WILL_SAVE:com.itextpdf.text.pdf.PdfName" />
+			<role name="adaptee" element="com.itextpdf.text.pdf.PdfWriter::DID_SAVE:com.itextpdf.text.pdf.PdfName" />
+			<role name="adaptee" element="com.itextpdf.text.pdf.PdfWriter::WILL_PRINT:com.itextpdf.text.pdf.PdfName" />
+			<role name="adaptee" element="com.itextpdf.text.pdf.PdfWriter::DID_PRINT:com.itextpdf.text.pdf.PdfName" />
+			<role name="adaptee" element="com.itextpdf.text.pdf.PdfWriter::PAGE_OPEN:com.itextpdf.text.pdf.PdfName" />
+			<role name="adaptee" element="com.itextpdf.text.pdf.PdfWriter::PAGE_CLOSE:com.itextpdf.text.pdf.PdfName" />
+			<role name="Request()" element="com.itextpdf.text.pdf.PdfWriter::setAdditionalAction(com.itextpdf.text.pdf.PdfName, com.itextpdf.text.pdf.PdfAction):void" />
+			<role name="Request()" element="com.itextpdf.text.pdf.PdfWriter::setPageAction(com.itextpdf.text.pdf.PdfName, com.itextpdf.text.pdf.PdfAction):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.itextpdf.text.pdf.PdfDictionary" />
+			<role name="Adapter" element="com.itextpdf.text.pdf.internal.PdfViewerPreferencesImp" />
+			<role name="adaptee" element="com.itextpdf.text.pdf.internal.PdfViewerPreferencesImp::viewerPreferences:com.itextpdf.text.pdf.PdfDictionary" />
+			<role name="Request()" element="com.itextpdf.text.pdf.internal.PdfViewerPreferencesImp::setViewerPreferences(int):void" />
+			<role name="Request()" element="com.itextpdf.text.pdf.internal.PdfViewerPreferencesImp::addViewerPreference(com.itextpdf.text.pdf.PdfName, com.itextpdf.text.pdf.PdfObject):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.itextpdf.text.html.simpleparser.ChainedProperties" />
+			<role name="Adapter" element="com.itextpdf.text.html.simpleparser.HTMLWorker" />
+			<role name="adaptee" element="com.itextpdf.text.html.simpleparser.HTMLWorker::cprops:com.itextpdf.text.html.simpleparser.ChainedProperties" />
+			<role name="Request()" element="com.itextpdf.text.html.simpleparser.HTMLWorker::startDocument():void" />
+			<role name="Request()" element="com.itextpdf.text.html.simpleparser.HTMLWorker::startElement(java.lang.String, java.util.HashMap):void" />
+			<role name="Request()" element="com.itextpdf.text.html.simpleparser.HTMLWorker::endElement(java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.itextpdf.text.html.simpleparser.FactoryProperties" />
+			<role name="Adapter" element="com.itextpdf.text.html.simpleparser.HTMLWorker" />
+			<role name="adaptee" element="com.itextpdf.text.html.simpleparser.HTMLWorker::factoryProperties:com.itextpdf.text.html.simpleparser.FactoryProperties" />
+			<role name="Request()" element="com.itextpdf.text.html.simpleparser.HTMLWorker::startElement(java.lang.String, java.util.HashMap):void" />
+			<role name="Request()" element="com.itextpdf.text.html.simpleparser.HTMLWorker::text(java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.itextpdf.text.html.simpleparser.StyleSheet" />
+			<role name="Adapter" element="com.itextpdf.text.html.simpleparser.HTMLWorker" />
+			<role name="adaptee" element="com.itextpdf.text.html.simpleparser.HTMLWorker::style:com.itextpdf.text.html.simpleparser.StyleSheet" />
+			<role name="Request()" element="com.itextpdf.text.html.simpleparser.HTMLWorker::startDocument():void" />
+			<role name="Request()" element="com.itextpdf.text.html.simpleparser.HTMLWorker::startElement(java.lang.String, java.util.HashMap):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.itextpdf.text.pdf.PdfName" />
+			<role name="Adapter" element="com.itextpdf.text.pdf.internal.PdfVersionImp" />
+			<role name="adaptee" element="com.itextpdf.text.pdf.internal.PdfVersionImp::catalog_version:com.itextpdf.text.pdf.PdfName" />
+			<role name="Request()" element="com.itextpdf.text.pdf.internal.PdfVersionImp::setPdfVersion(com.itextpdf.text.pdf.PdfName):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.itextpdf.text.pdf.IntHashtable" />
+			<role name="Adapter" element="com.itextpdf.text.pdf.Type3Font" />
+			<role name="adaptee" element="com.itextpdf.text.pdf.Type3Font::widths3:com.itextpdf.text.pdf.IntHashtable" />
+			<role name="Request()" element="com.itextpdf.text.pdf.Type3Font::writeFont(com.itextpdf.text.pdf.PdfWriter, com.itextpdf.text.pdf.PdfIndirectReference, java.lang.Object[]):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.itextpdf.text.pdf.IntHashtable" />
+			<role name="Adapter" element="com.itextpdf.text.pdf.TrueTypeFont" />
+			<role name="adaptee" element="com.itextpdf.text.pdf.TrueTypeFont::kerning:com.itextpdf.text.pdf.IntHashtable" />
+			<role name="Request()" element="com.itextpdf.text.pdf.TrueTypeFont::getKerning(int, int):int" />
+			<role name="Request()" element="com.itextpdf.text.pdf.TrueTypeFont::hasKernPairs():boolean" />
+			<role name="Request()" element="com.itextpdf.text.pdf.TrueTypeFont::setKerning(int, int, int):boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.itextpdf.text.pdf.PdfPCell" />
+			<role name="Adapter" element="com.itextpdf.text.html.simpleparser.IncCell" />
+			<role name="adaptee" element="com.itextpdf.text.html.simpleparser.IncCell::cell:com.itextpdf.text.pdf.PdfPCell" />
+			<role name="Request()" element="com.itextpdf.text.html.simpleparser.IncCell::add(com.itextpdf.text.Element):boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.itextpdf.text.Chunk" />
+			<role name="Adapter" element="com.itextpdf.text.List" />
+			<role name="adaptee" element="com.itextpdf.text.List::symbol:com.itextpdf.text.Chunk" />
+			<role name="Request()" element="com.itextpdf.text.List::add(com.itextpdf.text.Element):boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.itextpdf.text.Paragraph" />
+			<role name="Adapter" element="com.itextpdf.text.html.simpleparser.HTMLWorker" />
+			<role name="adaptee" element="com.itextpdf.text.html.simpleparser.HTMLWorker::currentParagraph:com.itextpdf.text.Paragraph" />
+			<role name="Request()" element="com.itextpdf.text.html.simpleparser.HTMLWorker::startElement(java.lang.String, java.util.HashMap):void" />
+			<role name="Request()" element="com.itextpdf.text.html.simpleparser.HTMLWorker::endElement(java.lang.String):void" />
+			<role name="Request()" element="com.itextpdf.text.html.simpleparser.HTMLWorker::text(java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="com.itextpdf.rups.model.ObjectLoader" />
+			<role name="Adaptee" element="com.itextpdf.rups.model.IndirectObjectFactory" />
+			<role name="adaptee" element="com.itextpdf.rups.model.ObjectLoader::objects:com.itextpdf.rups.model.IndirectObjectFactory" />
+			<role name="Request()" element="com.itextpdf.rups.model.ObjectLoader::doTask():void" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="com.itextpdf.rups.view.itext.XRefTable" />
+			<role name="Adaptee" element="com.itextpdf.rups.model.IndirectObjectFactory" />
+			<role name="adaptee" element="com.itextpdf.rups.view.itext.XRefTable::objects:com.itextpdf.rups.model.IndirectObjectFactory" />
+			<role name="Request()" element="com.itextpdf.rups.view.itext.XRefTable::getRowCount():int" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.itextpdf.text.pdf.PdfWriter" />
+			<role name="Adapter" element="com.itextpdf.text.pdf.Type3Font" />
+			<role name="adaptee" element="com.itextpdf.text.pdf.Type3Font::writer:com.itextpdf.text.pdf.PdfWriter" />
+			<role name="Request()" element="com.itextpdf.text.pdf.Type3Font::writeFont(com.itextpdf.text.pdf.PdfWriter, com.itextpdf.text.pdf.PdfIndirectReference, java.lang.Object[]):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.itextpdf.rups.controller.PdfReaderController" />
+			<role name="Adapter" element="com.itextpdf.rups.controller.RupsController" />
+			<role name="adaptee" element="com.itextpdf.rups.controller.RupsController::readerController:com.itextpdf.rups.controller.PdfReaderController" />
+			<role name="Request()" element="com.itextpdf.rups.controller.RupsController::gotoPage(int):int" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.itextpdf.text.pdf.PdfWriter" />
+			<role name="Adapter" element="com.itextpdf.text.pdf.events.FieldPositioningEvents" />
+			<role name="adaptee" element="com.itextpdf.text.pdf.events.FieldPositioningEvents::fieldWriter:com.itextpdf.text.pdf.PdfWriter" />
+			<role name="Request()" element="com.itextpdf.text.pdf.events.FieldPositioningEvents::cellLayout(com.itextpdf.text.pdf.PdfPCell, com.itextpdf.text.Rectangle, com.itextpdf.text.pdf.PdfContentByte[]):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.itextpdf.text.pdf.IntHashtable" />
+			<role name="Adapter" element="com.itextpdf.text.pdf.PdfEncodings$Cp437Conversion" />
+			<role name="adaptee" element="com.itextpdf.text.pdf.PdfEncodings$Cp437Conversion::c2b:com.itextpdf.text.pdf.IntHashtable" />
+			<role name="Request()" element="com.itextpdf.text.pdf.PdfEncodings$Cp437Conversion::charToByte(java.lang.String, java.lang.String):byte[]" />
+			<role name="Request()" element="com.itextpdf.text.pdf.PdfEncodings$Cp437Conversion::charToByte(char, java.lang.String):byte[]" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.itextpdf.text.pdf.IntHashtable" />
+			<role name="Adapter" element="com.itextpdf.text.pdf.PdfEncodings$SymbolConversion" />
+			<role name="adaptee" element="com.itextpdf.text.pdf.PdfEncodings$SymbolConversion::translation:com.itextpdf.text.pdf.IntHashtable" />
+			<role name="Request()" element="com.itextpdf.text.pdf.PdfEncodings$SymbolConversion::charToByte(java.lang.String, java.lang.String):byte[]" />
+			<role name="Request()" element="com.itextpdf.text.pdf.PdfEncodings$SymbolConversion::charToByte(char, java.lang.String):byte[]" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.itextpdf.text.pdf.hyphenation.Hyphenator" />
+			<role name="Adapter" element="com.itextpdf.text.pdf.HyphenationAuto" />
+			<role name="adaptee" element="com.itextpdf.text.pdf.HyphenationAuto::hyphenator:com.itextpdf.text.pdf.hyphenation.Hyphenator" />
+			<role name="Request()" element="com.itextpdf.text.pdf.HyphenationAuto::getHyphenatedWordPre(java.lang.String, com.itextpdf.text.pdf.BaseFont, float, float):java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.itextpdf.text.pdf.PdfFormField" />
+			<role name="Adapter" element="com.itextpdf.text.pdf.events.FieldPositioningEvents" />
+			<role name="adaptee" element="com.itextpdf.text.pdf.events.FieldPositioningEvents::cellField:com.itextpdf.text.pdf.PdfFormField" />
+			<role name="adaptee" element="com.itextpdf.text.pdf.events.FieldPositioningEvents::parent:com.itextpdf.text.pdf.PdfFormField" />
+			<role name="Request()" element="com.itextpdf.text.pdf.events.FieldPositioningEvents::cellLayout(com.itextpdf.text.pdf.PdfPCell, com.itextpdf.text.Rectangle, com.itextpdf.text.pdf.PdfContentByte[]):void" />
+		</instance>
+	</pattern>
+	<pattern name="Command" />
+	<pattern name="Composite">
+		<instance>
+			<role name="Component" element="com.itextpdf.text.pdf.PdfPageEvent" />
+			<role name="Composite" element="com.itextpdf.text.pdf.events.PdfPageEventForwarder" />
+			<role name="Operation()" element="com.itextpdf.text.pdf.events.PdfPageEventForwarder::onOpenDocument(com.itextpdf.text.pdf.PdfWriter, com.itextpdf.text.Document):void" />
+			<role name="Operation()" element="com.itextpdf.text.pdf.events.PdfPageEventForwarder::onStartPage(com.itextpdf.text.pdf.PdfWriter, com.itextpdf.text.Document):void" />
+			<role name="Operation()" element="com.itextpdf.text.pdf.events.PdfPageEventForwarder::onEndPage(com.itextpdf.text.pdf.PdfWriter, com.itextpdf.text.Document):void" />
+			<role name="Operation()" element="com.itextpdf.text.pdf.events.PdfPageEventForwarder::onCloseDocument(com.itextpdf.text.pdf.PdfWriter, com.itextpdf.text.Document):void" />
+			<role name="Operation()" element="com.itextpdf.text.pdf.events.PdfPageEventForwarder::onParagraph(com.itextpdf.text.pdf.PdfWriter, com.itextpdf.text.Document, float):void" />
+			<role name="Operation()" element="com.itextpdf.text.pdf.events.PdfPageEventForwarder::onParagraphEnd(com.itextpdf.text.pdf.PdfWriter, com.itextpdf.text.Document, float):void" />
+			<role name="Operation()" element="com.itextpdf.text.pdf.events.PdfPageEventForwarder::onChapter(com.itextpdf.text.pdf.PdfWriter, com.itextpdf.text.Document, float, com.itextpdf.text.Paragraph):void" />
+			<role name="Operation()" element="com.itextpdf.text.pdf.events.PdfPageEventForwarder::onChapterEnd(com.itextpdf.text.pdf.PdfWriter, com.itextpdf.text.Document, float):void" />
+			<role name="Operation()" element="com.itextpdf.text.pdf.events.PdfPageEventForwarder::onSection(com.itextpdf.text.pdf.PdfWriter, com.itextpdf.text.Document, float, int, com.itextpdf.text.Paragraph):void" />
+			<role name="Operation()" element="com.itextpdf.text.pdf.events.PdfPageEventForwarder::onSectionEnd(com.itextpdf.text.pdf.PdfWriter, com.itextpdf.text.Document, float):void" />
+			<role name="Operation()" element="com.itextpdf.text.pdf.events.PdfPageEventForwarder::onGenericTag(com.itextpdf.text.pdf.PdfWriter, com.itextpdf.text.Document, com.itextpdf.text.Rectangle, java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="com.itextpdf.text.pdf.PdfPCellEvent" />
+			<role name="Composite" element="com.itextpdf.text.pdf.events.PdfPCellEventForwarder" />
+			<role name="Operation()" element="com.itextpdf.text.pdf.events.PdfPCellEventForwarder::cellLayout(com.itextpdf.text.pdf.PdfPCell, com.itextpdf.text.Rectangle, com.itextpdf.text.pdf.PdfContentByte[]):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="com.itextpdf.text.DocListener" />
+			<role name="Composite" element="com.itextpdf.text.Document" />
+			<role name="Operation()" element="com.itextpdf.text.Document::open():void" />
+			<role name="Operation()" element="com.itextpdf.text.Document::setPageSize(com.itextpdf.text.Rectangle):boolean" />
+			<role name="Operation()" element="com.itextpdf.text.Document::setMargins(float, float, float, float):boolean" />
+			<role name="Operation()" element="com.itextpdf.text.Document::newPage():boolean" />
+			<role name="Operation()" element="com.itextpdf.text.Document::resetPageCount():void" />
+			<role name="Operation()" element="com.itextpdf.text.Document::setPageCount(int):void" />
+			<role name="Operation()" element="com.itextpdf.text.Document::close():void" />
+			<role name="Operation()" element="com.itextpdf.text.Document::setMarginMirroring(boolean):boolean" />
+			<role name="Operation()" element="com.itextpdf.text.Document::setMarginMirroringTopBottom(boolean):boolean" />
+		</instance>
+		<instance>
+			<role name="Component" element="com.itextpdf.text.pdf.PdfPTableEvent" />
+			<role name="Composite" element="com.itextpdf.text.pdf.events.PdfPTableEventForwarder" />
+			<role name="Operation()" element="com.itextpdf.text.pdf.events.PdfPTableEventForwarder::tableLayout(com.itextpdf.text.pdf.PdfPTable, float[][], float[], int, int, com.itextpdf.text.pdf.PdfContentByte[]):void" />
+		</instance>
+	</pattern>
+	<pattern name="Decorator">
+		<instance>
+			<role name="Component" element="com.itextpdf.text.pdf.Barcode" />
+			<role name="Decorator" element="com.itextpdf.text.pdf.BarcodeEANSUPP" />
+			<role name="component" element="com.itextpdf.text.pdf.BarcodeEANSUPP::ean:com.itextpdf.text.pdf.Barcode" />
+			<role name="component" element="com.itextpdf.text.pdf.BarcodeEANSUPP::supp:com.itextpdf.text.pdf.Barcode" />
+			<role name="Operation()" element="com.itextpdf.text.pdf.BarcodeEANSUPP::getBarcodeSize():com.itextpdf.text.Rectangle" />
+			<role name="Operation()" element="com.itextpdf.text.pdf.BarcodeEANSUPP::placeBarcode(com.itextpdf.text.pdf.PdfContentByte, com.itextpdf.text.BaseColor, com.itextpdf.text.BaseColor):com.itextpdf.text.Rectangle" />
+		</instance>
+		<instance>
+			<role name="Component" element="com.itextpdf.text.pdf.BaseFont" />
+			<role name="Decorator" element="com.itextpdf.text.pdf.DocumentFont" />
+			<role name="component" element="com.itextpdf.text.pdf.DocumentFont::cjkMirror:com.itextpdf.text.pdf.BaseFont" />
+			<role name="Operation()" element="com.itextpdf.text.pdf.DocumentFont::getFontDescriptor(int, float):float" />
+		</instance>
+		<instance>
+			<role name="Component" element="com.itextpdf.text.Element" />
+			<role name="Decorator" element="com.itextpdf.text.MarkedObject" />
+			<role name="component" element="com.itextpdf.text.MarkedObject::element:com.itextpdf.text.Element" />
+			<role name="Operation()" element="com.itextpdf.text.MarkedObject::getChunks():java.util.ArrayList" />
+		</instance>
+		<instance>
+			<role name="Component" element="com.itextpdf.text.pdf.draw.DrawInterface" />
+			<role name="Decorator" element="com.itextpdf.text.pdf.draw.VerticalPositionMark" />
+			<role name="component" element="com.itextpdf.text.pdf.draw.VerticalPositionMark::drawInterface:com.itextpdf.text.pdf.draw.DrawInterface" />
+			<role name="Operation()" element="com.itextpdf.text.pdf.draw.VerticalPositionMark::draw(com.itextpdf.text.pdf.PdfContentByte, float, float, float, float, float):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="com.itextpdf.text.pdf.parser.RenderListener" />
+			<role name="Decorator" element="com.itextpdf.text.pdf.parser.FilteredRenderListener" />
+			<role name="component" element="com.itextpdf.text.pdf.parser.FilteredRenderListener::delegate:com.itextpdf.text.pdf.parser.RenderListener" />
+			<role name="Operation()" element="com.itextpdf.text.pdf.parser.FilteredRenderListener::renderText(com.itextpdf.text.pdf.parser.TextRenderInfo):void" />
+			<role name="Operation()" element="com.itextpdf.text.pdf.parser.FilteredRenderListener::beginTextBlock():void" />
+			<role name="Operation()" element="com.itextpdf.text.pdf.parser.FilteredRenderListener::endTextBlock():void" />
+			<role name="Operation()" element="com.itextpdf.text.pdf.parser.FilteredRenderListener::renderImage(com.itextpdf.text.pdf.parser.ImageRenderInfo):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="com.itextpdf.text.pdf.parser.TextExtractionStrategy" />
+			<role name="Decorator" element="com.itextpdf.text.pdf.parser.FilteredTextRenderListener" />
+			<role name="component" element="com.itextpdf.text.pdf.parser.FilteredTextRenderListener::delegate:com.itextpdf.text.pdf.parser.TextExtractionStrategy" />
+			<role name="Operation()" element="com.itextpdf.text.pdf.parser.FilteredTextRenderListener::getResultantText():java.lang.String" />
+		</instance>
+	</pattern>
+	<pattern name="Observer" />
+	<pattern name="State">
+		<instance>
+			<role name="Context" element="com.itextpdf.text.pdf.FontDetails" />
+			<role name="State" element="com.itextpdf.text.pdf.BaseFont" />
+			<role name="state" element="com.itextpdf.text.pdf.FontDetails::baseFont:com.itextpdf.text.pdf.BaseFont" />
+			<role name="Request()" element="com.itextpdf.text.pdf.FontDetails::writeFont(com.itextpdf.text.pdf.PdfWriter):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.itextpdf.text.Font" />
+			<role name="State" element="com.itextpdf.text.pdf.BaseFont" />
+			<role name="state" element="com.itextpdf.text.Font::baseFont:com.itextpdf.text.pdf.BaseFont" />
+			<role name="Request()" element="com.itextpdf.text.Font::getFamilyname():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.itextpdf.text.xml.simpleparser.SimpleXMLParser" />
+			<role name="State" element="com.itextpdf.text.xml.simpleparser.SimpleXMLDocHandlerComment" />
+			<role name="state" element="com.itextpdf.text.xml.simpleparser.SimpleXMLParser::comment:com.itextpdf.text.xml.simpleparser.SimpleXMLDocHandlerComment" />
+			<role name="Request()" element="com.itextpdf.text.xml.simpleparser.SimpleXMLParser::flush():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.itextpdf.text.xml.simpleparser.SimpleXMLParser" />
+			<role name="State" element="com.itextpdf.text.xml.simpleparser.SimpleXMLDocHandler" />
+			<role name="state" element="com.itextpdf.text.xml.simpleparser.SimpleXMLParser::doc:com.itextpdf.text.xml.simpleparser.SimpleXMLDocHandler" />
+			<role name="Request()" element="com.itextpdf.text.xml.simpleparser.SimpleXMLParser::go(java.io.Reader):void" />
+			<role name="Request()" element="com.itextpdf.text.xml.simpleparser.SimpleXMLParser::flush():void" />
+			<role name="Request()" element="com.itextpdf.text.xml.simpleparser.SimpleXMLParser::processTag(boolean):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.itextpdf.text.pdf.PdfSignatureAppearance" />
+			<role name="State" element="com.itextpdf.text.pdf.PdfSignatureAppearance$SignatureEvent" />
+			<role name="state" element="com.itextpdf.text.pdf.PdfSignatureAppearance::signatureEvent:com.itextpdf.text.pdf.PdfSignatureAppearance$SignatureEvent" />
+			<role name="Request()" element="com.itextpdf.text.pdf.PdfSignatureAppearance::preClose(java.util.HashMap):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.itextpdf.rups.view.models.JTableAutoModel" />
+			<role name="State" element="com.itextpdf.rups.view.models.JTableAutoModelInterface" />
+			<role name="state" element="com.itextpdf.rups.view.models.JTableAutoModel::table:com.itextpdf.rups.view.models.JTableAutoModelInterface" />
+			<role name="Request()" element="com.itextpdf.rups.view.models.JTableAutoModel::getColumnCount():int" />
+			<role name="Request()" element="com.itextpdf.rups.view.models.JTableAutoModel::getRowCount():int" />
+			<role name="Request()" element="com.itextpdf.rups.view.models.JTableAutoModel::getColumnName(int):java.lang.String" />
+			<role name="Request()" element="com.itextpdf.rups.view.models.JTableAutoModel::getValueAt(int, int):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.itextpdf.text.html.simpleparser.FactoryProperties" />
+			<role name="State" element="com.itextpdf.text.FontProvider" />
+			<role name="state" element="com.itextpdf.text.html.simpleparser.FactoryProperties::fontImp:com.itextpdf.text.FontProvider" />
+			<role name="Request()" element="com.itextpdf.text.html.simpleparser.FactoryProperties::getFont(com.itextpdf.text.html.simpleparser.ChainedProperties):com.itextpdf.text.Font" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.itextpdf.text.pdf.parser.PdfContentStreamProcessor" />
+			<role name="State" element="com.itextpdf.text.pdf.parser.RenderListener" />
+			<role name="state" element="com.itextpdf.text.pdf.parser.PdfContentStreamProcessor::renderListener:com.itextpdf.text.pdf.parser.RenderListener" />
+			<role name="Request()" element="com.itextpdf.text.pdf.parser.PdfContentStreamProcessor::beginText():void" />
+			<role name="Request()" element="com.itextpdf.text.pdf.parser.PdfContentStreamProcessor::endText():void" />
+			<role name="Request()" element="com.itextpdf.text.pdf.parser.PdfContentStreamProcessor::displayPdfString(com.itextpdf.text.pdf.PdfString):void" />
+			<role name="Request()" element="com.itextpdf.text.pdf.parser.PdfContentStreamProcessor::processContent(byte[], com.itextpdf.text.pdf.PdfDictionary):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.itextpdf.text.pdf.PdfPTable" />
+			<role name="State" element="com.itextpdf.text.pdf.PdfPTableEvent" />
+			<role name="state" element="com.itextpdf.text.pdf.PdfPTable::tableEvent:com.itextpdf.text.pdf.PdfPTableEvent" />
+			<role name="Request()" element="com.itextpdf.text.pdf.PdfPTable::writeSelectedRows(int, int, int, int, float, float, com.itextpdf.text.pdf.PdfContentByte[]):float" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.itextpdf.text.pdf.PdfGraphics2D" />
+			<role name="State" element="com.itextpdf.text.pdf.BaseFont" />
+			<role name="state" element="com.itextpdf.text.pdf.PdfGraphics2D::baseFont:com.itextpdf.text.pdf.BaseFont" />
+			<role name="Request()" element="com.itextpdf.text.pdf.PdfGraphics2D::drawString(java.lang.String, float, float):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.itextpdf.text.pdf.PdfChunk" />
+			<role name="State" element="com.itextpdf.text.SplitCharacter" />
+			<role name="state" element="com.itextpdf.text.pdf.PdfChunk::splitCharacter:com.itextpdf.text.SplitCharacter" />
+			<role name="Request()" element="com.itextpdf.text.pdf.PdfChunk::split(float):com.itextpdf.text.pdf.PdfChunk" />
+			<role name="Request()" element="com.itextpdf.text.pdf.PdfChunk::isExtSplitCharacter(int, int, int, char[], com.itextpdf.text.pdf.PdfChunk[]):boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.itextpdf.text.pdf.PdfGraphics2D" />
+			<role name="State" element="com.itextpdf.text.pdf.FontMapper" />
+			<role name="state" element="com.itextpdf.text.pdf.PdfGraphics2D::fontMapper:com.itextpdf.text.pdf.FontMapper" />
+			<role name="Request()" element="com.itextpdf.text.pdf.PdfGraphics2D::getCachedBaseFont(java.awt.Font):com.itextpdf.text.pdf.BaseFont" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.itextpdf.rups.view.itext.PagesTable" />
+			<role name="State" element="com.itextpdf.rups.view.PageSelectionListener" />
+			<role name="state" element="com.itextpdf.rups.view.itext.PagesTable::listener:com.itextpdf.rups.view.PageSelectionListener" />
+			<role name="Request()" element="com.itextpdf.rups.view.itext.PagesTable::valueChanged(javax.swing.event.ListSelectionEvent):void" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy" />
+	<pattern name="Bridge" />
+	<pattern name="Template Method">
+		<instance>
+			<role name="AbstractClass" element="com.itextpdf.text.pdf.Barcode" />
+			<role name="TemplateMethod()" element="com.itextpdf.text.pdf.Barcode::createTemplateWithBarcode(com.itextpdf.text.pdf.PdfContentByte, com.itextpdf.text.BaseColor, com.itextpdf.text.BaseColor):com.itextpdf.text.pdf.PdfTemplate" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.itextpdf.text.pdf.BaseFont" />
+			<role name="TemplateMethod()" element="com.itextpdf.text.pdf.BaseFont::createEncoding():void" />
+			<role name="TemplateMethod()" element="com.itextpdf.text.pdf.BaseFont::getWidthPointKerned(java.lang.String, float):float" />
+			<role name="TemplateMethod()" element="com.itextpdf.text.pdf.BaseFont::getFullFontName(java.lang.String, java.lang.String, byte[]):java.lang.String[][]" />
+			<role name="TemplateMethod()" element="com.itextpdf.text.pdf.BaseFont::getAllFontNames(java.lang.String, java.lang.String, byte[]):java.lang.Object[]" />
+			<role name="TemplateMethod()" element="com.itextpdf.text.pdf.BaseFont::getAllNameEntries(java.lang.String, java.lang.String, byte[]):java.lang.String[][]" />
+		</instance>
+	</pattern>
+	<pattern name="Visitor" />
+	<pattern name="Proxy">
+		<instance>
+			<role name="Proxy" element="com.itextpdf.text.pdf.PdfStamperImp" />
+			<role name="RealSubject" element="com.itextpdf.text.pdf.internal.PdfViewerPreferencesImp" />
+			<role name="Request()" element="com.itextpdf.text.pdf.PdfStamperImp::setViewerPreferences(int):void" />
+			<role name="Request()" element="com.itextpdf.text.pdf.PdfStamperImp::addViewerPreference(com.itextpdf.text.pdf.PdfName, com.itextpdf.text.pdf.PdfObject):void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="com.itextpdf.text.pdf.PdfReader" />
+			<role name="RealSubject" element="com.itextpdf.text.pdf.internal.PdfViewerPreferencesImp" />
+			<role name="Request()" element="com.itextpdf.text.pdf.PdfReader::setViewerPreferences(int):void" />
+			<role name="Request()" element="com.itextpdf.text.pdf.PdfReader::addViewerPreference(com.itextpdf.text.pdf.PdfName, com.itextpdf.text.pdf.PdfObject):void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="com.itextpdf.text.pdf.PdfStamper" />
+			<role name="RealSubject" element="com.itextpdf.text.pdf.PdfStamperImp" />
+			<role name="Request()" element="com.itextpdf.text.pdf.PdfStamper::setViewerPreferences(int):void" />
+			<role name="Request()" element="com.itextpdf.text.pdf.PdfStamper::addViewerPreference(com.itextpdf.text.pdf.PdfName, com.itextpdf.text.pdf.PdfObject):void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="com.itextpdf.text.pdf.PdfWriter" />
+			<role name="RealSubject" element="com.itextpdf.text.pdf.PdfDocument" />
+			<role name="Request()" element="com.itextpdf.text.pdf.PdfWriter::close():void" />
+			<role name="Request()" element="com.itextpdf.text.pdf.PdfDocument::open():void" />
+			<role name="Request()" element="com.itextpdf.text.pdf.PdfDocument::close():void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="com.itextpdf.text.pdf.PdfDocument" />
+			<role name="RealSubject" element="com.itextpdf.text.pdf.PdfWriter" />
+			<role name="Request()" element="com.itextpdf.text.pdf.PdfDocument::open():void" />
+			<role name="Request()" element="com.itextpdf.text.pdf.PdfDocument::close():void" />
+			<role name="Request()" element="com.itextpdf.text.pdf.PdfWriter::close():void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="com.itextpdf.text.pdf.PdfWriter" />
+			<role name="RealSubject" element="com.itextpdf.text.pdf.internal.PdfVersionImp" />
+			<role name="Request()" element="com.itextpdf.text.pdf.PdfWriter::setPdfVersion(char):void" />
+			<role name="Request()" element="com.itextpdf.text.pdf.PdfWriter::setAtLeastPdfVersion(char):void" />
+			<role name="Request()" element="com.itextpdf.text.pdf.PdfWriter::setPdfVersion(com.itextpdf.text.pdf.PdfName):void" />
+			<role name="Request()" element="com.itextpdf.text.pdf.PdfWriter::addDeveloperExtension(com.itextpdf.text.pdf.PdfDeveloperExtension):void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="com.itextpdf.text.pdf.PdfWriter" />
+			<role name="RealSubject" element="com.itextpdf.text.pdf.internal.PdfXConformanceImp" />
+			<role name="Request()" element="com.itextpdf.text.pdf.PdfWriter::setPDFXConformance(int):void" />
+			<role name="Request()" element="com.itextpdf.text.pdf.PdfWriter::getPDFXConformance():int" />
+			<role name="Request()" element="com.itextpdf.text.pdf.PdfWriter::isPdfX():boolean" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$MoveNextLineAndShowTextWithSpacing" />
+			<role name="RealSubject" element="com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$MoveNextLineAndShowText" />
+			<role name="Request()" element="com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$MoveNextLineAndShowTextWithSpacing::invoke(com.itextpdf.text.pdf.parser.PdfContentStreamProcessor, com.itextpdf.text.pdf.PdfLiteral, java.util.ArrayList):void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$MoveNextLineAndShowTextWithSpacing" />
+			<role name="RealSubject" element="com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$SetTextCharacterSpacing" />
+			<role name="Request()" element="com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$MoveNextLineAndShowTextWithSpacing::invoke(com.itextpdf.text.pdf.parser.PdfContentStreamProcessor, com.itextpdf.text.pdf.PdfLiteral, java.util.ArrayList):void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$MoveNextLineAndShowTextWithSpacing" />
+			<role name="RealSubject" element="com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$SetTextWordSpacing" />
+			<role name="Request()" element="com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$MoveNextLineAndShowTextWithSpacing::invoke(com.itextpdf.text.pdf.parser.PdfContentStreamProcessor, com.itextpdf.text.pdf.PdfLiteral, java.util.ArrayList):void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$TextMoveStartNextLineWithLeading" />
+			<role name="RealSubject" element="com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$TextMoveStartNextLine" />
+			<role name="Request()" element="com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$TextMoveStartNextLineWithLeading::invoke(com.itextpdf.text.pdf.parser.PdfContentStreamProcessor, com.itextpdf.text.pdf.PdfLiteral, java.util.ArrayList):void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$MoveNextLineAndShowText" />
+			<role name="RealSubject" element="com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$ShowText" />
+			<role name="Request()" element="com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$MoveNextLineAndShowText::invoke(com.itextpdf.text.pdf.parser.PdfContentStreamProcessor, com.itextpdf.text.pdf.PdfLiteral, java.util.ArrayList):void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$MoveNextLineAndShowText" />
+			<role name="RealSubject" element="com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$TextMoveNextLine" />
+			<role name="Request()" element="com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$MoveNextLineAndShowText::invoke(com.itextpdf.text.pdf.parser.PdfContentStreamProcessor, com.itextpdf.text.pdf.PdfLiteral, java.util.ArrayList):void" />
+		</instance>
+	</pattern>
+	<pattern name="Proxy2" />
+	<pattern name="Chain of Responsibility">
+		<instance>
+			<role name="Handler" element="com.itextpdf.text.Image" />
+			<role name="successor" element="com.itextpdf.text.Image::imageMask:com.itextpdf.text.Image" />
+		</instance>
+	</pattern>
+</system>
+

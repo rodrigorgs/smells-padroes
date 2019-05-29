@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method">
+		<instance>
+			<role name="Creator" element="com.vladium.emma.report.html.doc.HTMLTable$IRow" />
+			<role name="FactoryMethod()" element="com.vladium.emma.report.html.doc.HTMLTable$IRow::newCell():com.vladium.emma.report.html.doc.HTMLTable$ICell" />
+		</instance>
+		<instance>
+			<role name="Creator" element="com.vladium.emma.report.IReportDataModel" />
+			<role name="FactoryMethod()" element="com.vladium.emma.report.IReportDataModel::getView(int):com.vladium.emma.report.IReportDataView" />
+		</instance>
+		<instance>
+			<role name="Creator" element="com.vladium.jcd.cls.IConstantCollection" />
+			<role name="FactoryMethod()" element="com.vladium.jcd.cls.IConstantCollection::iterator():com.vladium.jcd.cls.IConstantCollection$IConstantIterator" />
+		</instance>
+		<instance>
+			<role name="Creator" element="com.vladium.util.args.IOptsParser" />
+			<role name="FactoryMethod()" element="com.vladium.util.args.IOptsParser::parse(java.lang.String[]):com.vladium.util.args.IOptsParser$IOpts" />
+		</instance>
+	</pattern>
+	<pattern name="Prototype">
+		<instance>
+			<role name="Client" element="com.vladium.jcd.cls.ClassDef" />
+			<role name="Prototype" element="com.vladium.jcd.cls.IInterfaceCollection" />
+			<role name="prototype" element="com.vladium.jcd.cls.ClassDef::m_interfaces:com.vladium.jcd.cls.IInterfaceCollection" />
+			<role name="Operation()" element="com.vladium.jcd.cls.ClassDef::clone():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Client" element="com.vladium.jcd.cls.ClassDef" />
+			<role name="Prototype" element="com.vladium.jcd.cls.IMethodCollection" />
+			<role name="prototype" element="com.vladium.jcd.cls.ClassDef::m_methods:com.vladium.jcd.cls.IMethodCollection" />
+			<role name="Operation()" element="com.vladium.jcd.cls.ClassDef::clone():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Client" element="com.vladium.jcd.cls.ClassDef" />
+			<role name="Prototype" element="com.vladium.jcd.cls.IAttributeCollection" />
+			<role name="prototype" element="com.vladium.jcd.cls.ClassDef::m_attributes:com.vladium.jcd.cls.IAttributeCollection" />
+			<role name="Operation()" element="com.vladium.jcd.cls.ClassDef::clone():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Client" element="com.vladium.jcd.cls.Field_info" />
+			<role name="Prototype" element="com.vladium.jcd.cls.IAttributeCollection" />
+			<role name="prototype" element="com.vladium.jcd.cls.Field_info::m_attributes:com.vladium.jcd.cls.IAttributeCollection" />
+			<role name="Operation()" element="com.vladium.jcd.cls.Field_info::clone():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Client" element="com.vladium.jcd.cls.Method_info" />
+			<role name="Prototype" element="com.vladium.jcd.cls.IAttributeCollection" />
+			<role name="prototype" element="com.vladium.jcd.cls.Method_info::m_attributes:com.vladium.jcd.cls.IAttributeCollection" />
+			<role name="Operation()" element="com.vladium.jcd.cls.Method_info::clone():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Client" element="com.vladium.jcd.cls.ClassDef" />
+			<role name="Prototype" element="com.vladium.jcd.cls.IConstantCollection" />
+			<role name="prototype" element="com.vladium.jcd.cls.ClassDef::m_constants:com.vladium.jcd.cls.IConstantCollection" />
+			<role name="Operation()" element="com.vladium.jcd.cls.ClassDef::clone():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Client" element="com.vladium.jcd.cls.ClassDef" />
+			<role name="Prototype" element="com.vladium.jcd.cls.IFieldCollection" />
+			<role name="prototype" element="com.vladium.jcd.cls.ClassDef::m_fields:com.vladium.jcd.cls.IFieldCollection" />
+			<role name="Operation()" element="com.vladium.jcd.cls.ClassDef::clone():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Client" element="com.vladium.jcd.cls.attribute.CodeAttribute_info" />
+			<role name="Prototype" element="com.vladium.jcd.cls.attribute.IExceptionHandlerTable" />
+			<role name="prototype" element="com.vladium.jcd.cls.attribute.CodeAttribute_info::m_exceptionHandlerTable:com.vladium.jcd.cls.attribute.IExceptionHandlerTable" />
+			<role name="Operation()" element="com.vladium.jcd.cls.attribute.CodeAttribute_info::clone():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Client" element="com.vladium.jcd.cls.attribute.ExceptionsAttribute_info" />
+			<role name="Prototype" element="com.vladium.jcd.cls.attribute.IDeclaredExceptionTable" />
+			<role name="prototype" element="com.vladium.jcd.cls.attribute.ExceptionsAttribute_info::m_exceptions:com.vladium.jcd.cls.attribute.IDeclaredExceptionTable" />
+			<role name="Operation()" element="com.vladium.jcd.cls.attribute.ExceptionsAttribute_info::clone():java.lang.Object" />
+		</instance>
+	</pattern>
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="com.vladium.emma.instr.InstrProcessor$OutMode" />
+			<role name="uniqueInstance" element="com.vladium.emma.instr.InstrProcessor$OutMode::OUT_MODE_COPY:com.vladium.emma.instr.InstrProcessor$OutMode" />
+			<role name="uniqueInstance" element="com.vladium.emma.instr.InstrProcessor$OutMode::OUT_MODE_FULLCOPY:com.vladium.emma.instr.InstrProcessor$OutMode" />
+			<role name="uniqueInstance" element="com.vladium.emma.instr.InstrProcessor$OutMode::OUT_MODE_OVERWRITE:com.vladium.emma.instr.InstrProcessor$OutMode" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.vladium.emma.report.html.doc.Attribute" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Attribute::ID:com.vladium.emma.report.html.doc.Attribute" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Attribute::NAME:com.vladium.emma.report.html.doc.Attribute" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Attribute::TITLE:com.vladium.emma.report.html.doc.Attribute" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Attribute::TYPE:com.vladium.emma.report.html.doc.Attribute" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Attribute::CLASS:com.vladium.emma.report.html.doc.Attribute" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Attribute::HTTP_EQUIV:com.vladium.emma.report.html.doc.Attribute" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Attribute::CONTENT:com.vladium.emma.report.html.doc.Attribute" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Attribute::HREF:com.vladium.emma.report.html.doc.Attribute" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Attribute::SRC:com.vladium.emma.report.html.doc.Attribute" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Attribute::REL:com.vladium.emma.report.html.doc.Attribute" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Attribute::WIDTH:com.vladium.emma.report.html.doc.Attribute" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Attribute::SIZE:com.vladium.emma.report.html.doc.Attribute" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Attribute::BORDER:com.vladium.emma.report.html.doc.Attribute" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Attribute::CELLPADDING:com.vladium.emma.report.html.doc.Attribute" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Attribute::CELLSPACING:com.vladium.emma.report.html.doc.Attribute" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Attribute::ALIGN:com.vladium.emma.report.html.doc.Attribute" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Attribute::COLSPAN:com.vladium.emma.report.html.doc.Attribute" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::HTML:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::HEAD:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::BODY:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::META:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::STYLE:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::TITLE:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::H1:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::H2:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::H3:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::H4:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::H5:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::H6:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::LINK:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::A:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::TABLE:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::CAPTION:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::TH:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::TR:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::TD:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::HR:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::P:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::SPAN:com.vladium.emma.report.html.doc.Tag" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.vladium.emma.report.ItemComparator" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.ItemComparator::NULL_COMPARATOR:com.vladium.emma.report.ItemComparator" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.vladium.logging.Logger" />
+			<role name="uniqueInstance" element="com.vladium.logging.Logger::STATIC_LOGGER:com.vladium.logging.Logger" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.vladium.util.args.OptsParser$Token" />
+			<role name="uniqueInstance" element="com.vladium.util.args.OptsParser$Token::EOF:com.vladium.util.args.OptsParser$Token" />
+			<role name="uniqueInstance" element="com.vladium.util.args.OptsParser$Token::COLON:com.vladium.util.args.OptsParser$Token" />
+			<role name="uniqueInstance" element="com.vladium.util.args.OptsParser$Token::SEMICOLON:com.vladium.util.args.OptsParser$Token" />
+			<role name="uniqueInstance" element="com.vladium.util.args.OptsParser$Token::COMMA:com.vladium.util.args.OptsParser$Token" />
+			<role name="uniqueInstance" element="com.vladium.util.args.OptsParser$Token::LBRACKET:com.vladium.util.args.OptsParser$Token" />
+			<role name="uniqueInstance" element="com.vladium.util.args.OptsParser$Token::RBRACKET:com.vladium.util.args.OptsParser$Token" />
+			<role name="uniqueInstance" element="com.vladium.util.args.OptsParser$Token::OPTIONAL:com.vladium.util.args.OptsParser$Token" />
+			<role name="uniqueInstance" element="com.vladium.util.args.OptsParser$Token::REQUIRED:com.vladium.util.args.OptsParser$Token" />
+			<role name="uniqueInstance" element="com.vladium.util.args.OptsParser$Token::VALUES:com.vladium.util.args.OptsParser$Token" />
+			<role name="uniqueInstance" element="com.vladium.util.args.OptsParser$Token::REQUIRES:com.vladium.util.args.OptsParser$Token" />
+			<role name="uniqueInstance" element="com.vladium.util.args.OptsParser$Token::EXCLUDES:com.vladium.util.args.OptsParser$Token" />
+			<role name="uniqueInstance" element="com.vladium.util.args.OptsParser$Token::MERGEABLE:com.vladium.util.args.OptsParser$Token" />
+			<role name="uniqueInstance" element="com.vladium.util.args.OptsParser$Token::DETAILEDONLY:com.vladium.util.args.OptsParser$Token" />
+			<role name="uniqueInstance" element="com.vladium.util.args.OptsParser$Token::PATTERN:com.vladium.util.args.OptsParser$Token" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.vladium.util.exit.ExitHookManager" />
+			<role name="uniqueInstance" element="com.vladium.util.exit.ExitHookManager::s_singleton:com.vladium.util.exit.ExitHookManager" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.vladium.util.WCMatcher" />
+			<role name="uniqueInstance" element="com.vladium.util.WCMatcher::ALL_MATCHER:com.vladium.util.WCMatcher" />
+			<role name="uniqueInstance" element="com.vladium.util.WCMatcher::EMPTY_MATCHER:com.vladium.util.WCMatcher" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.vladium.emma.instr.InstrProcessor$OutMode" />
+			<role name="uniqueInstance" element="com.vladium.emma.instr.InstrProcessor$OutMode::OUT_MODE_COPY:com.vladium.emma.instr.InstrProcessor$OutMode" />
+			<role name="uniqueInstance" element="com.vladium.emma.instr.InstrProcessor$OutMode::OUT_MODE_FULLCOPY:com.vladium.emma.instr.InstrProcessor$OutMode" />
+			<role name="uniqueInstance" element="com.vladium.emma.instr.InstrProcessor$OutMode::OUT_MODE_OVERWRITE:com.vladium.emma.instr.InstrProcessor$OutMode" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.vladium.emma.report.html.doc.Attribute" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Attribute::ID:com.vladium.emma.report.html.doc.Attribute" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Attribute::NAME:com.vladium.emma.report.html.doc.Attribute" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Attribute::TITLE:com.vladium.emma.report.html.doc.Attribute" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Attribute::TYPE:com.vladium.emma.report.html.doc.Attribute" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Attribute::CLASS:com.vladium.emma.report.html.doc.Attribute" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Attribute::HTTP_EQUIV:com.vladium.emma.report.html.doc.Attribute" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Attribute::CONTENT:com.vladium.emma.report.html.doc.Attribute" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Attribute::HREF:com.vladium.emma.report.html.doc.Attribute" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Attribute::SRC:com.vladium.emma.report.html.doc.Attribute" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Attribute::REL:com.vladium.emma.report.html.doc.Attribute" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Attribute::WIDTH:com.vladium.emma.report.html.doc.Attribute" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Attribute::SIZE:com.vladium.emma.report.html.doc.Attribute" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Attribute::BORDER:com.vladium.emma.report.html.doc.Attribute" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Attribute::CELLPADDING:com.vladium.emma.report.html.doc.Attribute" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Attribute::CELLSPACING:com.vladium.emma.report.html.doc.Attribute" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Attribute::ALIGN:com.vladium.emma.report.html.doc.Attribute" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Attribute::COLSPAN:com.vladium.emma.report.html.doc.Attribute" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::HTML:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::HEAD:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::BODY:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::META:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::STYLE:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::TITLE:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::H1:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::H2:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::H3:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::H4:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::H5:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::H6:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::LINK:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::A:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::TABLE:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::CAPTION:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::TH:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::TR:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::TD:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::HR:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::P:com.vladium.emma.report.html.doc.Tag" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.html.doc.Tag::SPAN:com.vladium.emma.report.html.doc.Tag" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.vladium.emma.report.ItemComparator" />
+			<role name="uniqueInstance" element="com.vladium.emma.report.ItemComparator::NULL_COMPARATOR:com.vladium.emma.report.ItemComparator" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.vladium.logging.Logger" />
+			<role name="uniqueInstance" element="com.vladium.logging.Logger::STATIC_LOGGER:com.vladium.logging.Logger" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.vladium.util.args.OptsParser$Token" />
+			<role name="uniqueInstance" element="com.vladium.util.args.OptsParser$Token::EOF:com.vladium.util.args.OptsParser$Token" />
+			<role name="uniqueInstance" element="com.vladium.util.args.OptsParser$Token::COLON:com.vladium.util.args.OptsParser$Token" />
+			<role name="uniqueInstance" element="com.vladium.util.args.OptsParser$Token::SEMICOLON:com.vladium.util.args.OptsParser$Token" />
+			<role name="uniqueInstance" element="com.vladium.util.args.OptsParser$Token::COMMA:com.vladium.util.args.OptsParser$Token" />
+			<role name="uniqueInstance" element="com.vladium.util.args.OptsParser$Token::LBRACKET:com.vladium.util.args.OptsParser$Token" />
+			<role name="uniqueInstance" element="com.vladium.util.args.OptsParser$Token::RBRACKET:com.vladium.util.args.OptsParser$Token" />
+			<role name="uniqueInstance" element="com.vladium.util.args.OptsParser$Token::OPTIONAL:com.vladium.util.args.OptsParser$Token" />
+			<role name="uniqueInstance" element="com.vladium.util.args.OptsParser$Token::REQUIRED:com.vladium.util.args.OptsParser$Token" />
+			<role name="uniqueInstance" element="com.vladium.util.args.OptsParser$Token::VALUES:com.vladium.util.args.OptsParser$Token" />
+			<role name="uniqueInstance" element="com.vladium.util.args.OptsParser$Token::REQUIRES:com.vladium.util.args.OptsParser$Token" />
+			<role name="uniqueInstance" element="com.vladium.util.args.OptsParser$Token::EXCLUDES:com.vladium.util.args.OptsParser$Token" />
+			<role name="uniqueInstance" element="com.vladium.util.args.OptsParser$Token::MERGEABLE:com.vladium.util.args.OptsParser$Token" />
+			<role name="uniqueInstance" element="com.vladium.util.args.OptsParser$Token::DETAILEDONLY:com.vladium.util.args.OptsParser$Token" />
+			<role name="uniqueInstance" element="com.vladium.util.args.OptsParser$Token::PATTERN:com.vladium.util.args.OptsParser$Token" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.vladium.util.exit.ExitHookManager" />
+			<role name="uniqueInstance" element="com.vladium.util.exit.ExitHookManager::s_singleton:com.vladium.util.exit.ExitHookManager" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.vladium.util.WCMatcher" />
+			<role name="uniqueInstance" element="com.vladium.util.WCMatcher::ALL_MATCHER:com.vladium.util.WCMatcher" />
+			<role name="uniqueInstance" element="com.vladium.util.WCMatcher::EMPTY_MATCHER:com.vladium.util.WCMatcher" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adaptee" element="com.vladium.util.IntVector" />
+			<role name="Adapter" element="com.vladium.jcd.cls.InterfaceCollection" />
+			<role name="adaptee" element="com.vladium.jcd.cls.InterfaceCollection::m_interfaces:com.vladium.util.IntVector" />
+			<role name="Request()" element="com.vladium.jcd.cls.InterfaceCollection::get(int):int" />
+			<role name="Request()" element="com.vladium.jcd.cls.InterfaceCollection::size():int" />
+			<role name="Request()" element="com.vladium.jcd.cls.InterfaceCollection::clone():java.lang.Object" />
+			<role name="Request()" element="com.vladium.jcd.cls.InterfaceCollection::add(int):int" />
+			<role name="Request()" element="com.vladium.jcd.cls.InterfaceCollection::set(int, int):int" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.vladium.jcd.cls.ClassDef" />
+			<role name="Adapter" element="com.vladium.emma.instr.InstrVisitor" />
+			<role name="adaptee" element="com.vladium.emma.instr.InstrVisitor::m_cls:com.vladium.jcd.cls.ClassDef" />
+			<role name="Request()" element="com.vladium.emma.instr.InstrVisitor::visit(com.vladium.jcd.cls.ClassDef, java.lang.Object):java.lang.Object" />
+			<role name="Request()" element="com.vladium.emma.instr.InstrVisitor::visit(com.vladium.jcd.cls.IMethodCollection, java.lang.Object):java.lang.Object" />
+			<role name="Request()" element="com.vladium.emma.instr.InstrVisitor::visit(com.vladium.jcd.cls.attribute.CodeAttribute_info, java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.vladium.logging.Logger" />
+			<role name="Adapter" element="com.vladium.emma.rt.ClassPathProcessorST" />
+			<role name="adaptee" element="com.vladium.emma.rt.ClassPathProcessorST::m_log:com.vladium.logging.Logger" />
+			<role name="Request()" element="com.vladium.emma.rt.ClassPathProcessorST::handleArchiveEntry(java.util.jar.JarInputStream, java.util.zip.ZipEntry):void" />
+			<role name="Request()" element="com.vladium.emma.rt.ClassPathProcessorST::handleFile(java.io.File, java.io.File):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.vladium.util.args.OptsParser$OptDefMetadata" />
+			<role name="Adapter" element="com.vladium.util.args.OptsParser" />
+			<role name="adaptee" element="com.vladium.util.args.OptsParser::m_metadata:com.vladium.util.args.OptsParser$OptDefMetadata" />
+			<role name="Request()" element="com.vladium.util.args.OptsParser::usage(java.io.PrintWriter, int, int):void" />
+			<role name="Request()" element="com.vladium.util.args.OptsParser::parse(java.lang.String[]):com.vladium.util.args.IOptsParser$IOpts" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.vladium.util.ByteArrayOStream" />
+			<role name="Adapter" element="com.vladium.emma.instr.InstrVisitor$BlockSegment" />
+			<role name="adaptee" element="com.vladium.emma.instr.InstrVisitor$BlockSegment::m_buf:com.vladium.util.ByteArrayOStream" />
+			<role name="Request()" element="com.vladium.emma.instr.InstrVisitor$BlockSegment::length():int" />
+			<role name="Request()" element="com.vladium.emma.instr.InstrVisitor$BlockSegment::emit(com.vladium.emma.instr.InstrVisitor$EmitCtx):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.vladium.util.ByteArrayOStream" />
+			<role name="Adapter" element="com.vladium.emma.instr.InstrVisitor$clinitHeader" />
+			<role name="adaptee" element="com.vladium.emma.instr.InstrVisitor$clinitHeader::m_buf:com.vladium.util.ByteArrayOStream" />
+			<role name="Request()" element="com.vladium.emma.instr.InstrVisitor$clinitHeader::length():int" />
+			<role name="Request()" element="com.vladium.emma.instr.InstrVisitor$clinitHeader::emit(com.vladium.emma.instr.InstrVisitor$EmitCtx):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.vladium.util.ByteArrayOStream" />
+			<role name="Adapter" element="com.vladium.emma.instr.InstrVisitor$methodHeader" />
+			<role name="adaptee" element="com.vladium.emma.instr.InstrVisitor$methodHeader::m_buf:com.vladium.util.ByteArrayOStream" />
+			<role name="Request()" element="com.vladium.emma.instr.InstrVisitor$methodHeader::length():int" />
+			<role name="Request()" element="com.vladium.emma.instr.InstrVisitor$methodHeader::emit(com.vladium.emma.instr.InstrVisitor$EmitCtx):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.vladium.jcd.cls.IAttributeCollection" />
+			<role name="Adapter" element="com.vladium.jcd.cls.ClassDef" />
+			<role name="adaptee" element="com.vladium.jcd.cls.ClassDef::m_attributes:com.vladium.jcd.cls.IAttributeCollection" />
+			<role name="Request()" element="com.vladium.jcd.cls.ClassDef::writeInClassFormat(com.vladium.jcd.lib.UDataOutputStream):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.vladium.emma.data.IMetaData" />
+			<role name="Adapter" element="com.vladium.emma.rt.ClassPathProcessorST" />
+			<role name="adaptee" element="com.vladium.emma.rt.ClassPathProcessorST::m_mdata:com.vladium.emma.data.IMetaData" />
+			<role name="Request()" element="com.vladium.emma.rt.ClassPathProcessorST::handleArchiveEntry(java.util.jar.JarInputStream, java.util.zip.ZipEntry):void" />
+			<role name="Request()" element="com.vladium.emma.rt.ClassPathProcessorST::handleFile(java.io.File, java.io.File):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.vladium.jcd.cls.IAttributeCollection" />
+			<role name="Adapter" element="com.vladium.jcd.cls.attribute.CodeAttribute_info" />
+			<role name="adaptee" element="com.vladium.jcd.cls.attribute.CodeAttribute_info::m_attributes:com.vladium.jcd.cls.IAttributeCollection" />
+			<role name="Request()" element="com.vladium.jcd.cls.attribute.CodeAttribute_info::length():long" />
+			<role name="Request()" element="com.vladium.jcd.cls.attribute.CodeAttribute_info::toString():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.vladium.jcd.cls.IConstantCollection" />
+			<role name="Adapter" element="com.vladium.jcd.cls.ClassDef" />
+			<role name="adaptee" element="com.vladium.jcd.cls.ClassDef::m_constants:com.vladium.jcd.cls.IConstantCollection" />
+			<role name="Request()" element="com.vladium.jcd.cls.ClassDef::writeInClassFormat(com.vladium.jcd.lib.UDataOutputStream):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.vladium.jcd.cls.IFieldCollection" />
+			<role name="Adapter" element="com.vladium.jcd.cls.ClassDef" />
+			<role name="adaptee" element="com.vladium.jcd.cls.ClassDef::m_fields:com.vladium.jcd.cls.IFieldCollection" />
+			<role name="Request()" element="com.vladium.jcd.cls.ClassDef::writeInClassFormat(com.vladium.jcd.lib.UDataOutputStream):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.vladium.util.ObjectIntMap" />
+			<role name="Adapter" element="com.vladium.jcd.cls.ConstantCollection" />
+			<role name="adaptee" element="com.vladium.jcd.cls.ConstantCollection::m_CONSTANT_Utf8_index:com.vladium.util.ObjectIntMap" />
+			<role name="Request()" element="com.vladium.jcd.cls.ConstantCollection::set(int, com.vladium.jcd.cls.constant.CONSTANT_info):com.vladium.jcd.cls.constant.CONSTANT_info" />
+			<role name="Request()" element="com.vladium.jcd.cls.ConstantCollection::add(com.vladium.jcd.cls.constant.CONSTANT_info):int" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.vladium.logging.Logger" />
+			<role name="Adapter" element="com.vladium.emma.instr.InstrVisitor" />
+			<role name="adaptee" element="com.vladium.emma.instr.InstrVisitor::m_log:com.vladium.logging.Logger" />
+			<role name="Request()" element="com.vladium.emma.instr.InstrVisitor::visit(com.vladium.jcd.cls.ClassDef, java.lang.Object):java.lang.Object" />
+			<role name="Request()" element="com.vladium.emma.instr.InstrVisitor::visit(com.vladium.jcd.cls.IMethodCollection, java.lang.Object):java.lang.Object" />
+			<role name="Request()" element="com.vladium.emma.instr.InstrVisitor::visit(com.vladium.jcd.cls.attribute.CodeAttribute_info, java.lang.Object):java.lang.Object" />
+			<role name="Request()" element="com.vladium.emma.instr.InstrVisitor::visit(com.vladium.jcd.cls.attribute.LineNumberTableAttribute_info, java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.vladium.util.IntVector" />
+			<role name="Adapter" element="com.vladium.jcd.cls.attribute.DeclaredExceptionTable" />
+			<role name="adaptee" element="com.vladium.jcd.cls.attribute.DeclaredExceptionTable::m_exceptions:com.vladium.util.IntVector" />
+			<role name="Request()" element="com.vladium.jcd.cls.attribute.DeclaredExceptionTable::get(int):int" />
+			<role name="Request()" element="com.vladium.jcd.cls.attribute.DeclaredExceptionTable::size():int" />
+			<role name="Request()" element="com.vladium.jcd.cls.attribute.DeclaredExceptionTable::length():long" />
+			<role name="Request()" element="com.vladium.jcd.cls.attribute.DeclaredExceptionTable::clone():java.lang.Object" />
+			<role name="Request()" element="com.vladium.jcd.cls.attribute.DeclaredExceptionTable::add(int):int" />
+			<role name="Request()" element="com.vladium.jcd.cls.attribute.DeclaredExceptionTable::set(int, int):int" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.vladium.util.IPathEnumerator$IPathHandler" />
+			<role name="Adapter" element="com.vladium.util.IPathEnumerator$Factory$PathEnumerator" />
+			<role name="adaptee" element="com.vladium.util.IPathEnumerator$Factory$PathEnumerator::m_handler:com.vladium.util.IPathEnumerator$IPathHandler" />
+			<role name="Request()" element="com.vladium.util.IPathEnumerator$Factory$PathEnumerator::enumerate():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.vladium.jcd.cls.attribute.IExceptionHandlerTable" />
+			<role name="Adapter" element="com.vladium.jcd.cls.attribute.CodeAttribute_info" />
+			<role name="adaptee" element="com.vladium.jcd.cls.attribute.CodeAttribute_info::m_exceptionHandlerTable:com.vladium.jcd.cls.attribute.IExceptionHandlerTable" />
+			<role name="Request()" element="com.vladium.jcd.cls.attribute.CodeAttribute_info::length():long" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.vladium.jcd.cls.attribute.IDeclaredExceptionTable" />
+			<role name="Adapter" element="com.vladium.jcd.cls.attribute.ExceptionsAttribute_info" />
+			<role name="adaptee" element="com.vladium.jcd.cls.attribute.ExceptionsAttribute_info::m_exceptions:com.vladium.jcd.cls.attribute.IDeclaredExceptionTable" />
+			<role name="Request()" element="com.vladium.jcd.cls.attribute.ExceptionsAttribute_info::length():long" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.vladium.logging.Logger" />
+			<role name="Adapter" element="com.vladium.util.IPathEnumerator$Factory$PathEnumerator" />
+			<role name="adaptee" element="com.vladium.util.IPathEnumerator$Factory$PathEnumerator::m_log:com.vladium.logging.Logger" />
+			<role name="Request()" element="com.vladium.util.IPathEnumerator$Factory$PathEnumerator::enumerate():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.vladium.emma.instr.InstrVisitor" />
+			<role name="Adapter" element="com.vladium.emma.rt.ClassPathProcessorST" />
+			<role name="adaptee" element="com.vladium.emma.rt.ClassPathProcessorST::m_visitor:com.vladium.emma.instr.InstrVisitor" />
+			<role name="Request()" element="com.vladium.emma.rt.ClassPathProcessorST::handleArchiveEntry(java.util.jar.JarInputStream, java.util.zip.ZipEntry):void" />
+			<role name="Request()" element="com.vladium.emma.rt.ClassPathProcessorST::handleFile(java.io.File, java.io.File):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.vladium.emma.data.IMetaData" />
+			<role name="Adapter" element="com.vladium.emma.rt.InstrClassLoadHook" />
+			<role name="adaptee" element="com.vladium.emma.rt.InstrClassLoadHook::m_metadata:com.vladium.emma.data.IMetaData" />
+			<role name="Request()" element="com.vladium.emma.rt.InstrClassLoadHook::processClassDef(java.lang.String, byte[], int, com.vladium.util.ByteArrayOStream):boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.vladium.emma.filter.IInclExclFilter" />
+			<role name="Adapter" element="com.vladium.emma.rt.ClassPathProcessorST" />
+			<role name="adaptee" element="com.vladium.emma.rt.ClassPathProcessorST::m_coverageFilter:com.vladium.emma.filter.IInclExclFilter" />
+			<role name="Request()" element="com.vladium.emma.rt.ClassPathProcessorST::handleArchiveEntry(java.util.jar.JarInputStream, java.util.zip.ZipEntry):void" />
+			<role name="Request()" element="com.vladium.emma.rt.ClassPathProcessorST::handleFile(java.io.File, java.io.File):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.vladium.emma.data.IMetaData" />
+			<role name="Adapter" element="com.vladium.emma.report.ReportDataModel" />
+			<role name="adaptee" element="com.vladium.emma.report.ReportDataModel::m_mdata:com.vladium.emma.data.IMetaData" />
+			<role name="Request()" element="com.vladium.emma.report.ReportDataModel::getView(int):com.vladium.emma.report.IReportDataView" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.vladium.emma.instr.InstrVisitor" />
+			<role name="Adapter" element="com.vladium.emma.rt.InstrClassLoadHook" />
+			<role name="adaptee" element="com.vladium.emma.rt.InstrClassLoadHook::m_classDefProcessor:com.vladium.emma.instr.InstrVisitor" />
+			<role name="Request()" element="com.vladium.emma.rt.InstrClassLoadHook::processClassDef(java.lang.String, byte[], int, com.vladium.util.ByteArrayOStream):boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.vladium.emma.data.ICoverageData" />
+			<role name="Adapter" element="com.vladium.emma.report.ReportDataModel" />
+			<role name="adaptee" element="com.vladium.emma.report.ReportDataModel::m_cdata:com.vladium.emma.data.ICoverageData" />
+			<role name="Request()" element="com.vladium.emma.report.ReportDataModel::getView(int):com.vladium.emma.report.IReportDataView" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.vladium.emma.filter.IInclExclFilter" />
+			<role name="Adapter" element="com.vladium.emma.rt.InstrClassLoadHook" />
+			<role name="adaptee" element="com.vladium.emma.rt.InstrClassLoadHook::m_filter:com.vladium.emma.filter.IInclExclFilter" />
+			<role name="Request()" element="com.vladium.emma.rt.InstrClassLoadHook::processClassDef(java.lang.String, byte[], int, com.vladium.util.ByteArrayOStream):boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.vladium.util.IProperties$IMapper" />
+			<role name="Adapter" element="com.vladium.util.IProperties$Factory$PropertiesImpl" />
+			<role name="adaptee" element="com.vladium.util.IProperties$Factory$PropertiesImpl::m_mapper:com.vladium.util.IProperties$IMapper" />
+			<role name="Request()" element="com.vladium.util.IProperties$Factory$PropertiesImpl::getProperty(java.lang.String, java.lang.String):java.lang.String" />
+		</instance>
+	</pattern>
+	<pattern name="Command">
+		<instance>
+			<role name="Receiver" element="com.vladium.emma.instr.InstrProcessor$OutMode" />
+			<role name="ConcreteCommand" element="com.vladium.emma.instr.instrCommand" />
+			<role name="receiver" element="com.vladium.emma.instr.instrCommand::m_outMode:com.vladium.emma.instr.InstrProcessor$OutMode" />
+			<role name="Execute()" element="com.vladium.emma.instr.instrCommand::run():void" />
+		</instance>
+	</pattern>
+	<pattern name="Composite">
+		<instance>
+			<role name="Component" element="com.vladium.emma.report.IItem" />
+			<role name="Composite" element="com.vladium.emma.report.Item" />
+			<role name="Operation()" element="com.vladium.emma.report.Item::getAggregate(int):int" />
+		</instance>
+	</pattern>
+	<pattern name="Decorator" />
+	<pattern name="Observer">
+		<instance>
+			<role name="Observer" element="com.vladium.emma.report.html.doc.IContent" />
+			<role name="Subject" element="com.vladium.emma.report.html.doc.IElement$Factory$ElementImpl" />
+			<role name="Notify()" element="com.vladium.emma.report.html.doc.IElement$Factory$ElementImpl::emit(com.vladium.emma.report.html.doc.HTMLWriter):void" />
+		</instance>
+	</pattern>
+	<pattern name="State">
+		<instance>
+			<role name="Context" element="com.vladium.emma.rt.AppRunner$AppRunnerExitHook" />
+			<role name="State" element="com.vladium.emma.report.IReportGenerator" />
+			<role name="state" element="com.vladium.emma.rt.AppRunner$AppRunnerExitHook::m_generators:com.vladium.emma.report.IReportGenerator[]" />
+			<role name="Request()" element="com.vladium.emma.rt.AppRunner$AppRunnerExitHook::run():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.vladium.emma.instr.InstrVisitor$Block" />
+			<role name="State" element="com.vladium.emma.instr.InstrVisitor$Branch" />
+			<role name="state" element="com.vladium.emma.instr.InstrVisitor$Block::m_branch:com.vladium.emma.instr.InstrVisitor$Branch" />
+			<role name="Request()" element="com.vladium.emma.instr.InstrVisitor$Block::emit(com.vladium.emma.instr.InstrVisitor$EmitCtx, byte[]):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.vladium.emma.report.html.doc.ISimpleElement$Factory$SimpleElementImpl" />
+			<role name="State" element="com.vladium.emma.report.html.doc.AttributeSet" />
+			<role name="state" element="com.vladium.emma.report.html.doc.ISimpleElement$Factory$SimpleElementImpl::m_attrs:com.vladium.emma.report.html.doc.AttributeSet" />
+			<role name="Request()" element="com.vladium.emma.report.html.doc.ISimpleElement$Factory$SimpleElementImpl::emit(com.vladium.emma.report.html.doc.HTMLWriter):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.vladium.emma.report.html.doc.ISimpleElement$Factory$SimpleElementImpl" />
+			<role name="State" element="com.vladium.emma.report.html.doc.Tag" />
+			<role name="state" element="com.vladium.emma.report.html.doc.ISimpleElement$Factory$SimpleElementImpl::m_tag:com.vladium.emma.report.html.doc.Tag" />
+			<role name="Request()" element="com.vladium.emma.report.html.doc.ISimpleElement$Factory$SimpleElementImpl::toString():java.lang.String" />
+			<role name="Request()" element="com.vladium.emma.report.html.doc.ISimpleElement$Factory$SimpleElementImpl::emit(com.vladium.emma.report.html.doc.HTMLWriter):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.vladium.emma.instr.InstrVisitor$Block" />
+			<role name="State" element="com.vladium.emma.instr.InstrVisitor$CodeSegment" />
+			<role name="state" element="com.vladium.emma.instr.InstrVisitor$Block::m_insertion:com.vladium.emma.instr.InstrVisitor$CodeSegment" />
+			<role name="Request()" element="com.vladium.emma.instr.InstrVisitor$Block::emit(com.vladium.emma.instr.InstrVisitor$EmitCtx, byte[]):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.vladium.jcd.cls.ClassDef" />
+			<role name="State" element="com.vladium.jcd.cls.IAttributeCollection" />
+			<role name="state" element="com.vladium.jcd.cls.ClassDef::m_attributes:com.vladium.jcd.cls.IAttributeCollection" />
+			<role name="Request()" element="com.vladium.jcd.cls.ClassDef::isSynthetic():boolean" />
+			<role name="Request()" element="com.vladium.jcd.cls.ClassDef::isNested(int[]):boolean" />
+			<role name="Request()" element="com.vladium.jcd.cls.ClassDef::clone():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.vladium.jcd.cls.Field_info" />
+			<role name="State" element="com.vladium.jcd.cls.IAttributeCollection" />
+			<role name="state" element="com.vladium.jcd.cls.Field_info::m_attributes:com.vladium.jcd.cls.IAttributeCollection" />
+			<role name="Request()" element="com.vladium.jcd.cls.Field_info::isSynthetic():boolean" />
+			<role name="Request()" element="com.vladium.jcd.cls.Field_info::clone():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.vladium.jcd.cls.Method_info" />
+			<role name="State" element="com.vladium.jcd.cls.IAttributeCollection" />
+			<role name="state" element="com.vladium.jcd.cls.Method_info::m_attributes:com.vladium.jcd.cls.IAttributeCollection" />
+			<role name="Request()" element="com.vladium.jcd.cls.Method_info::isSynthetic():boolean" />
+			<role name="Request()" element="com.vladium.jcd.cls.Method_info::isBridge():boolean" />
+			<role name="Request()" element="com.vladium.jcd.cls.Method_info::toString():java.lang.String" />
+			<role name="Request()" element="com.vladium.jcd.cls.Method_info::clone():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.vladium.emma.instr.InstrProcessorST" />
+			<role name="State" element="com.vladium.emma.data.IMetaData" />
+			<role name="state" element="com.vladium.emma.instr.InstrProcessorST::m_mdata:com.vladium.emma.data.IMetaData" />
+			<role name="Request()" element="com.vladium.emma.instr.InstrProcessorST::handleArchiveEntry(java.util.jar.JarInputStream, java.util.zip.ZipEntry):void" />
+			<role name="Request()" element="com.vladium.emma.instr.InstrProcessorST::handleFile(java.io.File, java.io.File):void" />
+			<role name="Request()" element="com.vladium.emma.instr.InstrProcessorST::_run(com.vladium.util.IProperties):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.vladium.emma.rt.ClassPathProcessorST" />
+			<role name="State" element="com.vladium.emma.data.IMetaData" />
+			<role name="state" element="com.vladium.emma.rt.ClassPathProcessorST::m_mdata:com.vladium.emma.data.IMetaData" />
+			<role name="Request()" element="com.vladium.emma.rt.ClassPathProcessorST::handleArchiveEntry(java.util.jar.JarInputStream, java.util.zip.ZipEntry):void" />
+			<role name="Request()" element="com.vladium.emma.rt.ClassPathProcessorST::handleFile(java.io.File, java.io.File):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.vladium.emma.report.ReportProcessor" />
+			<role name="State" element="com.vladium.emma.report.IReportGenerator" />
+			<role name="state" element="com.vladium.emma.report.ReportProcessor::m_reportGenerators:com.vladium.emma.report.IReportGenerator[]" />
+			<role name="Request()" element="com.vladium.emma.report.ReportProcessor::_run(com.vladium.util.IProperties):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.vladium.jcd.cls.attribute.CodeAttribute_info" />
+			<role name="State" element="com.vladium.jcd.cls.IAttributeCollection" />
+			<role name="state" element="com.vladium.jcd.cls.attribute.CodeAttribute_info::m_attributes:com.vladium.jcd.cls.IAttributeCollection" />
+			<role name="Request()" element="com.vladium.jcd.cls.attribute.CodeAttribute_info::length():long" />
+			<role name="Request()" element="com.vladium.jcd.cls.attribute.CodeAttribute_info::toString():java.lang.String" />
+			<role name="Request()" element="com.vladium.jcd.cls.attribute.CodeAttribute_info::clone():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.vladium.jcd.cls.ClassDef" />
+			<role name="State" element="com.vladium.jcd.cls.IConstantCollection" />
+			<role name="state" element="com.vladium.jcd.cls.ClassDef::m_constants:com.vladium.jcd.cls.IConstantCollection" />
+			<role name="Request()" element="com.vladium.jcd.cls.ClassDef::getThisClass():com.vladium.jcd.cls.constant.CONSTANT_Class_info" />
+			<role name="Request()" element="com.vladium.jcd.cls.ClassDef::getSuperClass():com.vladium.jcd.cls.constant.CONSTANT_Class_info" />
+			<role name="Request()" element="com.vladium.jcd.cls.ClassDef::clone():java.lang.Object" />
+			<role name="Request()" element="com.vladium.jcd.cls.ClassDef::computeSUID(boolean):long" />
+			<role name="Request()" element="com.vladium.jcd.cls.ClassDef::addCONSTANT_Utf8(java.lang.String, boolean):int" />
+			<role name="Request()" element="com.vladium.jcd.cls.ClassDef::addStringConstant(java.lang.String):int" />
+			<role name="Request()" element="com.vladium.jcd.cls.ClassDef::addNameType(java.lang.String, java.lang.String):int" />
+			<role name="Request()" element="com.vladium.jcd.cls.ClassDef::addClassref(java.lang.String):int" />
+			<role name="Request()" element="com.vladium.jcd.cls.ClassDef::addFieldref(com.vladium.jcd.cls.Field_info):int" />
+			<role name="Request()" element="com.vladium.jcd.cls.ClassDef::addFieldref(int):int" />
+		</instance>
+		<instance>
+			<role name="State" element="com.vladium.util.IProperties" />
+			<role name="Context" element="com.vladium.emma.ant.GenericCfg" />
+			<role name="state" element="com.vladium.emma.ant.GenericCfg::m_genericSettings:com.vladium.util.IProperties" />
+			<role name="Request()" element="com.vladium.emma.ant.GenericCfg::getGenericSettings():com.vladium.util.IProperties" />
+		</instance>
+		<instance>
+			<role name="State" element="com.vladium.util.IProperties" />
+			<role name="Context" element="com.vladium.emma.ant.VerbosityCfg" />
+			<role name="state" element="com.vladium.emma.ant.VerbosityCfg::m_settings:com.vladium.util.IProperties" />
+			<role name="Request()" element="com.vladium.emma.ant.VerbosityCfg::getSettings():com.vladium.util.IProperties" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.vladium.emma.rt.AppRunner$AppRunnerExitHook" />
+			<role name="State" element="com.vladium.emma.data.ICoverageData" />
+			<role name="state" element="com.vladium.emma.rt.AppRunner$AppRunnerExitHook::m_cdata:com.vladium.emma.data.ICoverageData" />
+			<role name="Request()" element="com.vladium.emma.rt.AppRunner$AppRunnerExitHook::run():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.vladium.jcd.cls.ClassDef" />
+			<role name="State" element="com.vladium.jcd.cls.IFieldCollection" />
+			<role name="state" element="com.vladium.jcd.cls.ClassDef::m_fields:com.vladium.jcd.cls.IFieldCollection" />
+			<role name="Request()" element="com.vladium.jcd.cls.ClassDef::getFields(java.lang.String):int[]" />
+			<role name="Request()" element="com.vladium.jcd.cls.ClassDef::clone():java.lang.Object" />
+			<role name="Request()" element="com.vladium.jcd.cls.ClassDef::addField(java.lang.String, java.lang.String, int):int" />
+			<role name="Request()" element="com.vladium.jcd.cls.ClassDef::addField(java.lang.String, java.lang.String, int, com.vladium.jcd.cls.IAttributeCollection):int" />
+			<role name="Request()" element="com.vladium.jcd.cls.ClassDef::addFieldref(int):int" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.vladium.emma.rt.AppRunner$AppRunnerExitHook" />
+			<role name="State" element="com.vladium.emma.data.IMetaData" />
+			<role name="state" element="com.vladium.emma.rt.AppRunner$AppRunnerExitHook::m_mdata:com.vladium.emma.data.IMetaData" />
+			<role name="Request()" element="com.vladium.emma.rt.AppRunner$AppRunnerExitHook::run():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.vladium.util.IPathEnumerator$Factory$PathEnumerator" />
+			<role name="State" element="com.vladium.util.IPathEnumerator$IPathHandler" />
+			<role name="state" element="com.vladium.util.IPathEnumerator$Factory$PathEnumerator::m_handler:com.vladium.util.IPathEnumerator$IPathHandler" />
+			<role name="Request()" element="com.vladium.util.IPathEnumerator$Factory$PathEnumerator::enumerate():void" />
+			<role name="Request()" element="com.vladium.util.IPathEnumerator$Factory$PathEnumerator::enumeratePathDir(java.lang.String):void" />
+			<role name="Request()" element="com.vladium.util.IPathEnumerator$Factory$PathEnumerator::enumeratePathArchive(java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.vladium.jcd.cls.attribute.CodeAttribute_info" />
+			<role name="State" element="com.vladium.jcd.cls.attribute.IExceptionHandlerTable" />
+			<role name="state" element="com.vladium.jcd.cls.attribute.CodeAttribute_info::m_exceptionHandlerTable:com.vladium.jcd.cls.attribute.IExceptionHandlerTable" />
+			<role name="Request()" element="com.vladium.jcd.cls.attribute.CodeAttribute_info::length():long" />
+			<role name="Request()" element="com.vladium.jcd.cls.attribute.CodeAttribute_info::clone():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.vladium.emma.instr.InstrProcessorST" />
+			<role name="State" element="com.vladium.emma.instr.InstrProcessorST$Job" />
+			<role name="state" element="com.vladium.emma.instr.InstrProcessorST::m_jobs:com.vladium.emma.instr.InstrProcessorST$Job[]" />
+			<role name="Request()" element="com.vladium.emma.instr.InstrProcessorST::drainJobQueue():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.vladium.emma.rt.InstrClassLoader" />
+			<role name="State" element="com.vladium.emma.rt.IClassLoadHook" />
+			<role name="state" element="com.vladium.emma.rt.InstrClassLoader::m_hook:com.vladium.emma.rt.IClassLoadHook" />
+			<role name="Request()" element="com.vladium.emma.rt.InstrClassLoader::findClass(java.lang.String):java.lang.Class" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.vladium.jcd.cls.attribute.ExceptionsAttribute_info" />
+			<role name="State" element="com.vladium.jcd.cls.attribute.IDeclaredExceptionTable" />
+			<role name="state" element="com.vladium.jcd.cls.attribute.ExceptionsAttribute_info::m_exceptions:com.vladium.jcd.cls.attribute.IDeclaredExceptionTable" />
+			<role name="Request()" element="com.vladium.jcd.cls.attribute.ExceptionsAttribute_info::length():long" />
+			<role name="Request()" element="com.vladium.jcd.cls.attribute.ExceptionsAttribute_info::clone():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.vladium.emma.rt.InstrClassLoadHook" />
+			<role name="State" element="com.vladium.emma.data.IMetaData" />
+			<role name="state" element="com.vladium.emma.rt.InstrClassLoadHook::m_metadata:com.vladium.emma.data.IMetaData" />
+			<role name="Request()" element="com.vladium.emma.rt.InstrClassLoadHook::processClassDef(java.lang.String, byte[], int, com.vladium.util.ByteArrayOStream):boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.vladium.emma.rt.InstrClassLoader" />
+			<role name="State" element="com.vladium.emma.filter.IInclExclFilter" />
+			<role name="state" element="com.vladium.emma.rt.InstrClassLoader::m_forcedDelegationFilter:com.vladium.emma.filter.IInclExclFilter" />
+			<role name="state" element="com.vladium.emma.rt.InstrClassLoader::m_throughDelegationFilter:com.vladium.emma.filter.IInclExclFilter" />
+			<role name="Request()" element="com.vladium.emma.rt.InstrClassLoader::loadClass(java.lang.String, boolean):java.lang.Class" />
+		</instance>
+		<instance>
+			<role name="State" element="com.vladium.util.IProperties" />
+			<role name="Context" element="com.vladium.emma.report.ReportCfg" />
+			<role name="state" element="com.vladium.emma.report.ReportCfg::m_settings:com.vladium.util.IProperties" />
+			<role name="Request()" element="com.vladium.emma.report.ReportCfg::setUnits(com.vladium.emma.report.IReportEnums$UnitsTypeAttribute):void" />
+			<role name="Request()" element="com.vladium.emma.report.ReportCfg::setDepth(com.vladium.emma.report.IReportEnums$DepthAttribute):void" />
+			<role name="Request()" element="com.vladium.emma.report.ReportCfg::setColumns(java.lang.String):void" />
+			<role name="Request()" element="com.vladium.emma.report.ReportCfg::setSort(java.lang.String):void" />
+			<role name="Request()" element="com.vladium.emma.report.ReportCfg::setMetrics(java.lang.String):void" />
+			<role name="Request()" element="com.vladium.emma.report.ReportCfg::setOutfile(java.lang.String):void" />
+			<role name="Request()" element="com.vladium.emma.report.ReportCfg::setEncoding(java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.vladium.emma.rt.ClassPathProcessorST" />
+			<role name="State" element="com.vladium.emma.filter.IInclExclFilter" />
+			<role name="state" element="com.vladium.emma.rt.ClassPathProcessorST::m_coverageFilter:com.vladium.emma.filter.IInclExclFilter" />
+			<role name="Request()" element="com.vladium.emma.rt.ClassPathProcessorST::handleArchiveEntry(java.util.jar.JarInputStream, java.util.zip.ZipEntry):void" />
+			<role name="Request()" element="com.vladium.emma.rt.ClassPathProcessorST::handleFile(java.io.File, java.io.File):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.vladium.emma.report.ReportDataModel" />
+			<role name="State" element="com.vladium.emma.data.IMetaData" />
+			<role name="state" element="com.vladium.emma.report.ReportDataModel::m_mdata:com.vladium.emma.data.IMetaData" />
+			<role name="Request()" element="com.vladium.emma.report.ReportDataModel::getView(int):com.vladium.emma.report.IReportDataView" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.vladium.emma.filter.IInclExclFilter$Factory$WCInclExclFilter" />
+			<role name="State" element="com.vladium.util.WCMatcher" />
+			<role name="state" element="com.vladium.emma.filter.IInclExclFilter$Factory$WCInclExclFilter::m_inclusions:com.vladium.util.WCMatcher[]" />
+			<role name="state" element="com.vladium.emma.filter.IInclExclFilter$Factory$WCInclExclFilter::m_exclusions:com.vladium.util.WCMatcher[]" />
+			<role name="Request()" element="com.vladium.emma.filter.IInclExclFilter$Factory$WCInclExclFilter::included(java.lang.String):boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.vladium.emma.report.ReportDataModel" />
+			<role name="State" element="com.vladium.emma.data.ICoverageData" />
+			<role name="state" element="com.vladium.emma.report.ReportDataModel::m_cdata:com.vladium.emma.data.ICoverageData" />
+			<role name="Request()" element="com.vladium.emma.report.ReportDataModel::getView(int):com.vladium.emma.report.IReportDataView" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.vladium.emma.rt.InstrClassLoadHook" />
+			<role name="State" element="com.vladium.emma.filter.IInclExclFilter" />
+			<role name="state" element="com.vladium.emma.rt.InstrClassLoadHook::m_filter:com.vladium.emma.filter.IInclExclFilter" />
+			<role name="Request()" element="com.vladium.emma.rt.InstrClassLoadHook::processClassDef(java.lang.String, byte[], int, com.vladium.util.ByteArrayOStream):boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.vladium.util.IProperties$Factory$PropertiesImpl" />
+			<role name="State" element="com.vladium.util.IProperties$IMapper" />
+			<role name="state" element="com.vladium.util.IProperties$Factory$PropertiesImpl::m_mapper:com.vladium.util.IProperties$IMapper" />
+			<role name="Request()" element="com.vladium.util.IProperties$Factory$PropertiesImpl::getProperty(java.lang.String, java.lang.String):java.lang.String" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy" />
+	<pattern name="Bridge">
+		<instance>
+			<role name="Abstraction" element="com.vladium.emma.Processor" />
+			<role name="Implementor" element="com.vladium.util.IProperties" />
+			<role name="implementor" element="com.vladium.emma.Processor::m_propertyOverrides:com.vladium.util.IProperties" />
+			<role name="Operation()" element="com.vladium.emma.Processor::run():void" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="com.vladium.util.ClassLoaderResolver" />
+			<role name="Implementor" element="com.vladium.util.IClassLoadStrategy" />
+			<role name="implementor" element="com.vladium.util.ClassLoaderResolver::s_strategy:com.vladium.util.IClassLoadStrategy" />
+			<role name="Operation()" element="com.vladium.util.ClassLoaderResolver::getClassLoader(java.lang.Class):java.lang.ClassLoader" />
+			<role name="Operation()" element="com.vladium.util.ClassLoaderResolver::getClassLoader():java.lang.ClassLoader" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="com.vladium.emma.report.ReportCfg$Element" />
+			<role name="Implementor" element="com.vladium.util.IProperties" />
+			<role name="implementor" element="com.vladium.emma.report.ReportCfg$Element::m_settings:com.vladium.util.IProperties" />
+			<role name="Operation()" element="com.vladium.emma.report.ReportCfg$Element::setUnits(com.vladium.emma.report.IReportEnums$UnitsTypeAttribute):void" />
+			<role name="Operation()" element="com.vladium.emma.report.ReportCfg$Element::setDepth(com.vladium.emma.report.IReportEnums$DepthAttribute):void" />
+			<role name="Operation()" element="com.vladium.emma.report.ReportCfg$Element::setColumns(java.lang.String):void" />
+			<role name="Operation()" element="com.vladium.emma.report.ReportCfg$Element::setSort(java.lang.String):void" />
+			<role name="Operation()" element="com.vladium.emma.report.ReportCfg$Element::setMetrics(java.lang.String):void" />
+			<role name="Operation()" element="com.vladium.emma.report.ReportCfg$Element::setOutfile(java.lang.String):void" />
+			<role name="Operation()" element="com.vladium.emma.report.ReportCfg$Element::setEncoding(java.lang.String):void" />
+			<role name="Operation()" element="com.vladium.emma.report.ReportCfg$Element::processGenericSettings():void" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="com.vladium.emma.rt.RT" />
+			<role name="Implementor" element="com.vladium.util.exit.ExitHookManager" />
+			<role name="implementor" element="com.vladium.emma.rt.RT::EXIT_HOOK_MANAGER:com.vladium.util.exit.ExitHookManager" />
+			<role name="Operation()" element="com.vladium.emma.rt.RT::reset(boolean, boolean):com.vladium.emma.data.ICoverageData" />
+		</instance>
+	</pattern>
+	<pattern name="Template Method">
+		<instance>
+			<role name="AbstractClass" element="com.vladium.emma.Command" />
+			<role name="TemplateMethod()" element="com.vladium.emma.Command::usageexit(com.vladium.util.args.IOptsParser, int, java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.vladium.emma.Processor" />
+			<role name="TemplateMethod()" element="com.vladium.emma.Processor::run():void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.vladium.jcd.cls.attribute.Attribute_info" />
+			<role name="TemplateMethod()" element="com.vladium.jcd.cls.attribute.Attribute_info::writeInClassFormat(com.vladium.jcd.lib.UDataOutputStream):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.vladium.jcd.cls.constant.CONSTANT_info" />
+			<role name="TemplateMethod()" element="com.vladium.jcd.cls.constant.CONSTANT_info::writeInClassFormat(com.vladium.jcd.lib.UDataOutputStream):void" />
+			<role name="TemplateMethod()" element="com.vladium.jcd.cls.constant.CONSTANT_info::tagToString(com.vladium.jcd.cls.constant.CONSTANT_info):java.lang.String" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.vladium.emma.Command" />
+			<role name="TemplateMethod()" element="com.vladium.emma.Command::usageexit(com.vladium.util.args.IOptsParser, int, java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.vladium.emma.Processor" />
+			<role name="TemplateMethod()" element="com.vladium.emma.Processor::run():void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.vladium.jcd.cls.attribute.Attribute_info" />
+			<role name="TemplateMethod()" element="com.vladium.jcd.cls.attribute.Attribute_info::writeInClassFormat(com.vladium.jcd.lib.UDataOutputStream):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.vladium.jcd.cls.constant.CONSTANT_info" />
+			<role name="TemplateMethod()" element="com.vladium.jcd.cls.constant.CONSTANT_info::writeInClassFormat(com.vladium.jcd.lib.UDataOutputStream):void" />
+			<role name="TemplateMethod()" element="com.vladium.jcd.cls.constant.CONSTANT_info::tagToString(com.vladium.jcd.cls.constant.CONSTANT_info):java.lang.String" />
+		</instance>
+	</pattern>
+	<pattern name="Visitor">
+		<instance>
+			<role name="Visitor" element="com.vladium.jcd.cls.constant.ICONSTANTVisitor" />
+			<role name="ConcreteElement" element="com.vladium.jcd.cls.constant.CONSTANT_Class_info" />
+			<role name="Accept()" element="com.vladium.jcd.cls.constant.CONSTANT_Class_info::accept(com.vladium.jcd.cls.constant.ICONSTANTVisitor, java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="com.vladium.jcd.cls.constant.ICONSTANTVisitor" />
+			<role name="ConcreteElement" element="com.vladium.jcd.cls.constant.CONSTANT_Double_info" />
+			<role name="Accept()" element="com.vladium.jcd.cls.constant.CONSTANT_Double_info::accept(com.vladium.jcd.cls.constant.ICONSTANTVisitor, java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="com.vladium.jcd.cls.constant.ICONSTANTVisitor" />
+			<role name="ConcreteElement" element="com.vladium.jcd.cls.constant.CONSTANT_Fieldref_info" />
+			<role name="Accept()" element="com.vladium.jcd.cls.constant.CONSTANT_Fieldref_info::accept(com.vladium.jcd.cls.constant.ICONSTANTVisitor, java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="com.vladium.jcd.cls.constant.ICONSTANTVisitor" />
+			<role name="ConcreteElement" element="com.vladium.jcd.cls.constant.CONSTANT_Float_info" />
+			<role name="Accept()" element="com.vladium.jcd.cls.constant.CONSTANT_Float_info::accept(com.vladium.jcd.cls.constant.ICONSTANTVisitor, java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="com.vladium.jcd.cls.constant.ICONSTANTVisitor" />
+			<role name="ConcreteElement" element="com.vladium.jcd.cls.constant.CONSTANT_Integer_info" />
+			<role name="Accept()" element="com.vladium.jcd.cls.constant.CONSTANT_Integer_info::accept(com.vladium.jcd.cls.constant.ICONSTANTVisitor, java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="com.vladium.jcd.cls.constant.ICONSTANTVisitor" />
+			<role name="ConcreteElement" element="com.vladium.jcd.cls.constant.CONSTANT_InterfaceMethodref_info" />
+			<role name="Accept()" element="com.vladium.jcd.cls.constant.CONSTANT_InterfaceMethodref_info::accept(com.vladium.jcd.cls.constant.ICONSTANTVisitor, java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="com.vladium.jcd.cls.constant.ICONSTANTVisitor" />
+			<role name="ConcreteElement" element="com.vladium.jcd.cls.constant.CONSTANT_Long_info" />
+			<role name="Accept()" element="com.vladium.jcd.cls.constant.CONSTANT_Long_info::accept(com.vladium.jcd.cls.constant.ICONSTANTVisitor, java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="com.vladium.jcd.cls.constant.ICONSTANTVisitor" />
+			<role name="ConcreteElement" element="com.vladium.jcd.cls.constant.CONSTANT_Methodref_info" />
+			<role name="Accept()" element="com.vladium.jcd.cls.constant.CONSTANT_Methodref_info::accept(com.vladium.jcd.cls.constant.ICONSTANTVisitor, java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="com.vladium.jcd.cls.constant.ICONSTANTVisitor" />
+			<role name="ConcreteElement" element="com.vladium.jcd.cls.constant.CONSTANT_NameAndType_info" />
+			<role name="Accept()" element="com.vladium.jcd.cls.constant.CONSTANT_NameAndType_info::accept(com.vladium.jcd.cls.constant.ICONSTANTVisitor, java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="com.vladium.jcd.cls.constant.ICONSTANTVisitor" />
+			<role name="ConcreteElement" element="com.vladium.jcd.cls.constant.CONSTANT_String_info" />
+			<role name="Accept()" element="com.vladium.jcd.cls.constant.CONSTANT_String_info::accept(com.vladium.jcd.cls.constant.ICONSTANTVisitor, java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="com.vladium.jcd.cls.constant.ICONSTANTVisitor" />
+			<role name="ConcreteElement" element="com.vladium.jcd.cls.constant.CONSTANT_Utf8_info" />
+			<role name="Accept()" element="com.vladium.jcd.cls.constant.CONSTANT_Utf8_info::accept(com.vladium.jcd.cls.constant.ICONSTANTVisitor, java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="com.vladium.emma.report.AllItem" />
+			<role name="Visitor" element="com.vladium.emma.report.IItemVisitor" />
+			<role name="Accept()" element="com.vladium.emma.report.AllItem::accept(com.vladium.emma.report.IItemVisitor, java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="com.vladium.emma.report.ClassItem" />
+			<role name="Visitor" element="com.vladium.emma.report.IItemVisitor" />
+			<role name="Accept()" element="com.vladium.emma.report.ClassItem::accept(com.vladium.emma.report.IItemVisitor, java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="com.vladium.emma.report.MethodItem" />
+			<role name="Visitor" element="com.vladium.emma.report.IItemVisitor" />
+			<role name="Accept()" element="com.vladium.emma.report.MethodItem::accept(com.vladium.emma.report.IItemVisitor, java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="com.vladium.emma.report.PackageItem" />
+			<role name="Visitor" element="com.vladium.emma.report.IItemVisitor" />
+			<role name="Accept()" element="com.vladium.emma.report.PackageItem::accept(com.vladium.emma.report.IItemVisitor, java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="com.vladium.emma.report.SrcFileItem" />
+			<role name="Visitor" element="com.vladium.emma.report.IItemVisitor" />
+			<role name="Accept()" element="com.vladium.emma.report.SrcFileItem::accept(com.vladium.emma.report.IItemVisitor, java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="com.vladium.jcd.cls.attribute.IAttributeVisitor" />
+			<role name="ConcreteElement" element="com.vladium.jcd.cls.attribute.BridgeAttribute_info" />
+			<role name="Accept()" element="com.vladium.jcd.cls.attribute.BridgeAttribute_info::accept(com.vladium.jcd.cls.attribute.IAttributeVisitor, java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="com.vladium.jcd.cls.attribute.IAttributeVisitor" />
+			<role name="ConcreteElement" element="com.vladium.jcd.cls.attribute.CodeAttribute_info" />
+			<role name="Accept()" element="com.vladium.jcd.cls.attribute.CodeAttribute_info::accept(com.vladium.jcd.cls.attribute.IAttributeVisitor, java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="com.vladium.jcd.cls.attribute.IAttributeVisitor" />
+			<role name="ConcreteElement" element="com.vladium.jcd.cls.attribute.ConstantValueAttribute_info" />
+			<role name="Accept()" element="com.vladium.jcd.cls.attribute.ConstantValueAttribute_info::accept(com.vladium.jcd.cls.attribute.IAttributeVisitor, java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="com.vladium.jcd.cls.attribute.IAttributeVisitor" />
+			<role name="ConcreteElement" element="com.vladium.jcd.cls.attribute.ExceptionsAttribute_info" />
+			<role name="Accept()" element="com.vladium.jcd.cls.attribute.ExceptionsAttribute_info::accept(com.vladium.jcd.cls.attribute.IAttributeVisitor, java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="com.vladium.jcd.cls.attribute.IAttributeVisitor" />
+			<role name="ConcreteElement" element="com.vladium.jcd.cls.attribute.GenericAttribute_info" />
+			<role name="Accept()" element="com.vladium.jcd.cls.attribute.GenericAttribute_info::accept(com.vladium.jcd.cls.attribute.IAttributeVisitor, java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="com.vladium.jcd.cls.attribute.IAttributeVisitor" />
+			<role name="ConcreteElement" element="com.vladium.jcd.cls.attribute.InnerClassesAttribute_info" />
+			<role name="Accept()" element="com.vladium.jcd.cls.attribute.InnerClassesAttribute_info::accept(com.vladium.jcd.cls.attribute.IAttributeVisitor, java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="com.vladium.jcd.cls.attribute.IAttributeVisitor" />
+			<role name="ConcreteElement" element="com.vladium.jcd.cls.attribute.LineNumberTableAttribute_info" />
+			<role name="Accept()" element="com.vladium.jcd.cls.attribute.LineNumberTableAttribute_info::accept(com.vladium.jcd.cls.attribute.IAttributeVisitor, java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="com.vladium.jcd.cls.attribute.IAttributeVisitor" />
+			<role name="ConcreteElement" element="com.vladium.jcd.cls.attribute.SourceFileAttribute_info" />
+			<role name="Accept()" element="com.vladium.jcd.cls.attribute.SourceFileAttribute_info::accept(com.vladium.jcd.cls.attribute.IAttributeVisitor, java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="com.vladium.jcd.cls.attribute.IAttributeVisitor" />
+			<role name="ConcreteElement" element="com.vladium.jcd.cls.attribute.SyntheticAttribute_info" />
+			<role name="Accept()" element="com.vladium.jcd.cls.attribute.SyntheticAttribute_info::accept(com.vladium.jcd.cls.attribute.IAttributeVisitor, java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="com.vladium.jcd.cls.ClassDef" />
+			<role name="Visitor" element="com.vladium.jcd.cls.IClassDefVisitor" />
+			<role name="Accept()" element="com.vladium.jcd.cls.ClassDef::accept(com.vladium.jcd.cls.IClassDefVisitor, java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="com.vladium.jcd.cls.InterfaceCollection" />
+			<role name="Visitor" element="com.vladium.jcd.cls.IClassDefVisitor" />
+			<role name="Accept()" element="com.vladium.jcd.cls.InterfaceCollection::accept(com.vladium.jcd.cls.IClassDefVisitor, java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="com.vladium.jcd.cls.MethodCollection" />
+			<role name="Visitor" element="com.vladium.jcd.cls.IClassDefVisitor" />
+			<role name="Accept()" element="com.vladium.jcd.cls.MethodCollection::accept(com.vladium.jcd.cls.IClassDefVisitor, java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="com.vladium.jcd.cls.AttributeCollection" />
+			<role name="Visitor" element="com.vladium.jcd.cls.IClassDefVisitor" />
+			<role name="Accept()" element="com.vladium.jcd.cls.AttributeCollection::accept(com.vladium.jcd.cls.IClassDefVisitor, java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="com.vladium.jcd.cls.ConstantCollection" />
+			<role name="Visitor" element="com.vladium.jcd.cls.IClassDefVisitor" />
+			<role name="Accept()" element="com.vladium.jcd.cls.ConstantCollection::accept(com.vladium.jcd.cls.IClassDefVisitor, java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="com.vladium.jcd.cls.FieldCollection" />
+			<role name="Visitor" element="com.vladium.jcd.cls.IClassDefVisitor" />
+			<role name="Accept()" element="com.vladium.jcd.cls.FieldCollection::accept(com.vladium.jcd.cls.IClassDefVisitor, java.lang.Object):void" />
+		</instance>
+	</pattern>
+	<pattern name="Proxy" />
+	<pattern name="Proxy2" />
+	<pattern name="Chain of Responsibility" />
+</system>
+

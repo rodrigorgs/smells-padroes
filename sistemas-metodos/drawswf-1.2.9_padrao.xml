@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method">
+		<instance>
+			<role name="Creator" element="com.anotherbigidea.flash.interfaces.SWFTagTypes" />
+			<role name="FactoryMethod()" element="com.anotherbigidea.flash.interfaces.SWFTagTypes::tagDefineShape(int, com.anotherbigidea.flash.structs.Rect):com.anotherbigidea.flash.interfaces.SWFShape" />
+			<role name="FactoryMethod()" element="com.anotherbigidea.flash.interfaces.SWFTagTypes::tagDefineShape2(int, com.anotherbigidea.flash.structs.Rect):com.anotherbigidea.flash.interfaces.SWFShape" />
+			<role name="FactoryMethod()" element="com.anotherbigidea.flash.interfaces.SWFTagTypes::tagDefineShape3(int, com.anotherbigidea.flash.structs.Rect):com.anotherbigidea.flash.interfaces.SWFShape" />
+			<role name="FactoryMethod()" element="com.anotherbigidea.flash.interfaces.SWFTagTypes::tagDefineSprite(int):com.anotherbigidea.flash.interfaces.SWFTagTypes" />
+			<role name="FactoryMethod()" element="com.anotherbigidea.flash.interfaces.SWFTagTypes::tagDefineText(int, com.anotherbigidea.flash.structs.Rect, com.anotherbigidea.flash.structs.Matrix):com.anotherbigidea.flash.interfaces.SWFText" />
+			<role name="FactoryMethod()" element="com.anotherbigidea.flash.interfaces.SWFTagTypes::tagDefineText2(int, com.anotherbigidea.flash.structs.Rect, com.anotherbigidea.flash.structs.Matrix):com.anotherbigidea.flash.interfaces.SWFText" />
+			<role name="FactoryMethod()" element="com.anotherbigidea.flash.interfaces.SWFTagTypes::tagDefineButton(int, java.util.Vector):com.anotherbigidea.flash.interfaces.SWFActions" />
+			<role name="FactoryMethod()" element="com.anotherbigidea.flash.interfaces.SWFTagTypes::tagDefineButton2(int, boolean, java.util.Vector):com.anotherbigidea.flash.interfaces.SWFActions" />
+			<role name="FactoryMethod()" element="com.anotherbigidea.flash.interfaces.SWFTagTypes::tagDefineMorphShape(int, com.anotherbigidea.flash.structs.Rect, com.anotherbigidea.flash.structs.Rect):com.anotherbigidea.flash.interfaces.SWFShape" />
+		</instance>
+	</pattern>
+	<pattern name="Prototype" />
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="at.bestsolution.drawswf.IconProvider" />
+			<role name="uniqueInstance" element="at.bestsolution.drawswf.IconProvider::instance_:at.bestsolution.drawswf.IconProvider" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="at.bestsolution.drawswf.MainWindow" />
+			<role name="uniqueInstance" element="at.bestsolution.drawswf.MainWindow::MAIN_WINDOW:at.bestsolution.drawswf.MainWindow" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="at.bestsolution.drawswf.plugin.remotesave.dialog.RemoteSaveDialog" />
+			<role name="uniqueInstance" element="at.bestsolution.drawswf.plugin.remotesave.dialog.RemoteSaveDialog::instance_:at.bestsolution.drawswf.plugin.remotesave.dialog.RemoteSaveDialog" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="at.bestsolution.drawswf.plugin.remotesave.util.RemoteSaveConfig" />
+			<role name="uniqueInstance" element="at.bestsolution.drawswf.plugin.remotesave.util.RemoteSaveConfig::instance_:at.bestsolution.drawswf.plugin.remotesave.util.RemoteSaveConfig" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="at.bestsolution.drawswf.util.DrawSWFConfig" />
+			<role name="uniqueInstance" element="at.bestsolution.drawswf.util.DrawSWFConfig::instance_:at.bestsolution.drawswf.util.DrawSWFConfig" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="at.bestsolution.ext.awt.FontLoader" />
+			<role name="uniqueInstance" element="at.bestsolution.ext.awt.FontLoader::instance_:at.bestsolution.ext.awt.FontLoader" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="at.bestsolution.ext.swing.dialog.AlphaColorChooser" />
+			<role name="uniqueInstance" element="at.bestsolution.ext.swing.dialog.AlphaColorChooser::instance_:at.bestsolution.ext.swing.dialog.AlphaColorChooser" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="at.bestsolution.ext.swing.dialog.JGradientChooser" />
+			<role name="uniqueInstance" element="at.bestsolution.ext.swing.dialog.JGradientChooser::instance_:at.bestsolution.ext.swing.dialog.JGradientChooser" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.incors.plaf.kunststoff.KunststoffButtonUI" />
+			<role name="uniqueInstance" element="com.incors.plaf.kunststoff.KunststoffButtonUI::buttonUI:com.incors.plaf.kunststoff.KunststoffButtonUI" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.incors.plaf.kunststoff.KunststoffCheckBoxUI" />
+			<role name="uniqueInstance" element="com.incors.plaf.kunststoff.KunststoffCheckBoxUI::checkBoxUI:com.incors.plaf.kunststoff.KunststoffCheckBoxUI" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.incors.plaf.kunststoff.KunststoffToggleButtonUI" />
+			<role name="uniqueInstance" element="com.incors.plaf.kunststoff.KunststoffToggleButtonUI::buttonUI:com.incors.plaf.kunststoff.KunststoffToggleButtonUI" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.incors.plaf.kunststoff.KunststoffToolBarUI" />
+			<role name="uniqueInstance" element="com.incors.plaf.kunststoff.KunststoffToolBarUI::toolBarUI:com.incors.plaf.kunststoff.KunststoffToolBarUI" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.apache.batik.ext.awt.image.CompositeRule" />
+			<role name="uniqueInstance" element="org.apache.batik.ext.awt.image.CompositeRule::OVER:org.apache.batik.ext.awt.image.CompositeRule" />
+			<role name="uniqueInstance" element="org.apache.batik.ext.awt.image.CompositeRule::IN:org.apache.batik.ext.awt.image.CompositeRule" />
+			<role name="uniqueInstance" element="org.apache.batik.ext.awt.image.CompositeRule::OUT:org.apache.batik.ext.awt.image.CompositeRule" />
+			<role name="uniqueInstance" element="org.apache.batik.ext.awt.image.CompositeRule::ATOP:org.apache.batik.ext.awt.image.CompositeRule" />
+			<role name="uniqueInstance" element="org.apache.batik.ext.awt.image.CompositeRule::XOR:org.apache.batik.ext.awt.image.CompositeRule" />
+			<role name="uniqueInstance" element="org.apache.batik.ext.awt.image.CompositeRule::MULTIPLY:org.apache.batik.ext.awt.image.CompositeRule" />
+			<role name="uniqueInstance" element="org.apache.batik.ext.awt.image.CompositeRule::SCREEN:org.apache.batik.ext.awt.image.CompositeRule" />
+			<role name="uniqueInstance" element="org.apache.batik.ext.awt.image.CompositeRule::DARKEN:org.apache.batik.ext.awt.image.CompositeRule" />
+			<role name="uniqueInstance" element="org.apache.batik.ext.awt.image.CompositeRule::LIGHTEN:org.apache.batik.ext.awt.image.CompositeRule" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.apache.batik.ext.awt.image.PadMode" />
+			<role name="uniqueInstance" element="org.apache.batik.ext.awt.image.PadMode::ZERO_PAD:org.apache.batik.ext.awt.image.PadMode" />
+			<role name="uniqueInstance" element="org.apache.batik.ext.awt.image.PadMode::REPLICATE:org.apache.batik.ext.awt.image.PadMode" />
+			<role name="uniqueInstance" element="org.apache.batik.ext.awt.image.PadMode::WRAP:org.apache.batik.ext.awt.image.PadMode" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.apache.batik.ext.awt.image.SVGComposite" />
+			<role name="uniqueInstance" element="org.apache.batik.ext.awt.image.SVGComposite::OVER:org.apache.batik.ext.awt.image.SVGComposite" />
+			<role name="uniqueInstance" element="org.apache.batik.ext.awt.image.SVGComposite::IN:org.apache.batik.ext.awt.image.SVGComposite" />
+			<role name="uniqueInstance" element="org.apache.batik.ext.awt.image.SVGComposite::OUT:org.apache.batik.ext.awt.image.SVGComposite" />
+			<role name="uniqueInstance" element="org.apache.batik.ext.awt.image.SVGComposite::ATOP:org.apache.batik.ext.awt.image.SVGComposite" />
+			<role name="uniqueInstance" element="org.apache.batik.ext.awt.image.SVGComposite::XOR:org.apache.batik.ext.awt.image.SVGComposite" />
+			<role name="uniqueInstance" element="org.apache.batik.ext.awt.image.SVGComposite::MULTIPLY:org.apache.batik.ext.awt.image.SVGComposite" />
+			<role name="uniqueInstance" element="org.apache.batik.ext.awt.image.SVGComposite::SCREEN:org.apache.batik.ext.awt.image.SVGComposite" />
+			<role name="uniqueInstance" element="org.apache.batik.ext.awt.image.SVGComposite::DARKEN:org.apache.batik.ext.awt.image.SVGComposite" />
+			<role name="uniqueInstance" element="org.apache.batik.ext.awt.image.SVGComposite::LIGHTEN:org.apache.batik.ext.awt.image.SVGComposite" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adaptee" element="at.bestsolution.drawswf.dialog.FontDialog" />
+			<role name="Adapter" element="at.bestsolution.drawswf.drawobjects.Text" />
+			<role name="adaptee" element="at.bestsolution.drawswf.drawobjects.Text::font_dialog_:at.bestsolution.drawswf.dialog.FontDialog" />
+			<role name="Request()" element="at.bestsolution.drawswf.drawobjects.Text::mouseReleased(int, int, java.awt.Graphics2D):boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="at.bestsolution.drawswf.drawobjects.DrawSWFFont" />
+			<role name="Adapter" element="at.bestsolution.drawswf.drawobjects.Text" />
+			<role name="adaptee" element="at.bestsolution.drawswf.drawobjects.Text::font_:at.bestsolution.drawswf.drawobjects.DrawSWFFont" />
+			<role name="Request()" element="at.bestsolution.drawswf.drawobjects.Text::drawObject(com.anotherbigidea.flash.movie.Movie, int, int):void" />
+			<role name="Request()" element="at.bestsolution.drawswf.drawobjects.Text::drawObject(java.awt.Graphics2D, at.bestsolution.drawswf.DrawingPanel):void" />
+			<role name="Request()" element="at.bestsolution.drawswf.drawobjects.Text::mouseReleased(int, int, java.awt.Graphics2D):boolean" />
+			<role name="Request()" element="at.bestsolution.drawswf.drawobjects.Text::toSVG(long):java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="at.bestsolution.drawswf.PictureDialog" />
+			<role name="Adapter" element="at.bestsolution.drawswf.drawobjects.Picture" />
+			<role name="adaptee" element="at.bestsolution.drawswf.drawobjects.Picture::picture_dialog_:at.bestsolution.drawswf.PictureDialog" />
+			<role name="Request()" element="at.bestsolution.drawswf.drawobjects.Picture::mouseReleased(int, int, java.awt.Graphics2D):boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.anotherbigidea.flash.interfaces.SWFTagTypes" />
+			<role name="Adapter" element="com.anotherbigidea.flash.readers.TagParser" />
+			<role name="adaptee" element="com.anotherbigidea.flash.readers.TagParser::tagtypes:com.anotherbigidea.flash.interfaces.SWFTagTypes" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.TagParser::tag(int, boolean, byte[]):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.anotherbigidea.flash.interfaces.SWFTags" />
+			<role name="Adapter" element="com.anotherbigidea.flash.writers.TagWriter" />
+			<role name="adaptee" element="com.anotherbigidea.flash.writers.TagWriter::tags:com.anotherbigidea.flash.interfaces.SWFTags" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.TagWriter::tagProtect(byte[]):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.TagWriter::tagEnableDebug(byte[]):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.anotherbigidea.io.OutStream" />
+			<role name="Adapter" element="com.anotherbigidea.flash.writers.TagWriter" />
+			<role name="adaptee" element="com.anotherbigidea.flash.writers.TagWriter::out:com.anotherbigidea.io.OutStream" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.TagWriter::tagDefineSound(int, int, int, boolean, boolean, int, byte[]):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.TagWriter::tagDefineButtonSound(int, int, com.anotherbigidea.flash.structs.SoundInfo, int, com.anotherbigidea.flash.structs.SoundInfo, int, com.anotherbigidea.flash.structs.SoundInfo, int, com.anotherbigidea.flash.structs.SoundInfo):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.TagWriter::tagSerialNumber(java.lang.String):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.TagWriter::tagGenerator(byte[]):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.TagWriter::tagGeneratorText(byte[]):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.TagWriter::tagGeneratorCommand(byte[]):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.TagWriter::tagGeneratorFont(byte[]):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.TagWriter::tagNameCharacter(byte[]):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.TagWriter::tagDefineBits(int, byte[]):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.TagWriter::tagJPEGTables(byte[]):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.TagWriter::tagDefineBitsJPEG3(int, byte[], byte[]):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.TagWriter::tagDefineSprite(int):com.anotherbigidea.flash.interfaces.SWFTagTypes" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.TagWriter::tagDefineFontInfo(int, java.lang.String, int, int[]):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.TagWriter::tagDefineFont2(int, int, java.lang.String, int, int, int, int, int[], int[], com.anotherbigidea.flash.structs.Rect[], int[], int[], int[]):com.anotherbigidea.flash.interfaces.SWFVectors" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.TagWriter::tagDefineTextField(int, java.lang.String, java.lang.String, com.anotherbigidea.flash.structs.Rect, int, com.anotherbigidea.flash.structs.AlphaColor, int, int, int, int, int, int, int, int):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.TagWriter::tagDefineButton2(int, boolean, java.util.Vector):com.anotherbigidea.flash.interfaces.SWFActions" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.TagWriter::tagExport(java.lang.String[], int[]):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.TagWriter::tagImport(java.lang.String, java.lang.String[], int[]):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.TagWriter::tagDefineQuickTimeMovie(int, java.lang.String):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.TagWriter::tagDefineBitsJPEG2(int, byte[]):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.TagWriter::tagDefineBitsJPEG2(int, java.io.InputStream):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.anotherbigidea.io.OutStream" />
+			<role name="Adapter" element="com.anotherbigidea.flash.writers.SWFWriter" />
+			<role name="adaptee" element="com.anotherbigidea.flash.writers.SWFWriter::out:com.anotherbigidea.io.OutStream" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.SWFWriter::tag(int, boolean, byte[]):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="at.bestsolution.drawswf.AboutWindow" />
+			<role name="Adapter" element="at.bestsolution.drawswf.actions.AboutAction" />
+			<role name="adaptee" element="at.bestsolution.drawswf.actions.AboutAction::about_window_:at.bestsolution.drawswf.AboutWindow" />
+			<role name="Request()" element="at.bestsolution.drawswf.actions.AboutAction::actionPerformed(java.awt.event.ActionEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="at.bestsolution.drawswf.LineWidthChooser" />
+			<role name="Adapter" element="at.bestsolution.drawswf.actions.SetLineWidthAction" />
+			<role name="adaptee" element="at.bestsolution.drawswf.actions.SetLineWidthAction::chooser_:at.bestsolution.drawswf.LineWidthChooser" />
+			<role name="Request()" element="at.bestsolution.drawswf.actions.SetLineWidthAction::actionPerformed(java.awt.event.ActionEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="at.bestsolution.drawswf.PictureDialog" />
+			<role name="Adapter" element="at.bestsolution.drawswf.actions.GraphicTemplateAction" />
+			<role name="adaptee" element="at.bestsolution.drawswf.actions.GraphicTemplateAction::picture_dialog_:at.bestsolution.drawswf.PictureDialog" />
+			<role name="Request()" element="at.bestsolution.drawswf.actions.GraphicTemplateAction::actionPerformed(java.awt.event.ActionEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="at.bestsolution.drawswf.dialog.OptionsDialog" />
+			<role name="Adapter" element="at.bestsolution.drawswf.actions.OpenOptionsDialogAction" />
+			<role name="adaptee" element="at.bestsolution.drawswf.actions.OpenOptionsDialogAction::options_dialog_:at.bestsolution.drawswf.dialog.OptionsDialog" />
+			<role name="Request()" element="at.bestsolution.drawswf.actions.OpenOptionsDialogAction::actionPerformed(java.awt.event.ActionEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="at.bestsolution.ext.swing.dialog.AlphaColorChooser" />
+			<role name="Adapter" element="at.bestsolution.drawswf.actions.SetColorAction" />
+			<role name="adaptee" element="at.bestsolution.drawswf.actions.SetColorAction::color_chooser_:at.bestsolution.ext.swing.dialog.AlphaColorChooser" />
+			<role name="Request()" element="at.bestsolution.drawswf.actions.SetColorAction::actionPerformed(java.awt.event.ActionEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="at.bestsolution.drawswf.DrawObjectList" />
+			<role name="Adapter" element="at.bestsolution.drawswf.actions.ObjectListAction" />
+			<role name="adaptee" element="at.bestsolution.drawswf.actions.ObjectListAction::object_list_:at.bestsolution.drawswf.DrawObjectList" />
+			<role name="Request()" element="at.bestsolution.drawswf.actions.ObjectListAction::actionPerformed(java.awt.event.ActionEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.anotherbigidea.io.OutStream" />
+			<role name="Adapter" element="com.anotherbigidea.flash.writers.ActionWriter" />
+			<role name="adaptee" element="com.anotherbigidea.flash.writers.ActionWriter::out:com.anotherbigidea.io.OutStream" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.ActionWriter::end():void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.ActionWriter::unknown(int, byte[]):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.ActionWriter::jumpLabel(java.lang.String):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.ActionWriter::gotoFrame(int):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.ActionWriter::gotoFrame(java.lang.String):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.ActionWriter::getURL(java.lang.String, java.lang.String):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.ActionWriter::setTarget(java.lang.String):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.ActionWriter::waitForFrame(int, java.lang.String):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.ActionWriter::waitForFrame(java.lang.String):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.ActionWriter::call():void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.ActionWriter::getURL(int, int):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.ActionWriter::gotoFrame(boolean):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.ActionWriter::lookupTable(java.lang.String[]):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.ActionWriter::startFunction(java.lang.String, java.lang.String[]):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.ActionWriter::endBlock():void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.ActionWriter::startWith():void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.ActionWriter::storeInRegister(int):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.anotherbigidea.flash.movie.Shape" />
+			<role name="Adapter" element="com.anotherbigidea.flash.readers.MovieBuilder$ShapeBuilder" />
+			<role name="adaptee" element="com.anotherbigidea.flash.readers.MovieBuilder$ShapeBuilder::s:com.anotherbigidea.flash.movie.Shape" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.MovieBuilder$ShapeBuilder::setFillStyle0(int):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.MovieBuilder$ShapeBuilder::setFillStyle1(int):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.MovieBuilder$ShapeBuilder::setLineStyle(int):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.MovieBuilder$ShapeBuilder::defineFillStyle(com.anotherbigidea.flash.structs.Color):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.MovieBuilder$ShapeBuilder::defineFillStyle(com.anotherbigidea.flash.structs.Matrix, int[], com.anotherbigidea.flash.structs.Color[], boolean):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.MovieBuilder$ShapeBuilder::defineFillStyle(int, com.anotherbigidea.flash.structs.Matrix, boolean):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.MovieBuilder$ShapeBuilder::defineLineStyle(int, com.anotherbigidea.flash.structs.Color):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.anotherbigidea.flash.movie.Movie" />
+			<role name="Adapter" element="com.anotherbigidea.flash.readers.MovieBuilder" />
+			<role name="adaptee" element="com.anotherbigidea.flash.readers.MovieBuilder::movie:com.anotherbigidea.flash.movie.Movie" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.MovieBuilder::tagSetBackgroundColor(com.anotherbigidea.flash.structs.Color):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.MovieBuilder::tagProtect(byte[]):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.MovieBuilder::tagDefineButton(int, java.util.Vector):com.anotherbigidea.flash.interfaces.SWFActions" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.MovieBuilder::tagDefineButton2(int, boolean, java.util.Vector):com.anotherbigidea.flash.interfaces.SWFActions" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.MovieBuilder::tagExport(java.lang.String[], int[]):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.MovieBuilder::tagImport(java.lang.String, java.lang.String[], int[]):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="at.bestsolution.ext.swing.icon.GradientIcon" />
+			<role name="Adapter" element="at.bestsolution.ext.swing.GradientJRadioButton" />
+			<role name="adaptee" element="at.bestsolution.ext.swing.GradientJRadioButton::gradient_icon_:at.bestsolution.ext.swing.icon.GradientIcon" />
+			<role name="Request()" element="at.bestsolution.ext.swing.GradientJRadioButton::getGradient():org.apache.batik.ext.awt.MultipleGradientPaint" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="at.bestsolution.ext.swing.icon.GradientIcon" />
+			<role name="Adapter" element="at.bestsolution.ext.swing.GradientJRadioButtonMenuItem" />
+			<role name="adaptee" element="at.bestsolution.ext.swing.GradientJRadioButtonMenuItem::gradient_icon_:at.bestsolution.ext.swing.icon.GradientIcon" />
+			<role name="Request()" element="at.bestsolution.ext.swing.GradientJRadioButtonMenuItem::getGradient():org.apache.batik.ext.awt.MultipleGradientPaint" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.anotherbigidea.flash.writers.TagWriter" />
+			<role name="Adapter" element="com.anotherbigidea.flash.writers.ActionWriter" />
+			<role name="adaptee" element="com.anotherbigidea.flash.writers.ActionWriter::tagWriter:com.anotherbigidea.flash.writers.TagWriter" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.ActionWriter::done():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.apache.batik.ext.awt.image.rendered.LRUCache" />
+			<role name="Adapter" element="org.apache.batik.ext.awt.image.rendered.TileGrid" />
+			<role name="adaptee" element="org.apache.batik.ext.awt.image.rendered.TileGrid::cache:org.apache.batik.ext.awt.image.rendered.LRUCache" />
+			<role name="Request()" element="org.apache.batik.ext.awt.image.rendered.TileGrid::setTile(int, int, java.awt.image.Raster):void" />
+			<role name="Request()" element="org.apache.batik.ext.awt.image.rendered.TileGrid::getTileNoCompute(int, int):java.awt.image.Raster" />
+			<role name="Request()" element="org.apache.batik.ext.awt.image.rendered.TileGrid::getTile(int, int):java.awt.image.Raster" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.apache.batik.ext.awt.image.rendered.LRUCache" />
+			<role name="Adapter" element="org.apache.batik.ext.awt.image.rendered.TileMap" />
+			<role name="adaptee" element="org.apache.batik.ext.awt.image.rendered.TileMap::cache:org.apache.batik.ext.awt.image.rendered.LRUCache" />
+			<role name="Request()" element="org.apache.batik.ext.awt.image.rendered.TileMap::setTile(int, int, java.awt.image.Raster):void" />
+			<role name="Request()" element="org.apache.batik.ext.awt.image.rendered.TileMap::getTileNoCompute(int, int):java.awt.image.Raster" />
+			<role name="Request()" element="org.apache.batik.ext.awt.image.rendered.TileMap::getTile(int, int):java.awt.image.Raster" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.anotherbigidea.flash.movie.Shape" />
+			<role name="Adapter" element="com.anotherbigidea.flash.movie.FontLoader$VectorImpl" />
+			<role name="adaptee" element="com.anotherbigidea.flash.movie.FontLoader$VectorImpl::shape:com.anotherbigidea.flash.movie.Shape" />
+			<role name="Request()" element="com.anotherbigidea.flash.movie.FontLoader$VectorImpl::line(int, int):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.movie.FontLoader$VectorImpl::curve(int, int, int, int):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.movie.FontLoader$VectorImpl::move(int, int):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.apache.batik.ext.awt.image.rendered.TileGenerator" />
+			<role name="Adapter" element="org.apache.batik.ext.awt.image.rendered.TileGrid" />
+			<role name="adaptee" element="org.apache.batik.ext.awt.image.rendered.TileGrid::source:org.apache.batik.ext.awt.image.rendered.TileGenerator" />
+			<role name="Request()" element="org.apache.batik.ext.awt.image.rendered.TileGrid::getTile(int, int):java.awt.image.Raster" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.apache.batik.ext.awt.image.rendered.TileGenerator" />
+			<role name="Adapter" element="org.apache.batik.ext.awt.image.rendered.TileMap" />
+			<role name="adaptee" element="org.apache.batik.ext.awt.image.rendered.TileMap::source:org.apache.batik.ext.awt.image.rendered.TileGenerator" />
+			<role name="Request()" element="org.apache.batik.ext.awt.image.rendered.TileMap::getTile(int, int):java.awt.image.Raster" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.anotherbigidea.flash.movie.Font" />
+			<role name="Adapter" element="com.anotherbigidea.flash.readers.MovieBuilder$TextBuilder" />
+			<role name="adaptee" element="com.anotherbigidea.flash.readers.MovieBuilder$TextBuilder::font:com.anotherbigidea.flash.movie.Font" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.MovieBuilder$TextBuilder::text(int[], int[]):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.anotherbigidea.flash.movie.Text" />
+			<role name="Adapter" element="com.anotherbigidea.flash.readers.MovieBuilder$TextBuilder" />
+			<role name="adaptee" element="com.anotherbigidea.flash.readers.MovieBuilder$TextBuilder::t:com.anotherbigidea.flash.movie.Text" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.MovieBuilder$TextBuilder::text(int[], int[]):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.anotherbigidea.flash.structs.Color" />
+			<role name="Adapter" element="com.anotherbigidea.flash.structs.FillStyle" />
+			<role name="adaptee" element="com.anotherbigidea.flash.structs.FillStyle::color:com.anotherbigidea.flash.structs.Color" />
+			<role name="adaptee" element="com.anotherbigidea.flash.structs.FillStyle::colors:com.anotherbigidea.flash.structs.Color[]" />
+			<role name="Request()" element="com.anotherbigidea.flash.structs.FillStyle::write(com.anotherbigidea.io.OutStream, boolean):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.anotherbigidea.flash.structs.Color" />
+			<role name="Adapter" element="com.anotherbigidea.flash.structs.LineStyle" />
+			<role name="adaptee" element="com.anotherbigidea.flash.structs.LineStyle::color:com.anotherbigidea.flash.structs.Color" />
+			<role name="Request()" element="com.anotherbigidea.flash.structs.LineStyle::write(com.anotherbigidea.io.OutStream, boolean):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.anotherbigidea.flash.structs.Matrix" />
+			<role name="Adapter" element="com.anotherbigidea.flash.structs.FillStyle" />
+			<role name="adaptee" element="com.anotherbigidea.flash.structs.FillStyle::matrix:com.anotherbigidea.flash.structs.Matrix" />
+			<role name="Request()" element="com.anotherbigidea.flash.structs.FillStyle::write(com.anotherbigidea.io.OutStream, boolean):void" />
+		</instance>
+	</pattern>
+	<pattern name="Command" />
+	<pattern name="Composite" />
+	<pattern name="Decorator">
+		<instance>
+			<role name="Component" element="com.anotherbigidea.flash.interfaces.SWFActions" />
+			<role name="Decorator" element="com.anotherbigidea.flash.writers.SWFActionsImpl" />
+			<role name="component" element="com.anotherbigidea.flash.writers.SWFActionsImpl::acts:com.anotherbigidea.flash.interfaces.SWFActions" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::start(int):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::end():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::done():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::blob(byte[]):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::unknown(int, byte[]):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::initArray():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::jumpLabel(java.lang.String):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::gotoFrame(int):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::gotoFrame(java.lang.String):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::getURL(java.lang.String, java.lang.String):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::nextFrame():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::prevFrame():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::play():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::stop():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::toggleQuality():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::stopSounds():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::setTarget(java.lang.String):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::jump(java.lang.String):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::ifJump(java.lang.String):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::waitForFrame(int, java.lang.String):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::waitForFrame(java.lang.String):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::pop():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::push(java.lang.String):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::push(float):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::push(double):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::pushNull():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::pushRegister(int):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::push(boolean):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::push(int):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::lookup(int):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::add():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::substract():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::multiply():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::divide():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::equals():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::lessThan():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::and():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::or():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::not():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::stringEquals():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::stringLength():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::concat():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::substring():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::stringLessThan():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::stringLengthMB():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::substringMB():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::toInteger():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::charToAscii():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::asciiToChar():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::charMBToAscii():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::asciiToCharMB():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::call():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::getVariable():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::setVariable():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::getURL(int, int):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::gotoFrame(boolean):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::setTarget():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::getProperty():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::setProperty():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::cloneSprite():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::removeSprite():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::startDrag():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::endDrag():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::trace():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::getTime():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::randomNumber():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::lookupTable(java.lang.String[]):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::callFunction():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::callMethod():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::startFunction(java.lang.String, java.lang.String[]):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::endBlock():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::comment(java.lang.String):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::defineLocalValue():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::defineLocal():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::deleteProperty():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::deleteThreadVars():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::enumerate():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::typedEquals():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::getMember():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::initObject():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::newMethod():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::newObject():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::setMember():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::getTargetPath():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::startWith():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::duplicate():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::returnValue():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::swap():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::storeInRegister(int):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::convertToNumber():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::convertToString():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::typeOf():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::typedAdd():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::typedLessThan():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::modulo():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::bitAnd():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::bitOr():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::bitXor():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::shiftLeft():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::shiftRight():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::shiftRightUnsigned():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::decrement():void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFActionsImpl::increment():void" />
+		</instance>
+		<instance>
+			<role name="Component" element="com.anotherbigidea.flash.interfaces.SWFTagTypes" />
+			<role name="Decorator" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl" />
+			<role name="component" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tags:com.anotherbigidea.flash.interfaces.SWFTagTypes" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tagDefineSound(int, int, int, boolean, boolean, int, byte[]):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tagDefineButtonSound(int, int, com.anotherbigidea.flash.structs.SoundInfo, int, com.anotherbigidea.flash.structs.SoundInfo, int, com.anotherbigidea.flash.structs.SoundInfo, int, com.anotherbigidea.flash.structs.SoundInfo):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tagSerialNumber(java.lang.String):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tagGenerator(byte[]):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tagGeneratorText(byte[]):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tagGeneratorFont(byte[]):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tagGeneratorCommand(byte[]):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tagNameCharacter(byte[]):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tagDefineBits(int, byte[]):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tagJPEGTables(byte[]):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tagDefineBitsJPEG3(int, byte[], byte[]):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tagDefineShape(int, com.anotherbigidea.flash.structs.Rect):com.anotherbigidea.flash.interfaces.SWFShape" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tagDefineShape2(int, com.anotherbigidea.flash.structs.Rect):com.anotherbigidea.flash.interfaces.SWFShape" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tagDefineShape3(int, com.anotherbigidea.flash.structs.Rect):com.anotherbigidea.flash.interfaces.SWFShape" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tagSetBackgroundColor(com.anotherbigidea.flash.structs.Color):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tagDefineSprite(int):com.anotherbigidea.flash.interfaces.SWFTagTypes" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tagProtect(byte[]):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tagEnableDebug(byte[]):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tagDefineFont(int, int):com.anotherbigidea.flash.interfaces.SWFVectors" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tagDefineFontInfo(int, java.lang.String, int, int[]):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tagDefineFont2(int, int, java.lang.String, int, int, int, int, int[], int[], com.anotherbigidea.flash.structs.Rect[], int[], int[], int[]):com.anotherbigidea.flash.interfaces.SWFVectors" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tagDefineTextField(int, java.lang.String, java.lang.String, com.anotherbigidea.flash.structs.Rect, int, com.anotherbigidea.flash.structs.AlphaColor, int, int, int, int, int, int, int, int):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tagDefineText(int, com.anotherbigidea.flash.structs.Rect, com.anotherbigidea.flash.structs.Matrix):com.anotherbigidea.flash.interfaces.SWFText" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tagDefineText2(int, com.anotherbigidea.flash.structs.Rect, com.anotherbigidea.flash.structs.Matrix):com.anotherbigidea.flash.interfaces.SWFText" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tagDefineButton(int, java.util.Vector):com.anotherbigidea.flash.interfaces.SWFActions" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tagButtonCXForm(int, com.anotherbigidea.flash.structs.ColorTransform):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tagDefineButton2(int, boolean, java.util.Vector):com.anotherbigidea.flash.interfaces.SWFActions" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tagExport(java.lang.String[], int[]):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tagImport(java.lang.String, java.lang.String[], int[]):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tagDefineQuickTimeMovie(int, java.lang.String):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tagDefineBitsJPEG2(int, byte[]):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tagDefineBitsJPEG2(int, java.io.InputStream):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tagDefineMorphShape(int, com.anotherbigidea.flash.structs.Rect, com.anotherbigidea.flash.structs.Rect):com.anotherbigidea.flash.interfaces.SWFShape" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tagDefineBitsLossless(int, int, int, int, com.anotherbigidea.flash.structs.Color[], byte[]):void" />
+			<role name="Operation()" element="com.anotherbigidea.flash.writers.SWFTagTypesImpl::tagDefineBitsLossless2(int, int, int, int, com.anotherbigidea.flash.structs.Color[], byte[]):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="com.anotherbigidea.flash.interfaces.SWFTags" />
+			<role name="Decorator" element="com.anotherbigidea.flash.Unprotector" />
+			<role name="component" element="com.anotherbigidea.flash.Unprotector::writer:com.anotherbigidea.flash.interfaces.SWFTags" />
+			<role name="Operation()" element="com.anotherbigidea.flash.Unprotector::tag(int, boolean, byte[]):void" />
+		</instance>
+	</pattern>
+	<pattern name="Observer" />
+	<pattern name="State">
+		<instance>
+			<role name="Context" element="com.anotherbigidea.flash.readers.ActionParser" />
+			<role name="State" element="com.anotherbigidea.flash.interfaces.SWFActions" />
+			<role name="state" element="com.anotherbigidea.flash.readers.ActionParser::actions:com.anotherbigidea.flash.interfaces.SWFActions" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.ActionParser::processRecords(java.util.Vector):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.ActionParser::parseDefineFunction(com.anotherbigidea.io.InStream):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.ActionParser::parseWith(com.anotherbigidea.io.InStream):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.ActionParser::parseLookupTable(com.anotherbigidea.io.InStream):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.ActionParser::parseGetURL2(int):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.ActionParser::parsePush(int, com.anotherbigidea.io.InStream):void" />
+		</instance>
+		<instance>
+			<role name="State" element="at.bestsolution.drawswf.drawobjects.DrawObject" />
+			<role name="Context" element="at.bestsolution.drawswf.DrawingPanel" />
+			<role name="state" element="at.bestsolution.drawswf.DrawingPanel::draw_object_:at.bestsolution.drawswf.drawobjects.DrawObject" />
+			<role name="Request()" element="at.bestsolution.drawswf.DrawingPanel::selectObject(java.awt.event.MouseEvent):void" />
+			<role name="Request()" element="at.bestsolution.drawswf.DrawingPanel::dragObject(java.awt.event.MouseEvent):void" />
+			<role name="Request()" element="at.bestsolution.drawswf.DrawingPanel::mousePressed(java.awt.event.MouseEvent):void" />
+			<role name="Request()" element="at.bestsolution.drawswf.DrawingPanel::drawGradientLine(java.awt.event.MouseEvent):void" />
+			<role name="Request()" element="at.bestsolution.drawswf.DrawingPanel::mouseReleased(java.awt.event.MouseEvent):void" />
+			<role name="Request()" element="at.bestsolution.drawswf.DrawingPanel::mouseDragged(java.awt.event.MouseEvent):void" />
+		</instance>
+		<instance>
+			<role name="State" element="com.anotherbigidea.flash.interfaces.SWFTagTypes" />
+			<role name="Context" element="com.anotherbigidea.flash.readers.TagParser" />
+			<role name="state" element="com.anotherbigidea.flash.readers.TagParser::tagtypes:com.anotherbigidea.flash.interfaces.SWFTagTypes" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.TagParser::tag(int, boolean, byte[]):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.TagParser::parseDefineSound(com.anotherbigidea.io.InStream):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.TagParser::parseDefineButtonSound(com.anotherbigidea.io.InStream):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.TagParser::parseDefineBits(com.anotherbigidea.io.InStream):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.TagParser::parseDefineJPEGTables(com.anotherbigidea.io.InStream):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.TagParser::parseDefineBitsJPEG3(com.anotherbigidea.io.InStream):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.TagParser::parseMorphShape(com.anotherbigidea.io.InStream):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.TagParser::parseDefineJPEG2(com.anotherbigidea.io.InStream, int):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.TagParser::parseDefineBitsLossless(com.anotherbigidea.io.InStream, int, boolean):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.TagParser::parseExport(com.anotherbigidea.io.InStream):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.TagParser::parseImport(com.anotherbigidea.io.InStream):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.TagParser::parseDefineButton2(com.anotherbigidea.io.InStream):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.TagParser::parseButtonCXForm(com.anotherbigidea.io.InStream):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.TagParser::parseDefineButton(com.anotherbigidea.io.InStream):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.TagParser::parseDefineText(int, com.anotherbigidea.io.InStream):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.TagParser::parseDefineTextField(com.anotherbigidea.io.InStream):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.TagParser::parseDefineFont2(com.anotherbigidea.io.InStream):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.TagParser::parseFontInfo(com.anotherbigidea.io.InStream, int):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.TagParser::parseDefineFont(com.anotherbigidea.io.InStream):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.TagParser::parseDefineSprite(com.anotherbigidea.io.InStream):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.TagParser::parseDefineShape(int, com.anotherbigidea.io.InStream):void" />
+		</instance>
+		<instance>
+			<role name="State" element="com.anotherbigidea.flash.interfaces.SWFTags" />
+			<role name="Context" element="com.anotherbigidea.flash.writers.TagWriter" />
+			<role name="state" element="com.anotherbigidea.flash.writers.TagWriter::tags:com.anotherbigidea.flash.interfaces.SWFTags" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.TagWriter::completeTag():void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.TagWriter::tag(int, boolean, byte[]):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.TagWriter::tagEnd():void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.TagWriter::tagShowFrame():void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.TagWriter::tagProtect(byte[]):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.writers.TagWriter::tagEnableDebug(byte[]):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.anotherbigidea.flash.readers.SWFReader" />
+			<role name="State" element="com.anotherbigidea.flash.interfaces.SWFTags" />
+			<role name="state" element="com.anotherbigidea.flash.readers.SWFReader::consumer:com.anotherbigidea.flash.interfaces.SWFTags" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.SWFReader::readOneTag():int" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.anotherbigidea.flash.movie.Frame" />
+			<role name="State" element="com.anotherbigidea.flash.movie.TimeLine" />
+			<role name="state" element="com.anotherbigidea.flash.movie.Frame::timeline:com.anotherbigidea.flash.movie.TimeLine" />
+			<role name="Request()" element="com.anotherbigidea.flash.movie.Frame::placeSymbol(com.anotherbigidea.flash.movie.Symbol, com.anotherbigidea.flash.movie.Transform, com.anotherbigidea.flash.structs.AlphaTransform, int, int):com.anotherbigidea.flash.movie.Instance" />
+			<role name="Request()" element="com.anotherbigidea.flash.movie.Frame::placeMovieClip(com.anotherbigidea.flash.movie.Symbol, com.anotherbigidea.flash.movie.Transform, com.anotherbigidea.flash.structs.AlphaTransform, java.lang.String, com.anotherbigidea.flash.movie.Actions[]):com.anotherbigidea.flash.movie.Instance" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.anotherbigidea.flash.readers.MovieBuilder" />
+			<role name="State" element="com.anotherbigidea.flash.movie.TimeLine" />
+			<role name="state" element="com.anotherbigidea.flash.readers.MovieBuilder::timeline:com.anotherbigidea.flash.movie.TimeLine" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.MovieBuilder::tagShowFrame():void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.MovieBuilder::currentFrame():com.anotherbigidea.flash.movie.Frame" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.MovieBuilder::tagPlaceObject(int, int, com.anotherbigidea.flash.structs.Matrix, com.anotherbigidea.flash.structs.AlphaTransform):void" />
+			<role name="Request()" element="com.anotherbigidea.flash.readers.MovieBuilder::tagPlaceObject2(boolean, int, int, int, com.anotherbigidea.flash.structs.Matrix, com.anotherbigidea.flash.structs.AlphaTransform, int, java.lang.String, int):com.anotherbigidea.flash.interfaces.SWFActions" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.incors.plaf.kunststoff.KunststoffLookAndFeel" />
+			<role name="State" element="com.incors.plaf.kunststoff.GradientTheme" />
+			<role name="state" element="com.incors.plaf.kunststoff.KunststoffLookAndFeel::gradientTheme:com.incors.plaf.kunststoff.GradientTheme" />
+			<role name="Request()" element="com.incors.plaf.kunststoff.KunststoffLookAndFeel::getComponentGradientColorReflection():javax.swing.plaf.ColorUIResource" />
+			<role name="Request()" element="com.incors.plaf.kunststoff.KunststoffLookAndFeel::getComponentGradientColorShadow():javax.swing.plaf.ColorUIResource" />
+			<role name="Request()" element="com.incors.plaf.kunststoff.KunststoffLookAndFeel::getTextComponentGradientColorReflection():javax.swing.plaf.ColorUIResource" />
+			<role name="Request()" element="com.incors.plaf.kunststoff.KunststoffLookAndFeel::getTextComponentGradientColorShadow():javax.swing.plaf.ColorUIResource" />
+			<role name="Request()" element="com.incors.plaf.kunststoff.KunststoffLookAndFeel::getBackgroundGradientShadow():int" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.batik.ext.awt.image.rendered.TileGrid" />
+			<role name="State" element="org.apache.batik.ext.awt.image.rendered.TileGenerator" />
+			<role name="state" element="org.apache.batik.ext.awt.image.rendered.TileGrid::source:org.apache.batik.ext.awt.image.rendered.TileGenerator" />
+			<role name="Request()" element="org.apache.batik.ext.awt.image.rendered.TileGrid::getTile(int, int):java.awt.image.Raster" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.batik.ext.awt.image.rendered.TileMap" />
+			<role name="State" element="org.apache.batik.ext.awt.image.rendered.TileGenerator" />
+			<role name="state" element="org.apache.batik.ext.awt.image.rendered.TileMap::source:org.apache.batik.ext.awt.image.rendered.TileGenerator" />
+			<role name="Request()" element="org.apache.batik.ext.awt.image.rendered.TileMap::getTile(int, int):java.awt.image.Raster" />
+		</instance>
+		<instance>
+			<role name="State" element="org.apache.batik.ext.awt.image.rendered.LRUCache$LRUObj" />
+			<role name="Context" element="org.apache.batik.ext.awt.image.rendered.LRUCache$LRUNode" />
+			<role name="state" element="org.apache.batik.ext.awt.image.rendered.LRUCache$LRUNode::obj:org.apache.batik.ext.awt.image.rendered.LRUCache$LRUObj" />
+			<role name="Request()" element="org.apache.batik.ext.awt.image.rendered.LRUCache$LRUNode::setObj(org.apache.batik.ext.awt.image.rendered.LRUCache$LRUObj):void" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy" />
+	<pattern name="Bridge">
+		<instance>
+			<role name="Abstraction" element="org.apache.batik.ext.awt.image.rendered.AbstractTiledRed" />
+			<role name="Implementor" element="org.apache.batik.ext.awt.image.rendered.TileStore" />
+			<role name="implementor" element="org.apache.batik.ext.awt.image.rendered.AbstractTiledRed::tiles:org.apache.batik.ext.awt.image.rendered.TileStore" />
+			<role name="Operation()" element="org.apache.batik.ext.awt.image.rendered.AbstractTiledRed::getTile(int, int):java.awt.image.Raster" />
+			<role name="Operation()" element="org.apache.batik.ext.awt.image.rendered.AbstractTiledRed::setTile(int, int, java.awt.image.Raster):void" />
+			<role name="Operation()" element="org.apache.batik.ext.awt.image.rendered.AbstractTiledRed::copyToRasterByBlocks(java.awt.image.WritableRaster):void" />
+			<role name="Operation()" element="org.apache.batik.ext.awt.image.rendered.AbstractTiledRed::copyToRaster(java.awt.image.WritableRaster):void" />
+		</instance>
+	</pattern>
+	<pattern name="Template Method">
+		<instance>
+			<role name="AbstractClass" element="com.anotherbigidea.flash.movie.Symbol" />
+			<role name="TemplateMethod()" element="com.anotherbigidea.flash.movie.Symbol::define(com.anotherbigidea.flash.movie.Movie, com.anotherbigidea.flash.interfaces.SWFTagTypes, com.anotherbigidea.flash.interfaces.SWFTagTypes):int" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.apache.batik.ext.awt.image.rendered.AbstractTiledRed" />
+			<role name="TemplateMethod()" element="org.apache.batik.ext.awt.image.rendered.AbstractTiledRed::genTile(int, int):java.awt.image.Raster" />
+			<role name="TemplateMethod()" element="org.apache.batik.ext.awt.image.rendered.AbstractTiledRed::drawBlockAndCopy(org.apache.batik.ext.awt.image.rendered.TileBlock[], java.awt.image.WritableRaster):void" />
+			<role name="TemplateMethod()" element="org.apache.batik.ext.awt.image.rendered.AbstractTiledRed::drawBlockInPlace(org.apache.batik.ext.awt.image.rendered.TileBlock[], java.awt.image.WritableRaster):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.apache.batik.ext.awt.image.SVGComposite$AlphaPreCompositeContext" />
+			<role name="TemplateMethod()" element="org.apache.batik.ext.awt.image.SVGComposite$AlphaPreCompositeContext::compose(java.awt.image.Raster, java.awt.image.Raster, java.awt.image.WritableRaster):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.apache.batik.ext.awt.image.SVGComposite$AlphaPreCompositeContext_INT_PACK" />
+			<role name="TemplateMethod()" element="org.apache.batik.ext.awt.image.SVGComposite$AlphaPreCompositeContext_INT_PACK::precompose(java.awt.image.Raster, java.awt.image.Raster, java.awt.image.WritableRaster):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.apache.batik.ext.awt.MultipleGradientPaintContext" />
+			<role name="TemplateMethod()" element="org.apache.batik.ext.awt.MultipleGradientPaintContext::getRaster(int, int, int, int):java.awt.image.Raster" />
+		</instance>
+	</pattern>
+	<pattern name="Visitor" />
+	<pattern name="Proxy" />
+	<pattern name="Proxy2" />
+	<pattern name="Chain of Responsibility" />
+</system>
+

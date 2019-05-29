@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method">
+		<instance>
+			<role name="Creator" element="kiwi.util.ResourcePool" />
+			<role name="FactoryMethod()" element="kiwi.util.ResourcePool::constructResource():kiwi.util.Resource" />
+		</instance>
+	</pattern>
+	<pattern name="Prototype" />
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="ca.bc.webarts.jOggPlayer" />
+			<role name="uniqueInstance" element="ca.bc.webarts.jOggPlayer::applicationPlayer:ca.bc.webarts.jOggPlayer" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="ca.bc.webarts.tools.Log" />
+			<role name="uniqueInstance" element="ca.bc.webarts.tools.Log::log_:ca.bc.webarts.tools.Log" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="kiwi.ui.ToolTipManager" />
+			<role name="uniqueInstance" element="kiwi.ui.ToolTipManager::manager:kiwi.ui.ToolTipManager" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="kiwi.ui.UIChangeManager" />
+			<role name="uniqueInstance" element="kiwi.ui.UIChangeManager::instance:kiwi.ui.UIChangeManager" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="kiwi.util.LocaleManager" />
+			<role name="uniqueInstance" element="kiwi.util.LocaleManager::defaultLocaleManager:kiwi.util.LocaleManager" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="kiwi.util.ResourceManager" />
+			<role name="uniqueInstance" element="kiwi.util.ResourceManager::kiwiResourceManager:kiwi.util.ResourceManager" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="net.roarsoftware.lastfm.Caller" />
+			<role name="uniqueInstance" element="net.roarsoftware.lastfm.Caller::instance:net.roarsoftware.lastfm.Caller" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adapter" element="kiwi.ui.AudioClipViewer" />
+			<role name="Adaptee" element="kiwi.ui.AudioClip" />
+			<role name="adaptee" element="kiwi.ui.AudioClipViewer::clip:kiwi.ui.AudioClip" />
+			<role name="Request()" element="kiwi.ui.AudioClipViewer::showElement(kiwi.ui.UIElement):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="kiwi.ui.ScrollbackView$FastListModel" />
+			<role name="Adapter" element="kiwi.ui.ScrollbackView" />
+			<role name="adaptee" element="kiwi.ui.ScrollbackView::model:kiwi.ui.ScrollbackView$FastListModel" />
+			<role name="Request()" element="kiwi.ui.ScrollbackView::addItem(java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="kiwi.ui.ScrollbackView" />
+			<role name="Adapter" element="kiwi.ui.ConsoleFrame" />
+			<role name="adaptee" element="kiwi.ui.ConsoleFrame::buffer:kiwi.ui.ScrollbackView" />
+			<role name="Request()" element="kiwi.ui.ConsoleFrame::logMessage(int, java.lang.String):void" />
+		</instance>
+	</pattern>
+	<pattern name="Command" />
+	<pattern name="Composite">
+		<instance>
+			<role name="Component" element="kiwi.util.LoggingEndpoint" />
+			<role name="Composite" element="kiwi.util.LoggingMux" />
+			<role name="Operation()" element="kiwi.util.LoggingMux::logMessage(int, java.lang.String):void" />
+		</instance>
+	</pattern>
+	<pattern name="Decorator" />
+	<pattern name="Observer">
+		<instance>
+			<role name="Observer" element="kiwi.util.ProgressObserver" />
+			<role name="Subject" element="kiwi.util.Task" />
+			<role name="Notify()" element="kiwi.util.Task::notifyObservers(int):void" />
+		</instance>
+	</pattern>
+	<pattern name="State">
+		<instance>
+			<role name="Context" element="kiwi.ui.ConsoleAdapter" />
+			<role name="State" element="kiwi.util.LoggingEndpoint" />
+			<role name="state" element="kiwi.ui.ConsoleAdapter::log:kiwi.util.LoggingEndpoint" />
+			<role name="Request()" element="kiwi.ui.ConsoleAdapter::_run():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="kiwi.util.CommandDispatcher" />
+			<role name="State" element="kiwi.util.CommandProcessor" />
+			<role name="state" element="kiwi.util.CommandDispatcher::processor:kiwi.util.CommandProcessor" />
+			<role name="Request()" element="kiwi.util.CommandDispatcher::dispatch(java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="ca.bc.webarts.widgets.dnd.TransferableObject" />
+			<role name="State" element="ca.bc.webarts.widgets.dnd.TransferableObject$Fetcher" />
+			<role name="state" element="ca.bc.webarts.widgets.dnd.TransferableObject::fetcher:ca.bc.webarts.widgets.dnd.TransferableObject$Fetcher" />
+			<role name="Request()" element="ca.bc.webarts.widgets.dnd.TransferableObject::getTransferData(java.awt.datatransfer.DataFlavor):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="kiwi.util.MergeSort" />
+			<role name="State" element="kiwi.util.Comparator" />
+			<role name="state" element="kiwi.util.MergeSort::comparator:kiwi.util.Comparator" />
+			<role name="Request()" element="kiwi.util.MergeSort::merge(int, int, int):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="kiwi.util.VectorUtils" />
+			<role name="State" element="kiwi.util.Comparator" />
+			<role name="state" element="kiwi.util.VectorUtils::comparator:kiwi.util.Comparator" />
+			<role name="Request()" element="kiwi.util.VectorUtils::linearSearch(java.util.Vector, java.lang.Object):java.lang.Object" />
+			<role name="Request()" element="kiwi.util.VectorUtils::binarySearch(java.util.Vector, java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="kiwi.ui.UIElementChooser" />
+			<role name="State" element="kiwi.ui.UIElementViewer" />
+			<role name="state" element="kiwi.ui.UIElementChooser::elementViewer:kiwi.ui.UIElementViewer" />
+			<role name="Request()" element="kiwi.ui.UIElementChooser::setElementViewer(kiwi.ui.UIElementViewer):void" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy" />
+	<pattern name="Bridge" />
+	<pattern name="Template Method">
+		<instance>
+			<role name="AbstractClass" element="kiwi.ui.WorkspaceEditor" />
+			<role name="TemplateMethod()" element="kiwi.ui.WorkspaceEditor::setObject(java.lang.Object):void" />
+		</instance>
+	</pattern>
+	<pattern name="Visitor" />
+	<pattern name="Proxy" />
+	<pattern name="Proxy2" />
+	<pattern name="Chain of Responsibility" />
+</system>
+

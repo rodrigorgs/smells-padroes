@@ -1,0 +1,503 @@
+Feature Envy	Formatter.toSourceCode	1	1,0
+Feature Envy	Formatter.toSourceCode	2	1,0
+Intensive Coupling	Formatter.toTitleString	3	1,0
+Refused Parent Bequest	Formatter	4	1,0
+Tradition Breaker	Formatter	5	1,0
+Feature Envy	RandomSeedGenerator.print	6	1,0
+Feature Envy	DynamicBin1D.aggregate	7	1,0
+God Class	DynamicBin1D	8	1,0
+Data Class	DynamicBin1D	9	1,0
+Refused Parent Bequest	DynamicBin1D	10	1,0
+Shotgun Surgery	AbstractIntList.size	11	1,0
+Refused Parent Bequest	AbstractIntList	12	1,0
+Tradition Breaker	AbstractIntList	13	1,0
+Refused Parent Bequest	SparseDoubleMatrix2D	14	1,0
+Intensive Coupling	QRDecomposition.QRDecomposition	15	1,0
+Feature Envy	QRDecomposition.getQ	16	1,0
+Intensive Coupling	QRDecomposition.getQ	17	1,0
+Feature Envy	QRDecomposition.getR	18	1,0
+Intensive Coupling	Test.writeAsXML	19	1,0
+Shotgun Surgery	AbstractMatrix1D.checkSize	20	1,0
+Shotgun Surgery	AbstractMatrix1D.setUp	21	1,0
+Shotgun Surgery	AbstractMatrix1D.size	22	1,0
+Shotgun Surgery	AbstractMatrix1D.toStringShort	23	1,0
+Refused Parent Bequest	AbstractMatrix1D	24	1,0
+Feature Envy	Property.generateNonSingular	25	1,0
+Feature Envy	Property.isDiagonallyDominantByColumn	26	1,0
+Feature Envy	Property.isDiagonallyDominantByRow	27	1,0
+Feature Envy	Property.toString	28	1,0
+Intensive Coupling	Property.toString	29	1,0
+Data Class	Property	30	1,0
+Refused Parent Bequest	Property	31	1,0
+Tradition Breaker	Property	32	1,0
+Refused Parent Bequest	SelectedSparseObjectMatrix1D	33	1,0
+Data Class	FloatArrayList	34	1,0
+Refused Parent Bequest	FloatArrayList	35	1,0
+Feature Envy	ObjectFactory2D.make	36	1,0
+God Class	ObjectFactory2D	37	1,0
+Refused Parent Bequest	ObjectFactory2D	38	1,0
+Tradition Breaker	ObjectFactory2D	39	1,0
+Data Class	Empirical	40	1,0
+Refused Parent Bequest	Empirical	41	1,0
+Refused Parent Bequest	WrapperDoubleMatrix2D	42	1,0
+Feature Envy	SparseDoubleMatrix3D.SparseDoubleMatrix3D	43	1,0
+Refused Parent Bequest	SparseDoubleMatrix3D	44	1,0
+Brain Method	SingularValueDecomposition.SingularValueDecomposition	45	1,0
+Intensive Coupling	SingularValueDecomposition.SingularValueDecomposition	46	1,0
+Refused Parent Bequest	SparseObjectMatrix2D	47	1,0
+Feature Envy	BenchmarkMatrix.fun_pow	48	1,0
+Dispersed Coupling	BenchmarkMatrix.fun_pow	49	1,0
+Feature Envy	BenchmarkMatrix.funLUSolve	50	1,0
+Feature Envy	BenchmarkMatrix.funMatMultLarge	51	1,0
+Feature Envy	BenchmarkMatrix.getFactory	52	1,0
+Brain Method	BenchmarkMatrix.main	53	1,0
+Dispersed Coupling	BenchmarkMatrix.main	54	1,0
+Dispersed Coupling	BenchmarkMatrix.run	55	1,0
+Dispersed Coupling	BenchmarkMatrix.runSpecial	56	1,0
+God Class	BenchmarkMatrix	57	1,0
+Brain Class	BenchmarkMatrix	58	1,0
+Refused Parent Bequest	SelectedSparseObjectMatrix2D	59	1,0
+Shotgun Surgery	PersistentObject.clone	60	1,0
+Refused Parent Bequest	AbstractByteList	61	1,0
+Tradition Breaker	AbstractByteList	62	1,0
+Feature Envy	DoubleMatrix2D.assign	63	1,0
+Shotgun Surgery	DoubleMatrix2D.assign	64	1,0
+Shotgun Surgery	DoubleMatrix2D.assign	65	1,0
+Shotgun Surgery	DoubleMatrix2D.assign	66	1,0
+Shotgun Surgery	DoubleMatrix2D.copy	67	1,0
+Shotgun Surgery	DoubleMatrix2D.getQuick	68	1,0
+Shotgun Surgery	DoubleMatrix2D.like	69	1,0
+Shotgun Surgery	DoubleMatrix2D.set	70	1,0
+Shotgun Surgery	DoubleMatrix2D.setQuick	71	1,0
+Shotgun Surgery	DoubleMatrix2D.viewColumn	72	1,0
+Shotgun Surgery	DoubleMatrix2D.viewDice	73	1,0
+Shotgun Surgery	DoubleMatrix2D.viewPart	74	1,0
+Shotgun Surgery	DoubleMatrix2D.viewRow	75	1,0
+Feature Envy	DoubleMatrix2D.viewSelection	76	1,0
+Shotgun Surgery	DoubleMatrix2D.viewSelection	77	1,0
+God Class	DoubleMatrix2D	78	1,0
+Data Class	DoubleMatrix2D	79	1,0
+Refused Parent Bequest	DoubleMatrix2D	80	1,0
+Tradition Breaker	DoubleMatrix2D	81	1,0
+Refused Parent Bequest	EquiDepthHistogram	82	1,0
+Feature Envy	Benchmark.benchmark	83	1,0
+Intensive Coupling	Benchmark.benchmark	84	1,0
+Data Class	IntFunctions	85	1,0
+Refused Parent Bequest	AbstractLongObjectMap	86	1,0
+Feature Envy	PrimeFinder.statistics	87	1,0
+Brain Method	Binomial.generateBinomial	88	1,0
+Intensive Coupling	Binomial.generateBinomial	89	1,0
+God Class	Binomial	90	1,0
+Refused Parent Bequest	Binomial	91	1,0
+Feature Envy	OpenIntDoubleHashMap.assign	92	1,0
+Shotgun Surgery	AbstractMatrix3D._columnRank	93	1,0
+Shotgun Surgery	AbstractMatrix3D._rowRank	94	1,0
+Shotgun Surgery	AbstractMatrix3D._sliceRank	95	1,0
+Shotgun Surgery	AbstractMatrix3D.checkShape	96	1,0
+Shotgun Surgery	AbstractMatrix3D.columns	97	1,0
+Shotgun Surgery	AbstractMatrix3D.rows	98	1,0
+Shotgun Surgery	AbstractMatrix3D.size	99	1,0
+Shotgun Surgery	AbstractMatrix3D.slices	100	1,0
+Refused Parent Bequest	AbstractMatrix3D	101	1,0
+Brain Method	BitVector.forEachIndexFromToInState	102	1,0
+Feature Envy	BitVector.forEachIndexFromToInState	103	1,0
+Data Class	BitVector	104	1,0
+Refused Parent Bequest	BitVector	105	1,0
+Tradition Breaker	BitVector	106	1,0
+Feature Envy	TestMatrix2D.doubleTest	107	1,0
+Feature Envy	TestMatrix2D.doubleTest	108	1,0
+Feature Envy	TestMatrix2D.doubleTest10	109	1,0
+Feature Envy	TestMatrix2D.doubleTest11	110	1,0
+Feature Envy	TestMatrix2D.doubleTest12	111	1,0
+Feature Envy	TestMatrix2D.doubleTest18	112	1,0
+Feature Envy	TestMatrix2D.doubleTest19	113	1,0
+Feature Envy	TestMatrix2D.doubleTest19	114	1,0
+Feature Envy	TestMatrix2D.doubleTest20	115	1,0
+Feature Envy	TestMatrix2D.doubleTest21	116	1,0
+Feature Envy	TestMatrix2D.doubleTest22	117	1,0
+Feature Envy	TestMatrix2D.doubleTest23	118	1,0
+Feature Envy	TestMatrix2D.doubleTest24	119	1,0
+Feature Envy	TestMatrix2D.doubleTest3	120	1,0
+Feature Envy	TestMatrix2D.doubleTest33	121	1,0
+Feature Envy	TestMatrix2D.doubleTest36	122	1,0
+Feature Envy	TestMatrix2D.doubleTest4	123	1,0
+Feature Envy	TestMatrix2D.doubleTest6	124	1,0
+Feature Envy	TestMatrix2D.doubleTest7	125	1,0
+Feature Envy	TestMatrix2D.doubleTest8	126	1,0
+Feature Envy	TestMatrix2D.doubleTest9	127	1,0
+Feature Envy	TestMatrix2D.testLU	128	1,0
+God Class	TestMatrix2D	129	1,0
+Brain Method	HyperGeometric.hprs	130	1,0
+God Class	HyperGeometric	131	1,0
+Refused Parent Bequest	HyperGeometric	132	1,0
+Feature Envy	ByteArrayList.countSortFromTo	133	1,0
+Data Class	ByteArrayList	134	1,0
+Refused Parent Bequest	ByteArrayList	135	1,0
+Feature Envy	Benchmark.randomInstance	136	1,0
+Feature Envy	Benchmark.test	137	1,0
+Refused Parent Bequest	Benchmark	138	1,0
+Refused Parent Bequest	DenseObjectMatrix2D	139	1,0
+Data Class	BooleanArrayList	140	1,0
+Refused Parent Bequest	BooleanArrayList	141	1,0
+Shotgun Surgery	RandomEngine.raw	142	1,0
+Feature Envy	Partitioning.partition	143	1,0
+Feature Envy	UnknownDoubleQuantileEstimator.postCollapse	144	1,0
+Refused Parent Bequest	UnknownDoubleQuantileEstimator	145	1,0
+Refused Parent Bequest	SelectedDenseDoubleMatrix3D	146	1,0
+Feature Envy	DenseObjectMatrix1D.assign	147	1,0
+Refused Parent Bequest	DenseObjectMatrix1D	148	1,0
+Feature Envy	DoubleFactory2D.demo1	149	1,0
+Feature Envy	DoubleFactory2D.demo2	150	1,0
+Shotgun Surgery	DoubleFactory2D.make	151	1,0
+Feature Envy	DoubleFactory2D.make	152	1,0
+Shotgun Surgery	DoubleFactory2D.make	153	1,0
+God Class	DoubleFactory2D	154	1,0
+Data Class	DoubleFactory2D	155	1,0
+Refused Parent Bequest	DoubleFactory2D	156	1,0
+Tradition Breaker	DoubleFactory2D	157	1,0
+Refused Parent Bequest	AbstractHistogram1D	158	1,0
+Feature Envy	DoubleFactory1D.make	159	1,0
+Refused Parent Bequest	DoubleFactory1D	160	1,0
+Tradition Breaker	DoubleFactory1D	161	1,0
+Data Class	ShortArrayList	162	1,0
+Refused Parent Bequest	ShortArrayList	163	1,0
+Feature Envy	ObjectFactory1D.make	164	1,0
+Refused Parent Bequest	ObjectFactory1D	165	1,0
+Refused Parent Bequest	SelectedSparseDoubleMatrix1D	166	1,0
+Feature Envy	Benchmark.benchmark	167	1,0
+Feature Envy	Benchmark.test	168	1,0
+Feature Envy	Benchmark.xtestRandomFromTo	169	1,0
+Shotgun Surgery	DoubleFunction.apply	170	1,0
+Feature Envy	DenseDoubleMatrix1D.assign	171	1,0
+Brain Method	DenseDoubleMatrix1D.assign	172	1,0
+Refused Parent Bequest	DenseDoubleMatrix1D	173	1,0
+Shotgun Surgery	ObjectFunction.apply	174	1,0
+God Class	Arithmetic	175	1,0
+Refused Parent Bequest	Arithmetic	176	1,0
+Tradition Breaker	Arithmetic	177	1,0
+Refused Parent Bequest	AbstractBooleanList	178	1,0
+Tradition Breaker	AbstractBooleanList	179	1,0
+Refused Parent Bequest	AbstractDoubleIntMap	180	1,0
+Brain Method	RandomSampler.rejectMethodD	181	1,0
+Brain Method	RandomSampler.sampleMethodD	182	1,0
+Brain Class	RandomSampler	183	1,0
+Refused Parent Bequest	RandomSampler	184	1,0
+Feature Envy	AbstractIntIntMap.pairsSortedByKey	185	1,0
+Refused Parent Bequest	AbstractIntIntMap	186	1,0
+Feature Envy	ObjectMatrix3D.viewSelection	187	1,0
+God Class	ObjectMatrix3D	188	1,0
+Data Class	ObjectMatrix3D	189	1,0
+Refused Parent Bequest	ObjectMatrix3D	190	1,0
+Tradition Breaker	ObjectMatrix3D	191	1,0
+Refused Parent Bequest	Normal	192	1,0
+Refused Parent Bequest	SparseDoubleMatrix1D	193	1,0
+Refused Parent Bequest	Probability	194	1,0
+Tradition Breaker	Probability	195	1,0
+Intensive Coupling	CholeskyDecomposition.CholeskyDecomposition	196	1,0
+Feature Envy	CholeskyDecomposition.solve	197	1,0
+Feature Envy	CholeskyDecomposition.XXXsolveBuggy	198	1,0
+Intensive Coupling	CholeskyDecomposition.XXXsolveBuggy	199	1,0
+Feature Envy	CholeskyDecomposition.toString	200	1,0
+Brain Method	Descriptive.incrementalUpdateSumsOfPowers	201	1,0
+Feature Envy	Descriptive.rankInterpolated	202	1,0
+God Class	Descriptive	203	1,0
+Brain Class	Descriptive	204	1,0
+Feature Envy	DenseObjectMatrix3D.DenseObjectMatrix3D	205	1,0
+Refused Parent Bequest	DenseObjectMatrix3D	206	1,0
+God Class	AbstractHistogram3D	207	1,0
+Refused Parent Bequest	AbstractHistogram3D	208	1,0
+Tradition Breaker	AbstractHistogram3D	209	1,0
+Brain Method	QuantileFinderFactory.known_N_compute_B_and_K_quick	210	1,0
+Feature Envy	QuantileFinderFactory.known_N_compute_B_and_K_quick	211	1,0
+Brain Method	QuantileFinderFactory.unknown_N_compute_B_and_K_raw	212	1,0
+Feature Envy	QuantileFinderFactory.unknown_N_compute_B_and_K_raw	213	1,0
+Dispersed Coupling	QuantileFinderFactory.unknown_N_compute_B_and_K_raw	214	1,0
+God Class	QuantileFinderFactory	215	1,0
+Brain Class	QuantileFinderFactory	216	1,0
+Feature Envy	Formatter.demo3	217	1,0
+Dispersed Coupling	Formatter.demo3	218	1,0
+Feature Envy	Formatter.demo5	219	1,0
+Feature Envy	Formatter.demo6	220	1,0
+Feature Envy	Formatter.toSourceCode	221	1,0
+Feature Envy	Formatter.toSourceCode	222	1,0
+Feature Envy	Formatter.toTitleString	223	1,0
+Dispersed Coupling	Formatter.toTitleString	224	1,0
+God Class	Formatter	225	1,0
+Refused Parent Bequest	Formatter	226	1,0
+Tradition Breaker	Formatter	227	1,0
+Feature Envy	ObjectMatrix2D.assign	228	1,0
+Feature Envy	ObjectMatrix2D.viewSelection	229	1,0
+God Class	ObjectMatrix2D	230	1,0
+Data Class	ObjectMatrix2D	231	1,0
+Refused Parent Bequest	ObjectMatrix2D	232	1,0
+Tradition Breaker	ObjectMatrix2D	233	1,0
+Feature Envy	GenericSortingTest.demo1	234	1,0
+Feature Envy	GenericSortingTest.demo2	235	1,0
+Dispersed Coupling	GenericSortingTest.testRandomly	236	1,0
+Refused Parent Bequest	AbstractFloatList	237	1,0
+Tradition Breaker	AbstractFloatList	238	1,0
+Brain Method	BenchmarkMatrix2D.doubleBenchmark	239	1,0
+Intensive Coupling	BenchmarkMatrix2D.doubleBenchmark	240	1,0
+Feature Envy	BenchmarkMatrix2D.doubleBenchmarkMult	241	1,0
+Dispersed Coupling	BenchmarkMatrix2D.doubleBenchmarkMult	242	1,0
+Brain Method	BenchmarkMatrix2D.doubleBenchmarkPrimitive	243	1,0
+Feature Envy	BenchmarkMatrix2D.doubleBenchmarkPrimitive	244	1,0
+Intensive Coupling	BenchmarkMatrix2D.doubleBenchmarkPrimitive	245	1,0
+Brain Method	BenchmarkMatrix2D.doubleBenchmarkPrimitiveOptimized	246	1,0
+Feature Envy	BenchmarkMatrix2D.doubleBenchmarkPrimitiveOptimized	247	1,0
+Intensive Coupling	BenchmarkMatrix2D.doubleBenchmarkPrimitiveOptimized	248	1,0
+God Class	BenchmarkMatrix2D	249	1,0
+Brain Class	BenchmarkMatrix2D	250	1,0
+Brain Method	Gamma.nextDouble	251	1,0
+Refused Parent Bequest	Gamma	252	1,0
+Shotgun Surgery	AbstractMap.chooseHighWaterMark	253	1,0
+Shotgun Surgery	AbstractMap.nextPrime	254	1,0
+Shotgun Surgery	AbstractMap.size	255	1,0
+Refused Parent Bequest	AbstractMap	256	1,0
+Brain Method	Poisson.nextInt	257	1,0
+God Class	Poisson	258	1,0
+Refused Parent Bequest	Poisson	259	1,0
+Refused Parent Bequest	RandomSamplingAssistant	260	1,0
+Refused Parent Bequest	WeightedRandomSampler	261	1,0
+Refused Parent Bequest	DoubleBuffer	262	1,0
+Feature Envy	GenericPermuting.permute	263	1,0
+Data Class	CharArrayList	264	1,0
+Refused Parent Bequest	CharArrayList	265	1,0
+Feature Envy	FixedAxis.binLowerEdge	266	1,0
+Feature Envy	FixedAxis.binUpperEdge	267	1,0
+Refused Parent Bequest	AbstractCharList	268	1,0
+Tradition Breaker	AbstractCharList	269	1,0
+Shotgun Surgery	IHistogram1D.binHeight	270	1,0
+Refused Parent Bequest	SelectedSparseDoubleMatrix3D	271	1,0
+Shotgun Surgery	AbstractIntDoubleMap.put	272	1,0
+Dispersed Coupling	AbstractIntDoubleMap.toString	273	1,0
+Refused Parent Bequest	AbstractIntDoubleMap	274	1,0
+Brain Method	LUDecompositionQuick.decompose	275	1,0
+Intensive Coupling	LUDecompositionQuick.decompose	276	1,0
+Feature Envy	LUDecompositionQuick.solve	277	1,0
+Dispersed Coupling	LUDecompositionQuick.solve	278	1,0
+Feature Envy	LUDecompositionQuick.solveOld	279	1,0
+Feature Envy	LUDecompositionQuick.toString	280	1,0
+Brain Class	LUDecompositionQuick	281	1,0
+Feature Envy	Diagonal.inverse	282	1,0
+Brain Method	Fun.bessel2_fkt	283	1,0
+God Class	Arrays	284	1,0
+Brain Method	Bessel.kn	285	1,0
+Feature Envy	Bessel.kn	286	1,0
+God Class	Bessel	287	1,0
+Refused Parent Bequest	Bessel	288	1,0
+Tradition Breaker	Bessel	289	1,0
+Feature Envy	RCMDoubleMatrix2D.setQuick	290	1,0
+Intensive Coupling	RCMDoubleMatrix2D.setQuick	291	1,0
+Dispersed Coupling	RCMDoubleMatrix2D.zMult	292	1,0
+Refused Parent Bequest	RCMDoubleMatrix2D	293	1,0
+Shotgun Surgery	IntArrayList.add	294	1,0
+Shotgun Surgery	IntArrayList.elements	295	1,0
+Shotgun Surgery	IntArrayList.trimToSize	296	1,0
+Data Class	IntArrayList	297	1,0
+Refused Parent Bequest	IntArrayList	298	1,0
+Dispersed Coupling	Quantile1Test.main	299	1,0
+Shotgun Surgery	AbstractLongList.size	300	1,0
+Refused Parent Bequest	AbstractLongList	301	1,0
+Tradition Breaker	AbstractLongList	302	1,0
+Shotgun Surgery	AbstractDistribution.setRandomGenerator	303	1,0
+Feature Envy	Converter.toXML	304	1,0
+Intensive Coupling	Converter.toXML	305	1,0
+Feature Envy	WrapperDoubleMatrix1D.viewSelection	306	1,0
+Refused Parent Bequest	WrapperDoubleMatrix1D	307	1,0
+Brain Method	DenseDoubleMatrix2D.assign	308	1,0
+Brain Method	DenseDoubleMatrix2D.zMult	309	1,0
+Refused Parent Bequest	DenseDoubleMatrix2D	310	1,0
+Shotgun Surgery	IAxis.bins	311	1,0
+God Class	Functions	312	1,0
+Data Class	Functions	313	1,0
+Brain Method	EmpiricalWalker.setState2	314	1,0
+Refused Parent Bequest	EmpiricalWalker	315	1,0
+Dispersed Coupling	Algebra.pow	316	1,0
+Intensive Coupling	Algebra.toString	317	1,0
+Feature Envy	Algebra.toVerboseString	318	1,0
+God Class	Algebra	319	1,0
+Data Class	Algebra	320	1,0
+Refused Parent Bequest	Algebra	321	1,0
+Tradition Breaker	Algebra	322	1,0
+Refused Parent Bequest	DoubleQuantileEstimator	323	1,0
+Refused Parent Bequest	AbstractShortList	324	1,0
+Tradition Breaker	AbstractShortList	325	1,0
+Feature Envy	Sorting.sort	326	1,0
+Feature Envy	Sorting.sort	327	1,0
+Feature Envy	Sorting.sort	328	1,0
+Feature Envy	Sorting.sort	329	1,0
+Feature Envy	Sorting.sort	330	1,0
+Dispersed Coupling	Sorting.sort	331	1,0
+Feature Envy	Sorting.sort	332	1,0
+Feature Envy	Sorting.zdemo1	333	1,0
+Feature Envy	Sorting.zdemo2	334	1,0
+Feature Envy	Sorting.zdemo3	335	1,0
+Feature Envy	Sorting.zdemo4	336	1,0
+Dispersed Coupling	Sorting.zdemo5	337	1,0
+Feature Envy	Sorting.zdemo6	338	1,0
+God Class	Sorting	339	1,0
+Refused Parent Bequest	Sorting	340	1,0
+Tradition Breaker	Sorting	341	1,0
+Intensive Coupling	SeqBlas.dsymv	342	1,0
+Intensive Coupling	SeqBlas.dtrmv	343	1,0
+God Class	SeqBlas	344	1,0
+Feature Envy	VariableAxis.binLowerEdge	345	1,0
+Feature Envy	VariableAxis.binUpperEdge	346	1,0
+Feature Envy	Partitioning.partition	347	1,0
+Refused Parent Bequest	SelectedSparseObjectMatrix3D	348	1,0
+Shotgun Surgery	ObjectObjectFunction.apply	349	1,0
+Dispersed Coupling	SmpBlas.dgemm	350	1,0
+Dispersed Coupling	SmpBlas.dgemv	351	1,0
+Refused Parent Bequest	AbstractIntObjectMap	352	1,0
+Feature Envy	AbstractFormatter.toString	353	1,0
+God Class	AbstractFormatter	354	1,0
+Refused Parent Bequest	AbstractFormatter	355	1,0
+Tradition Breaker	AbstractFormatter	356	1,0
+Refused Parent Bequest	ExactDoubleQuantileFinder	357	1,0
+Refused Parent Bequest	PoissonSlow	358	1,0
+God Class	MightyStaticBin1D	359	1,0
+Refused Parent Bequest	MightyStaticBin1D	360	1,0
+Tradition Breaker	MightyStaticBin1D	361	1,0
+Refused Parent Bequest	SelectedDenseObjectMatrix3D	362	1,0
+Refused Parent Bequest	AbstractBin	363	1,0
+Shotgun Surgery	Timer.display	364	1,0
+Shotgun Surgery	Timer.reset	365	1,0
+Shotgun Surgery	Timer.start	366	1,0
+Shotgun Surgery	Timer.stop	367	1,0
+Refused Parent Bequest	Timer	368	1,0
+Feature Envy	TridiagonalDoubleMatrix2D.zMult	369	1,0
+God Class	TridiagonalDoubleMatrix2D	370	1,0
+Refused Parent Bequest	TridiagonalDoubleMatrix2D	371	1,0
+Feature Envy	DoubleBufferSet.collapse	372	1,0
+Refused Parent Bequest	DoubleBufferSet	373	1,0
+Tradition Breaker	DoubleBufferSet	374	1,0
+Shotgun Surgery	AbstractList.clear	375	1,0
+Shotgun Surgery	AbstractList.quickSort	376	1,0
+Shotgun Surgery	AbstractList.remove	377	1,0
+Shotgun Surgery	AbstractList.setSize	378	1,0
+Shotgun Surgery	AbstractList.sort	379	1,0
+Refused Parent Bequest	AbstractList	380	1,0
+Dispersed Coupling	Statistic.aggregate	381	1,0
+Feature Envy	Statistic.correlation	382	1,0
+Feature Envy	Statistic.cube	383	1,0
+Feature Envy	Statistic.demo1	384	1,0
+Feature Envy	Statistic.demo2	385	1,0
+Feature Envy	Statistic.demo3	386	1,0
+Feature Envy	Statistic.histogram	387	1,0
+Feature Envy	Statistic.histogram	388	1,0
+God Class	Statistic	389	1,0
+Data Class	Statistic	390	1,0
+Shotgun Surgery	Uniform.nextIntFromTo	391	1,0
+Feature Envy	Uniform.nextLongFromTo	392	1,0
+Refused Parent Bequest	Uniform	393	1,0
+Refused Parent Bequest	Histogram1D	394	1,0
+Feature Envy	SparseObjectMatrix3D.SparseObjectMatrix3D	395	1,0
+Refused Parent Bequest	SparseObjectMatrix3D	396	1,0
+Dispersed Coupling	QuantileFinderTest.testBestBandKCalculation	397	1,0
+Feature Envy	QuantileFinderTest.testLocalVarDeclarationSpeed	398	1,0
+Dispersed Coupling	QuantileFinderTest.testQuantileCalculation	399	1,0
+Refused Parent Bequest	ChiSquare	400	1,0
+Refused Parent Bequest	SelectedSparseDoubleMatrix2D	401	1,0
+Feature Envy	DenseDoubleMatrix3D.DenseDoubleMatrix3D	402	1,0
+Brain Method	DenseDoubleMatrix3D.zAssign27Neighbors	403	1,0
+Refused Parent Bequest	DenseDoubleMatrix3D	404	1,0
+Shotgun Surgery	DoubleProcedure.apply	405	1,0
+Shotgun Surgery	DoubleMatrix1D.assign	406	1,0
+Shotgun Surgery	DoubleMatrix1D.assign	407	1,0
+Shotgun Surgery	DoubleMatrix1D.assign	408	1,0
+Feature Envy	DoubleMatrix1D.getNonZeros	409	1,0
+Shotgun Surgery	DoubleMatrix1D.getQuick	410	1,0
+Shotgun Surgery	DoubleMatrix1D.set	411	1,0
+Shotgun Surgery	DoubleMatrix1D.setQuick	412	1,0
+Shotgun Surgery	DoubleMatrix1D.viewPart	413	1,0
+God Class	DoubleMatrix1D	414	1,0
+Data Class	DoubleMatrix1D	415	1,0
+Refused Parent Bequest	DoubleMatrix1D	416	1,0
+Tradition Breaker	DoubleMatrix1D	417	1,0
+Feature Envy	EigenvalueDecomposition.EigenvalueDecomposition	418	1,0
+Brain Method	EigenvalueDecomposition.hqr2	419	1,0
+Intensive Coupling	EigenvalueDecomposition.hqr2	420	1,0
+Brain Method	EigenvalueDecomposition.orthes	421	1,0
+Brain Method	EigenvalueDecomposition.tql2	422	1,0
+Brain Method	EigenvalueDecomposition.tred2	423	1,0
+Brain Method	Format.Format	424	1,0
+God Class	Format	425	1,0
+Brain Class	Format	426	1,0
+Shotgun Surgery	ObjectArrayList.add	427	1,0
+Data Class	ObjectArrayList	428	1,0
+Refused Parent Bequest	ObjectArrayList	429	1,0
+Tradition Breaker	ObjectArrayList	430	1,0
+Data Class	LongArrayList	431	1,0
+Refused Parent Bequest	LongArrayList	432	1,0
+Feature Envy	DoubleMatrix3D.viewSelection	433	1,0
+Brain Method	DoubleMatrix3D.zAssign27Neighbors	434	1,0
+God Class	DoubleMatrix3D	435	1,0
+Brain Class	DoubleMatrix3D	436	1,0
+Data Class	DoubleMatrix3D	437	1,0
+Refused Parent Bequest	DoubleMatrix3D	438	1,0
+Tradition Breaker	DoubleMatrix3D	439	1,0
+Shotgun Surgery	DoubleDoubleFunction.apply	440	1,0
+Dispersed Coupling	Benchmark.benchmark	441	1,0
+Refused Parent Bequest	Transform	442	1,0
+Feature Envy	Sorting.sort	443	1,0
+Feature Envy	Sorting.sort	444	1,0
+Feature Envy	Sorting.sort	445	1,0
+Feature Envy	Sorting.sort	446	1,0
+Feature Envy	Sorting.sort	447	1,0
+Dispersed Coupling	Sorting.sort	448	1,0
+Feature Envy	Sorting.sort	449	1,0
+Refused Parent Bequest	Sorting	450	1,0
+Brain Method	BitMatrix.forEachCoordinateInState	451	1,0
+God Class	BitMatrix	452	1,0
+Refused Parent Bequest	BitMatrix	453	1,0
+Tradition Breaker	BitMatrix	454	1,0
+Refused Parent Bequest	RCDoubleMatrix2D	455	1,0
+Refused Parent Bequest	MinMaxNumberList	456	1,0
+Refused Parent Bequest	KnownDoubleQuantileEstimator	457	1,0
+Shotgun Surgery	DoubleArrayList.add	458	1,0
+Shotgun Surgery	DoubleArrayList.elements	459	1,0
+Shotgun Surgery	DoubleArrayList.get	460	1,0
+Shotgun Surgery	DoubleArrayList.getQuick	461	1,0
+Data Class	DoubleArrayList	462	1,0
+Refused Parent Bequest	DoubleArrayList	463	1,0
+Refused Parent Bequest	SparseObjectMatrix1D	464	1,0
+Shotgun Surgery	AbstractMatrix2D.checkShape	465	1,0
+Shotgun Surgery	AbstractMatrix2D.columns	466	1,0
+Shotgun Surgery	AbstractMatrix2D.rows	467	1,0
+Shotgun Surgery	AbstractMatrix2D.setUp	468	1,0
+Shotgun Surgery	AbstractMatrix2D.setUp	469	1,0
+Shotgun Surgery	AbstractMatrix2D.size	470	1,0
+Shotgun Surgery	AbstractMatrix2D.toStringShort	471	1,0
+Refused Parent Bequest	AbstractMatrix2D	472	1,0
+Refused Parent Bequest	AbstractBin1D	473	1,0
+God Class	Sorting	474	1,0
+Brain Method	Gamma.incompleteBeta	475	1,0
+God Class	Gamma	476	1,0
+Brain Class	Gamma	477	1,0
+Refused Parent Bequest	Gamma	478	1,0
+Refused Parent Bequest	Histogram3D	479	1,0
+God Class	AbstractHistogram2D	480	1,0
+Refused Parent Bequest	AbstractHistogram2D	481	1,0
+Shotgun Surgery	AbstractDoubleList.size	482	1,0
+Refused Parent Bequest	AbstractDoubleList	483	1,0
+Tradition Breaker	AbstractDoubleList	484	1,0
+Refused Parent Bequest	Histogram2D	485	1,0
+Brain Method	Beta.b1prs	486	1,0
+God Class	Beta	487	1,0
+Refused Parent Bequest	Beta	488	1,0
+Brain Method	QuantileCalc.known_N_compute_B_and_K_quick	489	1,0
+Feature Envy	QuantileCalc.known_N_compute_B_and_K_quick	490	1,0
+Brain Method	QuantileCalc.unknown_N_compute_B_and_K	491	1,0
+Feature Envy	QuantileCalc.unknown_N_compute_B_and_K	492	1,0
+God Class	QuantileCalc	493	1,0
+Brain Class	QuantileCalc	494	1,0
+Refused Parent Bequest	SelectedDenseObjectMatrix2D	495	1,0
+Refused Parent Bequest	SelectedDenseDoubleMatrix2D	496	1,0
+Brain Method	QuantileBin1D.splitApproximately	497	1,0
+Feature Envy	QuantileBin1D.splitApproximately	498	1,0
+Refused Parent Bequest	QuantileBin1D	499	1,0
+God Class	ObjectMatrix1D	500	1,0
+Data Class	ObjectMatrix1D	501	1,0
+Refused Parent Bequest	ObjectMatrix1D	502	1,0
+Tradition Breaker	ObjectMatrix1D	503	1,0

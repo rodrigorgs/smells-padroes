@@ -1,0 +1,37 @@
+Feature Envy	ExpectException.evaluate	1	1,0
+Refused Parent Bequest	ParentRunner	2	1,0
+Dispersed Coupling	BaseTestRunner.getTest	3	1,0
+Feature Envy	BaseTestRunner.processArguments	4	1,0
+God Class	BaseTestRunner	5	1,0
+Data Class	BaseTestRunner	6	1,0
+Feature Envy	TestClass.TestClass	7	1,0
+Shotgun Surgery	TestClass.getAnnotatedMethods	8	1,0
+Shotgun Surgery	Statement.evaluate	9	1,0
+Feature Envy	MaxCore.buildRunner	10	1,0
+Feature Envy	TypeSafeMatcher.findExpectedType	11	1,0
+Refused Parent Bequest	CategoryFilter	12	1,0
+Feature Envy	AnnotatedBuilder.buildRunner	13	1,0
+Shotgun Surgery	Description.getChildren	14	1,0
+Dispersed Coupling	MethodValidator.validateTestMethods	15	1,0
+Feature Envy	BlockJUnit4ClassRunner.validateNoNonStaticInnerClass	16	1,0
+God Class	BlockJUnit4ClassRunner	17	1,0
+Refused Parent Bequest	BlockJUnit4ClassRunner	18	1,0
+Refused Parent Bequest	JUnit4ClassRunner	19	1,0
+Data Class	TestRunner	20	1,0
+Refused Parent Bequest	TestRunner	21	1,0
+Refused Parent Bequest	TheoryAnchor	22	1,0
+Feature Envy	Parameterized.Parameterized	23	1,0
+Feature Envy	TestClass.isShadowed	24	1,0
+Feature Envy	MethodRoadie.runWithTimeout	25	1,0
+Intensive Coupling	MethodRoadie.runTestMethod	26	1,0
+Dispersed Coupling	JUnit38ClassRunner.makeDescription	27	1,0
+Refused Parent Bequest	JUnit38ClassRunner	28	1,0
+Dispersed Coupling	FrameworkMethod.validatePublicVoid	29	1,0
+Refused Parent Bequest	FrameworkMethod	30	1,0
+Dispersed Coupling	JUnitCore.runMain	31	1,0
+Feature Envy	TestSuite.addTestsFromTestCase	32	1,0
+Intensive Coupling	TestSuite.addTestsFromTestCase	33	1,0
+Feature Envy	TestSuite.addTestMethod	34	1,0
+Feature Envy	TestSuite.isTestMethod	35	1,0
+Dispersed Coupling	AllMembersSupplier.addFields	36	1,0
+Refused Parent Bequest	TestCase	37	1,0

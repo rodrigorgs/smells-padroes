@@ -16,7 +16,7 @@ library(pander)
 
 pdf.options(width = 5, height = 5)
 
-sistemas <- c("commons", "imglib2", "junit", "spmf", "log4j")
+sistemas <- c("axion-1.0-M2", "collections-3.2.1", "colt-1.2.0", "displaytag-1.2", "drawswf-1.2.9", "emma-2.0.5312", "fitjava-1.1", "FreeCS", "itext-5.0.3", "jena-2.6.3", "jext-5.0", "jgraph-5.13.0.0", "jgrapht-0.8.1", "jmoney-0.4.4", "jOggPlayer114s", "jparse-0.96", "jpf-1.5.1", "junit-4.10", "nekohtml-1.9.14", "oscache-2.3", "picocontainer-2.10.2", "pooka-3.0-080505", "proguard-4.9", "quickserver-1.4.7", "sablecc-3.2")
 # sistemas <- "log4j"
 source('carrega.R', chdir = T)
 

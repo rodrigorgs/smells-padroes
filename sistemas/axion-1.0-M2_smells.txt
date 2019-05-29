@@ -1,0 +1,275 @@
+src.org.axiondb.jdbc.AxionConnection	God Class
+src.org.axiondb.engine.ObjectArrayIndexLoader	Dispersed Coupling
+src.org.axiondb.Table	Shotgun Surgery
+src.org.axiondb.Table	Shotgun Surgery
+src.org.axiondb.Table	Shotgun Surgery
+src.org.axiondb.engine.BaseDatabase	Dispersed Coupling
+src.org.axiondb.engine.BaseDatabase	Dispersed Coupling
+src.org.axiondb.engine.BaseDatabase	Feature Envy
+src.org.axiondb.engine.BaseDatabase	Intensive Coupling
+src.org.axiondb.engine.BaseDatabase	Feature Envy
+src.org.axiondb.engine.BaseDatabase	Intensive Coupling
+src.org.axiondb.engine.BaseDatabase	Dispersed Coupling
+src.org.axiondb.engine.BaseDatabase	Dispersed Coupling
+src.org.axiondb.engine.BaseDatabase	Feature Envy
+src.org.axiondb.engine.BaseDatabase	Feature Envy
+src.org.axiondb.engine.BaseDatabase	God Class
+src.org.axiondb.engine.commands.SelectCommand	Feature Envy
+src.org.axiondb.engine.commands.SelectCommand	Intensive Coupling
+src.org.axiondb.engine.commands.SelectCommand	Dispersed Coupling
+src.org.axiondb.engine.commands.SelectCommand	Brain Method
+src.org.axiondb.engine.commands.SelectCommand	Intensive Coupling
+src.org.axiondb.engine.commands.SelectCommand	Intensive Coupling
+src.org.axiondb.engine.commands.SelectCommand	Dispersed Coupling
+src.org.axiondb.engine.commands.SelectCommand	Dispersed Coupling
+src.org.axiondb.engine.commands.SelectCommand	God Class
+src.org.axiondb.engine.commands.SelectCommand	Brain Class
+src.org.axiondb.engine.commands.SelectCommand	Refused Parent Bequest
+src.org.axiondb.engine.commands.SelectCommand	Tradition Breaker
+src.org.axiondb.engine.BaseArrayIndex	Dispersed Coupling
+src.org.axiondb.engine.BaseArrayIndex	Dispersed Coupling
+src.org.axiondb.engine.BaseArrayIndex	God Class
+src.org.axiondb.engine.BaseArrayIndex	Refused Parent Bequest
+src.org.axiondb.engine.rowiterators.DistinctRowIterator	Feature Envy
+src.org.axiondb.engine.SimpleRow	Shotgun Surgery
+src.org.axiondb.TableIdentifier	Refused Parent Bequest
+src.org.axiondb.engine.commands.AddConstraintCommand	Refused Parent Bequest
+src.org.axiondb.parser.AxionSqlParser	Feature Envy
+src.org.axiondb.parser.AxionSqlParser	Feature Envy
+src.org.axiondb.parser.AxionSqlParser	Intensive Coupling
+src.org.axiondb.parser.AxionSqlParser	Feature Envy
+src.org.axiondb.parser.AxionSqlParser	Feature Envy
+src.org.axiondb.parser.AxionSqlParser	Feature Envy
+src.org.axiondb.parser.AxionSqlParser	Feature Envy
+src.org.axiondb.parser.AxionSqlParser	Intensive Coupling
+src.org.axiondb.parser.AxionSqlParser	Feature Envy
+src.org.axiondb.parser.AxionSqlParser	Feature Envy
+src.org.axiondb.parser.AxionSqlParser	Feature Envy
+src.org.axiondb.parser.AxionSqlParser	Feature Envy
+src.org.axiondb.parser.AxionSqlParser	Feature Envy
+src.org.axiondb.parser.AxionSqlParser	Feature Envy
+src.org.axiondb.parser.AxionSqlParser	Feature Envy
+src.org.axiondb.parser.AxionSqlParser	Feature Envy
+src.org.axiondb.parser.AxionSqlParser	Feature Envy
+src.org.axiondb.parser.AxionSqlParser	Feature Envy
+src.org.axiondb.parser.AxionSqlParser	Feature Envy
+src.org.axiondb.parser.AxionSqlParser	Feature Envy
+src.org.axiondb.parser.AxionSqlParser	Feature Envy
+src.org.axiondb.parser.AxionSqlParser	Feature Envy
+src.org.axiondb.parser.AxionSqlParser	Feature Envy
+src.org.axiondb.parser.AxionSqlParser	Feature Envy
+src.org.axiondb.parser.AxionSqlParser	Feature Envy
+src.org.axiondb.parser.AxionSqlParser	Data Class
+src.org.axiondb.types.FileLobLocator	Feature Envy
+src.org.axiondb.engine.IntArrayIndex	Feature Envy
+src.org.axiondb.engine.IntArrayIndex	Feature Envy
+src.org.axiondb.engine.IntArrayIndex	Refused Parent Bequest
+src.org.axiondb.functions.ContainsFunction	Feature Envy
+src.org.axiondb.util.ObjectBTree	Brain Method
+src.org.axiondb.util.ObjectBTree	Intensive Coupling
+src.org.axiondb.util.ObjectBTree	Intensive Coupling
+src.org.axiondb.util.ObjectBTree	God Class
+src.org.axiondb.util.ObjectBTree	Brain Class
+src.org.axiondb.ComparisonOperator	Shotgun Surgery
+src.org.axiondb.ColumnIdentifier	Shotgun Surgery
+src.org.axiondb.ColumnIdentifier	Refused Parent Bequest
+src.org.axiondb.jdbc.AxionPreparedStatement	Feature Envy
+src.org.axiondb.jdbc.AxionPreparedStatement	God Class
+src.org.axiondb.jdbc.AxionPreparedStatement	Refused Parent Bequest
+src.org.axiondb.engine.SortedMapIndexLoader	Feature Envy
+src.org.axiondb.util.BTree	Brain Method
+src.org.axiondb.util.BTree	Dispersed Coupling
+src.org.axiondb.util.BTree	God Class
+src.org.axiondb.util.BTree	Brain Class
+src.org.axiondb.util.BTree	Data Class
+src.org.axiondb.jdbc.AxionDatabaseMetaData	Feature Envy
+src.org.axiondb.jdbc.AxionDatabaseMetaData	Dispersed Coupling
+src.org.axiondb.jdbc.AxionDatabaseMetaData	Dispersed Coupling
+src.org.axiondb.jdbc.AxionDatabaseMetaData	God Class
+src.org.axiondb.event.RowEvent	Shotgun Surgery
+src.org.axiondb.Database	Shotgun Surgery
+src.org.axiondb.Database	Shotgun Surgery
+src.org.axiondb.Database	Shotgun Surgery
+src.org.axiondb.engine.rowiterators.SimpleJoinedRowIterator	Feature Envy
+src.org.axiondb.engine.rowiterators.SimpleJoinedRowIterator	Feature Envy
+src.org.axiondb.engine.rowiterators.SimpleJoinedRowIterator	Feature Envy
+src.org.axiondb.engine.rowiterators.SimpleJoinedRowIterator	Feature Envy
+src.org.axiondb.engine.rowiterators.SimpleJoinedRowIterator	Feature Envy
+src.org.axiondb.engine.rowiterators.SimpleJoinedRowIterator	God Class
+src.org.axiondb.engine.rowiterators.SimpleJoinedRowIterator	Refused Parent Bequest
+src.org.axiondb.parser.AxionSqlParserTokenManager	Brain Method
+src.org.axiondb.parser.AxionSqlParserTokenManager	Brain Method
+src.org.axiondb.parser.AxionSqlParserTokenManager	Brain Method
+src.org.axiondb.parser.AxionSqlParserTokenManager	Brain Method
+src.org.axiondb.parser.AxionSqlParserTokenManager	Brain Method
+src.org.axiondb.parser.AxionSqlParserTokenManager	Feature Envy
+src.org.axiondb.parser.AxionSqlParserTokenManager	Feature Envy
+src.org.axiondb.parser.AxionSqlParserTokenManager	Brain Class
+src.org.axiondb.parser.AxionSqlParserTokenManager	Data Class
+src.org.axiondb.engine.ClearBindVariableWhereNodeVisitor	Feature Envy
+src.org.axiondb.types.BaseDataType	Data Class
+src.org.axiondb.engine.DiskSystemTable	Brain Method
+src.org.axiondb.engine.DiskSystemTable	Dispersed Coupling
+src.org.axiondb.engine.DiskSystemTable	Refused Parent Bequest
+src.org.axiondb.engine.DiskSystemTable	Tradition Breaker
+src.org.axiondb.DataType	Shotgun Surgery
+src.org.axiondb.DataType	Shotgun Surgery
+src.org.axiondb.engine.FindBindVariableWhereNodeVisitor	Feature Envy
+src.org.axiondb.tools.Console	Intensive Coupling
+src.org.axiondb.tools.Console	Intensive Coupling
+src.org.axiondb.tools.Console	Feature Envy
+src.org.axiondb.tools.Console	God Class
+src.org.axiondb.engine.rowiterators.LazyRowRowIterator	Refused Parent Bequest
+src.org.axiondb.types.UnsignedIntegerType	Refused Parent Bequest
+src.org.axiondb.functions.LikeToRegexpFunction	Intensive Coupling
+src.org.axiondb.parser.SimpleCharStream	Data Class
+src.org.axiondb.engine.Databases	Dispersed Coupling
+src.org.axiondb.engine.TransactionManagerImpl	Intensive Coupling
+src.org.axiondb.engine.TransactionManagerImpl	Feature Envy
+src.org.axiondb.engine.TransactionManagerImpl	Dispersed Coupling
+src.org.axiondb.types.FloatType	Refused Parent Bequest
+src.org.axiondb.engine.ReferencesOtherTablesWhereNodeVisitor	Feature Envy
+src.org.axiondb.RowIterator	Shotgun Surgery
+src.org.axiondb.RowIterator	Shotgun Surgery
+src.org.axiondb.RowIterator	Shotgun Surgery
+src.org.axiondb.RowIterator	Shotgun Surgery
+src.org.axiondb.types.UnsignedShortType	Data Class
+src.org.axiondb.types.UnsignedShortType	Refused Parent Bequest
+src.org.axiondb.engine.rowiterators.ChainedRowIterator	Refused Parent Bequest
+src.org.axiondb.constraints.UniqueConstraint	Dispersed Coupling
+src.org.axiondb.LeafWhereNode	Shotgun Surgery
+src.org.axiondb.LeafWhereNode	Shotgun Surgery
+src.org.axiondb.engine.commands.DeleteCommand	Refused Parent Bequest
+src.org.axiondb.engine.DiskTable	Dispersed Coupling
+src.org.axiondb.engine.DiskTable	Feature Envy
+src.org.axiondb.engine.DiskTable	Dispersed Coupling
+src.org.axiondb.engine.DiskTable	Brain Method
+src.org.axiondb.engine.DiskTable	Dispersed Coupling
+src.org.axiondb.engine.DiskTable	Brain Method
+src.org.axiondb.engine.DiskTable	Dispersed Coupling
+src.org.axiondb.engine.DiskTable	Dispersed Coupling
+src.org.axiondb.engine.DiskTable	Feature Envy
+src.org.axiondb.engine.DiskTable	God Class
+src.org.axiondb.engine.DiskTable	Brain Class
+src.org.axiondb.engine.DiskTable	Data Class
+src.org.axiondb.engine.DiskTable	Refused Parent Bequest
+src.org.axiondb.engine.DiskTable	Tradition Breaker
+src.org.axiondb.engine.commands.RemountCommand	Refused Parent Bequest
+src.org.axiondb.BinaryBranchWhereNode	Refused Parent Bequest
+src.org.axiondb.functions.IfThenFunction	Feature Envy
+src.org.axiondb.engine.commands.CreateIndexCommand	Refused Parent Bequest
+src.org.axiondb.engine.MemoryTable	Refused Parent Bequest
+src.org.axiondb.engine.MemoryTable	Tradition Breaker
+src.org.axiondb.functions.CoalesceFunction	Feature Envy
+src.org.axiondb.Column	Shotgun Surgery
+src.org.axiondb.Column	Shotgun Surgery
+src.org.axiondb.jdbc.AxionStatement	Feature Envy
+src.org.axiondb.jdbc.AxionStatement	Feature Envy
+src.org.axiondb.jdbc.AxionStatement	Feature Envy
+src.org.axiondb.jdbc.AxionStatement	God Class
+src.org.axiondb.jdbc.AxionStatement	Refused Parent Bequest
+src.org.axiondb.engine.AxionColumnsMetaTableUpdater	Refused Parent Bequest
+src.org.axiondb.engine.AxionColumnsMetaTableUpdater	Tradition Breaker
+src.org.axiondb.engine.AxionTablesMetaTableUpdater	Feature Envy
+src.org.axiondb.types.ByteType	Refused Parent Bequest
+src.org.axiondb.engine.rowiterators.BaseJoinedRowIterator	Refused Parent Bequest
+src.org.axiondb.types.AnyType	Feature Envy
+src.org.axiondb.types.AnyType	God Class
+src.org.axiondb.types.AnyType	Data Class
+src.org.axiondb.InWhereNode	Dispersed Coupling
+src.org.axiondb.engine.rowiterators.LimitingRowIterator	Feature Envy
+src.org.axiondb.engine.rowiterators.LimitingRowIterator	Feature Envy
+src.org.axiondb.types.CompressedLOBType	Feature Envy
+src.org.axiondb.types.CompressedLOBType	Feature Envy
+src.org.axiondb.engine.IntBTreeIndex	Dispersed Coupling
+src.org.axiondb.engine.IntBTreeIndex	Dispersed Coupling
+src.org.axiondb.engine.IntBTreeIndex	Refused Parent Bequest
+src.org.axiondb.engine.commands.UpdateCommand	Dispersed Coupling
+src.org.axiondb.engine.commands.UpdateCommand	Refused Parent Bequest
+src.org.axiondb.types.BigDecimalType	Refused Parent Bequest
+src.org.axiondb.engine.rowiterators.ListIteratorRowIterator	Refused Parent Bequest
+src.org.axiondb.engine.commands.CreateTableCommand	Dispersed Coupling
+src.org.axiondb.engine.commands.CreateTableCommand	Intensive Coupling
+src.org.axiondb.engine.commands.CreateTableCommand	Refused Parent Bequest
+src.org.axiondb.types.LongType	Refused Parent Bequest
+src.org.axiondb.event.TableModifiedEvent	Shotgun Surgery
+src.org.axiondb.engine.AxionTypesMetaTableUpdater	Feature Envy
+src.org.axiondb.engine.BaseTable	Feature Envy
+src.org.axiondb.engine.BaseTable	Dispersed Coupling
+src.org.axiondb.engine.BaseTable	Feature Envy
+src.org.axiondb.engine.BaseTable	Feature Envy
+src.org.axiondb.engine.BaseTable	Dispersed Coupling
+src.org.axiondb.engine.BaseTable	God Class
+src.org.axiondb.engine.BaseTable	Refused Parent Bequest
+src.org.axiondb.engine.BaseTable	Tradition Breaker
+src.org.axiondb.Row	Shotgun Surgery
+src.org.axiondb.Row	Shotgun Surgery
+src.org.axiondb.parser.ParseException	Feature Envy
+src.org.axiondb.engine.TransactableTableImpl	Feature Envy
+src.org.axiondb.engine.TransactableTableImpl	Dispersed Coupling
+src.org.axiondb.engine.TransactableTableImpl	Feature Envy
+src.org.axiondb.engine.TransactableTableImpl	Dispersed Coupling
+src.org.axiondb.engine.TransactableTableImpl	Dispersed Coupling
+src.org.axiondb.engine.TransactableTableImpl	Feature Envy
+src.org.axiondb.engine.TransactableTableImpl	Feature Envy
+src.org.axiondb.engine.TransactableTableImpl	Refused Parent Bequest
+src.org.axiondb.engine.TransactableTableImpl	Tradition Breaker
+src.org.axiondb.engine.rowiterators.AbstractAcceptingRowIterator	Feature Envy
+src.org.axiondb.engine.rowiterators.AbstractAcceptingRowIterator	Feature Envy
+src.org.axiondb.engine.BaseWhereNodeVisitor	Feature Envy
+src.org.axiondb.engine.ObjectBTreeIndex	Dispersed Coupling
+src.org.axiondb.engine.ObjectBTreeIndex	Dispersed Coupling
+src.org.axiondb.engine.ObjectBTreeIndex	Refused Parent Bequest
+src.org.axiondb.Selectable	Shotgun Surgery
+src.org.axiondb.Selectable	Shotgun Surgery
+src.org.axiondb.engine.DiskDatabase	Dispersed Coupling
+src.org.axiondb.engine.DiskDatabase	Dispersed Coupling
+src.org.axiondb.engine.DiskDatabase	God Class
+src.org.axiondb.engine.DiskDatabase	Refused Parent Bequest
+src.org.axiondb.types.UnsignedByteType	Data Class
+src.org.axiondb.types.UnsignedByteType	Refused Parent Bequest
+src.org.axiondb.types.ShortType	Refused Parent Bequest
+src.org.axiondb.types.TimestampType	Feature Envy
+src.org.axiondb.types.TimestampType	Feature Envy
+src.org.axiondb.types.TimestampType	Data Class
+src.org.axiondb.types.LOBType	God Class
+src.org.axiondb.types.LOBType	Data Class
+src.org.axiondb.engine.ObjectArrayIndex	Feature Envy
+src.org.axiondb.engine.ObjectArrayIndex	Feature Envy
+src.org.axiondb.engine.ObjectArrayIndex	Refused Parent Bequest
+src.org.axiondb.engine.BaseDiskTable	Dispersed Coupling
+src.org.axiondb.engine.BaseDiskTable	Feature Envy
+src.org.axiondb.engine.BaseDiskTable	God Class
+src.org.axiondb.engine.BaseDiskTable	Refused Parent Bequest
+src.org.axiondb.engine.SnapshotIsolationTransaction	Dispersed Coupling
+src.org.axiondb.engine.BaseIndex	Shotgun Surgery
+src.org.axiondb.engine.BaseIndex	Shotgun Surgery
+src.org.axiondb.engine.BaseIndex	Shotgun Surgery
+src.org.axiondb.engine.SortedMapIndex	Dispersed Coupling
+src.org.axiondb.engine.SortedMapIndex	Feature Envy
+src.org.axiondb.engine.SortedMapIndex	Dispersed Coupling
+src.org.axiondb.engine.SortedMapIndex	Dispersed Coupling
+src.org.axiondb.engine.SortedMapIndex	Dispersed Coupling
+src.org.axiondb.engine.SortedMapIndex	Dispersed Coupling
+src.org.axiondb.engine.SortedMapIndex	God Class
+src.org.axiondb.engine.SortedMapIndex	Data Class
+src.org.axiondb.tools.Defrag	Feature Envy
+src.org.axiondb.util.BTree$BTreeValueIterator	Feature Envy
+src.org.axiondb.util.BTree$BTreeValueIterator	Feature Envy
+src.org.axiondb.util.BTree$BTreeValueIterator	Intensive Coupling
+src.org.axiondb.engine.commands.InsertCommand	Dispersed Coupling
+src.org.axiondb.engine.commands.InsertCommand	Feature Envy
+src.org.axiondb.engine.commands.InsertCommand	Refused Parent Bequest
+src.org.axiondb.engine.commands.InsertCommand	Tradition Breaker
+src.org.axiondb.functions.BaseFunction	Shotgun Surgery
+src.org.axiondb.functions.BaseFunction	Shotgun Surgery
+src.org.axiondb.engine.rowiterators.IndexJoinedRowIterator	Intensive Coupling
+src.org.axiondb.engine.rowiterators.IndexJoinedRowIterator	Intensive Coupling
+src.org.axiondb.engine.rowiterators.CollatingRowIterator	Feature Envy
+src.org.axiondb.engine.rowiterators.CollatingRowIterator	Dispersed Coupling
+src.org.axiondb.engine.rowiterators.CollatingRowIterator	Refused Parent Bequest
+src.org.axiondb.engine.rowiterators.CollatingRowIterator	Tradition Breaker
+src.org.axiondb.engine.commands.BaseAxionCommand	Shotgun Surgery
+src.org.axiondb.engine.commands.BaseAxionCommand	Dispersed Coupling
+src.org.axiondb.types.IntegerType	Refused Parent Bequest
+src.org.axiondb.jdbc.AxionResultSet	God Class

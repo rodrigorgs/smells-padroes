@@ -1,0 +1,29 @@
+ca.bc.webarts.jOggPlayer	Singleton
+kiwi.ui.ScrollbackView	(Object)Adapter
+kiwi.ui.WorkspaceEditor	Template Method
+kiwi.ui.ConsoleAdapter	State
+ca.bc.webarts.tools.Log	Singleton
+kiwi.ui.ScrollbackView$FastListModel	(Object)Adapter
+kiwi.ui.ConsoleFrame	(Object)Adapter
+kiwi.util.VectorUtils	State
+kiwi.ui.AudioClip	(Object)Adapter
+kiwi.ui.UIElementChooser	State
+net.roarsoftware.lastfm.Caller	Singleton
+kiwi.ui.UIChangeManager	Singleton
+kiwi.util.ResourceManager	Singleton
+kiwi.ui.UIElementViewer	State
+kiwi.util.Task	Observer
+kiwi.util.CommandDispatcher	State
+kiwi.util.CommandProcessor	State
+kiwi.util.LoggingMux	Composite
+kiwi.ui.AudioClipViewer	(Object)Adapter
+kiwi.util.ProgressObserver	Observer
+kiwi.util.Comparator	State
+kiwi.util.ResourcePool	Factory Method
+kiwi.util.LocaleManager	Singleton
+kiwi.util.MergeSort	State
+ca.bc.webarts.widgets.dnd.TransferableObject	State
+kiwi.util.LoggingEndpoint	State
+ca.bc.webarts.widgets.dnd.TransferableObject$Fetcher	State
+kiwi.util.LoggingEndpoint	Composite
+kiwi.ui.ToolTipManager	Singleton

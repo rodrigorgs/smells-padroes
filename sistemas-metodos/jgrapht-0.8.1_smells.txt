@@ -1,0 +1,128 @@
+Dispersed Coupling	MatrixExporter.exportAdjacencyMatrixVertex	1	1,0
+Feature Envy	MatrixExporter.exportLaplacianMatrix	2	1,0
+Feature Envy	MatrixExporter.exportNormalizedLaplacianMatrix	3	1,0
+Dispersed Coupling	MatrixExporter.exportNormalizedLaplacianMatrix	4	1,0
+Refused Parent Bequest	GraphDelegator	5	1,0
+Intensive Coupling	DirectedAcyclicGraphTest.testCycleDetectionInRandomGraphBuild	6	1,0
+Dispersed Coupling	DirectedAcyclicGraphTest.testTopoIterationOrderLinearGraph	7	1,0
+Feature Envy	DirectedAcyclicGraphTest._testPerformanceVersusStaticChecking	8	1,0
+Intensive Coupling	DirectedAcyclicGraphTest._testPerformanceVersusStaticChecking	9	1,0
+Brain Method	DirectedAcyclicGraphTest._testVisitedImplementationPerformance	10	1,0
+Intensive Coupling	DirectedAcyclicGraphTest._testVisitedImplementationPerformance	11	1,0
+Dispersed Coupling	GraphMLExporter.export	12	1,0
+Feature Envy	AsWeightedGraphTest.setUp	13	1,0
+Feature Envy	BlockCutpointGraphTest.testGetBlock	14	1,0
+Dispersed Coupling	BlockCutpointGraphTest.testGetBlock	15	1,0
+Feature Envy	BaseGraphListener.edgeAdded	16	1,0
+Feature Envy	JGraphAdapterDemo.adjustDisplaySettings	17	1,0
+Feature Envy	JGraphModelAdapter.createDefaultEdgeAttributes	18	1,0
+Intensive Coupling	JGraphModelAdapter.handleJGraphRemovedVertex	19	1,0
+God Class	JGraphModelAdapter	20	1,0
+Feature Envy	EquivalenceIsomorphismInspector.fillElementsflatArray	21	1,0
+Dispersed Coupling	StrongConnectivityInspector.dfsVisit	22	1,0
+Refused Parent Bequest	DepthFirstIterator	23	1,0
+Feature Envy	VisioExporter.exportEdge	24	1,0
+Feature Envy	DijkstraShortestPath.createEdgeList	25	1,0
+Feature Envy	DirectedAcyclicGraph.addDagEdge	26	1,0
+Feature Envy	DirectedAcyclicGraph.addDagEdge	27	1,0
+Refused Parent Bequest	DirectedAcyclicGraph	28	1,0
+Feature Envy	GreedyColoring.color	29	1,0
+Feature Envy	GreedyColoring.smallestDegreeLastOrder	30	1,0
+Feature Envy	GreedyColoring.largestSaturationFirstOrder	31	1,0
+Data Class	GreedyColoring	32	1,0
+Refused Parent Bequest	GreedyColoring	33	1,0
+Feature Envy	UndirectedSpecifics.getAllEdges	34	1,0
+Dispersed Coupling	UndirectedSpecifics.getAllEdges	35	1,0
+Feature Envy	UndirectedSpecifics.getEdge	36	1,0
+Feature Envy	EdmondsKarpMaximumFlowTest.testCornerCases	37	1,0
+Intensive Coupling	EdmondsKarpMaximumFlowTest.runTest	38	1,0
+Feature Envy	BrownBacktrackColoring.recursiveColor	39	1,0
+Feature Envy	BrownBacktrackColoring.getResult	40	1,0
+Feature Envy	TopologicalOrderIterator.decrementInDegree	41	1,0
+Dispersed Coupling	TopologicalOrderIterator.initialize	42	1,0
+Refused Parent Bequest	TopologicalOrderIterator	43	1,0
+Feature Envy	TransitiveClosure.closeSimpleDirectedGraph	44	1,0
+Intensive Coupling	TransitiveClosure.closeSimpleDirectedGraph	45	1,0
+Feature Envy	RankingPathElementList.containsTargetPreviously	46	1,0
+Feature Envy	RankingPathElementList.isAlreadyImprovedByThisEdge	47	1,0
+Feature Envy	RankingPathElementList.isDifferent	48	1,0
+Refused Parent Bequest	RankingPathElementList	49	1,0
+Feature Envy	GraphReader.generateGraph	50	1,0
+Dispersed Coupling	GraphReader.generateGraph	51	1,0
+Intensive Coupling	DOTExporter.export	52	1,0
+Feature Envy	AsUnweightedGraphTest.checkView	53	1,0
+Feature Envy	IntegerPermutationIter.toString	54	1,0
+Feature Envy	FibonacciHeap.decreaseKey	55	1,0
+Feature Envy	FibonacciHeap.insert	56	1,0
+Feature Envy	FibonacciHeap.removeMin	57	1,0
+Feature Envy	FibonacciHeap.toString	58	1,0
+Feature Envy	FibonacciHeap.cascadingCut	59	1,0
+Brain Method	FibonacciHeap.consolidate	60	1,0
+Feature Envy	FibonacciHeap.consolidate	61	1,0
+Feature Envy	FibonacciHeap.cut	62	1,0
+Feature Envy	FibonacciHeap.link	63	1,0
+Feature Envy	VisitedArrayListImpl.getInstance	64	1,0
+Feature Envy	FloydWarshallShortestPaths.FloydWarshallShortestPaths	65	1,0
+Dispersed Coupling	KShortestPathCostTest.testKShortestPathCosts	66	1,0
+Feature Envy	RingGraphGenerator.generateGraph	67	1,0
+Feature Envy	PerformanceDemo.main	68	1,0
+Dispersed Coupling	PerformanceDemo.main	69	1,0
+Feature Envy	UndirectedSubgraph.degreeOf	70	1,0
+Feature Envy	KShortestPathKValuesTest.testMaxSizeValue	71	1,0
+Dispersed Coupling	KShortestPathKValuesTest.verifyNbPathsForAllVertices	72	1,0
+Feature Envy	GraphUnion.getEdgeWeight	73	1,0
+Refused Parent Bequest	GraphUnion	74	1,0
+Tradition Breaker	GraphUnion	75	1,0
+Dispersed Coupling	GraphTests.isConnected	76	1,0
+Intensive Coupling	GraphTests.isBipartite	77	1,0
+Feature Envy	Neighbors.getNeighborList	78	1,0
+Feature Envy	AsUndirectedGraphTest.testGetAllEdges	79	1,0
+Feature Envy	AsUndirectedGraphTest.testGetEdge	80	1,0
+Feature Envy	MaskEdgeSetNextElementFunctor.isMasked	81	1,0
+Dispersed Coupling	IntArrayGraphAlgorithm.IntArrayGraphAlgorithm	82	1,0
+Dispersed Coupling	BiconnectivityInspector.getBiconnectedVertexComponents	83	1,0
+Intensive Coupling	EulerianCircuit.getEulerianCircuitVertices	84	1,0
+Feature Envy	DefaultListenableGraph.fireVertexAdded	85	1,0
+Feature Envy	DefaultListenableGraph.fireVertexRemoved	86	1,0
+Refused Parent Bequest	DefaultListenableGraph	87	1,0
+Dispersed Coupling	EdmondsKarpMaximumFlow.buildInternalNetwork	88	1,0
+Dispersed Coupling	EquivalenceSetCreator.createEqualityGroupMap	89	1,0
+Dispersed Coupling	GraphOrdering.init	90	1,0
+Dispersed Coupling	AbstractGraphIteratorTest.testDirectedGraph	91	1,0
+Data Class	AbstractBaseGraph	92	1,0
+Refused Parent Bequest	AbstractBaseGraph	93	1,0
+Data Class	MaskSubgraph	94	1,0
+Refused Parent Bequest	MaskSubgraph	95	1,0
+Dispersed Coupling	StarGraphGenerator.generateGraph	96	1,0
+Feature Envy	DijkstraShortestPathTest.testConstructor	97	1,0
+Refused Parent Bequest	Subgraph	98	1,0
+Tradition Breaker	Subgraph	99	1,0
+Dispersed Coupling	EquivalenceComparatorChainBase.equivalenceHashcode	100	1,0
+Feature Envy	GraphGeneratorTest.testLinearGraphGenerator	101	1,0
+Dispersed Coupling	GraphGeneratorTest.testLinearGraphGenerator	102	1,0
+Intensive Coupling	ChromaticNumber.findGreedyChromaticNumber	103	1,0
+Dispersed Coupling	HyperCubeGraphGenerator.generateGraph	104	1,0
+Feature Envy	IsomorphismInspectorTest.checkRelation	105	1,0
+Dispersed Coupling	IsomorphismInspectorTest.checkRelation	106	1,0
+Feature Envy	IsomorphismInspectorTest.assertIsomorphicStopAfterFirstMatch	107	1,0
+Intensive Coupling	AbstractGraph.toStringFromSets	108	1,0
+Feature Envy	SimpleDirectedGraphTest.verifyReversal	109	1,0
+Refused Parent Bequest	SimpleDirectedGraphTest	110	1,0
+Refused Parent Bequest	CrossComponentIterator	111	1,0
+Feature Envy	BellmanFordShortestPathTest.testConstructor	112	1,0
+Feature Envy	TouchgraphPanel.preinitialize	113	1,0
+Feature Envy	JGraphListener.graphChanged	114	1,0
+Feature Envy	ScaleFreeGraphGenerator.generateGraph	115	1,0
+Intensive Coupling	ScaleFreeGraphGenerator.generateGraph	116	1,0
+Intensive Coupling	BlockCutpointGraph.BlockCutpointGraph	117	1,0
+Dispersed Coupling	BlockCutpointGraph.dfsVisit	118	1,0
+Refused Parent Bequest	BlockCutpointGraph	119	1,0
+Feature Envy	RandomGraphGeneratorTest.generateGraphs	120	1,0
+Feature Envy	GraphSquare.GraphSquare	121	1,0
+Feature Envy	Graphs.getPathVertexList	122	1,0
+Feature Envy	ClosestFirstIterator.provideNextVertex	123	1,0
+Refused Parent Bequest	ClosestFirstIterator	124	1,0
+Feature Envy	DirectedGraphUnion.incomingEdgesOf	125	1,0
+Feature Envy	DirectedGraphUnion.outgoingEdgesOf	126	1,0
+Feature Envy	HamiltonianCycle.getApproximateOptimalForCompleteGraph	127	1,0
+Intensive Coupling	HamiltonianCycle.getApproximateOptimalForCompleteGraph	128	1,0

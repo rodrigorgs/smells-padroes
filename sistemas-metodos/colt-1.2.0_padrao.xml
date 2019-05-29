@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method">
+		<instance>
+			<role name="Creator" element="cern.colt.matrix.DoubleMatrix1D" />
+			<role name="FactoryMethod()" element="cern.colt.matrix.DoubleMatrix1D::like(int):cern.colt.matrix.DoubleMatrix1D" />
+			<role name="FactoryMethod()" element="cern.colt.matrix.DoubleMatrix1D::like2D(int, int):cern.colt.matrix.DoubleMatrix2D" />
+			<role name="FactoryMethod()" element="cern.colt.matrix.DoubleMatrix1D::viewSelectionLike(int[]):cern.colt.matrix.DoubleMatrix1D" />
+		</instance>
+		<instance>
+			<role name="Creator" element="cern.colt.matrix.DoubleMatrix2D" />
+			<role name="FactoryMethod()" element="cern.colt.matrix.DoubleMatrix2D::like(int, int):cern.colt.matrix.DoubleMatrix2D" />
+			<role name="FactoryMethod()" element="cern.colt.matrix.DoubleMatrix2D::like1D(int):cern.colt.matrix.DoubleMatrix1D" />
+			<role name="FactoryMethod()" element="cern.colt.matrix.DoubleMatrix2D::like1D(int, int, int):cern.colt.matrix.DoubleMatrix1D" />
+			<role name="FactoryMethod()" element="cern.colt.matrix.DoubleMatrix2D::viewSelectionLike(int[], int[]):cern.colt.matrix.DoubleMatrix2D" />
+		</instance>
+		<instance>
+			<role name="Creator" element="cern.colt.matrix.DoubleMatrix3D" />
+			<role name="FactoryMethod()" element="cern.colt.matrix.DoubleMatrix3D::like(int, int, int):cern.colt.matrix.DoubleMatrix3D" />
+			<role name="FactoryMethod()" element="cern.colt.matrix.DoubleMatrix3D::like2D(int, int, int, int, int, int):cern.colt.matrix.DoubleMatrix2D" />
+			<role name="FactoryMethod()" element="cern.colt.matrix.DoubleMatrix3D::viewSelectionLike(int[], int[], int[]):cern.colt.matrix.DoubleMatrix3D" />
+		</instance>
+		<instance>
+			<role name="Creator" element="cern.colt.matrix.ObjectMatrix1D" />
+			<role name="FactoryMethod()" element="cern.colt.matrix.ObjectMatrix1D::like(int):cern.colt.matrix.ObjectMatrix1D" />
+			<role name="FactoryMethod()" element="cern.colt.matrix.ObjectMatrix1D::like2D(int, int):cern.colt.matrix.ObjectMatrix2D" />
+			<role name="FactoryMethod()" element="cern.colt.matrix.ObjectMatrix1D::viewSelectionLike(int[]):cern.colt.matrix.ObjectMatrix1D" />
+		</instance>
+		<instance>
+			<role name="Creator" element="cern.colt.matrix.ObjectMatrix2D" />
+			<role name="FactoryMethod()" element="cern.colt.matrix.ObjectMatrix2D::like(int, int):cern.colt.matrix.ObjectMatrix2D" />
+			<role name="FactoryMethod()" element="cern.colt.matrix.ObjectMatrix2D::like1D(int):cern.colt.matrix.ObjectMatrix1D" />
+			<role name="FactoryMethod()" element="cern.colt.matrix.ObjectMatrix2D::like1D(int, int, int):cern.colt.matrix.ObjectMatrix1D" />
+			<role name="FactoryMethod()" element="cern.colt.matrix.ObjectMatrix2D::viewSelectionLike(int[], int[]):cern.colt.matrix.ObjectMatrix2D" />
+		</instance>
+		<instance>
+			<role name="Creator" element="cern.colt.matrix.ObjectMatrix3D" />
+			<role name="FactoryMethod()" element="cern.colt.matrix.ObjectMatrix3D::like(int, int, int):cern.colt.matrix.ObjectMatrix3D" />
+			<role name="FactoryMethod()" element="cern.colt.matrix.ObjectMatrix3D::like2D(int, int, int, int, int, int):cern.colt.matrix.ObjectMatrix2D" />
+			<role name="FactoryMethod()" element="cern.colt.matrix.ObjectMatrix3D::viewSelectionLike(int[], int[], int[]):cern.colt.matrix.ObjectMatrix3D" />
+		</instance>
+		<instance>
+			<role name="Creator" element="cern.jet.stat.quantile.DoubleQuantileFinder" />
+			<role name="FactoryMethod()" element="cern.jet.stat.quantile.DoubleQuantileFinder::quantileElements(cern.colt.list.DoubleArrayList):cern.colt.list.DoubleArrayList" />
+		</instance>
+		<instance>
+			<role name="Creator" element="hep.aida.ref.AbstractHistogram2D" />
+			<role name="FactoryMethod()" element="hep.aida.ref.AbstractHistogram2D::internalSliceX(java.lang.String, int, int):hep.aida.IHistogram1D" />
+			<role name="FactoryMethod()" element="hep.aida.ref.AbstractHistogram2D::internalSliceY(java.lang.String, int, int):hep.aida.IHistogram1D" />
+		</instance>
+		<instance>
+			<role name="Creator" element="hep.aida.ref.AbstractHistogram3D" />
+			<role name="FactoryMethod()" element="hep.aida.ref.AbstractHistogram3D::internalSliceXY(java.lang.String, int, int):hep.aida.IHistogram2D" />
+			<role name="FactoryMethod()" element="hep.aida.ref.AbstractHistogram3D::internalSliceXZ(java.lang.String, int, int):hep.aida.IHistogram2D" />
+			<role name="FactoryMethod()" element="hep.aida.ref.AbstractHistogram3D::internalSliceYZ(java.lang.String, int, int):hep.aida.IHistogram2D" />
+		</instance>
+	</pattern>
+	<pattern name="Prototype">
+		<instance>
+			<role name="Prototype" element="cern.jet.random.engine.RandomEngine" />
+			<role name="Client" element="cern.jet.random.AbstractDistribution" />
+			<role name="prototype" element="cern.jet.random.AbstractDistribution::randomGenerator:cern.jet.random.engine.RandomEngine" />
+			<role name="Operation()" element="cern.jet.random.AbstractDistribution::clone():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Prototype" element="cern.jet.random.engine.RandomEngine" />
+			<role name="Client" element="cern.jet.random.sampling.RandomSampler" />
+			<role name="prototype" element="cern.jet.random.sampling.RandomSampler::my_RandomGenerator:cern.jet.random.engine.RandomEngine" />
+			<role name="Operation()" element="cern.jet.random.sampling.RandomSampler::clone():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Prototype" element="cern.jet.stat.quantile.DoubleQuantileFinder" />
+			<role name="Client" element="hep.aida.bin.QuantileBin1D" />
+			<role name="prototype" element="hep.aida.bin.QuantileBin1D::finder:cern.jet.stat.quantile.DoubleQuantileFinder" />
+			<role name="Operation()" element="hep.aida.bin.QuantileBin1D::clone():java.lang.Object" />
+		</instance>
+	</pattern>
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="cern.clhep.PhysicalConstants" />
+			<role name="uniqueInstance" element="cern.clhep.PhysicalConstants::physicalConstants:cern.clhep.PhysicalConstants" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="cern.colt.matrix.doublealgo.Sorting" />
+			<role name="uniqueInstance" element="cern.colt.matrix.doublealgo.Sorting::quickSort:cern.colt.matrix.doublealgo.Sorting" />
+			<role name="uniqueInstance" element="cern.colt.matrix.doublealgo.Sorting::mergeSort:cern.colt.matrix.doublealgo.Sorting" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="cern.colt.matrix.doublealgo.Transform" />
+			<role name="uniqueInstance" element="cern.colt.matrix.doublealgo.Transform::transform:cern.colt.matrix.doublealgo.Transform" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="cern.colt.matrix.DoubleFactory1D" />
+			<role name="uniqueInstance" element="cern.colt.matrix.DoubleFactory1D::dense:cern.colt.matrix.DoubleFactory1D" />
+			<role name="uniqueInstance" element="cern.colt.matrix.DoubleFactory1D::sparse:cern.colt.matrix.DoubleFactory1D" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="cern.colt.matrix.DoubleFactory2D" />
+			<role name="uniqueInstance" element="cern.colt.matrix.DoubleFactory2D::dense:cern.colt.matrix.DoubleFactory2D" />
+			<role name="uniqueInstance" element="cern.colt.matrix.DoubleFactory2D::sparse:cern.colt.matrix.DoubleFactory2D" />
+			<role name="uniqueInstance" element="cern.colt.matrix.DoubleFactory2D::rowCompressed:cern.colt.matrix.DoubleFactory2D" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="cern.colt.matrix.DoubleFactory3D" />
+			<role name="uniqueInstance" element="cern.colt.matrix.DoubleFactory3D::dense:cern.colt.matrix.DoubleFactory3D" />
+			<role name="uniqueInstance" element="cern.colt.matrix.DoubleFactory3D::sparse:cern.colt.matrix.DoubleFactory3D" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="cern.colt.matrix.linalg.Algebra" />
+			<role name="uniqueInstance" element="cern.colt.matrix.linalg.Algebra::DEFAULT:cern.colt.matrix.linalg.Algebra" />
+			<role name="uniqueInstance" element="cern.colt.matrix.linalg.Algebra::ZERO:cern.colt.matrix.linalg.Algebra" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="cern.colt.matrix.linalg.Property" />
+			<role name="uniqueInstance" element="cern.colt.matrix.linalg.Property::DEFAULT:cern.colt.matrix.linalg.Property" />
+			<role name="uniqueInstance" element="cern.colt.matrix.linalg.Property::ZERO:cern.colt.matrix.linalg.Property" />
+			<role name="uniqueInstance" element="cern.colt.matrix.linalg.Property::TWELVE:cern.colt.matrix.linalg.Property" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="cern.colt.matrix.objectalgo.Sorting" />
+			<role name="uniqueInstance" element="cern.colt.matrix.objectalgo.Sorting::quickSort:cern.colt.matrix.objectalgo.Sorting" />
+			<role name="uniqueInstance" element="cern.colt.matrix.objectalgo.Sorting::mergeSort:cern.colt.matrix.objectalgo.Sorting" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="cern.colt.matrix.ObjectFactory1D" />
+			<role name="uniqueInstance" element="cern.colt.matrix.ObjectFactory1D::dense:cern.colt.matrix.ObjectFactory1D" />
+			<role name="uniqueInstance" element="cern.colt.matrix.ObjectFactory1D::sparse:cern.colt.matrix.ObjectFactory1D" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="cern.colt.matrix.ObjectFactory2D" />
+			<role name="uniqueInstance" element="cern.colt.matrix.ObjectFactory2D::dense:cern.colt.matrix.ObjectFactory2D" />
+			<role name="uniqueInstance" element="cern.colt.matrix.ObjectFactory2D::sparse:cern.colt.matrix.ObjectFactory2D" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="cern.colt.matrix.ObjectFactory3D" />
+			<role name="uniqueInstance" element="cern.colt.matrix.ObjectFactory3D::dense:cern.colt.matrix.ObjectFactory3D" />
+			<role name="uniqueInstance" element="cern.colt.matrix.ObjectFactory3D::sparse:cern.colt.matrix.ObjectFactory3D" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="cern.jet.math.Functions" />
+			<role name="uniqueInstance" element="cern.jet.math.Functions::functions:cern.jet.math.Functions" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="cern.jet.math.IntFunctions" />
+			<role name="uniqueInstance" element="cern.jet.math.IntFunctions::intFunctions:cern.jet.math.IntFunctions" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="cern.jet.random.Beta" />
+			<role name="uniqueInstance" element="cern.jet.random.Beta::shared:cern.jet.random.Beta" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="cern.jet.random.Binomial" />
+			<role name="uniqueInstance" element="cern.jet.random.Binomial::shared:cern.jet.random.Binomial" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="cern.jet.random.BreitWigner" />
+			<role name="uniqueInstance" element="cern.jet.random.BreitWigner::shared:cern.jet.random.BreitWigner" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="cern.jet.random.ChiSquare" />
+			<role name="uniqueInstance" element="cern.jet.random.ChiSquare::shared:cern.jet.random.ChiSquare" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="cern.jet.random.Exponential" />
+			<role name="uniqueInstance" element="cern.jet.random.Exponential::shared:cern.jet.random.Exponential" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="cern.jet.random.ExponentialPower" />
+			<role name="uniqueInstance" element="cern.jet.random.ExponentialPower::shared:cern.jet.random.ExponentialPower" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="cern.jet.random.Gamma" />
+			<role name="uniqueInstance" element="cern.jet.random.Gamma::shared:cern.jet.random.Gamma" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="cern.jet.random.Hyperbolic" />
+			<role name="uniqueInstance" element="cern.jet.random.Hyperbolic::shared:cern.jet.random.Hyperbolic" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="cern.jet.random.HyperGeometric" />
+			<role name="uniqueInstance" element="cern.jet.random.HyperGeometric::shared:cern.jet.random.HyperGeometric" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="cern.jet.random.Logarithmic" />
+			<role name="uniqueInstance" element="cern.jet.random.Logarithmic::shared:cern.jet.random.Logarithmic" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="cern.jet.random.NegativeBinomial" />
+			<role name="uniqueInstance" element="cern.jet.random.NegativeBinomial::shared:cern.jet.random.NegativeBinomial" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="cern.jet.random.Normal" />
+			<role name="uniqueInstance" element="cern.jet.random.Normal::shared:cern.jet.random.Normal" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="cern.jet.random.Poisson" />
+			<role name="uniqueInstance" element="cern.jet.random.Poisson::shared:cern.jet.random.Poisson" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="cern.jet.random.PoissonSlow" />
+			<role name="uniqueInstance" element="cern.jet.random.PoissonSlow::shared:cern.jet.random.PoissonSlow" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="cern.jet.random.StudentT" />
+			<role name="uniqueInstance" element="cern.jet.random.StudentT::shared:cern.jet.random.StudentT" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="cern.jet.random.Uniform" />
+			<role name="uniqueInstance" element="cern.jet.random.Uniform::shared:cern.jet.random.Uniform" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="cern.jet.random.VonMises" />
+			<role name="uniqueInstance" element="cern.jet.random.VonMises::shared:cern.jet.random.VonMises" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="cern.jet.random.Zeta" />
+			<role name="uniqueInstance" element="cern.jet.random.Zeta::shared:cern.jet.random.Zeta" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="hep.aida.bin.BinFunctions1D" />
+			<role name="uniqueInstance" element="hep.aida.bin.BinFunctions1D::functions:hep.aida.bin.BinFunctions1D" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adaptee" element="hep.aida.IAxis" />
+			<role name="Adapter" element="hep.aida.ref.AbstractHistogram1D" />
+			<role name="adaptee" element="hep.aida.ref.AbstractHistogram1D::xAxis:hep.aida.IAxis" />
+			<role name="Request()" element="hep.aida.ref.AbstractHistogram1D::minMaxBins():int[]" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="hep.aida.IAxis" />
+			<role name="Adapter" element="hep.aida.ref.AbstractHistogram2D" />
+			<role name="adaptee" element="hep.aida.ref.AbstractHistogram2D::xAxis:hep.aida.IAxis" />
+			<role name="adaptee" element="hep.aida.ref.AbstractHistogram2D::yAxis:hep.aida.IAxis" />
+			<role name="Request()" element="hep.aida.ref.AbstractHistogram2D::minMaxBins():int[]" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="hep.aida.IAxis" />
+			<role name="Adapter" element="hep.aida.ref.AbstractHistogram3D" />
+			<role name="adaptee" element="hep.aida.ref.AbstractHistogram3D::xAxis:hep.aida.IAxis" />
+			<role name="adaptee" element="hep.aida.ref.AbstractHistogram3D::yAxis:hep.aida.IAxis" />
+			<role name="adaptee" element="hep.aida.ref.AbstractHistogram3D::zAxis:hep.aida.IAxis" />
+			<role name="Request()" element="hep.aida.ref.AbstractHistogram3D::minMaxBins():int[]" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="corejava.Format" />
+			<role name="Adapter" element="cern.colt.matrix.impl.FormerFactory$1" />
+			<role name="adaptee" element="cern.colt.matrix.impl.FormerFactory$1::f:corejava.Format" />
+			<role name="Request()" element="cern.colt.matrix.impl.FormerFactory$1::form(double):java.lang.String" />
+		</instance>
+	</pattern>
+	<pattern name="Command" />
+	<pattern name="Composite" />
+	<pattern name="Decorator">
+		<instance>
+			<role name="Component" element="cern.colt.matrix.DoubleMatrix1D" />
+			<role name="Decorator" element="cern.colt.matrix.impl.WrapperDoubleMatrix1D" />
+			<role name="component" element="cern.colt.matrix.impl.WrapperDoubleMatrix1D::content:cern.colt.matrix.DoubleMatrix1D" />
+			<role name="Operation()" element="cern.colt.matrix.impl.WrapperDoubleMatrix1D::getQuick(int):double" />
+			<role name="Operation()" element="cern.colt.matrix.impl.WrapperDoubleMatrix1D::like(int):cern.colt.matrix.DoubleMatrix1D" />
+			<role name="Operation()" element="cern.colt.matrix.impl.WrapperDoubleMatrix1D::like2D(int, int):cern.colt.matrix.DoubleMatrix2D" />
+			<role name="Operation()" element="cern.colt.matrix.impl.WrapperDoubleMatrix1D::setQuick(int, double):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="cern.colt.matrix.DoubleMatrix2D" />
+			<role name="Decorator" element="cern.colt.matrix.impl.WrapperDoubleMatrix2D" />
+			<role name="component" element="cern.colt.matrix.impl.WrapperDoubleMatrix2D::content:cern.colt.matrix.DoubleMatrix2D" />
+			<role name="Operation()" element="cern.colt.matrix.impl.WrapperDoubleMatrix2D::getQuick(int, int):double" />
+			<role name="Operation()" element="cern.colt.matrix.impl.WrapperDoubleMatrix2D::like(int, int):cern.colt.matrix.DoubleMatrix2D" />
+			<role name="Operation()" element="cern.colt.matrix.impl.WrapperDoubleMatrix2D::like1D(int):cern.colt.matrix.DoubleMatrix1D" />
+			<role name="Operation()" element="cern.colt.matrix.impl.WrapperDoubleMatrix2D::setQuick(int, int, double):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="cern.colt.buffer.DoubleBufferConsumer" />
+			<role name="Decorator" element="cern.colt.buffer.DoubleBuffer" />
+			<role name="component" element="cern.colt.buffer.DoubleBuffer::target:cern.colt.buffer.DoubleBufferConsumer" />
+			<role name="Operation()" element="cern.colt.buffer.DoubleBuffer::addAllOf(cern.colt.list.DoubleArrayList):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="cern.colt.buffer.DoubleBuffer2DConsumer" />
+			<role name="Decorator" element="cern.colt.buffer.DoubleBuffer2D" />
+			<role name="component" element="cern.colt.buffer.DoubleBuffer2D::target:cern.colt.buffer.DoubleBuffer2DConsumer" />
+			<role name="Operation()" element="cern.colt.buffer.DoubleBuffer2D::addAllOf(cern.colt.list.DoubleArrayList, cern.colt.list.DoubleArrayList):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="cern.colt.buffer.DoubleBuffer3DConsumer" />
+			<role name="Decorator" element="cern.colt.buffer.DoubleBuffer3D" />
+			<role name="component" element="cern.colt.buffer.DoubleBuffer3D::target:cern.colt.buffer.DoubleBuffer3DConsumer" />
+			<role name="Operation()" element="cern.colt.buffer.DoubleBuffer3D::addAllOf(cern.colt.list.DoubleArrayList, cern.colt.list.DoubleArrayList, cern.colt.list.DoubleArrayList):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="cern.colt.buffer.IntBufferConsumer" />
+			<role name="Decorator" element="cern.colt.buffer.IntBuffer" />
+			<role name="component" element="cern.colt.buffer.IntBuffer::target:cern.colt.buffer.IntBufferConsumer" />
+			<role name="Operation()" element="cern.colt.buffer.IntBuffer::addAllOf(cern.colt.list.IntArrayList):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="cern.colt.buffer.IntBuffer2DConsumer" />
+			<role name="Decorator" element="cern.colt.buffer.IntBuffer2D" />
+			<role name="component" element="cern.colt.buffer.IntBuffer2D::target:cern.colt.buffer.IntBuffer2DConsumer" />
+			<role name="Operation()" element="cern.colt.buffer.IntBuffer2D::addAllOf(cern.colt.list.IntArrayList, cern.colt.list.IntArrayList):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="cern.colt.buffer.IntBuffer3DConsumer" />
+			<role name="Decorator" element="cern.colt.buffer.IntBuffer3D" />
+			<role name="component" element="cern.colt.buffer.IntBuffer3D::target:cern.colt.buffer.IntBuffer3DConsumer" />
+			<role name="Operation()" element="cern.colt.buffer.IntBuffer3D::addAllOf(cern.colt.list.IntArrayList, cern.colt.list.IntArrayList, cern.colt.list.IntArrayList):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="cern.colt.buffer.ObjectBufferConsumer" />
+			<role name="Decorator" element="cern.colt.buffer.ObjectBuffer" />
+			<role name="component" element="cern.colt.buffer.ObjectBuffer::target:cern.colt.buffer.ObjectBufferConsumer" />
+			<role name="Operation()" element="cern.colt.buffer.ObjectBuffer::addAllOf(cern.colt.list.ObjectArrayList):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="cern.colt.matrix.linalg.Blas" />
+			<role name="Decorator" element="cern.colt.matrix.linalg.SmpBlas" />
+			<role name="component" element="cern.colt.matrix.linalg.SmpBlas::seqBlas:cern.colt.matrix.linalg.Blas" />
+			<role name="Operation()" element="cern.colt.matrix.linalg.SmpBlas::dasum(cern.colt.matrix.DoubleMatrix1D):double" />
+			<role name="Operation()" element="cern.colt.matrix.linalg.SmpBlas::daxpy(double, cern.colt.matrix.DoubleMatrix1D, cern.colt.matrix.DoubleMatrix1D):void" />
+			<role name="Operation()" element="cern.colt.matrix.linalg.SmpBlas::daxpy(double, cern.colt.matrix.DoubleMatrix2D, cern.colt.matrix.DoubleMatrix2D):void" />
+			<role name="Operation()" element="cern.colt.matrix.linalg.SmpBlas::dcopy(cern.colt.matrix.DoubleMatrix1D, cern.colt.matrix.DoubleMatrix1D):void" />
+			<role name="Operation()" element="cern.colt.matrix.linalg.SmpBlas::dcopy(cern.colt.matrix.DoubleMatrix2D, cern.colt.matrix.DoubleMatrix2D):void" />
+			<role name="Operation()" element="cern.colt.matrix.linalg.SmpBlas::ddot(cern.colt.matrix.DoubleMatrix1D, cern.colt.matrix.DoubleMatrix1D):double" />
+			<role name="Operation()" element="cern.colt.matrix.linalg.SmpBlas::dgemm(boolean, boolean, double, cern.colt.matrix.DoubleMatrix2D, cern.colt.matrix.DoubleMatrix2D, double, cern.colt.matrix.DoubleMatrix2D):void" />
+			<role name="Operation()" element="cern.colt.matrix.linalg.SmpBlas::dgemv(boolean, double, cern.colt.matrix.DoubleMatrix2D, cern.colt.matrix.DoubleMatrix1D, double, cern.colt.matrix.DoubleMatrix1D):void" />
+			<role name="Operation()" element="cern.colt.matrix.linalg.SmpBlas::dger(double, cern.colt.matrix.DoubleMatrix1D, cern.colt.matrix.DoubleMatrix1D, cern.colt.matrix.DoubleMatrix2D):void" />
+			<role name="Operation()" element="cern.colt.matrix.linalg.SmpBlas::dnrm2(cern.colt.matrix.DoubleMatrix1D):double" />
+			<role name="Operation()" element="cern.colt.matrix.linalg.SmpBlas::drot(cern.colt.matrix.DoubleMatrix1D, cern.colt.matrix.DoubleMatrix1D, double, double):void" />
+			<role name="Operation()" element="cern.colt.matrix.linalg.SmpBlas::drotg(double, double, double[]):void" />
+			<role name="Operation()" element="cern.colt.matrix.linalg.SmpBlas::dscal(double, cern.colt.matrix.DoubleMatrix1D):void" />
+			<role name="Operation()" element="cern.colt.matrix.linalg.SmpBlas::dscal(double, cern.colt.matrix.DoubleMatrix2D):void" />
+			<role name="Operation()" element="cern.colt.matrix.linalg.SmpBlas::dswap(cern.colt.matrix.DoubleMatrix1D, cern.colt.matrix.DoubleMatrix1D):void" />
+			<role name="Operation()" element="cern.colt.matrix.linalg.SmpBlas::dswap(cern.colt.matrix.DoubleMatrix2D, cern.colt.matrix.DoubleMatrix2D):void" />
+			<role name="Operation()" element="cern.colt.matrix.linalg.SmpBlas::dsymv(boolean, double, cern.colt.matrix.DoubleMatrix2D, cern.colt.matrix.DoubleMatrix1D, double, cern.colt.matrix.DoubleMatrix1D):void" />
+			<role name="Operation()" element="cern.colt.matrix.linalg.SmpBlas::dtrmv(boolean, boolean, boolean, cern.colt.matrix.DoubleMatrix2D, cern.colt.matrix.DoubleMatrix1D):void" />
+			<role name="Operation()" element="cern.colt.matrix.linalg.SmpBlas::idamax(cern.colt.matrix.DoubleMatrix1D):int" />
+		</instance>
+	</pattern>
+	<pattern name="Observer" />
+	<pattern name="State">
+		<instance>
+			<role name="State" element="cern.colt.matrix.DoubleMatrix2D" />
+			<role name="Context" element="cern.colt.matrix.linalg.QRDecomposition" />
+			<role name="state" element="cern.colt.matrix.linalg.QRDecomposition::QR:cern.colt.matrix.DoubleMatrix2D" />
+			<role name="Request()" element="cern.colt.matrix.linalg.QRDecomposition::getQ():cern.colt.matrix.DoubleMatrix2D" />
+			<role name="Request()" element="cern.colt.matrix.linalg.QRDecomposition::getR():cern.colt.matrix.DoubleMatrix2D" />
+			<role name="Request()" element="cern.colt.matrix.linalg.QRDecomposition::solve(cern.colt.matrix.DoubleMatrix2D):cern.colt.matrix.DoubleMatrix2D" />
+		</instance>
+		<instance>
+			<role name="State" element="cern.colt.matrix.DoubleMatrix2D" />
+			<role name="Context" element="cern.colt.matrix.linalg.LUDecompositionQuick" />
+			<role name="state" element="cern.colt.matrix.linalg.LUDecompositionQuick::LU:cern.colt.matrix.DoubleMatrix2D" />
+			<role name="Request()" element="cern.colt.matrix.linalg.LUDecompositionQuick::decompose(cern.colt.matrix.DoubleMatrix2D):void" />
+			<role name="Request()" element="cern.colt.matrix.linalg.LUDecompositionQuick::decompose(cern.colt.matrix.DoubleMatrix2D, int):void" />
+			<role name="Request()" element="cern.colt.matrix.linalg.LUDecompositionQuick::det():double" />
+			<role name="Request()" element="cern.colt.matrix.linalg.LUDecompositionQuick::solve(cern.colt.matrix.DoubleMatrix1D):void" />
+			<role name="Request()" element="cern.colt.matrix.linalg.LUDecompositionQuick::solve(cern.colt.matrix.DoubleMatrix2D):void" />
+			<role name="Request()" element="cern.colt.matrix.linalg.LUDecompositionQuick::solveOld(cern.colt.matrix.DoubleMatrix2D):void" />
+		</instance>
+		<instance>
+			<role name="State" element="cern.colt.matrix.DoubleMatrix2D" />
+			<role name="Context" element="cern.colt.matrix.linalg.CholeskyDecomposition" />
+			<role name="state" element="cern.colt.matrix.linalg.CholeskyDecomposition::L:cern.colt.matrix.DoubleMatrix2D" />
+			<role name="Request()" element="cern.colt.matrix.linalg.CholeskyDecomposition::solve(cern.colt.matrix.DoubleMatrix2D):cern.colt.matrix.DoubleMatrix2D" />
+			<role name="Request()" element="cern.colt.matrix.linalg.CholeskyDecomposition::XXXsolveBuggy(cern.colt.matrix.DoubleMatrix2D):cern.colt.matrix.DoubleMatrix2D" />
+		</instance>
+		<instance>
+			<role name="Context" element="hep.aida.bin.QuantileBin1D" />
+			<role name="State" element="cern.jet.stat.quantile.DoubleQuantileFinder" />
+			<role name="state" element="hep.aida.bin.QuantileBin1D::finder:cern.jet.stat.quantile.DoubleQuantileFinder" />
+			<role name="Request()" element="hep.aida.bin.QuantileBin1D::addAllOfFromTo(cern.colt.list.DoubleArrayList, int, int):void" />
+			<role name="Request()" element="hep.aida.bin.QuantileBin1D::clear():void" />
+			<role name="Request()" element="hep.aida.bin.QuantileBin1D::clone():java.lang.Object" />
+			<role name="Request()" element="hep.aida.bin.QuantileBin1D::quantileInverse(double):double" />
+			<role name="Request()" element="hep.aida.bin.QuantileBin1D::quantiles(cern.colt.list.DoubleArrayList):cern.colt.list.DoubleArrayList" />
+		</instance>
+		<instance>
+			<role name="State" element="cern.colt.function.DoubleFunction" />
+			<role name="Context" element="cern.jet.math.Functions" />
+			<role name="state" element="cern.jet.math.Functions::sin:cern.colt.function.DoubleFunction" />
+			<role name="state" element="cern.jet.math.Functions::square:cern.colt.function.DoubleFunction" />
+			<role name="state" element="cern.jet.math.Functions::cos:cern.colt.function.DoubleFunction" />
+			<role name="Request()" element="cern.jet.math.Functions::demo1():void" />
+		</instance>
+		<instance>
+			<role name="State" element="cern.colt.function.DoubleDoubleFunction" />
+			<role name="Context" element="cern.jet.math.Functions" />
+			<role name="state" element="cern.jet.math.Functions::plus:cern.colt.function.DoubleDoubleFunction" />
+			<role name="Request()" element="cern.jet.math.Functions::demo1():void" />
+			<role name="Request()" element="cern.jet.math.Functions::demo2(int):void" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy" />
+	<pattern name="Bridge">
+		<instance>
+			<role name="Abstraction" element="hep.aida.ref.AbstractHistogram1D" />
+			<role name="Implementor" element="hep.aida.IAxis" />
+			<role name="implementor" element="hep.aida.ref.AbstractHistogram1D::xAxis:hep.aida.IAxis" />
+			<role name="Operation()" element="hep.aida.ref.AbstractHistogram1D::entries():int" />
+			<role name="Operation()" element="hep.aida.ref.AbstractHistogram1D::map(int):int" />
+			<role name="Operation()" element="hep.aida.ref.AbstractHistogram1D::minMaxBins():int[]" />
+			<role name="Operation()" element="hep.aida.ref.AbstractHistogram1D::sumBinHeights():double" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="hep.aida.ref.AbstractHistogram2D" />
+			<role name="Implementor" element="hep.aida.IAxis" />
+			<role name="implementor" element="hep.aida.ref.AbstractHistogram2D::xAxis:hep.aida.IAxis" />
+			<role name="implementor" element="hep.aida.ref.AbstractHistogram2D::yAxis:hep.aida.IAxis" />
+			<role name="Operation()" element="hep.aida.ref.AbstractHistogram2D::allEntries():int" />
+			<role name="Operation()" element="hep.aida.ref.AbstractHistogram2D::entries():int" />
+			<role name="Operation()" element="hep.aida.ref.AbstractHistogram2D::mapX(int):int" />
+			<role name="Operation()" element="hep.aida.ref.AbstractHistogram2D::mapY(int):int" />
+			<role name="Operation()" element="hep.aida.ref.AbstractHistogram2D::minMaxBins():int[]" />
+			<role name="Operation()" element="hep.aida.ref.AbstractHistogram2D::sumAllBinHeights():double" />
+			<role name="Operation()" element="hep.aida.ref.AbstractHistogram2D::sumBinHeights():double" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="hep.aida.ref.AbstractHistogram3D" />
+			<role name="Implementor" element="hep.aida.IAxis" />
+			<role name="implementor" element="hep.aida.ref.AbstractHistogram3D::xAxis:hep.aida.IAxis" />
+			<role name="implementor" element="hep.aida.ref.AbstractHistogram3D::yAxis:hep.aida.IAxis" />
+			<role name="implementor" element="hep.aida.ref.AbstractHistogram3D::zAxis:hep.aida.IAxis" />
+			<role name="Operation()" element="hep.aida.ref.AbstractHistogram3D::allEntries():int" />
+			<role name="Operation()" element="hep.aida.ref.AbstractHistogram3D::entries():int" />
+			<role name="Operation()" element="hep.aida.ref.AbstractHistogram3D::mapX(int):int" />
+			<role name="Operation()" element="hep.aida.ref.AbstractHistogram3D::mapY(int):int" />
+			<role name="Operation()" element="hep.aida.ref.AbstractHistogram3D::mapZ(int):int" />
+			<role name="Operation()" element="hep.aida.ref.AbstractHistogram3D::minMaxBins():int[]" />
+			<role name="Operation()" element="hep.aida.ref.AbstractHistogram3D::sumAllBinHeights():double" />
+			<role name="Operation()" element="hep.aida.ref.AbstractHistogram3D::sumBinHeights():double" />
+		</instance>
+	</pattern>
+	<pattern name="Template Method">
+		<instance>
+			<role name="AbstractClass" element="cern.colt.list.AbstractBooleanList" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractBooleanList::beforeInsertDummies(int, int):void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractBooleanList::elements():boolean[]" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractBooleanList::equals(java.lang.Object):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractBooleanList::fillFromToWith(int, int, boolean):void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractBooleanList::get(int):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractBooleanList::indexOfFromTo(boolean, int, int):int" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractBooleanList::lastIndexOfFromTo(boolean, int, int):int" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractBooleanList::removeAll(cern.colt.list.AbstractBooleanList):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractBooleanList::replaceFromToWithFrom(int, int, cern.colt.list.AbstractBooleanList, int):void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractBooleanList::retainAll(cern.colt.list.AbstractBooleanList):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractBooleanList::reverse():void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractBooleanList::set(int, boolean):void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractBooleanList::shuffleFromTo(int, int):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="cern.colt.list.AbstractByteList" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractByteList::beforeInsertDummies(int, int):void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractByteList::elements():byte[]" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractByteList::equals(java.lang.Object):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractByteList::fillFromToWith(int, int, byte):void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractByteList::get(int):byte" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractByteList::indexOfFromTo(byte, int, int):int" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractByteList::lastIndexOfFromTo(byte, int, int):int" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractByteList::removeAll(cern.colt.list.AbstractByteList):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractByteList::replaceFromToWithFrom(int, int, cern.colt.list.AbstractByteList, int):void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractByteList::retainAll(cern.colt.list.AbstractByteList):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractByteList::reverse():void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractByteList::set(int, byte):void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractByteList::shuffleFromTo(int, int):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="cern.colt.list.AbstractCharList" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractCharList::beforeInsertDummies(int, int):void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractCharList::elements():char[]" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractCharList::equals(java.lang.Object):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractCharList::fillFromToWith(int, int, char):void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractCharList::get(int):char" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractCharList::indexOfFromTo(char, int, int):int" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractCharList::lastIndexOfFromTo(char, int, int):int" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractCharList::removeAll(cern.colt.list.AbstractCharList):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractCharList::replaceFromToWithFrom(int, int, cern.colt.list.AbstractCharList, int):void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractCharList::retainAll(cern.colt.list.AbstractCharList):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractCharList::reverse():void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractCharList::set(int, char):void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractCharList::shuffleFromTo(int, int):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="cern.colt.list.AbstractCollection" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractCollection::isEmpty():boolean" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractCollection::toString():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="cern.colt.list.AbstractDoubleList" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractDoubleList::beforeInsertDummies(int, int):void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractDoubleList::elements():double[]" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractDoubleList::equals(java.lang.Object):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractDoubleList::fillFromToWith(int, int, double):void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractDoubleList::get(int):double" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractDoubleList::indexOfFromTo(double, int, int):int" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractDoubleList::lastIndexOfFromTo(double, int, int):int" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractDoubleList::removeAll(cern.colt.list.AbstractDoubleList):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractDoubleList::replaceFromToWithFrom(int, int, cern.colt.list.AbstractDoubleList, int):void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractDoubleList::retainAll(cern.colt.list.AbstractDoubleList):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractDoubleList::reverse():void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractDoubleList::set(int, double):void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractDoubleList::shuffleFromTo(int, int):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="cern.colt.list.AbstractFloatList" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractFloatList::beforeInsertDummies(int, int):void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractFloatList::elements():float[]" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractFloatList::equals(java.lang.Object):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractFloatList::fillFromToWith(int, int, float):void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractFloatList::get(int):float" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractFloatList::indexOfFromTo(float, int, int):int" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractFloatList::lastIndexOfFromTo(float, int, int):int" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractFloatList::removeAll(cern.colt.list.AbstractFloatList):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractFloatList::replaceFromToWithFrom(int, int, cern.colt.list.AbstractFloatList, int):void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractFloatList::retainAll(cern.colt.list.AbstractFloatList):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractFloatList::reverse():void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractFloatList::set(int, float):void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractFloatList::shuffleFromTo(int, int):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="cern.colt.list.AbstractIntList" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractIntList::beforeInsertDummies(int, int):void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractIntList::elements():int[]" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractIntList::equals(java.lang.Object):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractIntList::fillFromToWith(int, int, int):void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractIntList::get(int):int" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractIntList::indexOfFromTo(int, int, int):int" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractIntList::lastIndexOfFromTo(int, int, int):int" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractIntList::removeAll(cern.colt.list.AbstractIntList):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractIntList::replaceFromToWithFrom(int, int, cern.colt.list.AbstractIntList, int):void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractIntList::retainAll(cern.colt.list.AbstractIntList):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractIntList::reverse():void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractIntList::set(int, int):void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractIntList::shuffleFromTo(int, int):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="cern.colt.list.AbstractList" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractList::beforeInsertAllOf(int, java.util.Collection):void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractList::clear():void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractList::mergeSort():void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractList::quickSort():void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractList::remove(int):void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractList::setSize(int):void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractList::shuffle():void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractList::sortFromTo(int, int):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="cern.colt.list.AbstractLongList" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractLongList::beforeInsertDummies(int, int):void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractLongList::elements():long[]" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractLongList::equals(java.lang.Object):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractLongList::fillFromToWith(int, int, long):void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractLongList::get(int):long" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractLongList::indexOfFromTo(long, int, int):int" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractLongList::lastIndexOfFromTo(long, int, int):int" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractLongList::removeAll(cern.colt.list.AbstractLongList):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractLongList::replaceFromToWithFrom(int, int, cern.colt.list.AbstractLongList, int):void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractLongList::retainAll(cern.colt.list.AbstractLongList):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractLongList::reverse():void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractLongList::set(int, long):void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractLongList::shuffleFromTo(int, int):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="cern.colt.list.AbstractShortList" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractShortList::beforeInsertDummies(int, int):void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractShortList::elements():short[]" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractShortList::equals(java.lang.Object):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractShortList::fillFromToWith(int, int, short):void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractShortList::get(int):short" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractShortList::indexOfFromTo(short, int, int):int" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractShortList::lastIndexOfFromTo(short, int, int):int" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractShortList::removeAll(cern.colt.list.AbstractShortList):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractShortList::replaceFromToWithFrom(int, int, cern.colt.list.AbstractShortList, int):void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractShortList::retainAll(cern.colt.list.AbstractShortList):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractShortList::reverse():void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractShortList::set(int, short):void" />
+			<role name="TemplateMethod()" element="cern.colt.list.AbstractShortList::shuffleFromTo(int, int):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="cern.colt.map.AbstractDoubleIntMap" />
+			<role name="TemplateMethod()" element="cern.colt.map.AbstractDoubleIntMap::containsKey(double):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.map.AbstractDoubleIntMap::forEachPair(cern.colt.function.DoubleIntProcedure):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.map.AbstractDoubleIntMap::keys(cern.colt.list.DoubleArrayList):void" />
+			<role name="TemplateMethod()" element="cern.colt.map.AbstractDoubleIntMap::pairsSortedByKey(cern.colt.list.DoubleArrayList, cern.colt.list.IntArrayList):void" />
+			<role name="TemplateMethod()" element="cern.colt.map.AbstractDoubleIntMap::toString():java.lang.String" />
+			<role name="TemplateMethod()" element="cern.colt.map.AbstractDoubleIntMap::toStringByValue():java.lang.String" />
+			<role name="TemplateMethod()" element="cern.colt.map.AbstractDoubleIntMap::values(cern.colt.list.IntArrayList):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="cern.colt.map.AbstractIntDoubleMap" />
+			<role name="TemplateMethod()" element="cern.colt.map.AbstractIntDoubleMap::containsKey(int):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.map.AbstractIntDoubleMap::forEachPair(cern.colt.function.IntDoubleProcedure):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.map.AbstractIntDoubleMap::keys(cern.colt.list.IntArrayList):void" />
+			<role name="TemplateMethod()" element="cern.colt.map.AbstractIntDoubleMap::pairsSortedByKey(cern.colt.list.IntArrayList, cern.colt.list.DoubleArrayList):void" />
+			<role name="TemplateMethod()" element="cern.colt.map.AbstractIntDoubleMap::toString():java.lang.String" />
+			<role name="TemplateMethod()" element="cern.colt.map.AbstractIntDoubleMap::toStringByValue():java.lang.String" />
+			<role name="TemplateMethod()" element="cern.colt.map.AbstractIntDoubleMap::values(cern.colt.list.DoubleArrayList):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="cern.colt.map.AbstractIntIntMap" />
+			<role name="TemplateMethod()" element="cern.colt.map.AbstractIntIntMap::containsKey(int):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.map.AbstractIntIntMap::forEachPair(cern.colt.function.IntIntProcedure):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.map.AbstractIntIntMap::keys(cern.colt.list.IntArrayList):void" />
+			<role name="TemplateMethod()" element="cern.colt.map.AbstractIntIntMap::pairsSortedByKey(cern.colt.list.IntArrayList, cern.colt.list.IntArrayList):void" />
+			<role name="TemplateMethod()" element="cern.colt.map.AbstractIntIntMap::toString():java.lang.String" />
+			<role name="TemplateMethod()" element="cern.colt.map.AbstractIntIntMap::toStringByValue():java.lang.String" />
+			<role name="TemplateMethod()" element="cern.colt.map.AbstractIntIntMap::values(cern.colt.list.IntArrayList):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="cern.colt.map.AbstractIntObjectMap" />
+			<role name="TemplateMethod()" element="cern.colt.map.AbstractIntObjectMap::containsKey(int):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.map.AbstractIntObjectMap::forEachPair(cern.colt.function.IntObjectProcedure):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.map.AbstractIntObjectMap::keys(cern.colt.list.IntArrayList):void" />
+			<role name="TemplateMethod()" element="cern.colt.map.AbstractIntObjectMap::pairsSortedByKey(cern.colt.list.IntArrayList, cern.colt.list.ObjectArrayList):void" />
+			<role name="TemplateMethod()" element="cern.colt.map.AbstractIntObjectMap::toString():java.lang.String" />
+			<role name="TemplateMethod()" element="cern.colt.map.AbstractIntObjectMap::toStringByValue():java.lang.String" />
+			<role name="TemplateMethod()" element="cern.colt.map.AbstractIntObjectMap::values(cern.colt.list.ObjectArrayList):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="cern.colt.map.AbstractLongObjectMap" />
+			<role name="TemplateMethod()" element="cern.colt.map.AbstractLongObjectMap::containsKey(long):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.map.AbstractLongObjectMap::forEachPair(cern.colt.function.LongObjectProcedure):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.map.AbstractLongObjectMap::keys(cern.colt.list.LongArrayList):void" />
+			<role name="TemplateMethod()" element="cern.colt.map.AbstractLongObjectMap::pairsSortedByKey(cern.colt.list.LongArrayList, cern.colt.list.ObjectArrayList):void" />
+			<role name="TemplateMethod()" element="cern.colt.map.AbstractLongObjectMap::toString():java.lang.String" />
+			<role name="TemplateMethod()" element="cern.colt.map.AbstractLongObjectMap::toStringByValue():java.lang.String" />
+			<role name="TemplateMethod()" element="cern.colt.map.AbstractLongObjectMap::values(cern.colt.list.ObjectArrayList):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="cern.colt.matrix.DoubleMatrix1D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix1D::aggregate(cern.colt.function.DoubleDoubleFunction, cern.colt.function.DoubleFunction):double" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix1D::aggregate(cern.colt.matrix.DoubleMatrix1D, cern.colt.function.DoubleDoubleFunction, cern.colt.function.DoubleDoubleFunction):double" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix1D::assign(double[]):cern.colt.matrix.DoubleMatrix1D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix1D::assign(double):cern.colt.matrix.DoubleMatrix1D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix1D::assign(cern.colt.function.DoubleFunction):cern.colt.matrix.DoubleMatrix1D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix1D::assign(cern.colt.matrix.DoubleMatrix1D):cern.colt.matrix.DoubleMatrix1D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix1D::assign(cern.colt.matrix.DoubleMatrix1D, cern.colt.function.DoubleDoubleFunction):cern.colt.matrix.DoubleMatrix1D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix1D::assign(cern.colt.matrix.DoubleMatrix1D, cern.colt.function.DoubleDoubleFunction, cern.colt.list.IntArrayList):cern.colt.matrix.DoubleMatrix1D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix1D::cardinality():int" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix1D::cardinality(int):int" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix1D::get(int):double" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix1D::getNonZeros(cern.colt.list.IntArrayList, cern.colt.list.DoubleArrayList):void" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix1D::getNonZeros(cern.colt.list.IntArrayList, cern.colt.list.DoubleArrayList, int):void" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix1D::like():cern.colt.matrix.DoubleMatrix1D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix1D::set(int, double):void" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix1D::swap(cern.colt.matrix.DoubleMatrix1D):void" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix1D::toArray(double[]):void" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix1D::viewSelection(int[]):cern.colt.matrix.DoubleMatrix1D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix1D::viewSelection(cern.colt.function.DoubleProcedure):cern.colt.matrix.DoubleMatrix1D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix1D::xforEach(cern.colt.function.DoubleProcedure):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix1D::zDotProduct(cern.colt.matrix.DoubleMatrix1D, int, int):double" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix1D::zDotProduct(cern.colt.matrix.DoubleMatrix1D, int, int, cern.colt.list.IntArrayList):double" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="cern.colt.matrix.DoubleMatrix2D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix2D::aggregate(cern.colt.function.DoubleDoubleFunction, cern.colt.function.DoubleFunction):double" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix2D::aggregate(cern.colt.matrix.DoubleMatrix2D, cern.colt.function.DoubleDoubleFunction, cern.colt.function.DoubleDoubleFunction):double" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix2D::assign(double[][]):cern.colt.matrix.DoubleMatrix2D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix2D::assign(double):cern.colt.matrix.DoubleMatrix2D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix2D::assign(cern.colt.function.DoubleFunction):cern.colt.matrix.DoubleMatrix2D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix2D::assign(cern.colt.matrix.DoubleMatrix2D):cern.colt.matrix.DoubleMatrix2D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix2D::assign(cern.colt.matrix.DoubleMatrix2D, cern.colt.function.DoubleDoubleFunction):cern.colt.matrix.DoubleMatrix2D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix2D::cardinality():int" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix2D::forEachNonZero(cern.colt.function.IntIntDoubleFunction):cern.colt.matrix.DoubleMatrix2D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix2D::get(int, int):double" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix2D::getNonZeros(cern.colt.list.IntArrayList, cern.colt.list.IntArrayList, cern.colt.list.DoubleArrayList):void" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix2D::like():cern.colt.matrix.DoubleMatrix2D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix2D::set(int, int, double):void" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix2D::toArray():double[][]" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix2D::viewColumn(int):cern.colt.matrix.DoubleMatrix1D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix2D::viewRow(int):cern.colt.matrix.DoubleMatrix1D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix2D::viewSelection(int[], int[]):cern.colt.matrix.DoubleMatrix2D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix2D::xforEach(cern.colt.function.DoubleProcedure):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix2D::zAssign8Neighbors(cern.colt.matrix.DoubleMatrix2D, cern.colt.function.Double9Function):void" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix2D::zMult(cern.colt.matrix.DoubleMatrix1D, cern.colt.matrix.DoubleMatrix1D, double, double, boolean):cern.colt.matrix.DoubleMatrix1D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix2D::zMult(cern.colt.matrix.DoubleMatrix2D, cern.colt.matrix.DoubleMatrix2D, double, double, boolean, boolean):cern.colt.matrix.DoubleMatrix2D" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="cern.colt.matrix.DoubleMatrix3D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix3D::aggregate(cern.colt.function.DoubleDoubleFunction, cern.colt.function.DoubleFunction):double" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix3D::aggregate(cern.colt.matrix.DoubleMatrix3D, cern.colt.function.DoubleDoubleFunction, cern.colt.function.DoubleDoubleFunction):double" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix3D::assign(double[][][]):cern.colt.matrix.DoubleMatrix3D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix3D::assign(double):cern.colt.matrix.DoubleMatrix3D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix3D::assign(cern.colt.function.DoubleFunction):cern.colt.matrix.DoubleMatrix3D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix3D::assign(cern.colt.matrix.DoubleMatrix3D):cern.colt.matrix.DoubleMatrix3D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix3D::assign(cern.colt.matrix.DoubleMatrix3D, cern.colt.function.DoubleDoubleFunction):cern.colt.matrix.DoubleMatrix3D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix3D::cardinality():int" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix3D::get(int, int, int):double" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix3D::getNonZeros(cern.colt.list.IntArrayList, cern.colt.list.IntArrayList, cern.colt.list.IntArrayList, cern.colt.list.DoubleArrayList):void" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix3D::like():cern.colt.matrix.DoubleMatrix3D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix3D::set(int, int, int, double):void" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix3D::toArray():double[][][]" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix3D::viewColumn(int):cern.colt.matrix.DoubleMatrix2D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix3D::viewRow(int):cern.colt.matrix.DoubleMatrix2D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix3D::viewSelection(int[], int[], int[]):cern.colt.matrix.DoubleMatrix3D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix3D::viewSlice(int):cern.colt.matrix.DoubleMatrix2D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix3D::xforEach(cern.colt.function.DoubleProcedure):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.DoubleMatrix3D::zAssign27Neighbors(cern.colt.matrix.DoubleMatrix3D, cern.colt.function.Double27Function):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="cern.colt.matrix.impl.AbstractFormatter" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.impl.AbstractFormatter::formatRow(cern.colt.matrix.impl.AbstractMatrix1D):java.lang.String[]" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.impl.AbstractFormatter::toString(cern.colt.matrix.impl.AbstractMatrix2D):java.lang.String" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="cern.colt.matrix.ObjectMatrix1D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix1D::aggregate(cern.colt.function.ObjectObjectFunction, cern.colt.function.ObjectFunction):java.lang.Object" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix1D::aggregate(cern.colt.matrix.ObjectMatrix1D, cern.colt.function.ObjectObjectFunction, cern.colt.function.ObjectObjectFunction):java.lang.Object" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix1D::assign(java.lang.Object[]):cern.colt.matrix.ObjectMatrix1D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix1D::assign(cern.colt.function.ObjectFunction):cern.colt.matrix.ObjectMatrix1D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix1D::assign(cern.colt.matrix.ObjectMatrix1D):cern.colt.matrix.ObjectMatrix1D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix1D::assign(cern.colt.matrix.ObjectMatrix1D, cern.colt.function.ObjectObjectFunction):cern.colt.matrix.ObjectMatrix1D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix1D::assign(java.lang.Object):cern.colt.matrix.ObjectMatrix1D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix1D::cardinality():int" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix1D::equals(java.lang.Object, boolean):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix1D::get(int):java.lang.Object" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix1D::getNonZeros(cern.colt.list.IntArrayList, cern.colt.list.ObjectArrayList):void" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix1D::like():cern.colt.matrix.ObjectMatrix1D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix1D::set(int, java.lang.Object):void" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix1D::swap(cern.colt.matrix.ObjectMatrix1D):void" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix1D::toArray(java.lang.Object[]):void" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix1D::viewSelection(int[]):cern.colt.matrix.ObjectMatrix1D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix1D::viewSelection(cern.colt.function.ObjectProcedure):cern.colt.matrix.ObjectMatrix1D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix1D::xforEach(cern.colt.function.ObjectProcedure):boolean" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="cern.colt.matrix.ObjectMatrix2D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix2D::aggregate(cern.colt.function.ObjectObjectFunction, cern.colt.function.ObjectFunction):java.lang.Object" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix2D::aggregate(cern.colt.matrix.ObjectMatrix2D, cern.colt.function.ObjectObjectFunction, cern.colt.function.ObjectObjectFunction):java.lang.Object" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix2D::assign(java.lang.Object[][]):cern.colt.matrix.ObjectMatrix2D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix2D::assign(cern.colt.function.ObjectFunction):cern.colt.matrix.ObjectMatrix2D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix2D::assign(cern.colt.matrix.ObjectMatrix2D):cern.colt.matrix.ObjectMatrix2D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix2D::assign(cern.colt.matrix.ObjectMatrix2D, cern.colt.function.ObjectObjectFunction):cern.colt.matrix.ObjectMatrix2D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix2D::assign(java.lang.Object):cern.colt.matrix.ObjectMatrix2D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix2D::cardinality():int" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix2D::equals(java.lang.Object, boolean):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix2D::get(int, int):java.lang.Object" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix2D::getNonZeros(cern.colt.list.IntArrayList, cern.colt.list.IntArrayList, cern.colt.list.ObjectArrayList):void" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix2D::like():cern.colt.matrix.ObjectMatrix2D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix2D::set(int, int, java.lang.Object):void" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix2D::toArray():java.lang.Object[][]" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix2D::viewColumn(int):cern.colt.matrix.ObjectMatrix1D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix2D::viewRow(int):cern.colt.matrix.ObjectMatrix1D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix2D::viewSelection(int[], int[]):cern.colt.matrix.ObjectMatrix2D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix2D::xforEach(cern.colt.function.ObjectProcedure):boolean" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="cern.colt.matrix.ObjectMatrix3D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix3D::aggregate(cern.colt.function.ObjectObjectFunction, cern.colt.function.ObjectFunction):java.lang.Object" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix3D::aggregate(cern.colt.matrix.ObjectMatrix3D, cern.colt.function.ObjectObjectFunction, cern.colt.function.ObjectObjectFunction):java.lang.Object" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix3D::assign(java.lang.Object[][][]):cern.colt.matrix.ObjectMatrix3D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix3D::assign(cern.colt.function.ObjectFunction):cern.colt.matrix.ObjectMatrix3D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix3D::assign(cern.colt.matrix.ObjectMatrix3D):cern.colt.matrix.ObjectMatrix3D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix3D::assign(cern.colt.matrix.ObjectMatrix3D, cern.colt.function.ObjectObjectFunction):cern.colt.matrix.ObjectMatrix3D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix3D::assign(java.lang.Object):cern.colt.matrix.ObjectMatrix3D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix3D::cardinality():int" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix3D::equals(java.lang.Object, boolean):boolean" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix3D::get(int, int, int):java.lang.Object" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix3D::getNonZeros(cern.colt.list.IntArrayList, cern.colt.list.IntArrayList, cern.colt.list.IntArrayList, cern.colt.list.ObjectArrayList):void" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix3D::like():cern.colt.matrix.ObjectMatrix3D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix3D::set(int, int, int, java.lang.Object):void" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix3D::toArray():java.lang.Object[][][]" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix3D::viewColumn(int):cern.colt.matrix.ObjectMatrix2D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix3D::viewRow(int):cern.colt.matrix.ObjectMatrix2D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix3D::viewSelection(int[], int[], int[]):cern.colt.matrix.ObjectMatrix3D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix3D::viewSlice(int):cern.colt.matrix.ObjectMatrix2D" />
+			<role name="TemplateMethod()" element="cern.colt.matrix.ObjectMatrix3D::xforEach(cern.colt.function.ObjectProcedure):boolean" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="cern.jet.random.AbstractDiscreteDistribution" />
+			<role name="TemplateMethod()" element="cern.jet.random.AbstractDiscreteDistribution::nextDouble():double" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="cern.jet.random.AbstractDistribution" />
+			<role name="TemplateMethod()" element="cern.jet.random.AbstractDistribution::apply(double):double" />
+			<role name="TemplateMethod()" element="cern.jet.random.AbstractDistribution::nextInt():int" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="cern.jet.random.engine.RandomEngine" />
+			<role name="TemplateMethod()" element="cern.jet.random.engine.RandomEngine::apply(int):int" />
+			<role name="TemplateMethod()" element="cern.jet.random.engine.RandomEngine::nextLong():long" />
+			<role name="TemplateMethod()" element="cern.jet.random.engine.RandomEngine::raw():double" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="cern.jet.stat.quantile.Buffer" />
+			<role name="TemplateMethod()" element="cern.jet.stat.quantile.Buffer::isPartial():boolean" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="cern.jet.stat.quantile.DoubleQuantileEstimator" />
+			<role name="TemplateMethod()" element="cern.jet.stat.quantile.DoubleQuantileEstimator::add(double):void" />
+			<role name="TemplateMethod()" element="cern.jet.stat.quantile.DoubleQuantileEstimator::addAllOfFromTo(cern.colt.list.DoubleArrayList, int, int):void" />
+			<role name="TemplateMethod()" element="cern.jet.stat.quantile.DoubleQuantileEstimator::collapse():void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="hep.aida.bin.AbstractBin" />
+			<role name="TemplateMethod()" element="hep.aida.bin.AbstractBin::equals(java.lang.Object):boolean" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="hep.aida.bin.AbstractBin1D" />
+			<role name="TemplateMethod()" element="hep.aida.bin.AbstractBin1D::addAllOfFromTo(cern.colt.list.DoubleArrayList, int, int):void" />
+			<role name="TemplateMethod()" element="hep.aida.bin.AbstractBin1D::compareWith(hep.aida.bin.AbstractBin1D):java.lang.String" />
+			<role name="TemplateMethod()" element="hep.aida.bin.AbstractBin1D::equals(java.lang.Object):boolean" />
+			<role name="TemplateMethod()" element="hep.aida.bin.AbstractBin1D::mean():double" />
+			<role name="TemplateMethod()" element="hep.aida.bin.AbstractBin1D::rms():double" />
+			<role name="TemplateMethod()" element="hep.aida.bin.AbstractBin1D::toString():java.lang.String" />
+			<role name="TemplateMethod()" element="hep.aida.bin.AbstractBin1D::variance():double" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="hep.aida.ref.AbstractHistogram2D" />
+			<role name="TemplateMethod()" element="hep.aida.ref.AbstractHistogram2D::projectionX():hep.aida.IHistogram1D" />
+			<role name="TemplateMethod()" element="hep.aida.ref.AbstractHistogram2D::projectionY():hep.aida.IHistogram1D" />
+			<role name="TemplateMethod()" element="hep.aida.ref.AbstractHistogram2D::sliceX(int):hep.aida.IHistogram1D" />
+			<role name="TemplateMethod()" element="hep.aida.ref.AbstractHistogram2D::sliceX(int, int):hep.aida.IHistogram1D" />
+			<role name="TemplateMethod()" element="hep.aida.ref.AbstractHistogram2D::sliceY(int):hep.aida.IHistogram1D" />
+			<role name="TemplateMethod()" element="hep.aida.ref.AbstractHistogram2D::sliceY(int, int):hep.aida.IHistogram1D" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="hep.aida.ref.AbstractHistogram3D" />
+			<role name="TemplateMethod()" element="hep.aida.ref.AbstractHistogram3D::projectionXY():hep.aida.IHistogram2D" />
+			<role name="TemplateMethod()" element="hep.aida.ref.AbstractHistogram3D::projectionXZ():hep.aida.IHistogram2D" />
+			<role name="TemplateMethod()" element="hep.aida.ref.AbstractHistogram3D::projectionYZ():hep.aida.IHistogram2D" />
+			<role name="TemplateMethod()" element="hep.aida.ref.AbstractHistogram3D::sliceXY(int, int):hep.aida.IHistogram2D" />
+			<role name="TemplateMethod()" element="hep.aida.ref.AbstractHistogram3D::sliceXZ(int, int):hep.aida.IHistogram2D" />
+			<role name="TemplateMethod()" element="hep.aida.ref.AbstractHistogram3D::sliceYZ(int, int):hep.aida.IHistogram2D" />
+		</instance>
+	</pattern>
+	<pattern name="Visitor" />
+	<pattern name="Proxy">
+		<instance>
+			<role name="Proxy" element="cern.colt.list.DistinctNumberList" />
+			<role name="RealSubject" element="cern.colt.list.MinMaxNumberList" />
+			<role name="Request()" element="cern.colt.list.DistinctNumberList::ensureCapacity(int):void" />
+			<role name="Request()" element="cern.colt.list.DistinctNumberList::getQuick(int):long" />
+			<role name="Request()" element="cern.colt.list.DistinctNumberList::setQuick(int, long):void" />
+		</instance>
+	</pattern>
+	<pattern name="Proxy2">
+		<instance>
+			<role name="Proxy" element="cern.colt.buffer.DoubleBuffer" />
+			<role name="RealSubject" element="cern.colt.list.DoubleArrayList" />
+			<role name="Subject" element="cern.colt.buffer.DoubleBufferConsumer" />
+			<role name="subject" element="cern.colt.buffer.DoubleBuffer::target:cern.colt.buffer.DoubleBufferConsumer" />
+			<role name="Request()" element="cern.colt.buffer.DoubleBuffer::addAllOf(cern.colt.list.DoubleArrayList):void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="cern.colt.buffer.IntBuffer" />
+			<role name="RealSubject" element="cern.colt.list.IntArrayList" />
+			<role name="Subject" element="cern.colt.buffer.IntBufferConsumer" />
+			<role name="subject" element="cern.colt.buffer.IntBuffer::target:cern.colt.buffer.IntBufferConsumer" />
+			<role name="Request()" element="cern.colt.buffer.IntBuffer::addAllOf(cern.colt.list.IntArrayList):void" />
+		</instance>
+	</pattern>
+	<pattern name="Chain of Responsibility" />
+</system>
+

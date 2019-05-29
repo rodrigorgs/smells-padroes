@@ -1,0 +1,514 @@
+com.hp.hpl.jena.reasoner.Finder	Factory Method
+com.hp.hpl.jena.rdf.model.impl.ModelCom	State
+com.hp.hpl.jena.graph.query.IndexValues	State
+com.hp.hpl.jena.graph.query.SimpleQueryEngine	State
+com.hp.hpl.jena.rdf.arp.NTriple$TwoSH	Decorator
+com.hp.hpl.jena.graph.Node_Variable	Visitor
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveReasonerFactory	(Object)Adapter
+com.hp.hpl.jena.rdf.model.Container	(Object)Adapter
+com.hp.hpl.jena.db.impl.PSet_ReifStore_RDB	(Object)Adapter
+com.hp.hpl.jena.graph.query.regexptrees.RegexpTreeGenerator	Factory Method
+com.hp.hpl.jena.rdf.model.InfModel	Factory Method
+com.hp.hpl.jena.reasoner.rulesys.impl.WrappedReasonerFactory	(Object)Adapter
+com.hp.hpl.jena.ontology.impl.OntModelImpl$RdfTypeTestFn	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleEventManager	Composite
+com.hp.hpl.jena.graph.query.StageElement$PutBindings	State
+com.hp.hpl.jena.xmloutput.impl.Unparser$WType	State
+com.hp.hpl.jena.reasoner.rulesys.GenericRuleReasonerFactory	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.StatementBase	Factory Method
+com.hp.hpl.jena.db.impl.DBQueryStage	State
+com.hp.hpl.jena.shared.uuid.UUIDFactory	Bridge
+com.hp.hpl.jena.mem.MatchOrBind	(Object)Adapter
+com.hp.hpl.jena.db.impl.DBBulkUpdateHandler	(Object)Adapter
+com.hp.hpl.jena.graph.impl.WrappedGraph	(Object)Adapter
+com.hp.hpl.jena.vocabulary.OntEventsVocab	State
+com.hp.hpl.jena.reasoner.rulesys.impl.BBRuleContext	(Object)Adapter
+com.hp.hpl.jena.db.IDBConnection	Bridge
+com.hp.hpl.jena.reasoner.rulesys.impl.RETERuleContext	State
+com.hp.hpl.jena.db.IDBConnection	(Object)Adapter
+com.hp.hpl.jena.ontology.OntModel	Factory Method
+com.hp.hpl.jena.db.impl.IPSet	(Object)Adapter
+com.hp.hpl.jena.enhanced.EnhNode	State
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	(Object)Adapter
+com.hp.hpl.jena.graph.query.StageElement$RunValuatorSet	Decorator
+com.hp.hpl.jena.util.OneToManyMap	(Object)Adapter
+com.hp.hpl.jena.rdf.arp.JenaReader	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleBulkUpdateHandler	State
+com.hp.hpl.jena.reasoner.rulesys.BackwardRuleInfGraphI	State
+com.hp.hpl.jena.graph.impl.GraphWithPerform	State
+com.hp.hpl.jena.shared.uuid.UUID_nil	Singleton
+com.hp.hpl.jena.assembler.Assembler	Singleton
+com.hp.hpl.jena.graph.impl.FileGraph$NotifyOnClose	State
+com.hp.hpl.jena.mem.GraphTripleStoreBase	Bridge
+com.hp.hpl.jena.graph.query.QueryHandler	Factory Method
+com.hp.hpl.jena.reasoner.InfGraph	State
+com.hp.hpl.jena.mem.BunchMap	Bridge
+com.hp.hpl.jena.vocabulary.RDFTest	State
+com.hp.hpl.jena.mem.StoreTripleIterator	State
+com.hp.hpl.jena.graph.impl.TripleStore	Factory Method
+com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$4	State
+com.hp.hpl.jena.graph.impl.WrappedReifier	Decorator
+com.hp.hpl.jena.db.DBConnection	State
+com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$4	(Object)Adapter
+com.hp.hpl.jena.assembler.RuleSet	Singleton
+com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$1	(Object)Adapter
+com.hp.hpl.jena.util.PrintUtil	State
+com.hp.hpl.jena.graph.query.QueryTriple$SimpleApplyer	State
+com.hp.hpl.jena.reasoner.rulesys.OWLFBRuleReasonerFactory	(Object)Adapter
+com.hp.hpl.jena.rdf.model.ResourceFactory$Interface	Factory Method
+com.hp.hpl.jena.rdf.arp.states.FrameI	State
+com.hp.hpl.jena.graph.NodeVisitor	Visitor
+com.hp.hpl.jena.graph.query.IndexValues	(Object)Adapter
+com.hp.hpl.jena.n3.turtle.TurtleEventHandler	State
+com.hp.hpl.jena.reasoner.ReasonerFactory	Decorator
+com.hp.hpl.jena.reasoner.rulesys.RuleContext	State
+com.hp.hpl.jena.graph.Node_URI	Visitor
+com.hp.hpl.jena.db.IDBConnection	State
+com.hp.hpl.jena.rdf.model.RDFWriterF	State
+com.hp.hpl.jena.graph.Graph	Factory Method
+com.hp.hpl.jena.util.iterator.ClosableIterator	State
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveInfGraph	State
+com.hp.hpl.jena.graph.query.VariableIndexes	State
+com.hp.hpl.jena.graph.query.Stage	Chain of Responsibility
+com.hp.hpl.jena.reasoner.ReasonerRegistry	Singleton
+com.hp.hpl.jena.reasoner.rulesys.RuleDerivation	State
+com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine	State
+jena.schemagen$SchemagenOptions	State
+com.hp.hpl.jena.db.impl.DBPropDatabase	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelMakerImpl	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.FBRuleReasoner	State
+com.hp.hpl.jena.rdf.model.impl.NTripleWriter	State
+com.hp.hpl.jena.reasoner.Finder	State
+com.hp.hpl.jena.graph.query.Expression	Singleton
+com.hp.hpl.jena.rdf.model.ResourceFactory$Interface	State
+com.hp.hpl.jena.vocabulary.OWLResults	State
+com.hp.hpl.jena.graph.query.VariableIndexes	(Object)Adapter
+com.hp.hpl.jena.graph.query.regexptrees.PerlPatternParser	State
+com.hp.hpl.jena.db.impl.DriverRDB	Bridge
+com.hp.hpl.jena.reasoner.rulesys.DAMLMicroReasonerFactory	(Object)Adapter
+com.hp.hpl.jena.reasoner.InfGraph	Factory Method
+com.hp.hpl.jena.graph.Triple$Field	Singleton
+com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleReasoner	State
+com.hp.hpl.jena.graph.impl.GraphBase	Bridge
+com.hp.hpl.jena.graph.impl.ReificationWrapper	(Object)Adapter
+com.hp.hpl.jena.vocabulary.DAML_OIL	Singleton
+com.hp.hpl.jena.ontology.OntDocumentManager	State
+com.hp.hpl.jena.graph.query.Element	State
+com.hp.hpl.jena.rdf.model.ModelMaker	State
+com.hp.hpl.jena.db.impl.DBReifierGraph	Proxy
+com.hp.hpl.jena.graph.TripleBoundary	(Object)Adapter
+com.hp.hpl.jena.graph.impl.FileGraph	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	(Object)Adapter
+com.hp.hpl.jena.rdf.model.Model	State
+com.hp.hpl.jena.rdf.arp.impl.ARPSaxErrorHandler	State
+com.hp.hpl.jena.graph.query.TripleSorter	Singleton
+com.hp.hpl.jena.util.iterator.Filter	Singleton
+com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	State
+com.hp.hpl.jena.rdf.model.SimpleSelector	State
+com.hp.hpl.jena.mem.GraphMemBaseQueryHandler	State
+com.hp.hpl.jena.graph.impl.GraphWithPerform	(Object)Adapter
+com.hp.hpl.jena.rdf.model.Property	State
+com.hp.hpl.jena.graph.GraphEventManager	State
+com.hp.hpl.jena.rdf.model.impl.ResourceImpl	Visitor
+com.hp.hpl.jena.graph.query.Applyer	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleReasoner	State
+com.hp.hpl.jena.graph.query.QueryNode	(Object)Adapter
+com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	(Object)Adapter
+com.hp.hpl.jena.graph.query.regexptrees.RegexpTree	Singleton
+com.hp.hpl.jena.rdf.model.RDFErrorHandler	(Object)Adapter
+com.hp.hpl.jena.graph.Reifier	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.GenericRuleReasonerFactory	Singleton
+com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleReasoner	(Object)Adapter
+com.hp.hpl.jena.db.impl.DBReifier	State
+com.hp.hpl.jena.graph.Triple	State
+com.hp.hpl.jena.reasoner.rulesys.impl.LPTopGoalIterator	State
+com.hp.hpl.jena.mem.faster.FasterTripleStore	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ContNodeIteratorImpl	State
+jena.cmdline.CommandLine	State
+com.hp.hpl.jena.graph.impl.GraphMatcher	State
+com.hp.hpl.jena.graph.impl.ReifierFragmentsMap	State
+com.hp.hpl.jena.mem.faster.GraphMemFaster$GraphMemFasterStatisticsHandler	State
+com.hp.hpl.jena.xmloutput.impl.SimpleLogger	(Object)Adapter
+com.hp.hpl.jena.n3.turtle.TurtleRDFGraphInserter	(Object)Adapter
+com.hp.hpl.jena.db.impl.DBReifier	(Object)Adapter
+com.hp.hpl.jena.db.impl.IPSet	Factory Method
+com.hp.hpl.jena.ontology.OntResource	Factory Method
+com.hp.hpl.jena.shared.ReificationStyle	(Object)Adapter
+com.hp.hpl.jena.vocabulary.OWL	State
+com.hp.hpl.jena.db.impl.ResultSetReifIterator	(Object)Adapter
+com.hp.hpl.jena.graph.impl.ReificationWrapper	State
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleInfGraph	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.LPBindingEnvironment	(Object)Adapter
+com.hp.hpl.jena.rdf.model.Model	(Object)Adapter
+com.hp.hpl.jena.graph.Triple$Field	Factory Method
+com.hp.hpl.jena.graph.impl.GraphMatcher$SomeResource	State
+com.hp.hpl.jena.reasoner.rulesys.impl.RETESinkNode	State
+com.hp.hpl.jena.rdf.model.impl.NTripleReader	(Object)Adapter
+com.hp.hpl.jena.graph.Graph	Decorator
+com.hp.hpl.jena.graph.Node	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.RDFSFBRuleReasonerFactory	(Object)Adapter
+com.hp.hpl.jena.rdf.arp.StatementHandler	Decorator
+com.hp.hpl.jena.assembler.Assembler	State
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier$GetReifier	(Object)Adapter
+com.hp.hpl.jena.graph.query.StageElement	Decorator
+com.hp.hpl.jena.mem.HashCommon$NotifyEmpty	Singleton
+com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode	Singleton
+com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$2	(Object)Adapter
+com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	Template Method
+com.hp.hpl.jena.vocabulary.DCTypes	State
+com.hp.hpl.jena.reasoner.BaseInfGraph	Template Method
+com.hp.hpl.jena.enhanced.EnhGraph	State
+com.hp.hpl.jena.reasoner.rulesys.impl.BFRuleContext	State
+com.hp.hpl.jena.graph.BulkUpdateHandler	Decorator
+com.hp.hpl.jena.mem.HashCommon$MovedKeysIterator	State
+com.hp.hpl.jena.rdf.model.impl.NTripleWriter	(Object)Adapter
+com.hp.hpl.jena.graph.Graph	Bridge
+com.hp.hpl.jena.graph.Triple$Field	Bridge
+com.hp.hpl.jena.mem.NodeToTriplesMapBase	State
+com.hp.hpl.jena.mem.MatchOrBind$1	State
+com.hp.hpl.jena.graph.impl.FileGraph$NotifyOnClose	Singleton
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveReasonerFactory	State
+com.hp.hpl.jena.reasoner.FGraph	State
+com.hp.hpl.jena.graph.impl.FileGraphTransactionHandler	(Object)Adapter
+com.hp.hpl.jena.reasoner.Finder	(Object)Adapter
+com.hp.hpl.jena.shared.uuid.JenaUUID	Bridge
+com.hp.hpl.jena.rdf.arp.states.WantsObjectI	Bridge
+com.hp.hpl.jena.mem.MixedGraphMem	(Object)Adapter
+com.hp.hpl.jena.rdf.model.Resource	(Object)Adapter
+com.hp.hpl.jena.db.impl.ResultSetTripleIterator	State
+com.hp.hpl.jena.rdf.model.impl.ModelReifier	State
+com.hp.hpl.jena.graph.compose.PolyadicPrefixMappingImpl	(Object)Adapter
+com.hp.hpl.jena.db.impl.SQLCache	(Object)Adapter
+com.hp.hpl.jena.mem.NodeToTriplesMapBase	(Object)Adapter
+com.hp.hpl.jena.graph.query.regexptrees.RegexpTree	Decorator
+com.hp.hpl.jena.reasoner.ReasonerFactory	Factory Method
+com.hp.hpl.jena.reasoner.TriplePattern	State
+com.hp.hpl.jena.shared.PrefixMapping	Singleton
+com.hp.hpl.jena.reasoner.rulesys.impl.Generator$LFlag	Singleton
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	Decorator
+com.hp.hpl.jena.assembler.assemblers.ModelAssembler	Template Method
+com.hp.hpl.jena.util.iterator.Filter	State
+com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	Bridge
+com.hp.hpl.jena.rdf.arp.ExtendedHandler	State
+com.hp.hpl.jena.rdf.model.RDFReaderF	State
+com.hp.hpl.jena.assembler.assemblers.AssemblerBase$MapObjectToContent	State
+com.hp.hpl.jena.rdf.arp.impl.XMLHandler	State
+com.hp.hpl.jena.ontology.OntDocumentManager	Singleton
+com.hp.hpl.jena.db.DBConnection	(Object)Adapter
+com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$PlainAssemblerGroup	Proxy
+jena.rdfcat	State
+com.hp.hpl.jena.rdf.model.impl.ModelReifier	(Object)Adapter
+com.hp.hpl.jena.db.impl.ResultSetReifIterator	State
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache	State
+com.hp.hpl.jena.graph.TripleBoundary	Singleton
+com.hp.hpl.jena.rdf.model.Property	(Object)Adapter
+com.hp.hpl.jena.rdf.model.RDFList	Factory Method
+com.hp.hpl.jena.ontology.impl.AbstractProfile	Template Method
+com.hp.hpl.jena.rdf.model.impl.NodeIteratorFactory	Factory Method
+com.hp.hpl.jena.ontology.ProfileRegistry	Singleton
+com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleInfGraph	State
+com.hp.hpl.jena.vocabulary.DCTerms	State
+com.hp.hpl.jena.datatypes.RDFDatatype	(Object)Adapter
+com.hp.hpl.jena.mem.GraphTripleStoreBase	(Object)Adapter
+com.hp.hpl.jena.graph.Node	Template Method
+jena.util.DBcmd	Template Method
+com.hp.hpl.jena.graph.query.Stage	Factory Method
+com.hp.hpl.jena.reasoner.rulesys.impl.RETESinkNode	Prototype
+jena.cmdline.ArgHandler	State
+com.hp.hpl.jena.db.GraphRDB	State
+com.hp.hpl.jena.vocabulary.DAML_OIL	State
+com.hp.hpl.jena.reasoner.rulesys.impl.LPBRuleEngine	(Object)Adapter
+com.hp.hpl.jena.rdf.model.StatementBoundary	State
+com.hp.hpl.jena.graph.Node	State
+com.hp.hpl.jena.graph.Graph	Singleton
+com.hp.hpl.jena.graph.Graph	State
+com.hp.hpl.jena.rdf.model.impl.StatementImpl	State
+com.hp.hpl.jena.util.iterator.FilterIterator	State
+com.hp.hpl.jena.reasoner.rulesys.impl.WrappedReasonerFactory	Decorator
+com.hp.hpl.jena.rdf.model.impl.StatementImpl	(Object)Adapter
+com.hp.hpl.jena.rdf.arp.StatementHandler	State
+com.hp.hpl.jena.reasoner.rulesys.OWLMiniReasonerFactory	State
+com.hp.hpl.jena.n3.turtle.TurtleRDFGraphInserter	State
+com.hp.hpl.jena.reasoner.rulesys.BuiltinRegistry	Singleton
+com.hp.hpl.jena.graph.GraphMaker	State
+com.hp.hpl.jena.rdf.model.StatementTripleBoundary	State
+com.hp.hpl.jena.util.iterator.LateBindingIterator	Template Method
+com.hp.hpl.jena.reasoner.rulesys.DAMLMicroReasonerFactory	State
+com.hp.hpl.jena.graph.impl.SimpleReifierFragmentHandler	(Object)Adapter
+com.hp.hpl.jena.rdf.arp.JenaHandler	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.OWLFBRuleReasonerFactory	State
+com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$ExpandingAssemblerGroup	Proxy
+com.hp.hpl.jena.graph.query.Expression	Decorator
+com.hp.hpl.jena.graph.impl.GraphMatcher$AnonStatement	State
+com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	Decorator
+com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEClauseFilter	State
+com.hp.hpl.jena.reasoner.rulesys.RDFSFBRuleReasonerFactory	State
+com.hp.hpl.jena.graph.impl.SimpleReifierFragmentHandler	Template Method
+com.hp.hpl.jena.rdf.model.StatementTripleBoundary	(Object)Adapter
+com.hp.hpl.jena.rdf.arp.ARP	(Object)Adapter
+com.hp.hpl.jena.rdf.arp.impl.Taint	Bridge
+com.hp.hpl.jena.shared.PrefixMapping	(Object)Adapter
+com.hp.hpl.jena.graph.query.Pipe	(Object)Adapter
+com.hp.hpl.jena.db.ModelRDB	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.Rule$Parser	State
+com.hp.hpl.jena.mem.MatchOrBind	State
+com.hp.hpl.jena.reasoner.rulesys.impl.BFRuleContext	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelCom	(Object)Adapter
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveInfGraph	(Object)Adapter
+com.hp.hpl.jena.graph.compose.Dyadic	Bridge
+com.hp.hpl.jena.reasoner.rulesys.GenericRuleReasonerFactory	State
+com.hp.hpl.jena.rdf.model.Model	Factory Method
+com.hp.hpl.jena.xmloutput.impl.SimpleLogger	Bridge
+com.hp.hpl.jena.graph.Node_Literal	Visitor
+com.hp.hpl.jena.assembler.Mode	Singleton
+com.hp.hpl.jena.graph.compose.Delta	Decorator
+com.hp.hpl.jena.rdf.model.Statement	(Object)Adapter
+com.hp.hpl.jena.graph.impl.LiteralLabelImpl	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.BindingEnvironment	Factory Method
+com.hp.hpl.jena.datatypes.RDFDatatype	State
+com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleInfGraph	State
+com.hp.hpl.jena.n3.JenaReaderBase	(Object)Adapter
+com.hp.hpl.jena.graph.impl.ReifierTripleMap	State
+com.hp.hpl.jena.db.impl.GraphRDBMaker	State
+com.hp.hpl.jena.rdf.arp.impl.AbsXMLContext	Chain of Responsibility
+com.hp.hpl.jena.shared.PrefixMapping	Bridge
+com.hp.hpl.jena.rdf.model.impl.StmtIteratorImpl	State
+com.hp.hpl.jena.enhanced.Implementation	Factory Method
+com.hp.hpl.jena.enhanced.Polymorphic	Chain of Responsibility
+com.hp.hpl.jena.db.GraphRDB	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleReasoner	(Object)Adapter
+com.hp.hpl.jena.graph.query.Query	(Object)Adapter
+com.hp.hpl.jena.util.FileManager	Observer
+com.hp.hpl.jena.graph.Node_Blank	Visitor
+com.hp.hpl.jena.graph.Reifier	Bridge
+com.hp.hpl.jena.graph.query.Expression$Valof	State
+com.hp.hpl.jena.graph.Reifier	State
+com.hp.hpl.jena.graph.impl.LiteralLabelImpl	State
+com.hp.hpl.jena.graph.query.StageElement$FindTriples	(Object)Adapter
+com.hp.hpl.jena.graph.GraphEventManager	(Object)Adapter
+com.hp.hpl.jena.rdf.arp.impl.AbsXMLContext	Template Method
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier$GetReifier	State
+com.hp.hpl.jena.util.iterator.ExtendedIterator	Factory Method
+com.hp.hpl.jena.vocabulary.TestManifestX	State
+com.hp.hpl.jena.shared.wg.LazyInputStream	Template Method
+com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreterContext	State
+com.hp.hpl.jena.rdf.model.impl.ModelMakerImpl	State
+com.hp.hpl.jena.rdf.arp.JenaReader	State
+com.hp.hpl.jena.reasoner.BaseInfGraph	(Object)Adapter
+com.hp.hpl.jena.db.impl.DBProp	Bridge
+com.hp.hpl.jena.reasoner.rulesys.impl.LPTopGoalIterator	(Object)Adapter
+com.hp.hpl.jena.mem.HashCommon$NotifyEmpty	State
+com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$3	State
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	State
+com.hp.hpl.jena.reasoner.rulesys.Builtin	State
+com.hp.hpl.jena.rdf.model.ModelChangedListener	(Object)Adapter
+com.hp.hpl.jena.graph.TripleBoundary	State
+com.hp.hpl.jena.graph.impl.GraphMatcher$FixedResource	State
+com.hp.hpl.jena.reasoner.rulesys.BackwardRuleInfGraphI	(Object)Adapter
+com.hp.hpl.jena.util.FileManager	Singleton
+com.hp.hpl.jena.graph.impl.ReifierTripleMap	(Object)Adapter
+com.hp.hpl.jena.db.impl.IRDBDriver	(Object)Adapter
+com.hp.hpl.jena.reasoner.ReasonerFactory	State
+com.hp.hpl.jena.db.impl.IPSet	State
+com.hp.hpl.jena.mem.HashCommon$BasicKeyIterator	State
+com.hp.hpl.jena.mem.MatchOrBind$2	State
+com.hp.hpl.jena.reasoner.rulesys.impl.ConsumerChoicePointFrame	State
+com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB	(Object)Adapter
+com.hp.hpl.jena.mem.faster.GraphMemFaster$GraphMemFasterStatisticsHandler	(Object)Adapter
+jena.schemagen$SchemagenOptionsImpl	State
+com.hp.hpl.jena.util.Locator	Observer
+com.hp.hpl.jena.db.impl.ICache	State
+com.hp.hpl.jena.reasoner.rulesys.impl.RETETerminal	(Object)Adapter
+com.hp.hpl.jena.rdf.model.ModelExtract	State
+com.hp.hpl.jena.db.impl.DBBulkUpdateHandler	State
+com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngineI	(Object)Adapter
+com.hp.hpl.jena.db.impl.IPSet	Bridge
+com.hp.hpl.jena.rdf.model.RDFErrorHandler	Bridge
+com.hp.hpl.jena.util.iterator.MapFilterIterator	State
+com.hp.hpl.jena.graph.BulkUpdateHandler	State
+com.hp.hpl.jena.graph.query.Dyadic	Decorator
+com.hp.hpl.jena.vocabulary.TestManifest	State
+com.hp.hpl.jena.graph.query.QueryNode	State
+com.hp.hpl.jena.enhanced.EnhNode	(Object)Adapter
+com.hp.hpl.jena.graph.query.SimpleQueryHandler	State
+com.hp.hpl.jena.mem.MatchOrBind$2	(Object)Adapter
+com.hp.hpl.jena.graph.impl.FileGraph	State
+com.hp.hpl.jena.db.impl.DBPattern	State
+com.hp.hpl.jena.graph.Triple	(Object)Adapter
+com.hp.hpl.jena.graph.query.Pattern	State
+com.hp.hpl.jena.n3.JenaReaderBase	Bridge
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	State
+com.hp.hpl.jena.assembler.Content	Singleton
+com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	State
+com.hp.hpl.jena.graph.query.QueryNodeFactory	Factory Method
+com.hp.hpl.jena.graph.impl.SimpleReifier	(Object)Adapter
+com.hp.hpl.jena.graph.impl.ReifierFragmentsMap	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.WrappedReasonerFactory	State
+com.hp.hpl.jena.rdf.arp.states.Collection	Bridge
+com.hp.hpl.jena.rdf.arp.impl.RDFXMLParser	(Object)Adapter
+com.hp.hpl.jena.n3.turtle.ParserBase	State
+com.hp.hpl.jena.reasoner.ReasonerRegistry	State
+com.hp.hpl.jena.db.impl.SpecializedGraph	Bridge
+com.hp.hpl.jena.graph.Node_ANY	Visitor
+com.hp.hpl.jena.rdf.model.RDFNode	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreter	(Object)Adapter
+com.hp.hpl.jena.graph.impl.FragmentTripleIterator	Template Method
+com.hp.hpl.jena.graph.query.StageElement$FindTriples	State
+com.hp.hpl.jena.rdf.model.SimpleSelector	(Object)Adapter
+com.hp.hpl.jena.graph.compose.Polyadic	Observer
+com.hp.hpl.jena.graph.query.StageElement$PutBindings	(Object)Adapter
+com.hp.hpl.jena.vocabulary.OntDocManagerVocab	State
+com.hp.hpl.jena.ontology.OntModelSpec	State
+com.hp.hpl.jena.rdf.model.impl.ContNodeIteratorImpl	(Object)Adapter
+com.hp.hpl.jena.assembler.ImportManager	Singleton
+com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$3	(Object)Adapter
+com.hp.hpl.jena.util.iterator.MapFilter	State
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEQueue	Prototype
+com.hp.hpl.jena.graph.impl.GraphMatcher$FixedResource	(Object)Adapter
+com.hp.hpl.jena.graph.query.PatternCompiler	Factory Method
+com.hp.hpl.jena.graph.impl.GraphAddList	(Object)Adapter
+com.hp.hpl.jena.graph.GraphExtract$Extraction	State
+com.hp.hpl.jena.db.impl.IRDBDriver	State
+com.hp.hpl.jena.reasoner.rulesys.impl.TempNodeCache	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.RDFSRuleReasonerFactory	(Object)Adapter
+com.hp.hpl.jena.reasoner.Reasoner	Factory Method
+com.hp.hpl.jena.ontology.impl.OntModelImpl	(Object)Adapter
+com.hp.hpl.jena.rdf.model.ModelChangedListener	State
+com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreter	State
+com.hp.hpl.jena.util.cache.Cache	State
+com.hp.hpl.jena.mem.GraphMemBase	Factory Method
+com.hp.hpl.jena.util.LocationMapper	Singleton
+com.hp.hpl.jena.graph.Reifier	Decorator
+com.hp.hpl.jena.graph.impl.SimpleReifier	State
+com.hp.hpl.jena.reasoner.rulesys.OWLMicroReasonerFactory	State
+com.hp.hpl.jena.graph.GraphMaker	(Object)Adapter
+com.hp.hpl.jena.vocabulary.VCARD	State
+com.hp.hpl.jena.graph.Triple$Field	Template Method
+com.hp.hpl.jena.ontology.OntModel	State
+com.hp.hpl.jena.mem.NodeToTriplesMapBase	Bridge
+com.hp.hpl.jena.util.iterator.LazyIterator	Template Method
+com.hp.hpl.jena.rdf.arp.impl.AbsXMLContext	Bridge
+com.hp.hpl.jena.db.impl.ResultSetTripleIterator	(Object)Adapter
+com.hp.hpl.jena.ontology.OntModelSpec	(Object)Adapter
+com.hp.hpl.jena.graph.query.SimpleQueryPlan	(Object)Adapter
+com.hp.hpl.jena.db.impl.DBTransactionHandler	State
+com.hp.hpl.jena.rdf.model.RDFReaderF	(Object)Adapter
+com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$1	State
+com.hp.hpl.jena.graph.GraphEvents	Singleton
+com.hp.hpl.jena.reasoner.rulesys.ForwardRuleInfGraphI	State
+com.hp.hpl.jena.db.impl.SpecializedGraphReifier	State
+com.hp.hpl.jena.graph.query.Rewrite$DyadicLiteral	Template Method
+com.hp.hpl.jena.util.iterator.LazyIterator	Decorator
+com.hp.hpl.jena.db.impl.SQLCache	State
+com.hp.hpl.jena.mem.TripleBunch	Factory Method
+com.hp.hpl.jena.n3.N3JenaWriterCommon	Proxy
+com.hp.hpl.jena.rdf.model.RDFVisitor	Visitor
+com.hp.hpl.jena.reasoner.rulesys.ForwardRuleInfGraphI	(Object)Adapter
+com.hp.hpl.jena.graph.query.regexptrees.Paren	Decorator
+com.hp.hpl.jena.db.impl.SpecializedGraphReifier	(Object)Adapter
+com.hp.hpl.jena.n3.N3JenaWriter	Proxy
+com.hp.hpl.jena.reasoner.Finder	Decorator
+com.hp.hpl.jena.db.impl.LRUCache	(Object)Adapter
+com.hp.hpl.jena.graph.Graph	(Object)Adapter
+com.hp.hpl.jena.graph.query.Expression$Valof	(Object)Adapter
+com.hp.hpl.jena.graph.query.SimpleTreeQueryPlan	State
+com.hp.hpl.jena.ontology.OntModelSpec	Singleton
+com.hp.hpl.jena.vocabulary.OWLTest	State
+com.hp.hpl.jena.rdf.model.ResourceFactory	State
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEQueue	Decorator
+com.hp.hpl.jena.xmloutput.impl.Unparser	State
+com.hp.hpl.jena.db.impl.SpecializedGraph_TripleStore	Bridge
+com.hp.hpl.jena.ontology.impl.BooleanClassDescriptionImpl	Template Method
+com.hp.hpl.jena.rdf.model.RDFList	State
+com.hp.hpl.jena.graph.impl.WrappedGraph	State
+com.hp.hpl.jena.rdf.model.impl.RDFListImpl$RDFListIterator	State
+com.hp.hpl.jena.reasoner.Reasoner	State
+com.hp.hpl.jena.reasoner.FinderUtil$Cascade	Decorator
+com.hp.hpl.jena.datatypes.TypeMapper	Singleton
+com.hp.hpl.jena.reasoner.ReasonerFactory	(Object)Adapter
+com.hp.hpl.jena.graph.query.SimpleQueryEngine$1	State
+com.hp.hpl.jena.graph.compose.Polyadic	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.OWLMicroReasonerFactory	(Object)Adapter
+com.hp.hpl.jena.graph.impl.GraphBase	Template Method
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEClauseFilter	Prototype
+com.hp.hpl.jena.rdf.arp.JenaHandler	State
+com.hp.hpl.jena.rdf.arp.impl.AbsXMLContext	Factory Method
+com.hp.hpl.jena.shared.PrefixMapping	State
+com.hp.hpl.jena.rdf.model.impl.SeqNodeIteratorImpl	(Object)Adapter
+com.hp.hpl.jena.graph.Triple	Singleton
+com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	(Object)Adapter
+com.hp.hpl.jena.graph.query.Matcher	Singleton
+com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$Frame	State
+com.hp.hpl.jena.graph.query.SimpleQueryHandler	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.RDFSRuleReasonerFactory	State
+com.hp.hpl.jena.reasoner.rulesys.impl.BBRuleContext	State
+com.hp.hpl.jena.mem.GraphMemBase	Template Method
+com.hp.hpl.jena.rdf.model.impl.NTripleReader	State
+com.hp.hpl.jena.reasoner.rulesys.impl.ConsumerChoicePointFrame	(Object)Adapter
+com.hp.hpl.jena.db.GraphRDB	Proxy
+com.hp.hpl.jena.graph.query.StageElement$RunValuatorSet	(Object)Adapter
+com.hp.hpl.jena.graph.Graph	Observer
+com.hp.hpl.jena.rdf.model.impl.SeqNodeIteratorImpl	State
+com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleInfGraph	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngineI	State
+com.hp.hpl.jena.rdf.arp.states.Collection	Template Method
+com.hp.hpl.jena.db.impl.ReificationCacheMap	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleBulkUpdateHandler	(Object)Adapter
+jena.util.DBcmd	Bridge
+com.hp.hpl.jena.db.impl.DriverRDB	Template Method
+com.hp.hpl.jena.reasoner.rulesys.OWLMiniReasonerFactory	(Object)Adapter
+com.hp.hpl.jena.graph.query.Pipe	State
+com.hp.hpl.jena.rdf.model.Container	State
+com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$ExpandingAssemblerGroup	(Object)Adapter
+com.hp.hpl.jena.rdf.model.Resource	State
+com.hp.hpl.jena.ontology.impl.OntModelImpl$RdfTypeTestFn	State
+com.hp.hpl.jena.reasoner.rulesys.Rule	(Object)Adapter
+com.hp.hpl.jena.assembler.assemblers.AssemblerBase	Template Method
+com.hp.hpl.jena.enhanced.Polymorphic	Template Method
+com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	State
+com.hp.hpl.jena.graph.impl.SimpleReifierFragmentsMap	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.TempNodeCache$NodePair	State
+com.hp.hpl.jena.rdf.model.impl.StatementBase	Template Method
+com.hp.hpl.jena.graph.query.Applyer	Singleton
+com.hp.hpl.jena.reasoner.rulesys.impl.StateFlag	Singleton
+com.hp.hpl.jena.db.impl.ResultSetIterator	Template Method
+com.hp.hpl.jena.vocabulary.DC_11	State
+com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$2	State
+com.hp.hpl.jena.graph.query.ValuatorSet	(Object)Adapter
+com.hp.hpl.jena.graph.GraphListener	Composite
+com.hp.hpl.jena.shared.uuid.JenaUUID	Template Method
+com.hp.hpl.jena.reasoner.rulesys.impl.RETERuleContext	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.RuleDerivation	(Object)Adapter
+com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$ExpandingAssemblerGroup	State
+com.hp.hpl.jena.reasoner.BaseInfGraph$InfTransactionHandler	(Object)Adapter
+com.hp.hpl.jena.graph.Node	Singleton
+com.hp.hpl.jena.rdf.model.impl.LiteralImpl	Visitor
+com.hp.hpl.jena.mem.MixedGraphMemStore	(Object)Adapter
+com.hp.hpl.jena.graph.query.regexptrees.RegexpTreeGenerator	State
+com.hp.hpl.jena.reasoner.FGraph	(Object)Adapter
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	Singleton
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine	(Object)Adapter
+com.hp.hpl.jena.util.iterator.ExtendedIterator	Decorator
+com.hp.hpl.jena.graph.query.TripleSorter	State
+com.hp.hpl.jena.ontology.OntDocumentManager$ReadHook	State
+com.hp.hpl.jena.reasoner.rulesys.Functor	State
+jena.schemagen	State
+com.hp.hpl.jena.mem.ObjectIterator	Template Method
+com.hp.hpl.jena.rdf.model.Statement	State
+com.hp.hpl.jena.n3.JenaReaderBase	Template Method
+com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	(Object)Adapter
+com.hp.hpl.jena.graph.query.Fixed	(Object)Adapter
+com.hp.hpl.jena.rdf.arp.impl.QNameLexer	Template Method
+com.hp.hpl.jena.graph.Node$NodeMaker	Factory Method
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine	State
+com.hp.hpl.jena.shared.ReificationStyle	Singleton
+com.hp.hpl.jena.graph.query.Element	Singleton
+com.hp.hpl.jena.rdf.model.RDFErrorHandler	State
+com.hp.hpl.jena.mem.MatchOrBind$1	(Object)Adapter
+com.hp.hpl.jena.graph.query.Applyer	State
+com.hp.hpl.jena.reasoner.rulesys.Node_RuleVariable	Singleton
+com.hp.hpl.jena.db.impl.DriverRDB	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.RETESinkNode	Decorator
+com.hp.hpl.jena.graph.impl.TripleStore	State

@@ -1,0 +1,444 @@
+src.cern.jet.random.engine.RandomSeedGenerator	Feature Envy
+src.hep.aida.bin.DynamicBin1D	Feature Envy
+src.hep.aida.bin.DynamicBin1D	God Class
+src.hep.aida.bin.DynamicBin1D	Data Class
+src.hep.aida.bin.DynamicBin1D	Refused Parent Bequest
+src.cern.colt.list.AbstractIntList	Shotgun Surgery
+src.cern.colt.list.AbstractIntList	Refused Parent Bequest
+src.cern.colt.list.AbstractIntList	Tradition Breaker
+src.cern.colt.matrix.impl.SparseDoubleMatrix2D	Refused Parent Bequest
+src.cern.colt.matrix.linalg.QRDecomposition	Intensive Coupling
+src.cern.colt.matrix.linalg.QRDecomposition	Feature Envy
+src.cern.colt.matrix.linalg.QRDecomposition	Intensive Coupling
+src.cern.colt.matrix.linalg.QRDecomposition	Feature Envy
+src.hep.aida.ref.Test	Intensive Coupling
+src.cern.colt.matrix.impl.AbstractMatrix1D	Shotgun Surgery
+src.cern.colt.matrix.impl.AbstractMatrix1D	Shotgun Surgery
+src.cern.colt.matrix.impl.AbstractMatrix1D	Shotgun Surgery
+src.cern.colt.matrix.impl.AbstractMatrix1D	Shotgun Surgery
+src.cern.colt.matrix.impl.AbstractMatrix1D	Refused Parent Bequest
+src.cern.colt.matrix.linalg.Property	Feature Envy
+src.cern.colt.matrix.linalg.Property	Feature Envy
+src.cern.colt.matrix.linalg.Property	Feature Envy
+src.cern.colt.matrix.linalg.Property	Feature Envy
+src.cern.colt.matrix.linalg.Property	Intensive Coupling
+src.cern.colt.matrix.linalg.Property	Data Class
+src.cern.colt.matrix.linalg.Property	Refused Parent Bequest
+src.cern.colt.matrix.linalg.Property	Tradition Breaker
+src.cern.colt.matrix.impl.SelectedSparseObjectMatrix1D	Refused Parent Bequest
+src.cern.colt.list.FloatArrayList	Data Class
+src.cern.colt.list.FloatArrayList	Refused Parent Bequest
+src.cern.colt.matrix.ObjectFactory2D	Feature Envy
+src.cern.colt.matrix.ObjectFactory2D	God Class
+src.cern.colt.matrix.ObjectFactory2D	Refused Parent Bequest
+src.cern.colt.matrix.ObjectFactory2D	Tradition Breaker
+src.cern.jet.random.Empirical	Data Class
+src.cern.jet.random.Empirical	Refused Parent Bequest
+src.cern.colt.matrix.impl.WrapperDoubleMatrix2D	Refused Parent Bequest
+src.cern.colt.matrix.impl.SparseDoubleMatrix3D	Feature Envy
+src.cern.colt.matrix.impl.SparseDoubleMatrix3D	Refused Parent Bequest
+src.cern.colt.matrix.linalg.SingularValueDecomposition	Brain Method
+src.cern.colt.matrix.linalg.SingularValueDecomposition	Intensive Coupling
+src.cern.colt.matrix.impl.SparseObjectMatrix2D	Refused Parent Bequest
+src.cern.colt.matrix.bench.BenchmarkMatrix	Feature Envy
+src.cern.colt.matrix.bench.BenchmarkMatrix	Dispersed Coupling
+src.cern.colt.matrix.bench.BenchmarkMatrix	Feature Envy
+src.cern.colt.matrix.bench.BenchmarkMatrix	Feature Envy
+src.cern.colt.matrix.bench.BenchmarkMatrix	Feature Envy
+src.cern.colt.matrix.bench.BenchmarkMatrix	Brain Method
+src.cern.colt.matrix.bench.BenchmarkMatrix	Dispersed Coupling
+src.cern.colt.matrix.bench.BenchmarkMatrix	Dispersed Coupling
+src.cern.colt.matrix.bench.BenchmarkMatrix	Dispersed Coupling
+src.cern.colt.matrix.bench.BenchmarkMatrix	God Class
+src.cern.colt.matrix.bench.BenchmarkMatrix	Brain Class
+src.cern.colt.matrix.impl.SelectedSparseObjectMatrix2D	Refused Parent Bequest
+src.cern.colt.PersistentObject	Shotgun Surgery
+src.cern.colt.list.AbstractByteList	Refused Parent Bequest
+src.cern.colt.list.AbstractByteList	Tradition Breaker
+src.cern.colt.matrix.DoubleMatrix2D	Feature Envy
+src.cern.colt.matrix.DoubleMatrix2D	Shotgun Surgery
+src.cern.colt.matrix.DoubleMatrix2D	Shotgun Surgery
+src.cern.colt.matrix.DoubleMatrix2D	Shotgun Surgery
+src.cern.colt.matrix.DoubleMatrix2D	Shotgun Surgery
+src.cern.colt.matrix.DoubleMatrix2D	Shotgun Surgery
+src.cern.colt.matrix.DoubleMatrix2D	Shotgun Surgery
+src.cern.colt.matrix.DoubleMatrix2D	Shotgun Surgery
+src.cern.colt.matrix.DoubleMatrix2D	Shotgun Surgery
+src.cern.colt.matrix.DoubleMatrix2D	Shotgun Surgery
+src.cern.colt.matrix.DoubleMatrix2D	Shotgun Surgery
+src.cern.colt.matrix.DoubleMatrix2D	Shotgun Surgery
+src.cern.colt.matrix.DoubleMatrix2D	Shotgun Surgery
+src.cern.colt.matrix.DoubleMatrix2D	Feature Envy
+src.cern.colt.matrix.DoubleMatrix2D	Shotgun Surgery
+src.cern.colt.matrix.DoubleMatrix2D	God Class
+src.cern.colt.matrix.DoubleMatrix2D	Data Class
+src.cern.colt.matrix.DoubleMatrix2D	Refused Parent Bequest
+src.cern.colt.matrix.DoubleMatrix2D	Tradition Breaker
+src.cern.jet.stat.quantile.EquiDepthHistogram	Refused Parent Bequest
+src.cern.jet.math.IntFunctions	Data Class
+src.cern.colt.map.AbstractLongObjectMap	Refused Parent Bequest
+src.cern.colt.map.PrimeFinder	Feature Envy
+src.cern.jet.random.Binomial	Brain Method
+src.cern.jet.random.Binomial	Intensive Coupling
+src.cern.jet.random.Binomial	God Class
+src.cern.jet.random.Binomial	Refused Parent Bequest
+src.cern.colt.map.OpenIntDoubleHashMap	Feature Envy
+src.cern.colt.matrix.impl.AbstractMatrix3D	Shotgun Surgery
+src.cern.colt.matrix.impl.AbstractMatrix3D	Shotgun Surgery
+src.cern.colt.matrix.impl.AbstractMatrix3D	Shotgun Surgery
+src.cern.colt.matrix.impl.AbstractMatrix3D	Shotgun Surgery
+src.cern.colt.matrix.impl.AbstractMatrix3D	Shotgun Surgery
+src.cern.colt.matrix.impl.AbstractMatrix3D	Shotgun Surgery
+src.cern.colt.matrix.impl.AbstractMatrix3D	Shotgun Surgery
+src.cern.colt.matrix.impl.AbstractMatrix3D	Shotgun Surgery
+src.cern.colt.matrix.impl.AbstractMatrix3D	Refused Parent Bequest
+src.cern.colt.bitvector.BitVector	Brain Method
+src.cern.colt.bitvector.BitVector	Feature Envy
+src.cern.colt.bitvector.BitVector	Data Class
+src.cern.colt.bitvector.BitVector	Refused Parent Bequest
+src.cern.colt.bitvector.BitVector	Tradition Breaker
+src.cern.colt.matrix.impl.TestMatrix2D	Feature Envy
+src.cern.colt.matrix.impl.TestMatrix2D	Feature Envy
+src.cern.colt.matrix.impl.TestMatrix2D	Feature Envy
+src.cern.colt.matrix.impl.TestMatrix2D	Feature Envy
+src.cern.colt.matrix.impl.TestMatrix2D	Feature Envy
+src.cern.colt.matrix.impl.TestMatrix2D	Feature Envy
+src.cern.colt.matrix.impl.TestMatrix2D	Feature Envy
+src.cern.colt.matrix.impl.TestMatrix2D	Feature Envy
+src.cern.colt.matrix.impl.TestMatrix2D	Feature Envy
+src.cern.colt.matrix.impl.TestMatrix2D	Feature Envy
+src.cern.colt.matrix.impl.TestMatrix2D	Feature Envy
+src.cern.colt.matrix.impl.TestMatrix2D	Feature Envy
+src.cern.colt.matrix.impl.TestMatrix2D	Feature Envy
+src.cern.colt.matrix.impl.TestMatrix2D	Feature Envy
+src.cern.colt.matrix.impl.TestMatrix2D	Feature Envy
+src.cern.colt.matrix.impl.TestMatrix2D	Feature Envy
+src.cern.colt.matrix.impl.TestMatrix2D	Feature Envy
+src.cern.colt.matrix.impl.TestMatrix2D	Feature Envy
+src.cern.colt.matrix.impl.TestMatrix2D	Feature Envy
+src.cern.colt.matrix.impl.TestMatrix2D	Feature Envy
+src.cern.colt.matrix.impl.TestMatrix2D	Feature Envy
+src.cern.colt.matrix.impl.TestMatrix2D	Feature Envy
+src.cern.colt.matrix.impl.TestMatrix2D	God Class
+src.cern.jet.random.HyperGeometric	Brain Method
+src.cern.jet.random.HyperGeometric	God Class
+src.cern.jet.random.HyperGeometric	Refused Parent Bequest
+src.cern.colt.list.ByteArrayList	Feature Envy
+src.cern.colt.list.ByteArrayList	Data Class
+src.cern.colt.list.ByteArrayList	Refused Parent Bequest
+src.cern.colt.matrix.impl.DenseObjectMatrix2D	Refused Parent Bequest
+src.cern.colt.list.BooleanArrayList	Data Class
+src.cern.colt.list.BooleanArrayList	Refused Parent Bequest
+src.cern.jet.random.engine.RandomEngine	Shotgun Surgery
+src.cern.jet.stat.quantile.UnknownDoubleQuantileEstimator	Feature Envy
+src.cern.jet.stat.quantile.UnknownDoubleQuantileEstimator	Refused Parent Bequest
+src.cern.colt.matrix.impl.SelectedDenseDoubleMatrix3D	Refused Parent Bequest
+src.cern.colt.matrix.impl.DenseObjectMatrix1D	Feature Envy
+src.cern.colt.matrix.impl.DenseObjectMatrix1D	Refused Parent Bequest
+src.cern.colt.matrix.DoubleFactory2D	Feature Envy
+src.cern.colt.matrix.DoubleFactory2D	Feature Envy
+src.cern.colt.matrix.DoubleFactory2D	Shotgun Surgery
+src.cern.colt.matrix.DoubleFactory2D	Feature Envy
+src.cern.colt.matrix.DoubleFactory2D	Shotgun Surgery
+src.cern.colt.matrix.DoubleFactory2D	God Class
+src.cern.colt.matrix.DoubleFactory2D	Data Class
+src.cern.colt.matrix.DoubleFactory2D	Refused Parent Bequest
+src.cern.colt.matrix.DoubleFactory2D	Tradition Breaker
+src.hep.aida.ref.AbstractHistogram1D	Refused Parent Bequest
+src.cern.colt.matrix.DoubleFactory1D	Feature Envy
+src.cern.colt.matrix.DoubleFactory1D	Refused Parent Bequest
+src.cern.colt.matrix.DoubleFactory1D	Tradition Breaker
+src.cern.colt.list.ShortArrayList	Data Class
+src.cern.colt.list.ShortArrayList	Refused Parent Bequest
+src.cern.colt.matrix.ObjectFactory1D	Feature Envy
+src.cern.colt.matrix.ObjectFactory1D	Refused Parent Bequest
+src.cern.colt.matrix.impl.SelectedSparseDoubleMatrix1D	Refused Parent Bequest
+src.cern.colt.function.DoubleFunction	Shotgun Surgery
+src.cern.colt.matrix.impl.DenseDoubleMatrix1D	Feature Envy
+src.cern.colt.matrix.impl.DenseDoubleMatrix1D	Brain Method
+src.cern.colt.matrix.impl.DenseDoubleMatrix1D	Refused Parent Bequest
+src.cern.colt.function.ObjectFunction	Shotgun Surgery
+src.cern.jet.math.Arithmetic	God Class
+src.cern.jet.math.Arithmetic	Refused Parent Bequest
+src.cern.jet.math.Arithmetic	Tradition Breaker
+src.cern.colt.list.AbstractBooleanList	Refused Parent Bequest
+src.cern.colt.list.AbstractBooleanList	Tradition Breaker
+src.cern.colt.map.AbstractDoubleIntMap	Refused Parent Bequest
+src.cern.jet.random.sampling.RandomSampler	Brain Method
+src.cern.jet.random.sampling.RandomSampler	Brain Method
+src.cern.jet.random.sampling.RandomSampler	Brain Class
+src.cern.jet.random.sampling.RandomSampler	Refused Parent Bequest
+src.cern.colt.map.AbstractIntIntMap	Feature Envy
+src.cern.colt.map.AbstractIntIntMap	Refused Parent Bequest
+src.cern.colt.matrix.ObjectMatrix3D	Feature Envy
+src.cern.colt.matrix.ObjectMatrix3D	God Class
+src.cern.colt.matrix.ObjectMatrix3D	Data Class
+src.cern.colt.matrix.ObjectMatrix3D	Refused Parent Bequest
+src.cern.colt.matrix.ObjectMatrix3D	Tradition Breaker
+src.cern.jet.random.Normal	Refused Parent Bequest
+src.cern.colt.matrix.impl.SparseDoubleMatrix1D	Refused Parent Bequest
+src.cern.jet.stat.Probability	Refused Parent Bequest
+src.cern.jet.stat.Probability	Tradition Breaker
+src.cern.colt.matrix.linalg.CholeskyDecomposition	Intensive Coupling
+src.cern.colt.matrix.linalg.CholeskyDecomposition	Feature Envy
+src.cern.colt.matrix.linalg.CholeskyDecomposition	Feature Envy
+src.cern.colt.matrix.linalg.CholeskyDecomposition	Intensive Coupling
+src.cern.colt.matrix.linalg.CholeskyDecomposition	Feature Envy
+src.cern.jet.stat.Descriptive	Brain Method
+src.cern.jet.stat.Descriptive	Feature Envy
+src.cern.jet.stat.Descriptive	God Class
+src.cern.jet.stat.Descriptive	Brain Class
+src.cern.colt.matrix.impl.DenseObjectMatrix3D	Feature Envy
+src.cern.colt.matrix.impl.DenseObjectMatrix3D	Refused Parent Bequest
+src.hep.aida.ref.AbstractHistogram3D	God Class
+src.hep.aida.ref.AbstractHistogram3D	Refused Parent Bequest
+src.hep.aida.ref.AbstractHistogram3D	Tradition Breaker
+src.cern.jet.stat.quantile.QuantileFinderFactory	Brain Method
+src.cern.jet.stat.quantile.QuantileFinderFactory	Feature Envy
+src.cern.jet.stat.quantile.QuantileFinderFactory	Brain Method
+src.cern.jet.stat.quantile.QuantileFinderFactory	Feature Envy
+src.cern.jet.stat.quantile.QuantileFinderFactory	Dispersed Coupling
+src.cern.jet.stat.quantile.QuantileFinderFactory	God Class
+src.cern.jet.stat.quantile.QuantileFinderFactory	Brain Class
+src.cern.colt.matrix.ObjectMatrix2D	Feature Envy
+src.cern.colt.matrix.ObjectMatrix2D	Feature Envy
+src.cern.colt.matrix.ObjectMatrix2D	God Class
+src.cern.colt.matrix.ObjectMatrix2D	Data Class
+src.cern.colt.matrix.ObjectMatrix2D	Refused Parent Bequest
+src.cern.colt.matrix.ObjectMatrix2D	Tradition Breaker
+src.cern.colt.GenericSortingTest	Feature Envy
+src.cern.colt.GenericSortingTest	Feature Envy
+src.cern.colt.GenericSortingTest	Dispersed Coupling
+src.cern.colt.list.AbstractFloatList	Refused Parent Bequest
+src.cern.colt.list.AbstractFloatList	Tradition Breaker
+src.cern.colt.matrix.impl.BenchmarkMatrix2D	Brain Method
+src.cern.colt.matrix.impl.BenchmarkMatrix2D	Intensive Coupling
+src.cern.colt.matrix.impl.BenchmarkMatrix2D	Feature Envy
+src.cern.colt.matrix.impl.BenchmarkMatrix2D	Dispersed Coupling
+src.cern.colt.matrix.impl.BenchmarkMatrix2D	Brain Method
+src.cern.colt.matrix.impl.BenchmarkMatrix2D	Feature Envy
+src.cern.colt.matrix.impl.BenchmarkMatrix2D	Intensive Coupling
+src.cern.colt.matrix.impl.BenchmarkMatrix2D	Brain Method
+src.cern.colt.matrix.impl.BenchmarkMatrix2D	Feature Envy
+src.cern.colt.matrix.impl.BenchmarkMatrix2D	Intensive Coupling
+src.cern.colt.matrix.impl.BenchmarkMatrix2D	God Class
+src.cern.colt.matrix.impl.BenchmarkMatrix2D	Brain Class
+src.cern.colt.map.AbstractMap	Shotgun Surgery
+src.cern.colt.map.AbstractMap	Shotgun Surgery
+src.cern.colt.map.AbstractMap	Shotgun Surgery
+src.cern.colt.map.AbstractMap	Refused Parent Bequest
+src.cern.jet.random.Poisson	Brain Method
+src.cern.jet.random.Poisson	God Class
+src.cern.jet.random.Poisson	Refused Parent Bequest
+src.cern.jet.random.sampling.RandomSamplingAssistant	Refused Parent Bequest
+src.cern.jet.random.sampling.WeightedRandomSampler	Refused Parent Bequest
+src.cern.colt.GenericPermuting	Feature Envy
+src.cern.colt.list.CharArrayList	Data Class
+src.cern.colt.list.CharArrayList	Refused Parent Bequest
+src.hep.aida.ref.FixedAxis	Feature Envy
+src.hep.aida.ref.FixedAxis	Feature Envy
+src.cern.colt.list.AbstractCharList	Refused Parent Bequest
+src.cern.colt.list.AbstractCharList	Tradition Breaker
+src.hep.aida.IHistogram1D	Shotgun Surgery
+src.cern.colt.matrix.impl.SelectedSparseDoubleMatrix3D	Refused Parent Bequest
+src.cern.colt.map.AbstractIntDoubleMap	Shotgun Surgery
+src.cern.colt.map.AbstractIntDoubleMap	Dispersed Coupling
+src.cern.colt.map.AbstractIntDoubleMap	Refused Parent Bequest
+src.cern.colt.matrix.linalg.LUDecompositionQuick	Brain Method
+src.cern.colt.matrix.linalg.LUDecompositionQuick	Intensive Coupling
+src.cern.colt.matrix.linalg.LUDecompositionQuick	Feature Envy
+src.cern.colt.matrix.linalg.LUDecompositionQuick	Dispersed Coupling
+src.cern.colt.matrix.linalg.LUDecompositionQuick	Feature Envy
+src.cern.colt.matrix.linalg.LUDecompositionQuick	Feature Envy
+src.cern.colt.matrix.linalg.LUDecompositionQuick	Brain Class
+src.cern.colt.matrix.linalg.Diagonal	Feature Envy
+src.cern.jet.random.Fun	Brain Method
+src.cern.colt.Arrays	God Class
+src.cern.jet.math.Bessel	Brain Method
+src.cern.jet.math.Bessel	Feature Envy
+src.cern.jet.math.Bessel	God Class
+src.cern.jet.math.Bessel	Refused Parent Bequest
+src.cern.jet.math.Bessel	Tradition Breaker
+src.cern.colt.matrix.impl.RCMDoubleMatrix2D	Feature Envy
+src.cern.colt.matrix.impl.RCMDoubleMatrix2D	Intensive Coupling
+src.cern.colt.matrix.impl.RCMDoubleMatrix2D	Dispersed Coupling
+src.cern.colt.matrix.impl.RCMDoubleMatrix2D	Refused Parent Bequest
+src.cern.colt.list.IntArrayList	Shotgun Surgery
+src.cern.colt.list.IntArrayList	Shotgun Surgery
+src.cern.colt.list.IntArrayList	Shotgun Surgery
+src.cern.colt.list.IntArrayList	Data Class
+src.cern.colt.list.IntArrayList	Refused Parent Bequest
+src.cern.jet.stat.quantile.Quantile1Test	Dispersed Coupling
+src.cern.colt.list.AbstractLongList	Shotgun Surgery
+src.cern.colt.list.AbstractLongList	Refused Parent Bequest
+src.cern.colt.list.AbstractLongList	Tradition Breaker
+src.cern.jet.random.AbstractDistribution	Shotgun Surgery
+src.hep.aida.ref.Converter	Feature Envy
+src.hep.aida.ref.Converter	Intensive Coupling
+src.cern.colt.matrix.impl.WrapperDoubleMatrix1D	Feature Envy
+src.cern.colt.matrix.impl.WrapperDoubleMatrix1D	Refused Parent Bequest
+src.cern.colt.matrix.impl.DenseDoubleMatrix2D	Brain Method
+src.cern.colt.matrix.impl.DenseDoubleMatrix2D	Brain Method
+src.cern.colt.matrix.impl.DenseDoubleMatrix2D	Refused Parent Bequest
+src.hep.aida.IAxis	Shotgun Surgery
+src.cern.jet.math.Functions	God Class
+src.cern.jet.math.Functions	Data Class
+src.cern.jet.random.EmpiricalWalker	Brain Method
+src.cern.jet.random.EmpiricalWalker	Refused Parent Bequest
+src.cern.colt.matrix.linalg.Algebra	Dispersed Coupling
+src.cern.colt.matrix.linalg.Algebra	Intensive Coupling
+src.cern.colt.matrix.linalg.Algebra	Feature Envy
+src.cern.colt.matrix.linalg.Algebra	God Class
+src.cern.colt.matrix.linalg.Algebra	Data Class
+src.cern.colt.matrix.linalg.Algebra	Refused Parent Bequest
+src.cern.colt.matrix.linalg.Algebra	Tradition Breaker
+src.cern.jet.stat.quantile.DoubleQuantileEstimator	Refused Parent Bequest
+src.cern.colt.list.AbstractShortList	Refused Parent Bequest
+src.cern.colt.list.AbstractShortList	Tradition Breaker
+src.cern.colt.matrix.linalg.SeqBlas	Intensive Coupling
+src.cern.colt.matrix.linalg.SeqBlas	Intensive Coupling
+src.cern.colt.matrix.linalg.SeqBlas	God Class
+src.hep.aida.ref.VariableAxis	Feature Envy
+src.hep.aida.ref.VariableAxis	Feature Envy
+src.cern.colt.matrix.impl.SelectedSparseObjectMatrix3D	Refused Parent Bequest
+src.cern.colt.function.ObjectObjectFunction	Shotgun Surgery
+src.cern.colt.matrix.linalg.SmpBlas	Dispersed Coupling
+src.cern.colt.matrix.linalg.SmpBlas	Dispersed Coupling
+src.cern.colt.map.AbstractIntObjectMap	Refused Parent Bequest
+src.cern.colt.matrix.impl.AbstractFormatter	Feature Envy
+src.cern.colt.matrix.impl.AbstractFormatter	God Class
+src.cern.colt.matrix.impl.AbstractFormatter	Refused Parent Bequest
+src.cern.colt.matrix.impl.AbstractFormatter	Tradition Breaker
+src.cern.jet.stat.quantile.ExactDoubleQuantileFinder	Refused Parent Bequest
+src.cern.jet.random.PoissonSlow	Refused Parent Bequest
+src.hep.aida.bin.MightyStaticBin1D	God Class
+src.hep.aida.bin.MightyStaticBin1D	Refused Parent Bequest
+src.hep.aida.bin.MightyStaticBin1D	Tradition Breaker
+src.cern.colt.matrix.impl.SelectedDenseObjectMatrix3D	Refused Parent Bequest
+src.hep.aida.bin.AbstractBin	Refused Parent Bequest
+src.cern.colt.Timer	Shotgun Surgery
+src.cern.colt.Timer	Shotgun Surgery
+src.cern.colt.Timer	Shotgun Surgery
+src.cern.colt.Timer	Shotgun Surgery
+src.cern.colt.Timer	Refused Parent Bequest
+src.cern.colt.matrix.impl.TridiagonalDoubleMatrix2D	Feature Envy
+src.cern.colt.matrix.impl.TridiagonalDoubleMatrix2D	God Class
+src.cern.colt.matrix.impl.TridiagonalDoubleMatrix2D	Refused Parent Bequest
+src.cern.jet.stat.quantile.DoubleBufferSet	Feature Envy
+src.cern.jet.stat.quantile.DoubleBufferSet	Refused Parent Bequest
+src.cern.jet.stat.quantile.DoubleBufferSet	Tradition Breaker
+src.cern.colt.list.AbstractList	Shotgun Surgery
+src.cern.colt.list.AbstractList	Shotgun Surgery
+src.cern.colt.list.AbstractList	Shotgun Surgery
+src.cern.colt.list.AbstractList	Shotgun Surgery
+src.cern.colt.list.AbstractList	Shotgun Surgery
+src.cern.colt.list.AbstractList	Refused Parent Bequest
+src.cern.colt.matrix.doublealgo.Statistic	Dispersed Coupling
+src.cern.colt.matrix.doublealgo.Statistic	Feature Envy
+src.cern.colt.matrix.doublealgo.Statistic	Feature Envy
+src.cern.colt.matrix.doublealgo.Statistic	Feature Envy
+src.cern.colt.matrix.doublealgo.Statistic	Feature Envy
+src.cern.colt.matrix.doublealgo.Statistic	Feature Envy
+src.cern.colt.matrix.doublealgo.Statistic	Feature Envy
+src.cern.colt.matrix.doublealgo.Statistic	Feature Envy
+src.cern.colt.matrix.doublealgo.Statistic	God Class
+src.cern.colt.matrix.doublealgo.Statistic	Data Class
+src.cern.jet.random.Uniform	Shotgun Surgery
+src.cern.jet.random.Uniform	Feature Envy
+src.cern.jet.random.Uniform	Refused Parent Bequest
+src.hep.aida.ref.Histogram1D	Refused Parent Bequest
+src.cern.colt.matrix.impl.SparseObjectMatrix3D	Feature Envy
+src.cern.colt.matrix.impl.SparseObjectMatrix3D	Refused Parent Bequest
+src.cern.jet.stat.quantile.QuantileFinderTest	Dispersed Coupling
+src.cern.jet.stat.quantile.QuantileFinderTest	Feature Envy
+src.cern.jet.stat.quantile.QuantileFinderTest	Dispersed Coupling
+src.cern.jet.random.ChiSquare	Refused Parent Bequest
+src.cern.colt.matrix.impl.SelectedSparseDoubleMatrix2D	Refused Parent Bequest
+src.cern.colt.matrix.impl.DenseDoubleMatrix3D	Feature Envy
+src.cern.colt.matrix.impl.DenseDoubleMatrix3D	Brain Method
+src.cern.colt.matrix.impl.DenseDoubleMatrix3D	Refused Parent Bequest
+src.cern.colt.function.DoubleProcedure	Shotgun Surgery
+src.cern.colt.matrix.DoubleMatrix1D	Shotgun Surgery
+src.cern.colt.matrix.DoubleMatrix1D	Shotgun Surgery
+src.cern.colt.matrix.DoubleMatrix1D	Shotgun Surgery
+src.cern.colt.matrix.DoubleMatrix1D	Feature Envy
+src.cern.colt.matrix.DoubleMatrix1D	Shotgun Surgery
+src.cern.colt.matrix.DoubleMatrix1D	Shotgun Surgery
+src.cern.colt.matrix.DoubleMatrix1D	Shotgun Surgery
+src.cern.colt.matrix.DoubleMatrix1D	Shotgun Surgery
+src.cern.colt.matrix.DoubleMatrix1D	God Class
+src.cern.colt.matrix.DoubleMatrix1D	Data Class
+src.cern.colt.matrix.DoubleMatrix1D	Refused Parent Bequest
+src.cern.colt.matrix.DoubleMatrix1D	Tradition Breaker
+src.cern.colt.matrix.linalg.EigenvalueDecomposition	Feature Envy
+src.cern.colt.matrix.linalg.EigenvalueDecomposition	Brain Method
+src.cern.colt.matrix.linalg.EigenvalueDecomposition	Intensive Coupling
+src.cern.colt.matrix.linalg.EigenvalueDecomposition	Brain Method
+src.cern.colt.matrix.linalg.EigenvalueDecomposition	Brain Method
+src.cern.colt.matrix.linalg.EigenvalueDecomposition	Brain Method
+src.corejava.Format	Brain Method
+src.corejava.Format	God Class
+src.corejava.Format	Brain Class
+src.cern.colt.list.ObjectArrayList	Shotgun Surgery
+src.cern.colt.list.ObjectArrayList	Data Class
+src.cern.colt.list.ObjectArrayList	Refused Parent Bequest
+src.cern.colt.list.ObjectArrayList	Tradition Breaker
+src.cern.colt.list.LongArrayList	Data Class
+src.cern.colt.list.LongArrayList	Refused Parent Bequest
+src.cern.colt.matrix.DoubleMatrix3D	Feature Envy
+src.cern.colt.matrix.DoubleMatrix3D	Brain Method
+src.cern.colt.matrix.DoubleMatrix3D	God Class
+src.cern.colt.matrix.DoubleMatrix3D	Brain Class
+src.cern.colt.matrix.DoubleMatrix3D	Data Class
+src.cern.colt.matrix.DoubleMatrix3D	Refused Parent Bequest
+src.cern.colt.matrix.DoubleMatrix3D	Tradition Breaker
+src.cern.colt.function.DoubleDoubleFunction	Shotgun Surgery
+src.cern.colt.matrix.doublealgo.Transform	Refused Parent Bequest
+src.cern.colt.bitvector.BitMatrix	Brain Method
+src.cern.colt.bitvector.BitMatrix	God Class
+src.cern.colt.bitvector.BitMatrix	Refused Parent Bequest
+src.cern.colt.bitvector.BitMatrix	Tradition Breaker
+src.cern.colt.matrix.impl.RCDoubleMatrix2D	Refused Parent Bequest
+src.cern.colt.list.MinMaxNumberList	Refused Parent Bequest
+src.cern.jet.stat.quantile.KnownDoubleQuantileEstimator	Refused Parent Bequest
+src.cern.colt.list.DoubleArrayList	Shotgun Surgery
+src.cern.colt.list.DoubleArrayList	Shotgun Surgery
+src.cern.colt.list.DoubleArrayList	Shotgun Surgery
+src.cern.colt.list.DoubleArrayList	Shotgun Surgery
+src.cern.colt.list.DoubleArrayList	Data Class
+src.cern.colt.list.DoubleArrayList	Refused Parent Bequest
+src.cern.colt.matrix.impl.SparseObjectMatrix1D	Refused Parent Bequest
+src.cern.colt.matrix.impl.AbstractMatrix2D	Shotgun Surgery
+src.cern.colt.matrix.impl.AbstractMatrix2D	Shotgun Surgery
+src.cern.colt.matrix.impl.AbstractMatrix2D	Shotgun Surgery
+src.cern.colt.matrix.impl.AbstractMatrix2D	Shotgun Surgery
+src.cern.colt.matrix.impl.AbstractMatrix2D	Shotgun Surgery
+src.cern.colt.matrix.impl.AbstractMatrix2D	Shotgun Surgery
+src.cern.colt.matrix.impl.AbstractMatrix2D	Shotgun Surgery
+src.cern.colt.matrix.impl.AbstractMatrix2D	Refused Parent Bequest
+src.hep.aida.bin.AbstractBin1D	Refused Parent Bequest
+src.hep.aida.ref.Histogram3D	Refused Parent Bequest
+src.hep.aida.ref.AbstractHistogram2D	God Class
+src.hep.aida.ref.AbstractHistogram2D	Refused Parent Bequest
+src.cern.colt.list.AbstractDoubleList	Shotgun Surgery
+src.cern.colt.list.AbstractDoubleList	Refused Parent Bequest
+src.cern.colt.list.AbstractDoubleList	Tradition Breaker
+src.hep.aida.ref.Histogram2D	Refused Parent Bequest
+src.cern.jet.random.Beta	Brain Method
+src.cern.jet.random.Beta	God Class
+src.cern.jet.random.Beta	Refused Parent Bequest
+src.cern.jet.stat.quantile.QuantileCalc	Brain Method
+src.cern.jet.stat.quantile.QuantileCalc	Feature Envy
+src.cern.jet.stat.quantile.QuantileCalc	Brain Method
+src.cern.jet.stat.quantile.QuantileCalc	Feature Envy
+src.cern.jet.stat.quantile.QuantileCalc	God Class
+src.cern.jet.stat.quantile.QuantileCalc	Brain Class
+src.cern.colt.matrix.impl.SelectedDenseObjectMatrix2D	Refused Parent Bequest
+src.cern.colt.matrix.impl.SelectedDenseDoubleMatrix2D	Refused Parent Bequest
+src.hep.aida.bin.QuantileBin1D	Brain Method
+src.hep.aida.bin.QuantileBin1D	Feature Envy
+src.hep.aida.bin.QuantileBin1D	Refused Parent Bequest
+src.cern.colt.matrix.ObjectMatrix1D	God Class
+src.cern.colt.matrix.ObjectMatrix1D	Data Class
+src.cern.colt.matrix.ObjectMatrix1D	Refused Parent Bequest
+src.cern.colt.matrix.ObjectMatrix1D	Tradition Breaker

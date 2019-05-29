@@ -1,0 +1,125 @@
+cern.colt.buffer.DoubleBuffer3DConsumer	Decorator
+hep.aida.ref.AbstractHistogram2D	Bridge
+hep.aida.bin.QuantileBin1D	State
+hep.aida.ref.AbstractHistogram2D	Factory Method
+cern.colt.matrix.impl.WrapperDoubleMatrix1D	Decorator
+cern.colt.matrix.DoubleFactory3D	Singleton
+cern.jet.random.VonMises	Singleton
+cern.colt.buffer.IntBuffer	Decorator
+cern.colt.matrix.DoubleMatrix2D	State
+hep.aida.bin.AbstractBin1D	Template Method
+cern.colt.matrix.ObjectMatrix2D	Factory Method
+hep.aida.bin.AbstractBin	Template Method
+hep.aida.ref.AbstractHistogram3D	(Object)Adapter
+cern.jet.random.Beta	Singleton
+hep.aida.ref.AbstractHistogram2D	Template Method
+cern.colt.matrix.impl.AbstractFormatter	Template Method
+cern.jet.random.Uniform	Singleton
+cern.colt.buffer.IntBuffer3D	Decorator
+cern.colt.buffer.ObjectBufferConsumer	Decorator
+cern.colt.matrix.ObjectMatrix1D	Template Method
+hep.aida.ref.AbstractHistogram1D	(Object)Adapter
+cern.jet.random.StudentT	Singleton
+cern.colt.buffer.DoubleBuffer3D	Decorator
+cern.colt.matrix.ObjectMatrix3D	Template Method
+cern.colt.buffer.IntBuffer	Proxy2
+cern.colt.buffer.DoubleBufferConsumer	Decorator
+cern.colt.buffer.ObjectBuffer	Decorator
+cern.jet.random.Normal	Singleton
+cern.jet.stat.quantile.Buffer	Template Method
+cern.colt.matrix.ObjectFactory1D	Singleton
+cern.colt.buffer.IntBuffer2DConsumer	Decorator
+cern.colt.matrix.linalg.CholeskyDecomposition	State
+cern.colt.list.DistinctNumberList	Proxy
+cern.colt.matrix.doublealgo.Sorting	Singleton
+hep.aida.ref.AbstractHistogram3D	Bridge
+cern.colt.map.AbstractIntObjectMap	Template Method
+cern.colt.map.AbstractLongObjectMap	Template Method
+cern.colt.buffer.DoubleBuffer	Proxy2
+cern.colt.buffer.DoubleBuffer2DConsumer	Decorator
+cern.jet.random.Poisson	Singleton
+cern.colt.buffer.IntBufferConsumer	Proxy2
+cern.colt.matrix.DoubleMatrix2D	Template Method
+cern.colt.matrix.ObjectMatrix1D	Factory Method
+hep.aida.ref.AbstractHistogram3D	Factory Method
+cern.colt.matrix.ObjectFactory3D	Singleton
+cern.jet.random.Binomial	Singleton
+cern.colt.buffer.DoubleBufferConsumer	Proxy2
+cern.colt.matrix.DoubleMatrix2D	Decorator
+cern.colt.matrix.linalg.Property	Singleton
+cern.jet.random.AbstractDiscreteDistribution	Template Method
+cern.colt.matrix.objectalgo.Sorting	Singleton
+cern.colt.map.AbstractIntIntMap	Template Method
+cern.colt.function.DoubleFunction	State
+cern.colt.list.AbstractBooleanList	Template Method
+cern.jet.random.PoissonSlow	Singleton
+cern.colt.matrix.DoubleMatrix1D	Decorator
+cern.jet.random.AbstractDistribution	Prototype
+cern.colt.list.AbstractList	Template Method
+cern.jet.stat.quantile.DoubleQuantileFinder	State
+cern.colt.matrix.DoubleMatrix1D	Factory Method
+cern.jet.random.Gamma	Singleton
+cern.colt.matrix.impl.WrapperDoubleMatrix2D	Decorator
+cern.colt.list.IntArrayList	Proxy2
+cern.colt.matrix.linalg.LUDecompositionQuick	State
+cern.colt.matrix.ObjectMatrix2D	Template Method
+hep.aida.IAxis	Bridge
+cern.colt.buffer.DoubleBuffer2D	Decorator
+cern.clhep.PhysicalConstants	Singleton
+cern.colt.list.AbstractByteList	Template Method
+cern.colt.matrix.DoubleMatrix2D	Factory Method
+cern.jet.random.NegativeBinomial	Singleton
+cern.colt.list.AbstractShortList	Template Method
+cern.colt.matrix.linalg.QRDecomposition	State
+cern.jet.random.ExponentialPower	Singleton
+cern.jet.random.ChiSquare	Singleton
+cern.colt.matrix.impl.FormerFactory$1	(Object)Adapter
+cern.jet.math.IntFunctions	Singleton
+cern.colt.list.MinMaxNumberList	Proxy
+cern.colt.buffer.IntBufferConsumer	Decorator
+cern.colt.list.DoubleArrayList	Proxy2
+hep.aida.ref.AbstractHistogram3D	Template Method
+cern.colt.matrix.doublealgo.Transform	Singleton
+cern.jet.stat.quantile.DoubleQuantileEstimator	Template Method
+cern.colt.function.DoubleDoubleFunction	State
+cern.colt.matrix.ObjectFactory2D	Singleton
+hep.aida.bin.QuantileBin1D	Prototype
+cern.jet.random.Hyperbolic	Singleton
+cern.colt.matrix.linalg.Blas	Decorator
+cern.colt.matrix.DoubleMatrix3D	Template Method
+cern.colt.list.AbstractFloatList	Template Method
+cern.colt.map.AbstractIntDoubleMap	Template Method
+cern.jet.random.Exponential	Singleton
+cern.colt.buffer.IntBuffer3DConsumer	Decorator
+cern.jet.random.sampling.RandomSampler	Prototype
+hep.aida.ref.AbstractHistogram1D	Bridge
+cern.jet.random.engine.RandomEngine	Template Method
+cern.colt.buffer.IntBuffer2D	Decorator
+cern.colt.list.AbstractCharList	Template Method
+cern.jet.random.AbstractDistribution	Template Method
+cern.jet.random.BreitWigner	Singleton
+cern.colt.list.AbstractCollection	Template Method
+cern.colt.matrix.DoubleMatrix3D	Factory Method
+cern.colt.matrix.linalg.Algebra	Singleton
+cern.colt.list.AbstractDoubleList	Template Method
+cern.jet.random.Zeta	Singleton
+cern.colt.matrix.DoubleFactory1D	Singleton
+cern.jet.math.Functions	State
+hep.aida.bin.BinFunctions1D	Singleton
+cern.jet.random.HyperGeometric	Singleton
+cern.colt.matrix.DoubleMatrix1D	Template Method
+cern.jet.math.Functions	Singleton
+cern.colt.buffer.DoubleBuffer	Decorator
+hep.aida.ref.AbstractHistogram2D	(Object)Adapter
+cern.colt.matrix.ObjectMatrix3D	Factory Method
+cern.colt.matrix.DoubleFactory2D	Singleton
+cern.colt.list.AbstractIntList	Template Method
+hep.aida.IAxis	(Object)Adapter
+cern.jet.random.engine.RandomEngine	Prototype
+corejava.Format	(Object)Adapter
+cern.jet.stat.quantile.DoubleQuantileFinder	Prototype
+cern.colt.list.AbstractLongList	Template Method
+cern.jet.random.Logarithmic	Singleton
+cern.colt.map.AbstractDoubleIntMap	Template Method
+cern.jet.stat.quantile.DoubleQuantileFinder	Factory Method
+cern.colt.matrix.linalg.SmpBlas	Decorator

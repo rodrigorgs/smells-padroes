@@ -1,0 +1,37 @@
+jparse.expr.ArithmeticAST	Decorator
+jparse.stmt.StatementAST	Singleton
+jparse.SourceType	(Object)Adapter
+jparse.expr.IndexAST	Decorator
+jparse.stmt.StatementAST	Chain of Responsibility
+jparse.Type	Decorator
+jparse.TypeAST	(Object)Adapter
+jparse.Type	Factory Method
+jparse.expr.ExpressionAST	Template Method
+jparse.Method	State
+jparse.stmt.SwitchAST	Proxy
+jparse.FileAST	(Object)Adapter
+jparse.FileAST	Singleton
+jparse.expr.BitwiseAST	Decorator
+jparse.expr.ExpressionAST	Factory Method
+jparse.expr.NewAST	(Object)Adapter
+jparse.stmt.StatementAST	Template Method
+jparse.Type	Template Method
+jparse.expr.MethodCallAST	Decorator
+jparse.expr.MethodCallAST	(Object)Adapter
+jparse.expr.InitializerAST	Decorator
+jparse.expr.ExpressionAST	Decorator
+jparse.stmt.CaseGroupAST	Proxy
+jparse.Constructor	(Object)Adapter
+jparse.expr.AssignAST	Decorator
+jparse.Type	(Object)Adapter
+jparse.expr.ConditionalAST	Decorator
+jparse.TypeAST	Singleton
+jparse.Method	(Object)Adapter
+jparse.expr.ShiftAST	Decorator
+jparse.expr.BooleanAST	Decorator
+jparse.expr.UnaryArithAST	Decorator
+jparse.expr.MethodCallAST	State
+jparse.SourceType	Decorator
+jparse.expr.ParenthesizedAST	Decorator
+jparse.MethAST	(Object)Adapter
+jparse.expr.TypecastAST	Decorator

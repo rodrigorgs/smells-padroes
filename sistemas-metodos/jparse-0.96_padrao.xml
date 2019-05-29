@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method">
+		<instance>
+			<role name="Creator" element="jparse.expr.ExpressionAST" />
+			<role name="FactoryMethod()" element="jparse.expr.ExpressionAST::computeType():jparse.Type" />
+		</instance>
+		<instance>
+			<role name="Creator" element="jparse.Type" />
+			<role name="FactoryMethod()" element="jparse.Type::getMethod(java.lang.String, jparse.Type[], jparse.Type):jparse.Method" />
+		</instance>
+	</pattern>
+	<pattern name="Prototype" />
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="jparse.FileAST" />
+			<role name="uniqueInstance" element="jparse.FileAST::currFile:jparse.FileAST" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="jparse.stmt.StatementAST" />
+			<role name="uniqueInstance" element="jparse.stmt.StatementAST::nonlocal:jparse.stmt.StatementAST" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="jparse.TypeAST" />
+			<role name="uniqueInstance" element="jparse.TypeAST::currType:jparse.TypeAST" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adapter" element="jparse.SourceType" />
+			<role name="Adaptee" element="jparse.TypeAST" />
+			<role name="adaptee" element="jparse.SourceType::theType:jparse.TypeAST" />
+			<role name="Request()" element="jparse.SourceType::getClasses():jparse.Type[]" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="jparse.SourceType" />
+			<role name="Adaptee" element="jparse.FileAST" />
+			<role name="adaptee" element="jparse.SourceType::file:jparse.FileAST" />
+			<role name="Request()" element="jparse.SourceType::getSuperclass():jparse.Type" />
+			<role name="Request()" element="jparse.SourceType::getInterfaces():jparse.Type[]" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="jparse.expr.MethodCallAST" />
+			<role name="Adaptee" element="jparse.Method" />
+			<role name="adaptee" element="jparse.expr.MethodCallAST::theMethod:jparse.Method" />
+			<role name="Request()" element="jparse.expr.MethodCallAST::computeType():jparse.Type" />
+			<role name="Request()" element="jparse.expr.MethodCallAST::computeExceptions():jparse.Type[]" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jparse.Type" />
+			<role name="Adapter" element="jparse.MethAST" />
+			<role name="adaptee" element="jparse.MethAST::returnType:jparse.Type" />
+			<role name="Request()" element="jparse.MethAST::getReturnType():jparse.Type" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="jparse.expr.MethodCallAST" />
+			<role name="Adaptee" element="jparse.Constructor" />
+			<role name="adaptee" element="jparse.expr.MethodCallAST::theConstructor:jparse.Constructor" />
+			<role name="Request()" element="jparse.expr.MethodCallAST::computeExceptions():jparse.Type[]" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="jparse.expr.NewAST" />
+			<role name="Adaptee" element="jparse.Constructor" />
+			<role name="adaptee" element="jparse.expr.NewAST::theCons:jparse.Constructor" />
+			<role name="Request()" element="jparse.expr.NewAST::computeExceptions():jparse.Type[]" />
+		</instance>
+	</pattern>
+	<pattern name="Command" />
+	<pattern name="Composite" />
+	<pattern name="Decorator">
+		<instance>
+			<role name="Component" element="jparse.Type" />
+			<role name="Decorator" element="jparse.SourceType" />
+			<role name="component" element="jparse.SourceType::inner:jparse.Type[]" />
+			<role name="component" element="jparse.SourceType::parent:jparse.Type" />
+			<role name="Operation()" element="jparse.SourceType::getClasses():jparse.Type[]" />
+			<role name="Operation()" element="jparse.SourceType::varType(java.lang.String):jparse.Type" />
+		</instance>
+		<instance>
+			<role name="Decorator" element="jparse.expr.ArithmeticAST" />
+			<role name="Component" element="jparse.expr.ExpressionAST" />
+			<role name="component" element="jparse.expr.ArithmeticAST::left:jparse.expr.ExpressionAST" />
+			<role name="component" element="jparse.expr.ArithmeticAST::right:jparse.expr.ExpressionAST" />
+			<role name="Operation()" element="jparse.expr.ArithmeticAST::getVarList():jparse.VarList" />
+		</instance>
+		<instance>
+			<role name="Decorator" element="jparse.expr.AssignAST" />
+			<role name="Component" element="jparse.expr.ExpressionAST" />
+			<role name="component" element="jparse.expr.AssignAST::lhs:jparse.expr.ExpressionAST" />
+			<role name="component" element="jparse.expr.AssignAST::rhs:jparse.expr.ExpressionAST" />
+			<role name="Operation()" element="jparse.expr.AssignAST::getVarList():jparse.VarList" />
+		</instance>
+		<instance>
+			<role name="Decorator" element="jparse.expr.BitwiseAST" />
+			<role name="Component" element="jparse.expr.ExpressionAST" />
+			<role name="component" element="jparse.expr.BitwiseAST::left:jparse.expr.ExpressionAST" />
+			<role name="component" element="jparse.expr.BitwiseAST::right:jparse.expr.ExpressionAST" />
+			<role name="Operation()" element="jparse.expr.BitwiseAST::getVarList():jparse.VarList" />
+		</instance>
+		<instance>
+			<role name="Decorator" element="jparse.expr.BooleanAST" />
+			<role name="Component" element="jparse.expr.ExpressionAST" />
+			<role name="component" element="jparse.expr.BooleanAST::right:jparse.expr.ExpressionAST" />
+			<role name="component" element="jparse.expr.BooleanAST::left:jparse.expr.ExpressionAST" />
+			<role name="Operation()" element="jparse.expr.BooleanAST::getVarList():jparse.VarList" />
+		</instance>
+		<instance>
+			<role name="Decorator" element="jparse.expr.ConditionalAST" />
+			<role name="Component" element="jparse.expr.ExpressionAST" />
+			<role name="component" element="jparse.expr.ConditionalAST::conditionPart:jparse.expr.ExpressionAST" />
+			<role name="component" element="jparse.expr.ConditionalAST::thenPart:jparse.expr.ExpressionAST" />
+			<role name="component" element="jparse.expr.ConditionalAST::elsePart:jparse.expr.ExpressionAST" />
+			<role name="Operation()" element="jparse.expr.ConditionalAST::getVarList():jparse.VarList" />
+		</instance>
+		<instance>
+			<role name="Decorator" element="jparse.expr.IndexAST" />
+			<role name="Component" element="jparse.expr.ExpressionAST" />
+			<role name="component" element="jparse.expr.IndexAST::base:jparse.expr.ExpressionAST" />
+			<role name="component" element="jparse.expr.IndexAST::index:jparse.expr.ExpressionAST" />
+			<role name="Operation()" element="jparse.expr.IndexAST::getVarList():jparse.VarList" />
+		</instance>
+		<instance>
+			<role name="Decorator" element="jparse.expr.InitializerAST" />
+			<role name="Component" element="jparse.expr.ExpressionAST" />
+			<role name="component" element="jparse.expr.InitializerAST::rhs:jparse.expr.ExpressionAST" />
+			<role name="Operation()" element="jparse.expr.InitializerAST::getVarList():jparse.VarList" />
+		</instance>
+		<instance>
+			<role name="Decorator" element="jparse.expr.MethodCallAST" />
+			<role name="Component" element="jparse.expr.ExpressionAST" />
+			<role name="component" element="jparse.expr.MethodCallAST::object:jparse.expr.ExpressionAST" />
+			<role name="Operation()" element="jparse.expr.MethodCallAST::getVarList():jparse.VarList" />
+		</instance>
+		<instance>
+			<role name="Decorator" element="jparse.expr.ParenthesizedAST" />
+			<role name="Component" element="jparse.expr.ExpressionAST" />
+			<role name="component" element="jparse.expr.ParenthesizedAST::parenthesized:jparse.expr.ExpressionAST" />
+			<role name="Operation()" element="jparse.expr.ParenthesizedAST::getVarList():jparse.VarList" />
+		</instance>
+		<instance>
+			<role name="Decorator" element="jparse.expr.ShiftAST" />
+			<role name="Component" element="jparse.expr.ExpressionAST" />
+			<role name="component" element="jparse.expr.ShiftAST::left:jparse.expr.ExpressionAST" />
+			<role name="component" element="jparse.expr.ShiftAST::right:jparse.expr.ExpressionAST" />
+			<role name="Operation()" element="jparse.expr.ShiftAST::getVarList():jparse.VarList" />
+		</instance>
+		<instance>
+			<role name="Decorator" element="jparse.expr.TypecastAST" />
+			<role name="Component" element="jparse.expr.ExpressionAST" />
+			<role name="component" element="jparse.expr.TypecastAST::castExpr:jparse.expr.ExpressionAST" />
+			<role name="Operation()" element="jparse.expr.TypecastAST::getVarList():jparse.VarList" />
+		</instance>
+		<instance>
+			<role name="Decorator" element="jparse.expr.UnaryArithAST" />
+			<role name="Component" element="jparse.expr.ExpressionAST" />
+			<role name="component" element="jparse.expr.UnaryArithAST::operand:jparse.expr.ExpressionAST" />
+			<role name="Operation()" element="jparse.expr.UnaryArithAST::getVarList():jparse.VarList" />
+		</instance>
+	</pattern>
+	<pattern name="Observer" />
+	<pattern name="State">
+		<instance>
+			<role name="Context" element="jparse.expr.MethodCallAST" />
+			<role name="State" element="jparse.Method" />
+			<role name="state" element="jparse.expr.MethodCallAST::theMethod:jparse.Method" />
+			<role name="Request()" element="jparse.expr.MethodCallAST::computeType():jparse.Type" />
+			<role name="Request()" element="jparse.expr.MethodCallAST::computeExceptions():jparse.Type[]" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy" />
+	<pattern name="Bridge" />
+	<pattern name="Template Method">
+		<instance>
+			<role name="AbstractClass" element="jparse.expr.ExpressionAST" />
+			<role name="TemplateMethod()" element="jparse.expr.ExpressionAST::retrieveType():jparse.Type" />
+			<role name="TemplateMethod()" element="jparse.expr.ExpressionAST::getExceptionTypes():jparse.Type[]" />
+			<role name="TemplateMethod()" element="jparse.expr.ExpressionAST::getValue():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="jparse.stmt.StatementAST" />
+			<role name="TemplateMethod()" element="jparse.stmt.StatementAST::getExceptionTypes():jparse.Type[]" />
+			<role name="TemplateMethod()" element="jparse.stmt.StatementAST::nextControlPoints():jparse.stmt.StatementAST[]" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="jparse.Type" />
+			<role name="TemplateMethod()" element="jparse.Type::forName(java.lang.String):jparse.Type" />
+			<role name="TemplateMethod()" element="jparse.Type::varType(java.lang.String, java.lang.String):jparse.Type" />
+			<role name="TemplateMethod()" element="jparse.Type::superClassOf(jparse.Type):boolean" />
+			<role name="TemplateMethod()" element="jparse.Type::superInterfaceOf(jparse.Type):boolean" />
+			<role name="TemplateMethod()" element="jparse.Type::implementsInterface(jparse.Type):boolean" />
+		</instance>
+	</pattern>
+	<pattern name="Visitor" />
+	<pattern name="Proxy">
+		<instance>
+			<role name="RealSubject" element="jparse.stmt.CaseGroupAST" />
+			<role name="Proxy" element="jparse.stmt.SwitchAST" />
+			<role name="Request()" element="jparse.stmt.SwitchAST::getVarList():jparse.VarList" />
+		</instance>
+	</pattern>
+	<pattern name="Proxy2" />
+	<pattern name="Chain of Responsibility">
+		<instance>
+			<role name="Handler" element="jparse.stmt.StatementAST" />
+			<role name="successor" element="jparse.stmt.StatementAST::next:jparse.stmt.StatementAST" />
+		</instance>
+	</pattern>
+</system>
+

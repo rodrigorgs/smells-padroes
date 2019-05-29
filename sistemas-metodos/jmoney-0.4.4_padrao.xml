@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method" />
+	<pattern name="Prototype" />
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="net.sf.jmoney.model.Entry" />
+			<role name="uniqueInstance" element="net.sf.jmoney.model.Entry::PROTOTYPE:net.sf.jmoney.model.Entry" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adaptee" element="net.sf.jmoney.gui.MainFrame" />
+			<role name="Adapter" element="net.sf.jmoney.io.MT940" />
+			<role name="adaptee" element="net.sf.jmoney.io.MT940::mainFrame:net.sf.jmoney.gui.MainFrame" />
+			<role name="Request()" element="net.sf.jmoney.io.MT940::importFile(net.sf.jmoney.model.Session, java.io.File):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="net.sf.jmoney.gui.MainFrame" />
+			<role name="Adapter" element="net.sf.jmoney.io.QIF" />
+			<role name="adaptee" element="net.sf.jmoney.io.QIF::mainFrame:net.sf.jmoney.gui.MainFrame" />
+			<role name="Request()" element="net.sf.jmoney.io.QIF::importFile(net.sf.jmoney.model.Session, java.io.File):void" />
+			<role name="Request()" element="net.sf.jmoney.io.QIF::exportAccount(net.sf.jmoney.model.Session, net.sf.jmoney.model.Account, java.io.File):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="net.sf.jmoney.gui.AccountChooser" />
+			<role name="Adapter" element="net.sf.jmoney.io.QIF" />
+			<role name="adaptee" element="net.sf.jmoney.io.QIF::accountChooser:net.sf.jmoney.gui.AccountChooser" />
+			<role name="Request()" element="net.sf.jmoney.io.QIF::importFile(net.sf.jmoney.model.Session, java.io.File):void" />
+		</instance>
+	</pattern>
+	<pattern name="Command" />
+	<pattern name="Composite" />
+	<pattern name="Decorator" />
+	<pattern name="Observer" />
+	<pattern name="State">
+		<instance>
+			<role name="State" element="net.sf.jmoney.model.Category" />
+			<role name="Context" element="net.sf.jmoney.gui.CategoryPanel" />
+			<role name="state" element="net.sf.jmoney.gui.CategoryPanel::selectedCategory:net.sf.jmoney.model.Category" />
+			<role name="Request()" element="net.sf.jmoney.gui.CategoryPanel::categorySelection(net.sf.jmoney.model.CategoryNode):void" />
+			<role name="Request()" element="net.sf.jmoney.gui.CategoryPanel::newCategory():void" />
+			<role name="Request()" element="net.sf.jmoney.gui.CategoryPanel::newSubcategory():void" />
+			<role name="Request()" element="net.sf.jmoney.gui.CategoryPanel::deleteCategory():void" />
+		</instance>
+		<instance>
+			<role name="State" element="net.sf.jmoney.model.Category" />
+			<role name="Context" element="net.sf.jmoney.gui.IncomeExpenseReportPanel$Item" />
+			<role name="state" element="net.sf.jmoney.gui.IncomeExpenseReportPanel$Item::category:net.sf.jmoney.model.Category" />
+			<role name="Request()" element="net.sf.jmoney.gui.IncomeExpenseReportPanel$Item::getBaseCategory():java.lang.String" />
+			<role name="Request()" element="net.sf.jmoney.gui.IncomeExpenseReportPanel$Item::getCategory():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="State" element="net.sf.jmoney.io.FileFormat" />
+			<role name="Context" element="net.sf.jmoney.gui.MainFrame" />
+			<role name="state" element="net.sf.jmoney.gui.MainFrame::qif:net.sf.jmoney.io.FileFormat" />
+			<role name="state" element="net.sf.jmoney.gui.MainFrame::mt940:net.sf.jmoney.io.FileFormat" />
+			<role name="Request()" element="net.sf.jmoney.gui.MainFrame::importQIF():void" />
+			<role name="Request()" element="net.sf.jmoney.gui.MainFrame::importMT940():void" />
+			<role name="Request()" element="net.sf.jmoney.gui.MainFrame::exportQIF():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="net.sf.jmoney.model.Entry" />
+			<role name="State" element="net.sf.jmoney.model.Category" />
+			<role name="state" element="net.sf.jmoney.model.Entry::category:net.sf.jmoney.model.Category" />
+			<role name="Request()" element="net.sf.jmoney.model.Entry::getFullCategoryName():java.lang.String" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy" />
+	<pattern name="Bridge" />
+	<pattern name="Template Method" />
+	<pattern name="Visitor" />
+	<pattern name="Proxy" />
+	<pattern name="Proxy2" />
+	<pattern name="Chain of Responsibility" />
+</system>
+

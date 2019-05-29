@@ -1,0 +1,133 @@
+org.axiondb.engine.BaseDatabase	Factory Method
+org.axiondb.TransactionManager	Factory Method
+org.axiondb.InWhereNode	(Object)Adapter
+org.axiondb.functions.MatchesFunction	State
+org.axiondb.Row	State
+org.axiondb.types.LOBType	State
+org.axiondb.engine.AxionSequencesMetaTableUpdater	State
+org.axiondb.RowSource	(Object)Adapter
+org.axiondb.Index	Observer
+org.axiondb.types.ClobSource	State
+org.axiondb.types.LobLocator	Factory Method
+org.axiondb.types.BaseDataType	Factory Method
+org.axiondb.types.LobSource	Decorator
+org.axiondb.engine.BaseDatabase	Template Method
+org.axiondb.RowIterator	(Object)Adapter
+org.axiondb.types.LobSource	State
+org.axiondb.engine.rowiterators.RebindableIndexedRowIterator	State
+org.axiondb.engine.LazyRow	(Object)Adapter
+org.axiondb.functions.LowerFunction	(Object)Adapter
+org.axiondb.InWhereNode	State
+org.axiondb.engine.rowiterators.IndexJoinedRowIterator	State
+org.axiondb.RowIterator	State
+org.axiondb.Column	(Object)Adapter
+org.axiondb.engine.BaseTable	Observer
+org.axiondb.engine.SortedMapIndex	(Object)Adapter
+org.axiondb.Selectable	(Object)Adapter
+org.axiondb.functions.UpperFunction	(Object)Adapter
+org.axiondb.RowIterator	Decorator
+org.axiondb.functions.LowerFunction	State
+org.axiondb.DataType	(Object)Adapter
+org.axiondb.engine.rowiterators.FilteringRowIterator	(Object)Adapter
+org.axiondb.functions.MinFunction	(Object)Adapter
+org.axiondb.types.LobLocatorFactory	(Object)Adapter
+org.axiondb.DataType	State
+org.axiondb.WhereNode	State
+org.axiondb.engine.AxionTypesMetaTableUpdater	(Object)Adapter
+org.axiondb.engine.BaseIndex	Factory Method
+org.axiondb.Constraint	State
+org.axiondb.Table	Factory Method
+org.axiondb.functions.MaxFunction	(Object)Adapter
+org.axiondb.functions.LikeToRegexpFunction	(Object)Adapter
+org.axiondb.ComparisonOperator	Singleton
+org.axiondb.jdbc.AxionResultSet	State
+org.axiondb.constraints.CheckConstraint	(Object)Adapter
+org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator	(Object)Adapter
+org.axiondb.engine.commands.AddConstraintCommand	State
+org.axiondb.types.CompressedLobSource	Decorator
+org.axiondb.engine.commands.CreateTableCommand	Composite
+org.axiondb.Row	Composite
+org.axiondb.Database	(Object)Adapter
+org.axiondb.engine.rowiterators.CollatingRowIterator	Composite
+org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator	State
+org.axiondb.engine.TransactableTableImpl	State
+org.axiondb.engine.rowiterators.FilteringRowIterator	State
+org.axiondb.functions.ConcatFunction	State
+org.axiondb.engine.rowiterators.DistinctRowIterator	State
+org.axiondb.engine.AxionTypesMetaTableUpdater	State
+org.axiondb.functions.MaxFunction	State
+org.axiondb.TransactionManager	State
+org.axiondb.engine.IntBTreeIndex	(Object)Adapter
+org.axiondb.ComparisonOperator	State
+org.axiondb.constraints.CheckConstraint	State
+org.axiondb.RowDecorator	State
+org.axiondb.engine.rowiterators.ChainedRowIterator	Composite
+org.axiondb.ComparisonOperator	(Object)Adapter
+org.axiondb.engine.rowiterators.DelegatingRowIterator	Decorator
+org.axiondb.engine.BaseDatabase	Bridge
+org.axiondb.RowComparator	State
+org.axiondb.TableFactory	Factory Method
+org.axiondb.functions.Base64DecodeFunction	State
+org.axiondb.engine.rowiterators.AbstractAcceptingRowIterator	Template Method
+org.axiondb.AxionCommand	State
+org.axiondb.engine.AxionColumnsMetaTableUpdater	(Object)Adapter
+org.axiondb.engine.AxionTablesMetaTableUpdater	(Object)Adapter
+org.axiondb.AxionCommand	Composite
+org.axiondb.Selectable	Decorator
+org.axiondb.types.BlobSource	State
+org.axiondb.FunctionFactory	Factory Method
+org.axiondb.engine.BaseArrayIndex	Template Method
+org.axiondb.engine.TransactionManagerImpl	(Object)Adapter
+org.axiondb.WhereNode	(Object)Adapter
+org.axiondb.Index	State
+org.axiondb.IndexLoader	Factory Method
+org.axiondb.event.DatabaseModificationListener	Bridge
+org.axiondb.types.LOBType	(Object)Adapter
+org.axiondb.functions.ConcatFunction	(Object)Adapter
+org.axiondb.engine.AxionTablesMetaTableUpdater	State
+org.axiondb.functions.Base64DecodeFunction	(Object)Adapter
+org.axiondb.engine.ObjectBTreeIndex	(Object)Adapter
+org.axiondb.engine.SnapshotIsolationTransaction	State
+org.axiondb.types.LobLocatorFactory	Factory Method
+org.axiondb.engine.TransactionManagerImpl	State
+org.axiondb.engine.LazyRow	State
+org.axiondb.LeafWhereNode	State
+org.axiondb.engine.commands.SelectCommand	State
+org.axiondb.util.BTree	(Object)Adapter
+org.axiondb.jdbc.AxionConnection	State
+org.axiondb.engine.rowiterators.AbstractFilteringRowIterator	Template Method
+org.axiondb.engine.BaseTable	Factory Method
+org.axiondb.engine.rowiterators.TransformingRowIterator	Template Method
+org.axiondb.jdbc.AbstractAxionClob	Template Method
+org.axiondb.engine.rowiterators.JoinedRow	Composite
+org.axiondb.engine.AxionColumnsMetaTableUpdater	State
+org.axiondb.functions.MinFunction	State
+org.axiondb.LeafWhereNode	(Object)Adapter
+org.axiondb.types.BaseDataType	Template Method
+org.axiondb.jdbc.AxionPreparedStatement	State
+org.axiondb.engine.BaseDiskTable	Template Method
+org.axiondb.types.ClobSource	(Object)Adapter
+org.axiondb.functions.UpperFunction	State
+org.axiondb.engine.rowiterators.ChangingIndexedRowIterator	State
+org.axiondb.Index	Factory Method
+org.axiondb.RowIterator	Composite
+org.axiondb.Database	State
+org.axiondb.event.DatabaseModificationListener	(Object)Adapter
+org.axiondb.functions.LikeToRegexpFunction	State
+org.axiondb.engine.AxionSequencesMetaTableUpdater	(Object)Adapter
+org.axiondb.types.AnyType	Singleton
+org.axiondb.RowSource	State
+org.axiondb.types.LobSource	(Object)Adapter
+org.axiondb.types.LobLocatorFactory	State
+org.axiondb.functions.ContainsFunction	State
+org.axiondb.Selectable	State
+org.axiondb.engine.BaseTable	Template Method
+org.axiondb.engine.BaseDatabase	(Object)Adapter
+org.axiondb.engine.Databases	Singleton
+org.axiondb.expression.Expression	Decorator
+org.axiondb.IndexFactory	Factory Method
+org.axiondb.util.ObjectBTree	(Object)Adapter
+org.axiondb.RowDecoratorIterator	State
+org.axiondb.functions.ContainsFunction	(Object)Adapter
+org.axiondb.Table	State
+org.axiondb.jdbc.AxionDatabaseMetaData	State

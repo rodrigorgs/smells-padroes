@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method" />
+	<pattern name="Prototype" />
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="org.sablecc.sablecc.BooleanCast" />
+			<role name="uniqueInstance" element="org.sablecc.sablecc.BooleanCast::instance:org.sablecc.sablecc.BooleanCast" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.sablecc.sablecc.CharSet$IntervalCast" />
+			<role name="uniqueInstance" element="org.sablecc.sablecc.CharSet$IntervalCast::instance:org.sablecc.sablecc.CharSet$IntervalCast" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.sablecc.sablecc.GenAlts$ElemInfoCast" />
+			<role name="uniqueInstance" element="org.sablecc.sablecc.GenAlts$ElemInfoCast::instance:org.sablecc.sablecc.GenAlts$ElemInfoCast" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.sablecc.sablecc.GenAnalyses$AltInfoCast" />
+			<role name="uniqueInstance" element="org.sablecc.sablecc.GenAnalyses$AltInfoCast::instance:org.sablecc.sablecc.GenAnalyses$AltInfoCast" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.sablecc.sablecc.GenAnalyses$ElemInfoCast" />
+			<role name="uniqueInstance" element="org.sablecc.sablecc.GenAnalyses$ElemInfoCast::instance:org.sablecc.sablecc.GenAnalyses$ElemInfoCast" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.sablecc.sablecc.IntegerCast" />
+			<role name="uniqueInstance" element="org.sablecc.sablecc.IntegerCast::instance:org.sablecc.sablecc.IntegerCast" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.sablecc.sablecc.IntegerComparator" />
+			<role name="uniqueInstance" element="org.sablecc.sablecc.IntegerComparator::instance:org.sablecc.sablecc.IntegerComparator" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.sablecc.sablecc.lexer.Lexer$State" />
+			<role name="uniqueInstance" element="org.sablecc.sablecc.lexer.Lexer$State::NORMAL:org.sablecc.sablecc.lexer.Lexer$State" />
+			<role name="uniqueInstance" element="org.sablecc.sablecc.lexer.Lexer$State::PACKAGE:org.sablecc.sablecc.lexer.Lexer$State" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.sablecc.sablecc.ListCast" />
+			<role name="uniqueInstance" element="org.sablecc.sablecc.ListCast::instance:org.sablecc.sablecc.ListCast" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.sablecc.sablecc.NoCast" />
+			<role name="uniqueInstance" element="org.sablecc.sablecc.NoCast::instance:org.sablecc.sablecc.NoCast" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.sablecc.sablecc.node.NoCast" />
+			<role name="uniqueInstance" element="org.sablecc.sablecc.node.NoCast::instance:org.sablecc.sablecc.node.NoCast" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.sablecc.sablecc.node.NodeCast" />
+			<role name="uniqueInstance" element="org.sablecc.sablecc.node.NodeCast::instance:org.sablecc.sablecc.node.NodeCast" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.sablecc.sablecc.NodeCast" />
+			<role name="uniqueInstance" element="org.sablecc.sablecc.NodeCast::instance:org.sablecc.sablecc.NodeCast" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.sablecc.sablecc.StringCast" />
+			<role name="uniqueInstance" element="org.sablecc.sablecc.StringCast::instance:org.sablecc.sablecc.StringCast" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.sablecc.sablecc.StringComparator" />
+			<role name="uniqueInstance" element="org.sablecc.sablecc.StringComparator::instance:org.sablecc.sablecc.StringComparator" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter" />
+	<pattern name="Command" />
+	<pattern name="Composite" />
+	<pattern name="Decorator" />
+	<pattern name="Observer" />
+	<pattern name="State">
+		<instance>
+			<role name="Context" element="org.sablecc.sablecc.parser.Parser" />
+			<role name="State" element="org.sablecc.sablecc.analysis.Analysis" />
+			<role name="state" element="org.sablecc.sablecc.parser.Parser::ignoredTokens:org.sablecc.sablecc.analysis.Analysis" />
+			<role name="Request()" element="org.sablecc.sablecc.parser.Parser::parse():org.sablecc.sablecc.node.Start" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.sablecc.sablecc.TypedHashMap" />
+			<role name="State" element="org.sablecc.sablecc.Cast" />
+			<role name="state" element="org.sablecc.sablecc.TypedHashMap::keyCast:org.sablecc.sablecc.Cast" />
+			<role name="state" element="org.sablecc.sablecc.TypedHashMap::valueCast:org.sablecc.sablecc.Cast" />
+			<role name="Request()" element="org.sablecc.sablecc.TypedHashMap::put(java.lang.Object, java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.sablecc.sablecc.TypedLinkedList" />
+			<role name="State" element="org.sablecc.sablecc.Cast" />
+			<role name="state" element="org.sablecc.sablecc.TypedLinkedList::cast:org.sablecc.sablecc.Cast" />
+			<role name="Request()" element="org.sablecc.sablecc.TypedLinkedList::addFirst(java.lang.Object):void" />
+			<role name="Request()" element="org.sablecc.sablecc.TypedLinkedList::addLast(java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.sablecc.sablecc.TypedTreeMap" />
+			<role name="State" element="org.sablecc.sablecc.Cast" />
+			<role name="state" element="org.sablecc.sablecc.TypedTreeMap::keyCast:org.sablecc.sablecc.Cast" />
+			<role name="state" element="org.sablecc.sablecc.TypedTreeMap::valueCast:org.sablecc.sablecc.Cast" />
+			<role name="Request()" element="org.sablecc.sablecc.TypedTreeMap::put(java.lang.Object, java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.sablecc.sablecc.node.TypedLinkedList" />
+			<role name="State" element="org.sablecc.sablecc.node.Cast" />
+			<role name="state" element="org.sablecc.sablecc.node.TypedLinkedList::cast:org.sablecc.sablecc.node.Cast" />
+			<role name="Request()" element="org.sablecc.sablecc.node.TypedLinkedList::add(int, java.lang.Object):void" />
+			<role name="Request()" element="org.sablecc.sablecc.node.TypedLinkedList::add(java.lang.Object):boolean" />
+			<role name="Request()" element="org.sablecc.sablecc.node.TypedLinkedList::addAll(java.util.Collection):boolean" />
+			<role name="Request()" element="org.sablecc.sablecc.node.TypedLinkedList::addAll(int, java.util.Collection):boolean" />
+			<role name="Request()" element="org.sablecc.sablecc.node.TypedLinkedList::addFirst(java.lang.Object):void" />
+			<role name="Request()" element="org.sablecc.sablecc.node.TypedLinkedList::addLast(java.lang.Object):void" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy" />
+	<pattern name="Bridge" />
+	<pattern name="Template Method">
+		<instance>
+			<role name="AbstractClass" element="org.sablecc.sablecc.node.Node" />
+			<role name="TemplateMethod()" element="org.sablecc.sablecc.node.Node::replaceBy(org.sablecc.sablecc.node.Node):void" />
+			<role name="TemplateMethod()" element="org.sablecc.sablecc.node.Node::cloneNode(org.sablecc.sablecc.node.Node):org.sablecc.sablecc.node.Node" />
+			<role name="TemplateMethod()" element="org.sablecc.sablecc.node.Node::cloneList(java.util.List):java.util.List" />
+		</instance>
+	</pattern>
+	<pattern name="Visitor" />
+	<pattern name="Proxy" />
+	<pattern name="Proxy2" />
+	<pattern name="Chain of Responsibility">
+		<instance>
+			<role name="Handler" element="org.sablecc.sablecc.node.Node" />
+			<role name="successor" element="org.sablecc.sablecc.node.Node::parent:org.sablecc.sablecc.node.Node" />
+		</instance>
+	</pattern>
+</system>
+

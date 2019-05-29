@@ -1,0 +1,25 @@
+org.sablecc.sablecc.parser.Parser	State
+org.sablecc.sablecc.CharSet$IntervalCast	Singleton
+org.sablecc.sablecc.Cast	State
+org.sablecc.sablecc.node.NoCast	Singleton
+org.sablecc.sablecc.IntegerComparator	Singleton
+org.sablecc.sablecc.node.Node	Chain of Responsibility
+org.sablecc.sablecc.analysis.Analysis	State
+org.sablecc.sablecc.TypedHashMap	State
+org.sablecc.sablecc.GenAnalyses$ElemInfoCast	Singleton
+org.sablecc.sablecc.TypedTreeMap	State
+org.sablecc.sablecc.NodeCast	Singleton
+org.sablecc.sablecc.TypedLinkedList	State
+org.sablecc.sablecc.IntegerCast	Singleton
+org.sablecc.sablecc.lexer.Lexer$State	Singleton
+org.sablecc.sablecc.StringComparator	Singleton
+org.sablecc.sablecc.node.NodeCast	Singleton
+org.sablecc.sablecc.StringCast	Singleton
+org.sablecc.sablecc.node.TypedLinkedList	State
+org.sablecc.sablecc.NoCast	Singleton
+org.sablecc.sablecc.node.Node	Template Method
+org.sablecc.sablecc.GenAlts$ElemInfoCast	Singleton
+org.sablecc.sablecc.ListCast	Singleton
+org.sablecc.sablecc.BooleanCast	Singleton
+org.sablecc.sablecc.node.Cast	State
+org.sablecc.sablecc.GenAnalyses$AltInfoCast	Singleton

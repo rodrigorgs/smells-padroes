@@ -1,0 +1,34 @@
+org.junit.internal.runners.statements.ExpectException	Feature Envy
+org.junit.runners.ParentRunner	Refused Parent Bequest
+junit.runner.BaseTestRunner	Dispersed Coupling
+junit.runner.BaseTestRunner	Feature Envy
+junit.runner.BaseTestRunner	God Class
+junit.runner.BaseTestRunner	Data Class
+org.junit.runners.model.Statement	Shotgun Surgery
+org.junit.experimental.max.MaxCore	Feature Envy
+org.junit.internal.matchers.TypeSafeMatcher	Feature Envy
+org.junit.experimental.categories.Categories$CategoryFilter	Refused Parent Bequest
+org.junit.internal.builders.AnnotatedBuilder	Feature Envy
+org.junit.runner.Description	Shotgun Surgery
+org.junit.internal.runners.MethodValidator	Dispersed Coupling
+org.junit.runners.BlockJUnit4ClassRunner	Feature Envy
+org.junit.runners.BlockJUnit4ClassRunner	God Class
+org.junit.runners.BlockJUnit4ClassRunner	Refused Parent Bequest
+org.junit.internal.runners.JUnit4ClassRunner	Refused Parent Bequest
+junit.textui.TestRunner	Data Class
+junit.textui.TestRunner	Refused Parent Bequest
+org.junit.experimental.theories.Theories$TheoryAnchor	Refused Parent Bequest
+org.junit.runners.Parameterized	Feature Envy
+org.junit.internal.runners.MethodRoadie	Feature Envy
+org.junit.internal.runners.MethodRoadie	Intensive Coupling
+org.junit.internal.runners.JUnit38ClassRunner	Dispersed Coupling
+org.junit.internal.runners.JUnit38ClassRunner	Refused Parent Bequest
+org.junit.runners.model.FrameworkMethod	Dispersed Coupling
+org.junit.runners.model.FrameworkMethod	Refused Parent Bequest
+org.junit.runner.JUnitCore	Dispersed Coupling
+junit.framework.TestSuite	Feature Envy
+junit.framework.TestSuite	Intensive Coupling
+junit.framework.TestSuite	Feature Envy
+junit.framework.TestSuite	Feature Envy
+org.junit.experimental.theories.internal.AllMembersSupplier	Dispersed Coupling
+junit.framework.TestCase	Refused Parent Bequest

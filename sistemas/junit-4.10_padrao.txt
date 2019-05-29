@@ -1,0 +1,54 @@
+junit.framework.TestListener	Observer
+org.junit.experimental.theories.Theories$TheoryAnchor	(Object)Adapter
+junit.framework.JUnit4TestAdapter	Proxy
+junit.extensions.TestDecorator	Decorator
+org.junit.runner.manipulation.Sorter	Singleton
+org.junit.runner.Description	Singleton
+org.junit.internal.runners.model.ReflectiveCallable	Template Method
+org.junit.internal.requests.FilterRequest	Decorator
+junit.framework.JUnit4TestAdapterCache	Singleton
+org.junit.rules.RuleChain	Composite
+org.junit.internal.runners.statements.RunAfters	Decorator
+org.junit.rules.RunRules	Decorator
+org.junit.runner.manipulation.Filter	(Object)Adapter
+org.junit.runner.notification.RunNotifier$SafeNotifier	Template Method
+org.junit.rules.TestRule	Composite
+org.junit.runner.Runner	Template Method
+org.junit.runner.Request	Factory Method
+org.junit.internal.runners.statements.FailOnTimeout$StatementThread	State
+org.junit.internal.matchers.SubstringMatcher	Template Method
+junit.framework.Test	Decorator
+org.junit.runners.ParentRunner	Template Method
+junit.framework.Test	Composite
+org.junit.runners.model.Statement	Decorator
+org.junit.internal.requests.FilterRequest	(Object)Adapter
+org.junit.rules.ExpectedException$ExpectedExceptionStatement	Decorator
+org.junit.rules.TestRule	Factory Method
+org.junit.runners.model.RunnerBuilder	Factory Method
+org.junit.runners.model.FrameworkMethod	(Object)Adapter
+junit.framework.JUnit4TestAdapter	(Object)Adapter
+junit.framework.TestResult	Observer
+org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener	(Object)Adapter
+org.junit.runner.notification.RunNotifier	(Object)Adapter
+junit.framework.TestSuite	Composite
+org.junit.internal.runners.statements.RunBefores	Decorator
+org.junit.runner.manipulation.Filter	State
+org.junit.internal.runners.statements.InvokeMethod	(Object)Adapter
+junit.framework.JUnit4TestAdapterCache	(Object)Adapter
+org.junit.internal.matchers.TypeSafeMatcher	Template Method
+org.junit.experimental.theories.internal.AllMembersSupplier$MethodParameterValue	(Object)Adapter
+org.junit.runners.model.FrameworkMember	Template Method
+org.junit.runners.model.RunnerScheduler	Bridge
+org.junit.internal.ComparisonCriteria	Template Method
+org.junit.runners.model.Statement	State
+org.junit.runner.Runner	Proxy
+org.junit.runners.ParentRunner	Bridge
+org.junit.rules.RuleChain	Singleton
+org.junit.internal.requests.FilterRequest	State
+org.junit.runners.model.RunnerBuilder	Template Method
+org.junit.rules.MethodRule	Factory Method
+org.junit.internal.runners.statements.ExpectException	Decorator
+org.junit.runner.manipulation.Filter	Singleton
+org.junit.runner.Request	Decorator
+junit.runner.BaseTestRunner	Template Method
+org.junit.internal.requests.SortingRequest	Decorator

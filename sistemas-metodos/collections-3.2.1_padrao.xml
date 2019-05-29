@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method">
+		<instance>
+			<role name="Creator" element="org.apache.commons.collections.bag.AbstractTestBag" />
+			<role name="FactoryMethod()" element="org.apache.commons.collections.bag.AbstractTestBag::makeBag():org.apache.commons.collections.Bag" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.apache.commons.collections.bidimap.AbstractDualBidiMap" />
+			<role name="FactoryMethod()" element="org.apache.commons.collections.bidimap.AbstractDualBidiMap::createBidiMap(java.util.Map, java.util.Map, org.apache.commons.collections.BidiMap):org.apache.commons.collections.BidiMap" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.apache.commons.collections.bidimap.AbstractTestBidiMap" />
+			<role name="FactoryMethod()" element="org.apache.commons.collections.bidimap.AbstractTestBidiMap::makeEmptyBidiMap():org.apache.commons.collections.BidiMap" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.apache.commons.collections.BidiMap" />
+			<role name="FactoryMethod()" element="org.apache.commons.collections.BidiMap::mapIterator():org.apache.commons.collections.MapIterator" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.apache.commons.collections.IterableMap" />
+			<role name="FactoryMethod()" element="org.apache.commons.collections.IterableMap::mapIterator():org.apache.commons.collections.MapIterator" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.apache.commons.collections.OrderedBidiMap" />
+			<role name="FactoryMethod()" element="org.apache.commons.collections.OrderedBidiMap::inverseOrderedBidiMap():org.apache.commons.collections.OrderedBidiMap" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.apache.commons.collections.OrderedMap" />
+			<role name="FactoryMethod()" element="org.apache.commons.collections.OrderedMap::orderedMapIterator():org.apache.commons.collections.OrderedMapIterator" />
+		</instance>
+	</pattern>
+	<pattern name="Prototype" />
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="org.apache.commons.collections.comparators.BooleanComparator" />
+			<role name="uniqueInstance" element="org.apache.commons.collections.comparators.BooleanComparator::TRUE_FIRST:org.apache.commons.collections.comparators.BooleanComparator" />
+			<role name="uniqueInstance" element="org.apache.commons.collections.comparators.BooleanComparator::FALSE_FIRST:org.apache.commons.collections.comparators.BooleanComparator" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.apache.commons.collections.comparators.ComparableComparator" />
+			<role name="uniqueInstance" element="org.apache.commons.collections.comparators.ComparableComparator::instance:org.apache.commons.collections.comparators.ComparableComparator" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adaptee" element="org.apache.commons.collections.map.Flat3Map" />
+			<role name="Adapter" element="org.apache.commons.collections.map.Flat3Map$FlatMapIterator" />
+			<role name="adaptee" element="org.apache.commons.collections.map.Flat3Map$FlatMapIterator::parent:org.apache.commons.collections.map.Flat3Map" />
+			<role name="Request()" element="org.apache.commons.collections.map.Flat3Map$FlatMapIterator::hasNext():boolean" />
+			<role name="Request()" element="org.apache.commons.collections.map.Flat3Map$FlatMapIterator::remove():void" />
+			<role name="Request()" element="org.apache.commons.collections.map.Flat3Map$FlatMapIterator::getKey():java.lang.Object" />
+			<role name="Request()" element="org.apache.commons.collections.map.Flat3Map$FlatMapIterator::getValue():java.lang.Object" />
+			<role name="Request()" element="org.apache.commons.collections.map.Flat3Map$FlatMapIterator::setValue(java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.apache.commons.collections.map.AbstractLinkedMap$LinkEntry" />
+			<role name="Adapter" element="org.apache.commons.collections.map.AbstractLinkedMap" />
+			<role name="adaptee" element="org.apache.commons.collections.map.AbstractLinkedMap::header:org.apache.commons.collections.map.AbstractLinkedMap$LinkEntry" />
+			<role name="Request()" element="org.apache.commons.collections.map.AbstractLinkedMap::firstKey():java.lang.Object" />
+			<role name="Request()" element="org.apache.commons.collections.map.AbstractLinkedMap::lastKey():java.lang.Object" />
+			<role name="Request()" element="org.apache.commons.collections.map.AbstractLinkedMap::nextKey(java.lang.Object):java.lang.Object" />
+			<role name="Request()" element="org.apache.commons.collections.map.AbstractLinkedMap::previousKey(java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.apache.commons.collections.list.TreeList$AVLNode" />
+			<role name="Adapter" element="org.apache.commons.collections.list.TreeList$TreeListIterator" />
+			<role name="adaptee" element="org.apache.commons.collections.list.TreeList$TreeListIterator::next:org.apache.commons.collections.list.TreeList$AVLNode" />
+			<role name="adaptee" element="org.apache.commons.collections.list.TreeList$TreeListIterator::current:org.apache.commons.collections.list.TreeList$AVLNode" />
+			<role name="Request()" element="org.apache.commons.collections.list.TreeList$TreeListIterator::previous():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.apache.commons.collections.list.AbstractLinkedList$Node" />
+			<role name="Adapter" element="org.apache.commons.collections.list.AbstractLinkedList$LinkedListIterator" />
+			<role name="adaptee" element="org.apache.commons.collections.list.AbstractLinkedList$LinkedListIterator::next:org.apache.commons.collections.list.AbstractLinkedList$Node" />
+			<role name="adaptee" element="org.apache.commons.collections.list.AbstractLinkedList$LinkedListIterator::current:org.apache.commons.collections.list.AbstractLinkedList$Node" />
+			<role name="Request()" element="org.apache.commons.collections.list.AbstractLinkedList$LinkedListIterator::previous():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.apache.commons.collections.list.TreeList" />
+			<role name="Adapter" element="org.apache.commons.collections.list.TreeList$TreeListIterator" />
+			<role name="adaptee" element="org.apache.commons.collections.list.TreeList$TreeListIterator::parent:org.apache.commons.collections.list.TreeList" />
+			<role name="Request()" element="org.apache.commons.collections.list.TreeList$TreeListIterator::previous():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.apache.commons.collections.map.SingletonMap" />
+			<role name="Adapter" element="org.apache.commons.collections.map.SingletonMap$SingletonMapIterator" />
+			<role name="adaptee" element="org.apache.commons.collections.map.SingletonMap$SingletonMapIterator::parent:org.apache.commons.collections.map.SingletonMap" />
+			<role name="Request()" element="org.apache.commons.collections.map.SingletonMap$SingletonMapIterator::previous():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.apache.commons.collections.bidimap.TreeBidiMap" />
+			<role name="Adapter" element="org.apache.commons.collections.bidimap.TreeBidiMap$ViewIterator" />
+			<role name="adaptee" element="org.apache.commons.collections.bidimap.TreeBidiMap$ViewIterator::main:org.apache.commons.collections.bidimap.TreeBidiMap" />
+			<role name="Request()" element="org.apache.commons.collections.bidimap.TreeBidiMap$ViewIterator::previous():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.apache.commons.collections.bidimap.AbstractDualBidiMap" />
+			<role name="Adapter" element="org.apache.commons.collections.bidimap.DualTreeBidiMap$BidiOrderedMapIterator" />
+			<role name="adaptee" element="org.apache.commons.collections.bidimap.DualTreeBidiMap$BidiOrderedMapIterator::parent:org.apache.commons.collections.bidimap.AbstractDualBidiMap" />
+			<role name="Request()" element="org.apache.commons.collections.bidimap.DualTreeBidiMap$BidiOrderedMapIterator::reset():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.apache.commons.collections.bidimap.AbstractDualBidiMap" />
+			<role name="Adapter" element="org.apache.commons.collections.bidimap.AbstractDualBidiMap$BidiMapIterator" />
+			<role name="adaptee" element="org.apache.commons.collections.bidimap.AbstractDualBidiMap$BidiMapIterator::parent:org.apache.commons.collections.bidimap.AbstractDualBidiMap" />
+			<role name="Request()" element="org.apache.commons.collections.bidimap.AbstractDualBidiMap$BidiMapIterator::setValue(java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.apache.commons.collections.Transformer" />
+			<role name="Adapter" element="org.apache.commons.collections.map.TransformedMap" />
+			<role name="adaptee" element="org.apache.commons.collections.map.TransformedMap::valueTransformer:org.apache.commons.collections.Transformer" />
+			<role name="Request()" element="org.apache.commons.collections.map.TransformedMap::checkSetValue(java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="org.apache.commons.collections.functors.TransformedPredicate" />
+			<role name="Adaptee" element="org.apache.commons.collections.Transformer" />
+			<role name="adaptee" element="org.apache.commons.collections.functors.TransformedPredicate::iTransformer:org.apache.commons.collections.Transformer" />
+			<role name="Request()" element="org.apache.commons.collections.functors.TransformedPredicate::evaluate(java.lang.Object):boolean" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="org.apache.commons.collections.functors.TransformerPredicate" />
+			<role name="Adaptee" element="org.apache.commons.collections.Transformer" />
+			<role name="adaptee" element="org.apache.commons.collections.functors.TransformerPredicate::iTransformer:org.apache.commons.collections.Transformer" />
+			<role name="Request()" element="org.apache.commons.collections.functors.TransformerPredicate::evaluate(java.lang.Object):boolean" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="org.apache.commons.collections.functors.IfClosure" />
+			<role name="Adaptee" element="org.apache.commons.collections.Predicate" />
+			<role name="adaptee" element="org.apache.commons.collections.functors.IfClosure::iPredicate:org.apache.commons.collections.Predicate" />
+			<role name="Request()" element="org.apache.commons.collections.functors.IfClosure::execute(java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="org.apache.commons.collections.functors.WhileClosure" />
+			<role name="Adaptee" element="org.apache.commons.collections.Predicate" />
+			<role name="adaptee" element="org.apache.commons.collections.functors.WhileClosure::iPredicate:org.apache.commons.collections.Predicate" />
+			<role name="Request()" element="org.apache.commons.collections.functors.WhileClosure::execute(java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.apache.commons.collections.Closure" />
+			<role name="Adapter" element="org.apache.commons.collections.functors.ClosureTransformer" />
+			<role name="adaptee" element="org.apache.commons.collections.functors.ClosureTransformer::iClosure:org.apache.commons.collections.Closure" />
+			<role name="Request()" element="org.apache.commons.collections.functors.ClosureTransformer::transform(java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.apache.commons.collections.Transformer" />
+			<role name="Adapter" element="org.apache.commons.collections.functors.TransformerClosure" />
+			<role name="adaptee" element="org.apache.commons.collections.functors.TransformerClosure::iTransformer:org.apache.commons.collections.Transformer" />
+			<role name="Request()" element="org.apache.commons.collections.functors.TransformerClosure::execute(java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.apache.commons.collections.Factory" />
+			<role name="Adapter" element="org.apache.commons.collections.functors.FactoryTransformer" />
+			<role name="adaptee" element="org.apache.commons.collections.functors.FactoryTransformer::iFactory:org.apache.commons.collections.Factory" />
+			<role name="Request()" element="org.apache.commons.collections.functors.FactoryTransformer::transform(java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.apache.commons.collections.Predicate" />
+			<role name="Adapter" element="org.apache.commons.collections.map.PredicatedMap" />
+			<role name="adaptee" element="org.apache.commons.collections.map.PredicatedMap::valuePredicate:org.apache.commons.collections.Predicate" />
+			<role name="Request()" element="org.apache.commons.collections.map.PredicatedMap::checkSetValue(java.lang.Object):java.lang.Object" />
+		</instance>
+	</pattern>
+	<pattern name="Command" />
+	<pattern name="Composite" />
+	<pattern name="Decorator">
+		<instance>
+			<role name="Component" element="org.apache.commons.collections.bidimap.AbstractTestBidiMap" />
+			<role name="Decorator" element="org.apache.commons.collections.bidimap.AbstractTestBidiMap$TestInverseBidiMap" />
+			<role name="component" element="org.apache.commons.collections.bidimap.AbstractTestBidiMap$TestInverseBidiMap::main:org.apache.commons.collections.bidimap.AbstractTestBidiMap" />
+			<role name="component" element="org.apache.commons.collections.bidimap.AbstractTestBidiMap$TestInverseBidiMap::this$0:org.apache.commons.collections.bidimap.AbstractTestBidiMap" />
+			<role name="Operation()" element="org.apache.commons.collections.bidimap.AbstractTestBidiMap$TestInverseBidiMap::makeEmptyBidiMap():org.apache.commons.collections.BidiMap" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.commons.collections.OrderedMapIterator" />
+			<role name="Decorator" element="org.apache.commons.collections.iterators.AbstractOrderedMapIteratorDecorator" />
+			<role name="component" element="org.apache.commons.collections.iterators.AbstractOrderedMapIteratorDecorator::iterator:org.apache.commons.collections.OrderedMapIterator" />
+			<role name="Operation()" element="org.apache.commons.collections.iterators.AbstractOrderedMapIteratorDecorator::hasPrevious():boolean" />
+			<role name="Operation()" element="org.apache.commons.collections.iterators.AbstractOrderedMapIteratorDecorator::previous():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.commons.collections.OrderedMapIterator" />
+			<role name="Decorator" element="org.apache.commons.collections.iterators.UnmodifiableOrderedMapIterator" />
+			<role name="component" element="org.apache.commons.collections.iterators.UnmodifiableOrderedMapIterator::iterator:org.apache.commons.collections.OrderedMapIterator" />
+			<role name="Operation()" element="org.apache.commons.collections.iterators.UnmodifiableOrderedMapIterator::hasPrevious():boolean" />
+			<role name="Operation()" element="org.apache.commons.collections.iterators.UnmodifiableOrderedMapIterator::previous():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.commons.collections.MapIterator" />
+			<role name="Decorator" element="org.apache.commons.collections.iterators.AbstractMapIteratorDecorator" />
+			<role name="component" element="org.apache.commons.collections.iterators.AbstractMapIteratorDecorator::iterator:org.apache.commons.collections.MapIterator" />
+			<role name="Operation()" element="org.apache.commons.collections.iterators.AbstractMapIteratorDecorator::hasNext():boolean" />
+			<role name="Operation()" element="org.apache.commons.collections.iterators.AbstractMapIteratorDecorator::next():java.lang.Object" />
+			<role name="Operation()" element="org.apache.commons.collections.iterators.AbstractMapIteratorDecorator::remove():void" />
+			<role name="Operation()" element="org.apache.commons.collections.iterators.AbstractMapIteratorDecorator::getKey():java.lang.Object" />
+			<role name="Operation()" element="org.apache.commons.collections.iterators.AbstractMapIteratorDecorator::getValue():java.lang.Object" />
+			<role name="Operation()" element="org.apache.commons.collections.iterators.AbstractMapIteratorDecorator::setValue(java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.commons.collections.MapIterator" />
+			<role name="Decorator" element="org.apache.commons.collections.iterators.UnmodifiableMapIterator" />
+			<role name="component" element="org.apache.commons.collections.iterators.UnmodifiableMapIterator::iterator:org.apache.commons.collections.MapIterator" />
+			<role name="Operation()" element="org.apache.commons.collections.iterators.UnmodifiableMapIterator::hasNext():boolean" />
+			<role name="Operation()" element="org.apache.commons.collections.iterators.UnmodifiableMapIterator::next():java.lang.Object" />
+			<role name="Operation()" element="org.apache.commons.collections.iterators.UnmodifiableMapIterator::getKey():java.lang.Object" />
+			<role name="Operation()" element="org.apache.commons.collections.iterators.UnmodifiableMapIterator::getValue():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.commons.collections.Predicate" />
+			<role name="Decorator" element="org.apache.commons.collections.functors.AndPredicate" />
+			<role name="component" element="org.apache.commons.collections.functors.AndPredicate::iPredicate1:org.apache.commons.collections.Predicate" />
+			<role name="component" element="org.apache.commons.collections.functors.AndPredicate::iPredicate2:org.apache.commons.collections.Predicate" />
+			<role name="Operation()" element="org.apache.commons.collections.functors.AndPredicate::evaluate(java.lang.Object):boolean" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.commons.collections.Predicate" />
+			<role name="Decorator" element="org.apache.commons.collections.functors.NotPredicate" />
+			<role name="component" element="org.apache.commons.collections.functors.NotPredicate::iPredicate:org.apache.commons.collections.Predicate" />
+			<role name="Operation()" element="org.apache.commons.collections.functors.NotPredicate::evaluate(java.lang.Object):boolean" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.commons.collections.Predicate" />
+			<role name="Decorator" element="org.apache.commons.collections.functors.NullIsExceptionPredicate" />
+			<role name="component" element="org.apache.commons.collections.functors.NullIsExceptionPredicate::iPredicate:org.apache.commons.collections.Predicate" />
+			<role name="Operation()" element="org.apache.commons.collections.functors.NullIsExceptionPredicate::evaluate(java.lang.Object):boolean" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.commons.collections.Predicate" />
+			<role name="Decorator" element="org.apache.commons.collections.functors.NullIsFalsePredicate" />
+			<role name="component" element="org.apache.commons.collections.functors.NullIsFalsePredicate::iPredicate:org.apache.commons.collections.Predicate" />
+			<role name="Operation()" element="org.apache.commons.collections.functors.NullIsFalsePredicate::evaluate(java.lang.Object):boolean" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.commons.collections.Predicate" />
+			<role name="Decorator" element="org.apache.commons.collections.functors.NullIsTruePredicate" />
+			<role name="component" element="org.apache.commons.collections.functors.NullIsTruePredicate::iPredicate:org.apache.commons.collections.Predicate" />
+			<role name="Operation()" element="org.apache.commons.collections.functors.NullIsTruePredicate::evaluate(java.lang.Object):boolean" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.commons.collections.Predicate" />
+			<role name="Decorator" element="org.apache.commons.collections.functors.OrPredicate" />
+			<role name="component" element="org.apache.commons.collections.functors.OrPredicate::iPredicate1:org.apache.commons.collections.Predicate" />
+			<role name="component" element="org.apache.commons.collections.functors.OrPredicate::iPredicate2:org.apache.commons.collections.Predicate" />
+			<role name="Operation()" element="org.apache.commons.collections.functors.OrPredicate::evaluate(java.lang.Object):boolean" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.commons.collections.Predicate" />
+			<role name="Decorator" element="org.apache.commons.collections.functors.TransformedPredicate" />
+			<role name="component" element="org.apache.commons.collections.functors.TransformedPredicate::iPredicate:org.apache.commons.collections.Predicate" />
+			<role name="Operation()" element="org.apache.commons.collections.functors.TransformedPredicate::evaluate(java.lang.Object):boolean" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.commons.collections.Transformer" />
+			<role name="Decorator" element="org.apache.commons.collections.functors.SwitchTransformer" />
+			<role name="component" element="org.apache.commons.collections.functors.SwitchTransformer::iTransformers:org.apache.commons.collections.Transformer[]" />
+			<role name="component" element="org.apache.commons.collections.functors.SwitchTransformer::iDefault:org.apache.commons.collections.Transformer" />
+			<role name="Operation()" element="org.apache.commons.collections.functors.SwitchTransformer::transform(java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.commons.collections.PriorityQueue" />
+			<role name="Decorator" element="org.apache.commons.collections.SynchronizedPriorityQueue" />
+			<role name="component" element="org.apache.commons.collections.SynchronizedPriorityQueue::m_priorityQueue:org.apache.commons.collections.PriorityQueue" />
+			<role name="Operation()" element="org.apache.commons.collections.SynchronizedPriorityQueue::clear():void" />
+			<role name="Operation()" element="org.apache.commons.collections.SynchronizedPriorityQueue::isEmpty():boolean" />
+			<role name="Operation()" element="org.apache.commons.collections.SynchronizedPriorityQueue::insert(java.lang.Object):void" />
+			<role name="Operation()" element="org.apache.commons.collections.SynchronizedPriorityQueue::peek():java.lang.Object" />
+			<role name="Operation()" element="org.apache.commons.collections.SynchronizedPriorityQueue::pop():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.commons.collections.Closure" />
+			<role name="Decorator" element="org.apache.commons.collections.functors.ForClosure" />
+			<role name="component" element="org.apache.commons.collections.functors.ForClosure::iClosure:org.apache.commons.collections.Closure" />
+			<role name="Operation()" element="org.apache.commons.collections.functors.ForClosure::execute(java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.commons.collections.Closure" />
+			<role name="Decorator" element="org.apache.commons.collections.functors.IfClosure" />
+			<role name="component" element="org.apache.commons.collections.functors.IfClosure::iTrueClosure:org.apache.commons.collections.Closure" />
+			<role name="component" element="org.apache.commons.collections.functors.IfClosure::iFalseClosure:org.apache.commons.collections.Closure" />
+			<role name="Operation()" element="org.apache.commons.collections.functors.IfClosure::execute(java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.commons.collections.Closure" />
+			<role name="Decorator" element="org.apache.commons.collections.functors.SwitchClosure" />
+			<role name="component" element="org.apache.commons.collections.functors.SwitchClosure::iClosures:org.apache.commons.collections.Closure[]" />
+			<role name="component" element="org.apache.commons.collections.functors.SwitchClosure::iDefault:org.apache.commons.collections.Closure" />
+			<role name="Operation()" element="org.apache.commons.collections.functors.SwitchClosure::execute(java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.commons.collections.Closure" />
+			<role name="Decorator" element="org.apache.commons.collections.functors.WhileClosure" />
+			<role name="component" element="org.apache.commons.collections.functors.WhileClosure::iClosure:org.apache.commons.collections.Closure" />
+			<role name="Operation()" element="org.apache.commons.collections.functors.WhileClosure::execute(java.lang.Object):void" />
+		</instance>
+	</pattern>
+	<pattern name="Observer" />
+	<pattern name="State">
+		<instance>
+			<role name="Context" element="org.apache.commons.collections.buffer.TestBlockingBuffer$ReadThread" />
+			<role name="State" element="org.apache.commons.collections.Buffer" />
+			<role name="state" element="org.apache.commons.collections.buffer.TestBlockingBuffer$ReadThread::buffer:org.apache.commons.collections.Buffer" />
+			<role name="Request()" element="org.apache.commons.collections.buffer.TestBlockingBuffer$ReadThread::run():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.commons.collections.buffer.TestBoundedBuffer$DelayedRemove" />
+			<role name="State" element="org.apache.commons.collections.Buffer" />
+			<role name="state" element="org.apache.commons.collections.buffer.TestBoundedBuffer$DelayedRemove::buffer:org.apache.commons.collections.Buffer" />
+			<role name="Request()" element="org.apache.commons.collections.buffer.TestBoundedBuffer$DelayedRemove::run():void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.apache.commons.collections.Predicate" />
+			<role name="Context" element="org.apache.commons.collections.iterators.FilterListIterator" />
+			<role name="state" element="org.apache.commons.collections.iterators.FilterListIterator::predicate:org.apache.commons.collections.Predicate" />
+			<role name="Request()" element="org.apache.commons.collections.iterators.FilterListIterator::setNextObject():boolean" />
+			<role name="Request()" element="org.apache.commons.collections.iterators.FilterListIterator::setPreviousObject():boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.commons.collections.comparators.TransformingComparator" />
+			<role name="State" element="org.apache.commons.collections.Transformer" />
+			<role name="state" element="org.apache.commons.collections.comparators.TransformingComparator::transformer:org.apache.commons.collections.Transformer" />
+			<role name="Request()" element="org.apache.commons.collections.comparators.TransformingComparator::compare(java.lang.Object, java.lang.Object):int" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.commons.collections.iterators.ObjectGraphIterator" />
+			<role name="State" element="org.apache.commons.collections.Transformer" />
+			<role name="state" element="org.apache.commons.collections.iterators.ObjectGraphIterator::transformer:org.apache.commons.collections.Transformer" />
+			<role name="Request()" element="org.apache.commons.collections.iterators.ObjectGraphIterator::updateCurrentIterator():void" />
+			<role name="Request()" element="org.apache.commons.collections.iterators.ObjectGraphIterator::findNextByIterator(java.util.Iterator):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.commons.collections.iterators.TransformIterator" />
+			<role name="State" element="org.apache.commons.collections.Transformer" />
+			<role name="state" element="org.apache.commons.collections.iterators.TransformIterator::transformer:org.apache.commons.collections.Transformer" />
+			<role name="Request()" element="org.apache.commons.collections.iterators.TransformIterator::transform(java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.commons.collections.map.LazyMap" />
+			<role name="State" element="org.apache.commons.collections.Transformer" />
+			<role name="state" element="org.apache.commons.collections.map.LazyMap::factory:org.apache.commons.collections.Transformer" />
+			<role name="Request()" element="org.apache.commons.collections.map.LazyMap::get(java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.commons.collections.map.TransformedMap" />
+			<role name="State" element="org.apache.commons.collections.Transformer" />
+			<role name="state" element="org.apache.commons.collections.map.TransformedMap::keyTransformer:org.apache.commons.collections.Transformer" />
+			<role name="state" element="org.apache.commons.collections.map.TransformedMap::valueTransformer:org.apache.commons.collections.Transformer" />
+			<role name="Request()" element="org.apache.commons.collections.map.TransformedMap::transformKey(java.lang.Object):java.lang.Object" />
+			<role name="Request()" element="org.apache.commons.collections.map.TransformedMap::transformValue(java.lang.Object):java.lang.Object" />
+			<role name="Request()" element="org.apache.commons.collections.map.TransformedMap::checkSetValue(java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.commons.collections.functors.SwitchTransformer" />
+			<role name="State" element="org.apache.commons.collections.Predicate" />
+			<role name="state" element="org.apache.commons.collections.functors.SwitchTransformer::iPredicates:org.apache.commons.collections.Predicate[]" />
+			<role name="Request()" element="org.apache.commons.collections.functors.SwitchTransformer::transform(java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.commons.collections.functors.TransformedPredicate" />
+			<role name="State" element="org.apache.commons.collections.Transformer" />
+			<role name="state" element="org.apache.commons.collections.functors.TransformedPredicate::iTransformer:org.apache.commons.collections.Transformer" />
+			<role name="Request()" element="org.apache.commons.collections.functors.TransformedPredicate::evaluate(java.lang.Object):boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.commons.collections.functors.PredicateTransformer" />
+			<role name="State" element="org.apache.commons.collections.Predicate" />
+			<role name="state" element="org.apache.commons.collections.functors.PredicateTransformer::iPredicate:org.apache.commons.collections.Predicate" />
+			<role name="Request()" element="org.apache.commons.collections.functors.PredicateTransformer::transform(java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.commons.collections.functors.TransformerPredicate" />
+			<role name="State" element="org.apache.commons.collections.Transformer" />
+			<role name="state" element="org.apache.commons.collections.functors.TransformerPredicate::iTransformer:org.apache.commons.collections.Transformer" />
+			<role name="Request()" element="org.apache.commons.collections.functors.TransformerPredicate::evaluate(java.lang.Object):boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.commons.collections.collection.CompositeCollection" />
+			<role name="State" element="org.apache.commons.collections.collection.CompositeCollection$CollectionMutator" />
+			<role name="state" element="org.apache.commons.collections.collection.CompositeCollection::mutator:org.apache.commons.collections.collection.CompositeCollection$CollectionMutator" />
+			<role name="Request()" element="org.apache.commons.collections.collection.CompositeCollection::add(java.lang.Object):boolean" />
+			<role name="Request()" element="org.apache.commons.collections.collection.CompositeCollection::remove(java.lang.Object):boolean" />
+			<role name="Request()" element="org.apache.commons.collections.collection.CompositeCollection::addAll(java.util.Collection):boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.commons.collections.functors.IfClosure" />
+			<role name="State" element="org.apache.commons.collections.Predicate" />
+			<role name="state" element="org.apache.commons.collections.functors.IfClosure::iPredicate:org.apache.commons.collections.Predicate" />
+			<role name="Request()" element="org.apache.commons.collections.functors.IfClosure::execute(java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.commons.collections.functors.SwitchClosure" />
+			<role name="State" element="org.apache.commons.collections.Predicate" />
+			<role name="state" element="org.apache.commons.collections.functors.SwitchClosure::iPredicates:org.apache.commons.collections.Predicate[]" />
+			<role name="Request()" element="org.apache.commons.collections.functors.SwitchClosure::execute(java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.commons.collections.functors.WhileClosure" />
+			<role name="State" element="org.apache.commons.collections.Predicate" />
+			<role name="state" element="org.apache.commons.collections.functors.WhileClosure::iPredicate:org.apache.commons.collections.Predicate" />
+			<role name="Request()" element="org.apache.commons.collections.functors.WhileClosure::execute(java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.commons.collections.map.AbstractInputCheckedMapDecorator$MapEntry" />
+			<role name="State" element="org.apache.commons.collections.map.AbstractInputCheckedMapDecorator" />
+			<role name="state" element="org.apache.commons.collections.map.AbstractInputCheckedMapDecorator$MapEntry::parent:org.apache.commons.collections.map.AbstractInputCheckedMapDecorator" />
+			<role name="Request()" element="org.apache.commons.collections.map.AbstractInputCheckedMapDecorator$MapEntry::setValue(java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.commons.collections.map.CompositeMap" />
+			<role name="State" element="org.apache.commons.collections.map.CompositeMap$MapMutator" />
+			<role name="state" element="org.apache.commons.collections.map.CompositeMap::mutator:org.apache.commons.collections.map.CompositeMap$MapMutator" />
+			<role name="Request()" element="org.apache.commons.collections.map.CompositeMap::addComposited(java.util.Map):void" />
+			<role name="Request()" element="org.apache.commons.collections.map.CompositeMap::put(java.lang.Object, java.lang.Object):java.lang.Object" />
+			<role name="Request()" element="org.apache.commons.collections.map.CompositeMap::putAll(java.util.Map):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.commons.collections.map.MultiValueMap" />
+			<role name="State" element="org.apache.commons.collections.Factory" />
+			<role name="state" element="org.apache.commons.collections.map.MultiValueMap::collectionFactory:org.apache.commons.collections.Factory" />
+			<role name="Request()" element="org.apache.commons.collections.map.MultiValueMap::createCollection(int):java.util.Collection" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.commons.collections.functors.ClosureTransformer" />
+			<role name="State" element="org.apache.commons.collections.Closure" />
+			<role name="state" element="org.apache.commons.collections.functors.ClosureTransformer::iClosure:org.apache.commons.collections.Closure" />
+			<role name="Request()" element="org.apache.commons.collections.functors.ClosureTransformer::transform(java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.commons.collections.functors.TransformerClosure" />
+			<role name="State" element="org.apache.commons.collections.Transformer" />
+			<role name="state" element="org.apache.commons.collections.functors.TransformerClosure::iTransformer:org.apache.commons.collections.Transformer" />
+			<role name="Request()" element="org.apache.commons.collections.functors.TransformerClosure::execute(java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.commons.collections.functors.FactoryTransformer" />
+			<role name="State" element="org.apache.commons.collections.Factory" />
+			<role name="state" element="org.apache.commons.collections.functors.FactoryTransformer::iFactory:org.apache.commons.collections.Factory" />
+			<role name="Request()" element="org.apache.commons.collections.functors.FactoryTransformer::transform(java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.commons.collections.iterators.FilterIterator" />
+			<role name="State" element="org.apache.commons.collections.Predicate" />
+			<role name="state" element="org.apache.commons.collections.iterators.FilterIterator::predicate:org.apache.commons.collections.Predicate" />
+			<role name="Request()" element="org.apache.commons.collections.iterators.FilterIterator::setNextObject():boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.commons.collections.list.LazyList" />
+			<role name="State" element="org.apache.commons.collections.Factory" />
+			<role name="state" element="org.apache.commons.collections.list.LazyList::factory:org.apache.commons.collections.Factory" />
+			<role name="Request()" element="org.apache.commons.collections.list.LazyList::get(int):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.commons.collections.collection.PredicatedCollection" />
+			<role name="State" element="org.apache.commons.collections.Predicate" />
+			<role name="state" element="org.apache.commons.collections.collection.PredicatedCollection::predicate:org.apache.commons.collections.Predicate" />
+			<role name="Request()" element="org.apache.commons.collections.collection.PredicatedCollection::validate(java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.apache.commons.collections.Transformer" />
+			<role name="Context" element="org.apache.commons.collections.collection.TransformedCollection" />
+			<role name="state" element="org.apache.commons.collections.collection.TransformedCollection::transformer:org.apache.commons.collections.Transformer" />
+			<role name="Request()" element="org.apache.commons.collections.collection.TransformedCollection::transform(java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.commons.collections.map.PredicatedMap" />
+			<role name="State" element="org.apache.commons.collections.Predicate" />
+			<role name="state" element="org.apache.commons.collections.map.PredicatedMap::keyPredicate:org.apache.commons.collections.Predicate" />
+			<role name="state" element="org.apache.commons.collections.map.PredicatedMap::valuePredicate:org.apache.commons.collections.Predicate" />
+			<role name="Request()" element="org.apache.commons.collections.map.PredicatedMap::validate(java.lang.Object, java.lang.Object):void" />
+			<role name="Request()" element="org.apache.commons.collections.map.PredicatedMap::checkSetValue(java.lang.Object):java.lang.Object" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy" />
+	<pattern name="Bridge" />
+	<pattern name="Template Method">
+		<instance>
+			<role name="AbstractClass" element="org.apache.commons.collections.AbstractTestObject" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.AbstractTestObject::testObjectEqualsSelf():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.AbstractTestObject::testEqualsNull():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.AbstractTestObject::testObjectHashCodeEqualsSelfHashCode():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.AbstractTestObject::testObjectHashCodeEqualsContract():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.AbstractTestObject::testSerializeDeserializeThenCompare():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.AbstractTestObject::testSimpleSerialization():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.AbstractTestObject::testCanonicalEmptyCollectionExists():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.AbstractTestObject::testCanonicalFullCollectionExists():void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.apache.commons.collections.bag.AbstractTestBag" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.bag.AbstractTestBag::makeObject():java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.bag.AbstractTestBag::testBagAdd():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.bag.AbstractTestBag::testBagEqualsSelf():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.bag.AbstractTestBag::testRemove():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.bag.AbstractTestBag::testRemoveAll():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.bag.AbstractTestBag::testContains():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.bag.AbstractTestBag::testContainsAll():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.bag.AbstractTestBag::testSize():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.bag.AbstractTestBag::testRetainAll():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.bag.AbstractTestBag::testIterator():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.bag.AbstractTestBag::testIteratorFail():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.bag.AbstractTestBag::testIteratorFailNoMore():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.bag.AbstractTestBag::testIteratorFailDoubleRemove():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.bag.AbstractTestBag::testIteratorRemoveProtectsInvariants():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.bag.AbstractTestBag::testToArray():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.bag.AbstractTestBag::testToArrayPopulate():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.bag.AbstractTestBag::testEquals():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.bag.AbstractTestBag::testEqualsHashBag():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.bag.AbstractTestBag::testHashCode():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.bag.AbstractTestBag::testEmptyBagSerialization():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.bag.AbstractTestBag::testFullBagSerialization():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.bag.AbstractTestBag::testEmptyBagCompatibility():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.bag.AbstractTestBag::testFullBagCompatibility():void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.apache.commons.collections.bidimap.AbstractDualBidiMap" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.bidimap.AbstractDualBidiMap::inverseBidiMap():org.apache.commons.collections.BidiMap" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.apache.commons.collections.bidimap.AbstractTestBidiMap" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.bidimap.AbstractTestBidiMap::makeFullBidiMap():org.apache.commons.collections.BidiMap" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.bidimap.AbstractTestBidiMap::makeEmptyMap():java.util.Map" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.bidimap.AbstractTestBidiMap::testBidiPut():void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.apache.commons.collections.collection.AbstractTestCollection" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.collection.AbstractTestCollection::resetEmpty():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.collection.AbstractTestCollection::resetFull():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.collection.AbstractTestCollection::makeFullCollection():java.util.Collection" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.collection.AbstractTestCollection::makeObject():java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.collection.AbstractTestCollection::testSerializeDeserializeThenCompare():void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.apache.commons.collections.comparators.AbstractTestComparator" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.comparators.AbstractTestComparator::makeObject():java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.comparators.AbstractTestComparator::testEmptyListSort():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.comparators.AbstractTestComparator::testReverseListSort():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.comparators.AbstractTestComparator::testRandomListSort():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.comparators.AbstractTestComparator::testComparatorIsSerializable():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.comparators.AbstractTestComparator::testComparatorCompatibility():void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.apache.commons.collections.DoubleOrderedMap$DoubleOrderedMapIterator" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.DoubleOrderedMap$DoubleOrderedMapIterator::next():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.apache.commons.collections.FastHashMap$CollectionView" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.FastHashMap$CollectionView::clear():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.FastHashMap$CollectionView::remove(java.lang.Object):boolean" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.FastHashMap$CollectionView::removeAll(java.util.Collection):boolean" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.FastHashMap$CollectionView::retainAll(java.util.Collection):boolean" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.FastHashMap$CollectionView::size():int" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.FastHashMap$CollectionView::isEmpty():boolean" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.FastHashMap$CollectionView::contains(java.lang.Object):boolean" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.FastHashMap$CollectionView::containsAll(java.util.Collection):boolean" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.FastHashMap$CollectionView::toArray(java.lang.Object[]):java.lang.Object[]" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.FastHashMap$CollectionView::toArray():java.lang.Object[]" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.FastHashMap$CollectionView::equals(java.lang.Object):boolean" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.FastHashMap$CollectionView::hashCode():int" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.apache.commons.collections.FastTreeMap$CollectionView" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.FastTreeMap$CollectionView::clear():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.FastTreeMap$CollectionView::remove(java.lang.Object):boolean" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.FastTreeMap$CollectionView::removeAll(java.util.Collection):boolean" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.FastTreeMap$CollectionView::retainAll(java.util.Collection):boolean" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.FastTreeMap$CollectionView::size():int" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.FastTreeMap$CollectionView::isEmpty():boolean" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.FastTreeMap$CollectionView::contains(java.lang.Object):boolean" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.FastTreeMap$CollectionView::containsAll(java.util.Collection):boolean" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.FastTreeMap$CollectionView::toArray(java.lang.Object[]):java.lang.Object[]" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.FastTreeMap$CollectionView::toArray():java.lang.Object[]" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.FastTreeMap$CollectionView::equals(java.lang.Object):boolean" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.FastTreeMap$CollectionView::hashCode():int" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.apache.commons.collections.iterators.AbstractTestIterator" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.iterators.AbstractTestIterator::makeObject():java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.iterators.AbstractTestIterator::testEmptyIterator():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.iterators.AbstractTestIterator::testFullIterator():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.iterators.AbstractTestIterator::testRemove():void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.apache.commons.collections.iterators.AbstractTestListIterator" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.iterators.AbstractTestListIterator::makeEmptyIterator():java.util.Iterator" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.iterators.AbstractTestListIterator::makeFullIterator():java.util.Iterator" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.iterators.AbstractTestListIterator::testEmptyListIteratorIsIndeedEmpty():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.iterators.AbstractTestListIterator::testWalkForwardAndBack():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.iterators.AbstractTestListIterator::testAdd():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.iterators.AbstractTestListIterator::testSet():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.iterators.AbstractTestListIterator::testRemoveThenSet():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.iterators.AbstractTestListIterator::testAddThenSet():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.iterators.AbstractTestListIterator::testAddThenRemove():void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.apache.commons.collections.iterators.AbstractTestMapIterator" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.iterators.AbstractTestMapIterator::makeEmptyIterator():java.util.Iterator" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.iterators.AbstractTestMapIterator::makeFullIterator():java.util.Iterator" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.iterators.AbstractTestMapIterator::testEmptyMapIterator():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.iterators.AbstractTestMapIterator::testFullMapIterator():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.iterators.AbstractTestMapIterator::testMapIteratorSet():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.iterators.AbstractTestMapIterator::testRemove():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.iterators.AbstractTestMapIterator::testMapIteratorSetRemoveSet():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.iterators.AbstractTestMapIterator::testMapIteratorRemoveGetKey():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.iterators.AbstractTestMapIterator::testMapIteratorRemoveGetValue():void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.apache.commons.collections.list.AbstractTestList" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.list.AbstractTestList::makeFullList():java.util.List" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.list.AbstractTestList::makeCollection():java.util.Collection" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.list.AbstractTestList::testListAddByIndexBoundsChecking():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.list.AbstractTestList::testListEquals():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.list.AbstractTestList::testListGetByIndexBoundsChecking():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.list.AbstractTestList::testListSetByIndexBoundsChecking():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.list.AbstractTestList::testListRemoveByIndexBoundsChecking():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.list.AbstractTestList::testEmptyListSerialization():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.list.AbstractTestList::testEmptyListCompatibility():void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.apache.commons.collections.map.AbstractTestMap" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.map.AbstractTestMap::makeFullMap():java.util.Map" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.map.AbstractTestMap::makeObject():java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.map.AbstractTestMap::testMakeMap():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.map.AbstractTestMap::testEmptyMapCompatibility():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.map.AbstractTestMap::resetEmpty():void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.apache.commons.collections.set.AbstractTestSet" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.set.AbstractTestSet::makeFullSet():java.util.Set" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.set.AbstractTestSet::makeCollection():java.util.Collection" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.apache.commons.collections.TestLinkedList" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.TestLinkedList::makeEmptyList():java.util.List" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.TestLinkedList::makeFullLinkedList():java.util.LinkedList" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.apache.commons.collections.TestTypedCollection" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.TestTypedCollection::testIllegalAdd():void" />
+			<role name="TemplateMethod()" element="org.apache.commons.collections.TestTypedCollection::testIllegalAddAll():void" />
+		</instance>
+	</pattern>
+	<pattern name="Visitor" />
+	<pattern name="Proxy">
+		<instance>
+			<role name="Proxy" element="org.apache.commons.collections.map.Flat3Map" />
+			<role name="RealSubject" element="org.apache.commons.collections.map.AbstractHashedMap" />
+			<role name="Request()" element="org.apache.commons.collections.map.Flat3Map::mapIterator():org.apache.commons.collections.MapIterator" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="org.apache.commons.collections.map.MultiKeyMap" />
+			<role name="RealSubject" element="org.apache.commons.collections.map.AbstractHashedMap" />
+			<role name="Request()" element="org.apache.commons.collections.map.MultiKeyMap::mapIterator():org.apache.commons.collections.MapIterator" />
+		</instance>
+	</pattern>
+	<pattern name="Proxy2" />
+	<pattern name="Chain of Responsibility" />
+</system>
+

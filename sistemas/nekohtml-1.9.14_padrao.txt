@@ -1,0 +1,6 @@
+org.cyberneko.html.xercesbridge.XercesBridge	Singleton
+org.cyberneko.html.HTMLTagBalancer	State
+org.cyberneko.html.HTMLScanner$Scanner	State
+org.cyberneko.html.HTMLErrorReporter	State
+org.cyberneko.html.HTMLScanner	State
+org.cyberneko.html.HTMLTagBalancingListener	State

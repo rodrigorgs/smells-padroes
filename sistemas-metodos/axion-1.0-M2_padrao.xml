@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method">
+		<instance>
+			<role name="Creator" element="org.axiondb.engine.BaseDatabase" />
+			<role name="FactoryMethod()" element="org.axiondb.engine.BaseDatabase::createSystemTable(java.lang.String):org.axiondb.Table" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.axiondb.engine.BaseIndex" />
+			<role name="FactoryMethod()" element="org.axiondb.engine.BaseIndex::getRowIterator(org.axiondb.RowSource, org.axiondb.ComparisonOperator, java.lang.Object):org.axiondb.RowIterator" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.axiondb.engine.BaseTable" />
+			<role name="FactoryMethod()" element="org.axiondb.engine.BaseTable::getRowIterator():org.axiondb.RowIterator" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.axiondb.FunctionFactory" />
+			<role name="FactoryMethod()" element="org.axiondb.FunctionFactory::makeNewInstance():org.axiondb.functions.ConcreteFunction" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.axiondb.Index" />
+			<role name="FactoryMethod()" element="org.axiondb.Index::getRowIterator(org.axiondb.RowSource, org.axiondb.ComparisonOperator, java.lang.Object):org.axiondb.RowIterator" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.axiondb.IndexFactory" />
+			<role name="FactoryMethod()" element="org.axiondb.IndexFactory::makeNewInstance(java.lang.String, org.axiondb.Column, boolean):org.axiondb.Index" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.axiondb.IndexLoader" />
+			<role name="FactoryMethod()" element="org.axiondb.IndexLoader::loadIndex(org.axiondb.Table, java.io.File):org.axiondb.Index" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.axiondb.Table" />
+			<role name="FactoryMethod()" element="org.axiondb.Table::getMatchingRows(java.util.List, java.util.List):org.axiondb.RowIterator" />
+			<role name="FactoryMethod()" element="org.axiondb.Table::makeTransactableTable():org.axiondb.TransactableTable" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.axiondb.TableFactory" />
+			<role name="FactoryMethod()" element="org.axiondb.TableFactory::createTable(org.axiondb.Database, java.lang.String):org.axiondb.Table" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.axiondb.TransactionManager" />
+			<role name="FactoryMethod()" element="org.axiondb.TransactionManager::createTransaction():org.axiondb.Transaction" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.axiondb.types.BaseDataType" />
+			<role name="FactoryMethod()" element="org.axiondb.types.BaseDataType::makeNewInstance():org.axiondb.DataType" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.axiondb.types.LobLocator" />
+			<role name="FactoryMethod()" element="org.axiondb.types.LobLocator::getLobSource(java.io.File, java.io.RandomAccessFile):org.axiondb.types.LobSource" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.axiondb.types.LobLocatorFactory" />
+			<role name="FactoryMethod()" element="org.axiondb.types.LobLocatorFactory::read(java.io.DataInput):org.axiondb.types.LobLocator" />
+			<role name="FactoryMethod()" element="org.axiondb.types.LobLocatorFactory::makeLobLocator(java.io.File):org.axiondb.types.LobLocator" />
+		</instance>
+	</pattern>
+	<pattern name="Prototype" />
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="org.axiondb.ComparisonOperator" />
+			<role name="uniqueInstance" element="org.axiondb.ComparisonOperator::EQUAL:org.axiondb.ComparisonOperator" />
+			<role name="uniqueInstance" element="org.axiondb.ComparisonOperator::NOT_EQUAL:org.axiondb.ComparisonOperator" />
+			<role name="uniqueInstance" element="org.axiondb.ComparisonOperator::GREATER_THAN:org.axiondb.ComparisonOperator" />
+			<role name="uniqueInstance" element="org.axiondb.ComparisonOperator::LESS_THAN:org.axiondb.ComparisonOperator" />
+			<role name="uniqueInstance" element="org.axiondb.ComparisonOperator::GREATER_THAN_OR_EQUAL:org.axiondb.ComparisonOperator" />
+			<role name="uniqueInstance" element="org.axiondb.ComparisonOperator::LESS_THAN_OR_EQUAL:org.axiondb.ComparisonOperator" />
+			<role name="uniqueInstance" element="org.axiondb.ComparisonOperator::IS_NULL:org.axiondb.ComparisonOperator" />
+			<role name="uniqueInstance" element="org.axiondb.ComparisonOperator::IS_NOT_NULL:org.axiondb.ComparisonOperator" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.axiondb.engine.Databases" />
+			<role name="uniqueInstance" element="org.axiondb.engine.Databases::INSTANCE:org.axiondb.engine.Databases" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.axiondb.types.AnyType" />
+			<role name="uniqueInstance" element="org.axiondb.types.AnyType::INSTANCE:org.axiondb.types.AnyType" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adaptee" element="org.axiondb.DataType" />
+			<role name="Adapter" element="org.axiondb.functions.Base64DecodeFunction" />
+			<role name="adaptee" element="org.axiondb.functions.Base64DecodeFunction::STRING_TYPE:org.axiondb.DataType" />
+			<role name="Request()" element="org.axiondb.functions.Base64DecodeFunction::evaluate(org.axiondb.RowDecorator):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.axiondb.DataType" />
+			<role name="Adapter" element="org.axiondb.functions.ConcatFunction" />
+			<role name="adaptee" element="org.axiondb.functions.ConcatFunction::RETURN_TYPE:org.axiondb.DataType" />
+			<role name="Request()" element="org.axiondb.functions.ConcatFunction::evaluate(org.axiondb.RowDecorator):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.axiondb.DataType" />
+			<role name="Adapter" element="org.axiondb.functions.ContainsFunction" />
+			<role name="adaptee" element="org.axiondb.functions.ContainsFunction::ARG_TYPE:org.axiondb.DataType" />
+			<role name="Request()" element="org.axiondb.functions.ContainsFunction::evaluate(org.axiondb.RowDecorator):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.axiondb.DataType" />
+			<role name="Adapter" element="org.axiondb.functions.LikeToRegexpFunction" />
+			<role name="adaptee" element="org.axiondb.functions.LikeToRegexpFunction::ARG_TYPE:org.axiondb.DataType" />
+			<role name="Request()" element="org.axiondb.functions.LikeToRegexpFunction::evaluate(org.axiondb.RowDecorator):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.axiondb.DataType" />
+			<role name="Adapter" element="org.axiondb.functions.LowerFunction" />
+			<role name="adaptee" element="org.axiondb.functions.LowerFunction::RETURN_TYPE:org.axiondb.DataType" />
+			<role name="Request()" element="org.axiondb.functions.LowerFunction::evaluate(org.axiondb.RowDecorator):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.axiondb.DataType" />
+			<role name="Adapter" element="org.axiondb.functions.MaxFunction" />
+			<role name="adaptee" element="org.axiondb.functions.MaxFunction::RETURN_TYPE:org.axiondb.DataType" />
+			<role name="Request()" element="org.axiondb.functions.MaxFunction::evaluate(org.axiondb.RowDecoratorIterator):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.axiondb.DataType" />
+			<role name="Adapter" element="org.axiondb.functions.MinFunction" />
+			<role name="adaptee" element="org.axiondb.functions.MinFunction::RETURN_TYPE:org.axiondb.DataType" />
+			<role name="Request()" element="org.axiondb.functions.MinFunction::evaluate(org.axiondb.RowDecoratorIterator):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.axiondb.DataType" />
+			<role name="Adapter" element="org.axiondb.functions.UpperFunction" />
+			<role name="adaptee" element="org.axiondb.functions.UpperFunction::RETURN_TYPE:org.axiondb.DataType" />
+			<role name="Request()" element="org.axiondb.functions.UpperFunction::evaluate(org.axiondb.RowDecorator):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.axiondb.util.BTree" />
+			<role name="Adapter" element="org.axiondb.engine.IntBTreeIndex" />
+			<role name="adaptee" element="org.axiondb.engine.IntBTreeIndex::_tree:org.axiondb.util.BTree" />
+			<role name="Request()" element="org.axiondb.engine.IntBTreeIndex::rowInserted(org.axiondb.event.RowEvent):void" />
+			<role name="Request()" element="org.axiondb.engine.IntBTreeIndex::rowDeleted(org.axiondb.event.RowEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.axiondb.util.ObjectBTree" />
+			<role name="Adapter" element="org.axiondb.engine.ObjectBTreeIndex" />
+			<role name="adaptee" element="org.axiondb.engine.ObjectBTreeIndex::_tree:org.axiondb.util.ObjectBTree" />
+			<role name="Request()" element="org.axiondb.engine.ObjectBTreeIndex::rowInserted(org.axiondb.event.RowEvent):void" />
+			<role name="Request()" element="org.axiondb.engine.ObjectBTreeIndex::rowDeleted(org.axiondb.event.RowEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.axiondb.Column" />
+			<role name="Adapter" element="org.axiondb.engine.SortedMapIndex" />
+			<role name="adaptee" element="org.axiondb.engine.SortedMapIndex::_column:org.axiondb.Column" />
+			<role name="Request()" element="org.axiondb.engine.SortedMapIndex::getRowIterator(org.axiondb.RowSource, org.axiondb.ComparisonOperator, java.lang.Object):org.axiondb.RowIterator" />
+			<role name="Request()" element="org.axiondb.engine.SortedMapIndex::supportsOperator(org.axiondb.ComparisonOperator):boolean" />
+			<role name="Request()" element="org.axiondb.engine.SortedMapIndex::changeRowId(org.axiondb.Table, org.axiondb.Row, int, int):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.axiondb.Database" />
+			<role name="Adapter" element="org.axiondb.engine.AxionColumnsMetaTableUpdater" />
+			<role name="adaptee" element="org.axiondb.engine.AxionColumnsMetaTableUpdater::_db:org.axiondb.Database" />
+			<role name="Request()" element="org.axiondb.engine.AxionColumnsMetaTableUpdater::tableAdded(org.axiondb.event.DatabaseModifiedEvent):void" />
+			<role name="Request()" element="org.axiondb.engine.AxionColumnsMetaTableUpdater::columnAdded(org.axiondb.event.ColumnEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.axiondb.RowIterator" />
+			<role name="Adapter" element="org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator" />
+			<role name="adaptee" element="org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator::_iterator:org.axiondb.RowIterator" />
+			<role name="Request()" element="org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator::current():org.axiondb.RowDecorator" />
+			<role name="Request()" element="org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator::next():org.axiondb.RowDecorator" />
+			<role name="Request()" element="org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator::previous():org.axiondb.RowDecorator" />
+			<role name="Request()" element="org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator::hasNext():boolean" />
+			<role name="Request()" element="org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator::hasPrevious():boolean" />
+			<role name="Request()" element="org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator::hasCurrent():boolean" />
+			<role name="Request()" element="org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator::first():org.axiondb.RowDecorator" />
+			<role name="Request()" element="org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator::last():org.axiondb.RowDecorator" />
+			<role name="Request()" element="org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator::reset():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.axiondb.Database" />
+			<role name="Adapter" element="org.axiondb.engine.AxionSequencesMetaTableUpdater" />
+			<role name="adaptee" element="org.axiondb.engine.AxionSequencesMetaTableUpdater::_db:org.axiondb.Database" />
+			<role name="Request()" element="org.axiondb.engine.AxionSequencesMetaTableUpdater::sequenceAdded(org.axiondb.event.DatabaseSequenceEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.axiondb.Database" />
+			<role name="Adapter" element="org.axiondb.engine.AxionTablesMetaTableUpdater" />
+			<role name="adaptee" element="org.axiondb.engine.AxionTablesMetaTableUpdater::_db:org.axiondb.Database" />
+			<role name="Request()" element="org.axiondb.engine.AxionTablesMetaTableUpdater::tableAdded(org.axiondb.event.DatabaseModifiedEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.axiondb.Database" />
+			<role name="Adapter" element="org.axiondb.engine.AxionTypesMetaTableUpdater" />
+			<role name="adaptee" element="org.axiondb.engine.AxionTypesMetaTableUpdater::_db:org.axiondb.Database" />
+			<role name="Request()" element="org.axiondb.engine.AxionTypesMetaTableUpdater::typeAdded(org.axiondb.event.DatabaseTypeEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.axiondb.event.DatabaseModificationListener" />
+			<role name="Adapter" element="org.axiondb.engine.BaseDatabase" />
+			<role name="adaptee" element="org.axiondb.engine.BaseDatabase::_colUpd:org.axiondb.event.DatabaseModificationListener" />
+			<role name="adaptee" element="org.axiondb.engine.BaseDatabase::_seqUpd:org.axiondb.event.DatabaseModificationListener" />
+			<role name="Request()" element="org.axiondb.engine.BaseDatabase::addTable(org.axiondb.Table):void" />
+			<role name="Request()" element="org.axiondb.engine.BaseDatabase::createSequence(org.axiondb.Sequence):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.axiondb.types.LobLocatorFactory" />
+			<role name="Adapter" element="org.axiondb.types.LOBType" />
+			<role name="adaptee" element="org.axiondb.types.LOBType::_locatorFactory:org.axiondb.types.LobLocatorFactory" />
+			<role name="Request()" element="org.axiondb.types.LOBType::convert(java.lang.Object):java.lang.Object" />
+			<role name="Request()" element="org.axiondb.types.LOBType::read(java.io.DataInput):java.lang.Object" />
+			<role name="Request()" element="org.axiondb.types.LOBType::write(java.lang.Object, java.io.DataOutput):void" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="org.axiondb.engine.LazyRow" />
+			<role name="Adaptee" element="org.axiondb.RowSource" />
+			<role name="adaptee" element="org.axiondb.engine.LazyRow::_source:org.axiondb.RowSource" />
+			<role name="Request()" element="org.axiondb.engine.LazyRow::size():int" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.axiondb.Selectable" />
+			<role name="Adapter" element="org.axiondb.InWhereNode" />
+			<role name="adaptee" element="org.axiondb.InWhereNode::_left:org.axiondb.Selectable" />
+			<role name="Request()" element="org.axiondb.InWhereNode::evaluate(org.axiondb.RowDecorator):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.axiondb.Selectable" />
+			<role name="Adapter" element="org.axiondb.LeafWhereNode" />
+			<role name="adaptee" element="org.axiondb.LeafWhereNode::_left:org.axiondb.Selectable" />
+			<role name="adaptee" element="org.axiondb.LeafWhereNode::_right:org.axiondb.Selectable" />
+			<role name="Request()" element="org.axiondb.LeafWhereNode::evaluate(org.axiondb.RowDecorator):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.axiondb.types.LobSource" />
+			<role name="Adapter" element="org.axiondb.types.ClobSource" />
+			<role name="adaptee" element="org.axiondb.types.ClobSource::_lob:org.axiondb.types.LobSource" />
+			<role name="Request()" element="org.axiondb.types.ClobSource::setUtf8Stream(long):java.io.OutputStream" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.axiondb.Database" />
+			<role name="Adapter" element="org.axiondb.engine.TransactionManagerImpl" />
+			<role name="adaptee" element="org.axiondb.engine.TransactionManagerImpl::_database:org.axiondb.Database" />
+			<role name="Request()" element="org.axiondb.engine.TransactionManagerImpl::shutdown():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.axiondb.WhereNode" />
+			<role name="Adapter" element="org.axiondb.engine.rowiterators.FilteringRowIterator" />
+			<role name="adaptee" element="org.axiondb.engine.rowiterators.FilteringRowIterator::_where:org.axiondb.WhereNode" />
+			<role name="Request()" element="org.axiondb.engine.rowiterators.FilteringRowIterator::acceptable(int, org.axiondb.Row):boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.axiondb.ComparisonOperator" />
+			<role name="Adapter" element="org.axiondb.LeafWhereNode" />
+			<role name="adaptee" element="org.axiondb.LeafWhereNode::_operator:org.axiondb.ComparisonOperator" />
+			<role name="Request()" element="org.axiondb.LeafWhereNode::evaluate(org.axiondb.RowDecorator):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.axiondb.WhereNode" />
+			<role name="Adapter" element="org.axiondb.constraints.CheckConstraint" />
+			<role name="adaptee" element="org.axiondb.constraints.CheckConstraint::_condition:org.axiondb.WhereNode" />
+			<role name="Request()" element="org.axiondb.constraints.CheckConstraint::evaluate(org.axiondb.event.RowEvent):boolean" />
+		</instance>
+	</pattern>
+	<pattern name="Command" />
+	<pattern name="Composite">
+		<instance>
+			<role name="Component" element="org.axiondb.AxionCommand" />
+			<role name="Composite" element="org.axiondb.engine.commands.CreateTableCommand" />
+			<role name="Operation()" element="org.axiondb.engine.commands.CreateTableCommand::execute(org.axiondb.Database):boolean" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.axiondb.RowIterator" />
+			<role name="Composite" element="org.axiondb.engine.rowiterators.ChainedRowIterator" />
+			<role name="Operation()" element="org.axiondb.engine.rowiterators.ChainedRowIterator::reset():void" />
+			<role name="Operation()" element="org.axiondb.engine.rowiterators.ChainedRowIterator::next():org.axiondb.Row" />
+			<role name="Operation()" element="org.axiondb.engine.rowiterators.ChainedRowIterator::previous():org.axiondb.Row" />
+			<role name="Operation()" element="org.axiondb.engine.rowiterators.ChainedRowIterator::hasNext():boolean" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.axiondb.RowIterator" />
+			<role name="Composite" element="org.axiondb.engine.rowiterators.CollatingRowIterator" />
+			<role name="Operation()" element="org.axiondb.engine.rowiterators.CollatingRowIterator::hasNext():boolean" />
+			<role name="Operation()" element="org.axiondb.engine.rowiterators.CollatingRowIterator::reset():void" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.axiondb.Row" />
+			<role name="Composite" element="org.axiondb.engine.rowiterators.JoinedRow" />
+			<role name="Operation()" element="org.axiondb.engine.rowiterators.JoinedRow::get(int):java.lang.Object" />
+			<role name="Operation()" element="org.axiondb.engine.rowiterators.JoinedRow::set(int, java.lang.Object):void" />
+		</instance>
+	</pattern>
+	<pattern name="Decorator">
+		<instance>
+			<role name="Component" element="org.axiondb.Selectable" />
+			<role name="Decorator" element="org.axiondb.expression.Expression" />
+			<role name="component" element="org.axiondb.expression.Expression::_leftSelectable:org.axiondb.Selectable" />
+			<role name="component" element="org.axiondb.expression.Expression::_rightSelectable:org.axiondb.Selectable" />
+			<role name="Operation()" element="org.axiondb.expression.Expression::evaluate(org.axiondb.RowDecorator):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.axiondb.RowIterator" />
+			<role name="Decorator" element="org.axiondb.engine.rowiterators.DelegatingRowIterator" />
+			<role name="component" element="org.axiondb.engine.rowiterators.DelegatingRowIterator::_delegate:org.axiondb.RowIterator" />
+			<role name="Operation()" element="org.axiondb.engine.rowiterators.DelegatingRowIterator::current():org.axiondb.Row" />
+			<role name="Operation()" element="org.axiondb.engine.rowiterators.DelegatingRowIterator::hasCurrent():boolean" />
+			<role name="Operation()" element="org.axiondb.engine.rowiterators.DelegatingRowIterator::first():org.axiondb.Row" />
+			<role name="Operation()" element="org.axiondb.engine.rowiterators.DelegatingRowIterator::last():org.axiondb.Row" />
+			<role name="Operation()" element="org.axiondb.engine.rowiterators.DelegatingRowIterator::next():org.axiondb.Row" />
+			<role name="Operation()" element="org.axiondb.engine.rowiterators.DelegatingRowIterator::previous():org.axiondb.Row" />
+			<role name="Operation()" element="org.axiondb.engine.rowiterators.DelegatingRowIterator::hasNext():boolean" />
+			<role name="Operation()" element="org.axiondb.engine.rowiterators.DelegatingRowIterator::hasPrevious():boolean" />
+			<role name="Operation()" element="org.axiondb.engine.rowiterators.DelegatingRowIterator::add(org.axiondb.Row):void" />
+			<role name="Operation()" element="org.axiondb.engine.rowiterators.DelegatingRowIterator::nextIndex():int" />
+			<role name="Operation()" element="org.axiondb.engine.rowiterators.DelegatingRowIterator::previousIndex():int" />
+			<role name="Operation()" element="org.axiondb.engine.rowiterators.DelegatingRowIterator::currentIndex():int" />
+			<role name="Operation()" element="org.axiondb.engine.rowiterators.DelegatingRowIterator::remove():void" />
+			<role name="Operation()" element="org.axiondb.engine.rowiterators.DelegatingRowIterator::set(org.axiondb.Row):void" />
+			<role name="Operation()" element="org.axiondb.engine.rowiterators.DelegatingRowIterator::reset():void" />
+			<role name="Operation()" element="org.axiondb.engine.rowiterators.DelegatingRowIterator::peekNext():org.axiondb.Row" />
+			<role name="Operation()" element="org.axiondb.engine.rowiterators.DelegatingRowIterator::peekPrevious():org.axiondb.Row" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.axiondb.types.LobSource" />
+			<role name="Decorator" element="org.axiondb.types.CompressedLobSource" />
+			<role name="component" element="org.axiondb.types.CompressedLobSource::_source:org.axiondb.types.LobSource" />
+			<role name="Operation()" element="org.axiondb.types.CompressedLobSource::truncate(long):void" />
+			<role name="Operation()" element="org.axiondb.types.CompressedLobSource::getInputStream():java.io.InputStream" />
+			<role name="Operation()" element="org.axiondb.types.CompressedLobSource::setOutputStream(long):java.io.OutputStream" />
+		</instance>
+	</pattern>
+	<pattern name="Observer">
+		<instance>
+			<role name="Observer" element="org.axiondb.Index" />
+			<role name="Subject" element="org.axiondb.engine.BaseTable" />
+			<role name="Notify()" element="org.axiondb.engine.BaseTable::getIndexForColumn(org.axiondb.Column):org.axiondb.Index" />
+			<role name="Notify()" element="org.axiondb.engine.BaseTable::isColumnIndexed(org.axiondb.Column):boolean" />
+		</instance>
+	</pattern>
+	<pattern name="State">
+		<instance>
+			<role name="Context" element="org.axiondb.engine.TransactableTableImpl" />
+			<role name="State" element="org.axiondb.Table" />
+			<role name="state" element="org.axiondb.engine.TransactableTableImpl::_table:org.axiondb.Table" />
+			<role name="Request()" element="org.axiondb.engine.TransactableTableImpl::getName():java.lang.String" />
+			<role name="Request()" element="org.axiondb.engine.TransactableTableImpl::getType():java.lang.String" />
+			<role name="Request()" element="org.axiondb.engine.TransactableTableImpl::addConstraint(org.axiondb.Constraint):void" />
+			<role name="Request()" element="org.axiondb.engine.TransactableTableImpl::removeConstraint(java.lang.String):void" />
+			<role name="Request()" element="org.axiondb.engine.TransactableTableImpl::getConstraints():java.util.Iterator" />
+			<role name="Request()" element="org.axiondb.engine.TransactableTableImpl::addIndex(org.axiondb.Index):void" />
+			<role name="Request()" element="org.axiondb.engine.TransactableTableImpl::removeIndex(org.axiondb.Index):void" />
+			<role name="Request()" element="org.axiondb.engine.TransactableTableImpl::populateIndex(org.axiondb.Index):void" />
+			<role name="Request()" element="org.axiondb.engine.TransactableTableImpl::getIndexForColumn(org.axiondb.Column):org.axiondb.Index" />
+			<role name="Request()" element="org.axiondb.engine.TransactableTableImpl::isColumnIndexed(org.axiondb.Column):boolean" />
+			<role name="Request()" element="org.axiondb.engine.TransactableTableImpl::addColumn(org.axiondb.Column):void" />
+			<role name="Request()" element="org.axiondb.engine.TransactableTableImpl::getColumn(int):org.axiondb.Column" />
+			<role name="Request()" element="org.axiondb.engine.TransactableTableImpl::getColumn(java.lang.String):org.axiondb.Column" />
+			<role name="Request()" element="org.axiondb.engine.TransactableTableImpl::hasColumn(org.axiondb.ColumnIdentifier):boolean" />
+			<role name="Request()" element="org.axiondb.engine.TransactableTableImpl::getColumnIndex(java.lang.String):int" />
+			<role name="Request()" element="org.axiondb.engine.TransactableTableImpl::getColumnIdentifiers():java.util.Iterator" />
+			<role name="Request()" element="org.axiondb.engine.TransactableTableImpl::getColumnCount():int" />
+			<role name="Request()" element="org.axiondb.engine.TransactableTableImpl::getIndices():java.util.Iterator" />
+			<role name="Request()" element="org.axiondb.engine.TransactableTableImpl::addRow(org.axiondb.Row):void" />
+			<role name="Request()" element="org.axiondb.engine.TransactableTableImpl::getRowIterator(boolean):org.axiondb.RowIterator" />
+			<role name="Request()" element="org.axiondb.engine.TransactableTableImpl::getIndexedRows(org.axiondb.WhereNode, boolean):org.axiondb.RowIterator" />
+			<role name="Request()" element="org.axiondb.engine.TransactableTableImpl::getRowCount():int" />
+			<role name="Request()" element="org.axiondb.engine.TransactableTableImpl::getNextRowId():int" />
+			<role name="Request()" element="org.axiondb.engine.TransactableTableImpl::freeRowId(int):void" />
+			<role name="Request()" element="org.axiondb.engine.TransactableTableImpl::drop():void" />
+			<role name="Request()" element="org.axiondb.engine.TransactableTableImpl::checkpoint():void" />
+			<role name="Request()" element="org.axiondb.engine.TransactableTableImpl::shutdown():void" />
+			<role name="Request()" element="org.axiondb.engine.TransactableTableImpl::remount(java.io.File, boolean):void" />
+			<role name="Request()" element="org.axiondb.engine.TransactableTableImpl::applyInserts(java.util.Iterator):void" />
+			<role name="Request()" element="org.axiondb.engine.TransactableTableImpl::applyDeletes(org.apache.commons.collections.primitives.IntIterator):void" />
+			<role name="Request()" element="org.axiondb.engine.TransactableTableImpl::applyUpdates(java.util.Iterator):void" />
+			<role name="Request()" element="org.axiondb.engine.TransactableTableImpl::apply():void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.axiondb.DataType" />
+			<role name="Context" element="org.axiondb.functions.Base64DecodeFunction" />
+			<role name="state" element="org.axiondb.functions.Base64DecodeFunction::STRING_TYPE:org.axiondb.DataType" />
+			<role name="Request()" element="org.axiondb.functions.Base64DecodeFunction::evaluate(org.axiondb.RowDecorator):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="State" element="org.axiondb.DataType" />
+			<role name="Context" element="org.axiondb.functions.ConcatFunction" />
+			<role name="state" element="org.axiondb.functions.ConcatFunction::RETURN_TYPE:org.axiondb.DataType" />
+			<role name="Request()" element="org.axiondb.functions.ConcatFunction::evaluate(org.axiondb.RowDecorator):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="State" element="org.axiondb.DataType" />
+			<role name="Context" element="org.axiondb.functions.ContainsFunction" />
+			<role name="state" element="org.axiondb.functions.ContainsFunction::ARG_TYPE:org.axiondb.DataType" />
+			<role name="Request()" element="org.axiondb.functions.ContainsFunction::evaluate(org.axiondb.RowDecorator):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="State" element="org.axiondb.DataType" />
+			<role name="Context" element="org.axiondb.functions.LikeToRegexpFunction" />
+			<role name="state" element="org.axiondb.functions.LikeToRegexpFunction::ARG_TYPE:org.axiondb.DataType" />
+			<role name="Request()" element="org.axiondb.functions.LikeToRegexpFunction::evaluate(org.axiondb.RowDecorator):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="State" element="org.axiondb.DataType" />
+			<role name="Context" element="org.axiondb.functions.LowerFunction" />
+			<role name="state" element="org.axiondb.functions.LowerFunction::RETURN_TYPE:org.axiondb.DataType" />
+			<role name="Request()" element="org.axiondb.functions.LowerFunction::evaluate(org.axiondb.RowDecorator):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="State" element="org.axiondb.DataType" />
+			<role name="Context" element="org.axiondb.functions.MatchesFunction" />
+			<role name="state" element="org.axiondb.functions.MatchesFunction::ARG_TYPE:org.axiondb.DataType" />
+			<role name="Request()" element="org.axiondb.functions.MatchesFunction::getStringFromArg(org.axiondb.Selectable, org.axiondb.RowDecorator):java.lang.String" />
+		</instance>
+		<instance>
+			<role name="State" element="org.axiondb.DataType" />
+			<role name="Context" element="org.axiondb.functions.MaxFunction" />
+			<role name="state" element="org.axiondb.functions.MaxFunction::RETURN_TYPE:org.axiondb.DataType" />
+			<role name="Request()" element="org.axiondb.functions.MaxFunction::evaluate(org.axiondb.RowDecoratorIterator):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="State" element="org.axiondb.DataType" />
+			<role name="Context" element="org.axiondb.functions.MinFunction" />
+			<role name="state" element="org.axiondb.functions.MinFunction::RETURN_TYPE:org.axiondb.DataType" />
+			<role name="Request()" element="org.axiondb.functions.MinFunction::evaluate(org.axiondb.RowDecoratorIterator):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="State" element="org.axiondb.DataType" />
+			<role name="Context" element="org.axiondb.functions.UpperFunction" />
+			<role name="state" element="org.axiondb.functions.UpperFunction::RETURN_TYPE:org.axiondb.DataType" />
+			<role name="Request()" element="org.axiondb.functions.UpperFunction::evaluate(org.axiondb.RowDecorator):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.axiondb.engine.commands.SelectCommand" />
+			<role name="State" element="org.axiondb.RowIterator" />
+			<role name="state" element="org.axiondb.engine.commands.SelectCommand::_rows:org.axiondb.RowIterator" />
+			<role name="Request()" element="org.axiondb.engine.commands.SelectCommand::executeQuery(org.axiondb.Database):org.axiondb.jdbc.AxionResultSet" />
+			<role name="Request()" element="org.axiondb.engine.commands.SelectCommand::processQuery(org.axiondb.Database):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.axiondb.engine.AxionColumnsMetaTableUpdater" />
+			<role name="State" element="org.axiondb.Database" />
+			<role name="state" element="org.axiondb.engine.AxionColumnsMetaTableUpdater::_db:org.axiondb.Database" />
+			<role name="Request()" element="org.axiondb.engine.AxionColumnsMetaTableUpdater::tableAdded(org.axiondb.event.DatabaseModifiedEvent):void" />
+			<role name="Request()" element="org.axiondb.engine.AxionColumnsMetaTableUpdater::columnAdded(org.axiondb.event.ColumnEvent):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.axiondb.engine.SnapshotIsolationTransaction" />
+			<role name="State" element="org.axiondb.Database" />
+			<role name="state" element="org.axiondb.engine.SnapshotIsolationTransaction::_openOnTransaction:org.axiondb.Database" />
+			<role name="Request()" element="org.axiondb.engine.SnapshotIsolationTransaction::getName():java.lang.String" />
+			<role name="Request()" element="org.axiondb.engine.SnapshotIsolationTransaction::dropTable(java.lang.String):void" />
+			<role name="Request()" element="org.axiondb.engine.SnapshotIsolationTransaction::addTable(org.axiondb.Table):void" />
+			<role name="Request()" element="org.axiondb.engine.SnapshotIsolationTransaction::tableAltered(org.axiondb.Table):void" />
+			<role name="Request()" element="org.axiondb.engine.SnapshotIsolationTransaction::getDataType(java.lang.String):org.axiondb.DataType" />
+			<role name="Request()" element="org.axiondb.engine.SnapshotIsolationTransaction::getIndexFactory(java.lang.String):org.axiondb.IndexFactory" />
+			<role name="Request()" element="org.axiondb.engine.SnapshotIsolationTransaction::getTableFactory(java.lang.String):org.axiondb.TableFactory" />
+			<role name="Request()" element="org.axiondb.engine.SnapshotIsolationTransaction::getTableDirectory():java.io.File" />
+			<role name="Request()" element="org.axiondb.engine.SnapshotIsolationTransaction::resolveSelectable(org.axiondb.Selectable, org.axiondb.TableIdentifier[]):org.axiondb.Selectable" />
+			<role name="Request()" element="org.axiondb.engine.SnapshotIsolationTransaction::resolveFromNode(org.axiondb.FromNode, org.axiondb.TableIdentifier[]):void" />
+			<role name="Request()" element="org.axiondb.engine.SnapshotIsolationTransaction::resolveWhereNode(org.axiondb.WhereNode, org.axiondb.TableIdentifier[]):void" />
+			<role name="Request()" element="org.axiondb.engine.SnapshotIsolationTransaction::checkpoint():void" />
+			<role name="Request()" element="org.axiondb.engine.SnapshotIsolationTransaction::shutdown():void" />
+			<role name="Request()" element="org.axiondb.engine.SnapshotIsolationTransaction::remount(java.io.File):void" />
+			<role name="Request()" element="org.axiondb.engine.SnapshotIsolationTransaction::isReadOnly():boolean" />
+			<role name="Request()" element="org.axiondb.engine.SnapshotIsolationTransaction::createSequence(org.axiondb.Sequence):void" />
+			<role name="Request()" element="org.axiondb.engine.SnapshotIsolationTransaction::getSequence(java.lang.String):org.axiondb.Sequence" />
+			<role name="Request()" element="org.axiondb.engine.SnapshotIsolationTransaction::dropSequence(java.lang.String):void" />
+			<role name="Request()" element="org.axiondb.engine.SnapshotIsolationTransaction::getTransactionManager():org.axiondb.TransactionManager" />
+			<role name="Request()" element="org.axiondb.engine.SnapshotIsolationTransaction::getWrappedTable(org.axiondb.TableIdentifier):org.axiondb.TransactableTable" />
+		</instance>
+		<instance>
+			<role name="State" element="org.axiondb.Database" />
+			<role name="Context" element="org.axiondb.jdbc.AxionDatabaseMetaData" />
+			<role name="state" element="org.axiondb.jdbc.AxionDatabaseMetaData::_db:org.axiondb.Database" />
+			<role name="Request()" element="org.axiondb.jdbc.AxionDatabaseMetaData::isReadOnly():boolean" />
+		</instance>
+		<instance>
+			<role name="State" element="org.axiondb.Database" />
+			<role name="Context" element="org.axiondb.jdbc.AxionConnection" />
+			<role name="state" element="org.axiondb.jdbc.AxionConnection::_db:org.axiondb.Database" />
+			<role name="Request()" element="org.axiondb.jdbc.AxionConnection::close():void" />
+			<role name="Request()" element="org.axiondb.jdbc.AxionConnection::commit():void" />
+			<role name="Request()" element="org.axiondb.jdbc.AxionConnection::rollback():void" />
+			<role name="Request()" element="org.axiondb.jdbc.AxionConnection::getCurrentTransaction():org.axiondb.Transaction" />
+			<role name="Request()" element="org.axiondb.jdbc.AxionConnection::commitIfAuto():void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.axiondb.Row" />
+			<role name="Context" element="org.axiondb.engine.rowiterators.IndexJoinedRowIterator" />
+			<role name="state" element="org.axiondb.engine.rowiterators.IndexJoinedRowIterator::_lrow:org.axiondb.Row" />
+			<role name="state" element="org.axiondb.engine.rowiterators.IndexJoinedRowIterator::_rrow:org.axiondb.Row" />
+			<role name="Request()" element="org.axiondb.engine.rowiterators.IndexJoinedRowIterator::setNextRow():boolean" />
+			<role name="Request()" element="org.axiondb.engine.rowiterators.IndexJoinedRowIterator::setPreviousRow():boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator" />
+			<role name="State" element="org.axiondb.RowIterator" />
+			<role name="state" element="org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator::_iterator:org.axiondb.RowIterator" />
+			<role name="Request()" element="org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator::current():org.axiondb.RowDecorator" />
+			<role name="Request()" element="org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator::next():org.axiondb.RowDecorator" />
+			<role name="Request()" element="org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator::previous():org.axiondb.RowDecorator" />
+			<role name="Request()" element="org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator::hasNext():boolean" />
+			<role name="Request()" element="org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator::hasPrevious():boolean" />
+			<role name="Request()" element="org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator::hasCurrent():boolean" />
+			<role name="Request()" element="org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator::first():org.axiondb.RowDecorator" />
+			<role name="Request()" element="org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator::last():org.axiondb.RowDecorator" />
+			<role name="Request()" element="org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator::nextIndex():int" />
+			<role name="Request()" element="org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator::previousIndex():int" />
+			<role name="Request()" element="org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator::remove():void" />
+			<role name="Request()" element="org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator::set(org.axiondb.Row):void" />
+			<role name="Request()" element="org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator::add(org.axiondb.Row):void" />
+			<role name="Request()" element="org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator::reset():void" />
+			<role name="Request()" element="org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator::decorate(org.axiondb.Row):org.axiondb.RowDecorator" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.axiondb.RowComparator" />
+			<role name="State" element="org.axiondb.Selectable" />
+			<role name="state" element="org.axiondb.RowComparator::_sel:org.axiondb.Selectable" />
+			<role name="Request()" element="org.axiondb.RowComparator::evaluate(java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.axiondb.jdbc.AxionResultSet" />
+			<role name="State" element="org.axiondb.Selectable" />
+			<role name="state" element="org.axiondb.jdbc.AxionResultSet::_selected:org.axiondb.Selectable[]" />
+			<role name="Request()" element="org.axiondb.jdbc.AxionResultSet::getValue(int):java.lang.Object" />
+			<role name="Request()" element="org.axiondb.jdbc.AxionResultSet::getDataType(int):org.axiondb.DataType" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.axiondb.engine.AxionSequencesMetaTableUpdater" />
+			<role name="State" element="org.axiondb.Database" />
+			<role name="state" element="org.axiondb.engine.AxionSequencesMetaTableUpdater::_db:org.axiondb.Database" />
+			<role name="Request()" element="org.axiondb.engine.AxionSequencesMetaTableUpdater::sequenceAdded(org.axiondb.event.DatabaseSequenceEvent):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.axiondb.engine.AxionTablesMetaTableUpdater" />
+			<role name="State" element="org.axiondb.Database" />
+			<role name="state" element="org.axiondb.engine.AxionTablesMetaTableUpdater::_db:org.axiondb.Database" />
+			<role name="Request()" element="org.axiondb.engine.AxionTablesMetaTableUpdater::tableAdded(org.axiondb.event.DatabaseModifiedEvent):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.axiondb.engine.AxionTypesMetaTableUpdater" />
+			<role name="State" element="org.axiondb.Database" />
+			<role name="state" element="org.axiondb.engine.AxionTypesMetaTableUpdater::_db:org.axiondb.Database" />
+			<role name="Request()" element="org.axiondb.engine.AxionTypesMetaTableUpdater::typeAdded(org.axiondb.event.DatabaseTypeEvent):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.axiondb.engine.rowiterators.ChangingIndexedRowIterator" />
+			<role name="State" element="org.axiondb.Index" />
+			<role name="state" element="org.axiondb.engine.rowiterators.ChangingIndexedRowIterator::_index:org.axiondb.Index" />
+			<role name="Request()" element="org.axiondb.engine.rowiterators.ChangingIndexedRowIterator::setIndexKey(java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.axiondb.engine.rowiterators.RebindableIndexedRowIterator" />
+			<role name="State" element="org.axiondb.Index" />
+			<role name="state" element="org.axiondb.engine.rowiterators.RebindableIndexedRowIterator::_index:org.axiondb.Index" />
+			<role name="Request()" element="org.axiondb.engine.rowiterators.RebindableIndexedRowIterator::reset():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.axiondb.jdbc.AxionPreparedStatement" />
+			<role name="State" element="org.axiondb.AxionCommand" />
+			<role name="state" element="org.axiondb.jdbc.AxionPreparedStatement::_cmd:org.axiondb.AxionCommand" />
+			<role name="Request()" element="org.axiondb.jdbc.AxionPreparedStatement::setParameter(int, java.lang.Object):void" />
+			<role name="Request()" element="org.axiondb.jdbc.AxionPreparedStatement::clearParameters():void" />
+			<role name="Request()" element="org.axiondb.jdbc.AxionPreparedStatement::execute():boolean" />
+			<role name="Request()" element="org.axiondb.jdbc.AxionPreparedStatement::executeQuery():java.sql.ResultSet" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.axiondb.types.LOBType" />
+			<role name="State" element="org.axiondb.types.LobLocatorFactory" />
+			<role name="state" element="org.axiondb.types.LOBType::_locatorFactory:org.axiondb.types.LobLocatorFactory" />
+			<role name="Request()" element="org.axiondb.types.LOBType::convert(java.lang.Object):java.lang.Object" />
+			<role name="Request()" element="org.axiondb.types.LOBType::read(java.io.DataInput):java.lang.Object" />
+			<role name="Request()" element="org.axiondb.types.LOBType::write(java.lang.Object, java.io.DataOutput):void" />
+			<role name="Request()" element="org.axiondb.types.LOBType::writeStringClob(org.axiondb.types.StringClob):org.axiondb.types.LobLocator" />
+			<role name="Request()" element="org.axiondb.types.LOBType::writeByteArrayBlob(org.axiondb.types.ByteArrayBlob):org.axiondb.types.LobLocator" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.axiondb.engine.LazyRow" />
+			<role name="State" element="org.axiondb.RowSource" />
+			<role name="state" element="org.axiondb.engine.LazyRow::_source:org.axiondb.RowSource" />
+			<role name="Request()" element="org.axiondb.engine.LazyRow::size():int" />
+			<role name="Request()" element="org.axiondb.engine.LazyRow::getRow():org.axiondb.Row" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.axiondb.RowDecorator" />
+			<role name="State" element="org.axiondb.Row" />
+			<role name="state" element="org.axiondb.RowDecorator::_row:org.axiondb.Row" />
+			<role name="Request()" element="org.axiondb.RowDecorator::get(org.axiondb.ColumnIdentifier):java.lang.Object" />
+			<role name="Request()" element="org.axiondb.RowDecorator::set(org.axiondb.ColumnIdentifier, java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.axiondb.jdbc.AxionResultSet" />
+			<role name="State" element="org.axiondb.RowDecoratorIterator" />
+			<role name="state" element="org.axiondb.jdbc.AxionResultSet::_rows:org.axiondb.RowDecoratorIterator" />
+			<role name="Request()" element="org.axiondb.jdbc.AxionResultSet::beforeFirst():void" />
+			<role name="Request()" element="org.axiondb.jdbc.AxionResultSet::isBeforeFirst():boolean" />
+			<role name="Request()" element="org.axiondb.jdbc.AxionResultSet::next():boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.axiondb.jdbc.AxionResultSet" />
+			<role name="State" element="org.axiondb.TransactionManager" />
+			<role name="state" element="org.axiondb.jdbc.AxionResultSet::_transactionManager:org.axiondb.TransactionManager" />
+			<role name="Request()" element="org.axiondb.jdbc.AxionResultSet::close():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.axiondb.InWhereNode" />
+			<role name="State" element="org.axiondb.Selectable" />
+			<role name="state" element="org.axiondb.InWhereNode::_left:org.axiondb.Selectable" />
+			<role name="Request()" element="org.axiondb.InWhereNode::evaluate(org.axiondb.RowDecorator):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.axiondb.LeafWhereNode" />
+			<role name="State" element="org.axiondb.Selectable" />
+			<role name="state" element="org.axiondb.LeafWhereNode::_left:org.axiondb.Selectable" />
+			<role name="state" element="org.axiondb.LeafWhereNode::_right:org.axiondb.Selectable" />
+			<role name="Request()" element="org.axiondb.LeafWhereNode::evaluate(org.axiondb.RowDecorator):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.axiondb.types.BlobSource" />
+			<role name="State" element="org.axiondb.types.LobSource" />
+			<role name="state" element="org.axiondb.types.BlobSource::_lob:org.axiondb.types.LobSource" />
+			<role name="Request()" element="org.axiondb.types.BlobSource::length():long" />
+			<role name="Request()" element="org.axiondb.types.BlobSource::truncate(long):void" />
+			<role name="Request()" element="org.axiondb.types.BlobSource::getBinaryStream():java.io.InputStream" />
+			<role name="Request()" element="org.axiondb.types.BlobSource::setBinaryStream(long):java.io.OutputStream" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.axiondb.types.ClobSource" />
+			<role name="State" element="org.axiondb.types.LobSource" />
+			<role name="state" element="org.axiondb.types.ClobSource::_lob:org.axiondb.types.LobSource" />
+			<role name="Request()" element="org.axiondb.types.ClobSource::getUtf8Stream():java.io.InputStream" />
+			<role name="Request()" element="org.axiondb.types.ClobSource::setUtf8Stream(long):java.io.OutputStream" />
+			<role name="Request()" element="org.axiondb.types.ClobSource::length():long" />
+			<role name="Request()" element="org.axiondb.types.ClobSource::truncate(long):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.axiondb.engine.rowiterators.DistinctRowIterator" />
+			<role name="State" element="org.axiondb.Selectable" />
+			<role name="state" element="org.axiondb.engine.rowiterators.DistinctRowIterator::_selectables:org.axiondb.Selectable[]" />
+			<role name="Request()" element="org.axiondb.engine.rowiterators.DistinctRowIterator::populateValueList(org.axiondb.Row):java.util.List" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.axiondb.engine.TransactionManagerImpl" />
+			<role name="State" element="org.axiondb.Database" />
+			<role name="state" element="org.axiondb.engine.TransactionManagerImpl::_database:org.axiondb.Database" />
+			<role name="Request()" element="org.axiondb.engine.TransactionManagerImpl::shutdown():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.axiondb.engine.rowiterators.FilteringRowIterator" />
+			<role name="State" element="org.axiondb.WhereNode" />
+			<role name="state" element="org.axiondb.engine.rowiterators.FilteringRowIterator::_where:org.axiondb.WhereNode" />
+			<role name="Request()" element="org.axiondb.engine.rowiterators.FilteringRowIterator::acceptable(int, org.axiondb.Row):boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.axiondb.LeafWhereNode" />
+			<role name="State" element="org.axiondb.ComparisonOperator" />
+			<role name="state" element="org.axiondb.LeafWhereNode::_operator:org.axiondb.ComparisonOperator" />
+			<role name="Request()" element="org.axiondb.LeafWhereNode::evaluate(org.axiondb.RowDecorator):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.axiondb.engine.commands.AddConstraintCommand" />
+			<role name="State" element="org.axiondb.Constraint" />
+			<role name="state" element="org.axiondb.engine.commands.AddConstraintCommand::_constraint:org.axiondb.Constraint" />
+			<role name="Request()" element="org.axiondb.engine.commands.AddConstraintCommand::execute(org.axiondb.Database):boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.axiondb.constraints.CheckConstraint" />
+			<role name="State" element="org.axiondb.WhereNode" />
+			<role name="state" element="org.axiondb.constraints.CheckConstraint::_condition:org.axiondb.WhereNode" />
+			<role name="Request()" element="org.axiondb.constraints.CheckConstraint::evaluate(org.axiondb.event.RowEvent):boolean" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy" />
+	<pattern name="Bridge">
+		<instance>
+			<role name="Abstraction" element="org.axiondb.engine.BaseDatabase" />
+			<role name="Implementor" element="org.axiondb.event.DatabaseModificationListener" />
+			<role name="implementor" element="org.axiondb.engine.BaseDatabase::_colUpd:org.axiondb.event.DatabaseModificationListener" />
+			<role name="implementor" element="org.axiondb.engine.BaseDatabase::_seqUpd:org.axiondb.event.DatabaseModificationListener" />
+			<role name="Operation()" element="org.axiondb.engine.BaseDatabase::addTable(org.axiondb.Table):void" />
+			<role name="Operation()" element="org.axiondb.engine.BaseDatabase::createSequence(org.axiondb.Sequence):void" />
+		</instance>
+	</pattern>
+	<pattern name="Template Method">
+		<instance>
+			<role name="AbstractClass" element="org.axiondb.engine.BaseArrayIndex" />
+			<role name="TemplateMethod()" element="org.axiondb.engine.BaseArrayIndex::getRowIterator(org.axiondb.RowSource, org.axiondb.ComparisonOperator, java.lang.Object):org.axiondb.RowIterator" />
+			<role name="TemplateMethod()" element="org.axiondb.engine.BaseArrayIndex::rowInserted(org.axiondb.event.RowEvent):void" />
+			<role name="TemplateMethod()" element="org.axiondb.engine.BaseArrayIndex::rowDeleted(org.axiondb.event.RowEvent):void" />
+			<role name="TemplateMethod()" element="org.axiondb.engine.BaseArrayIndex::save(java.io.File):void" />
+			<role name="TemplateMethod()" element="org.axiondb.engine.BaseArrayIndex::changeRowId(org.axiondb.Table, org.axiondb.Row, int, int):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.axiondb.engine.BaseDatabase" />
+			<role name="TemplateMethod()" element="org.axiondb.engine.BaseDatabase::createMetaDataTables():void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.axiondb.engine.BaseDiskTable" />
+			<role name="TemplateMethod()" element="org.axiondb.engine.BaseDiskTable::addColumn(org.axiondb.Column, boolean):void" />
+			<role name="TemplateMethod()" element="org.axiondb.engine.BaseDiskTable::drop():void" />
+			<role name="TemplateMethod()" element="org.axiondb.engine.BaseDiskTable::shutdown():void" />
+			<role name="TemplateMethod()" element="org.axiondb.engine.BaseDiskTable::remount(java.io.File, boolean):void" />
+			<role name="TemplateMethod()" element="org.axiondb.engine.BaseDiskTable::getMetaFile():java.io.File" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.axiondb.engine.BaseTable" />
+			<role name="TemplateMethod()" element="org.axiondb.engine.BaseTable::getRowIterator(boolean):org.axiondb.RowIterator" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.axiondb.engine.rowiterators.AbstractAcceptingRowIterator" />
+			<role name="TemplateMethod()" element="org.axiondb.engine.rowiterators.AbstractAcceptingRowIterator::determineNextRow():boolean" />
+			<role name="TemplateMethod()" element="org.axiondb.engine.rowiterators.AbstractAcceptingRowIterator::determinePreviousRow():boolean" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.axiondb.engine.rowiterators.AbstractFilteringRowIterator" />
+			<role name="TemplateMethod()" element="org.axiondb.engine.rowiterators.AbstractFilteringRowIterator::hasNext():boolean" />
+			<role name="TemplateMethod()" element="org.axiondb.engine.rowiterators.AbstractFilteringRowIterator::hasPrevious():boolean" />
+			<role name="TemplateMethod()" element="org.axiondb.engine.rowiterators.AbstractFilteringRowIterator::next():org.axiondb.Row" />
+			<role name="TemplateMethod()" element="org.axiondb.engine.rowiterators.AbstractFilteringRowIterator::previous():org.axiondb.Row" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.axiondb.engine.rowiterators.TransformingRowIterator" />
+			<role name="TemplateMethod()" element="org.axiondb.engine.rowiterators.TransformingRowIterator::current():org.axiondb.Row" />
+			<role name="TemplateMethod()" element="org.axiondb.engine.rowiterators.TransformingRowIterator::first():org.axiondb.Row" />
+			<role name="TemplateMethod()" element="org.axiondb.engine.rowiterators.TransformingRowIterator::last():org.axiondb.Row" />
+			<role name="TemplateMethod()" element="org.axiondb.engine.rowiterators.TransformingRowIterator::next():org.axiondb.Row" />
+			<role name="TemplateMethod()" element="org.axiondb.engine.rowiterators.TransformingRowIterator::previous():org.axiondb.Row" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.axiondb.jdbc.AbstractAxionClob" />
+			<role name="TemplateMethod()" element="org.axiondb.jdbc.AbstractAxionClob::setCharacterStream(long):java.io.Writer" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.axiondb.types.BaseDataType" />
+			<role name="TemplateMethod()" element="org.axiondb.types.BaseDataType::toString(java.lang.Object):java.lang.String" />
+		</instance>
+	</pattern>
+	<pattern name="Visitor" />
+	<pattern name="Proxy" />
+	<pattern name="Proxy2" />
+	<pattern name="Chain of Responsibility" />
+</system>
+

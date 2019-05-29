@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method">
+		<instance>
+			<role name="Creator" element="org.picocontainer.Converting" />
+			<role name="FactoryMethod()" element="org.picocontainer.Converting::getConverters():org.picocontainer.Converters" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.picocontainer.MutablePicoContainer" />
+			<role name="FactoryMethod()" element="org.picocontainer.MutablePicoContainer::makeChildContainer():org.picocontainer.MutablePicoContainer" />
+			<role name="FactoryMethod()" element="org.picocontainer.MutablePicoContainer::as(java.util.Properties[]):org.picocontainer.MutablePicoContainer" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.picocontainer.Parameter" />
+			<role name="FactoryMethod()" element="org.picocontainer.Parameter::resolve(org.picocontainer.PicoContainer, org.picocontainer.ComponentAdapter, org.picocontainer.ComponentAdapter, java.lang.reflect.Type, org.picocontainer.NameBinding, boolean, java.lang.annotation.Annotation):org.picocontainer.Parameter$Resolver" />
+		</instance>
+	</pattern>
+	<pattern name="Prototype" />
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="org.picocontainer.parameters.BasicComponentParameter" />
+			<role name="uniqueInstance" element="org.picocontainer.parameters.BasicComponentParameter::BASIC_DEFAULT:org.picocontainer.parameters.BasicComponentParameter" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.picocontainer.parameters.CollectionComponentParameter" />
+			<role name="uniqueInstance" element="org.picocontainer.parameters.CollectionComponentParameter::ARRAY:org.picocontainer.parameters.CollectionComponentParameter" />
+			<role name="uniqueInstance" element="org.picocontainer.parameters.CollectionComponentParameter::ARRAY_ALLOW_EMPTY:org.picocontainer.parameters.CollectionComponentParameter" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.picocontainer.parameters.ComponentParameter" />
+			<role name="uniqueInstance" element="org.picocontainer.parameters.ComponentParameter::DEFAULT:org.picocontainer.parameters.ComponentParameter" />
+			<role name="uniqueInstance" element="org.picocontainer.parameters.ComponentParameter::ARRAY:org.picocontainer.parameters.ComponentParameter" />
+			<role name="uniqueInstance" element="org.picocontainer.parameters.ComponentParameter::ARRAY_ALLOW_EMPTY:org.picocontainer.parameters.ComponentParameter" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.picocontainer.parameters.DefaultConstructorParameter" />
+			<role name="uniqueInstance" element="org.picocontainer.parameters.DefaultConstructorParameter::INSTANCE:org.picocontainer.parameters.DefaultConstructorParameter" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.picocontainer.parameters.NullParameter" />
+			<role name="uniqueInstance" element="org.picocontainer.parameters.NullParameter::INSTANCE:org.picocontainer.parameters.NullParameter" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adaptee" element="org.picocontainer.Injector" />
+			<role name="Adapter" element="org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter" />
+			<role name="adaptee" element="org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter::injector:org.picocontainer.Injector" />
+			<role name="Request()" element="org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter::getComponentKey():java.lang.Object" />
+			<role name="Request()" element="org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter::getComponentInstance(org.picocontainer.PicoContainer):java.lang.Object" />
+			<role name="Request()" element="org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter::getComponentInstance(org.picocontainer.PicoContainer, java.lang.reflect.Type):java.lang.Object" />
+			<role name="Request()" element="org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter::verify(org.picocontainer.PicoContainer):void" />
+			<role name="Request()" element="org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter::accept(org.picocontainer.PicoVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard" />
+			<role name="Adapter" element="org.picocontainer.injectors.IterativeInjector" />
+			<role name="adaptee" element="org.picocontainer.injectors.IterativeInjector::instantiationGuard:org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard" />
+			<role name="Request()" element="org.picocontainer.injectors.IterativeInjector::getComponentInstance(org.picocontainer.PicoContainer, java.lang.reflect.Type):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="org.picocontainer.injectors.Reinjection$ReinjectionInjector" />
+			<role name="Adaptee" element="org.picocontainer.PicoContainer" />
+			<role name="adaptee" element="org.picocontainer.injectors.Reinjection$ReinjectionInjector::parent:org.picocontainer.PicoContainer" />
+			<role name="Request()" element="org.picocontainer.injectors.Reinjection$ReinjectionInjector::getComponentInstance(org.picocontainer.PicoContainer, java.lang.reflect.Type):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.picocontainer.lifecycle.LifecycleState" />
+			<role name="Adapter" element="org.picocontainer.DefaultPicoContainer" />
+			<role name="adaptee" element="org.picocontainer.DefaultPicoContainer::lifecycleState:org.picocontainer.lifecycle.LifecycleState" />
+			<role name="Request()" element="org.picocontainer.DefaultPicoContainer::removeComponent():org.picocontainer.ComponentAdapter" />
+			<role name="Request()" element="org.picocontainer.DefaultPicoContainer::addChildContainer(org.picocontainer.PicoContainer):org.picocontainer.MutablePicoContainer" />
+		</instance>
+	</pattern>
+	<pattern name="Command" />
+	<pattern name="Composite" />
+	<pattern name="Decorator">
+		<instance>
+			<role name="Component" element="org.picocontainer.ComponentAdapter" />
+			<role name="Decorator" element="org.picocontainer.DefaultPicoContainer$KnowsContainerAdapter" />
+			<role name="component" element="org.picocontainer.DefaultPicoContainer$KnowsContainerAdapter::ca:org.picocontainer.ComponentAdapter" />
+			<role name="Operation()" element="org.picocontainer.DefaultPicoContainer$KnowsContainerAdapter::getComponentKey():java.lang.Object" />
+			<role name="Operation()" element="org.picocontainer.DefaultPicoContainer$KnowsContainerAdapter::getComponentImplementation():java.lang.Class" />
+			<role name="Operation()" element="org.picocontainer.DefaultPicoContainer$KnowsContainerAdapter::getComponentInstance(org.picocontainer.PicoContainer):java.lang.Object" />
+			<role name="Operation()" element="org.picocontainer.DefaultPicoContainer$KnowsContainerAdapter::getComponentInstance(org.picocontainer.PicoContainer, java.lang.reflect.Type):java.lang.Object" />
+			<role name="Operation()" element="org.picocontainer.DefaultPicoContainer$KnowsContainerAdapter::verify(org.picocontainer.PicoContainer):void" />
+			<role name="Operation()" element="org.picocontainer.DefaultPicoContainer$KnowsContainerAdapter::accept(org.picocontainer.PicoVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.picocontainer.LifecycleStrategy" />
+			<role name="Decorator" element="org.picocontainer.adapters.InstanceAdapter" />
+			<role name="component" element="org.picocontainer.adapters.InstanceAdapter::lifecycleStrategy:org.picocontainer.LifecycleStrategy" />
+			<role name="Operation()" element="org.picocontainer.adapters.InstanceAdapter::start(java.lang.Object):void" />
+			<role name="Operation()" element="org.picocontainer.adapters.InstanceAdapter::stop(java.lang.Object):void" />
+			<role name="Operation()" element="org.picocontainer.adapters.InstanceAdapter::dispose(java.lang.Object):void" />
+			<role name="Operation()" element="org.picocontainer.adapters.InstanceAdapter::hasLifecycle(java.lang.Class):boolean" />
+			<role name="Operation()" element="org.picocontainer.adapters.InstanceAdapter::isLazy(org.picocontainer.ComponentAdapter):boolean" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.picocontainer.LifecycleStrategy" />
+			<role name="Decorator" element="org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter" />
+			<role name="component" element="org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter::lifecycleStrategy:org.picocontainer.LifecycleStrategy" />
+			<role name="Operation()" element="org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter::start(java.lang.Object):void" />
+			<role name="Operation()" element="org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter::stop(java.lang.Object):void" />
+			<role name="Operation()" element="org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter::dispose(java.lang.Object):void" />
+			<role name="Operation()" element="org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter::hasLifecycle(java.lang.Class):boolean" />
+			<role name="Operation()" element="org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter::isLazy(org.picocontainer.ComponentAdapter):boolean" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.picocontainer.LifecycleStrategy" />
+			<role name="Decorator" element="org.picocontainer.injectors.ProviderAdapter" />
+			<role name="component" element="org.picocontainer.injectors.ProviderAdapter::lifecycleStrategy:org.picocontainer.LifecycleStrategy" />
+			<role name="Operation()" element="org.picocontainer.injectors.ProviderAdapter::start(java.lang.Object):void" />
+			<role name="Operation()" element="org.picocontainer.injectors.ProviderAdapter::stop(java.lang.Object):void" />
+			<role name="Operation()" element="org.picocontainer.injectors.ProviderAdapter::dispose(java.lang.Object):void" />
+			<role name="Operation()" element="org.picocontainer.injectors.ProviderAdapter::hasLifecycle(java.lang.Class):boolean" />
+			<role name="Operation()" element="org.picocontainer.injectors.ProviderAdapter::isLazy(org.picocontainer.ComponentAdapter):boolean" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.picocontainer.ComponentFactory" />
+			<role name="Decorator" element="org.picocontainer.behaviors.AbstractBehaviorFactory" />
+			<role name="component" element="org.picocontainer.behaviors.AbstractBehaviorFactory::delegate:org.picocontainer.ComponentFactory" />
+			<role name="Operation()" element="org.picocontainer.behaviors.AbstractBehaviorFactory::verify(org.picocontainer.PicoContainer):void" />
+			<role name="Operation()" element="org.picocontainer.behaviors.AbstractBehaviorFactory::accept(org.picocontainer.PicoVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.picocontainer.PicoContainer" />
+			<role name="Decorator" element="org.picocontainer.containers.AbstractDelegatingPicoContainer" />
+			<role name="component" element="org.picocontainer.containers.AbstractDelegatingPicoContainer::delegate:org.picocontainer.PicoContainer" />
+			<role name="Operation()" element="org.picocontainer.containers.AbstractDelegatingPicoContainer::accept(org.picocontainer.PicoVisitor):void" />
+			<role name="Operation()" element="org.picocontainer.containers.AbstractDelegatingPicoContainer::getComponent(java.lang.Object):java.lang.Object" />
+			<role name="Operation()" element="org.picocontainer.containers.AbstractDelegatingPicoContainer::getComponent(java.lang.Object, java.lang.reflect.Type):java.lang.Object" />
+			<role name="Operation()" element="org.picocontainer.containers.AbstractDelegatingPicoContainer::getComponentAdapter(java.lang.Object):org.picocontainer.ComponentAdapter" />
+			<role name="Operation()" element="org.picocontainer.containers.AbstractDelegatingPicoContainer::getComponentAdapters():java.util.Collection" />
+			<role name="Operation()" element="org.picocontainer.containers.AbstractDelegatingPicoContainer::getComponents():java.util.List" />
+			<role name="Operation()" element="org.picocontainer.containers.AbstractDelegatingPicoContainer::getParent():org.picocontainer.PicoContainer" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.picocontainer.PicoContainer" />
+			<role name="Decorator" element="org.picocontainer.containers.ImmutablePicoContainer" />
+			<role name="component" element="org.picocontainer.containers.ImmutablePicoContainer::delegate:org.picocontainer.PicoContainer" />
+			<role name="Operation()" element="org.picocontainer.containers.ImmutablePicoContainer::getComponent(java.lang.Object):java.lang.Object" />
+			<role name="Operation()" element="org.picocontainer.containers.ImmutablePicoContainer::getComponent(java.lang.Object, java.lang.reflect.Type):java.lang.Object" />
+			<role name="Operation()" element="org.picocontainer.containers.ImmutablePicoContainer::getParent():org.picocontainer.PicoContainer" />
+			<role name="Operation()" element="org.picocontainer.containers.ImmutablePicoContainer::getComponentAdapter(java.lang.Object):org.picocontainer.ComponentAdapter" />
+			<role name="Operation()" element="org.picocontainer.containers.ImmutablePicoContainer::getComponentAdapters():java.util.Collection" />
+			<role name="Operation()" element="org.picocontainer.containers.ImmutablePicoContainer::accept(org.picocontainer.PicoVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.picocontainer.ComponentMonitor" />
+			<role name="Decorator" element="org.picocontainer.monitors.AbstractComponentMonitor" />
+			<role name="component" element="org.picocontainer.monitors.AbstractComponentMonitor::delegate:org.picocontainer.ComponentMonitor" />
+			<role name="Operation()" element="org.picocontainer.monitors.AbstractComponentMonitor::invoking(org.picocontainer.PicoContainer, org.picocontainer.ComponentAdapter, java.lang.reflect.Member, java.lang.Object, java.lang.Object[]):java.lang.Object" />
+			<role name="Operation()" element="org.picocontainer.monitors.AbstractComponentMonitor::invoked(org.picocontainer.PicoContainer, org.picocontainer.ComponentAdapter, java.lang.reflect.Member, java.lang.Object, long, java.lang.Object[], java.lang.Object):void" />
+			<role name="Operation()" element="org.picocontainer.monitors.AbstractComponentMonitor::invocationFailed(java.lang.reflect.Member, java.lang.Object, java.lang.Exception):void" />
+			<role name="Operation()" element="org.picocontainer.monitors.AbstractComponentMonitor::lifecycleInvocationFailed(org.picocontainer.MutablePicoContainer, org.picocontainer.ComponentAdapter, java.lang.reflect.Method, java.lang.Object, java.lang.RuntimeException):void" />
+			<role name="Operation()" element="org.picocontainer.monitors.AbstractComponentMonitor::noComponentFound(org.picocontainer.MutablePicoContainer, java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.picocontainer.ComponentMonitor" />
+			<role name="Decorator" element="org.picocontainer.monitors.ConsoleComponentMonitor" />
+			<role name="component" element="org.picocontainer.monitors.ConsoleComponentMonitor::delegate:org.picocontainer.ComponentMonitor" />
+			<role name="Operation()" element="org.picocontainer.monitors.ConsoleComponentMonitor::invoking(org.picocontainer.PicoContainer, org.picocontainer.ComponentAdapter, java.lang.reflect.Member, java.lang.Object, java.lang.Object[]):java.lang.Object" />
+			<role name="Operation()" element="org.picocontainer.monitors.ConsoleComponentMonitor::invoked(org.picocontainer.PicoContainer, org.picocontainer.ComponentAdapter, java.lang.reflect.Member, java.lang.Object, long, java.lang.Object[], java.lang.Object):void" />
+			<role name="Operation()" element="org.picocontainer.monitors.ConsoleComponentMonitor::invocationFailed(java.lang.reflect.Member, java.lang.Object, java.lang.Exception):void" />
+			<role name="Operation()" element="org.picocontainer.monitors.ConsoleComponentMonitor::lifecycleInvocationFailed(org.picocontainer.MutablePicoContainer, org.picocontainer.ComponentAdapter, java.lang.reflect.Method, java.lang.Object, java.lang.RuntimeException):void" />
+			<role name="Operation()" element="org.picocontainer.monitors.ConsoleComponentMonitor::noComponentFound(org.picocontainer.MutablePicoContainer, java.lang.Object):java.lang.Object" />
+			<role name="Operation()" element="org.picocontainer.monitors.ConsoleComponentMonitor::newInjector(org.picocontainer.Injector):org.picocontainer.Injector" />
+			<role name="Operation()" element="org.picocontainer.monitors.ConsoleComponentMonitor::newBehavior(org.picocontainer.Behavior):org.picocontainer.Behavior" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.picocontainer.ComponentMonitor" />
+			<role name="Decorator" element="org.picocontainer.monitors.LifecycleComponentMonitor" />
+			<role name="component" element="org.picocontainer.monitors.LifecycleComponentMonitor::delegate:org.picocontainer.ComponentMonitor" />
+			<role name="Operation()" element="org.picocontainer.monitors.LifecycleComponentMonitor::invoking(org.picocontainer.PicoContainer, org.picocontainer.ComponentAdapter, java.lang.reflect.Member, java.lang.Object, java.lang.Object[]):java.lang.Object" />
+			<role name="Operation()" element="org.picocontainer.monitors.LifecycleComponentMonitor::invoked(org.picocontainer.PicoContainer, org.picocontainer.ComponentAdapter, java.lang.reflect.Member, java.lang.Object, long, java.lang.Object[], java.lang.Object):void" />
+			<role name="Operation()" element="org.picocontainer.monitors.LifecycleComponentMonitor::invocationFailed(java.lang.reflect.Member, java.lang.Object, java.lang.Exception):void" />
+			<role name="Operation()" element="org.picocontainer.monitors.LifecycleComponentMonitor::lifecycleInvocationFailed(org.picocontainer.MutablePicoContainer, org.picocontainer.ComponentAdapter, java.lang.reflect.Method, java.lang.Object, java.lang.RuntimeException):void" />
+			<role name="Operation()" element="org.picocontainer.monitors.LifecycleComponentMonitor::noComponentFound(org.picocontainer.MutablePicoContainer, java.lang.Object):java.lang.Object" />
+			<role name="Operation()" element="org.picocontainer.monitors.LifecycleComponentMonitor::newInjector(org.picocontainer.Injector):org.picocontainer.Injector" />
+			<role name="Operation()" element="org.picocontainer.monitors.LifecycleComponentMonitor::newBehavior(org.picocontainer.Behavior):org.picocontainer.Behavior" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.picocontainer.ComponentMonitor" />
+			<role name="Decorator" element="org.picocontainer.monitors.WriterComponentMonitor" />
+			<role name="component" element="org.picocontainer.monitors.WriterComponentMonitor::delegate:org.picocontainer.ComponentMonitor" />
+			<role name="Operation()" element="org.picocontainer.monitors.WriterComponentMonitor::invoking(org.picocontainer.PicoContainer, org.picocontainer.ComponentAdapter, java.lang.reflect.Member, java.lang.Object, java.lang.Object[]):java.lang.Object" />
+			<role name="Operation()" element="org.picocontainer.monitors.WriterComponentMonitor::invoked(org.picocontainer.PicoContainer, org.picocontainer.ComponentAdapter, java.lang.reflect.Member, java.lang.Object, long, java.lang.Object[], java.lang.Object):void" />
+			<role name="Operation()" element="org.picocontainer.monitors.WriterComponentMonitor::invocationFailed(java.lang.reflect.Member, java.lang.Object, java.lang.Exception):void" />
+			<role name="Operation()" element="org.picocontainer.monitors.WriterComponentMonitor::lifecycleInvocationFailed(org.picocontainer.MutablePicoContainer, org.picocontainer.ComponentAdapter, java.lang.reflect.Method, java.lang.Object, java.lang.RuntimeException):void" />
+			<role name="Operation()" element="org.picocontainer.monitors.WriterComponentMonitor::noComponentFound(org.picocontainer.MutablePicoContainer, java.lang.Object):java.lang.Object" />
+			<role name="Operation()" element="org.picocontainer.monitors.WriterComponentMonitor::newInjector(org.picocontainer.Injector):org.picocontainer.Injector" />
+			<role name="Operation()" element="org.picocontainer.monitors.WriterComponentMonitor::newBehavior(org.picocontainer.Behavior):org.picocontainer.Behavior" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.picocontainer.Parameter" />
+			<role name="Decorator" element="org.picocontainer.parameters.ComponentParameter" />
+			<role name="component" element="org.picocontainer.parameters.ComponentParameter::collectionParameter:org.picocontainer.Parameter" />
+			<role name="Operation()" element="org.picocontainer.parameters.ComponentParameter::verify(org.picocontainer.PicoContainer, org.picocontainer.ComponentAdapter, java.lang.reflect.Type, org.picocontainer.NameBinding, boolean, java.lang.annotation.Annotation):void" />
+			<role name="Operation()" element="org.picocontainer.parameters.ComponentParameter::accept(org.picocontainer.PicoVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.picocontainer.Parameter$Resolver" />
+			<role name="Decorator" element="org.picocontainer.Parameter$DelegateResolver" />
+			<role name="component" element="org.picocontainer.Parameter$DelegateResolver::delegate:org.picocontainer.Parameter$Resolver" />
+			<role name="Operation()" element="org.picocontainer.Parameter$DelegateResolver::isResolved():boolean" />
+			<role name="Operation()" element="org.picocontainer.Parameter$DelegateResolver::resolveInstance():java.lang.Object" />
+			<role name="Operation()" element="org.picocontainer.Parameter$DelegateResolver::getComponentAdapter():org.picocontainer.ComponentAdapter" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.picocontainer.Parameter$Resolver" />
+			<role name="Decorator" element="org.picocontainer.parameters.ComponentParameter$1" />
+			<role name="component" element="org.picocontainer.parameters.ComponentParameter$1::resolver:org.picocontainer.Parameter$Resolver" />
+			<role name="Operation()" element="org.picocontainer.parameters.ComponentParameter$1::isResolved():boolean" />
+			<role name="Operation()" element="org.picocontainer.parameters.ComponentParameter$1::getComponentAdapter():org.picocontainer.ComponentAdapter" />
+		</instance>
+	</pattern>
+	<pattern name="Observer" />
+	<pattern name="State">
+		<instance>
+			<role name="State" element="org.picocontainer.PicoContainer" />
+			<role name="Context" element="org.picocontainer.DefaultPicoContainer" />
+			<role name="state" element="org.picocontainer.DefaultPicoContainer::parent:org.picocontainer.PicoContainer" />
+			<role name="Request()" element="org.picocontainer.DefaultPicoContainer::getComponentAdapter(java.lang.Object):org.picocontainer.ComponentAdapter" />
+			<role name="Request()" element="org.picocontainer.DefaultPicoContainer::getInstance(org.picocontainer.ComponentAdapter, java.lang.Class):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.picocontainer.classname.DefaultClassLoadingPicoContainer$AsPropertiesPicoContainer" />
+			<role name="State" element="org.picocontainer.MutablePicoContainer" />
+			<role name="state" element="org.picocontainer.classname.DefaultClassLoadingPicoContainer$AsPropertiesPicoContainer::delegate:org.picocontainer.MutablePicoContainer" />
+			<role name="Request()" element="org.picocontainer.classname.DefaultClassLoadingPicoContainer$AsPropertiesPicoContainer::addComponent(java.lang.Object, java.lang.Object, org.picocontainer.Parameter[]):org.picocontainer.MutablePicoContainer" />
+			<role name="Request()" element="org.picocontainer.classname.DefaultClassLoadingPicoContainer$AsPropertiesPicoContainer::addComponent(java.lang.Object):org.picocontainer.MutablePicoContainer" />
+			<role name="Request()" element="org.picocontainer.classname.DefaultClassLoadingPicoContainer$AsPropertiesPicoContainer::addConfig(java.lang.String, java.lang.Object):org.picocontainer.MutablePicoContainer" />
+			<role name="Request()" element="org.picocontainer.classname.DefaultClassLoadingPicoContainer$AsPropertiesPicoContainer::addAdapter(org.picocontainer.ComponentAdapter):org.picocontainer.MutablePicoContainer" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.picocontainer.DefaultPicoContainer" />
+			<role name="State" element="org.picocontainer.ComponentMonitor" />
+			<role name="state" element="org.picocontainer.DefaultPicoContainer::componentMonitor:org.picocontainer.ComponentMonitor" />
+			<role name="Request()" element="org.picocontainer.DefaultPicoContainer::getComponentAdapter(java.lang.Object):org.picocontainer.ComponentAdapter" />
+		</instance>
+		<instance>
+			<role name="State" element="org.picocontainer.PicoContainer" />
+			<role name="Context" element="org.picocontainer.injectors.Reinjection$ReinjectionInjector" />
+			<role name="state" element="org.picocontainer.injectors.Reinjection$ReinjectionInjector::parent:org.picocontainer.PicoContainer" />
+			<role name="Request()" element="org.picocontainer.injectors.Reinjection$ReinjectionInjector::getComponentInstance(org.picocontainer.PicoContainer, java.lang.reflect.Type):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="State" element="org.picocontainer.ComponentLifecycle" />
+			<role name="Context" element="org.picocontainer.behaviors.Stored" />
+			<role name="state" element="org.picocontainer.behaviors.Stored::lifecycleDelegate:org.picocontainer.ComponentLifecycle" />
+			<role name="Request()" element="org.picocontainer.behaviors.Stored::componentHasLifecycle():boolean" />
+			<role name="Request()" element="org.picocontainer.behaviors.Stored::dispose(org.picocontainer.PicoContainer):void" />
+			<role name="Request()" element="org.picocontainer.behaviors.Stored::getLifecycleDescriptor():java.lang.String" />
+			<role name="Request()" element="org.picocontainer.behaviors.Stored::start(org.picocontainer.PicoContainer):void" />
+			<role name="Request()" element="org.picocontainer.behaviors.Stored::stop(org.picocontainer.PicoContainer):void" />
+			<role name="Request()" element="org.picocontainer.behaviors.Stored::isStarted():boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.picocontainer.DefaultPicoContainer" />
+			<role name="State" element="org.picocontainer.ComponentFactory" />
+			<role name="state" element="org.picocontainer.DefaultPicoContainer::componentFactory:org.picocontainer.ComponentFactory" />
+			<role name="Request()" element="org.picocontainer.DefaultPicoContainer::accept(org.picocontainer.PicoVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.picocontainer.DefaultPicoContainer" />
+			<role name="State" element="org.picocontainer.lifecycle.LifecycleState" />
+			<role name="state" element="org.picocontainer.DefaultPicoContainer::lifecycleState:org.picocontainer.lifecycle.LifecycleState" />
+			<role name="Request()" element="org.picocontainer.DefaultPicoContainer::removeComponent():org.picocontainer.ComponentAdapter" />
+			<role name="Request()" element="org.picocontainer.DefaultPicoContainer::addComponent(java.lang.Object, java.lang.Object, java.util.Properties, org.picocontainer.Parameter[]):org.picocontainer.MutablePicoContainer" />
+			<role name="Request()" element="org.picocontainer.DefaultPicoContainer::start():void" />
+			<role name="Request()" element="org.picocontainer.DefaultPicoContainer::stop():void" />
+			<role name="Request()" element="org.picocontainer.DefaultPicoContainer::dispose():void" />
+			<role name="Request()" element="org.picocontainer.DefaultPicoContainer::addChildContainer(org.picocontainer.PicoContainer):org.picocontainer.MutablePicoContainer" />
+		</instance>
+		<instance>
+			<role name="State" element="org.picocontainer.behaviors.Intercepted$Controller" />
+			<role name="Context" element="org.picocontainer.behaviors.Intercepted" />
+			<role name="state" element="org.picocontainer.behaviors.Intercepted::controller:org.picocontainer.behaviors.Intercepted$Controller" />
+			<role name="Request()" element="org.picocontainer.behaviors.Intercepted::invokeMethod(java.lang.Object, java.lang.reflect.Method, java.lang.Object[], org.picocontainer.PicoContainer):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.picocontainer.behaviors.Stored" />
+			<role name="State" element="org.picocontainer.ObjectReference" />
+			<role name="state" element="org.picocontainer.behaviors.Stored::instanceReference:org.picocontainer.ObjectReference" />
+			<role name="Request()" element="org.picocontainer.behaviors.Stored::guardInstRef():void" />
+			<role name="Request()" element="org.picocontainer.behaviors.Stored::getStoredObject():java.lang.Object" />
+			<role name="Request()" element="org.picocontainer.behaviors.Stored::flush():void" />
+			<role name="Request()" element="org.picocontainer.behaviors.Stored::getComponentInstance(org.picocontainer.PicoContainer, java.lang.reflect.Type):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.picocontainer.behaviors.Decorated" />
+			<role name="State" element="org.picocontainer.behaviors.Decorated$Decorator" />
+			<role name="state" element="org.picocontainer.behaviors.Decorated::decorator:org.picocontainer.behaviors.Decorated$Decorator" />
+			<role name="Request()" element="org.picocontainer.behaviors.Decorated::getComponentInstance(org.picocontainer.PicoContainer, java.lang.reflect.Type):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.picocontainer.behaviors.FieldDecorated" />
+			<role name="State" element="org.picocontainer.behaviors.FieldDecorated$Decorator" />
+			<role name="state" element="org.picocontainer.behaviors.FieldDecorated::decorator:org.picocontainer.behaviors.FieldDecorated$Decorator" />
+			<role name="Request()" element="org.picocontainer.behaviors.FieldDecorated::getComponentInstance(org.picocontainer.PicoContainer, java.lang.reflect.Type):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.picocontainer.monitors.ComposingMonitor" />
+			<role name="State" element="org.picocontainer.monitors.ComposingMonitor$Composer" />
+			<role name="state" element="org.picocontainer.monitors.ComposingMonitor::composers:org.picocontainer.monitors.ComposingMonitor$Composer[]" />
+			<role name="Request()" element="org.picocontainer.monitors.ComposingMonitor::noComponentFound(org.picocontainer.MutablePicoContainer, java.lang.Object):java.lang.Object" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy">
+		<instance>
+			<role name="Context" element="org.picocontainer.DefaultPicoContainer" />
+			<role name="Strategy" element="org.picocontainer.LifecycleStrategy" />
+			<role name="strategy" element="org.picocontainer.DefaultPicoContainer::lifecycleStrategy:org.picocontainer.LifecycleStrategy" />
+			<role name="ContextInterface()" element="org.picocontainer.DefaultPicoContainer::decorateComponent(java.lang.Object, org.picocontainer.ComponentAdapter):java.lang.Object" />
+			<role name="ContextInterface()" element="org.picocontainer.DefaultPicoContainer::potentiallyStartAdapter(org.picocontainer.ComponentAdapter):void" />
+			<role name="ContextInterface()" element="org.picocontainer.DefaultPicoContainer::instantiateComponentAsIsStartable(org.picocontainer.ComponentAdapter):void" />
+		</instance>
+	</pattern>
+	<pattern name="Bridge">
+		<instance>
+			<role name="Abstraction" element="org.picocontainer.behaviors.AbstractBehavior" />
+			<role name="Implementor" element="org.picocontainer.ComponentAdapter" />
+			<role name="implementor" element="org.picocontainer.behaviors.AbstractBehavior::delegate:org.picocontainer.ComponentAdapter" />
+			<role name="Operation()" element="org.picocontainer.behaviors.AbstractBehavior::getComponentKey():java.lang.Object" />
+			<role name="Operation()" element="org.picocontainer.behaviors.AbstractBehavior::getComponentImplementation():java.lang.Class" />
+			<role name="Operation()" element="org.picocontainer.behaviors.AbstractBehavior::getComponentInstance(org.picocontainer.PicoContainer, java.lang.reflect.Type):java.lang.Object" />
+			<role name="Operation()" element="org.picocontainer.behaviors.AbstractBehavior::verify(org.picocontainer.PicoContainer):void" />
+			<role name="Operation()" element="org.picocontainer.behaviors.AbstractBehavior::accept(org.picocontainer.PicoVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="org.picocontainer.injectors.AbstractInjector" />
+			<role name="Implementor" element="org.picocontainer.Parameter" />
+			<role name="implementor" element="org.picocontainer.injectors.AbstractInjector::parameters:org.picocontainer.Parameter[]" />
+			<role name="Operation()" element="org.picocontainer.injectors.AbstractInjector::accept(org.picocontainer.PicoVisitor):void" />
+		</instance>
+	</pattern>
+	<pattern name="Template Method">
+		<instance>
+			<role name="AbstractClass" element="org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard" />
+			<role name="TemplateMethod()" element="org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard::observe(java.lang.Class):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.picocontainer.injectors.AbstractInjector" />
+			<role name="TemplateMethod()" element="org.picocontainer.injectors.AbstractInjector::getComponentInstance(org.picocontainer.PicoContainer):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.picocontainer.injectors.IterativeInjector" />
+			<role name="TemplateMethod()" element="org.picocontainer.injectors.IterativeInjector::decorateComponentInstance(org.picocontainer.Parameter[], org.picocontainer.ComponentMonitor, java.lang.Object, org.picocontainer.PicoContainer, org.picocontainer.PicoContainer):java.lang.Object" />
+		</instance>
+	</pattern>
+	<pattern name="Visitor">
+		<instance>
+			<role name="ConcreteElement" element="org.picocontainer.parameters.BasicComponentParameter" />
+			<role name="Visitor" element="org.picocontainer.PicoVisitor" />
+			<role name="Accept()" element="org.picocontainer.parameters.BasicComponentParameter::accept(org.picocontainer.PicoVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="org.picocontainer.parameters.CollectionComponentParameter" />
+			<role name="Visitor" element="org.picocontainer.PicoVisitor" />
+			<role name="Accept()" element="org.picocontainer.parameters.CollectionComponentParameter::accept(org.picocontainer.PicoVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="org.picocontainer.parameters.ConstantParameter" />
+			<role name="Visitor" element="org.picocontainer.PicoVisitor" />
+			<role name="Accept()" element="org.picocontainer.parameters.ConstantParameter::accept(org.picocontainer.PicoVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="org.picocontainer.parameters.DefaultConstructorParameter" />
+			<role name="Visitor" element="org.picocontainer.PicoVisitor" />
+			<role name="Accept()" element="org.picocontainer.parameters.DefaultConstructorParameter::accept(org.picocontainer.PicoVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="org.picocontainer.adapters.AbstractAdapter" />
+			<role name="Visitor" element="org.picocontainer.PicoVisitor" />
+			<role name="Accept()" element="org.picocontainer.adapters.AbstractAdapter::accept(org.picocontainer.PicoVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="org.picocontainer.behaviors.AbstractBehaviorFactory" />
+			<role name="Visitor" element="org.picocontainer.PicoVisitor" />
+			<role name="Accept()" element="org.picocontainer.behaviors.AbstractBehaviorFactory::accept(org.picocontainer.PicoVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="org.picocontainer.containers.AbstractDelegatingPicoContainer" />
+			<role name="Visitor" element="org.picocontainer.PicoVisitor" />
+			<role name="Accept()" element="org.picocontainer.containers.AbstractDelegatingPicoContainer::accept(org.picocontainer.PicoVisitor):void" />
+		</instance>
+	</pattern>
+	<pattern name="Proxy">
+		<instance>
+			<role name="Proxy" element="org.picocontainer.lifecycle.CompositeLifecycleStrategy" />
+			<role name="RealSubject" element="org.picocontainer.lifecycle.StartableLifecycleStrategy" />
+			<role name="Request()" element="org.picocontainer.lifecycle.CompositeLifecycleStrategy::start(java.lang.Object):void" />
+			<role name="Request()" element="org.picocontainer.lifecycle.CompositeLifecycleStrategy::stop(java.lang.Object):void" />
+			<role name="Request()" element="org.picocontainer.lifecycle.CompositeLifecycleStrategy::dispose(java.lang.Object):void" />
+			<role name="Request()" element="org.picocontainer.lifecycle.CompositeLifecycleStrategy::hasLifecycle(java.lang.Class):boolean" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="org.picocontainer.classname.DefaultClassLoadingPicoContainer$AsPropertiesPicoContainer" />
+			<role name="RealSubject" element="org.picocontainer.classname.DefaultClassLoadingPicoContainer" />
+			<role name="Request()" element="org.picocontainer.classname.DefaultClassLoadingPicoContainer$AsPropertiesPicoContainer::addClassLoaderURL(java.net.URL):org.picocontainer.classname.ClassPathElement" />
+			<role name="Request()" element="org.picocontainer.classname.DefaultClassLoadingPicoContainer$AsPropertiesPicoContainer::getComponentClassLoader():java.lang.ClassLoader" />
+			<role name="Request()" element="org.picocontainer.classname.DefaultClassLoadingPicoContainer$AsPropertiesPicoContainer::makeChildContainer(java.lang.String):org.picocontainer.classname.ClassLoadingPicoContainer" />
+			<role name="Request()" element="org.picocontainer.classname.DefaultClassLoadingPicoContainer$AsPropertiesPicoContainer::makeChildContainer():org.picocontainer.MutablePicoContainer" />
+			<role name="Request()" element="org.picocontainer.classname.DefaultClassLoadingPicoContainer$AsPropertiesPicoContainer::addChildContainer(org.picocontainer.PicoContainer):org.picocontainer.MutablePicoContainer" />
+			<role name="Request()" element="org.picocontainer.classname.DefaultClassLoadingPicoContainer$AsPropertiesPicoContainer::removeChildContainer(org.picocontainer.PicoContainer):boolean" />
+			<role name="Request()" element="org.picocontainer.classname.DefaultClassLoadingPicoContainer$AsPropertiesPicoContainer::change(java.util.Properties[]):org.picocontainer.MutablePicoContainer" />
+		</instance>
+	</pattern>
+	<pattern name="Proxy2">
+		<instance>
+			<role name="Proxy" element="org.picocontainer.injectors.ProviderAdapter" />
+			<role name="RealSubject" element="org.picocontainer.lifecycle.NullLifecycleStrategy" />
+			<role name="Subject" element="org.picocontainer.LifecycleStrategy" />
+			<role name="subject" element="org.picocontainer.injectors.ProviderAdapter::lifecycleStrategy:org.picocontainer.LifecycleStrategy" />
+			<role name="Request()" element="org.picocontainer.injectors.ProviderAdapter::start(java.lang.Object):void" />
+			<role name="Request()" element="org.picocontainer.injectors.ProviderAdapter::stop(java.lang.Object):void" />
+			<role name="Request()" element="org.picocontainer.injectors.ProviderAdapter::dispose(java.lang.Object):void" />
+			<role name="Request()" element="org.picocontainer.injectors.ProviderAdapter::hasLifecycle(java.lang.Class):boolean" />
+			<role name="Request()" element="org.picocontainer.injectors.ProviderAdapter::isLazy(org.picocontainer.ComponentAdapter):boolean" />
+		</instance>
+	</pattern>
+	<pattern name="Chain of Responsibility" />
+</system>
+

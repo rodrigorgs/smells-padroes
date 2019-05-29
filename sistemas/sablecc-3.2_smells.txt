@@ -1,0 +1,386 @@
+src.org.sablecc.sablecc.node.AIdBasic	Refused Parent Bequest
+src.org.sablecc.sablecc.node.Start	Refused Parent Bequest
+src.org.sablecc.sablecc.analysis.DepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.DepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.DepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.DepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.DepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.DepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.DepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.DepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.DepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.DepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.DepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.DepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.DepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.DepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.DepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.DepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.DepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.DepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.DepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.DepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.DepthFirstAdapter	God Class
+src.org.sablecc.sablecc.analysis.DepthFirstAdapter	Refused Parent Bequest
+src.org.sablecc.sablecc.ResolveTransformIds	Dispersed Coupling
+src.org.sablecc.sablecc.ResolveTransformIds	Dispersed Coupling
+src.org.sablecc.sablecc.ResolveTransformIds	Intensive Coupling
+src.org.sablecc.sablecc.ResolveTransformIds	Brain Method
+src.org.sablecc.sablecc.ResolveTransformIds	Intensive Coupling
+src.org.sablecc.sablecc.ResolveTransformIds	Brain Method
+src.org.sablecc.sablecc.ResolveTransformIds	Dispersed Coupling
+src.org.sablecc.sablecc.ResolveTransformIds	Brain Method
+src.org.sablecc.sablecc.ResolveTransformIds	Dispersed Coupling
+src.org.sablecc.sablecc.ResolveTransformIds	Intensive Coupling
+src.org.sablecc.sablecc.ResolveTransformIds	God Class
+src.org.sablecc.sablecc.ResolveTransformIds	Brain Class
+src.org.sablecc.sablecc.ResolveTransformIds	Data Class
+src.org.sablecc.sablecc.LR0Collection	Feature Envy
+src.org.sablecc.sablecc.node.ACharChar	Refused Parent Bequest
+src.org.sablecc.sablecc.node.ASimpleListTerm	Shotgun Surgery
+src.org.sablecc.sablecc.node.ASimpleListTerm	Shotgun Surgery
+src.org.sablecc.sablecc.node.ASimpleListTerm	Refused Parent Bequest
+src.org.sablecc.sablecc.node.ASimpleListTerm	Tradition Breaker
+src.org.sablecc.sablecc.node.APlusUnOp	Refused Parent Bequest
+src.org.sablecc.sablecc.PrettyPrinter	Dispersed Coupling
+src.org.sablecc.sablecc.PrettyPrinter	God Class
+src.org.sablecc.sablecc.PrettyPrinter	Data Class
+src.org.sablecc.sablecc.GenUtils	Refused Parent Bequest
+src.org.sablecc.sablecc.node.AHelperDef	Refused Parent Bequest
+src.org.sablecc.sablecc.node.AStringBasic	Refused Parent Bequest
+src.org.sablecc.sablecc.node.AElem	Shotgun Surgery
+src.org.sablecc.sablecc.node.AElem	Shotgun Surgery
+src.org.sablecc.sablecc.node.AElem	Shotgun Surgery
+src.org.sablecc.sablecc.node.AElem	Shotgun Surgery
+src.org.sablecc.sablecc.node.AElem	Shotgun Surgery
+src.org.sablecc.sablecc.node.AElem	Refused Parent Bequest
+src.org.sablecc.sablecc.node.AElem	Tradition Breaker
+src.org.sablecc.sablecc.node.AAltTransform	Shotgun Surgery
+src.org.sablecc.sablecc.node.AAltTransform	Refused Parent Bequest
+src.org.sablecc.sablecc.node.AAltTransform	Tradition Breaker
+src.org.sablecc.sablecc.node.ATokenDef	Refused Parent Bequest
+src.org.sablecc.sablecc.node.ATokenDef	Tradition Breaker
+src.org.sablecc.sablecc.In_Production$In_Alternative	Dispersed Coupling
+src.org.sablecc.sablecc.GenAlts	Brain Method
+src.org.sablecc.sablecc.GenAlts	Dispersed Coupling
+src.org.sablecc.sablecc.analysis.ReversedDepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.ReversedDepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.ReversedDepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.ReversedDepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.ReversedDepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.ReversedDepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.ReversedDepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.ReversedDepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.ReversedDepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.ReversedDepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.ReversedDepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.ReversedDepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.ReversedDepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.ReversedDepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.ReversedDepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.ReversedDepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.ReversedDepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.ReversedDepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.ReversedDepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.ReversedDepthFirstAdapter	Feature Envy
+src.org.sablecc.sablecc.analysis.ReversedDepthFirstAdapter	God Class
+src.org.sablecc.sablecc.analysis.ReversedDepthFirstAdapter	Refused Parent Bequest
+src.org.sablecc.sablecc.node.TBlank	Feature Envy
+src.org.sablecc.sablecc.node.TBlank	Feature Envy
+src.org.sablecc.sablecc.node.AStateList	Refused Parent Bequest
+src.org.sablecc.sablecc.node.AStateList	Tradition Breaker
+src.org.sablecc.sablecc.node.TPkgId	Feature Envy
+src.org.sablecc.sablecc.node.TPkgId	Feature Envy
+src.org.sablecc.sablecc.AltTransformAdapter	Dispersed Coupling
+src.org.sablecc.sablecc.AltTransformAdapter	Dispersed Coupling
+src.org.sablecc.sablecc.AltTransformAdapter	Feature Envy
+src.org.sablecc.sablecc.node.Node	Shotgun Surgery
+src.org.sablecc.sablecc.node.Node	Shotgun Surgery
+src.org.sablecc.sablecc.node.Node	Shotgun Surgery
+src.org.sablecc.sablecc.node.Node	Shotgun Surgery
+src.org.sablecc.sablecc.node.Node	Shotgun Surgery
+src.org.sablecc.sablecc.node.Node	Shotgun Surgery
+src.org.sablecc.sablecc.node.Node	Shotgun Surgery
+src.org.sablecc.sablecc.node.ANewTerm	Refused Parent Bequest
+src.org.sablecc.sablecc.node.ANewTerm	Tradition Breaker
+src.org.sablecc.sablecc.node.ACharBasic	Refused Parent Bequest
+src.org.sablecc.sablecc.node.EOF	Feature Envy
+src.org.sablecc.sablecc.node.AQMarkUnOp	Refused Parent Bequest
+src.org.sablecc.sablecc.lexer.Lexer	Brain Method
+src.org.sablecc.sablecc.lexer.Lexer	Feature Envy
+src.org.sablecc.sablecc.lexer.Lexer	God Class
+src.org.sablecc.sablecc.lexer.Lexer	Brain Class
+src.org.sablecc.sablecc.node.AAlt	Shotgun Surgery
+src.org.sablecc.sablecc.node.AAlt	Shotgun Surgery
+src.org.sablecc.sablecc.node.AAlt	Shotgun Surgery
+src.org.sablecc.sablecc.node.AAlt	Refused Parent Bequest
+src.org.sablecc.sablecc.node.AAlt	Tradition Breaker
+src.org.sablecc.sablecc.Transitions	Feature Envy
+src.org.sablecc.sablecc.Transitions	Feature Envy
+src.org.sablecc.sablecc.node.AListTerm	Shotgun Surgery
+src.org.sablecc.sablecc.node.AListTerm	Refused Parent Bequest
+src.org.sablecc.sablecc.RecursiveProductionsDetections	Dispersed Coupling
+src.org.sablecc.sablecc.RecursiveProductionsDetections	Feature Envy
+src.org.sablecc.sablecc.DFA	Brain Method
+src.org.sablecc.sablecc.DFA	Dispersed Coupling
+src.org.sablecc.sablecc.DFA	Data Class
+src.org.sablecc.sablecc.ResolveAltIds	Feature Envy
+src.org.sablecc.sablecc.ResolveAltIds	Feature Envy
+src.org.sablecc.sablecc.node.THexChar	Feature Envy
+src.org.sablecc.sablecc.node.THexChar	Feature Envy
+src.org.sablecc.sablecc.GenerateAlternativeCodeForParser	Dispersed Coupling
+src.org.sablecc.sablecc.GenerateAlternativeCodeForParser	Dispersed Coupling
+src.org.sablecc.sablecc.GenerateAlternativeCodeForParser	Dispersed Coupling
+src.org.sablecc.sablecc.GenerateAlternativeCodeForParser	Dispersed Coupling
+src.org.sablecc.sablecc.GenerateAlternativeCodeForParser	Dispersed Coupling
+src.org.sablecc.sablecc.GenerateAlternativeCodeForParser	Dispersed Coupling
+src.org.sablecc.sablecc.GenerateAlternativeCodeForParser	Dispersed Coupling
+src.org.sablecc.sablecc.GenerateAlternativeCodeForParser	Dispersed Coupling
+src.org.sablecc.sablecc.GenerateAlternativeCodeForParser	Dispersed Coupling
+src.org.sablecc.sablecc.GenerateAlternativeCodeForParser	Feature Envy
+src.org.sablecc.sablecc.node.AIntervalSet	Refused Parent Bequest
+src.org.sablecc.sablecc.node.ASimpleTerm	Shotgun Surgery
+src.org.sablecc.sablecc.node.ASimpleTerm	Shotgun Surgery
+src.org.sablecc.sablecc.node.ASimpleTerm	Refused Parent Bequest
+src.org.sablecc.sablecc.node.ASimpleTerm	Tradition Breaker
+src.org.sablecc.sablecc.GenLexer	Dispersed Coupling
+src.org.sablecc.sablecc.GenLexer	Brain Method
+src.org.sablecc.sablecc.GenLexer	Dispersed Coupling
+src.org.sablecc.sablecc.ComputeInlining	Dispersed Coupling
+src.org.sablecc.sablecc.ComputeInlining	Dispersed Coupling
+src.org.sablecc.sablecc.GenTokens	Dispersed Coupling
+src.org.sablecc.sablecc.node.Switchable	Shotgun Surgery
+src.org.sablecc.sablecc.Production	Shotgun Surgery
+src.org.sablecc.sablecc.Production	Dispersed Coupling
+src.org.sablecc.sablecc.node.TDecChar	Feature Envy
+src.org.sablecc.sablecc.node.TDecChar	Feature Envy
+src.org.sablecc.sablecc.node.TId	Feature Envy
+src.org.sablecc.sablecc.node.TId	Feature Envy
+src.org.sablecc.sablecc.GenParser	Brain Method
+src.org.sablecc.sablecc.GenParser	Dispersed Coupling
+src.org.sablecc.sablecc.GenParser	Brain Method
+src.org.sablecc.sablecc.GenParser	Dispersed Coupling
+src.org.sablecc.sablecc.GenParser	Feature Envy
+src.org.sablecc.sablecc.GenParser	Refused Parent Bequest
+src.org.sablecc.sablecc.node.TString	Feature Envy
+src.org.sablecc.sablecc.node.TString	Feature Envy
+src.org.sablecc.sablecc.node.TChar	Feature Envy
+src.org.sablecc.sablecc.node.TChar	Feature Envy
+src.org.sablecc.sablecc.AddProdTransformAndAltTransform	Feature Envy
+src.org.sablecc.sablecc.AddProdTransformAndAltTransform	Brain Method
+src.org.sablecc.sablecc.AddProdTransformAndAltTransform	Dispersed Coupling
+src.org.sablecc.sablecc.ResolveAstIds	Feature Envy
+src.org.sablecc.sablecc.ResolveAstIds	Feature Envy
+src.org.sablecc.sablecc.ResolveAstIds	Feature Envy
+src.org.sablecc.sablecc.ResolveAstIds	Feature Envy
+src.org.sablecc.sablecc.ResolveProdTransformIds	Brain Method
+src.org.sablecc.sablecc.ResolveProdTransformIds	Dispersed Coupling
+src.org.sablecc.sablecc.GenAnalyses	Dispersed Coupling
+src.org.sablecc.sablecc.GenAnalyses	Dispersed Coupling
+src.org.sablecc.sablecc.IntSet	Feature Envy
+src.org.sablecc.sablecc.ComputeSimpleTermPosition	Dispersed Coupling
+src.org.sablecc.sablecc.node.AAstAlt	Refused Parent Bequest
+src.org.sablecc.sablecc.node.Token	Shotgun Surgery
+src.org.sablecc.sablecc.node.Token	Shotgun Surgery
+src.org.sablecc.sablecc.node.Token	Shotgun Surgery
+src.org.sablecc.sablecc.node.Token	Shotgun Surgery
+src.org.sablecc.sablecc.node.Token	Shotgun Surgery
+src.org.sablecc.sablecc.node.Token	Shotgun Surgery
+src.org.sablecc.sablecc.ResolveIds	Feature Envy
+src.org.sablecc.sablecc.ResolveIds	Feature Envy
+src.org.sablecc.sablecc.ResolveIds	Feature Envy
+src.org.sablecc.sablecc.ResolveIds	Feature Envy
+src.org.sablecc.sablecc.ResolveIds	Brain Method
+src.org.sablecc.sablecc.ResolveIds	Dispersed Coupling
+src.org.sablecc.sablecc.ResolveIds	God Class
+src.org.sablecc.sablecc.ResolveIds	Data Class
+src.org.sablecc.sablecc.node.ANewListTerm	Refused Parent Bequest
+src.org.sablecc.sablecc.node.ANewListTerm	Tradition Breaker
+src.org.sablecc.sablecc.node.AAstProd	Refused Parent Bequest
+src.org.sablecc.sablecc.node.ASetBasic	Refused Parent Bequest
+src.org.sablecc.sablecc.InternalTransformationsToGrammar	Brain Method
+src.org.sablecc.sablecc.InternalTransformationsToGrammar	Dispersed Coupling
+src.org.sablecc.sablecc.InternalTransformationsToGrammar	Brain Method
+src.org.sablecc.sablecc.InternalTransformationsToGrammar	Dispersed Coupling
+src.org.sablecc.sablecc.InternalTransformationsToGrammar	Brain Method
+src.org.sablecc.sablecc.InternalTransformationsToGrammar	Dispersed Coupling
+src.org.sablecc.sablecc.InternalTransformationsToGrammar	God Class
+src.org.sablecc.sablecc.InternalTransformationsToGrammar	Brain Class
+src.org.sablecc.sablecc.ComputeCGNomenclature	Feature Envy
+src.org.sablecc.sablecc.ComputeCGNomenclature	Feature Envy
+src.org.sablecc.sablecc.ComputeCGNomenclature	Dispersed Coupling
+src.org.sablecc.sablecc.ComputeCGNomenclature	Dispersed Coupling
+src.org.sablecc.sablecc.node.TComment	Feature Envy
+src.org.sablecc.sablecc.node.TComment	Feature Envy
+src.org.sablecc.sablecc.SableCC	Feature Envy
+src.org.sablecc.sablecc.SableCC	Feature Envy
+src.org.sablecc.sablecc.SableCC	Brain Method
+src.org.sablecc.sablecc.SableCC	Feature Envy
+src.org.sablecc.sablecc.SableCC	Feature Envy
+src.org.sablecc.sablecc.AddEventualEmptyTransformationToProductions	Dispersed Coupling
+src.org.sablecc.sablecc.CharSet	Feature Envy
+src.org.sablecc.sablecc.CharSet	Feature Envy
+src.org.sablecc.sablecc.CharSet	Feature Envy
+src.org.sablecc.sablecc.node.AHexChar	Refused Parent Bequest
+src.org.sablecc.sablecc.node.AStateListTail	Refused Parent Bequest
+src.org.sablecc.sablecc.analysis.AnalysisAdapter	Data Class
+src.org.sablecc.sablecc.parser.Parser	Brain Method
+src.org.sablecc.sablecc.parser.Parser	Dispersed Coupling
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	Feature Envy
+src.org.sablecc.sablecc.parser.Parser	God Class
+src.org.sablecc.sablecc.parser.Parser	Brain Class
+src.org.sablecc.sablecc.node.AStarUnOp	Refused Parent Bequest
+src.org.sablecc.sablecc.Inlining	Dispersed Coupling
+src.org.sablecc.sablecc.Inlining	Dispersed Coupling
+src.org.sablecc.sablecc.Inlining	Dispersed Coupling
+src.org.sablecc.sablecc.Inlining	Brain Method
+src.org.sablecc.sablecc.Inlining	Dispersed Coupling
+src.org.sablecc.sablecc.Inlining	Dispersed Coupling
+src.org.sablecc.sablecc.Grammar	Feature Envy
+src.org.sablecc.sablecc.Grammar	Brain Method
+src.org.sablecc.sablecc.Grammar	Dispersed Coupling
+src.org.sablecc.sablecc.Grammar	Dispersed Coupling
+src.org.sablecc.sablecc.Grammar	Feature Envy
+src.org.sablecc.sablecc.Grammar	Dispersed Coupling
+src.org.sablecc.sablecc.Grammar	Dispersed Coupling
+src.org.sablecc.sablecc.Grammar	Feature Envy
+src.org.sablecc.sablecc.Grammar	Dispersed Coupling
+src.org.sablecc.sablecc.Grammar	God Class
+src.org.sablecc.sablecc.node.AProd	Shotgun Surgery
+src.org.sablecc.sablecc.node.AProd	Shotgun Surgery
+src.org.sablecc.sablecc.node.AProd	Shotgun Surgery
+src.org.sablecc.sablecc.node.AProd	Shotgun Surgery
+src.org.sablecc.sablecc.node.AProd	Refused Parent Bequest
+src.org.sablecc.sablecc.node.AProd	Tradition Breaker
+src.org.sablecc.sablecc.node.ADecChar	Refused Parent Bequest
+src.org.sablecc.sablecc.LR1Item	Feature Envy
+src.org.sablecc.sablecc.node.AUnExp	Refused Parent Bequest
+src.org.sablecc.sablecc.MacroExpander	Dispersed Coupling
+src.org.sablecc.sablecc.MacroExpander	Shotgun Surgery
+src.org.sablecc.sablecc.node.AProdName	Shotgun Surgery
+src.org.sablecc.sablecc.node.AProdName	Refused Parent Bequest
+src.org.sablecc.sablecc.node.ARegExpBasic	Refused Parent Bequest
+src.org.sablecc.sablecc.node.AGrammar	Refused Parent Bequest
+src.org.sablecc.sablecc.node.AGrammar	Tradition Breaker
+src.org.sablecc.sablecc.node.AOperationSet	Refused Parent Bequest
+src.org.sablecc.sablecc.node.AOperationSet	Tradition Breaker
+src.org.sablecc.sablecc.node.ATransition	Refused Parent Bequest
+src.org.sablecc.sablecc.Symbol	Feature Envy
+src.org.sablecc.sablecc.ConstructNFA	God Class
+src.org.sablecc.sablecc.LR1Collection	Brain Method
+src.org.sablecc.sablecc.LR1Collection	Dispersed Coupling
+src.org.sablecc.sablecc.LR1ItemSet	Dispersed Coupling

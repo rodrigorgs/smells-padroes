@@ -1,0 +1,387 @@
+Refused Parent Bequest	AIdBasic	1	1,0
+Refused Parent Bequest	Start	2	1,0
+Feature Envy	DepthFirstAdapter.caseAGrammar	3	1,0
+Feature Envy	DepthFirstAdapter.caseAHelperDef	4	1,0
+Feature Envy	DepthFirstAdapter.caseATokenDef	5	1,0
+Feature Envy	DepthFirstAdapter.caseAStateList	6	1,0
+Feature Envy	DepthFirstAdapter.caseAStateListTail	7	1,0
+Feature Envy	DepthFirstAdapter.caseAUnExp	8	1,0
+Feature Envy	DepthFirstAdapter.caseAOperationSet	9	1,0
+Feature Envy	DepthFirstAdapter.caseAIntervalSet	10	1,0
+Feature Envy	DepthFirstAdapter.caseAProd	11	1,0
+Feature Envy	DepthFirstAdapter.caseAAlt	12	1,0
+Feature Envy	DepthFirstAdapter.caseAAltTransform	13	1,0
+Feature Envy	DepthFirstAdapter.caseANewTerm	14	1,0
+Feature Envy	DepthFirstAdapter.caseAListTerm	15	1,0
+Feature Envy	DepthFirstAdapter.caseASimpleTerm	16	1,0
+Feature Envy	DepthFirstAdapter.caseANewListTerm	17	1,0
+Feature Envy	DepthFirstAdapter.caseASimpleListTerm	18	1,0
+Feature Envy	DepthFirstAdapter.caseAProdName	19	1,0
+Feature Envy	DepthFirstAdapter.caseAElem	20	1,0
+Feature Envy	DepthFirstAdapter.caseAAstProd	21	1,0
+Feature Envy	DepthFirstAdapter.caseAAstAlt	22	1,0
+God Class	DepthFirstAdapter	23	1,0
+Refused Parent Bequest	DepthFirstAdapter	24	1,0
+Dispersed Coupling	ResolveTransformIds.outANewTerm	25	1,0
+Dispersed Coupling	ResolveTransformIds.outANewListTerm	26	1,0
+Intensive Coupling	ResolveTransformIds.outAListTerm	27	1,0
+Brain Method	ResolveTransformIds.inASimpleTerm	28	1,0
+Intensive Coupling	ResolveTransformIds.inASimpleTerm	29	1,0
+Brain Method	ResolveTransformIds.inASimpleListTerm	30	1,0
+Dispersed Coupling	ResolveTransformIds.inASimpleListTerm	31	1,0
+Brain Method	ResolveTransformIds.outAProductions	32	1,0
+Dispersed Coupling	ResolveTransformIds.outAProductions	33	1,0
+Intensive Coupling	ResolveTransformIds.checkTypeCompability	34	1,0
+God Class	ResolveTransformIds	35	1,0
+Brain Class	ResolveTransformIds	36	1,0
+Data Class	ResolveTransformIds	37	1,0
+Feature Envy	LR0Collection.LR0Collection	38	1,0
+Refused Parent Bequest	ACharChar	39	1,0
+Shotgun Surgery	ASimpleListTerm.getId	40	1,0
+Shotgun Surgery	ASimpleListTerm.getSimpleTermTail	41	1,0
+Refused Parent Bequest	ASimpleListTerm	42	1,0
+Tradition Breaker	ASimpleListTerm	43	1,0
+Refused Parent Bequest	APlusUnOp	44	1,0
+Dispersed Coupling	PrettyPrinter.caseAProd	45	1,0
+God Class	PrettyPrinter	46	1,0
+Data Class	PrettyPrinter	47	1,0
+Refused Parent Bequest	GenUtils	48	1,0
+Refused Parent Bequest	AHelperDef	49	1,0
+Refused Parent Bequest	AStringBasic	50	1,0
+Shotgun Surgery	AElem.apply	51	1,0
+Shotgun Surgery	AElem.getElemName	52	1,0
+Shotgun Surgery	AElem.getSpecifier	53	1,0
+Shotgun Surgery	AElem.getId	54	1,0
+Shotgun Surgery	AElem.getUnOp	55	1,0
+Refused Parent Bequest	AElem	56	1,0
+Tradition Breaker	AElem	57	1,0
+Shotgun Surgery	AAltTransform.getTerms	58	1,0
+Refused Parent Bequest	AAltTransform	59	1,0
+Tradition Breaker	AAltTransform	60	1,0
+Refused Parent Bequest	ATokenDef	61	1,0
+Tradition Breaker	ATokenDef	62	1,0
+Dispersed Coupling	In_Alternative.In_Alternative	63	1,0
+Brain Method	GenAlts.outAAstAlt	64	1,0
+Dispersed Coupling	GenAlts.outAAstAlt	65	1,0
+Feature Envy	ReversedDepthFirstAdapter.caseAGrammar	66	1,0
+Feature Envy	ReversedDepthFirstAdapter.caseAHelperDef	67	1,0
+Feature Envy	ReversedDepthFirstAdapter.caseATokenDef	68	1,0
+Feature Envy	ReversedDepthFirstAdapter.caseAStateList	69	1,0
+Feature Envy	ReversedDepthFirstAdapter.caseAStateListTail	70	1,0
+Feature Envy	ReversedDepthFirstAdapter.caseAUnExp	71	1,0
+Feature Envy	ReversedDepthFirstAdapter.caseAOperationSet	72	1,0
+Feature Envy	ReversedDepthFirstAdapter.caseAIntervalSet	73	1,0
+Feature Envy	ReversedDepthFirstAdapter.caseAProd	74	1,0
+Feature Envy	ReversedDepthFirstAdapter.caseAAlt	75	1,0
+Feature Envy	ReversedDepthFirstAdapter.caseAAltTransform	76	1,0
+Feature Envy	ReversedDepthFirstAdapter.caseANewTerm	77	1,0
+Feature Envy	ReversedDepthFirstAdapter.caseAListTerm	78	1,0
+Feature Envy	ReversedDepthFirstAdapter.caseASimpleTerm	79	1,0
+Feature Envy	ReversedDepthFirstAdapter.caseANewListTerm	80	1,0
+Feature Envy	ReversedDepthFirstAdapter.caseASimpleListTerm	81	1,0
+Feature Envy	ReversedDepthFirstAdapter.caseAProdName	82	1,0
+Feature Envy	ReversedDepthFirstAdapter.caseAElem	83	1,0
+Feature Envy	ReversedDepthFirstAdapter.caseAAstProd	84	1,0
+Feature Envy	ReversedDepthFirstAdapter.caseAAstAlt	85	1,0
+God Class	ReversedDepthFirstAdapter	86	1,0
+Refused Parent Bequest	ReversedDepthFirstAdapter	87	1,0
+Feature Envy	TBlank.TBlank	88	1,0
+Feature Envy	TBlank.clone	89	1,0
+Refused Parent Bequest	AStateList	90	1,0
+Tradition Breaker	AStateList	91	1,0
+Feature Envy	TPkgId.TPkgId	92	1,0
+Feature Envy	TPkgId.clone	93	1,0
+Dispersed Coupling	AltTransformAdapter.inASimpleTerm	94	1,0
+Dispersed Coupling	AltTransformAdapter.inASimpleListTerm	95	1,0
+Feature Envy	AltTransformAdapter.outAListTerm	96	1,0
+Shotgun Surgery	Node.parent	97	1,0
+Shotgun Surgery	Node.parent	98	1,0
+Shotgun Surgery	Node.removeChild	99	1,0
+Shotgun Surgery	Node.toString	100	1,0
+Shotgun Surgery	Node.toString	101	1,0
+Shotgun Surgery	Node.cloneNode	102	1,0
+Shotgun Surgery	Node.cloneList	103	1,0
+Refused Parent Bequest	ANewTerm	104	1,0
+Tradition Breaker	ANewTerm	105	1,0
+Refused Parent Bequest	ACharBasic	106	1,0
+Feature Envy	EOF.EOF	107	1,0
+Refused Parent Bequest	AQMarkUnOp	108	1,0
+Brain Method	Lexer.getToken	109	1,0
+Feature Envy	Lexer.unread	110	1,0
+God Class	Lexer	111	1,0
+Brain Class	Lexer	112	1,0
+Shotgun Surgery	AAlt.getAltName	113	1,0
+Shotgun Surgery	AAlt.getElems	114	1,0
+Shotgun Surgery	AAlt.getAltTransform	115	1,0
+Refused Parent Bequest	AAlt	116	1,0
+Tradition Breaker	AAlt	117	1,0
+Feature Envy	Transitions.caseAStateList	118	1,0
+Feature Envy	Transitions.inATokenDef	119	1,0
+Shotgun Surgery	AListTerm.getListTerms	120	1,0
+Refused Parent Bequest	AListTerm	121	1,0
+Dispersed Coupling	RecursiveProductionsDetections.caseAProd	122	1,0
+Feature Envy	RecursiveProductionsDetections.caseAElem	123	1,0
+Brain Method	DFA.construct	124	1,0
+Dispersed Coupling	DFA.construct	125	1,0
+Data Class	DFA	126	1,0
+Feature Envy	ResolveAltIds.caseAProd	127	1,0
+Feature Envy	ResolveAltIds.caseAElem	128	1,0
+Feature Envy	THexChar.THexChar	129	1,0
+Feature Envy	THexChar.clone	130	1,0
+Dispersed Coupling	GenerateAlternativeCodeForParser.inAAltTransform	131	1,0
+Dispersed Coupling	GenerateAlternativeCodeForParser.outAAltTransform	132	1,0
+Dispersed Coupling	GenerateAlternativeCodeForParser.inAParams	133	1,0
+Dispersed Coupling	GenerateAlternativeCodeForParser.inASimpleTerm	134	1,0
+Dispersed Coupling	GenerateAlternativeCodeForParser.inASimpleListTerm	135	1,0
+Dispersed Coupling	GenerateAlternativeCodeForParser.inAListTerm	136	1,0
+Dispersed Coupling	GenerateAlternativeCodeForParser.outAListTerm	137	1,0
+Dispersed Coupling	GenerateAlternativeCodeForParser.outANewTerm	138	1,0
+Dispersed Coupling	GenerateAlternativeCodeForParser.outANewListTerm	139	1,0
+Feature Envy	GenerateAlternativeCodeForParser.name	140	1,0
+Refused Parent Bequest	AIntervalSet	141	1,0
+Shotgun Surgery	ASimpleTerm.getId	142	1,0
+Shotgun Surgery	ASimpleTerm.getSimpleTermTail	143	1,0
+Refused Parent Bequest	ASimpleTerm	144	1,0
+Tradition Breaker	ASimpleTerm	145	1,0
+Dispersed Coupling	GenLexer.caseStart	146	1,0
+Brain Method	GenLexer.createLexer	147	1,0
+Dispersed Coupling	GenLexer.createLexer	148	1,0
+Dispersed Coupling	ComputeInlining.computeInlining	149	1,0
+Dispersed Coupling	ComputeInlining.isProductionRecursive	150	1,0
+Shotgun Surgery	Cast.cast	151	1,0
+Dispersed Coupling	GenTokens.inATokenDef	152	1,0
+Shotgun Surgery	Switchable.apply	153	1,0
+Shotgun Surgery	Production.rightside	154	1,0
+Dispersed Coupling	Production.alternatives	155	1,0
+Feature Envy	TDecChar.TDecChar	156	1,0
+Feature Envy	TDecChar.clone	157	1,0
+Feature Envy	TId.TId	158	1,0
+Feature Envy	TId.clone	159	1,0
+Brain Method	GenParser.caseStart	160	1,0
+Dispersed Coupling	GenParser.caseStart	161	1,0
+Brain Method	GenParser.createParser	162	1,0
+Dispersed Coupling	GenParser.createParser	163	1,0
+Feature Envy	GenParser.createParserException	164	1,0
+Refused Parent Bequest	GenParser	165	1,0
+Feature Envy	TString.TString	166	1,0
+Feature Envy	TString.clone	167	1,0
+Feature Envy	TChar.TChar	168	1,0
+Feature Envy	TChar.clone	169	1,0
+Feature Envy	AddProdTransformAndAltTransform.inAProd	170	1,0
+Brain Method	AddProdTransformAndAltTransform.inAAlt	171	1,0
+Dispersed Coupling	AddProdTransformAndAltTransform.inAAlt	172	1,0
+Feature Envy	ResolveAstIds.inAAstProd	173	1,0
+Feature Envy	ResolveAstIds.inAAstAlt	174	1,0
+Feature Envy	ResolveAstIds.caseAElem	175	1,0
+Feature Envy	ResolveAstIds.defaultcase	176	1,0
+Brain Method	ResolveProdTransformIds.caseAProd	177	1,0
+Dispersed Coupling	ResolveProdTransformIds.caseAProd	178	1,0
+Dispersed Coupling	GenAnalyses.createAnalysis	179	1,0
+Dispersed Coupling	GenAnalyses.createReversedDepthFirstAdapter	180	1,0
+Feature Envy	IntSet.set	181	1,0
+Dispersed Coupling	ComputeSimpleTermPosition.inAElem	182	1,0
+Refused Parent Bequest	AAstAlt	183	1,0
+Shotgun Surgery	Token.getText	184	1,0
+Shotgun Surgery	Token.setText	185	1,0
+Shotgun Surgery	Token.getLine	186	1,0
+Shotgun Surgery	Token.setLine	187	1,0
+Shotgun Surgery	Token.getPos	188	1,0
+Shotgun Surgery	Token.setPos	189	1,0
+Feature Envy	ResolveIds.outAHelperDef	190	1,0
+Feature Envy	ResolveIds.outATokenDef	191	1,0
+Feature Envy	ResolveIds.defaultcase	192	1,0
+Feature Envy	ResolveIds.caseAElem	193	1,0
+Brain Method	ResolveIds.outAProductions	194	1,0
+Dispersed Coupling	ResolveIds.outAProductions	195	1,0
+God Class	ResolveIds	196	1,0
+Data Class	ResolveIds	197	1,0
+Refused Parent Bequest	ANewListTerm	198	1,0
+Tradition Breaker	ANewListTerm	199	1,0
+Refused Parent Bequest	AAstProd	200	1,0
+Refused Parent Bequest	ASetBasic	201	1,0
+Brain Method	InternalTransformationsToGrammar.caseAAlt	202	1,0
+Dispersed Coupling	InternalTransformationsToGrammar.caseAAlt	203	1,0
+Brain Method	InternalTransformationsToGrammar.caseAElem	204	1,0
+Dispersed Coupling	InternalTransformationsToGrammar.caseAElem	205	1,0
+Brain Method	InternalTransformationsToGrammar.createXelemProduction	206	1,0
+Dispersed Coupling	InternalTransformationsToGrammar.createXelemProduction	207	1,0
+God Class	InternalTransformationsToGrammar	208	1,0
+Brain Class	InternalTransformationsToGrammar	209	1,0
+Feature Envy	ComputeCGNomenclature.inAAlt	210	1,0
+Feature Envy	ComputeCGNomenclature.outAListTerm	211	1,0
+Dispersed Coupling	ComputeCGNomenclature.caseASimpleTerm	212	1,0
+Dispersed Coupling	ComputeCGNomenclature.caseASimpleListTerm	213	1,0
+Feature Envy	TComment.TComment	214	1,0
+Feature Envy	TComment.clone	215	1,0
+Feature Envy	SableCC.displayCopyright	216	1,0
+Feature Envy	SableCC.displayUsage	217	1,0
+Brain Method	SableCC.main	218	1,0
+Feature Envy	SableCC.main	219	1,0
+Feature Envy	SableCC.processGrammar	220	1,0
+Dispersed Coupling	AddEventualEmptyTransformationToProductions.inAProd	221	1,0
+Feature Envy	CharSet.findOverlap	222	1,0
+Feature Envy	CharSet.union	223	1,0
+Feature Envy	CharSet.diff	224	1,0
+Refused Parent Bequest	AHexChar	225	1,0
+Refused Parent Bequest	AStateListTail	226	1,0
+Data Class	AnalysisAdapter	227	1,0
+Brain Method	Parser.parse	228	1,0
+Dispersed Coupling	Parser.parse	229	1,0
+Feature Envy	Parser.new7	230	1,0
+Feature Envy	Parser.new11	231	1,0
+Feature Envy	Parser.new13	232	1,0
+Feature Envy	Parser.new14	233	1,0
+Feature Envy	Parser.new15	234	1,0
+Feature Envy	Parser.new19	235	1,0
+Feature Envy	Parser.new21	236	1,0
+Feature Envy	Parser.new22	237	1,0
+Feature Envy	Parser.new23	238	1,0
+Feature Envy	Parser.new25	239	1,0
+Feature Envy	Parser.new26	240	1,0
+Feature Envy	Parser.new27	241	1,0
+Feature Envy	Parser.new28	242	1,0
+Feature Envy	Parser.new29	243	1,0
+Feature Envy	Parser.new30	244	1,0
+Feature Envy	Parser.new31	245	1,0
+Feature Envy	Parser.new35	246	1,0
+Feature Envy	Parser.new37	247	1,0
+Feature Envy	Parser.new38	248	1,0
+Feature Envy	Parser.new39	249	1,0
+Feature Envy	Parser.new41	250	1,0
+Feature Envy	Parser.new42	251	1,0
+Feature Envy	Parser.new43	252	1,0
+Feature Envy	Parser.new44	253	1,0
+Feature Envy	Parser.new45	254	1,0
+Feature Envy	Parser.new46	255	1,0
+Feature Envy	Parser.new47	256	1,0
+Feature Envy	Parser.new49	257	1,0
+Feature Envy	Parser.new50	258	1,0
+Feature Envy	Parser.new51	259	1,0
+Feature Envy	Parser.new52	260	1,0
+Feature Envy	Parser.new53	261	1,0
+Feature Envy	Parser.new54	262	1,0
+Feature Envy	Parser.new55	263	1,0
+Feature Envy	Parser.new56	264	1,0
+Feature Envy	Parser.new57	265	1,0
+Feature Envy	Parser.new58	266	1,0
+Feature Envy	Parser.new59	267	1,0
+Feature Envy	Parser.new60	268	1,0
+Feature Envy	Parser.new61	269	1,0
+Feature Envy	Parser.new62	270	1,0
+Feature Envy	Parser.new63	271	1,0
+Feature Envy	Parser.new67	272	1,0
+Feature Envy	Parser.new69	273	1,0
+Feature Envy	Parser.new70	274	1,0
+Feature Envy	Parser.new71	275	1,0
+Feature Envy	Parser.new73	276	1,0
+Feature Envy	Parser.new74	277	1,0
+Feature Envy	Parser.new75	278	1,0
+Feature Envy	Parser.new76	279	1,0
+Feature Envy	Parser.new77	280	1,0
+Feature Envy	Parser.new78	281	1,0
+Feature Envy	Parser.new79	282	1,0
+Feature Envy	Parser.new81	283	1,0
+Feature Envy	Parser.new82	284	1,0
+Feature Envy	Parser.new83	285	1,0
+Feature Envy	Parser.new84	286	1,0
+Feature Envy	Parser.new85	287	1,0
+Feature Envy	Parser.new86	288	1,0
+Feature Envy	Parser.new87	289	1,0
+Feature Envy	Parser.new88	290	1,0
+Feature Envy	Parser.new89	291	1,0
+Feature Envy	Parser.new90	292	1,0
+Feature Envy	Parser.new91	293	1,0
+Feature Envy	Parser.new92	294	1,0
+Feature Envy	Parser.new93	295	1,0
+Feature Envy	Parser.new94	296	1,0
+Feature Envy	Parser.new95	297	1,0
+Feature Envy	Parser.new97	298	1,0
+Feature Envy	Parser.new98	299	1,0
+Feature Envy	Parser.new99	300	1,0
+Feature Envy	Parser.new100	301	1,0
+Feature Envy	Parser.new101	302	1,0
+Feature Envy	Parser.new102	303	1,0
+Feature Envy	Parser.new103	304	1,0
+Feature Envy	Parser.new104	305	1,0
+Feature Envy	Parser.new105	306	1,0
+Feature Envy	Parser.new106	307	1,0
+Feature Envy	Parser.new107	308	1,0
+Feature Envy	Parser.new108	309	1,0
+Feature Envy	Parser.new109	310	1,0
+Feature Envy	Parser.new110	311	1,0
+Feature Envy	Parser.new111	312	1,0
+Feature Envy	Parser.new112	313	1,0
+Feature Envy	Parser.new113	314	1,0
+Feature Envy	Parser.new114	315	1,0
+Feature Envy	Parser.new115	316	1,0
+Feature Envy	Parser.new116	317	1,0
+Feature Envy	Parser.new117	318	1,0
+Feature Envy	Parser.new118	319	1,0
+Feature Envy	Parser.new119	320	1,0
+Feature Envy	Parser.new120	321	1,0
+Feature Envy	Parser.new121	322	1,0
+Feature Envy	Parser.new122	323	1,0
+Feature Envy	Parser.new123	324	1,0
+Feature Envy	Parser.new124	325	1,0
+Feature Envy	Parser.new125	326	1,0
+Feature Envy	Parser.new126	327	1,0
+Feature Envy	Parser.new127	328	1,0
+Feature Envy	Parser.new140	329	1,0
+Feature Envy	Parser.new141	330	1,0
+Feature Envy	Parser.new142	331	1,0
+Feature Envy	Parser.new146	332	1,0
+Feature Envy	Parser.new168	333	1,0
+Feature Envy	Parser.new177	334	1,0
+Feature Envy	Parser.new190	335	1,0
+Feature Envy	Parser.new192	336	1,0
+Feature Envy	Parser.new194	337	1,0
+Feature Envy	Parser.new200	338	1,0
+Feature Envy	Parser.new205	339	1,0
+Feature Envy	Parser.new209	340	1,0
+Feature Envy	Parser.new222	341	1,0
+Feature Envy	Parser.new224	342	1,0
+Feature Envy	Parser.new225	343	1,0
+Feature Envy	Parser.new226	344	1,0
+God Class	Parser	345	1,0
+Brain Class	Parser	346	1,0
+Refused Parent Bequest	AStarUnOp	347	1,0
+Dispersed Coupling	Inlining.inlineProduction	348	1,0
+Dispersed Coupling	Inlining.removeAlternativeDoubloonsFromInlinedProduction	349	1,0
+Dispersed Coupling	Inlining.inlineAlternative	350	1,0
+Brain Method	Inlining.inline	351	1,0
+Dispersed Coupling	Inlining.inline	352	1,0
+Dispersed Coupling	Inlining.inlineList	353	1,0
+Feature Envy	Grammar.addProduction	354	1,0
+Brain Method	Grammar.computeLALR	355	1,0
+Dispersed Coupling	Grammar.computeLALR	356	1,0
+Dispersed Coupling	Grammar.computeFirst	357	1,0
+Feature Envy	Grammar.FIRST	358	1,0
+Dispersed Coupling	Grammar.computeFollow	359	1,0
+Dispersed Coupling	Grammar.CLOSURE	360	1,0
+Feature Envy	Grammar.CLOSURE	361	1,0
+Dispersed Coupling	Grammar.CLOSURE	362	1,0
+God Class	Grammar	363	1,0
+Shotgun Surgery	AProd.getId	364	1,0
+Shotgun Surgery	AProd.getArrow	365	1,0
+Shotgun Surgery	AProd.getProdTransform	366	1,0
+Shotgun Surgery	AProd.getAlts	367	1,0
+Refused Parent Bequest	AProd	368	1,0
+Tradition Breaker	AProd	369	1,0
+Refused Parent Bequest	ADecChar	370	1,0
+Feature Envy	LR1Item.toString	371	1,0
+Refused Parent Bequest	AUnExp	372	1,0
+Dispersed Coupling	MacroExpander.apply	373	1,0
+Shotgun Surgery	MacroExpander.apply	374	1,0
+Shotgun Surgery	AProdName.getId	375	1,0
+Refused Parent Bequest	AProdName	376	1,0
+Refused Parent Bequest	ARegExpBasic	377	1,0
+Refused Parent Bequest	AGrammar	378	1,0
+Tradition Breaker	AGrammar	379	1,0
+Refused Parent Bequest	AOperationSet	380	1,0
+Tradition Breaker	AOperationSet	381	1,0
+Refused Parent Bequest	ATransition	382	1,0
+Feature Envy	Symbol.computeArrays	383	1,0
+God Class	ConstructNFA	384	1,0
+Brain Method	LR1Collection.LR1Collection	385	1,0
+Dispersed Coupling	LR1Collection.LR1Collection	386	1,0
+Dispersed Coupling	LR1ItemSet.toString	387	1,0

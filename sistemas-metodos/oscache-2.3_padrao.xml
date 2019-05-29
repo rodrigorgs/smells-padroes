@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method" />
+	<pattern name="Prototype" />
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="com.opensymphony.oscache.base.events.CacheEntryEventType" />
+			<role name="uniqueInstance" element="com.opensymphony.oscache.base.events.CacheEntryEventType::ENTRY_ADDED:com.opensymphony.oscache.base.events.CacheEntryEventType" />
+			<role name="uniqueInstance" element="com.opensymphony.oscache.base.events.CacheEntryEventType::ENTRY_UPDATED:com.opensymphony.oscache.base.events.CacheEntryEventType" />
+			<role name="uniqueInstance" element="com.opensymphony.oscache.base.events.CacheEntryEventType::ENTRY_FLUSHED:com.opensymphony.oscache.base.events.CacheEntryEventType" />
+			<role name="uniqueInstance" element="com.opensymphony.oscache.base.events.CacheEntryEventType::ENTRY_REMOVED:com.opensymphony.oscache.base.events.CacheEntryEventType" />
+			<role name="uniqueInstance" element="com.opensymphony.oscache.base.events.CacheEntryEventType::GROUP_FLUSHED:com.opensymphony.oscache.base.events.CacheEntryEventType" />
+			<role name="uniqueInstance" element="com.opensymphony.oscache.base.events.CacheEntryEventType::PATTERN_FLUSHED:com.opensymphony.oscache.base.events.CacheEntryEventType" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.opensymphony.oscache.base.events.CacheMapAccessEventType" />
+			<role name="uniqueInstance" element="com.opensymphony.oscache.base.events.CacheMapAccessEventType::HIT:com.opensymphony.oscache.base.events.CacheMapAccessEventType" />
+			<role name="uniqueInstance" element="com.opensymphony.oscache.base.events.CacheMapAccessEventType::MISS:com.opensymphony.oscache.base.events.CacheMapAccessEventType" />
+			<role name="uniqueInstance" element="com.opensymphony.oscache.base.events.CacheMapAccessEventType::STALE_HIT:com.opensymphony.oscache.base.events.CacheMapAccessEventType" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.opensymphony.oscache.base.events.CachewideEventType" />
+			<role name="uniqueInstance" element="com.opensymphony.oscache.base.events.CachewideEventType::CACHE_FLUSHED:com.opensymphony.oscache.base.events.CachewideEventType" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.opensymphony.oscache.base.events.ScopeEventType" />
+			<role name="uniqueInstance" element="com.opensymphony.oscache.base.events.ScopeEventType::ALL_SCOPES_FLUSHED:com.opensymphony.oscache.base.events.ScopeEventType" />
+			<role name="uniqueInstance" element="com.opensymphony.oscache.base.events.ScopeEventType::SCOPE_FLUSHED:com.opensymphony.oscache.base.events.ScopeEventType" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adaptee" element="com.opensymphony.oscache.base.algorithm.FIFOCache" />
+			<role name="Adapter" element="com.opensymphony.oscache.base.algorithm.TestFIFOCache" />
+			<role name="adaptee" element="com.opensymphony.oscache.base.algorithm.TestFIFOCache::cache:com.opensymphony.oscache.base.algorithm.FIFOCache" />
+			<role name="Request()" element="com.opensymphony.oscache.base.algorithm.TestFIFOCache::testRemoveItem():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.opensymphony.oscache.base.algorithm.LRUCache" />
+			<role name="Adapter" element="com.opensymphony.oscache.base.algorithm.TestLRUCache" />
+			<role name="adaptee" element="com.opensymphony.oscache.base.algorithm.TestLRUCache::cache:com.opensymphony.oscache.base.algorithm.LRUCache" />
+			<role name="Request()" element="com.opensymphony.oscache.base.algorithm.TestLRUCache::testRemoveItem():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.opensymphony.oscache.base.algorithm.UnlimitedCache" />
+			<role name="Adapter" element="com.opensymphony.oscache.base.algorithm.TestUnlimitedCache" />
+			<role name="adaptee" element="com.opensymphony.oscache.base.algorithm.TestUnlimitedCache::cache:com.opensymphony.oscache.base.algorithm.UnlimitedCache" />
+			<role name="Request()" element="com.opensymphony.oscache.base.algorithm.TestUnlimitedCache::testRemoveItem():void" />
+		</instance>
+	</pattern>
+	<pattern name="Command" />
+	<pattern name="Composite" />
+	<pattern name="Decorator" />
+	<pattern name="Observer" />
+	<pattern name="State">
+		<instance>
+			<role name="Context" element="com.opensymphony.oscache.base.CacheEntry" />
+			<role name="State" element="com.opensymphony.oscache.base.EntryRefreshPolicy" />
+			<role name="state" element="com.opensymphony.oscache.base.CacheEntry::policy:com.opensymphony.oscache.base.EntryRefreshPolicy" />
+			<role name="Request()" element="com.opensymphony.oscache.base.CacheEntry::needsRefresh(int):boolean" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy" />
+	<pattern name="Bridge">
+		<instance>
+			<role name="Abstraction" element="com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache" />
+			<role name="Implementor" element="com.opensymphony.oscache.base.persistence.PersistenceListener" />
+			<role name="implementor" element="com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache::persistenceListener:com.opensymphony.oscache.base.persistence.PersistenceListener" />
+			<role name="Operation()" element="com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache::persistRemove(java.lang.Object):void" />
+			<role name="Operation()" element="com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache::persistRemoveGroup(java.lang.String):void" />
+			<role name="Operation()" element="com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache::persistRetrieve(java.lang.Object):java.lang.Object" />
+			<role name="Operation()" element="com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache::persistRetrieveGroup(java.lang.String):java.util.Set" />
+			<role name="Operation()" element="com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache::persistStore(java.lang.Object, java.lang.Object):void" />
+			<role name="Operation()" element="com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache::persistStoreGroup(java.lang.String, java.util.Set):void" />
+			<role name="Operation()" element="com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache::persistClear():void" />
+		</instance>
+	</pattern>
+	<pattern name="Template Method">
+		<instance>
+			<role name="AbstractClass" element="com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache" />
+			<role name="TemplateMethod()" element="com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache::setMaxEntries(int):void" />
+			<role name="TemplateMethod()" element="com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache::clear():void" />
+			<role name="TemplateMethod()" element="com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache::get(java.lang.Object):java.lang.Object" />
+			<role name="TemplateMethod()" element="com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache::sput(java.lang.Object, java.lang.Object, int, boolean):java.lang.Object" />
+			<role name="TemplateMethod()" element="com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache::sremove(java.lang.Object, int, boolean):java.lang.Object" />
+			<role name="TemplateMethod()" element="com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache::put(java.lang.Object, java.lang.Object, boolean):java.lang.Object" />
+			<role name="TemplateMethod()" element="com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache::remove(java.lang.Object, boolean):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.opensymphony.oscache.plugins.clustersupport.AbstractBroadcastingListener" />
+			<role name="TemplateMethod()" element="com.opensymphony.oscache.plugins.clustersupport.AbstractBroadcastingListener::cacheEntryFlushed(com.opensymphony.oscache.base.events.CacheEntryEvent):void" />
+			<role name="TemplateMethod()" element="com.opensymphony.oscache.plugins.clustersupport.AbstractBroadcastingListener::cacheGroupFlushed(com.opensymphony.oscache.base.events.CacheGroupEvent):void" />
+			<role name="TemplateMethod()" element="com.opensymphony.oscache.plugins.clustersupport.AbstractBroadcastingListener::cachePatternFlushed(com.opensymphony.oscache.base.events.CachePatternEvent):void" />
+			<role name="TemplateMethod()" element="com.opensymphony.oscache.plugins.clustersupport.AbstractBroadcastingListener::cacheFlushed(com.opensymphony.oscache.base.events.CachewideEvent):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.opensymphony.oscache.plugins.diskpersistence.AbstractDiskPersistenceListener" />
+			<role name="TemplateMethod()" element="com.opensymphony.oscache.plugins.diskpersistence.AbstractDiskPersistenceListener::getCacheFile(java.lang.String):java.io.File" />
+		</instance>
+	</pattern>
+	<pattern name="Visitor" />
+	<pattern name="Proxy" />
+	<pattern name="Proxy2" />
+	<pattern name="Chain of Responsibility" />
+</system>
+

@@ -1,0 +1,215 @@
+Shotgun Surgery	UniqueIdentity.getUniqueId	1	1,0
+Refused Parent Bequest	MockParameter	2	1,0
+Data Class	MockPluginRegistry	3	1,0
+Feature Envy	RegistryChangeDataImpl.addedExtensions	4	1,0
+Dispersed Coupling	RegistryChangeDataImpl.addedExtensions	5	1,0
+Feature Envy	RegistryChangeDataImpl.removedExtensions	6	1,0
+Dispersed Coupling	RegistryChangeDataImpl.removedExtensions	7	1,0
+Feature Envy	RegistryChangeDataImpl.modifiedExtensions	8	1,0
+Dispersed Coupling	RegistryChangeDataImpl.modifiedExtensions	9	1,0
+Dispersed Coupling	ParameterDefinitionImpl.ParameterDefinitionImpl	10	1,0
+Refused Parent Bequest	ParameterDefinitionImpl	11	1,0
+Tradition Breaker	ParameterDefinitionImpl	12	1,0
+Feature Envy	LibraryImpl.LibraryImpl	13	1,0
+Intensive Coupling	LibraryImpl.LibraryImpl	14	1,0
+Shotgun Surgery	BaseJpfTask.getRegistry	15	1,0
+Brain Method	BaseJpfTask.initRegistry	16	1,0
+Dispersed Coupling	BaseJpfTask.initRegistry	17	1,0
+Dispersed Coupling	BaseJpfTask.getIncludedFiles	18	1,0
+Feature Envy	BaseJpfTask.isPluginInList	19	1,0
+God Class	BaseJpfTask	20	1,0
+Feature Envy	DocumentationImpl.DocumentationImpl	21	1,0
+Dispersed Coupling	ManifestInfoHandler.startElement	22	1,0
+Refused Parent Bequest	MockExtension	23	1,0
+Dispersed Coupling	PluginArchiver.pack	24	1,0
+Feature Envy	PluginArchiver.unpack	25	1,0
+Intensive Coupling	PluginArchiver.unpack	26	1,0
+Feature Envy	PluginArchiver.unpackEntry	27	1,0
+Dispersed Coupling	PluginArchiver.unpackEntry	28	1,0
+Dispersed Coupling	PluginArchiver.writeDescripor	29	1,0
+Dispersed Coupling	PluginArchiver.readDescriptor	30	1,0
+God Class	PluginArchiver	31	1,0
+Brain Method	ManifestHandler.startElement	32	1,0
+Intensive Coupling	ManifestHandler.startElement	33	1,0
+Brain Method	ManifestHandler.endElement	34	1,0
+Dispersed Coupling	ManifestHandler.endElement	35	1,0
+God Class	MockPluginDescriptor	36	1,0
+Refused Parent Bequest	MockPluginDescriptor	37	1,0
+Data Class	Version	38	1,0
+Feature Envy	StandardPluginLifecycleHandler.configure	39	1,0
+Feature Envy	DefaultPluginsCollector.configure	40	1,0
+Dispersed Coupling	DefaultPluginsCollector.configure	41	1,0
+Feature Envy	IoUtil.copyFile	42	1,0
+Intensive Coupling	IoUtil.copyFolder	43	1,0
+Feature Envy	IoUtil.compareFileDates	44	1,0
+Intensive Coupling	IoUtil.synchronizeFolders	45	1,0
+Feature Envy	IoUtil.getResourceInputStream	46	1,0
+Feature Envy	IoUtil.url2file	47	1,0
+Feature Envy	IoUtil.file2url	48	1,0
+God Class	IoUtil	49	1,0
+Shotgun Surgery	PluginElementImpl.getDeclaringPluginDescriptor	50	1,0
+Dispersed Coupling	ShadowDataController.quickCheck	51	1,0
+Feature Envy	ShadowDataController.quickCheck	52	1,0
+Dispersed Coupling	ShadowDataController.quickCheck	53	1,0
+Brain Method	ShadowDataController.shadowResource	54	1,0
+Intensive Coupling	ShadowDataController.shadowResource	55	1,0
+Feature Envy	ShadowDataController.deepCheck	56	1,0
+Dispersed Coupling	ShadowDataController.deepCheck	57	1,0
+Feature Envy	ResourceManager.getMessage	58	1,0
+Intensive Coupling	ControlThread.isApplicationRunning	59	1,0
+Intensive Coupling	ControlThread.stopRunningApplication	60	1,0
+Feature Envy	ControlThread.handleRequest	61	1,0
+Intensive Coupling	ControlThread.handleRequest	62	1,0
+Shotgun Surgery	Identity.getId	63	1,0
+Feature Envy	DocGenerator.processTemplateContent	64	1,0
+Dispersed Coupling	DocGenerator.generateForPluginDescriptor	65	1,0
+Intensive Coupling	ResourceFilter.ResourceFilter	66	1,0
+Dispersed Coupling	PluginResourceLoader.get	67	1,0
+Shotgun Surgery	ExtendedProperties.getProperty	68	1,0
+Shotgun Surgery	ExtendedProperties.getProperty	69	1,0
+Dispersed Coupling	ExtendedProperties.getSubset	70	1,0
+Dispersed Coupling	ExtensionImpl.getExtensionPoint	71	1,0
+Dispersed Coupling	ExtensionImpl.validateParameters	72	1,0
+Dispersed Coupling	ExtensionImpl.validateParameters	73	1,0
+God Class	ExtensionImpl	74	1,0
+Refused Parent Bequest	ExtensionImpl	75	1,0
+Tradition Breaker	ExtensionImpl	76	1,0
+Dispersed Coupling	SortTask.execute	77	1,0
+Dispersed Coupling	SortTask.collectPrerequisites	78	1,0
+Refused Parent Bequest	SortTask	79	1,0
+Feature Envy	PackTask.execute	80	1,0
+Brain Method	IntegrityChecker.checkPlugin	81	1,0
+Dispersed Coupling	IntegrityChecker.checkPlugin	82	1,0
+Feature Envy	PluginDescriptorImpl.PluginDescriptorImpl	83	1,0
+Feature Envy	PluginDescriptorImpl.registerFragment	84	1,0
+Dispersed Coupling	PluginDescriptorImpl.unregisterFragment	85	1,0
+Dispersed Coupling	PluginDescriptorImpl.processExtensions	86	1,0
+God Class	PluginDescriptorImpl	87	1,0
+Refused Parent Bequest	PluginDescriptorImpl	88	1,0
+Tradition Breaker	PluginDescriptorImpl	89	1,0
+Dispersed Coupling	PathTask.execute	90	1,0
+Dispersed Coupling	PathTask.processDescriptor	91	1,0
+Refused Parent Bequest	PathTask	92	1,0
+Feature Envy	PluginFragmentImpl.matches	93	1,0
+Refused Parent Bequest	PluginFragmentImpl	94	1,0
+Brain Method	PluginRegistryImpl.register	95	1,0
+Dispersed Coupling	PluginRegistryImpl.register	96	1,0
+Intensive Coupling	PluginRegistryImpl.checkVersions	97	1,0
+Dispersed Coupling	PluginRegistryImpl.registerPlugin	98	1,0
+Dispersed Coupling	PluginRegistryImpl.registerFragment	99	1,0
+Brain Method	PluginRegistryImpl.unregister	100	1,0
+Dispersed Coupling	PluginRegistryImpl.unregister	101	1,0
+Feature Envy	PluginRegistryImpl.dump	102	1,0
+Dispersed Coupling	PluginRegistryImpl.getExtensionPoint	103	1,0
+Dispersed Coupling	PluginRegistryImpl.isExtensionPointAvailable	104	1,0
+Dispersed Coupling	PluginRegistryImpl.getDependingPlugins	105	1,0
+God Class	PluginRegistryImpl	106	1,0
+Brain Class	PluginRegistryImpl	107	1,0
+Data Class	PluginRegistryImpl	108	1,0
+Dispersed Coupling	StandardPluginManager.registryChangeHandler	109	1,0
+Feature Envy	StandardPluginManager.getPluginClassLoader	110	1,0
+Dispersed Coupling	StandardPluginManager.shutdown	111	1,0
+Dispersed Coupling	StandardPluginManager.checkPrerequisites	112	1,0
+Dispersed Coupling	StandardPluginManager.deactivatePlugin	113	1,0
+Dispersed Coupling	StandardPluginManager.deactivatePlugin	114	1,0
+Feature Envy	StandardPluginManager.dump	115	1,0
+Feature Envy	StandardPluginManager.disablePlugin	116	1,0
+Dispersed Coupling	StandardPluginManager.disablePlugin	117	1,0
+Feature Envy	StandardPluginManager.enablePlugin	118	1,0
+Dispersed Coupling	StandardPluginManager.enablePlugin	119	1,0
+Feature Envy	StandardPluginManager.fireEvent	120	1,0
+Intensive Coupling	StandardPluginManager.fireEvent	121	1,0
+Data Class	StandardPluginManager	122	1,0
+Refused Parent Bequest	StandardPluginManager	123	1,0
+Dispersed Coupling	ShadingPathResolver.configure	124	1,0
+Dispersed Coupling	ShadingPathResolver.registerContext	125	1,0
+Dispersed Coupling	ShadingPathResolver.getUnpackMode	126	1,0
+Refused Parent Bequest	ShadingPathResolver	127	1,0
+Refused Parent Bequest	MockPluginFragment	128	1,0
+Feature Envy	PluginAttributeImpl.PluginAttributeImpl	129	1,0
+Dispersed Coupling	ShadingUtil.unpack	130	1,0
+Dispersed Coupling	ShadingUtil.unpack	131	1,0
+Intensive Coupling	ShadingUtil.getLastModified	132	1,0
+Feature Envy	ShadingUtil.getRelativePath	133	1,0
+Intensive Coupling	ShadingUtil.getRelativePath	134	1,0
+God Class	ShadingUtil	135	1,0
+Shotgun Surgery	IdentityImpl.getId	136	1,0
+Intensive Coupling	ExtensionPointImpl.ExtensionPointImpl	137	1,0
+Dispersed Coupling	ExtensionPointImpl.updateExtensionsLists	138	1,0
+Dispersed Coupling	ExtensionPointImpl.validate	139	1,0
+Dispersed Coupling	ExtensionPointImpl.isExtensionPointAvailable	140	1,0
+Dispersed Coupling	ExtensionPointImpl.getParameterDefinitions	141	1,0
+Dispersed Coupling	ExtensionPointImpl.collectDescendants	142	1,0
+God Class	ExtensionPointImpl	143	1,0
+Refused Parent Bequest	ExtensionPointImpl	144	1,0
+Tradition Breaker	ExtensionPointImpl	145	1,0
+Refused Parent Bequest	DocTask	146	1,0
+Dispersed Coupling	PluginInfoTask.execute	147	1,0
+Feature Envy	CheckTask.execute	148	1,0
+Feature Envy	CheckTask.integrityCheckReport2str	149	1,0
+Feature Envy	StandardObjectFactory.getImplClassName	150	1,0
+Intensive Coupling	StandardObjectFactory.createClassInstance	151	1,0
+Dispersed Coupling	SingleFilePluginTask.execute	152	1,0
+Shotgun Surgery	PluginElement.getDeclaringPluginDescriptor	153	1,0
+Dispersed Coupling	ErrorDialog.ErrorDialog	154	1,0
+Dispersed Coupling	ErrorDialog.getJTextArea	155	1,0
+God Class	ErrorDialog	156	1,0
+Shotgun Surgery	PathResolver.resolvePath	157	1,0
+Dispersed Coupling	Util.getTempFolder	158	1,0
+Shotgun Surgery	PluginRegistry.getPluginDescriptor	159	1,0
+Shotgun Surgery	PluginRegistry.getPluginDescriptors	160	1,0
+Shotgun Surgery	PluginRegistry.getPluginFragments	161	1,0
+Dispersed Coupling	BootErrorHandlerGui.handleError	162	1,0
+Dispersed Coupling	StandardPluginClassLoader.getUrls	163	1,0
+Dispersed Coupling	StandardPluginClassLoader.getUrls	164	1,0
+Intensive Coupling	StandardPluginClassLoader.getLibCacheFolder	165	1,0
+Intensive Coupling	StandardPluginClassLoader.collectImports	166	1,0
+Dispersed Coupling	StandardPluginClassLoader.pluginsSetChanged	167	1,0
+Feature Envy	StandardPluginClassLoader.loadClass	168	1,0
+Brain Method	StandardPluginClassLoader.loadPluginClass	169	1,0
+Dispersed Coupling	StandardPluginClassLoader.loadPluginClass	170	1,0
+Dispersed Coupling	StandardPluginClassLoader.findLibrary	171	1,0
+Brain Method	StandardPluginClassLoader.findResource	172	1,0
+Dispersed Coupling	StandardPluginClassLoader.findResources	173	1,0
+Feature Envy	StandardPluginClassLoader.isResourceVisible	174	1,0
+God Class	StandardPluginClassLoader	175	1,0
+Brain Class	StandardPluginClassLoader	176	1,0
+Refused Parent Bequest	StandardPluginClassLoader	177	1,0
+Brain Method	VersionUpdateTask.execute	178	1,0
+Dispersed Coupling	VersionUpdateTask.execute	179	1,0
+Dispersed Coupling	ObjectFactory.loadProperties	180	1,0
+Dispersed Coupling	ObjectFactory.findProperty	181	1,0
+Feature Envy	ReferenceImpl.ReferenceImpl	182	1,0
+Dispersed Coupling	Boot.main	183	1,0
+Dispersed Coupling	Boot.boot	184	1,0
+Feature Envy	Boot.getErrorHandlerInstance	185	1,0
+Feature Envy	Boot.initSplashHandler	186	1,0
+Dispersed Coupling	Boot.initSplashHandler	187	1,0
+Dispersed Coupling	Boot.initApplication	188	1,0
+God Class	Boot	189	1,0
+Data Class	Boot	190	1,0
+Refused Parent Bequest	MockPluginPrerequisite	191	1,0
+Feature Envy	ParameterImpl.ParameterImpl	192	1,0
+Dispersed Coupling	ParameterImpl.getDefinition	193	1,0
+God Class	ParameterImpl	194	1,0
+Refused Parent Bequest	ParameterImpl	195	1,0
+Tradition Breaker	ParameterImpl	196	1,0
+Dispersed Coupling	DefaultApplicationInitializer.configure	197	1,0
+Dispersed Coupling	DefaultApplicationInitializer.initApplication	198	1,0
+Feature Envy	DefaultApplicationInitializer.integrityCheckReport2str	199	1,0
+Feature Envy	DefaultApplicationInitializer.isPluginInList	200	1,0
+Shotgun Surgery	PluginDescriptor.getVersion	201	1,0
+Shotgun Surgery	PluginDescriptor.getExtensionPoints	202	1,0
+Shotgun Surgery	PluginDescriptor.getRegistry	203	1,0
+Dispersed Coupling	ParameterValueParser.getExtensionPoint	204	1,0
+Brain Method	ParameterValueParser.ParameterValueParser	205	1,0
+Dispersed Coupling	ParameterValueParser.ParameterValueParser	206	1,0
+God Class	ParameterValueParser	207	1,0
+Feature Envy	PluginInfo.upgradeVersion	208	1,0
+Feature Envy	PluginInfo.upgradeVersion	209	1,0
+Feature Envy	PluginInfo.PluginInfo	210	1,0
+Dispersed Coupling	PluginInfo.processVersion	211	1,0
+Feature Envy	PluginInfo.processVersionReference	212	1,0
+Refused Parent Bequest	MockPluginAttribute	213	1,0
+Refused Parent Bequest	MockExtensionPoint	214	1,0
+Refused Parent Bequest	MockParameterDefinition	215	1,0

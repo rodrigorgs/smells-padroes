@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method">
+		<instance>
+			<role name="Creator" element="org.quickserver.util.pool.QSObjectPoolMaker" />
+			<role name="FactoryMethod()" element="org.quickserver.util.pool.QSObjectPoolMaker::getQSObjectPool(org.apache.commons.pool.ObjectPool):org.quickserver.util.pool.QSObjectPool" />
+		</instance>
+	</pattern>
+	<pattern name="Prototype" />
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="org.quickserver.net.qsadmin.QSAdminShell" />
+			<role name="uniqueInstance" element="org.quickserver.net.qsadmin.QSAdminShell::qsAdminShell:org.quickserver.net.qsadmin.QSAdminShell" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.quickserver.net.server.AuthStatus" />
+			<role name="uniqueInstance" element="org.quickserver.net.server.AuthStatus::FAILURE:org.quickserver.net.server.AuthStatus" />
+			<role name="uniqueInstance" element="org.quickserver.net.server.AuthStatus::SUCCESS:org.quickserver.net.server.AuthStatus" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.quickserver.net.server.ClientEvent" />
+			<role name="uniqueInstance" element="org.quickserver.net.server.ClientEvent::RUN_BLOCKING:org.quickserver.net.server.ClientEvent" />
+			<role name="uniqueInstance" element="org.quickserver.net.server.ClientEvent::ACCEPT:org.quickserver.net.server.ClientEvent" />
+			<role name="uniqueInstance" element="org.quickserver.net.server.ClientEvent::READ:org.quickserver.net.server.ClientEvent" />
+			<role name="uniqueInstance" element="org.quickserver.net.server.ClientEvent::WRITE:org.quickserver.net.server.ClientEvent" />
+			<role name="uniqueInstance" element="org.quickserver.net.server.ClientEvent::MAX_CON:org.quickserver.net.server.ClientEvent" />
+			<role name="uniqueInstance" element="org.quickserver.net.server.ClientEvent::MAX_CON_BLOCKING:org.quickserver.net.server.ClientEvent" />
+			<role name="uniqueInstance" element="org.quickserver.net.server.ClientEvent::LOST_CON:org.quickserver.net.server.ClientEvent" />
+			<role name="uniqueInstance" element="org.quickserver.net.server.ClientEvent::CLOSE_CON:org.quickserver.net.server.ClientEvent" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.quickserver.net.server.DataMode" />
+			<role name="uniqueInstance" element="org.quickserver.net.server.DataMode::STRING:org.quickserver.net.server.DataMode" />
+			<role name="uniqueInstance" element="org.quickserver.net.server.DataMode::OBJECT:org.quickserver.net.server.DataMode" />
+			<role name="uniqueInstance" element="org.quickserver.net.server.DataMode::BYTE:org.quickserver.net.server.DataMode" />
+			<role name="uniqueInstance" element="org.quickserver.net.server.DataMode::BINARY:org.quickserver.net.server.DataMode" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.quickserver.net.server.DataType" />
+			<role name="uniqueInstance" element="org.quickserver.net.server.DataType::IN:org.quickserver.net.server.DataType" />
+			<role name="uniqueInstance" element="org.quickserver.net.server.DataType::OUT:org.quickserver.net.server.DataType" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adaptee" element="org.quickserver.util.io.ByteBufferOutputStream" />
+			<role name="Adapter" element="org.quickserver.net.server.impl.NonBlockingClientHandler" />
+			<role name="adaptee" element="org.quickserver.net.server.impl.NonBlockingClientHandler::byteBufferOutputStream:org.quickserver.util.io.ByteBufferOutputStream" />
+			<role name="Request()" element="org.quickserver.net.server.impl.NonBlockingClientHandler::closeConnection():void" />
+			<role name="Request()" element="org.quickserver.net.server.impl.NonBlockingClientHandler::run():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.quickserver.net.server.QuickServer" />
+			<role name="Adapter" element="org.quickserver.net.server.impl.BasicClientHandler" />
+			<role name="adaptee" element="org.quickserver.net.server.impl.BasicClientHandler::quickServer:org.quickserver.net.server.QuickServer" />
+			<role name="Request()" element="org.quickserver.net.server.impl.BasicClientHandler::handleClient(org.quickserver.net.server.TheClient):void" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="filesrv.PrepareHook" />
+			<role name="Adaptee" element="org.quickserver.net.server.QuickServer" />
+			<role name="adaptee" element="filesrv.PrepareHook::quickserver:org.quickserver.net.server.QuickServer" />
+			<role name="Request()" element="filesrv.PrepareHook::handleEvent(int):boolean" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="org.quickserver.net.server.GhostSocketReaper" />
+			<role name="Adaptee" element="org.quickserver.net.server.QuickServer" />
+			<role name="adaptee" element="org.quickserver.net.server.GhostSocketReaper::quickserver:org.quickserver.net.server.QuickServer" />
+			<role name="Request()" element="org.quickserver.net.server.GhostSocketReaper::initHook(org.quickserver.net.server.QuickServer):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.quickserver.util.pool.QSObjectPool" />
+			<role name="Adapter" element="org.quickserver.net.server.impl.BasicClientIdentifier" />
+			<role name="adaptee" element="org.quickserver.net.server.impl.BasicClientIdentifier::clientHandlerPool:org.quickserver.util.pool.QSObjectPool" />
+			<role name="Request()" element="org.quickserver.net.server.impl.BasicClientIdentifier::getObjectToSynchronize():java.lang.Object" />
+			<role name="Request()" element="org.quickserver.net.server.impl.BasicClientIdentifier::findAllClient():java.util.Iterator" />
+		</instance>
+	</pattern>
+	<pattern name="Command">
+		<instance>
+			<role name="Receiver" element="org.quickserver.net.qsadmin.CommandPlugin" />
+			<role name="ConcreteCommand" element="org.quickserver.net.qsadmin.CommandHandler" />
+			<role name="receiver" element="org.quickserver.net.qsadmin.CommandHandler::plugin:org.quickserver.net.qsadmin.CommandPlugin" />
+			<role name="Execute()" element="org.quickserver.net.qsadmin.CommandHandler::handleCommand(org.quickserver.net.server.ClientHandler, java.lang.String):void" />
+		</instance>
+	</pattern>
+	<pattern name="Composite" />
+	<pattern name="Decorator" />
+	<pattern name="Observer" />
+	<pattern name="State">
+		<instance>
+			<role name="Context" element="cmdserver.PReader" />
+			<role name="State" element="org.quickserver.net.server.ClientHandler" />
+			<role name="state" element="cmdserver.PReader::handler:org.quickserver.net.server.ClientHandler" />
+			<role name="Request()" element="cmdserver.PReader::run():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.quickserver.util.io.ByteBufferInputStream" />
+			<role name="State" element="org.quickserver.net.server.ClientHandler" />
+			<role name="state" element="org.quickserver.util.io.ByteBufferInputStream::handler:org.quickserver.net.server.ClientHandler" />
+			<role name="Request()" element="org.quickserver.util.io.ByteBufferInputStream::close():void" />
+			<role name="Request()" element="org.quickserver.util.io.ByteBufferInputStream::read():int" />
+			<role name="Request()" element="org.quickserver.util.io.ByteBufferInputStream::read(byte[], int, int):int" />
+			<role name="Request()" element="org.quickserver.util.io.ByteBufferInputStream::addStringsBackAsBuffer():void" />
+			<role name="Request()" element="org.quickserver.util.io.ByteBufferInputStream::returnBufferBack(java.nio.ByteBuffer):void" />
+			<role name="Request()" element="org.quickserver.util.io.ByteBufferInputStream::isLineReady():boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="pipeserver.Data" />
+			<role name="State" element="org.quickserver.net.server.ClientHandler" />
+			<role name="state" element="pipeserver.Data::handler:org.quickserver.net.server.ClientHandler" />
+			<role name="Request()" element="pipeserver.Data::init(java.net.Socket, org.quickserver.net.server.ClientHandler):void" />
+			<role name="Request()" element="pipeserver.Data::run():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.quickserver.net.server.impl.NonBlockingClientHandler" />
+			<role name="State" element="org.quickserver.net.server.ClientWriteHandler" />
+			<role name="state" element="org.quickserver.net.server.impl.NonBlockingClientHandler::clientWriteHandler:org.quickserver.net.server.ClientWriteHandler" />
+			<role name="Request()" element="org.quickserver.net.server.impl.NonBlockingClientHandler::processWrite():boolean" />
+		</instance>
+		<instance>
+			<role name="State" element="org.quickserver.net.server.ClientIdentifier" />
+			<role name="Context" element="org.quickserver.net.server.QuickServer" />
+			<role name="state" element="org.quickserver.net.server.QuickServer::clientIdentifier:org.quickserver.net.server.ClientIdentifier" />
+			<role name="Request()" element="org.quickserver.net.server.QuickServer::startServer():void" />
+			<role name="Request()" element="org.quickserver.net.server.QuickServer::makeClientHandlerPool(org.quickserver.util.xmlreader.PoolConfig):void" />
+			<role name="Request()" element="org.quickserver.net.server.QuickServer::findFirstClientById(java.lang.String):org.quickserver.net.server.ClientHandler" />
+			<role name="Request()" element="org.quickserver.net.server.QuickServer::findAllClient():java.util.Iterator" />
+			<role name="Request()" element="org.quickserver.net.server.QuickServer::findAllClientById(java.lang.String):java.util.Iterator" />
+			<role name="Request()" element="org.quickserver.net.server.QuickServer::findClientByKey(java.lang.String):org.quickserver.net.server.ClientHandler" />
+			<role name="Request()" element="org.quickserver.net.server.QuickServer::findAllClientByKey(java.lang.String):java.util.Iterator" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.quickserver.net.server.QuickServer" />
+			<role name="State" element="org.quickserver.net.server.PoolManager" />
+			<role name="state" element="org.quickserver.net.server.QuickServer::poolManager:org.quickserver.net.server.PoolManager" />
+			<role name="Request()" element="org.quickserver.net.server.QuickServer::makeClientHandlerPool(org.quickserver.util.xmlreader.PoolConfig):void" />
+			<role name="Request()" element="org.quickserver.net.server.QuickServer::makeClientDataPool(org.apache.commons.pool.PoolableObjectFactory, org.quickserver.util.xmlreader.PoolConfig):void" />
+			<role name="Request()" element="org.quickserver.net.server.QuickServer::makeByteBufferPool(org.quickserver.util.xmlreader.PoolConfig):void" />
+			<role name="Request()" element="org.quickserver.net.server.QuickServer::makeClientPool(org.quickserver.util.xmlreader.PoolConfig):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.quickserver.net.server.QuickServer" />
+			<role name="State" element="org.quickserver.sql.DBPoolUtil" />
+			<role name="state" element="org.quickserver.net.server.QuickServer::dBPoolUtil:org.quickserver.sql.DBPoolUtil" />
+			<role name="Request()" element="org.quickserver.net.server.QuickServer::makeDBObjectPool():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.quickserver.net.server.GhostSocketReaper" />
+			<role name="State" element="org.quickserver.net.server.ClientIdentifier" />
+			<role name="state" element="org.quickserver.net.server.GhostSocketReaper::clientIdentifier:org.quickserver.net.server.ClientIdentifier" />
+			<role name="Request()" element="org.quickserver.net.server.GhostSocketReaper::optimisticGhostSocketsFinder(java.util.List):boolean" />
+			<role name="Request()" element="org.quickserver.net.server.GhostSocketReaper::syncGhostSocketsFinder(java.util.List):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.quickserver.net.server.QuickServer" />
+			<role name="State" element="org.quickserver.util.pool.QSObjectPoolMaker" />
+			<role name="state" element="org.quickserver.net.server.QuickServer::qsObjectPoolMaker:org.quickserver.util.pool.QSObjectPoolMaker" />
+			<role name="Request()" element="org.quickserver.net.server.QuickServer::makeQSObjectPool(org.apache.commons.pool.ObjectPool):org.quickserver.util.pool.QSObjectPool" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.quickserver.net.qsadmin.CommandHandler" />
+			<role name="State" element="org.quickserver.net.qsadmin.CommandPlugin" />
+			<role name="state" element="org.quickserver.net.qsadmin.CommandHandler::plugin:org.quickserver.net.qsadmin.CommandPlugin" />
+			<role name="Request()" element="org.quickserver.net.qsadmin.CommandHandler::handleCommand(org.quickserver.net.server.ClientHandler, java.lang.String):void" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy" />
+	<pattern name="Bridge">
+		<instance>
+			<role name="Abstraction" element="org.quickserver.net.server.impl.BasicClientHandler" />
+			<role name="Implementor" element="org.quickserver.net.server.ClientEventHandler" />
+			<role name="implementor" element="org.quickserver.net.server.impl.BasicClientHandler::clientEventHandler:org.quickserver.net.server.ClientEventHandler" />
+			<role name="Operation()" element="org.quickserver.net.server.impl.BasicClientHandler::notifyCloseOrLost():void" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="org.quickserver.net.server.impl.BasicClientHandler" />
+			<role name="Implementor" element="org.quickserver.net.server.Authenticator" />
+			<role name="implementor" element="org.quickserver.net.server.impl.BasicClientHandler::authenticator:org.quickserver.net.server.Authenticator" />
+			<role name="Operation()" element="org.quickserver.net.server.impl.BasicClientHandler::processAuthorisation():org.quickserver.net.server.AuthStatus" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="org.quickserver.net.server.impl.BasicClientHandler" />
+			<role name="Implementor" element="org.quickserver.net.server.ClientAuthenticationHandler" />
+			<role name="implementor" element="org.quickserver.net.server.impl.BasicClientHandler::clientAuthenticationHandler:org.quickserver.net.server.ClientAuthenticationHandler" />
+			<role name="Operation()" element="org.quickserver.net.server.impl.BasicClientHandler::processAuthorisation():org.quickserver.net.server.AuthStatus" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="org.quickserver.net.server.impl.BasicClientHandler" />
+			<role name="Implementor" element="org.quickserver.net.server.ClientExtendedEventHandler" />
+			<role name="implementor" element="org.quickserver.net.server.impl.BasicClientHandler::clientExtendedEventHandler:org.quickserver.net.server.ClientExtendedEventHandler" />
+			<role name="Operation()" element="org.quickserver.net.server.impl.BasicClientHandler::processMaxConnection(org.quickserver.net.server.ClientEvent):void" />
+			<role name="Operation()" element="org.quickserver.net.server.impl.BasicClientHandler::processMaxAuthTry():void" />
+			<role name="Operation()" element="org.quickserver.net.server.impl.BasicClientHandler::handleTimeout(java.net.SocketTimeoutException):void" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="org.quickserver.net.server.impl.BasicClientIdentifier" />
+			<role name="Implementor" element="org.quickserver.util.pool.QSObjectPool" />
+			<role name="implementor" element="org.quickserver.net.server.impl.BasicClientIdentifier::clientHandlerPool:org.quickserver.util.pool.QSObjectPool" />
+			<role name="Operation()" element="org.quickserver.net.server.impl.BasicClientIdentifier::getObjectToSynchronize():java.lang.Object" />
+			<role name="Operation()" element="org.quickserver.net.server.impl.BasicClientIdentifier::findAllClient():java.util.Iterator" />
+		</instance>
+	</pattern>
+	<pattern name="Template Method">
+		<instance>
+			<role name="AbstractClass" element="org.quickserver.net.server.impl.BasicClientHandler" />
+			<role name="TemplateMethod()" element="org.quickserver.net.server.impl.BasicClientHandler::prepareForRun():void" />
+			<role name="TemplateMethod()" element="org.quickserver.net.server.impl.BasicClientHandler::readBytes():java.lang.String" />
+			<role name="TemplateMethod()" element="org.quickserver.net.server.impl.BasicClientHandler::forceClose():void" />
+			<role name="TemplateMethod()" element="org.quickserver.net.server.impl.BasicClientHandler::makeSecure(boolean, boolean, boolean, java.lang.String):void" />
+			<role name="TemplateMethod()" element="org.quickserver.net.server.impl.BasicClientHandler::readBinary():byte[]" />
+		</instance>
+	</pattern>
+	<pattern name="Visitor" />
+	<pattern name="Proxy" />
+	<pattern name="Proxy2" />
+	<pattern name="Chain of Responsibility" />
+</system>
+

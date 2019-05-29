@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method" />
+	<pattern name="Prototype" />
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="freecs.auth.AuthManager" />
+			<role name="uniqueInstance" element="freecs.auth.AuthManager::instance:freecs.auth.AuthManager" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="freecs.auth.NoAuthentication" />
+			<role name="uniqueInstance" element="freecs.auth.NoAuthentication::auth:freecs.auth.NoAuthentication" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="freecs.commands.CommandSet" />
+			<role name="uniqueInstance" element="freecs.commands.CommandSet::cs:freecs.commands.CommandSet" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="freecs.core.CentralSelector" />
+			<role name="uniqueInstance" element="freecs.core.CentralSelector::cSel:freecs.core.CentralSelector" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="freecs.core.GroupManager" />
+			<role name="uniqueInstance" element="freecs.core.GroupManager::mgr:freecs.core.GroupManager" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="freecs.core.Listener" />
+			<role name="uniqueInstance" element="freecs.core.Listener::l:freecs.core.Listener" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="freecs.core.MembershipManager" />
+			<role name="uniqueInstance" element="freecs.core.MembershipManager::instance:freecs.core.MembershipManager" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="freecs.core.RequestMonitor" />
+			<role name="uniqueInstance" element="freecs.core.RequestMonitor::instance:freecs.core.RequestMonitor" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="freecs.core.Responder" />
+			<role name="uniqueInstance" element="freecs.core.Responder::res:freecs.core.Responder" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="freecs.core.UserManager" />
+			<role name="uniqueInstance" element="freecs.core.UserManager::mgr:freecs.core.UserManager" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="freecs.external.UserlistManager" />
+			<role name="uniqueInstance" element="freecs.external.UserlistManager::mgr:freecs.external.UserlistManager" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="freecs.external.xmlrpc.XmlRpcManager" />
+			<role name="uniqueInstance" element="freecs.external.xmlrpc.XmlRpcManager::mgr:freecs.external.xmlrpc.XmlRpcManager" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="freecs.layout.TemplateManager" />
+			<role name="uniqueInstance" element="freecs.layout.TemplateManager::mgr:freecs.layout.TemplateManager" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="freecs.Server" />
+			<role name="uniqueInstance" element="freecs.Server::srv:freecs.Server" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="freecs.util.FileMonitor" />
+			<role name="uniqueInstance" element="freecs.util.FileMonitor::fm:freecs.util.FileMonitor" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="freecs.util.logger.LogCleaner" />
+			<role name="uniqueInstance" element="freecs.util.logger.LogCleaner::instance:freecs.util.logger.LogCleaner" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="freecs.util.logger.LogWriter" />
+			<role name="uniqueInstance" element="freecs.util.logger.LogWriter::instance:freecs.util.logger.LogWriter" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="freecs.util.TrafficMonitor" />
+			<role name="uniqueInstance" element="freecs.util.TrafficMonitor::tm:freecs.util.TrafficMonitor" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adaptee" element="freecs.core.UserManager$UserStore" />
+			<role name="Adapter" element="freecs.core.UserManager" />
+			<role name="adaptee" element="freecs.core.UserManager::ustr:freecs.core.UserManager$UserStore" />
+			<role name="Request()" element="freecs.core.UserManager::sendMessage(freecs.interfaces.IContainer):void" />
+			<role name="Request()" element="freecs.core.UserManager::users():java.util.Iterator" />
+		</instance>
+	</pattern>
+	<pattern name="Command" />
+	<pattern name="Composite" />
+	<pattern name="Decorator" />
+	<pattern name="Observer" />
+	<pattern name="State">
+		<instance>
+			<role name="Context" element="freecs.core.Group" />
+			<role name="State" element="freecs.interfaces.IGroupPlugin" />
+			<role name="state" element="freecs.core.Group::plugins:freecs.interfaces.IGroupPlugin[]" />
+			<role name="Request()" element="freecs.core.Group::addLoginUser(freecs.core.User):void" />
+			<role name="Request()" element="freecs.core.Group::addUser(freecs.core.User, freecs.core.User, boolean):boolean" />
+			<role name="Request()" element="freecs.core.Group::removeUser(freecs.core.User):void" />
+			<role name="Request()" element="freecs.core.Group::exclusiveSendMessage(freecs.interfaces.IContainer, java.util.List):void" />
+			<role name="Request()" element="freecs.core.Group::sendMsg(freecs.interfaces.IContainer):void" />
+			<role name="Request()" element="freecs.core.Group::sendModeratorMessage(freecs.interfaces.IContainer):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="freecs.Server" />
+			<role name="State" element="freecs.interfaces.IServerPlugin" />
+			<role name="state" element="freecs.Server::serverPlugin:freecs.interfaces.IServerPlugin[]" />
+			<role name="Request()" element="freecs.Server::loadPlugin(java.util.Vector):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="freecs.auth.AuthManager" />
+			<role name="State" element="freecs.auth.IAuthenticator" />
+			<role name="state" element="freecs.auth.AuthManager::list:freecs.auth.IAuthenticator[]" />
+			<role name="Request()" element="freecs.auth.AuthManager::createAuthenticators():void" />
+			<role name="Request()" element="freecs.auth.AuthManager::shutdown():void" />
+			<role name="Request()" element="freecs.auth.AuthManager::loginUser(java.lang.String, java.lang.String, java.lang.String, freecs.interfaces.IRequest):freecs.core.User" />
+			<role name="Request()" element="freecs.auth.AuthManager::logoutUser(freecs.core.User):void" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy" />
+	<pattern name="Bridge" />
+	<pattern name="Template Method" />
+	<pattern name="Visitor" />
+	<pattern name="Proxy">
+		<instance>
+			<role name="Proxy" element="freecs.core.Group" />
+			<role name="RealSubject" element="freecs.core.User" />
+			<role name="Request()" element="freecs.core.Group::sendMessage(freecs.interfaces.IContainer):void" />
+		</instance>
+	</pattern>
+	<pattern name="Proxy2" />
+	<pattern name="Chain of Responsibility" />
+</system>
+

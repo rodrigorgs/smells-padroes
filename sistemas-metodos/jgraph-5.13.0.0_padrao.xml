@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method">
+		<instance>
+			<role name="Creator" element="org.jgraph.graph.AbstractCellView" />
+			<role name="FactoryMethod()" element="org.jgraph.graph.AbstractCellView::getHandle(org.jgraph.graph.GraphContext):org.jgraph.graph.CellHandle" />
+		</instance>
+	</pattern>
+	<pattern name="Prototype" />
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="com.jgraph.algebra.JGraphAlgebra" />
+			<role name="uniqueInstance" element="com.jgraph.algebra.JGraphAlgebra::sharedInstance:com.jgraph.algebra.JGraphAlgebra" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.jgraph.example.GraphSelectionDemo" />
+			<role name="uniqueInstance" element="com.jgraph.example.GraphSelectionDemo::gtModel:com.jgraph.example.GraphSelectionDemo" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.jgraph.example.JGraphShadowBorder" />
+			<role name="uniqueInstance" element="com.jgraph.example.JGraphShadowBorder::sharedInstance:com.jgraph.example.JGraphShadowBorder" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.jgraph.graph.AttributeMap" />
+			<role name="uniqueInstance" element="org.jgraph.graph.AttributeMap::emptyAttributeMap:org.jgraph.graph.AttributeMap" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.jgraph.JGraph$EmptySelectionModel" />
+			<role name="uniqueInstance" element="org.jgraph.JGraph$EmptySelectionModel::sharedInstance:org.jgraph.JGraph$EmptySelectionModel" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.jgraph.util.ParallelEdgeRouter" />
+			<role name="uniqueInstance" element="org.jgraph.util.ParallelEdgeRouter::sharedInstance:org.jgraph.util.ParallelEdgeRouter" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adaptee" element="org.jgraph.JGraph" />
+			<role name="Adapter" element="org.jgraph.plaf.basic.BasicGraphUI" />
+			<role name="adaptee" element="org.jgraph.plaf.basic.BasicGraphUI::graph:org.jgraph.JGraph" />
+			<role name="Request()" element="org.jgraph.plaf.basic.BasicGraphUI::paintCell(java.awt.Graphics, org.jgraph.graph.CellView, java.awt.geom.Rectangle2D, boolean):void" />
+			<role name="Request()" element="org.jgraph.plaf.basic.BasicGraphUI::paintPorts(java.awt.Graphics, org.jgraph.graph.CellView[]):void" />
+			<role name="Request()" element="org.jgraph.plaf.basic.BasicGraphUI::updateHandle():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jgraph.JGraph" />
+			<role name="Adapter" element="org.jgraph.graph.EdgeView$EdgeHandle" />
+			<role name="adaptee" element="org.jgraph.graph.EdgeView$EdgeHandle::graph:org.jgraph.JGraph" />
+			<role name="Request()" element="org.jgraph.graph.EdgeView$EdgeHandle::paint(java.awt.Graphics):void" />
+			<role name="Request()" element="org.jgraph.graph.EdgeView$EdgeHandle::overlay(java.awt.Graphics):void" />
+			<role name="Request()" element="org.jgraph.graph.EdgeView$EdgeHandle::mouseMoved(java.awt.event.MouseEvent):void" />
+			<role name="Request()" element="org.jgraph.graph.EdgeView$EdgeHandle::mousePressed(java.awt.event.MouseEvent):void" />
+			<role name="Request()" element="org.jgraph.graph.EdgeView$EdgeHandle::mouseDragged(java.awt.event.MouseEvent):void" />
+			<role name="Request()" element="org.jgraph.graph.EdgeView$EdgeHandle::mouseReleased(java.awt.event.MouseEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jgraph.JGraph" />
+			<role name="Adapter" element="org.jgraph.graph.VertexView$SizeHandle" />
+			<role name="adaptee" element="org.jgraph.graph.VertexView$SizeHandle::graph:org.jgraph.JGraph" />
+			<role name="Request()" element="org.jgraph.graph.VertexView$SizeHandle::paint(java.awt.Graphics):void" />
+			<role name="Request()" element="org.jgraph.graph.VertexView$SizeHandle::overlay(java.awt.Graphics):void" />
+			<role name="Request()" element="org.jgraph.graph.VertexView$SizeHandle::mouseMoved(java.awt.event.MouseEvent):void" />
+			<role name="Request()" element="org.jgraph.graph.VertexView$SizeHandle::mousePressed(java.awt.event.MouseEvent):void" />
+			<role name="Request()" element="org.jgraph.graph.VertexView$SizeHandle::mouseDragged(java.awt.event.MouseEvent):void" />
+			<role name="Request()" element="org.jgraph.graph.VertexView$SizeHandle::mouseReleased(java.awt.event.MouseEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="org.jgraph.example.GraphEd" />
+			<role name="Adaptee" element="org.jgraph.JGraph" />
+			<role name="adaptee" element="org.jgraph.example.GraphEd::graph:org.jgraph.JGraph" />
+			<role name="Request()" element="org.jgraph.example.GraphEd::valueChanged(org.jgraph.event.GraphSelectionEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="org.jgraph.graph.DefaultGraphCellEditor" />
+			<role name="Adaptee" element="org.jgraph.JGraph" />
+			<role name="adaptee" element="org.jgraph.graph.DefaultGraphCellEditor::graph:org.jgraph.JGraph" />
+			<role name="Request()" element="org.jgraph.graph.DefaultGraphCellEditor::valueChanged(org.jgraph.event.GraphSelectionEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.jgraph.layout.JGraphFacade" />
+			<role name="Adapter" element="com.jgraph.layout.organic.JGraphOrganicLayout" />
+			<role name="adaptee" element="com.jgraph.layout.organic.JGraphOrganicLayout::facade:com.jgraph.layout.JGraphFacade" />
+			<role name="Request()" element="com.jgraph.layout.organic.JGraphOrganicLayout::run(com.jgraph.layout.JGraphFacade):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.jgraph.layout.JGraphFacade" />
+			<role name="Adapter" element="com.jgraph.layout.tree.JGraphAbstractTreeLayout" />
+			<role name="adaptee" element="com.jgraph.layout.tree.JGraphAbstractTreeLayout::graph:com.jgraph.layout.JGraphFacade" />
+			<role name="Request()" element="com.jgraph.layout.tree.JGraphAbstractTreeLayout::run(com.jgraph.layout.JGraphFacade):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jgraph.graph.CellView" />
+			<role name="Adapter" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle" />
+			<role name="adaptee" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle::views:org.jgraph.graph.CellView[]" />
+			<role name="adaptee" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle::contextViews:org.jgraph.graph.CellView[]" />
+			<role name="adaptee" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle::portViews:org.jgraph.graph.CellView[]" />
+			<role name="adaptee" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle::targetGroup:org.jgraph.graph.CellView" />
+			<role name="adaptee" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle::ignoreTargetGroup:org.jgraph.graph.CellView" />
+			<role name="Request()" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle::overlay(java.awt.Graphics):void" />
+			<role name="Request()" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle::mousePressed(java.awt.event.MouseEvent):void" />
+			<role name="Request()" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle::mouseDragged(java.awt.event.MouseEvent):void" />
+			<role name="Request()" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle::mouseReleased(java.awt.event.MouseEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jgraph.graph.EdgeView" />
+			<role name="Adapter" element="org.jgraph.graph.EdgeView$EdgeHandle" />
+			<role name="adaptee" element="org.jgraph.graph.EdgeView$EdgeHandle::edge:org.jgraph.graph.EdgeView" />
+			<role name="adaptee" element="org.jgraph.graph.EdgeView$EdgeHandle::orig:org.jgraph.graph.EdgeView" />
+			<role name="Request()" element="org.jgraph.graph.EdgeView$EdgeHandle::paint(java.awt.Graphics):void" />
+			<role name="Request()" element="org.jgraph.graph.EdgeView$EdgeHandle::overlay(java.awt.Graphics):void" />
+			<role name="Request()" element="org.jgraph.graph.EdgeView$EdgeHandle::mouseMoved(java.awt.event.MouseEvent):void" />
+			<role name="Request()" element="org.jgraph.graph.EdgeView$EdgeHandle::mousePressed(java.awt.event.MouseEvent):void" />
+			<role name="Request()" element="org.jgraph.graph.EdgeView$EdgeHandle::mouseDragged(java.awt.event.MouseEvent):void" />
+			<role name="Request()" element="org.jgraph.graph.EdgeView$EdgeHandle::mouseReleased(java.awt.event.MouseEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jgraph.graph.VertexView" />
+			<role name="Adapter" element="org.jgraph.graph.VertexView$SizeHandle" />
+			<role name="adaptee" element="org.jgraph.graph.VertexView$SizeHandle::vertex:org.jgraph.graph.VertexView" />
+			<role name="Request()" element="org.jgraph.graph.VertexView$SizeHandle::overlay(java.awt.Graphics):void" />
+			<role name="Request()" element="org.jgraph.graph.VertexView$SizeHandle::mousePressed(java.awt.event.MouseEvent):void" />
+			<role name="Request()" element="org.jgraph.graph.VertexView$SizeHandle::mouseDragged(java.awt.event.MouseEvent):void" />
+			<role name="Request()" element="org.jgraph.graph.VertexView$SizeHandle::mouseReleased(java.awt.event.MouseEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jgraph.graph.VertexView" />
+			<role name="Adapter" element="org.jgraph.graph.VertexRenderer" />
+			<role name="adaptee" element="org.jgraph.graph.VertexRenderer::view:org.jgraph.graph.VertexView" />
+			<role name="Request()" element="org.jgraph.graph.VertexRenderer::getRendererComponent(org.jgraph.JGraph, org.jgraph.graph.CellView, boolean, boolean, boolean):java.awt.Component" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.jgraph.layout.JGraphLayoutProgress" />
+			<role name="Adapter" element="com.jgraph.layout.hierarchical.JGraphHierarchicalLayout" />
+			<role name="adaptee" element="com.jgraph.layout.hierarchical.JGraphHierarchicalLayout::progress:com.jgraph.layout.JGraphLayoutProgress" />
+			<role name="Request()" element="com.jgraph.layout.hierarchical.JGraphHierarchicalLayout::run(com.jgraph.layout.JGraphFacade):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.jgraph.layout.JGraphLayoutProgress" />
+			<role name="Adapter" element="com.jgraph.layout.organic.JGraphOrganicLayout" />
+			<role name="adaptee" element="com.jgraph.layout.organic.JGraphOrganicLayout::progress:com.jgraph.layout.JGraphLayoutProgress" />
+			<role name="Request()" element="com.jgraph.layout.organic.JGraphOrganicLayout::run(com.jgraph.layout.JGraphFacade):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.jgraph.layout.JGraphLayoutProgress" />
+			<role name="Adapter" element="com.jgraph.layout.graph.JGraphSpringLayout" />
+			<role name="adaptee" element="com.jgraph.layout.graph.JGraphSpringLayout::progress:com.jgraph.layout.JGraphLayoutProgress" />
+			<role name="Request()" element="com.jgraph.layout.graph.JGraphSpringLayout::run(com.jgraph.layout.JGraphFacade):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.jgraph.layout.JGraphLayoutProgress" />
+			<role name="Adapter" element="com.jgraph.layout.organic.JGraphFastOrganicLayout" />
+			<role name="adaptee" element="com.jgraph.layout.organic.JGraphFastOrganicLayout::progress:com.jgraph.layout.JGraphLayoutProgress" />
+			<role name="Request()" element="com.jgraph.layout.organic.JGraphFastOrganicLayout::run(com.jgraph.layout.JGraphFacade):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.jgraph.example.mycellmodeleditor.MyEditorComponent" />
+			<role name="Adapter" element="com.jgraph.example.mycellmodeleditor.BusinessObjectEditor$RealCellEditor" />
+			<role name="adaptee" element="com.jgraph.example.mycellmodeleditor.BusinessObjectEditor$RealCellEditor::editorComponent:com.jgraph.example.mycellmodeleditor.MyEditorComponent" />
+			<role name="Request()" element="com.jgraph.example.mycellmodeleditor.BusinessObjectEditor$RealCellEditor::getGraphCellEditorComponent(org.jgraph.JGraph, java.lang.Object, boolean):java.awt.Component" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.jgraph.example.panelexample.FlyweightUIComponent" />
+			<role name="Adapter" element="com.jgraph.example.panelexample.BusinessObjectEditor2$RealCellEditor" />
+			<role name="adaptee" element="com.jgraph.example.panelexample.BusinessObjectEditor2$RealCellEditor::editorComponent:com.jgraph.example.panelexample.FlyweightUIComponent" />
+			<role name="Request()" element="com.jgraph.example.panelexample.BusinessObjectEditor2$RealCellEditor::getGraphCellEditorComponent(org.jgraph.JGraph, java.lang.Object, boolean):java.awt.Component" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.jgraph.layout.JGraphLayoutProgress" />
+			<role name="Adapter" element="com.jgraph.layout.hierarchical.JGraphMedianHybridCrossingReduction" />
+			<role name="adaptee" element="com.jgraph.layout.hierarchical.JGraphMedianHybridCrossingReduction::progress:com.jgraph.layout.JGraphLayoutProgress" />
+			<role name="Request()" element="com.jgraph.layout.hierarchical.JGraphMedianHybridCrossingReduction::run(com.jgraph.layout.JGraphFacade, com.jgraph.layout.hierarchical.model.JGraphHierarchyModel):com.jgraph.layout.hierarchical.model.JGraphHierarchyModel" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jgraph.graph.GraphContext" />
+			<role name="Adapter" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle" />
+			<role name="adaptee" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle::context:org.jgraph.graph.GraphContext" />
+			<role name="Request()" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle::mousePressed(java.awt.event.MouseEvent):void" />
+			<role name="Request()" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle::mouseDragged(java.awt.event.MouseEvent):void" />
+			<role name="Request()" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle::mouseReleased(java.awt.event.MouseEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jgraph.graph.GraphContext" />
+			<role name="Adapter" element="org.jgraph.graph.VertexView$SizeHandle" />
+			<role name="adaptee" element="org.jgraph.graph.VertexView$SizeHandle::context:org.jgraph.graph.GraphContext" />
+			<role name="Request()" element="org.jgraph.graph.VertexView$SizeHandle::mousePressed(java.awt.event.MouseEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jgraph.example.JGraphIconView$DescriptionTextArea" />
+			<role name="Adapter" element="org.jgraph.example.JGraphIconView$IconRenderer" />
+			<role name="adaptee" element="org.jgraph.example.JGraphIconView$IconRenderer::textRenderer:org.jgraph.example.JGraphIconView$DescriptionTextArea" />
+			<role name="Request()" element="org.jgraph.example.JGraphIconView$IconRenderer::getRendererComponent(org.jgraph.JGraph, org.jgraph.graph.CellView, boolean, boolean, boolean):java.awt.Component" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jgraph.example.JGraphIconView$IconDisplay" />
+			<role name="Adapter" element="org.jgraph.example.JGraphIconView$IconRenderer" />
+			<role name="adaptee" element="org.jgraph.example.JGraphIconView$IconRenderer::iconDisplay:org.jgraph.example.JGraphIconView$IconDisplay" />
+			<role name="Request()" element="org.jgraph.example.JGraphIconView$IconRenderer::getRendererComponent(org.jgraph.JGraph, org.jgraph.graph.CellView, boolean, boolean, boolean):java.awt.Component" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.jgraph.example.panelexample.FlyweightUIComponent" />
+			<role name="Adapter" element="com.jgraph.example.panelexample.PortLabelVertexView$WrapperPortLabelRenderer" />
+			<role name="adaptee" element="com.jgraph.example.panelexample.PortLabelVertexView$WrapperPortLabelRenderer::uiPanel:com.jgraph.example.panelexample.FlyweightUIComponent" />
+			<role name="Request()" element="com.jgraph.example.panelexample.PortLabelVertexView$WrapperPortLabelRenderer::getRendererComponent(org.jgraph.JGraph, org.jgraph.graph.CellView, boolean, boolean, boolean):java.awt.Component" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="org.jgraph.graph.GraphContext" />
+			<role name="Adaptee" element="org.jgraph.JGraph" />
+			<role name="adaptee" element="org.jgraph.graph.GraphContext::graph:org.jgraph.JGraph" />
+			<role name="Request()" element="org.jgraph.graph.GraphContext::getMapping(java.lang.Object, boolean):org.jgraph.graph.CellView" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="org.jgraph.graph.AbstractCellView" />
+			<role name="Adaptee" element="org.jgraph.graph.AttributeMap" />
+			<role name="adaptee" element="org.jgraph.graph.AbstractCellView::attributes:org.jgraph.graph.AttributeMap" />
+			<role name="Request()" element="org.jgraph.graph.AbstractCellView::changeAttributes(org.jgraph.graph.GraphLayoutCache, java.util.Map):java.util.Map" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jgraph.JGraph" />
+			<role name="Adapter" element="org.jgraph.graph.DefaultGraphSelectionModel" />
+			<role name="adaptee" element="org.jgraph.graph.DefaultGraphSelectionModel::graph:org.jgraph.JGraph" />
+			<role name="Request()" element="org.jgraph.graph.DefaultGraphSelectionModel::setSelectionCells(java.lang.Object[]):void" />
+			<role name="Request()" element="org.jgraph.graph.DefaultGraphSelectionModel::addSelectionCells(java.lang.Object[]):void" />
+			<role name="Request()" element="org.jgraph.graph.DefaultGraphSelectionModel::removeSelectionCells(java.lang.Object[]):void" />
+			<role name="Request()" element="org.jgraph.graph.DefaultGraphSelectionModel::getSelectables():java.lang.Object[]" />
+			<role name="Request()" element="org.jgraph.graph.DefaultGraphSelectionModel::clearSelection():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jgraph.graph.CellView" />
+			<role name="Adapter" element="org.jgraph.plaf.basic.BasicGraphUI" />
+			<role name="adaptee" element="org.jgraph.plaf.basic.BasicGraphUI::focus:org.jgraph.graph.CellView" />
+			<role name="Request()" element="org.jgraph.plaf.basic.BasicGraphUI::paintCell(java.awt.Graphics, org.jgraph.graph.CellView, java.awt.geom.Rectangle2D, boolean):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jgraph.graph.GraphCellEditor" />
+			<role name="Adapter" element="org.jgraph.plaf.basic.BasicGraphUI" />
+			<role name="adaptee" element="org.jgraph.plaf.basic.BasicGraphUI::cellEditor:org.jgraph.graph.GraphCellEditor" />
+			<role name="Request()" element="org.jgraph.plaf.basic.BasicGraphUI::stopEditing(org.jgraph.JGraph):boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jgraph.graph.GraphLayoutCache" />
+			<role name="Adapter" element="org.jgraph.plaf.basic.BasicGraphUI" />
+			<role name="adaptee" element="org.jgraph.plaf.basic.BasicGraphUI::graphLayoutCache:org.jgraph.graph.GraphLayoutCache" />
+			<role name="Request()" element="org.jgraph.plaf.basic.BasicGraphUI::updateHandle():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jgraph.graph.ConnectionSet" />
+			<role name="Adapter" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle" />
+			<role name="adaptee" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle::disconnect:org.jgraph.graph.ConnectionSet" />
+			<role name="Request()" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle::mouseReleased(java.awt.event.MouseEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.jgraph.layout.hierarchical.JGraphHierarchicalLayoutStep" />
+			<role name="Adapter" element="com.jgraph.layout.hierarchical.JGraphHierarchicalLayout" />
+			<role name="adaptee" element="com.jgraph.layout.hierarchical.JGraphHierarchicalLayout::cycleStage:com.jgraph.layout.hierarchical.JGraphHierarchicalLayoutStep" />
+			<role name="adaptee" element="com.jgraph.layout.hierarchical.JGraphHierarchicalLayout::layeringStage:com.jgraph.layout.hierarchical.JGraphHierarchicalLayoutStep" />
+			<role name="adaptee" element="com.jgraph.layout.hierarchical.JGraphHierarchicalLayout::crossingStage:com.jgraph.layout.hierarchical.JGraphHierarchicalLayoutStep" />
+			<role name="adaptee" element="com.jgraph.layout.hierarchical.JGraphHierarchicalLayout::placementStage:com.jgraph.layout.hierarchical.JGraphHierarchicalLayoutStep" />
+			<role name="Request()" element="com.jgraph.layout.hierarchical.JGraphHierarchicalLayout::run(com.jgraph.layout.JGraphFacade):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jgraph.graph.CellViewFactory" />
+			<role name="Adapter" element="org.jgraph.graph.GraphLayoutCache" />
+			<role name="adaptee" element="org.jgraph.graph.GraphLayoutCache::factory:org.jgraph.graph.CellViewFactory" />
+			<role name="Request()" element="org.jgraph.graph.GraphLayoutCache::getMapping(java.lang.Object, boolean):org.jgraph.graph.CellView" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jgraph.graph.CellMapper" />
+			<role name="Adapter" element="com.jgraph.algebra.cost.JGraphDistanceCostFunction" />
+			<role name="adaptee" element="com.jgraph.algebra.cost.JGraphDistanceCostFunction::mapper:org.jgraph.graph.CellMapper" />
+			<role name="Request()" element="com.jgraph.algebra.cost.JGraphDistanceCostFunction::getCost(java.lang.Object):double" />
+		</instance>
+	</pattern>
+	<pattern name="Command" />
+	<pattern name="Composite">
+		<instance>
+			<role name="Component" element="com.jgraph.layout.JGraphLayout" />
+			<role name="Composite" element="com.jgraph.layout.JGraphCompoundLayout" />
+			<role name="Operation()" element="com.jgraph.layout.JGraphCompoundLayout::run(com.jgraph.layout.JGraphFacade):void" />
+		</instance>
+	</pattern>
+	<pattern name="Decorator">
+		<instance>
+			<role name="Component" element="org.jgraph.graph.GraphCellEditor" />
+			<role name="Decorator" element="org.jgraph.graph.DefaultGraphCellEditor" />
+			<role name="component" element="org.jgraph.graph.DefaultGraphCellEditor::realEditor:org.jgraph.graph.GraphCellEditor" />
+			<role name="Operation()" element="org.jgraph.graph.DefaultGraphCellEditor::getGraphCellEditorComponent(org.jgraph.JGraph, java.lang.Object, boolean):java.awt.Component" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.jgraph.graph.CellView" />
+			<role name="Decorator" element="org.jgraph.graph.AbstractCellView" />
+			<role name="component" element="org.jgraph.graph.AbstractCellView::parent:org.jgraph.graph.CellView" />
+			<role name="Operation()" element="org.jgraph.graph.AbstractCellView::childUpdated():void" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.jgraph.graph.CellHandle" />
+			<role name="Decorator" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle" />
+			<role name="component" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle::handles:org.jgraph.graph.CellHandle[]" />
+			<role name="component" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle::activeHandle:org.jgraph.graph.CellHandle" />
+			<role name="Operation()" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle::paint(java.awt.Graphics):void" />
+			<role name="Operation()" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle::mouseMoved(java.awt.event.MouseEvent):void" />
+			<role name="Operation()" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle::mousePressed(java.awt.event.MouseEvent):void" />
+			<role name="Operation()" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle::mouseDragged(java.awt.event.MouseEvent):void" />
+			<role name="Operation()" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle::mouseReleased(java.awt.event.MouseEvent):void" />
+		</instance>
+	</pattern>
+	<pattern name="Observer">
+		<instance>
+			<role name="Observer" element="org.jgraph.graph.CellView" />
+			<role name="Subject" element="com.jgraph.example.portlabels.PortLabelVertexView$PortLabelVertexRenderer" />
+			<role name="Notify()" element="com.jgraph.example.portlabels.PortLabelVertexView$PortLabelVertexRenderer::paintPortLabels(java.awt.Graphics):void" />
+			<role name="Notify()" element="com.jgraph.example.portlabels.PortLabelVertexView$PortLabelVertexRenderer::getPreferredSize():java.awt.Dimension" />
+		</instance>
+	</pattern>
+	<pattern name="State">
+		<instance>
+			<role name="Context" element="com.jgraph.example.GraphSelectionDemo$GraphModelTreeNode" />
+			<role name="State" element="org.jgraph.graph.GraphModel" />
+			<role name="state" element="com.jgraph.example.GraphSelectionDemo$GraphModelTreeNode::model:org.jgraph.graph.GraphModel" />
+			<role name="Request()" element="com.jgraph.example.GraphSelectionDemo$GraphModelTreeNode::children():java.util.Enumeration" />
+			<role name="Request()" element="com.jgraph.example.GraphSelectionDemo$GraphModelTreeNode::getChildAt(int):javax.swing.tree.TreeNode" />
+			<role name="Request()" element="com.jgraph.example.GraphSelectionDemo$GraphModelTreeNode::getChildCount():int" />
+			<role name="Request()" element="com.jgraph.example.GraphSelectionDemo$GraphModelTreeNode::getIndex(javax.swing.tree.TreeNode):int" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.jgraph.example.GraphTreeModel$GraphModelTreeNode" />
+			<role name="State" element="org.jgraph.graph.GraphModel" />
+			<role name="state" element="com.jgraph.example.GraphTreeModel$GraphModelTreeNode::model:org.jgraph.graph.GraphModel" />
+			<role name="Request()" element="com.jgraph.example.GraphTreeModel$GraphModelTreeNode::children():java.util.Enumeration" />
+			<role name="Request()" element="com.jgraph.example.GraphTreeModel$GraphModelTreeNode::getChildAt(int):javax.swing.tree.TreeNode" />
+			<role name="Request()" element="com.jgraph.example.GraphTreeModel$GraphModelTreeNode::getChildCount():int" />
+			<role name="Request()" element="com.jgraph.example.GraphTreeModel$GraphModelTreeNode::getIndex(javax.swing.tree.TreeNode):int" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.jgraph.layout.JGraphModelLayoutExample" />
+			<role name="State" element="org.jgraph.graph.GraphModel" />
+			<role name="state" element="com.jgraph.layout.JGraphModelLayoutExample::persistModel:org.jgraph.graph.GraphModel" />
+			<role name="Request()" element="com.jgraph.layout.JGraphModelLayoutExample::main(java.lang.String[]):void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jgraph.graph.CellView" />
+			<role name="Context" element="org.jgraph.graph.VertexView$SizeHandle" />
+			<role name="state" element="org.jgraph.graph.VertexView$SizeHandle::contextViews:org.jgraph.graph.CellView[]" />
+			<role name="state" element="org.jgraph.graph.VertexView$SizeHandle::portViews:org.jgraph.graph.CellView[]" />
+			<role name="Request()" element="org.jgraph.graph.VertexView$SizeHandle::overlay(java.awt.Graphics):void" />
+			<role name="Request()" element="org.jgraph.graph.VertexView$SizeHandle::mouseDragged(java.awt.event.MouseEvent):void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jgraph.graph.CellView" />
+			<role name="Context" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle" />
+			<role name="state" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle::views:org.jgraph.graph.CellView[]" />
+			<role name="state" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle::contextViews:org.jgraph.graph.CellView[]" />
+			<role name="state" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle::portViews:org.jgraph.graph.CellView[]" />
+			<role name="state" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle::targetGroup:org.jgraph.graph.CellView" />
+			<role name="state" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle::ignoreTargetGroup:org.jgraph.graph.CellView" />
+			<role name="Request()" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle::overlay(java.awt.Graphics):void" />
+			<role name="Request()" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle::mousePressed(java.awt.event.MouseEvent):void" />
+			<role name="Request()" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle::findViewForPoint(java.awt.geom.Point2D):org.jgraph.graph.CellView" />
+			<role name="Request()" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle::mouseDragged(java.awt.event.MouseEvent):void" />
+			<role name="Request()" element="org.jgraph.plaf.basic.BasicGraphUI$RootHandle::mouseReleased(java.awt.event.MouseEvent):void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jgraph.graph.CellView" />
+			<role name="Context" element="com.jgraph.example.portlabels.PortLabelVertexView$PortLabelVertexRenderer" />
+			<role name="state" element="com.jgraph.example.portlabels.PortLabelVertexView$PortLabelVertexRenderer::ports:org.jgraph.graph.CellView[]" />
+			<role name="Request()" element="com.jgraph.example.portlabels.PortLabelVertexView$PortLabelVertexRenderer::getRendererComponent(org.jgraph.JGraph, org.jgraph.graph.CellView, boolean, boolean, boolean):java.awt.Component" />
+			<role name="Request()" element="com.jgraph.example.portlabels.PortLabelVertexView$PortLabelVertexRenderer::paintPortLabels(java.awt.Graphics):void" />
+			<role name="Request()" element="com.jgraph.example.portlabels.PortLabelVertexView$PortLabelVertexRenderer::getPreferredSize():java.awt.Dimension" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jgraph.graph.GraphModel" />
+			<role name="Context" element="org.jgraph.graph.GraphLayoutCache" />
+			<role name="state" element="org.jgraph.graph.GraphLayoutCache::graphModel:org.jgraph.graph.GraphModel" />
+			<role name="Request()" element="org.jgraph.graph.GraphLayoutCache::updatePorts():void" />
+			<role name="Request()" element="org.jgraph.graph.GraphLayoutCache::hideCellsForChange(org.jgraph.event.GraphModelEvent$GraphModelChange):void" />
+			<role name="Request()" element="org.jgraph.graph.GraphLayoutCache::showCellsForChange(org.jgraph.event.GraphModelEvent$GraphModelChange):void" />
+			<role name="Request()" element="org.jgraph.graph.GraphLayoutCache::insertViews(org.jgraph.graph.CellView[]):void" />
+			<role name="Request()" element="org.jgraph.graph.GraphLayoutCache::setVisible(java.lang.Object[], java.lang.Object[], java.util.Map, org.jgraph.graph.ConnectionSet):void" />
+			<role name="Request()" element="org.jgraph.graph.GraphLayoutCache::addVisibleDependencies(java.lang.Object[], boolean):java.lang.Object[]" />
+			<role name="Request()" element="org.jgraph.graph.GraphLayoutCache::getParentPorts(java.lang.Object):java.util.Collection" />
+			<role name="Request()" element="org.jgraph.graph.GraphLayoutCache::getPorts(java.lang.Object):java.util.Collection" />
+			<role name="Request()" element="org.jgraph.graph.GraphLayoutCache::insert(java.lang.Object[], java.util.Map, org.jgraph.graph.ConnectionSet, org.jgraph.graph.ParentMap, javax.swing.undo.UndoableEdit[]):void" />
+			<role name="Request()" element="org.jgraph.graph.GraphLayoutCache::remove(java.lang.Object[]):void" />
+			<role name="Request()" element="org.jgraph.graph.GraphLayoutCache::edit(java.util.Map, org.jgraph.graph.ConnectionSet, org.jgraph.graph.ParentMap, javax.swing.undo.UndoableEdit[]):void" />
+			<role name="Request()" element="org.jgraph.graph.GraphLayoutCache::toBack(java.lang.Object[]):void" />
+			<role name="Request()" element="org.jgraph.graph.GraphLayoutCache::toFront(java.lang.Object[]):void" />
+			<role name="Request()" element="org.jgraph.graph.GraphLayoutCache::copyRemovedViewValue(java.lang.Object, boolean, boolean, java.util.Collection):void" />
+			<role name="Request()" element="org.jgraph.graph.GraphLayoutCache::getAllDescendants(org.jgraph.graph.CellView[]):org.jgraph.graph.CellView[]" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jgraph.plaf.basic.BasicGraphUI$MouseHandler" />
+			<role name="State" element="org.jgraph.graph.CellView" />
+			<role name="state" element="org.jgraph.plaf.basic.BasicGraphUI$MouseHandler::cell:org.jgraph.graph.CellView" />
+			<role name="Request()" element="org.jgraph.plaf.basic.BasicGraphUI$MouseHandler::mousePressed(java.awt.event.MouseEvent):void" />
+			<role name="Request()" element="org.jgraph.plaf.basic.BasicGraphUI$MouseHandler::mouseDragged(java.awt.event.MouseEvent):void" />
+			<role name="Request()" element="org.jgraph.plaf.basic.BasicGraphUI$MouseHandler::mouseReleased(java.awt.event.MouseEvent):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.jgraph.layout.JGraphFacade" />
+			<role name="State" element="org.jgraph.graph.GraphModel" />
+			<role name="state" element="com.jgraph.layout.JGraphFacade::model:org.jgraph.graph.GraphModel" />
+			<role name="Request()" element="com.jgraph.layout.JGraphFacade::isVertex(java.lang.Object):boolean" />
+			<role name="Request()" element="com.jgraph.layout.JGraphFacade::isEdge(java.lang.Object):boolean" />
+			<role name="Request()" element="com.jgraph.layout.JGraphFacade::getNeighbours(java.lang.Object, java.util.Set, boolean):java.util.List" />
+			<role name="Request()" element="com.jgraph.layout.JGraphFacade::getSource(java.lang.Object):java.lang.Object" />
+			<role name="Request()" element="com.jgraph.layout.JGraphFacade::getTarget(java.lang.Object):java.lang.Object" />
+			<role name="Request()" element="com.jgraph.layout.JGraphFacade::getSourcePort(java.lang.Object):java.lang.Object" />
+			<role name="Request()" element="com.jgraph.layout.JGraphFacade::getTargetPort(java.lang.Object):java.lang.Object" />
+			<role name="Request()" element="com.jgraph.layout.JGraphFacade::getIncomingEdges(java.lang.Object, java.util.Set, boolean, boolean):java.util.List" />
+			<role name="Request()" element="com.jgraph.layout.JGraphFacade::getAttributes(java.lang.Object):java.util.Map" />
+			<role name="Request()" element="com.jgraph.layout.JGraphFacade::getGraphOrigin():java.awt.geom.Point2D" />
+			<role name="Request()" element="com.jgraph.layout.JGraphFacade::getBounds(java.lang.Object):java.awt.geom.Rectangle2D" />
+			<role name="Request()" element="com.jgraph.layout.JGraphFacade::setLocation(java.lang.Object, double, double, boolean):void" />
+			<role name="Request()" element="com.jgraph.layout.JGraphFacade::translate(java.lang.Object, double, double):void" />
+			<role name="Request()" element="com.jgraph.layout.JGraphFacade::populateGroupHierarchies(java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.jgraph.example.GraphEdMV" />
+			<role name="State" element="org.jgraph.graph.GraphModel" />
+			<role name="state" element="com.jgraph.example.GraphEdMV::model:org.jgraph.graph.GraphModel" />
+			<role name="Request()" element="com.jgraph.example.GraphEdMV::main(java.lang.String[]):void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jgraph.graph.GraphSelectionModel" />
+			<role name="Context" element="org.jgraph.JGraph" />
+			<role name="state" element="org.jgraph.JGraph::selectionModel:org.jgraph.graph.GraphSelectionModel" />
+			<role name="Request()" element="org.jgraph.JGraph::getNextViewAt(org.jgraph.graph.CellView[], org.jgraph.graph.CellView, double, double, boolean):org.jgraph.graph.CellView" />
+			<role name="Request()" element="org.jgraph.JGraph::setSelectionModel(org.jgraph.graph.GraphSelectionModel):void" />
+			<role name="Request()" element="org.jgraph.JGraph::addGraphSelectionListener(org.jgraph.event.GraphSelectionListener):void" />
+			<role name="Request()" element="org.jgraph.JGraph::removeGraphSelectionListener(org.jgraph.event.GraphSelectionListener):void" />
+			<role name="Request()" element="org.jgraph.JGraph::readObject(java.io.ObjectInputStream):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jgraph.JGraph" />
+			<role name="State" element="org.jgraph.graph.GraphModel" />
+			<role name="state" element="org.jgraph.JGraph::graphModel:org.jgraph.graph.GraphModel" />
+			<role name="Request()" element="org.jgraph.JGraph::cloneCells(java.lang.Object[]):java.util.Map" />
+			<role name="Request()" element="org.jgraph.JGraph::getPortViewAt(double, double, int):org.jgraph.graph.PortView" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jgraph.plaf.basic.BasicGraphUI" />
+			<role name="State" element="org.jgraph.graph.CellView" />
+			<role name="state" element="org.jgraph.plaf.basic.BasicGraphUI::focus:org.jgraph.graph.CellView" />
+			<role name="Request()" element="org.jgraph.plaf.basic.BasicGraphUI::getFocusedCell():java.lang.Object" />
+			<role name="Request()" element="org.jgraph.plaf.basic.BasicGraphUI::paintCell(java.awt.Graphics, org.jgraph.graph.CellView, java.awt.geom.Rectangle2D, boolean):void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jgraph.graph.GraphCellEditor" />
+			<role name="Context" element="org.jgraph.plaf.basic.BasicGraphUI" />
+			<role name="state" element="org.jgraph.plaf.basic.BasicGraphUI::cellEditor:org.jgraph.graph.GraphCellEditor" />
+			<role name="Request()" element="org.jgraph.plaf.basic.BasicGraphUI::startEditing(java.lang.Object, java.awt.event.MouseEvent):boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.jgraph.example.adapter.JGraphAdapterModel" />
+			<role name="State" element="com.jgraph.example.adapter.JGraphAdapterBackend" />
+			<role name="state" element="com.jgraph.example.adapter.JGraphAdapterModel::backend:com.jgraph.example.adapter.JGraphAdapterBackend" />
+			<role name="Request()" element="com.jgraph.example.adapter.JGraphAdapterModel::fireCommit():void" />
+			<role name="Request()" element="com.jgraph.example.adapter.JGraphAdapterModel::fireRollback():void" />
+			<role name="Request()" element="com.jgraph.example.adapter.JGraphAdapterModel::fireVertexAdded(java.lang.Object, boolean):void" />
+			<role name="Request()" element="com.jgraph.example.adapter.JGraphAdapterModel::fireEdgeAdded(java.lang.Object, java.lang.Object, java.lang.Object, boolean):void" />
+			<role name="Request()" element="com.jgraph.example.adapter.JGraphAdapterModel::fireCellRemoved(java.lang.Object, boolean):void" />
+			<role name="Request()" element="com.jgraph.example.adapter.JGraphAdapterModel::fireParentChanged(java.lang.Object, java.lang.Object, boolean):void" />
+			<role name="Request()" element="com.jgraph.example.adapter.JGraphAdapterModel::fireSourceChanged(java.lang.Object, java.lang.Object, boolean):void" />
+			<role name="Request()" element="com.jgraph.example.adapter.JGraphAdapterModel::fireTargetChanged(java.lang.Object, java.lang.Object, boolean):void" />
+			<role name="Request()" element="com.jgraph.example.adapter.JGraphAdapterModel::fireAttributesChanged(java.lang.Object, java.util.Map, boolean):void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jgraph.graph.CellHandle" />
+			<role name="Context" element="org.jgraph.plaf.basic.BasicGraphUI" />
+			<role name="state" element="org.jgraph.plaf.basic.BasicGraphUI::handle:org.jgraph.graph.CellHandle" />
+			<role name="Request()" element="org.jgraph.plaf.basic.BasicGraphUI::paint(java.awt.Graphics, javax.swing.JComponent):void" />
+			<role name="Request()" element="org.jgraph.plaf.basic.BasicGraphUI::drawGraph(java.awt.Graphics, java.awt.geom.Rectangle2D):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.jgraph.layout.hierarchical.JGraphHierarchicalLayout" />
+			<role name="State" element="com.jgraph.layout.hierarchical.JGraphHierarchicalLayoutStep" />
+			<role name="state" element="com.jgraph.layout.hierarchical.JGraphHierarchicalLayout::cycleStage:com.jgraph.layout.hierarchical.JGraphHierarchicalLayoutStep" />
+			<role name="state" element="com.jgraph.layout.hierarchical.JGraphHierarchicalLayout::layeringStage:com.jgraph.layout.hierarchical.JGraphHierarchicalLayoutStep" />
+			<role name="state" element="com.jgraph.layout.hierarchical.JGraphHierarchicalLayout::crossingStage:com.jgraph.layout.hierarchical.JGraphHierarchicalLayoutStep" />
+			<role name="state" element="com.jgraph.layout.hierarchical.JGraphHierarchicalLayout::placementStage:com.jgraph.layout.hierarchical.JGraphHierarchicalLayoutStep" />
+			<role name="Request()" element="com.jgraph.layout.hierarchical.JGraphHierarchicalLayout::run(com.jgraph.layout.JGraphFacade):void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jgraph.graph.CellViewFactory" />
+			<role name="Context" element="org.jgraph.graph.GraphLayoutCache" />
+			<role name="state" element="org.jgraph.graph.GraphLayoutCache::factory:org.jgraph.graph.CellViewFactory" />
+			<role name="Request()" element="org.jgraph.graph.GraphLayoutCache::getMapping(java.lang.Object, boolean):org.jgraph.graph.CellView" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jgraph.plaf.basic.BasicGraphUI" />
+			<role name="State" element="org.jgraph.graph.GraphModel" />
+			<role name="state" element="org.jgraph.plaf.basic.BasicGraphUI::graphModel:org.jgraph.graph.GraphModel" />
+			<role name="Request()" element="org.jgraph.plaf.basic.BasicGraphUI::setModel(org.jgraph.graph.GraphModel):void" />
+			<role name="Request()" element="org.jgraph.plaf.basic.BasicGraphUI::installListeners():void" />
+			<role name="Request()" element="org.jgraph.plaf.basic.BasicGraphUI::uninstallListeners():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.jgraph.layout.JGraphFacade" />
+			<role name="State" element="com.jgraph.algebra.cost.JGraphCostFunction" />
+			<role name="state" element="com.jgraph.layout.JGraphFacade::distanceCostFunction:com.jgraph.algebra.cost.JGraphCostFunction" />
+			<role name="Request()" element="com.jgraph.layout.JGraphFacade::getLength(java.lang.Object):double" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jgraph.plaf.basic.BasicGraphUI" />
+			<role name="State" element="org.jgraph.graph.GraphSelectionModel" />
+			<role name="state" element="org.jgraph.plaf.basic.BasicGraphUI::graphSelectionModel:org.jgraph.graph.GraphSelectionModel" />
+			<role name="Request()" element="org.jgraph.plaf.basic.BasicGraphUI::setSelectionModel(org.jgraph.graph.GraphSelectionModel):void" />
+			<role name="Request()" element="org.jgraph.plaf.basic.BasicGraphUI::installListeners():void" />
+			<role name="Request()" element="org.jgraph.plaf.basic.BasicGraphUI::uninstallListeners():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.jgraph.algebra.cost.JGraphDistanceCostFunction" />
+			<role name="State" element="org.jgraph.graph.CellMapper" />
+			<role name="state" element="com.jgraph.algebra.cost.JGraphDistanceCostFunction::mapper:org.jgraph.graph.CellMapper" />
+			<role name="Request()" element="com.jgraph.algebra.cost.JGraphDistanceCostFunction::getCost(java.lang.Object):double" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jgraph.graph.GraphLayoutCache$GraphLayoutCacheEdit" />
+			<role name="State" element="org.jgraph.graph.CellView" />
+			<role name="state" element="org.jgraph.graph.GraphLayoutCache$GraphLayoutCacheEdit::hidden:org.jgraph.graph.CellView[]" />
+			<role name="state" element="org.jgraph.graph.GraphLayoutCache$GraphLayoutCacheEdit::context:org.jgraph.graph.CellView[]" />
+			<role name="Request()" element="org.jgraph.graph.GraphLayoutCache$GraphLayoutCacheEdit::execute():void" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy" />
+	<pattern name="Bridge" />
+	<pattern name="Template Method">
+		<instance>
+			<role name="AbstractClass" element="com.jgraph.layout.hierarchical.model.JGraphAbstractHierarchyCell" />
+			<role name="TemplateMethod()" element="com.jgraph.layout.hierarchical.model.JGraphAbstractHierarchyCell::setX(int, double):void" />
+			<role name="TemplateMethod()" element="com.jgraph.layout.hierarchical.model.JGraphAbstractHierarchyCell::getX(int):double" />
+			<role name="TemplateMethod()" element="com.jgraph.layout.hierarchical.model.JGraphAbstractHierarchyCell::setY(int, double):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.jgraph.example.JGraphAbstractIconAnimator" />
+			<role name="TemplateMethod()" element="org.jgraph.example.JGraphAbstractIconAnimator::repaint(java.awt.Component, java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.jgraph.graph.AbstractCellView" />
+			<role name="TemplateMethod()" element="org.jgraph.graph.AbstractCellView::getRendererComponent(org.jgraph.JGraph, boolean, boolean, boolean):java.awt.Component" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.jgraph.graph.ExecutableChange" />
+			<role name="TemplateMethod()" element="org.jgraph.graph.ExecutableChange::undo():void" />
+			<role name="TemplateMethod()" element="org.jgraph.graph.ExecutableChange::redo():void" />
+		</instance>
+	</pattern>
+	<pattern name="Visitor" />
+	<pattern name="Proxy">
+		<instance>
+			<role name="Proxy" element="com.jgraph.example.portlabels.PortLabelVertexView$WrapperPortLabelRenderer" />
+			<role name="RealSubject" element="com.jgraph.example.portlabels.PortLabelVertexView$PortLabelVertexRenderer" />
+			<role name="Request()" element="com.jgraph.example.portlabels.PortLabelVertexView$WrapperPortLabelRenderer::getRendererComponent(org.jgraph.JGraph, org.jgraph.graph.CellView, boolean, boolean, boolean):java.awt.Component" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="org.jgraph.graph.GraphContext" />
+			<role name="RealSubject" element="org.jgraph.graph.GraphLayoutCache" />
+			<role name="Request()" element="org.jgraph.graph.GraphContext::getMapping(java.lang.Object, boolean):org.jgraph.graph.CellView" />
+		</instance>
+	</pattern>
+	<pattern name="Proxy2" />
+	<pattern name="Chain of Responsibility" />
+</system>
+

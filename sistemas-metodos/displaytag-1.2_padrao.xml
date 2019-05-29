@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method">
+		<instance>
+			<role name="Creator" element="org.displaytag.decorator.DecoratorFactory" />
+			<role name="FactoryMethod()" element="org.displaytag.decorator.DecoratorFactory::loadColumnDecorator(javax.servlet.jsp.PageContext, java.lang.String):org.displaytag.decorator.DisplaytagColumnDecorator" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.displaytag.properties.AbstractTitleKeyAutoColumnTest" />
+			<role name="FactoryMethod()" element="org.displaytag.properties.AbstractTitleKeyAutoColumnTest::getI18nResourceProvider():org.displaytag.localization.I18nResourceProvider" />
+			<role name="FactoryMethod()" element="org.displaytag.properties.AbstractTitleKeyAutoColumnTest::getResolver():org.displaytag.localization.LocaleResolver" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.displaytag.properties.AbstractTitleKeyTest" />
+			<role name="FactoryMethod()" element="org.displaytag.properties.AbstractTitleKeyTest::getI18nResourceProvider():org.displaytag.localization.I18nResourceProvider" />
+			<role name="FactoryMethod()" element="org.displaytag.properties.AbstractTitleKeyTest::getResolver():org.displaytag.localization.LocaleResolver" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.displaytag.util.RequestHelper" />
+			<role name="FactoryMethod()" element="org.displaytag.util.RequestHelper::getHref():org.displaytag.util.Href" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.displaytag.util.RequestHelperFactory" />
+			<role name="FactoryMethod()" element="org.displaytag.util.RequestHelperFactory::getRequestHelperInstance(javax.servlet.jsp.PageContext):org.displaytag.util.RequestHelper" />
+		</instance>
+	</pattern>
+	<pattern name="Prototype">
+		<instance>
+			<role name="Client" element="org.displaytag.render.HtmlTableWriter" />
+			<role name="Prototype" element="org.displaytag.util.Href" />
+			<role name="prototype" element="org.displaytag.render.HtmlTableWriter::baseHref:org.displaytag.util.Href" />
+			<role name="Operation()" element="org.displaytag.render.HtmlTableWriter::getSortingHref(org.displaytag.model.HeaderCell):org.displaytag.util.Href" />
+			<role name="Operation()" element="org.displaytag.render.HtmlTableWriter::writeSearchResultAndNavigation():void" />
+			<role name="Operation()" element="org.displaytag.render.HtmlTableWriter::writeExportLinks():void" />
+		</instance>
+		<instance>
+			<role name="Client" element="org.displaytag.util.PostHref" />
+			<role name="Prototype" element="org.displaytag.util.Href" />
+			<role name="prototype" element="org.displaytag.util.PostHref::parent:org.displaytag.util.Href" />
+			<role name="Operation()" element="org.displaytag.util.PostHref::clone():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Prototype" element="org.displaytag.util.Href" />
+			<role name="Client" element="org.displaytag.pagination.Pagination" />
+			<role name="prototype" element="org.displaytag.pagination.Pagination::href:org.displaytag.util.Href" />
+			<role name="Operation()" element="org.displaytag.pagination.Pagination::getFormattedBanner(java.lang.String, java.lang.String, java.lang.String, java.lang.String):java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Client" element="org.displaytag.tags.ColumnTag" />
+			<role name="Prototype" element="org.displaytag.util.Href" />
+			<role name="prototype" element="org.displaytag.tags.ColumnTag::href:org.displaytag.util.Href" />
+			<role name="Operation()" element="org.displaytag.tags.ColumnTag::addHeaderToTable(org.displaytag.tags.TableTag):void" />
+		</instance>
+	</pattern>
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="org.displaytag.exception.SeverityEnum" />
+			<role name="uniqueInstance" element="org.displaytag.exception.SeverityEnum::FATAL:org.displaytag.exception.SeverityEnum" />
+			<role name="uniqueInstance" element="org.displaytag.exception.SeverityEnum::ERROR:org.displaytag.exception.SeverityEnum" />
+			<role name="uniqueInstance" element="org.displaytag.exception.SeverityEnum::WARN:org.displaytag.exception.SeverityEnum" />
+			<role name="uniqueInstance" element="org.displaytag.exception.SeverityEnum::INFO:org.displaytag.exception.SeverityEnum" />
+			<role name="uniqueInstance" element="org.displaytag.exception.SeverityEnum::DEBUG:org.displaytag.exception.SeverityEnum" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.displaytag.export.ExportViewFactory" />
+			<role name="uniqueInstance" element="org.displaytag.export.ExportViewFactory::instance:org.displaytag.export.ExportViewFactory" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.displaytag.model.Cell" />
+			<role name="uniqueInstance" element="org.displaytag.model.Cell::EMPTY_CELL:org.displaytag.model.Cell" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.displaytag.properties.MediaTypeEnum" />
+			<role name="uniqueInstance" element="org.displaytag.properties.MediaTypeEnum::HTML:org.displaytag.properties.MediaTypeEnum" />
+			<role name="uniqueInstance" element="org.displaytag.properties.MediaTypeEnum::CSV:org.displaytag.properties.MediaTypeEnum" />
+			<role name="uniqueInstance" element="org.displaytag.properties.MediaTypeEnum::EXCEL:org.displaytag.properties.MediaTypeEnum" />
+			<role name="uniqueInstance" element="org.displaytag.properties.MediaTypeEnum::XML:org.displaytag.properties.MediaTypeEnum" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.displaytag.properties.SortOrderEnum" />
+			<role name="uniqueInstance" element="org.displaytag.properties.SortOrderEnum::DESCENDING:org.displaytag.properties.SortOrderEnum" />
+			<role name="uniqueInstance" element="org.displaytag.properties.SortOrderEnum::ASCENDING:org.displaytag.properties.SortOrderEnum" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adaptee" element="org.displaytag.model.TableModel" />
+			<role name="Adapter" element="org.displaytag.export.DefaultItextExportView" />
+			<role name="adaptee" element="org.displaytag.export.DefaultItextExportView::model:org.displaytag.model.TableModel" />
+			<role name="Request()" element="org.displaytag.export.DefaultItextExportView::doExport(java.io.OutputStream):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.displaytag.model.TableModel" />
+			<role name="Adapter" element="org.displaytag.export.excel.ExcelHssfView" />
+			<role name="adaptee" element="org.displaytag.export.excel.ExcelHssfView::model:org.displaytag.model.TableModel" />
+			<role name="Request()" element="org.displaytag.export.excel.ExcelHssfView::doExport(java.io.OutputStream):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.displaytag.model.TableModel" />
+			<role name="Adapter" element="org.displaytag.export.BaseExportView" />
+			<role name="adaptee" element="org.displaytag.export.BaseExportView::model:org.displaytag.model.TableModel" />
+			<role name="Request()" element="org.displaytag.export.BaseExportView::doExport(java.io.Writer):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.displaytag.filter.SimpleServletOutputStream" />
+			<role name="Adapter" element="org.displaytag.filter.BufferedResponseWrapper13Impl" />
+			<role name="adaptee" element="org.displaytag.filter.BufferedResponseWrapper13Impl::servletOutputStream:org.displaytag.filter.SimpleServletOutputStream" />
+			<role name="Request()" element="org.displaytag.filter.BufferedResponseWrapper13Impl::getContentAsString():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.displaytag.decorator.ColumnDecorator" />
+			<role name="Adapter" element="org.displaytag.decorator.DefaultDecoratorFactory$DeprecatedDecoratorWrapper" />
+			<role name="adaptee" element="org.displaytag.decorator.DefaultDecoratorFactory$DeprecatedDecoratorWrapper::decorator:org.displaytag.decorator.ColumnDecorator" />
+			<role name="Request()" element="org.displaytag.decorator.DefaultDecoratorFactory$DeprecatedDecoratorWrapper::decorate(java.lang.Object, javax.servlet.jsp.PageContext, org.displaytag.properties.MediaTypeEnum):java.lang.Object" />
+		</instance>
+	</pattern>
+	<pattern name="Command" />
+	<pattern name="Composite" />
+	<pattern name="Decorator">
+		<instance>
+			<role name="Component" element="org.displaytag.util.Href" />
+			<role name="Decorator" element="org.displaytag.util.PostHref" />
+			<role name="component" element="org.displaytag.util.PostHref::parent:org.displaytag.util.Href" />
+			<role name="Operation()" element="org.displaytag.util.PostHref::addParameter(java.lang.String, java.lang.Object):org.displaytag.util.Href" />
+			<role name="Operation()" element="org.displaytag.util.PostHref::addParameter(java.lang.String, int):org.displaytag.util.Href" />
+			<role name="Operation()" element="org.displaytag.util.PostHref::addParameterMap(java.util.Map):void" />
+			<role name="Operation()" element="org.displaytag.util.PostHref::equals(java.lang.Object):boolean" />
+			<role name="Operation()" element="org.displaytag.util.PostHref::getAnchor():java.lang.String" />
+			<role name="Operation()" element="org.displaytag.util.PostHref::getBaseUrl():java.lang.String" />
+			<role name="Operation()" element="org.displaytag.util.PostHref::getParameterMap():java.util.Map" />
+			<role name="Operation()" element="org.displaytag.util.PostHref::removeParameter(java.lang.String):void" />
+			<role name="Operation()" element="org.displaytag.util.PostHref::setAnchor(java.lang.String):void" />
+			<role name="Operation()" element="org.displaytag.util.PostHref::setFullUrl(java.lang.String):void" />
+			<role name="Operation()" element="org.displaytag.util.PostHref::setParameterMap(java.util.Map):void" />
+			<role name="Operation()" element="org.displaytag.util.PostHref::clone():java.lang.Object" />
+		</instance>
+	</pattern>
+	<pattern name="Observer" />
+	<pattern name="State">
+		<instance>
+			<role name="Context" element="org.displaytag.render.HtmlTableWriter" />
+			<role name="State" element="org.displaytag.util.Href" />
+			<role name="state" element="org.displaytag.render.HtmlTableWriter::baseHref:org.displaytag.util.Href" />
+			<role name="Request()" element="org.displaytag.render.HtmlTableWriter::writeFormFields():void" />
+			<role name="Request()" element="org.displaytag.render.HtmlTableWriter::getSortingHref(org.displaytag.model.HeaderCell):org.displaytag.util.Href" />
+			<role name="Request()" element="org.displaytag.render.HtmlTableWriter::writeSearchResultAndNavigation():void" />
+			<role name="Request()" element="org.displaytag.render.HtmlTableWriter::writeExportLinks():void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.displaytag.util.Href" />
+			<role name="Context" element="org.displaytag.util.Anchor" />
+			<role name="state" element="org.displaytag.util.Anchor::href:org.displaytag.util.Href" />
+			<role name="Request()" element="org.displaytag.util.Anchor::getHrefString():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="State" element="org.displaytag.util.Href" />
+			<role name="Context" element="org.displaytag.pagination.Pagination" />
+			<role name="state" element="org.displaytag.pagination.Pagination::href:org.displaytag.util.Href" />
+			<role name="Request()" element="org.displaytag.pagination.Pagination::getFormattedBanner(java.lang.String, java.lang.String, java.lang.String, java.lang.String):java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.displaytag.pagination.PaginatedListSmartListHelper" />
+			<role name="State" element="org.displaytag.pagination.PaginatedList" />
+			<role name="state" element="org.displaytag.pagination.PaginatedListSmartListHelper::paginatedList:org.displaytag.pagination.PaginatedList" />
+			<role name="Request()" element="org.displaytag.pagination.PaginatedListSmartListHelper::computePageCount():int" />
+			<role name="Request()" element="org.displaytag.pagination.PaginatedListSmartListHelper::getFirstIndexForCurrentPage():int" />
+			<role name="Request()" element="org.displaytag.pagination.PaginatedListSmartListHelper::getFirstIndexForPage(int):int" />
+			<role name="Request()" element="org.displaytag.pagination.PaginatedListSmartListHelper::getLastIndexForCurrentPage():int" />
+			<role name="Request()" element="org.displaytag.pagination.PaginatedListSmartListHelper::getLastIndexForPage(int):int" />
+			<role name="Request()" element="org.displaytag.pagination.PaginatedListSmartListHelper::getListForCurrentPage():java.util.List" />
+			<role name="Request()" element="org.displaytag.pagination.PaginatedListSmartListHelper::getListForPage(int):java.util.List" />
+			<role name="Request()" element="org.displaytag.pagination.PaginatedListSmartListHelper::getPageNavigationBar(org.displaytag.util.Href, java.lang.String):java.lang.String" />
+			<role name="Request()" element="org.displaytag.pagination.PaginatedListSmartListHelper::getSearchResultsSummary():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.displaytag.tags.ColumnTag" />
+			<role name="State" element="org.displaytag.util.Href" />
+			<role name="state" element="org.displaytag.tags.ColumnTag::href:org.displaytag.util.Href" />
+			<role name="Request()" element="org.displaytag.tags.ColumnTag::addHeaderToTable(org.displaytag.tags.TableTag):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.displaytag.tags.TableTag" />
+			<role name="State" element="org.displaytag.pagination.PaginatedList" />
+			<role name="state" element="org.displaytag.tags.TableTag::paginatedList:org.displaytag.pagination.PaginatedList" />
+			<role name="Request()" element="org.displaytag.tags.TableTag::addColumn(org.displaytag.model.HeaderCell):void" />
+			<role name="Request()" element="org.displaytag.tags.TableTag::initParameters():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.displaytag.tags.TableTag" />
+			<role name="State" element="org.displaytag.util.Href" />
+			<role name="state" element="org.displaytag.tags.TableTag::baseHref:org.displaytag.util.Href" />
+			<role name="Request()" element="org.displaytag.tags.TableTag::initHref(org.displaytag.util.RequestHelper):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.displaytag.decorator.DefaultDecoratorFactory$DeprecatedDecoratorWrapper" />
+			<role name="State" element="org.displaytag.decorator.ColumnDecorator" />
+			<role name="state" element="org.displaytag.decorator.DefaultDecoratorFactory$DeprecatedDecoratorWrapper::decorator:org.displaytag.decorator.ColumnDecorator" />
+			<role name="Request()" element="org.displaytag.decorator.DefaultDecoratorFactory$DeprecatedDecoratorWrapper::decorate(java.lang.Object, javax.servlet.jsp.PageContext, org.displaytag.properties.MediaTypeEnum):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.displaytag.render.HtmlTableWriter" />
+			<role name="State" element="org.displaytag.pagination.PaginatedList" />
+			<role name="state" element="org.displaytag.render.HtmlTableWriter::paginatedList:org.displaytag.pagination.PaginatedList" />
+			<role name="Request()" element="org.displaytag.render.HtmlTableWriter::getSortingHref(org.displaytag.model.HeaderCell):org.displaytag.util.Href" />
+			<role name="Request()" element="org.displaytag.render.HtmlTableWriter::writeSearchResultAndNavigation():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.displaytag.tags.TableTag" />
+			<role name="State" element="org.displaytag.util.RequestHelperFactory" />
+			<role name="state" element="org.displaytag.tags.TableTag::rhf:org.displaytag.util.RequestHelperFactory" />
+			<role name="Request()" element="org.displaytag.tags.TableTag::initParameters():void" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy" />
+	<pattern name="Bridge" />
+	<pattern name="Template Method">
+		<instance>
+			<role name="AbstractClass" element="org.displaytag.export.BaseExportView" />
+			<role name="TemplateMethod()" element="org.displaytag.export.BaseExportView::doHeaders():java.lang.String" />
+			<role name="TemplateMethod()" element="org.displaytag.export.BaseExportView::doExport(java.io.Writer):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.displaytag.export.DefaultItextExportView" />
+			<role name="TemplateMethod()" element="org.displaytag.export.DefaultItextExportView::doExport(java.io.OutputStream):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.displaytag.properties.AbstractTitleKeyAutoColumnTest" />
+			<role name="TemplateMethod()" element="org.displaytag.properties.AbstractTitleKeyAutoColumnTest::doTest(java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.displaytag.properties.AbstractTitleKeyTest" />
+			<role name="TemplateMethod()" element="org.displaytag.properties.AbstractTitleKeyTest::doTest(java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.displaytag.render.TableWriterTemplate" />
+			<role name="TemplateMethod()" element="org.displaytag.render.TableWriterTemplate::writeTable(org.displaytag.model.TableModel, java.lang.String):void" />
+			<role name="TemplateMethod()" element="org.displaytag.render.TableWriterTemplate::writeTableBody(org.displaytag.model.TableModel):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.displaytag.sample.decorators.TotalWrapperTemplate" />
+			<role name="TemplateMethod()" element="org.displaytag.sample.decorators.TotalWrapperTemplate::finishRow():java.lang.String" />
+		</instance>
+	</pattern>
+	<pattern name="Visitor" />
+	<pattern name="Proxy" />
+	<pattern name="Proxy2" />
+	<pattern name="Chain of Responsibility" />
+</system>
+

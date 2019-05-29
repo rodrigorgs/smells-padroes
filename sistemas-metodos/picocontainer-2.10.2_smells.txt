@@ -1,0 +1,78 @@
+Intensive Coupling	CollectionComponentParameter.getMatchingComponentAdapters	1	1,0
+Feature Envy	CollectionComponentParameter.getCollectionInstance	2	1,0
+Dispersed Coupling	CollectionComponentParameter.getCollectionInstance	3	1,0
+Dispersed Coupling	CollectionComponentParameter.getMapInstance	4	1,0
+God Class	CollectionComponentParameter	5	1,0
+Refused Parent Bequest	CollectionComponentParameter	6	1,0
+Refused Parent Bequest	AbstractDelegatingMutablePicoContainer	7	1,0
+Refused Parent Bequest	ReflectionLifecycleStrategy	8	1,0
+Shotgun Surgery	ComponentMonitor.invoking	9	1,0
+Shotgun Surgery	ComponentMonitor.invoked	10	1,0
+Shotgun Surgery	ComponentMonitor.invocationFailed	11	1,0
+Shotgun Surgery	ComponentMonitor.lifecycleInvocationFailed	12	1,0
+Shotgun Surgery	ComponentMonitor.newInjector	13	1,0
+Shotgun Surgery	ComponentMonitor.newBehavior	14	1,0
+Feature Envy	AbstractInjector.createDefaultParameters	15	1,0
+Feature Envy	AbstractInjector.caughtInvocationTargetException	16	1,0
+Refused Parent Bequest	AbstractInjector	17	1,0
+Feature Envy	AdaptingBehavior.processCaching	18	1,0
+Feature Envy	Stored.flush	19	1,0
+Feature Envy	Stored.getComponentInstance	20	1,0
+Feature Envy	RegexComposer.compose	21	1,0
+Dispersed Coupling	RegexComposer.compose	22	1,0
+Brain Method	BasicComponentParameter.resolveAdapter	23	1,0
+Dispersed Coupling	BasicComponentParameter.resolveAdapter	24	1,0
+Feature Envy	BasicComponentParameter.noMatchingAdaptersFound	25	1,0
+God Class	BasicComponentParameter	26	1,0
+Refused Parent Bequest	BasicComponentParameter	27	1,0
+Feature Envy	Storing.addComponentAdapter	28	1,0
+Dispersed Coupling	DefaultPicoContainer.getComponentAdapter	29	1,0
+Feature Envy	DefaultPicoContainer.getComponentAdapters	30	1,0
+God Class	DefaultPicoContainer	31	1,0
+Data Class	AbstractBehavior	32	1,0
+Feature Envy	ProviderAdapter.getProvideMethod	33	1,0
+Brain Method	ConstructorInjector.getGreediestSatisfiableConstructor	34	1,0
+Dispersed Coupling	ConstructorInjector.getGreediestSatisfiableConstructor	35	1,0
+Dispersed Coupling	ConstructorInjector.getComponentInstance	36	1,0
+Refused Parent Bequest	ConstructorInjector	37	1,0
+Feature Envy	RealComponentLifecycle.stop	38	1,0
+Feature Envy	RealComponentLifecycle.dispose	39	1,0
+Feature Envy	ImplementationHiding.createComponentAdapter	40	1,0
+Feature Envy	CommandLinePicoContainer.processArgument	41	1,0
+Refused Parent Bequest	CommandLinePicoContainer	42	1,0
+Feature Envy	ThreadLocalCyclicDependencyGuard.observe	43	1,0
+God Class	PicoBuilder	44	1,0
+Feature Envy	CompositeInjection.createComponentAdapter	45	1,0
+Feature Envy	MethodInjector.getMemberArguments	46	1,0
+Feature Envy	MethodInjector.invokeMethod	47	1,0
+Refused Parent Bequest	MethodInjector	48	1,0
+Shotgun Surgery	AbstractInjectionFactory.wrapLifeCycle	49	1,0
+Feature Envy	Caching.createComponentAdapter	50	1,0
+Feature Envy	Caching.addComponentAdapter	51	1,0
+Dispersed Coupling	FactoryInjector.getTypeArguments	52	1,0
+Intensive Coupling	Intercepted.invokeMethod	53	1,0
+Feature Envy	DefaultConstructorParameter.equals	54	1,0
+Refused Parent Bequest	InstanceAdapter	55	1,0
+Feature Envy	ConstantParameter.resolve	56	1,0
+Intensive Coupling	IterativeInjector.getMatchingParameterListForSetters	57	1,0
+Feature Envy	IterativeInjector.matchParameter	58	1,0
+Feature Envy	IterativeInjector.decorateComponentInstance	59	1,0
+Feature Envy	IterativeInjector.makeInstance	60	1,0
+God Class	IterativeInjector	61	1,0
+Refused Parent Bequest	IterativeInjector	62	1,0
+Feature Envy	StartableLifecycleStrategy.doLifecycleMethod	63	1,0
+Refused Parent Bequest	StartableLifecycleStrategy	64	1,0
+Refused Parent Bequest	AdaptingInjection	65	1,0
+Dispersed Coupling	PropertyApplicator.getComponentInstance	66	1,0
+Feature Envy	PropertyApplicator.convert	67	1,0
+Intensive Coupling	PropertyApplicator.convert	68	1,0
+Dispersed Coupling	PropertyApplicator.getSetterParameter	69	1,0
+God Class	PropertyApplicator	70	1,0
+Refused Parent Bequest	PropertyApplicator	71	1,0
+Dispersed Coupling	DefaultClassLoadingPicoContainer.getComponent	72	1,0
+God Class	DefaultClassLoadingPicoContainer	73	1,0
+Data Class	DefaultClassLoadingPicoContainer	74	1,0
+Refused Parent Bequest	DefaultClassLoadingPicoContainer	75	1,0
+Feature Envy	SingleMemberInjector.getBindings	76	1,0
+Refused Parent Bequest	SingleMemberInjector	77	1,0
+Shotgun Surgery	PicoContainer.getComponent	78	1,0

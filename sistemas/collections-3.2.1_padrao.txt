@@ -1,0 +1,118 @@
+org.apache.commons.collections.functors.SwitchClosure	Decorator
+org.apache.commons.collections.map.AbstractLinkedMap$LinkEntry	(Object)Adapter
+org.apache.commons.collections.map.AbstractLinkedMap	(Object)Adapter
+org.apache.commons.collections.buffer.TestBlockingBuffer$ReadThread	State
+org.apache.commons.collections.bidimap.TreeBidiMap	(Object)Adapter
+org.apache.commons.collections.map.Flat3Map	(Object)Adapter
+org.apache.commons.collections.bidimap.AbstractTestBidiMap	Decorator
+org.apache.commons.collections.iterators.AbstractTestMapIterator	Template Method
+org.apache.commons.collections.PriorityQueue	Decorator
+org.apache.commons.collections.map.AbstractInputCheckedMapDecorator	State
+org.apache.commons.collections.comparators.AbstractTestComparator	Template Method
+org.apache.commons.collections.collection.PredicatedCollection	State
+org.apache.commons.collections.functors.SwitchTransformer	Decorator
+org.apache.commons.collections.functors.ForClosure	Decorator
+org.apache.commons.collections.OrderedBidiMap	Factory Method
+org.apache.commons.collections.functors.TransformedPredicate	(Object)Adapter
+org.apache.commons.collections.IterableMap	Factory Method
+org.apache.commons.collections.bag.AbstractTestBag	Template Method
+org.apache.commons.collections.list.TreeList$AVLNode	(Object)Adapter
+org.apache.commons.collections.FastHashMap$CollectionView	Template Method
+org.apache.commons.collections.iterators.AbstractMapIteratorDecorator	Decorator
+org.apache.commons.collections.bidimap.AbstractTestBidiMap	Factory Method
+org.apache.commons.collections.iterators.UnmodifiableOrderedMapIterator	Decorator
+org.apache.commons.collections.comparators.ComparableComparator	Singleton
+org.apache.commons.collections.functors.TransformerClosure	State
+org.apache.commons.collections.Transformer	(Object)Adapter
+org.apache.commons.collections.functors.SwitchTransformer	State
+org.apache.commons.collections.bidimap.AbstractTestBidiMap$TestInverseBidiMap	Decorator
+org.apache.commons.collections.DoubleOrderedMap$DoubleOrderedMapIterator	Template Method
+org.apache.commons.collections.Transformer	Decorator
+org.apache.commons.collections.AbstractTestObject	Template Method
+org.apache.commons.collections.set.AbstractTestSet	Template Method
+org.apache.commons.collections.functors.NullIsFalsePredicate	Decorator
+org.apache.commons.collections.functors.NullIsTruePredicate	Decorator
+org.apache.commons.collections.functors.SwitchClosure	State
+org.apache.commons.collections.list.AbstractLinkedList$Node	(Object)Adapter
+org.apache.commons.collections.Buffer	State
+org.apache.commons.collections.bidimap.AbstractDualBidiMap$BidiMapIterator	(Object)Adapter
+org.apache.commons.collections.map.SingletonMap	(Object)Adapter
+org.apache.commons.collections.functors.NullIsExceptionPredicate	Decorator
+org.apache.commons.collections.collection.CompositeCollection	State
+org.apache.commons.collections.list.LazyList	State
+org.apache.commons.collections.bidimap.AbstractTestBidiMap	Template Method
+org.apache.commons.collections.iterators.UnmodifiableMapIterator	Decorator
+org.apache.commons.collections.Predicate	(Object)Adapter
+org.apache.commons.collections.BidiMap	Factory Method
+org.apache.commons.collections.map.PredicatedMap	State
+org.apache.commons.collections.map.CompositeMap	State
+org.apache.commons.collections.Factory	State
+org.apache.commons.collections.functors.WhileClosure	Decorator
+org.apache.commons.collections.bidimap.AbstractDualBidiMap	Template Method
+org.apache.commons.collections.list.TreeList	(Object)Adapter
+org.apache.commons.collections.iterators.FilterIterator	State
+org.apache.commons.collections.buffer.TestBoundedBuffer$DelayedRemove	State
+org.apache.commons.collections.map.TransformedMap	State
+org.apache.commons.collections.bidimap.AbstractDualBidiMap	Factory Method
+org.apache.commons.collections.map.SingletonMap$SingletonMapIterator	(Object)Adapter
+org.apache.commons.collections.Closure	(Object)Adapter
+org.apache.commons.collections.Closure	Decorator
+org.apache.commons.collections.map.AbstractInputCheckedMapDecorator$MapEntry	State
+org.apache.commons.collections.iterators.FilterListIterator	State
+org.apache.commons.collections.functors.OrPredicate	Decorator
+org.apache.commons.collections.map.Flat3Map	Proxy
+org.apache.commons.collections.functors.TransformedPredicate	Decorator
+org.apache.commons.collections.bidimap.AbstractDualBidiMap	(Object)Adapter
+org.apache.commons.collections.MapIterator	Decorator
+org.apache.commons.collections.functors.TransformerPredicate	State
+org.apache.commons.collections.functors.ClosureTransformer	(Object)Adapter
+org.apache.commons.collections.map.AbstractTestMap	Template Method
+org.apache.commons.collections.functors.WhileClosure	(Object)Adapter
+org.apache.commons.collections.collection.CompositeCollection$CollectionMutator	State
+org.apache.commons.collections.functors.WhileClosure	State
+org.apache.commons.collections.TestTypedCollection	Template Method
+org.apache.commons.collections.Transformer	State
+org.apache.commons.collections.functors.FactoryTransformer	(Object)Adapter
+org.apache.commons.collections.functors.TransformedPredicate	State
+org.apache.commons.collections.map.CompositeMap$MapMutator	State
+org.apache.commons.collections.functors.AndPredicate	Decorator
+org.apache.commons.collections.map.MultiKeyMap	Proxy
+org.apache.commons.collections.list.TreeList$TreeListIterator	(Object)Adapter
+org.apache.commons.collections.FastTreeMap$CollectionView	Template Method
+org.apache.commons.collections.functors.NotPredicate	Decorator
+org.apache.commons.collections.Closure	State
+org.apache.commons.collections.functors.TransformerPredicate	(Object)Adapter
+org.apache.commons.collections.map.AbstractHashedMap	Proxy
+org.apache.commons.collections.iterators.TransformIterator	State
+org.apache.commons.collections.iterators.AbstractTestIterator	Template Method
+org.apache.commons.collections.iterators.ObjectGraphIterator	State
+org.apache.commons.collections.Factory	(Object)Adapter
+org.apache.commons.collections.bag.AbstractTestBag	Factory Method
+org.apache.commons.collections.map.Flat3Map$FlatMapIterator	(Object)Adapter
+org.apache.commons.collections.OrderedMap	Factory Method
+org.apache.commons.collections.collection.AbstractTestCollection	Template Method
+org.apache.commons.collections.iterators.AbstractOrderedMapIteratorDecorator	Decorator
+org.apache.commons.collections.comparators.BooleanComparator	Singleton
+org.apache.commons.collections.collection.TransformedCollection	State
+org.apache.commons.collections.list.AbstractLinkedList$LinkedListIterator	(Object)Adapter
+org.apache.commons.collections.TestLinkedList	Template Method
+org.apache.commons.collections.iterators.AbstractTestListIterator	Template Method
+org.apache.commons.collections.SynchronizedPriorityQueue	Decorator
+org.apache.commons.collections.map.LazyMap	State
+org.apache.commons.collections.functors.IfClosure	Decorator
+org.apache.commons.collections.list.AbstractTestList	Template Method
+org.apache.commons.collections.Predicate	Decorator
+org.apache.commons.collections.bidimap.DualTreeBidiMap$BidiOrderedMapIterator	(Object)Adapter
+org.apache.commons.collections.functors.ClosureTransformer	State
+org.apache.commons.collections.functors.FactoryTransformer	State
+org.apache.commons.collections.comparators.TransformingComparator	State
+org.apache.commons.collections.map.PredicatedMap	(Object)Adapter
+org.apache.commons.collections.functors.TransformerClosure	(Object)Adapter
+org.apache.commons.collections.map.TransformedMap	(Object)Adapter
+org.apache.commons.collections.Predicate	State
+org.apache.commons.collections.map.MultiValueMap	State
+org.apache.commons.collections.functors.IfClosure	State
+org.apache.commons.collections.OrderedMapIterator	Decorator
+org.apache.commons.collections.bidimap.TreeBidiMap$ViewIterator	(Object)Adapter
+org.apache.commons.collections.functors.IfClosure	(Object)Adapter
+org.apache.commons.collections.functors.PredicateTransformer	State

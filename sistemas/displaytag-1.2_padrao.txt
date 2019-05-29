@@ -1,0 +1,42 @@
+org.displaytag.export.BaseExportView	(Object)Adapter
+org.displaytag.model.Cell	Singleton
+org.displaytag.export.excel.ExcelHssfView	(Object)Adapter
+org.displaytag.decorator.DefaultDecoratorFactory$DeprecatedDecoratorWrapper	State
+org.displaytag.util.RequestHelperFactory	Factory Method
+org.displaytag.properties.MediaTypeEnum	Singleton
+org.displaytag.util.RequestHelperFactory	State
+org.displaytag.util.Href	Prototype
+org.displaytag.filter.BufferedResponseWrapper13Impl	(Object)Adapter
+org.displaytag.pagination.PaginatedListSmartListHelper	State
+org.displaytag.sample.decorators.TotalWrapperTemplate	Template Method
+org.displaytag.util.PostHref	Decorator
+org.displaytag.util.RequestHelper	Factory Method
+org.displaytag.render.HtmlTableWriter	State
+org.displaytag.pagination.PaginatedList	State
+org.displaytag.render.HtmlTableWriter	Prototype
+org.displaytag.render.TableWriterTemplate	Template Method
+org.displaytag.decorator.ColumnDecorator	(Object)Adapter
+org.displaytag.export.BaseExportView	Template Method
+org.displaytag.model.TableModel	(Object)Adapter
+org.displaytag.decorator.DefaultDecoratorFactory$DeprecatedDecoratorWrapper	(Object)Adapter
+org.displaytag.export.DefaultItextExportView	Template Method
+org.displaytag.properties.AbstractTitleKeyTest	Template Method
+org.displaytag.tags.TableTag	State
+org.displaytag.export.ExportViewFactory	Singleton
+org.displaytag.exception.SeverityEnum	Singleton
+org.displaytag.util.Anchor	State
+org.displaytag.properties.AbstractTitleKeyAutoColumnTest	Template Method
+org.displaytag.util.PostHref	Prototype
+org.displaytag.util.Href	Decorator
+org.displaytag.decorator.DecoratorFactory	Factory Method
+org.displaytag.properties.AbstractTitleKeyAutoColumnTest	Factory Method
+org.displaytag.decorator.ColumnDecorator	State
+org.displaytag.tags.ColumnTag	Prototype
+org.displaytag.pagination.Pagination	Prototype
+org.displaytag.export.DefaultItextExportView	(Object)Adapter
+org.displaytag.util.Href	State
+org.displaytag.properties.SortOrderEnum	Singleton
+org.displaytag.filter.SimpleServletOutputStream	(Object)Adapter
+org.displaytag.pagination.Pagination	State
+org.displaytag.properties.AbstractTitleKeyTest	Factory Method
+org.displaytag.tags.ColumnTag	State

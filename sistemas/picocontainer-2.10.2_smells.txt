@@ -1,0 +1,77 @@
+org.picocontainer.parameters.CollectionComponentParameter	Intensive Coupling
+org.picocontainer.parameters.CollectionComponentParameter	Feature Envy
+org.picocontainer.parameters.CollectionComponentParameter	Dispersed Coupling
+org.picocontainer.parameters.CollectionComponentParameter	Dispersed Coupling
+org.picocontainer.parameters.CollectionComponentParameter	God Class
+org.picocontainer.parameters.CollectionComponentParameter	Refused Parent Bequest
+org.picocontainer.containers.AbstractDelegatingMutablePicoContainer	Refused Parent Bequest
+org.picocontainer.lifecycle.ReflectionLifecycleStrategy	Refused Parent Bequest
+org.picocontainer.ComponentMonitor	Shotgun Surgery
+org.picocontainer.ComponentMonitor	Shotgun Surgery
+org.picocontainer.ComponentMonitor	Shotgun Surgery
+org.picocontainer.ComponentMonitor	Shotgun Surgery
+org.picocontainer.ComponentMonitor	Shotgun Surgery
+org.picocontainer.ComponentMonitor	Shotgun Surgery
+org.picocontainer.injectors.AbstractInjector	Feature Envy
+org.picocontainer.injectors.AbstractInjector	Feature Envy
+org.picocontainer.injectors.AbstractInjector	Refused Parent Bequest
+org.picocontainer.behaviors.AdaptingBehavior	Feature Envy
+org.picocontainer.behaviors.Stored	Feature Envy
+org.picocontainer.behaviors.Stored	Feature Envy
+org.picocontainer.composers.RegexComposer	Feature Envy
+org.picocontainer.composers.RegexComposer	Dispersed Coupling
+org.picocontainer.parameters.BasicComponentParameter	Brain Method
+org.picocontainer.parameters.BasicComponentParameter	Dispersed Coupling
+org.picocontainer.parameters.BasicComponentParameter	Feature Envy
+org.picocontainer.parameters.BasicComponentParameter	God Class
+org.picocontainer.parameters.BasicComponentParameter	Refused Parent Bequest
+org.picocontainer.behaviors.Storing	Feature Envy
+org.picocontainer.DefaultPicoContainer	Dispersed Coupling
+org.picocontainer.DefaultPicoContainer	Feature Envy
+org.picocontainer.DefaultPicoContainer	God Class
+org.picocontainer.behaviors.AbstractBehavior	Data Class
+org.picocontainer.injectors.ProviderAdapter	Feature Envy
+org.picocontainer.injectors.ConstructorInjector	Brain Method
+org.picocontainer.injectors.ConstructorInjector	Dispersed Coupling
+org.picocontainer.injectors.ConstructorInjector	Dispersed Coupling
+org.picocontainer.injectors.ConstructorInjector	Refused Parent Bequest
+org.picocontainer.behaviors.Stored$RealComponentLifecycle	Feature Envy
+org.picocontainer.behaviors.Stored$RealComponentLifecycle	Feature Envy
+org.picocontainer.behaviors.ImplementationHiding	Feature Envy
+org.picocontainer.containers.CommandLinePicoContainer	Feature Envy
+org.picocontainer.containers.CommandLinePicoContainer	Refused Parent Bequest
+org.picocontainer.PicoBuilder	God Class
+org.picocontainer.injectors.CompositeInjection	Feature Envy
+org.picocontainer.injectors.MethodInjector	Feature Envy
+org.picocontainer.injectors.MethodInjector	Feature Envy
+org.picocontainer.injectors.MethodInjector	Refused Parent Bequest
+org.picocontainer.injectors.AbstractInjectionFactory	Shotgun Surgery
+org.picocontainer.behaviors.Caching	Feature Envy
+org.picocontainer.behaviors.Caching	Feature Envy
+org.picocontainer.injectors.FactoryInjector	Dispersed Coupling
+org.picocontainer.behaviors.Intercepted	Intensive Coupling
+org.picocontainer.parameters.DefaultConstructorParameter	Feature Envy
+org.picocontainer.adapters.InstanceAdapter	Refused Parent Bequest
+org.picocontainer.parameters.ConstantParameter	Feature Envy
+org.picocontainer.injectors.IterativeInjector	Intensive Coupling
+org.picocontainer.injectors.IterativeInjector	Feature Envy
+org.picocontainer.injectors.IterativeInjector	Feature Envy
+org.picocontainer.injectors.IterativeInjector	Feature Envy
+org.picocontainer.injectors.IterativeInjector	God Class
+org.picocontainer.injectors.IterativeInjector	Refused Parent Bequest
+org.picocontainer.lifecycle.StartableLifecycleStrategy	Feature Envy
+org.picocontainer.lifecycle.StartableLifecycleStrategy	Refused Parent Bequest
+org.picocontainer.injectors.AdaptingInjection	Refused Parent Bequest
+org.picocontainer.behaviors.PropertyApplicator	Dispersed Coupling
+org.picocontainer.behaviors.PropertyApplicator	Feature Envy
+org.picocontainer.behaviors.PropertyApplicator	Intensive Coupling
+org.picocontainer.behaviors.PropertyApplicator	Dispersed Coupling
+org.picocontainer.behaviors.PropertyApplicator	God Class
+org.picocontainer.behaviors.PropertyApplicator	Refused Parent Bequest
+org.picocontainer.classname.DefaultClassLoadingPicoContainer	Dispersed Coupling
+org.picocontainer.classname.DefaultClassLoadingPicoContainer	God Class
+org.picocontainer.classname.DefaultClassLoadingPicoContainer	Data Class
+org.picocontainer.classname.DefaultClassLoadingPicoContainer	Refused Parent Bequest
+org.picocontainer.injectors.SingleMemberInjector	Feature Envy
+org.picocontainer.injectors.SingleMemberInjector	Refused Parent Bequest
+org.picocontainer.PicoContainer	Shotgun Surgery

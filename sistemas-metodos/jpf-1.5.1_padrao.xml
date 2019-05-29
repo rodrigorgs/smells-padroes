@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method">
+		<instance>
+			<role name="Creator" element="org.java.plugin.ObjectFactory" />
+			<role name="FactoryMethod()" element="org.java.plugin.ObjectFactory::createManager(org.java.plugin.registry.PluginRegistry, org.java.plugin.PathResolver):org.java.plugin.PluginManager" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.java.plugin.registry.PluginRegistry" />
+			<role name="FactoryMethod()" element="org.java.plugin.registry.PluginRegistry::readManifestInfo(java.net.URL):org.java.plugin.registry.PluginRegistry$ManifestInfo" />
+			<role name="FactoryMethod()" element="org.java.plugin.registry.PluginRegistry::checkIntegrity(org.java.plugin.PathResolver, boolean):org.java.plugin.registry.IntegrityCheckReport" />
+			<role name="FactoryMethod()" element="org.java.plugin.registry.PluginRegistry::getRegistrationReport():org.java.plugin.registry.IntegrityCheckReport" />
+		</instance>
+	</pattern>
+	<pattern name="Prototype" />
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="org.java.plugin.boot.SplashWindow" />
+			<role name="uniqueInstance" element="org.java.plugin.boot.SplashWindow::instance:org.java.plugin.boot.SplashWindow" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adaptee" element="org.java.plugin.registry.xml.ModelAttribute" />
+			<role name="Adapter" element="org.java.plugin.registry.xml.PluginAttributeImpl" />
+			<role name="adaptee" element="org.java.plugin.registry.xml.PluginAttributeImpl::model:org.java.plugin.registry.xml.ModelAttribute" />
+			<role name="Request()" element="org.java.plugin.registry.xml.PluginAttributeImpl::getValue():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.java.plugin.registry.xml.ModelExtension" />
+			<role name="Adapter" element="org.java.plugin.registry.xml.ExtensionImpl" />
+			<role name="adaptee" element="org.java.plugin.registry.xml.ExtensionImpl::model:org.java.plugin.registry.xml.ModelExtension" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionImpl::getExtendedPluginId():java.lang.String" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionImpl::getExtendedPointId():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.java.plugin.registry.xml.ModelExtensionPoint" />
+			<role name="Adapter" element="org.java.plugin.registry.xml.ExtensionPointImpl" />
+			<role name="adaptee" element="org.java.plugin.registry.xml.ExtensionPointImpl::model:org.java.plugin.registry.xml.ModelExtensionPoint" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionPointImpl::getMultiplicity():java.lang.String" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionPointImpl::getParameterDefinitions():java.util.Collection" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionPointImpl::getParentPluginId():java.lang.String" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionPointImpl::getParentExtensionPointId():java.lang.String" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionPointImpl::isSuccessorOf(org.java.plugin.registry.ExtensionPoint):boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.java.plugin.registry.xml.ModelLibrary" />
+			<role name="Adapter" element="org.java.plugin.registry.xml.LibraryImpl" />
+			<role name="adaptee" element="org.java.plugin.registry.xml.LibraryImpl::model:org.java.plugin.registry.xml.ModelLibrary" />
+			<role name="Request()" element="org.java.plugin.registry.xml.LibraryImpl::getPath():java.lang.String" />
+			<role name="Request()" element="org.java.plugin.registry.xml.LibraryImpl::isCodeLibrary():boolean" />
+			<role name="Request()" element="org.java.plugin.registry.xml.LibraryImpl::getVersion():org.java.plugin.registry.Version" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.java.plugin.registry.xml.ParameterValueParser" />
+			<role name="Adapter" element="org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl" />
+			<role name="adaptee" element="org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl::valueParser:org.java.plugin.registry.xml.ParameterValueParser" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl::valueAsBoolean():java.lang.Boolean" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl::valueAsDate():java.util.Date" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl::valueAsNumber():java.lang.Number" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl::valueAsString():java.lang.String" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl::valueAsExtension():org.java.plugin.registry.Extension" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl::valueAsExtensionPoint():org.java.plugin.registry.ExtensionPoint" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl::valueAsPluginDescriptor():org.java.plugin.registry.PluginDescriptor" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl::valueAsUrl(org.java.plugin.PathResolver):java.net.URL" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.java.plugin.registry.xml.ModelParameter" />
+			<role name="Adapter" element="org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl" />
+			<role name="adaptee" element="org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl::modelParam:org.java.plugin.registry.xml.ModelParameter" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl::rawValue():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.java.plugin.registry.xml.ModelPluginDescriptor" />
+			<role name="Adapter" element="org.java.plugin.registry.xml.PluginDescriptorImpl" />
+			<role name="adaptee" element="org.java.plugin.registry.xml.PluginDescriptorImpl::model:org.java.plugin.registry.xml.ModelPluginDescriptor" />
+			<role name="Request()" element="org.java.plugin.registry.xml.PluginDescriptorImpl::getVendor():java.lang.String" />
+			<role name="Request()" element="org.java.plugin.registry.xml.PluginDescriptorImpl::getVersion():org.java.plugin.registry.Version" />
+			<role name="Request()" element="org.java.plugin.registry.xml.PluginDescriptorImpl::getPluginClassName():java.lang.String" />
+			<role name="Request()" element="org.java.plugin.registry.xml.PluginDescriptorImpl::getLocation():java.net.URL" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.java.plugin.registry.xml.ModelPluginFragment" />
+			<role name="Adapter" element="org.java.plugin.registry.xml.PluginFragmentImpl" />
+			<role name="adaptee" element="org.java.plugin.registry.xml.PluginFragmentImpl::model:org.java.plugin.registry.xml.ModelPluginFragment" />
+			<role name="Request()" element="org.java.plugin.registry.xml.PluginFragmentImpl::getVendor():java.lang.String" />
+			<role name="Request()" element="org.java.plugin.registry.xml.PluginFragmentImpl::getVersion():org.java.plugin.registry.Version" />
+			<role name="Request()" element="org.java.plugin.registry.xml.PluginFragmentImpl::getPluginId():java.lang.String" />
+			<role name="Request()" element="org.java.plugin.registry.xml.PluginFragmentImpl::getPluginVersion():org.java.plugin.registry.Version" />
+			<role name="Request()" element="org.java.plugin.registry.xml.PluginFragmentImpl::matches(org.java.plugin.registry.PluginDescriptor):boolean" />
+			<role name="Request()" element="org.java.plugin.registry.xml.PluginFragmentImpl::getLocation():java.net.URL" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.java.plugin.registry.ExtensionPoint$ParameterDefinition" />
+			<role name="Adapter" element="org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl" />
+			<role name="adaptee" element="org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl::definition:org.java.plugin.registry.ExtensionPoint$ParameterDefinition" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl::getDefinition():org.java.plugin.registry.ExtensionPoint$ParameterDefinition" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl::valueAsBoolean():java.lang.Boolean" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl::valueAsDate():java.util.Date" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl::valueAsNumber():java.lang.Number" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl::valueAsString():java.lang.String" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl::valueAsExtension():org.java.plugin.registry.Extension" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl::valueAsExtensionPoint():org.java.plugin.registry.ExtensionPoint" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl::valueAsPluginDescriptor():org.java.plugin.registry.PluginDescriptor" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl::valueAsUrl(org.java.plugin.PathResolver):java.net.URL" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.java.plugin.registry.xml.ManifestParser" />
+			<role name="Adapter" element="org.java.plugin.registry.xml.PluginRegistryImpl" />
+			<role name="adaptee" element="org.java.plugin.registry.xml.PluginRegistryImpl::manifestParser:org.java.plugin.registry.xml.ManifestParser" />
+			<role name="Request()" element="org.java.plugin.registry.xml.PluginRegistryImpl::readManifestInfo(java.net.URL):org.java.plugin.registry.PluginRegistry$ManifestInfo" />
+			<role name="Request()" element="org.java.plugin.registry.xml.PluginRegistryImpl::register(java.net.URL[]):java.util.Map" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.java.plugin.registry.xml.ModelPrerequisite" />
+			<role name="Adapter" element="org.java.plugin.registry.xml.PluginPrerequisiteImpl" />
+			<role name="adaptee" element="org.java.plugin.registry.xml.PluginPrerequisiteImpl::model:org.java.plugin.registry.xml.ModelPrerequisite" />
+			<role name="Request()" element="org.java.plugin.registry.xml.PluginPrerequisiteImpl::getPluginId():java.lang.String" />
+			<role name="Request()" element="org.java.plugin.registry.xml.PluginPrerequisiteImpl::getPluginVersion():org.java.plugin.registry.Version" />
+			<role name="Request()" element="org.java.plugin.registry.xml.PluginPrerequisiteImpl::isOptional():boolean" />
+			<role name="Request()" element="org.java.plugin.registry.xml.PluginPrerequisiteImpl::isReverseLookup():boolean" />
+			<role name="Request()" element="org.java.plugin.registry.xml.PluginPrerequisiteImpl::matches():boolean" />
+			<role name="Request()" element="org.java.plugin.registry.xml.PluginPrerequisiteImpl::getMatch():java.lang.String" />
+			<role name="Request()" element="org.java.plugin.registry.xml.PluginPrerequisiteImpl::isExported():boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.java.plugin.util.ExtendedProperties" />
+			<role name="Adapter" element="org.java.plugin.standard.StandardObjectFactory" />
+			<role name="adaptee" element="org.java.plugin.standard.StandardObjectFactory::config:org.java.plugin.util.ExtendedProperties" />
+			<role name="Request()" element="org.java.plugin.standard.StandardObjectFactory::createRegistry():org.java.plugin.registry.PluginRegistry" />
+			<role name="Request()" element="org.java.plugin.standard.StandardObjectFactory::createPathResolver():org.java.plugin.PathResolver" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.java.plugin.registry.xml.ModelParameterDef" />
+			<role name="Adapter" element="org.java.plugin.registry.xml.ExtensionPointImpl$ParameterDefinitionImpl" />
+			<role name="adaptee" element="org.java.plugin.registry.xml.ExtensionPointImpl$ParameterDefinitionImpl::modelParamDef:org.java.plugin.registry.xml.ModelParameterDef" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionPointImpl$ParameterDefinitionImpl::getMultiplicity():java.lang.String" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionPointImpl$ParameterDefinitionImpl::getType():java.lang.String" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionPointImpl$ParameterDefinitionImpl::getCustomData():java.lang.String" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionPointImpl$ParameterDefinitionImpl::getDefaultValue():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.java.plugin.registry.xml.ModelManifestInfo" />
+			<role name="Adapter" element="org.java.plugin.registry.xml.PluginRegistryImpl$ManifestInfoImpl" />
+			<role name="adaptee" element="org.java.plugin.registry.xml.PluginRegistryImpl$ManifestInfoImpl::model:org.java.plugin.registry.xml.ModelManifestInfo" />
+			<role name="Request()" element="org.java.plugin.registry.xml.PluginRegistryImpl$ManifestInfoImpl::getId():java.lang.String" />
+			<role name="Request()" element="org.java.plugin.registry.xml.PluginRegistryImpl$ManifestInfoImpl::getVersion():org.java.plugin.registry.Version" />
+			<role name="Request()" element="org.java.plugin.registry.xml.PluginRegistryImpl$ManifestInfoImpl::getVendor():java.lang.String" />
+			<role name="Request()" element="org.java.plugin.registry.xml.PluginRegistryImpl$ManifestInfoImpl::getPluginId():java.lang.String" />
+			<role name="Request()" element="org.java.plugin.registry.xml.PluginRegistryImpl$ManifestInfoImpl::getPluginVersion():org.java.plugin.registry.Version" />
+			<role name="Request()" element="org.java.plugin.registry.xml.PluginRegistryImpl$ManifestInfoImpl::getMatchingRule():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.java.plugin.standard.StandardPluginClassLoader$PluginResourceLoader" />
+			<role name="Adapter" element="org.java.plugin.standard.StandardPluginClassLoader" />
+			<role name="adaptee" element="org.java.plugin.standard.StandardPluginClassLoader::resourceLoader:org.java.plugin.standard.StandardPluginClassLoader$PluginResourceLoader" />
+			<role name="Request()" element="org.java.plugin.standard.StandardPluginClassLoader::pluginsSetChanged():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.java.plugin.registry.xml.PluginDescriptorImpl" />
+			<role name="Adapter" element="org.java.plugin.registry.xml.PluginPrerequisiteImpl" />
+			<role name="adaptee" element="org.java.plugin.registry.xml.PluginPrerequisiteImpl::descriptor:org.java.plugin.registry.xml.PluginDescriptorImpl" />
+			<role name="Request()" element="org.java.plugin.registry.xml.PluginPrerequisiteImpl::matches():boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.java.plugin.util.ExtendedProperties" />
+			<role name="Adapter" element="org.java.plugin.boot.DefaultApplicationInitializer" />
+			<role name="adaptee" element="org.java.plugin.boot.DefaultApplicationInitializer::config:org.java.plugin.util.ExtendedProperties" />
+			<role name="Request()" element="org.java.plugin.boot.DefaultApplicationInitializer::configure(org.java.plugin.util.ExtendedProperties):void" />
+			<role name="Request()" element="org.java.plugin.boot.DefaultApplicationInitializer::initApplication(org.java.plugin.boot.BootErrorHandler, java.lang.String[]):org.java.plugin.boot.Application" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.java.plugin.registry.PluginRegistry" />
+			<role name="Adapter" element="org.java.plugin.standard.StandardPluginManager" />
+			<role name="adaptee" element="org.java.plugin.standard.StandardPluginManager::registry:org.java.plugin.registry.PluginRegistry" />
+			<role name="Request()" element="org.java.plugin.standard.StandardPluginManager::publishPlugins(org.java.plugin.PluginManager$PluginLocation[]):java.util.Map" />
+			<role name="Request()" element="org.java.plugin.standard.StandardPluginManager::getPlugin(java.lang.String):org.java.plugin.Plugin" />
+			<role name="Request()" element="org.java.plugin.standard.StandardPluginManager::activatePlugin(java.lang.String):void" />
+			<role name="Request()" element="org.java.plugin.standard.StandardPluginManager::shutdown():void" />
+			<role name="Request()" element="org.java.plugin.standard.StandardPluginManager::deactivatePlugin(java.lang.String):void" />
+			<role name="Request()" element="org.java.plugin.standard.StandardPluginManager::disablePlugin(org.java.plugin.registry.PluginDescriptor):org.java.plugin.registry.PluginDescriptor[]" />
+			<role name="Request()" element="org.java.plugin.standard.StandardPluginManager::enablePlugin(org.java.plugin.registry.PluginDescriptor, boolean):org.java.plugin.registry.PluginDescriptor[]" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.java.plugin.standard.PluginLifecycleHandler" />
+			<role name="Adapter" element="org.java.plugin.standard.StandardPluginManager" />
+			<role name="adaptee" element="org.java.plugin.standard.StandardPluginManager::lifecycleHandler:org.java.plugin.standard.PluginLifecycleHandler" />
+			<role name="Request()" element="org.java.plugin.standard.StandardPluginManager::getPluginClassLoader(org.java.plugin.registry.PluginDescriptor):org.java.plugin.PluginClassLoader" />
+			<role name="Request()" element="org.java.plugin.standard.StandardPluginManager::shutdown():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.java.plugin.registry.xml.ModelDocumentationReference" />
+			<role name="Adapter" element="org.java.plugin.registry.xml.DocumentationImpl$ReferenceImpl" />
+			<role name="adaptee" element="org.java.plugin.registry.xml.DocumentationImpl$ReferenceImpl::modelRef:org.java.plugin.registry.xml.ModelDocumentationReference" />
+			<role name="Request()" element="org.java.plugin.registry.xml.DocumentationImpl$ReferenceImpl::getCaption():java.lang.String" />
+			<role name="Request()" element="org.java.plugin.registry.xml.DocumentationImpl$ReferenceImpl::getRef():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.java.plugin.registry.xml.ModelDocumentation" />
+			<role name="Adapter" element="org.java.plugin.registry.xml.DocumentationImpl" />
+			<role name="adaptee" element="org.java.plugin.registry.xml.DocumentationImpl::model:org.java.plugin.registry.xml.ModelDocumentation" />
+			<role name="Request()" element="org.java.plugin.registry.xml.DocumentationImpl::getCaption():java.lang.String" />
+			<role name="Request()" element="org.java.plugin.registry.xml.DocumentationImpl::getText():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.java.plugin.boot.PluginsCollector" />
+			<role name="Adapter" element="org.java.plugin.boot.DefaultApplicationInitializer" />
+			<role name="adaptee" element="org.java.plugin.boot.DefaultApplicationInitializer::collector:org.java.plugin.boot.PluginsCollector" />
+			<role name="Request()" element="org.java.plugin.boot.DefaultApplicationInitializer::configure(org.java.plugin.util.ExtendedProperties):void" />
+			<role name="Request()" element="org.java.plugin.boot.DefaultApplicationInitializer::initApplication(org.java.plugin.boot.BootErrorHandler, java.lang.String[]):org.java.plugin.boot.Application" />
+		</instance>
+	</pattern>
+	<pattern name="Command" />
+	<pattern name="Composite" />
+	<pattern name="Decorator">
+		<instance>
+			<role name="Component" element="org.java.plugin.boot.SplashHandler" />
+			<role name="Decorator" element="org.java.plugin.boot.SplashHandlerWrapper" />
+			<role name="component" element="org.java.plugin.boot.SplashHandlerWrapper::delegate:org.java.plugin.boot.SplashHandler" />
+			<role name="Operation()" element="org.java.plugin.boot.SplashHandlerWrapper::configure(org.java.plugin.util.ExtendedProperties):void" />
+			<role name="Operation()" element="org.java.plugin.boot.SplashHandlerWrapper::getProgress():float" />
+			<role name="Operation()" element="org.java.plugin.boot.SplashHandlerWrapper::setProgress(float):void" />
+			<role name="Operation()" element="org.java.plugin.boot.SplashHandlerWrapper::getText():java.lang.String" />
+			<role name="Operation()" element="org.java.plugin.boot.SplashHandlerWrapper::setText(java.lang.String):void" />
+			<role name="Operation()" element="org.java.plugin.boot.SplashHandlerWrapper::getImage():java.net.URL" />
+			<role name="Operation()" element="org.java.plugin.boot.SplashHandlerWrapper::setImage(java.net.URL):void" />
+			<role name="Operation()" element="org.java.plugin.boot.SplashHandlerWrapper::isVisible():boolean" />
+			<role name="Operation()" element="org.java.plugin.boot.SplashHandlerWrapper::setVisible(boolean):void" />
+			<role name="Operation()" element="org.java.plugin.boot.SplashHandlerWrapper::getImplementation():java.lang.Object" />
+		</instance>
+	</pattern>
+	<pattern name="Observer">
+		<instance>
+			<role name="Observer" element="org.java.plugin.PluginManager$EventListener" />
+			<role name="Subject" element="org.java.plugin.standard.StandardPluginManager" />
+			<role name="Notify()" element="org.java.plugin.standard.StandardPluginManager::fireEvent(java.lang.Object, boolean):void" />
+		</instance>
+		<instance>
+			<role name="Observer" element="org.java.plugin.registry.PluginRegistry$RegistryChangeListener" />
+			<role name="Subject" element="org.java.plugin.registry.xml.PluginRegistryImpl" />
+			<role name="Notify()" element="org.java.plugin.registry.xml.PluginRegistryImpl::fireEvent(org.java.plugin.registry.xml.PluginRegistryImpl$RegistryChangeDataImpl):void" />
+		</instance>
+	</pattern>
+	<pattern name="State">
+		<instance>
+			<role name="Context" element="org.java.plugin.registry.xml.PluginDescriptorImpl" />
+			<role name="State" element="org.java.plugin.registry.PluginRegistry" />
+			<role name="state" element="org.java.plugin.registry.xml.PluginDescriptorImpl::registry:org.java.plugin.registry.PluginRegistry" />
+			<role name="Request()" element="org.java.plugin.registry.xml.PluginDescriptorImpl::getUniqueId():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.java.plugin.registry.xml.PluginFragmentImpl" />
+			<role name="State" element="org.java.plugin.registry.PluginRegistry" />
+			<role name="state" element="org.java.plugin.registry.xml.PluginFragmentImpl::registry:org.java.plugin.registry.PluginRegistry" />
+			<role name="Request()" element="org.java.plugin.registry.xml.PluginFragmentImpl::getUniqueId():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl" />
+			<role name="State" element="org.java.plugin.registry.ExtensionPoint$ParameterDefinition" />
+			<role name="state" element="org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl::definition:org.java.plugin.registry.ExtensionPoint$ParameterDefinition" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl::getDefinition():org.java.plugin.registry.ExtensionPoint$ParameterDefinition" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl::valueAsBoolean():java.lang.Boolean" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl::valueAsDate():java.util.Date" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl::valueAsNumber():java.lang.Number" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl::valueAsString():java.lang.String" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl::valueAsExtension():org.java.plugin.registry.Extension" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl::valueAsExtensionPoint():org.java.plugin.registry.ExtensionPoint" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl::valueAsPluginDescriptor():org.java.plugin.registry.PluginDescriptor" />
+			<role name="Request()" element="org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl::valueAsUrl(org.java.plugin.PathResolver):java.net.URL" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.java.plugin.tools.docgen.DocGenerator" />
+			<role name="State" element="org.java.plugin.registry.PluginRegistry" />
+			<role name="state" element="org.java.plugin.tools.docgen.DocGenerator::registry:org.java.plugin.registry.PluginRegistry" />
+			<role name="Request()" element="org.java.plugin.tools.docgen.DocGenerator::generate(java.io.File):void" />
+			<role name="Request()" element="org.java.plugin.tools.docgen.DocGenerator::generateForPluginDescriptor(java.io.File, org.java.plugin.registry.PluginDescriptor):void" />
+			<role name="Request()" element="org.java.plugin.tools.docgen.DocGenerator::getAllPluginDescriptors():java.util.Collection" />
+			<role name="Request()" element="org.java.plugin.tools.docgen.DocGenerator::getAllPluginFragments():java.util.Collection" />
+			<role name="Request()" element="org.java.plugin.tools.docgen.DocGenerator::getAllExtensionPoints():java.util.Collection" />
+			<role name="Request()" element="org.java.plugin.tools.docgen.DocGenerator::getAllExtensions():java.util.Collection" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.java.plugin.tools.docgen.DocGenerator" />
+			<role name="State" element="org.java.plugin.PathResolver" />
+			<role name="state" element="org.java.plugin.tools.docgen.DocGenerator::pathResolver:org.java.plugin.PathResolver" />
+			<role name="Request()" element="org.java.plugin.tools.docgen.DocGenerator::generateForPluginDescriptor(java.io.File, org.java.plugin.registry.PluginDescriptor):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.java.plugin.standard.StandardPluginManager" />
+			<role name="State" element="org.java.plugin.registry.PluginRegistry" />
+			<role name="state" element="org.java.plugin.standard.StandardPluginManager::registry:org.java.plugin.registry.PluginRegistry" />
+			<role name="Request()" element="org.java.plugin.standard.StandardPluginManager::registryChangeHandler(org.java.plugin.registry.PluginRegistry$RegistryChangeData):void" />
+			<role name="Request()" element="org.java.plugin.standard.StandardPluginManager::publishPlugins(org.java.plugin.PluginManager$PluginLocation[]):java.util.Map" />
+			<role name="Request()" element="org.java.plugin.standard.StandardPluginManager::getPlugin(java.lang.String):org.java.plugin.Plugin" />
+			<role name="Request()" element="org.java.plugin.standard.StandardPluginManager::activatePlugin(java.lang.String):void" />
+			<role name="Request()" element="org.java.plugin.standard.StandardPluginManager::shutdown():void" />
+			<role name="Request()" element="org.java.plugin.standard.StandardPluginManager::activatePlugin(org.java.plugin.registry.PluginDescriptor):org.java.plugin.Plugin" />
+			<role name="Request()" element="org.java.plugin.standard.StandardPluginManager::checkPrerequisites(org.java.plugin.registry.PluginDescriptor):void" />
+			<role name="Request()" element="org.java.plugin.standard.StandardPluginManager::deactivatePlugin(java.lang.String):void" />
+			<role name="Request()" element="org.java.plugin.standard.StandardPluginManager::deactivatePlugin(org.java.plugin.registry.PluginDescriptor):void" />
+			<role name="Request()" element="org.java.plugin.standard.StandardPluginManager::disablePlugin(org.java.plugin.registry.PluginDescriptor):org.java.plugin.registry.PluginDescriptor[]" />
+			<role name="Request()" element="org.java.plugin.standard.StandardPluginManager::enablePlugin(org.java.plugin.registry.PluginDescriptor, boolean):org.java.plugin.registry.PluginDescriptor[]" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.java.plugin.boot.Boot" />
+			<role name="State" element="org.java.plugin.boot.SplashHandler" />
+			<role name="state" element="org.java.plugin.boot.Boot::splashHandler:org.java.plugin.boot.SplashHandler" />
+			<role name="Request()" element="org.java.plugin.boot.Boot::main(java.lang.String[]):void" />
+			<role name="Request()" element="org.java.plugin.boot.Boot::boot(org.java.plugin.util.ExtendedProperties, boolean, java.lang.String, org.java.plugin.boot.BootErrorHandler, java.lang.String[]):org.java.plugin.boot.Application" />
+			<role name="Request()" element="org.java.plugin.boot.Boot::setSplashHandler(org.java.plugin.boot.SplashHandler):void" />
+			<role name="Request()" element="org.java.plugin.boot.Boot::initSplashHandler(org.java.plugin.util.ExtendedProperties):void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.java.plugin.standard.PluginLifecycleHandler" />
+			<role name="Context" element="org.java.plugin.standard.StandardPluginManager" />
+			<role name="state" element="org.java.plugin.standard.StandardPluginManager::lifecycleHandler:org.java.plugin.standard.PluginLifecycleHandler" />
+			<role name="Request()" element="org.java.plugin.standard.StandardPluginManager::getPluginClassLoader(org.java.plugin.registry.PluginDescriptor):org.java.plugin.PluginClassLoader" />
+			<role name="Request()" element="org.java.plugin.standard.StandardPluginManager::shutdown():void" />
+			<role name="Request()" element="org.java.plugin.standard.StandardPluginManager::activatePlugin(org.java.plugin.registry.PluginDescriptor):org.java.plugin.Plugin" />
+			<role name="Request()" element="org.java.plugin.standard.StandardPluginManager::deactivatePlugin(org.java.plugin.registry.PluginDescriptor):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.java.plugin.standard.StandardPluginClassLoader" />
+			<role name="State" element="org.java.plugin.registry.PluginDescriptor" />
+			<role name="state" element="org.java.plugin.standard.StandardPluginClassLoader::publicImports:org.java.plugin.registry.PluginDescriptor[]" />
+			<role name="state" element="org.java.plugin.standard.StandardPluginClassLoader::privateImports:org.java.plugin.registry.PluginDescriptor[]" />
+			<role name="state" element="org.java.plugin.standard.StandardPluginClassLoader::reverseLookups:org.java.plugin.registry.PluginDescriptor[]" />
+			<role name="Request()" element="org.java.plugin.standard.StandardPluginClassLoader::collectImports():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.java.plugin.boot.DefaultApplicationInitializer" />
+			<role name="State" element="org.java.plugin.boot.PluginsCollector" />
+			<role name="state" element="org.java.plugin.boot.DefaultApplicationInitializer::collector:org.java.plugin.boot.PluginsCollector" />
+			<role name="Request()" element="org.java.plugin.boot.DefaultApplicationInitializer::configure(org.java.plugin.util.ExtendedProperties):void" />
+			<role name="Request()" element="org.java.plugin.boot.DefaultApplicationInitializer::initApplication(org.java.plugin.boot.BootErrorHandler, java.lang.String[]):org.java.plugin.boot.Application" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.java.plugin.standard.StandardPluginManager" />
+			<role name="State" element="org.java.plugin.PathResolver" />
+			<role name="state" element="org.java.plugin.standard.StandardPluginManager::pathResolver:org.java.plugin.PathResolver" />
+			<role name="Request()" element="org.java.plugin.standard.StandardPluginManager::registryChangeHandler(org.java.plugin.registry.PluginRegistry$RegistryChangeData):void" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy" />
+	<pattern name="Bridge">
+		<instance>
+			<role name="Abstraction" element="org.java.plugin.tools.ant.BaseJpfTask" />
+			<role name="Implementor" element="org.java.plugin.registry.PluginRegistry" />
+			<role name="implementor" element="org.java.plugin.tools.ant.BaseJpfTask::registry:org.java.plugin.registry.PluginRegistry" />
+			<role name="Operation()" element="org.java.plugin.tools.ant.BaseJpfTask::initRegistry(boolean):void" />
+			<role name="Operation()" element="org.java.plugin.tools.ant.BaseJpfTask::isManifestAccepted(java.net.URL):boolean" />
+			<role name="Operation()" element="org.java.plugin.tools.ant.BaseJpfTask::isPluginInList(org.java.plugin.registry.PluginRegistry$ManifestInfo, java.util.Set):boolean" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="org.java.plugin.tools.ant.BaseJpfTask" />
+			<role name="Implementor" element="org.java.plugin.PathResolver" />
+			<role name="implementor" element="org.java.plugin.tools.ant.BaseJpfTask::pathResolver:org.java.plugin.PathResolver" />
+			<role name="Operation()" element="org.java.plugin.tools.ant.BaseJpfTask::initRegistry(boolean):void" />
+		</instance>
+	</pattern>
+	<pattern name="Template Method">
+		<instance>
+			<role name="AbstractClass" element="org.java.plugin.ObjectFactory" />
+			<role name="TemplateMethod()" element="org.java.plugin.ObjectFactory::newInstance(org.java.plugin.util.ExtendedProperties):org.java.plugin.ObjectFactory" />
+			<role name="TemplateMethod()" element="org.java.plugin.ObjectFactory::createManager():org.java.plugin.PluginManager" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.java.plugin.Plugin" />
+			<role name="TemplateMethod()" element="org.java.plugin.Plugin::start():void" />
+			<role name="TemplateMethod()" element="org.java.plugin.Plugin::stop():void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.java.plugin.registry.xml.IdentityImpl" />
+			<role name="TemplateMethod()" element="org.java.plugin.registry.xml.IdentityImpl::equals(java.lang.Object):boolean" />
+		</instance>
+	</pattern>
+	<pattern name="Visitor" />
+	<pattern name="Proxy">
+		<instance>
+			<role name="Proxy" element="org.java.plugin.tools.mocks.MockPluginRegistry" />
+			<role name="RealSubject" element="org.java.plugin.registry.xml.PluginRegistryImpl" />
+			<role name="Request()" element="org.java.plugin.tools.mocks.MockPluginRegistry::extractId(java.lang.String):java.lang.String" />
+			<role name="Request()" element="org.java.plugin.tools.mocks.MockPluginRegistry::extractPluginId(java.lang.String):java.lang.String" />
+			<role name="Request()" element="org.java.plugin.tools.mocks.MockPluginRegistry::extractVersion(java.lang.String):org.java.plugin.registry.Version" />
+			<role name="Request()" element="org.java.plugin.tools.mocks.MockPluginRegistry::makeUniqueId(java.lang.String, java.lang.String):java.lang.String" />
+			<role name="Request()" element="org.java.plugin.tools.mocks.MockPluginRegistry::makeUniqueId(java.lang.String, org.java.plugin.registry.Version):java.lang.String" />
+		</instance>
+	</pattern>
+	<pattern name="Proxy2" />
+	<pattern name="Chain of Responsibility" />
+</system>
+

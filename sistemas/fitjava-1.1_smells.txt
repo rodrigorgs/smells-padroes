@@ -1,0 +1,60 @@
+src.fit.TypeAdapter	Data Class
+src.fit.FileRunnerTest	Feature Envy
+src.eg.ColumnIndex	Dispersed Coupling
+src.eg.AllPairs	Refused Parent Bequest
+src.fit.RowFixture	Feature Envy
+src.fit.RowFixture	Feature Envy
+src.fit.RowFixture	Feature Envy
+src.fit.RowFixture	Feature Envy
+src.fit.RowFixture	Feature Envy
+src.fit.RowFixture	God Class
+src.fit.RowFixture	Data Class
+src.fit.RowFixture	Refused Parent Bequest
+src.fit.TimedActionFixture	Feature Envy
+src.fit.TimedActionFixture	Feature Envy
+src.fit.ParseTest	Feature Envy
+src.fit.ParseTest	Feature Envy
+src.fit.ParseTest	Feature Envy
+src.fit.ParseTest	Feature Envy
+src.fit.Parse	Shotgun Surgery
+src.fit.Parse	Shotgun Surgery
+src.fit.Parse	God Class
+src.fit.Parse	Data Class
+src.fat.Equals	Feature Envy
+src.fat.Equals	Feature Envy
+src.fat.Table	Feature Envy
+src.eg.BinaryChop	Feature Envy
+src.eg.BinaryChop	Refused Parent Bequest
+src.eg.AllPairs$Setup	Feature Envy
+src.fat.AnnotationFixture	Feature Envy
+src.fat.AnnotationFixture	Feature Envy
+src.fat.AnnotationFixture	Feature Envy
+src.fat.Tests	Feature Envy
+src.fat.FixtureNameFixture	Feature Envy
+src.fit.Fixture	Feature Envy
+src.fit.Fixture	Shotgun Surgery
+src.fit.Fixture	Shotgun Surgery
+src.fit.Fixture	Shotgun Surgery
+src.fit.Fixture	God Class
+src.fit.Fixture	Data Class
+src.fit.Summary	Feature Envy
+src.fit.ColumnFixture	Feature Envy
+src.fit.ColumnFixture	Refused Parent Bequest
+src.eg.ColumnIndex$Column	Feature Envy
+src.eg.ColumnIndex$Column	Feature Envy
+src.eg.music.Browser	Refused Parent Bequest
+src.eg.Calculator$HP35	Brain Method
+src.eg.Calculator$HP35	Intensive Coupling
+src.eg.AllFiles	Feature Envy
+src.eg.AllFiles	Feature Envy
+src.eg.AllFiles	Refused Parent Bequest
+src.eg.AllPairs$Stats	Feature Envy
+src.eg.music.MusicPlayer	Feature Envy
+src.eg.music.MusicPlayer	Feature Envy
+src.fit.ActionFixture	Feature Envy
+src.eg.music.MusicLibrary	Feature Envy
+src.eg.music.MusicLibrary	Feature Envy
+src.eg.music.MusicLibrary	Feature Envy
+src.eg.music.MusicLibrary	Feature Envy
+src.fit.TypeAdapter$ArrayAdapter	Feature Envy
+src.fat.FatTest	Feature Envy

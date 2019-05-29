@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method" />
+	<pattern name="Prototype" />
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="eg.AllPairs" />
+			<role name="uniqueInstance" element="eg.AllPairs::fut:eg.AllPairs" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="eg.music.Simulator" />
+			<role name="uniqueInstance" element="eg.music.Simulator::system:eg.music.Simulator" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adaptee" element="fit.Parse" />
+			<role name="Adapter" element="eg.ColumnIndex" />
+			<role name="adaptee" element="eg.ColumnIndex::rows:fit.Parse" />
+			<role name="Request()" element="eg.ColumnIndex::query():java.lang.Object[]" />
+		</instance>
+	</pattern>
+	<pattern name="Command" />
+	<pattern name="Composite" />
+	<pattern name="Decorator" />
+	<pattern name="Observer" />
+	<pattern name="State" />
+	<pattern name="Strategy" />
+	<pattern name="Bridge" />
+	<pattern name="Template Method">
+		<instance>
+			<role name="AbstractClass" element="fit.RowFixture" />
+			<role name="TemplateMethod()" element="fit.RowFixture::doRows(fit.Parse):void" />
+		</instance>
+	</pattern>
+	<pattern name="Visitor" />
+	<pattern name="Proxy" />
+	<pattern name="Proxy2" />
+	<pattern name="Chain of Responsibility" />
+</system>
+

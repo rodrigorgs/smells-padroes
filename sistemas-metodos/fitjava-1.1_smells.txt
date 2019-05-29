@@ -1,0 +1,60 @@
+Data Class	TypeAdapter	1	1,0
+Feature Envy	FileRunnerTest.testHtml	2	1,0
+Dispersed Coupling	ColumnIndex.query	3	1,0
+Refused Parent Bequest	AllPairs	4	1,0
+Feature Envy	RowFixture.doRows	5	1,0
+Feature Envy	RowFixture.match	6	1,0
+Feature Envy	RowFixture.eSort	7	1,0
+Feature Envy	RowFixture.mark	8	1,0
+Feature Envy	RowFixture.buildRows	9	1,0
+God Class	RowFixture	10	1,0
+Data Class	RowFixture	11	1,0
+Refused Parent Bequest	RowFixture	12	1,0
+Feature Envy	TimedActionFixture.doTable	13	1,0
+Feature Envy	TimedActionFixture.doCells	14	1,0
+Feature Envy	ParseTest.testParsing	15	1,0
+Feature Envy	ParseTest.testRecursing	16	1,0
+Feature Envy	ParseTest.testIterating	17	1,0
+Feature Envy	ParseTest.testIndexing	18	1,0
+Shotgun Surgery	Parse.text	19	1,0
+Shotgun Surgery	Parse.addToBody	20	1,0
+God Class	Parse	21	1,0
+Data Class	Parse	22	1,0
+Feature Envy	Equals.type	23	1,0
+Feature Envy	Equals.parseCustomBoolean	24	1,0
+Feature Envy	Table.copy	25	1,0
+Feature Envy	BinaryChop.chopWednesday	26	1,0
+Refused Parent Bequest	BinaryChop	27	1,0
+Feature Envy	Setup.doCell	28	1,0
+Feature Envy	AnnotationFixture.ResultingHTML	29	1,0
+Feature Envy	AnnotationFixture.addParse	30	1,0
+Feature Envy	AnnotationFixture.removeParse	31	1,0
+Feature Envy	Tests.count	32	1,0
+Feature Envy	FixtureNameFixture.GenerateRowParses	33	1,0
+Feature Envy	Fixture.getArgsForTable	34	1,0
+Shotgun Surgery	Fixture.right	35	1,0
+Shotgun Surgery	Fixture.ignore	36	1,0
+Shotgun Surgery	Fixture.exception	37	1,0
+God Class	Fixture	38	1,0
+Data Class	Fixture	39	1,0
+Feature Envy	Summary.mark	40	1,0
+Feature Envy	ColumnFixture.doCell	41	1,0
+Refused Parent Bequest	ColumnFixture	42	1,0
+Feature Envy	Column.Column	43	1,0
+Feature Envy	Column.Column	44	1,0
+Refused Parent Bequest	Browser	45	1,0
+Brain Method	HP35.key	46	1,0
+Intensive Coupling	HP35.key	47	1,0
+Feature Envy	AllFiles.doFiles	48	1,0
+Feature Envy	AllFiles.run	49	1,0
+Refused Parent Bequest	AllFiles	50	1,0
+Feature Envy	Stats.generate	51	1,0
+Feature Envy	MusicPlayer.play	52	1,0
+Feature Envy	MusicPlayer.pause	53	1,0
+Feature Envy	ActionFixture.enter	54	1,0
+Feature Envy	MusicLibrary.findArtist	55	1,0
+Feature Envy	MusicLibrary.findAlbum	56	1,0
+Feature Envy	MusicLibrary.findGenre	57	1,0
+Feature Envy	MusicLibrary.findYear	58	1,0
+Feature Envy	ArrayAdapter.equals	59	1,0
+Feature Envy	FatTest.testCopy	60	1,0

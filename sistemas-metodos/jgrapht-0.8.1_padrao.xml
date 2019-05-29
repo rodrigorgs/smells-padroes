@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method">
+		<instance>
+			<role name="Creator" element="org.jgrapht.experimental.dag.DirectedAcyclicGraph$VisitedFactory" />
+			<role name="FactoryMethod()" element="org.jgrapht.experimental.dag.DirectedAcyclicGraph$VisitedFactory::getInstance(org.jgrapht.experimental.dag.DirectedAcyclicGraph$Region):org.jgrapht.experimental.dag.DirectedAcyclicGraph$Visited" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.jgrapht.traverse.AbstractGraphIteratorTest" />
+			<role name="FactoryMethod()" element="org.jgrapht.traverse.AbstractGraphIteratorTest::createIterator(org.jgrapht.DirectedGraph, java.lang.String):org.jgrapht.traverse.AbstractGraphIterator" />
+		</instance>
+	</pattern>
+	<pattern name="Prototype" />
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="org.jgrapht.alg.TransitiveClosure" />
+			<role name="uniqueInstance" element="org.jgrapht.alg.TransitiveClosure::INSTANCE:org.jgrapht.alg.TransitiveClosure" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.jgrapht.util.WeightCombiner" />
+			<role name="uniqueInstance" element="org.jgrapht.util.WeightCombiner::SUM:org.jgrapht.util.WeightCombiner" />
+			<role name="uniqueInstance" element="org.jgrapht.util.WeightCombiner::MIN:org.jgrapht.util.WeightCombiner" />
+			<role name="uniqueInstance" element="org.jgrapht.util.WeightCombiner::MAX:org.jgrapht.util.WeightCombiner" />
+			<role name="uniqueInstance" element="org.jgrapht.util.WeightCombiner::FIRST:org.jgrapht.util.WeightCombiner" />
+			<role name="uniqueInstance" element="org.jgrapht.util.WeightCombiner::SECOND:org.jgrapht.util.WeightCombiner" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adaptee" element="org.jgrapht.util.TypeUtil" />
+			<role name="Adapter" element="org.jgrapht.graph.AbstractBaseGraph" />
+			<role name="adaptee" element="org.jgrapht.graph.AbstractBaseGraph::vertexTypeDecl:org.jgrapht.util.TypeUtil" />
+			<role name="Request()" element="org.jgrapht.graph.AbstractBaseGraph::getEdgeSource(E):java.lang.Object" />
+			<role name="Request()" element="org.jgrapht.graph.AbstractBaseGraph::getEdgeTarget(E):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jgrapht.util.FibonacciHeap" />
+			<role name="Adapter" element="org.jgrapht.traverse.ClosestFirstIterator" />
+			<role name="adaptee" element="org.jgrapht.traverse.ClosestFirstIterator::heap:org.jgrapht.util.FibonacciHeap" />
+			<role name="Request()" element="org.jgrapht.traverse.ClosestFirstIterator::isConnectedComponentExhausted():boolean" />
+			<role name="Request()" element="org.jgrapht.traverse.ClosestFirstIterator::encounterVertex(V, E):void" />
+			<role name="Request()" element="org.jgrapht.traverse.ClosestFirstIterator::encounterVertexAgain(V, E):void" />
+			<role name="Request()" element="org.jgrapht.traverse.ClosestFirstIterator::provideNextVertex():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jgrapht.util.TypeUtil" />
+			<role name="Adapter" element="org.jgrapht.traverse.DepthFirstIterator" />
+			<role name="adaptee" element="org.jgrapht.traverse.DepthFirstIterator::vertexTypeDecl:org.jgrapht.util.TypeUtil" />
+			<role name="Request()" element="org.jgrapht.traverse.DepthFirstIterator::provideNextVertex():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jgrapht.graph.AbstractBaseGraph$Specifics" />
+			<role name="Adapter" element="org.jgrapht.graph.AbstractBaseGraph" />
+			<role name="adaptee" element="org.jgrapht.graph.AbstractBaseGraph::specifics:org.jgrapht.graph.AbstractBaseGraph$Specifics" />
+			<role name="Request()" element="org.jgrapht.graph.AbstractBaseGraph::getAllEdges(V, V):java.util.Set" />
+			<role name="Request()" element="org.jgrapht.graph.AbstractBaseGraph::getEdge(V, V):java.lang.Object" />
+			<role name="Request()" element="org.jgrapht.graph.AbstractBaseGraph::addEdge(V, V):java.lang.Object" />
+			<role name="Request()" element="org.jgrapht.graph.AbstractBaseGraph::addEdge(V, V, E):boolean" />
+			<role name="Request()" element="org.jgrapht.graph.AbstractBaseGraph::addVertex(V):boolean" />
+			<role name="Request()" element="org.jgrapht.graph.AbstractBaseGraph::containsVertex(V):boolean" />
+			<role name="Request()" element="org.jgrapht.graph.AbstractBaseGraph::edgesOf(V):java.util.Set" />
+			<role name="Request()" element="org.jgrapht.graph.AbstractBaseGraph::removeEdge(V, V):java.lang.Object" />
+			<role name="Request()" element="org.jgrapht.graph.AbstractBaseGraph::removeEdge(E):boolean" />
+			<role name="Request()" element="org.jgrapht.graph.AbstractBaseGraph::removeVertex(V):boolean" />
+			<role name="Request()" element="org.jgrapht.graph.AbstractBaseGraph::vertexSet():java.util.Set" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jgrapht.Graph" />
+			<role name="Adapter" element="org.jgrapht.alg.NeighborIndex" />
+			<role name="adaptee" element="org.jgrapht.alg.NeighborIndex::graph:org.jgrapht.Graph" />
+			<role name="Request()" element="org.jgrapht.alg.NeighborIndex::edgeAdded(org.jgrapht.event.GraphEdgeChangeEvent):void" />
+			<role name="Request()" element="org.jgrapht.alg.NeighborIndex::edgeRemoved(org.jgrapht.event.GraphEdgeChangeEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="org.jgrapht.experimental.isomorphism.AbstractExhaustiveIsomorphismInspector" />
+			<role name="Adaptee" element="org.jgrapht.util.PrefetchIterator" />
+			<role name="adaptee" element="org.jgrapht.experimental.isomorphism.AbstractExhaustiveIsomorphismInspector::nextSupplier:org.jgrapht.util.PrefetchIterator" />
+			<role name="Request()" element="org.jgrapht.experimental.isomorphism.AbstractExhaustiveIsomorphismInspector::isIsomorphic():boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jgrapht.EdgeFactory" />
+			<role name="Adapter" element="org.jgrapht.graph.AbstractBaseGraph" />
+			<role name="adaptee" element="org.jgrapht.graph.AbstractBaseGraph::edgeFactory:org.jgrapht.EdgeFactory" />
+			<role name="Request()" element="org.jgrapht.graph.AbstractBaseGraph::addEdge(V, V):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jgrapht.Graph" />
+			<role name="Adapter" element="org.jgrapht.graph.DefaultGraphMapping" />
+			<role name="adaptee" element="org.jgrapht.graph.DefaultGraphMapping::graph1:org.jgrapht.Graph" />
+			<role name="adaptee" element="org.jgrapht.graph.DefaultGraphMapping::graph2:org.jgrapht.Graph" />
+			<role name="Request()" element="org.jgrapht.graph.DefaultGraphMapping::getEdgeCorrespondence(E, boolean):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jgrapht.alg.RankingPathElement" />
+			<role name="Adapter" element="org.jgrapht.alg.KShortestPaths$PathWrapper" />
+			<role name="adaptee" element="org.jgrapht.alg.KShortestPaths$PathWrapper::rankingPathElement:org.jgrapht.alg.RankingPathElement" />
+			<role name="Request()" element="org.jgrapht.alg.KShortestPaths$PathWrapper::getEndVertex():java.lang.Object" />
+			<role name="Request()" element="org.jgrapht.alg.KShortestPaths$PathWrapper::getEdgeList():java.util.List" />
+			<role name="Request()" element="org.jgrapht.alg.KShortestPaths$PathWrapper::getWeight():double" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jgrapht.DirectedGraph" />
+			<role name="Adapter" element="org.jgrapht.alg.DirectedNeighborIndex" />
+			<role name="adaptee" element="org.jgrapht.alg.DirectedNeighborIndex::graph:org.jgrapht.DirectedGraph" />
+			<role name="Request()" element="org.jgrapht.alg.DirectedNeighborIndex::edgeAdded(org.jgrapht.event.GraphEdgeChangeEvent):void" />
+			<role name="Request()" element="org.jgrapht.alg.DirectedNeighborIndex::edgeRemoved(org.jgrapht.event.GraphEdgeChangeEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jgrapht.DirectedGraph" />
+			<role name="Adapter" element="org.jgrapht.traverse.CrossComponentIterator$DirectedSpecifics" />
+			<role name="adaptee" element="org.jgrapht.traverse.CrossComponentIterator$DirectedSpecifics::graph:org.jgrapht.DirectedGraph" />
+			<role name="Request()" element="org.jgrapht.traverse.CrossComponentIterator$DirectedSpecifics::edgesOf(VV):java.util.Set" />
+		</instance>
+	</pattern>
+	<pattern name="Command" />
+	<pattern name="Composite">
+		<instance>
+			<role name="Component" element="org.jgrapht.experimental.equivalence.EquivalenceComparator" />
+			<role name="Composite" element="org.jgrapht.experimental.equivalence.EquivalenceComparatorChainBase" />
+			<role name="Operation()" element="org.jgrapht.experimental.equivalence.EquivalenceComparatorChainBase::equivalenceCompare(E, E, C, C):boolean" />
+			<role name="Operation()" element="org.jgrapht.experimental.equivalence.EquivalenceComparatorChainBase::equivalenceHashcode(E, C):int" />
+		</instance>
+	</pattern>
+	<pattern name="Decorator">
+		<instance>
+			<role name="Component" element="org.jgrapht.Graph" />
+			<role name="Decorator" element="org.jgrapht.graph.GraphDelegator" />
+			<role name="component" element="org.jgrapht.graph.GraphDelegator::delegate:org.jgrapht.Graph" />
+			<role name="Operation()" element="org.jgrapht.graph.GraphDelegator::getAllEdges(V, V):java.util.Set" />
+			<role name="Operation()" element="org.jgrapht.graph.GraphDelegator::getEdge(V, V):java.lang.Object" />
+			<role name="Operation()" element="org.jgrapht.graph.GraphDelegator::getEdgeFactory():org.jgrapht.EdgeFactory" />
+			<role name="Operation()" element="org.jgrapht.graph.GraphDelegator::addEdge(V, V):java.lang.Object" />
+			<role name="Operation()" element="org.jgrapht.graph.GraphDelegator::addEdge(V, V, E):boolean" />
+			<role name="Operation()" element="org.jgrapht.graph.GraphDelegator::addVertex(V):boolean" />
+			<role name="Operation()" element="org.jgrapht.graph.GraphDelegator::containsEdge(E):boolean" />
+			<role name="Operation()" element="org.jgrapht.graph.GraphDelegator::containsVertex(V):boolean" />
+			<role name="Operation()" element="org.jgrapht.graph.GraphDelegator::edgeSet():java.util.Set" />
+			<role name="Operation()" element="org.jgrapht.graph.GraphDelegator::edgesOf(V):java.util.Set" />
+			<role name="Operation()" element="org.jgrapht.graph.GraphDelegator::removeEdge(E):boolean" />
+			<role name="Operation()" element="org.jgrapht.graph.GraphDelegator::removeEdge(V, V):java.lang.Object" />
+			<role name="Operation()" element="org.jgrapht.graph.GraphDelegator::removeVertex(V):boolean" />
+			<role name="Operation()" element="org.jgrapht.graph.GraphDelegator::vertexSet():java.util.Set" />
+			<role name="Operation()" element="org.jgrapht.graph.GraphDelegator::getEdgeSource(E):java.lang.Object" />
+			<role name="Operation()" element="org.jgrapht.graph.GraphDelegator::getEdgeTarget(E):java.lang.Object" />
+			<role name="Operation()" element="org.jgrapht.graph.GraphDelegator::getEdgeWeight(E):double" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.jgrapht.Graph" />
+			<role name="Decorator" element="org.jgrapht.graph.GraphUnion" />
+			<role name="component" element="org.jgrapht.graph.GraphUnion::g1:org.jgrapht.Graph" />
+			<role name="component" element="org.jgrapht.graph.GraphUnion::g2:org.jgrapht.Graph" />
+			<role name="Operation()" element="org.jgrapht.graph.GraphUnion::getAllEdges(V, V):java.util.Set" />
+			<role name="Operation()" element="org.jgrapht.graph.GraphUnion::getEdge(V, V):java.lang.Object" />
+			<role name="Operation()" element="org.jgrapht.graph.GraphUnion::containsEdge(E):boolean" />
+			<role name="Operation()" element="org.jgrapht.graph.GraphUnion::containsVertex(V):boolean" />
+			<role name="Operation()" element="org.jgrapht.graph.GraphUnion::edgeSet():java.util.Set" />
+			<role name="Operation()" element="org.jgrapht.graph.GraphUnion::edgesOf(V):java.util.Set" />
+			<role name="Operation()" element="org.jgrapht.graph.GraphUnion::vertexSet():java.util.Set" />
+			<role name="Operation()" element="org.jgrapht.graph.GraphUnion::getEdgeSource(E):java.lang.Object" />
+			<role name="Operation()" element="org.jgrapht.graph.GraphUnion::getEdgeTarget(E):java.lang.Object" />
+			<role name="Operation()" element="org.jgrapht.graph.GraphUnion::getEdgeWeight(E):double" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.jgrapht.Graph" />
+			<role name="Decorator" element="org.jgrapht.graph.MaskSubgraph" />
+			<role name="component" element="org.jgrapht.graph.MaskSubgraph::base:org.jgrapht.Graph" />
+			<role name="Operation()" element="org.jgrapht.graph.MaskSubgraph::containsVertex(V):boolean" />
+			<role name="Operation()" element="org.jgrapht.graph.MaskSubgraph::edgesOf(V):java.util.Set" />
+			<role name="Operation()" element="org.jgrapht.graph.MaskSubgraph::getAllEdges(V, V):java.util.Set" />
+			<role name="Operation()" element="org.jgrapht.graph.MaskSubgraph::getEdgeFactory():org.jgrapht.EdgeFactory" />
+			<role name="Operation()" element="org.jgrapht.graph.MaskSubgraph::getEdgeSource(E):java.lang.Object" />
+			<role name="Operation()" element="org.jgrapht.graph.MaskSubgraph::getEdgeTarget(E):java.lang.Object" />
+			<role name="Operation()" element="org.jgrapht.graph.MaskSubgraph::getEdgeWeight(E):double" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.jgrapht.Graph" />
+			<role name="Decorator" element="org.jgrapht.graph.Subgraph" />
+			<role name="component" element="org.jgrapht.graph.Subgraph::base:org.jgrapht.Graph" />
+			<role name="Operation()" element="org.jgrapht.graph.Subgraph::getAllEdges(V, V):java.util.Set" />
+			<role name="Operation()" element="org.jgrapht.graph.Subgraph::getEdgeFactory():org.jgrapht.EdgeFactory" />
+			<role name="Operation()" element="org.jgrapht.graph.Subgraph::edgesOf(V):java.util.Set" />
+			<role name="Operation()" element="org.jgrapht.graph.Subgraph::getEdgeSource(E):java.lang.Object" />
+			<role name="Operation()" element="org.jgrapht.graph.Subgraph::getEdgeTarget(E):java.lang.Object" />
+			<role name="Operation()" element="org.jgrapht.graph.Subgraph::getEdgeWeight(E):double" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.jgrapht.GraphMapping" />
+			<role name="Decorator" element="org.jgrapht.experimental.isomorphism.IsomorphismRelation" />
+			<role name="component" element="org.jgrapht.experimental.isomorphism.IsomorphismRelation::graphMapping:org.jgrapht.GraphMapping" />
+			<role name="Operation()" element="org.jgrapht.experimental.isomorphism.IsomorphismRelation::getVertexCorrespondence(V, boolean):java.lang.Object" />
+			<role name="Operation()" element="org.jgrapht.experimental.isomorphism.IsomorphismRelation::getEdgeCorrespondence(E, boolean):java.lang.Object" />
+		</instance>
+	</pattern>
+	<pattern name="Observer">
+		<instance>
+			<role name="Observer" element="org.jgrapht.event.TraversalListener" />
+			<role name="Subject" element="org.jgrapht.traverse.AbstractGraphIterator" />
+			<role name="Notify()" element="org.jgrapht.traverse.AbstractGraphIterator::fireConnectedComponentFinished(org.jgrapht.event.ConnectedComponentTraversalEvent):void" />
+			<role name="Notify()" element="org.jgrapht.traverse.AbstractGraphIterator::fireConnectedComponentStarted(org.jgrapht.event.ConnectedComponentTraversalEvent):void" />
+			<role name="Notify()" element="org.jgrapht.traverse.AbstractGraphIterator::fireEdgeTraversed(org.jgrapht.event.EdgeTraversalEvent):void" />
+			<role name="Notify()" element="org.jgrapht.traverse.AbstractGraphIterator::fireVertexTraversed(org.jgrapht.event.VertexTraversalEvent):void" />
+			<role name="Notify()" element="org.jgrapht.traverse.AbstractGraphIterator::fireVertexFinished(org.jgrapht.event.VertexTraversalEvent):void" />
+		</instance>
+	</pattern>
+	<pattern name="State">
+		<instance>
+			<role name="State" element="org.jgrapht.Graph" />
+			<role name="Context" element="org.jgrapht.ext.JGraphModelAdapter$ShieldedGraph" />
+			<role name="state" element="org.jgrapht.ext.JGraphModelAdapter$ShieldedGraph::graph:org.jgrapht.Graph" />
+			<role name="Request()" element="org.jgrapht.ext.JGraphModelAdapter$ShieldedGraph::getEdgeFactory():org.jgrapht.EdgeFactory" />
+			<role name="Request()" element="org.jgrapht.ext.JGraphModelAdapter$ShieldedGraph::addEdge(V, V):java.lang.Object" />
+			<role name="Request()" element="org.jgrapht.ext.JGraphModelAdapter$ShieldedGraph::getEdgeSource(E):java.lang.Object" />
+			<role name="Request()" element="org.jgrapht.ext.JGraphModelAdapter$ShieldedGraph::getEdgeTarget(E):java.lang.Object" />
+			<role name="Request()" element="org.jgrapht.ext.JGraphModelAdapter$ShieldedGraph::addVertex(V):void" />
+			<role name="Request()" element="org.jgrapht.ext.JGraphModelAdapter$ShieldedGraph::edgesOf(V):java.util.Set" />
+			<role name="Request()" element="org.jgrapht.ext.JGraphModelAdapter$ShieldedGraph::removeAllEdges(java.util.Collection):boolean" />
+			<role name="Request()" element="org.jgrapht.ext.JGraphModelAdapter$ShieldedGraph::removeEdge(E):void" />
+			<role name="Request()" element="org.jgrapht.ext.JGraphModelAdapter$ShieldedGraph::removeVertex(V):void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jgrapht.Graph" />
+			<role name="Context" element="org.jgrapht.alg.BellmanFordShortestPath" />
+			<role name="state" element="org.jgrapht.alg.BellmanFordShortestPath::graph:org.jgrapht.Graph" />
+			<role name="Request()" element="org.jgrapht.alg.BellmanFordShortestPath::assertGetPath(V):void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jgrapht.Graph" />
+			<role name="Context" element="org.jgrapht.alg.BellmanFordIterator" />
+			<role name="state" element="org.jgrapht.alg.BellmanFordIterator::graph:org.jgrapht.Graph" />
+			<role name="Request()" element="org.jgrapht.alg.BellmanFordIterator::assertValidEdge(E):void" />
+			<role name="Request()" element="org.jgrapht.alg.BellmanFordIterator::calculatePathCost(V, E):double" />
+			<role name="Request()" element="org.jgrapht.alg.BellmanFordIterator::edgesOfIterator(V):java.util.Iterator" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jgrapht.Graph" />
+			<role name="Context" element="org.jgrapht.alg.BronKerboschCliqueFinder" />
+			<role name="state" element="org.jgrapht.alg.BronKerboschCliqueFinder::graph:org.jgrapht.Graph" />
+			<role name="Request()" element="org.jgrapht.alg.BronKerboschCliqueFinder::getAllMaximalCliques():java.util.Collection" />
+			<role name="Request()" element="org.jgrapht.alg.BronKerboschCliqueFinder::findCliques(java.util.List, java.util.List, java.util.List):void" />
+			<role name="Request()" element="org.jgrapht.alg.BronKerboschCliqueFinder::end(java.util.List, java.util.List):boolean" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jgrapht.Graph" />
+			<role name="Context" element="org.jgrapht.alg.KShortestPaths" />
+			<role name="state" element="org.jgrapht.alg.KShortestPaths::graph:org.jgrapht.Graph" />
+			<role name="Request()" element="org.jgrapht.alg.KShortestPaths::assertGetPaths(V):void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jgrapht.Graph" />
+			<role name="Context" element="org.jgrapht.alg.KShortestPathsIterator" />
+			<role name="state" element="org.jgrapht.alg.KShortestPathsIterator::graph:org.jgrapht.Graph" />
+			<role name="Request()" element="org.jgrapht.alg.KShortestPathsIterator::edgesOf(V):java.util.Set" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jgrapht.Graph" />
+			<role name="Context" element="org.jgrapht.demo.CompleteGraphDemo" />
+			<role name="state" element="org.jgrapht.demo.CompleteGraphDemo::completeGraph:org.jgrapht.Graph" />
+			<role name="Request()" element="org.jgrapht.demo.CompleteGraphDemo::main(java.lang.String[]):void" />
+			<role name="Request()" element="org.jgrapht.demo.CompleteGraphDemo::replaceVertex(java.lang.Object, java.lang.Object):boolean" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jgrapht.Graph" />
+			<role name="Context" element="org.jgrapht.graph.GenericGraphsTest" />
+			<role name="state" element="org.jgrapht.graph.GenericGraphsTest::objectGraph:org.jgrapht.Graph" />
+			<role name="state" element="org.jgrapht.graph.GenericGraphsTest::fooFooGraph:org.jgrapht.Graph" />
+			<role name="state" element="org.jgrapht.graph.GenericGraphsTest::barBarGraph:org.jgrapht.Graph" />
+			<role name="Request()" element="org.jgrapht.graph.GenericGraphsTest::testLegalInsertStringGraph():void" />
+			<role name="Request()" element="org.jgrapht.graph.GenericGraphsTest::testLegalInsertFooGraph():void" />
+			<role name="Request()" element="org.jgrapht.graph.GenericGraphsTest::testLegalInsertBarGraph():void" />
+			<role name="Request()" element="org.jgrapht.graph.GenericGraphsTest::testLegalInsertFooBarGraph():void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jgrapht.DirectedGraph" />
+			<role name="Context" element="org.jgrapht.alg.EdmondsKarpMaximumFlow" />
+			<role name="state" element="org.jgrapht.alg.EdmondsKarpMaximumFlow::network:org.jgrapht.DirectedGraph" />
+			<role name="Request()" element="org.jgrapht.alg.EdmondsKarpMaximumFlow::buildInternalNetwork():void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jgrapht.DirectedGraph" />
+			<role name="Context" element="org.jgrapht.graph.SimpleDirectedGraphTest" />
+			<role name="state" element="org.jgrapht.graph.SimpleDirectedGraphTest::g1:org.jgrapht.DirectedGraph" />
+			<role name="state" element="org.jgrapht.graph.SimpleDirectedGraphTest::g2:org.jgrapht.DirectedGraph" />
+			<role name="state" element="org.jgrapht.graph.SimpleDirectedGraphTest::g3:org.jgrapht.DirectedGraph" />
+			<role name="state" element="org.jgrapht.graph.SimpleDirectedGraphTest::g4:org.jgrapht.DirectedGraph" />
+			<role name="Request()" element="org.jgrapht.graph.SimpleDirectedGraphTest::testInDegreeOf():void" />
+			<role name="Request()" element="org.jgrapht.graph.SimpleDirectedGraphTest::testIncomingOutgoingEdgesOf():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jgrapht.alg.util.VertexDegreeComparator" />
+			<role name="State" element="org.jgrapht.UndirectedGraph" />
+			<role name="state" element="org.jgrapht.alg.util.VertexDegreeComparator::graph:org.jgrapht.UndirectedGraph" />
+			<role name="Request()" element="org.jgrapht.alg.util.VertexDegreeComparator::compare(V, V):int" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jgrapht.graph.AsUndirectedGraphTest" />
+			<role name="State" element="org.jgrapht.UndirectedGraph" />
+			<role name="state" element="org.jgrapht.graph.AsUndirectedGraphTest::undirected:org.jgrapht.UndirectedGraph" />
+			<role name="Request()" element="org.jgrapht.graph.AsUndirectedGraphTest::testDegreeOf():void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jgrapht.Graph" />
+			<role name="Context" element="org.jgrapht.alg.ConnectivityInspector" />
+			<role name="state" element="org.jgrapht.alg.ConnectivityInspector::graph:org.jgrapht.Graph" />
+			<role name="Request()" element="org.jgrapht.alg.ConnectivityInspector::lazyFindConnectedSets():java.util.List" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jgrapht.Graph" />
+			<role name="Context" element="org.jgrapht.alg.NeighborIndex" />
+			<role name="state" element="org.jgrapht.alg.NeighborIndex::graph:org.jgrapht.Graph" />
+			<role name="Request()" element="org.jgrapht.alg.NeighborIndex::edgeAdded(org.jgrapht.event.GraphEdgeChangeEvent):void" />
+			<role name="Request()" element="org.jgrapht.alg.NeighborIndex::edgeRemoved(org.jgrapht.event.GraphEdgeChangeEvent):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jgrapht.util.PrefetchIterator" />
+			<role name="State" element="org.jgrapht.util.PrefetchIterator$NextElementFunctor" />
+			<role name="state" element="org.jgrapht.util.PrefetchIterator::innerEnum:org.jgrapht.util.PrefetchIterator$NextElementFunctor" />
+			<role name="Request()" element="org.jgrapht.util.PrefetchIterator::getNextElementFromInnerFunctor():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jgrapht.ext.DOTExporter" />
+			<role name="State" element="org.jgrapht.ext.VertexNameProvider" />
+			<role name="state" element="org.jgrapht.ext.DOTExporter::vertexLabelProvider:org.jgrapht.ext.VertexNameProvider" />
+			<role name="state" element="org.jgrapht.ext.DOTExporter::vertexIDProvider:org.jgrapht.ext.VertexNameProvider" />
+			<role name="Request()" element="org.jgrapht.ext.DOTExporter::export(java.io.Writer, org.jgrapht.Graph):void" />
+			<role name="Request()" element="org.jgrapht.ext.DOTExporter::getVertexID(V):java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jgrapht.ext.GmlExporter" />
+			<role name="State" element="org.jgrapht.ext.VertexNameProvider" />
+			<role name="state" element="org.jgrapht.ext.GmlExporter::vertexIDProvider:org.jgrapht.ext.VertexNameProvider" />
+			<role name="state" element="org.jgrapht.ext.GmlExporter::vertexLabelProvider:org.jgrapht.ext.VertexNameProvider" />
+			<role name="Request()" element="org.jgrapht.ext.GmlExporter::exportVertices(java.io.PrintWriter, org.jgrapht.Graph):void" />
+			<role name="Request()" element="org.jgrapht.ext.GmlExporter::exportEdges(java.io.PrintWriter, org.jgrapht.Graph):void" />
+			<role name="Request()" element="org.jgrapht.ext.GmlExporter::export(java.io.Writer, org.jgrapht.Graph, boolean):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jgrapht.ext.GraphMLExporter" />
+			<role name="State" element="org.jgrapht.ext.VertexNameProvider" />
+			<role name="state" element="org.jgrapht.ext.GraphMLExporter::vertexLabelProvider:org.jgrapht.ext.VertexNameProvider" />
+			<role name="state" element="org.jgrapht.ext.GraphMLExporter::vertexIDProvider:org.jgrapht.ext.VertexNameProvider" />
+			<role name="Request()" element="org.jgrapht.ext.GraphMLExporter::export(java.io.Writer, org.jgrapht.Graph):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jgrapht.ext.VisioExporter" />
+			<role name="State" element="org.jgrapht.ext.VertexNameProvider" />
+			<role name="state" element="org.jgrapht.ext.VisioExporter::vertexNameProvider:org.jgrapht.ext.VertexNameProvider" />
+			<role name="Request()" element="org.jgrapht.ext.VisioExporter::exportEdge(java.io.PrintStream, E, org.jgrapht.Graph):void" />
+			<role name="Request()" element="org.jgrapht.ext.VisioExporter::exportVertex(java.io.PrintStream, V):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jgrapht.experimental.equivalence.EquivalenceSet" />
+			<role name="State" element="org.jgrapht.experimental.equivalence.EquivalenceComparator" />
+			<role name="state" element="org.jgrapht.experimental.equivalence.EquivalenceSet::eqComparator:org.jgrapht.experimental.equivalence.EquivalenceComparator" />
+			<role name="Request()" element="org.jgrapht.experimental.equivalence.EquivalenceSet::equivalentTo(E, C):boolean" />
+			<role name="Request()" element="org.jgrapht.experimental.equivalence.EquivalenceSet::equals(java.lang.Object):boolean" />
+			<role name="Request()" element="org.jgrapht.experimental.equivalence.EquivalenceSet::hashCode():int" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jgrapht.experimental.dag.DirectedAcyclicGraph" />
+			<role name="State" element="org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoOrderMapping" />
+			<role name="state" element="org.jgrapht.experimental.dag.DirectedAcyclicGraph::topoOrderMap:org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoOrderMapping" />
+			<role name="Request()" element="org.jgrapht.experimental.dag.DirectedAcyclicGraph::addVertex(V):boolean" />
+			<role name="Request()" element="org.jgrapht.experimental.dag.DirectedAcyclicGraph::addVertex(V, boolean):boolean" />
+			<role name="Request()" element="org.jgrapht.experimental.dag.DirectedAcyclicGraph::addDagEdge(V, V):java.lang.Object" />
+			<role name="Request()" element="org.jgrapht.experimental.dag.DirectedAcyclicGraph::addDagEdge(V, V, E):boolean" />
+			<role name="Request()" element="org.jgrapht.experimental.dag.DirectedAcyclicGraph::removeVertex(V):boolean" />
+			<role name="Request()" element="org.jgrapht.experimental.dag.DirectedAcyclicGraph::removeAllVertices(java.util.Collection):boolean" />
+			<role name="Request()" element="org.jgrapht.experimental.dag.DirectedAcyclicGraph::dfsF(V, java.util.Set, org.jgrapht.experimental.dag.DirectedAcyclicGraph$Visited, org.jgrapht.experimental.dag.DirectedAcyclicGraph$Region):void" />
+			<role name="Request()" element="org.jgrapht.experimental.dag.DirectedAcyclicGraph::dfsB(V, java.util.Set, org.jgrapht.experimental.dag.DirectedAcyclicGraph$Visited, org.jgrapht.experimental.dag.DirectedAcyclicGraph$Region):void" />
+			<role name="Request()" element="org.jgrapht.experimental.dag.DirectedAcyclicGraph::reorder(java.util.Set, java.util.Set, org.jgrapht.experimental.dag.DirectedAcyclicGraph$Visited):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jgrapht.alg.DijkstraShortestPath" />
+			<role name="State" element="org.jgrapht.GraphPath" />
+			<role name="state" element="org.jgrapht.alg.DijkstraShortestPath::path:org.jgrapht.GraphPath" />
+			<role name="Request()" element="org.jgrapht.alg.DijkstraShortestPath::getPathEdgeList():java.util.List" />
+			<role name="Request()" element="org.jgrapht.alg.DijkstraShortestPath::getPathLength():double" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jgrapht.experimental.permutation.CollectionPermutationIter" />
+			<role name="State" element="org.jgrapht.experimental.permutation.ArrayPermutationsIter" />
+			<role name="state" element="org.jgrapht.experimental.permutation.CollectionPermutationIter::permOrder:org.jgrapht.experimental.permutation.ArrayPermutationsIter" />
+			<role name="Request()" element="org.jgrapht.experimental.permutation.CollectionPermutationIter::hasNext():boolean" />
+			<role name="Request()" element="org.jgrapht.experimental.permutation.CollectionPermutationIter::getNextArray():java.util.List" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jgrapht.ext.DOTExporter" />
+			<role name="State" element="org.jgrapht.ext.EdgeNameProvider" />
+			<role name="state" element="org.jgrapht.ext.DOTExporter::edgeLabelProvider:org.jgrapht.ext.EdgeNameProvider" />
+			<role name="Request()" element="org.jgrapht.ext.DOTExporter::export(java.io.Writer, org.jgrapht.Graph):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jgrapht.ext.GmlExporter" />
+			<role name="State" element="org.jgrapht.ext.EdgeNameProvider" />
+			<role name="state" element="org.jgrapht.ext.GmlExporter::edgeIDProvider:org.jgrapht.ext.EdgeNameProvider" />
+			<role name="state" element="org.jgrapht.ext.GmlExporter::edgeLabelProvider:org.jgrapht.ext.EdgeNameProvider" />
+			<role name="Request()" element="org.jgrapht.ext.GmlExporter::exportEdges(java.io.PrintWriter, org.jgrapht.Graph):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jgrapht.ext.GraphMLExporter" />
+			<role name="State" element="org.jgrapht.ext.EdgeNameProvider" />
+			<role name="state" element="org.jgrapht.ext.GraphMLExporter::edgeLabelProvider:org.jgrapht.ext.EdgeNameProvider" />
+			<role name="state" element="org.jgrapht.ext.GraphMLExporter::edgeIDProvider:org.jgrapht.ext.EdgeNameProvider" />
+			<role name="Request()" element="org.jgrapht.ext.GraphMLExporter::export(java.io.Writer, org.jgrapht.Graph):void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jgrapht.Graph" />
+			<role name="Context" element="org.jgrapht.graph.DefaultGraphMapping" />
+			<role name="state" element="org.jgrapht.graph.DefaultGraphMapping::graph1:org.jgrapht.Graph" />
+			<role name="state" element="org.jgrapht.graph.DefaultGraphMapping::graph2:org.jgrapht.Graph" />
+			<role name="Request()" element="org.jgrapht.graph.DefaultGraphMapping::getEdgeCorrespondence(E, boolean):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoComparator" />
+			<role name="State" element="org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoOrderMapping" />
+			<role name="state" element="org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoComparator::topoOrderMap:org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoOrderMapping" />
+			<role name="Request()" element="org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoComparator::compare(V, V):int" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jgrapht.experimental.dag.DirectedAcyclicGraph" />
+			<role name="State" element="org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoOrderMappingFactory" />
+			<role name="state" element="org.jgrapht.experimental.dag.DirectedAcyclicGraph::topoOrderFactory:org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoOrderMappingFactory" />
+			<role name="Request()" element="org.jgrapht.experimental.dag.DirectedAcyclicGraph::initialize():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jgrapht.experimental.dag.DirectedAcyclicGraph" />
+			<role name="State" element="org.jgrapht.experimental.dag.DirectedAcyclicGraph$VisitedFactory" />
+			<role name="state" element="org.jgrapht.experimental.dag.DirectedAcyclicGraph::visitedFactory:org.jgrapht.experimental.dag.DirectedAcyclicGraph$VisitedFactory" />
+			<role name="Request()" element="org.jgrapht.experimental.dag.DirectedAcyclicGraph::addDagEdge(V, V):java.lang.Object" />
+			<role name="Request()" element="org.jgrapht.experimental.dag.DirectedAcyclicGraph::addDagEdge(V, V, E):boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jgrapht.graph.SimpleDirectedGraphTest" />
+			<role name="State" element="org.jgrapht.EdgeFactory" />
+			<role name="state" element="org.jgrapht.graph.SimpleDirectedGraphTest::eFactory:org.jgrapht.EdgeFactory" />
+			<role name="Request()" element="org.jgrapht.graph.SimpleDirectedGraphTest::testAddEdgeEdge():void" />
+			<role name="Request()" element="org.jgrapht.graph.SimpleDirectedGraphTest::init():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jgrapht.graph.MaskSubgraph" />
+			<role name="State" element="org.jgrapht.graph.MaskFunctor" />
+			<role name="state" element="org.jgrapht.graph.MaskSubgraph::mask:org.jgrapht.graph.MaskFunctor" />
+			<role name="Request()" element="org.jgrapht.graph.MaskSubgraph::containsVertex(V):boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jgrapht.graph.MaskEdgeSet" />
+			<role name="State" element="org.jgrapht.graph.MaskFunctor" />
+			<role name="state" element="org.jgrapht.graph.MaskEdgeSet::mask:org.jgrapht.graph.MaskFunctor" />
+			<role name="Request()" element="org.jgrapht.graph.MaskEdgeSet::contains(java.lang.Object):boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jgrapht.graph.MaskVertexSet" />
+			<role name="State" element="org.jgrapht.graph.MaskFunctor" />
+			<role name="state" element="org.jgrapht.graph.MaskVertexSet::mask:org.jgrapht.graph.MaskFunctor" />
+			<role name="Request()" element="org.jgrapht.graph.MaskVertexSet::contains(java.lang.Object):boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jgrapht.experimental.isomorphism.comparators.DirectedEdgeWeightOddEvenComparator" />
+			<role name="State" element="org.jgrapht.Graph" />
+			<role name="state" element="org.jgrapht.experimental.isomorphism.comparators.DirectedEdgeWeightOddEvenComparator::graph:org.jgrapht.Graph" />
+			<role name="Request()" element="org.jgrapht.experimental.isomorphism.comparators.DirectedEdgeWeightOddEvenComparator::equivalenceCompare(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object):boolean" />
+			<role name="Request()" element="org.jgrapht.experimental.isomorphism.comparators.DirectedEdgeWeightOddEvenComparator::equivalenceHashcode(java.lang.Object, java.lang.Object):int" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jgrapht.graph.GraphUnion" />
+			<role name="State" element="org.jgrapht.util.WeightCombiner" />
+			<role name="state" element="org.jgrapht.graph.GraphUnion::operator:org.jgrapht.util.WeightCombiner" />
+			<role name="Request()" element="org.jgrapht.graph.GraphUnion::getEdgeWeight(E):double" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jgrapht.traverse.CrossComponentIterator$DirectedSpecifics" />
+			<role name="State" element="org.jgrapht.DirectedGraph" />
+			<role name="state" element="org.jgrapht.traverse.CrossComponentIterator$DirectedSpecifics::graph:org.jgrapht.DirectedGraph" />
+			<role name="Request()" element="org.jgrapht.traverse.CrossComponentIterator$DirectedSpecifics::edgesOf(VV):java.util.Set" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jgrapht.traverse.CrossComponentIterator$UndirectedSpecifics" />
+			<role name="State" element="org.jgrapht.Graph" />
+			<role name="state" element="org.jgrapht.traverse.CrossComponentIterator$UndirectedSpecifics::graph:org.jgrapht.Graph" />
+			<role name="Request()" element="org.jgrapht.traverse.CrossComponentIterator$UndirectedSpecifics::edgesOf(VV):java.util.Set" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy" />
+	<pattern name="Bridge">
+		<instance>
+			<role name="Abstraction" element="org.jgrapht.graph.AbstractBaseGraph" />
+			<role name="Implementor" element="org.jgrapht.graph.AbstractBaseGraph$Specifics" />
+			<role name="implementor" element="org.jgrapht.graph.AbstractBaseGraph::specifics:org.jgrapht.graph.AbstractBaseGraph$Specifics" />
+			<role name="Operation()" element="org.jgrapht.graph.AbstractBaseGraph::getAllEdges(V, V):java.util.Set" />
+			<role name="Operation()" element="org.jgrapht.graph.AbstractBaseGraph::getEdge(V, V):java.lang.Object" />
+			<role name="Operation()" element="org.jgrapht.graph.AbstractBaseGraph::addEdge(V, V):java.lang.Object" />
+			<role name="Operation()" element="org.jgrapht.graph.AbstractBaseGraph::addEdge(V, V, E):boolean" />
+			<role name="Operation()" element="org.jgrapht.graph.AbstractBaseGraph::addVertex(V):boolean" />
+			<role name="Operation()" element="org.jgrapht.graph.AbstractBaseGraph::containsVertex(V):boolean" />
+			<role name="Operation()" element="org.jgrapht.graph.AbstractBaseGraph::degreeOf(V):int" />
+			<role name="Operation()" element="org.jgrapht.graph.AbstractBaseGraph::edgesOf(V):java.util.Set" />
+			<role name="Operation()" element="org.jgrapht.graph.AbstractBaseGraph::inDegreeOf(V):int" />
+			<role name="Operation()" element="org.jgrapht.graph.AbstractBaseGraph::incomingEdgesOf(V):java.util.Set" />
+			<role name="Operation()" element="org.jgrapht.graph.AbstractBaseGraph::outDegreeOf(V):int" />
+			<role name="Operation()" element="org.jgrapht.graph.AbstractBaseGraph::outgoingEdgesOf(V):java.util.Set" />
+			<role name="Operation()" element="org.jgrapht.graph.AbstractBaseGraph::removeEdge(V, V):java.lang.Object" />
+			<role name="Operation()" element="org.jgrapht.graph.AbstractBaseGraph::removeEdge(E):boolean" />
+			<role name="Operation()" element="org.jgrapht.graph.AbstractBaseGraph::removeVertex(V):boolean" />
+			<role name="Operation()" element="org.jgrapht.graph.AbstractBaseGraph::vertexSet():java.util.Set" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="org.jgrapht.graph.AbstractBaseGraph" />
+			<role name="Implementor" element="org.jgrapht.EdgeFactory" />
+			<role name="implementor" element="org.jgrapht.graph.AbstractBaseGraph::edgeFactory:org.jgrapht.EdgeFactory" />
+			<role name="Operation()" element="org.jgrapht.graph.AbstractBaseGraph::addEdge(V, V):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="org.jgrapht.experimental.isomorphism.AbstractExhaustiveIsomorphismInspector" />
+			<role name="Implementor" element="org.jgrapht.Graph" />
+			<role name="implementor" element="org.jgrapht.experimental.isomorphism.AbstractExhaustiveIsomorphismInspector::graph1:org.jgrapht.Graph" />
+			<role name="implementor" element="org.jgrapht.experimental.isomorphism.AbstractExhaustiveIsomorphismInspector::graph2:org.jgrapht.Graph" />
+			<role name="Operation()" element="org.jgrapht.experimental.isomorphism.AbstractExhaustiveIsomorphismInspector::init():void" />
+			<role name="Operation()" element="org.jgrapht.experimental.isomorphism.AbstractExhaustiveIsomorphismInspector::areAllEdgesEquivalent(org.jgrapht.experimental.isomorphism.IsomorphismRelation, org.jgrapht.experimental.equivalence.EquivalenceComparator):boolean" />
+		</instance>
+	</pattern>
+	<pattern name="Template Method">
+		<instance>
+			<role name="AbstractClass" element="org.jgrapht.experimental.isomorphism.AbstractExhaustiveIsomorphismInspector" />
+			<role name="TemplateMethod()" element="org.jgrapht.experimental.isomorphism.AbstractExhaustiveIsomorphismInspector::init():void" />
+			<role name="TemplateMethod()" element="org.jgrapht.experimental.isomorphism.AbstractExhaustiveIsomorphismInspector::findNextIsomorphicGraph():org.jgrapht.experimental.isomorphism.IsomorphismRelation" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.jgrapht.traverse.AbstractGraphIteratorTest" />
+			<role name="TemplateMethod()" element="org.jgrapht.traverse.AbstractGraphIteratorTest::testDirectedGraph():void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.jgrapht.traverse.CrossComponentIterator" />
+			<role name="TemplateMethod()" element="org.jgrapht.traverse.CrossComponentIterator::hasNext():boolean" />
+			<role name="TemplateMethod()" element="org.jgrapht.traverse.CrossComponentIterator::next():java.lang.Object" />
+			<role name="TemplateMethod()" element="org.jgrapht.traverse.CrossComponentIterator::addUnseenChildrenOf(V):void" />
+			<role name="TemplateMethod()" element="org.jgrapht.traverse.CrossComponentIterator::encounterStartVertex():void" />
+		</instance>
+	</pattern>
+	<pattern name="Visitor" />
+	<pattern name="Proxy" />
+	<pattern name="Proxy2" />
+	<pattern name="Chain of Responsibility">
+		<instance>
+			<role name="Handler" element="org.jgrapht.alg.AbstractPathElement" />
+			<role name="successor" element="org.jgrapht.alg.AbstractPathElement::prevPathElement:org.jgrapht.alg.AbstractPathElement" />
+		</instance>
+	</pattern>
+</system>
+

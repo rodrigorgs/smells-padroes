@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method">
+		<instance>
+			<role name="Creator" element="net.suberic.pooka.AddressBook" />
+			<role name="FactoryMethod()" element="net.suberic.pooka.AddressBook::newAddressBookEntry():net.suberic.pooka.AddressBookEntry" />
+		</instance>
+		<instance>
+			<role name="Creator" element="net.suberic.pooka.gui.MessageUI" />
+			<role name="FactoryMethod()" element="net.suberic.pooka.gui.MessageUI::createProgressDialog(int, int, int, java.lang.String, java.lang.String):net.suberic.util.swing.ProgressDialog" />
+		</instance>
+		<instance>
+			<role name="Creator" element="net.suberic.pooka.gui.PookaUIFactory" />
+			<role name="FactoryMethod()" element="net.suberic.pooka.gui.PookaUIFactory::createMessageUI(net.suberic.pooka.gui.MessageProxy, net.suberic.pooka.gui.MessageUI):net.suberic.pooka.gui.MessageUI" />
+			<role name="FactoryMethod()" element="net.suberic.pooka.gui.PookaUIFactory::createProgressDialog(int, int, int, java.lang.String, java.lang.String):net.suberic.util.swing.ProgressDialog" />
+			<role name="FactoryMethod()" element="net.suberic.pooka.gui.PookaUIFactory::createAuthenticatorUI():net.suberic.pooka.gui.AuthenticatorUI" />
+		</instance>
+		<instance>
+			<role name="Creator" element="net.suberic.pooka.gui.SwingUIFactory" />
+			<role name="FactoryMethod()" element="net.suberic.pooka.gui.SwingUIFactory::createMessageUI(net.suberic.pooka.gui.MessageProxy, net.suberic.pooka.gui.MessageUI):net.suberic.pooka.gui.MessageUI" />
+			<role name="FactoryMethod()" element="net.suberic.pooka.gui.SwingUIFactory::createFolderDisplayUI(net.suberic.pooka.FolderInfo):net.suberic.pooka.gui.FolderDisplayUI" />
+			<role name="FactoryMethod()" element="net.suberic.pooka.gui.SwingUIFactory::createContentPanel():net.suberic.pooka.gui.ContentPanel" />
+			<role name="FactoryMethod()" element="net.suberic.pooka.gui.SwingUIFactory::createProgressDialog(int, int, int, java.lang.String, java.lang.String):net.suberic.util.swing.ProgressDialog" />
+		</instance>
+		<instance>
+			<role name="Creator" element="net.suberic.pooka.resource.ResourceManager" />
+			<role name="FactoryMethod()" element="net.suberic.pooka.resource.ResourceManager::createFolderInfo(net.suberic.pooka.StoreInfo, java.lang.String):net.suberic.pooka.FolderInfo" />
+			<role name="FactoryMethod()" element="net.suberic.pooka.resource.ResourceManager::createVariableBundle(java.lang.String, net.suberic.util.VariableBundle):net.suberic.util.VariableBundle" />
+		</instance>
+		<instance>
+			<role name="Creator" element="net.suberic.util.ItemCreator" />
+			<role name="FactoryMethod()" element="net.suberic.util.ItemCreator::createItem(net.suberic.util.VariableBundle, java.lang.String, java.lang.String):net.suberic.util.Item" />
+		</instance>
+	</pattern>
+	<pattern name="Prototype" />
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="net.suberic.pooka.RowCounter" />
+			<role name="uniqueInstance" element="net.suberic.pooka.RowCounter::instance:net.suberic.pooka.RowCounter" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adaptee" element="net.suberic.pooka.gui.MainPanel$PookaFocusManager" />
+			<role name="Adapter" element="net.suberic.pooka.gui.MainPanel" />
+			<role name="adaptee" element="net.suberic.pooka.gui.MainPanel::focusManager:net.suberic.pooka.gui.MainPanel$PookaFocusManager" />
+			<role name="Request()" element="net.suberic.pooka.gui.MainPanel::getActions():javax.swing.Action[]" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="net.suberic.pooka.gui.FolderDisplayPanel" />
+			<role name="Adapter" element="net.suberic.pooka.gui.PreviewFolderPanel" />
+			<role name="adaptee" element="net.suberic.pooka.gui.PreviewFolderPanel::folderDisplay:net.suberic.pooka.gui.FolderDisplayPanel" />
+			<role name="Request()" element="net.suberic.pooka.gui.PreviewFolderPanel::closeFolderDisplay():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="net.suberic.util.gui.propedit.PropertyEditorManager" />
+			<role name="Adapter" element="net.suberic.util.gui.propedit.SwingPropertyEditor" />
+			<role name="adaptee" element="net.suberic.util.gui.propedit.SwingPropertyEditor::manager:net.suberic.util.gui.propedit.PropertyEditorManager" />
+			<role name="Request()" element="net.suberic.util.gui.propedit.SwingPropertyEditor::addPropertyEditorListener(net.suberic.util.gui.propedit.PropertyEditorListener):void" />
+			<role name="Request()" element="net.suberic.util.gui.propedit.SwingPropertyEditor::removePropertyEditorListener(net.suberic.util.gui.propedit.PropertyEditorListener):void" />
+			<role name="Request()" element="net.suberic.util.gui.propedit.SwingPropertyEditor::remove():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="net.suberic.pooka.gui.ReadMessageDisplayPanel" />
+			<role name="Adapter" element="net.suberic.pooka.gui.PreviewContentPanel" />
+			<role name="adaptee" element="net.suberic.pooka.gui.PreviewContentPanel::messageDisplay:net.suberic.pooka.gui.ReadMessageDisplayPanel" />
+			<role name="Request()" element="net.suberic.pooka.gui.PreviewContentPanel::refreshDisplay():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="net.suberic.pooka.gui.MessagePanel" />
+			<role name="Adapter" element="net.suberic.pooka.gui.PookaDesktopPaneUIFactory" />
+			<role name="adaptee" element="net.suberic.pooka.gui.PookaDesktopPaneUIFactory::messagePanel:net.suberic.pooka.gui.MessagePanel" />
+			<role name="Request()" element="net.suberic.pooka.gui.PookaDesktopPaneUIFactory::createContentPanel():net.suberic.pooka.gui.ContentPanel" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="net.suberic.pooka.gui.PreviewContentPanel" />
+			<role name="Adapter" element="net.suberic.pooka.gui.PookaPreviewPaneUIFactory" />
+			<role name="adaptee" element="net.suberic.pooka.gui.PookaPreviewPaneUIFactory::contentPanel:net.suberic.pooka.gui.PreviewContentPanel" />
+			<role name="Request()" element="net.suberic.pooka.gui.PookaPreviewPaneUIFactory::doDefaultOpen(net.suberic.pooka.gui.MessageProxy):void" />
+			<role name="Request()" element="net.suberic.pooka.gui.PookaPreviewPaneUIFactory::createFolderDisplayUI(net.suberic.pooka.FolderInfo):net.suberic.pooka.gui.FolderDisplayUI" />
+			<role name="Request()" element="net.suberic.pooka.gui.PookaPreviewPaneUIFactory::createContentPanel():net.suberic.pooka.gui.ContentPanel" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="net.suberic.util.gui.ConfigurableKeyBinding" />
+			<role name="Adapter" element="net.suberic.pooka.gui.PreviewFolderPanel" />
+			<role name="adaptee" element="net.suberic.pooka.gui.PreviewFolderPanel::keyBindings:net.suberic.util.gui.ConfigurableKeyBinding" />
+			<role name="Request()" element="net.suberic.pooka.gui.PreviewFolderPanel::setEnabled(boolean):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="net.suberic.util.gui.propedit.PropertyEditorManager" />
+			<role name="Adapter" element="net.suberic.util.gui.propedit.DisableFilter" />
+			<role name="adaptee" element="net.suberic.util.gui.propedit.DisableFilter::manager:net.suberic.util.gui.propedit.PropertyEditorManager" />
+			<role name="Request()" element="net.suberic.util.gui.propedit.DisableFilter::configureListener(java.lang.String, java.lang.String, java.lang.String, java.lang.String, net.suberic.util.gui.propedit.PropertyEditorManager):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="net.suberic.util.gui.propedit.PropertyEditorManager" />
+			<role name="Adapter" element="net.suberic.util.gui.propedit.PropertyTranslatorFilter" />
+			<role name="adaptee" element="net.suberic.util.gui.propedit.PropertyTranslatorFilter::manager:net.suberic.util.gui.propedit.PropertyEditorManager" />
+			<role name="Request()" element="net.suberic.util.gui.propedit.PropertyTranslatorFilter::configureListener(java.lang.String, java.lang.String, java.lang.String, java.lang.String, net.suberic.util.gui.propedit.PropertyEditorManager):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="net.suberic.util.gui.propedit.PropertyEditorManager" />
+			<role name="Adapter" element="net.suberic.util.gui.propedit.RequiredFilter" />
+			<role name="adaptee" element="net.suberic.util.gui.propedit.RequiredFilter::manager:net.suberic.util.gui.propedit.PropertyEditorManager" />
+			<role name="Request()" element="net.suberic.util.gui.propedit.RequiredFilter::configureListener(java.lang.String, java.lang.String, java.lang.String, java.lang.String, net.suberic.util.gui.propedit.PropertyEditorManager):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="net.suberic.util.gui.propedit.PropertyEditorManager" />
+			<role name="Adapter" element="net.suberic.util.gui.propedit.UniqueFilter" />
+			<role name="adaptee" element="net.suberic.util.gui.propedit.UniqueFilter::manager:net.suberic.util.gui.propedit.PropertyEditorManager" />
+			<role name="Request()" element="net.suberic.util.gui.propedit.UniqueFilter::configureListener(java.lang.String, java.lang.String, java.lang.String, java.lang.String, net.suberic.util.gui.propedit.PropertyEditorManager):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="net.suberic.pooka.gui.propedit.FolderSelectorPane" />
+			<role name="Adapter" element="net.suberic.pooka.gui.filter.MoveFilterEditor" />
+			<role name="adaptee" element="net.suberic.pooka.gui.filter.MoveFilterEditor::fsp:net.suberic.pooka.gui.propedit.FolderSelectorPane" />
+			<role name="Request()" element="net.suberic.pooka.gui.filter.MoveFilterEditor::configureEditor(net.suberic.util.gui.propedit.PropertyEditorManager, java.lang.String):void" />
+			<role name="Request()" element="net.suberic.pooka.gui.filter.MoveFilterEditor::getValue():java.util.Properties" />
+			<role name="Request()" element="net.suberic.pooka.gui.filter.MoveFilterEditor::setValue():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="net.suberic.pooka.gui.SearchTermIconManager" />
+			<role name="Adapter" element="net.suberic.pooka.gui.SearchTermIcon" />
+			<role name="adaptee" element="net.suberic.pooka.gui.SearchTermIcon::manager:net.suberic.pooka.gui.SearchTermIconManager" />
+			<role name="Request()" element="net.suberic.pooka.gui.SearchTermIcon::getIcon():java.awt.Component" />
+		</instance>
+	</pattern>
+	<pattern name="Command" />
+	<pattern name="Composite" />
+	<pattern name="Decorator" />
+	<pattern name="Observer">
+		<instance>
+			<role name="Observer" element="net.suberic.util.ItemListChangeListener" />
+			<role name="Subject" element="net.suberic.util.ItemManager" />
+			<role name="Notify()" element="net.suberic.util.ItemManager::fireItemListChangeEvent(net.suberic.util.ItemListChangeEvent):void" />
+		</instance>
+		<instance>
+			<role name="Observer" element="net.suberic.pooka.event.MessageLoadedListener" />
+			<role name="Subject" element="net.suberic.pooka.thread.LoadMessageThread" />
+			<role name="Notify()" element="net.suberic.pooka.thread.LoadMessageThread::fireMessageLoadedEvent(int, int, int):void" />
+		</instance>
+	</pattern>
+	<pattern name="State">
+		<instance>
+			<role name="Context" element="net.suberic.util.ItemManager" />
+			<role name="State" element="net.suberic.util.ItemCreator" />
+			<role name="state" element="net.suberic.util.ItemManager::itemCreator:net.suberic.util.ItemCreator" />
+			<role name="Request()" element="net.suberic.util.ItemManager::refreshItems():void" />
+			<role name="Request()" element="net.suberic.util.ItemManager::createItemList():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="net.suberic.pooka.filter.SpamSearchTerm" />
+			<role name="State" element="net.suberic.pooka.filter.SpamFilter" />
+			<role name="state" element="net.suberic.pooka.filter.SpamSearchTerm::filter:net.suberic.pooka.filter.SpamFilter" />
+			<role name="Request()" element="net.suberic.pooka.filter.SpamSearchTerm::match(javax.mail.Message):boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="net.suberic.util.gui.propedit.PropertyEditorManager" />
+			<role name="State" element="net.suberic.util.VariableBundle" />
+			<role name="state" element="net.suberic.util.gui.propedit.PropertyEditorManager::sourceBundle:net.suberic.util.VariableBundle" />
+			<role name="Request()" element="net.suberic.util.gui.propedit.PropertyEditorManager::commit():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="net.suberic.pooka.cache.CachingFolderInfo" />
+			<role name="State" element="net.suberic.pooka.cache.MessageCache" />
+			<role name="state" element="net.suberic.pooka.cache.CachingFolderInfo::cache:net.suberic.pooka.cache.MessageCache" />
+			<role name="Request()" element="net.suberic.pooka.cache.CachingFolderInfo::updateFolderStatusForLoading():void" />
+			<role name="Request()" element="net.suberic.pooka.cache.CachingFolderInfo::createInfosAndProxies():java.util.List" />
+			<role name="Request()" element="net.suberic.pooka.cache.CachingFolderInfo::fetch(net.suberic.pooka.MessageInfo[], javax.mail.FetchProfile):void" />
+			<role name="Request()" element="net.suberic.pooka.cache.CachingFolderInfo::getFirstUnreadMessage():int" />
+			<role name="Request()" element="net.suberic.pooka.cache.CachingFolderInfo::synchronizeCache():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="net.suberic.pooka.gui.HyperlinkDispatcher" />
+			<role name="State" element="net.suberic.pooka.gui.ErrorHandler" />
+			<role name="state" element="net.suberic.pooka.gui.HyperlinkDispatcher::errorHandler:net.suberic.pooka.gui.ErrorHandler" />
+			<role name="Request()" element="net.suberic.pooka.gui.HyperlinkDispatcher::hyperlinkUpdate(javax.swing.event.HyperlinkEvent):void" />
+		</instance>
+		<instance>
+			<role name="State" element="net.suberic.util.swing.ProgressDialog" />
+			<role name="Context" element="net.suberic.pooka.gui.AttachmentHandler$SaveAttachmentThread" />
+			<role name="state" element="net.suberic.pooka.gui.AttachmentHandler$SaveAttachmentThread::dialog:net.suberic.util.swing.ProgressDialog" />
+			<role name="Request()" element="net.suberic.pooka.gui.AttachmentHandler$SaveAttachmentThread::run():void" />
+			<role name="Request()" element="net.suberic.pooka.gui.AttachmentHandler$SaveAttachmentThread::cancelSave():void" />
+		</instance>
+		<instance>
+			<role name="State" element="net.suberic.util.swing.ProgressDialog" />
+			<role name="Context" element="net.suberic.pooka.ExternalLauncher" />
+			<role name="state" element="net.suberic.pooka.ExternalLauncher::mDialog:net.suberic.util.swing.ProgressDialog" />
+			<role name="Request()" element="net.suberic.pooka.ExternalLauncher::run():void" />
+			<role name="Request()" element="net.suberic.pooka.ExternalLauncher::cancelSave():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="net.suberic.pooka.cache.WrappedMimePartDataSource" />
+			<role name="State" element="net.suberic.pooka.cache.MessageCache" />
+			<role name="state" element="net.suberic.pooka.cache.WrappedMimePartDataSource::cache:net.suberic.pooka.cache.MessageCache" />
+			<role name="Request()" element="net.suberic.pooka.cache.WrappedMimePartDataSource::getInputStream():java.io.InputStream" />
+		</instance>
+		<instance>
+			<role name="Context" element="net.suberic.pooka.gui.propedit.AddressEntryEditor" />
+			<role name="State" element="net.suberic.pooka.AddressBookEntry" />
+			<role name="state" element="net.suberic.pooka.gui.propedit.AddressEntryEditor::entry:net.suberic.pooka.AddressBookEntry" />
+			<role name="Request()" element="net.suberic.pooka.gui.propedit.AddressEntryEditor::setValue():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="net.suberic.pooka.gui.propedit.AddressEntryController" />
+			<role name="State" element="net.suberic.pooka.AddressBookEntry" />
+			<role name="state" element="net.suberic.pooka.gui.propedit.AddressEntryController::mEntry:net.suberic.pooka.AddressBookEntry" />
+			<role name="Request()" element="net.suberic.pooka.gui.propedit.AddressEntryController::saveProperties():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="net.suberic.pooka.gui.propedit.AddressBookEditorPane$AddressBookTableModel" />
+			<role name="State" element="net.suberic.pooka.AddressBookEntry" />
+			<role name="state" element="net.suberic.pooka.gui.propedit.AddressBookEditorPane$AddressBookTableModel::entries:net.suberic.pooka.AddressBookEntry[]" />
+			<role name="Request()" element="net.suberic.pooka.gui.propedit.AddressBookEditorPane$AddressBookTableModel::getValueAt(int, int):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="net.suberic.pooka.gui.propedit.AddressBookEditorPane" />
+			<role name="State" element="net.suberic.pooka.AddressBook" />
+			<role name="state" element="net.suberic.pooka.gui.propedit.AddressBookEditorPane::book:net.suberic.pooka.AddressBook" />
+			<role name="Request()" element="net.suberic.pooka.gui.propedit.AddressBookEditorPane::performSearch():void" />
+			<role name="Request()" element="net.suberic.pooka.gui.propedit.AddressBookEditorPane::performAdd():void" />
+			<role name="Request()" element="net.suberic.pooka.gui.propedit.AddressBookEditorPane::editSelectedValue(java.awt.Container):void" />
+			<role name="Request()" element="net.suberic.pooka.gui.propedit.AddressBookEditorPane::removeSelectedValue():void" />
+			<role name="Request()" element="net.suberic.pooka.gui.propedit.AddressBookEditorPane::setValue():void" />
+			<role name="Request()" element="net.suberic.pooka.gui.propedit.AddressBookEditorPane::resetDefaultValue():void" />
+		</instance>
+		<instance>
+			<role name="State" element="net.suberic.pooka.SignatureGenerator" />
+			<role name="Context" element="net.suberic.pooka.UserProfile" />
+			<role name="state" element="net.suberic.pooka.UserProfile::sigGenerator:net.suberic.pooka.SignatureGenerator" />
+			<role name="Request()" element="net.suberic.pooka.UserProfile::getSignature(java.lang.String):java.lang.String" />
+			<role name="Request()" element="net.suberic.pooka.UserProfile::getSignature():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Context" element="net.suberic.pooka.StoreInfo" />
+			<role name="State" element="net.suberic.pooka.gui.AuthenticatorUI" />
+			<role name="state" element="net.suberic.pooka.StoreInfo::mAuthenticator:net.suberic.pooka.gui.AuthenticatorUI" />
+			<role name="Request()" element="net.suberic.pooka.StoreInfo::connectStore():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="net.suberic.pooka.UserProfile" />
+			<role name="State" element="net.suberic.pooka.AddressBook" />
+			<role name="state" element="net.suberic.pooka.UserProfile::addressBook:net.suberic.pooka.AddressBook" />
+			<role name="Request()" element="net.suberic.pooka.UserProfile::getAddressMatcher():net.suberic.pooka.AddressMatcher" />
+		</instance>
+		<instance>
+			<role name="Context" element="net.suberic.pooka.gui.propedit.AddressEntryController" />
+			<role name="State" element="net.suberic.pooka.AddressBook" />
+			<role name="state" element="net.suberic.pooka.gui.propedit.AddressEntryController::mBook:net.suberic.pooka.AddressBook" />
+			<role name="Request()" element="net.suberic.pooka.gui.propedit.AddressEntryController::saveProperties():void" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy" />
+	<pattern name="Bridge">
+		<instance>
+			<role name="Abstraction" element="net.suberic.pooka.gui.MessageDisplayPanel" />
+			<role name="Implementor" element="net.suberic.pooka.gui.MessageUI" />
+			<role name="implementor" element="net.suberic.pooka.gui.MessageDisplayPanel::msgUI:net.suberic.pooka.gui.MessageUI" />
+			<role name="Operation()" element="net.suberic.pooka.gui.MessageDisplayPanel::getMessageProxy():net.suberic.pooka.gui.MessageProxy" />
+		</instance>
+	</pattern>
+	<pattern name="Template Method">
+		<instance>
+			<role name="AbstractClass" element="net.suberic.pooka.gui.SwingUIFactory" />
+			<role name="TemplateMethod()" element="net.suberic.pooka.gui.SwingUIFactory::createMessageUI(net.suberic.pooka.gui.MessageProxy):net.suberic.pooka.gui.MessageUI" />
+			<role name="TemplateMethod()" element="net.suberic.pooka.gui.SwingUIFactory::showEditorWindow(java.lang.String, java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="net.suberic.util.gui.propedit.SwingPropertyEditor" />
+			<role name="TemplateMethod()" element="net.suberic.util.gui.propedit.SwingPropertyEditor::addDisableMask(java.lang.Object):void" />
+			<role name="TemplateMethod()" element="net.suberic.util.gui.propedit.SwingPropertyEditor::removeDisableMask(java.lang.Object):void" />
+		</instance>
+	</pattern>
+	<pattern name="Visitor" />
+	<pattern name="Proxy">
+		<instance>
+			<role name="RealSubject" element="net.suberic.pooka.FolderInfo" />
+			<role name="Proxy" element="net.suberic.pooka.gui.FolderInternalFrame" />
+			<role name="Request()" element="net.suberic.pooka.gui.FolderInternalFrame::getDefaultProfile():net.suberic.pooka.UserProfile" />
+		</instance>
+		<instance>
+			<role name="RealSubject" element="net.suberic.pooka.FolderInfo" />
+			<role name="Proxy" element="net.suberic.pooka.gui.PreviewFolderPanel" />
+			<role name="Request()" element="net.suberic.pooka.gui.PreviewFolderPanel::getDefaultProfile():net.suberic.pooka.UserProfile" />
+		</instance>
+		<instance>
+			<role name="RealSubject" element="net.suberic.pooka.FolderInfo" />
+			<role name="Proxy" element="net.suberic.pooka.gui.FolderNode" />
+			<role name="Request()" element="net.suberic.pooka.gui.FolderNode::getDefaultProfile():net.suberic.pooka.UserProfile" />
+		</instance>
+		<instance>
+			<role name="RealSubject" element="net.suberic.pooka.gui.FolderPanel" />
+			<role name="Proxy" element="net.suberic.pooka.gui.MainPanel" />
+			<role name="Request()" element="net.suberic.pooka.gui.MainPanel::getDefaultProfile():net.suberic.pooka.UserProfile" />
+		</instance>
+		<instance>
+			<role name="RealSubject" element="net.suberic.pooka.gui.PreviewFolderPanel" />
+			<role name="Proxy" element="net.suberic.pooka.gui.PreviewContentPanel" />
+			<role name="Request()" element="net.suberic.pooka.gui.PreviewContentPanel::getActions():javax.swing.Action[]" />
+			<role name="Request()" element="net.suberic.pooka.gui.PreviewContentPanel::getDefaultProfile():net.suberic.pooka.UserProfile" />
+		</instance>
+	</pattern>
+	<pattern name="Proxy2" />
+	<pattern name="Chain of Responsibility">
+		<instance>
+			<role name="Handler" element="net.suberic.util.VariableBundle" />
+			<role name="successor" element="net.suberic.util.VariableBundle::parentProperties:net.suberic.util.VariableBundle" />
+		</instance>
+	</pattern>
+</system>
+

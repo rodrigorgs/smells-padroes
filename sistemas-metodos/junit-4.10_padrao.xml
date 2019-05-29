@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method">
+		<instance>
+			<role name="Creator" element="org.junit.rules.MethodRule" />
+			<role name="FactoryMethod()" element="org.junit.rules.MethodRule::apply(org.junit.runners.model.Statement, org.junit.runners.model.FrameworkMethod, java.lang.Object):org.junit.runners.model.Statement" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.junit.rules.TestRule" />
+			<role name="FactoryMethod()" element="org.junit.rules.TestRule::apply(org.junit.runners.model.Statement, org.junit.runner.Description):org.junit.runners.model.Statement" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.junit.runner.Request" />
+			<role name="FactoryMethod()" element="org.junit.runner.Request::getRunner():org.junit.runner.Runner" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.junit.runners.model.RunnerBuilder" />
+			<role name="FactoryMethod()" element="org.junit.runners.model.RunnerBuilder::runnerForClass(java.lang.Class):org.junit.runner.Runner" />
+		</instance>
+	</pattern>
+	<pattern name="Prototype" />
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="junit.framework.JUnit4TestAdapterCache" />
+			<role name="uniqueInstance" element="junit.framework.JUnit4TestAdapterCache::fInstance:junit.framework.JUnit4TestAdapterCache" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.junit.rules.RuleChain" />
+			<role name="uniqueInstance" element="org.junit.rules.RuleChain::EMPTY_CHAIN:org.junit.rules.RuleChain" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.junit.runner.Description" />
+			<role name="uniqueInstance" element="org.junit.runner.Description::EMPTY:org.junit.runner.Description" />
+			<role name="uniqueInstance" element="org.junit.runner.Description::TEST_MECHANISM:org.junit.runner.Description" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.junit.runner.manipulation.Filter" />
+			<role name="uniqueInstance" element="org.junit.runner.manipulation.Filter::ALL:org.junit.runner.manipulation.Filter" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.junit.runner.manipulation.Sorter" />
+			<role name="uniqueInstance" element="org.junit.runner.manipulation.Sorter::NULL:org.junit.runner.manipulation.Sorter" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adaptee" element="junit.framework.JUnit4TestAdapterCache" />
+			<role name="Adapter" element="junit.framework.JUnit4TestAdapter" />
+			<role name="adaptee" element="junit.framework.JUnit4TestAdapter::fCache:junit.framework.JUnit4TestAdapterCache" />
+			<role name="Request()" element="junit.framework.JUnit4TestAdapter::run(junit.framework.TestResult):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.junit.runner.notification.RunNotifier" />
+			<role name="Adapter" element="org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener" />
+			<role name="adaptee" element="org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener::fNotifier:org.junit.runner.notification.RunNotifier" />
+			<role name="Request()" element="org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener::endTest(junit.framework.Test):void" />
+			<role name="Request()" element="org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener::startTest(junit.framework.Test):void" />
+			<role name="Request()" element="org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener::addError(junit.framework.Test, java.lang.Throwable):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.junit.runners.model.FrameworkMethod" />
+			<role name="Adapter" element="org.junit.experimental.theories.Theories$TheoryAnchor" />
+			<role name="adaptee" element="org.junit.experimental.theories.Theories$TheoryAnchor::fTestMethod:org.junit.runners.model.FrameworkMethod" />
+			<role name="Request()" element="org.junit.experimental.theories.Theories$TheoryAnchor::evaluate():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.junit.runners.model.FrameworkMethod" />
+			<role name="Adapter" element="org.junit.internal.runners.statements.InvokeMethod" />
+			<role name="adaptee" element="org.junit.internal.runners.statements.InvokeMethod::fTestMethod:org.junit.runners.model.FrameworkMethod" />
+			<role name="Request()" element="org.junit.internal.runners.statements.InvokeMethod::evaluate():void" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="org.junit.internal.requests.FilterRequest" />
+			<role name="Adaptee" element="org.junit.runner.manipulation.Filter" />
+			<role name="adaptee" element="org.junit.internal.requests.FilterRequest::fFilter:org.junit.runner.manipulation.Filter" />
+			<role name="Request()" element="org.junit.internal.requests.FilterRequest::getRunner():org.junit.runner.Runner" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.junit.runners.model.FrameworkMethod" />
+			<role name="Adapter" element="org.junit.experimental.theories.internal.AllMembersSupplier$MethodParameterValue" />
+			<role name="adaptee" element="org.junit.experimental.theories.internal.AllMembersSupplier$MethodParameterValue::fMethod:org.junit.runners.model.FrameworkMethod" />
+			<role name="Request()" element="org.junit.experimental.theories.internal.AllMembersSupplier$MethodParameterValue::getValue():java.lang.Object" />
+			<role name="Request()" element="org.junit.experimental.theories.internal.AllMembersSupplier$MethodParameterValue::getDescription():java.lang.String" />
+		</instance>
+	</pattern>
+	<pattern name="Command" />
+	<pattern name="Composite">
+		<instance>
+			<role name="Component" element="junit.framework.Test" />
+			<role name="Composite" element="junit.framework.TestSuite" />
+			<role name="Operation()" element="junit.framework.TestSuite::countTestCases():int" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.junit.rules.TestRule" />
+			<role name="Composite" element="org.junit.rules.RuleChain" />
+			<role name="Operation()" element="org.junit.rules.RuleChain::apply(org.junit.runners.model.Statement, org.junit.runner.Description):org.junit.runners.model.Statement" />
+		</instance>
+	</pattern>
+	<pattern name="Decorator">
+		<instance>
+			<role name="Component" element="org.junit.runner.Request" />
+			<role name="Decorator" element="org.junit.internal.requests.FilterRequest" />
+			<role name="component" element="org.junit.internal.requests.FilterRequest::fRequest:org.junit.runner.Request" />
+			<role name="Operation()" element="org.junit.internal.requests.FilterRequest::getRunner():org.junit.runner.Runner" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.junit.runner.Request" />
+			<role name="Decorator" element="org.junit.internal.requests.SortingRequest" />
+			<role name="component" element="org.junit.internal.requests.SortingRequest::fRequest:org.junit.runner.Request" />
+			<role name="Operation()" element="org.junit.internal.requests.SortingRequest::getRunner():org.junit.runner.Runner" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.junit.runners.model.Statement" />
+			<role name="Decorator" element="org.junit.internal.runners.statements.ExpectException" />
+			<role name="component" element="org.junit.internal.runners.statements.ExpectException::fNext:org.junit.runners.model.Statement" />
+			<role name="Operation()" element="org.junit.internal.runners.statements.ExpectException::evaluate():void" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.junit.runners.model.Statement" />
+			<role name="Decorator" element="org.junit.internal.runners.statements.RunAfters" />
+			<role name="component" element="org.junit.internal.runners.statements.RunAfters::fNext:org.junit.runners.model.Statement" />
+			<role name="Operation()" element="org.junit.internal.runners.statements.RunAfters::evaluate():void" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.junit.runners.model.Statement" />
+			<role name="Decorator" element="org.junit.internal.runners.statements.RunBefores" />
+			<role name="component" element="org.junit.internal.runners.statements.RunBefores::fNext:org.junit.runners.model.Statement" />
+			<role name="Operation()" element="org.junit.internal.runners.statements.RunBefores::evaluate():void" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.junit.runners.model.Statement" />
+			<role name="Decorator" element="org.junit.rules.ExpectedException$ExpectedExceptionStatement" />
+			<role name="component" element="org.junit.rules.ExpectedException$ExpectedExceptionStatement::fNext:org.junit.runners.model.Statement" />
+			<role name="Operation()" element="org.junit.rules.ExpectedException$ExpectedExceptionStatement::evaluate():void" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.junit.runners.model.Statement" />
+			<role name="Decorator" element="org.junit.rules.RunRules" />
+			<role name="component" element="org.junit.rules.RunRules::statement:org.junit.runners.model.Statement" />
+			<role name="Operation()" element="org.junit.rules.RunRules::evaluate():void" />
+		</instance>
+		<instance>
+			<role name="Component" element="junit.framework.Test" />
+			<role name="Decorator" element="junit.extensions.TestDecorator" />
+			<role name="component" element="junit.extensions.TestDecorator::fTest:junit.framework.Test" />
+			<role name="Operation()" element="junit.extensions.TestDecorator::countTestCases():int" />
+		</instance>
+	</pattern>
+	<pattern name="Observer">
+		<instance>
+			<role name="Observer" element="junit.framework.TestListener" />
+			<role name="Subject" element="junit.framework.TestResult" />
+			<role name="Notify()" element="junit.framework.TestResult::addError(junit.framework.Test, java.lang.Throwable):void" />
+			<role name="Notify()" element="junit.framework.TestResult::addFailure(junit.framework.Test, junit.framework.AssertionFailedError):void" />
+			<role name="Notify()" element="junit.framework.TestResult::endTest(junit.framework.Test):void" />
+			<role name="Notify()" element="junit.framework.TestResult::startTest(junit.framework.Test):void" />
+		</instance>
+	</pattern>
+	<pattern name="State">
+		<instance>
+			<role name="State" element="org.junit.runners.model.Statement" />
+			<role name="Context" element="org.junit.internal.runners.statements.FailOnTimeout$StatementThread" />
+			<role name="state" element="org.junit.internal.runners.statements.FailOnTimeout$StatementThread::fStatement:org.junit.runners.model.Statement" />
+			<role name="Request()" element="org.junit.internal.runners.statements.FailOnTimeout$StatementThread::run():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.junit.internal.requests.FilterRequest" />
+			<role name="State" element="org.junit.runner.manipulation.Filter" />
+			<role name="state" element="org.junit.internal.requests.FilterRequest::fFilter:org.junit.runner.manipulation.Filter" />
+			<role name="Request()" element="org.junit.internal.requests.FilterRequest::getRunner():org.junit.runner.Runner" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy" />
+	<pattern name="Bridge">
+		<instance>
+			<role name="Abstraction" element="org.junit.runners.ParentRunner" />
+			<role name="Implementor" element="org.junit.runners.model.RunnerScheduler" />
+			<role name="implementor" element="org.junit.runners.ParentRunner::fScheduler:org.junit.runners.model.RunnerScheduler" />
+			<role name="Operation()" element="org.junit.runners.ParentRunner::runChildren(org.junit.runner.notification.RunNotifier):void" />
+		</instance>
+	</pattern>
+	<pattern name="Template Method">
+		<instance>
+			<role name="AbstractClass" element="junit.runner.BaseTestRunner" />
+			<role name="TemplateMethod()" element="junit.runner.BaseTestRunner::startTest(junit.framework.Test):void" />
+			<role name="TemplateMethod()" element="junit.runner.BaseTestRunner::endTest(junit.framework.Test):void" />
+			<role name="TemplateMethod()" element="junit.runner.BaseTestRunner::addError(junit.framework.Test, java.lang.Throwable):void" />
+			<role name="TemplateMethod()" element="junit.runner.BaseTestRunner::addFailure(junit.framework.Test, junit.framework.AssertionFailedError):void" />
+			<role name="TemplateMethod()" element="junit.runner.BaseTestRunner::getTest(java.lang.String):junit.framework.Test" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.junit.internal.ComparisonCriteria" />
+			<role name="TemplateMethod()" element="org.junit.internal.ComparisonCriteria::arrayEquals(java.lang.String, java.lang.Object, java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.junit.internal.matchers.SubstringMatcher" />
+			<role name="TemplateMethod()" element="org.junit.internal.matchers.SubstringMatcher::matchesSafely(java.lang.String):boolean" />
+			<role name="TemplateMethod()" element="org.junit.internal.matchers.SubstringMatcher::describeTo(org.hamcrest.Description):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.junit.internal.matchers.TypeSafeMatcher" />
+			<role name="TemplateMethod()" element="org.junit.internal.matchers.TypeSafeMatcher::matches(java.lang.Object):boolean" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.junit.internal.runners.model.ReflectiveCallable" />
+			<role name="TemplateMethod()" element="org.junit.internal.runners.model.ReflectiveCallable::run():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.junit.runner.notification.RunNotifier$SafeNotifier" />
+			<role name="TemplateMethod()" element="org.junit.runner.notification.RunNotifier$SafeNotifier::run():void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.junit.runner.Runner" />
+			<role name="TemplateMethod()" element="org.junit.runner.Runner::testCount():int" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.junit.runners.model.FrameworkMember" />
+			<role name="TemplateMethod()" element="org.junit.runners.model.FrameworkMember::isShadowedBy(java.util.List):boolean" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.junit.runners.model.RunnerBuilder" />
+			<role name="TemplateMethod()" element="org.junit.runners.model.RunnerBuilder::safeRunnerForClass(java.lang.Class):org.junit.runner.Runner" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.junit.runners.ParentRunner" />
+			<role name="TemplateMethod()" element="org.junit.runners.ParentRunner::getDescription():org.junit.runner.Description" />
+			<role name="TemplateMethod()" element="org.junit.runners.ParentRunner::getFilteredChildren():java.util.List" />
+			<role name="TemplateMethod()" element="org.junit.runners.ParentRunner::shouldRun(org.junit.runner.manipulation.Filter, T):boolean" />
+		</instance>
+	</pattern>
+	<pattern name="Visitor" />
+	<pattern name="Proxy">
+		<instance>
+			<role name="Proxy" element="junit.framework.JUnit4TestAdapter" />
+			<role name="RealSubject" element="org.junit.runner.Runner" />
+			<role name="Request()" element="junit.framework.JUnit4TestAdapter::getDescription():org.junit.runner.Description" />
+		</instance>
+	</pattern>
+	<pattern name="Proxy2" />
+	<pattern name="Chain of Responsibility" />
+</system>
+

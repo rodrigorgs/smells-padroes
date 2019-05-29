@@ -1,0 +1,11 @@
+net.sf.jmoney.gui.AccountChooser	(Object)Adapter
+net.sf.jmoney.gui.IncomeExpenseReportPanel$Item	State
+net.sf.jmoney.model.Entry	State
+net.sf.jmoney.model.Entry	Singleton
+net.sf.jmoney.io.QIF	(Object)Adapter
+net.sf.jmoney.gui.CategoryPanel	State
+net.sf.jmoney.io.FileFormat	State
+net.sf.jmoney.io.MT940	(Object)Adapter
+net.sf.jmoney.model.Category	State
+net.sf.jmoney.gui.MainFrame	State
+net.sf.jmoney.gui.MainFrame	(Object)Adapter

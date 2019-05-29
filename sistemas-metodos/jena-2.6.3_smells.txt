@@ -1,0 +1,951 @@
+Shotgun Surgery	FGraph.getGraph	1	1,0
+Feature Envy	FGraph.contains	2	1,0
+Refused Parent Bequest	UUID_V4	3	1,0
+Feature Envy	TurtleEventDump.triple	4	1,0
+Feature Envy	TurtleEventDump.prefix	5	1,0
+Dispersed Coupling	SpecializedGraphReifier_RDB.add	6	1,0
+Intensive Coupling	SpecializedGraphReifier_RDB.add	7	1,0
+Dispersed Coupling	SpecializedGraphReifier_RDB.delete	8	1,0
+Intensive Coupling	SpecializedGraphReifier_RDB.fragCompact	9	1,0
+Feature Envy	SpecializedGraphReifier_RDB.add	10	1,0
+Intensive Coupling	SpecializedGraphReifier_RDB.add	11	1,0
+Feature Envy	SpecializedGraphReifier_RDB.isReifProp	12	1,0
+God Class	SpecializedGraphReifier_RDB	13	1,0
+Data Class	SpecializedGraphReifier_RDB	14	1,0
+Refused Parent Bequest	SpecializedGraphReifier_RDB	15	1,0
+Tradition Breaker	SpecializedGraphReifier_RDB	16	1,0
+Feature Envy	XSDFloat.parseValidated	17	1,0
+Feature Envy	XSDFloat.isEqual	18	1,0
+Intensive Coupling	Util.substituteEntitiesInElementContent	19	1,0
+Dispersed Coupling	DBQueryStageCompiler.compilePattern	20	1,0
+Feature Envy	DBQueryStageCompiler.getReificationChar	21	1,0
+Dispersed Coupling	DBQueryStageCompiler.getQual	22	1,0
+Dispersed Coupling	DBQueryStageCompiler.compileConstraints	23	1,0
+Feature Envy	DBQueryStageCompiler.compileQuery	24	1,0
+Feature Envy	SimpleReifierFragmentsMap.allTriples	25	1,0
+Dispersed Coupling	SimpleReifierFragmentsMap.allTriples	26	1,0
+Feature Envy	SimpleReifierFragmentsMap.size	27	1,0
+Feature Envy	SimpleReifierFragmentsMap.makeSelectors	28	1,0
+Feature Envy	SimpleBulkUpdateHandler.addReifications	29	1,0
+Feature Envy	SimpleBulkUpdateHandler.deleteReifications	30	1,0
+Dispersed Coupling	SimpleQueryEngine.addStages	31	1,0
+Feature Envy	DriverRDB.getSystemSpecializedGraph	32	1,0
+Intensive Coupling	DriverRDB.getSystemSpecializedGraph	33	1,0
+Dispersed Coupling	DriverRDB.formatAndConstructSystemSpecializedGraph	34	1,0
+Brain Method	DriverRDB.createSpecializedGraphs	35	1,0
+Dispersed Coupling	DriverRDB.createSpecializedGraphs	36	1,0
+Dispersed Coupling	DriverRDB.recreateSpecializedGraphs	37	1,0
+Feature Envy	DriverRDB.createIPSetInstanceFromName	38	1,0
+Feature Envy	DriverRDB.removeSpecializedGraphs	39	1,0
+Dispersed Coupling	DriverRDB.removeSpecializedGraphs	40	1,0
+Dispersed Coupling	DriverRDB.getSequences	41	1,0
+Feature Envy	DriverRDB.xaxtOpRaw	42	1,0
+Feature Envy	DriverRDB.xactBegin	43	1,0
+Brain Method	DriverRDB.nodeToRDBString	44	1,0
+Intensive Coupling	DriverRDB.nodeToRDBString	45	1,0
+Feature Envy	DriverRDB.RDBStringToNode	46	1,0
+Intensive Coupling	DriverRDB.RDBStringToNode	47	1,0
+Feature Envy	DriverRDB.RDBLiteralStringToLiteralNode	48	1,0
+Feature Envy	DriverRDB.RDBStringParseInt	49	1,0
+Feature Envy	DriverRDB.PrefixToLongObject	50	1,0
+Feature Envy	DriverRDB.literalToLongObject	51	1,0
+Feature Envy	DriverRDB.URIToLongObject	52	1,0
+Dispersed Coupling	DriverRDB.getLongObjectID	53	1,0
+Feature Envy	DriverRDB.IDtoString	54	1,0
+Dispersed Coupling	DriverRDB.IDtoLongObject	55	1,0
+Feature Envy	DriverRDB.genSQLStringMatch	56	1,0
+Shotgun Surgery	DriverRDB.setTableNames	57	1,0
+God Class	DriverRDB	58	1,0
+Brain Class	DriverRDB	59	1,0
+Data Class	RDFList	60	1,0
+Refused Parent Bequest	ConnectionAssembler	61	1,0
+Refused Parent Bequest	PatternStageBase	62	1,0
+Feature Envy	ResourceUtils.renameResource	63	1,0
+Dispersed Coupling	ResourceUtils.renameResource	64	1,0
+Dispersed Coupling	ResourceUtils.reachableClosure	65	1,0
+Brain Method	XSDDurationType.parseValidated	66	1,0
+Feature Envy	FragmentTripleIterator.refillFrom	67	1,0
+Intensive Coupling	GraphNode.propagateAdd	68	1,0
+Intensive Coupling	GraphNode.propagateSCC	69	1,0
+Refused Parent Bequest	Polyadic	70	1,0
+Feature Envy	NoValue.bodyCall	71	1,0
+Shotgun Surgery	Triple.getSubject	72	1,0
+Shotgun Surgery	Triple.getPredicate	73	1,0
+Shotgun Surgery	Triple.getObject	74	1,0
+Data Class	Triple	75	1,0
+Feature Envy	ModelFactory.createRDFSModel	76	1,0
+Data Class	ModelFactory	77	1,0
+Refused Parent Bequest	ModelFactory	78	1,0
+Shotgun Surgery	TypeMapper.getSafeTypeByName	79	1,0
+Feature Envy	Turtle2NTriples.triple	80	1,0
+Feature Envy	Turtle2NTriples.outputNode	81	1,0
+Intensive Coupling	Turtle2NTriples.outputNode	82	1,0
+Shotgun Surgery	RDFNode.isAnon	83	1,0
+Shotgun Surgery	RDFNode.isLiteral	84	1,0
+Shotgun Surgery	RDFNode.isResource	85	1,0
+Shotgun Surgery	RDFNode.getModel	86	1,0
+Feature Envy	ListMapAsObject.headAction	87	1,0
+Refused Parent Bequest	GraphRDBMaker	88	1,0
+Feature Envy	BaseDatatype.isEqual	89	1,0
+Shotgun Surgery	Property.getOrdinal	90	1,0
+Dispersed Coupling	OWLExptRuleTranslationHook.run	91	1,0
+Feature Envy	OWLExptRuleTranslationHook.translateIntersectionList	92	1,0
+Feature Envy	schemagen.main	93	1,0
+Dispersed Coupling	schemagen.determineLanguage	94	1,0
+Feature Envy	schemagen.selectOutput	95	1,0
+Intensive Coupling	schemagen.processHeader	96	1,0
+Feature Envy	schemagen.usage	97	1,0
+Feature Envy	schemagen.getClassName	98	1,0
+Intensive Coupling	schemagen.getClassName	99	1,0
+Dispersed Coupling	schemagen.asLegalJavaID	100	1,0
+Intensive Coupling	schemagen.protectQuotes	101	1,0
+Feature Envy	schemagen.getDefaultPrefixNamespace	102	1,0
+Dispersed Coupling	schemagen.getOntologyElementNamespace	103	1,0
+Dispersed Coupling	schemagen.guessNamespace	104	1,0
+Dispersed Coupling	schemagen.writeRDFProperties	105	1,0
+Dispersed Coupling	schemagen.writeRDFClasses	106	1,0
+Dispersed Coupling	schemagen.writeOntIndividuals	107	1,0
+Dispersed Coupling	schemagen.selectIndividuals	108	1,0
+Dispersed Coupling	schemagen.getComment	109	1,0
+Brain Method	schemagen.formatComment	110	1,0
+Dispersed Coupling	schemagen.filter	111	1,0
+Dispersed Coupling	schemagen.getUCValueName	112	1,0
+Feature Envy	schemagen.sorted	113	1,0
+Dispersed Coupling	schemagen.sorted	114	1,0
+God Class	schemagen	115	1,0
+Brain Class	schemagen	116	1,0
+Data Class	schemagen	117	1,0
+Refused Parent Bequest	URIReference	118	1,0
+Refused Parent Bequest	NodeToTriplesMap	119	1,0
+Feature Envy	Location.Location	120	1,0
+Feature Envy	StrConcat.lex	121	1,0
+Intensive Coupling	StrConcat.lex	122	1,0
+Feature Envy	XMLHandler.triple	123	1,0
+Shotgun Surgery	XMLHandler.warning	124	1,0
+Feature Envy	XMLHandler.warning	125	1,0
+Feature Envy	XMLHandler.endLocalScope	126	1,0
+Feature Envy	XMLHandler.setHandlersWith	127	1,0
+Dispersed Coupling	XMLHandler.checkNamespaceURI	128	1,0
+God Class	XMLHandler	129	1,0
+Data Class	XMLHandler	130	1,0
+Refused Parent Bequest	XMLHandler	131	1,0
+Tradition Breaker	XMLHandler	132	1,0
+Dispersed Coupling	IsDType.isTypeOK	133	1,0
+Shotgun Surgery	Model.getResource	134	1,0
+Shotgun Surgery	Model.createResource	135	1,0
+Shotgun Surgery	Model.createResource	136	1,0
+Shotgun Surgery	Model.add	137	1,0
+Shotgun Surgery	Model.read	138	1,0
+Shotgun Surgery	Model.contains	139	1,0
+Shotgun Surgery	Model.listStatements	140	1,0
+Shotgun Surgery	Model.listStatements	141	1,0
+Feature Envy	BFRuleContext.contains	142	1,0
+Shotgun Surgery	Resource.inModel	143	1,0
+Shotgun Surgery	Resource.getURI	144	1,0
+Shotgun Surgery	Resource.equals	145	1,0
+Shotgun Surgery	Resource.getRequiredProperty	146	1,0
+Shotgun Surgery	Resource.listProperties	147	1,0
+Shotgun Surgery	Resource.listProperties	148	1,0
+Shotgun Surgery	Resource.addProperty	149	1,0
+Shotgun Surgery	Resource.addProperty	150	1,0
+Shotgun Surgery	Resource.hasProperty	151	1,0
+Shotgun Surgery	Resource.hasProperty	152	1,0
+Data Class	Resource	153	1,0
+Refused Parent Bequest	AltImpl	154	1,0
+Shotgun Surgery	BindingEnvironment.bind	155	1,0
+Dispersed Coupling	OptionDefinition.getResource	156	1,0
+Dispersed Coupling	ContainerImpl.listContainerMembers	157	1,0
+Feature Envy	ContainerImpl.containerIndexOf	158	1,0
+God Class	ContainerImpl	159	1,0
+Refused Parent Bequest	ContainerImpl	160	1,0
+Feature Envy	TransitiveInfGraph.prepare	161	1,0
+Refused Parent Bequest	TransitiveInfGraph	162	1,0
+Refused Parent Bequest	Driver_MySQL	163	1,0
+Feature Envy	NiceIterator.andThen	164	1,0
+Shotgun Surgery	Node.isConcrete	165	1,0
+Shotgun Surgery	Node.isLiteral	166	1,0
+Shotgun Surgery	Node.isBlank	167	1,0
+Shotgun Surgery	Node.isURI	168	1,0
+Shotgun Surgery	Node.isVariable	169	1,0
+Shotgun Surgery	Node.getLiteralValue	170	1,0
+Shotgun Surgery	Node.getLiteralLexicalForm	171	1,0
+Shotgun Surgery	Node.getLiteralDatatype	172	1,0
+Shotgun Surgery	Node.getURI	173	1,0
+Shotgun Surgery	Node.equals	174	1,0
+Shotgun Surgery	Node.sameValueAs	175	1,0
+Shotgun Surgery	Node.matches	176	1,0
+Shotgun Surgery	Node.toString	177	1,0
+God Class	Node	178	1,0
+Feature Envy	GraphTripleStoreBase.find	179	1,0
+Refused Parent Bequest	MultiUnion	180	1,0
+Refused Parent Bequest	XSDDuration	181	1,0
+Tradition Breaker	XSDDuration	182	1,0
+Feature Envy	ResultSetTripleIterator.extractRow	183	1,0
+Refused Parent Bequest	ResultSetTripleIterator	184	1,0
+Feature Envy	XMLLiteralType.isValid	185	1,0
+Feature Envy	PatternStageCompiler.compile	186	1,0
+Intensive Coupling	PatternStageCompiler.compile	187	1,0
+Refused Parent Bequest	PolyadicPrefixMappingImpl	188	1,0
+Refused Parent Bequest	SimpleGraphMaker	189	1,0
+Feature Envy	XSDBaseNumericType.isValidLiteral	190	1,0
+Feature Envy	XSDBaseNumericType.isEqual	191	1,0
+Refused Parent Bequest	XSDBaseNumericType	192	1,0
+Feature Envy	Basic.writePredicate	193	1,0
+Feature Envy	Basic.writeLiteral	194	1,0
+Refused Parent Bequest	Basic	195	1,0
+Shotgun Surgery	BaseBuiltin.checkArgs	196	1,0
+Shotgun Surgery	BaseBuiltin.getArg	197	1,0
+Feature Envy	MaxCardinalityRestrictionImpl.setMaxCardinality	198	1,0
+Feature Envy	JenaReader.read	199	1,0
+Feature Envy	JenaReader.convert	200	1,0
+Feature Envy	JenaReader.convert	201	1,0
+Brain Method	JenaReader.setProperty	202	1,0
+Feature Envy	JenaReader.setProperty	203	1,0
+Dispersed Coupling	JenaReader.setProperty	204	1,0
+Brain Method	JenaReader.processArpOptions	205	1,0
+Feature Envy	JenaReader.processArpOptions	206	1,0
+Intensive Coupling	JenaReader.processArpOptions	207	1,0
+God Class	JenaReader	208	1,0
+Brain Class	JenaReader	209	1,0
+Feature Envy	AnonStatement.AnonStatement	210	1,0
+Dispersed Coupling	AnonStatement.AnonStatement	211	1,0
+Shotgun Surgery	DBIDInt.getIntID	212	1,0
+Feature Envy	UUID_V4_Gen.parseV4	213	1,0
+Feature Envy	UUID_V4_Gen.unparse	214	1,0
+Feature Envy	dbcreate.exec0	215	1,0
+Feature Envy	SimpleSelector.test	216	1,0
+Refused Parent Bequest	ARPResource	217	1,0
+Feature Envy	OntPropertyImpl.setSubProperty	218	1,0
+Dispersed Coupling	OntPropertyImpl.listDeclaringClasses	219	1,0
+God Class	OntPropertyImpl	220	1,0
+Data Class	OntPropertyImpl	221	1,0
+Refused Parent Bequest	OntPropertyImpl	222	1,0
+Shotgun Surgery	SpecializedGraph.find	223	1,0
+Refused Parent Bequest	RDBModelAssembler	224	1,0
+Feature Envy	ReasonerRegistry.getRDFSSimpleReasoner	225	1,0
+Brain Method	NTripleReader.readLiteral	226	1,0
+Dispersed Coupling	NTripleReader.readLiteral	227	1,0
+Shotgun Surgery	FrontsTriple.asTriple	228	1,0
+Feature Envy	RestrictionImpl.convertToCardinalityRestriction	229	1,0
+Feature Envy	RestrictionImpl.convertToMinCardinalityRestriction	230	1,0
+Feature Envy	RestrictionImpl.convertToMaxCardinalityRestriction	231	1,0
+Refused Parent Bequest	RestrictionImpl	232	1,0
+Feature Envy	SimpleQueryPlan.executeBindings	233	1,0
+Feature Envy	ModelAssembler.styleFor	234	1,0
+Refused Parent Bequest	ModelAssembler	235	1,0
+Refused Parent Bequest	Driver_Derby	236	1,0
+Feature Envy	GraphRDB.styleRDB	237	1,0
+Dispersed Coupling	GraphRDB.GraphRDB	238	1,0
+Feature Envy	GraphRDB.add	239	1,0
+Feature Envy	GraphRDB.delete	240	1,0
+Dispersed Coupling	GraphRDB.graphBaseFind	241	1,0
+God Class	GraphRDB	242	1,0
+Refused Parent Bequest	GraphRDB	243	1,0
+Feature Envy	RDFSRuleReasoner.doSetParameter	244	1,0
+Refused Parent Bequest	RDFSRuleReasoner	245	1,0
+Feature Envy	LCAIndex.getLCA	246	1,0
+Feature Envy	JenaHandler.useWith	247	1,0
+Refused Parent Bequest	JenaHandler	248	1,0
+Dispersed Coupling	NTriple.mainEh	249	1,0
+Feature Envy	NTriple.lineNumber	250	1,0
+Feature Envy	NTriple.usage	251	1,0
+Brain Method	NTriple.processOpts	252	1,0
+Dispersed Coupling	NTriple.processOpts	253	1,0
+Feature Envy	NTriple.process	254	1,0
+Dispersed Coupling	NTriple.process	255	1,0
+God Class	NTriple	256	1,0
+Brain Class	NTriple	257	1,0
+Intensive Coupling	LocatorURL.open	258	1,0
+Feature Envy	WantLiteralValueOrDescription.startElement	259	1,0
+Feature Envy	AssemblerException.getIncomingProperty	260	1,0
+Refused Parent Bequest	AssemblerException	261	1,0
+Feature Envy	SeqImpl.set	262	1,0
+Feature Envy	SeqImpl.shiftUp	263	1,0
+God Class	SeqImpl	264	1,0
+Refused Parent Bequest	SeqImpl	265	1,0
+Shotgun Surgery	ResourceImpl.getRequiredProperty	266	1,0
+Shotgun Surgery	ResourceImpl.addProperty	267	1,0
+Shotgun Surgery	ResourceImpl.getModel	268	1,0
+God Class	ResourceImpl	269	1,0
+Data Class	ResourceImpl	270	1,0
+Refused Parent Bequest	ResourceImpl	271	1,0
+Feature Envy	MixedGraphMemStore.add	272	1,0
+Feature Envy	MixedGraphMemStore.remove	273	1,0
+Dispersed Coupling	MixedGraphMemStore.iterator	274	1,0
+Intensive Coupling	MixedGraphMemStore.iterator	275	1,0
+Dispersed Coupling	SQLCache.flushPreparedStatementCache	276	1,0
+Feature Envy	SQLCache.getSQLStatement	277	1,0
+Shotgun Surgery	SQLCache.getPreparedSQLStatement	278	1,0
+Shotgun Surgery	SQLCache.returnPreparedSQLStatement	279	1,0
+Dispersed Coupling	SQLCache.close	280	1,0
+God Class	SQLCache	281	1,0
+Shotgun Surgery	LiteralLabel.getValue	282	1,0
+Shotgun Surgery	LiteralLabel.getDatatype	283	1,0
+Feature Envy	RETEConflictSet.add	284	1,0
+Dispersed Coupling	RETEConflictSet.add	285	1,0
+Feature Envy	RETEConflictSet.fireOne	286	1,0
+Brain Method	RETEConflictSet.execute	287	1,0
+Intensive Coupling	RETEConflictSet.execute	288	1,0
+Feature Envy	RDFSFBRuleReasonerFactory.getCapabilities	289	1,0
+Feature Envy	Entry.equals	290	1,0
+Shotgun Surgery	GraphAdd.add	291	1,0
+God Class	FBRuleReasoner	292	1,0
+Feature Envy	RETETerminal.fire	293	1,0
+Feature Envy	RETETerminal.clone	294	1,0
+Brain Method	Parser.parseNode	295	1,0
+Feature Envy	Parser.parseNode	296	1,0
+Intensive Coupling	Parser.parseNode	297	1,0
+Feature Envy	Parser.parseNumber	298	1,0
+God Class	Parser	299	1,0
+God Class	Util	300	1,0
+Shotgun Surgery	Literal.getLexicalForm	301	1,0
+Shotgun Surgery	Literal.getLanguage	302	1,0
+Dispersed Coupling	Product.bodyCall	303	1,0
+Dispersed Coupling	RETEQueue.fire	304	1,0
+Feature Envy	RDFListImpl.remove	305	1,0
+Feature Envy	RDFListImpl.sameListAs	306	1,0
+God Class	RDFListImpl	307	1,0
+Data Class	RDFListImpl	308	1,0
+Refused Parent Bequest	RDFListImpl	309	1,0
+Tradition Breaker	RDFListImpl	310	1,0
+Feature Envy	ReificationWrapper.hasTriple	311	1,0
+Feature Envy	ReificationWrapper.tripleFromRSPO	312	1,0
+Feature Envy	ReificationWrapper.getTriple	313	1,0
+Feature Envy	ReificationWrapper.tripleFromSPO	314	1,0
+Feature Envy	ReificationWrapper.isReificationTriple	315	1,0
+Data Class	ReificationWrapper	316	1,0
+Feature Envy	DBPattern.DBPattern	317	1,0
+God Class	DBPattern	318	1,0
+Data Class	AbstractDateTime	319	1,0
+Refused Parent Bequest	SmallGraphMem	320	1,0
+Dispersed Coupling	SchemagenOptionsImpl.getAllValues	321	1,0
+God Class	SchemagenOptionsImpl	322	1,0
+Shotgun Surgery	OntModel.getProfile	323	1,0
+Data Class	OntModel	324	1,0
+Feature Envy	DBPropGraph.DBPropGraph	325	1,0
+Feature Envy	DBPropGraph.updatePrefixMaplet	326	1,0
+Feature Envy	DBPropGraph.removePrefix	327	1,0
+God Class	DBPropGraph	328	1,0
+Data Class	DBPropGraph	329	1,0
+Refused Parent Bequest	DBPropGraph	330	1,0
+Refused Parent Bequest	XMLContext	331	1,0
+Feature Envy	GenericRuleReasonerFactory.getCapabilities	332	1,0
+Refused Parent Bequest	UUID_V1	333	1,0
+Feature Envy	MonitorGraph.snapshot	334	1,0
+Dispersed Coupling	MonitorGraph.snapshot	335	1,0
+Data Class	JavaCharStream	336	1,0
+Dispersed Coupling	LPBackwardRuleInfGraph.extractAxioms	337	1,0
+Data Class	LPBackwardRuleInfGraph	338	1,0
+Refused Parent Bequest	LPBackwardRuleInfGraph	339	1,0
+Dispersed Coupling	LocationMapper.initFromPath	340	1,0
+Intensive Coupling	LocationMapper.altMapping	341	1,0
+Feature Envy	LocationMapper.toModel	342	1,0
+Dispersed Coupling	LocationMapper.processConfig	343	1,0
+God Class	LocationMapper	344	1,0
+Data Class	LocationMapper	345	1,0
+Feature Envy	UUID_V1_Gen.parse	346	1,0
+Feature Envy	UUID_V1_Gen.unparse	347	1,0
+Feature Envy	BBRuleContext.contains	348	1,0
+Refused Parent Bequest	ConsumerChoicePointFrame	349	1,0
+Tradition Breaker	ConsumerChoicePointFrame	350	1,0
+Feature Envy	FBRuleInfGraph.resetTGCCache	351	1,0
+Brain Method	FBRuleInfGraph.prepare	352	1,0
+Dispersed Coupling	FBRuleInfGraph.prepare	353	1,0
+Dispersed Coupling	FBRuleInfGraph.performAdd	354	1,0
+Intensive Coupling	FBRuleInfGraph.validate	355	1,0
+Dispersed Coupling	FBRuleInfGraph.checkLiteral	356	1,0
+Dispersed Coupling	FBRuleInfGraph.getDTRange	357	1,0
+Feature Envy	FBRuleInfGraph.accept	358	1,0
+God Class	FBRuleInfGraph	359	1,0
+Brain Class	FBRuleInfGraph	360	1,0
+Data Class	FBRuleInfGraph	361	1,0
+Refused Parent Bequest	FBRuleInfGraph	362	1,0
+Feature Envy	ListMapAsSubject.headAction	363	1,0
+Feature Envy	Rewrite.rewriteStringMatch	364	1,0
+Feature Envy	ModelSourceAssembler.open	365	1,0
+Dispersed Coupling	TempNodeCache.getTemp	366	1,0
+Data Class	OntResource	367	1,0
+Feature Envy	RDFSRuleReasonerFactory.getCapabilities	368	1,0
+Feature Envy	OWLMicroReasonerFactory.create	369	1,0
+Refused Parent Bequest	HashedTripleBunch	370	1,0
+Tradition Breaker	HashedTripleBunch	371	1,0
+Feature Envy	AssemblerHelp.getString	372	1,0
+God Class	AssemblerHelp	373	1,0
+Dispersed Coupling	RuleDerivation.printTrace	374	1,0
+Feature Envy	LocatorClassLoader.open	375	1,0
+Dispersed Coupling	OWLRuleTranslationHook.run	376	1,0
+Feature Envy	OWLRuleTranslationHook.translateIntersectionList	377	1,0
+Feature Envy	OntClassImpl.setSubClass	378	1,0
+Feature Envy	OntClassImpl.hasSubClass	379	1,0
+Dispersed Coupling	OntClassImpl.listDeclaredProperties	380	1,0
+Feature Envy	OntClassImpl.isHierarchyRoot	381	1,0
+Feature Envy	OntClassImpl.isRestriction	382	1,0
+Feature Envy	OntClassImpl.convertToRestriction	383	1,0
+Dispersed Coupling	OntClassImpl.testDomain	384	1,0
+Dispersed Coupling	OntClassImpl.listAllProperties	385	1,0
+Dispersed Coupling	OntClassImpl.canProveSuperClass	386	1,0
+God Class	OntClassImpl	387	1,0
+Data Class	OntClassImpl	388	1,0
+Refused Parent Bequest	OntClassImpl	389	1,0
+Brain Method	AttributeLexer.processSpecials	390	1,0
+Dispersed Coupling	AttributeLexer.processSpecials	391	1,0
+God Class	AttributeLexer	392	1,0
+Data Class	AttributeLexer	393	1,0
+Refused Parent Bequest	SAX2RDFImpl	394	1,0
+Refused Parent Bequest	FileGraph	395	1,0
+Refused Parent Bequest	Node_Literal	396	1,0
+Feature Envy	LockState.clean	397	1,0
+God Class	BasicForwardRuleInfGraph	398	1,0
+Data Class	BasicForwardRuleInfGraph	399	1,0
+Refused Parent Bequest	BasicForwardRuleInfGraph	400	1,0
+Shotgun Surgery	Finder.find	401	1,0
+Shotgun Surgery	Assembler.open	402	1,0
+Brain Method	ParserBase.unescape	403	1,0
+God Class	ParserBase	404	1,0
+Feature Envy	XSDhexBinary.isEqual	405	1,0
+Shotgun Surgery	CompletionFlag.isDone	406	1,0
+Dispersed Coupling	Unparser.Unparser	407	1,0
+Feature Envy	Unparser.wPropertyEltDatatype	408	1,0
+Dispersed Coupling	Unparser.wTypedNodeOrDescription	409	1,0
+Feature Envy	Unparser.tab	410	1,0
+Dispersed Coupling	Unparser.hasProperties	411	1,0
+Dispersed Coupling	Unparser.canBeAttribute	412	1,0
+Feature Envy	Unparser.getDamlList	413	1,0
+Feature Envy	Unparser.getRDFList	414	1,0
+Dispersed Coupling	Unparser.getList	415	1,0
+Feature Envy	Unparser.findInfiniteCycles	416	1,0
+Dispersed Coupling	Unparser.findInfiniteCycles	417	1,0
+Dispersed Coupling	Unparser.pleasingTypeIterator	418	1,0
+God Class	Unparser	419	1,0
+Dispersed Coupling	Sum.bodyCall	420	1,0
+Feature Envy	PropertyImpl.computeOrdinal	421	1,0
+Refused Parent Bequest	PropertyImpl	422	1,0
+Intensive Coupling	TransitiveGraphCache.addRelation	423	1,0
+Intensive Coupling	TransitiveGraphCache.processDeletes	424	1,0
+Feature Envy	TransitiveGraphCache.find	425	1,0
+Intensive Coupling	TransitiveGraphCache.find	426	1,0
+God Class	TransitiveGraphCache	427	1,0
+Data Class	TransitiveGraphCache	428	1,0
+Shotgun Surgery	FrontsNode.asNode	429	1,0
+Shotgun Surgery	TriplePattern.getObject	430	1,0
+Shotgun Surgery	TriplePattern.getPredicate	431	1,0
+Shotgun Surgery	TriplePattern.getSubject	432	1,0
+Feature Envy	TriplePattern.simplePrintString	433	1,0
+Dispersed Coupling	TriplePattern.simplePrintString	434	1,0
+Data Class	TriplePattern	435	1,0
+Dispersed Coupling	Regex.bodyCall	436	1,0
+Feature Envy	HasValueRestrictionImpl.getHasValue	437	1,0
+Intensive Coupling	ReificationCacheMap.load	438	1,0
+Data Class	DAML_OIL	439	1,0
+Feature Envy	PerlPatternParser.parseAtom	440	1,0
+Feature Envy	PerlPatternParser.parseBackslash	441	1,0
+Feature Envy	PerlPatternParser.parseQuantifier	442	1,0
+God Class	PerlPatternParser	443	1,0
+Data Class	PerlPatternParser	444	1,0
+Feature Envy	XSDDateTime.getNarrowedDatatype	445	1,0
+Feature Envy	XSDDateTime.narrowType	446	1,0
+Feature Envy	XSDDateTime.convertCalendar	447	1,0
+Feature Envy	XSDDateTime.asCalendar	448	1,0
+Refused Parent Bequest	XSDDateTime	449	1,0
+Tradition Breaker	XSDDateTime	450	1,0
+Shotgun Surgery	TripleMatch.asTriple	451	1,0
+Shotgun Surgery	EnhNode.asNode	452	1,0
+Shotgun Surgery	EnhNode.getGraph	453	1,0
+Refused Parent Bequest	EnhNode	454	1,0
+Dispersed Coupling	Drop.headAction	455	1,0
+Shotgun Surgery	PrefixMapping.setNsPrefix	456	1,0
+Shotgun Surgery	PrefixMapping.setNsPrefixes	457	1,0
+Shotgun Surgery	PrefixMapping.getNsPrefixMap	458	1,0
+Dispersed Coupling	DBcmd.exec	459	1,0
+God Class	DBcmd	460	1,0
+Intensive Coupling	PSet_TripleStore_RDB.rowCount	461	1,0
+Feature Envy	PSet_TripleStore_RDB.getPreparedStatement	462	1,0
+Dispersed Coupling	PSet_TripleStore_RDB.storeTripleAR	463	1,0
+Brain Method	PSet_TripleStore_RDB.storeTripleList	464	1,0
+Dispersed Coupling	PSet_TripleStore_RDB.storeTripleList	465	1,0
+Brain Method	PSet_TripleStore_RDB.deleteTripleList	466	1,0
+Dispersed Coupling	PSet_TripleStore_RDB.deleteTripleList	467	1,0
+Dispersed Coupling	PSet_TripleStore_RDB.find	468	1,0
+God Class	PSet_TripleStore_RDB	469	1,0
+Brain Class	PSet_TripleStore_RDB	470	1,0
+Data Class	PSet_TripleStore_RDB	471	1,0
+Refused Parent Bequest	XMLBaselessContext	472	1,0
+Feature Envy	PrintUtil.print	473	1,0
+Intensive Coupling	PrintUtil.print	474	1,0
+Feature Envy	PrintUtil.print	475	1,0
+Feature Envy	PrintUtil.print	476	1,0
+Shotgun Surgery	IDBConnection.getConnection	477	1,0
+Refused Parent Bequest	SAX2Model	478	1,0
+Dispersed Coupling	OntDocumentManager.unloadImports	479	1,0
+Dispersed Coupling	OntDocumentManager.queueImports	480	1,0
+Dispersed Coupling	OntDocumentManager.processMetadata	481	1,0
+Feature Envy	OntDocumentManager.fetchLoadedImportModel	482	1,0
+God Class	OntDocumentManager	483	1,0
+Brain Method	TupleSet.tuple	484	1,0
+Feature Envy	TupleSet.tuple	485	1,0
+Dispersed Coupling	TupleSet.tuple	486	1,0
+God Class	TupleSet	487	1,0
+Dispersed Coupling	DBQueryStage.extendSourceBinding	488	1,0
+Refused Parent Bequest	DBQueryStage	489	1,0
+Feature Envy	Util.equals	490	1,0
+Refused Parent Bequest	FileGraphMaker	491	1,0
+Feature Envy	WantPropertyElement.startElement	492	1,0
+Dispersed Coupling	WantPropertyElement.startElement	493	1,0
+Feature Envy	WantPropertyElement.mustBeEmpty	494	1,0
+Feature Envy	WantPropertyElement.rdf_n	495	1,0
+Feature Envy	WantPropertyElement.descriptionOfCases	496	1,0
+Feature Envy	WantPropertyElement.pairwiseIncompatibleErrorMessage	497	1,0
+Feature Envy	WantPropertyElement.complicatedErrorMessage	498	1,0
+Feature Envy	WantPropertyElement.propertyAttributeDescription	499	1,0
+God Class	WantPropertyElement	500	1,0
+Refused Parent Bequest	WantPropertyElement	501	1,0
+Feature Envy	XSDDouble.parseValidated	502	1,0
+Feature Envy	XSDDouble.isEqual	503	1,0
+Refused Parent Bequest	NodeToTriplesMapFaster	504	1,0
+Feature Envy	ModelQueryUtil.queryBindingsWith	505	1,0
+Feature Envy	RETERuleContext.contains	506	1,0
+Dispersed Coupling	OntModelImpl.listIndividuals	507	1,0
+Dispersed Coupling	OntModelImpl.listHierarchyRootClasses	508	1,0
+Dispersed Coupling	OntModelImpl.listImportedOntologyURIs	509	1,0
+Feature Envy	OntModelImpl.isInBaseModel	510	1,0
+Feature Envy	OntModelImpl.isInBaseModel	511	1,0
+Dispersed Coupling	OntModelImpl.queryFor	512	1,0
+Feature Envy	OntModelImpl.getReasoner	513	1,0
+Feature Envy	OntModelImpl.setDerivationLogging	514	1,0
+Feature Envy	OntModelImpl.getDerivation	515	1,0
+Feature Envy	OntModelImpl.queryXTypeOfType	516	1,0
+God Class	OntModelImpl	517	1,0
+Data Class	OntModelImpl	518	1,0
+Refused Parent Bequest	OntModelImpl	519	1,0
+Shotgun Surgery	Builtin.getName	520	1,0
+Feature Envy	DBConnection.getDefaultModelProperties	521	1,0
+Feature Envy	DBConnection.copySpecializedGraphToModel	522	1,0
+Feature Envy	LiteralLabelImpl.equals	523	1,0
+Shotgun Surgery	AssemblerBase.checkType	524	1,0
+Feature Envy	Relation.copy	525	1,0
+Feature Envy	Relation.pairEntry	526	1,0
+Feature Envy	Relation.iterator	527	1,0
+Shotgun Surgery	DBProp.putPropString	528	1,0
+Shotgun Surgery	DBProp.getPropString	529	1,0
+Feature Envy	MinCardinalityQRestrictionImpl.setMinCardinalityQ	530	1,0
+Shotgun Surgery	RuleContext.getEnv	531	1,0
+Intensive Coupling	DBQueryHandler.patternStageWithFullpath	532	1,0
+Intensive Coupling	DBQueryHandler.attemptJoiningOthers	533	1,0
+Feature Envy	DBQueryHandler.findCheapPattern	534	1,0
+Feature Envy	DBQueryHandler.associateWithSources	535	1,0
+Feature Envy	DBQueryHandler.setQueryOnlyReified	536	1,0
+Dispersed Coupling	DBQueryHandler.findConstraints	537	1,0
+Feature Envy	DBQueryHandler.dbPartiallyHandlesExpression	538	1,0
+God Class	DBQueryHandler	539	1,0
+Refused Parent Bequest	DBQueryHandler	540	1,0
+Tradition Breaker	DBQueryHandler	541	1,0
+Shotgun Surgery	Graph.queryHandler	542	1,0
+Shotgun Surgery	Graph.getBulkUpdateHandler	543	1,0
+Shotgun Surgery	Graph.getEventManager	544	1,0
+Shotgun Surgery	Graph.getReifier	545	1,0
+Shotgun Surgery	Graph.getPrefixMapping	546	1,0
+Shotgun Surgery	Graph.delete	547	1,0
+Shotgun Surgery	Graph.find	548	1,0
+Shotgun Surgery	Graph.find	549	1,0
+Shotgun Surgery	Graph.contains	550	1,0
+Shotgun Surgery	Graph.contains	551	1,0
+Shotgun Surgery	Graph.size	552	1,0
+Refused Parent Bequest	Abbreviated	553	1,0
+Feature Envy	FileModelAssembler.getLanguage	554	1,0
+Feature Envy	FileModelAssembler.getBoolean	555	1,0
+Brain Method	RETEClauseFilter.compile	556	1,0
+Dispersed Coupling	RETEClauseFilter.compile	557	1,0
+Dispersed Coupling	RETEClauseFilter.fire	558	1,0
+Feature Envy	RETEClauseFilter.getTripleValue	559	1,0
+Brain Method	URIref.encode	560	1,0
+Feature Envy	URIref.decode	561	1,0
+God Class	URIref	562	1,0
+Refused Parent Bequest	Free	563	1,0
+Data Class	DBReifierGraph	564	1,0
+Shotgun Surgery	Frame.warning	565	1,0
+Feature Envy	Frame.processPropertyAttributes	566	1,0
+Dispersed Coupling	Frame.processPropertyAttributes	567	1,0
+Refused Parent Bequest	Frame	568	1,0
+Tradition Breaker	Frame	569	1,0
+Feature Envy	ModelExpansion.addSubclassesFrom	570	1,0
+Dispersed Coupling	ModelExpansion.addRangeTypes	571	1,0
+Dispersed Coupling	ModelExpansion.addSupertypes	572	1,0
+Feature Envy	Extraction.extractInto	573	1,0
+Dispersed Coupling	Extraction.extractInto	574	1,0
+Dispersed Coupling	RDFSCMPPreprocessHook.run	575	1,0
+Feature Envy	TurtleRDFGraphInserter.triple	576	1,0
+Feature Envy	NodeCache.get	577	1,0
+Feature Envy	TransitiveEngine.cacheSubClassUtility	578	1,0
+Feature Envy	TransitiveEngine.cacheSubPropUtility	579	1,0
+Dispersed Coupling	TransitiveEngine.cacheSubPropUtility	580	1,0
+Shotgun Surgery	Taint.isTainted	581	1,0
+Feature Envy	FileManager.readModelWorker	582	1,0
+Dispersed Coupling	FileManager.readModelWorker	583	1,0
+God Class	FileManager	584	1,0
+Data Class	FileManager	585	1,0
+Shotgun Surgery	StageElement.run	586	1,0
+Feature Envy	OWLFBRuleReasoner.bind	587	1,0
+Feature Envy	OWLFBRuleReasoner.getPreload	588	1,0
+Feature Envy	BaseInfGraph.graphBaseFind	589	1,0
+God Class	BaseInfGraph	590	1,0
+Refused Parent Bequest	BaseInfGraph	591	1,0
+Feature Envy	LPTopGoalIterator.moveForward	592	1,0
+Feature Envy	FRuleEngine.setRuleStore	593	1,0
+Dispersed Coupling	FRuleEngine.addSet	594	1,0
+Dispersed Coupling	FRuleEngine.compile	595	1,0
+Dispersed Coupling	FRuleEngine.findAndProcessAxioms	596	1,0
+Intensive Coupling	FRuleEngine.findAndProcessActions	597	1,0
+Dispersed Coupling	FRuleEngine.matchRuleBody	598	1,0
+Brain Method	FRuleEngine.matchClauseList	599	1,0
+Intensive Coupling	FRuleEngine.matchClauseList	600	1,0
+Feature Envy	FRuleEngine.match	601	1,0
+Dispersed Coupling	FRuleEngine.match	602	1,0
+God Class	FRuleEngine	603	1,0
+Brain Class	FRuleEngine	604	1,0
+Shotgun Surgery	StmtIterator.nextStatement	605	1,0
+Feature Envy	SimpleReifier.addFragment	606	1,0
+Data Class	SimpleReifier	607	1,0
+Dispersed Coupling	SimpleReifierTripleMap.allTriples	608	1,0
+Feature Envy	QueryTriple.classify	609	1,0
+Feature Envy	QueryTriple.createMatcher	610	1,0
+Feature Envy	Query.addConstraint	611	1,0
+Feature Envy	MaxCardinalityQRestrictionImpl.setMaxCardinalityQ	612	1,0
+Refused Parent Bequest	Driver_Oracle	613	1,0
+Feature Envy	LPRuleStore.codeFor	614	1,0
+Feature Envy	LPRuleStore.codeFor	615	1,0
+Brain Method	LPRuleStore.compileAll	616	1,0
+Intensive Coupling	LPRuleStore.compileAll	617	1,0
+Refused Parent Bequest	LPRuleStore	618	1,0
+Tradition Breaker	LPRuleStore	619	1,0
+God Class	ResultSetReifIterator	620	1,0
+Refused Parent Bequest	ResultSetReifIterator	621	1,0
+Feature Envy	OneToManyMap.entrySet	622	1,0
+Dispersed Coupling	OneToManyMap.entrySet	623	1,0
+Intensive Coupling	OneToManyMap.toString	624	1,0
+Shotgun Surgery	ModelCom.getGraph	625	1,0
+Dispersed Coupling	ModelCom.addNamespaces	626	1,0
+Feature Envy	ModelCom.add	627	1,0
+Feature Envy	ModelCom.findTriplesFrom	628	1,0
+God Class	ModelCom	629	1,0
+Data Class	ModelCom	630	1,0
+Refused Parent Bequest	ModelCom	631	1,0
+Intensive Coupling	AbsXMLLiteral.startElement	632	1,0
+Refused Parent Bequest	AbsXMLLiteral	633	1,0
+Dispersed Coupling	GraphMatcher.match	634	1,0
+Dispersed Coupling	GraphMatcher.prepare	635	1,0
+Feature Envy	GraphMatcher.rehash0	636	1,0
+Dispersed Coupling	GraphMatcher.rehash0	637	1,0
+God Class	GraphMatcher	638	1,0
+Feature Envy	CompileState.emitBindingTests	639	1,0
+Feature Envy	CompileState.aIndex	640	1,0
+Feature Envy	CompileState.emitHead	641	1,0
+Dispersed Coupling	CompileState.emitHeadGet	642	1,0
+Feature Envy	CompileState.emitBody	643	1,0
+Dispersed Coupling	CompileState.emitBody	644	1,0
+Dispersed Coupling	CompileState.emitBodyPut	645	1,0
+Brain Method	CompileState.classifyVariables	646	1,0
+Intensive Coupling	CompileState.classifyVariables	647	1,0
+Dispersed Coupling	CompileState.termVars	648	1,0
+Feature Envy	TestInputStreamFactory.open	649	1,0
+Dispersed Coupling	TestInputStreamFactory.open	650	1,0
+Feature Envy	CardinalityRestrictionImpl.setCardinality	651	1,0
+Dispersed Coupling	Difference.bodyCall	652	1,0
+Dispersed Coupling	LPBRuleEngine.checkSafeToUpdate	653	1,0
+Dispersed Coupling	LPBRuleEngine.pump	654	1,0
+Feature Envy	LPBRuleEngine.printProfile	655	1,0
+Dispersed Coupling	LPBRuleEngine.printProfile	656	1,0
+God Class	LPBRuleEngine	657	1,0
+Data Class	LPBRuleEngine	658	1,0
+Feature Envy	MixedGraphMem.graphBaseFind	659	1,0
+Intensive Coupling	MixedGraphMem.graphBaseFind	660	1,0
+Refused Parent Bequest	MixedGraphMem	661	1,0
+Dispersed Coupling	OntTools.findShortestPath	662	1,0
+Dispersed Coupling	OntTools.lca	663	1,0
+Feature Envy	OntTools.checkSolution	664	1,0
+Dispersed Coupling	OntTools.partitionByNamed	665	1,0
+Dispersed Coupling	CountLiteralValues.bodyCall	666	1,0
+Feature Envy	QueryMapper.toQueryTriple	667	1,0
+Feature Envy	FasterTripleStore.FasterTripleStore	668	1,0
+Feature Envy	FasterTripleStore.containsApplyer	669	1,0
+Feature Envy	FasterTripleStore.varSvarOApplyer	670	1,0
+Dispersed Coupling	FasterTripleStore.varSvarOApplyer	671	1,0
+Refused Parent Bequest	ModelRDB	672	1,0
+Dispersed Coupling	RETEEngine.compile	673	1,0
+Dispersed Coupling	RETEEngine.inject	674	1,0
+Feature Envy	RETEEngine.findAndProcessAxioms	675	1,0
+Dispersed Coupling	RETEEngine.findAndProcessAxioms	676	1,0
+Intensive Coupling	RETEEngine.findAndProcessActions	677	1,0
+God Class	RETEEngine	678	1,0
+Data Class	RETEEngine	679	1,0
+Feature Envy	AssemblerGroup.copy	680	1,0
+God Class	DAML_OILLegacyProfile	681	1,0
+Data Class	DAML_OILLegacyProfile	682	1,0
+Refused Parent Bequest	DAML_OILLegacyProfile	683	1,0
+Feature Envy	TurtleParser.Directive	684	1,0
+Feature Envy	TurtleParser.Verb	685	1,0
+Feature Envy	TurtleParser.Collection	686	1,0
+Feature Envy	TurtleParser.Formula	687	1,0
+Feature Envy	TurtleParser.Var	688	1,0
+Feature Envy	TurtleParser.NumericLiteral	689	1,0
+Feature Envy	TurtleParser.String	690	1,0
+Feature Envy	TurtleParser.PrefixedName	691	1,0
+Feature Envy	TurtleParser.BlankNode	692	1,0
+Feature Envy	TurtleParser.IRI_REF	693	1,0
+Feature Envy	TurtleParser.jj_consume_token	694	1,0
+Feature Envy	TurtleParser.getNextToken	695	1,0
+Feature Envy	TurtleParser.getToken	696	1,0
+Feature Envy	TurtleParser.jj_ntk	697	1,0
+Data Class	TurtleParser	698	1,0
+Refused Parent Bequest	TurtleParser	699	1,0
+Tradition Breaker	TurtleParser	700	1,0
+Feature Envy	SimpleTripleSorter.bindingCount	701	1,0
+Feature Envy	SimpleTripleSorter.bindingCount	702	1,0
+Feature Envy	SimpleTripleSorter.bind	703	1,0
+Feature Envy	SimpleTripleSorter.weight	704	1,0
+Feature Envy	Util.variablesOf	705	1,0
+Feature Envy	DBPrefixMappingImpl.DBPrefixMappingImpl	706	1,0
+Feature Envy	DBPrefixMappingImpl.setNsPrefixes	707	1,0
+Feature Envy	FullGraphWalker.walkOne	708	1,0
+Dispersed Coupling	rdfcopy.main	709	1,0
+Feature Envy	rdfcopy.usage	710	1,0
+Feature Envy	OntModelSpecAssembler.getOntModelSpecField	711	1,0
+Refused Parent Bequest	OntModelSpecAssembler	712	1,0
+Feature Envy	Print.print	713	1,0
+Dispersed Coupling	Driver_Oracle_LOB.addRDBLongObject	714	1,0
+Dispersed Coupling	Driver_Oracle_LOB.IDtoLongObject	715	1,0
+Refused Parent Bequest	Driver_Oracle_LOB	716	1,0
+Feature Envy	ContentAssembler.getModelName	717	1,0
+Refused Parent Bequest	ContentAssembler	718	1,0
+Feature Envy	OWLFBRuleReasonerFactory.create	719	1,0
+Feature Envy	GraphMemFaster.matchesReification	720	1,0
+Feature Envy	GraphMemFaster.withReification	721	1,0
+Refused Parent Bequest	GraphMemFaster	722	1,0
+Feature Envy	RuleStore.addRemoveRule	723	1,0
+Intensive Coupling	RuleStore.addRemoveRule	724	1,0
+Dispersed Coupling	RuleStore.doAddRemoveRule	725	1,0
+Refused Parent Bequest	DBPropDatabase	726	1,0
+Shotgun Surgery	Node_RuleVariable.getIndex	727	1,0
+Refused Parent Bequest	Node_RuleVariable	728	1,0
+Intensive Coupling	MakeSkolem.bodyCall	729	1,0
+Feature Envy	GenericTripleMatchFrame.bindResult	730	1,0
+Dispersed Coupling	GenericTripleMatchFrame.functorMatch	731	1,0
+Feature Envy	GenericTripleMatchFrame.init	732	1,0
+Feature Envy	MinCardinalityRestrictionImpl.setMinCardinality	733	1,0
+Feature Envy	FileUtils.openResourceFileAsStream	734	1,0
+God Class	FileUtils	735	1,0
+Data Class	FileUtils	736	1,0
+Shotgun Surgery	GraphListener.notifyEvent	737	1,0
+Feature Envy	GraphMemFasterStatisticsHandler.getStatistic	738	1,0
+Shotgun Surgery	ReasonerFactory.create	739	1,0
+Shotgun Surgery	ReasonerFactory.getCapabilities	740	1,0
+Shotgun Surgery	ReasonerFactory.getURI	741	1,0
+God Class	LiteralImpl	742	1,0
+Refused Parent Bequest	LiteralImpl	743	1,0
+God Class	DAML_OILProfile	744	1,0
+Data Class	DAML_OILProfile	745	1,0
+Refused Parent Bequest	DAML_OILProfile	746	1,0
+Dispersed Coupling	LPInterpreter.LPInterpreter	747	1,0
+Feature Envy	LPInterpreter.next	748	1,0
+Shotgun Surgery	LPInterpreter.getEngine	749	1,0
+Brain Method	LPInterpreter.run	750	1,0
+Dispersed Coupling	LPInterpreter.run	751	1,0
+Feature Envy	LPInterpreter.deref	752	1,0
+God Class	LPInterpreter	753	1,0
+Brain Class	LPInterpreter	754	1,0
+Dispersed Coupling	PSet_ReifStore_RDB.findReifStmt	755	1,0
+Brain Method	PSet_ReifStore_RDB.findReifTripleMatch	756	1,0
+Dispersed Coupling	PSet_ReifStore_RDB.findReifTripleMatch	757	1,0
+Dispersed Coupling	PSet_ReifStore_RDB.findReifStmtURIByTriple	758	1,0
+Feature Envy	PSet_ReifStore_RDB.storeFrag	759	1,0
+Brain Method	PSet_ReifStore_RDB.updateOneFrag	760	1,0
+Dispersed Coupling	PSet_ReifStore_RDB.updateOneFrag	761	1,0
+Dispersed Coupling	PSet_ReifStore_RDB.findFrag	762	1,0
+Intensive Coupling	PSet_ReifStore_RDB.deleteFrag	763	1,0
+God Class	PSet_ReifStore_RDB	764	1,0
+Brain Class	PSet_ReifStore_RDB	765	1,0
+Refused Parent Bequest	PSet_ReifStore_RDB	766	1,0
+Tradition Breaker	PSet_ReifStore_RDB	767	1,0
+Dispersed Coupling	N3JenaWriterCommon.processModel	768	1,0
+Dispersed Coupling	N3JenaWriterCommon.writeObjectList	769	1,0
+Dispersed Coupling	N3JenaWriterCommon.formatResource	770	1,0
+Dispersed Coupling	N3JenaWriterCommon.formatLiteral	771	1,0
+Dispersed Coupling	N3JenaWriterCommon.rdfListIterator	772	1,0
+Feature Envy	N3JenaWriterCommon.getPropValue	773	1,0
+God Class	N3JenaWriterCommon	774	1,0
+Intensive Coupling	CommandLine.process	775	1,0
+God Class	CommandLine	776	1,0
+Dispersed Coupling	Driver_MsSQL.getSequence	777	1,0
+God Class	XSDAbstractDateTimeType	778	1,0
+Data Class	XSDAbstractDateTimeType	779	1,0
+Refused Parent Bequest	XSDAbstractDateTimeType	780	1,0
+Shotgun Surgery	RDFErrorHandler.error	781	1,0
+Shotgun Surgery	Domain.getElement	782	1,0
+Feature Envy	turtle.main	783	1,0
+Feature Envy	XSDbase64Binary.isEqual	784	1,0
+Feature Envy	BaseXMLWriter.shortAnonId	785	1,0
+Dispersed Coupling	BaseXMLWriter.setFromGivenNamespaces	786	1,0
+Dispersed Coupling	BaseXMLWriter.xmlnsDecl	787	1,0
+Dispersed Coupling	BaseXMLWriter.tag	788	1,0
+Dispersed Coupling	BaseXMLWriter.generateDoctypeDeclaration	789	1,0
+Dispersed Coupling	BaseXMLWriter.writeXMLDeclaration	790	1,0
+Feature Envy	BaseXMLWriter.flags2str	791	1,0
+Feature Envy	BaseXMLWriter.str2flags	792	1,0
+God Class	BaseXMLWriter	793	1,0
+Feature Envy	XSDBaseStringType.isEqual	794	1,0
+Feature Envy	XSDDateTimeType.parseValidated	795	1,0
+Dispersed Coupling	N3JenaWriterPP.prepareLists	796	1,0
+Feature Envy	N3JenaWriterPP.checkListElement	797	1,0
+Dispersed Coupling	N3JenaWriterPP.prepareOneRefBNodes	798	1,0
+Dispersed Coupling	N3JenaWriterPP.preparePropertiesForSubject	799	1,0
+Intensive Coupling	N3JenaWriterPP.finishWriting	800	1,0
+Brain Method	N3JenaWriterPP.writeObjectList	801	1,0
+Dispersed Coupling	N3JenaWriterPP.writeObjectList	802	1,0
+Dispersed Coupling	N3JenaWriterPP.writeObject	803	1,0
+God Class	N3JenaWriterPP	804	1,0
+Refused Parent Bequest	N3JenaWriterPP	805	1,0
+Shotgun Surgery	Profile.THING	806	1,0
+Shotgun Surgery	Profile.ONE_OF	807	1,0
+Shotgun Surgery	Profile.ON_PROPERTY	808	1,0
+Shotgun Surgery	Profile.IMPORTS	809	1,0
+Data Class	Profile	810	1,0
+Dispersed Coupling	AbsXMLContext.checkURI	811	1,0
+Refused Parent Bequest	SpecializedGraph_TripleStore	812	1,0
+Dispersed Coupling	BindingVector.getBinding	813	1,0
+Dispersed Coupling	BindingVector.unify	814	1,0
+Feature Envy	BindingVector.unify	815	1,0
+Feature Envy	BindingVector.equals	816	1,0
+Data Class	BindingVector	817	1,0
+Intensive Coupling	RDFXMLParser.setEncoding	818	1,0
+Feature Envy	BasicFBReifier.getTriple	819	1,0
+Refused Parent Bequest	InfModelImpl	820	1,0
+Shotgun Surgery	Functor.getName	821	1,0
+Shotgun Surgery	Functor.getArgs	822	1,0
+Shotgun Surgery	Functor.getArgLength	823	1,0
+Feature Envy	Functor.getBoundArgs	824	1,0
+Shotgun Surgery	Functor.getImplementor	825	1,0
+Feature Envy	ParseException.ParseException	826	1,0
+Feature Envy	ParseException.formatMessage	827	1,0
+Dispersed Coupling	SomeValuesFromRestrictionImpl.getSomeValuesFrom	828	1,0
+Feature Envy	NTripleWriter.write	829	1,0
+Feature Envy	NTripleWriter.write	830	1,0
+Feature Envy	NTripleWriter.writeLiteral	831	1,0
+Intensive Coupling	Sequence.create	832	1,0
+Brain Method	TurtleParserTokenManager.jjMoveNfa_0	833	1,0
+Feature Envy	TurtleParserTokenManager.jjFillToken	834	1,0
+Brain Method	TurtleParserTokenManager.getNextToken	835	1,0
+God Class	TurtleParserTokenManager	836	1,0
+Brain Class	TurtleParserTokenManager	837	1,0
+Data Class	TurtleParserTokenManager	838	1,0
+Feature Envy	RDFSProfile.getAnnotationProperties	839	1,0
+God Class	RDFSProfile	840	1,0
+Data Class	RDFSProfile	841	1,0
+Refused Parent Bequest	RDFSProfile	842	1,0
+Feature Envy	Rule.allMonotonic	843	1,0
+Shotgun Surgery	Rule.bodyLength	844	1,0
+Shotgun Surgery	Rule.getBodyElement	845	1,0
+Shotgun Surgery	Rule.headLength	846	1,0
+Shotgun Surgery	Rule.getHeadElement	847	1,0
+Feature Envy	Rule.findVars	848	1,0
+Feature Envy	Rule.cloneClause	849	1,0
+Feature Envy	Rule.cloneFunctor	850	1,0
+Feature Envy	Rule.toString	851	1,0
+Shotgun Surgery	Rule.toShortString	852	1,0
+Dispersed Coupling	Rule.rulesParserFromReader	853	1,0
+God Class	Rule	854	1,0
+Feature Envy	LocatorZip.open	855	1,0
+Refused Parent Bequest	OntologyImpl	856	1,0
+Data Class	OntProperty	857	1,0
+Shotgun Surgery	GraphBase.checkOpen	858	1,0
+Shotgun Surgery	GraphBase.getReifier	859	1,0
+Data Class	GraphBase	860	1,0
+Feature Envy	N3TurtleJenaWriter.N3TurtleJenaWriter	861	1,0
+Feature Envy	WantDescription.startElement	862	1,0
+Dispersed Coupling	WantDescription.startElement	863	1,0
+Refused Parent Bequest	WantDescription	864	1,0
+Shotgun Surgery	ModelCon.createTypedLiteral	865	1,0
+Shotgun Surgery	ModelCon.add	866	1,0
+Feature Envy	rdfcompare.main	867	1,0
+Feature Envy	rdfcompare.usage	868	1,0
+Feature Envy	Util.isReificationPredicate	869	1,0
+Feature Envy	N3JenaWriterTriples.writeModel	870	1,0
+Feature Envy	Generator.runCompletionCheck	871	1,0
+Feature Envy	Generator.propagateLive	872	1,0
+God Class	Generator	873	1,0
+Data Class	Generator	874	1,0
+Feature Envy	LockMRSW.enterCriticalSection	875	1,0
+Dispersed Coupling	LockMRSW.enterCriticalSection	876	1,0
+Dispersed Coupling	LockMRSW.leaveCriticalSection	877	1,0
+Feature Envy	BindingStack.push	878	1,0
+Dispersed Coupling	BindingStack.getBinding	879	1,0
+Feature Envy	GraphTripleStore.GraphTripleStore	880	1,0
+Feature Envy	StatementImpl.toStatement	881	1,0
+Feature Envy	StatementImpl.sameAs	882	1,0
+Refused Parent Bequest	StatementImpl	883	1,0
+Feature Envy	Pattern.match	884	1,0
+Feature Envy	OntModelSpec.getDefaultSpec	885	1,0
+Feature Envy	OWLMiniReasonerFactory.create	886	1,0
+Feature Envy	TransitiveReasonerFactory.getCapabilities	887	1,0
+Feature Envy	ReasonerFactoryAssembler.addSchema	888	1,0
+Refused Parent Bequest	ReasonerFactoryAssembler	889	1,0
+Dispersed Coupling	rdfcat.readInput	890	1,0
+Feature Envy	rdfcat.usage	891	1,0
+Shotgun Surgery	Statement.getSubject	892	1,0
+Shotgun Surgery	Statement.getPredicate	893	1,0
+Shotgun Surgery	Statement.getObject	894	1,0
+Shotgun Surgery	Statement.getResource	895	1,0
+Shotgun Surgery	Statement.getString	896	1,0
+Shotgun Surgery	Statement.remove	897	1,0
+Feature Envy	SimpleQueryHandler.containsNode	898	1,0
+Feature Envy	OWLProfile.getAnnotationProperties	899	1,0
+God Class	OWLProfile	900	1,0
+Data Class	OWLProfile	901	1,0
+Refused Parent Bequest	OWLProfile	902	1,0
+Feature Envy	PrefixMappingImpl.regenerateReverseMapping	903	1,0
+Feature Envy	CardinalityQRestrictionImpl.setCardinalityQ	904	1,0
+Intensive Coupling	QueryNode.classify	905	1,0
+Feature Envy	SafeGraph.find	906	1,0
+Feature Envy	SafeGraph.find	907	1,0
+Data Class	OntClass	908	1,0
+Dispersed Coupling	GenericRuleReasoner.bind	909	1,0
+God Class	GenericRuleReasoner	910	1,0
+Refused Parent Bequest	GenericRuleReasoner	911	1,0
+Intensive Coupling	LanguageTag.LanguageTag	912	1,0
+Feature Envy	LanguageTag.errorMessage	913	1,0
+Feature Envy	XSDDatatype.XSDDatatype	914	1,0
+Dispersed Coupling	XSDDatatype.loadUserDefined	915	1,0
+Feature Envy	XSDDatatype.getFoundingType	916	1,0
+God Class	XSDDatatype	917	1,0
+Data Class	XSDDatatype	918	1,0
+Refused Parent Bequest	XSDDatatype	919	1,0
+Refused Parent Bequest	GraphMem	920	1,0
+Dispersed Coupling	AllValuesFromRestrictionImpl.getAllValuesFrom	921	1,0
+Feature Envy	HashCommon.showkeys	922	1,0
+Shotgun Surgery	ModelGraphInterface.getGraph	923	1,0
+Shotgun Surgery	OntResourceImpl.getProfile	924	1,0
+Feature Envy	OntResourceImpl.remove	925	1,0
+Intensive Coupling	OntResourceImpl.remove	926	1,0
+Dispersed Coupling	OntResourceImpl.isIndividual	927	1,0
+Shotgun Surgery	OntResourceImpl.checkProfile	928	1,0
+Feature Envy	OntResourceImpl.selectLang	929	1,0
+Dispersed Coupling	OntResourceImpl.selectLang	930	1,0
+Shotgun Surgery	OntResourceImpl.setPropertyValue	931	1,0
+Shotgun Surgery	OntResourceImpl.hasPropertyValue	932	1,0
+Feature Envy	OntResourceImpl.addListPropertyValue	933	1,0
+Intensive Coupling	OntResourceImpl.computeDirectValues	934	1,0
+Shotgun Surgery	OntResourceImpl.removePropertyValue	935	1,0
+God Class	OntResourceImpl	936	1,0
+Data Class	OntResourceImpl	937	1,0
+Refused Parent Bequest	OntResourceImpl	938	1,0
+Feature Envy	SAX2RDF.installHandlers	939	1,0
+Dispersed Coupling	NodeToTriplesMapBase.iterateAll	940	1,0
+Feature Envy	OWLMicroReasoner.OWLMicroReasoner	941	1,0
+Refused Parent Bequest	Driver_HSQL	942	1,0
+Feature Envy	RuleClauseCode.compile	943	1,0
+Intensive Coupling	RuleClauseCode.compile	944	1,0
+Feature Envy	RuleClauseCode.main	945	1,0
+Data Class	RuleClauseCode	946	1,0
+Feature Envy	SimpleTreeQueryPlan.findFromTriple	947	1,0
+Refused Parent Bequest	HashedBunchMap	948	1,0
+Dispersed Coupling	Quotient.bodyCall	949	1,0
+Shotgun Surgery	ParserSupport.warning	950	1,0
+Shotgun Surgery	ParserSupport.triple	951	1,0

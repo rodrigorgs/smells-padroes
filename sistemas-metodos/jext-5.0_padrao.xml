@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method">
+		<instance>
+			<role name="Creator" element="Options$DisplayIro" />
+			<role name="FactoryMethod()" element="Options$DisplayIro::getInverseOptions():Options$DisplayIro" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.jext.misc.FindFilterFactory" />
+			<role name="FactoryMethod()" element="org.jext.misc.FindFilterFactory::createFindFilter():org.jext.misc.FindFilter" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.jext.project.ProjectManagement" />
+			<role name="FactoryMethod()" element="org.jext.project.ProjectManagement::getProjectManager():org.jext.project.ProjectManager" />
+		</instance>
+	</pattern>
+	<pattern name="Prototype" />
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="com.incors.plaf.kunststoff.KunststoffButtonUI" />
+			<role name="uniqueInstance" element="com.incors.plaf.kunststoff.KunststoffButtonUI::buttonUI:com.incors.plaf.kunststoff.KunststoffButtonUI" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.incors.plaf.kunststoff.KunststoffCheckBoxUI" />
+			<role name="uniqueInstance" element="com.incors.plaf.kunststoff.KunststoffCheckBoxUI::checkBoxUI:com.incors.plaf.kunststoff.KunststoffCheckBoxUI" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.incors.plaf.kunststoff.KunststoffToggleButtonUI" />
+			<role name="uniqueInstance" element="com.incors.plaf.kunststoff.KunststoffToggleButtonUI::buttonUI:com.incors.plaf.kunststoff.KunststoffToggleButtonUI" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.incors.plaf.kunststoff.KunststoffToolBarUI" />
+			<role name="uniqueInstance" element="com.incors.plaf.kunststoff.KunststoffToolBarUI::toolBarUI:com.incors.plaf.kunststoff.KunststoffToolBarUI" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="gnu.regexp.RESyntax" />
+			<role name="uniqueInstance" element="gnu.regexp.RESyntax::RE_SYNTAX_AWK:gnu.regexp.RESyntax" />
+			<role name="uniqueInstance" element="gnu.regexp.RESyntax::RE_SYNTAX_ED:gnu.regexp.RESyntax" />
+			<role name="uniqueInstance" element="gnu.regexp.RESyntax::RE_SYNTAX_EGREP:gnu.regexp.RESyntax" />
+			<role name="uniqueInstance" element="gnu.regexp.RESyntax::RE_SYNTAX_EMACS:gnu.regexp.RESyntax" />
+			<role name="uniqueInstance" element="gnu.regexp.RESyntax::RE_SYNTAX_GREP:gnu.regexp.RESyntax" />
+			<role name="uniqueInstance" element="gnu.regexp.RESyntax::RE_SYNTAX_POSIX_AWK:gnu.regexp.RESyntax" />
+			<role name="uniqueInstance" element="gnu.regexp.RESyntax::RE_SYNTAX_POSIX_BASIC:gnu.regexp.RESyntax" />
+			<role name="uniqueInstance" element="gnu.regexp.RESyntax::RE_SYNTAX_POSIX_EGREP:gnu.regexp.RESyntax" />
+			<role name="uniqueInstance" element="gnu.regexp.RESyntax::RE_SYNTAX_POSIX_EXTENDED:gnu.regexp.RESyntax" />
+			<role name="uniqueInstance" element="gnu.regexp.RESyntax::RE_SYNTAX_POSIX_MINIMAL_BASIC:gnu.regexp.RESyntax" />
+			<role name="uniqueInstance" element="gnu.regexp.RESyntax::RE_SYNTAX_POSIX_MINIMAL_EXTENDED:gnu.regexp.RESyntax" />
+			<role name="uniqueInstance" element="gnu.regexp.RESyntax::RE_SYNTAX_SED:gnu.regexp.RESyntax" />
+			<role name="uniqueInstance" element="gnu.regexp.RESyntax::RE_SYNTAX_PERL4:gnu.regexp.RESyntax" />
+			<role name="uniqueInstance" element="gnu.regexp.RESyntax::RE_SYNTAX_PERL4_S:gnu.regexp.RESyntax" />
+			<role name="uniqueInstance" element="gnu.regexp.RESyntax::RE_SYNTAX_PERL5:gnu.regexp.RESyntax" />
+			<role name="uniqueInstance" element="gnu.regexp.RESyntax::RE_SYNTAX_PERL5_S:gnu.regexp.RESyntax" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.gjt.sp.jedit.syntax.MultiModeToken" />
+			<role name="uniqueInstance" element="org.gjt.sp.jedit.syntax.MultiModeToken::NULL:org.gjt.sp.jedit.syntax.MultiModeToken" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.gjt.sp.jedit.textarea.JEditTextArea" />
+			<role name="uniqueInstance" element="org.gjt.sp.jedit.textarea.JEditTextArea::focusedComponent:org.gjt.sp.jedit.textarea.JEditTextArea" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.gjt.sp.jedit.textarea.TextAreaDefaults" />
+			<role name="uniqueInstance" element="org.gjt.sp.jedit.textarea.TextAreaDefaults::DEFAULTS:org.gjt.sp.jedit.textarea.TextAreaDefaults" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.jext.options.OptionsDialog" />
+			<role name="uniqueInstance" element="org.jext.options.OptionsDialog::theInstance:org.jext.options.OptionsDialog" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="ParseState" />
+			<role name="uniqueInstance" element="ParseState::HEADER:ParseState" />
+			<role name="uniqueInstance" element="ParseState::POST_HEADER:ParseState" />
+			<role name="uniqueInstance" element="ParseState::PACKAGE_MEMBER:ParseState" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="ParseSubState" />
+			<role name="uniqueInstance" element="ParseSubState::PACKAGE:ParseSubState" />
+			<role name="uniqueInstance" element="ParseSubState::POST_PACKAGE:ParseSubState" />
+			<role name="uniqueInstance" element="ParseSubState::IMPORT:ParseSubState" />
+			<role name="uniqueInstance" element="ParseSubState::SCANNING:ParseSubState" />
+			<role name="uniqueInstance" element="ParseSubState::POST_NAME:ParseSubState" />
+			<role name="uniqueInstance" element="ParseSubState::BODY:ParseSubState" />
+			<role name="uniqueInstance" element="ParseSubState::OP_PARMS:ParseSubState" />
+			<role name="uniqueInstance" element="ParseSubState::OP_POST_PARMS:ParseSubState" />
+			<role name="uniqueInstance" element="ParseSubState::OP_BODY:ParseSubState" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="UML$Type" />
+			<role name="uniqueInstance" element="UML$Type::CLASS:UML$Type" />
+			<role name="uniqueInstance" element="UML$Type::INTERFACE:UML$Type" />
+			<role name="uniqueInstance" element="UML$Type::INNER_CLASS:UML$Type" />
+			<role name="uniqueInstance" element="UML$Type::METHOD:UML$Type" />
+			<role name="uniqueInstance" element="UML$Type::ATTRIBUTE:UML$Type" />
+			<role name="uniqueInstance" element="UML$Type::EXTENDS:UML$Type" />
+			<role name="uniqueInstance" element="UML$Type::IMPLEMENTS:UML$Type" />
+			<role name="uniqueInstance" element="UML$Type::THROWS:UML$Type" />
+			<role name="uniqueInstance" element="UML$Type::ERROR:UML$Type" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adaptee" element="HyperTyperObjectManager" />
+			<role name="Adapter" element="HyperTyperPlugin" />
+			<role name="adaptee" element="HyperTyperPlugin::htOMan:HyperTyperObjectManager" />
+			<role name="Request()" element="HyperTyperPlugin::start():void" />
+			<role name="Request()" element="HyperTyperPlugin::stop():void" />
+			<role name="Request()" element="HyperTyperPlugin::createOptionPanes(org.jext.options.OptionsDialog):void" />
+			<role name="Request()" element="HyperTyperPlugin::createMenuItems(org.jext.JextFrame, java.util.Vector, java.util.Vector):void" />
+			<role name="Request()" element="HyperTyperPlugin::jextEventFired(org.jext.event.JextEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jext.JextFrame" />
+			<role name="Adapter" element="org.jext.project.DefaultProjectManager" />
+			<role name="adaptee" element="org.jext.project.DefaultProjectManager::parent:org.jext.JextFrame" />
+			<role name="Request()" element="org.jext.project.DefaultProjectManager::jextEventFired(org.jext.event.JextEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="org.gjt.sp.jedit.syntax.ASPPerlscriptTokenMarker" />
+			<role name="Adaptee" element="org.gjt.sp.jedit.syntax.TokenMarkerDebugger" />
+			<role name="adaptee" element="org.gjt.sp.jedit.syntax.ASPPerlscriptTokenMarker::debug:org.gjt.sp.jedit.syntax.TokenMarkerDebugger" />
+			<role name="Request()" element="org.gjt.sp.jedit.syntax.ASPPerlscriptTokenMarker::markTokensImpl(org.gjt.sp.jedit.syntax.MultiModeToken, org.gjt.sp.jedit.syntax.TokenMarkerContext):org.gjt.sp.jedit.syntax.MultiModeToken" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="JBrowseLineParser" />
+			<role name="Adaptee" element="JBrowseParser$Results" />
+			<role name="adaptee" element="JBrowseLineParser::results:JBrowseParser$Results" />
+			<role name="Request()" element="JBrowseLineParser::parse():JBrowseParser$Results" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="JBrowseLineParser" />
+			<role name="Adaptee" element="Options" />
+			<role name="adaptee" element="JBrowseLineParser::options:Options" />
+			<role name="Request()" element="JBrowseLineParser::setOptions(Options):void" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="JBrowseLineParser" />
+			<role name="Adaptee" element="UMLTree$Node" />
+			<role name="adaptee" element="JBrowseLineParser::root:UMLTree$Node" />
+			<role name="Request()" element="JBrowseLineParser::parse():JBrowseParser$Results" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="FindAllAction" />
+			<role name="Adapter" element="FindAllPlugin" />
+			<role name="adaptee" element="FindAllPlugin::action:FindAllAction" />
+			<role name="Request()" element="FindAllPlugin::createMenuItems(org.jext.JextFrame, java.util.Vector, java.util.Vector):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="FunnyBrackets" />
+			<role name="Adapter" element="FunnyBracketsPlugin" />
+			<role name="adaptee" element="FunnyBracketsPlugin::fpHandler:FunnyBrackets" />
+			<role name="Request()" element="FunnyBracketsPlugin::start():void" />
+			<role name="Request()" element="FunnyBracketsPlugin::stop():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jext.gui.PlasticSettings" />
+			<role name="Adapter" element="org.jext.gui.BundledSkinFactory$PlasticSkin" />
+			<role name="adaptee" element="org.jext.gui.BundledSkinFactory$PlasticSkin::settings:org.jext.gui.PlasticSettings" />
+			<role name="Request()" element="org.jext.gui.BundledSkinFactory$PlasticSkin::apply():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jext.JextFrame" />
+			<role name="Adapter" element="JEditLineSource" />
+			<role name="adaptee" element="JEditLineSource::view:org.jext.JextFrame" />
+			<role name="Request()" element="JEditLineSource::reset():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jext.JextTextArea" />
+			<role name="Adapter" element="org.jext.search.SearchHighlight" />
+			<role name="adaptee" element="org.jext.search.SearchHighlight::textArea:org.jext.JextTextArea" />
+			<role name="Request()" element="org.jext.search.SearchHighlight::paintHighlight(java.awt.Graphics, int, int):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="JBrowseParser$LineSource" />
+			<role name="Adapter" element="JBrowseLineParser" />
+			<role name="adaptee" element="JBrowseLineParser::ls:JBrowseParser$LineSource" />
+			<role name="Request()" element="JBrowseLineParser::getSourceName():java.lang.String" />
+			<role name="Request()" element="JBrowseLineParser::parse():JBrowseParser$Results" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="FindAll" />
+			<role name="Adapter" element="FindAllPlugin" />
+			<role name="adaptee" element="FindAllPlugin::findAll:FindAll" />
+			<role name="Request()" element="FindAllPlugin::stop():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jext.project.Project" />
+			<role name="Adapter" element="org.jext.project.DefaultProjectManager" />
+			<role name="adaptee" element="org.jext.project.DefaultProjectManager::currentProject:org.jext.project.Project" />
+			<role name="Request()" element="org.jext.project.DefaultProjectManager::jextEventFired(org.jext.event.JextEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="gnu.regexp.RE" />
+			<role name="Adapter" element="org.jext.search.RESearchMatcher" />
+			<role name="adaptee" element="org.jext.search.RESearchMatcher::re:gnu.regexp.RE" />
+			<role name="Request()" element="org.jext.search.RESearchMatcher::nextMatch(javax.swing.text.Segment):int[]" />
+			<role name="Request()" element="org.jext.search.RESearchMatcher::substitute(java.lang.String):java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jext.JextTextArea" />
+			<role name="Adapter" element="JEditLineSource" />
+			<role name="adaptee" element="JEditLineSource::buffer:org.jext.JextTextArea" />
+			<role name="Request()" element="JEditLineSource::reset():void" />
+			<role name="Request()" element="JEditLineSource::createPosition(int):java.lang.Object" />
+			<role name="Request()" element="JEditLineSource::getLine(int):java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="Options$Display" />
+			<role name="Adapter" element="JBrowseLineParser" />
+			<role name="adaptee" element="JBrowseLineParser::displayOpt:Options$Display" />
+			<role name="Request()" element="JBrowseLineParser::parse():JBrowseParser$Results" />
+		</instance>
+	</pattern>
+	<pattern name="Command" />
+	<pattern name="Composite" />
+	<pattern name="Decorator">
+		<instance>
+			<role name="Component" element="gnu.regexp.REToken" />
+			<role name="Decorator" element="gnu.regexp.RE" />
+			<role name="component" element="gnu.regexp.RE::firstToken:gnu.regexp.REToken" />
+			<role name="component" element="gnu.regexp.RE::lastToken:gnu.regexp.REToken" />
+			<role name="Operation()" element="gnu.regexp.RE::match(gnu.regexp.CharIndexed, gnu.regexp.REMatch):boolean" />
+		</instance>
+		<instance>
+			<role name="Component" element="gnu.regexp.REToken" />
+			<role name="Decorator" element="gnu.regexp.RETokenLookAhead" />
+			<role name="component" element="gnu.regexp.RETokenLookAhead::re:gnu.regexp.REToken" />
+			<role name="Operation()" element="gnu.regexp.RETokenLookAhead::match(gnu.regexp.CharIndexed, gnu.regexp.REMatch):boolean" />
+		</instance>
+		<instance>
+			<role name="Component" element="gnu.regexp.REToken" />
+			<role name="Decorator" element="gnu.regexp.RETokenRepeated" />
+			<role name="component" element="gnu.regexp.RETokenRepeated::token:gnu.regexp.REToken" />
+			<role name="Operation()" element="gnu.regexp.RETokenRepeated::match(gnu.regexp.CharIndexed, gnu.regexp.REMatch):boolean" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.gjt.sp.jedit.textarea.TextAreaHighlight" />
+			<role name="Decorator" element="org.jext.search.SearchHighlight" />
+			<role name="component" element="org.jext.search.SearchHighlight::next:org.gjt.sp.jedit.textarea.TextAreaHighlight" />
+			<role name="Operation()" element="org.jext.search.SearchHighlight::paintHighlight(java.awt.Graphics, int, int):void" />
+		</instance>
+	</pattern>
+	<pattern name="Observer">
+		<instance>
+			<role name="Observer" element="org.jext.event.JextListener" />
+			<role name="Subject" element="org.jext.JextFrame" />
+			<role name="Notify()" element="org.jext.JextFrame::fireJextEvent(int):void" />
+			<role name="Notify()" element="org.jext.JextFrame::fireJextEvent(org.jext.JextTextArea, int):void" />
+		</instance>
+		<instance>
+			<role name="Observer" element="SequenceChangedListener" />
+			<role name="Subject" element="HyperTyperSequenceList" />
+			<role name="Notify()" element="HyperTyperSequenceList::fireSequenceAdded(Sequence, int):void" />
+			<role name="Notify()" element="HyperTyperSequenceList::fireSequenceRemoved(Sequence, int):void" />
+		</instance>
+		<instance>
+			<role name="Observer" element="org.jext.project.ProjectListener" />
+			<role name="Subject" element="org.jext.project.AbstractProjectManager" />
+			<role name="Notify()" element="org.jext.project.AbstractProjectManager::fireProjectEvent(org.jext.project.ProjectEvent):void" />
+		</instance>
+	</pattern>
+	<pattern name="State">
+		<instance>
+			<role name="Context" element="com.microstar.xml.XmlParser" />
+			<role name="State" element="com.microstar.xml.XmlHandler" />
+			<role name="state" element="com.microstar.xml.XmlParser::handler:com.microstar.xml.XmlHandler" />
+			<role name="Request()" element="com.microstar.xml.XmlParser::doParse(java.lang.String, java.lang.String, java.io.Reader, java.io.InputStream, java.lang.String):void" />
+			<role name="Request()" element="com.microstar.xml.XmlParser::error(java.lang.String, java.lang.String, java.lang.String):void" />
+			<role name="Request()" element="com.microstar.xml.XmlParser::parsePI():void" />
+			<role name="Request()" element="com.microstar.xml.XmlParser::parseDoctypedecl():void" />
+			<role name="Request()" element="com.microstar.xml.XmlParser::parseElement():void" />
+			<role name="Request()" element="com.microstar.xml.XmlParser::parseAttribute(java.lang.String):void" />
+			<role name="Request()" element="com.microstar.xml.XmlParser::parseETag():void" />
+			<role name="Request()" element="com.microstar.xml.XmlParser::dataBufferFlush():void" />
+			<role name="Request()" element="com.microstar.xml.XmlParser::pushURL(java.lang.String, java.lang.String, java.lang.String, java.io.Reader, java.io.InputStream, java.lang.String):void" />
+			<role name="Request()" element="com.microstar.xml.XmlParser::popInput():void" />
+			<role name="Request()" element="com.microstar.xml.XmlParser::encodingError(java.lang.String, int, int):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jext.options.OptionsDialog" />
+			<role name="State" element="org.jext.Plugin" />
+			<role name="state" element="org.jext.options.OptionsDialog::currPlugin:org.jext.Plugin" />
+			<role name="Request()" element="org.jext.options.OptionsDialog::createOptionTreeModel():org.jext.options.OptionsDialog$OptionTreeModel" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.gjt.sp.jedit.syntax.TokenMarkerContext" />
+			<role name="State" element="org.gjt.sp.jedit.syntax.TokenMarkerWithAddToken" />
+			<role name="state" element="org.gjt.sp.jedit.syntax.TokenMarkerContext::marker:org.gjt.sp.jedit.syntax.TokenMarkerWithAddToken" />
+			<role name="Request()" element="org.gjt.sp.jedit.syntax.TokenMarkerContext::addToken(int, byte):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jext.console.Console" />
+			<role name="State" element="org.jext.console.commands.Command" />
+			<role name="state" element="org.jext.console.Console::firstCmd:org.jext.console.commands.Command" />
+			<role name="Request()" element="org.jext.console.Console::builtInCommand(java.lang.String):boolean" />
+			<role name="Request()" element="org.jext.console.Console::help():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="UMLTree$CellRenderer" />
+			<role name="State" element="Options$DisplayIro" />
+			<role name="state" element="UMLTree$CellRenderer::options:Options$DisplayIro" />
+			<role name="state" element="UMLTree$CellRenderer::inverseOptions:Options$DisplayIro" />
+			<role name="Request()" element="UMLTree$CellRenderer::getTreeCellRendererComponent(javax.swing.JTree, java.lang.Object, boolean, boolean, boolean, int, boolean):java.awt.Component" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jext.gui.SkinManager" />
+			<role name="State" element="org.jext.gui.Skin" />
+			<role name="state" element="org.jext.gui.SkinManager::currSkin:org.jext.gui.Skin" />
+			<role name="Request()" element="org.jext.gui.SkinManager::applySelectedSkin():boolean" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jext.project.ProjectManager" />
+			<role name="Context" element="org.jext.JextFrame" />
+			<role name="state" element="org.jext.JextFrame::currentProjectMgr:org.jext.project.ProjectManager" />
+			<role name="Request()" element="org.jext.JextFrame::selectProjectManagement(java.lang.String):boolean" />
+		</instance>
+		<instance>
+			<role name="State" element="org.gjt.sp.jedit.textarea.TextAreaHighlight" />
+			<role name="Context" element="org.gjt.sp.jedit.textarea.TextAreaPainter" />
+			<role name="state" element="org.gjt.sp.jedit.textarea.TextAreaPainter::highlights:org.gjt.sp.jedit.textarea.TextAreaHighlight" />
+			<role name="state" element="org.gjt.sp.jedit.textarea.TextAreaPainter::firstPriorityHighlights:org.gjt.sp.jedit.textarea.TextAreaHighlight" />
+			<role name="Request()" element="org.gjt.sp.jedit.textarea.TextAreaPainter::addCustomHighlight(org.gjt.sp.jedit.textarea.TextAreaHighlight):void" />
+			<role name="Request()" element="org.gjt.sp.jedit.textarea.TextAreaPainter::addCustomFirstPriorityHighlight(org.gjt.sp.jedit.textarea.TextAreaHighlight):void" />
+			<role name="Request()" element="org.gjt.sp.jedit.textarea.TextAreaPainter::getToolTipText(java.awt.event.MouseEvent):java.lang.String" />
+			<role name="Request()" element="org.gjt.sp.jedit.textarea.TextAreaPainter::paintSyntaxLine(java.awt.Graphics, org.gjt.sp.jedit.syntax.TokenMarker, int, java.awt.Font, java.awt.Color, int, int):int" />
+			<role name="Request()" element="org.gjt.sp.jedit.textarea.TextAreaPainter::paintHighlight(java.awt.Graphics, int, int):void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.gjt.sp.jedit.textarea.TextAreaHighlight" />
+			<role name="Context" element="org.gjt.sp.jedit.textarea.Gutter" />
+			<role name="state" element="org.gjt.sp.jedit.textarea.Gutter::highlights:org.gjt.sp.jedit.textarea.TextAreaHighlight" />
+			<role name="Request()" element="org.gjt.sp.jedit.textarea.Gutter::paintCustomHighlights(java.awt.Graphics):void" />
+			<role name="Request()" element="org.gjt.sp.jedit.textarea.Gutter::addCustomHighlight(org.gjt.sp.jedit.textarea.TextAreaHighlight):void" />
+			<role name="Request()" element="org.gjt.sp.jedit.textarea.Gutter::getToolTipText(java.awt.event.MouseEvent):java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Context" element="gnu.regexp.REMatchEnumeration" />
+			<role name="State" element="gnu.regexp.CharIndexed" />
+			<role name="state" element="gnu.regexp.REMatchEnumeration::input:gnu.regexp.CharIndexed" />
+			<role name="Request()" element="gnu.regexp.REMatchEnumeration::hasMoreMatches(java.lang.StringBuffer):boolean" />
+			<role name="Request()" element="gnu.regexp.REMatchEnumeration::nextMatch():gnu.regexp.REMatch" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.gjt.sp.jedit.syntax.ASPTokenMarker" />
+			<role name="State" element="org.gjt.sp.jedit.syntax.MultiModeTokenMarkerWithContext" />
+			<role name="state" element="org.gjt.sp.jedit.syntax.ASPTokenMarker::js:org.gjt.sp.jedit.syntax.MultiModeTokenMarkerWithContext" />
+			<role name="state" element="org.gjt.sp.jedit.syntax.ASPTokenMarker::ps:org.gjt.sp.jedit.syntax.MultiModeTokenMarkerWithContext" />
+			<role name="state" element="org.gjt.sp.jedit.syntax.ASPTokenMarker::vbs:org.gjt.sp.jedit.syntax.MultiModeTokenMarkerWithContext" />
+			<role name="Request()" element="org.gjt.sp.jedit.syntax.ASPTokenMarker::markTokensImpl(org.gjt.sp.jedit.syntax.MultiModeToken, org.gjt.sp.jedit.syntax.TokenMarkerContext):org.gjt.sp.jedit.syntax.MultiModeToken" />
+		</instance>
+		<instance>
+			<role name="Context" element="TokenSource" />
+			<role name="State" element="JBrowseParser$LineSource" />
+			<role name="state" element="TokenSource::ls:JBrowseParser$LineSource" />
+			<role name="Request()" element="TokenSource::getNextLine():java.lang.String" />
+			<role name="Request()" element="TokenSource::getNextToken():java.lang.String" />
+			<role name="Request()" element="TokenSource::skipRestOfLine():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.incors.plaf.kunststoff.KunststoffLookAndFeel" />
+			<role name="State" element="com.incors.plaf.kunststoff.GradientTheme" />
+			<role name="state" element="com.incors.plaf.kunststoff.KunststoffLookAndFeel::gradientTheme:com.incors.plaf.kunststoff.GradientTheme" />
+			<role name="Request()" element="com.incors.plaf.kunststoff.KunststoffLookAndFeel::getComponentGradientColorReflection():javax.swing.plaf.ColorUIResource" />
+			<role name="Request()" element="com.incors.plaf.kunststoff.KunststoffLookAndFeel::getComponentGradientColorShadow():javax.swing.plaf.ColorUIResource" />
+			<role name="Request()" element="com.incors.plaf.kunststoff.KunststoffLookAndFeel::getTextComponentGradientColorReflection():javax.swing.plaf.ColorUIResource" />
+			<role name="Request()" element="com.incors.plaf.kunststoff.KunststoffLookAndFeel::getTextComponentGradientColorShadow():javax.swing.plaf.ColorUIResource" />
+			<role name="Request()" element="com.incors.plaf.kunststoff.KunststoffLookAndFeel::getBackgroundGradientShadow():int" />
+		</instance>
+		<instance>
+			<role name="Context" element="JBrowseLineParser" />
+			<role name="State" element="JBrowseParser$LineSource" />
+			<role name="state" element="JBrowseLineParser::ls:JBrowseParser$LineSource" />
+			<role name="Request()" element="JBrowseLineParser::getSourceName():java.lang.String" />
+			<role name="Request()" element="JBrowseLineParser::parse():JBrowseParser$Results" />
+			<role name="Request()" element="JBrowseLineParser::insertAsNode(UML$Element, int, UMLTree$Node):UMLTree$Node" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jext.project.Project" />
+			<role name="Context" element="org.jext.project.DefaultProjectManager" />
+			<role name="state" element="org.jext.project.DefaultProjectManager::currentProject:org.jext.project.Project" />
+			<role name="Request()" element="org.jext.project.DefaultProjectManager::jextEventFired(org.jext.event.JextEvent):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="JBrowse" />
+			<role name="State" element="JBrowseParser" />
+			<role name="state" element="JBrowse::parser:JBrowseParser" />
+			<role name="Request()" element="JBrowse::parseNow():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jext.gui.Dockable" />
+			<role name="State" element="org.jext.gui.DockChangeHandler" />
+			<role name="state" element="org.jext.gui.Dockable::handler:org.jext.gui.DockChangeHandler" />
+			<role name="Request()" element="org.jext.gui.Dockable::setDockingStatus(int):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="JBrowseOptionPane" />
+			<role name="State" element="PropertyAccessor" />
+			<role name="state" element="JBrowseOptionPane::props:PropertyAccessor" />
+			<role name="Request()" element="JBrowseOptionPane::initGui():void" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy" />
+	<pattern name="Bridge">
+		<instance>
+			<role name="Abstraction" element="org.gjt.sp.jedit.textarea.InputHandler" />
+			<role name="Implementor" element="org.gjt.sp.jedit.textarea.InputHandler$MacroRecorder" />
+			<role name="implementor" element="org.gjt.sp.jedit.textarea.InputHandler::recorder:org.gjt.sp.jedit.textarea.InputHandler$MacroRecorder" />
+			<role name="Operation()" element="org.gjt.sp.jedit.textarea.InputHandler::executeAction(java.awt.event.ActionListener, java.lang.Object, java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="org.jext.misc.SwingWorker" />
+			<role name="Implementor" element="org.jext.misc.HandlingRunnable" />
+			<role name="implementor" element="org.jext.misc.SwingWorker::notifier:org.jext.misc.HandlingRunnable" />
+			<role name="Operation()" element="org.jext.misc.SwingWorker::finished():void" />
+		</instance>
+	</pattern>
+	<pattern name="Template Method">
+		<instance>
+			<role name="AbstractClass" element="gnu.regexp.REToken" />
+			<role name="TemplateMethod()" element="gnu.regexp.REToken::next(gnu.regexp.CharIndexed, gnu.regexp.REMatch):boolean" />
+			<role name="TemplateMethod()" element="gnu.regexp.REToken::dumpAll(java.lang.StringBuffer):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.gjt.sp.jedit.syntax.TokenMarker" />
+			<role name="TemplateMethod()" element="org.gjt.sp.jedit.syntax.TokenMarker::markTokens(javax.swing.text.Segment, int):org.gjt.sp.jedit.syntax.Token" />
+		</instance>
+	</pattern>
+	<pattern name="Visitor" />
+	<pattern name="Proxy" />
+	<pattern name="Proxy2">
+		<instance>
+			<role name="Proxy" element="gnu.regexp.RE" />
+			<role name="Subject" element="gnu.regexp.REToken" />
+			<role name="RealSubject" element="gnu.regexp.RETokenLookAhead" />
+			<role name="subject" element="gnu.regexp.RE::firstToken:gnu.regexp.REToken" />
+			<role name="subject" element="gnu.regexp.RE::lastToken:gnu.regexp.REToken" />
+			<role name="Request()" element="gnu.regexp.RE::match(gnu.regexp.CharIndexed, gnu.regexp.REMatch):boolean" />
+			<role name="subject" element="gnu.regexp.RETokenLookAhead::re:gnu.regexp.REToken" />
+			<role name="Request()" element="gnu.regexp.RETokenLookAhead::match(gnu.regexp.CharIndexed, gnu.regexp.REMatch):boolean" />
+		</instance>
+	</pattern>
+	<pattern name="Chain of Responsibility">
+		<instance>
+			<role name="Handler" element="gnu.regexp.REToken" />
+			<role name="successor" element="gnu.regexp.REToken::next:gnu.regexp.REToken" />
+			<role name="successor" element="gnu.regexp.REToken::uncle:gnu.regexp.REToken" />
+		</instance>
+		<instance>
+			<role name="Handler" element="org.jext.console.commands.Command" />
+			<role name="successor" element="org.jext.console.commands.Command::next:org.jext.console.commands.Command" />
+		</instance>
+	</pattern>
+</system>
+

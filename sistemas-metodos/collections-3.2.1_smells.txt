@@ -1,0 +1,734 @@
+Refused Parent Bequest	TestSingletonMap	1	1,0
+Feature Envy	DefaultMapEntry.DefaultMapEntry	2	1,0
+Refused Parent Bequest	TestLinkedList	3	1,0
+Feature Envy	TestListOrderedMap.testGetByIndex	4	1,0
+Feature Envy	TestListOrderedMap.testGetValueByIndex	5	1,0
+Feature Envy	TestListOrderedMap.testSetValueByIndex	6	1,0
+Feature Envy	TestListOrderedMap.testPut_intObjectObject	7	1,0
+Feature Envy	TestListOrderedMap.testValueList_setByIndex	8	1,0
+God Class	TestListOrderedMap	9	1,0
+Refused Parent Bequest	TestListOrderedMap	10	1,0
+Tradition Breaker	TestListOrderedMap	11	1,0
+Dispersed Coupling	BeanMap.initialise	12	1,0
+God Class	BeanMap	13	1,0
+Data Class	BeanMap	14	1,0
+Feature Envy	AbstractDualBidiMap.putAll	15	1,0
+Shotgun Surgery	OrderedMap.orderedMapIterator	16	1,0
+Dispersed Coupling	PropertiesReader.readProperty	17	1,0
+Feature Envy	TreeList.set	18	1,0
+Feature Envy	AbstractLinkedMap.containsValue	19	1,0
+Feature Envy	AbstractLinkedMap.getEntry	20	1,0
+Feature Envy	AbstractLinkedMap.addEntry	21	1,0
+Feature Envy	AbstractLinkedMap.removeEntry	22	1,0
+God Class	AbstractLinkedMap	23	1,0
+Refused Parent Bequest	AbstractLinkedMap	24	1,0
+Feature Envy	TestMapUtils.testTypedMapIllegalPut	25	1,0
+Feature Envy	TestMapUtils.testInvertMap	26	1,0
+Feature Envy	TestMapUtils.testPutAll_Map_array	27	1,0
+Feature Envy	TestMapUtils.testDebugPrintNullLabel	28	1,0
+Feature Envy	TestMapUtils.testDebugPrintNullKeyToMap2	29	1,0
+Feature Envy	TestMapUtils.testDebugPrint	30	1,0
+Feature Envy	TestMapUtils.testDebugPrintSelfReference	31	1,0
+God Class	TestMapUtils	32	1,0
+Refused Parent Bequest	TestMapUtils	33	1,0
+Feature Envy	CursorableSubList.CursorableSubList	34	1,0
+Feature Envy	CursorableSubList.insertListable	35	1,0
+Feature Envy	CursorableSubList.removeListable	36	1,0
+God Class	CursorableSubList	37	1,0
+Data Class	CursorableSubList	38	1,0
+Refused Parent Bequest	CursorableSubList	39	1,0
+Refused Parent Bequest	UnmodifiableOrderedMap	40	1,0
+Feature Envy	KeySetIterator.remove	41	1,0
+Feature Envy	AbstractHashedMap.get	42	1,0
+Shotgun Surgery	AbstractHashedMap.size	43	1,0
+Feature Envy	AbstractHashedMap.containsKey	44	1,0
+Shotgun Surgery	AbstractHashedMap.containsKey	45	1,0
+Feature Envy	AbstractHashedMap.containsValue	46	1,0
+Feature Envy	AbstractHashedMap.put	47	1,0
+Shotgun Surgery	AbstractHashedMap.put	48	1,0
+Feature Envy	AbstractHashedMap.putAll	49	1,0
+Feature Envy	AbstractHashedMap.remove	50	1,0
+Shotgun Surgery	AbstractHashedMap.hashIndex	51	1,0
+Feature Envy	AbstractHashedMap.getEntry	52	1,0
+Feature Envy	AbstractHashedMap.reuseEntry	53	1,0
+Feature Envy	AbstractHashedMap.removeEntry	54	1,0
+Feature Envy	AbstractHashedMap.destroyEntry	55	1,0
+Feature Envy	AbstractHashedMap.ensureCapacity	56	1,0
+Shotgun Surgery	AbstractHashedMap.keySet	57	1,0
+Feature Envy	AbstractHashedMap.equals	58	1,0
+God Class	AbstractHashedMap	59	1,0
+Feature Envy	TestFactoryUtils.testInstantiateFactoryComplex	60	1,0
+Refused Parent Bequest	TestReferenceMap	61	1,0
+Dispersed Coupling	MultiHashMap.readObject	62	1,0
+Feature Envy	MultiHashMap.putAll	63	1,0
+Feature Envy	MultiHashMap.containsValue	64	1,0
+Feature Envy	MultiHashMap.clear	65	1,0
+Feature Envy	MultiHashMap.clone	66	1,0
+God Class	MultiHashMap	67	1,0
+Feature Envy	TestFilterIterator.verifyElementsInPredicate	68	1,0
+Dispersed Coupling	TestFilterIterator.verifyElementsInPredicate	69	1,0
+Refused Parent Bequest	TestFilterIterator	70	1,0
+Feature Envy	GrowthList.add	71	1,0
+Feature Envy	GrowthList.addAll	72	1,0
+Feature Envy	GrowthList.set	73	1,0
+Dispersed Coupling	AbstractTestOrderedBidiMap.testPreviousKey	74	1,0
+Refused Parent Bequest	TestBagUtils	75	1,0
+Tradition Breaker	TestBagUtils	76	1,0
+Dispersed Coupling	SwitchTransformer.getInstance	77	1,0
+Feature Envy	TestLazySortedMap.testMapGet	78	1,0
+Refused Parent Bequest	TestLazySortedMap	79	1,0
+Feature Envy	AbstractTestList.testListAddByIndexBoundsChecking	80	1,0
+Feature Envy	AbstractTestList.testListAddByIndexBoundsChecking2	81	1,0
+Feature Envy	AbstractTestList.testListEquals	82	1,0
+Feature Envy	AbstractTestList.testListGetByIndexBoundsChecking	83	1,0
+Feature Envy	AbstractTestList.testListRemoveByIndexBoundsChecking2	84	1,0
+God Class	AbstractTestList	85	1,0
+Refused Parent Bequest	AbstractTestList	86	1,0
+Tradition Breaker	AbstractTestList	87	1,0
+Refused Parent Bequest	TestListUtils	88	1,0
+Feature Envy	EntrySetView.remove	89	1,0
+Refused Parent Bequest	TestViewMap	90	1,0
+Refused Parent Bequest	ArrayListIterator	91	1,0
+Feature Envy	TestNodeCachingLinkedList.testShrinkCache	92	1,0
+Feature Envy	TestNodeCachingLinkedList.compareSpeed	93	1,0
+Feature Envy	TestLinkedMap.testReset	94	1,0
+Feature Envy	TestLinkedMap.testGetByIndex	95	1,0
+Feature Envy	TestLinkedMap.testGetValueByIndex	96	1,0
+Refused Parent Bequest	TestLinkedMap	97	1,0
+Tradition Breaker	TestLinkedMap	98	1,0
+Feature Envy	TestLRUMap.testReset	99	1,0
+Feature Envy	TestLRUMap.testRemoveLRU	100	1,0
+Feature Envy	TestLRUMap.testInternalState_getEntry_int	101	1,0
+Refused Parent Bequest	TestLRUMap	102	1,0
+Dispersed Coupling	SwitchClosure.getInstance	103	1,0
+Refused Parent Bequest	TestUnmodifiableList	104	1,0
+God Class	BinaryHeap	105	1,0
+Refused Parent Bequest	UnmodifiableBoundedCollection	106	1,0
+Shotgun Surgery	AbstractMapDecorator.getMap	107	1,0
+Shotgun Surgery	AbstractMapDecorator.get	108	1,0
+Shotgun Surgery	AbstractMapDecorator.size	109	1,0
+Feature Envy	TestCollectionUtils.testGetCardinalityMap	110	1,0
+Feature Envy	TestCollectionUtils.testCardinalityOfNull	111	1,0
+Feature Envy	TestCollectionUtils.testUnion	112	1,0
+Feature Envy	TestCollectionUtils.testIntersection	113	1,0
+Feature Envy	TestCollectionUtils.testDisjunction	114	1,0
+Feature Envy	TestCollectionUtils.testSubtract	115	1,0
+Feature Envy	TestCollectionUtils.testTransform1	116	1,0
+Feature Envy	TestCollectionUtils.bulkTestTypedCollection	117	1,0
+God Class	TestCollectionUtils	118	1,0
+Shotgun Surgery	BidiMap.inverseBidiMap	119	1,0
+Feature Envy	CursorableLinkedList.insertListable	120	1,0
+Feature Envy	CursorableLinkedList.removeListable	121	1,0
+God Class	CursorableLinkedList	122	1,0
+Data Class	CursorableLinkedList	123	1,0
+Refused Parent Bequest	SetUniqueList	124	1,0
+Shotgun Surgery	Listable.next	125	1,0
+Shotgun Surgery	Listable.prev	126	1,0
+Shotgun Surgery	Listable.setNext	127	1,0
+Shotgun Surgery	Listable.setPrev	128	1,0
+Refused Parent Bequest	ObjectArrayListIterator	129	1,0
+Shotgun Surgery	Predicate.evaluate	130	1,0
+Feature Envy	TestTiedMapEntry.testSetValue	131	1,0
+Refused Parent Bequest	UnmodifiableSortedBag	132	1,0
+Feature Envy	TestCompositeCollection.setUpMutatorTest	133	1,0
+Feature Envy	TestCompositeCollection.testAddAllMutator	134	1,0
+Feature Envy	TestCompositeCollection.testAddMutator	135	1,0
+Refused Parent Bequest	TestCompositeCollection	136	1,0
+Refused Parent Bequest	PredicatedList	137	1,0
+Shotgun Surgery	AbstractTestObject.isTestSerialization	138	1,0
+Shotgun Surgery	AbstractTestObject.readExternalFormFromDisk	139	1,0
+Shotgun Surgery	AbstractTestObject.skipSerializedCanonicalTests	140	1,0
+Refused Parent Bequest	AbstractTestObject	141	1,0
+Shotgun Surgery	Buffer.remove	142	1,0
+Shotgun Surgery	Buffer.get	143	1,0
+Feature Envy	TreeBidiMap.putAll	144	1,0
+Feature Envy	TreeBidiMap.doPut	145	1,0
+Intensive Coupling	TreeBidiMap.doPut	146	1,0
+Feature Envy	TreeBidiMap.lookup	147	1,0
+Feature Envy	TreeBidiMap.nextGreater	148	1,0
+Feature Envy	TreeBidiMap.nextSmaller	149	1,0
+Feature Envy	TreeBidiMap.isLeftChild	150	1,0
+Feature Envy	TreeBidiMap.isRightChild	151	1,0
+Feature Envy	TreeBidiMap.rotateLeft	152	1,0
+Intensive Coupling	TreeBidiMap.rotateLeft	153	1,0
+Feature Envy	TreeBidiMap.rotateRight	154	1,0
+Intensive Coupling	TreeBidiMap.rotateRight	155	1,0
+Feature Envy	TreeBidiMap.doRedBlackDelete	156	1,0
+Intensive Coupling	TreeBidiMap.doRedBlackDelete	157	1,0
+Brain Method	TreeBidiMap.swapPosition	158	1,0
+Feature Envy	TreeBidiMap.swapPosition	159	1,0
+Intensive Coupling	TreeBidiMap.swapPosition	160	1,0
+Feature Envy	TreeBidiMap.insertValue	161	1,0
+Intensive Coupling	TreeBidiMap.insertValue	162	1,0
+God Class	TreeBidiMap	163	1,0
+Brain Class	TreeBidiMap	164	1,0
+Feature Envy	AbstractTestMapIterator.testEmptyMapIterator	165	1,0
+Feature Envy	AbstractTestMapIterator.testFullMapIterator	166	1,0
+Intensive Coupling	AbstractTestMapIterator.testFullMapIterator	167	1,0
+Feature Envy	AbstractTestMapIterator.testMapIteratorSet	168	1,0
+Intensive Coupling	AbstractTestMapIterator.testMapIteratorSet	169	1,0
+Refused Parent Bequest	AbstractTestMapIterator	170	1,0
+Tradition Breaker	AbstractTestMapIterator	171	1,0
+Shotgun Surgery	ResettableIterator.reset	172	1,0
+Feature Envy	TestIteratorUtils.testEmptyIterator	173	1,0
+Feature Envy	TestIteratorUtils.testEmptyOrderedIterator	174	1,0
+God Class	TestIteratorUtils	175	1,0
+Refused Parent Bequest	TestIteratorUtils	176	1,0
+Tradition Breaker	TestIteratorUtils	177	1,0
+Feature Envy	DefaultKeyValue.DefaultKeyValue	178	1,0
+Feature Envy	DefaultKeyValue.equals	179	1,0
+Feature Envy	DefaultKeyValue.hashCode	180	1,0
+Refused Parent Bequest	DefaultKeyValue	181	1,0
+Feature Envy	TestAbstractLinkedList.testAddNodeAfter	182	1,0
+Intensive Coupling	TestAbstractLinkedList.testAddNodeAfter	183	1,0
+Feature Envy	TestAbstractLinkedList.testRemoveNode	184	1,0
+Feature Envy	TestAbstractLinkedList.testGetNode	185	1,0
+Feature Envy	TestAbstractLinkedList.checkNodes	186	1,0
+Refused Parent Bequest	UnmodifiableBag	187	1,0
+Feature Envy	TiedMapEntry.equals	188	1,0
+Refused Parent Bequest	UnmodifiableOrderedBidiMap	189	1,0
+Feature Envy	KeySet.iterator	190	1,0
+Feature Envy	TestListOrderedSet.testListAddRemove	191	1,0
+Feature Envy	TestListOrderedSet.testListAddIndexed	192	1,0
+Refused Parent Bequest	TestListOrderedSet	193	1,0
+Tradition Breaker	TestListOrderedSet	194	1,0
+Feature Envy	TestDefaultKeyValue.testAccessorsAndMutators	195	1,0
+Feature Envy	TestDefaultKeyValue.testSelfReferenceHandling	196	1,0
+Feature Envy	TestDefaultKeyValue.testToString	197	1,0
+Feature Envy	TestDefaultKeyValue.testToMapEntry	198	1,0
+Refused Parent Bequest	UnmodifiableList	199	1,0
+Feature Envy	TestBoundedFifoBuffer2.testMaxSize	200	1,0
+Feature Envy	TestClosureUtils.testForClosure	201	1,0
+Feature Envy	TestClosureUtils.testIfClosure	202	1,0
+Feature Envy	TestClosureUtils.testSwitchClosure	203	1,0
+Feature Envy	TestClosureUtils.testSwitchMapClosure	204	1,0
+Feature Envy	KeySet.remove	205	1,0
+Feature Envy	Node.equals	206	1,0
+Feature Envy	OnePredicate.getInstance	207	1,0
+Refused Parent Bequest	UnmodifiableSortedSet	208	1,0
+Feature Envy	MultiKeyMap.removeAll	209	1,0
+Feature Envy	MultiKeyMap.removeAll	210	1,0
+Feature Envy	MultiKeyMap.removeAll	211	1,0
+Data Class	MultiKeyMap	212	1,0
+Shotgun Surgery	AbstractTestMap.isPutAddSupported	213	1,0
+Shotgun Surgery	AbstractTestMap.isPutChangeSupported	214	1,0
+Shotgun Surgery	AbstractTestMap.isSetValueSupported	215	1,0
+Shotgun Surgery	AbstractTestMap.isRemoveSupported	216	1,0
+Shotgun Surgery	AbstractTestMap.isAllowNullKey	217	1,0
+Shotgun Surgery	AbstractTestMap.getSampleKeys	218	1,0
+Shotgun Surgery	AbstractTestMap.getOtherKeys	219	1,0
+Shotgun Surgery	AbstractTestMap.getSampleValues	220	1,0
+Shotgun Surgery	AbstractTestMap.getNewSampleValues	221	1,0
+Shotgun Surgery	AbstractTestMap.addSampleMappings	222	1,0
+Shotgun Surgery	AbstractTestMap.makeFullMap	223	1,0
+Feature Envy	AbstractTestMap.cloneMapEntry	224	1,0
+Brain Method	AbstractTestMap.testMapPut	225	1,0
+Dispersed Coupling	AbstractTestMap.testMapPut	226	1,0
+Dispersed Coupling	AbstractTestMap.testMapRemove	227	1,0
+Feature Envy	AbstractTestMap.testEntrySetContains2	228	1,0
+Feature Envy	AbstractTestMap.testEntrySetContains3	229	1,0
+Feature Envy	AbstractTestMap.testEntrySetRemove1	230	1,0
+Feature Envy	AbstractTestMap.testEntrySetRemove2	231	1,0
+Feature Envy	AbstractTestMap.testEntrySetRemove3	232	1,0
+Feature Envy	AbstractTestMap.makeEntryArray	233	1,0
+Shotgun Surgery	AbstractTestMap.resetEmpty	234	1,0
+Shotgun Surgery	AbstractTestMap.resetFull	235	1,0
+God Class	AbstractTestMap	236	1,0
+Brain Class	AbstractTestMap	237	1,0
+Data Class	AbstractTestMap	238	1,0
+Refused Parent Bequest	AbstractTestMap	239	1,0
+Tradition Breaker	AbstractTestMap	240	1,0
+Feature Envy	EntryIterator.hasNext	241	1,0
+Feature Envy	TestExtendedProperties.testRetrieve	242	1,0
+Feature Envy	TestExtendedProperties.testInterpolation	243	1,0
+Feature Envy	TestExtendedProperties.testInheritDefaultProperties	244	1,0
+Feature Envy	DoubleOrderedMap.lookup	245	1,0
+Feature Envy	DoubleOrderedMap.nextGreater	246	1,0
+Feature Envy	DoubleOrderedMap.isLeftChild	247	1,0
+Feature Envy	DoubleOrderedMap.isRightChild	248	1,0
+Feature Envy	DoubleOrderedMap.rotateLeft	249	1,0
+Intensive Coupling	DoubleOrderedMap.rotateLeft	250	1,0
+Feature Envy	DoubleOrderedMap.rotateRight	251	1,0
+Intensive Coupling	DoubleOrderedMap.rotateRight	252	1,0
+Feature Envy	DoubleOrderedMap.doRedBlackDelete	253	1,0
+Intensive Coupling	DoubleOrderedMap.doRedBlackDelete	254	1,0
+Brain Method	DoubleOrderedMap.swapPosition	255	1,0
+Feature Envy	DoubleOrderedMap.swapPosition	256	1,0
+Intensive Coupling	DoubleOrderedMap.swapPosition	257	1,0
+Feature Envy	DoubleOrderedMap.insertValue	258	1,0
+Intensive Coupling	DoubleOrderedMap.insertValue	259	1,0
+Feature Envy	DoubleOrderedMap.put	260	1,0
+Intensive Coupling	DoubleOrderedMap.put	261	1,0
+God Class	DoubleOrderedMap	262	1,0
+Brain Class	DoubleOrderedMap	263	1,0
+Feature Envy	TestSequencedHashMap.testFullMapSerialization	264	1,0
+Refused Parent Bequest	TestSequencedHashMap	265	1,0
+Feature Envy	InvokerTransformer.getInstance	266	1,0
+Feature Envy	InvokerTransformer.transform	267	1,0
+Feature Envy	KeySet.remove	268	1,0
+Feature Envy	FastTreeMap.equals	269	1,0
+Dispersed Coupling	FastTreeMap.equals	270	1,0
+Data Class	FastTreeMap	271	1,0
+Feature Envy	TestListOrderedSet2.testListAddRemove	272	1,0
+Feature Envy	TestListOrderedSet2.testListAddIndexed	273	1,0
+Refused Parent Bequest	TestListOrderedSet2	274	1,0
+Shotgun Surgery	Transformer.transform	275	1,0
+Feature Envy	UnboundedFifoBuffer.add	276	1,0
+Feature Envy	TestMultiKeyMap.testMultiKeyContainsKey	277	1,0
+Feature Envy	TestMultiKeyMap.testMultiKeyRemove	278	1,0
+Feature Envy	TestMultiKeyMap.testMultiKeyRemoveAll3	279	1,0
+Feature Envy	TestMultiKeyMap.testMultiKeyRemoveAll4	280	1,0
+God Class	TestMultiKeyMap	281	1,0
+Data Class	TestMultiKeyMap	282	1,0
+Refused Parent Bequest	TestMultiKeyMap	283	1,0
+Feature Envy	InstantiateTransformer.getInstance	284	1,0
+Feature Envy	InstantiateTransformer.transform	285	1,0
+Feature Envy	Values.iterator	286	1,0
+Dispersed Coupling	TestMapEntrySet.testMapEntrySetIteratorEntry	287	1,0
+Intensive Coupling	TestMapEntrySet.testMapEntrySetIteratorEntrySetValue	288	1,0
+Feature Envy	TestMapEntrySet.getEntry	289	1,0
+Refused Parent Bequest	TestMapEntrySet	290	1,0
+Feature Envy	AbstractMapEntry.hashCode	291	1,0
+Feature Envy	ComparatorChain.compare	292	1,0
+Refused Parent Bequest	TestPredicatedList	293	1,0
+Feature Envy	TestBinaryHeap.verify	294	1,0
+Intensive Coupling	TestBinaryHeap.testBasicOps	295	1,0
+Intensive Coupling	TestBinaryHeap.testBasicComparatorOps	296	1,0
+Feature Envy	TestBinaryHeap.showTree	297	1,0
+God Class	TestBinaryHeap	298	1,0
+Feature Envy	TestSingletonListIterator.testIterator	299	1,0
+Feature Envy	TestUnmodifiableMapEntry.testConstructors	300	1,0
+Feature Envy	TestUnmodifiableMapEntry.testAccessorsAndMutators	301	1,0
+Feature Envy	TestLoopingListIterator.testSet	302	1,0
+Feature Envy	TestDoubleOrderedMap.testSize	303	1,0
+Feature Envy	TestDoubleOrderedMap.testIsEmpty	304	1,0
+Feature Envy	TestDoubleOrderedMap.testContainsKey	305	1,0
+Feature Envy	TestDoubleOrderedMap.testContainsValue	306	1,0
+Feature Envy	TestDoubleOrderedMap.testPut	307	1,0
+Feature Envy	TestDoubleOrderedMap.testClear	308	1,0
+Feature Envy	TestDoubleOrderedMap.testKeySet	309	1,0
+Intensive Coupling	TestDoubleOrderedMap.testKeySet	310	1,0
+Feature Envy	TestDoubleOrderedMap.testValues	311	1,0
+Intensive Coupling	TestDoubleOrderedMap.testValues	312	1,0
+Feature Envy	TestDoubleOrderedMap.testEquals	313	1,0
+Feature Envy	TestDoubleOrderedMap.testHashCode	314	1,0
+Feature Envy	TestDoubleOrderedMap.testConstructors	315	1,0
+Feature Envy	TestDoubleOrderedMap.testKeySetByValue	316	1,0
+Intensive Coupling	TestDoubleOrderedMap.testKeySetByValue	317	1,0
+Feature Envy	TestDoubleOrderedMap.testValuesByValue	318	1,0
+Intensive Coupling	TestDoubleOrderedMap.testValuesByValue	319	1,0
+Brain Method	TestDoubleOrderedMap.testKeySet	320	1,0
+Intensive Coupling	TestDoubleOrderedMap.testKeySet	321	1,0
+Brain Method	TestDoubleOrderedMap.testKeySetByValue	322	1,0
+Feature Envy	TestDoubleOrderedMap.testKeySetByValue	323	1,0
+Intensive Coupling	TestDoubleOrderedMap.testKeySetByValue	324	1,0
+Brain Method	TestDoubleOrderedMap.testValues	325	1,0
+Intensive Coupling	TestDoubleOrderedMap.testValues	326	1,0
+Brain Method	TestDoubleOrderedMap.testValuesByValue	327	1,0
+Feature Envy	TestDoubleOrderedMap.testValuesByValue	328	1,0
+Intensive Coupling	TestDoubleOrderedMap.testValuesByValue	329	1,0
+Brain Method	TestDoubleOrderedMap.testEntrySet	330	1,0
+Intensive Coupling	TestDoubleOrderedMap.testEntrySet	331	1,0
+Brain Method	TestDoubleOrderedMap.testEntrySetByValue	332	1,0
+Intensive Coupling	TestDoubleOrderedMap.testEntrySetByValue	333	1,0
+God Class	TestDoubleOrderedMap	334	1,0
+Brain Class	TestDoubleOrderedMap	335	1,0
+Refused Parent Bequest	TestDoubleOrderedMap	336	1,0
+Tradition Breaker	TestDoubleOrderedMap	337	1,0
+Intensive Coupling	ListOrderedSet.retainAll	338	1,0
+Refused Parent Bequest	ListOrderedSet	339	1,0
+Refused Parent Bequest	FixedSizeMap	340	1,0
+Refused Parent Bequest	BlockingBuffer	341	1,0
+Feature Envy	TestMultiValueMap.testPutAll_Map2	342	1,0
+Refused Parent Bequest	TestUnmodifiableOrderedBidiMap	343	1,0
+Feature Envy	SubCursor.add	344	1,0
+Feature Envy	SubCursor.remove	345	1,0
+Feature Envy	TestSortedSetSubSet.TestSortedSetSubSet	346	1,0
+Refused Parent Bequest	TestSortedSetSubSet	347	1,0
+Feature Envy	InstantiateFactory.getInstance	348	1,0
+Feature Envy	AbstractTestIterableMap.testFailFastEntrySet	349	1,0
+Shotgun Surgery	AbstractKeyValue.getKey	350	1,0
+Feature Envy	TestCursorableLinkedList.testCursorSet	351	1,0
+Feature Envy	TestCursorableLinkedList.testGet	352	1,0
+Feature Envy	TestCursorableLinkedList.testListIteratorSet	353	1,0
+Feature Envy	TestCursorableLinkedList.testSet	354	1,0
+Feature Envy	TestCursorableLinkedList.testToArray	355	1,0
+Refused Parent Bequest	TestCursorableLinkedList	356	1,0
+Feature Envy	AbstractMapBag.remove	357	1,0
+Feature Envy	HashIterator.nextEntry	358	1,0
+Feature Envy	HashIterator.remove	359	1,0
+Feature Envy	TestArrayListIterator.testListIterator	360	1,0
+Feature Envy	TestIdentityMap.testBasics	361	1,0
+Feature Envy	TestIdentityMap.testHashEntry	362	1,0
+Feature Envy	AbstractReferenceMap.purge	363	1,0
+God Class	AbstractReferenceMap	364	1,0
+Data Class	AbstractReferenceMap	365	1,0
+Refused Parent Bequest	AbstractReferenceMap	366	1,0
+Feature Envy	FastHashMap.equals	367	1,0
+Dispersed Coupling	FastHashMap.equals	368	1,0
+Data Class	FastHashMap	369	1,0
+God Class	TestPredicateUtils	370	1,0
+Refused Parent Bequest	TestCircularFifoBuffer	371	1,0
+Shotgun Surgery	Closure.execute	372	1,0
+Feature Envy	LinkIterator.remove	373	1,0
+Feature Envy	TestHashedMap.testInternalState	374	1,0
+Refused Parent Bequest	UnmodifiableSortedBidiMap	375	1,0
+Refused Parent Bequest	TestPredicatedBag	376	1,0
+Shotgun Surgery	AbstractCollectionDecorator.getCollection	377	1,0
+Shotgun Surgery	AbstractCollectionDecorator.size	378	1,0
+Refused Parent Bequest	UnmodifiableBidiMap	379	1,0
+Refused Parent Bequest	UnmodifiableEntrySet	380	1,0
+Feature Envy	Cursor.listableRemoved	381	1,0
+Feature Envy	Cursor.listableInserted	382	1,0
+Feature Envy	AbstractTestBag.testRemove	383	1,0
+Feature Envy	AbstractTestBag.testRemoveAll	384	1,0
+Intensive Coupling	AbstractTestBag.testIterator	385	1,0
+Refused Parent Bequest	AbstractTestBag	386	1,0
+Refused Parent Bequest	TestReferenceMap	387	1,0
+Feature Envy	TestObjectArrayListIterator.testListIterator	388	1,0
+Feature Envy	MapUtils.getBoolean	389	1,0
+Feature Envy	MapUtils.toProperties	390	1,0
+Intensive Coupling	MapUtils.verbosePrintInternal	391	1,0
+Feature Envy	MapUtils.invertMap	392	1,0
+God Class	MapUtils	393	1,0
+Feature Envy	LinkedSubListIterator.add	394	1,0
+Feature Envy	LinkedSubListIterator.remove	395	1,0
+Feature Envy	TestBeanMap.makeFullMap	396	1,0
+Refused Parent Bequest	TestBeanMap	397	1,0
+Feature Envy	TestDefaultMapEntry.testSelfReferenceHandling	398	1,0
+Feature Envy	Entry.equals	399	1,0
+Refused Parent Bequest	CursorableLinkedList	400	1,0
+Feature Envy	TestUniqueFilterIterator.testIterator	401	1,0
+Brain Method	TestFilterListIterator.walkLists	402	1,0
+Intensive Coupling	TestFilterListIterator.walkLists	403	1,0
+Feature Envy	AnyPredicate.getInstance	404	1,0
+Feature Envy	AnyPredicate.getInstance	405	1,0
+Feature Envy	TestObjectArrayIterator.testIterator	406	1,0
+Refused Parent Bequest	TestObjectArrayIterator	407	1,0
+Feature Envy	MyMapEntry.setValue	408	1,0
+Feature Envy	BulkTestSuiteMaker.makeFirstTestCase	409	1,0
+Feature Envy	BulkTestSuiteMaker.isTest	410	1,0
+Feature Envy	BulkTestSuiteMaker.isBulk	411	1,0
+Feature Envy	AllPredicate.getInstance	412	1,0
+Feature Envy	AllPredicate.getInstance	413	1,0
+Feature Envy	NodeCachingLinkedList.addNodeToCache	414	1,0
+Refused Parent Bequest	NodeCachingLinkedList	415	1,0
+Refused Parent Bequest	SynchronizedList	416	1,0
+Refused Parent Bequest	AbstractTestSortedSet	417	1,0
+Feature Envy	TestArrayIterator.testIterator	418	1,0
+Feature Envy	OrderedIterator.next	419	1,0
+Feature Envy	BoundedBuffer.timeoutWait	420	1,0
+Refused Parent Bequest	BoundedBuffer	421	1,0
+Feature Envy	CollatingIterator.set	422	1,0
+Feature Envy	CollatingIterator.least	423	1,0
+Feature Envy	AbstractTestMapEntry.makeKnownMapEntry	424	1,0
+Feature Envy	AbstractTestMapEntry.testAccessorsAndMutators	425	1,0
+Feature Envy	AbstractTestMapEntry.testSelfReferenceHandling	426	1,0
+Feature Envy	AbstractTestMapEntry.testToString	427	1,0
+Refused Parent Bequest	TestBoundedBuffer	428	1,0
+Feature Envy	SingletonMap.putAll	429	1,0
+Feature Envy	SingletonMap.equals	430	1,0
+God Class	SingletonMap	431	1,0
+Data Class	SingletonMap	432	1,0
+Feature Envy	ReferenceEntrySetIterator.ReferenceEntrySetIterator	433	1,0
+Feature Envy	ReferenceEntrySetIterator.hasNext	434	1,0
+Feature Envy	TestCursorableLinkedList.testCursorSet	435	1,0
+Feature Envy	TestCursorableLinkedList.testGet	436	1,0
+Feature Envy	TestCursorableLinkedList.testListIteratorSet	437	1,0
+Feature Envy	TestCursorableLinkedList.testSet	438	1,0
+Feature Envy	TestCursorableLinkedList.testToArray	439	1,0
+Refused Parent Bequest	TestCursorableLinkedList	440	1,0
+Feature Envy	Node.equals	441	1,0
+Feature Envy	LRUMap.moveToMRU	442	1,0
+Feature Envy	LRUMap.addMapping	443	1,0
+Feature Envy	LRUMap.reuseMapping	444	1,0
+Refused Parent Bequest	LRUMap	445	1,0
+Shotgun Surgery	Bag.getCount	446	1,0
+Shotgun Surgery	Bag.add	447	1,0
+Shotgun Surgery	Bag.add	448	1,0
+Shotgun Surgery	Bag.uniqueSet	449	1,0
+Shotgun Surgery	Bag.size	450	1,0
+Data Class	FastArrayList	451	1,0
+Refused Parent Bequest	AbstractTestIterator	452	1,0
+Refused Parent Bequest	TestMapBackedSet2	453	1,0
+Feature Envy	ReferenceEntry.equals	454	1,0
+Feature Envy	ReferenceEntry.purge	455	1,0
+Refused Parent Bequest	ReferenceEntry	456	1,0
+Intensive Coupling	TestTransformedSortedMap.testTransformedMap	457	1,0
+Feature Envy	TestTransformedSortedMap.testFactory_Decorate	458	1,0
+Feature Envy	TestTransformedSortedMap.testFactory_decorateTransform	459	1,0
+Refused Parent Bequest	FixedSizeList	460	1,0
+Refused Parent Bequest	TestCompositeMap	461	1,0
+Shotgun Surgery	AbstractListDecorator.getList	462	1,0
+Feature Envy	TestFlat3Map.testClone2	463	1,0
+Feature Envy	TestFlat3Map.testClone4	464	1,0
+Feature Envy	TestFlat3Map.testSerialisation4	465	1,0
+Dispersed Coupling	IteratorUtils.getIterator	466	1,0
+God Class	IteratorUtils	467	1,0
+Data Class	IteratorUtils	468	1,0
+Refused Parent Bequest	TestFastArrayList	469	1,0
+Feature Envy	TestFixedOrderComparator.testUnknownObjectBehavior	470	1,0
+Feature Envy	TestFixedOrderComparator.assertComparatorYieldsOrder	471	1,0
+Feature Envy	TransformedMap.transformMap	472	1,0
+Refused Parent Bequest	TransformedMap	473	1,0
+Shotgun Surgery	HashEntry.getKey	474	1,0
+Shotgun Surgery	HashEntry.getValue	475	1,0
+Feature Envy	TestTransformedMap.testFactory_Decorate	476	1,0
+Feature Envy	TestTransformedMap.testFactory_decorateTransform	477	1,0
+Feature Envy	TestListOrderedMap2.testGetByIndex	478	1,0
+Feature Envy	TestListOrderedMap2.testGetValueByIndex	479	1,0
+Refused Parent Bequest	TestListOrderedMap2	480	1,0
+Tradition Breaker	TestListOrderedMap2	481	1,0
+Refused Parent Bequest	TestTypedBag	482	1,0
+Dispersed Coupling	AbstractTestOrderedMap.testPreviousKey	483	1,0
+Refused Parent Bequest	AbstractTestOrderedMap	484	1,0
+Feature Envy	TestCollatingIterator.testGetSetComparator	485	1,0
+Dispersed Coupling	TestCollatingIterator.testRemoveFromSingle	486	1,0
+Dispersed Coupling	TestCollatingIterator.testRemoveFromDouble	487	1,0
+Refused Parent Bequest	TestCollatingIterator	488	1,0
+Tradition Breaker	TestCollatingIterator	489	1,0
+Refused Parent Bequest	FixedSizeSortedMap	490	1,0
+Feature Envy	Cursor.nextIndex	491	1,0
+Refused Parent Bequest	Cursor	492	1,0
+Feature Envy	EntrySetIterator.getKey	493	1,0
+Feature Envy	EntrySetIterator.getValue	494	1,0
+Feature Envy	EntrySetIterator.setValue	495	1,0
+Feature Envy	EntrySetIterator.equals	496	1,0
+Feature Envy	TestPredicatedSortedMap.testPut	497	1,0
+Refused Parent Bequest	TestPredicatedSortedMap	498	1,0
+Dispersed Coupling	CollectionUtils.index	499	1,0
+Dispersed Coupling	CollectionUtils.get	500	1,0
+Dispersed Coupling	CollectionUtils.size	501	1,0
+God Class	CollectionUtils	502	1,0
+Feature Envy	TestObjectGraphIterator.testIteratorConstructorIteration_WithEmptyIterators	503	1,0
+Feature Envy	TestObjectGraphIterator.testIteration_IteratorOfIteratorsWithEmptyIterators	504	1,0
+Feature Envy	TestObjectGraphIterator.testIteration_Transformed2	505	1,0
+Feature Envy	TestObjectGraphIterator.testIteration_Transformed3	506	1,0
+Refused Parent Bequest	TestObjectGraphIterator	507	1,0
+Tradition Breaker	TestObjectGraphIterator	508	1,0
+Feature Envy	TestCaseInsensitiveMap.testCaseInsensitive	509	1,0
+Feature Envy	TestArrayIterator2.testIterator	510	1,0
+Feature Envy	TestArrayIterator2.testSetArray	511	1,0
+Feature Envy	TestArrayIterator2.testIndexedArray	512	1,0
+Refused Parent Bequest	TestArrayIterator2	513	1,0
+Tradition Breaker	TestArrayIterator2	514	1,0
+Feature Envy	TestListIteratorWrapper.testIterator	515	1,0
+Refused Parent Bequest	TestUnmodifiableSortedSet	516	1,0
+Feature Envy	PredicatedMap.putAll	517	1,0
+Refused Parent Bequest	PredicatedMap	518	1,0
+Refused Parent Bequest	UnmodifiableMap	519	1,0
+Shotgun Surgery	Factory.create	520	1,0
+Feature Envy	IteratorChain.updateCurrentIterator	521	1,0
+Shotgun Surgery	SortedBag.first	522	1,0
+Shotgun Surgery	SortedBag.last	523	1,0
+Feature Envy	AbstractLinkedList.indexOf	524	1,0
+Feature Envy	AbstractLinkedList.lastIndexOf	525	1,0
+Feature Envy	AbstractLinkedList.remove	526	1,0
+Feature Envy	AbstractLinkedList.addNode	527	1,0
+Feature Envy	AbstractLinkedList.removeNode	528	1,0
+Feature Envy	AbstractLinkedList.getNode	529	1,0
+God Class	AbstractLinkedList	530	1,0
+Data Class	AbstractLinkedList	531	1,0
+Feature Envy	ViewIterator.doGetData	532	1,0
+Feature Envy	TestReferenceIdentityMap.testBasics	533	1,0
+Feature Envy	TestReferenceIdentityMap.testHashEntry	534	1,0
+Refused Parent Bequest	TestReferenceIdentityMap	535	1,0
+Feature Envy	EntrySet.remove	536	1,0
+Feature Envy	EntrySet.remove	537	1,0
+Feature Envy	EntrySet.iterator	538	1,0
+Feature Envy	AbstractTestListIterator.testSet	539	1,0
+Refused Parent Bequest	AbstractTestListIterator	540	1,0
+Tradition Breaker	AbstractTestListIterator	541	1,0
+Feature Envy	StaticBucketMap.get	542	1,0
+Feature Envy	StaticBucketMap.containsKey	543	1,0
+Feature Envy	StaticBucketMap.containsValue	544	1,0
+Feature Envy	StaticBucketMap.put	545	1,0
+Feature Envy	StaticBucketMap.remove	546	1,0
+God Class	StaticBucketMap	547	1,0
+Feature Envy	MultiValueMap.putAll	548	1,0
+Refused Parent Bequest	MultiValueMap	549	1,0
+Tradition Breaker	MultiValueMap	550	1,0
+Feature Envy	TestTransformerUtils.testPredicateTransformer	551	1,0
+Feature Envy	TestTransformerUtils.testChainedTransformer	552	1,0
+Feature Envy	TestTransformerUtils.testSwitchTransformer	553	1,0
+God Class	TestTransformerUtils	554	1,0
+Feature Envy	AbstractTestSortedBidiMap.AbstractTestSortedBidiMap	555	1,0
+Feature Envy	AbstractTestSortedBidiMap.AbstractTestSortedBidiMap	556	1,0
+Feature Envy	AbstractTestSortedBidiMap.testBidiClearByHeadMap	557	1,0
+Feature Envy	AbstractTestSortedBidiMap.testBidiRemoveByHeadMapEntrySet	558	1,0
+Feature Envy	AbstractTestSortedBidiMap.testBidiTailMapContains	559	1,0
+Feature Envy	AbstractTestSortedBidiMap.testBidiClearByTailMap	560	1,0
+Feature Envy	AbstractTestSortedBidiMap.testBidiRemoveByTailMapEntrySet	561	1,0
+Feature Envy	AbstractTestSortedBidiMap.testBidiSubMapContains	562	1,0
+Feature Envy	AbstractTestSortedBidiMap.testBidiClearBySubMap	563	1,0
+Feature Envy	AbstractTestSortedBidiMap.testBidiRemoveBySubMapEntrySet	564	1,0
+Refused Parent Bequest	AbstractTestSortedBidiMap	565	1,0
+Feature Envy	TestUnboundedFifoBuffer.testInternalStateAdd	566	1,0
+Feature Envy	TestUnboundedFifoBuffer.testInternalStateAddWithWrap	567	1,0
+Feature Envy	TestUnboundedFifoBuffer.testInternalStateRemove1	568	1,0
+Feature Envy	TestUnboundedFifoBuffer.testInternalStateRemove2	569	1,0
+Feature Envy	TestUnboundedFifoBuffer.testInternalStateIteratorRemove1	570	1,0
+Feature Envy	TestUnboundedFifoBuffer.testInternalStateIteratorRemove2	571	1,0
+Feature Envy	TestUnboundedFifoBuffer.testInternalStateIteratorRemoveWithTailAtEnd1	572	1,0
+Feature Envy	TestUnboundedFifoBuffer.testInternalStateIteratorRemoveWithTailAtEnd2	573	1,0
+Feature Envy	TestUnboundedFifoBuffer.testInternalStateIteratorRemoveWithTailAtEnd3	574	1,0
+Feature Envy	TestUnboundedFifoBuffer.testInternalStateIteratorRemoveWithWrap1	575	1,0
+Feature Envy	TestUnboundedFifoBuffer.testInternalStateIteratorRemoveWithWrap2	576	1,0
+Feature Envy	TestUnboundedFifoBuffer.testInternalStateIteratorRemoveWithWrap3	577	1,0
+Refused Parent Bequest	TestUnboundedFifoBuffer	578	1,0
+Feature Envy	TestMultiKey.testConstructors	579	1,0
+Feature Envy	TestMultiKey.testConstructorsByArray	580	1,0
+Feature Envy	TestMultiKey.testGetIndexed	581	1,0
+Feature Envy	KeySet.remove	582	1,0
+Refused Parent Bequest	TestUnmodifiableSortedBidiMap	583	1,0
+Intensive Coupling	AbstractTestOrderedMapIterator.testFullMapIterator	584	1,0
+Refused Parent Bequest	TestBlockingBuffer	585	1,0
+Feature Envy	TreeListIterator.next	586	1,0
+Feature Envy	TreeListIterator.previous	587	1,0
+Intensive Coupling	TestBidiMapEntrySet.testMapEntrySetIteratorEntrySetValueCrossCheck	588	1,0
+Feature Envy	ReferenceMap.getEntry	589	1,0
+Feature Envy	ReferenceMap.resize	590	1,0
+Feature Envy	ReferenceMap.purge	591	1,0
+Feature Envy	ReferenceMap.put	592	1,0
+Feature Envy	ReferenceMap.remove	593	1,0
+God Class	ReferenceMap	594	1,0
+Data Class	ReferenceMap	595	1,0
+God Class	DefaultMapBag	596	1,0
+Feature Envy	TestSetUniqueList.testCollectionAddAll	597	1,0
+Feature Envy	TestSetUniqueList.testListSetByIndex	598	1,0
+Feature Envy	TestSetUniqueList.verify	599	1,0
+Feature Envy	TestSetUniqueList.testFactory	600	1,0
+Feature Envy	TestSetUniqueList.testSet	601	1,0
+Feature Envy	TestSetUniqueList.testUniqueListReInsert	602	1,0
+Feature Envy	TestSetUniqueList.testUniqueListDoubleInsert	603	1,0
+Feature Envy	TestSetUniqueList.testSetDownwardsInList	604	1,0
+Feature Envy	TestSetUniqueList.testSetInBiggerList	605	1,0
+Feature Envy	TestSetUniqueList.testSetUpwardsInList	606	1,0
+Refused Parent Bequest	TestSetUniqueList	607	1,0
+Feature Envy	Node.equals	608	1,0
+Feature Envy	AbstractTestBidiMap.testBidiPut	609	1,0
+Intensive Coupling	AbstractTestBidiMap.testBidiMapIteratorSet	610	1,0
+God Class	AbstractTestBidiMap	611	1,0
+Refused Parent Bequest	AbstractTestBidiMap	612	1,0
+Feature Envy	TestIteratorChain.testIterator	613	1,0
+Refused Parent Bequest	TestIteratorChain	614	1,0
+Intensive Coupling	ExtendedProperties.interpolateHelper	615	1,0
+Intensive Coupling	ExtendedProperties.load	616	1,0
+Dispersed Coupling	ExtendedProperties.save	617	1,0
+God Class	ExtendedProperties	618	1,0
+Feature Envy	TestLazyMap.testMapGet	619	1,0
+Feature Envy	FlatMapIterator.getKey	620	1,0
+Feature Envy	FlatMapIterator.getValue	621	1,0
+Feature Envy	FlatMapIterator.setValue	622	1,0
+Refused Parent Bequest	AbstractTestComparator	623	1,0
+Feature Envy	LinkedMap.indexOf	624	1,0
+Refused Parent Bequest	LinkedMap	625	1,0
+Feature Envy	Values.remove	626	1,0
+Feature Envy	SequencedHashMap.removeEntry	627	1,0
+Feature Envy	SequencedHashMap.insertEntry	628	1,0
+Feature Envy	SequencedHashMap.containsValue	629	1,0
+Feature Envy	SequencedHashMap.putAll	630	1,0
+Feature Envy	SequencedHashMap.toString	631	1,0
+Feature Envy	SequencedHashMap.values	632	1,0
+Feature Envy	SequencedHashMap.getEntry	633	1,0
+Feature Envy	SequencedHashMap.indexOf	634	1,0
+Feature Envy	SequencedHashMap.writeExternal	635	1,0
+God Class	SequencedHashMap	636	1,0
+Data Class	SequencedHashMap	637	1,0
+Feature Envy	TestPriorityBuffer.verify	638	1,0
+Dispersed Coupling	TestPriorityBuffer.testBasicOps	639	1,0
+Feature Envy	TestPriorityBuffer.testBasicComparatorOps	640	1,0
+Dispersed Coupling	TestPriorityBuffer.testBasicComparatorOps	641	1,0
+Feature Envy	TestPriorityBuffer.showTree	642	1,0
+Dispersed Coupling	TestPriorityBuffer.testSerialization	643	1,0
+God Class	TestPriorityBuffer	644	1,0
+Data Class	TestPriorityBuffer	645	1,0
+Feature Envy	TestTreeList.benchmark	646	1,0
+Intensive Coupling	TestTreeList.benchmark	647	1,0
+Feature Envy	TestTreeList.testAddMultiple	648	1,0
+Feature Envy	TestTreeList.testRemove	649	1,0
+Feature Envy	TestTreeList.testIndexOf	650	1,0
+Refused Parent Bequest	TestTreeList	651	1,0
+Feature Envy	StaticBucketMap.put	652	1,0
+Feature Envy	StaticBucketMap.get	653	1,0
+Feature Envy	StaticBucketMap.containsKey	654	1,0
+Feature Envy	StaticBucketMap.containsValue	655	1,0
+Feature Envy	StaticBucketMap.remove	656	1,0
+God Class	StaticBucketMap	657	1,0
+Feature Envy	TestDefaultedMap.testMapGet	658	1,0
+Feature Envy	TestDefaultedMap.testMapGet2	659	1,0
+Feature Envy	TestDefaultedMap.testMapGet3	660	1,0
+Feature Envy	TestDefaultedMap.testMapGet4	661	1,0
+Refused Parent Bequest	DefaultedMap	662	1,0
+Feature Envy	LazyList.get	663	1,0
+Feature Envy	ListOrderedMap.put	664	1,0
+Feature Envy	ListOrderedMap.putAll	665	1,0
+Feature Envy	ListOrderedMap.toString	666	1,0
+Dispersed Coupling	ListOrderedMap.toString	667	1,0
+Data Class	ListOrderedMap	668	1,0
+Refused Parent Bequest	ListOrderedMap	669	1,0
+Feature Envy	TestBooleanComparator.getComparableObjectsOrdered	670	1,0
+Feature Envy	TestBooleanComparator.testStaticFactoryMethods	671	1,0
+Feature Envy	TestBooleanComparator.testEqualsCompatibleInstance	672	1,0
+Feature Envy	TestBooleanComparator.trueFirstTests	673	1,0
+Feature Envy	TestBooleanComparator.falseFirstTests	674	1,0
+Feature Envy	TestBooleanComparator.nullArgumentTests	675	1,0
+Refused Parent Bequest	TestBooleanComparator	676	1,0
+Feature Envy	TestBoundedFifoBuffer2.testMaxSize	677	1,0
+Shotgun Surgery	MapIterator.hasNext	678	1,0
+Shotgun Surgery	MapIterator.next	679	1,0
+Shotgun Surgery	MapIterator.getKey	680	1,0
+Shotgun Surgery	MapIterator.getValue	681	1,0
+Shotgun Surgery	MapIterator.remove	682	1,0
+Shotgun Surgery	MapIterator.setValue	683	1,0
+Feature Envy	Node.equals	684	1,0
+Feature Envy	TestGrowthList.testGrowthAddAll	685	1,0
+Feature Envy	TestGrowthList.testGrowthSet1	686	1,0
+Feature Envy	TestMultiHashMap.loadMap	687	1,0
+Feature Envy	TestMultiHashMap.testPutAll_Map2	688	1,0
+God Class	TestMultiHashMap	689	1,0
+Refused Parent Bequest	TestMultiHashMap	690	1,0
+Feature Envy	UnmodifiableMapEntry.UnmodifiableMapEntry	691	1,0
+Feature Envy	TestPredicatedMap.testPut	692	1,0
+Feature Envy	TestUnboundedFifoBuffer.testInternalStateAdd	693	1,0
+Feature Envy	TestUnboundedFifoBuffer.testInternalStateAddWithWrap	694	1,0
+Feature Envy	TestUnboundedFifoBuffer.testInternalStateRemove1	695	1,0
+Feature Envy	TestUnboundedFifoBuffer.testInternalStateRemove2	696	1,0
+Feature Envy	TestUnboundedFifoBuffer.testInternalStateIteratorRemove1	697	1,0
+Feature Envy	TestUnboundedFifoBuffer.testInternalStateIteratorRemove2	698	1,0
+Feature Envy	TestUnboundedFifoBuffer.testInternalStateIteratorRemoveWithTailAtEnd1	699	1,0
+Feature Envy	TestUnboundedFifoBuffer.testInternalStateIteratorRemoveWithTailAtEnd2	700	1,0
+Feature Envy	TestUnboundedFifoBuffer.testInternalStateIteratorRemoveWithTailAtEnd3	701	1,0
+Feature Envy	TestUnboundedFifoBuffer.testInternalStateIteratorRemoveWithWrap1	702	1,0
+Feature Envy	TestUnboundedFifoBuffer.testInternalStateIteratorRemoveWithWrap2	703	1,0
+Feature Envy	TestUnboundedFifoBuffer.testInternalStateIteratorRemoveWithWrap3	704	1,0
+Refused Parent Bequest	TestUnboundedFifoBuffer	705	1,0
+Feature Envy	Inverse.firstKey	706	1,0
+Feature Envy	Inverse.lastKey	707	1,0
+Feature Envy	Inverse.putAll	708	1,0
+Shotgun Surgery	AbstractTestCollection.isAddSupported	709	1,0
+Shotgun Surgery	AbstractTestCollection.isRemoveSupported	710	1,0
+Intensive Coupling	AbstractTestCollection.verify	711	1,0
+Shotgun Surgery	AbstractTestCollection.resetEmpty	712	1,0
+Shotgun Surgery	AbstractTestCollection.resetFull	713	1,0
+Feature Envy	AbstractTestCollection.cloneMapEntry	714	1,0
+Shotgun Surgery	AbstractTestCollection.getFullElements	715	1,0
+Shotgun Surgery	AbstractTestCollection.getOtherElements	716	1,0
+Intensive Coupling	AbstractTestCollection.testCollectionIteratorRemove	717	1,0
+Dispersed Coupling	AbstractTestCollection.testCollectionRemoveAll	718	1,0
+Dispersed Coupling	AbstractTestCollection.testCollectionRetainAll	719	1,0
+Feature Envy	AbstractTestCollection.testCollectionToArray	720	1,0
+Dispersed Coupling	AbstractTestCollection.testCollectionToArray	721	1,0
+Dispersed Coupling	AbstractTestCollection.testCollectionToArray2	722	1,0
+Intensive Coupling	AbstractTestCollection.testCollectionIteratorFailFast	723	1,0
+God Class	AbstractTestCollection	724	1,0
+Data Class	AbstractTestCollection	725	1,0
+Refused Parent Bequest	AbstractTestCollection	726	1,0
+Tradition Breaker	AbstractTestCollection	727	1,0
+Shotgun Surgery	Flat3Map.size	728	1,0
+Brain Method	Flat3Map.put	729	1,0
+Feature Envy	Flat3Map.putAll	730	1,0
+Dispersed Coupling	Flat3Map.putAll	731	1,0
+Brain Method	Flat3Map.remove	732	1,0
+Feature Envy	Flat3Map.equals	733	1,0
+Refused Parent Bequest	DualTreeBidiMap	734	1,0

@@ -1,0 +1,128 @@
+src.org.jgrapht.ext.MatrixExporter	Dispersed Coupling
+src.org.jgrapht.ext.MatrixExporter	Feature Envy
+src.org.jgrapht.ext.MatrixExporter	Feature Envy
+src.org.jgrapht.ext.MatrixExporter	Dispersed Coupling
+src.org.jgrapht.graph.GraphDelegator	Refused Parent Bequest
+testsrc.org.jgrapht.experimental.dag.DirectedAcyclicGraphTest	Intensive Coupling
+testsrc.org.jgrapht.experimental.dag.DirectedAcyclicGraphTest	Dispersed Coupling
+testsrc.org.jgrapht.experimental.dag.DirectedAcyclicGraphTest	Feature Envy
+testsrc.org.jgrapht.experimental.dag.DirectedAcyclicGraphTest	Intensive Coupling
+testsrc.org.jgrapht.experimental.dag.DirectedAcyclicGraphTest	Brain Method
+testsrc.org.jgrapht.experimental.dag.DirectedAcyclicGraphTest	Intensive Coupling
+src.org.jgrapht.ext.GraphMLExporter	Dispersed Coupling
+testsrc.org.jgrapht.graph.AsWeightedGraphTest	Feature Envy
+testsrc.org.jgrapht.alg.BlockCutpointGraphTest	Feature Envy
+testsrc.org.jgrapht.alg.BlockCutpointGraphTest	Dispersed Coupling
+src.org.jgrapht.graph.Subgraph$BaseGraphListener	Feature Envy
+src.org.jgrapht.demo.JGraphAdapterDemo	Feature Envy
+src.org.jgrapht.ext.JGraphModelAdapter	Feature Envy
+src.org.jgrapht.ext.JGraphModelAdapter	Intensive Coupling
+src.org.jgrapht.ext.JGraphModelAdapter	God Class
+src.org.jgrapht.experimental.isomorphism.EquivalenceIsomorphismInspector	Feature Envy
+src.org.jgrapht.alg.StrongConnectivityInspector	Dispersed Coupling
+src.org.jgrapht.traverse.DepthFirstIterator	Refused Parent Bequest
+src.org.jgrapht.ext.VisioExporter	Feature Envy
+src.org.jgrapht.alg.DijkstraShortestPath	Feature Envy
+src.org.jgrapht.experimental.dag.DirectedAcyclicGraph	Feature Envy
+src.org.jgrapht.experimental.dag.DirectedAcyclicGraph	Feature Envy
+src.org.jgrapht.experimental.dag.DirectedAcyclicGraph	Refused Parent Bequest
+src.org.jgrapht.experimental.alg.color.GreedyColoring	Feature Envy
+src.org.jgrapht.experimental.alg.color.GreedyColoring	Feature Envy
+src.org.jgrapht.experimental.alg.color.GreedyColoring	Feature Envy
+src.org.jgrapht.experimental.alg.color.GreedyColoring	Data Class
+src.org.jgrapht.experimental.alg.color.GreedyColoring	Refused Parent Bequest
+src.org.jgrapht.graph.AbstractBaseGraph$UndirectedSpecifics	Feature Envy
+src.org.jgrapht.graph.AbstractBaseGraph$UndirectedSpecifics	Dispersed Coupling
+src.org.jgrapht.graph.AbstractBaseGraph$UndirectedSpecifics	Feature Envy
+testsrc.org.jgrapht.alg.EdmondsKarpMaximumFlowTest	Feature Envy
+testsrc.org.jgrapht.alg.EdmondsKarpMaximumFlowTest	Intensive Coupling
+src.org.jgrapht.experimental.alg.color.BrownBacktrackColoring	Feature Envy
+src.org.jgrapht.experimental.alg.color.BrownBacktrackColoring	Feature Envy
+src.org.jgrapht.traverse.TopologicalOrderIterator	Feature Envy
+src.org.jgrapht.traverse.TopologicalOrderIterator	Dispersed Coupling
+src.org.jgrapht.traverse.TopologicalOrderIterator	Refused Parent Bequest
+src.org.jgrapht.alg.TransitiveClosure	Feature Envy
+src.org.jgrapht.alg.TransitiveClosure	Intensive Coupling
+src.org.jgrapht.alg.RankingPathElementList	Feature Envy
+src.org.jgrapht.alg.RankingPathElementList	Feature Envy
+src.org.jgrapht.alg.RankingPathElementList	Feature Envy
+src.org.jgrapht.alg.RankingPathElementList	Refused Parent Bequest
+src.org.jgrapht.experimental.GraphReader	Feature Envy
+src.org.jgrapht.experimental.GraphReader	Dispersed Coupling
+src.org.jgrapht.ext.DOTExporter	Intensive Coupling
+testsrc.org.jgrapht.graph.AsUnweightedGraphTest	Feature Envy
+src.org.jgrapht.experimental.permutation.IntegerPermutationIter	Feature Envy
+src.org.jgrapht.util.FibonacciHeap	Feature Envy
+src.org.jgrapht.util.FibonacciHeap	Feature Envy
+src.org.jgrapht.util.FibonacciHeap	Feature Envy
+src.org.jgrapht.util.FibonacciHeap	Feature Envy
+src.org.jgrapht.util.FibonacciHeap	Feature Envy
+src.org.jgrapht.util.FibonacciHeap	Brain Method
+src.org.jgrapht.util.FibonacciHeap	Feature Envy
+src.org.jgrapht.util.FibonacciHeap	Feature Envy
+src.org.jgrapht.util.FibonacciHeap	Feature Envy
+src.org.jgrapht.experimental.dag.DirectedAcyclicGraph$VisitedArrayListImpl	Feature Envy
+src.org.jgrapht.alg.FloydWarshallShortestPaths	Feature Envy
+testsrc.org.jgrapht.alg.KShortestPathCostTest	Dispersed Coupling
+src.org.jgrapht.generate.RingGraphGenerator	Feature Envy
+src.org.jgrapht.demo.PerformanceDemo	Feature Envy
+src.org.jgrapht.demo.PerformanceDemo	Dispersed Coupling
+src.org.jgrapht.graph.UndirectedSubgraph	Feature Envy
+testsrc.org.jgrapht.alg.KShortestPathKValuesTest	Feature Envy
+testsrc.org.jgrapht.alg.KShortestPathKValuesTest	Dispersed Coupling
+src.org.jgrapht.graph.GraphUnion	Feature Envy
+src.org.jgrapht.graph.GraphUnion	Refused Parent Bequest
+src.org.jgrapht.graph.GraphUnion	Tradition Breaker
+src.org.jgrapht.experimental.GraphTests	Dispersed Coupling
+src.org.jgrapht.experimental.GraphTests	Intensive Coupling
+src.org.jgrapht.alg.NeighborIndex$Neighbors	Feature Envy
+testsrc.org.jgrapht.graph.AsUndirectedGraphTest	Feature Envy
+testsrc.org.jgrapht.graph.AsUndirectedGraphTest	Feature Envy
+src.org.jgrapht.graph.MaskEdgeSet$MaskEdgeSetNextElementFunctor	Feature Envy
+src.org.jgrapht.experimental.alg.IntArrayGraphAlgorithm	Dispersed Coupling
+src.org.jgrapht.alg.BiconnectivityInspector	Dispersed Coupling
+src.org.jgrapht.alg.EulerianCircuit	Intensive Coupling
+src.org.jgrapht.graph.DefaultListenableGraph	Feature Envy
+src.org.jgrapht.graph.DefaultListenableGraph	Feature Envy
+src.org.jgrapht.graph.DefaultListenableGraph	Refused Parent Bequest
+src.org.jgrapht.alg.EdmondsKarpMaximumFlow	Dispersed Coupling
+src.org.jgrapht.experimental.equivalence.EquivalenceSetCreator	Dispersed Coupling
+src.org.jgrapht.experimental.isomorphism.GraphOrdering	Dispersed Coupling
+testsrc.org.jgrapht.traverse.AbstractGraphIteratorTest	Dispersed Coupling
+src.org.jgrapht.graph.AbstractBaseGraph	Data Class
+src.org.jgrapht.graph.AbstractBaseGraph	Refused Parent Bequest
+src.org.jgrapht.graph.MaskSubgraph	Data Class
+src.org.jgrapht.graph.MaskSubgraph	Refused Parent Bequest
+src.org.jgrapht.generate.StarGraphGenerator	Dispersed Coupling
+testsrc.org.jgrapht.alg.DijkstraShortestPathTest	Feature Envy
+src.org.jgrapht.graph.Subgraph	Refused Parent Bequest
+src.org.jgrapht.graph.Subgraph	Tradition Breaker
+src.org.jgrapht.experimental.equivalence.EquivalenceComparatorChainBase	Dispersed Coupling
+testsrc.org.jgrapht.generate.GraphGeneratorTest	Feature Envy
+testsrc.org.jgrapht.generate.GraphGeneratorTest	Dispersed Coupling
+src.org.jgrapht.alg.ChromaticNumber	Intensive Coupling
+src.org.jgrapht.generate.HyperCubeGraphGenerator	Dispersed Coupling
+testsrc.org.jgrapht.experimental.isomorphism.IsomorphismInspectorTest	Feature Envy
+testsrc.org.jgrapht.experimental.isomorphism.IsomorphismInspectorTest	Dispersed Coupling
+testsrc.org.jgrapht.experimental.isomorphism.IsomorphismInspectorTest	Feature Envy
+src.org.jgrapht.graph.AbstractGraph	Intensive Coupling
+testsrc.org.jgrapht.graph.SimpleDirectedGraphTest	Feature Envy
+testsrc.org.jgrapht.graph.SimpleDirectedGraphTest	Refused Parent Bequest
+src.org.jgrapht.traverse.CrossComponentIterator	Refused Parent Bequest
+testsrc.org.jgrapht.alg.BellmanFordShortestPathTest	Feature Envy
+src.org.jgrapht.experimental.touchgraph.TouchgraphPanel	Feature Envy
+src.org.jgrapht.ext.JGraphModelAdapter$JGraphListener	Feature Envy
+src.org.jgrapht.generate.ScaleFreeGraphGenerator	Feature Envy
+src.org.jgrapht.generate.ScaleFreeGraphGenerator	Intensive Coupling
+src.org.jgrapht.alg.BlockCutpointGraph	Intensive Coupling
+src.org.jgrapht.alg.BlockCutpointGraph	Dispersed Coupling
+src.org.jgrapht.alg.BlockCutpointGraph	Refused Parent Bequest
+testsrc.org.jgrapht.generate.RandomGraphGeneratorTest	Feature Envy
+src.org.jgrapht.experimental.GraphSquare	Feature Envy
+src.org.jgrapht.Graphs	Feature Envy
+src.org.jgrapht.traverse.ClosestFirstIterator	Feature Envy
+src.org.jgrapht.traverse.ClosestFirstIterator	Refused Parent Bequest
+src.org.jgrapht.graph.DirectedGraphUnion	Feature Envy
+src.org.jgrapht.graph.DirectedGraphUnion	Feature Envy
+src.org.jgrapht.alg.HamiltonianCycle	Feature Envy
+src.org.jgrapht.alg.HamiltonianCycle	Intensive Coupling

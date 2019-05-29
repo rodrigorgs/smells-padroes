@@ -1,0 +1,17 @@
+com.opensymphony.oscache.base.algorithm.TestLRUCache	(Object)Adapter
+com.opensymphony.oscache.plugins.diskpersistence.AbstractDiskPersistenceListener	Template Method
+com.opensymphony.oscache.base.CacheEntry	State
+com.opensymphony.oscache.base.events.CacheEntryEventType	Singleton
+com.opensymphony.oscache.base.persistence.PersistenceListener	Bridge
+com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	Template Method
+com.opensymphony.oscache.base.algorithm.UnlimitedCache	(Object)Adapter
+com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	Bridge
+com.opensymphony.oscache.base.EntryRefreshPolicy	State
+com.opensymphony.oscache.base.events.CacheMapAccessEventType	Singleton
+com.opensymphony.oscache.base.algorithm.LRUCache	(Object)Adapter
+com.opensymphony.oscache.base.algorithm.TestUnlimitedCache	(Object)Adapter
+com.opensymphony.oscache.plugins.clustersupport.AbstractBroadcastingListener	Template Method
+com.opensymphony.oscache.base.events.CachewideEventType	Singleton
+com.opensymphony.oscache.base.events.ScopeEventType	Singleton
+com.opensymphony.oscache.base.algorithm.FIFOCache	(Object)Adapter
+com.opensymphony.oscache.base.algorithm.TestFIFOCache	(Object)Adapter

@@ -1,0 +1,275 @@
+God Class	AxionConnection	1	1,0
+Dispersed Coupling	ObjectArrayIndexLoader.loadIndex	2	1,0
+Shotgun Surgery	Table.getName	3	1,0
+Shotgun Surgery	Table.getColumn	4	1,0
+Shotgun Surgery	Table.getColumnIndex	5	1,0
+Dispersed Coupling	BaseDatabase.dropTable	6	1,0
+Dispersed Coupling	BaseDatabase.addTable	7	1,0
+Feature Envy	BaseDatabase.resolveFromNode	8	1,0
+Intensive Coupling	BaseDatabase.resolveWhereNode	9	1,0
+Feature Envy	BaseDatabase.loadProperties	10	1,0
+Intensive Coupling	BaseDatabase.loadProperties	11	1,0
+Dispersed Coupling	BaseDatabase.getBaseProperties	12	1,0
+Dispersed Coupling	BaseDatabase.resolveColumn	13	1,0
+Feature Envy	BaseDatabase.resolveFunctionIdentifier	14	1,0
+Feature Envy	BaseDatabase.resolveExpression	15	1,0
+God Class	BaseDatabase	16	1,0
+Feature Envy	SelectCommand.addFrom	17	1,0
+Intensive Coupling	SelectCommand.addFrom	18	1,0
+Dispersed Coupling	SelectCommand.processQuery	19	1,0
+Brain Method	SelectCommand.processFromTree	20	1,0
+Intensive Coupling	SelectCommand.processFromTree	21	1,0
+Intensive Coupling	SelectCommand.processTable	22	1,0
+Dispersed Coupling	SelectCommand.generateSelectArrayForResultSet	23	1,0
+Dispersed Coupling	SelectCommand.populateColumnIdToFieldMap	24	1,0
+God Class	SelectCommand	25	1,0
+Brain Class	SelectCommand	26	1,0
+Refused Parent Bequest	SelectCommand	27	1,0
+Tradition Breaker	SelectCommand	28	1,0
+Dispersed Coupling	BaseArrayIndex.getRowIterator	29	1,0
+Dispersed Coupling	BaseArrayIndex.rowDeleted	30	1,0
+God Class	BaseArrayIndex	31	1,0
+Refused Parent Bequest	BaseArrayIndex	32	1,0
+Feature Envy	DistinctRowIterator.populateValueList	33	1,0
+Shotgun Surgery	SimpleRow.set	34	1,0
+Refused Parent Bequest	TableIdentifier	35	1,0
+Refused Parent Bequest	AddConstraintCommand	36	1,0
+Feature Envy	AxionSqlParser.SqlAxionCustom	37	1,0
+Feature Envy	AxionSqlParser.SqlRemount	38	1,0
+Intensive Coupling	AxionSqlParser.SqlRemount	39	1,0
+Feature Envy	AxionSqlParser.SqlColumnExpression	40	1,0
+Feature Envy	AxionSqlParser.SqlCreateIndex	41	1,0
+Feature Envy	AxionSqlParser.SqlCreateSequence	42	1,0
+Feature Envy	AxionSqlParser.SqlSelect	43	1,0
+Intensive Coupling	AxionSqlParser.SqlUpdate	44	1,0
+Feature Envy	AxionSqlParser.SqlSumExprSelectable	45	1,0
+Feature Envy	AxionSqlParser.SqlProductExprSelectable	46	1,0
+Feature Envy	AxionSqlParser.SqlLiteral	47	1,0
+Feature Envy	AxionSqlParser.SqlLValueTerm	48	1,0
+Feature Envy	AxionSqlParser.SqlFrom	49	1,0
+Feature Envy	AxionSqlParser.SqlTableList	50	1,0
+Feature Envy	AxionSqlParser.SqlJoin	51	1,0
+Feature Envy	AxionSqlParser.SqlJoinType	52	1,0
+Feature Envy	AxionSqlParser.SqlWhereOr	53	1,0
+Feature Envy	AxionSqlParser.SqlWhereAnd	54	1,0
+Feature Envy	AxionSqlParser.SqlCompareOp	55	1,0
+Feature Envy	AxionSqlParser.jj_consume_token	56	1,0
+Feature Envy	AxionSqlParser.jj_scan_token	57	1,0
+Feature Envy	AxionSqlParser.getNextToken	58	1,0
+Feature Envy	AxionSqlParser.getToken	59	1,0
+Feature Envy	AxionSqlParser.jj_ntk	60	1,0
+Feature Envy	AxionSqlParser.generateParseException	61	1,0
+Data Class	AxionSqlParser	62	1,0
+Feature Envy	FileLobLocator.FileLobLocator	63	1,0
+Feature Envy	IntArrayIndex.find	64	1,0
+Feature Envy	IntArrayIndex.insertKey	65	1,0
+Refused Parent Bequest	IntArrayIndex	66	1,0
+Feature Envy	ContainsFunction.evaluate	67	1,0
+Brain Method	ObjectBTree.delete	68	1,0
+Intensive Coupling	ObjectBTree.delete	69	1,0
+Intensive Coupling	ObjectBTree.subdivideChild	70	1,0
+God Class	ObjectBTree	71	1,0
+Brain Class	ObjectBTree	72	1,0
+Shotgun Surgery	ComparisonOperator.equals	73	1,0
+Shotgun Surgery	ColumnIdentifier.getName	74	1,0
+Refused Parent Bequest	ColumnIdentifier	75	1,0
+Feature Envy	AxionPreparedStatement.execute	76	1,0
+God Class	AxionPreparedStatement	77	1,0
+Refused Parent Bequest	AxionPreparedStatement	78	1,0
+Feature Envy	SortedMapIndexLoader.saveIndex	79	1,0
+Brain Method	BTree.delete	80	1,0
+Dispersed Coupling	BTree.subdivideChild	81	1,0
+God Class	BTree	82	1,0
+Brain Class	BTree	83	1,0
+Data Class	BTree	84	1,0
+Feature Envy	AxionDatabaseMetaData.supportsTransactionIsolationLevel	85	1,0
+Dispersed Coupling	AxionDatabaseMetaData.getColumns	86	1,0
+Dispersed Coupling	AxionDatabaseMetaData.getTables	87	1,0
+God Class	AxionDatabaseMetaData	88	1,0
+Shotgun Surgery	RowEvent.getNewRow	89	1,0
+Shotgun Surgery	Database.getTable	90	1,0
+Shotgun Surgery	Database.getTable	91	1,0
+Shotgun Surgery	Database.getTransactionManager	92	1,0
+Feature Envy	SimpleJoinedRowIterator.iteratorsWillCycleToLast	93	1,0
+Feature Envy	SimpleJoinedRowIterator.iteratorsWillCycleToFirst	94	1,0
+Feature Envy	SimpleJoinedRowIterator.iteratorsNext	95	1,0
+Feature Envy	SimpleJoinedRowIterator.iteratorsPrevious	96	1,0
+Feature Envy	SimpleJoinedRowIterator.joinCurrent	97	1,0
+God Class	SimpleJoinedRowIterator	98	1,0
+Refused Parent Bequest	SimpleJoinedRowIterator	99	1,0
+Brain Method	AxionSqlParserTokenManager.jjMoveStringLiteralDfa1_0	100	1,0
+Brain Method	AxionSqlParserTokenManager.jjMoveStringLiteralDfa2_0	101	1,0
+Brain Method	AxionSqlParserTokenManager.jjMoveStringLiteralDfa3_0	102	1,0
+Brain Method	AxionSqlParserTokenManager.jjMoveStringLiteralDfa4_0	103	1,0
+Brain Method	AxionSqlParserTokenManager.jjMoveNfa_0	104	1,0
+Feature Envy	AxionSqlParserTokenManager.jjFillToken	105	1,0
+Feature Envy	AxionSqlParserTokenManager.getNextToken	106	1,0
+Brain Class	AxionSqlParserTokenManager	107	1,0
+Data Class	AxionSqlParserTokenManager	108	1,0
+Feature Envy	ClearBindVariableWhereNodeVisitor.visitLeafWhereNode	109	1,0
+Data Class	BaseDataType	110	1,0
+Brain Method	DiskSystemTable.checkpoint	111	1,0
+Dispersed Coupling	DiskSystemTable.checkpoint	112	1,0
+Refused Parent Bequest	DiskSystemTable	113	1,0
+Tradition Breaker	DiskSystemTable	114	1,0
+Shotgun Surgery	DataType.accepts	115	1,0
+Shotgun Surgery	DataType.convert	116	1,0
+Feature Envy	FindBindVariableWhereNodeVisitor.visitLeafWhereNode	117	1,0
+Intensive Coupling	Console.execute	118	1,0
+Intensive Coupling	Console.printResultSet	119	1,0
+Feature Envy	Console.main	120	1,0
+God Class	Console	121	1,0
+Refused Parent Bequest	LazyRowRowIterator	122	1,0
+Refused Parent Bequest	UnsignedIntegerType	123	1,0
+Intensive Coupling	LikeToRegexpFunction.convertLike	124	1,0
+Data Class	SimpleCharStream	125	1,0
+Dispersed Coupling	Databases.runOnStartup	126	1,0
+Intensive Coupling	TransactionManagerImpl.commitTransaction	127	1,0
+Feature Envy	TransactionManagerImpl.inConflict	128	1,0
+Dispersed Coupling	TransactionManagerImpl.tryToApply	129	1,0
+Refused Parent Bequest	FloatType	130	1,0
+Feature Envy	ReferencesOtherTablesWhereNodeVisitor.visitLeafWhereNode	131	1,0
+Shotgun Surgery	RowIterator.next	132	1,0
+Shotgun Surgery	RowIterator.previous	133	1,0
+Shotgun Surgery	RowIterator.hasNext	134	1,0
+Shotgun Surgery	RowIterator.hasPrevious	135	1,0
+Data Class	UnsignedShortType	136	1,0
+Refused Parent Bequest	UnsignedShortType	137	1,0
+Refused Parent Bequest	ChainedRowIterator	138	1,0
+Dispersed Coupling	UniqueConstraint.evaluate	139	1,0
+Shotgun Surgery	LeafWhereNode.getLeft	140	1,0
+Shotgun Surgery	LeafWhereNode.getRight	141	1,0
+Refused Parent Bequest	DeleteCommand	142	1,0
+Dispersed Coupling	DiskTable.applyUpdates	143	1,0
+Feature Envy	DiskTable.populateIndex	144	1,0
+Dispersed Coupling	DiskTable.populateIndex	145	1,0
+Brain Method	DiskTable.getRowIterator	146	1,0
+Dispersed Coupling	DiskTable.defrag	147	1,0
+Brain Method	DiskTable.glomLobs	148	1,0
+Dispersed Coupling	DiskTable.glomLobs	149	1,0
+Dispersed Coupling	DiskTable.applyInserts	150	1,0
+Feature Envy	DiskTable.initFiles	151	1,0
+God Class	DiskTable	152	1,0
+Brain Class	DiskTable	153	1,0
+Data Class	DiskTable	154	1,0
+Refused Parent Bequest	DiskTable	155	1,0
+Tradition Breaker	DiskTable	156	1,0
+Refused Parent Bequest	RemountCommand	157	1,0
+Refused Parent Bequest	BinaryBranchWhereNode	158	1,0
+Feature Envy	IfThenFunction.evaluate	159	1,0
+Refused Parent Bequest	CreateIndexCommand	160	1,0
+Refused Parent Bequest	MemoryTable	161	1,0
+Tradition Breaker	MemoryTable	162	1,0
+Feature Envy	CoalesceFunction.evaluate	163	1,0
+Shotgun Surgery	Column.getName	164	1,0
+Shotgun Surgery	Column.getDataType	165	1,0
+Feature Envy	AxionStatement.execute	166	1,0
+Feature Envy	AxionStatement.setFetchDirection	167	1,0
+Feature Envy	AxionStatement.executeUpdate	168	1,0
+God Class	AxionStatement	169	1,0
+Refused Parent Bequest	AxionStatement	170	1,0
+Refused Parent Bequest	AxionColumnsMetaTableUpdater	171	1,0
+Tradition Breaker	AxionColumnsMetaTableUpdater	172	1,0
+Feature Envy	AxionTablesMetaTableUpdater.createRowForAddedTable	173	1,0
+Refused Parent Bequest	ByteType	174	1,0
+Refused Parent Bequest	BaseJoinedRowIterator	175	1,0
+Feature Envy	AnyType.toLong	176	1,0
+God Class	AnyType	177	1,0
+Data Class	AnyType	178	1,0
+Dispersed Coupling	InWhereNode.evaluate	179	1,0
+Feature Envy	LimitingRowIterator.determineNextRow	180	1,0
+Feature Envy	LimitingRowIterator.determinePreviousRow	181	1,0
+Feature Envy	CompressedLOBType.makeBlobSource	182	1,0
+Feature Envy	CompressedLOBType.makeClobSource	183	1,0
+Dispersed Coupling	IntBTreeIndex.getRowIterator	184	1,0
+Dispersed Coupling	IntBTreeIndex.rowInserted	185	1,0
+Refused Parent Bequest	IntBTreeIndex	186	1,0
+Dispersed Coupling	UpdateCommand.executeUpdate	187	1,0
+Refused Parent Bequest	UpdateCommand	188	1,0
+Refused Parent Bequest	BigDecimalType	189	1,0
+Refused Parent Bequest	ListIteratorRowIterator	190	1,0
+Dispersed Coupling	CreateTableCommand.execute	191	1,0
+Intensive Coupling	CreateTableCommand.toString	192	1,0
+Refused Parent Bequest	CreateTableCommand	193	1,0
+Refused Parent Bequest	LongType	194	1,0
+Shotgun Surgery	TableModifiedEvent.getTable	195	1,0
+Feature Envy	AxionTypesMetaTableUpdater.typeAdded	196	1,0
+Feature Envy	BaseTable.addConstraint	197	1,0
+Dispersed Coupling	BaseTable.removeConstraint	198	1,0
+Feature Envy	BaseTable.getColumnIdentifiers	199	1,0
+Feature Envy	BaseTable.notifyColumnsOfNewLobDir	200	1,0
+Dispersed Coupling	BaseTable.getIndexedRows	201	1,0
+God Class	BaseTable	202	1,0
+Refused Parent Bequest	BaseTable	203	1,0
+Tradition Breaker	BaseTable	204	1,0
+Shotgun Surgery	Row.get	205	1,0
+Shotgun Surgery	Row.getIdentifier	206	1,0
+Feature Envy	ParseException.getMessage	207	1,0
+Feature Envy	TransactableTableImpl.addRow	208	1,0
+Dispersed Coupling	TransactableTableImpl.getIndexedRows	209	1,0
+Feature Envy	TransactableTableImpl.getComparatorForWhereNode	210	1,0
+Dispersed Coupling	TransactableTableImpl.commit	211	1,0
+Dispersed Coupling	TransactableTableImpl.apply	212	1,0
+Feature Envy	TransactableTableImpl.deleteRow	213	1,0
+Feature Envy	TransactableTableImpl.updateRow	214	1,0
+Refused Parent Bequest	TransactableTableImpl	215	1,0
+Tradition Breaker	TransactableTableImpl	216	1,0
+Feature Envy	AbstractAcceptingRowIterator.determineNextRow	217	1,0
+Feature Envy	AbstractAcceptingRowIterator.determinePreviousRow	218	1,0
+Feature Envy	BaseWhereNodeVisitor.transverseWhereNode	219	1,0
+Dispersed Coupling	ObjectBTreeIndex.getRowIterator	220	1,0
+Dispersed Coupling	ObjectBTreeIndex.rowInserted	221	1,0
+Refused Parent Bequest	ObjectBTreeIndex	222	1,0
+Shotgun Surgery	Selectable.evaluate	223	1,0
+Shotgun Surgery	Selectable.getDataType	224	1,0
+Dispersed Coupling	DiskDatabase.loadTables	225	1,0
+Dispersed Coupling	DiskDatabase.checkpoint	226	1,0
+God Class	DiskDatabase	227	1,0
+Refused Parent Bequest	DiskDatabase	228	1,0
+Data Class	UnsignedByteType	229	1,0
+Refused Parent Bequest	UnsignedByteType	230	1,0
+Refused Parent Bequest	ShortType	231	1,0
+Feature Envy	TimestampType.successor	232	1,0
+Feature Envy	TimestampType.write	233	1,0
+Data Class	TimestampType	234	1,0
+God Class	LOBType	235	1,0
+Data Class	LOBType	236	1,0
+Feature Envy	ObjectArrayIndex.find	237	1,0
+Feature Envy	ObjectArrayIndex.insertKey	238	1,0
+Refused Parent Bequest	ObjectArrayIndex	239	1,0
+Dispersed Coupling	BaseDiskTable.loadIndices	240	1,0
+Feature Envy	BaseDiskTable.parseMetaFile	241	1,0
+God Class	BaseDiskTable	242	1,0
+Refused Parent Bequest	BaseDiskTable	243	1,0
+Dispersed Coupling	SnapshotIsolationTransaction.getWrappedTable	244	1,0
+Shotgun Surgery	BaseIndex.getName	245	1,0
+Shotgun Surgery	BaseIndex.getIndexedColumn	246	1,0
+Shotgun Surgery	BaseIndex.isUnique	247	1,0
+Dispersed Coupling	SortedMapIndex.getRowIterator	248	1,0
+Feature Envy	SortedMapIndex.supportsOperator	249	1,0
+Dispersed Coupling	SortedMapIndex.rowInserted	250	1,0
+Dispersed Coupling	SortedMapIndex.rowDeleted	251	1,0
+Dispersed Coupling	SortedMapIndex.changeRowId	252	1,0
+Dispersed Coupling	SortedMapIndex.flattenLists	253	1,0
+God Class	SortedMapIndex	254	1,0
+Data Class	SortedMapIndex	255	1,0
+Feature Envy	Defrag.main	256	1,0
+Feature Envy	BTreeValueIterator.hasNext	257	1,0
+Feature Envy	BTreeValueIterator.next	258	1,0
+Intensive Coupling	BTreeValueIterator.next	259	1,0
+Dispersed Coupling	InsertCommand.executeUpdate	260	1,0
+Feature Envy	InsertCommand.resolve	261	1,0
+Refused Parent Bequest	InsertCommand	262	1,0
+Tradition Breaker	InsertCommand	263	1,0
+Shotgun Surgery	BaseFunction.getArgumentCount	264	1,0
+Shotgun Surgery	BaseFunction.getArgument	265	1,0
+Intensive Coupling	IndexJoinedRowIterator.setNextRow	266	1,0
+Intensive Coupling	IndexJoinedRowIterator.setPreviousRow	267	1,0
+Feature Envy	CollatingRowIterator.next	268	1,0
+Dispersed Coupling	CollatingRowIterator.next	269	1,0
+Refused Parent Bequest	CollatingRowIterator	270	1,0
+Tradition Breaker	CollatingRowIterator	271	1,0
+Shotgun Surgery	BaseAxionCommand.assertNotReadOnly	272	1,0
+Dispersed Coupling	BaseAxionCommand.processWhereTree	273	1,0
+Refused Parent Bequest	IntegerType	274	1,0
+God Class	AxionResultSet	275	1,0

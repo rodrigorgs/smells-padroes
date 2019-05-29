@@ -1,0 +1,5 @@
+eg.music.Simulator	Singleton
+eg.AllPairs	Singleton
+fit.Parse	(Object)Adapter
+fit.RowFixture	Template Method
+eg.ColumnIndex	(Object)Adapter

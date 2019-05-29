@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method" />
+	<pattern name="Prototype" />
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="org.cyberneko.html.xercesbridge.XercesBridge" />
+			<role name="uniqueInstance" element="org.cyberneko.html.xercesbridge.XercesBridge::instance:org.cyberneko.html.xercesbridge.XercesBridge" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter" />
+	<pattern name="Command" />
+	<pattern name="Composite" />
+	<pattern name="Decorator" />
+	<pattern name="Observer" />
+	<pattern name="State">
+		<instance>
+			<role name="State" element="org.cyberneko.html.HTMLScanner$Scanner" />
+			<role name="Context" element="org.cyberneko.html.HTMLScanner" />
+			<role name="state" element="org.cyberneko.html.HTMLScanner::fScanner:org.cyberneko.html.HTMLScanner$Scanner" />
+			<role name="state" element="org.cyberneko.html.HTMLScanner::fContentScanner:org.cyberneko.html.HTMLScanner$Scanner" />
+			<role name="Request()" element="org.cyberneko.html.HTMLScanner::evaluateInputSource(org.apache.xerces.xni.parser.XMLInputSource):void" />
+			<role name="Request()" element="org.cyberneko.html.HTMLScanner::scanDocument(boolean):boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.cyberneko.html.HTMLScanner" />
+			<role name="State" element="org.cyberneko.html.HTMLErrorReporter" />
+			<role name="state" element="org.cyberneko.html.HTMLScanner::fErrorReporter:org.cyberneko.html.HTMLErrorReporter" />
+			<role name="Request()" element="org.cyberneko.html.HTMLScanner::setInputSource(org.apache.xerces.xni.parser.XMLInputSource):void" />
+			<role name="Request()" element="org.cyberneko.html.HTMLScanner::scanDoctype():void" />
+			<role name="Request()" element="org.cyberneko.html.HTMLScanner::scanLiteral():java.lang.String" />
+			<role name="Request()" element="org.cyberneko.html.HTMLScanner::scanEntityRef(org.apache.xerces.util.XMLStringBuffer, boolean):int" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.cyberneko.html.HTMLTagBalancer" />
+			<role name="State" element="org.cyberneko.html.HTMLErrorReporter" />
+			<role name="state" element="org.cyberneko.html.HTMLTagBalancer::fErrorReporter:org.cyberneko.html.HTMLErrorReporter" />
+			<role name="Request()" element="org.cyberneko.html.HTMLTagBalancer::doctypeDecl(java.lang.String, java.lang.String, java.lang.String, org.apache.xerces.xni.Augmentations):void" />
+			<role name="Request()" element="org.cyberneko.html.HTMLTagBalancer::endDocument(org.apache.xerces.xni.Augmentations):void" />
+			<role name="Request()" element="org.cyberneko.html.HTMLTagBalancer::startElement(org.apache.xerces.xni.QName, org.apache.xerces.xni.XMLAttributes, org.apache.xerces.xni.Augmentations):void" />
+			<role name="Request()" element="org.cyberneko.html.HTMLTagBalancer::startGeneralEntity(java.lang.String, org.apache.xerces.xni.XMLResourceIdentifier, java.lang.String, org.apache.xerces.xni.Augmentations):void" />
+			<role name="Request()" element="org.cyberneko.html.HTMLTagBalancer::forceStartBody():void" />
+			<role name="Request()" element="org.cyberneko.html.HTMLTagBalancer::characters(org.apache.xerces.xni.XMLString, org.apache.xerces.xni.Augmentations):void" />
+			<role name="Request()" element="org.cyberneko.html.HTMLTagBalancer::endElement(org.apache.xerces.xni.QName, org.apache.xerces.xni.Augmentations):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.cyberneko.html.HTMLTagBalancer" />
+			<role name="State" element="org.cyberneko.html.HTMLTagBalancingListener" />
+			<role name="state" element="org.cyberneko.html.HTMLTagBalancer::tagBalancingListener:org.cyberneko.html.HTMLTagBalancingListener" />
+			<role name="Request()" element="org.cyberneko.html.HTMLTagBalancer::notifyDiscardedStartElement(org.apache.xerces.xni.QName, org.apache.xerces.xni.XMLAttributes, org.apache.xerces.xni.Augmentations):void" />
+			<role name="Request()" element="org.cyberneko.html.HTMLTagBalancer::notifyDiscardedEndElement(org.apache.xerces.xni.QName, org.apache.xerces.xni.Augmentations):void" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy" />
+	<pattern name="Bridge" />
+	<pattern name="Template Method" />
+	<pattern name="Visitor" />
+	<pattern name="Proxy" />
+	<pattern name="Proxy2" />
+	<pattern name="Chain of Responsibility" />
+</system>
+
