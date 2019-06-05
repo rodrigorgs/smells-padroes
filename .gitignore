@@ -2,3 +2,4 @@
 *.htm*
 .Rhistory
 .Rproj*
+.Rproj.user
