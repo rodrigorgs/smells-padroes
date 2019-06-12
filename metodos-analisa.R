@@ -1,4 +1,17 @@
-# TODO: analise por sistema
+# TODO:
+# - Cada padrao so possui um papel relacionado a metodos?
+# - Rodar em repo de design patterns de exemplo para ver se ele localiza os design patterns e se esses design patterns possuem smells
+#   - https://github.com/iluwatar/java-design-patterns
+#   - https://github.com/kamranahmedse/design-patterns-for-humans
+#   - https://github.com/clarketm/java-design-patterns
+# - Idem para smells
+#   - https://github.com/nerdschoolbergen/code-smells (nao sao exatamente os mesmos smells)
+
+#
+# Para ver:
+# axion - LeafWhereNode.evaluate
+
+# TODO: analise por sistema, para identificar relacoes especificas de determinados dominios
 
 detachAllPackages <- function() {
   basic.packages <- c("package:stats","package:graphics","package:grDevices","package:utils","package:datasets","package:methods","package:base")
@@ -23,7 +36,7 @@ source('carrega.R', chdir = T)
 mymosaic <- function(tab, ...) {
   tab <- tab[order(tab[,1] / rowSums(tab)),]
   mosaic(tab, shade=T,  direction = "v",
-         rot_labels=c(45,0,0,90),
+         rot_labels=c(45,0,0,0), # rot_labels=c(45,0,0,90),
          just_labels = c("left", 
                          "center", 
                          "center", 
@@ -37,7 +50,7 @@ mymosaic <- function(tab, ...) {
 # interpreting V < 0.3 as small, V < 0.5 as medium, and
 # V > 0.5 as large effect size
 
-tab <- xtabs(~ padrao + smell, data = padroes_smells)
+tab <- xtabs(~ padrao + smell, data = metodos)
 t(tab) %>% as.data.frame.matrix() %>% pander()
 
 ###########
@@ -57,7 +70,7 @@ sort(table(smells$smell))
 ####################################
 
 #' # QP1: Existe associação entre ocorrência de padrões e ocorrência de smells? 
-tab <- xtabs(~ hasPadrao + hasSmell, data=classes)
+tab <- xtabs(~ hasPadrao + hasSmell, data=metodos)
 #mosaicplot(tab, shade = T)
 tab %>% pander()
 mymosaic(tab)
@@ -70,8 +83,8 @@ fisher.test(tab)
 
 #' --------------
 
-#' # QP2: Quais são os smells mais frequentes nas classes que possuem padrões?
-tab <- xtabs(~ smell + hasPadrao, data=smells)
+#' # QP2: Quais são os smells mais frequentes nos metodos que possuem padrões?
+tab <- xtabs(~ smell + hasPadrao, data=metodos)
 mean(tab < 5)
 names(dimnames(tab)) <- c(" ", "Possui Padrao?")
 mymosaic(tab)
@@ -82,8 +95,8 @@ pdf("pdf/fig_smellsFrequentesPadroes.pdf")
 mymosaic(tab)
 dev.off()
 
-#' # QP2: Quais são as categorias de smell mais frequentes nas classes que possuem padrões?
-tab <- xtabs(~ catSmell + hasPadrao, data=smells)
+#' # QP2: Quais são as categorias de smell mais frequentes nos metodos que possuem padrões?
+tab <- xtabs(~ catSmell + hasPadrao, data=metodos)
 tab %>% pander()
 mean(tab < 5)
 names(dimnames(tab)) <- c(" ", "Possui Padrao?")
@@ -99,7 +112,7 @@ dev.off()
 #' --------------
 
 #' # QP3: Quais padrões possuem maior propensão a apresentar smells?
-tab <- xtabs(~ padrao + hasSmell, data=padroes)
+tab <- xtabs(~ padrao + hasSmell, data=metodos)
 tab %>% pander()
 mean(tab < 5)
 names(dimnames(tab)) <- c(" ", "Possui Smell?")
@@ -111,9 +124,20 @@ pdf("pdf/fig_propenApresentarSmells.pdf")
 mymosaic(tab)
 dev.off()
 
+#' ### Amostra
+
+metodos %>%
+  filter(hasSmell,
+         padrao == "Adapter" | padrao == 'State') %>%
+  View()
+
+#' # QP3
+tab <- xtabs(~ I(paste(padrao, papel, sep = "-")) + hasSmell, data=filter(metodos, !is.na(padrao)))
+names(dimnames(tab)) <- c(" ", "Possui Smell?")
+mymosaic(tab)
 
 #' # QP3: Quais categorias de padrão possuem maior propensão a apresentar smell?
-tab <- xtabs(~ catPadrao + hasSmell, data=padroes)
+tab <- xtabs(~ catPadrao + hasSmell, data=metodos)
 tab %>% pander()
 mean(tab < 5)
 names(dimnames(tab)) <- c(" ", "Possui Smell?")
@@ -129,7 +153,7 @@ dev.off()
 #' --------------
 
 #' # QP4: Cada categoria de padrao com cada categoria de smell
-tab <- xtabs(~ catPadrao + catSmell, data=padroes_smells_simultaneos)
+tab <- xtabs(~ catPadrao + catSmell, data=metodos)
 tab %>% pander()
 mean(tab < 5)
 names(dimnames(tab)) <- c(" ", "  ")
@@ -144,7 +168,7 @@ dev.off()
 
 
 #' # QP4: Cada padrao com cada smell
-tab <- xtabs(~ padrao + smell, data=padroes_smells_simultaneos)
+tab <- xtabs(~ padrao + smell, data=metodos)
 tab %>% pander()
 mean(tab < 5)
 mymosaic(tab)
@@ -159,9 +183,17 @@ assocstats(tab) %>% print()
 
 #' Para inspecao manual:
 
-inspecionar <- padroes_smells_simultaneos %>%
+inspecionar <- metodos %>%
   filter(padrao == "Template Method",
          smell == "Shotgun Surgery")
+
+inspecionar <- metodos %>%
+  filter(padrao == "Factory Method",
+         smell == "Shotgun Surgery")
+
+inspecionar <- metodos %>%
+  filter(padrao == "Adapter",
+         smell == "Feature Envy")
 
 # tab
 # chisq.test(tab)$expected %>% mymosaic()
@@ -170,7 +202,7 @@ inspecionar <- padroes_smells_simultaneos %>%
 #' # Questoes que ficaram de fora
 
 #' # Cada categoria de padrao com cada smell
-tab <- xtabs(~ catPadrao + smell, data=padroes_smells_simultaneos)
+tab <- xtabs(~ catPadrao + smell, data=metodos)
 tab %>% pander()
 mean(tab < 5)
 mymosaic(t(tab))
@@ -179,7 +211,7 @@ assocstats(tab) %>% print()
 chisq.test(tab)$residuals %>% pander()
 
 #' # Cada categoria de smell com cada padrao
-tab <- xtabs(~ catSmell + padrao, data=padroes_smells_simultaneos)
+tab <- xtabs(~ catSmell + padrao, data=metodos)
 tab %>% pander()
 mean(tab < 5)
 mymosaic(t(tab))
