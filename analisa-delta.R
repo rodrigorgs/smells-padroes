@@ -3,52 +3,63 @@ library(readr)
 library(dplyr)
 
 project <- "displaytag"
-padroes_orig <- read.csv(path.expand(paste0("~/Dropbox/ARTIGOS/arquivos_2020/novos/pai/", project, "_padrao.txt")), sep = "\t", header = F, col.names = c("commit", "parent", "classe", "metodo", "padrao", "operacao"), stringsAsFactors = F)
-smells_orig <- read.csv(path.expand(paste0("~/Dropbox/ARTIGOS/arquivos_2020/novos/pai/", project, "_smells.txt")), sep = "\t", header = F, col.names = c("commit", "parent", "classe", "metodo", "smell", "operacao"), stringsAsFactors = F)
+# project <- "commons-io"
+
+# BASE_PATH <- "~/Dropbox/ARTIGOS/arquivos_2020/17-06-2020/"
+BASE_PATH <- "/tmp/ederson/"
+padroes_orig <- read.csv(path.expand(paste0(BASE_PATH, project, "_padrao.txt")), sep = "\t", header = F, stringsAsFactors = F,
+  col.names = c("commit", "parent", "ancestor",  "classe", "metodo", "padrao", "operacao"))
+smells_orig <- read.csv(path.expand(paste0(BASE_PATH, project, "_smells.txt")), sep = "\t", header = F, stringsAsFactors = F,
+  col.names = c("commit", "parent", "ancestor", "classe", "metodo", "smell", "operacao"))
 
 padroes <- padroes_orig %>%
-  filter(operacao == 'Adicionado' | operacao == 'Passado') %>%
-  select(-operacao)
-
-padroes_do_pai <- padroes %>%
-  select(parent) %>%
-  inner_join(padroes, by = c("parent" = "commit")) %>%
-  rename(commit = parent) %>%
-  select(-parent.y) %>%
-  distinct()
-
-padroes <- padroes %>% select(-parent)
-
-padroes_adicionados <- anti_join(padroes, padroes_do_pai)
-padroes_removidos <- anti_join(padroes_do_pai, padroes)
-
-delta_padroes <- padroes_adicionados %>%
-  mutate(operacao = 'Adicionado') %>%
-  rbind(padroes_removidos %>% mutate(operacao = 'Removido'))
-
-###
+  filter(ancestor != 'null' & parent != 'null') %>%
+  filter(parent == ancestor) %>%
+  filter(operacao != 'Passado') %>%
+  select(-ancestor)
 
 smells <- smells_orig %>%
-  filter(operacao == 'Adicionado' | operacao == 'Passado') %>%
-  select(-operacao)
+  mutate(smell = trimws(smell)) %>%
+  filter(ancestor != 'null' & parent != 'null') %>%
+  filter(parent == ancestor) %>%
+  filter(operacao != 'Passado') %>%
+  select(-ancestor)
 
-smells_do_pai <- smells %>%
-  select(parent) %>%
-  inner_join(smells, by = c("parent" = "commit")) %>%
-  rename(commit = parent) %>%
-  select(-parent.y) %>%
-  distinct()
+##########
 
-smells <- smells %>% select(-parent)
+x <- padroes %>% filter(operacao != 'Passado')
+#' Quantas adições/remoções de padrões?
+padroes %>% filter(operacao != 'Passado') %>% tally()
 
-smells_adicionados <- anti_join(smells, smells_do_pai)
-smells_removidos <- anti_join(smells_do_pai, smells)
+#' Quantas adições/remoções de smells?
+smells %>% filter(operacao != 'Passado') %>% tally()
 
-delta_smells <- smells_adicionados %>%
-  mutate(operacao = 'Adicionado') %>%
-  rbind(smells_removidos %>% mutate(operacao = 'Removido'))
 
-###
+##########
 
-x <- delta_padroes %>%
-  inner_join(delta_smells, by = c("commit", "classe", "metodo"))
+data <- padroes %>%
+  rename(operacao_padrao = operacao) %>%
+  filter(operacao_padrao == 'Adicionado') %>%
+  left_join(smells)
+
+xtabs(~ padrao + smell, data=data, exclude=NULL, na.action=na.pass)
+
+###########
+
+#' Agrupando smells em sim/não
+
+data2 <- data %>%
+  group_by(commit, parent, classe, metodo, padrao) %>%
+  summarise(added_smell = any(operacao == 'Adicionado') %>% coalesce(FALSE),
+            removed_smell = any(operacao == 'Removido') %>% coalesce(FALSE))
+
+#' Ao adicionar um determinado padrão P, quantos % das vezes estamos adicionando algum smell?
+t <- xtabs(~ padrao + added_smell, data=data2, exclude=NULL, na.action=na.pass)
+t
+mosaicplot(t)
+chisq.test(t)
+
+t <- xtabs(~ padrao + removed_smell, data=data2, exclude=NULL, na.action=na.pass)
+t
+mosaicplot(t)
+chisq.test(t)
