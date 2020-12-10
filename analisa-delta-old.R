@@ -3,29 +3,38 @@ library(readr)
 library(dplyr)
 
 project <- "displaytag"
-BASE_PATH <- "/tmp/ederson/"
+BASE_PATH <- "~/Dropbox/ARTIGOS/arquivos_2020/29-06-2020/displaytag_result/"
 padroes_orig <- read.csv(path.expand(paste0(BASE_PATH, project, "_padrao.txt")), sep = "\t", header = F, stringsAsFactors = F,
                          col.names = c("commit", "parent", "ancestor",  "classe", "metodo", "padrao", "operacao"))
 smells_orig <- read.csv(path.expand(paste0(BASE_PATH, project, "_smells.txt")), sep = "\t", header = F, stringsAsFactors = F,
                         col.names = c("commit", "parent", "ancestor", "classe", "metodo", "smell", "operacao"))
+releases_orig <- read.csv(path.expand(paste0(BASE_PATH, project, "_releases.txt")), sep = "\t", header = F, stringsAsFactors = F,
+                     col.names = c("commit", "release"))
+
+releases <- releases_orig %>%
+  mutate(parent = lag(commit))
 
 # Quais padrões estão presentes em cada commit
 padroes <- padroes_orig %>%
   filter(operacao != 'Removido') %>%
-  select(-operacao)
+  select(-operacao) %>%
+  filter(commit %in% releases$commit) # ***
 
 # Quais smells estão presentes em cada commit
 smells <- smells_orig %>%
   mutate(smell = trimws(smell)) %>%
   filter(operacao != 'Removido') %>%
-  select(-operacao)
+  select(-operacao) %>%
+  filter(commit %in% releases$commit) # ***
 
 ##########
 
 padroes2 <- padroes %>%
-  filter(ancestor != 'null' & parent != 'null') %>%
-  filter(parent == ancestor) %>%
-  select(-ancestor)
+  # filter(ancestor != 'null' & parent != 'null') %>%
+  # filter(parent == ancestor) %>%
+  select(-ancestor, -parent) %>%
+  inner_join(releases) %>%
+  filter(!is.na(parent))
 
 # child, parent
 commits_elegiveis_padroes <- padroes2 %>%
@@ -33,7 +42,7 @@ commits_elegiveis_padroes <- padroes2 %>%
   distinct()
 
 padroes_do_pai <- commits_elegiveis_padroes %>%
-  inner_join(padroes %>% select(-parent, -ancestor), by = c("parent" = "commit")) %>%
+  inner_join(padroes2 %>% select(-parent), by = c("parent" = "commit")) %>%
   rename(commit = child)
 
 padroes_adicionados <- anti_join(padroes2, padroes_do_pai)
@@ -49,9 +58,9 @@ nrow(delta_padroes)
 ###
 
 smells2 <- smells %>%
-  filter(ancestor != 'null' & parent != 'null') %>%
-  filter(parent == ancestor) %>%
-  select(-ancestor)
+  select(-ancestor, -parent) %>%
+  inner_join(releases) %>%
+  filter(!is.na(parent))
 
 # child, parent
 commits_elegiveis_smells <- smells2 %>%
@@ -59,7 +68,7 @@ commits_elegiveis_smells <- smells2 %>%
   distinct()
 
 smells_do_pai <- commits_elegiveis_smells %>%
-  inner_join(smells %>% select(-parent, -ancestor), by = c("parent" = "commit")) %>%
+  inner_join(smells2 %>% select(-parent), by = c("parent" = "commit")) %>%
   rename(commit = child)
 
 smells_adicionados <- anti_join(smells2, smells_do_pai)
@@ -74,17 +83,29 @@ nrow(delta_smells)
 
 
 ###
+# E os casos em que se adiciona um padrão mas não há alteração nos smells?
 
 x <- delta_padroes %>%
-  inner_join(delta_smells, by = c("commit", "classe", "metodo"))
-
-#
-
-unique(padroes$padrao)
-unique(smells$smell)
+  inner_join(delta_smells, by = c("commit", "classe", "metodo")) %>%
+  filter(operacao.x == 'Adicionado' & operacao.y == 'Adicionado')
 
 z <- xtabs(~ padrao + smell, data=x)
 z
 library(vcd)
 mosaic(z, shade=T, direction="v")
 chisq.test(z)
+
+
+###
+
+x <- delta_padroes %>%
+  inner_join(delta_smells, by = c("commit", "classe", "metodo")) %>%
+  filter(operacao.x == 'Adicionado' & operacao.y == 'Removido')
+
+z <- xtabs(~ padrao + smell, data=x)
+z
+library(vcd)
+mosaic(z, shade=T, direction="v")
+chisq.test(z)
+
+

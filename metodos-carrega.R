@@ -51,14 +51,14 @@ for (sistema in sistemas) {
   # Checa inconsistencias
   x <- setdiff(paste(p$classe, p$metodo), paste(c$classe, c$metodo))
   if (length(x) > 0) {
-    print("p - c")
-    print(x)
+    # print("p - c")
+    # print(x)
     # stop()
   }
   x <- setdiff(paste(s$classe, s$metodo), paste(c$classe, c$metodo))
   if (length(x) > 0) {
-    print("s - c")
-    print(x)
+    # print("s - c")
+    # print(x)
     # stop()
   }
   rm(x)
