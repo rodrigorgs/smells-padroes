@@ -6,13 +6,14 @@ library(dplyr)
 # project <- "commons-io"
 project <- "fastjson"
 
-# BASE_PATH <- "~/Dropbox/ARTIGOS/arquivos_2020/17-06-2020/"
-BASE_PATH <- "/tmp/fastjson/"
-padroes_orig <- read.csv(path.expand(paste0(BASE_PATH, project, "_padrao.txt")), sep = "\t", header = F, stringsAsFactors = F,
+# Carrega dados
+BASE_PATH <- "~/Dropbox/ARTIGOS/arquivos_2020/arquivos_para_analise/"
+padroes_orig <- read.csv(path.expand(paste0(BASE_PATH, project, "/", project, "_padrao.txt")), sep = "\t", header = F, stringsAsFactors = F,
   col.names = c("commit", "parent", "ancestor",  "classe", "metodo", "padrao", "operacao"))
-smells_orig <- read.csv(path.expand(paste0(BASE_PATH, project, "_smells.txt")), sep = "\t", header = F, stringsAsFactors = F,
+smells_orig <- read.csv(path.expand(paste0(BASE_PATH, project, "/", project, "_smells.txt")), sep = "\t", header = F, stringsAsFactors = F,
   col.names = c("commit", "parent", "ancestor", "classe", "metodo", "smell", "operacao"))
 
+# Remove registros sem commit anterior
 padroes <- padroes_orig %>%
   filter(ancestor != 'null' & parent != 'null') %>%
   filter(parent == ancestor) %>%
