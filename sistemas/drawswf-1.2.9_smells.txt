@@ -1,325 +1,325 @@
-at.bestsolution.drawswf.DrawingPanel	Feature Envy
-at.bestsolution.drawswf.DrawingPanel	Dispersed Coupling
-at.bestsolution.drawswf.DrawingPanel	Feature Envy
-at.bestsolution.drawswf.DrawingPanel	Feature Envy
-at.bestsolution.drawswf.DrawingPanel	Feature Envy
-at.bestsolution.drawswf.DrawingPanel	Dispersed Coupling
-at.bestsolution.drawswf.DrawingPanel	Dispersed Coupling
-at.bestsolution.drawswf.DrawingPanel	Dispersed Coupling
-at.bestsolution.drawswf.DrawingPanel	God Class
-com.anotherbigidea.flash.interfaces.SWFTags	Shotgun Surgery
-com.anotherbigidea.flash.movie.Font$Chars	Dispersed Coupling
-at.bestsolution.drawswf.drawobjects.Picture	Feature Envy
-at.bestsolution.drawswf.drawobjects.Picture	Dispersed Coupling
-at.bestsolution.drawswf.drawobjects.Picture	Feature Envy
-at.bestsolution.drawswf.drawobjects.Picture	Refused Parent Bequest
-at.bestsolution.drawswf.LineWidthChooser$JLinePanel	Feature Envy
-org.apache.batik.ext.awt.image.SVGComposite$OutCompositeContext	Feature Envy
-com.anotherbigidea.flash.writers.ActionTextWriter	God Class
-com.anotherbigidea.flash.writers.ActionTextWriter	Data Class
-com.anotherbigidea.flash.writers.SWFTagDumper	Feature Envy
-com.anotherbigidea.flash.writers.SWFTagDumper	Feature Envy
-com.anotherbigidea.flash.writers.SWFTagDumper	Feature Envy
-com.anotherbigidea.flash.writers.SWFTagDumper	God Class
-com.anotherbigidea.flash.writers.SWFTagDumper	Data Class
-com.anotherbigidea.flash.movie.Frame	Feature Envy
-com.anotherbigidea.flash.movie.Frame	God Class
-com.anotherbigidea.flash.movie.Font	Feature Envy
-com.anotherbigidea.flash.movie.Font	Feature Envy
-com.anotherbigidea.flash.movie.Font	Feature Envy
-com.anotherbigidea.flash.movie.Font	Feature Envy
-com.anotherbigidea.flash.movie.Font	Dispersed Coupling
-com.anotherbigidea.flash.movie.Font	Refused Parent Bequest
-com.anotherbigidea.flash.movie.Font	Tradition Breaker
-org.apache.batik.ext.awt.LinearGradientPaint	Feature Envy
-org.apache.batik.ext.awt.LinearGradientPaint	Feature Envy
-com.anotherbigidea.flash.readers.ActionParser	Intensive Coupling
-com.anotherbigidea.flash.readers.ActionParser	Feature Envy
-com.anotherbigidea.flash.readers.ActionParser	Intensive Coupling
-com.anotherbigidea.flash.readers.ActionParser	Brain Method
-com.anotherbigidea.flash.readers.ActionParser	Intensive Coupling
-com.anotherbigidea.flash.readers.ActionParser	Brain Class
-org.apache.batik.ext.awt.image.rendered.FormatRed	Feature Envy
-org.apache.batik.ext.awt.image.rendered.FormatRed	Feature Envy
-org.apache.batik.ext.awt.image.rendered.FormatRed	Feature Envy
-org.apache.batik.ext.awt.image.rendered.FormatRed	Feature Envy
-org.apache.batik.ext.awt.image.rendered.FormatRed	Dispersed Coupling
-org.apache.batik.ext.awt.image.rendered.FormatRed	Refused Parent Bequest
-org.apache.batik.ext.awt.image.GraphicsUtil	Brain Method
-org.apache.batik.ext.awt.image.GraphicsUtil	Intensive Coupling
-org.apache.batik.ext.awt.image.GraphicsUtil	Feature Envy
-org.apache.batik.ext.awt.image.GraphicsUtil	Intensive Coupling
-org.apache.batik.ext.awt.image.GraphicsUtil	Feature Envy
-org.apache.batik.ext.awt.image.GraphicsUtil	Feature Envy
-org.apache.batik.ext.awt.image.GraphicsUtil	Feature Envy
-org.apache.batik.ext.awt.image.GraphicsUtil	Intensive Coupling
-org.apache.batik.ext.awt.image.GraphicsUtil	Brain Method
-org.apache.batik.ext.awt.image.GraphicsUtil	Dispersed Coupling
-org.apache.batik.ext.awt.image.GraphicsUtil	Intensive Coupling
-org.apache.batik.ext.awt.image.GraphicsUtil	Intensive Coupling
-org.apache.batik.ext.awt.image.GraphicsUtil	Intensive Coupling
-org.apache.batik.ext.awt.image.GraphicsUtil	Intensive Coupling
-org.apache.batik.ext.awt.image.GraphicsUtil	God Class
-org.apache.batik.ext.awt.image.GraphicsUtil	Brain Class
-org.apache.batik.ext.awt.image.GraphicsUtil	Data Class
-org.apache.batik.ext.awt.image.rendered.BufferedImageCachableRed	Feature Envy
-org.apache.batik.ext.awt.image.rendered.BufferedImageCachableRed	Feature Envy
-org.apache.batik.ext.awt.image.rendered.BufferedImageCachableRed	Feature Envy
-org.apache.batik.ext.awt.image.rendered.BufferedImageCachableRed	Feature Envy
-at.bestsolution.drawswf.DrawMenuBar	Feature Envy
-com.anotherbigidea.flash.sound.ADPCMEncodeStream	Feature Envy
-at.bestsolution.drawswf.PropertiesDialog	Dispersed Coupling
-org.apache.batik.ext.awt.image.SVGComposite$XorCompositeContext	Feature Envy
-com.incors.plaf.kunststoff.themes.KunststoffDesktopTheme	Feature Envy
-com.incors.plaf.kunststoff.themes.KunststoffDesktopTheme	Feature Envy
-com.anotherbigidea.flash.readers.MovieBuilder$ShapeBuilder	Feature Envy
-at.bestsolution.drawswf.drawobjects.DrawObjectFactory	Feature Envy
-at.bestsolution.drawswf.drawobjects.DrawObjectFactory	Brain Method
-at.bestsolution.drawswf.drawobjects.DrawObjectFactory	Dispersed Coupling
-at.bestsolution.drawswf.drawobjects.DrawObjectFactory	Dispersed Coupling
-at.bestsolution.drawswf.drawobjects.DrawObjectFactory	Data Class
-at.bestsolution.drawswf.actions.SetDrawingModeAction	Feature Envy
-com.anotherbigidea.flash.movie.Symbol	Feature Envy
-com.anotherbigidea.flash.movie.Symbol	Shotgun Surgery
-com.incors.plaf.kunststoff.KunststoffUtilities	Feature Envy
-com.incors.plaf.kunststoff.KunststoffUtilities	Feature Envy
-com.incors.plaf.kunststoff.KunststoffUtilities	Feature Envy
-com.anotherbigidea.flash.readers.MovieBuilder	Feature Envy
-com.anotherbigidea.flash.readers.MovieBuilder	Dispersed Coupling
-com.anotherbigidea.flash.readers.MovieBuilder	Feature Envy
-com.anotherbigidea.flash.readers.MovieBuilder	Dispersed Coupling
-com.anotherbigidea.flash.readers.MovieBuilder	Feature Envy
-com.anotherbigidea.flash.readers.MovieBuilder	Dispersed Coupling
-com.anotherbigidea.flash.readers.MovieBuilder	Feature Envy
-com.anotherbigidea.flash.readers.MovieBuilder	Feature Envy
-com.anotherbigidea.flash.readers.MovieBuilder	God Class
-com.incors.plaf.kunststoff.KunststoffListUI	Dispersed Coupling
-com.incors.plaf.kunststoff.KunststoffListUI	Feature Envy
-com.anotherbigidea.flash.writers.SWFActionsImpl	Data Class
-com.anotherbigidea.flash.movie.Shape$FillStyle	Feature Envy
-com.anotherbigidea.flash.movie.Button$Layer	Feature Envy
-com.anotherbigidea.flash.structs.AlphaColor	Feature Envy
-at.bestsolution.drawswf.PluginLoader	Dispersed Coupling
-com.anotherbigidea.flash.movie.MovieClip	Dispersed Coupling
-com.anotherbigidea.flash.movie.MovieClip	Refused Parent Bequest
-at.bestsolution.ext.swing.GradientJButton	Feature Envy
-at.bestsolution.drawswf.DrawObjectList	Feature Envy
-at.bestsolution.drawswf.DrawObjectList	Feature Envy
-at.bestsolution.drawswf.DrawObjectList	Dispersed Coupling
-at.bestsolution.drawswf.actions.GraphicTemplateAction	Feature Envy
-at.bestsolution.drawswf.drawobjects.StraightLine	Feature Envy
-at.bestsolution.drawswf.drawobjects.StraightLine	Feature Envy
-at.bestsolution.drawswf.drawobjects.StraightLine	Feature Envy
-at.bestsolution.drawswf.drawobjects.StraightLine	Feature Envy
-at.bestsolution.drawswf.drawobjects.StraightLine	Feature Envy
-at.bestsolution.drawswf.drawobjects.StraightLine	Feature Envy
-at.bestsolution.drawswf.drawobjects.StraightLine	Refused Parent Bequest
-com.anotherbigidea.flash.readers.MovieBuilder$ClipActionBuilder	Feature Envy
-com.anotherbigidea.flash.movie.EditField	Feature Envy
-com.anotherbigidea.flash.movie.EditField	God Class
-com.anotherbigidea.flash.movie.EditField	Refused Parent Bequest
-com.anotherbigidea.flash.sound.ADPCMHelper	Feature Envy
-com.anotherbigidea.flash.sound.ADPCMHelper	Feature Envy
-com.anotherbigidea.flash.interfaces.SWFActions	Shotgun Surgery
-com.anotherbigidea.flash.interfaces.SWFActions	Shotgun Surgery
-com.anotherbigidea.flash.interfaces.SWFActions	Data Class
-org.apache.batik.ext.awt.image.rendered.PadRed	Brain Method
-org.apache.batik.ext.awt.image.rendered.PadRed	Dispersed Coupling
-org.apache.batik.ext.awt.image.rendered.PadRed	God Class
-com.incors.plaf.kunststoff.KunststoffTreeUI	Feature Envy
-com.incors.plaf.kunststoff.KunststoffTreeUI	Feature Envy
-com.incors.plaf.kunststoff.KunststoffInternalFrameUI$PaletteListener	Feature Envy
-at.bestsolution.drawswf.actions.FileAction	Feature Envy
-at.bestsolution.util.ExtensionsClassLoader	Dispersed Coupling
-at.bestsolution.drawswf.DrawObjectTableCellEditor$ColorDelegate	Feature Envy
-at.bestsolution.drawswf.DrawObjectTableCellEditor$ColorDelegate	Feature Envy
-com.anotherbigidea.flash.interfaces.SWFHeader	Shotgun Surgery
-com.anotherbigidea.io.OutStream	Shotgun Surgery
-com.anotherbigidea.io.OutStream	Shotgun Surgery
-com.anotherbigidea.io.OutStream	Shotgun Surgery
-com.anotherbigidea.io.OutStream	Shotgun Surgery
-com.anotherbigidea.io.OutStream	Shotgun Surgery
-com.anotherbigidea.io.OutStream	Shotgun Surgery
-com.anotherbigidea.io.OutStream	Shotgun Surgery
-com.anotherbigidea.io.OutStream	Shotgun Surgery
-com.anotherbigidea.io.OutStream	God Class
-org.apache.batik.ext.awt.image.SVGComposite$AtopCompositeContext	Feature Envy
-com.anotherbigidea.flash.writers.TagWriter	Feature Envy
-com.anotherbigidea.flash.writers.TagWriter$ButtonActionWriter	Feature Envy
-org.apache.batik.ext.awt.image.rendered.TileGrid	Feature Envy
-com.anotherbigidea.flash.writers.TagWriter$Font2ShapeImpl	Dispersed Coupling
-org.apache.batik.ext.awt.image.SVGComposite$ScreenCompositeContext	Feature Envy
-com.incors.plaf.kunststoff.themes.KunststoffPresentationTheme	Feature Envy
-com.incors.plaf.kunststoff.themes.KunststoffPresentationTheme	Feature Envy
-com.incors.plaf.kunststoff.themes.KunststoffPresentationTheme	Refused Parent Bequest
-org.apache.batik.ext.awt.image.rendered.AffineRed	Refused Parent Bequest
-at.bestsolution.drawswf.util.DrawSWFConfig	Dispersed Coupling
-org.apache.batik.ext.awt.image.rendered.TranslateRed	Feature Envy
-org.apache.batik.ext.awt.image.rendered.TranslateRed	Feature Envy
-org.apache.batik.ext.awt.image.rendered.TranslateRed	Feature Envy
-org.apache.batik.ext.awt.image.rendered.TranslateRed	Feature Envy
-at.bestsolution.ext.swing.dialog.PreviewPanel	Feature Envy
-com.incors.plaf.kunststoff.themes.KunststoffNotebookTheme	Feature Envy
-com.incors.plaf.kunststoff.themes.KunststoffNotebookTheme	Feature Envy
-com.incors.plaf.kunststoff.themes.KunststoffNotebookTheme	Refused Parent Bequest
-com.anotherbigidea.flash.sound.MP3Frame	Data Class
-com.anotherbigidea.flash.writers.TagWriter$SWFTextImpl	Feature Envy
-com.anotherbigidea.flash.writers.TagWriter$SWFTextImpl	Dispersed Coupling
-org.apache.batik.ext.awt.image.SVGComposite$MultiplyCompositeContext	Feature Envy
-com.anotherbigidea.flash.writers.TagWriter$SpriteTags	Feature Envy
-com.anotherbigidea.flash.readers.TagParser	Intensive Coupling
-com.anotherbigidea.flash.readers.TagParser	Brain Method
-com.anotherbigidea.flash.readers.TagParser	Dispersed Coupling
-com.anotherbigidea.flash.readers.TagParser	Dispersed Coupling
-com.anotherbigidea.flash.readers.TagParser	Feature Envy
-com.anotherbigidea.flash.writers.TagWriter$SWFShapeImpl	Dispersed Coupling
-com.anotherbigidea.flash.writers.TagWriter$SWFShapeImpl	Data Class
-org.apache.batik.ext.awt.image.rendered.MultiplyAlphaRed	Dispersed Coupling
-org.apache.batik.ext.awt.image.rendered.MultiplyAlphaRed	Brain Method
-org.apache.batik.ext.awt.image.rendered.MultiplyAlphaRed	Intensive Coupling
-org.apache.batik.ext.awt.image.rendered.MultiplyAlphaRed	Refused Parent Bequest
-org.apache.batik.ext.awt.image.SVGComposite$OverCompositeContext	Feature Envy
-at.bestsolution.drawswf.actions.SaveSWFAction	Dispersed Coupling
-org.apache.batik.ext.awt.image.rendered.Any2sRGBRed	Intensive Coupling
-org.apache.batik.ext.awt.image.rendered.Any2sRGBRed	Brain Method
-org.apache.batik.ext.awt.image.rendered.Any2sRGBRed	Dispersed Coupling
-at.bestsolution.drawswf.drawobjects.Rectangle	Feature Envy
-at.bestsolution.drawswf.drawobjects.Rectangle	Feature Envy
-at.bestsolution.drawswf.drawobjects.Rectangle	Feature Envy
-at.bestsolution.drawswf.drawobjects.Rectangle	Feature Envy
-at.bestsolution.drawswf.drawobjects.Rectangle	Feature Envy
-at.bestsolution.drawswf.drawobjects.Rectangle	Feature Envy
-at.bestsolution.drawswf.drawobjects.Rectangle	Refused Parent Bequest
-at.bestsolution.ext.swing.dialog.FilePreviewer	Feature Envy
-at.bestsolution.ext.swing.dialog.FilePreviewer	Feature Envy
-com.anotherbigidea.flash.sound.MP3Helper	Feature Envy
-com.anotherbigidea.flash.sound.MP3Helper	Dispersed Coupling
-com.anotherbigidea.flash.sound.MP3Helper	Dispersed Coupling
-com.anotherbigidea.flash.sound.MP3Helper	Feature Envy
-org.apache.batik.ext.awt.image.SVGComposite$InCompositeContext	Feature Envy
-com.anotherbigidea.util.Base64	Feature Envy
-org.apache.batik.ext.awt.image.rendered.TileMap	Dispersed Coupling
-at.bestsolution.ext.swing.icon.SolidColoredIcon	Feature Envy
-at.bestsolution.ext.swing.icon.SolidColoredIcon	Feature Envy
-at.bestsolution.ext.swing.icon.SolidColoredIcon	Feature Envy
-com.anotherbigidea.flash.writers.ActionWriter	Feature Envy
-com.anotherbigidea.flash.writers.ActionWriter	Dispersed Coupling
-com.anotherbigidea.flash.writers.ActionWriter	God Class
-com.anotherbigidea.flash.writers.ActionWriter	Data Class
-at.bestsolution.drawswf.dialog.FontDialog	Feature Envy
-at.bestsolution.drawswf.dialog.FontDialog	Feature Envy
-at.bestsolution.drawswf.menu.DrawToolsMenu	Feature Envy
-com.anotherbigidea.flash.sound.RawHelper	Dispersed Coupling
-com.anotherbigidea.flash.sound.RawHelper	Dispersed Coupling
-org.apache.batik.ext.awt.image.SVGComposite	Feature Envy
-org.apache.batik.ext.awt.image.SVGComposite	Data Class
-org.apache.batik.ext.awt.image.rendered.AbstractRed	Feature Envy
-org.apache.batik.ext.awt.image.rendered.AbstractRed	Feature Envy
-org.apache.batik.ext.awt.image.rendered.AbstractRed	Dispersed Coupling
-org.apache.batik.ext.awt.image.rendered.AbstractRed	Shotgun Surgery
-org.apache.batik.ext.awt.image.rendered.AbstractRed	Feature Envy
-org.apache.batik.ext.awt.image.rendered.AbstractRed	Dispersed Coupling
-org.apache.batik.ext.awt.image.rendered.AbstractRed	Feature Envy
-org.apache.batik.ext.awt.image.rendered.AbstractRed	Feature Envy
-org.apache.batik.ext.awt.image.rendered.AbstractRed	God Class
-at.bestsolution.drawswf.actions.NewFileAction	Dispersed Coupling
-com.anotherbigidea.flash.readers.SWFReader	Feature Envy
-at.bestsolution.drawswf.drawobjects.Ellipse	Feature Envy
-at.bestsolution.drawswf.drawobjects.Ellipse	Feature Envy
-at.bestsolution.drawswf.drawobjects.Ellipse	Feature Envy
-at.bestsolution.drawswf.drawobjects.Ellipse	Feature Envy
-at.bestsolution.drawswf.drawobjects.Ellipse	Feature Envy
-at.bestsolution.drawswf.drawobjects.Ellipse	Feature Envy
-at.bestsolution.drawswf.drawobjects.Ellipse	Refused Parent Bequest
-org.apache.batik.ext.awt.RadialGradientPaint	Feature Envy
-org.apache.batik.ext.awt.RadialGradientPaint	Feature Envy
-org.apache.batik.ext.awt.RadialGradientPaint	Feature Envy
-org.apache.batik.ext.awt.RadialGradientPaint	Feature Envy
-org.apache.batik.ext.awt.RadialGradientPaint	Refused Parent Bequest
-at.bestsolution.drawswf.drawobjects.DrawObject	Feature Envy
-at.bestsolution.drawswf.drawobjects.DrawObject	Feature Envy
-at.bestsolution.drawswf.drawobjects.DrawObject	Shotgun Surgery
-at.bestsolution.drawswf.drawobjects.DrawObject	Intensive Coupling
-at.bestsolution.drawswf.drawobjects.DrawObject	Feature Envy
-at.bestsolution.drawswf.drawobjects.DrawObject	Feature Envy
-at.bestsolution.drawswf.drawobjects.DrawObject	God Class
-org.apache.batik.ext.awt.image.SVGComposite$DarkenCompositeContext	Feature Envy
-com.incors.plaf.FastGradientPaintContext	Feature Envy
-at.bestsolution.util.BestsolutionConfiguration	Shotgun Surgery
-org.apache.batik.ext.awt.image.SVGComposite$LightenCompositeContext	Feature Envy
-com.anotherbigidea.flash.movie.SystemFontDefinition	Feature Envy
-com.anotherbigidea.flash.structs.AlphaTransform	Refused Parent Bequest
-at.bestsolution.drawswf.DrawObjectTableCellEditor	Dispersed Coupling
-org.apache.batik.ext.awt.image.rendered.CachableRed	Shotgun Surgery
-com.anotherbigidea.flash.movie.Placement	Dispersed Coupling
-com.anotherbigidea.flash.structs.SoundInfo	Feature Envy
-com.incors.plaf.kunststoff.KunststoffMenuUI	Dispersed Coupling
-at.bestsolution.drawswf.drawobjects.Line	Dispersed Coupling
-at.bestsolution.drawswf.drawobjects.Line	Feature Envy
-at.bestsolution.drawswf.drawobjects.Line	Feature Envy
-at.bestsolution.drawswf.drawobjects.Line	Feature Envy
-at.bestsolution.drawswf.drawobjects.Line	Refused Parent Bequest
-org.apache.batik.ext.awt.image.rendered.LRUCache	Feature Envy
-org.apache.batik.ext.awt.image.rendered.LRUCache	Feature Envy
-org.apache.batik.ext.awt.image.rendered.PadRed$ZeroRecter_INT_PACK	Feature Envy
-com.anotherbigidea.flash.movie.Movie	Shotgun Surgery
-com.anotherbigidea.flash.movie.Movie	Feature Envy
-com.anotherbigidea.flash.movie.Movie	Dispersed Coupling
-com.anotherbigidea.flash.movie.Movie	Dispersed Coupling
-com.anotherbigidea.flash.movie.Movie	God Class
-com.anotherbigidea.flash.writers.SWFWriter	Feature Envy
-at.bestsolution.ext.swing.GradientJRadioButtonMenuItem	Feature Envy
-com.anotherbigidea.io.InStream	Shotgun Surgery
-com.anotherbigidea.io.InStream	Shotgun Surgery
-com.anotherbigidea.io.InStream	Shotgun Surgery
-org.apache.batik.ext.awt.LinearGradientPaintContext	Brain Method
-org.apache.batik.ext.awt.LinearGradientPaintContext	Feature Envy
-com.anotherbigidea.flash.writers.TagWriter$MorphShapeImpl	Intensive Coupling
-com.incors.plaf.kunststoff.KunststoffToggleButtonUI	Dispersed Coupling
-com.anotherbigidea.flash.movie.MorphShape	Feature Envy
-at.bestsolution.ext.swing.icon.GradientIcon	Feature Envy
-at.bestsolution.ext.swing.icon.GradientIcon	Feature Envy
-com.incors.plaf.kunststoff.KunststoffButtonUI	Dispersed Coupling
-org.apache.batik.ext.awt.image.SVGComposite$OverCompositeContext_NA	Feature Envy
-at.bestsolution.drawswf.menu.DrawMovieMenu	Feature Envy
-at.bestsolution.drawswf.MainWindow	Dispersed Coupling
-com.anotherbigidea.flash.movie.FontDefinition	Feature Envy
-com.anotherbigidea.flash.movie.ImageUtil	Feature Envy
-com.anotherbigidea.flash.movie.ImageUtil	Brain Method
-com.anotherbigidea.flash.movie.ImageUtil	Dispersed Coupling
-com.incors.plaf.kunststoff.KunststoffTabbedPaneUI	Intensive Coupling
-at.bestsolution.drawswf.FlashGenerator	Dispersed Coupling
-org.apache.batik.ext.awt.image.rendered.TileCache	Feature Envy
-org.apache.batik.ext.awt.MultipleGradientPaintContext	Brain Method
-org.apache.batik.ext.awt.MultipleGradientPaintContext	Brain Method
-org.apache.batik.ext.awt.MultipleGradientPaintContext	Feature Envy
-org.apache.batik.ext.awt.MultipleGradientPaintContext	Brain Method
-org.apache.batik.ext.awt.MultipleGradientPaintContext	Brain Method
-org.apache.batik.ext.awt.MultipleGradientPaintContext	Feature Envy
-org.apache.batik.ext.awt.MultipleGradientPaintContext	Feature Envy
-org.apache.batik.ext.awt.MultipleGradientPaintContext	Feature Envy
-org.apache.batik.ext.awt.MultipleGradientPaintContext	God Class
-org.apache.batik.ext.awt.MultipleGradientPaintContext	Brain Class
-org.apache.batik.ext.awt.image.rendered.AbstractTiledRed	Feature Envy
-org.apache.batik.ext.awt.image.rendered.AbstractTiledRed	Brain Method
-org.apache.batik.ext.awt.image.rendered.AbstractTiledRed	Dispersed Coupling
-org.apache.batik.ext.awt.image.rendered.AbstractTiledRed	Intensive Coupling
-org.apache.batik.ext.awt.image.rendered.AbstractTiledRed	Dispersed Coupling
-org.apache.batik.ext.awt.image.rendered.AbstractTiledRed	God Class
-org.apache.batik.ext.awt.image.rendered.AbstractTiledRed	Refused Parent Bequest
-org.apache.batik.ext.awt.image.rendered.AbstractTiledRed	Tradition Breaker
-com.anotherbigidea.flash.movie.Shape	Feature Envy
-com.anotherbigidea.flash.movie.Shape	Intensive Coupling
-com.anotherbigidea.flash.movie.Shape	Feature Envy
-com.anotherbigidea.flash.movie.Shape	Feature Envy
-com.anotherbigidea.flash.movie.Shape	Feature Envy
-com.anotherbigidea.flash.movie.Shape	Intensive Coupling
-com.anotherbigidea.flash.movie.Shape	Refused Parent Bequest
-com.anotherbigidea.flash.movie.Shape	Tradition Breaker
-at.bestsolution.ext.swing.GradientJRadioButton	Feature Envy
-com.incors.plaf.kunststoff.KunststoffInternalFrameUI	Feature Envy
-org.apache.batik.ext.awt.image.rendered.Any2LsRGBRed	Intensive Coupling
-at.bestsolution.drawswf.toolbar.DrawMovieToolbar	Feature Envy
-org.apache.batik.ext.awt.RadialGradientPaintContext	Brain Method
-org.apache.batik.ext.awt.RadialGradientPaintContext	Brain Method
-at.bestsolution.drawswf.plugin.remotesave.dialog.RemoteSaveDialog	Dispersed Coupling
+at.bestsolution.drawswf.DrawingPanel	loadAnimation	Feature Envy
+at.bestsolution.drawswf.DrawingPanel	loadAnimation	Dispersed Coupling
+at.bestsolution.drawswf.DrawingPanel	setBackgroundImage	Feature Envy
+at.bestsolution.drawswf.DrawingPanel	moveDrawingObject	Feature Envy
+at.bestsolution.drawswf.DrawingPanel	selectObject	Feature Envy
+at.bestsolution.drawswf.DrawingPanel	mousePressed	Dispersed Coupling
+at.bestsolution.drawswf.DrawingPanel	drawGradientLine	Dispersed Coupling
+at.bestsolution.drawswf.DrawingPanel	mouseReleased	Dispersed Coupling
+at.bestsolution.drawswf.DrawingPanel	null	God Class
+com.anotherbigidea.flash.interfaces.SWFTags	tag	Shotgun Surgery
+com.anotherbigidea.flash.movie.Font$Chars	init	Dispersed Coupling
+at.bestsolution.drawswf.drawobjects.Picture	drawObject	Feature Envy
+at.bestsolution.drawswf.drawobjects.Picture	mouseReleased	Dispersed Coupling
+at.bestsolution.drawswf.drawobjects.Picture	move	Feature Envy
+at.bestsolution.drawswf.drawobjects.Picture	null	Refused Parent Bequest
+at.bestsolution.drawswf.LineWidthChooser$JLinePanel	JLinePanel	Feature Envy
+org.apache.batik.ext.awt.image.SVGComposite$OutCompositeContext	precompose	Feature Envy
+com.anotherbigidea.flash.writers.ActionTextWriter	null	God Class
+com.anotherbigidea.flash.writers.ActionTextWriter	null	Data Class
+com.anotherbigidea.flash.writers.SWFTagDumper	printSoundStreamHead	Feature Envy
+com.anotherbigidea.flash.writers.SWFTagDumper	tagDefineSound	Feature Envy
+com.anotherbigidea.flash.writers.SWFTagDumper	dumpBitsLossless	Feature Envy
+com.anotherbigidea.flash.writers.SWFTagDumper	null	God Class
+com.anotherbigidea.flash.writers.SWFTagDumper	null	Data Class
+com.anotherbigidea.flash.movie.Frame	startSound	Feature Envy
+com.anotherbigidea.flash.movie.Frame	null	God Class
+com.anotherbigidea.flash.movie.Font	loadAllGlyphs	Feature Envy
+com.anotherbigidea.flash.movie.Font	getGlyph	Feature Envy
+com.anotherbigidea.flash.movie.Font	addGlyph	Feature Envy
+com.anotherbigidea.flash.movie.Font	define	Feature Envy
+com.anotherbigidea.flash.movie.Font	defineFont1	Dispersed Coupling
+com.anotherbigidea.flash.movie.Font	null	Refused Parent Bequest
+com.anotherbigidea.flash.movie.Font	null	Tradition Breaker
+org.apache.batik.ext.awt.LinearGradientPaint	getStartPoint	Feature Envy
+org.apache.batik.ext.awt.LinearGradientPaint	getEndPoint	Feature Envy
+com.anotherbigidea.flash.readers.ActionParser	processRecords	Intensive Coupling
+com.anotherbigidea.flash.readers.ActionParser	parseGetURL2	Feature Envy
+com.anotherbigidea.flash.readers.ActionParser	parsePush	Intensive Coupling
+com.anotherbigidea.flash.readers.ActionParser	createRecords	Brain Method
+com.anotherbigidea.flash.readers.ActionParser	createRecords	Intensive Coupling
+com.anotherbigidea.flash.readers.ActionParser	null	Brain Class
+org.apache.batik.ext.awt.image.rendered.FormatRed	construct	Feature Envy
+org.apache.batik.ext.awt.image.rendered.FormatRed	FormatRed	Feature Envy
+org.apache.batik.ext.awt.image.rendered.FormatRed	FormatRed	Feature Envy
+org.apache.batik.ext.awt.image.rendered.FormatRed	makeSampleModel	Feature Envy
+org.apache.batik.ext.awt.image.rendered.FormatRed	makeColorModel	Dispersed Coupling
+org.apache.batik.ext.awt.image.rendered.FormatRed	null	Refused Parent Bequest
+org.apache.batik.ext.awt.image.GraphicsUtil	drawImage	Brain Method
+org.apache.batik.ext.awt.image.GraphicsUtil	drawImage	Intensive Coupling
+org.apache.batik.ext.awt.image.GraphicsUtil	drawImage	Feature Envy
+org.apache.batik.ext.awt.image.GraphicsUtil	copyData_INT_PACK	Intensive Coupling
+org.apache.batik.ext.awt.image.GraphicsUtil	copyData_FALLBACK	Feature Envy
+org.apache.batik.ext.awt.image.GraphicsUtil	makeRasterWritable	Feature Envy
+org.apache.batik.ext.awt.image.GraphicsUtil	coerceData	Feature Envy
+org.apache.batik.ext.awt.image.GraphicsUtil	coerceData	Intensive Coupling
+org.apache.batik.ext.awt.image.GraphicsUtil	copyData	Brain Method
+org.apache.batik.ext.awt.image.GraphicsUtil	copyData	Dispersed Coupling
+org.apache.batik.ext.awt.image.GraphicsUtil	divide_INT_PACK_Data	Intensive Coupling
+org.apache.batik.ext.awt.image.GraphicsUtil	mult_INT_PACK_Data	Intensive Coupling
+org.apache.batik.ext.awt.image.GraphicsUtil	divide_BYTE_COMP_Data	Intensive Coupling
+org.apache.batik.ext.awt.image.GraphicsUtil	mult_BYTE_COMP_Data	Intensive Coupling
+org.apache.batik.ext.awt.image.GraphicsUtil	null	God Class
+org.apache.batik.ext.awt.image.GraphicsUtil	null	Brain Class
+org.apache.batik.ext.awt.image.GraphicsUtil	null	Data Class
+org.apache.batik.ext.awt.image.rendered.BufferedImageCachableRed	BufferedImageCachableRed	Feature Envy
+org.apache.batik.ext.awt.image.rendered.BufferedImageCachableRed	BufferedImageCachableRed	Feature Envy
+org.apache.batik.ext.awt.image.rendered.BufferedImageCachableRed	getBounds	Feature Envy
+org.apache.batik.ext.awt.image.rendered.BufferedImageCachableRed	getData	Feature Envy
+at.bestsolution.drawswf.DrawMenuBar	DrawMenuBar	Feature Envy
+com.anotherbigidea.flash.sound.ADPCMEncodeStream	setIndex	Feature Envy
+at.bestsolution.drawswf.PropertiesDialog	getListEntries	Dispersed Coupling
+org.apache.batik.ext.awt.image.SVGComposite$XorCompositeContext	precompose	Feature Envy
+com.incors.plaf.kunststoff.themes.KunststoffDesktopTheme	KunststoffDesktopTheme	Feature Envy
+com.incors.plaf.kunststoff.themes.KunststoffDesktopTheme	addCustomEntriesToTable	Feature Envy
+com.anotherbigidea.flash.readers.MovieBuilder$ShapeBuilder	curve	Feature Envy
+at.bestsolution.drawswf.drawobjects.DrawObjectFactory	createObject	Feature Envy
+at.bestsolution.drawswf.drawobjects.DrawObjectFactory	loadFile	Brain Method
+at.bestsolution.drawswf.drawobjects.DrawObjectFactory	loadFile	Dispersed Coupling
+at.bestsolution.drawswf.drawobjects.DrawObjectFactory	saveFile	Dispersed Coupling
+at.bestsolution.drawswf.drawobjects.DrawObjectFactory	null	Data Class
+at.bestsolution.drawswf.actions.SetDrawingModeAction	SetDrawingModeAction	Feature Envy
+com.anotherbigidea.flash.movie.Symbol	define	Feature Envy
+com.anotherbigidea.flash.movie.Symbol	getNextId	Shotgun Surgery
+com.incors.plaf.kunststoff.KunststoffUtilities	getTranslucentColor	Feature Envy
+com.incors.plaf.kunststoff.KunststoffUtilities	getTranslucentColorUIResource	Feature Envy
+com.incors.plaf.kunststoff.KunststoffUtilities	drawGradient	Feature Envy
+com.anotherbigidea.flash.readers.MovieBuilder	header	Feature Envy
+com.anotherbigidea.flash.readers.MovieBuilder	tagPlaceObject2	Dispersed Coupling
+com.anotherbigidea.flash.readers.MovieBuilder	tagDefineButton	Feature Envy
+com.anotherbigidea.flash.readers.MovieBuilder	tagDefineButton	Dispersed Coupling
+com.anotherbigidea.flash.readers.MovieBuilder	tagButtonCXForm	Feature Envy
+com.anotherbigidea.flash.readers.MovieBuilder	tagDefineButton2	Dispersed Coupling
+com.anotherbigidea.flash.readers.MovieBuilder	tagDefineBitsLossless	Feature Envy
+com.anotherbigidea.flash.readers.MovieBuilder	tagDefineBitsLossless2	Feature Envy
+com.anotherbigidea.flash.readers.MovieBuilder	null	God Class
+com.incors.plaf.kunststoff.KunststoffListUI	update	Dispersed Coupling
+com.incors.plaf.kunststoff.KunststoffListUI	paintCell	Feature Envy
+com.anotherbigidea.flash.writers.SWFActionsImpl	null	Data Class
+com.anotherbigidea.flash.movie.Shape$FillStyle	write	Feature Envy
+com.anotherbigidea.flash.movie.Button$Layer	getRecord	Feature Envy
+com.anotherbigidea.flash.structs.AlphaColor	AlphaColor	Feature Envy
+at.bestsolution.drawswf.PluginLoader	loadPlugins	Dispersed Coupling
+com.anotherbigidea.flash.movie.MovieClip	defineSymbol	Dispersed Coupling
+com.anotherbigidea.flash.movie.MovieClip	null	Refused Parent Bequest
+at.bestsolution.ext.swing.GradientJButton	actionPerformed	Feature Envy
+at.bestsolution.drawswf.DrawObjectList	addDrawObject	Feature Envy
+at.bestsolution.drawswf.DrawObjectList	moveDrawObject	Feature Envy
+at.bestsolution.drawswf.DrawObjectList	valueChanged	Dispersed Coupling
+at.bestsolution.drawswf.actions.GraphicTemplateAction	actionPerformed	Feature Envy
+at.bestsolution.drawswf.drawobjects.StraightLine	toSVG	Feature Envy
+at.bestsolution.drawswf.drawobjects.StraightLine	setPropertyX1	Feature Envy
+at.bestsolution.drawswf.drawobjects.StraightLine	setPropertyY1	Feature Envy
+at.bestsolution.drawswf.drawobjects.StraightLine	setPropertyX2	Feature Envy
+at.bestsolution.drawswf.drawobjects.StraightLine	setPropertyY2	Feature Envy
+at.bestsolution.drawswf.drawobjects.StraightLine	move	Feature Envy
+at.bestsolution.drawswf.drawobjects.StraightLine	null	Refused Parent Bequest
+com.anotherbigidea.flash.readers.MovieBuilder$ClipActionBuilder	done	Feature Envy
+com.anotherbigidea.flash.movie.EditField	defineSymbol	Feature Envy
+com.anotherbigidea.flash.movie.EditField	null	God Class
+com.anotherbigidea.flash.movie.EditField	null	Refused Parent Bequest
+com.anotherbigidea.flash.sound.ADPCMHelper	readPacket	Feature Envy
+com.anotherbigidea.flash.sound.ADPCMHelper	writePacket	Feature Envy
+com.anotherbigidea.flash.interfaces.SWFActions	start	Shotgun Surgery
+com.anotherbigidea.flash.interfaces.SWFActions	done	Shotgun Surgery
+com.anotherbigidea.flash.interfaces.SWFActions	null	Data Class
+org.apache.batik.ext.awt.image.rendered.PadRed	handleReplicate	Brain Method
+org.apache.batik.ext.awt.image.rendered.PadRed	handleReplicate	Dispersed Coupling
+org.apache.batik.ext.awt.image.rendered.PadRed	null	God Class
+com.incors.plaf.kunststoff.KunststoffTreeUI	KunststoffTreeUI	Feature Envy
+com.incors.plaf.kunststoff.KunststoffTreeUI	paintExpandControl	Feature Envy
+com.incors.plaf.kunststoff.KunststoffInternalFrameUI$PaletteListener	propertyChange	Feature Envy
+at.bestsolution.drawswf.actions.FileAction	actionPerformed	Feature Envy
+at.bestsolution.util.ExtensionsClassLoader	getClassLoader	Dispersed Coupling
+at.bestsolution.drawswf.DrawObjectTableCellEditor$ColorDelegate	setValue	Feature Envy
+at.bestsolution.drawswf.DrawObjectTableCellEditor$ColorDelegate	actionPerformed	Feature Envy
+com.anotherbigidea.flash.interfaces.SWFHeader	header	Shotgun Surgery
+com.anotherbigidea.io.OutStream	writeSBits	Shotgun Surgery
+com.anotherbigidea.io.OutStream	flush	Shotgun Surgery
+com.anotherbigidea.io.OutStream	flushBits	Shotgun Surgery
+com.anotherbigidea.io.OutStream	writeUBits	Shotgun Surgery
+com.anotherbigidea.io.OutStream	write	Shotgun Surgery
+com.anotherbigidea.io.OutStream	writeUI8	Shotgun Surgery
+com.anotherbigidea.io.OutStream	writeUI16	Shotgun Surgery
+com.anotherbigidea.io.OutStream	writeUI32	Shotgun Surgery
+com.anotherbigidea.io.OutStream	null	God Class
+org.apache.batik.ext.awt.image.SVGComposite$AtopCompositeContext	precompose	Feature Envy
+com.anotherbigidea.flash.writers.TagWriter	writeBitsLossless	Feature Envy
+com.anotherbigidea.flash.writers.TagWriter$ButtonActionWriter	done	Feature Envy
+org.apache.batik.ext.awt.image.rendered.TileGrid	getTile	Feature Envy
+com.anotherbigidea.flash.writers.TagWriter$Font2ShapeImpl	finishFont	Dispersed Coupling
+org.apache.batik.ext.awt.image.SVGComposite$ScreenCompositeContext	precompose	Feature Envy
+com.incors.plaf.kunststoff.themes.KunststoffPresentationTheme	KunststoffPresentationTheme	Feature Envy
+com.incors.plaf.kunststoff.themes.KunststoffPresentationTheme	addCustomEntriesToTable	Feature Envy
+com.incors.plaf.kunststoff.themes.KunststoffPresentationTheme	null	Refused Parent Bequest
+org.apache.batik.ext.awt.image.rendered.AffineRed	null	Refused Parent Bequest
+at.bestsolution.drawswf.util.DrawSWFConfig	loadConfig	Dispersed Coupling
+org.apache.batik.ext.awt.image.rendered.TranslateRed	TranslateRed	Feature Envy
+org.apache.batik.ext.awt.image.rendered.TranslateRed	getTile	Feature Envy
+org.apache.batik.ext.awt.image.rendered.TranslateRed	getData	Feature Envy
+org.apache.batik.ext.awt.image.rendered.TranslateRed	getData	Feature Envy
+at.bestsolution.ext.swing.dialog.PreviewPanel	PreviewPanel	Feature Envy
+com.incors.plaf.kunststoff.themes.KunststoffNotebookTheme	KunststoffNotebookTheme	Feature Envy
+com.incors.plaf.kunststoff.themes.KunststoffNotebookTheme	addCustomEntriesToTable	Feature Envy
+com.incors.plaf.kunststoff.themes.KunststoffNotebookTheme	null	Refused Parent Bequest
+com.anotherbigidea.flash.sound.MP3Frame	null	Data Class
+com.anotherbigidea.flash.writers.TagWriter$SWFTextImpl	done	Feature Envy
+com.anotherbigidea.flash.writers.TagWriter$SWFTextImpl	done	Dispersed Coupling
+org.apache.batik.ext.awt.image.SVGComposite$MultiplyCompositeContext	precompose	Feature Envy
+com.anotherbigidea.flash.writers.TagWriter$SpriteTags	tag	Feature Envy
+com.anotherbigidea.flash.readers.TagParser	parseDefineText	Intensive Coupling
+com.anotherbigidea.flash.readers.TagParser	parseDefineFont2	Brain Method
+com.anotherbigidea.flash.readers.TagParser	parseDefineFont2	Dispersed Coupling
+com.anotherbigidea.flash.readers.TagParser	parsePlaceObject2	Dispersed Coupling
+com.anotherbigidea.flash.readers.TagParser	parseChangeRecord	Feature Envy
+com.anotherbigidea.flash.writers.TagWriter$SWFShapeImpl	writeStyles	Dispersed Coupling
+com.anotherbigidea.flash.writers.TagWriter$SWFShapeImpl	null	Data Class
+org.apache.batik.ext.awt.image.rendered.MultiplyAlphaRed	INT_PACK_BYTE_COMP_Impl	Dispersed Coupling
+org.apache.batik.ext.awt.image.rendered.MultiplyAlphaRed	copyData	Brain Method
+org.apache.batik.ext.awt.image.rendered.MultiplyAlphaRed	copyData	Intensive Coupling
+org.apache.batik.ext.awt.image.rendered.MultiplyAlphaRed	null	Refused Parent Bequest
+org.apache.batik.ext.awt.image.SVGComposite$OverCompositeContext	precompose	Feature Envy
+at.bestsolution.drawswf.actions.SaveSWFAction	actionPerformed	Dispersed Coupling
+org.apache.batik.ext.awt.image.rendered.Any2sRGBRed	applyLut_INT	Intensive Coupling
+org.apache.batik.ext.awt.image.rendered.Any2sRGBRed	copyData	Brain Method
+org.apache.batik.ext.awt.image.rendered.Any2sRGBRed	copyData	Dispersed Coupling
+at.bestsolution.drawswf.drawobjects.Rectangle	drawObject	Feature Envy
+at.bestsolution.drawswf.drawobjects.Rectangle	newRectangle2D	Feature Envy
+at.bestsolution.drawswf.drawobjects.Rectangle	toSVG	Feature Envy
+at.bestsolution.drawswf.drawobjects.Rectangle	setPropertyWidth	Feature Envy
+at.bestsolution.drawswf.drawobjects.Rectangle	setPropertyHeight	Feature Envy
+at.bestsolution.drawswf.drawobjects.Rectangle	move	Feature Envy
+at.bestsolution.drawswf.drawobjects.Rectangle	null	Refused Parent Bequest
+at.bestsolution.ext.swing.dialog.FilePreviewer	propertyChange	Feature Envy
+at.bestsolution.ext.swing.dialog.FilePreviewer	paint	Feature Envy
+com.anotherbigidea.flash.sound.MP3Helper	getSoundDefinition	Feature Envy
+com.anotherbigidea.flash.sound.MP3Helper	getSoundDefinition	Dispersed Coupling
+com.anotherbigidea.flash.sound.MP3Helper	streamingBlocks	Dispersed Coupling
+com.anotherbigidea.flash.sound.MP3Helper	main	Feature Envy
+org.apache.batik.ext.awt.image.SVGComposite$InCompositeContext	precompose	Feature Envy
+com.anotherbigidea.util.Base64	main	Feature Envy
+org.apache.batik.ext.awt.image.rendered.TileMap	getTile	Dispersed Coupling
+at.bestsolution.ext.swing.icon.SolidColoredIcon	paintIcon	Feature Envy
+at.bestsolution.ext.swing.icon.SolidColoredIcon	setFillColor	Feature Envy
+at.bestsolution.ext.swing.icon.SolidColoredIcon	stateChanged	Feature Envy
+com.anotherbigidea.flash.writers.ActionWriter	lookupTable	Feature Envy
+com.anotherbigidea.flash.writers.ActionWriter	flushPushValues	Dispersed Coupling
+com.anotherbigidea.flash.writers.ActionWriter	null	God Class
+com.anotherbigidea.flash.writers.ActionWriter	null	Data Class
+at.bestsolution.drawswf.dialog.FontDialog	setAttributes	Feature Envy
+at.bestsolution.drawswf.dialog.FontDialog	getAttributes	Feature Envy
+at.bestsolution.drawswf.menu.DrawToolsMenu	createGradientRadioButton	Feature Envy
+com.anotherbigidea.flash.sound.RawHelper	streamingBlocks	Dispersed Coupling
+com.anotherbigidea.flash.sound.RawHelper	getSoundDefinition	Dispersed Coupling
+org.apache.batik.ext.awt.image.SVGComposite	equals	Feature Envy
+org.apache.batik.ext.awt.image.SVGComposite	null	Data Class
+org.apache.batik.ext.awt.image.rendered.AbstractRed	AbstractRed	Feature Envy
+org.apache.batik.ext.awt.image.rendered.AbstractRed	AbstractRed	Feature Envy
+org.apache.batik.ext.awt.image.rendered.AbstractRed	init	Dispersed Coupling
+org.apache.batik.ext.awt.image.rendered.AbstractRed	getSources	Shotgun Surgery
+org.apache.batik.ext.awt.image.rendered.AbstractRed	getPropertyNames	Feature Envy
+org.apache.batik.ext.awt.image.rendered.AbstractRed	getPropertyNames	Dispersed Coupling
+org.apache.batik.ext.awt.image.rendered.AbstractRed	getData	Feature Envy
+org.apache.batik.ext.awt.image.rendered.AbstractRed	makeTile	Feature Envy
+org.apache.batik.ext.awt.image.rendered.AbstractRed	null	God Class
+at.bestsolution.drawswf.actions.NewFileAction	actionPerformed	Dispersed Coupling
+com.anotherbigidea.flash.readers.SWFReader	main	Feature Envy
+at.bestsolution.drawswf.drawobjects.Ellipse	drawObject	Feature Envy
+at.bestsolution.drawswf.drawobjects.Ellipse	newEllipse2D	Feature Envy
+at.bestsolution.drawswf.drawobjects.Ellipse	toSVG	Feature Envy
+at.bestsolution.drawswf.drawobjects.Ellipse	setPropertyWidth	Feature Envy
+at.bestsolution.drawswf.drawobjects.Ellipse	setPropertyHeight	Feature Envy
+at.bestsolution.drawswf.drawobjects.Ellipse	move	Feature Envy
+at.bestsolution.drawswf.drawobjects.Ellipse	null	Refused Parent Bequest
+org.apache.batik.ext.awt.RadialGradientPaint	RadialGradientPaint	Feature Envy
+org.apache.batik.ext.awt.RadialGradientPaint	createContext	Feature Envy
+org.apache.batik.ext.awt.RadialGradientPaint	getCenterPoint	Feature Envy
+org.apache.batik.ext.awt.RadialGradientPaint	getFocusPoint	Feature Envy
+org.apache.batik.ext.awt.RadialGradientPaint	null	Refused Parent Bequest
+at.bestsolution.drawswf.drawobjects.DrawObject	translateCycleMethodToSVG	Feature Envy
+at.bestsolution.drawswf.drawobjects.DrawObject	setAWTStroke	Feature Envy
+at.bestsolution.drawswf.drawobjects.DrawObject	repaint	Shotgun Surgery
+at.bestsolution.drawswf.drawobjects.DrawObject	moveGradient	Intensive Coupling
+at.bestsolution.drawswf.drawobjects.DrawObject	setAWTFillGradient	Feature Envy
+at.bestsolution.drawswf.drawobjects.DrawObject	translateSVGSpreadToCycleMethod	Feature Envy
+at.bestsolution.drawswf.drawobjects.DrawObject	null	God Class
+org.apache.batik.ext.awt.image.SVGComposite$DarkenCompositeContext	precompose	Feature Envy
+com.incors.plaf.FastGradientPaintContext	getRaster	Feature Envy
+at.bestsolution.util.BestsolutionConfiguration	getProperty	Shotgun Surgery
+org.apache.batik.ext.awt.image.SVGComposite$LightenCompositeContext	precompose	Feature Envy
+com.anotherbigidea.flash.movie.SystemFontDefinition	getKerningOffset	Feature Envy
+com.anotherbigidea.flash.structs.AlphaTransform	null	Refused Parent Bequest
+at.bestsolution.drawswf.DrawObjectTableCellEditor	getTableCellEditorComponent	Dispersed Coupling
+org.apache.batik.ext.awt.image.rendered.CachableRed	getBounds	Shotgun Surgery
+com.anotherbigidea.flash.movie.Placement	write	Dispersed Coupling
+com.anotherbigidea.flash.structs.SoundInfo	write	Feature Envy
+com.incors.plaf.kunststoff.KunststoffMenuUI	paint	Dispersed Coupling
+at.bestsolution.drawswf.drawobjects.Line	drawObject	Dispersed Coupling
+at.bestsolution.drawswf.drawobjects.Line	setPropertyX	Feature Envy
+at.bestsolution.drawswf.drawobjects.Line	setPropertyY	Feature Envy
+at.bestsolution.drawswf.drawobjects.Line	move	Feature Envy
+at.bestsolution.drawswf.drawobjects.Line	null	Refused Parent Bequest
+org.apache.batik.ext.awt.image.rendered.LRUCache	setSize	Feature Envy
+org.apache.batik.ext.awt.image.rendered.LRUCache	add	Feature Envy
+org.apache.batik.ext.awt.image.rendered.PadRed$ZeroRecter_INT_PACK	zeroRect	Feature Envy
+com.anotherbigidea.flash.movie.Movie	appendFrame	Shotgun Surgery
+com.anotherbigidea.flash.movie.Movie	importSymbols	Feature Envy
+com.anotherbigidea.flash.movie.Movie	getImportedSymbols	Dispersed Coupling
+com.anotherbigidea.flash.movie.Movie	write	Dispersed Coupling
+com.anotherbigidea.flash.movie.Movie	null	God Class
+com.anotherbigidea.flash.writers.SWFWriter	tag	Feature Envy
+at.bestsolution.ext.swing.GradientJRadioButtonMenuItem	actionPerformed	Feature Envy
+com.anotherbigidea.io.InStream	readUBits	Shotgun Surgery
+com.anotherbigidea.io.InStream	readUI8	Shotgun Surgery
+com.anotherbigidea.io.InStream	readUI16	Shotgun Surgery
+org.apache.batik.ext.awt.LinearGradientPaintContext	fillHardNoCycle	Brain Method
+org.apache.batik.ext.awt.LinearGradientPaintContext	fillRaster	Feature Envy
+com.anotherbigidea.flash.writers.TagWriter$MorphShapeImpl	writeInitialStyles	Intensive Coupling
+com.incors.plaf.kunststoff.KunststoffToggleButtonUI	paint	Dispersed Coupling
+com.anotherbigidea.flash.movie.MorphShape	defineSymbol	Feature Envy
+at.bestsolution.ext.swing.icon.GradientIcon	GradientIcon	Feature Envy
+at.bestsolution.ext.swing.icon.GradientIcon	stateChanged	Feature Envy
+com.incors.plaf.kunststoff.KunststoffButtonUI	paint	Dispersed Coupling
+org.apache.batik.ext.awt.image.SVGComposite$OverCompositeContext_NA	precompose	Feature Envy
+at.bestsolution.drawswf.menu.DrawMovieMenu	initMenu	Feature Envy
+at.bestsolution.drawswf.MainWindow	setI18n	Dispersed Coupling
+com.anotherbigidea.flash.movie.FontDefinition	getKerningOffset	Feature Envy
+com.anotherbigidea.flash.movie.ImageUtil	shapeForImage	Feature Envy
+com.anotherbigidea.flash.movie.ImageUtil	createLosslessImage	Brain Method
+com.anotherbigidea.flash.movie.ImageUtil	createLosslessImage	Dispersed Coupling
+com.incors.plaf.kunststoff.KunststoffTabbedPaneUI	paintTab	Intensive Coupling
+at.bestsolution.drawswf.FlashGenerator	generateFile	Dispersed Coupling
+org.apache.batik.ext.awt.image.rendered.TileCache	getTileGrid	Feature Envy
+org.apache.batik.ext.awt.MultipleGradientPaintContext	MultipleGradientPaintContext	Brain Method
+org.apache.batik.ext.awt.MultipleGradientPaintContext	indexIntoGradientsArrays	Brain Method
+org.apache.batik.ext.awt.MultipleGradientPaintContext	indexIntoGradientsArrays	Feature Envy
+org.apache.batik.ext.awt.MultipleGradientPaintContext	indexGradientAntiAlias	Brain Method
+org.apache.batik.ext.awt.MultipleGradientPaintContext	getAntiAlias	Brain Method
+org.apache.batik.ext.awt.MultipleGradientPaintContext	getAntiAlias	Feature Envy
+org.apache.batik.ext.awt.MultipleGradientPaintContext	getCachedRaster	Feature Envy
+org.apache.batik.ext.awt.MultipleGradientPaintContext	putCachedRaster	Feature Envy
+org.apache.batik.ext.awt.MultipleGradientPaintContext	null	God Class
+org.apache.batik.ext.awt.MultipleGradientPaintContext	null	Brain Class
+org.apache.batik.ext.awt.image.rendered.AbstractTiledRed	getData	Feature Envy
+org.apache.batik.ext.awt.image.rendered.AbstractTiledRed	copyToRasterByBlocks	Brain Method
+org.apache.batik.ext.awt.image.rendered.AbstractTiledRed	copyToRasterByBlocks	Dispersed Coupling
+org.apache.batik.ext.awt.image.rendered.AbstractTiledRed	drawBlockAndCopy	Intensive Coupling
+org.apache.batik.ext.awt.image.rendered.AbstractTiledRed	drawBlockInPlace	Dispersed Coupling
+org.apache.batik.ext.awt.image.rendered.AbstractTiledRed	null	God Class
+org.apache.batik.ext.awt.image.rendered.AbstractTiledRed	null	Refused Parent Bequest
+org.apache.batik.ext.awt.image.rendered.AbstractTiledRed	null	Tradition Breaker
+com.anotherbigidea.flash.movie.Shape	getRect	Feature Envy
+com.anotherbigidea.flash.movie.Shape	writeShape	Intensive Coupling
+com.anotherbigidea.flash.movie.Shape	getOneControlPoint	Feature Envy
+com.anotherbigidea.flash.movie.Shape	cubicMidPoint	Feature Envy
+com.anotherbigidea.flash.movie.Shape	quadMidPoint	Feature Envy
+com.anotherbigidea.flash.movie.Shape	drawAWTPathIterator	Intensive Coupling
+com.anotherbigidea.flash.movie.Shape	null	Refused Parent Bequest
+com.anotherbigidea.flash.movie.Shape	null	Tradition Breaker
+at.bestsolution.ext.swing.GradientJRadioButton	actionPerformed	Feature Envy
+com.incors.plaf.kunststoff.KunststoffInternalFrameUI	setFrameType	Feature Envy
+org.apache.batik.ext.awt.image.rendered.Any2LsRGBRed	copyData	Intensive Coupling
+at.bestsolution.drawswf.toolbar.DrawMovieToolbar	initToolbar	Feature Envy
+org.apache.batik.ext.awt.RadialGradientPaintContext	cyclicCircularGradientFillRaster	Brain Method
+org.apache.batik.ext.awt.RadialGradientPaintContext	antiAliasFillRaster	Brain Method
+at.bestsolution.drawswf.plugin.remotesave.dialog.RemoteSaveDialog	saveToRemoteHost	Dispersed Coupling

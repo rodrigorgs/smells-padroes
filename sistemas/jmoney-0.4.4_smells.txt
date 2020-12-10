@@ -1,88 +1,88 @@
-source.net.sf.jmoney.gui.MainFrame	Intensive Coupling
-source.net.sf.jmoney.gui.MainFrame	Dispersed Coupling
-source.net.sf.jmoney.gui.MainFrame	Dispersed Coupling
-source.net.sf.jmoney.gui.MainFrame	Feature Envy
-source.net.sf.jmoney.gui.MainFrame	Feature Envy
-source.net.sf.jmoney.gui.MainFrame	Feature Envy
-source.net.sf.jmoney.gui.MainFrame	Feature Envy
-source.net.sf.jmoney.gui.MainFrame	Dispersed Coupling
-source.net.sf.jmoney.gui.MainFrame	Feature Envy
-source.net.sf.jmoney.gui.MainFrame	God Class
-source.net.sf.jmoney.gui.AccountPropertiesPanel	Feature Envy
-source.net.sf.jmoney.model.DoubleEntry	Refused Parent Bequest
-source.net.sf.jmoney.io.QIF	Dispersed Coupling
-source.net.sf.jmoney.io.QIF	Intensive Coupling
-source.net.sf.jmoney.io.QIF	Feature Envy
-source.net.sf.jmoney.io.QIF	Dispersed Coupling
-source.net.sf.jmoney.io.QIF	Intensive Coupling
-source.net.sf.jmoney.io.QIF	Dispersed Coupling
-source.net.sf.jmoney.io.QIF	Feature Envy
-source.net.sf.jmoney.io.QIF	Feature Envy
-source.net.sf.jmoney.io.QIF	Intensive Coupling
-source.net.sf.jmoney.io.QIF	God Class
-source.net.sf.jmoney.gui.MainFrame$MenuBar	Feature Envy
-source.net.sf.jmoney.gui.EditableMetalTheme	Feature Envy
-source.net.sf.jmoney.gui.EditableMetalTheme	God Class
-source.net.sf.jmoney.gui.SplittedEntryDialog$EntryTableModel	Feature Envy
-source.net.sf.jmoney.gui.SplittedEntryDialog$EntryTableModel	Dispersed Coupling
-source.net.sf.jmoney.io.QIF$Accounts	Dispersed Coupling
-source.net.sf.jmoney.Currency	Feature Envy
-source.net.sf.jmoney.gui.CategoryComboBox$Model	Feature Envy
-source.net.sf.jmoney.gui.CategoryComboBox$Model	Feature Envy
-source.net.sf.jmoney.model.Entry	Feature Envy
-source.net.sf.jmoney.model.Entry	Shotgun Surgery
-source.net.sf.jmoney.model.Entry	Shotgun Surgery
-source.net.sf.jmoney.model.Entry	Shotgun Surgery
-source.net.sf.jmoney.model.Entry	Shotgun Surgery
-source.net.sf.jmoney.model.Entry	Feature Envy
-source.net.sf.jmoney.model.Entry	Shotgun Surgery
-source.net.sf.jmoney.model.Entry	God Class
-source.net.sf.jmoney.gui.EntryListItem	Feature Envy
-source.net.sf.jmoney.gui.EntryListItem	Feature Envy
-source.net.sf.jmoney.gui.EntryListItem	Feature Envy
-source.net.sf.jmoney.gui.EntryListItem	Feature Envy
-source.net.sf.jmoney.gui.IncomeExpenseReportPanel	Dispersed Coupling
-source.net.sf.jmoney.gui.IncomeExpenseReportPanel	Dispersed Coupling
-source.net.sf.jmoney.gui.IncomeExpenseReportPanel	Data Class
-source.net.sf.jmoney.gui.AccountBalancesReportPanel	Feature Envy
-source.net.sf.jmoney.gui.AccountBalancesReportPanel	Dispersed Coupling
-source.net.sf.jmoney.gui.AccountBalancesReportPanel	Feature Envy
-source.net.sf.jmoney.model.SplittedEntry	Refused Parent Bequest
-source.net.sf.jmoney.gui.CategoryPanel	Feature Envy
-source.net.sf.jmoney.gui.FontChooser	Feature Envy
-source.net.sf.jmoney.EntryFilter	Feature Envy
-source.net.sf.jmoney.EntryFilter	Data Class
-source.net.sf.jmoney.model.Account	Shotgun Surgery
-source.net.sf.jmoney.model.Account	Shotgun Surgery
-source.net.sf.jmoney.model.Account	God Class
-source.net.sf.jmoney.gui.EntryListItemLabels	Feature Envy
-source.net.sf.jmoney.io.MT940	Brain Method
-source.net.sf.jmoney.io.MT940	Intensive Coupling
-source.net.sf.jmoney.io.MT940	God Class
-source.net.sf.jmoney.model.Session	Shotgun Surgery
-source.net.sf.jmoney.model.Session	Feature Envy
-source.net.sf.jmoney.model.Session	Shotgun Surgery
-source.net.sf.jmoney.VerySimpleDateFormat	Shotgun Surgery
-source.net.sf.jmoney.VerySimpleDateFormat	Brain Method
-source.net.sf.jmoney.VerySimpleDateFormat	Feature Envy
-source.net.sf.jmoney.VerySimpleDateFormat	Intensive Coupling
-source.net.sf.jmoney.gui.AccountEntriesPanel	Feature Envy
-source.net.sf.jmoney.gui.AccountEntriesPanel	Dispersed Coupling
-source.net.sf.jmoney.gui.AccountEntriesPanel	Dispersed Coupling
-source.net.sf.jmoney.gui.AccountEntriesPanel	Dispersed Coupling
-source.net.sf.jmoney.gui.AccountEntriesPanel	Dispersed Coupling
-source.net.sf.jmoney.gui.AccountEntriesPanel	Dispersed Coupling
-source.net.sf.jmoney.gui.AccountEntriesPanel	Feature Envy
-source.net.sf.jmoney.gui.AccountEntriesPanel	Feature Envy
-source.net.sf.jmoney.gui.AccountEntriesPanel	Dispersed Coupling
-source.net.sf.jmoney.gui.AccountEntriesPanel	Feature Envy
-source.net.sf.jmoney.gui.AccountEntriesPanel	Feature Envy
-source.net.sf.jmoney.gui.AccountEntriesPanel	Intensive Coupling
-source.net.sf.jmoney.gui.EntryListItemExtended	Feature Envy
-source.net.sf.jmoney.gui.DateComboBox$DatePopup	Feature Envy
-source.net.sf.jmoney.gui.DateComboBox$DatePopup	Feature Envy
-source.net.sf.jmoney.gui.DateComboBox$DatePopup	Feature Envy
-source.net.sf.jmoney.gui.DateComboBox$DatePopup	Brain Method
-source.net.sf.jmoney.gui.DateComboBox$DatePopup	Dispersed Coupling
-source.net.sf.jmoney.gui.DateComboBox$DatePopup	God Class
-source.net.sf.jmoney.gui.DateComboBox$DatePopup	Data Class
+source.net.sf.jmoney.gui.MainFrame	initProperties	Intensive Coupling
+source.net.sf.jmoney.gui.MainFrame	jbInit	Dispersed Coupling
+source.net.sf.jmoney.gui.MainFrame	navigationTreeSelection	Dispersed Coupling
+source.net.sf.jmoney.gui.MainFrame	writeSession	Feature Envy
+source.net.sf.jmoney.gui.MainFrame	saveSessionAs	Feature Envy
+source.net.sf.jmoney.gui.MainFrame	importQIF	Feature Envy
+source.net.sf.jmoney.gui.MainFrame	importMT940	Feature Envy
+source.net.sf.jmoney.gui.MainFrame	exportQIF	Dispersed Coupling
+source.net.sf.jmoney.gui.MainFrame	saveOldSession	Feature Envy
+source.net.sf.jmoney.gui.MainFrame	null	God Class
+source.net.sf.jmoney.gui.AccountPropertiesPanel	updateMinBalance	Feature Envy
+source.net.sf.jmoney.model.DoubleEntry	null	Refused Parent Bequest
+source.net.sf.jmoney.io.QIF	importFile	Dispersed Coupling
+source.net.sf.jmoney.io.QIF	importAccount	Intensive Coupling
+source.net.sf.jmoney.io.QIF	extractStatus	Feature Envy
+source.net.sf.jmoney.io.QIF	extractCategory	Dispersed Coupling
+source.net.sf.jmoney.io.QIF	exportAccount	Intensive Coupling
+source.net.sf.jmoney.io.QIF	parseDate	Dispersed Coupling
+source.net.sf.jmoney.io.QIF	formatDate	Feature Envy
+source.net.sf.jmoney.io.QIF	getSubcategory	Feature Envy
+source.net.sf.jmoney.io.QIF	removeSimilarTransfer	Intensive Coupling
+source.net.sf.jmoney.io.QIF	null	God Class
+source.net.sf.jmoney.gui.MainFrame$MenuBar	setSessionOpened	Feature Envy
+source.net.sf.jmoney.gui.EditableMetalTheme	getColorString	Feature Envy
+source.net.sf.jmoney.gui.EditableMetalTheme	null	God Class
+source.net.sf.jmoney.gui.SplittedEntryDialog$EntryTableModel	getValueAt	Feature Envy
+source.net.sf.jmoney.gui.SplittedEntryDialog$EntryTableModel	setValueAt	Dispersed Coupling
+source.net.sf.jmoney.io.QIF$Accounts	getAccount	Dispersed Coupling
+source.net.sf.jmoney.Currency	initNumberFormat	Feature Envy
+source.net.sf.jmoney.gui.CategoryComboBox$Model	update	Feature Envy
+source.net.sf.jmoney.gui.CategoryComboBox$Model	buildModel	Feature Envy
+source.net.sf.jmoney.model.Entry	statusNames	Feature Envy
+source.net.sf.jmoney.model.Entry	getDate	Shotgun Surgery
+source.net.sf.jmoney.model.Entry	getDescription	Shotgun Surgery
+source.net.sf.jmoney.model.Entry	getCategory	Shotgun Surgery
+source.net.sf.jmoney.model.Entry	getAmount	Shotgun Surgery
+source.net.sf.jmoney.model.Entry	getStatusString	Feature Envy
+source.net.sf.jmoney.model.Entry	setAmount	Shotgun Surgery
+source.net.sf.jmoney.model.Entry	null	God Class
+source.net.sf.jmoney.gui.EntryListItem	setModel	Feature Envy
+source.net.sf.jmoney.gui.EntryListItem	setBalance	Feature Envy
+source.net.sf.jmoney.gui.EntryListItem	setLook	Feature Envy
+source.net.sf.jmoney.gui.EntryListItem	formatAmount	Feature Envy
+source.net.sf.jmoney.gui.IncomeExpenseReportPanel	getItems	Dispersed Coupling
+source.net.sf.jmoney.gui.IncomeExpenseReportPanel	addEntries	Dispersed Coupling
+source.net.sf.jmoney.gui.IncomeExpenseReportPanel	null	Data Class
+source.net.sf.jmoney.gui.AccountBalancesReportPanel	getSubtitle	Feature Envy
+source.net.sf.jmoney.gui.AccountBalancesReportPanel	getItems	Dispersed Coupling
+source.net.sf.jmoney.gui.AccountBalancesReportPanel	accept	Feature Envy
+source.net.sf.jmoney.model.SplittedEntry	null	Refused Parent Bequest
+source.net.sf.jmoney.gui.CategoryPanel	enableComponents	Feature Envy
+source.net.sf.jmoney.gui.FontChooser	getFontStyle	Feature Envy
+source.net.sf.jmoney.EntryFilter	filterTypes	Feature Envy
+source.net.sf.jmoney.EntryFilter	null	Data Class
+source.net.sf.jmoney.model.Account	getEntries	Shotgun Surgery
+source.net.sf.jmoney.model.Account	formatAmount	Shotgun Surgery
+source.net.sf.jmoney.model.Account	null	God Class
+source.net.sf.jmoney.gui.EntryListItemLabels	toggleEntrySort	Feature Envy
+source.net.sf.jmoney.io.MT940	importTransaction	Brain Method
+source.net.sf.jmoney.io.MT940	importTransaction	Intensive Coupling
+source.net.sf.jmoney.io.MT940	null	God Class
+source.net.sf.jmoney.model.Session	getAccounts	Shotgun Surgery
+source.net.sf.jmoney.model.Session	getAccountByNumber	Feature Envy
+source.net.sf.jmoney.model.Session	modified	Shotgun Surgery
+source.net.sf.jmoney.VerySimpleDateFormat	format	Shotgun Surgery
+source.net.sf.jmoney.VerySimpleDateFormat	parse	Brain Method
+source.net.sf.jmoney.VerySimpleDateFormat	parse	Feature Envy
+source.net.sf.jmoney.VerySimpleDateFormat	parse	Intensive Coupling
+source.net.sf.jmoney.gui.AccountEntriesPanel	AccountEntriesPanel	Feature Envy
+source.net.sf.jmoney.gui.AccountEntriesPanel	setEntryStyle	Dispersed Coupling
+source.net.sf.jmoney.gui.AccountEntriesPanel	updateEntryList	Dispersed Coupling
+source.net.sf.jmoney.gui.AccountEntriesPanel	completeTransfer	Dispersed Coupling
+source.net.sf.jmoney.gui.AccountEntriesPanel	deleteEntry	Dispersed Coupling
+source.net.sf.jmoney.gui.AccountEntriesPanel	setCategory	Dispersed Coupling
+source.net.sf.jmoney.gui.AccountEntriesPanel	updateDate	Feature Envy
+source.net.sf.jmoney.gui.AccountEntriesPanel	updateDescription	Feature Envy
+source.net.sf.jmoney.gui.AccountEntriesPanel	updateDescription	Dispersed Coupling
+source.net.sf.jmoney.gui.AccountEntriesPanel	updateValuta	Feature Envy
+source.net.sf.jmoney.gui.AccountEntriesPanel	updateDebitAndCreditField	Feature Envy
+source.net.sf.jmoney.gui.AccountEntriesPanel	completeEntry	Intensive Coupling
+source.net.sf.jmoney.gui.EntryListItemExtended	setModel	Feature Envy
+source.net.sf.jmoney.gui.DateComboBox$DatePopup	DatePopup	Feature Envy
+source.net.sf.jmoney.gui.DateComboBox$DatePopup	keyReleased	Feature Envy
+source.net.sf.jmoney.gui.DateComboBox$DatePopup	createUpdateButton	Feature Envy
+source.net.sf.jmoney.gui.DateComboBox$DatePopup	updatePopup	Brain Method
+source.net.sf.jmoney.gui.DateComboBox$DatePopup	updatePopup	Dispersed Coupling
+source.net.sf.jmoney.gui.DateComboBox$DatePopup	null	God Class
+source.net.sf.jmoney.gui.DateComboBox$DatePopup	null	Data Class

@@ -1,215 +1,215 @@
-source.org.java.plugin.registry.UniqueIdentity	Shotgun Surgery
-source-tools.org.java.plugin.tools.mocks.MockParameter	Refused Parent Bequest
-source-tools.org.java.plugin.tools.mocks.MockPluginRegistry	Data Class
-source.org.java.plugin.registry.xml.PluginRegistryImpl$RegistryChangeDataImpl	Feature Envy
-source.org.java.plugin.registry.xml.PluginRegistryImpl$RegistryChangeDataImpl	Dispersed Coupling
-source.org.java.plugin.registry.xml.PluginRegistryImpl$RegistryChangeDataImpl	Feature Envy
-source.org.java.plugin.registry.xml.PluginRegistryImpl$RegistryChangeDataImpl	Dispersed Coupling
-source.org.java.plugin.registry.xml.PluginRegistryImpl$RegistryChangeDataImpl	Feature Envy
-source.org.java.plugin.registry.xml.PluginRegistryImpl$RegistryChangeDataImpl	Dispersed Coupling
-source.org.java.plugin.registry.xml.ExtensionPointImpl$ParameterDefinitionImpl	Dispersed Coupling
-source.org.java.plugin.registry.xml.ExtensionPointImpl$ParameterDefinitionImpl	Refused Parent Bequest
-source.org.java.plugin.registry.xml.ExtensionPointImpl$ParameterDefinitionImpl	Tradition Breaker
-source.org.java.plugin.registry.xml.LibraryImpl	Feature Envy
-source.org.java.plugin.registry.xml.LibraryImpl	Intensive Coupling
-source-tools.org.java.plugin.tools.ant.BaseJpfTask	Shotgun Surgery
-source-tools.org.java.plugin.tools.ant.BaseJpfTask	Brain Method
-source-tools.org.java.plugin.tools.ant.BaseJpfTask	Dispersed Coupling
-source-tools.org.java.plugin.tools.ant.BaseJpfTask	Dispersed Coupling
-source-tools.org.java.plugin.tools.ant.BaseJpfTask	Feature Envy
-source-tools.org.java.plugin.tools.ant.BaseJpfTask	God Class
-source.org.java.plugin.registry.xml.DocumentationImpl	Feature Envy
-source.org.java.plugin.registry.xml.ManifestInfoHandler	Dispersed Coupling
-source-tools.org.java.plugin.tools.mocks.MockExtension	Refused Parent Bequest
-source-tools.org.java.plugin.tools.PluginArchiver	Dispersed Coupling
-source-tools.org.java.plugin.tools.PluginArchiver	Feature Envy
-source-tools.org.java.plugin.tools.PluginArchiver	Intensive Coupling
-source-tools.org.java.plugin.tools.PluginArchiver	Feature Envy
-source-tools.org.java.plugin.tools.PluginArchiver	Dispersed Coupling
-source-tools.org.java.plugin.tools.PluginArchiver	Dispersed Coupling
-source-tools.org.java.plugin.tools.PluginArchiver	Dispersed Coupling
-source-tools.org.java.plugin.tools.PluginArchiver	God Class
-source.org.java.plugin.registry.xml.ManifestHandler	Brain Method
-source.org.java.plugin.registry.xml.ManifestHandler	Intensive Coupling
-source.org.java.plugin.registry.xml.ManifestHandler	Brain Method
-source.org.java.plugin.registry.xml.ManifestHandler	Dispersed Coupling
-source-tools.org.java.plugin.tools.mocks.MockPluginDescriptor	God Class
-source-tools.org.java.plugin.tools.mocks.MockPluginDescriptor	Refused Parent Bequest
-source.org.java.plugin.registry.Version	Data Class
-source.org.java.plugin.standard.StandardPluginLifecycleHandler	Feature Envy
-source-boot.org.java.plugin.boot.DefaultPluginsCollector	Feature Envy
-source-boot.org.java.plugin.boot.DefaultPluginsCollector	Dispersed Coupling
-source.org.java.plugin.util.IoUtil	Feature Envy
-source.org.java.plugin.util.IoUtil	Intensive Coupling
-source.org.java.plugin.util.IoUtil	Feature Envy
-source.org.java.plugin.util.IoUtil	Intensive Coupling
-source.org.java.plugin.util.IoUtil	Feature Envy
-source.org.java.plugin.util.IoUtil	Feature Envy
-source.org.java.plugin.util.IoUtil	Feature Envy
-source.org.java.plugin.util.IoUtil	God Class
-source.org.java.plugin.registry.xml.PluginElementImpl	Shotgun Surgery
-source.org.java.plugin.standard.ShadowDataController	Dispersed Coupling
-source.org.java.plugin.standard.ShadowDataController	Feature Envy
-source.org.java.plugin.standard.ShadowDataController	Dispersed Coupling
-source.org.java.plugin.standard.ShadowDataController	Brain Method
-source.org.java.plugin.standard.ShadowDataController	Intensive Coupling
-source.org.java.plugin.standard.ShadowDataController	Feature Envy
-source.org.java.plugin.standard.ShadowDataController	Dispersed Coupling
-source.org.java.plugin.util.ResourceManager	Feature Envy
-source-boot.org.java.plugin.boot.ControlThread	Intensive Coupling
-source-boot.org.java.plugin.boot.ControlThread	Intensive Coupling
-source-boot.org.java.plugin.boot.ControlThread	Feature Envy
-source-boot.org.java.plugin.boot.ControlThread	Intensive Coupling
-source.org.java.plugin.registry.Identity	Shotgun Surgery
-source-tools.org.java.plugin.tools.docgen.DocGenerator	Feature Envy
-source-tools.org.java.plugin.tools.docgen.DocGenerator	Dispersed Coupling
-source.org.java.plugin.standard.StandardPluginClassLoader$ResourceFilter	Intensive Coupling
-source.org.java.plugin.standard.StandardPluginClassLoader$PluginResourceLoader	Dispersed Coupling
-source.org.java.plugin.util.ExtendedProperties	Shotgun Surgery
-source.org.java.plugin.util.ExtendedProperties	Shotgun Surgery
-source.org.java.plugin.util.ExtendedProperties	Dispersed Coupling
-source.org.java.plugin.registry.xml.ExtensionImpl	Dispersed Coupling
-source.org.java.plugin.registry.xml.ExtensionImpl	Dispersed Coupling
-source.org.java.plugin.registry.xml.ExtensionImpl	Dispersed Coupling
-source.org.java.plugin.registry.xml.ExtensionImpl	God Class
-source.org.java.plugin.registry.xml.ExtensionImpl	Refused Parent Bequest
-source.org.java.plugin.registry.xml.ExtensionImpl	Tradition Breaker
-source-tools.org.java.plugin.tools.ant.SortTask	Dispersed Coupling
-source-tools.org.java.plugin.tools.ant.SortTask	Dispersed Coupling
-source-tools.org.java.plugin.tools.ant.SortTask	Refused Parent Bequest
-source-tools.org.java.plugin.tools.ant.PackTask	Feature Envy
-source.org.java.plugin.registry.xml.IntegrityChecker	Brain Method
-source.org.java.plugin.registry.xml.IntegrityChecker	Dispersed Coupling
-source.org.java.plugin.registry.xml.PluginDescriptorImpl	Feature Envy
-source.org.java.plugin.registry.xml.PluginDescriptorImpl	Feature Envy
-source.org.java.plugin.registry.xml.PluginDescriptorImpl	Dispersed Coupling
-source.org.java.plugin.registry.xml.PluginDescriptorImpl	Dispersed Coupling
-source.org.java.plugin.registry.xml.PluginDescriptorImpl	God Class
-source.org.java.plugin.registry.xml.PluginDescriptorImpl	Refused Parent Bequest
-source.org.java.plugin.registry.xml.PluginDescriptorImpl	Tradition Breaker
-source-tools.org.java.plugin.tools.ant.PathTask	Dispersed Coupling
-source-tools.org.java.plugin.tools.ant.PathTask	Dispersed Coupling
-source-tools.org.java.plugin.tools.ant.PathTask	Refused Parent Bequest
-source.org.java.plugin.registry.xml.PluginFragmentImpl	Feature Envy
-source.org.java.plugin.registry.xml.PluginFragmentImpl	Refused Parent Bequest
-source.org.java.plugin.registry.xml.PluginRegistryImpl	Brain Method
-source.org.java.plugin.registry.xml.PluginRegistryImpl	Dispersed Coupling
-source.org.java.plugin.registry.xml.PluginRegistryImpl	Intensive Coupling
-source.org.java.plugin.registry.xml.PluginRegistryImpl	Dispersed Coupling
-source.org.java.plugin.registry.xml.PluginRegistryImpl	Dispersed Coupling
-source.org.java.plugin.registry.xml.PluginRegistryImpl	Brain Method
-source.org.java.plugin.registry.xml.PluginRegistryImpl	Dispersed Coupling
-source.org.java.plugin.registry.xml.PluginRegistryImpl	Feature Envy
-source.org.java.plugin.registry.xml.PluginRegistryImpl	Dispersed Coupling
-source.org.java.plugin.registry.xml.PluginRegistryImpl	Dispersed Coupling
-source.org.java.plugin.registry.xml.PluginRegistryImpl	Dispersed Coupling
-source.org.java.plugin.registry.xml.PluginRegistryImpl	God Class
-source.org.java.plugin.registry.xml.PluginRegistryImpl	Brain Class
-source.org.java.plugin.registry.xml.PluginRegistryImpl	Data Class
-source.org.java.plugin.standard.StandardPluginManager	Dispersed Coupling
-source.org.java.plugin.standard.StandardPluginManager	Feature Envy
-source.org.java.plugin.standard.StandardPluginManager	Dispersed Coupling
-source.org.java.plugin.standard.StandardPluginManager	Dispersed Coupling
-source.org.java.plugin.standard.StandardPluginManager	Dispersed Coupling
-source.org.java.plugin.standard.StandardPluginManager	Dispersed Coupling
-source.org.java.plugin.standard.StandardPluginManager	Feature Envy
-source.org.java.plugin.standard.StandardPluginManager	Feature Envy
-source.org.java.plugin.standard.StandardPluginManager	Dispersed Coupling
-source.org.java.plugin.standard.StandardPluginManager	Feature Envy
-source.org.java.plugin.standard.StandardPluginManager	Dispersed Coupling
-source.org.java.plugin.standard.StandardPluginManager	Feature Envy
-source.org.java.plugin.standard.StandardPluginManager	Intensive Coupling
-source.org.java.plugin.standard.StandardPluginManager	Data Class
-source.org.java.plugin.standard.StandardPluginManager	Refused Parent Bequest
-source.org.java.plugin.standard.ShadingPathResolver	Dispersed Coupling
-source.org.java.plugin.standard.ShadingPathResolver	Dispersed Coupling
-source.org.java.plugin.standard.ShadingPathResolver	Dispersed Coupling
-source.org.java.plugin.standard.ShadingPathResolver	Refused Parent Bequest
-source-tools.org.java.plugin.tools.mocks.MockPluginFragment	Refused Parent Bequest
-source.org.java.plugin.registry.xml.PluginAttributeImpl	Feature Envy
-source.org.java.plugin.standard.ShadingUtil	Dispersed Coupling
-source.org.java.plugin.standard.ShadingUtil	Dispersed Coupling
-source.org.java.plugin.standard.ShadingUtil	Intensive Coupling
-source.org.java.plugin.standard.ShadingUtil	Feature Envy
-source.org.java.plugin.standard.ShadingUtil	Intensive Coupling
-source.org.java.plugin.standard.ShadingUtil	God Class
-source.org.java.plugin.registry.xml.IdentityImpl	Shotgun Surgery
-source.org.java.plugin.registry.xml.ExtensionPointImpl	Intensive Coupling
-source.org.java.plugin.registry.xml.ExtensionPointImpl	Dispersed Coupling
-source.org.java.plugin.registry.xml.ExtensionPointImpl	Dispersed Coupling
-source.org.java.plugin.registry.xml.ExtensionPointImpl	Dispersed Coupling
-source.org.java.plugin.registry.xml.ExtensionPointImpl	Dispersed Coupling
-source.org.java.plugin.registry.xml.ExtensionPointImpl	Dispersed Coupling
-source.org.java.plugin.registry.xml.ExtensionPointImpl	God Class
-source.org.java.plugin.registry.xml.ExtensionPointImpl	Refused Parent Bequest
-source.org.java.plugin.registry.xml.ExtensionPointImpl	Tradition Breaker
-source-tools.org.java.plugin.tools.ant.DocTask	Refused Parent Bequest
-source-tools.org.java.plugin.tools.ant.PluginInfoTask	Dispersed Coupling
-source-tools.org.java.plugin.tools.ant.CheckTask	Feature Envy
-source-tools.org.java.plugin.tools.ant.CheckTask	Feature Envy
-source.org.java.plugin.standard.StandardObjectFactory	Feature Envy
-source.org.java.plugin.standard.StandardObjectFactory	Intensive Coupling
-source-tools.org.java.plugin.tools.ant.SingleFilePluginTask	Dispersed Coupling
-source.org.java.plugin.registry.PluginElement	Shotgun Surgery
-source-boot.org.java.plugin.boot.ErrorDialog	Dispersed Coupling
-source-boot.org.java.plugin.boot.ErrorDialog	Dispersed Coupling
-source-boot.org.java.plugin.boot.ErrorDialog	God Class
-source.org.java.plugin.PathResolver	Shotgun Surgery
-source-tools.org.java.plugin.tools.Util	Dispersed Coupling
-source.org.java.plugin.registry.PluginRegistry	Shotgun Surgery
-source.org.java.plugin.registry.PluginRegistry	Shotgun Surgery
-source.org.java.plugin.registry.PluginRegistry	Shotgun Surgery
-source-boot.org.java.plugin.boot.BootErrorHandlerGui	Dispersed Coupling
-source.org.java.plugin.standard.StandardPluginClassLoader	Dispersed Coupling
-source.org.java.plugin.standard.StandardPluginClassLoader	Dispersed Coupling
-source.org.java.plugin.standard.StandardPluginClassLoader	Intensive Coupling
-source.org.java.plugin.standard.StandardPluginClassLoader	Intensive Coupling
-source.org.java.plugin.standard.StandardPluginClassLoader	Dispersed Coupling
-source.org.java.plugin.standard.StandardPluginClassLoader	Feature Envy
-source.org.java.plugin.standard.StandardPluginClassLoader	Brain Method
-source.org.java.plugin.standard.StandardPluginClassLoader	Dispersed Coupling
-source.org.java.plugin.standard.StandardPluginClassLoader	Dispersed Coupling
-source.org.java.plugin.standard.StandardPluginClassLoader	Brain Method
-source.org.java.plugin.standard.StandardPluginClassLoader	Dispersed Coupling
-source.org.java.plugin.standard.StandardPluginClassLoader	Feature Envy
-source.org.java.plugin.standard.StandardPluginClassLoader	God Class
-source.org.java.plugin.standard.StandardPluginClassLoader	Brain Class
-source.org.java.plugin.standard.StandardPluginClassLoader	Refused Parent Bequest
-source-tools.org.java.plugin.tools.ant.VersionUpdateTask	Brain Method
-source-tools.org.java.plugin.tools.ant.VersionUpdateTask	Dispersed Coupling
-source.org.java.plugin.ObjectFactory	Dispersed Coupling
-source.org.java.plugin.ObjectFactory	Dispersed Coupling
-source.org.java.plugin.registry.xml.DocumentationImpl$ReferenceImpl	Feature Envy
-source-boot.org.java.plugin.boot.Boot	Dispersed Coupling
-source-boot.org.java.plugin.boot.Boot	Dispersed Coupling
-source-boot.org.java.plugin.boot.Boot	Feature Envy
-source-boot.org.java.plugin.boot.Boot	Feature Envy
-source-boot.org.java.plugin.boot.Boot	Dispersed Coupling
-source-boot.org.java.plugin.boot.Boot	Dispersed Coupling
-source-boot.org.java.plugin.boot.Boot	God Class
-source-boot.org.java.plugin.boot.Boot	Data Class
-source-tools.org.java.plugin.tools.mocks.MockPluginPrerequisite	Refused Parent Bequest
-source.org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	Feature Envy
-source.org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	Dispersed Coupling
-source.org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	God Class
-source.org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	Refused Parent Bequest
-source.org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	Tradition Breaker
-source-boot.org.java.plugin.boot.DefaultApplicationInitializer	Dispersed Coupling
-source-boot.org.java.plugin.boot.DefaultApplicationInitializer	Dispersed Coupling
-source-boot.org.java.plugin.boot.DefaultApplicationInitializer	Feature Envy
-source-boot.org.java.plugin.boot.DefaultApplicationInitializer	Feature Envy
-source.org.java.plugin.registry.PluginDescriptor	Shotgun Surgery
-source.org.java.plugin.registry.PluginDescriptor	Shotgun Surgery
-source.org.java.plugin.registry.PluginDescriptor	Shotgun Surgery
-source.org.java.plugin.registry.xml.ParameterValueParser	Dispersed Coupling
-source.org.java.plugin.registry.xml.ParameterValueParser	Brain Method
-source.org.java.plugin.registry.xml.ParameterValueParser	Dispersed Coupling
-source.org.java.plugin.registry.xml.ParameterValueParser	God Class
-source-tools.org.java.plugin.tools.ant.VersionUpdateTask$PluginInfo	Feature Envy
-source-tools.org.java.plugin.tools.ant.VersionUpdateTask$PluginInfo	Feature Envy
-source-tools.org.java.plugin.tools.ant.VersionUpdateTask$PluginInfo	Feature Envy
-source-tools.org.java.plugin.tools.ant.VersionUpdateTask$PluginInfo	Dispersed Coupling
-source-tools.org.java.plugin.tools.ant.VersionUpdateTask$PluginInfo	Feature Envy
-source-tools.org.java.plugin.tools.mocks.MockPluginAttribute	Refused Parent Bequest
-source-tools.org.java.plugin.tools.mocks.MockExtensionPoint	Refused Parent Bequest
-source-tools.org.java.plugin.tools.mocks.MockParameterDefinition	Refused Parent Bequest
+source.org.java.plugin.registry.UniqueIdentity	getUniqueId	Shotgun Surgery
+source-tools.org.java.plugin.tools.mocks.MockParameter	null	Refused Parent Bequest
+source-tools.org.java.plugin.tools.mocks.MockPluginRegistry	null	Data Class
+source.org.java.plugin.registry.xml.PluginRegistryImpl$RegistryChangeDataImpl	addedExtensions	Feature Envy
+source.org.java.plugin.registry.xml.PluginRegistryImpl$RegistryChangeDataImpl	addedExtensions	Dispersed Coupling
+source.org.java.plugin.registry.xml.PluginRegistryImpl$RegistryChangeDataImpl	removedExtensions	Feature Envy
+source.org.java.plugin.registry.xml.PluginRegistryImpl$RegistryChangeDataImpl	removedExtensions	Dispersed Coupling
+source.org.java.plugin.registry.xml.PluginRegistryImpl$RegistryChangeDataImpl	modifiedExtensions	Feature Envy
+source.org.java.plugin.registry.xml.PluginRegistryImpl$RegistryChangeDataImpl	modifiedExtensions	Dispersed Coupling
+source.org.java.plugin.registry.xml.ExtensionPointImpl$ParameterDefinitionImpl	ParameterDefinitionImpl	Dispersed Coupling
+source.org.java.plugin.registry.xml.ExtensionPointImpl$ParameterDefinitionImpl	null	Refused Parent Bequest
+source.org.java.plugin.registry.xml.ExtensionPointImpl$ParameterDefinitionImpl	null	Tradition Breaker
+source.org.java.plugin.registry.xml.LibraryImpl	LibraryImpl	Feature Envy
+source.org.java.plugin.registry.xml.LibraryImpl	LibraryImpl	Intensive Coupling
+source-tools.org.java.plugin.tools.ant.BaseJpfTask	getRegistry	Shotgun Surgery
+source-tools.org.java.plugin.tools.ant.BaseJpfTask	initRegistry	Brain Method
+source-tools.org.java.plugin.tools.ant.BaseJpfTask	initRegistry	Dispersed Coupling
+source-tools.org.java.plugin.tools.ant.BaseJpfTask	getIncludedFiles	Dispersed Coupling
+source-tools.org.java.plugin.tools.ant.BaseJpfTask	isPluginInList	Feature Envy
+source-tools.org.java.plugin.tools.ant.BaseJpfTask	null	God Class
+source.org.java.plugin.registry.xml.DocumentationImpl	DocumentationImpl	Feature Envy
+source.org.java.plugin.registry.xml.ManifestInfoHandler	startElement	Dispersed Coupling
+source-tools.org.java.plugin.tools.mocks.MockExtension	null	Refused Parent Bequest
+source-tools.org.java.plugin.tools.PluginArchiver	pack	Dispersed Coupling
+source-tools.org.java.plugin.tools.PluginArchiver	unpack	Feature Envy
+source-tools.org.java.plugin.tools.PluginArchiver	unpack	Intensive Coupling
+source-tools.org.java.plugin.tools.PluginArchiver	unpackEntry	Feature Envy
+source-tools.org.java.plugin.tools.PluginArchiver	unpackEntry	Dispersed Coupling
+source-tools.org.java.plugin.tools.PluginArchiver	writeDescripor	Dispersed Coupling
+source-tools.org.java.plugin.tools.PluginArchiver	readDescriptor	Dispersed Coupling
+source-tools.org.java.plugin.tools.PluginArchiver	null	God Class
+source.org.java.plugin.registry.xml.ManifestHandler	startElement	Brain Method
+source.org.java.plugin.registry.xml.ManifestHandler	startElement	Intensive Coupling
+source.org.java.plugin.registry.xml.ManifestHandler	endElement	Brain Method
+source.org.java.plugin.registry.xml.ManifestHandler	endElement	Dispersed Coupling
+source-tools.org.java.plugin.tools.mocks.MockPluginDescriptor	null	God Class
+source-tools.org.java.plugin.tools.mocks.MockPluginDescriptor	null	Refused Parent Bequest
+source.org.java.plugin.registry.Version	null	Data Class
+source.org.java.plugin.standard.StandardPluginLifecycleHandler	configure	Feature Envy
+source-boot.org.java.plugin.boot.DefaultPluginsCollector	configure	Feature Envy
+source-boot.org.java.plugin.boot.DefaultPluginsCollector	configure	Dispersed Coupling
+source.org.java.plugin.util.IoUtil	copyFile	Feature Envy
+source.org.java.plugin.util.IoUtil	copyFolder	Intensive Coupling
+source.org.java.plugin.util.IoUtil	compareFileDates	Feature Envy
+source.org.java.plugin.util.IoUtil	synchronizeFolders	Intensive Coupling
+source.org.java.plugin.util.IoUtil	getResourceInputStream	Feature Envy
+source.org.java.plugin.util.IoUtil	url2file	Feature Envy
+source.org.java.plugin.util.IoUtil	file2url	Feature Envy
+source.org.java.plugin.util.IoUtil	null	God Class
+source.org.java.plugin.registry.xml.PluginElementImpl	getDeclaringPluginDescriptor	Shotgun Surgery
+source.org.java.plugin.standard.ShadowDataController	quickCheck	Dispersed Coupling
+source.org.java.plugin.standard.ShadowDataController	quickCheck	Feature Envy
+source.org.java.plugin.standard.ShadowDataController	quickCheck	Dispersed Coupling
+source.org.java.plugin.standard.ShadowDataController	shadowResource	Brain Method
+source.org.java.plugin.standard.ShadowDataController	shadowResource	Intensive Coupling
+source.org.java.plugin.standard.ShadowDataController	deepCheck	Feature Envy
+source.org.java.plugin.standard.ShadowDataController	deepCheck	Dispersed Coupling
+source.org.java.plugin.util.ResourceManager	getMessage	Feature Envy
+source-boot.org.java.plugin.boot.ControlThread	isApplicationRunning	Intensive Coupling
+source-boot.org.java.plugin.boot.ControlThread	stopRunningApplication	Intensive Coupling
+source-boot.org.java.plugin.boot.ControlThread	handleRequest	Feature Envy
+source-boot.org.java.plugin.boot.ControlThread	handleRequest	Intensive Coupling
+source.org.java.plugin.registry.Identity	getId	Shotgun Surgery
+source-tools.org.java.plugin.tools.docgen.DocGenerator	processTemplateContent	Feature Envy
+source-tools.org.java.plugin.tools.docgen.DocGenerator	generateForPluginDescriptor	Dispersed Coupling
+source.org.java.plugin.standard.StandardPluginClassLoader$ResourceFilter	ResourceFilter	Intensive Coupling
+source.org.java.plugin.standard.StandardPluginClassLoader$PluginResourceLoader	get	Dispersed Coupling
+source.org.java.plugin.util.ExtendedProperties	getProperty	Shotgun Surgery
+source.org.java.plugin.util.ExtendedProperties	getProperty	Shotgun Surgery
+source.org.java.plugin.util.ExtendedProperties	getSubset	Dispersed Coupling
+source.org.java.plugin.registry.xml.ExtensionImpl	getExtensionPoint	Dispersed Coupling
+source.org.java.plugin.registry.xml.ExtensionImpl	validateParameters	Dispersed Coupling
+source.org.java.plugin.registry.xml.ExtensionImpl	validateParameters	Dispersed Coupling
+source.org.java.plugin.registry.xml.ExtensionImpl	null	God Class
+source.org.java.plugin.registry.xml.ExtensionImpl	null	Refused Parent Bequest
+source.org.java.plugin.registry.xml.ExtensionImpl	null	Tradition Breaker
+source-tools.org.java.plugin.tools.ant.SortTask	execute	Dispersed Coupling
+source-tools.org.java.plugin.tools.ant.SortTask	collectPrerequisites	Dispersed Coupling
+source-tools.org.java.plugin.tools.ant.SortTask	null	Refused Parent Bequest
+source-tools.org.java.plugin.tools.ant.PackTask	execute	Feature Envy
+source.org.java.plugin.registry.xml.IntegrityChecker	checkPlugin	Brain Method
+source.org.java.plugin.registry.xml.IntegrityChecker	checkPlugin	Dispersed Coupling
+source.org.java.plugin.registry.xml.PluginDescriptorImpl	PluginDescriptorImpl	Feature Envy
+source.org.java.plugin.registry.xml.PluginDescriptorImpl	registerFragment	Feature Envy
+source.org.java.plugin.registry.xml.PluginDescriptorImpl	unregisterFragment	Dispersed Coupling
+source.org.java.plugin.registry.xml.PluginDescriptorImpl	processExtensions	Dispersed Coupling
+source.org.java.plugin.registry.xml.PluginDescriptorImpl	null	God Class
+source.org.java.plugin.registry.xml.PluginDescriptorImpl	null	Refused Parent Bequest
+source.org.java.plugin.registry.xml.PluginDescriptorImpl	null	Tradition Breaker
+source-tools.org.java.plugin.tools.ant.PathTask	execute	Dispersed Coupling
+source-tools.org.java.plugin.tools.ant.PathTask	processDescriptor	Dispersed Coupling
+source-tools.org.java.plugin.tools.ant.PathTask	null	Refused Parent Bequest
+source.org.java.plugin.registry.xml.PluginFragmentImpl	matches	Feature Envy
+source.org.java.plugin.registry.xml.PluginFragmentImpl	null	Refused Parent Bequest
+source.org.java.plugin.registry.xml.PluginRegistryImpl	register	Brain Method
+source.org.java.plugin.registry.xml.PluginRegistryImpl	register	Dispersed Coupling
+source.org.java.plugin.registry.xml.PluginRegistryImpl	checkVersions	Intensive Coupling
+source.org.java.plugin.registry.xml.PluginRegistryImpl	registerPlugin	Dispersed Coupling
+source.org.java.plugin.registry.xml.PluginRegistryImpl	registerFragment	Dispersed Coupling
+source.org.java.plugin.registry.xml.PluginRegistryImpl	unregister	Brain Method
+source.org.java.plugin.registry.xml.PluginRegistryImpl	unregister	Dispersed Coupling
+source.org.java.plugin.registry.xml.PluginRegistryImpl	dump	Feature Envy
+source.org.java.plugin.registry.xml.PluginRegistryImpl	getExtensionPoint	Dispersed Coupling
+source.org.java.plugin.registry.xml.PluginRegistryImpl	isExtensionPointAvailable	Dispersed Coupling
+source.org.java.plugin.registry.xml.PluginRegistryImpl	getDependingPlugins	Dispersed Coupling
+source.org.java.plugin.registry.xml.PluginRegistryImpl	null	God Class
+source.org.java.plugin.registry.xml.PluginRegistryImpl	null	Brain Class
+source.org.java.plugin.registry.xml.PluginRegistryImpl	null	Data Class
+source.org.java.plugin.standard.StandardPluginManager	registryChangeHandler	Dispersed Coupling
+source.org.java.plugin.standard.StandardPluginManager	getPluginClassLoader	Feature Envy
+source.org.java.plugin.standard.StandardPluginManager	shutdown	Dispersed Coupling
+source.org.java.plugin.standard.StandardPluginManager	checkPrerequisites	Dispersed Coupling
+source.org.java.plugin.standard.StandardPluginManager	deactivatePlugin	Dispersed Coupling
+source.org.java.plugin.standard.StandardPluginManager	deactivatePlugin	Dispersed Coupling
+source.org.java.plugin.standard.StandardPluginManager	dump	Feature Envy
+source.org.java.plugin.standard.StandardPluginManager	disablePlugin	Feature Envy
+source.org.java.plugin.standard.StandardPluginManager	disablePlugin	Dispersed Coupling
+source.org.java.plugin.standard.StandardPluginManager	enablePlugin	Feature Envy
+source.org.java.plugin.standard.StandardPluginManager	enablePlugin	Dispersed Coupling
+source.org.java.plugin.standard.StandardPluginManager	fireEvent	Feature Envy
+source.org.java.plugin.standard.StandardPluginManager	fireEvent	Intensive Coupling
+source.org.java.plugin.standard.StandardPluginManager	null	Data Class
+source.org.java.plugin.standard.StandardPluginManager	null	Refused Parent Bequest
+source.org.java.plugin.standard.ShadingPathResolver	configure	Dispersed Coupling
+source.org.java.plugin.standard.ShadingPathResolver	registerContext	Dispersed Coupling
+source.org.java.plugin.standard.ShadingPathResolver	getUnpackMode	Dispersed Coupling
+source.org.java.plugin.standard.ShadingPathResolver	null	Refused Parent Bequest
+source-tools.org.java.plugin.tools.mocks.MockPluginFragment	null	Refused Parent Bequest
+source.org.java.plugin.registry.xml.PluginAttributeImpl	PluginAttributeImpl	Feature Envy
+source.org.java.plugin.standard.ShadingUtil	unpack	Dispersed Coupling
+source.org.java.plugin.standard.ShadingUtil	unpack	Dispersed Coupling
+source.org.java.plugin.standard.ShadingUtil	getLastModified	Intensive Coupling
+source.org.java.plugin.standard.ShadingUtil	getRelativePath	Feature Envy
+source.org.java.plugin.standard.ShadingUtil	getRelativePath	Intensive Coupling
+source.org.java.plugin.standard.ShadingUtil	null	God Class
+source.org.java.plugin.registry.xml.IdentityImpl	getId	Shotgun Surgery
+source.org.java.plugin.registry.xml.ExtensionPointImpl	ExtensionPointImpl	Intensive Coupling
+source.org.java.plugin.registry.xml.ExtensionPointImpl	updateExtensionsLists	Dispersed Coupling
+source.org.java.plugin.registry.xml.ExtensionPointImpl	validate	Dispersed Coupling
+source.org.java.plugin.registry.xml.ExtensionPointImpl	isExtensionPointAvailable	Dispersed Coupling
+source.org.java.plugin.registry.xml.ExtensionPointImpl	getParameterDefinitions	Dispersed Coupling
+source.org.java.plugin.registry.xml.ExtensionPointImpl	collectDescendants	Dispersed Coupling
+source.org.java.plugin.registry.xml.ExtensionPointImpl	null	God Class
+source.org.java.plugin.registry.xml.ExtensionPointImpl	null	Refused Parent Bequest
+source.org.java.plugin.registry.xml.ExtensionPointImpl	null	Tradition Breaker
+source-tools.org.java.plugin.tools.ant.DocTask	null	Refused Parent Bequest
+source-tools.org.java.plugin.tools.ant.PluginInfoTask	execute	Dispersed Coupling
+source-tools.org.java.plugin.tools.ant.CheckTask	execute	Feature Envy
+source-tools.org.java.plugin.tools.ant.CheckTask	integrityCheckReport2str	Feature Envy
+source.org.java.plugin.standard.StandardObjectFactory	getImplClassName	Feature Envy
+source.org.java.plugin.standard.StandardObjectFactory	createClassInstance	Intensive Coupling
+source-tools.org.java.plugin.tools.ant.SingleFilePluginTask	execute	Dispersed Coupling
+source.org.java.plugin.registry.PluginElement	getDeclaringPluginDescriptor	Shotgun Surgery
+source-boot.org.java.plugin.boot.ErrorDialog	ErrorDialog	Dispersed Coupling
+source-boot.org.java.plugin.boot.ErrorDialog	getJTextArea	Dispersed Coupling
+source-boot.org.java.plugin.boot.ErrorDialog	null	God Class
+source.org.java.plugin.PathResolver	resolvePath	Shotgun Surgery
+source-tools.org.java.plugin.tools.Util	getTempFolder	Dispersed Coupling
+source.org.java.plugin.registry.PluginRegistry	getPluginDescriptor	Shotgun Surgery
+source.org.java.plugin.registry.PluginRegistry	getPluginDescriptors	Shotgun Surgery
+source.org.java.plugin.registry.PluginRegistry	getPluginFragments	Shotgun Surgery
+source-boot.org.java.plugin.boot.BootErrorHandlerGui	handleError	Dispersed Coupling
+source.org.java.plugin.standard.StandardPluginClassLoader	getUrls	Dispersed Coupling
+source.org.java.plugin.standard.StandardPluginClassLoader	getUrls	Dispersed Coupling
+source.org.java.plugin.standard.StandardPluginClassLoader	getLibCacheFolder	Intensive Coupling
+source.org.java.plugin.standard.StandardPluginClassLoader	collectImports	Intensive Coupling
+source.org.java.plugin.standard.StandardPluginClassLoader	pluginsSetChanged	Dispersed Coupling
+source.org.java.plugin.standard.StandardPluginClassLoader	loadClass	Feature Envy
+source.org.java.plugin.standard.StandardPluginClassLoader	loadPluginClass	Brain Method
+source.org.java.plugin.standard.StandardPluginClassLoader	loadPluginClass	Dispersed Coupling
+source.org.java.plugin.standard.StandardPluginClassLoader	findLibrary	Dispersed Coupling
+source.org.java.plugin.standard.StandardPluginClassLoader	findResource	Brain Method
+source.org.java.plugin.standard.StandardPluginClassLoader	findResources	Dispersed Coupling
+source.org.java.plugin.standard.StandardPluginClassLoader	isResourceVisible	Feature Envy
+source.org.java.plugin.standard.StandardPluginClassLoader	null	God Class
+source.org.java.plugin.standard.StandardPluginClassLoader	null	Brain Class
+source.org.java.plugin.standard.StandardPluginClassLoader	null	Refused Parent Bequest
+source-tools.org.java.plugin.tools.ant.VersionUpdateTask	execute	Brain Method
+source-tools.org.java.plugin.tools.ant.VersionUpdateTask	execute	Dispersed Coupling
+source.org.java.plugin.ObjectFactory	loadProperties	Dispersed Coupling
+source.org.java.plugin.ObjectFactory	findProperty	Dispersed Coupling
+source.org.java.plugin.registry.xml.DocumentationImpl$ReferenceImpl	ReferenceImpl	Feature Envy
+source-boot.org.java.plugin.boot.Boot	main	Dispersed Coupling
+source-boot.org.java.plugin.boot.Boot	boot	Dispersed Coupling
+source-boot.org.java.plugin.boot.Boot	getErrorHandlerInstance	Feature Envy
+source-boot.org.java.plugin.boot.Boot	initSplashHandler	Feature Envy
+source-boot.org.java.plugin.boot.Boot	initSplashHandler	Dispersed Coupling
+source-boot.org.java.plugin.boot.Boot	initApplication	Dispersed Coupling
+source-boot.org.java.plugin.boot.Boot	null	God Class
+source-boot.org.java.plugin.boot.Boot	null	Data Class
+source-tools.org.java.plugin.tools.mocks.MockPluginPrerequisite	null	Refused Parent Bequest
+source.org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	ParameterImpl	Feature Envy
+source.org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	getDefinition	Dispersed Coupling
+source.org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	null	God Class
+source.org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	null	Refused Parent Bequest
+source.org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	null	Tradition Breaker
+source-boot.org.java.plugin.boot.DefaultApplicationInitializer	configure	Dispersed Coupling
+source-boot.org.java.plugin.boot.DefaultApplicationInitializer	initApplication	Dispersed Coupling
+source-boot.org.java.plugin.boot.DefaultApplicationInitializer	integrityCheckReport2str	Feature Envy
+source-boot.org.java.plugin.boot.DefaultApplicationInitializer	isPluginInList	Feature Envy
+source.org.java.plugin.registry.PluginDescriptor	getVersion	Shotgun Surgery
+source.org.java.plugin.registry.PluginDescriptor	getExtensionPoints	Shotgun Surgery
+source.org.java.plugin.registry.PluginDescriptor	getRegistry	Shotgun Surgery
+source.org.java.plugin.registry.xml.ParameterValueParser	getExtensionPoint	Dispersed Coupling
+source.org.java.plugin.registry.xml.ParameterValueParser	ParameterValueParser	Brain Method
+source.org.java.plugin.registry.xml.ParameterValueParser	ParameterValueParser	Dispersed Coupling
+source.org.java.plugin.registry.xml.ParameterValueParser	null	God Class
+source-tools.org.java.plugin.tools.ant.VersionUpdateTask$PluginInfo	upgradeVersion	Feature Envy
+source-tools.org.java.plugin.tools.ant.VersionUpdateTask$PluginInfo	upgradeVersion	Feature Envy
+source-tools.org.java.plugin.tools.ant.VersionUpdateTask$PluginInfo	PluginInfo	Feature Envy
+source-tools.org.java.plugin.tools.ant.VersionUpdateTask$PluginInfo	processVersion	Dispersed Coupling
+source-tools.org.java.plugin.tools.ant.VersionUpdateTask$PluginInfo	processVersionReference	Feature Envy
+source-tools.org.java.plugin.tools.mocks.MockPluginAttribute	null	Refused Parent Bequest
+source-tools.org.java.plugin.tools.mocks.MockExtensionPoint	null	Refused Parent Bequest
+source-tools.org.java.plugin.tools.mocks.MockParameterDefinition	null	Refused Parent Bequest

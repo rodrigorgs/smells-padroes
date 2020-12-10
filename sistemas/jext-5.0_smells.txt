@@ -1,792 +1,792 @@
-src.plugins.HTML.PreviousTag	Intensive Coupling
-src.lib.org.jext.misc.CompleteWordList$KeyHandler	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.PHPTokenMarker	Brain Method
-src.lib.org.gjt.sp.jedit.syntax.PHPTokenMarker	Brain Class
-src.lib.org.gjt.sp.jedit.syntax.PHPTokenMarker	Data Class
-src.lib.org.gjt.sp.jedit.syntax.PlainTokenMarker	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.JavaTokenMarker	Brain Method
-src.lib.org.gjt.sp.jedit.syntax.JavaTokenMarker	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.JavaTokenMarker	God Class
-src.lib.org.jext.options.EditorOptions	Dispersed Coupling
-src.lib.org.jext.options.EditorOptions	Feature Envy
-src.lib.org.gjt.sp.jedit.textarea.TextUtilities	Feature Envy
-src.lib.org.gjt.sp.jedit.textarea.TextUtilities	Brain Method
-src.lib.org.gjt.sp.jedit.textarea.TextUtilities	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.textarea.TextUtilities	God Class
-src.lib.org.gjt.sp.jedit.textarea.TextUtilities	Data Class
-src.lib.org.jext.actions.ToLowerCase	Feature Envy
-src.lib.org.jext.actions.ToLowerCase	Intensive Coupling
-src.plugins.KLNF.com.incors.plaf.kunststoff.themes.KunststoffPresentationTheme	Feature Envy
-src.plugins.KLNF.com.incors.plaf.kunststoff.themes.KunststoffPresentationTheme	Feature Envy
-src.plugins.KLNF.com.incors.plaf.kunststoff.themes.KunststoffPresentationTheme	Refused Parent Bequest
-src.lib.org.jext.misc.VersionCheck	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.textarea.InputHandler$backspace_word	Dispersed Coupling
-src.lib.org.jext.project.AbstractProjectManager	Dispersed Coupling
-src.plugins.WheelMouse.WheelMouseOptionPane	Feature Envy
-src.lib.org.jext.misc.VirtualFolders	Intensive Coupling
-src.lib.org.jext.misc.VirtualFolders	Dispersed Coupling
-src.lib.org.jext.misc.VirtualFolders	Dispersed Coupling
-src.lib.org.jext.misc.VirtualFolders	Feature Envy
-src.lib.org.jext.misc.VirtualFolders	Dispersed Coupling
-src.lib.org.jext.misc.VirtualFolders	Feature Envy
-src.lib.org.jext.misc.VirtualFolders	Feature Envy
-src.lib.org.jext.misc.VirtualFolders	Dispersed Coupling
-src.lib.org.jext.misc.FindAccessory$FindResults	Dispersed Coupling
-src.lib.org.jext.options.StyleTable$StyleEditor	Feature Envy
-src.lib.org.jext.options.StyleTable$StyleEditor	Feature Envy
-src.plugins.HTML.HTMLPlugin	Feature Envy
-src.lib.org.gjt.sp.jedit.textarea.TextAreaPainter	Feature Envy
-src.lib.org.gjt.sp.jedit.textarea.TextAreaPainter	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.textarea.TextAreaPainter	Feature Envy
-src.lib.org.gjt.sp.jedit.textarea.TextAreaPainter	Feature Envy
-src.lib.org.gjt.sp.jedit.textarea.TextAreaPainter	Feature Envy
-src.lib.org.gjt.sp.jedit.textarea.TextAreaPainter	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.textarea.TextAreaPainter	Feature Envy
-src.lib.org.gjt.sp.jedit.textarea.TextAreaPainter	Intensive Coupling
-src.lib.org.gjt.sp.jedit.textarea.TextAreaPainter	Intensive Coupling
-src.lib.org.gjt.sp.jedit.textarea.TextAreaPainter	Intensive Coupling
-src.lib.org.gjt.sp.jedit.textarea.TextAreaPainter	God Class
-src.plugins.KLNF.com.incors.plaf.kunststoff.KunststoffMenuUI	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea$MouseHandler	Intensive Coupling
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea$MouseHandler	Feature Envy
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea$MouseHandler	Intensive Coupling
-src.lib.gnu.regexp.RETokenPOSIX	Feature Envy
-src.lib.gnu.regexp.RETokenRepeated	Brain Method
-src.lib.gnu.regexp.RETokenRepeated	Feature Envy
-src.lib.gnu.regexp.RETokenRepeated	Feature Envy
-src.lib.org.jext.dawn.Dawn	Dispersed Coupling
-src.lib.org.jext.dawn.Dawn	Feature Envy
-src.lib.org.jext.dawn.Dawn	Feature Envy
-src.plugins.HTML.TagsCompletionOptionPane	Feature Envy
-src.plugins.HTML.TagsCompletionOptionPane	Feature Envy
-src.plugins.HTML.TagsCompletionOptionPane	Feature Envy
-src.lib.org.jext.actions.CompleteWordAll	Brain Method
-src.lib.org.jext.actions.CompleteWordAll	Intensive Coupling
-src.lib.org.jext.project.DefaultProjectManager$DefaultProject	Dispersed Coupling
-src.lib.org.jext.project.DefaultProjectManager$DefaultProject	Dispersed Coupling
-src.lib.org.jext.project.DefaultProjectManager$DefaultProject	Refused Parent Bequest
-src.lib.org.jext.project.DefaultProjectManager$DefaultProject	Tradition Breaker
-src.lib.org.jext.event.JextEvent	Shotgun Surgery
-src.lib.com.jgoodies.uif_lite.panel.SimpleInternalFrame	Feature Envy
-src.lib.com.jgoodies.uif_lite.panel.SimpleInternalFrame	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.VHDLTokenMarker	Brain Method
-src.lib.org.gjt.sp.jedit.syntax.VHDLTokenMarker	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.VHDLTokenMarker	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.VHDLTokenMarker	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.VHDLTokenMarker	God Class
-src.lib.org.gjt.sp.jedit.syntax.VHDLTokenMarker	Refused Parent Bequest
-src.lib.org.jext.search.Search	Feature Envy
-src.lib.org.jext.search.Search	Feature Envy
-src.lib.org.jext.search.Search	Feature Envy
-src.lib.org.jext.search.Search	Feature Envy
-src.lib.org.jext.search.Search	Feature Envy
-src.lib.org.jext.search.Search	Dispersed Coupling
-src.lib.org.jext.search.Search	Data Class
-src.plugins.HTML.ToAccents	Intensive Coupling
-src.plugins.HTML.ToAccents	Intensive Coupling
-src.lib.org.gjt.sp.jedit.textarea.InputHandler$home	Intensive Coupling
-src.lib.gnu.regexp.RETokenRange	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.MakefileTokenMarker	Brain Method
-src.lib.org.gjt.sp.jedit.syntax.MakefileTokenMarker	Feature Envy
-src.lib.org.jext.print.PrintText	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.syntax.JavaScriptTokenMarker	Feature Envy
-src.lib.org.jext.textarea.CsWord	Brain Method
-src.lib.org.jext.textarea.CsWord	Intensive Coupling
-src.lib.org.jext.menus.JextRecentMenu	Feature Envy
-src.lib.org.jext.menus.JextRecentMenu	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.textarea.Gutter$GutterMouseListener	Feature Envy
-src.lib.org.gjt.sp.jedit.textarea.Gutter$GutterMouseListener	Dispersed Coupling
-src.lib.org.jext.console.commands.ChangeDirCommand	Feature Envy
-src.lib.org.jext.console.commands.ChangeDirCommand	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.syntax.ASPVBScriptTokenMarker	Brain Method
-src.lib.org.gjt.sp.jedit.syntax.ASPVBScriptTokenMarker	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.ASPVBScriptTokenMarker	Feature Envy
-src.lib.org.jext.xml.XMenuHandler	Feature Envy
-src.lib.org.jext.xml.XMenuHandler	Dispersed Coupling
-src.lib.org.jext.JextFrame	Shotgun Surgery
-src.lib.org.jext.JextFrame	Shotgun Surgery
-src.lib.org.jext.JextFrame	Intensive Coupling
-src.lib.org.jext.JextFrame	Shotgun Surgery
-src.lib.org.jext.JextFrame	Shotgun Surgery
-src.lib.org.jext.JextFrame	Dispersed Coupling
-src.lib.org.jext.JextFrame	Intensive Coupling
-src.lib.org.jext.JextFrame	Dispersed Coupling
-src.lib.org.jext.JextFrame	Feature Envy
-src.lib.org.jext.JextFrame	Intensive Coupling
-src.lib.org.jext.JextFrame	Intensive Coupling
-src.lib.org.jext.JextFrame	Dispersed Coupling
-src.lib.org.jext.JextFrame	Dispersed Coupling
-src.lib.org.jext.JextFrame	Dispersed Coupling
-src.lib.org.jext.JextFrame	Shotgun Surgery
-src.lib.org.jext.JextFrame	Shotgun Surgery
-src.lib.org.jext.JextFrame	Shotgun Surgery
-src.lib.org.jext.JextFrame	Feature Envy
-src.lib.org.jext.JextFrame	Feature Envy
-src.lib.org.jext.JextFrame	Shotgun Surgery
-src.lib.org.jext.JextFrame	Shotgun Surgery
-src.lib.org.jext.JextFrame	Dispersed Coupling
-src.lib.org.jext.JextFrame	Brain Method
-src.lib.org.jext.JextFrame	Dispersed Coupling
-src.lib.org.jext.JextFrame	Dispersed Coupling
-src.lib.org.jext.JextFrame	God Class
-src.lib.org.jext.JextFrame	Brain Class
-src.lib.org.jext.JextLoader	Brain Method
-src.lib.org.jext.JextLoader	Intensive Coupling
-src.lib.org.gjt.sp.jedit.syntax.TokenMarker	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.TokenMarker	Shotgun Surgery
-src.lib.org.gjt.sp.jedit.syntax.TokenMarker	Feature Envy
-src.lib.org.jext.console.commands.ClearCommand	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.CSharpTokenMarker	Brain Method
-src.lib.org.gjt.sp.jedit.syntax.CSharpTokenMarker	Feature Envy
-src.lib.org.gjt.sp.jedit.textarea.InputHandler$insert_char	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.syntax.ASPPerlscriptTokenMarker	Brain Method
-src.lib.org.gjt.sp.jedit.syntax.ASPPerlscriptTokenMarker	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.syntax.ASPPerlscriptTokenMarker	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.ASPPerlscriptTokenMarker	God Class
-src.lib.org.gjt.sp.jedit.syntax.ASPPerlscriptTokenMarker	Brain Class
-src.lib.org.gjt.sp.jedit.syntax.ASPPerlscriptTokenMarker	Data Class
-src.lib.org.gjt.sp.jedit.syntax.ASPPerlscriptTokenMarker	Refused Parent Bequest
-src.lib.org.jext.search.FindAllDialog	Dispersed Coupling
-src.lib.org.jext.search.FindAllDialog	Dispersed Coupling
-src.lib.org.jext.search.FindAllDialog	Feature Envy
-src.lib.org.jext.search.FindAllDialog	Brain Method
-src.lib.org.jext.search.FindAllDialog	Dispersed Coupling
-src.lib.org.jext.toolbar.JextToolBar	Feature Envy
-src.lib.org.jext.Utilities	Feature Envy
-src.lib.org.jext.Utilities	Feature Envy
-src.lib.org.jext.Utilities	Feature Envy
-src.lib.org.jext.Utilities	Dispersed Coupling
-src.lib.org.jext.Utilities	Intensive Coupling
-src.lib.org.jext.Utilities	Intensive Coupling
-src.lib.org.jext.Utilities	Feature Envy
-src.lib.org.jext.Utilities	Feature Envy
-src.lib.org.jext.Utilities	Dispersed Coupling
-src.lib.org.jext.Utilities	Intensive Coupling
-src.lib.org.jext.Utilities	God Class
-src.lib.org.jext.Utilities	Data Class
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea$DocumentHandler	Feature Envy
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea$DocumentHandler	Feature Envy
-src.lib.org.jext.dawn.math.IncreaseFunction	Intensive Coupling
-src.lib.org.gjt.sp.jedit.syntax.TeXTokenMarker	Brain Method
-src.lib.org.gjt.sp.jedit.syntax.TeXTokenMarker	Feature Envy
-src.lib.org.jext.options.LangOptions	Dispersed Coupling
-src.lib.org.jext.options.LangOptions	Feature Envy
-src.lib.org.jext.options.GeneralOptions	Dispersed Coupling
-src.lib.org.jext.options.GeneralOptions	Feature Envy
-src.lib.org.jext.options.GeneralOptions	Feature Envy
-src.plugins.Java.UML$Throws	Feature Envy
-src.lib.org.jext.actions.SimpleUnComment	Intensive Coupling
-src.plugins.Java.JBrowsePlugin$OptPane	Feature Envy
-src.lib.org.jext.options.FileFiltersOptions$FiltersTableModel	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.VerilogTokenMarker	Brain Method
-src.lib.org.gjt.sp.jedit.syntax.VerilogTokenMarker	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.VerilogTokenMarker	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.VerilogTokenMarker	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.VerilogTokenMarker	God Class
-src.lib.org.jext.options.ColorTable$ColorTableModel$ColorRenderer	Feature Envy
-src.lib.org.jext.misc.FindAccessory$FindResults$FindResultsCellRenderer	Dispersed Coupling
-src.lib.org.jext.Mode	Shotgun Surgery
-src.lib.com.jgoodies.uif_lite.component.Factory	Feature Envy
-src.lib.org.jext.misc.ZipExplorer$ZipTableModel	Feature Envy
-src.lib.org.jext.actions.RightIndent	Intensive Coupling
-src.lib.org.jext.dawn.math.DecreaseFunction	Intensive Coupling
-src.plugins.Php.src.PHPIndentPHP	Intensive Coupling
-src.plugins.Php.src.PHPIndentPHP	Refused Parent Bequest
-src.lib.gnu.regexp.RETokenOneOf	Feature Envy
-src.plugins.Java.Beautifier	Intensive Coupling
-src.plugins.Php.src.PHPModifierFichier	Intensive Coupling
-src.lib.org.jext.scripting.dawn.functions.YesNoCancelFunction	Feature Envy
-src.lib.org.jext.scripting.AbstractLogWindow	Feature Envy
-src.lib.org.jext.scripting.AbstractLogWindow	Feature Envy
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea$MouseHandler	Dispersed Coupling
-src.plugins.KLNF.com.incors.plaf.kunststoff.KunststoffTabbedPaneUI	Intensive Coupling
-src.lib.org.gjt.sp.jedit.syntax.ASPTokenMarker	Brain Method
-src.lib.org.gjt.sp.jedit.syntax.ASPTokenMarker	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.textarea.InputHandler$next_word	Dispersed Coupling
-src.lib.org.jext.search.LiteralSearchMatcher	Feature Envy
-src.plugins.FindAll.FindAll	Dispersed Coupling
-src.plugins.FindAll.FindAll	Feature Envy
-src.plugins.FindAll.FindAll	Feature Envy
-src.plugins.FindAll.FindAll	Dispersed Coupling
-src.plugins.FindAll.FindAll	Brain Method
-src.plugins.FindAll.FindAll	Dispersed Coupling
-src.lib.org.jext.dawn.javaccess.NewFunction	Dispersed Coupling
-src.lib.org.jext.Jext	Brain Method
-src.lib.org.jext.Jext	Intensive Coupling
-src.lib.org.jext.Jext	Feature Envy
-src.lib.org.jext.Jext	Brain Method
-src.lib.org.jext.Jext	Dispersed Coupling
-src.lib.org.jext.Jext	Brain Method
-src.lib.org.jext.Jext	Dispersed Coupling
-src.lib.org.jext.Jext	God Class
-src.lib.org.jext.Jext	Brain Class
-src.lib.org.jext.Jext	Data Class
-src.lib.org.jext.dawn.javaccess.ConstructorFunction	Dispersed Coupling
-src.lib.org.jext.textarea.ScrollPageUp	Feature Envy
-src.plugins.Java.UML$Operation$Argument	Feature Envy
-src.plugins.HyperTyper.HyperTyperMapping	Feature Envy
-src.plugins.KLNF.KLNFOptionPane	Feature Envy
-src.lib.org.jext.options.LoadingOptions	Feature Envy
-src.lib.org.jext.options.LoadingOptions	Feature Envy
-src.lib.org.jext.options.LoadingOptions	Feature Envy
-src.plugins.Java.JSFormatter	Brain Method
-src.plugins.Java.JSFormatter	Feature Envy
-src.plugins.Java.JSFormatter	Dispersed Coupling
-src.plugins.Java.JSFormatter	Brain Method
-src.plugins.Java.JSFormatter	Intensive Coupling
-src.plugins.Java.JSFormatter	God Class
-src.plugins.Java.JSFormatter	Brain Class
-src.lib.org.jext.console.ConsoleTextPane$DnDHandler	Dispersed Coupling
-src.plugins.FindInFiles.src.FindInFiles	Dispersed Coupling
-src.plugins.FindInFiles.src.FindInFiles	Feature Envy
-src.plugins.FindInFiles.src.FindInFiles	Feature Envy
-src.plugins.FindInFiles.src.FindInFiles	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.IDLTokenMarker	Feature Envy
-src.plugins.Java.JBrowseOptionPane	Brain Method
-src.plugins.Java.JBrowseOptionPane	Dispersed Coupling
-src.plugins.Java.JBrowseOptionPane	Feature Envy
-src.plugins.Java.JBrowseOptionPane	Refused Parent Bequest
-src.plugins.Java.JBrowse	Dispersed Coupling
-src.plugins.Java.JBrowse	Feature Envy
-src.plugins.Java.JBrowse	Dispersed Coupling
-src.plugins.Java.JBrowse	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.syntax.TextTokenMarker	Brain Method
-src.lib.org.gjt.sp.jedit.syntax.TextTokenMarker	Feature Envy
-src.lib.org.jext.gui.SplashScreen	Dispersed Coupling
-src.plugins.Php.src.PHPIndentPEAR	Intensive Coupling
-src.plugins.Php.src.PHPIndentPEAR	Refused Parent Bequest
-src.lib.org.jext.console.ConsoleTextPane$DnDHandler	Dispersed Coupling
-src.lib.org.jext.console.commands.FileCommand	Dispersed Coupling
-src.plugins.Php.src.PHPIndentHTML	Brain Method
-src.plugins.Php.src.PHPIndentHTML	Intensive Coupling
-src.lib.org.gjt.sp.jedit.syntax.PythonTokenMarker	Brain Method
-src.lib.org.gjt.sp.jedit.syntax.PythonTokenMarker	Feature Envy
-src.lib.org.jext.misc.CompleteWordList$KeyHandler	Dispersed Coupling
-src.plugins.Java.TokenSource	Brain Method
-src.plugins.Java.TokenSource	Dispersed Coupling
-src.plugins.Java.TokenSource	God Class
-src.lib.org.jext.console.Console	Feature Envy
-src.lib.org.jext.console.Console	Feature Envy
-src.lib.org.jext.console.Console	Intensive Coupling
-src.lib.org.jext.console.Console	Brain Method
-src.lib.org.jext.console.Console	Intensive Coupling
-src.lib.org.jext.console.Console	Feature Envy
-src.lib.org.jext.console.Console	Shotgun Surgery
-src.lib.org.jext.console.Console	Dispersed Coupling
-src.lib.org.jext.console.Console	Intensive Coupling
-src.lib.org.jext.console.Console	God Class
-src.lib.org.jext.console.Console	Brain Class
-src.lib.org.jext.misc.JextMail	Feature Envy
-src.lib.org.jext.misc.JextMail	Feature Envy
-src.lib.org.jext.misc.JextMail	Feature Envy
-src.lib.org.jext.misc.JextMail	Feature Envy
-src.lib.org.jext.misc.JextMail	Feature Envy
-src.lib.org.jext.misc.JextMail	Feature Envy
-src.lib.org.jext.misc.JextMail	Feature Envy
-src.lib.org.jext.misc.JextMail	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	Shotgun Surgery
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	Shotgun Surgery
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	Shotgun Surgery
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	Feature Envy
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	Shotgun Surgery
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	Shotgun Surgery
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	Shotgun Surgery
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	Feature Envy
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	Shotgun Surgery
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	Feature Envy
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	Feature Envy
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	Shotgun Surgery
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	Feature Envy
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	Shotgun Surgery
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	Shotgun Surgery
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	Feature Envy
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	Shotgun Surgery
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	Feature Envy
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	Shotgun Surgery
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	Shotgun Surgery
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	Shotgun Surgery
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	Shotgun Surgery
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	Shotgun Surgery
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	Shotgun Surgery
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	Feature Envy
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	Shotgun Surgery
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	Shotgun Surgery
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	God Class
-src.lib.org.gjt.sp.jedit.textarea.InputHandler$document_home	Feature Envy
-src.updating.ChoiceForm	Dispersed Coupling
-src.updating.ChoiceForm	Dispersed Coupling
-src.lib.org.jext.console.ConsoleListDir	Intensive Coupling
-src.lib.org.jext.console.ConsoleListDir	Brain Method
-src.lib.org.jext.console.ConsoleListDir	Intensive Coupling
-src.lib.org.jext.gui.FontSelector	Feature Envy
-src.lib.org.jext.gui.FontSelector	Feature Envy
-src.plugins.HyperTyper.HyperTyperAction	Brain Method
-src.plugins.HyperTyper.HyperTyperAction	Intensive Coupling
-src.plugins.HyperTyper.HyperTyperAction	God Class
-src.plugins.HyperTyper.HyperTyperAction	Data Class
-src.plugins.KLNF.com.incors.plaf.kunststoff.KunststoffButtonUI	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.syntax.ASPJavascriptTokenMarker	Brain Method
-src.lib.org.gjt.sp.jedit.syntax.ASPJavascriptTokenMarker	Intensive Coupling
-src.lib.org.gjt.sp.jedit.syntax.ASPJavascriptTokenMarker	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.ASPJavascriptTokenMarker	God Class
-src.lib.org.gjt.sp.jedit.syntax.ASPJavascriptTokenMarker	Refused Parent Bequest
-src.plugins.KLNF.com.incors.plaf.kunststoff.KunststoffUtilities	Feature Envy
-src.plugins.KLNF.com.incors.plaf.kunststoff.KunststoffUtilities	Feature Envy
-src.plugins.KLNF.com.incors.plaf.kunststoff.KunststoffUtilities	Feature Envy
-src.lib.org.jext.JARClassLoader	Intensive Coupling
-src.lib.org.jext.JARClassLoader	Feature Envy
-src.lib.org.jext.JARClassLoader	Intensive Coupling
-src.lib.org.jext.JARClassLoader	Dispersed Coupling
-src.lib.org.jext.JARClassLoader	Dispersed Coupling
-src.lib.org.jext.JARClassLoader	Intensive Coupling
-src.lib.org.jext.JARClassLoader	Dispersed Coupling
-src.lib.org.jext.JARClassLoader	God Class
-src.lib.org.jext.misc.FindByDate	Feature Envy
-src.lib.org.jext.textarea.ScrollDown	Feature Envy
-src.lib.org.jext.misc.WorkspaceSwitcher$Switcher	Intensive Coupling
-src.lib.org.gjt.sp.jedit.textarea.InputHandler$document_end	Feature Envy
-src.plugins.HyperTyper.HyperTyperMappingGrid$TyperTableModel	Feature Envy
-src.plugins.HyperTyper.HyperTyperMappingGrid$TyperTableModel	Dispersed Coupling
-src.plugins.Java.BeautifierOptions	Feature Envy
-src.lib.org.jext.options.OptionsDialog$PaneNameRenderer	Dispersed Coupling
-src.lib.org.jext.xml.XPropertiesReader	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.textarea.InputHandler$end	Intensive Coupling
-src.lib.org.jext.misc.Workspaces	Dispersed Coupling
-src.lib.org.jext.misc.Workspaces	Dispersed Coupling
-src.lib.org.jext.misc.Workspaces	Feature Envy
-src.lib.org.jext.misc.Workspaces	Feature Envy
-src.lib.org.jext.misc.Workspaces	Feature Envy
-src.lib.org.jext.misc.Workspaces	Dispersed Coupling
-src.lib.org.jext.misc.Workspaces	Data Class
-src.lib.org.gjt.sp.jedit.syntax.DawnTokenMarker	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.DawnTokenMarker	Feature Envy
-src.lib.org.jext.dawn.javaccess.InvokeFunction	Dispersed Coupling
-src.plugins.FindInFiles.src.FindInFiles$MyCellRenderer	Feature Envy
-src.lib.gnu.regexp.REFilterReader	Dispersed Coupling
-src.plugins.Java.RWModifier	Feature Envy
-src.plugins.Java.RWModifier	Intensive Coupling
-src.plugins.Java.RWModifier	God Class
-src.lib.org.gjt.sp.jedit.syntax.LATTokenMarker	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.LATTokenMarker	Feature Envy
-src.lib.org.jext.scripting.python.PythonLogWindow	Feature Envy
-src.lib.org.jext.GUIUtilities	Feature Envy
-src.lib.org.jext.GUIUtilities	Feature Envy
-src.lib.org.jext.GUIUtilities	Feature Envy
-src.lib.org.jext.GUIUtilities	Intensive Coupling
-src.lib.org.jext.GUIUtilities	Intensive Coupling
-src.lib.org.jext.GUIUtilities	God Class
-src.lib.org.jext.misc.WorkspaceSwitcher	Dispersed Coupling
-src.lib.gnu.regexp.REMatchEnumeration	Feature Envy
-src.plugins.HTML.HTMLIndenter	Intensive Coupling
-src.plugins.HTML.HTMLIndenter	Brain Method
-src.plugins.HTML.HTMLIndenter	Intensive Coupling
-src.plugins.HyperTyper.HyperTyperWindowGUI	Dispersed Coupling
-src.lib.org.jext.gui.BundledSkinFactory$MetalSkin	Feature Envy
-src.updating.PlugReader	Dispersed Coupling
-src.updating.PlugReader	Feature Envy
-src.updating.PlugReader	Dispersed Coupling
-src.lib.gnu.regexp.CharIndexed	Shotgun Surgery
-src.plugins.Php.src.PHPParser	Brain Method
-src.lib.org.jext.actions.CompleteWord	Intensive Coupling
-src.lib.org.jext.gui.Dockable	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.syntax.ASMTokenMarker	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.ASMTokenMarker	Feature Envy
-src.lib.org.gjt.sp.jedit.textarea.DefaultInputHandler	Brain Method
-src.lib.org.gjt.sp.jedit.textarea.DefaultInputHandler	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.textarea.DefaultInputHandler	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.textarea.DefaultInputHandler	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.textarea.DefaultInputHandler	Refused Parent Bequest
-src.plugins.KLNF.com.incors.plaf.kunststoff.KunststoffInternalFrameUI$PaletteListener	Feature Envy
-src.lib.org.jext.misc.StringSorter	Intensive Coupling
-src.lib.org.gjt.sp.jedit.syntax.SyntaxUtilities	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.SyntaxUtilities	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.SyntaxUtilities	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.SyntaxUtilities	Dispersed Coupling
-src.lib.org.jext.xml.XInsertHandler	Feature Envy
-src.lib.org.jext.gui.BundledSkinFactory	Feature Envy
-src.plugins.HTML.ToEntities	Intensive Coupling
-src.plugins.Java.JBrowseOptionPane$OptionPanel	Feature Envy
-src.lib.org.jext.menus.TemplatesMenu	Feature Envy
-src.lib.org.jext.menus.TemplatesMenu	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.syntax.RubyTokenMarker	Brain Method
-src.lib.org.gjt.sp.jedit.syntax.RubyTokenMarker	Feature Envy
-src.plugins.Php.src.PHPModifierSelection	Intensive Coupling
-src.lib.org.gjt.sp.jedit.textarea.InputHandler$delete_word	Dispersed Coupling
-src.lib.org.jext.dawn.err.TryCatchFunction	Brain Method
-src.lib.org.jext.dawn.err.TryCatchFunction	Dispersed Coupling
-src.plugins.FunnyBrackets.src.FunnyBrackets	Intensive Coupling
-src.lib.org.jext.console.commands.HttpCommand	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.syntax.TokenMarkerContext	Feature Envy
-src.plugins.Java.JBrowse$OptionDialog	Dispersed Coupling
-src.lib.gnu.regexp.RETokenAny	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.CTokenMarker	Brain Method
-src.lib.org.gjt.sp.jedit.syntax.CTokenMarker	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.CTokenMarker	God Class
-src.plugins.KLNF.com.incors.plaf.kunststoff.KunststoffToggleButtonUI	Dispersed Coupling
-src.lib.com.jgoodies.uif_lite.component.UIFSplitPane	Feature Envy
-src.lib.org.gjt.sp.jedit.textarea.InputHandler$delete	Dispersed Coupling
-src.plugins.Php.src.PHPBufferPartList	Refused Parent Bequest
-src.lib.org.gjt.sp.jedit.syntax.SyntaxStyle	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.SyntaxStyle	Feature Envy
-src.plugins.HyperTyper.HyperTyperObjectManager	Feature Envy
-src.updating.ChoiceForm$PluginTableModel	Feature Envy
-src.plugins.HyperTyper.Sequence	Shotgun Surgery
-src.lib.org.jext.misc.FindByName$NameFilter	Intensive Coupling
-src.lib.org.gjt.sp.jedit.textarea.InputHandler$next_page	Feature Envy
-src.lib.org.jext.console.ConsoleTextPane$ConsoleKeyAdapter	Brain Method
-src.lib.org.jext.console.ConsoleTextPane$ConsoleKeyAdapter	Intensive Coupling
-src.lib.org.jext.console.ConsoleTextPane$ConsoleKeyAdapter	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.gui.KeyEventWorkaround	Brain Method
-src.lib.org.gjt.sp.jedit.gui.KeyEventWorkaround	Feature Envy
-src.lib.org.gjt.sp.jedit.gui.KeyEventWorkaround	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.gui.KeyEventWorkaround	Feature Envy
-src.plugins.KeystrokeRecorder.Track	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.PLSQLTokenMarker	Feature Envy
-src.lib.org.jext.textarea.ScrollPageDown	Feature Envy
-src.lib.org.jext.options.UIOptions	Feature Envy
-src.lib.org.jext.options.UIOptions	Feature Envy
-src.plugins.Java.BrowserLauncher	Brain Method
-src.plugins.Java.BrowserLauncher	Dispersed Coupling
-src.plugins.Java.BrowserLauncher	Dispersed Coupling
-src.plugins.Java.BrowserLauncher	God Class
-src.lib.gnu.regexp.RETokenStart	Feature Envy
-src.lib.org.jext.menus.JextMenuBar	Dispersed Coupling
-src.lib.org.jext.menus.JextMenuBar	Dispersed Coupling
-src.lib.org.jext.menus.JextMenuBar	Feature Envy
-src.plugins.Php.src.PHPQuickOpen	Dispersed Coupling
-src.lib.org.jext.JextTextArea	Feature Envy
-src.lib.org.jext.JextTextArea	Feature Envy
-src.lib.org.jext.JextTextArea	Shotgun Surgery
-src.lib.org.jext.JextTextArea	Shotgun Surgery
-src.lib.org.jext.JextTextArea	Shotgun Surgery
-src.lib.org.jext.JextTextArea	Shotgun Surgery
-src.lib.org.jext.JextTextArea	Dispersed Coupling
-src.lib.org.jext.JextTextArea	Shotgun Surgery
-src.lib.org.jext.JextTextArea	Shotgun Surgery
-src.lib.org.jext.JextTextArea	Shotgun Surgery
-src.lib.org.jext.JextTextArea	Feature Envy
-src.lib.org.jext.JextTextArea	Dispersed Coupling
-src.lib.org.jext.JextTextArea	Dispersed Coupling
-src.lib.org.jext.JextTextArea	Brain Method
-src.lib.org.jext.JextTextArea	Intensive Coupling
-src.lib.org.jext.JextTextArea	Shotgun Surgery
-src.lib.org.jext.JextTextArea	Shotgun Surgery
-src.lib.org.jext.JextTextArea	Shotgun Surgery
-src.lib.org.jext.JextTextArea	God Class
-src.lib.org.jext.JextTextArea	Brain Class
-src.lib.org.jext.JextTextArea	Refused Parent Bequest
-src.lib.org.jext.JextTextArea	Tradition Breaker
-src.lib.org.jext.options.StyleTable$StyleTableModel	Feature Envy
-src.lib.org.jext.options.StyleTable$StyleTableModel	Feature Envy
-src.plugins.Java.UMLTree	Dispersed Coupling
-src.lib.org.jext.JextFrame$PluginHandler	Dispersed Coupling
-src.lib.gnu.regexp.REToken	Shotgun Surgery
-src.lib.org.jext.dawn.loop.ForFunction	Brain Method
-src.lib.org.jext.dawn.loop.ForFunction	Intensive Coupling
-src.plugins.HTML.NextTag	Intensive Coupling
-src.plugins.KLNF.com.incors.plaf.kunststoff.themes.KunststoffDesktopTheme	Feature Envy
-src.plugins.KLNF.com.incors.plaf.kunststoff.themes.KunststoffDesktopTheme	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.BatchFileTokenMarker	Brain Method
-src.lib.org.gjt.sp.jedit.syntax.BatchFileTokenMarker	Feature Envy
-src.lib.org.jext.actions.OpenUrl	Dispersed Coupling
-src.lib.org.jext.project.DefaultProjectManager	Dispersed Coupling
-src.lib.org.jext.project.DefaultProjectManager	Feature Envy
-src.lib.org.jext.project.DefaultProjectManager	Dispersed Coupling
-src.lib.org.jext.project.DefaultProjectManager	Refused Parent Bequest
-src.lib.org.jext.project.DefaultProjectManager	Tradition Breaker
-src.lib.org.gjt.sp.jedit.syntax.EiffelTokenMarker	Brain Method
-src.lib.org.gjt.sp.jedit.syntax.EiffelTokenMarker	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.EiffelTokenMarker	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.EiffelTokenMarker	Feature Envy
-src.lib.org.jext.xml.XBarHandler	Intensive Coupling
-src.lib.org.jext.console.Console$ConsoleProcess$StdinThread	Brain Method
-src.lib.org.jext.console.Console$ConsoleProcess$StdinThread	Dispersed Coupling
-src.plugins.Java.UMLTree$CellRenderer	Dispersed Coupling
-src.lib.org.jext.gui.JextProgressBarUI	Feature Envy
-src.lib.org.jext.gui.BundledSkinFactory$JextSkin	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.PropsTokenMarker	Feature Envy
-src.plugins.KLNF.com.incors.plaf.kunststoff.KunststoffInternalFrameUI	Feature Envy
-src.lib.org.jext.gui.EnhancedMenuItem	Dispersed Coupling
-src.lib.org.jext.gui.EnhancedMenuItem	Dispersed Coupling
-src.plugins.KLNF.com.incors.plaf.kunststoff.KunststoffListUI	Dispersed Coupling
-src.plugins.KLNF.com.incors.plaf.kunststoff.KunststoffListUI	Feature Envy
-src.lib.org.jext.xml.XPopupHandler	Dispersed Coupling
-src.plugins.Java.ClassBrowser	Feature Envy
-src.plugins.Java.ClassBrowser	Feature Envy
-src.plugins.Java.ClassBrowser	Dispersed Coupling
-src.plugins.Java.ClassBrowser	Dispersed Coupling
-src.plugins.Java.ClassBrowser	Dispersed Coupling
-src.plugins.Java.ClassBrowser	God Class
-src.lib.org.jext.misc.PluginDesc	Intensive Coupling
-src.lib.org.jext.misc.PluginDesc	Brain Method
-src.lib.org.jext.misc.PluginDesc	Dispersed Coupling
-src.lib.org.jext.misc.PluginDesc	God Class
-src.plugins.Php.src.PHPBrowseTab	Dispersed Coupling
-src.plugins.Php.src.PHPBrowseTabParser	Dispersed Coupling
-src.plugins.Php.src.PHPBrowseTabParser	Refused Parent Bequest
-src.lib.org.jext.search.BoyerMooreSearchMatcher	Feature Envy
-src.lib.org.jext.search.BoyerMooreSearchMatcher	Feature Envy
-src.lib.org.gjt.sp.jedit.textarea.InputHandler	Feature Envy
-src.lib.org.gjt.sp.jedit.textarea.InputHandler	God Class
-src.lib.org.gjt.sp.jedit.textarea.InputHandler	Data Class
-src.lib.gnu.regexp.REFilterInputStream	Dispersed Coupling
-src.lib.org.jext.dawn.DawnParser	Dispersed Coupling
-src.lib.org.jext.dawn.DawnParser	Intensive Coupling
-src.lib.org.jext.dawn.DawnParser	Shotgun Surgery
-src.lib.org.jext.dawn.DawnParser	Shotgun Surgery
-src.lib.org.jext.dawn.DawnParser	Shotgun Surgery
-src.lib.org.jext.dawn.DawnParser	Shotgun Surgery
-src.lib.org.jext.dawn.DawnParser	Brain Method
-src.lib.org.jext.dawn.DawnParser	Feature Envy
-src.lib.org.jext.dawn.DawnParser	Shotgun Surgery
-src.lib.org.jext.dawn.DawnParser	Shotgun Surgery
-src.lib.org.jext.dawn.DawnParser	Shotgun Surgery
-src.lib.org.jext.dawn.DawnParser	Shotgun Surgery
-src.lib.org.jext.dawn.DawnParser	Shotgun Surgery
-src.lib.org.jext.dawn.DawnParser	Shotgun Surgery
-src.lib.org.jext.dawn.DawnParser	God Class
-src.lib.org.jext.dawn.DawnParser	Brain Class
-src.lib.org.jext.dawn.DawnParser	Data Class
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea$DragHandler	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea$DragHandler	Feature Envy
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea$DragHandler	Intensive Coupling
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea$DragHandler	Feature Envy
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea$DragHandler	Intensive Coupling
-src.lib.org.gjt.sp.jedit.textarea.Gutter	Feature Envy
-src.lib.org.gjt.sp.jedit.textarea.Gutter	Intensive Coupling
-src.lib.org.gjt.sp.jedit.textarea.Gutter	Feature Envy
-src.lib.org.gjt.sp.jedit.textarea.Gutter	Feature Envy
-src.lib.org.gjt.sp.jedit.textarea.Gutter	God Class
-src.lib.org.jext.console.ConsoleTextPane$DnDHandler	Dispersed Coupling
-src.lib.com.jgoodies.uif_lite.panel.SimpleInternalFrame$RaisedHeaderBorder	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.CCTokenMarker	Feature Envy
-src.lib.org.jext.scripting.dawn.DawnLogWindow	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.JSPTokenMarker	Brain Method
-src.lib.org.gjt.sp.jedit.syntax.JSPTokenMarker	God Class
-src.lib.org.gjt.sp.jedit.syntax.JSPTokenMarker	Brain Class
-src.lib.org.gjt.sp.jedit.syntax.JSPTokenMarker	Data Class
-src.lib.org.jext.search.RESearchMatcher	Feature Envy
-src.plugins.HTML.TagsCompletion	Feature Envy
-src.plugins.HTML.TagsCompletion	Brain Method
-src.plugins.HTML.TagsCompletion	Intensive Coupling
-src.plugins.HTML.TagsCompletion	Feature Envy
-src.plugins.HTML.TagsCompletion	Feature Envy
-src.plugins.HTML.TagsCompletion	Dispersed Coupling
-src.plugins.HTML.TagsCompletion	God Class
-src.plugins.HTML.TagsCompletion	Data Class
-src.lib.org.gjt.sp.jedit.syntax.BeanShellTokenMarker	Feature Envy
-src.lib.org.jext.misc.ZipExplorer	Dispersed Coupling
-src.lib.org.jext.misc.FindAccessory$FindTabs	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.syntax.PovrayTokenMarker	Feature Envy
-src.lib.org.jext.dawn.naming.CreateGlobalFunction	Feature Envy
-src.lib.org.jext.dawn.naming.CreateGlobalFunction	Intensive Coupling
-src.plugins.HyperTyper.AutoExpander	Dispersed Coupling
-src.lib.org.jext.options.ColorTable$ColorTableModel	Feature Envy
-src.lib.org.jext.options.ColorTable$ColorTableModel	Feature Envy
-src.lib.org.jext.options.PrintOptions	Feature Envy
-src.lib.org.jext.options.PrintOptions	Feature Envy
-src.lib.org.jext.misc.CompleteWordList$KeyHandler	Feature Envy
-src.lib.org.jext.console.commands.JythonCommand	Feature Envy
-src.lib.org.jext.scripting.dawn.functions.YesNoFunction	Feature Envy
-src.lib.org.jext.misc.AboutPlugins	Feature Envy
-src.lib.org.jext.misc.AboutPlugins	Dispersed Coupling
-src.lib.org.jext.actions.RemoveWhitespace	Intensive Coupling
-src.lib.org.jext.print.PrintingOptions	Feature Envy
-src.lib.org.jext.print.PrintingOptions	Feature Envy
-src.lib.org.jext.dawn.loop.WhileFunction	Brain Method
-src.lib.org.jext.dawn.loop.WhileFunction	Feature Envy
-src.lib.org.jext.dawn.loop.WhileFunction	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.textarea.InputHandler$prev_word	Dispersed Coupling
-src.lib.org.jext.console.ConsoleTextPane$DnDHandler	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.syntax.ShellScriptTokenMarker	Brain Method
-src.lib.org.jext.misc.FindAccessory	Feature Envy
-src.lib.org.jext.misc.FindAccessory	Feature Envy
-src.lib.org.jext.misc.FindAccessory	Intensive Coupling
-src.lib.org.jext.misc.FindAccessory	Feature Envy
-src.lib.org.jext.misc.FindAccessory	God Class
-src.lib.org.jext.misc.FindAccessory	Data Class
-src.lib.com.microstar.xml.XmlParser	Shotgun Surgery
-src.lib.com.microstar.xml.XmlParser	Shotgun Surgery
-src.lib.com.microstar.xml.XmlParser	Brain Method
-src.lib.com.microstar.xml.XmlParser	Brain Method
-src.lib.com.microstar.xml.XmlParser	Feature Envy
-src.lib.com.microstar.xml.XmlParser	Brain Method
-src.lib.com.microstar.xml.XmlParser	Feature Envy
-src.lib.com.microstar.xml.XmlParser	Intensive Coupling
-src.lib.com.microstar.xml.XmlParser	God Class
-src.lib.com.microstar.xml.XmlParser	Brain Class
-src.plugins.HTML.CompleteTagList	Intensive Coupling
-src.plugins.Java.InsertClassName	Intensive Coupling
-src.plugins.Java.InsertClassName	Dispersed Coupling
-src.lib.org.jext.dawn.javaccess.MethodFunction	Dispersed Coupling
-src.lib.org.jext.dawn.naming.CreateFunction	Feature Envy
-src.lib.org.jext.dawn.naming.CreateFunction	Intensive Coupling
-src.plugins.Java.UML$Message	Feature Envy
-src.lib.org.jext.actions.LeftIndent	Intensive Coupling
-src.lib.org.gjt.sp.jedit.syntax.CobolTokenMarker	Brain Method
-src.lib.org.gjt.sp.jedit.syntax.CobolTokenMarker	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.CobolTokenMarker	Feature Envy
-src.lib.org.jext.misc.Indent	Brain Method
-src.lib.org.jext.misc.Indent	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.syntax.PascalTokenMarker	Brain Method
-src.lib.org.gjt.sp.jedit.syntax.PascalTokenMarker	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.PascalTokenMarker	Feature Envy
-src.plugins.HTML.Attribute	Feature Envy
-src.lib.org.gjt.sp.jedit.textarea.JEditTextArea$MouseHandler	Dispersed Coupling
-src.lib.org.jext.options.KeyShortcutsOptions$KeysTableModel	Feature Envy
-src.lib.org.jext.options.KeyShortcutsOptions$KeysTableModel	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.syntax.SAP2000TokenMarker	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.SAP2000TokenMarker	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.HTMLTokenMarker	Brain Method
-src.lib.org.gjt.sp.jedit.syntax.HTMLTokenMarker	Data Class
-src.lib.org.jext.actions.ToUpperCase	Feature Envy
-src.lib.org.jext.actions.ToUpperCase	Intensive Coupling
-src.lib.org.jext.dawn.stack.RclFunction	Intensive Coupling
-src.lib.org.jext.actions.WordCount	Intensive Coupling
-src.lib.org.jext.console.commands.RunCommand	Dispersed Coupling
-src.plugins.KLNF.com.incors.plaf.FastGradientPaintContext	Feature Envy
-src.lib.org.jext.ModeFileFilter	Feature Envy
-src.lib.org.jext.ModeFileFilter	Feature Envy
-src.lib.org.jext.console.commands.EvalCommand	Dispersed Coupling
-src.lib.org.jext.dawn.test.IfFunction	Brain Method
-src.lib.org.jext.dawn.test.IfFunction	Feature Envy
-src.lib.org.jext.dawn.test.IfFunction	Dispersed Coupling
-src.lib.org.jext.options.StylesOptions	Feature Envy
-src.lib.org.jext.options.StylesOptions	Feature Envy
-src.lib.org.jext.options.StylesOptions	Feature Envy
-src.lib.org.jext.options.StylesOptions	Feature Envy
-src.lib.org.jext.xinsert.XTree	Feature Envy
-src.lib.org.jext.xinsert.XTree	Feature Envy
-src.lib.org.jext.xinsert.XTree	Feature Envy
-src.lib.org.jext.xinsert.XTree	Intensive Coupling
-src.lib.org.jext.xinsert.XTree	Dispersed Coupling
-src.lib.org.jext.xinsert.XTree	Brain Method
-src.lib.org.jext.xinsert.XTree	Intensive Coupling
-src.lib.org.jext.xinsert.XTree	God Class
-src.lib.org.gjt.sp.jedit.syntax.FortranTokenMarker	Brain Method
-src.lib.org.gjt.sp.jedit.syntax.FortranTokenMarker	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.FortranTokenMarker	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.FortranTokenMarker	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.FortranTokenMarker	God Class
-src.lib.org.jext.print.PrintSyntax	Brain Method
-src.lib.org.jext.print.PrintSyntax	Dispersed Coupling
-src.lib.org.jext.print.PrintSyntax	Feature Envy
-src.lib.org.jext.console.Console$ConsoleProcess$StdoutThread	Dispersed Coupling
-src.plugins.HyperTyper.HyperTyperHotkey	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.syntax.SQRTokenMarker	Brain Method
-src.lib.org.gjt.sp.jedit.syntax.SQRTokenMarker	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.SQRTokenMarker	Feature Envy
-src.lib.gnu.regexp.RETokenBackRef	Feature Envy
-src.lib.gnu.regexp.RETokenChar	Feature Envy
-src.lib.org.jext.toolbar.FastSyntax	Feature Envy
-src.lib.org.jext.toolbar.FastSyntax	Dispersed Coupling
-src.plugins.KLNF.com.incors.plaf.kunststoff.themes.KunststoffNotebookTheme	Feature Envy
-src.plugins.KLNF.com.incors.plaf.kunststoff.themes.KunststoffNotebookTheme	Feature Envy
-src.plugins.KLNF.com.incors.plaf.kunststoff.themes.KunststoffNotebookTheme	Refused Parent Bequest
-src.plugins.Java.UML$Operation	Feature Envy
-src.plugins.Java.UML$Operation	Refused Parent Bequest
-src.lib.org.jext.JavaSupport	Feature Envy
-src.plugins.HyperTyper.HyperTyperSequenceList	Data Class
-src.lib.org.jext.search.FindReplace	Feature Envy
-src.lib.org.jext.search.FindReplace	Dispersed Coupling
-src.lib.org.jext.search.FindReplace	Dispersed Coupling
-src.lib.org.jext.search.FindReplace	Feature Envy
-src.lib.org.jext.search.FindReplace	Feature Envy
-src.lib.org.jext.search.FindReplace	Feature Envy
-src.lib.org.jext.search.FindReplace	Dispersed Coupling
-src.lib.org.jext.search.FindReplace	Feature Envy
-src.lib.org.jext.search.FindReplace	Feature Envy
-src.lib.org.jext.search.FindReplace	Dispersed Coupling
-src.plugins.Java.JSBeautifier	Brain Method
-src.plugins.Java.JSBeautifier	Feature Envy
-src.plugins.Java.JSBeautifier	Dispersed Coupling
-src.plugins.Java.JSBeautifier	Brain Method
-src.plugins.Java.JSBeautifier	Feature Envy
-src.plugins.Java.JSBeautifier	Intensive Coupling
-src.plugins.Java.JSBeautifier	God Class
-src.plugins.Java.JSBeautifier	Brain Class
-src.lib.org.jext.search.SearchHighlight	Dispersed Coupling
-src.lib.org.jext.actions.SimpleComment	Intensive Coupling
-src.plugins.WheelMouse.JFrameEx	Dispersed Coupling
-src.plugins.HTML.CompleteTagList$TagsCellRenderer	Intensive Coupling
-src.lib.org.jext.dawn.stack.ReverseFunction	Feature Envy
-src.plugins.KLNF.com.incors.plaf.kunststoff.KunststoffTreeUI	Feature Envy
-src.plugins.KLNF.com.incors.plaf.kunststoff.KunststoffTreeUI	Feature Envy
-src.lib.org.jext.options.GutterOptions	Feature Envy
-src.lib.org.jext.gui.FontSelector$SelectorFrame	Feature Envy
-src.lib.org.jext.options.OptionsDialog	Dispersed Coupling
-src.lib.org.jext.options.OptionsDialog	Dispersed Coupling
-src.lib.org.jext.options.OptionsDialog	Dispersed Coupling
-src.lib.org.jext.options.OptionsDialog	God Class
-src.lib.org.jext.actions.CreateTemplate	Dispersed Coupling
-src.lib.org.jext.actions.CreateTemplate	Feature Envy
-src.lib.org.jext.misc.Workspaces$WorkspaceElement	Shotgun Surgery
-src.lib.gnu.regexp.RE	Brain Method
-src.lib.gnu.regexp.RE	Dispersed Coupling
-src.lib.gnu.regexp.RE	Feature Envy
-src.lib.gnu.regexp.RE	Feature Envy
-src.lib.gnu.regexp.RE	Feature Envy
-src.lib.gnu.regexp.RE	Feature Envy
-src.lib.gnu.regexp.RE	Intensive Coupling
-src.lib.gnu.regexp.RE	God Class
-src.lib.gnu.regexp.RE	Brain Class
-src.lib.gnu.regexp.RE	Refused Parent Bequest
-src.lib.gnu.regexp.RE	Tradition Breaker
-src.lib.org.jext.gui.AbstractOptionPane	Shotgun Surgery
-src.lib.org.jext.gui.AbstractOptionPane	Feature Envy
-src.lib.org.jext.gui.AbstractOptionPane	Shotgun Surgery
-src.lib.org.jext.misc.SaveDialog	Brain Method
-src.lib.org.jext.misc.SaveDialog	Dispersed Coupling
-src.lib.org.jext.misc.SaveDialog	Dispersed Coupling
-src.lib.org.jext.misc.SaveDialog	Feature Envy
-src.lib.org.jext.misc.SaveDialog	Feature Envy
-src.lib.com.microstar.xml.XmlException	Shotgun Surgery
-src.lib.com.microstar.xml.XmlException	Shotgun Surgery
-src.lib.com.microstar.xml.XmlException	Shotgun Surgery
-src.lib.org.gjt.sp.jedit.textarea.InputHandler$backspace	Dispersed Coupling
-src.lib.org.gjt.sp.jedit.textarea.InputHandler$prev_page	Feature Envy
-src.lib.org.jext.JextTabbedPane	Feature Envy
-src.lib.org.jext.JextTabbedPane	Feature Envy
-src.lib.org.jext.JextTabbedPane	Feature Envy
-src.lib.org.jext.JextTabbedPane	Dispersed Coupling
-src.lib.org.jext.misc.PluginDownload	Feature Envy
-src.lib.org.jext.misc.PluginDownload	Dispersed Coupling
-src.lib.org.jext.misc.PluginDownload	Dispersed Coupling
-src.lib.org.jext.misc.PluginDownload	God Class
-src.lib.org.gjt.sp.jedit.syntax.KeywordMap	Shotgun Surgery
-src.lib.org.gjt.sp.jedit.syntax.KeywordMap	Shotgun Surgery
-src.lib.org.gjt.sp.jedit.syntax.TSQLTokenMarker	Brain Method
-src.lib.org.gjt.sp.jedit.syntax.TSQLTokenMarker	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.TSQLTokenMarker	Feature Envy
-src.lib.org.jext.textarea.ScrollUp	Feature Envy
-src.lib.org.jext.protocol.jextresource.PluginResURLConnection	Feature Envy
-src.lib.org.jext.misc.PluginDownload$WaitDialog	Feature Envy
-src.lib.org.gjt.sp.jedit.syntax.PikeTokenMarker	Feature Envy
-src.plugins.Java.JSLineBreaker	Brain Method
-src.plugins.Java.JSLineBreaker	Feature Envy
-src.plugins.Java.JSLineBreaker	Intensive Coupling
-src.plugins.Java.JSLineBreaker	Feature Envy
-src.plugins.Java.JSLineBreaker	Intensive Coupling
-src.plugins.Java.JSLineBreaker	Feature Envy
-src.plugins.Java.JSLineBreaker	God Class
-src.lib.org.gjt.sp.jedit.syntax.PatchTokenMarker	Feature Envy
-src.plugins.Java.JBrowseLineParser	Brain Method
-src.plugins.Java.JBrowseLineParser	Intensive Coupling
-src.plugins.Java.UMLTree$Node	Dispersed Coupling
-src.plugins.Java.UMLTree$Node	Feature Envy
-src.plugins.Java.UMLTree$Node	Feature Envy
-src.plugins.Java.UMLTree$Node	Feature Envy
-src.plugins.Php.src.PHPBrowse	Feature Envy
-src.lib.org.jext.textarea.IndentOnTab	Intensive Coupling
-src.lib.org.jext.gui.JextButton	Dispersed Coupling
-src.lib.org.jext.dawn.loop.DoLoopFunction	Brain Method
-src.lib.org.jext.dawn.loop.DoLoopFunction	Feature Envy
-src.lib.org.jext.dawn.loop.DoLoopFunction	Dispersed Coupling
-src.plugins.FindInFiles.src.FindInFilesHelper	Feature Envy
-src.plugins.FindInFiles.src.FindInFilesHelper	Dispersed Coupling
-src.plugins.FindInFiles.src.FindInFilesHelper	Dispersed Coupling
+src.plugins.HTML.PreviousTag	actionPerformed	Intensive Coupling
+src.lib.org.jext.misc.CompleteWordList$KeyHandler	keyPressed	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.PHPTokenMarker	markTokensImpl	Brain Method
+src.lib.org.gjt.sp.jedit.syntax.PHPTokenMarker	null	Brain Class
+src.lib.org.gjt.sp.jedit.syntax.PHPTokenMarker	null	Data Class
+src.lib.org.gjt.sp.jedit.syntax.PlainTokenMarker	markTokensImpl	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.JavaTokenMarker	markTokensImpl	Brain Method
+src.lib.org.gjt.sp.jedit.syntax.JavaTokenMarker	getKeywords	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.JavaTokenMarker	null	God Class
+src.lib.org.jext.options.EditorOptions	load	Dispersed Coupling
+src.lib.org.jext.options.EditorOptions	getComponent	Feature Envy
+src.lib.org.gjt.sp.jedit.textarea.TextUtilities	getTokenList	Feature Envy
+src.lib.org.gjt.sp.jedit.textarea.TextUtilities	findMatchingBracket	Brain Method
+src.lib.org.gjt.sp.jedit.textarea.TextUtilities	findMatchingBracket	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.textarea.TextUtilities	null	God Class
+src.lib.org.gjt.sp.jedit.textarea.TextUtilities	null	Data Class
+src.lib.org.jext.actions.ToLowerCase	actionPerformed	Feature Envy
+src.lib.org.jext.actions.ToLowerCase	actionPerformed	Intensive Coupling
+src.plugins.KLNF.com.incors.plaf.kunststoff.themes.KunststoffPresentationTheme	KunststoffPresentationTheme	Feature Envy
+src.plugins.KLNF.com.incors.plaf.kunststoff.themes.KunststoffPresentationTheme	addCustomEntriesToTable	Feature Envy
+src.plugins.KLNF.com.incors.plaf.kunststoff.themes.KunststoffPresentationTheme	null	Refused Parent Bequest
+src.lib.org.jext.misc.VersionCheck	run	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.textarea.InputHandler$backspace_word	actionPerformed	Dispersed Coupling
+src.lib.org.jext.project.AbstractProjectManager	fireProjectEvent	Dispersed Coupling
+src.plugins.WheelMouse.WheelMouseOptionPane	save	Feature Envy
+src.lib.org.jext.misc.VirtualFolders	VirtualFolders	Intensive Coupling
+src.lib.org.jext.misc.VirtualFolders	toXML	Dispersed Coupling
+src.lib.org.jext.misc.VirtualFolders	load	Dispersed Coupling
+src.lib.org.jext.misc.VirtualFolders	fixVisible	Feature Envy
+src.lib.org.jext.misc.VirtualFolders	fixVisible	Dispersed Coupling
+src.lib.org.jext.misc.VirtualFolders	createFolder	Feature Envy
+src.lib.org.jext.misc.VirtualFolders	newFolder	Feature Envy
+src.lib.org.jext.misc.VirtualFolders	addAllFiles	Dispersed Coupling
+src.lib.org.jext.misc.FindAccessory$FindResults	FindResults	Dispersed Coupling
+src.lib.org.jext.options.StyleTable$StyleEditor	keyPressed	Feature Envy
+src.lib.org.jext.options.StyleTable$StyleEditor	getStyle	Feature Envy
+src.plugins.HTML.HTMLPlugin	start	Feature Envy
+src.lib.org.gjt.sp.jedit.textarea.TextAreaPainter	initRenderingings	Feature Envy
+src.lib.org.gjt.sp.jedit.textarea.TextAreaPainter	paint	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.textarea.TextAreaPainter	invalidateLine	Feature Envy
+src.lib.org.gjt.sp.jedit.textarea.TextAreaPainter	invalidateLineRange	Feature Envy
+src.lib.org.gjt.sp.jedit.textarea.TextAreaPainter	getPreferredSize	Feature Envy
+src.lib.org.gjt.sp.jedit.textarea.TextAreaPainter	paintSyntaxLine	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.textarea.TextAreaPainter	paintHighlight	Feature Envy
+src.lib.org.gjt.sp.jedit.textarea.TextAreaPainter	paintLinesInterval	Intensive Coupling
+src.lib.org.gjt.sp.jedit.textarea.TextAreaPainter	paintLineHighlight	Intensive Coupling
+src.lib.org.gjt.sp.jedit.textarea.TextAreaPainter	paintCaret	Intensive Coupling
+src.lib.org.gjt.sp.jedit.textarea.TextAreaPainter	null	God Class
+src.plugins.KLNF.com.incors.plaf.kunststoff.KunststoffMenuUI	paint	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea$MouseHandler	mouseReleased	Intensive Coupling
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea$MouseHandler	doDoubleClick	Feature Envy
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea$MouseHandler	doDoubleClick	Intensive Coupling
+src.lib.gnu.regexp.RETokenPOSIX	match	Feature Envy
+src.lib.gnu.regexp.RETokenRepeated	match	Brain Method
+src.lib.gnu.regexp.RETokenRepeated	match	Feature Envy
+src.lib.gnu.regexp.RETokenRepeated	matchRest	Feature Envy
+src.lib.org.jext.dawn.Dawn	main	Dispersed Coupling
+src.lib.org.jext.dawn.Dawn	console	Feature Envy
+src.lib.org.jext.dawn.Dawn	nativeConsole	Feature Envy
+src.plugins.HTML.TagsCompletionOptionPane	TagsCompletionOptionPane	Feature Envy
+src.plugins.HTML.TagsCompletionOptionPane	actionPerformed	Feature Envy
+src.plugins.HTML.TagsCompletionOptionPane	save	Feature Envy
+src.lib.org.jext.actions.CompleteWordAll	actionPerformed	Brain Method
+src.lib.org.jext.actions.CompleteWordAll	actionPerformed	Intensive Coupling
+src.lib.org.jext.project.DefaultProjectManager$DefaultProject	getFiles	Dispersed Coupling
+src.lib.org.jext.project.DefaultProjectManager$DefaultProject	closeFile	Dispersed Coupling
+src.lib.org.jext.project.DefaultProjectManager$DefaultProject	null	Refused Parent Bequest
+src.lib.org.jext.project.DefaultProjectManager$DefaultProject	null	Tradition Breaker
+src.lib.org.jext.event.JextEvent	getWhat	Shotgun Surgery
+src.lib.com.jgoodies.uif_lite.panel.SimpleInternalFrame	buildHeader	Feature Envy
+src.lib.com.jgoodies.uif_lite.panel.SimpleInternalFrame	getHeaderBackground	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.VHDLTokenMarker	markTokensImpl	Brain Method
+src.lib.org.gjt.sp.jedit.syntax.VHDLTokenMarker	markTokensImpl	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.VHDLTokenMarker	getKeywords	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.VHDLTokenMarker	doKeyword	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.VHDLTokenMarker	null	God Class
+src.lib.org.gjt.sp.jedit.syntax.VHDLTokenMarker	null	Refused Parent Bequest
+src.lib.org.jext.search.Search	load	Feature Envy
+src.lib.org.jext.search.Search	save	Feature Envy
+src.lib.org.jext.search.Search	find	Feature Envy
+src.lib.org.jext.search.Search	replace	Feature Envy
+src.lib.org.jext.search.Search	replaceAll	Feature Envy
+src.lib.org.jext.search.Search	replaceAll	Dispersed Coupling
+src.lib.org.jext.search.Search	null	Data Class
+src.plugins.HTML.ToAccents	actionPerformed	Intensive Coupling
+src.plugins.HTML.ToAccents	doAccents	Intensive Coupling
+src.lib.org.gjt.sp.jedit.textarea.InputHandler$home	actionPerformed	Intensive Coupling
+src.lib.gnu.regexp.RETokenRange	match	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.MakefileTokenMarker	markTokensImpl	Brain Method
+src.lib.org.gjt.sp.jedit.syntax.MakefileTokenMarker	markTokensImpl	Feature Envy
+src.lib.org.jext.print.PrintText	wrapText	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.syntax.JavaScriptTokenMarker	getKeywords	Feature Envy
+src.lib.org.jext.textarea.CsWord	actionPerformed	Brain Method
+src.lib.org.jext.textarea.CsWord	actionPerformed	Intensive Coupling
+src.lib.org.jext.menus.JextRecentMenu	removeRecent	Feature Envy
+src.lib.org.jext.menus.JextRecentMenu	createRecent	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.textarea.Gutter$GutterMouseListener	mouseClicked	Feature Envy
+src.lib.org.gjt.sp.jedit.textarea.Gutter$GutterMouseListener	mouseClicked	Dispersed Coupling
+src.lib.org.jext.console.commands.ChangeDirCommand	handleCommand	Feature Envy
+src.lib.org.jext.console.commands.ChangeDirCommand	handleCommand	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.syntax.ASPVBScriptTokenMarker	markTokensImpl	Brain Method
+src.lib.org.gjt.sp.jedit.syntax.ASPVBScriptTokenMarker	doKeywordToPos	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.ASPVBScriptTokenMarker	getKeywords	Feature Envy
+src.lib.org.jext.xml.XMenuHandler	startElement	Feature Envy
+src.lib.org.jext.xml.XMenuHandler	endElement	Dispersed Coupling
+src.lib.org.jext.JextFrame	getTabbedPane	Shotgun Surgery
+src.lib.org.jext.JextFrame	getWorkspaces	Shotgun Surgery
+src.lib.org.jext.JextFrame	getFileChooser	Intensive Coupling
+src.lib.org.jext.JextFrame	setKeyEventInterceptor	Shotgun Surgery
+src.lib.org.jext.JextFrame	addJextListener	Shotgun Surgery
+src.lib.org.jext.JextFrame	loadProperties	Dispersed Coupling
+src.lib.org.jext.JextFrame	triggerTabbedPanes	Intensive Coupling
+src.lib.org.jext.JextFrame	splitEditor	Dispersed Coupling
+src.lib.org.jext.JextFrame	loadConsoleProperties	Feature Envy
+src.lib.org.jext.JextFrame	loadConsoleProperties	Intensive Coupling
+src.lib.org.jext.JextFrame	loadGutter	Intensive Coupling
+src.lib.org.jext.JextFrame	updatePluginsMenu	Dispersed Coupling
+src.lib.org.jext.JextFrame	setStatus	Dispersed Coupling
+src.lib.org.jext.JextFrame	closeToQuit	Dispersed Coupling
+src.lib.org.jext.JextFrame	showWaitCursor	Shotgun Surgery
+src.lib.org.jext.JextFrame	hideWaitCursor	Shotgun Surgery
+src.lib.org.jext.JextFrame	getTextArea	Shotgun Surgery
+src.lib.org.jext.JextFrame	getNSTextArea	Feature Envy
+src.lib.org.jext.JextFrame	getTextAreas	Feature Envy
+src.lib.org.jext.JextFrame	getTextAreas	Shotgun Surgery
+src.lib.org.jext.JextFrame	open	Shotgun Surgery
+src.lib.org.jext.JextFrame	open	Dispersed Coupling
+src.lib.org.jext.JextFrame	JextFrame	Brain Method
+src.lib.org.jext.JextFrame	JextFrame	Dispersed Coupling
+src.lib.org.jext.JextFrame	processKeyEvent	Dispersed Coupling
+src.lib.org.jext.JextFrame	null	God Class
+src.lib.org.jext.JextFrame	null	Brain Class
+src.lib.org.jext.JextLoader	run	Brain Method
+src.lib.org.jext.JextLoader	run	Intensive Coupling
+src.lib.org.gjt.sp.jedit.syntax.TokenMarker	markTokens	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.TokenMarker	addToken	Shotgun Surgery
+src.lib.org.gjt.sp.jedit.syntax.TokenMarker	addToken	Feature Envy
+src.lib.org.jext.console.commands.ClearCommand	handleCommand	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.CSharpTokenMarker	markTokensImpl	Brain Method
+src.lib.org.gjt.sp.jedit.syntax.CSharpTokenMarker	getKeywords	Feature Envy
+src.lib.org.gjt.sp.jedit.textarea.InputHandler$insert_char	actionPerformed	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.syntax.ASPPerlscriptTokenMarker	markTokensImpl	Brain Method
+src.lib.org.gjt.sp.jedit.syntax.ASPPerlscriptTokenMarker	markTokensImpl	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.syntax.ASPPerlscriptTokenMarker	getKeywords	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.ASPPerlscriptTokenMarker	null	God Class
+src.lib.org.gjt.sp.jedit.syntax.ASPPerlscriptTokenMarker	null	Brain Class
+src.lib.org.gjt.sp.jedit.syntax.ASPPerlscriptTokenMarker	null	Data Class
+src.lib.org.gjt.sp.jedit.syntax.ASPPerlscriptTokenMarker	null	Refused Parent Bequest
+src.lib.org.jext.search.FindAllDialog	FindAllDialog	Dispersed Coupling
+src.lib.org.jext.search.FindAllDialog	exit	Dispersed Coupling
+src.lib.org.jext.search.FindAllDialog	addSearchHistory	Feature Envy
+src.lib.org.jext.search.FindAllDialog	findAll	Brain Method
+src.lib.org.jext.search.FindAllDialog	findAll	Dispersed Coupling
+src.lib.org.jext.toolbar.JextToolBar	JextToolBar	Feature Envy
+src.lib.org.jext.Utilities	centerComponent	Feature Envy
+src.lib.org.jext.Utilities	centerComponentChild	Feature Envy
+src.lib.org.jext.Utilities	setCursorOnWait	Feature Envy
+src.lib.org.jext.Utilities	chooseFiles	Dispersed Coupling
+src.lib.org.jext.Utilities	getFileChooser	Intensive Coupling
+src.lib.org.jext.Utilities	constructPath	Intensive Coupling
+src.lib.org.jext.Utilities	beginsWithRoot	Feature Envy
+src.lib.org.jext.Utilities	getRoot	Feature Envy
+src.lib.org.jext.Utilities	getWildCardMatches	Dispersed Coupling
+src.lib.org.jext.Utilities	match	Intensive Coupling
+src.lib.org.jext.Utilities	null	God Class
+src.lib.org.jext.Utilities	null	Data Class
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea$DocumentHandler	insertUpdate	Feature Envy
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea$DocumentHandler	removeUpdate	Feature Envy
+src.lib.org.jext.dawn.math.IncreaseFunction	invoke	Intensive Coupling
+src.lib.org.gjt.sp.jedit.syntax.TeXTokenMarker	markTokensImpl	Brain Method
+src.lib.org.gjt.sp.jedit.syntax.TeXTokenMarker	markTokensImpl	Feature Envy
+src.lib.org.jext.options.LangOptions	LangOptions	Dispersed Coupling
+src.lib.org.jext.options.LangOptions	save	Feature Envy
+src.lib.org.jext.options.GeneralOptions	load	Dispersed Coupling
+src.lib.org.jext.options.GeneralOptions	getComponent	Feature Envy
+src.lib.org.jext.options.GeneralOptions	save	Feature Envy
+src.plugins.Java.UML$Throws	toString	Feature Envy
+src.lib.org.jext.actions.SimpleUnComment	actionPerformed	Intensive Coupling
+src.plugins.Java.JBrowsePlugin$OptPane	getComponent	Feature Envy
+src.lib.org.jext.options.FileFiltersOptions$FiltersTableModel	getValueAt	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.VerilogTokenMarker	markTokensImpl	Brain Method
+src.lib.org.gjt.sp.jedit.syntax.VerilogTokenMarker	markTokensImpl	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.VerilogTokenMarker	getKeywords	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.VerilogTokenMarker	doKeyword	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.VerilogTokenMarker	null	God Class
+src.lib.org.jext.options.ColorTable$ColorTableModel$ColorRenderer	ColorRenderer	Feature Envy
+src.lib.org.jext.misc.FindAccessory$FindResults$FindResultsCellRenderer	getListCellRendererComponent	Dispersed Coupling
+src.lib.org.jext.Mode	getModeName	Shotgun Surgery
+src.lib.com.jgoodies.uif_lite.component.Factory	createToolBarButton	Feature Envy
+src.lib.org.jext.misc.ZipExplorer$ZipTableModel	addZipEntry	Feature Envy
+src.lib.org.jext.actions.RightIndent	actionPerformed	Intensive Coupling
+src.lib.org.jext.dawn.math.DecreaseFunction	invoke	Intensive Coupling
+src.plugins.Php.src.PHPIndentPHP	parseLigne	Intensive Coupling
+src.plugins.Php.src.PHPIndentPHP	null	Refused Parent Bequest
+src.lib.gnu.regexp.RETokenOneOf	match	Feature Envy
+src.plugins.Java.Beautifier	actionPerformed	Intensive Coupling
+src.plugins.Php.src.PHPModifierFichier	modifier	Intensive Coupling
+src.lib.org.jext.scripting.dawn.functions.YesNoCancelFunction	invoke	Feature Envy
+src.lib.org.jext.scripting.AbstractLogWindow	getContainingDock	Feature Envy
+src.lib.org.jext.scripting.AbstractLogWindow	log	Feature Envy
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea$MouseHandler	mouseClicked	Dispersed Coupling
+src.plugins.KLNF.com.incors.plaf.kunststoff.KunststoffTabbedPaneUI	paintTab	Intensive Coupling
+src.lib.org.gjt.sp.jedit.syntax.ASPTokenMarker	markTokensImpl	Brain Method
+src.lib.org.gjt.sp.jedit.syntax.ASPTokenMarker	markTokensImpl	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.textarea.InputHandler$next_word	actionPerformed	Dispersed Coupling
+src.lib.org.jext.search.LiteralSearchMatcher	substitute	Feature Envy
+src.plugins.FindAll.FindAll	FindAll	Dispersed Coupling
+src.plugins.FindAll.FindAll	addSearchHistory	Feature Envy
+src.plugins.FindAll.FindAll	actionPerformed	Feature Envy
+src.plugins.FindAll.FindAll	findText	Dispersed Coupling
+src.plugins.FindAll.FindAll	findAll	Brain Method
+src.plugins.FindAll.FindAll	findAll	Dispersed Coupling
+src.lib.org.jext.dawn.javaccess.NewFunction	invokeConstructor	Dispersed Coupling
+src.lib.org.jext.Jext	saveXMLProps	Brain Method
+src.lib.org.jext.Jext	saveXMLProps	Intensive Coupling
+src.lib.org.jext.Jext	initDirectories	Feature Envy
+src.lib.org.jext.Jext	initProperties	Brain Method
+src.lib.org.jext.Jext	initProperties	Dispersed Coupling
+src.lib.org.jext.Jext	loadInSingleJVMInstance	Brain Method
+src.lib.org.jext.Jext	loadInSingleJVMInstance	Dispersed Coupling
+src.lib.org.jext.Jext	null	God Class
+src.lib.org.jext.Jext	null	Brain Class
+src.lib.org.jext.Jext	null	Data Class
+src.lib.org.jext.dawn.javaccess.ConstructorFunction	invoke	Dispersed Coupling
+src.lib.org.jext.textarea.ScrollPageUp	actionPerformed	Feature Envy
+src.plugins.Java.UML$Operation$Argument	toString	Feature Envy
+src.plugins.HyperTyper.HyperTyperMapping	sequenceAdded	Feature Envy
+src.plugins.KLNF.KLNFOptionPane	KLNFOptionPane	Feature Envy
+src.lib.org.jext.options.LoadingOptions	LoadingOptions	Feature Envy
+src.lib.org.jext.options.LoadingOptions	load	Feature Envy
+src.lib.org.jext.options.LoadingOptions	save	Feature Envy
+src.plugins.Java.JSFormatter	main	Brain Method
+src.plugins.Java.JSFormatter	main	Feature Envy
+src.plugins.Java.JSFormatter	main	Dispersed Coupling
+src.plugins.Java.JSFormatter	format	Brain Method
+src.plugins.Java.JSFormatter	format	Intensive Coupling
+src.plugins.Java.JSFormatter	null	God Class
+src.plugins.Java.JSFormatter	null	Brain Class
+src.lib.org.jext.console.ConsoleTextPane$DnDHandler	drop	Dispersed Coupling
+src.plugins.FindInFiles.src.FindInFiles	addListeners	Dispersed Coupling
+src.plugins.FindInFiles.src.FindInFiles	saveProp	Feature Envy
+src.plugins.FindInFiles.src.FindInFiles	loadProp	Feature Envy
+src.plugins.FindInFiles.src.FindInFiles	jextEventFired	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.IDLTokenMarker	getKeywords	Feature Envy
+src.plugins.Java.JBrowseOptionPane	actionPerformed	Brain Method
+src.plugins.Java.JBrowseOptionPane	actionPerformed	Dispersed Coupling
+src.plugins.Java.JBrowseOptionPane	addComponent	Feature Envy
+src.plugins.Java.JBrowseOptionPane	null	Refused Parent Bequest
+src.plugins.Java.JBrowse	JBrowse	Dispersed Coupling
+src.plugins.Java.JBrowse	jextEventFired	Feature Envy
+src.plugins.Java.JBrowse	actionPerformed	Dispersed Coupling
+src.plugins.Java.JBrowse	showResults	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.syntax.TextTokenMarker	markTokensImpl	Brain Method
+src.lib.org.gjt.sp.jedit.syntax.TextTokenMarker	markTokensImpl	Feature Envy
+src.lib.org.jext.gui.SplashScreen	run	Dispersed Coupling
+src.plugins.Php.src.PHPIndentPEAR	parseLigne	Intensive Coupling
+src.plugins.Php.src.PHPIndentPEAR	null	Refused Parent Bequest
+src.lib.org.jext.console.ConsoleTextPane$DnDHandler	drop	Dispersed Coupling
+src.lib.org.jext.console.commands.FileCommand	handleCommand	Dispersed Coupling
+src.plugins.Php.src.PHPIndentHTML	parse	Brain Method
+src.plugins.Php.src.PHPIndentHTML	parse	Intensive Coupling
+src.lib.org.gjt.sp.jedit.syntax.PythonTokenMarker	markTokensImpl	Brain Method
+src.lib.org.gjt.sp.jedit.syntax.PythonTokenMarker	getKeywords	Feature Envy
+src.lib.org.jext.misc.CompleteWordList$KeyHandler	keyTyped	Dispersed Coupling
+src.plugins.Java.TokenSource	getNextToken	Brain Method
+src.plugins.Java.TokenSource	getNextToken	Dispersed Coupling
+src.plugins.Java.TokenSource	null	God Class
+src.lib.org.jext.console.Console	save	Feature Envy
+src.lib.org.jext.console.Console	buildPrompt	Feature Envy
+src.lib.org.jext.console.Console	buildPrompt	Intensive Coupling
+src.lib.org.jext.console.Console	doCompletion	Brain Method
+src.lib.org.jext.console.Console	doCompletion	Intensive Coupling
+src.lib.org.jext.console.Console	help	Feature Envy
+src.lib.org.jext.console.Console	error	Shotgun Surgery
+src.lib.org.jext.console.Console	parseCommand	Dispersed Coupling
+src.lib.org.jext.console.Console	execute	Intensive Coupling
+src.lib.org.jext.console.Console	null	God Class
+src.lib.org.jext.console.Console	null	Brain Class
+src.lib.org.jext.misc.JextMail	load	Feature Envy
+src.lib.org.jext.misc.JextMail	save	Feature Envy
+src.lib.org.jext.misc.JextMail	wait	Feature Envy
+src.lib.org.jext.misc.JextMail	send	Feature Envy
+src.lib.org.jext.misc.JextMail	run	Feature Envy
+src.lib.org.jext.misc.JextMail	check	Feature Envy
+src.lib.org.jext.misc.JextMail	trace	Feature Envy
+src.lib.org.jext.misc.JextMail	sendMail	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	getPainter	Shotgun Surgery
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	updateScrollBars	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	getFirstLine	Shotgun Surgery
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	setFirstLine	Shotgun Surgery
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	lineToY	Feature Envy
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	offsetToX	Shotgun Surgery
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	xToOffset	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	getDocument	Shotgun Surgery
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	getLineCount	Shotgun Surgery
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	getLineStartOffset	Feature Envy
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	getLineStartOffset	Shotgun Surgery
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	getLineEndOffset	Feature Envy
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	getLineLength	Feature Envy
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	getText	Shotgun Surgery
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	getText	Feature Envy
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	getLineText	Shotgun Surgery
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	getSelectionStart	Shotgun Surgery
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	getSelectionStart	Feature Envy
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	getSelectionEnd	Shotgun Surgery
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	getSelectionEnd	Feature Envy
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	getCaretPosition	Shotgun Surgery
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	getCaretLine	Shotgun Surgery
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	getMarkPosition	Shotgun Surgery
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	setCaretPosition	Shotgun Surgery
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	select	Shotgun Surgery
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	getSelectedText	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	getSelectedText	Shotgun Surgery
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	setSelectedText	Feature Envy
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	setSelectedText	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	setSelectedText	Shotgun Surgery
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	isEditable	Shotgun Surgery
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	documentChanged	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea	null	God Class
+src.lib.org.gjt.sp.jedit.textarea.InputHandler$document_home	actionPerformed	Feature Envy
+src.updating.ChoiceForm	ChoiceForm	Dispersed Coupling
+src.updating.ChoiceForm	actionPerformed	Dispersed Coupling
+src.lib.org.jext.console.ConsoleListDir	displayFile	Intensive Coupling
+src.lib.org.jext.console.ConsoleListDir	run	Brain Method
+src.lib.org.jext.console.ConsoleListDir	run	Intensive Coupling
+src.lib.org.jext.gui.FontSelector	load	Feature Envy
+src.lib.org.jext.gui.FontSelector	getAvailableFontFamilyNames	Feature Envy
+src.plugins.HyperTyper.HyperTyperAction	actionPerformed	Brain Method
+src.plugins.HyperTyper.HyperTyperAction	actionPerformed	Intensive Coupling
+src.plugins.HyperTyper.HyperTyperAction	null	God Class
+src.plugins.HyperTyper.HyperTyperAction	null	Data Class
+src.plugins.KLNF.com.incors.plaf.kunststoff.KunststoffButtonUI	paint	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.syntax.ASPJavascriptTokenMarker	markTokensImpl	Brain Method
+src.lib.org.gjt.sp.jedit.syntax.ASPJavascriptTokenMarker	markTokensImpl	Intensive Coupling
+src.lib.org.gjt.sp.jedit.syntax.ASPJavascriptTokenMarker	getKeywords	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.ASPJavascriptTokenMarker	null	God Class
+src.lib.org.gjt.sp.jedit.syntax.ASPJavascriptTokenMarker	null	Refused Parent Bequest
+src.plugins.KLNF.com.incors.plaf.kunststoff.KunststoffUtilities	getTranslucentColor	Feature Envy
+src.plugins.KLNF.com.incors.plaf.kunststoff.KunststoffUtilities	getTranslucentColorUIResource	Feature Envy
+src.plugins.KLNF.com.incors.plaf.kunststoff.KunststoffUtilities	drawGradient	Feature Envy
+src.lib.org.jext.JARClassLoader	JARClassLoader	Intensive Coupling
+src.lib.org.jext.JARClassLoader	getResourceAsStream	Feature Envy
+src.lib.org.jext.JARClassLoader	reloadPluginsProperties	Intensive Coupling
+src.lib.org.jext.JARClassLoader	executeScripts	Dispersed Coupling
+src.lib.org.jext.JARClassLoader	loadPluginClass	Dispersed Coupling
+src.lib.org.jext.JARClassLoader	checkDependencies	Intensive Coupling
+src.lib.org.jext.JARClassLoader	loadClassFromZip	Dispersed Coupling
+src.lib.org.jext.JARClassLoader	null	God Class
+src.lib.org.jext.misc.FindByDate	endDateToTime	Feature Envy
+src.lib.org.jext.textarea.ScrollDown	actionPerformed	Feature Envy
+src.lib.org.jext.misc.WorkspaceSwitcher$Switcher	actionPerformed	Intensive Coupling
+src.lib.org.gjt.sp.jedit.textarea.InputHandler$document_end	actionPerformed	Feature Envy
+src.plugins.HyperTyper.HyperTyperMappingGrid$TyperTableModel	getValueAt	Feature Envy
+src.plugins.HyperTyper.HyperTyperMappingGrid$TyperTableModel	setValueAt	Dispersed Coupling
+src.plugins.Java.BeautifierOptions	save	Feature Envy
+src.lib.org.jext.options.OptionsDialog$PaneNameRenderer	getTreeCellRendererComponent	Dispersed Coupling
+src.lib.org.jext.xml.XPropertiesReader	read	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.textarea.InputHandler$end	actionPerformed	Intensive Coupling
+src.lib.org.jext.misc.Workspaces	load	Dispersed Coupling
+src.lib.org.jext.misc.Workspaces	save	Dispersed Coupling
+src.lib.org.jext.misc.Workspaces	removeFile	Feature Envy
+src.lib.org.jext.misc.Workspaces	newWorkspace	Feature Envy
+src.lib.org.jext.misc.Workspaces	removeWorkspace	Feature Envy
+src.lib.org.jext.misc.Workspaces	valueChanged	Dispersed Coupling
+src.lib.org.jext.misc.Workspaces	null	Data Class
+src.lib.org.gjt.sp.jedit.syntax.DawnTokenMarker	markTokensImpl	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.DawnTokenMarker	getKeywords	Feature Envy
+src.lib.org.jext.dawn.javaccess.InvokeFunction	invoke	Dispersed Coupling
+src.plugins.FindInFiles.src.FindInFiles$MyCellRenderer	getListCellRendererComponent	Feature Envy
+src.lib.gnu.regexp.REFilterReader	read	Dispersed Coupling
+src.plugins.Java.RWModifier	toString	Feature Envy
+src.plugins.Java.RWModifier	toString	Intensive Coupling
+src.plugins.Java.RWModifier	null	God Class
+src.lib.org.gjt.sp.jedit.syntax.LATTokenMarker	markTokensImpl	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.LATTokenMarker	getKeywords	Feature Envy
+src.lib.org.jext.scripting.python.PythonLogWindow	toggleDocking	Feature Envy
+src.lib.org.jext.GUIUtilities	message	Feature Envy
+src.lib.org.jext.GUIUtilities	error	Feature Envy
+src.lib.org.jext.GUIUtilities	parseColor	Feature Envy
+src.lib.org.jext.GUIUtilities	loadMenu	Intensive Coupling
+src.lib.org.jext.GUIUtilities	loadMenuItem	Intensive Coupling
+src.lib.org.jext.GUIUtilities	null	God Class
+src.lib.org.jext.misc.WorkspaceSwitcher	buildDropDownList	Dispersed Coupling
+src.lib.gnu.regexp.REMatchEnumeration	hasMoreMatches	Feature Envy
+src.plugins.HTML.HTMLIndenter	actionPerformed	Intensive Coupling
+src.plugins.HTML.HTMLIndenter	parse	Brain Method
+src.plugins.HTML.HTMLIndenter	parse	Intensive Coupling
+src.plugins.HyperTyper.HyperTyperWindowGUI	actionPerformed	Dispersed Coupling
+src.lib.org.jext.gui.BundledSkinFactory$MetalSkin	apply	Feature Envy
+src.updating.PlugReader	startElement	Dispersed Coupling
+src.updating.PlugReader	endElement	Feature Envy
+src.updating.PlugReader	endElement	Dispersed Coupling
+src.lib.gnu.regexp.CharIndexed	charAt	Shotgun Surgery
+src.plugins.Php.src.PHPParser	parse	Brain Method
+src.lib.org.jext.actions.CompleteWord	actionPerformed	Intensive Coupling
+src.lib.org.jext.gui.Dockable	setDockingStatus	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.syntax.ASMTokenMarker	markTokensImpl	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.ASMTokenMarker	getKeywords	Feature Envy
+src.lib.org.gjt.sp.jedit.textarea.DefaultInputHandler	keyPressed	Brain Method
+src.lib.org.gjt.sp.jedit.textarea.DefaultInputHandler	keyPressed	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.textarea.DefaultInputHandler	keyTyped	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.textarea.DefaultInputHandler	parseKeyStroke	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.textarea.DefaultInputHandler	null	Refused Parent Bequest
+src.plugins.KLNF.com.incors.plaf.kunststoff.KunststoffInternalFrameUI$PaletteListener	propertyChange	Feature Envy
+src.lib.org.jext.misc.StringSorter	sort	Intensive Coupling
+src.lib.org.gjt.sp.jedit.syntax.SyntaxUtilities	regionMatches	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.SyntaxUtilities	regionMatches	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.SyntaxUtilities	getDefaultSyntaxStyles	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.SyntaxUtilities	paintSyntaxLine	Dispersed Coupling
+src.lib.org.jext.xml.XInsertHandler	endElement	Feature Envy
+src.lib.org.jext.gui.BundledSkinFactory	getSkins	Feature Envy
+src.plugins.HTML.ToEntities	actionPerformed	Intensive Coupling
+src.plugins.Java.JBrowseOptionPane$OptionPanel	addComponent	Feature Envy
+src.lib.org.jext.menus.TemplatesMenu	TemplatesMenu	Feature Envy
+src.lib.org.jext.menus.TemplatesMenu	processDirectory	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.syntax.RubyTokenMarker	markTokensImpl	Brain Method
+src.lib.org.gjt.sp.jedit.syntax.RubyTokenMarker	getKeywords	Feature Envy
+src.plugins.Php.src.PHPModifierSelection	modifier	Intensive Coupling
+src.lib.org.gjt.sp.jedit.textarea.InputHandler$delete_word	actionPerformed	Dispersed Coupling
+src.lib.org.jext.dawn.err.TryCatchFunction	invoke	Brain Method
+src.lib.org.jext.dawn.err.TryCatchFunction	invoke	Dispersed Coupling
+src.plugins.FunnyBrackets.src.FunnyBrackets	actionPerformed	Intensive Coupling
+src.lib.org.jext.console.commands.HttpCommand	handleCommand	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.syntax.TokenMarkerContext	RERegionMatches	Feature Envy
+src.plugins.Java.JBrowse$OptionDialog	actionPerformed	Dispersed Coupling
+src.lib.gnu.regexp.RETokenAny	match	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.CTokenMarker	markTokensImpl	Brain Method
+src.lib.org.gjt.sp.jedit.syntax.CTokenMarker	getKeywords	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.CTokenMarker	null	God Class
+src.plugins.KLNF.com.incors.plaf.kunststoff.KunststoffToggleButtonUI	paint	Dispersed Coupling
+src.lib.com.jgoodies.uif_lite.component.UIFSplitPane	UIFSplitPane	Feature Envy
+src.lib.org.gjt.sp.jedit.textarea.InputHandler$delete	actionPerformed	Dispersed Coupling
+src.plugins.Php.src.PHPBufferPartList	null	Refused Parent Bequest
+src.lib.org.gjt.sp.jedit.syntax.SyntaxStyle	getStyledFont	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.SyntaxStyle	getFontMetrics	Feature Envy
+src.plugins.HyperTyper.HyperTyperObjectManager	getProperty	Feature Envy
+src.updating.ChoiceForm$PluginTableModel	getValueAt	Feature Envy
+src.plugins.HyperTyper.Sequence	getShorthand	Shotgun Surgery
+src.lib.org.jext.misc.FindByName$NameFilter	accept	Intensive Coupling
+src.lib.org.gjt.sp.jedit.textarea.InputHandler$next_page	actionPerformed	Feature Envy
+src.lib.org.jext.console.ConsoleTextPane$ConsoleKeyAdapter	keyPressed	Brain Method
+src.lib.org.jext.console.ConsoleTextPane$ConsoleKeyAdapter	keyPressed	Intensive Coupling
+src.lib.org.jext.console.ConsoleTextPane$ConsoleKeyAdapter	keyTyped	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.gui.KeyEventWorkaround	processKeyEvent	Brain Method
+src.lib.org.gjt.sp.jedit.gui.KeyEventWorkaround	processKeyEvent	Feature Envy
+src.lib.org.gjt.sp.jedit.gui.KeyEventWorkaround	processKeyEvent	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.gui.KeyEventWorkaround	handleBrokenKeys	Feature Envy
+src.plugins.KeystrokeRecorder.Track	play	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.PLSQLTokenMarker	getKeywords	Feature Envy
+src.lib.org.jext.textarea.ScrollPageDown	actionPerformed	Feature Envy
+src.lib.org.jext.options.UIOptions	getComponent	Feature Envy
+src.lib.org.jext.options.UIOptions	control	Feature Envy
+src.plugins.Java.BrowserLauncher	locateBrowser	Brain Method
+src.plugins.Java.BrowserLauncher	locateBrowser	Dispersed Coupling
+src.plugins.Java.BrowserLauncher	openURL	Dispersed Coupling
+src.plugins.Java.BrowserLauncher	null	God Class
+src.lib.gnu.regexp.RETokenStart	match	Feature Envy
+src.lib.org.jext.menus.JextMenuBar	addMenu	Dispersed Coupling
+src.lib.org.jext.menus.JextMenuBar	addMenuItem	Dispersed Coupling
+src.lib.org.jext.menus.JextMenuBar	getJextFrame	Feature Envy
+src.plugins.Php.src.PHPQuickOpen	actionPerformed	Dispersed Coupling
+src.lib.org.jext.JextTextArea	resetLineTerm	Feature Envy
+src.lib.org.jext.JextTextArea	rotateLineTerm	Feature Envy
+src.lib.org.jext.JextTextArea	getProperty	Shotgun Surgery
+src.lib.org.jext.JextTextArea	getJextParent	Shotgun Surgery
+src.lib.org.jext.JextTextArea	getFile	Shotgun Surgery
+src.lib.org.jext.JextTextArea	getCurrentFile	Shotgun Surgery
+src.lib.org.jext.JextTextArea	filteredPaste	Dispersed Coupling
+src.lib.org.jext.JextTextArea	getTabSize	Shotgun Surgery
+src.lib.org.jext.JextTextArea	getName	Shotgun Surgery
+src.lib.org.jext.JextTextArea	getColorizingMode	Shotgun Surgery
+src.lib.org.jext.JextTextArea	checkLastModificationTime	Feature Envy
+src.lib.org.jext.JextTextArea	zipContent	Dispersed Coupling
+src.lib.org.jext.JextTextArea	save	Dispersed Coupling
+src.lib.org.jext.JextTextArea	open	Brain Method
+src.lib.org.jext.JextTextArea	open	Intensive Coupling
+src.lib.org.jext.JextTextArea	beginCompoundEdit	Shotgun Surgery
+src.lib.org.jext.JextTextArea	endCompoundEdit	Shotgun Surgery
+src.lib.org.jext.JextTextArea	getLength	Shotgun Surgery
+src.lib.org.jext.JextTextArea	null	God Class
+src.lib.org.jext.JextTextArea	null	Brain Class
+src.lib.org.jext.JextTextArea	null	Refused Parent Bequest
+src.lib.org.jext.JextTextArea	null	Tradition Breaker
+src.lib.org.jext.options.StyleTable$StyleTableModel	StyleTableModel	Feature Envy
+src.lib.org.jext.options.StyleTable$StyleTableModel	getValueAt	Feature Envy
+src.plugins.Java.UMLTree	updateVisibleToggled	Dispersed Coupling
+src.lib.org.jext.JextFrame$PluginHandler	jextEventFired	Dispersed Coupling
+src.lib.gnu.regexp.REToken	next	Shotgun Surgery
+src.lib.org.jext.dawn.loop.ForFunction	invoke	Brain Method
+src.lib.org.jext.dawn.loop.ForFunction	invoke	Intensive Coupling
+src.plugins.HTML.NextTag	actionPerformed	Intensive Coupling
+src.plugins.KLNF.com.incors.plaf.kunststoff.themes.KunststoffDesktopTheme	KunststoffDesktopTheme	Feature Envy
+src.plugins.KLNF.com.incors.plaf.kunststoff.themes.KunststoffDesktopTheme	addCustomEntriesToTable	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.BatchFileTokenMarker	markTokensImpl	Brain Method
+src.lib.org.gjt.sp.jedit.syntax.BatchFileTokenMarker	markTokensImpl	Feature Envy
+src.lib.org.jext.actions.OpenUrl	actionPerformed	Dispersed Coupling
+src.lib.org.jext.project.DefaultProjectManager	loadFromWorkspaces	Dispersed Coupling
+src.lib.org.jext.project.DefaultProjectManager	newProject	Feature Envy
+src.lib.org.jext.project.DefaultProjectManager	closeProject	Dispersed Coupling
+src.lib.org.jext.project.DefaultProjectManager	null	Refused Parent Bequest
+src.lib.org.jext.project.DefaultProjectManager	null	Tradition Breaker
+src.lib.org.gjt.sp.jedit.syntax.EiffelTokenMarker	markTokensImpl	Brain Method
+src.lib.org.gjt.sp.jedit.syntax.EiffelTokenMarker	markTokensImpl	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.EiffelTokenMarker	getKeywords	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.EiffelTokenMarker	doKeyword	Feature Envy
+src.lib.org.jext.xml.XBarHandler	endElement	Intensive Coupling
+src.lib.org.jext.console.Console$ConsoleProcess$StdinThread	run	Brain Method
+src.lib.org.jext.console.Console$ConsoleProcess$StdinThread	run	Dispersed Coupling
+src.plugins.Java.UMLTree$CellRenderer	getTreeCellRendererComponent	Dispersed Coupling
+src.lib.org.jext.gui.JextProgressBarUI	getHeaderBackground	Feature Envy
+src.lib.org.jext.gui.BundledSkinFactory$JextSkin	apply	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.PropsTokenMarker	markTokensImpl	Feature Envy
+src.plugins.KLNF.com.incors.plaf.kunststoff.KunststoffInternalFrameUI	setFrameType	Feature Envy
+src.lib.org.jext.gui.EnhancedMenuItem	paint	Dispersed Coupling
+src.lib.org.jext.gui.EnhancedMenuItem	fireActionPerformed	Dispersed Coupling
+src.plugins.KLNF.com.incors.plaf.kunststoff.KunststoffListUI	update	Dispersed Coupling
+src.plugins.KLNF.com.incors.plaf.kunststoff.KunststoffListUI	paintCell	Feature Envy
+src.lib.org.jext.xml.XPopupHandler	endElement	Dispersed Coupling
+src.plugins.Java.ClassBrowser	sortMethods	Feature Envy
+src.plugins.Java.ClassBrowser	setConslist	Feature Envy
+src.plugins.Java.ClassBrowser	setTree	Dispersed Coupling
+src.plugins.Java.ClassBrowser	init	Dispersed Coupling
+src.plugins.Java.ClassBrowser	actionPerformed	Dispersed Coupling
+src.plugins.Java.ClassBrowser	null	God Class
+src.lib.org.jext.misc.PluginDesc	initDirectories	Intensive Coupling
+src.lib.org.jext.misc.PluginDesc	install	Brain Method
+src.lib.org.jext.misc.PluginDesc	install	Dispersed Coupling
+src.lib.org.jext.misc.PluginDesc	null	God Class
+src.plugins.Php.src.PHPBrowseTab	valueChanged	Dispersed Coupling
+src.plugins.Php.src.PHPBrowseTabParser	parseLigne	Dispersed Coupling
+src.plugins.Php.src.PHPBrowseTabParser	null	Refused Parent Bequest
+src.lib.org.jext.search.BoyerMooreSearchMatcher	nextMatch	Feature Envy
+src.lib.org.jext.search.BoyerMooreSearchMatcher	match	Feature Envy
+src.lib.org.gjt.sp.jedit.textarea.InputHandler	handleGrabAction	Feature Envy
+src.lib.org.gjt.sp.jedit.textarea.InputHandler	null	God Class
+src.lib.org.gjt.sp.jedit.textarea.InputHandler	null	Data Class
+src.lib.gnu.regexp.REFilterInputStream	read	Dispersed Coupling
+src.lib.org.jext.dawn.DawnParser	installPackage	Dispersed Coupling
+src.lib.org.jext.dawn.DawnParser	getClasses	Intensive Coupling
+src.lib.org.jext.dawn.DawnParser	getStack	Shotgun Surgery
+src.lib.org.jext.dawn.DawnParser	checkArgsNumber	Shotgun Surgery
+src.lib.org.jext.dawn.DawnParser	checkEmpty	Shotgun Surgery
+src.lib.org.jext.dawn.DawnParser	getProperty	Shotgun Surgery
+src.lib.org.jext.dawn.DawnParser	exec	Brain Method
+src.lib.org.jext.dawn.DawnParser	exec	Feature Envy
+src.lib.org.jext.dawn.DawnParser	popNumber	Shotgun Surgery
+src.lib.org.jext.dawn.DawnParser	pushNumber	Shotgun Surgery
+src.lib.org.jext.dawn.DawnParser	popString	Shotgun Surgery
+src.lib.org.jext.dawn.DawnParser	pushString	Shotgun Surgery
+src.lib.org.jext.dawn.DawnParser	pop	Shotgun Surgery
+src.lib.org.jext.dawn.DawnParser	push	Shotgun Surgery
+src.lib.org.jext.dawn.DawnParser	null	God Class
+src.lib.org.jext.dawn.DawnParser	null	Brain Class
+src.lib.org.jext.dawn.DawnParser	null	Data Class
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea$DragHandler	mouseDragged	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea$DragHandler	doSingleDrag	Feature Envy
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea$DragHandler	doDoubleDrag	Intensive Coupling
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea$DragHandler	doTripleDrag	Feature Envy
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea$DragHandler	doTripleDrag	Intensive Coupling
+src.lib.org.gjt.sp.jedit.textarea.Gutter	setAntiAliasing	Feature Envy
+src.lib.org.gjt.sp.jedit.textarea.Gutter	paintLineNumbers	Intensive Coupling
+src.lib.org.gjt.sp.jedit.textarea.Gutter	setFont	Feature Envy
+src.lib.org.gjt.sp.jedit.textarea.Gutter	setGutterWidth	Feature Envy
+src.lib.org.gjt.sp.jedit.textarea.Gutter	null	God Class
+src.lib.org.jext.console.ConsoleTextPane$DnDHandler	drop	Dispersed Coupling
+src.lib.com.jgoodies.uif_lite.panel.SimpleInternalFrame$RaisedHeaderBorder	paintBorder	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.CCTokenMarker	getKeywords	Feature Envy
+src.lib.org.jext.scripting.dawn.DawnLogWindow	actionPerformed	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.JSPTokenMarker	markTokensImpl	Brain Method
+src.lib.org.gjt.sp.jedit.syntax.JSPTokenMarker	null	God Class
+src.lib.org.gjt.sp.jedit.syntax.JSPTokenMarker	null	Brain Class
+src.lib.org.gjt.sp.jedit.syntax.JSPTokenMarker	null	Data Class
+src.lib.org.jext.search.RESearchMatcher	nextMatch	Feature Envy
+src.plugins.HTML.TagsCompletion	jextEventFired	Feature Envy
+src.plugins.HTML.TagsCompletion	getWord	Brain Method
+src.plugins.HTML.TagsCompletion	getWord	Intensive Coupling
+src.plugins.HTML.TagsCompletion	buildEntitiesList	Feature Envy
+src.plugins.HTML.TagsCompletion	buildTagsList	Feature Envy
+src.plugins.HTML.TagsCompletion	buildTagsList	Dispersed Coupling
+src.plugins.HTML.TagsCompletion	null	God Class
+src.plugins.HTML.TagsCompletion	null	Data Class
+src.lib.org.gjt.sp.jedit.syntax.BeanShellTokenMarker	getKeywords	Feature Envy
+src.lib.org.jext.misc.ZipExplorer	actionPerformed	Dispersed Coupling
+src.lib.org.jext.misc.FindAccessory$FindTabs	newFind	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.syntax.PovrayTokenMarker	getKeywords	Feature Envy
+src.lib.org.jext.dawn.naming.CreateGlobalFunction	invoke	Feature Envy
+src.lib.org.jext.dawn.naming.CreateGlobalFunction	invoke	Intensive Coupling
+src.plugins.HyperTyper.AutoExpander	actionPerformed	Dispersed Coupling
+src.lib.org.jext.options.ColorTable$ColorTableModel	ColorTableModel	Feature Envy
+src.lib.org.jext.options.ColorTable$ColorTableModel	getValueAt	Feature Envy
+src.lib.org.jext.options.PrintOptions	PrintOptions	Feature Envy
+src.lib.org.jext.options.PrintOptions	handleComponents	Feature Envy
+src.lib.org.jext.misc.CompleteWordList$KeyHandler	keyPressed	Feature Envy
+src.lib.org.jext.console.commands.JythonCommand	handleCommand	Feature Envy
+src.lib.org.jext.scripting.dawn.functions.YesNoFunction	invoke	Feature Envy
+src.lib.org.jext.misc.AboutPlugins	createBox	Feature Envy
+src.lib.org.jext.misc.AboutPlugins	AboutPlugins	Dispersed Coupling
+src.lib.org.jext.actions.RemoveWhitespace	actionPerformed	Intensive Coupling
+src.lib.org.jext.print.PrintingOptions	PrintingOptions	Feature Envy
+src.lib.org.jext.print.PrintingOptions	setPageFont	Feature Envy
+src.lib.org.jext.dawn.loop.WhileFunction	invoke	Brain Method
+src.lib.org.jext.dawn.loop.WhileFunction	invoke	Feature Envy
+src.lib.org.jext.dawn.loop.WhileFunction	invoke	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.textarea.InputHandler$prev_word	actionPerformed	Dispersed Coupling
+src.lib.org.jext.console.ConsoleTextPane$DnDHandler	drop	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.syntax.ShellScriptTokenMarker	markTokensImpl	Brain Method
+src.lib.org.jext.misc.FindAccessory	actionPerformed	Feature Envy
+src.lib.org.jext.misc.FindAccessory	goTo	Feature Envy
+src.lib.org.jext.misc.FindAccessory	goTo	Intensive Coupling
+src.lib.org.jext.misc.FindAccessory	run	Feature Envy
+src.lib.org.jext.misc.FindAccessory	null	God Class
+src.lib.org.jext.misc.FindAccessory	null	Data Class
+src.lib.com.microstar.xml.XmlParser	setHandler	Shotgun Surgery
+src.lib.com.microstar.xml.XmlParser	parse	Shotgun Surgery
+src.lib.com.microstar.xml.XmlParser	parseElements	Brain Method
+src.lib.com.microstar.xml.XmlParser	readNmtoken	Brain Method
+src.lib.com.microstar.xml.XmlParser	intern	Feature Envy
+src.lib.com.microstar.xml.XmlParser	pushURL	Brain Method
+src.lib.com.microstar.xml.XmlParser	pushURL	Feature Envy
+src.lib.com.microstar.xml.XmlParser	pushURL	Intensive Coupling
+src.lib.com.microstar.xml.XmlParser	null	God Class
+src.lib.com.microstar.xml.XmlParser	null	Brain Class
+src.plugins.HTML.CompleteTagList	insertTag	Intensive Coupling
+src.plugins.Java.InsertClassName	getClassName	Intensive Coupling
+src.plugins.Java.InsertClassName	getClassArray	Dispersed Coupling
+src.lib.org.jext.dawn.javaccess.MethodFunction	invoke	Dispersed Coupling
+src.lib.org.jext.dawn.naming.CreateFunction	invoke	Feature Envy
+src.lib.org.jext.dawn.naming.CreateFunction	invoke	Intensive Coupling
+src.plugins.Java.UML$Message	toString	Feature Envy
+src.lib.org.jext.actions.LeftIndent	actionPerformed	Intensive Coupling
+src.lib.org.gjt.sp.jedit.syntax.CobolTokenMarker	markTokensImpl	Brain Method
+src.lib.org.gjt.sp.jedit.syntax.CobolTokenMarker	markTokensImpl	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.CobolTokenMarker	getKeywords	Feature Envy
+src.lib.org.jext.misc.Indent	indent	Brain Method
+src.lib.org.jext.misc.Indent	indent	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.syntax.PascalTokenMarker	markTokensImpl	Brain Method
+src.lib.org.gjt.sp.jedit.syntax.PascalTokenMarker	markTokensImpl	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.PascalTokenMarker	getKeywords	Feature Envy
+src.plugins.HTML.Attribute	toString	Feature Envy
+src.lib.org.gjt.sp.jedit.textarea.JEditTextArea$MouseHandler	mousePressed	Dispersed Coupling
+src.lib.org.jext.options.KeyShortcutsOptions$KeysTableModel	setValueAt	Feature Envy
+src.lib.org.jext.options.KeyShortcutsOptions$KeysTableModel	setValueAt	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.syntax.SAP2000TokenMarker	markTokensImpl	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.SAP2000TokenMarker	getKeywords	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.HTMLTokenMarker	markTokensImpl	Brain Method
+src.lib.org.gjt.sp.jedit.syntax.HTMLTokenMarker	null	Data Class
+src.lib.org.jext.actions.ToUpperCase	actionPerformed	Feature Envy
+src.lib.org.jext.actions.ToUpperCase	actionPerformed	Intensive Coupling
+src.lib.org.jext.dawn.stack.RclFunction	invoke	Intensive Coupling
+src.lib.org.jext.actions.WordCount	doWordCount	Intensive Coupling
+src.lib.org.jext.console.commands.RunCommand	handleCommand	Dispersed Coupling
+src.plugins.KLNF.com.incors.plaf.FastGradientPaintContext	getRaster	Feature Envy
+src.lib.org.jext.ModeFileFilter	ModeFileFilter	Feature Envy
+src.lib.org.jext.ModeFileFilter	accept	Feature Envy
+src.lib.org.jext.console.commands.EvalCommand	handleCommand	Dispersed Coupling
+src.lib.org.jext.dawn.test.IfFunction	invoke	Brain Method
+src.lib.org.jext.dawn.test.IfFunction	invoke	Feature Envy
+src.lib.org.jext.dawn.test.IfFunction	invoke	Dispersed Coupling
+src.lib.org.jext.options.StylesOptions	createColorTableScroller	Feature Envy
+src.lib.org.jext.options.StylesOptions	createColorTableModel	Feature Envy
+src.lib.org.jext.options.StylesOptions	createStyleTableScroller	Feature Envy
+src.lib.org.jext.options.StylesOptions	createStyleTableModel	Feature Envy
+src.lib.org.jext.xinsert.XTree	addMenu	Feature Envy
+src.lib.org.jext.xinsert.XTree	run	Feature Envy
+src.lib.org.jext.xinsert.XTree	jextEventFired	Feature Envy
+src.lib.org.jext.xinsert.XTree	associateXTreeToMode	Intensive Coupling
+src.lib.org.jext.xinsert.XTree	actionPerformed	Dispersed Coupling
+src.lib.org.jext.xinsert.XTree	insert	Brain Method
+src.lib.org.jext.xinsert.XTree	insert	Intensive Coupling
+src.lib.org.jext.xinsert.XTree	null	God Class
+src.lib.org.gjt.sp.jedit.syntax.FortranTokenMarker	markTokensImpl	Brain Method
+src.lib.org.gjt.sp.jedit.syntax.FortranTokenMarker	markTokensImpl	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.FortranTokenMarker	checkStartEditPage	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.FortranTokenMarker	getKeywords	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.FortranTokenMarker	null	God Class
+src.lib.org.jext.print.PrintSyntax	print	Brain Method
+src.lib.org.jext.print.PrintSyntax	print	Dispersed Coupling
+src.lib.org.jext.print.PrintSyntax	paintSyntaxLine	Feature Envy
+src.lib.org.jext.console.Console$ConsoleProcess$StdoutThread	run	Dispersed Coupling
+src.plugins.HyperTyper.HyperTyperHotkey	actionPerformed	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.syntax.SQRTokenMarker	markTokensImpl	Brain Method
+src.lib.org.gjt.sp.jedit.syntax.SQRTokenMarker	markTokensImpl	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.SQRTokenMarker	getKeywords	Feature Envy
+src.lib.gnu.regexp.RETokenBackRef	match	Feature Envy
+src.lib.gnu.regexp.RETokenChar	match	Feature Envy
+src.lib.org.jext.toolbar.FastSyntax	jextEventFired	Feature Envy
+src.lib.org.jext.toolbar.FastSyntax	actionPerformed	Dispersed Coupling
+src.plugins.KLNF.com.incors.plaf.kunststoff.themes.KunststoffNotebookTheme	KunststoffNotebookTheme	Feature Envy
+src.plugins.KLNF.com.incors.plaf.kunststoff.themes.KunststoffNotebookTheme	addCustomEntriesToTable	Feature Envy
+src.plugins.KLNF.com.incors.plaf.kunststoff.themes.KunststoffNotebookTheme	null	Refused Parent Bequest
+src.plugins.Java.UML$Operation	toString	Feature Envy
+src.plugins.Java.UML$Operation	null	Refused Parent Bequest
+src.lib.org.jext.JavaSupport	setMouseWheel	Feature Envy
+src.plugins.HyperTyper.HyperTyperSequenceList	null	Data Class
+src.lib.org.jext.search.FindReplace	buildConstraints	Feature Envy
+src.lib.org.jext.search.FindReplace	load	Dispersed Coupling
+src.lib.org.jext.search.FindReplace	exit	Dispersed Coupling
+src.lib.org.jext.search.FindReplace	addSearchHistory	Feature Envy
+src.lib.org.jext.search.FindReplace	addReplaceHistory	Feature Envy
+src.lib.org.jext.search.FindReplace	setSettings	Feature Envy
+src.lib.org.jext.search.FindReplace	doReplaceAll	Dispersed Coupling
+src.lib.org.jext.search.FindReplace	doReplace	Feature Envy
+src.lib.org.jext.search.FindReplace	doFind	Feature Envy
+src.lib.org.jext.search.FindReplace	find	Dispersed Coupling
+src.plugins.Java.JSBeautifier	main	Brain Method
+src.plugins.Java.JSBeautifier	main	Feature Envy
+src.plugins.Java.JSBeautifier	main	Dispersed Coupling
+src.plugins.Java.JSBeautifier	beautify	Brain Method
+src.plugins.Java.JSBeautifier	beautify	Feature Envy
+src.plugins.Java.JSBeautifier	beautify	Intensive Coupling
+src.plugins.Java.JSBeautifier	null	God Class
+src.plugins.Java.JSBeautifier	null	Brain Class
+src.lib.org.jext.search.SearchHighlight	paintHighlight	Dispersed Coupling
+src.lib.org.jext.actions.SimpleComment	actionPerformed	Intensive Coupling
+src.plugins.WheelMouse.JFrameEx	notifyMouseWheel	Dispersed Coupling
+src.plugins.HTML.CompleteTagList$TagsCellRenderer	getListCellRendererComponent	Intensive Coupling
+src.lib.org.jext.dawn.stack.ReverseFunction	invoke	Feature Envy
+src.plugins.KLNF.com.incors.plaf.kunststoff.KunststoffTreeUI	KunststoffTreeUI	Feature Envy
+src.plugins.KLNF.com.incors.plaf.kunststoff.KunststoffTreeUI	paintExpandControl	Feature Envy
+src.lib.org.jext.options.GutterOptions	GutterOptions	Feature Envy
+src.lib.org.jext.gui.FontSelector$SelectorFrame	buildFont	Feature Envy
+src.lib.org.jext.options.OptionsDialog	reloadPluginPanes	Dispersed Coupling
+src.lib.org.jext.options.OptionsDialog	createOptionTreeModel	Dispersed Coupling
+src.lib.org.jext.options.OptionsDialog	valueChanged	Dispersed Coupling
+src.lib.org.jext.options.OptionsDialog	null	God Class
+src.lib.org.jext.actions.CreateTemplate	addTokensFromInput	Dispersed Coupling
+src.lib.org.jext.actions.CreateTemplate	replace	Feature Envy
+src.lib.org.jext.misc.Workspaces$WorkspaceElement	getName	Shotgun Surgery
+src.lib.gnu.regexp.RE	initialize	Brain Method
+src.lib.gnu.regexp.RE	initialize	Dispersed Coupling
+src.lib.gnu.regexp.RE	isMatchImpl	Feature Envy
+src.lib.gnu.regexp.RE	getAllMatchesImpl	Feature Envy
+src.lib.gnu.regexp.RE	getMatchImpl	Feature Envy
+src.lib.gnu.regexp.RE	substituteAllImpl	Feature Envy
+src.lib.gnu.regexp.RE	substituteAllImpl	Intensive Coupling
+src.lib.gnu.regexp.RE	null	God Class
+src.lib.gnu.regexp.RE	null	Brain Class
+src.lib.gnu.regexp.RE	null	Refused Parent Bequest
+src.lib.gnu.regexp.RE	null	Tradition Breaker
+src.lib.org.jext.gui.AbstractOptionPane	addComponent	Shotgun Surgery
+src.lib.org.jext.gui.AbstractOptionPane	addComponent	Feature Envy
+src.lib.org.jext.gui.AbstractOptionPane	addComponent	Shotgun Surgery
+src.lib.org.jext.misc.SaveDialog	SaveDialog	Brain Method
+src.lib.org.jext.misc.SaveDialog	SaveDialog	Dispersed Coupling
+src.lib.org.jext.misc.SaveDialog	createTextAreasArray	Dispersed Coupling
+src.lib.org.jext.misc.SaveDialog	save	Feature Envy
+src.lib.org.jext.misc.SaveDialog	exit	Feature Envy
+src.lib.com.microstar.xml.XmlException	getMessage	Shotgun Surgery
+src.lib.com.microstar.xml.XmlException	getLine	Shotgun Surgery
+src.lib.com.microstar.xml.XmlException	getColumn	Shotgun Surgery
+src.lib.org.gjt.sp.jedit.textarea.InputHandler$backspace	actionPerformed	Dispersed Coupling
+src.lib.org.gjt.sp.jedit.textarea.InputHandler$prev_page	actionPerformed	Feature Envy
+src.lib.org.jext.JextTabbedPane	removeTitle	Feature Envy
+src.lib.org.jext.JextTabbedPane	nextTab	Feature Envy
+src.lib.org.jext.JextTabbedPane	previousTab	Feature Envy
+src.lib.org.jext.JextTabbedPane	stateChanged	Dispersed Coupling
+src.lib.org.jext.misc.PluginDownload	getDefaultJarPath	Feature Envy
+src.lib.org.jext.misc.PluginDownload	downloadJar	Dispersed Coupling
+src.lib.org.jext.misc.PluginDownload	showUpdateWindow	Dispersed Coupling
+src.lib.org.jext.misc.PluginDownload	null	God Class
+src.lib.org.gjt.sp.jedit.syntax.KeywordMap	lookup	Shotgun Surgery
+src.lib.org.gjt.sp.jedit.syntax.KeywordMap	add	Shotgun Surgery
+src.lib.org.gjt.sp.jedit.syntax.TSQLTokenMarker	markTokensImpl	Brain Method
+src.lib.org.gjt.sp.jedit.syntax.TSQLTokenMarker	markTokensImpl	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.TSQLTokenMarker	getKeywords	Feature Envy
+src.lib.org.jext.textarea.ScrollUp	actionPerformed	Feature Envy
+src.lib.org.jext.protocol.jextresource.PluginResURLConnection	PluginResURLConnection	Feature Envy
+src.lib.org.jext.misc.PluginDownload$WaitDialog	WaitDialog	Feature Envy
+src.lib.org.gjt.sp.jedit.syntax.PikeTokenMarker	getKeywords	Feature Envy
+src.plugins.Java.JSLineBreaker	breakLine	Brain Method
+src.plugins.Java.JSLineBreaker	breakLine	Feature Envy
+src.plugins.Java.JSLineBreaker	breakLine	Intensive Coupling
+src.plugins.Java.JSLineBreaker	addBrokenLine	Feature Envy
+src.plugins.Java.JSLineBreaker	addBrokenLine	Intensive Coupling
+src.plugins.Java.JSLineBreaker	compare	Feature Envy
+src.plugins.Java.JSLineBreaker	null	God Class
+src.lib.org.gjt.sp.jedit.syntax.PatchTokenMarker	markTokensImpl	Feature Envy
+src.plugins.Java.JBrowseLineParser	parse	Brain Method
+src.plugins.Java.JBrowseLineParser	parse	Intensive Coupling
+src.plugins.Java.UMLTree$Node	alphaSort	Dispersed Coupling
+src.plugins.Java.UMLTree$Node	getElement	Feature Envy
+src.plugins.Java.UMLTree$Node	getElementType	Feature Envy
+src.plugins.Java.UMLTree$Node	setName	Feature Envy
+src.plugins.Php.src.PHPBrowse	actionPerformed	Feature Envy
+src.lib.org.jext.textarea.IndentOnTab	actionPerformed	Intensive Coupling
+src.lib.org.jext.gui.JextButton	fireActionPerformed	Dispersed Coupling
+src.lib.org.jext.dawn.loop.DoLoopFunction	invoke	Brain Method
+src.lib.org.jext.dawn.loop.DoLoopFunction	invoke	Feature Envy
+src.lib.org.jext.dawn.loop.DoLoopFunction	invoke	Dispersed Coupling
+src.plugins.FindInFiles.src.FindInFilesHelper	getFileNames	Feature Envy
+src.plugins.FindInFiles.src.FindInFilesHelper	getFileNames	Dispersed Coupling
+src.plugins.FindInFiles.src.FindInFilesHelper	searchInFile	Dispersed Coupling

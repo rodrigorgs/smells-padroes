@@ -1,5 +1,10 @@
-eg.music.Simulator	Singleton
-eg.AllPairs	Singleton
-fit.Parse	(Object)Adapter
-fit.RowFixture	Template Method
-eg.ColumnIndex	(Object)Adapter
+eg.AllPairs	null	Singleton	Singleton
+eg.AllPairs	null	uniqueInstance	Singleton
+eg.music.Simulator	null	Singleton	Singleton
+eg.music.Simulator	null	uniqueInstance	Singleton
+fit.Parse	null	Adaptee	(Object)Adapter
+eg.ColumnIndex	null	Adapter	(Object)Adapter
+eg.ColumnIndex	null	adaptee	(Object)Adapter
+eg.ColumnIndex	query	Request()	(Object)Adapter
+fit.RowFixture	null	AbstractClass	Template Method
+fit.RowFixture	doRows	TemplateMethod()	Template Method

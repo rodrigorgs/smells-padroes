@@ -1,170 +1,170 @@
-examples.src.main.chatserver.ChatAuthenticator
-examples.src.main.chatserver.ChatCommandHandler
-examples.src.main.chatserver.ChatData
-examples.src.main.chatserver.ChatMessaging
-examples.src.main.chatserver.ChatServer
-examples.src.main.chatserver.client.ChatRoom
-examples.src.main.chatserver.client.ChatWindow
-examples.src.main.chatserver.client.UserListListener
-examples.src.main.chatserver.client.InfiniteProgressPanel
-examples.src.main.chatserver.client.InfiniteProgressPanel$Animator
-examples.src.main.chatserver.QsAdminAuthenticator
-examples.src.main.chatserver.TestClientThread
-examples.src.main.chatserver.TestChatServer
-examples.src.main.cmdserver.CmdCommandHandler
-examples.src.main.cmdserver.PReader
-examples.src.main.cmdserver.CmdData
-examples.src.main.cmdserver.CmdServer
-examples.src.main.dateserver.DateServer
-examples.src.main.dateserver.DateServerClient
-examples.src.main.dateserver.ObjectHandler
-examples.src.main.echoserver.EchoAuthenticatorHandler
-examples.src.main.echoserver.EchoCommandHandler
-examples.src.main.echoserver.EchoExtendedEventHandler
-examples.src.main.echoserver.EchoServer
-examples.src.main.echoserver.EchoServerAuthenticatorDBBased
-examples.src.main.echoserver.EchoServerQuickAuthenticator
-examples.src.main.echoserver.MyTestClientThread
-examples.src.main.echoserver.TestEchoServer
-examples.src.main.echoserver.TestEchoServerReadLine
-examples.src.main.echowebserver.EchoWebServer
-examples.src.main.echowebserver.EchoWSCommandHandler
-examples.src.main.echowebserver.EchoWSData
-examples.src.main.filesrv.BadRequestException
-examples.src.main.ftpserver.DataServer
-examples.src.main.ftpserver.FtpServer
-examples.src.main.ftpserver.QSAdminCommandPlugin
-examples.src.main.pipeserver.PipeServer
-examples.src.main.xmladder.AddNumberReq
-examples.src.main.xmladder.AddNumberRes
-examples.src.main.xmladder.LoadTest
-examples.src.main.xmladder.Agent
-examples.src.main.xmladder.XmlAdder
-examples.src.main.xmladder.XmlAdderClient
-src.main.org.quickserver.net.AppException
-src.main.org.quickserver.net.client.BlockingClient
-src.main.org.quickserver.net.client.ClientService
-src.main.org.quickserver.net.ConnectionLostException
-src.main.org.quickserver.net.InitServerHook
-src.main.org.quickserver.net.qsadmin.CommandPlugin
-src.main.org.quickserver.net.qsadmin.gui.CmdConsole
-src.main.org.quickserver.net.qsadmin.gui.EditFieldDocumentListener
-src.main.org.quickserver.net.qsadmin.gui.HeaderPanel
-src.main.org.quickserver.net.qsadmin.gui.MainCommandPanel
-src.main.org.quickserver.net.qsadmin.gui.PluginPanel
-src.main.org.quickserver.net.qsadmin.gui.Propertie
-src.main.org.quickserver.net.qsadmin.gui.PropertiePanel
-src.main.org.quickserver.net.qsadmin.gui.ReloadListener
-src.main.org.quickserver.net.qsadmin.gui.PropertieSet
-src.main.org.quickserver.net.qsadmin.gui.QSAdmin
-src.main.org.quickserver.net.qsadmin.gui.QSAdminGUI
-src.main.org.quickserver.net.qsadmin.gui.QSAdminMain
-src.main.org.quickserver.net.qsadmin.gui.SaveActionListener
-src.main.org.quickserver.net.qsadmin.gui.SimpleActionListener
-src.main.org.quickserver.net.qsadmin.gui.SimpleCommand
-src.main.org.quickserver.net.qsadmin.gui.SimpleCommandSet
-src.main.org.quickserver.net.qsadmin.gui.SplashScreen
-src.main.org.quickserver.net.qsadmin.QSAdminAPI
-src.main.org.quickserver.net.qsadmin.QSAdminServer
-src.main.org.quickserver.net.qsadmin.QSAdminShell
-src.main.org.quickserver.net.server.AuthStatus
-src.main.org.quickserver.net.server.ClientAuthenticationHandler
-src.main.org.quickserver.net.server.ClientBinaryHandler
-src.main.org.quickserver.net.server.ClientCommandHandler
-src.main.org.quickserver.net.server.ClientData
-src.main.org.quickserver.net.server.ClientEvent
-src.main.org.quickserver.net.server.ClientEventHandler
-src.main.org.quickserver.net.server.ClientExtendedEventHandler
-src.main.org.quickserver.net.server.ClientHandler
-src.main.org.quickserver.net.server.ClientIdentifiable
-src.main.org.quickserver.net.server.ClientIdentifier
-src.main.org.quickserver.net.server.ClientObjectHandler
-src.main.org.quickserver.net.server.ClientWriteHandler
-src.main.org.quickserver.net.server.DataMode
-src.main.org.quickserver.net.server.DataType
-src.main.org.quickserver.net.server.GhostSocketReaper
-src.main.org.quickserver.net.server.gui.About
-src.main.org.quickserver.net.server.impl.BasicClientHandler
-src.main.org.quickserver.net.server.impl.BasicClientHandler$InstanceId
-src.main.org.quickserver.net.server.impl.BasicClientIdentifier
-src.main.org.quickserver.net.server.impl.BasicPoolManager
-src.main.org.quickserver.net.server.impl.BlockingClientHandler
-src.main.org.quickserver.net.server.impl.DefaultClientEventHandler
-src.main.org.quickserver.net.server.impl.NonBlockingClientHandler
-src.main.org.quickserver.net.server.impl.OptimisticClientIdentifier
-src.main.org.quickserver.net.server.impl.RegisterChannelRequest
-src.main.org.quickserver.net.server.impl.SyncClientIdentifier
-src.main.org.quickserver.net.server.PoolManager
-src.main.org.quickserver.net.server.QuickAuthenticationHandler
-src.main.org.quickserver.net.server.QuickAuthenticator
-src.main.org.quickserver.net.server.QuickServer
-src.main.org.quickserver.net.server.TheClient
-src.main.org.quickserver.net.ServerHook
-src.main.org.quickserver.net.Service
-src.main.org.quickserver.security.AccessManager
-src.main.org.quickserver.security.SecureStoreManager
-src.main.org.quickserver.swing.JFrameUtilities
-src.main.org.quickserver.swing.SensitiveInput
-src.main.org.quickserver.util.Assertion
-src.main.org.quickserver.util.ClassUtil
-src.main.org.quickserver.util.io.ByteBufferInputStream
-src.main.org.quickserver.util.io.ByteBufferOutputStream
-src.main.org.quickserver.util.io.DirFileList
-src.main.org.quickserver.util.io.JarFileList
-src.main.org.quickserver.util.io.MaskingThread
-src.main.org.quickserver.util.io.PasswordField
-src.main.org.quickserver.util.logging.MicroFormatter
-src.main.org.quickserver.util.logging.MiniFormatter
-src.main.org.quickserver.util.logging.SimpleConsoleFormatter
-src.main.org.quickserver.util.logging.SimpleJDKLoggingHook
-src.main.org.quickserver.util.logging.SimpleTextFormatter
-src.main.org.quickserver.util.MyString
-src.main.org.quickserver.util.pool.BasicObjectPool
-src.main.org.quickserver.util.pool.BasicObjectPool$Config
-src.main.org.quickserver.util.pool.ByteBufferObjectFactory
-src.main.org.quickserver.util.pool.ClientHandlerObjectFactory
-src.main.org.quickserver.util.pool.MakeQSObjectPool
-src.main.org.quickserver.util.pool.PoolableObject
-src.main.org.quickserver.util.pool.PoolHelper
-src.main.org.quickserver.util.pool.QSObjectPool
-src.main.org.quickserver.util.pool.QSObjectPoolMaker
-src.main.org.quickserver.util.pool.thread.ClientPool
-src.main.org.quickserver.util.pool.thread.ClientThread
-src.main.org.quickserver.util.pool.thread.ClientThread$InstanceId
-src.main.org.quickserver.util.pool.thread.ThreadObjectFactory
-src.main.org.quickserver.util.TextFile
-src.main.org.quickserver.util.xmlreader.AccessConstraintConfig
-src.main.org.quickserver.util.xmlreader.AdvancedSettings
-src.main.org.quickserver.util.xmlreader.ApplicationConfiguration
-src.main.org.quickserver.util.xmlreader.BasicServerConfig
-src.main.org.quickserver.util.xmlreader.ByteBufferObjectPoolConfig
-src.main.org.quickserver.util.xmlreader.ClientDataObjectPoolConfig
-src.main.org.quickserver.util.xmlreader.ClientHandlerObjectPoolConfig
-src.main.org.quickserver.util.xmlreader.ConfigReader
-src.main.org.quickserver.util.xmlreader.DatabaseConnectionConfig
-src.main.org.quickserver.util.xmlreader.DatabaseConnectionSet
-src.main.org.quickserver.util.xmlreader.DBObjectPoolConfig
-src.main.org.quickserver.util.xmlreader.DefaultDataMode
-src.main.org.quickserver.util.xmlreader.InitServerHooks
-src.main.org.quickserver.util.xmlreader.IpFilterConfig
-src.main.org.quickserver.util.xmlreader.KeyStoreInfo
-src.main.org.quickserver.util.xmlreader.ObjectPoolConfig
-src.main.org.quickserver.util.xmlreader.PluginConfigReader
-src.main.org.quickserver.util.xmlreader.PoolConfig
-src.main.org.quickserver.util.xmlreader.Property
-src.main.org.quickserver.util.xmlreader.QSAdminPluginConfig
-src.main.org.quickserver.util.xmlreader.QSAdminServerConfig
-src.main.org.quickserver.util.xmlreader.QuickServerConfig
-src.main.org.quickserver.util.xmlreader.Secure
-src.main.org.quickserver.util.xmlreader.SecureStore
-src.main.org.quickserver.util.xmlreader.ServerHooks
-src.main.org.quickserver.util.xmlreader.ServerMode
-src.main.org.quickserver.util.xmlreader.ThreadObjectPoolConfig
-src.main.org.quickserver.util.xmlreader.TrustStoreInfo
-src.test.org.quickserver.AllJUnitTests
-src.test.org.quickserver.net.server.QuickServerTest
-src.test.org.quickserver.net.server.SimpleServerBlockTest
-src.test.org.quickserver.net.server.SimpleServerNBlockTest
-src.test.org.quickserver.net.server.TestCommandHandler
-src.test.org.quickserver.net.server.TestEventHandler
-src.test.org.quickserver.SkeletonTest
+filesrv.BadRequestException	classe	0
+dateserver.DateServerClient	classe	1
+dateserver.ObjectHandler	classe	1
+dateserver.DateServer	classe	2
+ftpserver.FtpServer	classe	2
+ftpserver.QSAdminCommandPlugin	classe	1
+ftpserver.DataServer	classe	1
+chatserver.ChatData	classe	18
+chatserver.QsAdminAuthenticator	classe	1
+chatserver.TestClientThread	classe	2
+chatserver.TestChatServer	classe	2
+chatserver.ChatMessaging	classe	9
+chatserver.ChatAuthenticator	classe	3
+chatserver.ChatServer	classe	1
+chatserver.ChatCommandHandler	classe	6
+chatserver.client.ChatWindow	classe	32
+chatserver.client.UserListListener	classe	2
+chatserver.client.ChatRoom	classe	18
+chatserver.client.InfiniteProgressPanel	classe	13
+chatserver.client.InfiniteProgressPanel$Animator	classe	1
+echowebserver.EchoWSData	classe	11
+echowebserver.EchoWSCommandHandler	classe	6
+echowebserver.EchoWebServer	classe	1
+pipeserver.PipeServer	classe	1
+xmladder.AddNumberReq	classe	6
+xmladder.XmlAdderClient	classe	4
+xmladder.LoadTest	classe	3
+xmladder.Agent	classe	1
+xmladder.AddNumberRes	classe	6
+xmladder.XmlAdder	classe	1
+echoserver.MyTestClientThread	classe	7
+echoserver.TestEchoServer	classe	2
+echoserver.EchoCommandHandler	classe	4
+echoserver.EchoExtendedEventHandler	classe	3
+echoserver.EchoServer	classe	1
+echoserver.EchoServerQuickAuthenticator	classe	1
+echoserver.EchoAuthenticatorHandler	classe	3
+echoserver.TestEchoServerReadLine	classe	2
+echoserver.EchoServerAuthenticatorDBBased	classe	3
+cmdserver.CmdCommandHandler	classe	6
+cmdserver.PReader	classe	1
+cmdserver.CmdData	classe	0
+cmdserver.CmdServer	classe	1
+test.org.quickserver.net.server.TestCommandHandler	classe	6
+test.org.quickserver.net.server.SimpleServerBlockTest	classe	9
+test.org.quickserver.net.server.SimpleServerNBlockTest	classe	2
+test.org.quickserver.net.server.TestEventHandler	classe	7
+test.org.quickserver.net.server.QuickServerTest	classe	10
+test.org.quickserver.AllJUnitTests	classe	1
+test.org.quickserver.SkeletonTest	classe	4
+org.quickserver.net.server.ClientWriteHandler	interface	1
+org.quickserver.net.server.impl.SyncClientIdentifier	classe	4
+org.quickserver.net.server.impl.NonBlockingClientHandler	classe	33
+org.quickserver.net.server.impl.BasicPoolManager	classe	5
+org.quickserver.net.server.impl.BlockingClientHandler	classe	21
+org.quickserver.net.server.impl.RegisterChannelRequest	classe	8
+org.quickserver.net.server.impl.BasicClientIdentifier	classe	9
+org.quickserver.net.server.impl.DefaultClientEventHandler	classe	6
+org.quickserver.net.server.impl.BasicClientHandler	classe	96
+org.quickserver.net.server.impl.BasicClientHandler$InstanceId	classe	1
+org.quickserver.net.server.impl.OptimisticClientIdentifier	classe	9
+org.quickserver.net.server.AuthStatus	classe	1
+org.quickserver.net.server.ClientExtendedEventHandler	interface	3
+org.quickserver.net.server.TheClient	classe	41
+org.quickserver.net.server.DataMode	classe	1
+org.quickserver.net.server.ClientObjectHandler	interface	1
+org.quickserver.net.server.PoolManager	interface	5
+org.quickserver.net.server.DataType	classe	1
+org.quickserver.net.server.ClientAuthenticationHandler	interface	4
+org.quickserver.net.server.ClientCommandHandler	interface	1
+org.quickserver.net.server.QuickServer	classe	159
+org.quickserver.net.server.ClientBinaryHandler	interface	1
+org.quickserver.net.server.ClientIdentifiable	interface	3
+org.quickserver.net.server.GhostSocketReaper	classe	9
+org.quickserver.net.server.QuickAuthenticator	classe	9
+org.quickserver.net.server.ClientData	interface	0
+org.quickserver.net.server.ClientIdentifier	interface	8
+org.quickserver.net.server.ClientHandler	interface	67
+org.quickserver.net.server.QuickAuthenticationHandler	classe	4
+org.quickserver.net.server.gui.About	classe	2
+org.quickserver.net.server.ClientEvent	classe	1
+org.quickserver.net.server.ClientEventHandler	interface	3
+org.quickserver.net.ServerHook	interface	3
+org.quickserver.net.ConnectionLostException	classe	0
+org.quickserver.net.Service	interface	8
+org.quickserver.net.AppException	classe	0
+org.quickserver.net.InitServerHook	interface	2
+org.quickserver.net.qsadmin.QSAdminAPI	classe	7
+org.quickserver.net.qsadmin.QSAdminShell	classe	13
+org.quickserver.net.qsadmin.CommandPlugin	interface	1
+org.quickserver.net.qsadmin.gui.QSAdminGUI	classe	11
+org.quickserver.net.qsadmin.gui.QSAdmin	classe	1
+org.quickserver.net.qsadmin.gui.QSAdminMain	classe	20
+org.quickserver.net.qsadmin.gui.HeaderPanel	classe	5
+org.quickserver.net.qsadmin.gui.SimpleCommand	classe	18
+org.quickserver.net.qsadmin.gui.SaveActionListener	classe	1
+org.quickserver.net.qsadmin.gui.SimpleActionListener	classe	1
+org.quickserver.net.qsadmin.gui.MainCommandPanel	classe	4
+org.quickserver.net.qsadmin.gui.Propertie	classe	30
+org.quickserver.net.qsadmin.gui.EditFieldDocumentListener	classe	3
+org.quickserver.net.qsadmin.gui.CmdConsole	classe	8
+org.quickserver.net.qsadmin.gui.PluginPanel	interface	6
+org.quickserver.net.qsadmin.gui.PropertiePanel	classe	3
+org.quickserver.net.qsadmin.gui.ReloadListener	classe	1
+org.quickserver.net.qsadmin.gui.SimpleCommandSet	classe	4
+org.quickserver.net.qsadmin.gui.PropertieSet	classe	4
+org.quickserver.net.qsadmin.gui.SplashScreen	classe	1
+org.quickserver.net.qsadmin.QSAdminServer	classe	14
+org.quickserver.net.client.ClientService	interface	13
+org.quickserver.net.client.BlockingClient	classe	19
+org.quickserver.util.io.ByteBufferOutputStream	classe	12
+org.quickserver.util.io.PasswordField	classe	2
+org.quickserver.util.io.DirFileList	classe	1
+org.quickserver.util.io.ByteBufferInputStream	classe	17
+org.quickserver.util.io.MaskingThread	classe	2
+org.quickserver.util.io.JarFileList	classe	1
+org.quickserver.util.Assertion	classe	3
+org.quickserver.util.TextFile	classe	6
+org.quickserver.util.MyString	classe	12
+org.quickserver.util.xmlreader.DatabaseConnectionConfig	classe	11
+org.quickserver.util.xmlreader.IpFilterConfig	classe	8
+org.quickserver.util.xmlreader.KeyStoreInfo	classe	7
+org.quickserver.util.xmlreader.QSAdminServerConfig	classe	8
+org.quickserver.util.xmlreader.ServerMode	classe	4
+org.quickserver.util.xmlreader.Property	classe	4
+org.quickserver.util.xmlreader.QuickServerConfig	classe	16
+org.quickserver.util.xmlreader.ObjectPoolConfig	classe	11
+org.quickserver.util.xmlreader.PoolConfig	classe	6
+org.quickserver.util.xmlreader.TrustStoreInfo	classe	9
+org.quickserver.util.xmlreader.QSAdminPluginConfig	classe	11
+org.quickserver.util.xmlreader.ApplicationConfiguration	classe	5
+org.quickserver.util.xmlreader.ClientHandlerObjectPoolConfig	classe	1
+org.quickserver.util.xmlreader.ClientDataObjectPoolConfig	classe	1
+org.quickserver.util.xmlreader.Secure	classe	16
+org.quickserver.util.xmlreader.PluginConfigReader	classe	2
+org.quickserver.util.xmlreader.DatabaseConnectionSet	classe	3
+org.quickserver.util.xmlreader.ConfigReader	classe	4
+org.quickserver.util.xmlreader.ThreadObjectPoolConfig	classe	1
+org.quickserver.util.xmlreader.SecureStore	classe	13
+org.quickserver.util.xmlreader.DefaultDataMode	classe	7
+org.quickserver.util.xmlreader.BasicServerConfig	classe	67
+org.quickserver.util.xmlreader.InitServerHooks	classe	2
+org.quickserver.util.xmlreader.AdvancedSettings	classe	19
+org.quickserver.util.xmlreader.ByteBufferObjectPoolConfig	classe	1
+org.quickserver.util.xmlreader.AccessConstraintConfig	classe	4
+org.quickserver.util.xmlreader.ServerHooks	classe	2
+org.quickserver.util.xmlreader.DBObjectPoolConfig	classe	5
+org.quickserver.util.ClassUtil	classe	4
+org.quickserver.util.pool.QSObjectPoolMaker	interface	1
+org.quickserver.util.pool.ByteBufferObjectFactory	classe	5
+org.quickserver.util.pool.BasicObjectPool	classe	12
+org.quickserver.util.pool.BasicObjectPool$Config	classe	0
+org.quickserver.util.pool.ClientHandlerObjectFactory	classe	5
+org.quickserver.util.pool.MakeQSObjectPool	classe	13
+org.quickserver.util.pool.QSObjectPool	interface	2
+org.quickserver.util.pool.PoolableObject	interface	2
+org.quickserver.util.pool.PoolHelper	classe	1
+org.quickserver.util.pool.thread.ClientThread	classe	8
+org.quickserver.util.pool.thread.ClientThread$InstanceId	classe	1
+org.quickserver.util.pool.thread.ClientPool	classe	19
+org.quickserver.util.pool.thread.ThreadObjectFactory	classe	6
+org.quickserver.util.logging.SimpleTextFormatter	classe	1
+org.quickserver.util.logging.MiniFormatter	classe	1
+org.quickserver.util.logging.SimpleConsoleFormatter	classe	1
+org.quickserver.util.logging.MicroFormatter	classe	1
+org.quickserver.util.logging.SimpleJDKLoggingHook	classe	3
+org.quickserver.security.AccessManager	classe	30
+org.quickserver.security.SecureStoreManager	classe	7
+org.quickserver.swing.SensitiveInput	classe	7
+org.quickserver.swing.JFrameUtilities	classe	8

@@ -1,29 +1,61 @@
-ca.bc.webarts.jOggPlayer	Singleton
-kiwi.ui.ScrollbackView	(Object)Adapter
-kiwi.ui.WorkspaceEditor	Template Method
-kiwi.ui.ConsoleAdapter	State
-ca.bc.webarts.tools.Log	Singleton
-kiwi.ui.ScrollbackView$FastListModel	(Object)Adapter
-kiwi.ui.ConsoleFrame	(Object)Adapter
-kiwi.util.VectorUtils	State
-kiwi.ui.AudioClip	(Object)Adapter
-kiwi.ui.UIElementChooser	State
-net.roarsoftware.lastfm.Caller	Singleton
-kiwi.ui.UIChangeManager	Singleton
-kiwi.util.ResourceManager	Singleton
-kiwi.ui.UIElementViewer	State
-kiwi.util.Task	Observer
-kiwi.util.CommandDispatcher	State
-kiwi.util.CommandProcessor	State
-kiwi.util.LoggingMux	Composite
-kiwi.ui.AudioClipViewer	(Object)Adapter
-kiwi.util.ProgressObserver	Observer
-kiwi.util.Comparator	State
-kiwi.util.ResourcePool	Factory Method
-kiwi.util.LocaleManager	Singleton
-kiwi.util.MergeSort	State
-ca.bc.webarts.widgets.dnd.TransferableObject	State
-kiwi.util.LoggingEndpoint	State
-ca.bc.webarts.widgets.dnd.TransferableObject$Fetcher	State
-kiwi.util.LoggingEndpoint	Composite
-kiwi.ui.ToolTipManager	Singleton
+kiwi.util.ResourcePool	null	Creator	Factory Method
+kiwi.util.ResourcePool	constructResource	FactoryMethod()	Factory Method
+ca.bc.webarts.jOggPlayer	null	Singleton	Singleton
+ca.bc.webarts.jOggPlayer	null	uniqueInstance	Singleton
+ca.bc.webarts.tools.Log	null	Singleton	Singleton
+ca.bc.webarts.tools.Log	null	uniqueInstance	Singleton
+kiwi.ui.ToolTipManager	null	Singleton	Singleton
+kiwi.ui.ToolTipManager	null	uniqueInstance	Singleton
+kiwi.ui.UIChangeManager	null	Singleton	Singleton
+kiwi.ui.UIChangeManager	null	uniqueInstance	Singleton
+kiwi.util.LocaleManager	null	Singleton	Singleton
+kiwi.util.LocaleManager	null	uniqueInstance	Singleton
+kiwi.util.ResourceManager	null	Singleton	Singleton
+kiwi.util.ResourceManager	null	uniqueInstance	Singleton
+net.roarsoftware.lastfm.Caller	null	Singleton	Singleton
+net.roarsoftware.lastfm.Caller	null	uniqueInstance	Singleton
+kiwi.ui.AudioClipViewer	null	Adapter	(Object)Adapter
+kiwi.ui.AudioClip	null	Adaptee	(Object)Adapter
+kiwi.ui.AudioClipViewer	null	adaptee	(Object)Adapter
+kiwi.ui.AudioClipViewer	showElement	Request()	(Object)Adapter
+kiwi.ui.ScrollbackView$FastListModel	null	Adaptee	(Object)Adapter
+kiwi.ui.ScrollbackView	null	Adapter	(Object)Adapter
+kiwi.ui.ScrollbackView	null	adaptee	(Object)Adapter
+kiwi.ui.ScrollbackView	addItem	Request()	(Object)Adapter
+kiwi.ui.ScrollbackView	null	Adaptee	(Object)Adapter
+kiwi.ui.ConsoleFrame	null	Adapter	(Object)Adapter
+kiwi.ui.ConsoleFrame	null	adaptee	(Object)Adapter
+kiwi.ui.ConsoleFrame	logMessage	Request()	(Object)Adapter
+kiwi.util.LoggingEndpoint	null	Component	Composite
+kiwi.util.LoggingMux	null	Composite	Composite
+kiwi.util.LoggingMux	logMessage	Operation()	Composite
+kiwi.util.ProgressObserver	null	Observer	Observer
+kiwi.util.Task	null	Subject	Observer
+kiwi.util.Task	notifyObservers	Notify()	Observer
+kiwi.ui.ConsoleAdapter	null	Context	State
+kiwi.util.LoggingEndpoint	null	State	State
+kiwi.ui.ConsoleAdapter	null	state	State
+kiwi.ui.ConsoleAdapter	_run	Request()	State
+kiwi.util.CommandDispatcher	null	Context	State
+kiwi.util.CommandProcessor	null	State	State
+kiwi.util.CommandDispatcher	null	state	State
+kiwi.util.CommandDispatcher	dispatch	Request()	State
+ca.bc.webarts.widgets.dnd.TransferableObject	null	Context	State
+ca.bc.webarts.widgets.dnd.TransferableObject$Fetcher	null	State	State
+ca.bc.webarts.widgets.dnd.TransferableObject	null	state	State
+ca.bc.webarts.widgets.dnd.TransferableObject	getTransferData	Request()	State
+kiwi.util.MergeSort	null	Context	State
+kiwi.util.Comparator	null	State	State
+kiwi.util.MergeSort	null	state	State
+kiwi.util.MergeSort	merge	Request()	State
+kiwi.util.VectorUtils	null	Context	State
+kiwi.util.Comparator	null	State	State
+kiwi.util.VectorUtils	null	state	State
+kiwi.util.VectorUtils	linearSearch	Request()	State
+kiwi.util.VectorUtils	binarySearch	Request()	State
+kiwi.ui.UIElementChooser	null	Context	State
+kiwi.ui.UIElementViewer	null	State	State
+kiwi.ui.UIElementChooser	null	state	State
+kiwi.ui.UIElementChooser	setElementViewer	Request()	State
+kiwi.ui.WorkspaceEditor	null	AbstractClass	Template Method
+kiwi.ui.WorkspaceEditor	setObject	TemplateMethod()	Template Method

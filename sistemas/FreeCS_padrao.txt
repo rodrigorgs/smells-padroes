@@ -1,28 +1,64 @@
-freecs.core.Listener	Singleton
-freecs.external.UserlistManager	Singleton
-freecs.util.logger.LogWriter	Singleton
-freecs.core.User	Proxy
-freecs.external.xmlrpc.XmlRpcManager	Singleton
-freecs.core.MembershipManager	Singleton
-freecs.layout.TemplateManager	Singleton
-freecs.interfaces.IServerPlugin	State
-freecs.core.Group	Proxy
-freecs.auth.AuthManager	Singleton
-freecs.commands.CommandSet	Singleton
-freecs.core.Group	State
-freecs.core.UserManager	(Object)Adapter
-freecs.util.TrafficMonitor	Singleton
-freecs.core.RequestMonitor	Singleton
-freecs.core.GroupManager	Singleton
-freecs.auth.AuthManager	State
-freecs.Server	Singleton
-freecs.interfaces.IGroupPlugin	State
-freecs.util.logger.LogCleaner	Singleton
-freecs.auth.NoAuthentication	Singleton
-freecs.core.UserManager$UserStore	(Object)Adapter
-freecs.core.Responder	Singleton
-freecs.auth.IAuthenticator	State
-freecs.Server	State
-freecs.core.CentralSelector	Singleton
-freecs.core.UserManager	Singleton
-freecs.util.FileMonitor	Singleton
+freecs.auth.AuthManager	null	Singleton	Singleton
+freecs.auth.AuthManager	null	uniqueInstance	Singleton
+freecs.auth.NoAuthentication	null	Singleton	Singleton
+freecs.auth.NoAuthentication	null	uniqueInstance	Singleton
+freecs.commands.CommandSet	null	Singleton	Singleton
+freecs.commands.CommandSet	null	uniqueInstance	Singleton
+freecs.core.CentralSelector	null	Singleton	Singleton
+freecs.core.CentralSelector	null	uniqueInstance	Singleton
+freecs.core.GroupManager	null	Singleton	Singleton
+freecs.core.GroupManager	null	uniqueInstance	Singleton
+freecs.core.Listener	null	Singleton	Singleton
+freecs.core.Listener	null	uniqueInstance	Singleton
+freecs.core.MembershipManager	null	Singleton	Singleton
+freecs.core.MembershipManager	null	uniqueInstance	Singleton
+freecs.core.RequestMonitor	null	Singleton	Singleton
+freecs.core.RequestMonitor	null	uniqueInstance	Singleton
+freecs.core.Responder	null	Singleton	Singleton
+freecs.core.Responder	null	uniqueInstance	Singleton
+freecs.core.UserManager	null	Singleton	Singleton
+freecs.core.UserManager	null	uniqueInstance	Singleton
+freecs.external.UserlistManager	null	Singleton	Singleton
+freecs.external.UserlistManager	null	uniqueInstance	Singleton
+freecs.external.xmlrpc.XmlRpcManager	null	Singleton	Singleton
+freecs.external.xmlrpc.XmlRpcManager	null	uniqueInstance	Singleton
+freecs.layout.TemplateManager	null	Singleton	Singleton
+freecs.layout.TemplateManager	null	uniqueInstance	Singleton
+freecs.Server	null	Singleton	Singleton
+freecs.Server	null	uniqueInstance	Singleton
+freecs.util.FileMonitor	null	Singleton	Singleton
+freecs.util.FileMonitor	null	uniqueInstance	Singleton
+freecs.util.logger.LogCleaner	null	Singleton	Singleton
+freecs.util.logger.LogCleaner	null	uniqueInstance	Singleton
+freecs.util.logger.LogWriter	null	Singleton	Singleton
+freecs.util.logger.LogWriter	null	uniqueInstance	Singleton
+freecs.util.TrafficMonitor	null	Singleton	Singleton
+freecs.util.TrafficMonitor	null	uniqueInstance	Singleton
+freecs.core.UserManager$UserStore	null	Adaptee	(Object)Adapter
+freecs.core.UserManager	null	Adapter	(Object)Adapter
+freecs.core.UserManager	null	adaptee	(Object)Adapter
+freecs.core.UserManager	sendMessage	Request()	(Object)Adapter
+freecs.core.UserManager	users	Request()	(Object)Adapter
+freecs.core.Group	null	Context	State
+freecs.interfaces.IGroupPlugin	null	State	State
+freecs.core.Group	null	state	State
+freecs.core.Group	addLoginUser	Request()	State
+freecs.core.Group	addUser	Request()	State
+freecs.core.Group	removeUser	Request()	State
+freecs.core.Group	exclusiveSendMessage	Request()	State
+freecs.core.Group	sendMsg	Request()	State
+freecs.core.Group	sendModeratorMessage	Request()	State
+freecs.Server	null	Context	State
+freecs.interfaces.IServerPlugin	null	State	State
+freecs.Server	null	state	State
+freecs.Server	loadPlugin	Request()	State
+freecs.auth.AuthManager	null	Context	State
+freecs.auth.IAuthenticator	null	State	State
+freecs.auth.AuthManager	null	state	State
+freecs.auth.AuthManager	createAuthenticators	Request()	State
+freecs.auth.AuthManager	shutdown	Request()	State
+freecs.auth.AuthManager	loginUser	Request()	State
+freecs.auth.AuthManager	logoutUser	Request()	State
+freecs.core.Group	null	Proxy	Proxy
+freecs.core.User	null	RealSubject	Proxy
+freecs.core.Group	sendMessage	Request()	Proxy

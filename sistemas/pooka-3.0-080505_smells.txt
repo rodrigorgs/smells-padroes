@@ -1,910 +1,910 @@
-net.suberic.util.gui.propedit.FontSelectorPane	Dispersed Coupling
-net.suberic.util.gui.propedit.FontSelectorPane	Feature Envy
-net.suberic.util.gui.propedit.FontSelectorPane	Feature Envy
-net.suberic.util.gui.propedit.FontSelectorPane	Feature Envy
-net.suberic.util.gui.propedit.FontSelectorPane	Refused Parent Bequest
-net.suberic.util.gui.propedit.FontSelectorPane	Tradition Breaker
-net.suberic.pooka.MultiMessageInfo	Dispersed Coupling
-net.suberic.pooka.MultiMessageInfo	Dispersed Coupling
-net.suberic.pooka.MultiMessageInfo	Dispersed Coupling
-net.suberic.pooka.NewMessageInfo	Dispersed Coupling
-net.suberic.pooka.NewMessageInfo	Brain Method
-net.suberic.pooka.NewMessageInfo	Dispersed Coupling
-net.suberic.pooka.NewMessageInfo	Dispersed Coupling
-net.suberic.pooka.NewMessageInfo	Dispersed Coupling
-net.suberic.pooka.NewMessageInfo	Dispersed Coupling
-net.suberic.pooka.NewMessageInfo	God Class
-net.suberic.pooka.NewMessageInfo	Refused Parent Bequest
-net.suberic.pooka.NewMessageInfo	Tradition Breaker
-net.suberic.pooka.gui.ResponseWrapper	Shotgun Surgery
-net.suberic.pooka.gui.ResponseWrapper	Shotgun Surgery
-net.suberic.pooka.gui.ResponseWrapper	Shotgun Surgery
-net.suberic.pooka.gui.ResponseWrapper	Shotgun Surgery
-net.suberic.pooka.gui.propedit.PookaFileSelector	Dispersed Coupling
-net.suberic.pooka.gui.AttachmentHandler	Brain Method
-net.suberic.pooka.gui.AttachmentHandler	Dispersed Coupling
-net.suberic.pooka.gui.AttachmentHandler	Brain Method
-net.suberic.pooka.gui.AttachmentHandler	Dispersed Coupling
-net.suberic.pooka.gui.AttachmentHandler	Brain Method
-net.suberic.pooka.gui.AttachmentHandler	Dispersed Coupling
-net.suberic.pooka.gui.AttachmentHandler	Dispersed Coupling
-net.suberic.pooka.gui.AttachmentHandler	Dispersed Coupling
-net.suberic.pooka.gui.AttachmentHandler	God Class
-net.suberic.pooka.gui.AttachmentHandler	Brain Class
-net.suberic.pooka.UIDFolderInfo	Dispersed Coupling
-net.suberic.pooka.UIDFolderInfo	Feature Envy
-net.suberic.pooka.UIDFolderInfo	Dispersed Coupling
-net.suberic.pooka.UIDFolderInfo	Brain Method
-net.suberic.pooka.UIDFolderInfo	Dispersed Coupling
-net.suberic.pooka.UIDFolderInfo	Dispersed Coupling
-net.suberic.pooka.UIDFolderInfo	Dispersed Coupling
-net.suberic.pooka.UIDFolderInfo	Feature Envy
-net.suberic.pooka.UIDFolderInfo	God Class
-net.suberic.pooka.UIDFolderInfo	Brain Class
-net.suberic.pooka.UIDFolderInfo	Refused Parent Bequest
-net.suberic.pooka.MessageInfo	Dispersed Coupling
-net.suberic.pooka.MessageInfo	Dispersed Coupling
-net.suberic.pooka.MessageInfo	Dispersed Coupling
-net.suberic.pooka.MessageInfo	Shotgun Surgery
-net.suberic.pooka.MessageInfo	Dispersed Coupling
-net.suberic.pooka.MessageInfo	Brain Method
-net.suberic.pooka.MessageInfo	Dispersed Coupling
-net.suberic.pooka.MessageInfo	Feature Envy
-net.suberic.pooka.MessageInfo	Dispersed Coupling
-net.suberic.pooka.MessageInfo	Dispersed Coupling
-net.suberic.pooka.MessageInfo	Shotgun Surgery
-net.suberic.pooka.MessageInfo	Shotgun Surgery
-net.suberic.pooka.MessageInfo	Shotgun Surgery
-net.suberic.pooka.MessageInfo	God Class
-net.suberic.pooka.MessageInfo	Brain Class
-net.suberic.pooka.gui.LoginAuthenticator	Refused Parent Bequest
-net.suberic.pooka.gui.crypto.CryptoPanel	Brain Method
-net.suberic.pooka.gui.crypto.CryptoPanel	Intensive Coupling
-net.suberic.pooka.gui.crypto.CryptoPanel	Feature Envy
-net.suberic.pooka.gui.crypto.CryptoPanel	God Class
-net.suberic.pooka.gui.DefaultFolderCellRenderer	Brain Method
-net.suberic.pooka.gui.DefaultFolderCellRenderer	Dispersed Coupling
-net.suberic.util.gui.propedit.BooleanEditorPane	Dispersed Coupling
-net.suberic.util.gui.propedit.BooleanEditorPane	Refused Parent Bequest
-net.suberic.util.gui.ConfigurableAwtMenu	Dispersed Coupling
-net.suberic.util.gui.ConfigurableAwtMenu	Dispersed Coupling
-net.suberic.util.gui.ConfigurableAwtMenu	Feature Envy
-net.suberic.util.gui.ConfigurableAwtMenu	Feature Envy
-net.suberic.util.gui.ConfigurableAwtMenu	Feature Envy
-net.suberic.util.swing.JFontChooser	Feature Envy
-net.suberic.util.swing.JFontChooser	Feature Envy
-net.suberic.util.swing.JFontChooser	Dispersed Coupling
-net.suberic.util.swing.JFontChooser	God Class
-net.suberic.pooka.gui.filechooser.PookaFileSystemView	Feature Envy
-net.suberic.pooka.gui.filechooser.PookaFileSystemView	God Class
-net.suberic.pooka.FolderInfo$EditPropertiesAction	Feature Envy
-net.suberic.util.gui.propedit.SwingPropertyEditor	Shotgun Surgery
-net.suberic.util.gui.propedit.SwingPropertyEditor	Shotgun Surgery
-net.suberic.util.gui.propedit.SwingPropertyEditor	Shotgun Surgery
-net.suberic.util.gui.propedit.SwingPropertyEditor	Shotgun Surgery
-net.suberic.util.gui.propedit.SwingPropertyEditor	Shotgun Surgery
-net.suberic.util.gui.propedit.SwingPropertyEditor	Shotgun Surgery
-net.suberic.util.gui.propedit.SwingPropertyEditor	Data Class
-net.suberic.pooka.cache.WrappedMimePartDataSource	Feature Envy
-net.suberic.pooka.UIDMimeMessage	Shotgun Surgery
-net.suberic.pooka.gui.StoreNode	Dispersed Coupling
-net.suberic.pooka.gui.StoreNode	Dispersed Coupling
-net.suberic.pooka.gui.StoreNode	Data Class
-net.suberic.pooka.gui.StoreNode	Refused Parent Bequest
-net.suberic.pooka.gui.StoreNode	Tradition Breaker
-net.suberic.pooka.gui.propedit.NewStoreWizardController	Brain Method
-net.suberic.pooka.gui.propedit.NewStoreWizardController	Dispersed Coupling
-net.suberic.pooka.gui.propedit.NewStoreWizardController	Feature Envy
-net.suberic.pooka.gui.propedit.NewStoreWizardController	Feature Envy
-net.suberic.pooka.gui.propedit.NewStoreWizardController	God Class
-net.suberic.pooka.gui.propedit.NewOutgoingServerWizardController	Feature Envy
-net.suberic.pooka.gui.propedit.NewOutgoingServerWizardController	Feature Envy
-net.suberic.pooka.gui.propedit.NewOutgoingServerWizardController	Feature Envy
-net.suberic.pooka.gui.propedit.NewOutgoingServerWizardController	Refused Parent Bequest
-net.suberic.pooka.gui.propedit.AddressEntryEditor	Dispersed Coupling
-net.suberic.pooka.OutgoingMailServerManager$DefaultOutgoingMailServer	Feature Envy
-net.suberic.pooka.OutgoingMailServerManager$DefaultOutgoingMailServer	Dispersed Coupling
-net.suberic.util.gui.propedit.PropertyTranslatorFilter	Feature Envy
-net.suberic.pooka.gui.MultiMessageProxy	Feature Envy
-net.suberic.pooka.gui.MultiMessageProxy	Intensive Coupling
-net.suberic.pooka.gui.AddressEntryTextArea$Updater	Dispersed Coupling
-net.suberic.util.gui.propedit.MultiEditorPane	Feature Envy
-net.suberic.util.gui.propedit.MultiEditorPane	Feature Envy
-net.suberic.util.gui.propedit.MultiEditorPane	Dispersed Coupling
-net.suberic.util.gui.propedit.MultiEditorPane	Feature Envy
-net.suberic.util.gui.propedit.MultiEditorPane	Feature Envy
-net.suberic.util.gui.propedit.MultiEditorPane	Feature Envy
-net.suberic.util.gui.propedit.MultiEditorPane	God Class
-net.suberic.util.gui.propedit.MultiEditorPane	Refused Parent Bequest
-net.suberic.util.gui.propedit.MultiEditorPane	Tradition Breaker
-net.suberic.util.gui.propedit.CompositeEditorPane	Dispersed Coupling
-net.suberic.util.gui.ConfigurablePopupMenu	Dispersed Coupling
-net.suberic.util.gui.ConfigurablePopupMenu	Shotgun Surgery
-net.suberic.util.gui.ConfigurablePopupMenu	Dispersed Coupling
-net.suberic.util.gui.ConfigurablePopupMenu	Feature Envy
-net.suberic.util.gui.ConfigurablePopupMenu	Shotgun Surgery
-net.suberic.pooka.gui.NewMessageCryptoInfo	Brain Method
-net.suberic.pooka.gui.NewMessageCryptoInfo	Dispersed Coupling
-net.suberic.pooka.gui.NewMessageCryptoInfo	God Class
-net.suberic.pooka.gui.NewMessageCryptoInfo	Refused Parent Bequest
-net.suberic.pooka.gui.NewMessageCryptoInfo	Tradition Breaker
-net.suberic.util.swing.ConfigurableMetalTheme	God Class
-net.suberic.pooka.gui.ReadMessageDisplayPanel	Brain Method
-net.suberic.pooka.gui.ReadMessageDisplayPanel	Dispersed Coupling
-net.suberic.pooka.gui.ReadMessageDisplayPanel	Feature Envy
-net.suberic.pooka.gui.ReadMessageDisplayPanel	Dispersed Coupling
-net.suberic.pooka.gui.ReadMessageDisplayPanel	Intensive Coupling
-net.suberic.pooka.gui.ReadMessageDisplayPanel	Feature Envy
-net.suberic.pooka.gui.ReadMessageDisplayPanel	God Class
-net.suberic.pooka.gui.ReadMessageDisplayPanel	Refused Parent Bequest
-net.suberic.pooka.gui.ReadMessageDisplayPanel	Tradition Breaker
-net.suberic.pooka.gui.propedit.LookAndFeelEditor	Dispersed Coupling
-net.suberic.pooka.gui.propedit.LookAndFeelEditor	Brain Method
-net.suberic.pooka.gui.propedit.LookAndFeelEditor	Dispersed Coupling
-net.suberic.pooka.cache.SimpleFileCache	Dispersed Coupling
-net.suberic.pooka.cache.SimpleFileCache	Dispersed Coupling
-net.suberic.pooka.cache.SimpleFileCache	Dispersed Coupling
-net.suberic.pooka.cache.SimpleFileCache	Dispersed Coupling
-net.suberic.pooka.cache.SimpleFileCache	Dispersed Coupling
-net.suberic.pooka.cache.SimpleFileCache	God Class
-net.suberic.pooka.PookaEncryptionManager	Brain Method
-net.suberic.pooka.PookaEncryptionManager	Dispersed Coupling
-net.suberic.pooka.PookaEncryptionManager	Dispersed Coupling
-net.suberic.pooka.PookaEncryptionManager	Feature Envy
-net.suberic.pooka.PookaEncryptionManager	Dispersed Coupling
-net.suberic.pooka.PookaEncryptionManager	Brain Method
-net.suberic.pooka.PookaEncryptionManager	Dispersed Coupling
-net.suberic.pooka.PookaEncryptionManager	God Class
-net.suberic.pooka.PookaEncryptionManager	Brain Class
-net.suberic.pooka.gui.ErrorHandler	Shotgun Surgery
-net.suberic.pooka.gui.ErrorHandler	Shotgun Surgery
-net.suberic.pooka.gui.ErrorHandler	Shotgun Surgery
-net.suberic.pooka.gui.AttachmentPane$OpenAction	Dispersed Coupling
-net.suberic.pooka.crypto.CryptoAttachment	Feature Envy
-net.suberic.pooka.crypto.CryptoAttachment	Feature Envy
-net.suberic.pooka.gui.FolderInternalFrame	Brain Method
-net.suberic.pooka.gui.FolderInternalFrame	Dispersed Coupling
-net.suberic.pooka.gui.FolderInternalFrame	Dispersed Coupling
-net.suberic.pooka.gui.FolderInternalFrame	Feature Envy
-net.suberic.pooka.gui.FolderInternalFrame	Feature Envy
-net.suberic.pooka.gui.FolderInternalFrame	Feature Envy
-net.suberic.pooka.gui.FolderInternalFrame	Dispersed Coupling
-net.suberic.pooka.gui.FolderInternalFrame	Dispersed Coupling
-net.suberic.pooka.gui.FolderInternalFrame	God Class
-net.suberic.pooka.gui.FolderInternalFrame	Brain Class
-net.suberic.pooka.gui.FolderInternalFrame	Data Class
-net.suberic.pooka.gui.AttachmentPane$AttachmentTableModel	Dispersed Coupling
-net.suberic.pooka.gui.AttachmentPane$AttachmentTableModel	Feature Envy
-net.suberic.util.gui.propedit.DefaultBooleanEditorPane	Dispersed Coupling
-net.suberic.pooka.gui.AttachmentPane	Dispersed Coupling
-net.suberic.pooka.gui.AttachmentPane	Dispersed Coupling
-net.suberic.pooka.gui.AttachmentPane	Feature Envy
-net.suberic.pooka.gui.MessageNotificationManager	Feature Envy
-net.suberic.pooka.gui.MessageNotificationManager	Brain Method
-net.suberic.pooka.gui.MessageNotificationManager	Dispersed Coupling
-net.suberic.pooka.gui.MessageNotificationManager	Dispersed Coupling
-net.suberic.pooka.gui.MessageNotificationManager	Brain Method
-net.suberic.pooka.gui.MessageNotificationManager	Dispersed Coupling
-net.suberic.pooka.gui.MessageNotificationManager	Dispersed Coupling
-net.suberic.pooka.gui.MessageNotificationManager	Feature Envy
-net.suberic.pooka.gui.MessageNotificationManager	Brain Method
-net.suberic.pooka.gui.MessageNotificationManager	Dispersed Coupling
-net.suberic.pooka.gui.MessageNotificationManager	God Class
-net.suberic.pooka.gui.MessageNotificationManager	Brain Class
-net.suberic.pooka.gui.PookaUIFactory	Shotgun Surgery
-net.suberic.pooka.gui.PookaUIFactory	Shotgun Surgery
-net.suberic.pooka.gui.PookaUIFactory	Shotgun Surgery
-net.suberic.pooka.gui.PookaUIFactory	Shotgun Surgery
-net.suberic.pooka.gui.PookaUIFactory	Shotgun Surgery
-net.suberic.pooka.gui.PookaUIFactory	Shotgun Surgery
-net.suberic.util.gui.propedit.SectionedEditorPane	Dispersed Coupling
-net.suberic.util.gui.propedit.SectionedEditorPane	Refused Parent Bequest
-net.suberic.pooka.gui.MessagePanel	Dispersed Coupling
-net.suberic.pooka.gui.MessagePanel	Brain Method
-net.suberic.pooka.gui.MessagePanel	Dispersed Coupling
-net.suberic.pooka.gui.MessagePanel	Feature Envy
-net.suberic.pooka.gui.MessagePanel	Dispersed Coupling
-net.suberic.pooka.gui.MessagePanel	Dispersed Coupling
-net.suberic.pooka.gui.MessagePanel	Feature Envy
-net.suberic.pooka.gui.MessagePanel	God Class
-net.suberic.pooka.gui.MessagePanel	Brain Class
-net.suberic.pooka.gui.propedit.AddressBookEditorPane	Feature Envy
-net.suberic.pooka.gui.propedit.AddressBookEditorPane	Intensive Coupling
-net.suberic.pooka.gui.propedit.AddressBookEditorPane	Feature Envy
-net.suberic.pooka.gui.propedit.AddressBookEditorPane	Dispersed Coupling
-net.suberic.pooka.gui.propedit.AddressBookEditorPane	Feature Envy
-net.suberic.pooka.gui.propedit.AddressBookEditorPane	Dispersed Coupling
-net.suberic.pooka.gui.propedit.AddressBookEditorPane	Feature Envy
-net.suberic.pooka.gui.propedit.AddressBookEditorPane	Feature Envy
-net.suberic.pooka.gui.propedit.AddressBookEditorPane	Refused Parent Bequest
-net.suberic.util.gui.propedit.RequiredFilter	Dispersed Coupling
-net.suberic.pooka.gui.PookaPreviewPaneUIFactory	Feature Envy
-net.suberic.pooka.gui.PookaPreviewPaneUIFactory	Feature Envy
-net.suberic.pooka.gui.PookaPreviewPaneUIFactory	Feature Envy
-net.suberic.pooka.gui.PookaPreviewPaneUIFactory	Refused Parent Bequest
-net.suberic.util.prefs.JDBCPreferences	Dispersed Coupling
-net.suberic.util.prefs.JDBCPreferences	Feature Envy
-net.suberic.util.prefs.JDBCPreferences	Dispersed Coupling
-net.suberic.util.prefs.JDBCPreferences	Dispersed Coupling
-net.suberic.util.prefs.JDBCPreferences	Feature Envy
-net.suberic.util.prefs.JDBCPreferences	Dispersed Coupling
-net.suberic.util.prefs.JDBCPreferences	Feature Envy
-net.suberic.pooka.gui.HyperlinkDispatcher	Brain Method
-net.suberic.pooka.gui.HyperlinkDispatcher	Dispersed Coupling
-net.suberic.pooka.gui.StoreNode$SubscribeAction	Dispersed Coupling
-net.suberic.util.gui.propedit.WizardPropertyEditor	Feature Envy
-net.suberic.util.gui.propedit.WizardPropertyEditor	Shotgun Surgery
-net.suberic.pooka.gui.NewMessageDisplayPanel	Brain Method
-net.suberic.pooka.gui.NewMessageDisplayPanel	Dispersed Coupling
-net.suberic.pooka.gui.NewMessageDisplayPanel	Dispersed Coupling
-net.suberic.pooka.gui.NewMessageDisplayPanel	Brain Method
-net.suberic.pooka.gui.NewMessageDisplayPanel	Dispersed Coupling
-net.suberic.pooka.gui.NewMessageDisplayPanel	Dispersed Coupling
-net.suberic.pooka.gui.NewMessageDisplayPanel	Feature Envy
-net.suberic.pooka.gui.NewMessageDisplayPanel	Dispersed Coupling
-net.suberic.pooka.gui.NewMessageDisplayPanel	Feature Envy
-net.suberic.pooka.gui.NewMessageDisplayPanel	Dispersed Coupling
-net.suberic.pooka.gui.NewMessageDisplayPanel	Brain Method
-net.suberic.pooka.gui.NewMessageDisplayPanel	Dispersed Coupling
-net.suberic.pooka.gui.NewMessageDisplayPanel	Feature Envy
-net.suberic.pooka.gui.NewMessageDisplayPanel	Intensive Coupling
-net.suberic.pooka.gui.NewMessageDisplayPanel	Dispersed Coupling
-net.suberic.pooka.gui.NewMessageDisplayPanel	God Class
-net.suberic.pooka.gui.NewMessageDisplayPanel	Brain Class
-net.suberic.pooka.gui.NewMessageDisplayPanel	Refused Parent Bequest
-net.suberic.pooka.gui.NewMessageDisplayPanel	Tradition Breaker
-net.suberic.pooka.gui.MainPanel	Dispersed Coupling
-net.suberic.pooka.gui.MainPanel	Dispersed Coupling
-net.suberic.pooka.gui.MainPanel	Shotgun Surgery
-net.suberic.pooka.gui.MainPanel	Shotgun Surgery
-net.suberic.pooka.gui.MainPanel	God Class
-net.suberic.pooka.gui.FolderTableModel$RowComparator	Brain Method
-net.suberic.pooka.gui.FolderTableModel$RowComparator	Dispersed Coupling
-net.suberic.pooka.MailQueue	Dispersed Coupling
-net.suberic.pooka.MailQueue	Dispersed Coupling
-net.suberic.util.gui.propedit.ListEditorPane	Dispersed Coupling
-net.suberic.util.gui.propedit.ListEditorPane	Brain Method
-net.suberic.util.gui.propedit.ListEditorPane	Intensive Coupling
-net.suberic.util.gui.propedit.ListEditorPane	Dispersed Coupling
-net.suberic.util.gui.propedit.ListEditorPane	Feature Envy
-net.suberic.util.gui.propedit.ListEditorPane	Feature Envy
-net.suberic.util.gui.propedit.ListEditorPane	Data Class
-net.suberic.util.gui.propedit.ListEditorPane	Refused Parent Bequest
-net.suberic.util.gui.propedit.ListEditorPane	Tradition Breaker
-net.suberic.util.swing.HyperlinkMouseHandler	Brain Method
-net.suberic.util.swing.HyperlinkMouseHandler	Feature Envy
-net.suberic.util.gui.propedit.VariableEditorPane	Dispersed Coupling
-net.suberic.pooka.gui.FilterFolderCellRenderer	Brain Method
-net.suberic.pooka.gui.FilterFolderCellRenderer	Dispersed Coupling
-net.suberic.pooka.gui.search.SearchFolderPanel	Dispersed Coupling
-net.suberic.pooka.ssl.PookaTrustManager	Brain Method
-net.suberic.pooka.ssl.PookaTrustManager	Dispersed Coupling
-net.suberic.pooka.ssl.PookaTrustManager	God Class
-net.suberic.util.gui.ConfigurableMenu	Dispersed Coupling
-net.suberic.util.gui.ConfigurableMenu	Dispersed Coupling
-net.suberic.util.gui.ConfigurableMenu	Feature Envy
-net.suberic.util.gui.ConfigurableMenu	Feature Envy
-net.suberic.pooka.thread.LoadMessageThread	Brain Method
-net.suberic.pooka.thread.LoadMessageThread	Dispersed Coupling
-net.suberic.pooka.thread.LoadMessageThread	God Class
-net.suberic.pooka.thread.LoadMessageThread	Data Class
-net.suberic.pooka.gui.AddressEntryTextArea	Dispersed Coupling
-net.suberic.pooka.gui.AddressEntryTextArea	Dispersed Coupling
-net.suberic.pooka.gui.AddressEntryTextArea	Feature Envy
-net.suberic.pooka.gui.AddressEntryTextArea	Feature Envy
-net.suberic.pooka.gui.AddressEntryTextArea	Feature Envy
-net.suberic.pooka.gui.AddressEntryTextArea	Dispersed Coupling
-net.suberic.pooka.gui.AddressEntryTextArea	Dispersed Coupling
-net.suberic.pooka.gui.AddressEntryTextArea	God Class
-net.suberic.pooka.gui.AddressEntryTextArea	Data Class
-net.suberic.pooka.gui.AddressEntryTextArea	Refused Parent Bequest
-net.suberic.pooka.gui.AddressEntryTextArea	Tradition Breaker
-net.suberic.util.gui.ConfigurableKeyBinding	Feature Envy
-net.suberic.util.gui.ConfigurableKeyBinding	Dispersed Coupling
-net.suberic.util.gui.ConfigurableKeyBinding	Feature Envy
-net.suberic.util.gui.ConfigurableKeyBinding	Shotgun Surgery
-net.suberic.pooka.gui.FolderPanel$FolderTreeDropTarget	Dispersed Coupling
-net.suberic.pooka.gui.FolderPanel$FolderTreeDropTarget	Intensive Coupling
-net.suberic.pooka.gui.MainPanel$ExportConfigAction	Dispersed Coupling
-net.suberic.util.ItemManager	Feature Envy
-net.suberic.util.ItemManager	Dispersed Coupling
-net.suberic.util.ItemManager	Feature Envy
-net.suberic.util.ItemManager	God Class
-net.suberic.pooka.gui.NewMessageCryptoInfo$CryptoRecipientsInfo	Feature Envy
-net.suberic.pooka.gui.NewMessageCryptoInfo$CryptoRecipientsInfo	Feature Envy
-net.suberic.pooka.gui.NewMessageCryptoInfo$CryptoRecipientsInfo	Feature Envy
-net.suberic.pooka.gui.PookaMinimalUIFactory	Dispersed Coupling
-net.suberic.pooka.gui.PookaMinimalUIFactory	Feature Envy
-net.suberic.pooka.gui.PookaMinimalUIFactory	Feature Envy
-net.suberic.pooka.gui.PookaMinimalUIFactory	Feature Envy
-net.suberic.pooka.gui.PookaMinimalUIFactory	Dispersed Coupling
-net.suberic.pooka.gui.PookaMinimalUIFactory	Feature Envy
-net.suberic.pooka.gui.PookaMinimalUIFactory	Dispersed Coupling
-net.suberic.pooka.gui.PookaMinimalUIFactory	Dispersed Coupling
-net.suberic.pooka.gui.PookaMinimalUIFactory	Dispersed Coupling
-net.suberic.pooka.gui.PookaMinimalUIFactory	Dispersed Coupling
-net.suberic.pooka.gui.PookaMinimalUIFactory	Feature Envy
-net.suberic.pooka.gui.PookaMinimalUIFactory	God Class
-net.suberic.pooka.gui.PookaMinimalUIFactory	Data Class
-net.suberic.pooka.DateFormatter	Feature Envy
-net.suberic.pooka.gui.filechooser.FolderFileWrapper	Dispersed Coupling
-net.suberic.pooka.gui.filechooser.FolderFileWrapper	Dispersed Coupling
-net.suberic.pooka.gui.filechooser.FolderFileWrapper	God Class
-net.suberic.pooka.OutgoingMailServer	Dispersed Coupling
-net.suberic.pooka.OutgoingMailServer	Brain Method
-net.suberic.pooka.OutgoingMailServer	Dispersed Coupling
-net.suberic.pooka.OutgoingMailServer	Dispersed Coupling
-net.suberic.pooka.OutgoingMailServer	Dispersed Coupling
-net.suberic.pooka.OutgoingMailServer	Feature Envy
-net.suberic.pooka.OutgoingMailServer	God Class
-net.suberic.pooka.OutgoingMailServer	Data Class
-net.suberic.pooka.gui.FolderMenu	Feature Envy
-net.suberic.pooka.gui.FolderMenu	Dispersed Coupling
-net.suberic.pooka.gui.FolderMenu	Dispersed Coupling
-net.suberic.pooka.PookaManager	Shotgun Surgery
-net.suberic.pooka.PookaManager	Shotgun Surgery
-net.suberic.pooka.AttachmentBundle	Intensive Coupling
-net.suberic.pooka.AttachmentBundle	Dispersed Coupling
-net.suberic.pooka.AttachmentBundle	God Class
-net.suberic.pooka.StartupManager	Intensive Coupling
-net.suberic.pooka.StartupManager	Brain Method
-net.suberic.pooka.StartupManager	Dispersed Coupling
-net.suberic.pooka.StartupManager	Dispersed Coupling
-net.suberic.pooka.StartupManager	Brain Method
-net.suberic.pooka.StartupManager	Dispersed Coupling
-net.suberic.pooka.StartupManager	Dispersed Coupling
-net.suberic.pooka.StartupManager	Brain Method
-net.suberic.pooka.StartupManager	Intensive Coupling
-net.suberic.pooka.StartupManager	Brain Method
-net.suberic.pooka.StartupManager	Dispersed Coupling
-net.suberic.pooka.StartupManager	Brain Class
-net.suberic.pooka.StartupManager	Data Class
-net.suberic.util.gui.propedit.WizardController	Shotgun Surgery
-net.suberic.util.gui.propedit.WizardController	Shotgun Surgery
-net.suberic.pooka.filter.MoveFilterAction	Feature Envy
-net.suberic.pooka.gui.NewMessageProxy	Dispersed Coupling
-net.suberic.pooka.gui.NewMessageProxy	Dispersed Coupling
-net.suberic.pooka.gui.NewMessageProxy	Brain Method
-net.suberic.pooka.gui.NewMessageProxy	Dispersed Coupling
-net.suberic.pooka.gui.NewMessageProxy	Feature Envy
-net.suberic.pooka.gui.NewMessageProxy	Dispersed Coupling
-net.suberic.pooka.gui.NewMessageProxy	God Class
-net.suberic.pooka.gui.NewMessageProxy	Data Class
-net.suberic.pooka.gui.NewMessageProxy	Refused Parent Bequest
-net.suberic.pooka.gui.NewMessageProxy	Tradition Breaker
-net.suberic.pooka.gui.filter.MoveFilterEditor	Feature Envy
-net.suberic.pooka.gui.filter.FontDisplayFilter	Feature Envy
-net.suberic.pooka.gui.filter.FontDisplayFilter	Feature Envy
-net.suberic.pooka.gui.DisplayStyleComboBox	Feature Envy
-net.suberic.pooka.gui.DisplayStyleComboBox	Dispersed Coupling
-net.suberic.util.gui.propedit.CompositeSwingPropertyEditor	Intensive Coupling
-net.suberic.util.gui.propedit.CompositeSwingPropertyEditor	Intensive Coupling
-net.suberic.util.gui.propedit.CompositeSwingPropertyEditor	Feature Envy
-net.suberic.util.gui.propedit.CompositeSwingPropertyEditor	Brain Method
-net.suberic.util.gui.propedit.CompositeSwingPropertyEditor	Intensive Coupling
-net.suberic.util.gui.propedit.CompositeSwingPropertyEditor	Dispersed Coupling
-net.suberic.util.gui.propedit.CompositeSwingPropertyEditor	God Class
-net.suberic.util.gui.propedit.CompositeSwingPropertyEditor	Refused Parent Bequest
-net.suberic.pooka.gui.filter.FlagFilterEditor	Feature Envy
-net.suberic.pooka.gui.filter.FlagFilterEditor	Feature Envy
-net.suberic.pooka.thread.FolderTracker$UpdateInfo	Feature Envy
-net.suberic.pooka.FolderInfo$UpdateCountAction	Feature Envy
-net.suberic.util.gui.ConfigurableMenuBar	Feature Envy
-net.suberic.util.gui.ConfigurableMenuBar	Dispersed Coupling
-net.suberic.util.gui.ConfigurableMenuBar	Feature Envy
-net.suberic.util.gui.ConfigurableMenuBar	Feature Envy
-net.suberic.pooka.jdbcaddr.JDBCAddressBook	Feature Envy
-net.suberic.pooka.jdbcaddr.JDBCAddressBook	Feature Envy
-net.suberic.pooka.jdbcaddr.JDBCAddressBook	Feature Envy
-net.suberic.pooka.jdbcaddr.JDBCAddressBook	Dispersed Coupling
-net.suberic.pooka.jdbcaddr.JDBCAddressBook	Dispersed Coupling
-net.suberic.pooka.jdbcaddr.JDBCAddressBook	Data Class
-net.suberic.pooka.gui.propedit.NewUserProfileWizardController	Dispersed Coupling
-net.suberic.pooka.gui.propedit.NewUserProfileWizardController	Feature Envy
-net.suberic.pooka.gui.propedit.NewUserProfileWizardController	Feature Envy
-net.suberic.pooka.MailUtilities	Dispersed Coupling
-net.suberic.pooka.MailUtilities	Dispersed Coupling
-net.suberic.pooka.MailUtilities	Feature Envy
-net.suberic.pooka.MailUtilities	God Class
-net.suberic.pooka.gui.dnd.NewMessageTransferHandler	Dispersed Coupling
-net.suberic.pooka.gui.dnd.NewMessageTransferHandler	Dispersed Coupling
-net.suberic.util.gui.propedit.PropertyEditorFactory	Dispersed Coupling
-net.suberic.util.gui.propedit.PropertyEditorFactory	Shotgun Surgery
-net.suberic.util.gui.propedit.PropertyEditorFactory	Dispersed Coupling
-net.suberic.util.gui.propedit.PropertyEditorFactory	Feature Envy
-net.suberic.util.gui.propedit.PropertyEditorFactory	Feature Envy
-net.suberic.util.gui.propedit.PropertyEditorFactory	God Class
-net.suberic.util.gui.propedit.PropertyEditorFactory	Data Class
-net.suberic.pooka.gui.RecentMessageMenu	Feature Envy
-net.suberic.pooka.gui.RecentMessageMenu	Dispersed Coupling
-net.suberic.pooka.gui.RecentMessageMenu	Dispersed Coupling
-net.suberic.pooka.gui.MainPanel$HelpKeyBindingsAction	Feature Envy
-net.suberic.util.gui.propedit.PropertyEditorUI	Shotgun Surgery
-net.suberic.util.gui.propedit.PropertyEditorUI	Shotgun Surgery
-net.suberic.pooka.ldap.LDAPAddressBook	Feature Envy
-net.suberic.pooka.BackendMessageFilter	Dispersed Coupling
-net.suberic.pooka.gui.FolderDisplayUI	Shotgun Surgery
-net.suberic.util.gui.propedit.LabelValuePropertyEditor	Shotgun Surgery
-net.suberic.util.gui.propedit.LabelValuePropertyEditor	Feature Envy
-net.suberic.util.gui.propedit.LabelValuePropertyEditor	Feature Envy
-net.suberic.util.gui.propedit.LabelValuePropertyEditor	Refused Parent Bequest
-net.suberic.util.gui.propedit.LabelValuePropertyEditor	Tradition Breaker
-net.suberic.pooka.MessageCryptoInfo	God Class
-net.suberic.pooka.MessageCryptoInfo	Data Class
-net.suberic.pooka.gui.AddressBookSelectionPanel	Dispersed Coupling
-net.suberic.pooka.gui.MessageInternalFrame	Dispersed Coupling
-net.suberic.pooka.gui.MessageInternalFrame	Dispersed Coupling
-net.suberic.pooka.gui.MessageInternalFrame	Dispersed Coupling
-net.suberic.pooka.gui.MessageInternalFrame	Dispersed Coupling
-net.suberic.pooka.gui.MessageInternalFrame	Dispersed Coupling
-net.suberic.pooka.gui.MessageInternalFrame	Dispersed Coupling
-net.suberic.pooka.gui.MessageInternalFrame	Dispersed Coupling
-net.suberic.pooka.gui.MessageInternalFrame	Feature Envy
-net.suberic.pooka.gui.MessageInternalFrame	Shotgun Surgery
-net.suberic.pooka.gui.MessageInternalFrame	God Class
-net.suberic.pooka.resource.DisklessResourceManager	Intensive Coupling
-net.suberic.pooka.gui.MessageProxy$SaveMessageThread	Dispersed Coupling
-net.suberic.pooka.cache.CachingFolderInfo	Brain Method
-net.suberic.pooka.cache.CachingFolderInfo	Dispersed Coupling
-net.suberic.pooka.cache.CachingFolderInfo	Dispersed Coupling
-net.suberic.pooka.cache.CachingFolderInfo	Brain Method
-net.suberic.pooka.cache.CachingFolderInfo	Dispersed Coupling
-net.suberic.pooka.cache.CachingFolderInfo	Brain Method
-net.suberic.pooka.cache.CachingFolderInfo	Dispersed Coupling
-net.suberic.pooka.cache.CachingFolderInfo	Brain Method
-net.suberic.pooka.cache.CachingFolderInfo	Dispersed Coupling
-net.suberic.pooka.cache.CachingFolderInfo	Brain Method
-net.suberic.pooka.cache.CachingFolderInfo	Dispersed Coupling
-net.suberic.pooka.cache.CachingFolderInfo	Brain Method
-net.suberic.pooka.cache.CachingFolderInfo	Dispersed Coupling
-net.suberic.pooka.cache.CachingFolderInfo	Dispersed Coupling
-net.suberic.pooka.cache.CachingFolderInfo	Feature Envy
-net.suberic.pooka.cache.CachingFolderInfo	Feature Envy
-net.suberic.pooka.cache.CachingFolderInfo	Feature Envy
-net.suberic.pooka.cache.CachingFolderInfo	Feature Envy
-net.suberic.pooka.cache.CachingFolderInfo	God Class
-net.suberic.pooka.cache.CachingFolderInfo	Brain Class
-net.suberic.pooka.cache.CachingFolderInfo	Data Class
-net.suberic.pooka.cache.CachingFolderInfo	Refused Parent Bequest
-net.suberic.pooka.gui.WindowMenu	Dispersed Coupling
-net.suberic.pooka.gui.propedit.FolderSelectorPane	Intensive Coupling
-net.suberic.pooka.gui.propedit.FolderSelectorPane	Refused Parent Bequest
-net.suberic.pooka.gui.propedit.FolderSelectorPane	Tradition Breaker
-net.suberic.pooka.gui.search.SearchEditorPane	Feature Envy
-net.suberic.pooka.gui.search.SearchEditorPane	Dispersed Coupling
-net.suberic.pooka.vcard.Vcard	Feature Envy
-net.suberic.pooka.vcard.Vcard	Feature Envy
-net.suberic.pooka.vcard.Vcard	God Class
-net.suberic.util.gui.propedit.RadioEditorPane	Dispersed Coupling
-net.suberic.util.gui.propedit.RadioEditorPane	Dispersed Coupling
-net.suberic.util.gui.propedit.RadioEditorPane	Feature Envy
-net.suberic.util.gui.propedit.RadioEditorPane	Refused Parent Bequest
-net.suberic.util.gui.propedit.RadioEditorPane	Tradition Breaker
-net.suberic.pooka.gui.ReadMessageInternalFrame	Feature Envy
-net.suberic.pooka.gui.ReadMessageInternalFrame	Dispersed Coupling
-net.suberic.pooka.gui.ReadMessageInternalFrame	Feature Envy
-net.suberic.pooka.gui.ReadMessageInternalFrame	Refused Parent Bequest
-net.suberic.pooka.resource.FileResourceManager	Feature Envy
-net.suberic.pooka.gui.MessageProxy$BounceAction	Feature Envy
-net.suberic.pooka.gui.EnhancedFolderTreeCellRenderer	Brain Method
-net.suberic.pooka.gui.EnhancedFolderTreeCellRenderer	Dispersed Coupling
-net.suberic.pooka.gui.EnhancedFolderTreeCellRenderer	God Class
-net.suberic.pooka.gui.EnhancedFolderTreeCellRenderer	Refused Parent Bequest
-net.suberic.pooka.gui.EnhancedFolderTreeCellRenderer	Tradition Breaker
-net.suberic.pooka.gui.NewMessageFrame	Feature Envy
-net.suberic.pooka.gui.NewMessageFrame	Feature Envy
-net.suberic.pooka.gui.NewMessageFrame	God Class
-net.suberic.pooka.gui.NewMessageFrame	Refused Parent Bequest
-net.suberic.util.gui.propedit.StringEditorPane	Dispersed Coupling
-net.suberic.util.gui.propedit.StringEditorPane	Feature Envy
-net.suberic.util.gui.propedit.StringEditorPane	Feature Envy
-net.suberic.pooka.gui.dnd.AttachmentTransferHandler	Feature Envy
-net.suberic.pooka.gui.MailTreeNode	Feature Envy
-net.suberic.pooka.gui.MailTreeNode	Shotgun Surgery
-net.suberic.pooka.PookaLogManager	Dispersed Coupling
-net.suberic.pooka.PookaLogManager	Feature Envy
-net.suberic.pooka.PookaLogManager	Dispersed Coupling
-net.suberic.util.VariableBundle	Feature Envy
-net.suberic.util.VariableBundle	Shotgun Surgery
-net.suberic.util.VariableBundle	Shotgun Surgery
-net.suberic.util.VariableBundle	Shotgun Surgery
-net.suberic.util.VariableBundle	Shotgun Surgery
-net.suberic.util.VariableBundle	Dispersed Coupling
-net.suberic.util.VariableBundle	Shotgun Surgery
-net.suberic.util.VariableBundle	God Class
-net.suberic.pooka.VirtualFolderInfo	Feature Envy
-net.suberic.pooka.VirtualFolderInfo	Dispersed Coupling
-net.suberic.pooka.VirtualFolderInfo	Dispersed Coupling
-net.suberic.pooka.VirtualFolderInfo	God Class
-net.suberic.pooka.VirtualFolderInfo	Refused Parent Bequest
-net.suberic.pooka.gui.propedit.AddressBookEditorPane$AddAddressAction	Dispersed Coupling
-net.suberic.pooka.gui.search.SearchEntryPanel	Feature Envy
-net.suberic.pooka.gui.search.SearchEntryPanel	Feature Envy
-net.suberic.pooka.gui.search.SearchEntryPanel	Feature Envy
-net.suberic.pooka.gui.search.SearchEntryPanel	Data Class
-net.suberic.pooka.gui.filechooser.FolderInfoFileWrapper	Dispersed Coupling
-net.suberic.pooka.gui.filechooser.FolderInfoFileWrapper	God Class
-net.suberic.util.gui.propedit.WizardEditorPane	Dispersed Coupling
-net.suberic.util.gui.propedit.WizardEditorPane	Feature Envy
-net.suberic.util.gui.propedit.WizardEditorPane	Shotgun Surgery
-net.suberic.util.gui.propedit.WizardEditorPane	Refused Parent Bequest
-net.suberic.pooka.NetworkConnection	Dispersed Coupling
-net.suberic.pooka.NetworkConnection	Shotgun Surgery
-net.suberic.pooka.NetworkConnection	God Class
-net.suberic.pooka.NetworkConnection	Data Class
-net.suberic.util.cache.MemorySizedCache	Feature Envy
-net.suberic.pooka.gui.MessageFrame	Dispersed Coupling
-net.suberic.pooka.gui.MessageFrame	Feature Envy
-net.suberic.pooka.gui.MessageFrame	Feature Envy
-net.suberic.pooka.gui.MessageFrame	Feature Envy
-net.suberic.pooka.gui.MessageFrame	Shotgun Surgery
-net.suberic.pooka.gui.MessageFrame	Shotgun Surgery
-net.suberic.pooka.gui.MessageFrame	God Class
-net.suberic.pooka.gui.dnd.FolderTransferHandler	Dispersed Coupling
-net.suberic.pooka.gui.dnd.FolderTransferHandler	Feature Envy
-net.suberic.pooka.gui.dnd.FolderTransferHandler	Feature Envy
-net.suberic.util.gui.propedit.FileSelectorPane	Dispersed Coupling
-net.suberic.util.gui.propedit.FileSelectorPane	Feature Envy
-net.suberic.util.gui.propedit.FileSelectorPane	Feature Envy
-net.suberic.util.gui.propedit.FileSelectorPane	Refused Parent Bequest
-net.suberic.util.gui.propedit.FileSelectorPane	Tradition Breaker
-net.suberic.util.thread.ActionWrapper	Refused Parent Bequest
-net.suberic.pooka.gui.AttachmentPopupMenu	Dispersed Coupling
-net.suberic.pooka.gui.AttachmentPopupMenu	Dispersed Coupling
-net.suberic.util.PreferencesVariableBundle	Dispersed Coupling
-net.suberic.pooka.gui.propedit.KeySelectorPane	Dispersed Coupling
-net.suberic.pooka.gui.propedit.KeySelectorPane	Refused Parent Bequest
-net.suberic.util.gui.ConfigurableAwtPopupMenu	Dispersed Coupling
-net.suberic.util.gui.ConfigurableAwtPopupMenu	Dispersed Coupling
-net.suberic.util.gui.ConfigurableAwtPopupMenu	Feature Envy
-net.suberic.util.gui.ConfigurableAwtPopupMenu	Feature Envy
-net.suberic.pooka.filter.BounceFilterAction	Feature Envy
-net.suberic.pooka.FullMailcapCommandMap	Feature Envy
-net.suberic.pooka.FullMailcapCommandMap	Feature Envy
-net.suberic.pooka.FullMailcapCommandMap	Intensive Coupling
-net.suberic.pooka.FullMailcapCommandMap	Dispersed Coupling
-net.suberic.pooka.FullMailcapCommandMap	God Class
-net.suberic.pooka.gui.SimpleAuthenticator	Dispersed Coupling
-net.suberic.pooka.StoreManager	Data Class
-net.suberic.pooka.messaging.PookaMessageSender	Dispersed Coupling
-net.suberic.pooka.messaging.PookaMessageSender	Feature Envy
-net.suberic.pooka.messaging.PookaMessageSender	Feature Envy
-net.suberic.util.gui.IconManager	Feature Envy
-net.suberic.util.gui.IconManager	Feature Envy
-net.suberic.util.gui.IconManager	Shotgun Surgery
-net.suberic.util.gui.propedit.ColorSelectorPane	Feature Envy
-net.suberic.util.gui.propedit.ColorSelectorPane	Feature Envy
-net.suberic.util.gui.propedit.ColorSelectorPane	Feature Envy
-net.suberic.util.gui.propedit.ColorSelectorPane	Refused Parent Bequest
-net.suberic.util.gui.propedit.ColorSelectorPane	Tradition Breaker
-net.suberic.pooka.gui.crypto.CryptoButton	Feature Envy
-net.suberic.pooka.gui.crypto.CryptoButton	Feature Envy
-net.suberic.pooka.gui.crypto.CryptoButton	Intensive Coupling
-net.suberic.pooka.gui.crypto.CryptoButton	God Class
-net.suberic.pooka.PopInboxFolderInfo	Dispersed Coupling
-net.suberic.pooka.PopInboxFolderInfo	Dispersed Coupling
-net.suberic.pooka.PopInboxFolderInfo	Brain Method
-net.suberic.pooka.PopInboxFolderInfo	Dispersed Coupling
-net.suberic.pooka.PopInboxFolderInfo	Dispersed Coupling
-net.suberic.pooka.PopInboxFolderInfo	Dispersed Coupling
-net.suberic.pooka.PopInboxFolderInfo	God Class
-net.suberic.pooka.PopInboxFolderInfo	Brain Class
-net.suberic.pooka.PopInboxFolderInfo	Data Class
-net.suberic.pooka.PopInboxFolderInfo	Refused Parent Bequest
-net.suberic.pooka.PopInboxFolderInfo	Tradition Breaker
-net.suberic.pooka.gui.AddressBookSelectionPanel$AddressBookTableModel	Feature Envy
-net.suberic.pooka.gui.AddressBookSelectionPanel$AddressBookTableModel	Feature Envy
-net.suberic.pooka.resource.ResourceManager	Shotgun Surgery
-net.suberic.pooka.gui.ConnectionMonitor$ConnectAction	Feature Envy
-net.suberic.pooka.gui.PreviewFolderPanel	Dispersed Coupling
-net.suberic.pooka.gui.PreviewFolderPanel	Feature Envy
-net.suberic.pooka.gui.PreviewFolderPanel	Feature Envy
-net.suberic.pooka.gui.PreviewFolderPanel	Feature Envy
-net.suberic.pooka.gui.PreviewFolderPanel	God Class
-net.suberic.pooka.gui.PreviewFolderPanel	Data Class
-net.suberic.pooka.gui.MessageUI	Shotgun Surgery
-net.suberic.pooka.gui.MessageUI	Shotgun Surgery
-net.suberic.pooka.thread.FolderTracker$CheckFolderAction	Dispersed Coupling
-net.suberic.util.gui.propedit.NumberFilter	Feature Envy
-net.suberic.util.cache.FileSizedCache	Feature Envy
-net.suberic.pooka.gui.MessageDisplayPanel	Feature Envy
-net.suberic.pooka.gui.MessageDisplayPanel	Dispersed Coupling
-net.suberic.pooka.gui.MessageDisplayPanel	Dispersed Coupling
-net.suberic.pooka.gui.MessageDisplayPanel	Shotgun Surgery
-net.suberic.pooka.gui.MessageDisplayPanel	God Class
-net.suberic.pooka.gui.ReadMessageFrame	Dispersed Coupling
-net.suberic.pooka.gui.ReadMessageFrame	Feature Envy
-net.suberic.pooka.gui.ReadMessageFrame	Refused Parent Bequest
-net.suberic.pooka.gui.FolderTableModel	Dispersed Coupling
-net.suberic.pooka.gui.FolderTableModel	Feature Envy
-net.suberic.pooka.gui.FolderTableModel	Dispersed Coupling
-net.suberic.pooka.gui.FolderTableModel	God Class
-net.suberic.util.swing.ExceptionDisplayPanel	Dispersed Coupling
-net.suberic.util.swing.ExceptionDisplayPanel	Feature Envy
-net.suberic.util.swing.ExceptionDisplayPanel	Dispersed Coupling
-net.suberic.util.swing.ExtendedEditorPane	Feature Envy
-net.suberic.util.swing.ExtendedEditorPane	Dispersed Coupling
-net.suberic.pooka.gui.propedit.FirstRunWizardController	Feature Envy
-net.suberic.pooka.gui.propedit.FirstRunWizardController	Intensive Coupling
-net.suberic.pooka.gui.propedit.FirstRunWizardController	Dispersed Coupling
-net.suberic.pooka.gui.propedit.FirstRunWizardController	Feature Envy
-net.suberic.pooka.gui.propedit.FirstRunWizardController	Feature Envy
-net.suberic.pooka.gui.propedit.FirstRunWizardController	Feature Envy
-net.suberic.pooka.gui.propedit.FirstRunWizardController	Refused Parent Bequest
-net.suberic.pooka.ExternalLauncher	Brain Method
-net.suberic.pooka.ExternalLauncher	Dispersed Coupling
-net.suberic.pooka.ExternalLauncher	Feature Envy
-net.suberic.pooka.gui.MessageProxy	Dispersed Coupling
-net.suberic.pooka.gui.MessageProxy	Dispersed Coupling
-net.suberic.pooka.gui.MessageProxy	Dispersed Coupling
-net.suberic.pooka.gui.MessageProxy	Dispersed Coupling
-net.suberic.pooka.gui.MessageProxy	Dispersed Coupling
-net.suberic.pooka.gui.MessageProxy	Dispersed Coupling
-net.suberic.pooka.gui.MessageProxy	Dispersed Coupling
-net.suberic.pooka.gui.MessageProxy	Dispersed Coupling
-net.suberic.pooka.gui.MessageProxy	Dispersed Coupling
-net.suberic.pooka.gui.MessageProxy	Dispersed Coupling
-net.suberic.pooka.gui.MessageProxy	Shotgun Surgery
-net.suberic.pooka.gui.MessageProxy	Shotgun Surgery
-net.suberic.pooka.gui.MessageProxy	Shotgun Surgery
-net.suberic.pooka.gui.MessageProxy	Shotgun Surgery
-net.suberic.pooka.gui.MessageProxy	Shotgun Surgery
-net.suberic.pooka.gui.MessageProxy	God Class
-net.suberic.pooka.ssl.PookaSSLSocketFactory	Intensive Coupling
-net.suberic.pooka.ssl.PookaSSLSocketFactory	Feature Envy
-net.suberic.pooka.gui.LoadMessageTracker	Feature Envy
-net.suberic.pooka.gui.FolderPanel	Intensive Coupling
-net.suberic.pooka.gui.FolderPanel	Dispersed Coupling
-net.suberic.pooka.gui.FolderPanel	Feature Envy
-net.suberic.pooka.gui.FolderPanel	Feature Envy
-net.suberic.pooka.gui.FolderPanel	Dispersed Coupling
-net.suberic.pooka.gui.FolderPanel	Shotgun Surgery
-net.suberic.pooka.gui.FolderPanel	God Class
-net.suberic.pooka.FileSignatureGenerator	Dispersed Coupling
-net.suberic.pooka.NetworkConnectionManager	Feature Envy
-net.suberic.util.JDBCVariableBundle	Feature Envy
-net.suberic.pooka.gui.ConnectionMonitor$DisconnectAction	Feature Envy
-net.suberic.pooka.FullMailcapCommandMap$MailcapMap	Intensive Coupling
-net.suberic.pooka.FullMailcapCommandMap$MailcapMap	God Class
-net.suberic.util.swing.ScrollingDesktopManager	Brain Method
-net.suberic.util.swing.ScrollingDesktopManager	Dispersed Coupling
-net.suberic.util.swing.ScrollingDesktopManager	Feature Envy
-net.suberic.util.swing.ScrollingDesktopManager	God Class
-net.suberic.util.swing.ScrollingDesktopManager	Data Class
-net.suberic.pooka.gui.dnd.DndUtils	Feature Envy
-net.suberic.pooka.gui.dnd.DndUtils	Intensive Coupling
-net.suberic.pooka.gui.dnd.DndUtils	God Class
-net.suberic.pooka.gui.DefaultFolderTreeCellRenderer	God Class
-net.suberic.pooka.gui.NewMessageInternalFrame	Feature Envy
-net.suberic.pooka.gui.NewMessageInternalFrame	Feature Envy
-net.suberic.pooka.gui.NewMessageInternalFrame	God Class
-net.suberic.pooka.gui.NewMessageInternalFrame	Refused Parent Bequest
-net.suberic.pooka.thread.MessageLoader	Brain Method
-net.suberic.pooka.thread.MessageLoader	Intensive Coupling
-net.suberic.pooka.thread.MessageLoader	God Class
-net.suberic.pooka.thread.MessageLoader	Data Class
-net.suberic.pooka.filter.FlagFilterAction	Feature Envy
-net.suberic.pooka.gui.filter.BounceFilterEditor	Feature Envy
-net.suberic.util.gui.propedit.PropertyEditorPane	Brain Method
-net.suberic.util.gui.propedit.PropertyEditorPane	Dispersed Coupling
-net.suberic.util.gui.propedit.PropertyEditorPane	Feature Envy
-net.suberic.pooka.StoreInfo	Brain Method
-net.suberic.pooka.StoreInfo	Dispersed Coupling
-net.suberic.pooka.StoreInfo	Feature Envy
-net.suberic.pooka.StoreInfo	Dispersed Coupling
-net.suberic.pooka.StoreInfo	Dispersed Coupling
-net.suberic.pooka.StoreInfo	Dispersed Coupling
-net.suberic.pooka.StoreInfo	Intensive Coupling
-net.suberic.pooka.StoreInfo	Dispersed Coupling
-net.suberic.pooka.StoreInfo	Brain Method
-net.suberic.pooka.StoreInfo	Dispersed Coupling
-net.suberic.pooka.StoreInfo	Dispersed Coupling
-net.suberic.pooka.StoreInfo	Brain Method
-net.suberic.pooka.StoreInfo	Dispersed Coupling
-net.suberic.pooka.StoreInfo	Shotgun Surgery
-net.suberic.pooka.StoreInfo	Intensive Coupling
-net.suberic.pooka.StoreInfo	Dispersed Coupling
-net.suberic.pooka.StoreInfo	Shotgun Surgery
-net.suberic.pooka.StoreInfo	Shotgun Surgery
-net.suberic.pooka.StoreInfo	Shotgun Surgery
-net.suberic.pooka.StoreInfo	Shotgun Surgery
-net.suberic.pooka.StoreInfo	Feature Envy
-net.suberic.pooka.StoreInfo	God Class
-net.suberic.pooka.StoreInfo	Brain Class
-net.suberic.pooka.cache.CachingMimeMessage	Feature Envy
-net.suberic.pooka.cache.CachingMimeMessage	Feature Envy
-net.suberic.pooka.gui.PreviewContentPanel	Dispersed Coupling
-net.suberic.pooka.gui.PreviewContentPanel	Dispersed Coupling
-net.suberic.pooka.gui.PreviewContentPanel	Dispersed Coupling
-net.suberic.pooka.gui.PreviewContentPanel	Dispersed Coupling
-net.suberic.pooka.gui.PreviewContentPanel	Feature Envy
-net.suberic.pooka.gui.PreviewContentPanel	Feature Envy
-net.suberic.pooka.gui.PreviewContentPanel	Feature Envy
-net.suberic.pooka.gui.PreviewContentPanel	Feature Envy
-net.suberic.pooka.gui.PreviewContentPanel	Feature Envy
-net.suberic.pooka.gui.PreviewContentPanel	God Class
-net.suberic.util.gui.ConfigurableComboBox$ConfigurableComboRenderer	Feature Envy
-net.suberic.util.gui.propedit.DisableFilter	Feature Envy
-net.suberic.util.thread.ActionThread	Feature Envy
-net.suberic.util.thread.ActionThread	Shotgun Surgery
-net.suberic.util.thread.ActionThread	Shotgun Surgery
-net.suberic.util.thread.ActionThread	Shotgun Surgery
-net.suberic.pooka.messaging.PookaMessageHandler	Feature Envy
-net.suberic.pooka.messaging.PookaMessageHandler	Dispersed Coupling
-net.suberic.pooka.messaging.PookaMessageHandler	Dispersed Coupling
-net.suberic.pooka.AddressBookEntry	Shotgun Surgery
-net.suberic.pooka.vcard.VcardAddressBook	Feature Envy
-net.suberic.pooka.vcard.VcardAddressBook	Feature Envy
-net.suberic.pooka.vcard.VcardAddressBook	Feature Envy
-net.suberic.pooka.vcard.VcardAddressBook	God Class
-net.suberic.pooka.vcard.VcardAddressBook	Data Class
-net.suberic.pooka.gui.FolderDisplayPanel	Dispersed Coupling
-net.suberic.pooka.gui.FolderDisplayPanel	Intensive Coupling
-net.suberic.pooka.gui.FolderDisplayPanel	Dispersed Coupling
-net.suberic.pooka.gui.FolderDisplayPanel	Dispersed Coupling
-net.suberic.pooka.gui.FolderDisplayPanel	Brain Method
-net.suberic.pooka.gui.FolderDisplayPanel	Intensive Coupling
-net.suberic.pooka.gui.FolderDisplayPanel	Feature Envy
-net.suberic.pooka.gui.FolderDisplayPanel	Feature Envy
-net.suberic.pooka.gui.FolderDisplayPanel	Feature Envy
-net.suberic.pooka.gui.FolderDisplayPanel	Dispersed Coupling
-net.suberic.pooka.gui.FolderDisplayPanel	Feature Envy
-net.suberic.pooka.gui.FolderDisplayPanel	Brain Class
-net.suberic.pooka.gui.FolderDisplayPanel	Data Class
-net.suberic.util.gui.propedit.PropertyValueVetoException	Shotgun Surgery
-net.suberic.pooka.gui.PookaDesktopPaneUIFactory	Refused Parent Bequest
-net.suberic.pooka.gui.filter.ColorFilterEditor	Feature Envy
-net.suberic.pooka.gui.filter.ColorFilterEditor	Feature Envy
-net.suberic.pooka.UserProfile	Dispersed Coupling
-net.suberic.pooka.UserProfile	Feature Envy
-net.suberic.pooka.UserProfile	Dispersed Coupling
-net.suberic.pooka.UserProfile	Feature Envy
-net.suberic.pooka.UserProfile	Feature Envy
-net.suberic.pooka.UserProfile	Feature Envy
-net.suberic.pooka.UserProfile	Feature Envy
-net.suberic.pooka.UserProfile	Dispersed Coupling
-net.suberic.pooka.UserProfile	God Class
-net.suberic.pooka.gui.MessagePrinterDisplay	Dispersed Coupling
-net.suberic.pooka.gui.MessagePrinterDisplay	Dispersed Coupling
-net.suberic.pooka.gui.MessagePrinterDisplay	Feature Envy
-net.suberic.pooka.gui.MessagePrinterDisplay	Data Class
-net.suberic.util.gui.ConfigurableToolbar	Feature Envy
-net.suberic.util.gui.ConfigurableToolbar	Dispersed Coupling
-net.suberic.util.gui.ConfigurableToolbar	Feature Envy
-net.suberic.util.gui.ConfigurableToolbar	Shotgun Surgery
-net.suberic.pooka.gui.MessageNotificationManager$OpenMessageAction	Feature Envy
-net.suberic.pooka.gui.FolderNode	Dispersed Coupling
-net.suberic.pooka.gui.FolderNode	Feature Envy
-net.suberic.pooka.gui.FolderNode	Intensive Coupling
-net.suberic.pooka.gui.FolderNode	Dispersed Coupling
-net.suberic.pooka.gui.FolderNode	Dispersed Coupling
-net.suberic.pooka.gui.FolderNode	Brain Method
-net.suberic.pooka.gui.FolderNode	Intensive Coupling
-net.suberic.pooka.gui.FolderNode	God Class
-net.suberic.pooka.gui.FolderNode	Data Class
-net.suberic.pooka.gui.FolderNode	Refused Parent Bequest
-net.suberic.pooka.gui.FolderNode	Tradition Breaker
-net.suberic.pooka.gui.SwingUIFactory	Feature Envy
-net.suberic.pooka.gui.SwingUIFactory	Feature Envy
-net.suberic.pooka.gui.SwingUIFactory	Feature Envy
-net.suberic.pooka.gui.SwingUIFactory	Feature Envy
-net.suberic.pooka.gui.SwingUIFactory	Feature Envy
-net.suberic.pooka.gui.SwingUIFactory	Dispersed Coupling
-net.suberic.pooka.gui.SwingUIFactory	God Class
-net.suberic.pooka.gui.SwingUIFactory	Data Class
-net.suberic.pooka.AddressBookManager	Feature Envy
-net.suberic.pooka.AddressBookManager	Feature Envy
-net.suberic.pooka.AddressBookManager	Feature Envy
-net.suberic.pooka.AddressBookManager	God Class
-net.suberic.pooka.AddressBookManager	Data Class
-net.suberic.pooka.gui.filter.FontFilterEditor	Feature Envy
-net.suberic.pooka.gui.filter.FontFilterEditor	Feature Envy
-net.suberic.pooka.gui.filter.FontFilterEditor	Feature Envy
-net.suberic.pooka.gui.filter.FontFilterEditor	Feature Envy
-net.suberic.pooka.AlternativeAttachment	Dispersed Coupling
-net.suberic.pooka.gui.propedit.AddressEntryController	Dispersed Coupling
-net.suberic.pooka.gui.propedit.AddressEntryController	Feature Envy
-net.suberic.pooka.OutgoingFolderInfo	Dispersed Coupling
-net.suberic.util.gui.propedit.PasswordEditorPane	Dispersed Coupling
-net.suberic.util.gui.propedit.PasswordEditorPane	Feature Envy
-net.suberic.pooka.cache.ChangeCache	Dispersed Coupling
-net.suberic.pooka.cache.ChangeCache	Brain Method
-net.suberic.pooka.cache.ChangeCache	Dispersed Coupling
-net.suberic.pooka.cache.ChangeCache	Brain Method
-net.suberic.pooka.cache.ChangeCache	Dispersed Coupling
-net.suberic.pooka.cache.ChangeCache	Feature Envy
-net.suberic.pooka.cache.ChangeCache	Data Class
-net.suberic.pooka.resource.JDBCResourceManager	Intensive Coupling
-net.suberic.pooka.gui.FolderNode$DeleteAction	Dispersed Coupling
-net.suberic.pooka.gui.search.SearchEntryForm	Dispersed Coupling
-net.suberic.pooka.gui.search.SearchEntryForm	Dispersed Coupling
-net.suberic.pooka.gui.search.SearchEntryForm	Dispersed Coupling
-net.suberic.pooka.gui.search.SearchEntryForm	Feature Envy
-net.suberic.pooka.SearchTermManager	Feature Envy
-net.suberic.pooka.SearchTermManager	Feature Envy
-net.suberic.pooka.SearchTermManager	Feature Envy
-net.suberic.pooka.SearchTermManager	Feature Envy
-net.suberic.pooka.SearchTermManager	Dispersed Coupling
-net.suberic.pooka.SearchTermManager	Feature Envy
-net.suberic.pooka.SearchTermManager	God Class
-net.suberic.pooka.gui.crypto.CryptoKeySelector	Feature Envy
-net.suberic.pooka.gui.crypto.CryptoKeySelector	Feature Envy
-net.suberic.util.gui.ConfigurableComboBox	Dispersed Coupling
-net.suberic.util.gui.ConfigurableComboBox	Dispersed Coupling
-net.suberic.util.gui.ConfigurableComboBox	Feature Envy
-net.suberic.util.gui.propedit.PropertyEditorManager	Shotgun Surgery
-net.suberic.util.gui.propedit.PropertyEditorManager	Shotgun Surgery
-net.suberic.util.gui.propedit.PropertyEditorManager	Shotgun Surgery
-net.suberic.util.gui.propedit.PropertyEditorManager	Feature Envy
-net.suberic.util.gui.propedit.PropertyEditorManager	Shotgun Surgery
-net.suberic.util.gui.propedit.PropertyEditorManager	Shotgun Surgery
-net.suberic.util.gui.propedit.PropertyEditorManager	Feature Envy
-net.suberic.util.gui.propedit.PropertyEditorManager	Shotgun Surgery
-net.suberic.util.gui.propedit.PropertyEditorManager	Shotgun Surgery
-net.suberic.util.gui.propedit.PropertyEditorManager	God Class
-net.suberic.pooka.gui.MessagePrinter	Dispersed Coupling
-net.suberic.pooka.gui.MessagePrinter	Dispersed Coupling
-net.suberic.pooka.gui.MessagePrinter	Dispersed Coupling
-net.suberic.pooka.gui.MessagePrinter	Intensive Coupling
-net.suberic.util.FileVariableBundle	Dispersed Coupling
-net.suberic.util.FileVariableBundle	Brain Method
-net.suberic.util.FileVariableBundle	Intensive Coupling
-net.suberic.util.FileVariableBundle	Brain Method
-net.suberic.util.FileVariableBundle	God Class
-net.suberic.util.FileVariableBundle	Brain Class
-net.suberic.util.FileVariableBundle	Refused Parent Bequest
-net.suberic.util.swing.ThemeManager	Feature Envy
-net.suberic.util.swing.ThemeManager	Shotgun Surgery
-net.suberic.pooka.gui.filechooser.MailFileSystemView	Intensive Coupling
-net.suberic.pooka.gui.filechooser.MailFileSystemView	Feature Envy
-net.suberic.pooka.gui.filechooser.MailFileSystemView	God Class
-net.suberic.pooka.Attachment	Feature Envy
-net.suberic.pooka.Attachment	Intensive Coupling
-net.suberic.pooka.Attachment	Intensive Coupling
-net.suberic.pooka.Attachment	Shotgun Surgery
-net.suberic.pooka.Attachment	Dispersed Coupling
-net.suberic.pooka.Attachment	Feature Envy
-net.suberic.pooka.Attachment	Dispersed Coupling
-net.suberic.pooka.Attachment	God Class
-net.suberic.pooka.gui.propedit.AddressBookWizardController	Feature Envy
-net.suberic.pooka.gui.propedit.AddressBookWizardController	Feature Envy
-net.suberic.pooka.gui.propedit.AddressBookWizardController	Feature Envy
-net.suberic.pooka.gui.propedit.AddressBookWizardController	Refused Parent Bequest
-net.suberic.util.cache.FileSizedCacheEntry	Refused Parent Bequest
-net.suberic.pooka.gui.AttachmentPane$OpenAction	Feature Envy
-net.suberic.pooka.gui.ConnectionMonitor	Feature Envy
-net.suberic.pooka.gui.ConnectionMonitor	Data Class
-net.suberic.pooka.gui.SearchTermIconManager	Feature Envy
-net.suberic.pooka.gui.AttachmentHandler$SaveAttachmentThread	Feature Envy
-net.suberic.pooka.gui.AttachmentHandler$SaveAttachmentThread	Dispersed Coupling
-net.suberic.pooka.gui.filter.FilterEditorPane	Dispersed Coupling
-net.suberic.pooka.gui.filter.FilterEditorPane	Refused Parent Bequest
-net.suberic.pooka.FolderInfo	Brain Method
-net.suberic.pooka.FolderInfo	Dispersed Coupling
-net.suberic.pooka.FolderInfo	Dispersed Coupling
-net.suberic.pooka.FolderInfo	Shotgun Surgery
-net.suberic.pooka.FolderInfo	Dispersed Coupling
-net.suberic.pooka.FolderInfo	Brain Method
-net.suberic.pooka.FolderInfo	Dispersed Coupling
-net.suberic.pooka.FolderInfo	Dispersed Coupling
-net.suberic.pooka.FolderInfo	Intensive Coupling
-net.suberic.pooka.FolderInfo	Dispersed Coupling
-net.suberic.pooka.FolderInfo	Dispersed Coupling
-net.suberic.pooka.FolderInfo	Dispersed Coupling
-net.suberic.pooka.FolderInfo	Dispersed Coupling
-net.suberic.pooka.FolderInfo	Dispersed Coupling
-net.suberic.pooka.FolderInfo	Dispersed Coupling
-net.suberic.pooka.FolderInfo	Dispersed Coupling
-net.suberic.pooka.FolderInfo	Dispersed Coupling
-net.suberic.pooka.FolderInfo	Shotgun Surgery
-net.suberic.pooka.FolderInfo	Shotgun Surgery
-net.suberic.pooka.FolderInfo	Shotgun Surgery
-net.suberic.pooka.FolderInfo	Shotgun Surgery
-net.suberic.pooka.FolderInfo	Shotgun Surgery
-net.suberic.pooka.FolderInfo	Shotgun Surgery
-net.suberic.pooka.FolderInfo	Shotgun Surgery
-net.suberic.pooka.FolderInfo	Shotgun Surgery
-net.suberic.pooka.FolderInfo	Shotgun Surgery
-net.suberic.pooka.FolderInfo	Shotgun Surgery
-net.suberic.pooka.FolderInfo	God Class
-net.suberic.pooka.FolderInfo	Brain Class
+net.suberic.util.gui.propedit.FontSelectorPane	selectNewFont	Dispersed Coupling
+net.suberic.util.gui.propedit.FontSelectorPane	setValue	Feature Envy
+net.suberic.util.gui.propedit.FontSelectorPane	getValue	Feature Envy
+net.suberic.util.gui.propedit.FontSelectorPane	updateEditorEnabled	Feature Envy
+net.suberic.util.gui.propedit.FontSelectorPane	null	Refused Parent Bequest
+net.suberic.util.gui.propedit.FontSelectorPane	null	Tradition Breaker
+net.suberic.pooka.MultiMessageInfo	runBackendFilters	Dispersed Coupling
+net.suberic.pooka.MultiMessageInfo	runSpamAction	Dispersed Coupling
+net.suberic.pooka.MultiMessageInfo	cacheMessage	Dispersed Coupling
+net.suberic.pooka.NewMessageInfo	sendMessage	Dispersed Coupling
+net.suberic.pooka.NewMessageInfo	internal_sendMessage	Brain Method
+net.suberic.pooka.NewMessageInfo	internal_sendMessage	Dispersed Coupling
+net.suberic.pooka.NewMessageInfo	convertAddressLine	Dispersed Coupling
+net.suberic.pooka.NewMessageInfo	saveToSentFolder	Dispersed Coupling
+net.suberic.pooka.NewMessageInfo	saveDraft	Dispersed Coupling
+net.suberic.pooka.NewMessageInfo	null	God Class
+net.suberic.pooka.NewMessageInfo	null	Refused Parent Bequest
+net.suberic.pooka.NewMessageInfo	null	Tradition Breaker
+net.suberic.pooka.gui.ResponseWrapper	setInt	Shotgun Surgery
+net.suberic.pooka.gui.ResponseWrapper	getInt	Shotgun Surgery
+net.suberic.pooka.gui.ResponseWrapper	setString	Shotgun Surgery
+net.suberic.pooka.gui.ResponseWrapper	getString	Shotgun Surgery
+net.suberic.pooka.gui.propedit.PookaFileSelector	selectNewFolder	Dispersed Coupling
+net.suberic.pooka.gui.AttachmentHandler	openAttachment	Brain Method
+net.suberic.pooka.gui.AttachmentHandler	openAttachment	Dispersed Coupling
+net.suberic.pooka.gui.AttachmentHandler	openAttachmentWindow	Brain Method
+net.suberic.pooka.gui.AttachmentHandler	openAttachmentWindow	Dispersed Coupling
+net.suberic.pooka.gui.AttachmentHandler	openWith	Brain Method
+net.suberic.pooka.gui.AttachmentHandler	openWith	Dispersed Coupling
+net.suberic.pooka.gui.AttachmentHandler	saveAttachment	Dispersed Coupling
+net.suberic.pooka.gui.AttachmentHandler	saveAllAttachments	Dispersed Coupling
+net.suberic.pooka.gui.AttachmentHandler	null	God Class
+net.suberic.pooka.gui.AttachmentHandler	null	Brain Class
+net.suberic.pooka.UIDFolderInfo	createInfosAndProxies	Dispersed Coupling
+net.suberic.pooka.UIDFolderInfo	updateFolderOpenStatus	Feature Envy
+net.suberic.pooka.UIDFolderInfo	synchronizeCache	Dispersed Coupling
+net.suberic.pooka.UIDFolderInfo	runMessagesAdded	Brain Method
+net.suberic.pooka.UIDFolderInfo	runMessagesAdded	Dispersed Coupling
+net.suberic.pooka.UIDFolderInfo	runMessagesRemoved	Dispersed Coupling
+net.suberic.pooka.UIDFolderInfo	runMessageChanged	Dispersed Coupling
+net.suberic.pooka.UIDFolderInfo	closeFolder	Feature Envy
+net.suberic.pooka.UIDFolderInfo	null	God Class
+net.suberic.pooka.UIDFolderInfo	null	Brain Class
+net.suberic.pooka.UIDFolderInfo	null	Refused Parent Bequest
+net.suberic.pooka.MessageInfo	loadAttachmentInfo	Dispersed Coupling
+net.suberic.pooka.MessageInfo	flagIsSet	Dispersed Coupling
+net.suberic.pooka.MessageInfo	getMessageProperty	Dispersed Coupling
+net.suberic.pooka.MessageInfo	getMessageProperty	Shotgun Surgery
+net.suberic.pooka.MessageInfo	parseMsgString	Dispersed Coupling
+net.suberic.pooka.MessageInfo	populateForward	Brain Method
+net.suberic.pooka.MessageInfo	populateForward	Dispersed Coupling
+net.suberic.pooka.MessageInfo	runSpamAction	Feature Envy
+net.suberic.pooka.MessageInfo	runSpamAction	Dispersed Coupling
+net.suberic.pooka.MessageInfo	addAddress	Dispersed Coupling
+net.suberic.pooka.MessageInfo	getMessage	Shotgun Surgery
+net.suberic.pooka.MessageInfo	getFolderInfo	Shotgun Surgery
+net.suberic.pooka.MessageInfo	getMessageProxy	Shotgun Surgery
+net.suberic.pooka.MessageInfo	null	God Class
+net.suberic.pooka.MessageInfo	null	Brain Class
+net.suberic.pooka.gui.LoginAuthenticator	null	Refused Parent Bequest
+net.suberic.pooka.gui.crypto.CryptoPanel	cryptoUpdated	Brain Method
+net.suberic.pooka.gui.crypto.CryptoPanel	cryptoUpdated	Intensive Coupling
+net.suberic.pooka.gui.crypto.CryptoPanel	loadTooltips	Feature Envy
+net.suberic.pooka.gui.crypto.CryptoPanel	null	God Class
+net.suberic.pooka.gui.DefaultFolderCellRenderer	getTableCellRendererComponent	Brain Method
+net.suberic.pooka.gui.DefaultFolderCellRenderer	getTableCellRendererComponent	Dispersed Coupling
+net.suberic.util.gui.propedit.BooleanEditorPane	configureEditor	Dispersed Coupling
+net.suberic.util.gui.propedit.BooleanEditorPane	null	Refused Parent Bequest
+net.suberic.util.gui.ConfigurableAwtMenu	configureComponent	Dispersed Coupling
+net.suberic.util.gui.ConfigurableAwtMenu	createMenuItem	Dispersed Coupling
+net.suberic.util.gui.ConfigurableAwtMenu	setActive	Feature Envy
+net.suberic.util.gui.ConfigurableAwtMenu	setActiveMenuItems	Feature Envy
+net.suberic.util.gui.ConfigurableAwtMenu	clearListeners	Feature Envy
+net.suberic.util.swing.JFontChooser	getFontStyle	Feature Envy
+net.suberic.util.swing.JFontChooser	createPreviewPanel	Feature Envy
+net.suberic.util.swing.JFontChooser	fontSelectionChanged	Dispersed Coupling
+net.suberic.util.swing.JFontChooser	null	God Class
+net.suberic.pooka.gui.filechooser.PookaFileSystemView	getParentDirectory	Feature Envy
+net.suberic.pooka.gui.filechooser.PookaFileSystemView	null	God Class
+net.suberic.pooka.FolderInfo$EditPropertiesAction	actionPerformed	Feature Envy
+net.suberic.util.gui.propedit.SwingPropertyEditor	configureBasic	Shotgun Surgery
+net.suberic.util.gui.propedit.SwingPropertyEditor	isEditorEnabled	Shotgun Surgery
+net.suberic.util.gui.propedit.SwingPropertyEditor	firePropertyChangingEvent	Shotgun Surgery
+net.suberic.util.gui.propedit.SwingPropertyEditor	firePropertyChangedEvent	Shotgun Surgery
+net.suberic.util.gui.propedit.SwingPropertyEditor	firePropertyCommittingEvent	Shotgun Surgery
+net.suberic.util.gui.propedit.SwingPropertyEditor	getLogger	Shotgun Surgery
+net.suberic.util.gui.propedit.SwingPropertyEditor	null	Data Class
+net.suberic.pooka.cache.WrappedMimePartDataSource	getInputStream	Feature Envy
+net.suberic.pooka.UIDMimeMessage	getUID	Shotgun Surgery
+net.suberic.pooka.gui.StoreNode	doLoadChildren	Dispersed Coupling
+net.suberic.pooka.gui.StoreNode	newFolder	Dispersed Coupling
+net.suberic.pooka.gui.StoreNode	null	Data Class
+net.suberic.pooka.gui.StoreNode	null	Refused Parent Bequest
+net.suberic.pooka.gui.StoreNode	null	Tradition Breaker
+net.suberic.pooka.gui.propedit.NewStoreWizardController	checkStateTransition	Brain Method
+net.suberic.pooka.gui.propedit.NewStoreWizardController	checkStateTransition	Dispersed Coupling
+net.suberic.pooka.gui.propedit.NewStoreWizardController	saveProperties	Feature Envy
+net.suberic.pooka.gui.propedit.NewStoreWizardController	appendProperty	Feature Envy
+net.suberic.pooka.gui.propedit.NewStoreWizardController	null	God Class
+net.suberic.pooka.gui.propedit.NewOutgoingServerWizardController	checkStateTransition	Feature Envy
+net.suberic.pooka.gui.propedit.NewOutgoingServerWizardController	saveProperties	Feature Envy
+net.suberic.pooka.gui.propedit.NewOutgoingServerWizardController	appendProperty	Feature Envy
+net.suberic.pooka.gui.propedit.NewOutgoingServerWizardController	null	Refused Parent Bequest
+net.suberic.pooka.gui.propedit.AddressEntryEditor	setValue	Dispersed Coupling
+net.suberic.pooka.OutgoingMailServerManager$DefaultOutgoingMailServer	configure	Feature Envy
+net.suberic.pooka.OutgoingMailServerManager$DefaultOutgoingMailServer	internal_sendAll	Dispersed Coupling
+net.suberic.util.gui.propedit.PropertyTranslatorFilter	configureListener	Feature Envy
+net.suberic.pooka.gui.MultiMessageProxy	openWindow	Feature Envy
+net.suberic.pooka.gui.MultiMessageProxy	printMessage	Intensive Coupling
+net.suberic.pooka.gui.AddressEntryTextArea$Updater	run	Dispersed Coupling
+net.suberic.util.gui.propedit.MultiEditorPane	configureEditor	Feature Envy
+net.suberic.util.gui.propedit.MultiEditorPane	createButton	Feature Envy
+net.suberic.util.gui.propedit.MultiEditorPane	removeSelectedValue	Dispersed Coupling
+net.suberic.util.gui.propedit.MultiEditorPane	getNewValueName	Feature Envy
+net.suberic.util.gui.propedit.MultiEditorPane	getStringFromList	Feature Envy
+net.suberic.util.gui.propedit.MultiEditorPane	getAction	Feature Envy
+net.suberic.util.gui.propedit.MultiEditorPane	null	God Class
+net.suberic.util.gui.propedit.MultiEditorPane	null	Refused Parent Bequest
+net.suberic.util.gui.propedit.MultiEditorPane	null	Tradition Breaker
+net.suberic.util.gui.propedit.CompositeEditorPane	addEditors	Dispersed Coupling
+net.suberic.util.gui.ConfigurablePopupMenu	configureComponent	Dispersed Coupling
+net.suberic.util.gui.ConfigurablePopupMenu	configureComponent	Shotgun Surgery
+net.suberic.util.gui.ConfigurablePopupMenu	createMenuItem	Dispersed Coupling
+net.suberic.util.gui.ConfigurablePopupMenu	setActive	Feature Envy
+net.suberic.util.gui.ConfigurablePopupMenu	setActive	Shotgun Surgery
+net.suberic.pooka.gui.NewMessageCryptoInfo	createEncryptedMessage	Brain Method
+net.suberic.pooka.gui.NewMessageCryptoInfo	createEncryptedMessage	Dispersed Coupling
+net.suberic.pooka.gui.NewMessageCryptoInfo	null	God Class
+net.suberic.pooka.gui.NewMessageCryptoInfo	null	Refused Parent Bequest
+net.suberic.pooka.gui.NewMessageCryptoInfo	null	Tradition Breaker
+net.suberic.util.swing.ConfigurableMetalTheme	null	God Class
+net.suberic.pooka.gui.ReadMessageDisplayPanel	resetEditorText	Brain Method
+net.suberic.pooka.gui.ReadMessageDisplayPanel	resetEditorText	Dispersed Coupling
+net.suberic.pooka.gui.ReadMessageDisplayPanel	showFullHeaders	Feature Envy
+net.suberic.pooka.gui.ReadMessageDisplayPanel	showPopupMenu	Dispersed Coupling
+net.suberic.pooka.gui.ReadMessageDisplayPanel	getHeaderInfo	Intensive Coupling
+net.suberic.pooka.gui.ReadMessageDisplayPanel	clearVariableComponents	Feature Envy
+net.suberic.pooka.gui.ReadMessageDisplayPanel	null	God Class
+net.suberic.pooka.gui.ReadMessageDisplayPanel	null	Refused Parent Bequest
+net.suberic.pooka.gui.ReadMessageDisplayPanel	null	Tradition Breaker
+net.suberic.pooka.gui.propedit.LookAndFeelEditor	createComboBox	Dispersed Coupling
+net.suberic.pooka.gui.propedit.LookAndFeelEditor	loadLnF	Brain Method
+net.suberic.pooka.gui.propedit.LookAndFeelEditor	loadLnF	Dispersed Coupling
+net.suberic.pooka.cache.SimpleFileCache	addFlag	Dispersed Coupling
+net.suberic.pooka.cache.SimpleFileCache	cacheMessage	Dispersed Coupling
+net.suberic.pooka.cache.SimpleFileCache	expungeMessages	Dispersed Coupling
+net.suberic.pooka.cache.SimpleFileCache	getFlagsFromCache	Dispersed Coupling
+net.suberic.pooka.cache.SimpleFileCache	saveFlags	Dispersed Coupling
+net.suberic.pooka.cache.SimpleFileCache	null	God Class
+net.suberic.pooka.PookaEncryptionManager	loadStores	Brain Method
+net.suberic.pooka.PookaEncryptionManager	loadStores	Dispersed Coupling
+net.suberic.pooka.PookaEncryptionManager	getPrivateKeysForAddress	Dispersed Coupling
+net.suberic.pooka.PookaEncryptionManager	getPublicKey	Feature Envy
+net.suberic.pooka.PookaEncryptionManager	getPublicKeys	Dispersed Coupling
+net.suberic.pooka.PookaEncryptionManager	sortPublicKeys	Brain Method
+net.suberic.pooka.PookaEncryptionManager	sortPublicKeys	Dispersed Coupling
+net.suberic.pooka.PookaEncryptionManager	null	God Class
+net.suberic.pooka.PookaEncryptionManager	null	Brain Class
+net.suberic.pooka.gui.ErrorHandler	showError	Shotgun Surgery
+net.suberic.pooka.gui.ErrorHandler	showError	Shotgun Surgery
+net.suberic.pooka.gui.ErrorHandler	showError	Shotgun Surgery
+net.suberic.pooka.gui.AttachmentPane$OpenAction	actionPerformed	Dispersed Coupling
+net.suberic.pooka.crypto.CryptoAttachment	CryptoAttachment	Feature Envy
+net.suberic.pooka.crypto.CryptoAttachment	decryptAttachment	Feature Envy
+net.suberic.pooka.gui.FolderInternalFrame	FolderInternalFrame	Brain Method
+net.suberic.pooka.gui.FolderInternalFrame	FolderInternalFrame	Dispersed Coupling
+net.suberic.pooka.gui.FolderInternalFrame	FolderInternalFrame	Dispersed Coupling
+net.suberic.pooka.gui.FolderInternalFrame	resize	Feature Envy
+net.suberic.pooka.gui.FolderInternalFrame	showInputDialog	Feature Envy
+net.suberic.pooka.gui.FolderInternalFrame	setBusy	Feature Envy
+net.suberic.pooka.gui.FolderInternalFrame	handleMessageLoaded	Dispersed Coupling
+net.suberic.pooka.gui.FolderInternalFrame	moveSelectionOnRemoval	Dispersed Coupling
+net.suberic.pooka.gui.FolderInternalFrame	null	God Class
+net.suberic.pooka.gui.FolderInternalFrame	null	Brain Class
+net.suberic.pooka.gui.FolderInternalFrame	null	Data Class
+net.suberic.pooka.gui.AttachmentPane$AttachmentTableModel	getValueAt	Dispersed Coupling
+net.suberic.pooka.gui.AttachmentPane$AttachmentTableModel	getAttachmentAtRow	Feature Envy
+net.suberic.util.gui.propedit.DefaultBooleanEditorPane	createComboBox	Dispersed Coupling
+net.suberic.pooka.gui.AttachmentPane	AttachmentPane	Dispersed Coupling
+net.suberic.pooka.gui.AttachmentPane	createPopupMenu	Dispersed Coupling
+net.suberic.pooka.gui.AttachmentPane	getActionByName	Feature Envy
+net.suberic.pooka.gui.MessageNotificationManager	MessageNotificationManager	Feature Envy
+net.suberic.pooka.gui.MessageNotificationManager	configureTrayIcon	Brain Method
+net.suberic.pooka.gui.MessageNotificationManager	configureTrayIcon	Dispersed Coupling
+net.suberic.pooka.gui.MessageNotificationManager	updateStatus	Dispersed Coupling
+net.suberic.pooka.gui.MessageNotificationManager	notifyNewMessagesReceived	Brain Method
+net.suberic.pooka.gui.MessageNotificationManager	notifyNewMessagesReceived	Dispersed Coupling
+net.suberic.pooka.gui.MessageNotificationManager	createStatusMessage	Dispersed Coupling
+net.suberic.pooka.gui.MessageNotificationManager	setMainPanel	Feature Envy
+net.suberic.pooka.gui.MessageNotificationManager	createMessageDialog	Brain Method
+net.suberic.pooka.gui.MessageNotificationManager	createMessageDialog	Dispersed Coupling
+net.suberic.pooka.gui.MessageNotificationManager	null	God Class
+net.suberic.pooka.gui.MessageNotificationManager	null	Brain Class
+net.suberic.pooka.gui.PookaUIFactory	getPookaThemeManager	Shotgun Surgery
+net.suberic.pooka.gui.PookaUIFactory	showEditorWindow	Shotgun Surgery
+net.suberic.pooka.gui.PookaUIFactory	showStatusMessage	Shotgun Surgery
+net.suberic.pooka.gui.PookaUIFactory	clearStatus	Shotgun Surgery
+net.suberic.pooka.gui.PookaUIFactory	getMessageNotificationManager	Shotgun Surgery
+net.suberic.pooka.gui.PookaUIFactory	getIconManager	Shotgun Surgery
+net.suberic.util.gui.propedit.SectionedEditorPane	createOptionList	Dispersed Coupling
+net.suberic.util.gui.propedit.SectionedEditorPane	null	Refused Parent Bequest
+net.suberic.pooka.gui.MessagePanel	openFolderWindow	Dispersed Coupling
+net.suberic.pooka.gui.MessagePanel	getNewWindowLocation	Brain Method
+net.suberic.pooka.gui.MessagePanel	getNewWindowLocation	Dispersed Coupling
+net.suberic.pooka.gui.MessagePanel	checkSpot	Feature Envy
+net.suberic.pooka.gui.MessagePanel	openSavedFolders	Dispersed Coupling
+net.suberic.pooka.gui.MessagePanel	openMessageWindow	Dispersed Coupling
+net.suberic.pooka.gui.MessagePanel	getTheme	Feature Envy
+net.suberic.pooka.gui.MessagePanel	null	God Class
+net.suberic.pooka.gui.MessagePanel	null	Brain Class
+net.suberic.pooka.gui.propedit.AddressBookEditorPane	createAddressTable	Feature Envy
+net.suberic.pooka.gui.propedit.AddressBookEditorPane	createAddressTable	Intensive Coupling
+net.suberic.pooka.gui.propedit.AddressBookEditorPane	performAdd	Feature Envy
+net.suberic.pooka.gui.propedit.AddressBookEditorPane	editSelectedValue	Dispersed Coupling
+net.suberic.pooka.gui.propedit.AddressBookEditorPane	getSelectedEntry	Feature Envy
+net.suberic.pooka.gui.propedit.AddressBookEditorPane	setValue	Dispersed Coupling
+net.suberic.pooka.gui.propedit.AddressBookEditorPane	resetDefaultValue	Feature Envy
+net.suberic.pooka.gui.propedit.AddressBookEditorPane	setBusy	Feature Envy
+net.suberic.pooka.gui.propedit.AddressBookEditorPane	null	Refused Parent Bequest
+net.suberic.util.gui.propedit.RequiredFilter	propertyCommitting	Dispersed Coupling
+net.suberic.pooka.gui.PookaPreviewPaneUIFactory	createMessageUI	Feature Envy
+net.suberic.pooka.gui.PookaPreviewPaneUIFactory	createFolderDisplayUI	Feature Envy
+net.suberic.pooka.gui.PookaPreviewPaneUIFactory	showConfirmDialog	Feature Envy
+net.suberic.pooka.gui.PookaPreviewPaneUIFactory	null	Refused Parent Bequest
+net.suberic.util.prefs.JDBCPreferences	keysSpi	Dispersed Coupling
+net.suberic.util.prefs.JDBCPreferences	childrenNamesSpi	Feature Envy
+net.suberic.util.prefs.JDBCPreferences	childrenNamesSpi	Dispersed Coupling
+net.suberic.util.prefs.JDBCPreferences	syncSpi	Dispersed Coupling
+net.suberic.util.prefs.JDBCPreferences	flushSpi	Feature Envy
+net.suberic.util.prefs.JDBCPreferences	flushSpi	Dispersed Coupling
+net.suberic.util.prefs.JDBCPreferences	getConnection	Feature Envy
+net.suberic.pooka.gui.HyperlinkDispatcher	hyperlinkUpdate	Brain Method
+net.suberic.pooka.gui.HyperlinkDispatcher	hyperlinkUpdate	Dispersed Coupling
+net.suberic.pooka.gui.StoreNode$SubscribeAction	actionPerformed	Dispersed Coupling
+net.suberic.util.gui.propedit.WizardPropertyEditor	setEndState	Feature Envy
+net.suberic.util.gui.propedit.WizardPropertyEditor	closeWizard	Shotgun Surgery
+net.suberic.pooka.gui.NewMessageDisplayPanel	configureMessageDisplay	Brain Method
+net.suberic.pooka.gui.NewMessageDisplayPanel	configureMessageDisplay	Dispersed Coupling
+net.suberic.pooka.gui.NewMessageDisplayPanel	itemStateChanged	Dispersed Coupling
+net.suberic.pooka.gui.NewMessageDisplayPanel	createHeaderInputPanel	Brain Method
+net.suberic.pooka.gui.NewMessageDisplayPanel	createHeaderInputPanel	Dispersed Coupling
+net.suberic.pooka.gui.NewMessageDisplayPanel	createMessagePanel	Dispersed Coupling
+net.suberic.pooka.gui.NewMessageDisplayPanel	addSignature	Feature Envy
+net.suberic.pooka.gui.NewMessageDisplayPanel	getMessageHeaders	Dispersed Coupling
+net.suberic.pooka.gui.NewMessageDisplayPanel	attachmentAdded	Feature Envy
+net.suberic.pooka.gui.NewMessageDisplayPanel	addAttachmentPane	Dispersed Coupling
+net.suberic.pooka.gui.NewMessageDisplayPanel	createCustomHeaderPane	Brain Method
+net.suberic.pooka.gui.NewMessageDisplayPanel	createCustomHeaderPane	Dispersed Coupling
+net.suberic.pooka.gui.NewMessageDisplayPanel	populateCustomHeaders	Feature Envy
+net.suberic.pooka.gui.NewMessageDisplayPanel	populateCustomHeaders	Intensive Coupling
+net.suberic.pooka.gui.NewMessageDisplayPanel	showPopupMenu	Dispersed Coupling
+net.suberic.pooka.gui.NewMessageDisplayPanel	null	God Class
+net.suberic.pooka.gui.NewMessageDisplayPanel	null	Brain Class
+net.suberic.pooka.gui.NewMessageDisplayPanel	null	Refused Parent Bequest
+net.suberic.pooka.gui.NewMessageDisplayPanel	null	Tradition Breaker
+net.suberic.pooka.gui.MainPanel	getActions	Dispersed Coupling
+net.suberic.pooka.gui.MainPanel	processUnsentMessages	Dispersed Coupling
+net.suberic.pooka.gui.MainPanel	getContentPanel	Shotgun Surgery
+net.suberic.pooka.gui.MainPanel	getParentFrame	Shotgun Surgery
+net.suberic.pooka.gui.MainPanel	null	God Class
+net.suberic.pooka.gui.FolderTableModel$RowComparator	compare	Brain Method
+net.suberic.pooka.gui.FolderTableModel$RowComparator	compare	Dispersed Coupling
+net.suberic.pooka.MailQueue	sendMessage	Dispersed Coupling
+net.suberic.pooka.MailQueue	sendQueued	Dispersed Coupling
+net.suberic.util.gui.propedit.ListEditorPane	configureEditor	Dispersed Coupling
+net.suberic.util.gui.propedit.ListEditorPane	createComboBox	Brain Method
+net.suberic.util.gui.propedit.ListEditorPane	createComboBox	Intensive Coupling
+net.suberic.util.gui.propedit.ListEditorPane	updateComboBox	Dispersed Coupling
+net.suberic.util.gui.propedit.ListEditorPane	validateProperty	Feature Envy
+net.suberic.util.gui.propedit.ListEditorPane	isChanged	Feature Envy
+net.suberic.util.gui.propedit.ListEditorPane	null	Data Class
+net.suberic.util.gui.propedit.ListEditorPane	null	Refused Parent Bequest
+net.suberic.util.gui.propedit.ListEditorPane	null	Tradition Breaker
+net.suberic.util.swing.HyperlinkMouseHandler	getIndicatedURL	Brain Method
+net.suberic.util.swing.HyperlinkMouseHandler	getIndicatedURL	Feature Envy
+net.suberic.util.gui.propedit.VariableEditorPane	configureEditor	Dispersed Coupling
+net.suberic.pooka.gui.FilterFolderCellRenderer	getTableCellRendererComponent	Brain Method
+net.suberic.pooka.gui.FilterFolderCellRenderer	getTableCellRendererComponent	Dispersed Coupling
+net.suberic.pooka.gui.search.SearchFolderPanel	createDynamicPanel	Dispersed Coupling
+net.suberic.pooka.ssl.PookaTrustManager	addToTrusted	Brain Method
+net.suberic.pooka.ssl.PookaTrustManager	addToTrusted	Dispersed Coupling
+net.suberic.pooka.ssl.PookaTrustManager	null	God Class
+net.suberic.util.gui.ConfigurableMenu	configureComponent	Dispersed Coupling
+net.suberic.util.gui.ConfigurableMenu	createMenuItem	Dispersed Coupling
+net.suberic.util.gui.ConfigurableMenu	setActive	Feature Envy
+net.suberic.util.gui.ConfigurableMenu	clearListeners	Feature Envy
+net.suberic.pooka.thread.LoadMessageThread	loadWaitingMessages	Brain Method
+net.suberic.pooka.thread.LoadMessageThread	loadWaitingMessages	Dispersed Coupling
+net.suberic.pooka.thread.LoadMessageThread	null	God Class
+net.suberic.pooka.thread.LoadMessageThread	null	Data Class
+net.suberic.pooka.gui.AddressEntryTextArea	updateTextValue	Dispersed Coupling
+net.suberic.pooka.gui.AddressEntryTextArea	updateAddressList	Dispersed Coupling
+net.suberic.pooka.gui.AddressEntryTextArea	validateAddressList	Feature Envy
+net.suberic.pooka.gui.AddressEntryTextArea	updateAddressText	Feature Envy
+net.suberic.pooka.gui.AddressEntryTextArea	replaceAddressText	Feature Envy
+net.suberic.pooka.gui.AddressEntryTextArea	addAddresses	Dispersed Coupling
+net.suberic.pooka.gui.AddressEntryTextArea	createAddressButton	Dispersed Coupling
+net.suberic.pooka.gui.AddressEntryTextArea	null	God Class
+net.suberic.pooka.gui.AddressEntryTextArea	null	Data Class
+net.suberic.pooka.gui.AddressEntryTextArea	null	Refused Parent Bequest
+net.suberic.pooka.gui.AddressEntryTextArea	null	Tradition Breaker
+net.suberic.util.gui.ConfigurableKeyBinding	configureComponent	Feature Envy
+net.suberic.util.gui.ConfigurableKeyBinding	setActive	Dispersed Coupling
+net.suberic.util.gui.ConfigurableKeyBinding	setActive	Feature Envy
+net.suberic.util.gui.ConfigurableKeyBinding	setActive	Shotgun Surgery
+net.suberic.pooka.gui.FolderPanel$FolderTreeDropTarget	dragOver	Dispersed Coupling
+net.suberic.pooka.gui.FolderPanel$FolderTreeDropTarget	drop	Intensive Coupling
+net.suberic.pooka.gui.MainPanel$ExportConfigAction	actionPerformed	Dispersed Coupling
+net.suberic.util.ItemManager	removeItem	Feature Envy
+net.suberic.util.ItemManager	refreshItems	Dispersed Coupling
+net.suberic.util.ItemManager	removeFromItemString	Feature Envy
+net.suberic.util.ItemManager	null	God Class
+net.suberic.pooka.gui.NewMessageCryptoInfo$CryptoRecipientsInfo	getRecipients	Feature Envy
+net.suberic.pooka.gui.NewMessageCryptoInfo$CryptoRecipientsInfo	appendToArray	Feature Envy
+net.suberic.pooka.gui.NewMessageCryptoInfo$CryptoRecipientsInfo	setRecipients	Feature Envy
+net.suberic.pooka.gui.PookaMinimalUIFactory	PookaMinimalUIFactory	Dispersed Coupling
+net.suberic.pooka.gui.PookaMinimalUIFactory	createMessageUI	Feature Envy
+net.suberic.pooka.gui.PookaMinimalUIFactory	showEditorWindow	Feature Envy
+net.suberic.pooka.gui.PookaMinimalUIFactory	showConfirmDialog	Feature Envy
+net.suberic.pooka.gui.PookaMinimalUIFactory	showConfirmDialog	Dispersed Coupling
+net.suberic.pooka.gui.PookaMinimalUIFactory	showConfirmDialog	Feature Envy
+net.suberic.pooka.gui.PookaMinimalUIFactory	showConfirmDialog	Dispersed Coupling
+net.suberic.pooka.gui.PookaMinimalUIFactory	showInputDialog	Dispersed Coupling
+net.suberic.pooka.gui.PookaMinimalUIFactory	showInputDialog	Dispersed Coupling
+net.suberic.pooka.gui.PookaMinimalUIFactory	showMessage	Dispersed Coupling
+net.suberic.pooka.gui.PookaMinimalUIFactory	findJFrame	Feature Envy
+net.suberic.pooka.gui.PookaMinimalUIFactory	null	God Class
+net.suberic.pooka.gui.PookaMinimalUIFactory	null	Data Class
+net.suberic.pooka.DateFormatter	DateFormatter	Feature Envy
+net.suberic.pooka.gui.filechooser.FolderFileWrapper	loadChildren	Dispersed Coupling
+net.suberic.pooka.gui.filechooser.FolderFileWrapper	refreshChildren	Dispersed Coupling
+net.suberic.pooka.gui.filechooser.FolderFileWrapper	null	God Class
+net.suberic.pooka.OutgoingMailServer	sendAll	Dispersed Coupling
+net.suberic.pooka.OutgoingMailServer	internal_sendMessage	Brain Method
+net.suberic.pooka.OutgoingMailServer	internal_sendMessage	Dispersed Coupling
+net.suberic.pooka.OutgoingMailServer	prepareTransport	Dispersed Coupling
+net.suberic.pooka.OutgoingMailServer	saveToOutbox	Dispersed Coupling
+net.suberic.pooka.OutgoingMailServer	getConnection	Feature Envy
+net.suberic.pooka.OutgoingMailServer	null	God Class
+net.suberic.pooka.OutgoingMailServer	null	Data Class
+net.suberic.pooka.gui.FolderMenu	buildMenu	Feature Envy
+net.suberic.pooka.gui.FolderMenu	buildMenu	Dispersed Coupling
+net.suberic.pooka.gui.FolderMenu	setActiveSubMenuItems	Dispersed Coupling
+net.suberic.pooka.PookaManager	getPookaRoot	Shotgun Surgery
+net.suberic.pooka.PookaManager	getUserProfileManager	Shotgun Surgery
+net.suberic.pooka.AttachmentBundle	getHtmlAndTextInlines	Intensive Coupling
+net.suberic.pooka.AttachmentBundle	getHeaderInformation	Dispersed Coupling
+net.suberic.pooka.AttachmentBundle	null	God Class
+net.suberic.pooka.StartupManager	loadResources	Intensive Coupling
+net.suberic.pooka.StartupManager	startupMainPookaWindow	Brain Method
+net.suberic.pooka.StartupManager	startupMainPookaWindow	Dispersed Coupling
+net.suberic.pooka.StartupManager	checkUnsentMessages	Dispersed Coupling
+net.suberic.pooka.StartupManager	closeAllStores	Brain Method
+net.suberic.pooka.StartupManager	closeAllStores	Dispersed Coupling
+net.suberic.pooka.StartupManager	stopPookaToTray	Dispersed Coupling
+net.suberic.pooka.StartupManager	loadManagers	Brain Method
+net.suberic.pooka.StartupManager	loadManagers	Intensive Coupling
+net.suberic.pooka.StartupManager	parseArgs	Brain Method
+net.suberic.pooka.StartupManager	parseArgs	Dispersed Coupling
+net.suberic.pooka.StartupManager	null	Brain Class
+net.suberic.pooka.StartupManager	null	Data Class
+net.suberic.util.gui.propedit.WizardController	getManager	Shotgun Surgery
+net.suberic.util.gui.propedit.WizardController	getEditorPane	Shotgun Surgery
+net.suberic.pooka.filter.MoveFilterAction	performFilter	Feature Envy
+net.suberic.pooka.gui.NewMessageProxy	send	Dispersed Coupling
+net.suberic.pooka.gui.NewMessageProxy	sendSucceeded	Dispersed Coupling
+net.suberic.pooka.gui.NewMessageProxy	sendFailed	Brain Method
+net.suberic.pooka.gui.NewMessageProxy	sendFailed	Dispersed Coupling
+net.suberic.pooka.gui.NewMessageProxy	getFileToAttach	Feature Envy
+net.suberic.pooka.gui.NewMessageProxy	saveDraft	Dispersed Coupling
+net.suberic.pooka.gui.NewMessageProxy	null	God Class
+net.suberic.pooka.gui.NewMessageProxy	null	Data Class
+net.suberic.pooka.gui.NewMessageProxy	null	Refused Parent Bequest
+net.suberic.pooka.gui.NewMessageProxy	null	Tradition Breaker
+net.suberic.pooka.gui.filter.MoveFilterEditor	setValue	Feature Envy
+net.suberic.pooka.gui.filter.FontDisplayFilter	initializeFilter	Feature Envy
+net.suberic.pooka.gui.filter.FontDisplayFilter	apply	Feature Envy
+net.suberic.pooka.gui.DisplayStyleComboBox	configureComponent	Feature Envy
+net.suberic.pooka.gui.DisplayStyleComboBox	styleUpdated	Dispersed Coupling
+net.suberic.util.gui.propedit.CompositeSwingPropertyEditor	setValue	Intensive Coupling
+net.suberic.util.gui.propedit.CompositeSwingPropertyEditor	validateProperty	Intensive Coupling
+net.suberic.util.gui.propedit.CompositeSwingPropertyEditor	createSubProperty	Feature Envy
+net.suberic.util.gui.propedit.CompositeSwingPropertyEditor	layoutGrid	Brain Method
+net.suberic.util.gui.propedit.CompositeSwingPropertyEditor	layoutGrid	Intensive Coupling
+net.suberic.util.gui.propedit.CompositeSwingPropertyEditor	getHelpID	Dispersed Coupling
+net.suberic.util.gui.propedit.CompositeSwingPropertyEditor	null	God Class
+net.suberic.util.gui.propedit.CompositeSwingPropertyEditor	null	Refused Parent Bequest
+net.suberic.pooka.gui.filter.FlagFilterEditor	configureEditor	Feature Envy
+net.suberic.pooka.gui.filter.FlagFilterEditor	setValue	Feature Envy
+net.suberic.pooka.thread.FolderTracker$UpdateInfo	UpdateInfo	Feature Envy
+net.suberic.pooka.FolderInfo$UpdateCountAction	actionPerformed	Feature Envy
+net.suberic.util.gui.ConfigurableMenuBar	configureComponent	Feature Envy
+net.suberic.util.gui.ConfigurableMenuBar	configureComponent	Dispersed Coupling
+net.suberic.util.gui.ConfigurableMenuBar	setActive	Feature Envy
+net.suberic.util.gui.ConfigurableMenuBar	setActiveMenus	Feature Envy
+net.suberic.pooka.jdbcaddr.JDBCAddressBook	configureAddressBook	Feature Envy
+net.suberic.pooka.jdbcaddr.JDBCAddressBook	addAddress	Feature Envy
+net.suberic.pooka.jdbcaddr.JDBCAddressBook	removeAddress	Feature Envy
+net.suberic.pooka.jdbcaddr.JDBCAddressBook	loadAddressBook	Dispersed Coupling
+net.suberic.pooka.jdbcaddr.JDBCAddressBook	saveAddressBook	Dispersed Coupling
+net.suberic.pooka.jdbcaddr.JDBCAddressBook	null	Data Class
+net.suberic.pooka.gui.propedit.NewUserProfileWizardController	checkStateTransition	Dispersed Coupling
+net.suberic.pooka.gui.propedit.NewUserProfileWizardController	saveProperties	Feature Envy
+net.suberic.pooka.gui.propedit.NewUserProfileWizardController	appendProperty	Feature Envy
+net.suberic.pooka.MailUtilities	handlePart	Dispersed Coupling
+net.suberic.pooka.MailUtilities	parseAlternativeAttachment	Dispersed Coupling
+net.suberic.pooka.MailUtilities	wrapText	Feature Envy
+net.suberic.pooka.MailUtilities	null	God Class
+net.suberic.pooka.gui.dnd.NewMessageTransferHandler	importMessageProxy	Dispersed Coupling
+net.suberic.pooka.gui.dnd.NewMessageTransferHandler	importFileList	Dispersed Coupling
+net.suberic.util.gui.propedit.PropertyEditorFactory	createTypeToClassMap	Dispersed Coupling
+net.suberic.util.gui.propedit.PropertyEditorFactory	showError	Shotgun Surgery
+net.suberic.util.gui.propedit.PropertyEditorFactory	createEditorWindow	Dispersed Coupling
+net.suberic.util.gui.propedit.PropertyEditorFactory	createEditor	Feature Envy
+net.suberic.util.gui.propedit.PropertyEditorFactory	createPropertyEditorPane	Feature Envy
+net.suberic.util.gui.propedit.PropertyEditorFactory	null	God Class
+net.suberic.util.gui.propedit.PropertyEditorFactory	null	Data Class
+net.suberic.pooka.gui.RecentMessageMenu	configureComponent	Feature Envy
+net.suberic.pooka.gui.RecentMessageMenu	buildFolderMenu	Dispersed Coupling
+net.suberic.pooka.gui.RecentMessageMenu	reset	Dispersed Coupling
+net.suberic.pooka.gui.MainPanel$HelpKeyBindingsAction	actionPerformed	Feature Envy
+net.suberic.util.gui.propedit.PropertyEditorUI	resetDefaultValue	Shotgun Surgery
+net.suberic.util.gui.propedit.PropertyEditorUI	setOriginalValue	Shotgun Surgery
+net.suberic.pooka.ldap.LDAPAddressBook	doSearch	Feature Envy
+net.suberic.pooka.BackendMessageFilter	filterMessages	Dispersed Coupling
+net.suberic.pooka.gui.FolderDisplayUI	setBusy	Shotgun Surgery
+net.suberic.util.gui.propedit.LabelValuePropertyEditor	createLabel	Shotgun Surgery
+net.suberic.util.gui.propedit.LabelValuePropertyEditor	setWidths	Feature Envy
+net.suberic.util.gui.propedit.LabelValuePropertyEditor	setHeights	Feature Envy
+net.suberic.util.gui.propedit.LabelValuePropertyEditor	null	Refused Parent Bequest
+net.suberic.util.gui.propedit.LabelValuePropertyEditor	null	Tradition Breaker
+net.suberic.pooka.MessageCryptoInfo	null	God Class
+net.suberic.pooka.MessageCryptoInfo	null	Data Class
+net.suberic.pooka.gui.AddressBookSelectionPanel	createAddressTable	Dispersed Coupling
+net.suberic.pooka.gui.MessageInternalFrame	MessageInternalFrame	Dispersed Coupling
+net.suberic.pooka.gui.MessageInternalFrame	MessageInternalFrame	Dispersed Coupling
+net.suberic.pooka.gui.MessageInternalFrame	configureInterfaceStyle	Dispersed Coupling
+net.suberic.pooka.gui.MessageInternalFrame	themeChanged	Dispersed Coupling
+net.suberic.pooka.gui.MessageInternalFrame	showConfirmDialog	Dispersed Coupling
+net.suberic.pooka.gui.MessageInternalFrame	showConfirmDialog	Dispersed Coupling
+net.suberic.pooka.gui.MessageInternalFrame	showInputDialog	Dispersed Coupling
+net.suberic.pooka.gui.MessageInternalFrame	setBusy	Feature Envy
+net.suberic.pooka.gui.MessageInternalFrame	getMessageProxy	Shotgun Surgery
+net.suberic.pooka.gui.MessageInternalFrame	null	God Class
+net.suberic.pooka.resource.DisklessResourceManager	exportResources	Intensive Coupling
+net.suberic.pooka.gui.MessageProxy$SaveMessageThread	run	Dispersed Coupling
+net.suberic.pooka.cache.CachingFolderInfo	loadFolder	Brain Method
+net.suberic.pooka.cache.CachingFolderInfo	loadFolder	Dispersed Coupling
+net.suberic.pooka.cache.CachingFolderInfo	openFolder	Dispersed Coupling
+net.suberic.pooka.cache.CachingFolderInfo	createInfosAndProxies	Brain Method
+net.suberic.pooka.cache.CachingFolderInfo	createInfosAndProxies	Dispersed Coupling
+net.suberic.pooka.cache.CachingFolderInfo	fetch	Brain Method
+net.suberic.pooka.cache.CachingFolderInfo	fetch	Dispersed Coupling
+net.suberic.pooka.cache.CachingFolderInfo	synchronizeCache	Brain Method
+net.suberic.pooka.cache.CachingFolderInfo	synchronizeCache	Dispersed Coupling
+net.suberic.pooka.cache.CachingFolderInfo	runMessagesAdded	Brain Method
+net.suberic.pooka.cache.CachingFolderInfo	runMessagesAdded	Dispersed Coupling
+net.suberic.pooka.cache.CachingFolderInfo	runMessagesRemoved	Brain Method
+net.suberic.pooka.cache.CachingFolderInfo	runMessagesRemoved	Dispersed Coupling
+net.suberic.pooka.cache.CachingFolderInfo	runMessageChanged	Dispersed Coupling
+net.suberic.pooka.cache.CachingFolderInfo	expunge	Feature Envy
+net.suberic.pooka.cache.CachingFolderInfo	closeFolder	Feature Envy
+net.suberic.pooka.cache.CachingFolderInfo	showCacheInfo	Feature Envy
+net.suberic.pooka.cache.CachingFolderInfo	getUID	Feature Envy
+net.suberic.pooka.cache.CachingFolderInfo	null	God Class
+net.suberic.pooka.cache.CachingFolderInfo	null	Brain Class
+net.suberic.pooka.cache.CachingFolderInfo	null	Data Class
+net.suberic.pooka.cache.CachingFolderInfo	null	Refused Parent Bequest
+net.suberic.pooka.gui.WindowMenu	refreshWindows	Dispersed Coupling
+net.suberic.pooka.gui.propedit.FolderSelectorPane	selectNewFolder	Intensive Coupling
+net.suberic.pooka.gui.propedit.FolderSelectorPane	null	Refused Parent Bequest
+net.suberic.pooka.gui.propedit.FolderSelectorPane	null	Tradition Breaker
+net.suberic.pooka.gui.search.SearchEditorPane	setValue	Feature Envy
+net.suberic.pooka.gui.search.SearchEditorPane	setValue	Dispersed Coupling
+net.suberic.pooka.vcard.Vcard	setFirstName	Feature Envy
+net.suberic.pooka.vcard.Vcard	setLastName	Feature Envy
+net.suberic.pooka.vcard.Vcard	null	God Class
+net.suberic.util.gui.propedit.RadioEditorPane	configureEditor	Dispersed Coupling
+net.suberic.util.gui.propedit.RadioEditorPane	itemStateChanged	Dispersed Coupling
+net.suberic.util.gui.propedit.RadioEditorPane	isChanged	Feature Envy
+net.suberic.util.gui.propedit.RadioEditorPane	null	Refused Parent Bequest
+net.suberic.util.gui.propedit.RadioEditorPane	null	Tradition Breaker
+net.suberic.pooka.gui.ReadMessageInternalFrame	ReadMessageInternalFrame	Feature Envy
+net.suberic.pooka.gui.ReadMessageInternalFrame	configureMessageInternalFrame	Dispersed Coupling
+net.suberic.pooka.gui.ReadMessageInternalFrame	getActions	Feature Envy
+net.suberic.pooka.gui.ReadMessageInternalFrame	null	Refused Parent Bequest
+net.suberic.pooka.resource.FileResourceManager	createFolderInfo	Feature Envy
+net.suberic.pooka.gui.MessageProxy$BounceAction	actionPerformed	Feature Envy
+net.suberic.pooka.gui.EnhancedFolderTreeCellRenderer	getTreeCellRendererComponent	Brain Method
+net.suberic.pooka.gui.EnhancedFolderTreeCellRenderer	getTreeCellRendererComponent	Dispersed Coupling
+net.suberic.pooka.gui.EnhancedFolderTreeCellRenderer	null	God Class
+net.suberic.pooka.gui.EnhancedFolderTreeCellRenderer	null	Refused Parent Bequest
+net.suberic.pooka.gui.EnhancedFolderTreeCellRenderer	null	Tradition Breaker
+net.suberic.pooka.gui.NewMessageFrame	promptSaveDraft	Feature Envy
+net.suberic.pooka.gui.NewMessageFrame	getActions	Feature Envy
+net.suberic.pooka.gui.NewMessageFrame	null	God Class
+net.suberic.pooka.gui.NewMessageFrame	null	Refused Parent Bequest
+net.suberic.util.gui.propedit.StringEditorPane	configureEditor	Dispersed Coupling
+net.suberic.util.gui.propedit.StringEditorPane	setValue	Feature Envy
+net.suberic.util.gui.propedit.StringEditorPane	validateProperty	Feature Envy
+net.suberic.pooka.gui.dnd.AttachmentTransferHandler	createTransferable	Feature Envy
+net.suberic.pooka.gui.MailTreeNode	setCommands	Feature Envy
+net.suberic.pooka.gui.MailTreeNode	getParentContainer	Shotgun Surgery
+net.suberic.pooka.PookaLogManager	configureListeners	Dispersed Coupling
+net.suberic.pooka.PookaLogManager	setLogLevel	Feature Envy
+net.suberic.pooka.PookaLogManager	addLogger	Dispersed Coupling
+net.suberic.util.VariableBundle	getProperty	Feature Envy
+net.suberic.util.VariableBundle	getProperty	Shotgun Surgery
+net.suberic.util.VariableBundle	getProperty	Shotgun Surgery
+net.suberic.util.VariableBundle	getPropertyAsVector	Shotgun Surgery
+net.suberic.util.VariableBundle	getPropertyAsList	Shotgun Surgery
+net.suberic.util.VariableBundle	fireValueChanged	Dispersed Coupling
+net.suberic.util.VariableBundle	addValueChangeListener	Shotgun Surgery
+net.suberic.util.VariableBundle	null	God Class
+net.suberic.pooka.VirtualFolderInfo	VirtualFolderInfo	Feature Envy
+net.suberic.pooka.VirtualFolderInfo	loadAllMessages	Dispersed Coupling
+net.suberic.pooka.VirtualFolderInfo	search	Dispersed Coupling
+net.suberic.pooka.VirtualFolderInfo	null	God Class
+net.suberic.pooka.VirtualFolderInfo	null	Refused Parent Bequest
+net.suberic.pooka.gui.propedit.AddressBookEditorPane$AddAddressAction	actionPerformed	Dispersed Coupling
+net.suberic.pooka.gui.search.SearchEntryPanel	createConditionPanel	Feature Envy
+net.suberic.pooka.gui.search.SearchEntryPanel	addSearchTermProperty	Feature Envy
+net.suberic.pooka.gui.search.SearchEntryPanel	addToProperties	Feature Envy
+net.suberic.pooka.gui.search.SearchEntryPanel	null	Data Class
+net.suberic.pooka.gui.filechooser.FolderInfoFileWrapper	refreshChildren	Dispersed Coupling
+net.suberic.pooka.gui.filechooser.FolderInfoFileWrapper	null	God Class
+net.suberic.util.gui.propedit.WizardEditorPane	configureEditor	Dispersed Coupling
+net.suberic.util.gui.propedit.WizardEditorPane	createEditors	Feature Envy
+net.suberic.util.gui.propedit.WizardEditorPane	getWizardContainer	Shotgun Surgery
+net.suberic.util.gui.propedit.WizardEditorPane	null	Refused Parent Bequest
+net.suberic.pooka.NetworkConnection	connect	Dispersed Coupling
+net.suberic.pooka.NetworkConnection	getStatus	Shotgun Surgery
+net.suberic.pooka.NetworkConnection	null	God Class
+net.suberic.pooka.NetworkConnection	null	Data Class
+net.suberic.util.cache.MemorySizedCache	MemorySizedCache	Feature Envy
+net.suberic.pooka.gui.MessageFrame	themeChanged	Dispersed Coupling
+net.suberic.pooka.gui.MessageFrame	showInputDialog	Feature Envy
+net.suberic.pooka.gui.MessageFrame	showInputDialog	Feature Envy
+net.suberic.pooka.gui.MessageFrame	setBusy	Feature Envy
+net.suberic.pooka.gui.MessageFrame	getMessageDisplay	Shotgun Surgery
+net.suberic.pooka.gui.MessageFrame	getMessageProxy	Shotgun Surgery
+net.suberic.pooka.gui.MessageFrame	null	God Class
+net.suberic.pooka.gui.dnd.FolderTransferHandler	importData	Dispersed Coupling
+net.suberic.pooka.gui.dnd.FolderTransferHandler	createTransferable	Feature Envy
+net.suberic.pooka.gui.dnd.FolderTransferHandler	exportToClipboard	Feature Envy
+net.suberic.util.gui.propedit.FileSelectorPane	selectNewFolder	Dispersed Coupling
+net.suberic.util.gui.propedit.FileSelectorPane	setValue	Feature Envy
+net.suberic.util.gui.propedit.FileSelectorPane	updateEditorEnabled	Feature Envy
+net.suberic.util.gui.propedit.FileSelectorPane	null	Refused Parent Bequest
+net.suberic.util.gui.propedit.FileSelectorPane	null	Tradition Breaker
+net.suberic.util.thread.ActionWrapper	null	Refused Parent Bequest
+net.suberic.pooka.gui.AttachmentPopupMenu	loadAttachments	Dispersed Coupling
+net.suberic.pooka.gui.AttachmentPopupMenu	displayAttachments	Dispersed Coupling
+net.suberic.util.PreferencesVariableBundle	saveProperties	Dispersed Coupling
+net.suberic.pooka.gui.propedit.KeySelectorPane	createKeyList	Dispersed Coupling
+net.suberic.pooka.gui.propedit.KeySelectorPane	null	Refused Parent Bequest
+net.suberic.util.gui.ConfigurableAwtPopupMenu	configureComponent	Dispersed Coupling
+net.suberic.util.gui.ConfigurableAwtPopupMenu	createMenuItem	Dispersed Coupling
+net.suberic.util.gui.ConfigurableAwtPopupMenu	setActive	Feature Envy
+net.suberic.util.gui.ConfigurableAwtPopupMenu	clearListeners	Feature Envy
+net.suberic.pooka.filter.BounceFilterAction	initializeFilter	Feature Envy
+net.suberic.pooka.FullMailcapCommandMap	createDataContentHandler	Feature Envy
+net.suberic.pooka.FullMailcapCommandMap	writeEntryToSourceFile	Feature Envy
+net.suberic.pooka.FullMailcapCommandMap	writeEntryToSourceFile	Intensive Coupling
+net.suberic.pooka.FullMailcapCommandMap	addMailcapFile	Dispersed Coupling
+net.suberic.pooka.FullMailcapCommandMap	null	God Class
+net.suberic.pooka.gui.SimpleAuthenticator	getPasswordAuthentication	Dispersed Coupling
+net.suberic.pooka.StoreManager	null	Data Class
+net.suberic.pooka.messaging.PookaMessageSender	openConnection	Dispersed Coupling
+net.suberic.pooka.messaging.PookaMessageSender	sendStartPookaMessage	Feature Envy
+net.suberic.pooka.messaging.PookaMessageSender	closeConnection	Feature Envy
+net.suberic.util.gui.IconManager	IconManager	Feature Envy
+net.suberic.util.gui.IconManager	getIconManager	Feature Envy
+net.suberic.util.gui.IconManager	getIcon	Shotgun Surgery
+net.suberic.util.gui.propedit.ColorSelectorPane	setValue	Feature Envy
+net.suberic.util.gui.propedit.ColorSelectorPane	getValue	Feature Envy
+net.suberic.util.gui.propedit.ColorSelectorPane	updateEditorEnabled	Feature Envy
+net.suberic.util.gui.propedit.ColorSelectorPane	null	Refused Parent Bequest
+net.suberic.util.gui.propedit.ColorSelectorPane	null	Tradition Breaker
+net.suberic.pooka.gui.crypto.CryptoButton	setActive	Feature Envy
+net.suberic.pooka.gui.crypto.CryptoButton	setActive	Feature Envy
+net.suberic.pooka.gui.crypto.CryptoButton	cryptoUpdated	Intensive Coupling
+net.suberic.pooka.gui.crypto.CryptoButton	null	God Class
+net.suberic.pooka.PopInboxFolderInfo	configurePopStore	Dispersed Coupling
+net.suberic.pooka.PopInboxFolderInfo	populateUidMap	Dispersed Coupling
+net.suberic.pooka.PopInboxFolderInfo	checkFolder	Brain Method
+net.suberic.pooka.PopInboxFolderInfo	checkFolder	Dispersed Coupling
+net.suberic.pooka.PopInboxFolderInfo	runMessagesRemoved	Dispersed Coupling
+net.suberic.pooka.PopInboxFolderInfo	fireMessageChangedEvent	Dispersed Coupling
+net.suberic.pooka.PopInboxFolderInfo	null	God Class
+net.suberic.pooka.PopInboxFolderInfo	null	Brain Class
+net.suberic.pooka.PopInboxFolderInfo	null	Data Class
+net.suberic.pooka.PopInboxFolderInfo	null	Refused Parent Bequest
+net.suberic.pooka.PopInboxFolderInfo	null	Tradition Breaker
+net.suberic.pooka.gui.AddressBookSelectionPanel$AddressBookTableModel	getColumnName	Feature Envy
+net.suberic.pooka.gui.AddressBookSelectionPanel$AddressBookTableModel	removeEntry	Feature Envy
+net.suberic.pooka.resource.ResourceManager	translateName	Shotgun Surgery
+net.suberic.pooka.gui.ConnectionMonitor$ConnectAction	actionPerformed	Feature Envy
+net.suberic.pooka.gui.PreviewFolderPanel	configurePanel	Dispersed Coupling
+net.suberic.pooka.gui.PreviewFolderPanel	setBusy	Feature Envy
+net.suberic.pooka.gui.PreviewFolderPanel	showInputDialog	Feature Envy
+net.suberic.pooka.gui.PreviewFolderPanel	showInputDialog	Feature Envy
+net.suberic.pooka.gui.PreviewFolderPanel	null	God Class
+net.suberic.pooka.gui.PreviewFolderPanel	null	Data Class
+net.suberic.pooka.gui.MessageUI	openMessageUI	Shotgun Surgery
+net.suberic.pooka.gui.MessageUI	setBusy	Shotgun Surgery
+net.suberic.pooka.thread.FolderTracker$CheckFolderAction	actionPerformed	Dispersed Coupling
+net.suberic.util.gui.propedit.NumberFilter	configureListener	Feature Envy
+net.suberic.util.cache.FileSizedCache	FileSizedCache	Feature Envy
+net.suberic.pooka.gui.MessageDisplayPanel	doFindRegexp	Feature Envy
+net.suberic.pooka.gui.MessageDisplayPanel	doFindRegexp	Dispersed Coupling
+net.suberic.pooka.gui.MessageDisplayPanel	getDefaultEditorPaneSize	Dispersed Coupling
+net.suberic.pooka.gui.MessageDisplayPanel	sizeToDefault	Shotgun Surgery
+net.suberic.pooka.gui.MessageDisplayPanel	null	God Class
+net.suberic.pooka.gui.ReadMessageFrame	ReadMessageFrame	Dispersed Coupling
+net.suberic.pooka.gui.ReadMessageFrame	getActions	Feature Envy
+net.suberic.pooka.gui.ReadMessageFrame	null	Refused Parent Bequest
+net.suberic.pooka.gui.FolderTableModel	getValueAt	Dispersed Coupling
+net.suberic.pooka.gui.FolderTableModel	addOrRemoveRows	Feature Envy
+net.suberic.pooka.gui.FolderTableModel	addOrRemoveRows	Dispersed Coupling
+net.suberic.pooka.gui.FolderTableModel	null	God Class
+net.suberic.util.swing.ExceptionDisplayPanel	showStackTrace	Dispersed Coupling
+net.suberic.util.swing.ExceptionDisplayPanel	calculateDisplaySize	Feature Envy
+net.suberic.util.swing.ExceptionDisplayPanel	addMessageComponents	Dispersed Coupling
+net.suberic.util.swing.ExtendedEditorPane	ExtendedEditorPane	Feature Envy
+net.suberic.util.swing.ExtendedEditorPane	ExtendedEditorPane	Dispersed Coupling
+net.suberic.pooka.gui.propedit.FirstRunWizardController	setupFolders	Feature Envy
+net.suberic.pooka.gui.propedit.FirstRunWizardController	setupFolders	Intensive Coupling
+net.suberic.pooka.gui.propedit.FirstRunWizardController	openInbox	Dispersed Coupling
+net.suberic.pooka.gui.propedit.FirstRunWizardController	createAddressBook	Feature Envy
+net.suberic.pooka.gui.propedit.FirstRunWizardController	handleInvalidEntry	Feature Envy
+net.suberic.pooka.gui.propedit.FirstRunWizardController	clearProperties	Feature Envy
+net.suberic.pooka.gui.propedit.FirstRunWizardController	null	Refused Parent Bequest
+net.suberic.pooka.ExternalLauncher	run	Brain Method
+net.suberic.pooka.ExternalLauncher	run	Dispersed Coupling
+net.suberic.pooka.ExternalLauncher	showError	Feature Envy
+net.suberic.pooka.gui.MessageProxy	refreshMessage	Dispersed Coupling
+net.suberic.pooka.gui.MessageProxy	loadTableProperty	Dispersed Coupling
+net.suberic.pooka.gui.MessageProxy	decryptMessage	Dispersed Coupling
+net.suberic.pooka.gui.MessageProxy	checkSignature	Dispersed Coupling
+net.suberic.pooka.gui.MessageProxy	importKeys	Dispersed Coupling
+net.suberic.pooka.gui.MessageProxy	forwardMessage	Dispersed Coupling
+net.suberic.pooka.gui.MessageProxy	bounceMessage	Dispersed Coupling
+net.suberic.pooka.gui.MessageProxy	saveMessageToFile	Dispersed Coupling
+net.suberic.pooka.gui.MessageProxy	printMessage	Dispersed Coupling
+net.suberic.pooka.gui.MessageProxy	showPopupMenu	Dispersed Coupling
+net.suberic.pooka.gui.MessageProxy	getDefaultProfile	Shotgun Surgery
+net.suberic.pooka.gui.MessageProxy	getMessageUI	Shotgun Surgery
+net.suberic.pooka.gui.MessageProxy	setMessageUI	Shotgun Surgery
+net.suberic.pooka.gui.MessageProxy	getMessageInfo	Shotgun Surgery
+net.suberic.pooka.gui.MessageProxy	getFolderDisplayUI	Shotgun Surgery
+net.suberic.pooka.gui.MessageProxy	null	God Class
+net.suberic.pooka.ssl.PookaSSLSocketFactory	PookaSSLSocketFactory	Intensive Coupling
+net.suberic.pooka.ssl.PookaSSLSocketFactory	seed	Feature Envy
+net.suberic.pooka.gui.LoadMessageTracker	handleMessageLoaded	Feature Envy
+net.suberic.pooka.gui.FolderPanel	FolderPanel	Intensive Coupling
+net.suberic.pooka.gui.FolderPanel	configureInterfaceStyle	Dispersed Coupling
+net.suberic.pooka.gui.FolderPanel	getTheme	Feature Envy
+net.suberic.pooka.gui.FolderPanel	createTreeRoot	Feature Envy
+net.suberic.pooka.gui.FolderPanel	refreshStores	Dispersed Coupling
+net.suberic.pooka.gui.FolderPanel	getFolderTree	Shotgun Surgery
+net.suberic.pooka.gui.FolderPanel	null	God Class
+net.suberic.pooka.FileSignatureGenerator	generateSignature	Dispersed Coupling
+net.suberic.pooka.NetworkConnectionManager	createConnectionList	Feature Envy
+net.suberic.util.JDBCVariableBundle	saveProperties	Feature Envy
+net.suberic.pooka.gui.ConnectionMonitor$DisconnectAction	actionPerformed	Feature Envy
+net.suberic.pooka.FullMailcapCommandMap$MailcapMap	addMailcapEntry	Intensive Coupling
+net.suberic.pooka.FullMailcapCommandMap$MailcapMap	null	God Class
+net.suberic.util.swing.ScrollingDesktopManager	updateDesktopSize	Brain Method
+net.suberic.util.swing.ScrollingDesktopManager	updateDesktopSize	Dispersed Coupling
+net.suberic.util.swing.ScrollingDesktopManager	setScrollPane	Feature Envy
+net.suberic.util.swing.ScrollingDesktopManager	null	God Class
+net.suberic.util.swing.ScrollingDesktopManager	null	Data Class
+net.suberic.pooka.gui.dnd.DndUtils	extractFileList	Feature Envy
+net.suberic.pooka.gui.dnd.DndUtils	createTemporaryFile	Intensive Coupling
+net.suberic.pooka.gui.dnd.DndUtils	null	God Class
+net.suberic.pooka.gui.DefaultFolderTreeCellRenderer	null	God Class
+net.suberic.pooka.gui.NewMessageInternalFrame	promptSaveDraft	Feature Envy
+net.suberic.pooka.gui.NewMessageInternalFrame	getActions	Feature Envy
+net.suberic.pooka.gui.NewMessageInternalFrame	null	God Class
+net.suberic.pooka.gui.NewMessageInternalFrame	null	Refused Parent Bequest
+net.suberic.pooka.thread.MessageLoader	loadNextBatch	Brain Method
+net.suberic.pooka.thread.MessageLoader	loadNextBatch	Intensive Coupling
+net.suberic.pooka.thread.MessageLoader	null	God Class
+net.suberic.pooka.thread.MessageLoader	null	Data Class
+net.suberic.pooka.filter.FlagFilterAction	initializeFilter	Feature Envy
+net.suberic.pooka.gui.filter.BounceFilterEditor	setValue	Feature Envy
+net.suberic.util.gui.propedit.PropertyEditorPane	createButtonPanel	Brain Method
+net.suberic.util.gui.propedit.PropertyEditorPane	createButtonPanel	Dispersed Coupling
+net.suberic.util.gui.propedit.PropertyEditorPane	createButton	Feature Envy
+net.suberic.pooka.StoreInfo	configureStore	Brain Method
+net.suberic.pooka.StoreInfo	configureStore	Dispersed Coupling
+net.suberic.pooka.StoreInfo	loadImapProperties	Feature Envy
+net.suberic.pooka.StoreInfo	loadMaildirProperties	Dispersed Coupling
+net.suberic.pooka.StoreInfo	loadMboxProperties	Dispersed Coupling
+net.suberic.pooka.StoreInfo	updateChildren	Dispersed Coupling
+net.suberic.pooka.StoreInfo	getChild	Intensive Coupling
+net.suberic.pooka.StoreInfo	cleanup	Dispersed Coupling
+net.suberic.pooka.StoreInfo	valueChanged	Brain Method
+net.suberic.pooka.StoreInfo	valueChanged	Dispersed Coupling
+net.suberic.pooka.StoreInfo	removeFromFolderList	Dispersed Coupling
+net.suberic.pooka.StoreInfo	connectStore	Brain Method
+net.suberic.pooka.StoreInfo	connectStore	Dispersed Coupling
+net.suberic.pooka.StoreInfo	connectStore	Shotgun Surgery
+net.suberic.pooka.StoreInfo	synchSubscribed	Intensive Coupling
+net.suberic.pooka.StoreInfo	showStatus	Dispersed Coupling
+net.suberic.pooka.StoreInfo	getStoreID	Shotgun Surgery
+net.suberic.pooka.StoreInfo	getStoreProperty	Shotgun Surgery
+net.suberic.pooka.StoreInfo	isConnected	Shotgun Surgery
+net.suberic.pooka.StoreInfo	getStoreThread	Shotgun Surgery
+net.suberic.pooka.StoreInfo	updateSessionDebug	Feature Envy
+net.suberic.pooka.StoreInfo	null	God Class
+net.suberic.pooka.StoreInfo	null	Brain Class
+net.suberic.pooka.cache.CachingMimeMessage	getFlags	Feature Envy
+net.suberic.pooka.cache.CachingMimeMessage	getHeaders	Feature Envy
+net.suberic.pooka.gui.PreviewContentPanel	PreviewContentPanel	Dispersed Coupling
+net.suberic.pooka.gui.PreviewContentPanel	PreviewContentPanel	Dispersed Coupling
+net.suberic.pooka.gui.PreviewContentPanel	refreshCurrentMessage	Dispersed Coupling
+net.suberic.pooka.gui.PreviewContentPanel	openSavedFolders	Dispersed Coupling
+net.suberic.pooka.gui.PreviewContentPanel	getMessageProxy	Feature Envy
+net.suberic.pooka.gui.PreviewContentPanel	refreshDisplay	Feature Envy
+net.suberic.pooka.gui.PreviewContentPanel	showInputDialog	Feature Envy
+net.suberic.pooka.gui.PreviewContentPanel	showInputDialog	Feature Envy
+net.suberic.pooka.gui.PreviewContentPanel	getActions	Feature Envy
+net.suberic.pooka.gui.PreviewContentPanel	null	God Class
+net.suberic.util.gui.ConfigurableComboBox$ConfigurableComboRenderer	ConfigurableComboRenderer	Feature Envy
+net.suberic.util.gui.propedit.DisableFilter	checkEnabledStatus	Feature Envy
+net.suberic.util.thread.ActionThread	run	Feature Envy
+net.suberic.util.thread.ActionThread	addToQueue	Shotgun Surgery
+net.suberic.util.thread.ActionThread	addToQueue	Shotgun Surgery
+net.suberic.util.thread.ActionThread	getRunLock	Shotgun Surgery
+net.suberic.pooka.messaging.PookaMessageHandler	handleMessage	Feature Envy
+net.suberic.pooka.messaging.PookaMessageHandler	handleNewEmailMessage	Dispersed Coupling
+net.suberic.pooka.messaging.PookaMessageHandler	handleStartPookaMessage	Dispersed Coupling
+net.suberic.pooka.AddressBookEntry	getID	Shotgun Surgery
+net.suberic.pooka.vcard.VcardAddressBook	addAddress	Feature Envy
+net.suberic.pooka.vcard.VcardAddressBook	removeAddress	Feature Envy
+net.suberic.pooka.vcard.VcardAddressBook	getNextMatch	Feature Envy
+net.suberic.pooka.vcard.VcardAddressBook	null	God Class
+net.suberic.pooka.vcard.VcardAddressBook	null	Data Class
+net.suberic.pooka.gui.FolderDisplayPanel	initWindow	Dispersed Coupling
+net.suberic.pooka.gui.FolderDisplayPanel	createMessageTable	Intensive Coupling
+net.suberic.pooka.gui.FolderDisplayPanel	moveSelectionOnRemoval	Dispersed Coupling
+net.suberic.pooka.gui.FolderDisplayPanel	moveSelectionOnRemoval	Dispersed Coupling
+net.suberic.pooka.gui.FolderDisplayPanel	addListeners	Brain Method
+net.suberic.pooka.gui.FolderDisplayPanel	addListeners	Intensive Coupling
+net.suberic.pooka.gui.FolderDisplayPanel	selectFirstUnread	Feature Envy
+net.suberic.pooka.gui.FolderDisplayPanel	selectPreviousMessage	Feature Envy
+net.suberic.pooka.gui.FolderDisplayPanel	selectPreviousUnreadMessage	Feature Envy
+net.suberic.pooka.gui.FolderDisplayPanel	saveTableSettings	Dispersed Coupling
+net.suberic.pooka.gui.FolderDisplayPanel	resize	Feature Envy
+net.suberic.pooka.gui.FolderDisplayPanel	null	Brain Class
+net.suberic.pooka.gui.FolderDisplayPanel	null	Data Class
+net.suberic.util.gui.propedit.PropertyValueVetoException	getReason	Shotgun Surgery
+net.suberic.pooka.gui.PookaDesktopPaneUIFactory	null	Refused Parent Bequest
+net.suberic.pooka.gui.filter.ColorFilterEditor	getValue	Feature Envy
+net.suberic.pooka.gui.filter.ColorFilterEditor	setValue	Feature Envy
+net.suberic.pooka.UserProfile	initializeFromProperties	Dispersed Coupling
+net.suberic.pooka.UserProfile	populateMessage	Feature Envy
+net.suberic.pooka.UserProfile	populateMessage	Dispersed Coupling
+net.suberic.pooka.UserProfile	populateHeaders	Feature Envy
+net.suberic.pooka.UserProfile	removeFromAddress	Feature Envy
+net.suberic.pooka.UserProfile	loadMailServer	Feature Envy
+net.suberic.pooka.UserProfile	createSignatureGenerator	Feature Envy
+net.suberic.pooka.UserProfile	getEncryptionKey	Dispersed Coupling
+net.suberic.pooka.UserProfile	null	God Class
+net.suberic.pooka.gui.MessagePrinterDisplay	updateDisplayPane	Dispersed Coupling
+net.suberic.pooka.gui.MessagePrinterDisplay	show	Dispersed Coupling
+net.suberic.pooka.gui.MessagePrinterDisplay	getStatusString	Feature Envy
+net.suberic.pooka.gui.MessagePrinterDisplay	null	Data Class
+net.suberic.util.gui.ConfigurableToolbar	configureComponent	Feature Envy
+net.suberic.util.gui.ConfigurableToolbar	configureComponent	Dispersed Coupling
+net.suberic.util.gui.ConfigurableToolbar	setActive	Feature Envy
+net.suberic.util.gui.ConfigurableToolbar	setActive	Shotgun Surgery
+net.suberic.pooka.gui.MessageNotificationManager$OpenMessageAction	actionPerformed	Feature Envy
+net.suberic.pooka.gui.FolderNode	FolderNode	Dispersed Coupling
+net.suberic.pooka.gui.FolderNode	doLoadChildren	Feature Envy
+net.suberic.pooka.gui.FolderNode	doLoadChildren	Intensive Coupling
+net.suberic.pooka.gui.FolderNode	deleteFolder	Dispersed Coupling
+net.suberic.pooka.gui.FolderNode	newFolder	Dispersed Coupling
+net.suberic.pooka.gui.FolderNode	openFolder	Brain Method
+net.suberic.pooka.gui.FolderNode	openFolder	Intensive Coupling
+net.suberic.pooka.gui.FolderNode	null	God Class
+net.suberic.pooka.gui.FolderNode	null	Data Class
+net.suberic.pooka.gui.FolderNode	null	Refused Parent Bequest
+net.suberic.pooka.gui.FolderNode	null	Tradition Breaker
+net.suberic.pooka.gui.SwingUIFactory	showConfirmDialog	Feature Envy
+net.suberic.pooka.gui.SwingUIFactory	showConfirmDialog	Feature Envy
+net.suberic.pooka.gui.SwingUIFactory	clearStatus	Feature Envy
+net.suberic.pooka.gui.SwingUIFactory	showMessage	Feature Envy
+net.suberic.pooka.gui.SwingUIFactory	calculateDisplaySize	Feature Envy
+net.suberic.pooka.gui.SwingUIFactory	addMessageComponents	Dispersed Coupling
+net.suberic.pooka.gui.SwingUIFactory	null	God Class
+net.suberic.pooka.gui.SwingUIFactory	null	Data Class
+net.suberic.pooka.AddressBookManager	removeAddressBook	Feature Envy
+net.suberic.pooka.AddressBookManager	refreshAddressBooks	Feature Envy
+net.suberic.pooka.AddressBookManager	removeFromAddressBookString	Feature Envy
+net.suberic.pooka.AddressBookManager	null	God Class
+net.suberic.pooka.AddressBookManager	null	Data Class
+net.suberic.pooka.gui.filter.FontFilterEditor	configureEditor	Feature Envy
+net.suberic.pooka.gui.filter.FontFilterEditor	createFontCombo	Feature Envy
+net.suberic.pooka.gui.filter.FontFilterEditor	getSelectedFontType	Feature Envy
+net.suberic.pooka.gui.filter.FontFilterEditor	setValue	Feature Envy
+net.suberic.pooka.AlternativeAttachment	getHtml	Dispersed Coupling
+net.suberic.pooka.gui.propedit.AddressEntryController	saveProperties	Dispersed Coupling
+net.suberic.pooka.gui.propedit.AddressEntryController	finishWizard	Feature Envy
+net.suberic.pooka.OutgoingFolderInfo	sendAll	Dispersed Coupling
+net.suberic.util.gui.propedit.PasswordEditorPane	configureEditor	Dispersed Coupling
+net.suberic.util.gui.propedit.PasswordEditorPane	getValue	Feature Envy
+net.suberic.pooka.cache.ChangeCache	openCacheFile	Dispersed Coupling
+net.suberic.pooka.cache.ChangeCache	writeChanges	Brain Method
+net.suberic.pooka.cache.ChangeCache	writeChanges	Dispersed Coupling
+net.suberic.pooka.cache.ChangeCache	writeChanges	Brain Method
+net.suberic.pooka.cache.ChangeCache	writeChanges	Dispersed Coupling
+net.suberic.pooka.cache.ChangeCache	getMessageByPopUID	Feature Envy
+net.suberic.pooka.cache.ChangeCache	null	Data Class
+net.suberic.pooka.resource.JDBCResourceManager	exportResources	Intensive Coupling
+net.suberic.pooka.gui.FolderNode$DeleteAction	actionPerformed	Dispersed Coupling
+net.suberic.pooka.gui.search.SearchEntryForm	generateSearchTerm	Dispersed Coupling
+net.suberic.pooka.gui.search.SearchEntryForm	generateSearchTermProperties	Dispersed Coupling
+net.suberic.pooka.gui.search.SearchEntryForm	setTermValue	Dispersed Coupling
+net.suberic.pooka.gui.search.SearchEntryForm	setEnabled	Feature Envy
+net.suberic.pooka.SearchTermManager	createTermMaps	Feature Envy
+net.suberic.pooka.SearchTermManager	createOperationMaps	Feature Envy
+net.suberic.pooka.SearchTermManager	createOperationTypeMaps	Feature Envy
+net.suberic.pooka.SearchTermManager	createFilterMaps	Feature Envy
+net.suberic.pooka.SearchTermManager	generateSearchTerm	Dispersed Coupling
+net.suberic.pooka.SearchTermManager	getFlags	Feature Envy
+net.suberic.pooka.SearchTermManager	null	God Class
+net.suberic.pooka.gui.crypto.CryptoKeySelector	selectPublicKey	Feature Envy
+net.suberic.pooka.gui.crypto.CryptoKeySelector	selectPrivateKey	Feature Envy
+net.suberic.util.gui.ConfigurableComboBox	configureComponent	Dispersed Coupling
+net.suberic.util.gui.ConfigurableComboBox	createComboBoxItem	Dispersed Coupling
+net.suberic.util.gui.ConfigurableComboBox	setActive	Feature Envy
+net.suberic.util.gui.propedit.PropertyEditorManager	getPropertyEditor	Shotgun Surgery
+net.suberic.util.gui.propedit.PropertyEditorManager	registerPropertyEditor	Shotgun Surgery
+net.suberic.util.gui.propedit.PropertyEditorManager	getFactory	Shotgun Surgery
+net.suberic.util.gui.propedit.PropertyEditorManager	getProperty	Feature Envy
+net.suberic.util.gui.propedit.PropertyEditorManager	getProperty	Shotgun Surgery
+net.suberic.util.gui.propedit.PropertyEditorManager	getCurrentProperty	Shotgun Surgery
+net.suberic.util.gui.propedit.PropertyEditorManager	getPropertyAsList	Feature Envy
+net.suberic.util.gui.propedit.PropertyEditorManager	getPropertyAsList	Shotgun Surgery
+net.suberic.util.gui.propedit.PropertyEditorManager	setProperty	Shotgun Surgery
+net.suberic.util.gui.propedit.PropertyEditorManager	null	God Class
+net.suberic.pooka.gui.MessagePrinter	paginate	Dispersed Coupling
+net.suberic.pooka.gui.MessagePrinter	calculatePageBreak	Dispersed Coupling
+net.suberic.pooka.gui.MessagePrinter	print	Dispersed Coupling
+net.suberic.pooka.gui.MessagePrinter	loadText	Intensive Coupling
+net.suberic.util.FileVariableBundle	configure	Dispersed Coupling
+net.suberic.util.FileVariableBundle	saveProperties	Brain Method
+net.suberic.util.FileVariableBundle	saveProperties	Intensive Coupling
+net.suberic.util.FileVariableBundle	loadConvert	Brain Method
+net.suberic.util.FileVariableBundle	null	God Class
+net.suberic.util.FileVariableBundle	null	Brain Class
+net.suberic.util.FileVariableBundle	null	Refused Parent Bequest
+net.suberic.util.swing.ThemeManager	updateUI	Feature Envy
+net.suberic.util.swing.ThemeManager	updateUI	Shotgun Surgery
+net.suberic.pooka.gui.filechooser.MailFileSystemView	createNewFolder	Intensive Coupling
+net.suberic.pooka.gui.filechooser.MailFileSystemView	getParentDirectory	Feature Envy
+net.suberic.pooka.gui.filechooser.MailFileSystemView	null	God Class
+net.suberic.pooka.Attachment	Attachment	Feature Envy
+net.suberic.pooka.Attachment	Attachment	Intensive Coupling
+net.suberic.pooka.Attachment	Attachment	Intensive Coupling
+net.suberic.pooka.Attachment	getMimeType	Shotgun Surgery
+net.suberic.pooka.Attachment	getText	Dispersed Coupling
+net.suberic.pooka.Attachment	getHeaderInformation	Feature Envy
+net.suberic.pooka.Attachment	getHeaderInformation	Dispersed Coupling
+net.suberic.pooka.Attachment	null	God Class
+net.suberic.pooka.gui.propedit.AddressBookWizardController	checkStateTransition	Feature Envy
+net.suberic.pooka.gui.propedit.AddressBookWizardController	saveProperties	Feature Envy
+net.suberic.pooka.gui.propedit.AddressBookWizardController	appendProperty	Feature Envy
+net.suberic.pooka.gui.propedit.AddressBookWizardController	null	Refused Parent Bequest
+net.suberic.util.cache.FileSizedCacheEntry	null	Refused Parent Bequest
+net.suberic.pooka.gui.AttachmentPane$OpenAction	actionPerformed	Feature Envy
+net.suberic.pooka.gui.ConnectionMonitor	itemListChanged	Feature Envy
+net.suberic.pooka.gui.ConnectionMonitor	null	Data Class
+net.suberic.pooka.gui.SearchTermIconManager	createTermsAndIcons	Feature Envy
+net.suberic.pooka.gui.AttachmentHandler$SaveAttachmentThread	run	Feature Envy
+net.suberic.pooka.gui.AttachmentHandler$SaveAttachmentThread	run	Dispersed Coupling
+net.suberic.pooka.gui.filter.FilterEditorPane	configureEditor	Dispersed Coupling
+net.suberic.pooka.gui.filter.FilterEditorPane	null	Refused Parent Bequest
+net.suberic.pooka.FolderInfo	loadFolder	Brain Method
+net.suberic.pooka.FolderInfo	loadFolder	Dispersed Coupling
+net.suberic.pooka.FolderInfo	initializeFolderInfo	Dispersed Coupling
+net.suberic.pooka.FolderInfo	openFolder	Shotgun Surgery
+net.suberic.pooka.FolderInfo	synchSubscribed	Dispersed Coupling
+net.suberic.pooka.FolderInfo	createColumnInformation	Brain Method
+net.suberic.pooka.FolderInfo	createColumnInformation	Dispersed Coupling
+net.suberic.pooka.FolderInfo	createInfosAndProxies	Dispersed Coupling
+net.suberic.pooka.FolderInfo	loadMessageTableInfos	Intensive Coupling
+net.suberic.pooka.FolderInfo	valueChanged	Dispersed Coupling
+net.suberic.pooka.FolderInfo	removeFromFolderList	Dispersed Coupling
+net.suberic.pooka.FolderInfo	runMessagesAdded	Dispersed Coupling
+net.suberic.pooka.FolderInfo	runMessagesRemoved	Dispersed Coupling
+net.suberic.pooka.FolderInfo	runMessageChanged	Dispersed Coupling
+net.suberic.pooka.FolderInfo	searchFolders	Dispersed Coupling
+net.suberic.pooka.FolderInfo	createFilters	Dispersed Coupling
+net.suberic.pooka.FolderInfo	getHeaders	Dispersed Coupling
+net.suberic.pooka.FolderInfo	getFolder	Shotgun Surgery
+net.suberic.pooka.FolderInfo	getFolderID	Shotgun Surgery
+net.suberic.pooka.FolderInfo	getFolderName	Shotgun Surgery
+net.suberic.pooka.FolderInfo	getFolderProperty	Shotgun Surgery
+net.suberic.pooka.FolderInfo	getFolderTableModel	Shotgun Surgery
+net.suberic.pooka.FolderInfo	getFolderDisplayUI	Shotgun Surgery
+net.suberic.pooka.FolderInfo	isConnected	Shotgun Surgery
+net.suberic.pooka.FolderInfo	getParentStore	Shotgun Surgery
+net.suberic.pooka.FolderInfo	getFolderThread	Shotgun Surgery
+net.suberic.pooka.FolderInfo	getLogger	Shotgun Surgery
+net.suberic.pooka.FolderInfo	null	God Class
+net.suberic.pooka.FolderInfo	null	Brain Class

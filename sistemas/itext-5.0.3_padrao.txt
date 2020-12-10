@@ -1,107 +1,995 @@
-com.itextpdf.text.pdf.PdfEncodings$Cp437Conversion	(Object)Adapter
-com.itextpdf.text.pdf.PdfPCellEvent	Composite
-com.itextpdf.text.pdf.BaseFont	Template Method
-com.itextpdf.text.pdf.PdfBoolean	Singleton
-com.itextpdf.text.pdf.PdfNull	Singleton
-com.itextpdf.text.pdf.qrcode.EncodeHintType	Singleton
-com.itextpdf.text.pdf.PdfStamperImp	Proxy
-com.itextpdf.text.pdf.PdfPTableEvent	Composite
-com.itextpdf.rups.io.filters.PdfFilter	Singleton
-com.itextpdf.text.pdf.GrayColor	Singleton
-com.itextpdf.text.html.simpleparser.ChainedProperties	(Object)Adapter
-com.itextpdf.text.pdf.TrueTypeFont	(Object)Adapter
-com.itextpdf.text.pdf.Barcode	Decorator
-com.itextpdf.text.pdf.PdfSignatureAppearance$SignatureEvent	State
-com.itextpdf.rups.view.models.JTableAutoModelInterface	State
-com.itextpdf.text.pdf.HyphenationAuto	(Object)Adapter
-com.itextpdf.text.pdf.BaseFont	Decorator
-com.itextpdf.text.pdf.internal.PdfViewerPreferencesImp	(Object)Adapter
-com.itextpdf.rups.controller.PdfReaderController	(Object)Adapter
-com.itextpdf.text.pdf.PdfName	(Object)Adapter
-com.itextpdf.rups.view.PageSelectionListener	State
-com.itextpdf.text.pdf.parser.FilteredRenderListener	Decorator
-com.itextpdf.rups.view.models.JTableAutoModel	State
-com.itextpdf.text.pdf.Barcode	Factory Method
-com.itextpdf.text.pdf.PdfDeveloperExtension	Singleton
-com.itextpdf.text.html.simpleparser.IncCell	(Object)Adapter
-com.itextpdf.text.pdf.draw.VerticalPositionMark	Decorator
-com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$TextMoveStartNextLine	Proxy
-com.itextpdf.text.pdf.BarcodeEANSUPP	Decorator
-com.itextpdf.text.xml.simpleparser.SimpleXMLParser	State
-com.itextpdf.text.html.simpleparser.FactoryProperties	(Object)Adapter
-com.itextpdf.text.pdf.FontDetails	State
-com.itextpdf.text.pdf.qrcode.GF256	Singleton
-com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$SetTextCharacterSpacing	Proxy
-com.itextpdf.text.pdf.BaseFont	State
-com.itextpdf.rups.view.Console	Singleton
-com.itextpdf.text.DocListener	Composite
-com.itextpdf.text.MarkedObject	Decorator
-com.itextpdf.text.pdf.parser.RenderListener	Decorator
-com.itextpdf.text.pdf.PdfPTable	State
-com.itextpdf.text.Element	Decorator
-com.itextpdf.text.pdf.PdfPTableEvent	State
-com.itextpdf.text.pdf.Type3Font	(Object)Adapter
-com.itextpdf.text.Paragraph	(Object)Adapter
-com.itextpdf.text.pdf.parser.PdfContentStreamProcessor	State
-com.itextpdf.rups.model.IndirectObjectFactory	(Object)Adapter
-com.itextpdf.text.pdf.hyphenation.Hyphenator	(Object)Adapter
-com.itextpdf.text.pdf.PdfChunk	State
-com.itextpdf.text.pdf.PdfEncodings$SymbolConversion	(Object)Adapter
-com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$MoveNextLineAndShowText	Proxy
-com.itextpdf.text.pdf.PdfEncryption	(Object)Adapter
-com.itextpdf.text.pdf.PdfPCell	(Object)Adapter
-com.itextpdf.text.BaseColor	Singleton
-com.itextpdf.text.pdf.PdfDocument	Proxy
-com.itextpdf.text.Document	Composite
-com.itextpdf.rups.model.ObjectLoader	(Object)Adapter
-com.itextpdf.text.html.WebColors	Singleton
-com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$ShowText	Proxy
-com.itextpdf.text.xml.simpleparser.SimpleXMLDocHandler	State
-com.itextpdf.text.Chunk	(Object)Adapter
-com.itextpdf.text.pdf.internal.PdfVersionImp	Proxy
-com.itextpdf.text.pdf.FontMapper	State
-com.itextpdf.text.pdf.qrcode.Mode	Singleton
-com.itextpdf.text.pdf.draw.DrawInterface	Decorator
-com.itextpdf.text.html.simpleparser.StyleSheet	(Object)Adapter
-com.itextpdf.text.pdf.events.PdfPageEventForwarder	Composite
-com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$MoveNextLineAndShowTextWithSpacing	Proxy
-com.itextpdf.text.pdf.parser.RenderListener	State
-com.itextpdf.text.pdf.internal.PdfXConformanceImp	Proxy
-com.itextpdf.text.html.simpleparser.HTMLWorker	(Object)Adapter
-com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$TextMoveNextLine	Proxy
-com.itextpdf.text.pdf.events.PdfPTableEventForwarder	Composite
-com.itextpdf.text.pdf.PdfPageEvent	Composite
-com.itextpdf.text.pdf.IntHashtable	(Object)Adapter
-com.itextpdf.text.pdf.BaseFont	Factory Method
-com.itextpdf.text.pdf.parser.FilteredTextRenderListener	Decorator
-com.itextpdf.text.pdf.qrcode.ErrorCorrectionLevel	Singleton
-com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$SetTextWordSpacing	Proxy
-com.itextpdf.text.List	(Object)Adapter
-com.itextpdf.text.pdf.PdfReader	Proxy
-com.itextpdf.text.pdf.PdfGraphics2D$HyperLinkKey	Singleton
-com.itextpdf.rups.view.itext.PagesTable	State
-com.itextpdf.text.FontProvider	State
-com.itextpdf.text.pdf.PdfName	Singleton
-com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$TextMoveStartNextLineWithLeading	Proxy
-com.itextpdf.text.Image	Chain of Responsibility
-com.itextpdf.text.SplitCharacter	State
-com.itextpdf.rups.view.itext.XRefTable	(Object)Adapter
-com.itextpdf.text.pdf.PdfDictionary	(Object)Adapter
-com.itextpdf.text.pdf.internal.PdfViewerPreferencesImp	Proxy
-com.itextpdf.text.pdf.PdfWriter	(Object)Adapter
-com.itextpdf.text.pdf.PdfWriter	Proxy
-com.itextpdf.text.pdf.PdfSignatureAppearance	State
-com.itextpdf.text.pdf.Barcode	Template Method
-com.itextpdf.text.pdf.PdfFormField	(Object)Adapter
-com.itextpdf.text.pdf.DocumentFont	Decorator
-com.itextpdf.text.pdf.PdfStamper	Proxy
-com.itextpdf.text.Chunk	Singleton
-com.itextpdf.text.pdf.parser.TextExtractionStrategy	Decorator
-com.itextpdf.text.html.simpleparser.FactoryProperties	State
-com.itextpdf.text.pdf.events.FieldPositioningEvents	(Object)Adapter
-com.itextpdf.text.xml.simpleparser.SimpleXMLDocHandlerComment	State
-com.itextpdf.text.pdf.events.PdfPCellEventForwarder	Composite
-com.itextpdf.text.pdf.PdfGraphics2D	State
-com.itextpdf.text.pdf.internal.PdfVersionImp	(Object)Adapter
-com.itextpdf.rups.controller.RupsController	(Object)Adapter
-com.itextpdf.text.Font	State
+com.itextpdf.text.pdf.Barcode	null	Creator	Factory Method
+com.itextpdf.text.pdf.Barcode	getBarcodeSize	FactoryMethod()	Factory Method
+com.itextpdf.text.pdf.BaseFont	null	Creator	Factory Method
+com.itextpdf.text.pdf.BaseFont	getFullFontStream	FactoryMethod()	Factory Method
+com.itextpdf.rups.io.filters.PdfFilter	null	Singleton	Singleton
+com.itextpdf.rups.io.filters.PdfFilter	null	uniqueInstance	Singleton
+com.itextpdf.rups.view.Console	null	Singleton	Singleton
+com.itextpdf.rups.view.Console	null	uniqueInstance	Singleton
+com.itextpdf.text.BaseColor	null	Singleton	Singleton
+com.itextpdf.text.BaseColor	null	uniqueInstance	Singleton
+com.itextpdf.text.BaseColor	null	uniqueInstance	Singleton
+com.itextpdf.text.BaseColor	null	uniqueInstance	Singleton
+com.itextpdf.text.BaseColor	null	uniqueInstance	Singleton
+com.itextpdf.text.BaseColor	null	uniqueInstance	Singleton
+com.itextpdf.text.BaseColor	null	uniqueInstance	Singleton
+com.itextpdf.text.BaseColor	null	uniqueInstance	Singleton
+com.itextpdf.text.BaseColor	null	uniqueInstance	Singleton
+com.itextpdf.text.BaseColor	null	uniqueInstance	Singleton
+com.itextpdf.text.BaseColor	null	uniqueInstance	Singleton
+com.itextpdf.text.BaseColor	null	uniqueInstance	Singleton
+com.itextpdf.text.BaseColor	null	uniqueInstance	Singleton
+com.itextpdf.text.BaseColor	null	uniqueInstance	Singleton
+com.itextpdf.text.Chunk	null	Singleton	Singleton
+com.itextpdf.text.Chunk	null	uniqueInstance	Singleton
+com.itextpdf.text.Chunk	null	uniqueInstance	Singleton
+com.itextpdf.text.html.WebColors	null	Singleton	Singleton
+com.itextpdf.text.html.WebColors	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.GrayColor	null	Singleton	Singleton
+com.itextpdf.text.pdf.GrayColor	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.GrayColor	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfBoolean	null	Singleton	Singleton
+com.itextpdf.text.pdf.PdfBoolean	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfBoolean	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfDeveloperExtension	null	Singleton	Singleton
+com.itextpdf.text.pdf.PdfDeveloperExtension	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfGraphics2D$HyperLinkKey	null	Singleton	Singleton
+com.itextpdf.text.pdf.PdfGraphics2D$HyperLinkKey	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	Singleton	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfName	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfNull	null	Singleton	Singleton
+com.itextpdf.text.pdf.PdfNull	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.qrcode.EncodeHintType	null	Singleton	Singleton
+com.itextpdf.text.pdf.qrcode.EncodeHintType	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.qrcode.EncodeHintType	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.qrcode.ErrorCorrectionLevel	null	Singleton	Singleton
+com.itextpdf.text.pdf.qrcode.ErrorCorrectionLevel	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.qrcode.ErrorCorrectionLevel	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.qrcode.ErrorCorrectionLevel	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.qrcode.ErrorCorrectionLevel	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.qrcode.GF256	null	Singleton	Singleton
+com.itextpdf.text.pdf.qrcode.GF256	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.qrcode.GF256	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.qrcode.Mode	null	Singleton	Singleton
+com.itextpdf.text.pdf.qrcode.Mode	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.qrcode.Mode	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.qrcode.Mode	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.qrcode.Mode	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.qrcode.Mode	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.qrcode.Mode	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.qrcode.Mode	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.qrcode.Mode	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.qrcode.Mode	null	uniqueInstance	Singleton
+com.itextpdf.text.pdf.PdfEncryption	null	Adaptee	(Object)Adapter
+com.itextpdf.text.pdf.PdfWriter	null	Adapter	(Object)Adapter
+com.itextpdf.text.pdf.PdfWriter	null	adaptee	(Object)Adapter
+com.itextpdf.text.pdf.PdfWriter	setEncryption	Request()	(Object)Adapter
+com.itextpdf.text.pdf.PdfWriter	setEncryption	Request()	(Object)Adapter
+com.itextpdf.text.pdf.PdfName	null	Adaptee	(Object)Adapter
+com.itextpdf.text.pdf.PdfWriter	null	Adapter	(Object)Adapter
+com.itextpdf.text.pdf.PdfWriter	null	adaptee	(Object)Adapter
+com.itextpdf.text.pdf.PdfWriter	null	adaptee	(Object)Adapter
+com.itextpdf.text.pdf.PdfWriter	null	adaptee	(Object)Adapter
+com.itextpdf.text.pdf.PdfWriter	null	adaptee	(Object)Adapter
+com.itextpdf.text.pdf.PdfWriter	null	adaptee	(Object)Adapter
+com.itextpdf.text.pdf.PdfWriter	null	adaptee	(Object)Adapter
+com.itextpdf.text.pdf.PdfWriter	null	adaptee	(Object)Adapter
+com.itextpdf.text.pdf.PdfWriter	setAdditionalAction	Request()	(Object)Adapter
+com.itextpdf.text.pdf.PdfWriter	setPageAction	Request()	(Object)Adapter
+com.itextpdf.text.pdf.PdfDictionary	null	Adaptee	(Object)Adapter
+com.itextpdf.text.pdf.internal.PdfViewerPreferencesImp	null	Adapter	(Object)Adapter
+com.itextpdf.text.pdf.internal.PdfViewerPreferencesImp	null	adaptee	(Object)Adapter
+com.itextpdf.text.pdf.internal.PdfViewerPreferencesImp	setViewerPreferences	Request()	(Object)Adapter
+com.itextpdf.text.pdf.internal.PdfViewerPreferencesImp	addViewerPreference	Request()	(Object)Adapter
+com.itextpdf.text.html.simpleparser.ChainedProperties	null	Adaptee	(Object)Adapter
+com.itextpdf.text.html.simpleparser.HTMLWorker	null	Adapter	(Object)Adapter
+com.itextpdf.text.html.simpleparser.HTMLWorker	null	adaptee	(Object)Adapter
+com.itextpdf.text.html.simpleparser.HTMLWorker	startDocument	Request()	(Object)Adapter
+com.itextpdf.text.html.simpleparser.HTMLWorker	startElement	Request()	(Object)Adapter
+com.itextpdf.text.html.simpleparser.HTMLWorker	endElement	Request()	(Object)Adapter
+com.itextpdf.text.html.simpleparser.FactoryProperties	null	Adaptee	(Object)Adapter
+com.itextpdf.text.html.simpleparser.HTMLWorker	null	Adapter	(Object)Adapter
+com.itextpdf.text.html.simpleparser.HTMLWorker	null	adaptee	(Object)Adapter
+com.itextpdf.text.html.simpleparser.HTMLWorker	startElement	Request()	(Object)Adapter
+com.itextpdf.text.html.simpleparser.HTMLWorker	text	Request()	(Object)Adapter
+com.itextpdf.text.html.simpleparser.StyleSheet	null	Adaptee	(Object)Adapter
+com.itextpdf.text.html.simpleparser.HTMLWorker	null	Adapter	(Object)Adapter
+com.itextpdf.text.html.simpleparser.HTMLWorker	null	adaptee	(Object)Adapter
+com.itextpdf.text.html.simpleparser.HTMLWorker	startDocument	Request()	(Object)Adapter
+com.itextpdf.text.html.simpleparser.HTMLWorker	startElement	Request()	(Object)Adapter
+com.itextpdf.text.pdf.PdfName	null	Adaptee	(Object)Adapter
+com.itextpdf.text.pdf.internal.PdfVersionImp	null	Adapter	(Object)Adapter
+com.itextpdf.text.pdf.internal.PdfVersionImp	null	adaptee	(Object)Adapter
+com.itextpdf.text.pdf.internal.PdfVersionImp	setPdfVersion	Request()	(Object)Adapter
+com.itextpdf.text.pdf.IntHashtable	null	Adaptee	(Object)Adapter
+com.itextpdf.text.pdf.Type3Font	null	Adapter	(Object)Adapter
+com.itextpdf.text.pdf.Type3Font	null	adaptee	(Object)Adapter
+com.itextpdf.text.pdf.Type3Font	writeFont	Request()	(Object)Adapter
+com.itextpdf.text.pdf.IntHashtable	null	Adaptee	(Object)Adapter
+com.itextpdf.text.pdf.TrueTypeFont	null	Adapter	(Object)Adapter
+com.itextpdf.text.pdf.TrueTypeFont	null	adaptee	(Object)Adapter
+com.itextpdf.text.pdf.TrueTypeFont	getKerning	Request()	(Object)Adapter
+com.itextpdf.text.pdf.TrueTypeFont	hasKernPairs	Request()	(Object)Adapter
+com.itextpdf.text.pdf.TrueTypeFont	setKerning	Request()	(Object)Adapter
+com.itextpdf.text.pdf.PdfPCell	null	Adaptee	(Object)Adapter
+com.itextpdf.text.html.simpleparser.IncCell	null	Adapter	(Object)Adapter
+com.itextpdf.text.html.simpleparser.IncCell	null	adaptee	(Object)Adapter
+com.itextpdf.text.html.simpleparser.IncCell	add	Request()	(Object)Adapter
+com.itextpdf.text.Chunk	null	Adaptee	(Object)Adapter
+com.itextpdf.text.List	null	Adapter	(Object)Adapter
+com.itextpdf.text.List	null	adaptee	(Object)Adapter
+com.itextpdf.text.List	add	Request()	(Object)Adapter
+com.itextpdf.text.Paragraph	null	Adaptee	(Object)Adapter
+com.itextpdf.text.html.simpleparser.HTMLWorker	null	Adapter	(Object)Adapter
+com.itextpdf.text.html.simpleparser.HTMLWorker	null	adaptee	(Object)Adapter
+com.itextpdf.text.html.simpleparser.HTMLWorker	startElement	Request()	(Object)Adapter
+com.itextpdf.text.html.simpleparser.HTMLWorker	endElement	Request()	(Object)Adapter
+com.itextpdf.text.html.simpleparser.HTMLWorker	text	Request()	(Object)Adapter
+com.itextpdf.rups.model.ObjectLoader	null	Adapter	(Object)Adapter
+com.itextpdf.rups.model.IndirectObjectFactory	null	Adaptee	(Object)Adapter
+com.itextpdf.rups.model.ObjectLoader	null	adaptee	(Object)Adapter
+com.itextpdf.rups.model.ObjectLoader	doTask	Request()	(Object)Adapter
+com.itextpdf.rups.view.itext.XRefTable	null	Adapter	(Object)Adapter
+com.itextpdf.rups.model.IndirectObjectFactory	null	Adaptee	(Object)Adapter
+com.itextpdf.rups.view.itext.XRefTable	null	adaptee	(Object)Adapter
+com.itextpdf.rups.view.itext.XRefTable	getRowCount	Request()	(Object)Adapter
+com.itextpdf.text.pdf.PdfWriter	null	Adaptee	(Object)Adapter
+com.itextpdf.text.pdf.Type3Font	null	Adapter	(Object)Adapter
+com.itextpdf.text.pdf.Type3Font	null	adaptee	(Object)Adapter
+com.itextpdf.text.pdf.Type3Font	writeFont	Request()	(Object)Adapter
+com.itextpdf.rups.controller.PdfReaderController	null	Adaptee	(Object)Adapter
+com.itextpdf.rups.controller.RupsController	null	Adapter	(Object)Adapter
+com.itextpdf.rups.controller.RupsController	null	adaptee	(Object)Adapter
+com.itextpdf.rups.controller.RupsController	gotoPage	Request()	(Object)Adapter
+com.itextpdf.text.pdf.PdfWriter	null	Adaptee	(Object)Adapter
+com.itextpdf.text.pdf.events.FieldPositioningEvents	null	Adapter	(Object)Adapter
+com.itextpdf.text.pdf.events.FieldPositioningEvents	null	adaptee	(Object)Adapter
+com.itextpdf.text.pdf.events.FieldPositioningEvents	cellLayout	Request()	(Object)Adapter
+com.itextpdf.text.pdf.IntHashtable	null	Adaptee	(Object)Adapter
+com.itextpdf.text.pdf.PdfEncodings$Cp437Conversion	null	Adapter	(Object)Adapter
+com.itextpdf.text.pdf.PdfEncodings$Cp437Conversion	null	adaptee	(Object)Adapter
+com.itextpdf.text.pdf.PdfEncodings$Cp437Conversion	charToByte	Request()	(Object)Adapter
+com.itextpdf.text.pdf.PdfEncodings$Cp437Conversion	charToByte	Request()	(Object)Adapter
+com.itextpdf.text.pdf.IntHashtable	null	Adaptee	(Object)Adapter
+com.itextpdf.text.pdf.PdfEncodings$SymbolConversion	null	Adapter	(Object)Adapter
+com.itextpdf.text.pdf.PdfEncodings$SymbolConversion	null	adaptee	(Object)Adapter
+com.itextpdf.text.pdf.PdfEncodings$SymbolConversion	charToByte	Request()	(Object)Adapter
+com.itextpdf.text.pdf.PdfEncodings$SymbolConversion	charToByte	Request()	(Object)Adapter
+com.itextpdf.text.pdf.hyphenation.Hyphenator	null	Adaptee	(Object)Adapter
+com.itextpdf.text.pdf.HyphenationAuto	null	Adapter	(Object)Adapter
+com.itextpdf.text.pdf.HyphenationAuto	null	adaptee	(Object)Adapter
+com.itextpdf.text.pdf.HyphenationAuto	getHyphenatedWordPre	Request()	(Object)Adapter
+com.itextpdf.text.pdf.PdfFormField	null	Adaptee	(Object)Adapter
+com.itextpdf.text.pdf.events.FieldPositioningEvents	null	Adapter	(Object)Adapter
+com.itextpdf.text.pdf.events.FieldPositioningEvents	null	adaptee	(Object)Adapter
+com.itextpdf.text.pdf.events.FieldPositioningEvents	null	adaptee	(Object)Adapter
+com.itextpdf.text.pdf.events.FieldPositioningEvents	cellLayout	Request()	(Object)Adapter
+com.itextpdf.text.pdf.PdfPageEvent	null	Component	Composite
+com.itextpdf.text.pdf.events.PdfPageEventForwarder	null	Composite	Composite
+com.itextpdf.text.pdf.events.PdfPageEventForwarder	onOpenDocument	Operation()	Composite
+com.itextpdf.text.pdf.events.PdfPageEventForwarder	onStartPage	Operation()	Composite
+com.itextpdf.text.pdf.events.PdfPageEventForwarder	onEndPage	Operation()	Composite
+com.itextpdf.text.pdf.events.PdfPageEventForwarder	onCloseDocument	Operation()	Composite
+com.itextpdf.text.pdf.events.PdfPageEventForwarder	onParagraph	Operation()	Composite
+com.itextpdf.text.pdf.events.PdfPageEventForwarder	onParagraphEnd	Operation()	Composite
+com.itextpdf.text.pdf.events.PdfPageEventForwarder	onChapter	Operation()	Composite
+com.itextpdf.text.pdf.events.PdfPageEventForwarder	onChapterEnd	Operation()	Composite
+com.itextpdf.text.pdf.events.PdfPageEventForwarder	onSection	Operation()	Composite
+com.itextpdf.text.pdf.events.PdfPageEventForwarder	onSectionEnd	Operation()	Composite
+com.itextpdf.text.pdf.events.PdfPageEventForwarder	onGenericTag	Operation()	Composite
+com.itextpdf.text.pdf.PdfPCellEvent	null	Component	Composite
+com.itextpdf.text.pdf.events.PdfPCellEventForwarder	null	Composite	Composite
+com.itextpdf.text.pdf.events.PdfPCellEventForwarder	cellLayout	Operation()	Composite
+com.itextpdf.text.DocListener	null	Component	Composite
+com.itextpdf.text.Document	null	Composite	Composite
+com.itextpdf.text.Document	open	Operation()	Composite
+com.itextpdf.text.Document	setPageSize	Operation()	Composite
+com.itextpdf.text.Document	setMargins	Operation()	Composite
+com.itextpdf.text.Document	newPage	Operation()	Composite
+com.itextpdf.text.Document	resetPageCount	Operation()	Composite
+com.itextpdf.text.Document	setPageCount	Operation()	Composite
+com.itextpdf.text.Document	close	Operation()	Composite
+com.itextpdf.text.Document	setMarginMirroring	Operation()	Composite
+com.itextpdf.text.Document	setMarginMirroringTopBottom	Operation()	Composite
+com.itextpdf.text.pdf.PdfPTableEvent	null	Component	Composite
+com.itextpdf.text.pdf.events.PdfPTableEventForwarder	null	Composite	Composite
+com.itextpdf.text.pdf.events.PdfPTableEventForwarder	tableLayout	Operation()	Composite
+com.itextpdf.text.pdf.Barcode	null	Component	Decorator
+com.itextpdf.text.pdf.BarcodeEANSUPP	null	Decorator	Decorator
+com.itextpdf.text.pdf.BarcodeEANSUPP	null	component	Decorator
+com.itextpdf.text.pdf.BarcodeEANSUPP	null	component	Decorator
+com.itextpdf.text.pdf.BarcodeEANSUPP	getBarcodeSize	Operation()	Decorator
+com.itextpdf.text.pdf.BarcodeEANSUPP	placeBarcode	Operation()	Decorator
+com.itextpdf.text.pdf.BaseFont	null	Component	Decorator
+com.itextpdf.text.pdf.DocumentFont	null	Decorator	Decorator
+com.itextpdf.text.pdf.DocumentFont	null	component	Decorator
+com.itextpdf.text.pdf.DocumentFont	getFontDescriptor	Operation()	Decorator
+com.itextpdf.text.Element	null	Component	Decorator
+com.itextpdf.text.MarkedObject	null	Decorator	Decorator
+com.itextpdf.text.MarkedObject	null	component	Decorator
+com.itextpdf.text.MarkedObject	getChunks	Operation()	Decorator
+com.itextpdf.text.pdf.draw.DrawInterface	null	Component	Decorator
+com.itextpdf.text.pdf.draw.VerticalPositionMark	null	Decorator	Decorator
+com.itextpdf.text.pdf.draw.VerticalPositionMark	null	component	Decorator
+com.itextpdf.text.pdf.draw.VerticalPositionMark	draw	Operation()	Decorator
+com.itextpdf.text.pdf.parser.RenderListener	null	Component	Decorator
+com.itextpdf.text.pdf.parser.FilteredRenderListener	null	Decorator	Decorator
+com.itextpdf.text.pdf.parser.FilteredRenderListener	null	component	Decorator
+com.itextpdf.text.pdf.parser.FilteredRenderListener	renderText	Operation()	Decorator
+com.itextpdf.text.pdf.parser.FilteredRenderListener	beginTextBlock	Operation()	Decorator
+com.itextpdf.text.pdf.parser.FilteredRenderListener	endTextBlock	Operation()	Decorator
+com.itextpdf.text.pdf.parser.FilteredRenderListener	renderImage	Operation()	Decorator
+com.itextpdf.text.pdf.parser.TextExtractionStrategy	null	Component	Decorator
+com.itextpdf.text.pdf.parser.FilteredTextRenderListener	null	Decorator	Decorator
+com.itextpdf.text.pdf.parser.FilteredTextRenderListener	null	component	Decorator
+com.itextpdf.text.pdf.parser.FilteredTextRenderListener	getResultantText	Operation()	Decorator
+com.itextpdf.text.pdf.FontDetails	null	Context	State
+com.itextpdf.text.pdf.BaseFont	null	State	State
+com.itextpdf.text.pdf.FontDetails	null	state	State
+com.itextpdf.text.pdf.FontDetails	writeFont	Request()	State
+com.itextpdf.text.Font	null	Context	State
+com.itextpdf.text.pdf.BaseFont	null	State	State
+com.itextpdf.text.Font	null	state	State
+com.itextpdf.text.Font	getFamilyname	Request()	State
+com.itextpdf.text.xml.simpleparser.SimpleXMLParser	null	Context	State
+com.itextpdf.text.xml.simpleparser.SimpleXMLDocHandlerComment	null	State	State
+com.itextpdf.text.xml.simpleparser.SimpleXMLParser	null	state	State
+com.itextpdf.text.xml.simpleparser.SimpleXMLParser	flush	Request()	State
+com.itextpdf.text.xml.simpleparser.SimpleXMLParser	null	Context	State
+com.itextpdf.text.xml.simpleparser.SimpleXMLDocHandler	null	State	State
+com.itextpdf.text.xml.simpleparser.SimpleXMLParser	null	state	State
+com.itextpdf.text.xml.simpleparser.SimpleXMLParser	go	Request()	State
+com.itextpdf.text.xml.simpleparser.SimpleXMLParser	flush	Request()	State
+com.itextpdf.text.xml.simpleparser.SimpleXMLParser	processTag	Request()	State
+com.itextpdf.text.pdf.PdfSignatureAppearance	null	Context	State
+com.itextpdf.text.pdf.PdfSignatureAppearance$SignatureEvent	null	State	State
+com.itextpdf.text.pdf.PdfSignatureAppearance	null	state	State
+com.itextpdf.text.pdf.PdfSignatureAppearance	preClose	Request()	State
+com.itextpdf.rups.view.models.JTableAutoModel	null	Context	State
+com.itextpdf.rups.view.models.JTableAutoModelInterface	null	State	State
+com.itextpdf.rups.view.models.JTableAutoModel	null	state	State
+com.itextpdf.rups.view.models.JTableAutoModel	getColumnCount	Request()	State
+com.itextpdf.rups.view.models.JTableAutoModel	getRowCount	Request()	State
+com.itextpdf.rups.view.models.JTableAutoModel	getColumnName	Request()	State
+com.itextpdf.rups.view.models.JTableAutoModel	getValueAt	Request()	State
+com.itextpdf.text.html.simpleparser.FactoryProperties	null	Context	State
+com.itextpdf.text.FontProvider	null	State	State
+com.itextpdf.text.html.simpleparser.FactoryProperties	null	state	State
+com.itextpdf.text.html.simpleparser.FactoryProperties	getFont	Request()	State
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor	null	Context	State
+com.itextpdf.text.pdf.parser.RenderListener	null	State	State
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor	null	state	State
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor	beginText	Request()	State
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor	endText	Request()	State
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor	displayPdfString	Request()	State
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor	processContent	Request()	State
+com.itextpdf.text.pdf.PdfPTable	null	Context	State
+com.itextpdf.text.pdf.PdfPTableEvent	null	State	State
+com.itextpdf.text.pdf.PdfPTable	null	state	State
+com.itextpdf.text.pdf.PdfPTable	writeSelectedRows	Request()	State
+com.itextpdf.text.pdf.PdfGraphics2D	null	Context	State
+com.itextpdf.text.pdf.BaseFont	null	State	State
+com.itextpdf.text.pdf.PdfGraphics2D	null	state	State
+com.itextpdf.text.pdf.PdfGraphics2D	drawString	Request()	State
+com.itextpdf.text.pdf.PdfChunk	null	Context	State
+com.itextpdf.text.SplitCharacter	null	State	State
+com.itextpdf.text.pdf.PdfChunk	null	state	State
+com.itextpdf.text.pdf.PdfChunk	split	Request()	State
+com.itextpdf.text.pdf.PdfChunk	isExtSplitCharacter	Request()	State
+com.itextpdf.text.pdf.PdfGraphics2D	null	Context	State
+com.itextpdf.text.pdf.FontMapper	null	State	State
+com.itextpdf.text.pdf.PdfGraphics2D	null	state	State
+com.itextpdf.text.pdf.PdfGraphics2D	getCachedBaseFont	Request()	State
+com.itextpdf.rups.view.itext.PagesTable	null	Context	State
+com.itextpdf.rups.view.PageSelectionListener	null	State	State
+com.itextpdf.rups.view.itext.PagesTable	null	state	State
+com.itextpdf.rups.view.itext.PagesTable	valueChanged	Request()	State
+com.itextpdf.text.pdf.Barcode	null	AbstractClass	Template Method
+com.itextpdf.text.pdf.Barcode	createTemplateWithBarcode	TemplateMethod()	Template Method
+com.itextpdf.text.pdf.BaseFont	null	AbstractClass	Template Method
+com.itextpdf.text.pdf.BaseFont	createEncoding	TemplateMethod()	Template Method
+com.itextpdf.text.pdf.BaseFont	getWidthPointKerned	TemplateMethod()	Template Method
+com.itextpdf.text.pdf.BaseFont	getFullFontName	TemplateMethod()	Template Method
+com.itextpdf.text.pdf.BaseFont	getAllFontNames	TemplateMethod()	Template Method
+com.itextpdf.text.pdf.BaseFont	getAllNameEntries	TemplateMethod()	Template Method
+com.itextpdf.text.pdf.PdfStamperImp	null	Proxy	Proxy
+com.itextpdf.text.pdf.internal.PdfViewerPreferencesImp	null	RealSubject	Proxy
+com.itextpdf.text.pdf.PdfStamperImp	setViewerPreferences	Request()	Proxy
+com.itextpdf.text.pdf.PdfStamperImp	addViewerPreference	Request()	Proxy
+com.itextpdf.text.pdf.PdfReader	null	Proxy	Proxy
+com.itextpdf.text.pdf.internal.PdfViewerPreferencesImp	null	RealSubject	Proxy
+com.itextpdf.text.pdf.PdfReader	setViewerPreferences	Request()	Proxy
+com.itextpdf.text.pdf.PdfReader	addViewerPreference	Request()	Proxy
+com.itextpdf.text.pdf.PdfStamper	null	Proxy	Proxy
+com.itextpdf.text.pdf.PdfStamperImp	null	RealSubject	Proxy
+com.itextpdf.text.pdf.PdfStamper	setViewerPreferences	Request()	Proxy
+com.itextpdf.text.pdf.PdfStamper	addViewerPreference	Request()	Proxy
+com.itextpdf.text.pdf.PdfWriter	null	Proxy	Proxy
+com.itextpdf.text.pdf.PdfDocument	null	RealSubject	Proxy
+com.itextpdf.text.pdf.PdfWriter	close	Request()	Proxy
+com.itextpdf.text.pdf.PdfDocument	open	Request()	Proxy
+com.itextpdf.text.pdf.PdfDocument	close	Request()	Proxy
+com.itextpdf.text.pdf.PdfDocument	null	Proxy	Proxy
+com.itextpdf.text.pdf.PdfWriter	null	RealSubject	Proxy
+com.itextpdf.text.pdf.PdfDocument	open	Request()	Proxy
+com.itextpdf.text.pdf.PdfDocument	close	Request()	Proxy
+com.itextpdf.text.pdf.PdfWriter	close	Request()	Proxy
+com.itextpdf.text.pdf.PdfWriter	null	Proxy	Proxy
+com.itextpdf.text.pdf.internal.PdfVersionImp	null	RealSubject	Proxy
+com.itextpdf.text.pdf.PdfWriter	setPdfVersion	Request()	Proxy
+com.itextpdf.text.pdf.PdfWriter	setAtLeastPdfVersion	Request()	Proxy
+com.itextpdf.text.pdf.PdfWriter	setPdfVersion	Request()	Proxy
+com.itextpdf.text.pdf.PdfWriter	addDeveloperExtension	Request()	Proxy
+com.itextpdf.text.pdf.PdfWriter	null	Proxy	Proxy
+com.itextpdf.text.pdf.internal.PdfXConformanceImp	null	RealSubject	Proxy
+com.itextpdf.text.pdf.PdfWriter	setPDFXConformance	Request()	Proxy
+com.itextpdf.text.pdf.PdfWriter	getPDFXConformance	Request()	Proxy
+com.itextpdf.text.pdf.PdfWriter	isPdfX	Request()	Proxy
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$MoveNextLineAndShowTextWithSpacing	null	Proxy	Proxy
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$MoveNextLineAndShowText	null	RealSubject	Proxy
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$MoveNextLineAndShowTextWithSpacing	invoke	Request()	Proxy
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$MoveNextLineAndShowTextWithSpacing	null	Proxy	Proxy
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$SetTextCharacterSpacing	null	RealSubject	Proxy
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$MoveNextLineAndShowTextWithSpacing	invoke	Request()	Proxy
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$MoveNextLineAndShowTextWithSpacing	null	Proxy	Proxy
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$SetTextWordSpacing	null	RealSubject	Proxy
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$MoveNextLineAndShowTextWithSpacing	invoke	Request()	Proxy
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$TextMoveStartNextLineWithLeading	null	Proxy	Proxy
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$TextMoveStartNextLine	null	RealSubject	Proxy
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$TextMoveStartNextLineWithLeading	invoke	Request()	Proxy
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$MoveNextLineAndShowText	null	Proxy	Proxy
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$ShowText	null	RealSubject	Proxy
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$MoveNextLineAndShowText	invoke	Request()	Proxy
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$MoveNextLineAndShowText	null	Proxy	Proxy
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$TextMoveNextLine	null	RealSubject	Proxy
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$MoveNextLineAndShowText	invoke	Request()	Proxy
+com.itextpdf.text.Image	null	Handler	Chain of Responsibility
+com.itextpdf.text.Image	null	successor	Chain of Responsibility

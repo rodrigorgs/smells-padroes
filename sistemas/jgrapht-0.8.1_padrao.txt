@@ -1,88 +1,385 @@
-org.jgrapht.experimental.dag.DirectedAcyclicGraph$VisitedFactory	Factory Method
-org.jgrapht.experimental.equivalence.EquivalenceComparator	Composite
-org.jgrapht.experimental.permutation.CollectionPermutationIter	State
-org.jgrapht.ext.VisioExporter	State
-org.jgrapht.util.WeightCombiner	Singleton
-org.jgrapht.experimental.isomorphism.AbstractExhaustiveIsomorphismInspector	Template Method
-org.jgrapht.graph.GraphUnion	State
-org.jgrapht.alg.TransitiveClosure	Singleton
-org.jgrapht.graph.MaskEdgeSet	State
-org.jgrapht.EdgeFactory	Bridge
-org.jgrapht.alg.EdmondsKarpMaximumFlow	State
-org.jgrapht.util.PrefetchIterator$NextElementFunctor	State
-org.jgrapht.ext.EdgeNameProvider	State
-org.jgrapht.graph.MaskSubgraph	State
-org.jgrapht.graph.MaskFunctor	State
-org.jgrapht.graph.AbstractBaseGraph$Specifics	(Object)Adapter
-org.jgrapht.graph.AbstractBaseGraph$Specifics	Bridge
-org.jgrapht.alg.BellmanFordShortestPath	State
-org.jgrapht.DirectedGraph	State
-org.jgrapht.DirectedGraph	(Object)Adapter
-org.jgrapht.graph.GraphDelegator	Decorator
-org.jgrapht.traverse.CrossComponentIterator$UndirectedSpecifics	State
-org.jgrapht.EdgeFactory	State
-org.jgrapht.util.WeightCombiner	State
-org.jgrapht.experimental.isomorphism.AbstractExhaustiveIsomorphismInspector	Bridge
-org.jgrapht.experimental.isomorphism.IsomorphismRelation	Decorator
-org.jgrapht.alg.util.VertexDegreeComparator	State
-org.jgrapht.Graph	(Object)Adapter
-org.jgrapht.experimental.equivalence.EquivalenceComparator	State
-org.jgrapht.traverse.DepthFirstIterator	(Object)Adapter
-org.jgrapht.util.FibonacciHeap	(Object)Adapter
-org.jgrapht.graph.AsUndirectedGraphTest	State
-org.jgrapht.util.PrefetchIterator	State
-org.jgrapht.experimental.equivalence.EquivalenceComparatorChainBase	Composite
-org.jgrapht.graph.Subgraph	Decorator
-org.jgrapht.alg.DijkstraShortestPath	State
-org.jgrapht.graph.AbstractBaseGraph	(Object)Adapter
-org.jgrapht.experimental.isomorphism.AbstractExhaustiveIsomorphismInspector	(Object)Adapter
-org.jgrapht.GraphMapping	Decorator
-org.jgrapht.alg.KShortestPaths	State
-org.jgrapht.alg.KShortestPathsIterator	State
-org.jgrapht.graph.AbstractBaseGraph	Bridge
-org.jgrapht.alg.RankingPathElement	(Object)Adapter
-org.jgrapht.alg.NeighborIndex	State
-org.jgrapht.graph.MaskVertexSet	State
-org.jgrapht.experimental.permutation.ArrayPermutationsIter	State
-org.jgrapht.ext.VertexNameProvider	State
-org.jgrapht.traverse.CrossComponentIterator$DirectedSpecifics	State
-org.jgrapht.demo.CompleteGraphDemo	State
-org.jgrapht.event.TraversalListener	Observer
-org.jgrapht.alg.DirectedNeighborIndex	(Object)Adapter
-org.jgrapht.graph.GraphUnion	Decorator
-org.jgrapht.alg.BronKerboschCliqueFinder	State
-org.jgrapht.traverse.AbstractGraphIteratorTest	Template Method
-org.jgrapht.EdgeFactory	(Object)Adapter
-org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoComparator	State
-org.jgrapht.traverse.AbstractGraphIterator	Observer
-org.jgrapht.ext.DOTExporter	State
-org.jgrapht.ext.JGraphModelAdapter$ShieldedGraph	State
-org.jgrapht.Graph	Bridge
-org.jgrapht.alg.NeighborIndex	(Object)Adapter
-org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoOrderMapping	State
-org.jgrapht.alg.AbstractPathElement	Chain of Responsibility
-org.jgrapht.graph.DefaultGraphMapping	State
-org.jgrapht.UndirectedGraph	State
-org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoOrderMappingFactory	State
-org.jgrapht.alg.BellmanFordIterator	State
-org.jgrapht.traverse.CrossComponentIterator	Template Method
-org.jgrapht.graph.GenericGraphsTest	State
-org.jgrapht.experimental.dag.DirectedAcyclicGraph	State
-org.jgrapht.ext.GmlExporter	State
-org.jgrapht.experimental.dag.DirectedAcyclicGraph$VisitedFactory	State
-org.jgrapht.experimental.isomorphism.comparators.DirectedEdgeWeightOddEvenComparator	State
-org.jgrapht.alg.ConnectivityInspector	State
-org.jgrapht.ext.GraphMLExporter	State
-org.jgrapht.graph.DefaultGraphMapping	(Object)Adapter
-org.jgrapht.graph.MaskSubgraph	Decorator
-org.jgrapht.GraphPath	State
-org.jgrapht.Graph	Decorator
-org.jgrapht.Graph	State
-org.jgrapht.experimental.equivalence.EquivalenceSet	State
-org.jgrapht.util.TypeUtil	(Object)Adapter
-org.jgrapht.traverse.ClosestFirstIterator	(Object)Adapter
-org.jgrapht.traverse.CrossComponentIterator$DirectedSpecifics	(Object)Adapter
-org.jgrapht.util.PrefetchIterator	(Object)Adapter
-org.jgrapht.graph.SimpleDirectedGraphTest	State
-org.jgrapht.traverse.AbstractGraphIteratorTest	Factory Method
-org.jgrapht.alg.KShortestPaths$PathWrapper	(Object)Adapter
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$VisitedFactory	null	Creator	Factory Method
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$VisitedFactory	getInstance	FactoryMethod()	Factory Method
+org.jgrapht.traverse.AbstractGraphIteratorTest	null	Creator	Factory Method
+org.jgrapht.traverse.AbstractGraphIteratorTest	createIterator	FactoryMethod()	Factory Method
+org.jgrapht.alg.TransitiveClosure	null	Singleton	Singleton
+org.jgrapht.alg.TransitiveClosure	null	uniqueInstance	Singleton
+org.jgrapht.util.WeightCombiner	null	Singleton	Singleton
+org.jgrapht.util.WeightCombiner	null	uniqueInstance	Singleton
+org.jgrapht.util.WeightCombiner	null	uniqueInstance	Singleton
+org.jgrapht.util.WeightCombiner	null	uniqueInstance	Singleton
+org.jgrapht.util.WeightCombiner	null	uniqueInstance	Singleton
+org.jgrapht.util.WeightCombiner	null	uniqueInstance	Singleton
+org.jgrapht.util.TypeUtil	null	Adaptee	(Object)Adapter
+org.jgrapht.graph.AbstractBaseGraph	null	Adapter	(Object)Adapter
+org.jgrapht.graph.AbstractBaseGraph	null	adaptee	(Object)Adapter
+org.jgrapht.graph.AbstractBaseGraph	getEdgeSource	Request()	(Object)Adapter
+org.jgrapht.graph.AbstractBaseGraph	getEdgeTarget	Request()	(Object)Adapter
+org.jgrapht.util.FibonacciHeap	null	Adaptee	(Object)Adapter
+org.jgrapht.traverse.ClosestFirstIterator	null	Adapter	(Object)Adapter
+org.jgrapht.traverse.ClosestFirstIterator	null	adaptee	(Object)Adapter
+org.jgrapht.traverse.ClosestFirstIterator	isConnectedComponentExhausted	Request()	(Object)Adapter
+org.jgrapht.traverse.ClosestFirstIterator	encounterVertex	Request()	(Object)Adapter
+org.jgrapht.traverse.ClosestFirstIterator	encounterVertexAgain	Request()	(Object)Adapter
+org.jgrapht.traverse.ClosestFirstIterator	provideNextVertex	Request()	(Object)Adapter
+org.jgrapht.util.TypeUtil	null	Adaptee	(Object)Adapter
+org.jgrapht.traverse.DepthFirstIterator	null	Adapter	(Object)Adapter
+org.jgrapht.traverse.DepthFirstIterator	null	adaptee	(Object)Adapter
+org.jgrapht.traverse.DepthFirstIterator	provideNextVertex	Request()	(Object)Adapter
+org.jgrapht.graph.AbstractBaseGraph$Specifics	null	Adaptee	(Object)Adapter
+org.jgrapht.graph.AbstractBaseGraph	null	Adapter	(Object)Adapter
+org.jgrapht.graph.AbstractBaseGraph	null	adaptee	(Object)Adapter
+org.jgrapht.graph.AbstractBaseGraph	getAllEdges	Request()	(Object)Adapter
+org.jgrapht.graph.AbstractBaseGraph	getEdge	Request()	(Object)Adapter
+org.jgrapht.graph.AbstractBaseGraph	addEdge	Request()	(Object)Adapter
+org.jgrapht.graph.AbstractBaseGraph	addEdge	Request()	(Object)Adapter
+org.jgrapht.graph.AbstractBaseGraph	addVertex	Request()	(Object)Adapter
+org.jgrapht.graph.AbstractBaseGraph	containsVertex	Request()	(Object)Adapter
+org.jgrapht.graph.AbstractBaseGraph	edgesOf	Request()	(Object)Adapter
+org.jgrapht.graph.AbstractBaseGraph	removeEdge	Request()	(Object)Adapter
+org.jgrapht.graph.AbstractBaseGraph	removeEdge	Request()	(Object)Adapter
+org.jgrapht.graph.AbstractBaseGraph	removeVertex	Request()	(Object)Adapter
+org.jgrapht.graph.AbstractBaseGraph	vertexSet	Request()	(Object)Adapter
+org.jgrapht.Graph	null	Adaptee	(Object)Adapter
+org.jgrapht.alg.NeighborIndex	null	Adapter	(Object)Adapter
+org.jgrapht.alg.NeighborIndex	null	adaptee	(Object)Adapter
+org.jgrapht.alg.NeighborIndex	edgeAdded	Request()	(Object)Adapter
+org.jgrapht.alg.NeighborIndex	edgeRemoved	Request()	(Object)Adapter
+org.jgrapht.experimental.isomorphism.AbstractExhaustiveIsomorphismInspector	null	Adapter	(Object)Adapter
+org.jgrapht.util.PrefetchIterator	null	Adaptee	(Object)Adapter
+org.jgrapht.experimental.isomorphism.AbstractExhaustiveIsomorphismInspector	null	adaptee	(Object)Adapter
+org.jgrapht.experimental.isomorphism.AbstractExhaustiveIsomorphismInspector	isIsomorphic	Request()	(Object)Adapter
+org.jgrapht.EdgeFactory	null	Adaptee	(Object)Adapter
+org.jgrapht.graph.AbstractBaseGraph	null	Adapter	(Object)Adapter
+org.jgrapht.graph.AbstractBaseGraph	null	adaptee	(Object)Adapter
+org.jgrapht.graph.AbstractBaseGraph	addEdge	Request()	(Object)Adapter
+org.jgrapht.Graph	null	Adaptee	(Object)Adapter
+org.jgrapht.graph.DefaultGraphMapping	null	Adapter	(Object)Adapter
+org.jgrapht.graph.DefaultGraphMapping	null	adaptee	(Object)Adapter
+org.jgrapht.graph.DefaultGraphMapping	null	adaptee	(Object)Adapter
+org.jgrapht.graph.DefaultGraphMapping	getEdgeCorrespondence	Request()	(Object)Adapter
+org.jgrapht.alg.RankingPathElement	null	Adaptee	(Object)Adapter
+org.jgrapht.alg.KShortestPaths$PathWrapper	null	Adapter	(Object)Adapter
+org.jgrapht.alg.KShortestPaths$PathWrapper	null	adaptee	(Object)Adapter
+org.jgrapht.alg.KShortestPaths$PathWrapper	getEndVertex	Request()	(Object)Adapter
+org.jgrapht.alg.KShortestPaths$PathWrapper	getEdgeList	Request()	(Object)Adapter
+org.jgrapht.alg.KShortestPaths$PathWrapper	getWeight	Request()	(Object)Adapter
+org.jgrapht.DirectedGraph	null	Adaptee	(Object)Adapter
+org.jgrapht.alg.DirectedNeighborIndex	null	Adapter	(Object)Adapter
+org.jgrapht.alg.DirectedNeighborIndex	null	adaptee	(Object)Adapter
+org.jgrapht.alg.DirectedNeighborIndex	edgeAdded	Request()	(Object)Adapter
+org.jgrapht.alg.DirectedNeighborIndex	edgeRemoved	Request()	(Object)Adapter
+org.jgrapht.DirectedGraph	null	Adaptee	(Object)Adapter
+org.jgrapht.traverse.CrossComponentIterator$DirectedSpecifics	null	Adapter	(Object)Adapter
+org.jgrapht.traverse.CrossComponentIterator$DirectedSpecifics	null	adaptee	(Object)Adapter
+org.jgrapht.traverse.CrossComponentIterator$DirectedSpecifics	edgesOf	Request()	(Object)Adapter
+org.jgrapht.experimental.equivalence.EquivalenceComparator	null	Component	Composite
+org.jgrapht.experimental.equivalence.EquivalenceComparatorChainBase	null	Composite	Composite
+org.jgrapht.experimental.equivalence.EquivalenceComparatorChainBase	equivalenceCompare	Operation()	Composite
+org.jgrapht.experimental.equivalence.EquivalenceComparatorChainBase	equivalenceHashcode	Operation()	Composite
+org.jgrapht.Graph	null	Component	Decorator
+org.jgrapht.graph.GraphDelegator	null	Decorator	Decorator
+org.jgrapht.graph.GraphDelegator	null	component	Decorator
+org.jgrapht.graph.GraphDelegator	getAllEdges	Operation()	Decorator
+org.jgrapht.graph.GraphDelegator	getEdge	Operation()	Decorator
+org.jgrapht.graph.GraphDelegator	getEdgeFactory	Operation()	Decorator
+org.jgrapht.graph.GraphDelegator	addEdge	Operation()	Decorator
+org.jgrapht.graph.GraphDelegator	addEdge	Operation()	Decorator
+org.jgrapht.graph.GraphDelegator	addVertex	Operation()	Decorator
+org.jgrapht.graph.GraphDelegator	containsEdge	Operation()	Decorator
+org.jgrapht.graph.GraphDelegator	containsVertex	Operation()	Decorator
+org.jgrapht.graph.GraphDelegator	edgeSet	Operation()	Decorator
+org.jgrapht.graph.GraphDelegator	edgesOf	Operation()	Decorator
+org.jgrapht.graph.GraphDelegator	removeEdge	Operation()	Decorator
+org.jgrapht.graph.GraphDelegator	removeEdge	Operation()	Decorator
+org.jgrapht.graph.GraphDelegator	removeVertex	Operation()	Decorator
+org.jgrapht.graph.GraphDelegator	vertexSet	Operation()	Decorator
+org.jgrapht.graph.GraphDelegator	getEdgeSource	Operation()	Decorator
+org.jgrapht.graph.GraphDelegator	getEdgeTarget	Operation()	Decorator
+org.jgrapht.graph.GraphDelegator	getEdgeWeight	Operation()	Decorator
+org.jgrapht.Graph	null	Component	Decorator
+org.jgrapht.graph.GraphUnion	null	Decorator	Decorator
+org.jgrapht.graph.GraphUnion	null	component	Decorator
+org.jgrapht.graph.GraphUnion	null	component	Decorator
+org.jgrapht.graph.GraphUnion	getAllEdges	Operation()	Decorator
+org.jgrapht.graph.GraphUnion	getEdge	Operation()	Decorator
+org.jgrapht.graph.GraphUnion	containsEdge	Operation()	Decorator
+org.jgrapht.graph.GraphUnion	containsVertex	Operation()	Decorator
+org.jgrapht.graph.GraphUnion	edgeSet	Operation()	Decorator
+org.jgrapht.graph.GraphUnion	edgesOf	Operation()	Decorator
+org.jgrapht.graph.GraphUnion	vertexSet	Operation()	Decorator
+org.jgrapht.graph.GraphUnion	getEdgeSource	Operation()	Decorator
+org.jgrapht.graph.GraphUnion	getEdgeTarget	Operation()	Decorator
+org.jgrapht.graph.GraphUnion	getEdgeWeight	Operation()	Decorator
+org.jgrapht.Graph	null	Component	Decorator
+org.jgrapht.graph.MaskSubgraph	null	Decorator	Decorator
+org.jgrapht.graph.MaskSubgraph	null	component	Decorator
+org.jgrapht.graph.MaskSubgraph	containsVertex	Operation()	Decorator
+org.jgrapht.graph.MaskSubgraph	edgesOf	Operation()	Decorator
+org.jgrapht.graph.MaskSubgraph	getAllEdges	Operation()	Decorator
+org.jgrapht.graph.MaskSubgraph	getEdgeFactory	Operation()	Decorator
+org.jgrapht.graph.MaskSubgraph	getEdgeSource	Operation()	Decorator
+org.jgrapht.graph.MaskSubgraph	getEdgeTarget	Operation()	Decorator
+org.jgrapht.graph.MaskSubgraph	getEdgeWeight	Operation()	Decorator
+org.jgrapht.Graph	null	Component	Decorator
+org.jgrapht.graph.Subgraph	null	Decorator	Decorator
+org.jgrapht.graph.Subgraph	null	component	Decorator
+org.jgrapht.graph.Subgraph	getAllEdges	Operation()	Decorator
+org.jgrapht.graph.Subgraph	getEdgeFactory	Operation()	Decorator
+org.jgrapht.graph.Subgraph	edgesOf	Operation()	Decorator
+org.jgrapht.graph.Subgraph	getEdgeSource	Operation()	Decorator
+org.jgrapht.graph.Subgraph	getEdgeTarget	Operation()	Decorator
+org.jgrapht.graph.Subgraph	getEdgeWeight	Operation()	Decorator
+org.jgrapht.GraphMapping	null	Component	Decorator
+org.jgrapht.experimental.isomorphism.IsomorphismRelation	null	Decorator	Decorator
+org.jgrapht.experimental.isomorphism.IsomorphismRelation	null	component	Decorator
+org.jgrapht.experimental.isomorphism.IsomorphismRelation	getVertexCorrespondence	Operation()	Decorator
+org.jgrapht.experimental.isomorphism.IsomorphismRelation	getEdgeCorrespondence	Operation()	Decorator
+org.jgrapht.event.TraversalListener	null	Observer	Observer
+org.jgrapht.traverse.AbstractGraphIterator	null	Subject	Observer
+org.jgrapht.traverse.AbstractGraphIterator	fireConnectedComponentFinished	Notify()	Observer
+org.jgrapht.traverse.AbstractGraphIterator	fireConnectedComponentStarted	Notify()	Observer
+org.jgrapht.traverse.AbstractGraphIterator	fireEdgeTraversed	Notify()	Observer
+org.jgrapht.traverse.AbstractGraphIterator	fireVertexTraversed	Notify()	Observer
+org.jgrapht.traverse.AbstractGraphIterator	fireVertexFinished	Notify()	Observer
+org.jgrapht.Graph	null	State	State
+org.jgrapht.ext.JGraphModelAdapter$ShieldedGraph	null	Context	State
+org.jgrapht.ext.JGraphModelAdapter$ShieldedGraph	null	state	State
+org.jgrapht.ext.JGraphModelAdapter$ShieldedGraph	getEdgeFactory	Request()	State
+org.jgrapht.ext.JGraphModelAdapter$ShieldedGraph	addEdge	Request()	State
+org.jgrapht.ext.JGraphModelAdapter$ShieldedGraph	getEdgeSource	Request()	State
+org.jgrapht.ext.JGraphModelAdapter$ShieldedGraph	getEdgeTarget	Request()	State
+org.jgrapht.ext.JGraphModelAdapter$ShieldedGraph	addVertex	Request()	State
+org.jgrapht.ext.JGraphModelAdapter$ShieldedGraph	edgesOf	Request()	State
+org.jgrapht.ext.JGraphModelAdapter$ShieldedGraph	removeAllEdges	Request()	State
+org.jgrapht.ext.JGraphModelAdapter$ShieldedGraph	removeEdge	Request()	State
+org.jgrapht.ext.JGraphModelAdapter$ShieldedGraph	removeVertex	Request()	State
+org.jgrapht.Graph	null	State	State
+org.jgrapht.alg.BellmanFordShortestPath	null	Context	State
+org.jgrapht.alg.BellmanFordShortestPath	null	state	State
+org.jgrapht.alg.BellmanFordShortestPath	assertGetPath	Request()	State
+org.jgrapht.Graph	null	State	State
+org.jgrapht.alg.BellmanFordIterator	null	Context	State
+org.jgrapht.alg.BellmanFordIterator	null	state	State
+org.jgrapht.alg.BellmanFordIterator	assertValidEdge	Request()	State
+org.jgrapht.alg.BellmanFordIterator	calculatePathCost	Request()	State
+org.jgrapht.alg.BellmanFordIterator	edgesOfIterator	Request()	State
+org.jgrapht.Graph	null	State	State
+org.jgrapht.alg.BronKerboschCliqueFinder	null	Context	State
+org.jgrapht.alg.BronKerboschCliqueFinder	null	state	State
+org.jgrapht.alg.BronKerboschCliqueFinder	getAllMaximalCliques	Request()	State
+org.jgrapht.alg.BronKerboschCliqueFinder	findCliques	Request()	State
+org.jgrapht.alg.BronKerboschCliqueFinder	end	Request()	State
+org.jgrapht.Graph	null	State	State
+org.jgrapht.alg.KShortestPaths	null	Context	State
+org.jgrapht.alg.KShortestPaths	null	state	State
+org.jgrapht.alg.KShortestPaths	assertGetPaths	Request()	State
+org.jgrapht.Graph	null	State	State
+org.jgrapht.alg.KShortestPathsIterator	null	Context	State
+org.jgrapht.alg.KShortestPathsIterator	null	state	State
+org.jgrapht.alg.KShortestPathsIterator	edgesOf	Request()	State
+org.jgrapht.Graph	null	State	State
+org.jgrapht.demo.CompleteGraphDemo	null	Context	State
+org.jgrapht.demo.CompleteGraphDemo	null	state	State
+org.jgrapht.demo.CompleteGraphDemo	main	Request()	State
+org.jgrapht.demo.CompleteGraphDemo	replaceVertex	Request()	State
+org.jgrapht.Graph	null	State	State
+org.jgrapht.graph.GenericGraphsTest	null	Context	State
+org.jgrapht.graph.GenericGraphsTest	null	state	State
+org.jgrapht.graph.GenericGraphsTest	null	state	State
+org.jgrapht.graph.GenericGraphsTest	null	state	State
+org.jgrapht.graph.GenericGraphsTest	testLegalInsertStringGraph	Request()	State
+org.jgrapht.graph.GenericGraphsTest	testLegalInsertFooGraph	Request()	State
+org.jgrapht.graph.GenericGraphsTest	testLegalInsertBarGraph	Request()	State
+org.jgrapht.graph.GenericGraphsTest	testLegalInsertFooBarGraph	Request()	State
+org.jgrapht.DirectedGraph	null	State	State
+org.jgrapht.alg.EdmondsKarpMaximumFlow	null	Context	State
+org.jgrapht.alg.EdmondsKarpMaximumFlow	null	state	State
+org.jgrapht.alg.EdmondsKarpMaximumFlow	buildInternalNetwork	Request()	State
+org.jgrapht.DirectedGraph	null	State	State
+org.jgrapht.graph.SimpleDirectedGraphTest	null	Context	State
+org.jgrapht.graph.SimpleDirectedGraphTest	null	state	State
+org.jgrapht.graph.SimpleDirectedGraphTest	null	state	State
+org.jgrapht.graph.SimpleDirectedGraphTest	null	state	State
+org.jgrapht.graph.SimpleDirectedGraphTest	null	state	State
+org.jgrapht.graph.SimpleDirectedGraphTest	testInDegreeOf	Request()	State
+org.jgrapht.graph.SimpleDirectedGraphTest	testIncomingOutgoingEdgesOf	Request()	State
+org.jgrapht.alg.util.VertexDegreeComparator	null	Context	State
+org.jgrapht.UndirectedGraph	null	State	State
+org.jgrapht.alg.util.VertexDegreeComparator	null	state	State
+org.jgrapht.alg.util.VertexDegreeComparator	compare	Request()	State
+org.jgrapht.graph.AsUndirectedGraphTest	null	Context	State
+org.jgrapht.UndirectedGraph	null	State	State
+org.jgrapht.graph.AsUndirectedGraphTest	null	state	State
+org.jgrapht.graph.AsUndirectedGraphTest	testDegreeOf	Request()	State
+org.jgrapht.Graph	null	State	State
+org.jgrapht.alg.ConnectivityInspector	null	Context	State
+org.jgrapht.alg.ConnectivityInspector	null	state	State
+org.jgrapht.alg.ConnectivityInspector	lazyFindConnectedSets	Request()	State
+org.jgrapht.Graph	null	State	State
+org.jgrapht.alg.NeighborIndex	null	Context	State
+org.jgrapht.alg.NeighborIndex	null	state	State
+org.jgrapht.alg.NeighborIndex	edgeAdded	Request()	State
+org.jgrapht.alg.NeighborIndex	edgeRemoved	Request()	State
+org.jgrapht.util.PrefetchIterator	null	Context	State
+org.jgrapht.util.PrefetchIterator$NextElementFunctor	null	State	State
+org.jgrapht.util.PrefetchIterator	null	state	State
+org.jgrapht.util.PrefetchIterator	getNextElementFromInnerFunctor	Request()	State
+org.jgrapht.ext.DOTExporter	null	Context	State
+org.jgrapht.ext.VertexNameProvider	null	State	State
+org.jgrapht.ext.DOTExporter	null	state	State
+org.jgrapht.ext.DOTExporter	null	state	State
+org.jgrapht.ext.DOTExporter	export	Request()	State
+org.jgrapht.ext.DOTExporter	getVertexID	Request()	State
+org.jgrapht.ext.GmlExporter	null	Context	State
+org.jgrapht.ext.VertexNameProvider	null	State	State
+org.jgrapht.ext.GmlExporter	null	state	State
+org.jgrapht.ext.GmlExporter	null	state	State
+org.jgrapht.ext.GmlExporter	exportVertices	Request()	State
+org.jgrapht.ext.GmlExporter	exportEdges	Request()	State
+org.jgrapht.ext.GmlExporter	export	Request()	State
+org.jgrapht.ext.GraphMLExporter	null	Context	State
+org.jgrapht.ext.VertexNameProvider	null	State	State
+org.jgrapht.ext.GraphMLExporter	null	state	State
+org.jgrapht.ext.GraphMLExporter	null	state	State
+org.jgrapht.ext.GraphMLExporter	export	Request()	State
+org.jgrapht.ext.VisioExporter	null	Context	State
+org.jgrapht.ext.VertexNameProvider	null	State	State
+org.jgrapht.ext.VisioExporter	null	state	State
+org.jgrapht.ext.VisioExporter	exportEdge	Request()	State
+org.jgrapht.ext.VisioExporter	exportVertex	Request()	State
+org.jgrapht.experimental.equivalence.EquivalenceSet	null	Context	State
+org.jgrapht.experimental.equivalence.EquivalenceComparator	null	State	State
+org.jgrapht.experimental.equivalence.EquivalenceSet	null	state	State
+org.jgrapht.experimental.equivalence.EquivalenceSet	equivalentTo	Request()	State
+org.jgrapht.experimental.equivalence.EquivalenceSet	equals	Request()	State
+org.jgrapht.experimental.equivalence.EquivalenceSet	hashCode	Request()	State
+org.jgrapht.experimental.dag.DirectedAcyclicGraph	null	Context	State
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoOrderMapping	null	State	State
+org.jgrapht.experimental.dag.DirectedAcyclicGraph	null	state	State
+org.jgrapht.experimental.dag.DirectedAcyclicGraph	addVertex	Request()	State
+org.jgrapht.experimental.dag.DirectedAcyclicGraph	addVertex	Request()	State
+org.jgrapht.experimental.dag.DirectedAcyclicGraph	addDagEdge	Request()	State
+org.jgrapht.experimental.dag.DirectedAcyclicGraph	addDagEdge	Request()	State
+org.jgrapht.experimental.dag.DirectedAcyclicGraph	removeVertex	Request()	State
+org.jgrapht.experimental.dag.DirectedAcyclicGraph	removeAllVertices	Request()	State
+org.jgrapht.experimental.dag.DirectedAcyclicGraph	dfsF	Request()	State
+org.jgrapht.experimental.dag.DirectedAcyclicGraph	dfsB	Request()	State
+org.jgrapht.experimental.dag.DirectedAcyclicGraph	reorder	Request()	State
+org.jgrapht.alg.DijkstraShortestPath	null	Context	State
+org.jgrapht.GraphPath	null	State	State
+org.jgrapht.alg.DijkstraShortestPath	null	state	State
+org.jgrapht.alg.DijkstraShortestPath	getPathEdgeList	Request()	State
+org.jgrapht.alg.DijkstraShortestPath	getPathLength	Request()	State
+org.jgrapht.experimental.permutation.CollectionPermutationIter	null	Context	State
+org.jgrapht.experimental.permutation.ArrayPermutationsIter	null	State	State
+org.jgrapht.experimental.permutation.CollectionPermutationIter	null	state	State
+org.jgrapht.experimental.permutation.CollectionPermutationIter	hasNext	Request()	State
+org.jgrapht.experimental.permutation.CollectionPermutationIter	getNextArray	Request()	State
+org.jgrapht.ext.DOTExporter	null	Context	State
+org.jgrapht.ext.EdgeNameProvider	null	State	State
+org.jgrapht.ext.DOTExporter	null	state	State
+org.jgrapht.ext.DOTExporter	export	Request()	State
+org.jgrapht.ext.GmlExporter	null	Context	State
+org.jgrapht.ext.EdgeNameProvider	null	State	State
+org.jgrapht.ext.GmlExporter	null	state	State
+org.jgrapht.ext.GmlExporter	null	state	State
+org.jgrapht.ext.GmlExporter	exportEdges	Request()	State
+org.jgrapht.ext.GraphMLExporter	null	Context	State
+org.jgrapht.ext.EdgeNameProvider	null	State	State
+org.jgrapht.ext.GraphMLExporter	null	state	State
+org.jgrapht.ext.GraphMLExporter	null	state	State
+org.jgrapht.ext.GraphMLExporter	export	Request()	State
+org.jgrapht.Graph	null	State	State
+org.jgrapht.graph.DefaultGraphMapping	null	Context	State
+org.jgrapht.graph.DefaultGraphMapping	null	state	State
+org.jgrapht.graph.DefaultGraphMapping	null	state	State
+org.jgrapht.graph.DefaultGraphMapping	getEdgeCorrespondence	Request()	State
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoComparator	null	Context	State
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoOrderMapping	null	State	State
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoComparator	null	state	State
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoComparator	compare	Request()	State
+org.jgrapht.experimental.dag.DirectedAcyclicGraph	null	Context	State
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoOrderMappingFactory	null	State	State
+org.jgrapht.experimental.dag.DirectedAcyclicGraph	null	state	State
+org.jgrapht.experimental.dag.DirectedAcyclicGraph	initialize	Request()	State
+org.jgrapht.experimental.dag.DirectedAcyclicGraph	null	Context	State
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$VisitedFactory	null	State	State
+org.jgrapht.experimental.dag.DirectedAcyclicGraph	null	state	State
+org.jgrapht.experimental.dag.DirectedAcyclicGraph	addDagEdge	Request()	State
+org.jgrapht.experimental.dag.DirectedAcyclicGraph	addDagEdge	Request()	State
+org.jgrapht.graph.SimpleDirectedGraphTest	null	Context	State
+org.jgrapht.EdgeFactory	null	State	State
+org.jgrapht.graph.SimpleDirectedGraphTest	null	state	State
+org.jgrapht.graph.SimpleDirectedGraphTest	testAddEdgeEdge	Request()	State
+org.jgrapht.graph.SimpleDirectedGraphTest	init	Request()	State
+org.jgrapht.graph.MaskSubgraph	null	Context	State
+org.jgrapht.graph.MaskFunctor	null	State	State
+org.jgrapht.graph.MaskSubgraph	null	state	State
+org.jgrapht.graph.MaskSubgraph	containsVertex	Request()	State
+org.jgrapht.graph.MaskEdgeSet	null	Context	State
+org.jgrapht.graph.MaskFunctor	null	State	State
+org.jgrapht.graph.MaskEdgeSet	null	state	State
+org.jgrapht.graph.MaskEdgeSet	contains	Request()	State
+org.jgrapht.graph.MaskVertexSet	null	Context	State
+org.jgrapht.graph.MaskFunctor	null	State	State
+org.jgrapht.graph.MaskVertexSet	null	state	State
+org.jgrapht.graph.MaskVertexSet	contains	Request()	State
+org.jgrapht.experimental.isomorphism.comparators.DirectedEdgeWeightOddEvenComparator	null	Context	State
+org.jgrapht.Graph	null	State	State
+org.jgrapht.experimental.isomorphism.comparators.DirectedEdgeWeightOddEvenComparator	null	state	State
+org.jgrapht.experimental.isomorphism.comparators.DirectedEdgeWeightOddEvenComparator	equivalenceCompare	Request()	State
+org.jgrapht.experimental.isomorphism.comparators.DirectedEdgeWeightOddEvenComparator	equivalenceHashcode	Request()	State
+org.jgrapht.graph.GraphUnion	null	Context	State
+org.jgrapht.util.WeightCombiner	null	State	State
+org.jgrapht.graph.GraphUnion	null	state	State
+org.jgrapht.graph.GraphUnion	getEdgeWeight	Request()	State
+org.jgrapht.traverse.CrossComponentIterator$DirectedSpecifics	null	Context	State
+org.jgrapht.DirectedGraph	null	State	State
+org.jgrapht.traverse.CrossComponentIterator$DirectedSpecifics	null	state	State
+org.jgrapht.traverse.CrossComponentIterator$DirectedSpecifics	edgesOf	Request()	State
+org.jgrapht.traverse.CrossComponentIterator$UndirectedSpecifics	null	Context	State
+org.jgrapht.Graph	null	State	State
+org.jgrapht.traverse.CrossComponentIterator$UndirectedSpecifics	null	state	State
+org.jgrapht.traverse.CrossComponentIterator$UndirectedSpecifics	edgesOf	Request()	State
+org.jgrapht.graph.AbstractBaseGraph	null	Abstraction	Bridge
+org.jgrapht.graph.AbstractBaseGraph$Specifics	null	Implementor	Bridge
+org.jgrapht.graph.AbstractBaseGraph	null	implementor	Bridge
+org.jgrapht.graph.AbstractBaseGraph	getAllEdges	Operation()	Bridge
+org.jgrapht.graph.AbstractBaseGraph	getEdge	Operation()	Bridge
+org.jgrapht.graph.AbstractBaseGraph	addEdge	Operation()	Bridge
+org.jgrapht.graph.AbstractBaseGraph	addEdge	Operation()	Bridge
+org.jgrapht.graph.AbstractBaseGraph	addVertex	Operation()	Bridge
+org.jgrapht.graph.AbstractBaseGraph	containsVertex	Operation()	Bridge
+org.jgrapht.graph.AbstractBaseGraph	degreeOf	Operation()	Bridge
+org.jgrapht.graph.AbstractBaseGraph	edgesOf	Operation()	Bridge
+org.jgrapht.graph.AbstractBaseGraph	inDegreeOf	Operation()	Bridge
+org.jgrapht.graph.AbstractBaseGraph	incomingEdgesOf	Operation()	Bridge
+org.jgrapht.graph.AbstractBaseGraph	outDegreeOf	Operation()	Bridge
+org.jgrapht.graph.AbstractBaseGraph	outgoingEdgesOf	Operation()	Bridge
+org.jgrapht.graph.AbstractBaseGraph	removeEdge	Operation()	Bridge
+org.jgrapht.graph.AbstractBaseGraph	removeEdge	Operation()	Bridge
+org.jgrapht.graph.AbstractBaseGraph	removeVertex	Operation()	Bridge
+org.jgrapht.graph.AbstractBaseGraph	vertexSet	Operation()	Bridge
+org.jgrapht.graph.AbstractBaseGraph	null	Abstraction	Bridge
+org.jgrapht.EdgeFactory	null	Implementor	Bridge
+org.jgrapht.graph.AbstractBaseGraph	null	implementor	Bridge
+org.jgrapht.graph.AbstractBaseGraph	addEdge	Operation()	Bridge
+org.jgrapht.experimental.isomorphism.AbstractExhaustiveIsomorphismInspector	null	Abstraction	Bridge
+org.jgrapht.Graph	null	Implementor	Bridge
+org.jgrapht.experimental.isomorphism.AbstractExhaustiveIsomorphismInspector	null	implementor	Bridge
+org.jgrapht.experimental.isomorphism.AbstractExhaustiveIsomorphismInspector	null	implementor	Bridge
+org.jgrapht.experimental.isomorphism.AbstractExhaustiveIsomorphismInspector	init	Operation()	Bridge
+org.jgrapht.experimental.isomorphism.AbstractExhaustiveIsomorphismInspector	areAllEdgesEquivalent	Operation()	Bridge
+org.jgrapht.experimental.isomorphism.AbstractExhaustiveIsomorphismInspector	null	AbstractClass	Template Method
+org.jgrapht.experimental.isomorphism.AbstractExhaustiveIsomorphismInspector	init	TemplateMethod()	Template Method
+org.jgrapht.experimental.isomorphism.AbstractExhaustiveIsomorphismInspector	findNextIsomorphicGraph	TemplateMethod()	Template Method
+org.jgrapht.traverse.AbstractGraphIteratorTest	null	AbstractClass	Template Method
+org.jgrapht.traverse.AbstractGraphIteratorTest	testDirectedGraph	TemplateMethod()	Template Method
+org.jgrapht.traverse.CrossComponentIterator	null	AbstractClass	Template Method
+org.jgrapht.traverse.CrossComponentIterator	hasNext	TemplateMethod()	Template Method
+org.jgrapht.traverse.CrossComponentIterator	next	TemplateMethod()	Template Method
+org.jgrapht.traverse.CrossComponentIterator	addUnseenChildrenOf	TemplateMethod()	Template Method
+org.jgrapht.traverse.CrossComponentIterator	encounterStartVertex	TemplateMethod()	Template Method
+org.jgrapht.alg.AbstractPathElement	null	Handler	Chain of Responsibility
+org.jgrapht.alg.AbstractPathElement	null	successor	Chain of Responsibility

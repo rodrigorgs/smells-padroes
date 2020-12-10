@@ -1,354 +1,354 @@
-jparse.expr.VarAST	Feature Envy
-jparse.expr.VarAST	Feature Envy
-jparse.expr.VarAST	Refused Parent Bequest
-jparse.stmt.WhileAST	Feature Envy
-jparse.stmt.SynchronizedAST	Feature Envy
-test.JavaType	Feature Envy
-jparse.stmt.SwitchAST	Feature Envy
-jparse.stmt.CaseGroupAST	Feature Envy
-jparse.expr.NewAST	Dispersed Coupling
-jparse.expr.NewAST	Dispersed Coupling
-jparse.expr.NewAST	Refused Parent Bequest
-jparse.expr.IdentifierAST	Shotgun Surgery
-jparse.expr.IdentifierAST	Brain Method
-jparse.expr.IdentifierAST	Dispersed Coupling
-jparse.expr.IdentifierAST	Refused Parent Bequest
-jparse.expr.ArrayInitAST	Feature Envy
-jparse.JavaLexer	Brain Method
-jparse.JavaLexer	Intensive Coupling
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Brain Method
-jparse.JavaLexer	Intensive Coupling
-jparse.JavaLexer	Dispersed Coupling
-jparse.JavaLexer	Dispersed Coupling
-jparse.JavaLexer	Intensive Coupling
-jparse.JavaLexer	Brain Method
-jparse.JavaLexer	Intensive Coupling
-jparse.JavaLexer	Feature Envy
-jparse.JavaLexer	Dispersed Coupling
-jparse.JavaLexer	Brain Method
-jparse.JavaLexer	Intensive Coupling
-jparse.JavaLexer	Brain Method
-jparse.JavaLexer	Intensive Coupling
-jparse.JavaLexer	God Class
-jparse.JavaLexer	Brain Class
-jparse.JavaLexer	Data Class
-jparse.expr.ArithmeticAST	Feature Envy
-jparse.expr.ArithmeticAST	Refused Parent Bequest
-jparse.expr.AssignAST	Feature Envy
-jparse.Type	Dispersed Coupling
-jparse.Type	Dispersed Coupling
-jparse.Type	Brain Method
-jparse.Type	Dispersed Coupling
-jparse.Type	Feature Envy
-jparse.Type	Shotgun Surgery
-jparse.Type	Shotgun Surgery
-jparse.Type	God Class
-jparse.Type	Brain Class
-jparse.stmt.DeclarationAST	Feature Envy
-jparse.stmt.DeclarationAST	Feature Envy
-jparse.expr.ConditionalAST	Feature Envy
-jparse.expr.ConditionalAST	Feature Envy
-jparse.expr.ConditionalAST	Feature Envy
-jparse.expr.ConditionalAST	Feature Envy
-jparse.expr.ConditionalAST	Feature Envy
-jparse.expr.ConditionalAST	Refused Parent Bequest
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Brain Method
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Brain Method
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	Feature Envy
-test.JavaTyper	God Class
-test.JavaTyper	Brain Class
-test.JavaTyper	Data Class
-jparse.stmt.DoWhileAST	Feature Envy
-jparse.stmt.AssertAST	Feature Envy
-jparse.stmt.AssertAST	Feature Envy
-jparse.VarList	Data Class
-jparse.expr.ShiftAST	Feature Envy
-jparse.expr.ShiftAST	Refused Parent Bequest
-jparse.expr.TypecastAST	Feature Envy
-jparse.expr.TypecastAST	Refused Parent Bequest
-jparse.ModifierAST	Refused Parent Bequest
-jparse.expr.BitwiseAST	Refused Parent Bequest
-jparse.expr.BooleanAST	Feature Envy
-jparse.expr.BooleanAST	Brain Method
-jparse.expr.BooleanAST	Dispersed Coupling
-jparse.expr.BooleanAST	Feature Envy
-jparse.expr.BooleanAST	Refused Parent Bequest
-jparse.JavaParser	Feature Envy
-jparse.JavaParser	Feature Envy
-jparse.JavaParser	Brain Method
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Brain Method
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Brain Method
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Brain Method
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Brain Method
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Brain Method
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Brain Method
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Brain Method
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Brain Method
-jparse.JavaParser	Intensive Coupling
-jparse.JavaParser	Brain Method
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	Brain Method
-jparse.JavaParser	Dispersed Coupling
-jparse.JavaParser	God Class
-jparse.JavaParser	Brain Class
-jparse.JavaParser	Data Class
-jparse.stmt.ForAST	Feature Envy
-jparse.stmt.ForAST	Refused Parent Bequest
-jparse.stmt.CompoundAST	Feature Envy
-jparse.FileAST	Feature Envy
-jparse.FileAST	Brain Method
-jparse.FileAST	Dispersed Coupling
-test.JavaCopy	Feature Envy
-jparse.CompiledConstructor	Feature Envy
-jparse.CompiledConstructor	Feature Envy
-jparse.CompiledConstructor	Feature Envy
-jparse.CompiledConstructor	Dispersed Coupling
-jparse.stmt.StatementAST	Shotgun Surgery
-jparse.stmt.StatementAST	Shotgun Surgery
-jparse.SymbolTable	Feature Envy
-jparse.SymbolTable	Dispersed Coupling
-jparse.stmt.IfElseAST	Feature Envy
-jparse.stmt.IfElseAST	Feature Envy
-jparse.stmt.IfElseAST	Feature Envy
-jparse.stmt.IfElseAST	Refused Parent Bequest
-jparse.expr.MethodCallAST	Dispersed Coupling
-jparse.expr.MethodCallAST	Dispersed Coupling
-jparse.expr.MethodCallAST	Feature Envy
-jparse.expr.MethodCallAST	Refused Parent Bequest
-jparse.CompiledType	Dispersed Coupling
-jparse.CompiledType	Refused Parent Bequest
-jparse.SourceType	Feature Envy
-jparse.SourceType	Dispersed Coupling
-jparse.SourceType	God Class
-jparse.SourceType	Refused Parent Bequest
-jparse.JavaAST	Shotgun Surgery
-jparse.stmt.TryAST	Feature Envy
-jparse.stmt.TryAST	Feature Envy
-jparse.stmt.TryAST	Refused Parent Bequest
-jparse.ConstrAST	Feature Envy
-jparse.ConstrAST	Feature Envy
-jparse.ConstrAST	Dispersed Coupling
-jparse.ConstrAST	God Class
-jparse.ConstrAST	Refused Parent Bequest
-jparse.ConstrAST	Tradition Breaker
-jparse.MethAST	Feature Envy
-jparse.MethAST	Feature Envy
-jparse.MethAST	Feature Envy
-jparse.MethAST	Feature Envy
-jparse.MethAST	Feature Envy
-jparse.MethAST	Feature Envy
-jparse.MethAST	God Class
-jparse.MethAST	Refused Parent Bequest
-jparse.MethAST	Tradition Breaker
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Brain Method
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-test.JavaPrinter	Feature Envy
-jparse.expr.UnaryArithAST	Feature Envy
-jparse.expr.ListAST	Feature Envy
-jparse.expr.ListAST	Feature Envy
-jparse.expr.ListAST	Feature Envy
-jparse.expr.ListAST	Feature Envy
-jparse.expr.ListAST	Refused Parent Bequest
-jparse.CompiledMethod	Feature Envy
-jparse.CompiledMethod	Feature Envy
-jparse.CompiledMethod	Feature Envy
-jparse.CompiledMethod	Feature Envy
-jparse.CompiledMethod	Feature Envy
+jparse.expr.VarAST	computeType	Feature Envy
+jparse.expr.VarAST	toString	Feature Envy
+jparse.expr.VarAST	null	Refused Parent Bequest
+jparse.stmt.WhileAST	parseComplete	Feature Envy
+jparse.stmt.SynchronizedAST	parseComplete	Feature Envy
+test.JavaType	main	Feature Envy
+jparse.stmt.SwitchAST	computeControl	Feature Envy
+jparse.stmt.CaseGroupAST	computeControl	Feature Envy
+jparse.expr.NewAST	parseComplete	Dispersed Coupling
+jparse.expr.NewAST	computeType	Dispersed Coupling
+jparse.expr.NewAST	null	Refused Parent Bequest
+jparse.expr.IdentifierAST	getName	Shotgun Surgery
+jparse.expr.IdentifierAST	computeType	Brain Method
+jparse.expr.IdentifierAST	computeType	Dispersed Coupling
+jparse.expr.IdentifierAST	null	Refused Parent Bequest
+jparse.expr.ArrayInitAST	getVarList	Feature Envy
+jparse.JavaLexer	nextToken	Brain Method
+jparse.JavaLexer	nextToken	Intensive Coupling
+jparse.JavaLexer	mQUESTION	Feature Envy
+jparse.JavaLexer	mLPAREN	Feature Envy
+jparse.JavaLexer	mRPAREN	Feature Envy
+jparse.JavaLexer	mLBRACK	Feature Envy
+jparse.JavaLexer	mRBRACK	Feature Envy
+jparse.JavaLexer	mLCURLY	Feature Envy
+jparse.JavaLexer	mRCURLY	Feature Envy
+jparse.JavaLexer	mCOLON	Feature Envy
+jparse.JavaLexer	mCOMMA	Feature Envy
+jparse.JavaLexer	mASSIGN	Feature Envy
+jparse.JavaLexer	mEQUAL	Feature Envy
+jparse.JavaLexer	mLNOT	Feature Envy
+jparse.JavaLexer	mBNOT	Feature Envy
+jparse.JavaLexer	mNOT_EQUAL	Feature Envy
+jparse.JavaLexer	mDIV	Feature Envy
+jparse.JavaLexer	mDIV_ASSIGN	Feature Envy
+jparse.JavaLexer	mPLUS	Feature Envy
+jparse.JavaLexer	mPLUS_ASSIGN	Feature Envy
+jparse.JavaLexer	mINC	Feature Envy
+jparse.JavaLexer	mMINUS	Feature Envy
+jparse.JavaLexer	mMINUS_ASSIGN	Feature Envy
+jparse.JavaLexer	mDEC	Feature Envy
+jparse.JavaLexer	mSTAR	Feature Envy
+jparse.JavaLexer	mSTAR_ASSIGN	Feature Envy
+jparse.JavaLexer	mMOD	Feature Envy
+jparse.JavaLexer	mMOD_ASSIGN	Feature Envy
+jparse.JavaLexer	mSR	Feature Envy
+jparse.JavaLexer	mSR_ASSIGN	Feature Envy
+jparse.JavaLexer	mBSR	Feature Envy
+jparse.JavaLexer	mBSR_ASSIGN	Feature Envy
+jparse.JavaLexer	mGE	Feature Envy
+jparse.JavaLexer	mGT	Feature Envy
+jparse.JavaLexer	mSL	Feature Envy
+jparse.JavaLexer	mSL_ASSIGN	Feature Envy
+jparse.JavaLexer	mLE	Feature Envy
+jparse.JavaLexer	mLT	Feature Envy
+jparse.JavaLexer	mBXOR	Feature Envy
+jparse.JavaLexer	mBXOR_ASSIGN	Feature Envy
+jparse.JavaLexer	mBOR	Feature Envy
+jparse.JavaLexer	mBOR_ASSIGN	Feature Envy
+jparse.JavaLexer	mLOR	Feature Envy
+jparse.JavaLexer	mBAND	Feature Envy
+jparse.JavaLexer	mBAND_ASSIGN	Feature Envy
+jparse.JavaLexer	mLAND	Feature Envy
+jparse.JavaLexer	mSEMI	Feature Envy
+jparse.JavaLexer	mWS	Brain Method
+jparse.JavaLexer	mWS	Intensive Coupling
+jparse.JavaLexer	mSL_COMMENT	Dispersed Coupling
+jparse.JavaLexer	mML_COMMENT	Dispersed Coupling
+jparse.JavaLexer	mCHAR_LITERAL	Intensive Coupling
+jparse.JavaLexer	mESC	Brain Method
+jparse.JavaLexer	mESC	Intensive Coupling
+jparse.JavaLexer	mSTRING_LITERAL	Feature Envy
+jparse.JavaLexer	mSTRING_LITERAL	Dispersed Coupling
+jparse.JavaLexer	mNUM_INT	Brain Method
+jparse.JavaLexer	mNUM_INT	Intensive Coupling
+jparse.JavaLexer	mEXPONENT	Brain Method
+jparse.JavaLexer	mEXPONENT	Intensive Coupling
+jparse.JavaLexer	null	God Class
+jparse.JavaLexer	null	Brain Class
+jparse.JavaLexer	null	Data Class
+jparse.expr.ArithmeticAST	computeType	Feature Envy
+jparse.expr.ArithmeticAST	null	Refused Parent Bequest
+jparse.expr.AssignAST	computeType	Feature Envy
+jparse.Type	findFile	Dispersed Coupling
+jparse.Type	parseFile	Dispersed Coupling
+jparse.Type	forName	Brain Method
+jparse.Type	forName	Dispersed Coupling
+jparse.Type	demangle	Feature Envy
+jparse.Type	isAssignableFrom	Shotgun Surgery
+jparse.Type	getName	Shotgun Surgery
+jparse.Type	null	God Class
+jparse.Type	null	Brain Class
+jparse.stmt.DeclarationAST	DeclarationAST	Feature Envy
+jparse.stmt.DeclarationAST	parseComplete	Feature Envy
+jparse.expr.ConditionalAST	parseComplete	Feature Envy
+jparse.expr.ConditionalAST	computeType	Feature Envy
+jparse.expr.ConditionalAST	computeExceptions	Feature Envy
+jparse.expr.ConditionalAST	computeValue	Feature Envy
+jparse.expr.ConditionalAST	getVarList	Feature Envy
+jparse.expr.ConditionalAST	null	Refused Parent Bequest
+test.JavaTyper	compilationUnit	Feature Envy
+test.JavaTyper	packageDefinition	Feature Envy
+test.JavaTyper	importDefinition	Feature Envy
+test.JavaTyper	typeDefinitionExcept	Feature Envy
+test.JavaTyper	identifier	Feature Envy
+test.JavaTyper	identifierStar	Feature Envy
+test.JavaTyper	typeDefinition	Feature Envy
+test.JavaTyper	modifiers	Feature Envy
+test.JavaTyper	extendsClause	Feature Envy
+test.JavaTyper	implementsClause	Feature Envy
+test.JavaTyper	objBlock	Feature Envy
+test.JavaTyper	interfaceBlock	Feature Envy
+test.JavaTyper	objBlockExcept	Feature Envy
+test.JavaTyper	typeSpec	Feature Envy
+test.JavaTyper	typeSpecArray	Feature Envy
+test.JavaTyper	typeSpecType	Feature Envy
+test.JavaTyper	typeSpecArrayType	Feature Envy
+test.JavaTyper	builtInType	Feature Envy
+test.JavaTyper	identifierType	Feature Envy
+test.JavaTyper	builtInTypeType	Feature Envy
+test.JavaTyper	modifier	Feature Envy
+test.JavaTyper	methodDecl	Feature Envy
+test.JavaTyper	variableDefs	Feature Envy
+test.JavaTyper	ctorDef	Feature Envy
+test.JavaTyper	methodDef	Feature Envy
+test.JavaTyper	slist	Feature Envy
+test.JavaTyper	ctorDefExcept	Feature Envy
+test.JavaTyper	methodDefExcept	Feature Envy
+test.JavaTyper	variableDefsExcept	Feature Envy
+test.JavaTyper	slistExcept	Feature Envy
+test.JavaTyper	methodHead	Feature Envy
+test.JavaTyper	methodHeadExcept	Feature Envy
+test.JavaTyper	variableDef	Feature Envy
+test.JavaTyper	variableDefExcept	Feature Envy
+test.JavaTyper	varInitializer	Feature Envy
+test.JavaTyper	varInitializerExcept	Feature Envy
+test.JavaTyper	declaratorBrackets	Feature Envy
+test.JavaTyper	declaratorBracketsExcept	Feature Envy
+test.JavaTyper	parameterDef	Feature Envy
+test.JavaTyper	parameterDefExcept	Feature Envy
+test.JavaTyper	expression	Feature Envy
+test.JavaTyper	arrayInitializer	Feature Envy
+test.JavaTyper	expressionType	Feature Envy
+test.JavaTyper	arrayInitializerType	Feature Envy
+test.JavaTyper	commaInitializer	Feature Envy
+test.JavaTyper	commaInitializerType	Feature Envy
+test.JavaTyper	throwsClause	Feature Envy
+test.JavaTyper	stat	Feature Envy
+test.JavaTyper	elist	Feature Envy
+test.JavaTyper	caseGroup	Brain Method
+test.JavaTyper	caseGroup	Feature Envy
+test.JavaTyper	tryBlock	Feature Envy
+test.JavaTyper	tryBlockExcept	Feature Envy
+test.JavaTyper	moreStatExcept	Feature Envy
+test.JavaTyper	elistType	Feature Envy
+test.JavaTyper	caseGroupExcept	Brain Method
+test.JavaTyper	caseGroupExcept	Feature Envy
+test.JavaTyper	handler	Feature Envy
+test.JavaTyper	handlerExcept	Feature Envy
+test.JavaTyper	primaryExpression	Feature Envy
+test.JavaTyper	primaryExpressionType	Feature Envy
+test.JavaTyper	arrayIndex	Feature Envy
+test.JavaTyper	newExpression	Feature Envy
+test.JavaTyper	constant	Feature Envy
+test.JavaTyper	arrayIndexType	Feature Envy
+test.JavaTyper	newExpressionType	Feature Envy
+test.JavaTyper	newArrayDeclarator	Feature Envy
+test.JavaTyper	newArrayDeclaratorType	Feature Envy
+test.JavaTyper	null	God Class
+test.JavaTyper	null	Brain Class
+test.JavaTyper	null	Data Class
+jparse.stmt.DoWhileAST	parseComplete	Feature Envy
+jparse.stmt.AssertAST	computeExceptions	Feature Envy
+jparse.stmt.AssertAST	getVarList	Feature Envy
+jparse.VarList	null	Data Class
+jparse.expr.ShiftAST	computeType	Feature Envy
+jparse.expr.ShiftAST	null	Refused Parent Bequest
+jparse.expr.TypecastAST	computeValue	Feature Envy
+jparse.expr.TypecastAST	null	Refused Parent Bequest
+jparse.ModifierAST	null	Refused Parent Bequest
+jparse.expr.BitwiseAST	null	Refused Parent Bequest
+jparse.expr.BooleanAST	computeExceptions	Feature Envy
+jparse.expr.BooleanAST	computeValue	Brain Method
+jparse.expr.BooleanAST	computeValue	Dispersed Coupling
+jparse.expr.BooleanAST	getVarList	Feature Envy
+jparse.expr.BooleanAST	null	Refused Parent Bequest
+jparse.JavaParser	reportError	Feature Envy
+jparse.JavaParser	reportError	Feature Envy
+jparse.JavaParser	compilationUnit	Brain Method
+jparse.JavaParser	compilationUnit	Dispersed Coupling
+jparse.JavaParser	packageDefinition	Dispersed Coupling
+jparse.JavaParser	typeDefinition	Dispersed Coupling
+jparse.JavaParser	identifier	Brain Method
+jparse.JavaParser	identifier	Dispersed Coupling
+jparse.JavaParser	identifierStar	Brain Method
+jparse.JavaParser	identifierStar	Dispersed Coupling
+jparse.JavaParser	modifiers	Dispersed Coupling
+jparse.JavaParser	classDefinition	Dispersed Coupling
+jparse.JavaParser	interfaceDefinition	Dispersed Coupling
+jparse.JavaParser	modifier	Dispersed Coupling
+jparse.JavaParser	superClassClause	Dispersed Coupling
+jparse.JavaParser	implementsClause	Brain Method
+jparse.JavaParser	implementsClause	Dispersed Coupling
+jparse.JavaParser	classBlock	Dispersed Coupling
+jparse.JavaParser	interfaceExtends	Brain Method
+jparse.JavaParser	interfaceExtends	Dispersed Coupling
+jparse.JavaParser	field	Brain Method
+jparse.JavaParser	field	Dispersed Coupling
+jparse.JavaParser	parameterDeclarationList	Dispersed Coupling
+jparse.JavaParser	throwsClause	Dispersed Coupling
+jparse.JavaParser	compoundStatement	Dispersed Coupling
+jparse.JavaParser	declaratorBrackets	Dispersed Coupling
+jparse.JavaParser	classTypeSpec	Dispersed Coupling
+jparse.JavaParser	builtInTypeSpec	Dispersed Coupling
+jparse.JavaParser	builtInType	Dispersed Coupling
+jparse.JavaParser	variableDeclarator	Dispersed Coupling
+jparse.JavaParser	arrayInitializer	Dispersed Coupling
+jparse.JavaParser	commaInitializer	Dispersed Coupling
+jparse.JavaParser	parameterDeclaration	Dispersed Coupling
+jparse.JavaParser	statement	Brain Method
+jparse.JavaParser	statement	Dispersed Coupling
+jparse.JavaParser	declaration	Dispersed Coupling
+jparse.JavaParser	forInit	Dispersed Coupling
+jparse.JavaParser	forCond	Dispersed Coupling
+jparse.JavaParser	forIter	Dispersed Coupling
+jparse.JavaParser	casesGroup	Brain Method
+jparse.JavaParser	casesGroup	Dispersed Coupling
+jparse.JavaParser	tryBlock	Dispersed Coupling
+jparse.JavaParser	expressionList	Dispersed Coupling
+jparse.JavaParser	handler	Dispersed Coupling
+jparse.JavaParser	assignmentExpression	Dispersed Coupling
+jparse.JavaParser	conditionalExpression	Dispersed Coupling
+jparse.JavaParser	logicalOrExpression	Dispersed Coupling
+jparse.JavaParser	logicalAndExpression	Dispersed Coupling
+jparse.JavaParser	inclusiveOrExpression	Dispersed Coupling
+jparse.JavaParser	exclusiveOrExpression	Dispersed Coupling
+jparse.JavaParser	andExpression	Dispersed Coupling
+jparse.JavaParser	equalityExpression	Dispersed Coupling
+jparse.JavaParser	relationalExpression	Dispersed Coupling
+jparse.JavaParser	shiftExpression	Dispersed Coupling
+jparse.JavaParser	additiveExpression	Dispersed Coupling
+jparse.JavaParser	multiplicativeExpression	Dispersed Coupling
+jparse.JavaParser	unaryExpression	Dispersed Coupling
+jparse.JavaParser	unaryExpressionNotPlusMinus	Brain Method
+jparse.JavaParser	unaryExpressionNotPlusMinus	Intensive Coupling
+jparse.JavaParser	postfixExpression	Brain Method
+jparse.JavaParser	postfixExpression	Dispersed Coupling
+jparse.JavaParser	primaryExpression	Dispersed Coupling
+jparse.JavaParser	newExpression	Dispersed Coupling
+jparse.JavaParser	constant	Dispersed Coupling
+jparse.JavaParser	anonymousClassBlock	Dispersed Coupling
+jparse.JavaParser	newArrayDeclarator	Brain Method
+jparse.JavaParser	newArrayDeclarator	Dispersed Coupling
+jparse.JavaParser	null	God Class
+jparse.JavaParser	null	Brain Class
+jparse.JavaParser	null	Data Class
+jparse.stmt.ForAST	parseComplete	Feature Envy
+jparse.stmt.ForAST	null	Refused Parent Bequest
+jparse.stmt.CompoundAST	computeControl	Feature Envy
+jparse.FileAST	FileAST	Feature Envy
+jparse.FileAST	getType	Brain Method
+jparse.FileAST	getType	Dispersed Coupling
+test.JavaCopy	main	Feature Envy
+jparse.CompiledConstructor	getParameterTypes	Feature Envy
+jparse.CompiledConstructor	getExceptionTypes	Feature Envy
+jparse.CompiledConstructor	match	Feature Envy
+jparse.CompiledConstructor	match	Dispersed Coupling
+jparse.stmt.StatementAST	getExceptionTypes	Shotgun Surgery
+jparse.stmt.StatementAST	nextControlPoints	Shotgun Surgery
+jparse.SymbolTable	addMeth	Feature Envy
+jparse.SymbolTable	getMeths	Dispersed Coupling
+jparse.stmt.IfElseAST	parseComplete	Feature Envy
+jparse.stmt.IfElseAST	computeExceptions	Feature Envy
+jparse.stmt.IfElseAST	getVarList	Feature Envy
+jparse.stmt.IfElseAST	null	Refused Parent Bequest
+jparse.expr.MethodCallAST	parseComplete	Dispersed Coupling
+jparse.expr.MethodCallAST	computeType	Dispersed Coupling
+jparse.expr.MethodCallAST	getVarList	Feature Envy
+jparse.expr.MethodCallAST	null	Refused Parent Bequest
+jparse.CompiledType	getMethods	Dispersed Coupling
+jparse.CompiledType	null	Refused Parent Bequest
+jparse.SourceType	getSuperclass	Feature Envy
+jparse.SourceType	getMethods	Dispersed Coupling
+jparse.SourceType	null	God Class
+jparse.SourceType	null	Refused Parent Bequest
+jparse.JavaAST	parseComplete	Shotgun Surgery
+jparse.stmt.TryAST	computeExceptions	Feature Envy
+jparse.stmt.TryAST	computeControl	Feature Envy
+jparse.stmt.TryAST	null	Refused Parent Bequest
+jparse.ConstrAST	parseComplete	Feature Envy
+jparse.ConstrAST	match	Feature Envy
+jparse.ConstrAST	match	Dispersed Coupling
+jparse.ConstrAST	null	God Class
+jparse.ConstrAST	null	Refused Parent Bequest
+jparse.ConstrAST	null	Tradition Breaker
+jparse.MethAST	parseComplete	Feature Envy
+jparse.MethAST	getReturnType	Feature Envy
+jparse.MethAST	getParameterTypes	Feature Envy
+jparse.MethAST	isAccessible	Feature Envy
+jparse.MethAST	match	Feature Envy
+jparse.MethAST	exactMatch	Feature Envy
+jparse.MethAST	null	God Class
+jparse.MethAST	null	Refused Parent Bequest
+jparse.MethAST	null	Tradition Breaker
+test.JavaPrinter	compilationUnit	Feature Envy
+test.JavaPrinter	packageDefinition	Feature Envy
+test.JavaPrinter	importDefinition	Feature Envy
+test.JavaPrinter	typeDefinition	Feature Envy
+test.JavaPrinter	identifier	Feature Envy
+test.JavaPrinter	identifierStar	Feature Envy
+test.JavaPrinter	modifiers	Feature Envy
+test.JavaPrinter	extendsClause	Feature Envy
+test.JavaPrinter	implementsClause	Feature Envy
+test.JavaPrinter	objBlock	Feature Envy
+test.JavaPrinter	interfaceBlock	Feature Envy
+test.JavaPrinter	typeSpec	Feature Envy
+test.JavaPrinter	typeSpecArray	Feature Envy
+test.JavaPrinter	builtInType	Feature Envy
+test.JavaPrinter	modifier	Feature Envy
+test.JavaPrinter	methodDecl	Feature Envy
+test.JavaPrinter	variableDefs	Feature Envy
+test.JavaPrinter	ctorDef	Feature Envy
+test.JavaPrinter	methodDef	Feature Envy
+test.JavaPrinter	slist	Feature Envy
+test.JavaPrinter	methodHead	Feature Envy
+test.JavaPrinter	variableDef	Feature Envy
+test.JavaPrinter	varInitializer	Feature Envy
+test.JavaPrinter	declaratorBrackets	Feature Envy
+test.JavaPrinter	parameterDef	Feature Envy
+test.JavaPrinter	expression	Feature Envy
+test.JavaPrinter	arrayInitializer	Feature Envy
+test.JavaPrinter	commaInitializer	Feature Envy
+test.JavaPrinter	throwsClause	Feature Envy
+test.JavaPrinter	stat	Feature Envy
+test.JavaPrinter	elist	Feature Envy
+test.JavaPrinter	caseGroup	Brain Method
+test.JavaPrinter	caseGroup	Feature Envy
+test.JavaPrinter	tryBlock	Feature Envy
+test.JavaPrinter	handler	Feature Envy
+test.JavaPrinter	primaryExpression	Feature Envy
+test.JavaPrinter	arrayIndex	Feature Envy
+test.JavaPrinter	newExpression	Feature Envy
+test.JavaPrinter	constant	Feature Envy
+test.JavaPrinter	newArrayDeclarator	Feature Envy
+jparse.expr.UnaryArithAST	computeType	Feature Envy
+jparse.expr.ListAST	computeType	Feature Envy
+jparse.expr.ListAST	computeValue	Feature Envy
+jparse.expr.ListAST	getVarList	Feature Envy
+jparse.expr.ListAST	toString	Feature Envy
+jparse.expr.ListAST	null	Refused Parent Bequest
+jparse.CompiledMethod	getParameterTypes	Feature Envy
+jparse.CompiledMethod	getExceptionTypes	Feature Envy
+jparse.CompiledMethod	isAccessible	Feature Envy
+jparse.CompiledMethod	match	Feature Envy
+jparse.CompiledMethod	exactMatch	Feature Envy

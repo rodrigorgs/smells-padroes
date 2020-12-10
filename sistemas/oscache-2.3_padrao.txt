@@ -1,17 +1,57 @@
-com.opensymphony.oscache.base.algorithm.TestLRUCache	(Object)Adapter
-com.opensymphony.oscache.plugins.diskpersistence.AbstractDiskPersistenceListener	Template Method
-com.opensymphony.oscache.base.CacheEntry	State
-com.opensymphony.oscache.base.events.CacheEntryEventType	Singleton
-com.opensymphony.oscache.base.persistence.PersistenceListener	Bridge
-com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	Template Method
-com.opensymphony.oscache.base.algorithm.UnlimitedCache	(Object)Adapter
-com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	Bridge
-com.opensymphony.oscache.base.EntryRefreshPolicy	State
-com.opensymphony.oscache.base.events.CacheMapAccessEventType	Singleton
-com.opensymphony.oscache.base.algorithm.LRUCache	(Object)Adapter
-com.opensymphony.oscache.base.algorithm.TestUnlimitedCache	(Object)Adapter
-com.opensymphony.oscache.plugins.clustersupport.AbstractBroadcastingListener	Template Method
-com.opensymphony.oscache.base.events.CachewideEventType	Singleton
-com.opensymphony.oscache.base.events.ScopeEventType	Singleton
-com.opensymphony.oscache.base.algorithm.FIFOCache	(Object)Adapter
-com.opensymphony.oscache.base.algorithm.TestFIFOCache	(Object)Adapter
+com.opensymphony.oscache.base.events.CacheEntryEventType	null	Singleton	Singleton
+com.opensymphony.oscache.base.events.CacheEntryEventType	null	uniqueInstance	Singleton
+com.opensymphony.oscache.base.events.CacheEntryEventType	null	uniqueInstance	Singleton
+com.opensymphony.oscache.base.events.CacheEntryEventType	null	uniqueInstance	Singleton
+com.opensymphony.oscache.base.events.CacheEntryEventType	null	uniqueInstance	Singleton
+com.opensymphony.oscache.base.events.CacheEntryEventType	null	uniqueInstance	Singleton
+com.opensymphony.oscache.base.events.CacheEntryEventType	null	uniqueInstance	Singleton
+com.opensymphony.oscache.base.events.CacheMapAccessEventType	null	Singleton	Singleton
+com.opensymphony.oscache.base.events.CacheMapAccessEventType	null	uniqueInstance	Singleton
+com.opensymphony.oscache.base.events.CacheMapAccessEventType	null	uniqueInstance	Singleton
+com.opensymphony.oscache.base.events.CacheMapAccessEventType	null	uniqueInstance	Singleton
+com.opensymphony.oscache.base.events.CachewideEventType	null	Singleton	Singleton
+com.opensymphony.oscache.base.events.CachewideEventType	null	uniqueInstance	Singleton
+com.opensymphony.oscache.base.events.ScopeEventType	null	Singleton	Singleton
+com.opensymphony.oscache.base.events.ScopeEventType	null	uniqueInstance	Singleton
+com.opensymphony.oscache.base.events.ScopeEventType	null	uniqueInstance	Singleton
+com.opensymphony.oscache.base.algorithm.FIFOCache	null	Adaptee	(Object)Adapter
+com.opensymphony.oscache.base.algorithm.TestFIFOCache	null	Adapter	(Object)Adapter
+com.opensymphony.oscache.base.algorithm.TestFIFOCache	null	adaptee	(Object)Adapter
+com.opensymphony.oscache.base.algorithm.TestFIFOCache	testRemoveItem	Request()	(Object)Adapter
+com.opensymphony.oscache.base.algorithm.LRUCache	null	Adaptee	(Object)Adapter
+com.opensymphony.oscache.base.algorithm.TestLRUCache	null	Adapter	(Object)Adapter
+com.opensymphony.oscache.base.algorithm.TestLRUCache	null	adaptee	(Object)Adapter
+com.opensymphony.oscache.base.algorithm.TestLRUCache	testRemoveItem	Request()	(Object)Adapter
+com.opensymphony.oscache.base.algorithm.UnlimitedCache	null	Adaptee	(Object)Adapter
+com.opensymphony.oscache.base.algorithm.TestUnlimitedCache	null	Adapter	(Object)Adapter
+com.opensymphony.oscache.base.algorithm.TestUnlimitedCache	null	adaptee	(Object)Adapter
+com.opensymphony.oscache.base.algorithm.TestUnlimitedCache	testRemoveItem	Request()	(Object)Adapter
+com.opensymphony.oscache.base.CacheEntry	null	Context	State
+com.opensymphony.oscache.base.EntryRefreshPolicy	null	State	State
+com.opensymphony.oscache.base.CacheEntry	null	state	State
+com.opensymphony.oscache.base.CacheEntry	needsRefresh	Request()	State
+com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	null	Abstraction	Bridge
+com.opensymphony.oscache.base.persistence.PersistenceListener	null	Implementor	Bridge
+com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	null	implementor	Bridge
+com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	persistRemove	Operation()	Bridge
+com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	persistRemoveGroup	Operation()	Bridge
+com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	persistRetrieve	Operation()	Bridge
+com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	persistRetrieveGroup	Operation()	Bridge
+com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	persistStore	Operation()	Bridge
+com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	persistStoreGroup	Operation()	Bridge
+com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	persistClear	Operation()	Bridge
+com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	null	AbstractClass	Template Method
+com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	setMaxEntries	TemplateMethod()	Template Method
+com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	clear	TemplateMethod()	Template Method
+com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	get	TemplateMethod()	Template Method
+com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	sput	TemplateMethod()	Template Method
+com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	sremove	TemplateMethod()	Template Method
+com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	put	TemplateMethod()	Template Method
+com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	remove	TemplateMethod()	Template Method
+com.opensymphony.oscache.plugins.clustersupport.AbstractBroadcastingListener	null	AbstractClass	Template Method
+com.opensymphony.oscache.plugins.clustersupport.AbstractBroadcastingListener	cacheEntryFlushed	TemplateMethod()	Template Method
+com.opensymphony.oscache.plugins.clustersupport.AbstractBroadcastingListener	cacheGroupFlushed	TemplateMethod()	Template Method
+com.opensymphony.oscache.plugins.clustersupport.AbstractBroadcastingListener	cachePatternFlushed	TemplateMethod()	Template Method
+com.opensymphony.oscache.plugins.clustersupport.AbstractBroadcastingListener	cacheFlushed	TemplateMethod()	Template Method
+com.opensymphony.oscache.plugins.diskpersistence.AbstractDiskPersistenceListener	null	AbstractClass	Template Method
+com.opensymphony.oscache.plugins.diskpersistence.AbstractDiskPersistenceListener	getCacheFile	TemplateMethod()	Template Method

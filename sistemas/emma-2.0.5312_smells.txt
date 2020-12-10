@@ -1,222 +1,222 @@
-core.java12.com.vladium.emma.instr.InstrVisitor$methodHeader	Feature Envy
-core.java12.com.vladium.util.args.OptsParser$OptDefMetadata	Feature Envy
-core.java12.com.vladium.util.args.OptsParser$OptDefMetadata	Dispersed Coupling
-core.java12.com.vladium.util.args.OptsParser$OptDefMetadata	Feature Envy
-core.java12.com.vladium.util.args.OptsParser$OptDefMetadata	Dispersed Coupling
-core.java12.com.vladium.jcd.lib.Types	Feature Envy
-core.java12.com.vladium.emma.report.ReportDataModel	Dispersed Coupling
-core.java12.com.vladium.util.Files	Intensive Coupling
-core.java12.com.vladium.util.Files	Intensive Coupling
-core.java12.com.vladium.util.Files	God Class
-core.java12.com.vladium.emma.report.html.doc.AttributeSet	Shotgun Surgery
-core.java12.com.vladium.util.IPathEnumerator$Factory$PathEnumerator	Feature Envy
-core.java12.com.vladium.util.IPathEnumerator$Factory$PathEnumerator	Intensive Coupling
-core.java12.com.vladium.util.IPathEnumerator$Factory$PathEnumerator	Feature Envy
-core.java12.com.vladium.util.IPathEnumerator$Factory$PathEnumerator	Dispersed Coupling
-core.java12.com.vladium.util.IPathEnumerator$Factory$PathEnumerator	Dispersed Coupling
-core.java12.com.vladium.jcd.cls.ConstantCollection	Dispersed Coupling
-core.java12.com.vladium.jcd.cls.ConstantCollection	Feature Envy
-core.java12.com.vladium.emma.report.html.doc.HTMLDocument	Refused Parent Bequest
-core.java12.com.vladium.emma.report.ClassItem	Brain Method
-core.java12.com.vladium.emma.report.ClassItem	Dispersed Coupling
-core.java12.com.vladium.emma.report.ClassItem	Refused Parent Bequest
-core.java12.com.vladium.emma.report.ClassItem	Tradition Breaker
-core.java12.com.vladium.emma.report.IItem	Shotgun Surgery
-core.java13.com.vladium.util.exit.ExitHookManager$SunJREExitHookManager	Feature Envy
-core.java12.com.vladium.emma.report.html.doc.AttributeSet$AttributeSetImpl	Dispersed Coupling
-core.java12.com.vladium.emma.instr.InstrVisitor$LOOKUPSWITCH	Feature Envy
-core.java12.com.vladium.jcd.cls.AbstractClassDefVisitor	Feature Envy
-core.java12.com.vladium.emma.rt.AppRunner	Feature Envy
-core.java12.com.vladium.emma.rt.AppRunner	Brain Method
-core.java12.com.vladium.emma.rt.AppRunner	Dispersed Coupling
-core.java12.com.vladium.emma.rt.AppRunner	Intensive Coupling
-core.java12.com.vladium.emma.rt.AppRunner	God Class
-core.java12.com.vladium.emma.rt.AppRunner	Brain Class
-core.java12.com.vladium.emma.rt.AppRunner	Refused Parent Bequest
-core.java12.com.vladium.emma.rt.AppRunner	Tradition Breaker
-core.java12.com.vladium.emma.rt.InstrClassLoader	Brain Method
-core.java12.com.vladium.emma.rt.InstrClassLoader	Dispersed Coupling
-core.java12.com.vladium.emma.rt.InstrClassLoader	Feature Envy
-core.java12.com.vladium.emma.rt.InstrClassLoader	Feature Envy
-core.java12.com.vladium.emma.rt.InstrClassLoader	Data Class
-core.java12.com.vladium.util.ResourceLoader	Feature Envy
-core.java12.com.vladium.util.ResourceLoader	Feature Envy
-core.java12.com.vladium.util.ResourceLoader	Feature Envy
-core.java12.com.vladium.emma.data.MergeProcessor	Brain Method
-core.java12.com.vladium.emma.data.MergeProcessor	Dispersed Coupling
-core.java12.com.vladium.util.args.OptsParser	Intensive Coupling
-core.java12.com.vladium.util.args.OptsParser	Brain Method
-core.java12.com.vladium.util.args.OptsParser	Intensive Coupling
-core.java12.com.vladium.util.args.OptsParser	Feature Envy
-core.java12.com.vladium.util.args.OptsParser	Intensive Coupling
-core.java12.com.vladium.util.args.OptsParser	God Class
-core.java12.com.vladium.util.args.OptsParser	Brain Class
-core.java12.com.vladium.emma.report.SrcFileItem	Brain Method
-core.java12.com.vladium.emma.report.SrcFileItem	Dispersed Coupling
-core.java12.com.vladium.emma.report.SrcFileItem	Refused Parent Bequest
-core.java12.com.vladium.emma.report.SrcFileItem	Tradition Breaker
-core.java12.com.vladium.jcd.parser.ClassDefParser$classParser	Feature Envy
-core.java12.com.vladium.jcd.parser.ClassDefParser$classParser	Feature Envy
-core.java12.com.vladium.jcd.parser.ClassDefParser$classParser	Feature Envy
-core.java12.com.vladium.jcd.parser.ClassDefParser$classParser	Feature Envy
-core.java12.com.vladium.jcd.parser.ClassDefParser$classParser	Dispersed Coupling
-core.java12.com.vladium.jcd.parser.ClassDefParser$classParser	Feature Envy
-core.java12.com.vladium.jcd.parser.ClassDefParser$classParser	Feature Envy
-core.java12.com.vladium.emma.AppLoggers	Dispersed Coupling
-core.java12.com.vladium.util.args.OptsParser$MetadataParser	Feature Envy
-core.java12.com.vladium.util.args.OptsParser$MetadataParser	Feature Envy
-core.java12.com.vladium.util.args.OptsParser$MetadataParser	Feature Envy
-core.java12.com.vladium.util.args.OptsParser$MetadataParser	Feature Envy
-core.java12.com.vladium.util.args.OptsParser$MetadataParser	Feature Envy
-core.java12.com.vladium.emma.data.CoverageData	Dispersed Coupling
-core.java12.com.vladium.emma.data.CoverageData	Dispersed Coupling
-core.java12.com.vladium.util.args.OptsParser$Opts	Dispersed Coupling
-core.java12.com.vladium.util.args.OptsParser$Opts	Feature Envy
-core.java12.com.vladium.emma.report.ReportProperties$ParsedProperties	Feature Envy
-core.java12.com.vladium.emma.report.ReportProperties$ParsedProperties	Shotgun Surgery
-core.java12.com.vladium.emma.report.ReportProperties$ParsedProperties	Feature Envy
-core.java12.com.vladium.emma.report.ReportProperties$ParsedProperties	Feature Envy
-core.java12.com.vladium.emma.report.ReportProperties$ParsedProperties	Shotgun Surgery
-core.java12.com.vladium.emma.instr.InstrProcessor	Feature Envy
-core.java12.com.vladium.emma.instr.InstrProcessor	Feature Envy
-core.java12.com.vladium.emma.instr.InstrProcessor	God Class
-core.java12.com.vladium.emma.instr.InstrProcessor	Refused Parent Bequest
-core.java12.com.vladium.emma.instr.InstrProcessor	Tradition Breaker
-core.java12.com.vladium.util.Property$SystemPropertyLookup	Dispersed Coupling
-core.java12.com.vladium.emma.data.DataFactory	Feature Envy
-core.java12.com.vladium.emma.data.DataFactory	Brain Method
-core.java12.com.vladium.emma.data.DataFactory	Dispersed Coupling
-core.java12.com.vladium.emma.data.DataFactory	Brain Method
-core.java12.com.vladium.emma.data.DataFactory	Intensive Coupling
-core.java12.com.vladium.emma.data.DataFactory	Feature Envy
-core.java12.com.vladium.emma.data.DataFactory	Feature Envy
-core.java12.com.vladium.emma.data.DataFactory	God Class
-core.java12.com.vladium.emma.data.DataFactory	Brain Class
-core.java12.com.vladium.emma.data.mergeCommand	Brain Method
-core.java12.com.vladium.emma.data.mergeCommand	Dispersed Coupling
-core.java12.com.vladium.jcd.lib.UDataInputStream	Shotgun Surgery
-core.java12.com.vladium.emma.report.IItemMetadata	Shotgun Surgery
-core.java12.com.vladium.util.Strings	Dispersed Coupling
-core.java12.com.vladium.util.Strings	God Class
-core.java12.com.vladium.emma.instr.InstrProcessorST	Dispersed Coupling
-core.java12.com.vladium.emma.instr.InstrProcessorST	Brain Method
-core.java12.com.vladium.emma.instr.InstrProcessorST	Dispersed Coupling
-core.java12.com.vladium.emma.instr.InstrProcessorST	Brain Method
-core.java12.com.vladium.emma.instr.InstrProcessorST	Dispersed Coupling
-core.java12.com.vladium.emma.instr.InstrProcessorST	Brain Method
-core.java12.com.vladium.emma.instr.InstrProcessorST	Dispersed Coupling
-core.java12.com.vladium.emma.instr.InstrProcessorST	God Class
-core.java12.com.vladium.emma.instr.InstrProcessorST	Brain Class
-core.java12.com.vladium.emma.instr.InstrProcessorST	Refused Parent Bequest
-core.java12.com.vladium.util.exception.ExceptionCommon	Dispersed Coupling
-core.java12.com.vladium.util.exception.ExceptionCommon	God Class
-core.java12.com.vladium.emma.report.ReportProcessor	Feature Envy
-core.java12.com.vladium.emma.report.ReportProcessor	Brain Method
-core.java12.com.vladium.emma.report.ReportProcessor	Dispersed Coupling
-core.java12.com.vladium.emma.report.ReportProcessor	Refused Parent Bequest
-core.java12.com.vladium.emma.instr.instrCommand	Brain Method
-core.java12.com.vladium.emma.instr.instrCommand	Dispersed Coupling
-core.java12.com.vladium.emma.data.CoverageOptionsFactory	Feature Envy
-core.java12.com.vladium.emma.data.CoverageOptionsFactory	Feature Envy
-core.java12.com.vladium.emma.report.IItemAttribute$Factory$FractionAttribute$FractionComparator	Feature Envy
-core.java12.com.vladium.emma.report.AbstractReportGenerator	Brain Method
-core.java12.com.vladium.emma.report.AbstractReportGenerator	Dispersed Coupling
-tools.java.com.vladium.tools.ClassDep	Dispersed Coupling
-tools.java.com.vladium.tools.ClassDep	Dispersed Coupling
-core.java12.com.vladium.util.IntIntMap	Feature Envy
-core.java12.com.vladium.util.IntIntMap	Feature Envy
-core.java12.com.vladium.util.IntIntMap	Feature Envy
-core.java12.com.vladium.util.IntIntMap	Feature Envy
-core.java12.com.vladium.util.IntIntMap	Feature Envy
-core.java12.com.vladium.util.IntIntMap	Feature Envy
-core.java12.com.vladium.util.IntIntMap	Feature Envy
-core.java12.com.vladium.emma.instr.InstrVisitor	Feature Envy
-core.java12.com.vladium.emma.instr.InstrVisitor	Brain Method
-core.java12.com.vladium.emma.instr.InstrVisitor	Dispersed Coupling
-core.java12.com.vladium.emma.instr.InstrVisitor	Brain Method
-core.java12.com.vladium.emma.instr.InstrVisitor	Dispersed Coupling
-core.java12.com.vladium.emma.instr.InstrVisitor	Brain Method
-core.java12.com.vladium.emma.instr.InstrVisitor	Dispersed Coupling
-core.java12.com.vladium.emma.instr.InstrVisitor	Brain Method
-core.java12.com.vladium.emma.instr.InstrVisitor	Dispersed Coupling
-core.java12.com.vladium.emma.instr.InstrVisitor	God Class
-core.java12.com.vladium.emma.instr.InstrVisitor	Brain Class
-core.java12.com.vladium.emma.instr.InstrVisitor	Refused Parent Bequest
-core.java12.com.vladium.emma.instr.InstrVisitor	Tradition Breaker
-core.java12.com.vladium.util.IProperties	Shotgun Surgery
-core.java12.com.vladium.emma.rt.RTCoverageDataPersister	Dispersed Coupling
-core.java12.com.vladium.emma.Command	Dispersed Coupling
-core.java12.com.vladium.emma.Command	Feature Envy
-core.java12.com.vladium.emma.Command	God Class
-core.java12.com.vladium.emma.report.reportCommand	Brain Method
-core.java12.com.vladium.emma.report.reportCommand	Dispersed Coupling
-core.java12.emma	Feature Envy
-core.java12.com.vladium.emma.rt.InstrClassLoadHook	Feature Envy
-core.java12.com.vladium.emma.rt.InstrClassLoadHook	Dispersed Coupling
-core.java12.com.vladium.util.IntSet	Feature Envy
-core.java12.com.vladium.util.IntSet	Feature Envy
-core.java12.com.vladium.util.IntSet	Feature Envy
-core.java12.com.vladium.util.IntSet	Feature Envy
-core.java12.com.vladium.emma.report.ReportProperties$ReportPropertyMapper	Feature Envy
-core.java12.com.vladium.util.ByteArrayIStream	Feature Envy
-core.java12.com.vladium.util.ObjectIntMap	Feature Envy
-core.java12.com.vladium.util.ObjectIntMap	Feature Envy
-core.java12.com.vladium.emma.rt.RT	Dispersed Coupling
-core.java12.com.vladium.emma.rt.RT	Feature Envy
-core.java12.com.vladium.emma.rt.RT	Feature Envy
-core.java12.com.vladium.emma.data.MetaData	Intensive Coupling
-core.java12.com.vladium.emma.data.MetaData	Feature Envy
-core.java12.com.vladium.emma.data.MetaData	Dispersed Coupling
-core.java12.com.vladium.emma.rt.ClassPathProcessorST	Dispersed Coupling
-core.java12.com.vladium.emma.rt.ClassPathProcessorST	Dispersed Coupling
-core.java12.com.vladium.emma.report.MethodItem	Brain Method
-core.java12.com.vladium.emma.report.MethodItem	Dispersed Coupling
-core.java12.com.vladium.emma.report.MethodItem	Refused Parent Bequest
-core.java12.com.vladium.emma.rt.RTExitHook	Dispersed Coupling
-core.java12.com.vladium.emma.report.ReportProperties	Brain Method
-core.java12.com.vladium.emma.report.ReportProperties	Dispersed Coupling
-core.java12.com.vladium.jcd.cls.ClassDef	Shotgun Surgery
-core.java12.com.vladium.jcd.cls.ClassDef	Brain Method
-core.java12.com.vladium.jcd.cls.ClassDef	Dispersed Coupling
-core.java12.com.vladium.jcd.cls.ClassDef	Feature Envy
-core.java12.com.vladium.jcd.cls.ClassDef	God Class
-core.java12.com.vladium.util.IntObjectMap	Feature Envy
-core.java12.com.vladium.util.IntObjectMap	Feature Envy
-core.java12.com.vladium.util.IntObjectMap	Shotgun Surgery
-core.java12.com.vladium.util.IntObjectMap	Feature Envy
-core.java12.com.vladium.util.IntObjectMap	Feature Envy
-core.java12.com.vladium.util.IProperties$Factory$PropertiesImpl	Feature Envy
-core.java12.com.vladium.util.IProperties$Factory$PropertiesImpl	Data Class
-core.java12.com.vladium.jcd.lib.UDataOutputStream	Shotgun Surgery
-core.java12.com.vladium.util.ByteArrayOStream	Shotgun Surgery
-core.java12.com.vladium.util.ByteArrayOStream	Shotgun Surgery
-core.java12.com.vladium.util.ByteArrayOStream	Shotgun Surgery
-core.java12.com.vladium.util.ByteArrayOStream	Feature Envy
-core.java12.com.vladium.emma.EMMAProperties	Dispersed Coupling
-core.java12.com.vladium.jcd.cls.AttributeCollection	Data Class
-core.java12.com.vladium.util.SoftValueMap	God Class
-core.java12.com.vladium.emma.runCommand	Brain Method
-core.java12.com.vladium.emma.runCommand	Dispersed Coupling
-core.java12.com.vladium.emma.runCommand	God Class
-core.java12.com.vladium.emma.filter.IInclExclFilter$Factory$WCInclExclFilter	Feature Envy
-core.java12.com.vladium.emma.report.IItemAttribute$Factory$FractionAttribute	Feature Envy
-core.java12.com.vladium.jcd.cls.IConstantCollection	Shotgun Surgery
-core.java12.com.vladium.jcd.cls.IConstantCollection	Shotgun Surgery
-core.java12.com.vladium.emma.rt.AppRunner$AppRunnerExitHook	Brain Method
-core.java12.com.vladium.emma.rt.AppRunner$AppRunnerExitHook	Dispersed Coupling
-core.java12.com.vladium.jcd.cls.attribute.CodeAttribute_info	Dispersed Coupling
-core.java12.com.vladium.logging.Logger	Shotgun Surgery
-core.java12.com.vladium.logging.Logger	Shotgun Surgery
-core.java12.com.vladium.logging.Logger	Shotgun Surgery
-core.java12.com.vladium.logging.Logger	Shotgun Surgery
-core.java12.com.vladium.logging.Logger	Shotgun Surgery
-core.java12.com.vladium.logging.Logger	Shotgun Surgery
-core.java12.com.vladium.logging.Logger	Shotgun Surgery
-core.java12.com.vladium.logging.Logger	Shotgun Surgery
-core.java12.com.vladium.logging.Logger	Feature Envy
-core.java12.com.vladium.logging.Logger	Dispersed Coupling
-core.java12.com.vladium.logging.Logger	Dispersed Coupling
-core.java12.com.vladium.logging.Logger	God Class
-core.java12.com.vladium.util.Descriptors	Feature Envy
-core.java12.com.vladium.util.Descriptors	Brain Method
-core.java12.com.vladium.jcd.lib.Types$typeDescriptorCompiler	Dispersed Coupling
+core.java12.com.vladium.emma.instr.InstrVisitor$methodHeader	methodHeader	Feature Envy
+core.java12.com.vladium.util.args.OptsParser$OptDefMetadata	getOptDef	Feature Envy
+core.java12.com.vladium.util.args.OptsParser$OptDefMetadata	getOptDef	Dispersed Coupling
+core.java12.com.vladium.util.args.OptsParser$OptDefMetadata	addOptDef	Feature Envy
+core.java12.com.vladium.util.args.OptsParser$OptDefMetadata	addOptDef	Dispersed Coupling
+core.java12.com.vladium.jcd.lib.Types	accessFlagsToString	Feature Envy
+core.java12.com.vladium.emma.report.ReportDataModel	getView	Dispersed Coupling
+core.java12.com.vladium.util.Files	readFileList	Intensive Coupling
+core.java12.com.vladium.util.Files	renameFile	Intensive Coupling
+core.java12.com.vladium.util.Files	null	God Class
+core.java12.com.vladium.emma.report.html.doc.AttributeSet	set	Shotgun Surgery
+core.java12.com.vladium.util.IPathEnumerator$Factory$PathEnumerator	enumerate	Feature Envy
+core.java12.com.vladium.util.IPathEnumerator$Factory$PathEnumerator	enumerate	Intensive Coupling
+core.java12.com.vladium.util.IPathEnumerator$Factory$PathEnumerator	enumeratePathDir	Feature Envy
+core.java12.com.vladium.util.IPathEnumerator$Factory$PathEnumerator	enumeratePathDir	Dispersed Coupling
+core.java12.com.vladium.util.IPathEnumerator$Factory$PathEnumerator	enumeratePathArchive	Dispersed Coupling
+core.java12.com.vladium.jcd.cls.ConstantCollection	set	Dispersed Coupling
+core.java12.com.vladium.jcd.cls.ConstantCollection	getCONSTANT_Utf8_index	Feature Envy
+core.java12.com.vladium.emma.report.html.doc.HTMLDocument	null	Refused Parent Bequest
+core.java12.com.vladium.emma.report.ClassItem	getAggregate	Brain Method
+core.java12.com.vladium.emma.report.ClassItem	getAggregate	Dispersed Coupling
+core.java12.com.vladium.emma.report.ClassItem	null	Refused Parent Bequest
+core.java12.com.vladium.emma.report.ClassItem	null	Tradition Breaker
+core.java12.com.vladium.emma.report.IItem	getName	Shotgun Surgery
+core.java13.com.vladium.util.exit.ExitHookManager$SunJREExitHookManager	removeExitHook	Feature Envy
+core.java12.com.vladium.emma.report.html.doc.AttributeSet$AttributeSetImpl	emit	Dispersed Coupling
+core.java12.com.vladium.emma.instr.InstrVisitor$LOOKUPSWITCH	emit	Feature Envy
+core.java12.com.vladium.jcd.cls.AbstractClassDefVisitor	visit	Feature Envy
+core.java12.com.vladium.emma.rt.AppRunner	setReportTypes	Feature Envy
+core.java12.com.vladium.emma.rt.AppRunner	_run	Brain Method
+core.java12.com.vladium.emma.rt.AppRunner	_run	Dispersed Coupling
+core.java12.com.vladium.emma.rt.AppRunner	joinNonDeamonThreads	Intensive Coupling
+core.java12.com.vladium.emma.rt.AppRunner	null	God Class
+core.java12.com.vladium.emma.rt.AppRunner	null	Brain Class
+core.java12.com.vladium.emma.rt.AppRunner	null	Refused Parent Bequest
+core.java12.com.vladium.emma.rt.AppRunner	null	Tradition Breaker
+core.java12.com.vladium.emma.rt.InstrClassLoader	findClass	Brain Method
+core.java12.com.vladium.emma.rt.InstrClassLoader	findClass	Dispersed Coupling
+core.java12.com.vladium.emma.rt.InstrClassLoader	defineClass	Feature Envy
+core.java12.com.vladium.emma.rt.InstrClassLoader	filesToURLs	Feature Envy
+core.java12.com.vladium.emma.rt.InstrClassLoader	null	Data Class
+core.java12.com.vladium.util.ResourceLoader	getResource	Feature Envy
+core.java12.com.vladium.util.ResourceLoader	getResourceAsStream	Feature Envy
+core.java12.com.vladium.util.ResourceLoader	getResources	Feature Envy
+core.java12.com.vladium.emma.data.MergeProcessor	_run	Brain Method
+core.java12.com.vladium.emma.data.MergeProcessor	_run	Dispersed Coupling
+core.java12.com.vladium.util.args.OptsParser	usage	Intensive Coupling
+core.java12.com.vladium.util.args.OptsParser	parse	Brain Method
+core.java12.com.vladium.util.args.OptsParser	parse	Intensive Coupling
+core.java12.com.vladium.util.args.OptsParser	getOptCanonicalName	Feature Envy
+core.java12.com.vladium.util.args.OptsParser	parseOptDefMetadata	Intensive Coupling
+core.java12.com.vladium.util.args.OptsParser	null	God Class
+core.java12.com.vladium.util.args.OptsParser	null	Brain Class
+core.java12.com.vladium.emma.report.SrcFileItem	getAggregate	Brain Method
+core.java12.com.vladium.emma.report.SrcFileItem	getAggregate	Dispersed Coupling
+core.java12.com.vladium.emma.report.SrcFileItem	null	Refused Parent Bequest
+core.java12.com.vladium.emma.report.SrcFileItem	null	Tradition Breaker
+core.java12.com.vladium.jcd.parser.ClassDefParser$classParser	class_table	Feature Envy
+core.java12.com.vladium.jcd.parser.ClassDefParser$classParser	version	Feature Envy
+core.java12.com.vladium.jcd.parser.ClassDefParser$classParser	constant_pool	Feature Envy
+core.java12.com.vladium.jcd.parser.ClassDefParser$classParser	interfaces	Feature Envy
+core.java12.com.vladium.jcd.parser.ClassDefParser$classParser	fields	Dispersed Coupling
+core.java12.com.vladium.jcd.parser.ClassDefParser$classParser	methods	Feature Envy
+core.java12.com.vladium.jcd.parser.ClassDefParser$classParser	attributes	Feature Envy
+core.java12.com.vladium.emma.AppLoggers	create	Dispersed Coupling
+core.java12.com.vladium.util.args.OptsParser$MetadataParser	optdef	Feature Envy
+core.java12.com.vladium.util.args.OptsParser$MetadataParser	optmetadata	Feature Envy
+core.java12.com.vladium.util.args.OptsParser$MetadataParser	cardinality	Feature Envy
+core.java12.com.vladium.util.args.OptsParser$MetadataParser	namelist	Feature Envy
+core.java12.com.vladium.util.args.OptsParser$MetadataParser	nextToken	Feature Envy
+core.java12.com.vladium.emma.data.CoverageData	merge	Dispersed Coupling
+core.java12.com.vladium.emma.data.CoverageData	writeExternal	Dispersed Coupling
+core.java12.com.vladium.util.args.OptsParser$Opts	addOpt	Dispersed Coupling
+core.java12.com.vladium.util.args.OptsParser$Opts	setFreeArgs	Feature Envy
+core.java12.com.vladium.emma.report.ReportProperties$ParsedProperties	setUnitsType	Feature Envy
+core.java12.com.vladium.emma.report.ReportProperties$ParsedProperties	getUnitsType	Shotgun Surgery
+core.java12.com.vladium.emma.report.ReportProperties$ParsedProperties	setViewType	Feature Envy
+core.java12.com.vladium.emma.report.ReportProperties$ParsedProperties	setDepth	Feature Envy
+core.java12.com.vladium.emma.report.ReportProperties$ParsedProperties	getColumnOrder	Shotgun Surgery
+core.java12.com.vladium.emma.instr.InstrProcessor	createDir	Feature Envy
+core.java12.com.vladium.emma.instr.InstrProcessor	getFullOutDir	Feature Envy
+core.java12.com.vladium.emma.instr.InstrProcessor	null	God Class
+core.java12.com.vladium.emma.instr.InstrProcessor	null	Refused Parent Bequest
+core.java12.com.vladium.emma.instr.InstrProcessor	null	Tradition Breaker
+core.java12.com.vladium.util.Property$SystemPropertyLookup	keys	Dispersed Coupling
+core.java12.com.vladium.emma.data.DataFactory	persist	Feature Envy
+core.java12.com.vladium.emma.data.DataFactory	mergeload	Brain Method
+core.java12.com.vladium.emma.data.DataFactory	mergeload	Dispersed Coupling
+core.java12.com.vladium.emma.data.DataFactory	persist	Brain Method
+core.java12.com.vladium.emma.data.DataFactory	persist	Intensive Coupling
+core.java12.com.vladium.emma.data.DataFactory	writeFileHeader	Feature Envy
+core.java12.com.vladium.emma.data.DataFactory	readEntry	Feature Envy
+core.java12.com.vladium.emma.data.DataFactory	null	God Class
+core.java12.com.vladium.emma.data.DataFactory	null	Brain Class
+core.java12.com.vladium.emma.data.mergeCommand	run	Brain Method
+core.java12.com.vladium.emma.data.mergeCommand	run	Dispersed Coupling
+core.java12.com.vladium.jcd.lib.UDataInputStream	readU2	Shotgun Surgery
+core.java12.com.vladium.emma.report.IItemMetadata	getTypeID	Shotgun Surgery
+core.java12.com.vladium.util.Strings	mergeAT	Dispersed Coupling
+core.java12.com.vladium.util.Strings	null	God Class
+core.java12.com.vladium.emma.instr.InstrProcessorST	handleArchiveStart	Dispersed Coupling
+core.java12.com.vladium.emma.instr.InstrProcessorST	handleArchiveEntry	Brain Method
+core.java12.com.vladium.emma.instr.InstrProcessorST	handleArchiveEntry	Dispersed Coupling
+core.java12.com.vladium.emma.instr.InstrProcessorST	handleFile	Brain Method
+core.java12.com.vladium.emma.instr.InstrProcessorST	handleFile	Dispersed Coupling
+core.java12.com.vladium.emma.instr.InstrProcessorST	_run	Brain Method
+core.java12.com.vladium.emma.instr.InstrProcessorST	_run	Dispersed Coupling
+core.java12.com.vladium.emma.instr.InstrProcessorST	null	God Class
+core.java12.com.vladium.emma.instr.InstrProcessorST	null	Brain Class
+core.java12.com.vladium.emma.instr.InstrProcessorST	null	Refused Parent Bequest
+core.java12.com.vladium.util.exception.ExceptionCommon	addExceptionResource	Dispersed Coupling
+core.java12.com.vladium.util.exception.ExceptionCommon	null	God Class
+core.java12.com.vladium.emma.report.ReportProcessor	setReportTypes	Feature Envy
+core.java12.com.vladium.emma.report.ReportProcessor	_run	Brain Method
+core.java12.com.vladium.emma.report.ReportProcessor	_run	Dispersed Coupling
+core.java12.com.vladium.emma.report.ReportProcessor	null	Refused Parent Bequest
+core.java12.com.vladium.emma.instr.instrCommand	run	Brain Method
+core.java12.com.vladium.emma.instr.instrCommand	run	Dispersed Coupling
+core.java12.com.vladium.emma.data.CoverageOptionsFactory	create	Feature Envy
+core.java12.com.vladium.emma.data.CoverageOptionsFactory	create	Feature Envy
+core.java12.com.vladium.emma.report.IItemAttribute$Factory$FractionAttribute$FractionComparator	compare	Feature Envy
+core.java12.com.vladium.emma.report.AbstractReportGenerator	initialize	Brain Method
+core.java12.com.vladium.emma.report.AbstractReportGenerator	initialize	Dispersed Coupling
+tools.java.com.vladium.tools.ClassDep	main	Dispersed Coupling
+tools.java.com.vladium.tools.ClassDep	getDependencies	Dispersed Coupling
+core.java12.com.vladium.util.IntIntMap	contains	Feature Envy
+core.java12.com.vladium.util.IntIntMap	get	Feature Envy
+core.java12.com.vladium.util.IntIntMap	get	Feature Envy
+core.java12.com.vladium.util.IntIntMap	keys	Feature Envy
+core.java12.com.vladium.util.IntIntMap	put	Feature Envy
+core.java12.com.vladium.util.IntIntMap	remove	Feature Envy
+core.java12.com.vladium.util.IntIntMap	rehash	Feature Envy
+core.java12.com.vladium.emma.instr.InstrVisitor	process	Feature Envy
+core.java12.com.vladium.emma.instr.InstrVisitor	visit	Brain Method
+core.java12.com.vladium.emma.instr.InstrVisitor	visit	Dispersed Coupling
+core.java12.com.vladium.emma.instr.InstrVisitor	visit	Brain Method
+core.java12.com.vladium.emma.instr.InstrVisitor	visit	Dispersed Coupling
+core.java12.com.vladium.emma.instr.InstrVisitor	visit	Brain Method
+core.java12.com.vladium.emma.instr.InstrVisitor	visit	Dispersed Coupling
+core.java12.com.vladium.emma.instr.InstrVisitor	visit	Brain Method
+core.java12.com.vladium.emma.instr.InstrVisitor	visit	Dispersed Coupling
+core.java12.com.vladium.emma.instr.InstrVisitor	null	God Class
+core.java12.com.vladium.emma.instr.InstrVisitor	null	Brain Class
+core.java12.com.vladium.emma.instr.InstrVisitor	null	Refused Parent Bequest
+core.java12.com.vladium.emma.instr.InstrVisitor	null	Tradition Breaker
+core.java12.com.vladium.util.IProperties	getProperty	Shotgun Surgery
+core.java12.com.vladium.emma.rt.RTCoverageDataPersister	dumpCoverageData	Dispersed Coupling
+core.java12.com.vladium.emma.Command	processCmdPropertyOverrides	Dispersed Coupling
+core.java12.com.vladium.emma.Command	getOptionalBooleanOptValue	Feature Envy
+core.java12.com.vladium.emma.Command	null	God Class
+core.java12.com.vladium.emma.report.reportCommand	run	Brain Method
+core.java12.com.vladium.emma.report.reportCommand	run	Dispersed Coupling
+core.java12.emma	main	Feature Envy
+core.java12.com.vladium.emma.rt.InstrClassLoadHook	processClassDef	Feature Envy
+core.java12.com.vladium.emma.rt.InstrClassLoadHook	processClassDef	Dispersed Coupling
+core.java12.com.vladium.util.IntSet	contains	Feature Envy
+core.java12.com.vladium.util.IntSet	values	Feature Envy
+core.java12.com.vladium.util.IntSet	add	Feature Envy
+core.java12.com.vladium.util.IntSet	rehash	Feature Envy
+core.java12.com.vladium.emma.report.ReportProperties$ReportPropertyMapper	getMappedKey	Feature Envy
+core.java12.com.vladium.util.ByteArrayIStream	read	Feature Envy
+core.java12.com.vladium.util.ObjectIntMap	keys	Feature Envy
+core.java12.com.vladium.util.ObjectIntMap	rehash	Feature Envy
+core.java12.com.vladium.emma.rt.RT	reset	Dispersed Coupling
+core.java12.com.vladium.emma.rt.RT	getCoverageOutFile	Feature Envy
+core.java12.com.vladium.emma.rt.RT	getCoverageOutMerge	Feature Envy
+core.java12.com.vladium.emma.data.MetaData	add	Intensive Coupling
+core.java12.com.vladium.emma.data.MetaData	merge	Feature Envy
+core.java12.com.vladium.emma.data.MetaData	merge	Dispersed Coupling
+core.java12.com.vladium.emma.rt.ClassPathProcessorST	handleArchiveEntry	Dispersed Coupling
+core.java12.com.vladium.emma.rt.ClassPathProcessorST	handleFile	Dispersed Coupling
+core.java12.com.vladium.emma.report.MethodItem	getAggregate	Brain Method
+core.java12.com.vladium.emma.report.MethodItem	getAggregate	Dispersed Coupling
+core.java12.com.vladium.emma.report.MethodItem	null	Refused Parent Bequest
+core.java12.com.vladium.emma.rt.RTExitHook	createClassLoaderClosure	Dispersed Coupling
+core.java12.com.vladium.emma.report.ReportProperties	parseProperties	Brain Method
+core.java12.com.vladium.emma.report.ReportProperties	parseProperties	Dispersed Coupling
+core.java12.com.vladium.jcd.cls.ClassDef	getConstants	Shotgun Surgery
+core.java12.com.vladium.jcd.cls.ClassDef	computeSUID	Brain Method
+core.java12.com.vladium.jcd.cls.ClassDef	computeSUID	Dispersed Coupling
+core.java12.com.vladium.jcd.cls.ClassDef	addFieldref	Feature Envy
+core.java12.com.vladium.jcd.cls.ClassDef	null	God Class
+core.java12.com.vladium.util.IntObjectMap	contains	Feature Envy
+core.java12.com.vladium.util.IntObjectMap	get	Feature Envy
+core.java12.com.vladium.util.IntObjectMap	get	Shotgun Surgery
+core.java12.com.vladium.util.IntObjectMap	put	Feature Envy
+core.java12.com.vladium.util.IntObjectMap	rehash	Feature Envy
+core.java12.com.vladium.util.IProperties$Factory$PropertiesImpl	getProperty	Feature Envy
+core.java12.com.vladium.util.IProperties$Factory$PropertiesImpl	null	Data Class
+core.java12.com.vladium.jcd.lib.UDataOutputStream	writeU2	Shotgun Surgery
+core.java12.com.vladium.util.ByteArrayOStream	write4	Shotgun Surgery
+core.java12.com.vladium.util.ByteArrayOStream	size	Shotgun Surgery
+core.java12.com.vladium.util.ByteArrayOStream	write	Shotgun Surgery
+core.java12.com.vladium.util.ByteArrayOStream	write	Feature Envy
+core.java12.com.vladium.emma.EMMAProperties	getAppProperties	Dispersed Coupling
+core.java12.com.vladium.jcd.cls.AttributeCollection	null	Data Class
+core.java12.com.vladium.util.SoftValueMap	null	God Class
+core.java12.com.vladium.emma.runCommand	run	Brain Method
+core.java12.com.vladium.emma.runCommand	run	Dispersed Coupling
+core.java12.com.vladium.emma.runCommand	null	God Class
+core.java12.com.vladium.emma.filter.IInclExclFilter$Factory$WCInclExclFilter	WCInclExclFilter	Feature Envy
+core.java12.com.vladium.emma.report.IItemAttribute$Factory$FractionAttribute	passes	Feature Envy
+core.java12.com.vladium.jcd.cls.IConstantCollection	get	Shotgun Surgery
+core.java12.com.vladium.jcd.cls.IConstantCollection	add	Shotgun Surgery
+core.java12.com.vladium.emma.rt.AppRunner$AppRunnerExitHook	run	Brain Method
+core.java12.com.vladium.emma.rt.AppRunner$AppRunnerExitHook	run	Dispersed Coupling
+core.java12.com.vladium.jcd.cls.attribute.CodeAttribute_info	CodeAttribute_info	Dispersed Coupling
+core.java12.com.vladium.logging.Logger	atINFO	Shotgun Surgery
+core.java12.com.vladium.logging.Logger	atVERBOSE	Shotgun Surgery
+core.java12.com.vladium.logging.Logger	atTRACE1	Shotgun Surgery
+core.java12.com.vladium.logging.Logger	atTRACE2	Shotgun Surgery
+core.java12.com.vladium.logging.Logger	info	Shotgun Surgery
+core.java12.com.vladium.logging.Logger	verbose	Shotgun Surgery
+core.java12.com.vladium.logging.Logger	trace1	Shotgun Surgery
+core.java12.com.vladium.logging.Logger	trace2	Shotgun Surgery
+core.java12.com.vladium.logging.Logger	stringToLevel	Feature Envy
+core.java12.com.vladium.logging.Logger	_log	Dispersed Coupling
+core.java12.com.vladium.logging.Logger	_log	Dispersed Coupling
+core.java12.com.vladium.logging.Logger	null	God Class
+core.java12.com.vladium.util.Descriptors	methodVMNameToJavaName	Feature Envy
+core.java12.com.vladium.util.Descriptors	typeDescriptorToJavaName	Brain Method
+core.java12.com.vladium.jcd.lib.Types$typeDescriptorCompiler	arrayOf	Dispersed Coupling

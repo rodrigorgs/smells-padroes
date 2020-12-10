@@ -1,281 +1,281 @@
-src.cern.clhep.PhysicalConstants
-src.cern.clhep.Units
-src.cern.colt.Arrays
-src.cern.colt.bitvector.BitMatrix
-src.cern.colt.bitvector.BitVector
-src.cern.colt.bitvector.BitVector$IndexProcedure
-src.cern.colt.bitvector.QuickBitVector
-src.cern.colt.buffer.DoubleBuffer2D
-src.cern.colt.buffer.DoubleBuffer2DConsumer
-src.cern.colt.buffer.DoubleBuffer3D
-src.cern.colt.buffer.DoubleBuffer3DConsumer
-src.cern.colt.buffer.DoubleBufferConsumer
-src.cern.colt.buffer.IntBuffer
-src.cern.colt.buffer.IntBuffer2D
-src.cern.colt.buffer.IntBuffer2DConsumer
-src.cern.colt.buffer.IntBuffer3D
-src.cern.colt.buffer.IntBuffer3DConsumer
-src.cern.colt.buffer.IntBufferConsumer
-src.cern.colt.buffer.ObjectBuffer
-src.cern.colt.buffer.ObjectBufferConsumer
-src.cern.colt.function.BooleanProcedure
-src.cern.colt.function.ByteComparator
-src.cern.colt.function.ByteProcedure
-src.cern.colt.function.CharComparator
-src.cern.colt.function.CharProcedure
-src.cern.colt.function.Double27Function
-src.cern.colt.function.Double5Function
-src.cern.colt.function.Double9Function
-src.cern.colt.function.DoubleComparator
-src.cern.colt.function.DoubleDoubleFunction
-src.cern.colt.function.DoubleDoubleProcedure
-src.cern.colt.function.DoubleFunction
-src.cern.colt.function.DoubleIntProcedure
-src.cern.colt.function.DoubleProcedure
-src.cern.colt.function.FloatComparator
-src.cern.colt.function.FloatProcedure
-src.cern.colt.function.IntComparator
-src.cern.colt.function.IntDoubleFunction
-src.cern.colt.function.IntDoubleProcedure
-src.cern.colt.function.IntFunction
-src.cern.colt.function.IntIntDoubleFunction
-src.cern.colt.function.IntIntDoubleProcedure
-src.cern.colt.function.IntIntFunction
-src.cern.colt.function.IntIntIntProcedure
-src.cern.colt.function.IntIntProcedure
-src.cern.colt.function.IntObjectProcedure
-src.cern.colt.function.IntProcedure
-src.cern.colt.function.LongComparator
-src.cern.colt.function.LongObjectProcedure
-src.cern.colt.function.LongProcedure
-src.cern.colt.function.ObjectFunction
-src.cern.colt.function.ObjectObjectFunction
-src.cern.colt.function.ObjectProcedure
-src.cern.colt.function.ShortComparator
-src.cern.colt.function.ShortProcedure
-src.cern.colt.GenericPermuting
-src.cern.colt.GenericSorting
-src.cern.colt.GenericSortingTest
-src.cern.colt.list.AbstractBooleanList
-src.cern.colt.list.AbstractByteList
-src.cern.colt.list.AbstractCharList
-src.cern.colt.list.AbstractCollection
-src.cern.colt.list.AbstractDoubleList
-src.cern.colt.list.AbstractFloatList
-src.cern.colt.list.AbstractIntList
-src.cern.colt.list.AbstractList
-src.cern.colt.list.AbstractLongList
-src.cern.colt.list.AbstractShortList
-src.cern.colt.list.adapter.DoubleListAdapter
-src.cern.colt.list.adapter.FloatListAdapter
-src.cern.colt.list.adapter.IntListAdapter
-src.cern.colt.list.adapter.LongListAdapter
-src.cern.colt.list.adapter.ObjectListAdapter
-src.cern.colt.list.BooleanArrayList
-src.cern.colt.list.ByteArrayList
-src.cern.colt.list.CharArrayList
-src.cern.colt.list.DistinctNumberList
-src.cern.colt.list.DoubleArrayList
-src.cern.colt.list.FloatArrayList
-src.cern.colt.list.IntArrayList
-src.cern.colt.list.LongArrayList
-src.cern.colt.list.MinMaxNumberList
-src.cern.colt.list.ObjectArrayList
-src.cern.colt.list.ShortArrayList
-src.cern.colt.list.SimpleLongArrayList
-src.cern.colt.map.AbstractDoubleIntMap
-src.cern.colt.map.AbstractIntDoubleMap
-src.cern.colt.map.AbstractIntIntMap
-src.cern.colt.map.AbstractIntObjectMap
-src.cern.colt.map.AbstractLongObjectMap
-src.cern.colt.map.AbstractMap
-src.cern.colt.map.HashFunctions
-src.cern.colt.map.OpenDoubleIntHashMap
-src.cern.colt.map.OpenIntDoubleHashMap
-src.cern.colt.map.OpenIntIntHashMap
-src.cern.colt.map.OpenIntObjectHashMap
-src.cern.colt.map.OpenLongObjectHashMap
-src.cern.colt.map.PrimeFinder
-src.cern.colt.map.QuickOpenIntIntHashMap
-src.cern.colt.matrix.bench.BenchmarkKernel
-src.cern.colt.matrix.bench.BenchmarkMatrix
-src.cern.colt.matrix.bench.Double2DProcedure
-src.cern.colt.matrix.bench.TimerProcedure
-src.cern.colt.matrix.doublealgo.DoubleMatrix1DComparator
-src.cern.colt.matrix.doublealgo.DoubleMatrix2DComparator
-src.cern.colt.matrix.doublealgo.Statistic
-src.cern.colt.matrix.doublealgo.Statistic$VectorVectorFunction
-src.cern.colt.matrix.doublealgo.Stencil
-src.cern.colt.matrix.doublealgo.Transform
-src.cern.colt.matrix.DoubleFactory1D
-src.cern.colt.matrix.DoubleFactory2D
-src.cern.colt.matrix.DoubleFactory3D
-src.cern.colt.matrix.DoubleMatrix1D
-src.cern.colt.matrix.DoubleMatrix1DProcedure
-src.cern.colt.matrix.DoubleMatrix2D
-src.cern.colt.matrix.DoubleMatrix2DProcedure
-src.cern.colt.matrix.DoubleMatrix3D
-src.cern.colt.matrix.DoubleMatrix3DProcedure
-src.cern.colt.matrix.impl.AbstractFormatter
-src.cern.colt.matrix.impl.AbstractMatrix
-src.cern.colt.matrix.impl.AbstractMatrix1D
-src.cern.colt.matrix.impl.AbstractMatrix2D
-src.cern.colt.matrix.impl.AbstractMatrix3D
-src.cern.colt.matrix.impl.BenchmarkMatrix2D
-src.cern.colt.matrix.impl.DelegateDoubleMatrix1D
-src.cern.colt.matrix.impl.DenseDoubleMatrix1D
-src.cern.colt.matrix.impl.DenseDoubleMatrix2D
-src.cern.colt.matrix.impl.DenseDoubleMatrix3D
-src.cern.colt.matrix.impl.DenseObjectMatrix1D
-src.cern.colt.matrix.impl.DenseObjectMatrix2D
-src.cern.colt.matrix.impl.DenseObjectMatrix3D
-src.cern.colt.matrix.impl.Former
-src.cern.colt.matrix.impl.FormerFactory
-src.cern.colt.matrix.impl.NormInfinityTest
-src.cern.colt.matrix.impl.QRTest
-src.cern.colt.matrix.impl.RCDoubleMatrix2D
-src.cern.colt.matrix.impl.RCMDoubleMatrix2D
-src.cern.colt.matrix.impl.SelectedDenseDoubleMatrix1D
-src.cern.colt.matrix.impl.SelectedDenseDoubleMatrix2D
-src.cern.colt.matrix.impl.SelectedDenseDoubleMatrix3D
-src.cern.colt.matrix.impl.SelectedDenseObjectMatrix1D
-src.cern.colt.matrix.impl.SelectedDenseObjectMatrix2D
-src.cern.colt.matrix.impl.SelectedDenseObjectMatrix3D
-src.cern.colt.matrix.impl.SelectedSparseDoubleMatrix1D
-src.cern.colt.matrix.impl.SelectedSparseDoubleMatrix2D
-src.cern.colt.matrix.impl.SelectedSparseDoubleMatrix3D
-src.cern.colt.matrix.impl.SelectedSparseObjectMatrix1D
-src.cern.colt.matrix.impl.SelectedSparseObjectMatrix2D
-src.cern.colt.matrix.impl.SelectedSparseObjectMatrix3D
-src.cern.colt.matrix.impl.SparseDoubleMatrix1D
-src.cern.colt.matrix.impl.SparseDoubleMatrix2D
-src.cern.colt.matrix.impl.SparseDoubleMatrix3D
-src.cern.colt.matrix.impl.SparseObjectMatrix1D
-src.cern.colt.matrix.impl.SparseObjectMatrix2D
-src.cern.colt.matrix.impl.SparseObjectMatrix3D
-src.cern.colt.matrix.impl.TestMatrix2D
-src.cern.colt.matrix.impl.TridiagonalDoubleMatrix2D
-src.cern.colt.matrix.impl.WrapperDoubleMatrix1D
-src.cern.colt.matrix.impl.WrapperDoubleMatrix2D
-src.cern.colt.matrix.linalg.Algebra
-src.cern.colt.matrix.linalg.Blas
-src.cern.colt.matrix.linalg.CholeskyDecomposition
-src.cern.colt.matrix.linalg.Diagonal
-src.cern.colt.matrix.linalg.EigenvalueDecomposition
-src.cern.colt.matrix.linalg.LUDecomposition
-src.cern.colt.matrix.linalg.LUDecompositionQuick
-src.cern.colt.matrix.linalg.Matrix2DMatrix2DFunction
-src.cern.colt.matrix.linalg.Property
-src.cern.colt.matrix.linalg.QRDecomposition
-src.cern.colt.matrix.linalg.SeqBlas
-src.cern.colt.matrix.linalg.SingularValueDecomposition
-src.cern.colt.matrix.linalg.Smp
-src.cern.colt.matrix.linalg.SmpBlas
-src.cern.colt.matrix.objectalgo.ObjectMatrix1DComparator
-src.cern.colt.matrix.objectalgo.ObjectMatrix2DComparator
-src.cern.colt.matrix.ObjectFactory1D
-src.cern.colt.matrix.ObjectFactory2D
-src.cern.colt.matrix.ObjectFactory3D
-src.cern.colt.matrix.ObjectMatrix1D
-src.cern.colt.matrix.ObjectMatrix1DProcedure
-src.cern.colt.matrix.ObjectMatrix2D
-src.cern.colt.matrix.ObjectMatrix2DProcedure
-src.cern.colt.matrix.ObjectMatrix3D
-src.cern.colt.matrix.ObjectMatrix3DProcedure
-src.cern.colt.PersistentObject
-src.cern.colt.Swapper
-src.cern.colt.Timer
-src.cern.colt.Version
-src.cern.jet.math.Algebraic
-src.cern.jet.math.Arithmetic
-src.cern.jet.math.Bessel
-src.cern.jet.math.Complex
-src.cern.jet.math.Constants
-src.cern.jet.math.Elliptic
-src.cern.jet.math.ExponentialIntegral
-src.cern.jet.math.Functions
-src.cern.jet.math.IntFunctions
-src.cern.jet.math.Misc
-src.cern.jet.math.Mult
-src.cern.jet.math.NumericalIntegration
-src.cern.jet.math.PlusMult
-src.cern.jet.math.Polynomial
-src.cern.jet.random.AbstractContinousDistribution
-src.cern.jet.random.AbstractDiscreteDistribution
-src.cern.jet.random.AbstractDistribution
-src.cern.jet.random.Beta
-src.cern.jet.random.Binomial
-src.cern.jet.random.BreitWigner
-src.cern.jet.random.BreitWignerMeanSquare
-src.cern.jet.random.ChiSquare
-src.cern.jet.random.Distributions
-src.cern.jet.random.Empirical
-src.cern.jet.random.EmpiricalWalker
-src.cern.jet.random.engine.DRand
-src.cern.jet.random.engine.MersenneTwister
-src.cern.jet.random.engine.MersenneTwister64
-src.cern.jet.random.engine.RandomEngine
-src.cern.jet.random.engine.RandomGenerator
-src.cern.jet.random.engine.RandomSeedGenerator
-src.cern.jet.random.engine.RandomSeedTable
-src.cern.jet.random.ExponentialPower
-src.cern.jet.random.Fun
-src.cern.jet.random.Hyperbolic
-src.cern.jet.random.HyperGeometric
-src.cern.jet.random.Logarithmic
-src.cern.jet.random.NegativeBinomial
-src.cern.jet.random.Normal
-src.cern.jet.random.Poisson
-src.cern.jet.random.PoissonSlow
-src.cern.jet.random.sampling.RandomSampler
-src.cern.jet.random.sampling.RandomSamplingAssistant
-src.cern.jet.random.sampling.WeightedRandomSampler
-src.cern.jet.random.Stack
-src.cern.jet.random.StudentT
-src.cern.jet.random.Uniform
-src.cern.jet.random.VonMises
-src.cern.jet.random.Zeta
-src.cern.jet.stat.Descriptive
-src.cern.jet.stat.Probability
-src.cern.jet.stat.quantile.Buffer
-src.cern.jet.stat.quantile.BufferSet
-src.cern.jet.stat.quantile.DoubleBufferSet
-src.cern.jet.stat.quantile.DoubleQuantileEstimator
-src.cern.jet.stat.quantile.DoubleQuantileFinder
-src.cern.jet.stat.quantile.EquiDepthHistogram
-src.cern.jet.stat.quantile.ExactDoubleQuantileFinder
-src.cern.jet.stat.quantile.KnownDoubleQuantileEstimator
-src.cern.jet.stat.quantile.Quantile1Test
-src.cern.jet.stat.quantile.QuantileCalc
-src.cern.jet.stat.quantile.QuantileFinderFactory
-src.cern.jet.stat.quantile.QuantileFinderTest
-src.cern.jet.stat.quantile.UnknownDoubleQuantileEstimator
-src.cern.jet.stat.quantile.Utils
-src.corejava.Format
-src.hep.aida.bin.AbstractBin
-src.hep.aida.bin.AbstractBin1D
-src.hep.aida.bin.BinBinFunction1D
-src.hep.aida.bin.BinFunction1D
-src.hep.aida.bin.BinFunctions1D
-src.hep.aida.bin.DynamicBin1D
-src.hep.aida.bin.MightyStaticBin1D
-src.hep.aida.bin.QuantileBin1D
-src.hep.aida.bin.StaticBin1D
-src.hep.aida.IAxis
-src.hep.aida.IHistogram
-src.hep.aida.IHistogram1D
-src.hep.aida.IHistogram2D
-src.hep.aida.IHistogram3D
-src.hep.aida.ref.AbstractHistogram1D
-src.hep.aida.ref.AbstractHistogram2D
-src.hep.aida.ref.AbstractHistogram3D
-src.hep.aida.ref.Converter
-src.hep.aida.ref.FixedAxis
-src.hep.aida.ref.Histogram
-src.hep.aida.ref.Histogram1D
-src.hep.aida.ref.Histogram2D
-src.hep.aida.ref.Histogram3D
-src.hep.aida.ref.Test
-src.hep.aida.ref.Test2
-src.hep.aida.ref.Util
-src.hep.aida.ref.VariableAxis
+hep.aida.ref.AbstractHistogram2D	classe	25
+hep.aida.ref.Util	classe	6
+hep.aida.ref.Test2	classe	5
+hep.aida.ref.VariableAxis	classe	9
+hep.aida.ref.FixedAxis	classe	10
+hep.aida.ref.AbstractHistogram1D	classe	10
+hep.aida.ref.AbstractHistogram3D	classe	27
+hep.aida.ref.Converter	classe	14
+hep.aida.ref.Test	classe	3
+hep.aida.ref.Histogram2D	classe	16
+hep.aida.ref.Histogram3D	classe	18
+hep.aida.ref.Histogram1D	classe	11
+hep.aida.ref.Histogram	classe	1
+hep.aida.IHistogram	interface	10
+hep.aida.bin.AbstractBin1D	classe	18
+hep.aida.bin.BinFunction1D	interface	2
+hep.aida.bin.BinFunctions1D	classe	1
+hep.aida.bin.DynamicBin1D	classe	46
+hep.aida.bin.MightyStaticBin1D	classe	24
+hep.aida.bin.AbstractBin	classe	14
+hep.aida.bin.BinBinFunction1D	interface	1
+hep.aida.bin.StaticBin1D	classe	10
+hep.aida.bin.QuantileBin1D	classe	12
+hep.aida.IAxis	interface	8
+hep.aida.IHistogram2D	interface	22
+hep.aida.IHistogram3D	interface	24
+hep.aida.IHistogram1D	interface	9
+cern.colt.PersistentObject	classe	1
+cern.colt.Swapper	interface	1
+cern.colt.GenericSortingTest	classe	3
+cern.colt.GenericPermuting	classe	5
+cern.colt.function.IntComparator	interface	2
+cern.colt.function.ObjectObjectFunction	interface	1
+cern.colt.function.DoubleDoubleProcedure	interface	1
+cern.colt.function.IntDoubleFunction	interface	1
+cern.colt.function.ByteProcedure	interface	1
+cern.colt.function.DoubleIntProcedure	interface	1
+cern.colt.function.DoubleDoubleFunction	interface	1
+cern.colt.function.ByteComparator	interface	2
+cern.colt.function.IntIntDoubleFunction	interface	1
+cern.colt.function.DoubleProcedure	interface	1
+cern.colt.function.ObjectFunction	interface	1
+cern.colt.function.IntIntFunction	interface	1
+cern.colt.function.LongComparator	interface	2
+cern.colt.function.IntProcedure	interface	1
+cern.colt.function.LongObjectProcedure	interface	1
+cern.colt.function.IntDoubleProcedure	interface	1
+cern.colt.function.FloatComparator	interface	2
+cern.colt.function.DoubleFunction	interface	1
+cern.colt.function.FloatProcedure	interface	1
+cern.colt.function.Double5Function	interface	1
+cern.colt.function.IntIntDoubleProcedure	interface	1
+cern.colt.function.BooleanProcedure	interface	1
+cern.colt.function.DoubleComparator	interface	2
+cern.colt.function.Double27Function	interface	1
+cern.colt.function.IntIntProcedure	interface	1
+cern.colt.function.ObjectProcedure	interface	1
+cern.colt.function.CharComparator	interface	2
+cern.colt.function.ShortComparator	interface	2
+cern.colt.function.LongProcedure	interface	1
+cern.colt.function.IntIntIntProcedure	interface	1
+cern.colt.function.IntFunction	interface	1
+cern.colt.function.ShortProcedure	interface	1
+cern.colt.function.CharProcedure	interface	1
+cern.colt.function.Double9Function	interface	1
+cern.colt.function.IntObjectProcedure	interface	1
+cern.colt.Timer	classe	12
+cern.colt.map.OpenIntObjectHashMap	classe	20
+cern.colt.map.QuickOpenIntIntHashMap	classe	2
+cern.colt.map.AbstractIntDoubleMap	classe	22
+cern.colt.map.AbstractIntObjectMap	classe	20
+cern.colt.map.OpenIntDoubleHashMap	classe	22
+cern.colt.map.OpenIntIntHashMap	classe	20
+cern.colt.map.PrimeFinder	classe	3
+cern.colt.map.AbstractLongObjectMap	classe	20
+cern.colt.map.HashFunctions	classe	8
+cern.colt.map.OpenDoubleIntHashMap	classe	20
+cern.colt.map.AbstractMap	classe	12
+cern.colt.map.OpenLongObjectHashMap	classe	20
+cern.colt.map.AbstractDoubleIntMap	classe	20
+cern.colt.map.AbstractIntIntMap	classe	20
+cern.colt.list.AbstractBooleanList	classe	39
+cern.colt.list.ObjectArrayList	classe	47
+cern.colt.list.MinMaxNumberList	classe	14
+cern.colt.list.LongArrayList	classe	25
+cern.colt.list.AbstractFloatList	classe	42
+cern.colt.list.ShortArrayList	classe	25
+cern.colt.list.CharArrayList	classe	25
+cern.colt.list.AbstractByteList	classe	42
+cern.colt.list.AbstractCharList	classe	42
+cern.colt.list.FloatArrayList	classe	23
+cern.colt.list.SimpleLongArrayList	classe	4
+cern.colt.list.AbstractList	classe	20
+cern.colt.list.BooleanArrayList	classe	26
+cern.colt.list.adapter.DoubleListAdapter	classe	7
+cern.colt.list.adapter.LongListAdapter	classe	7
+cern.colt.list.adapter.IntListAdapter	classe	7
+cern.colt.list.adapter.FloatListAdapter	classe	7
+cern.colt.list.adapter.ObjectListAdapter	classe	5
+cern.colt.list.DistinctNumberList	classe	9
+cern.colt.list.AbstractCollection	classe	5
+cern.colt.list.DoubleArrayList	classe	23
+cern.colt.list.AbstractDoubleList	classe	43
+cern.colt.list.IntArrayList	classe	25
+cern.colt.list.AbstractLongList	classe	42
+cern.colt.list.AbstractShortList	classe	42
+cern.colt.list.ByteArrayList	classe	26
+cern.colt.list.AbstractIntList	classe	43
+cern.colt.bitvector.BitMatrix	classe	28
+cern.colt.bitvector.BitVector	classe	33
+cern.colt.bitvector.BitVector$IndexProcedure	classe	1
+cern.colt.bitvector.QuickBitVector	classe	13
+cern.colt.GenericSorting	classe	10
+cern.colt.Arrays	classe	27
+cern.colt.matrix.doublealgo.Transform	classe	34
+cern.colt.matrix.doublealgo.Statistic	classe	20
+cern.colt.matrix.doublealgo.Statistic$VectorVectorFunction	interface	1
+cern.colt.matrix.doublealgo.DoubleMatrix1DComparator	interface	2
+cern.colt.matrix.doublealgo.Stencil	classe	2
+cern.colt.matrix.doublealgo.DoubleMatrix2DComparator	interface	2
+cern.colt.matrix.impl.RCMDoubleMatrix2D	classe	7
+cern.colt.matrix.impl.SelectedSparseDoubleMatrix3D	classe	15
+cern.colt.matrix.impl.SparseObjectMatrix1D	classe	10
+cern.colt.matrix.impl.SparseObjectMatrix3D	classe	10
+cern.colt.matrix.impl.SelectedSparseDoubleMatrix1D	classe	9
+cern.colt.matrix.impl.AbstractFormatter	classe	25
+cern.colt.matrix.impl.SelectedDenseObjectMatrix2D	classe	14
+cern.colt.matrix.impl.WrapperDoubleMatrix2D	classe	15
+cern.colt.matrix.impl.AbstractMatrix	classe	4
+cern.colt.matrix.impl.DenseObjectMatrix2D	classe	12
+cern.colt.matrix.impl.NormInfinityTest	classe	1
+cern.colt.matrix.impl.QRTest	classe	1
+cern.colt.matrix.impl.FormerFactory	classe	1
+cern.colt.matrix.impl.SparseObjectMatrix2D	classe	11
+cern.colt.matrix.impl.SelectedDenseObjectMatrix3D	classe	15
+cern.colt.matrix.impl.TestMatrix2D	classe	48
+cern.colt.matrix.impl.SelectedDenseObjectMatrix1D	classe	9
+cern.colt.matrix.impl.SelectedSparseDoubleMatrix2D	classe	14
+cern.colt.matrix.impl.WrapperDoubleMatrix1D	classe	10
+cern.colt.matrix.impl.BenchmarkMatrix2D	classe	8
+cern.colt.matrix.impl.DenseObjectMatrix3D	classe	9
+cern.colt.matrix.impl.Former	interface	1
+cern.colt.matrix.impl.DenseObjectMatrix1D	classe	13
+cern.colt.matrix.impl.SelectedDenseDoubleMatrix3D	classe	15
+cern.colt.matrix.impl.RCDoubleMatrix2D	classe	15
+cern.colt.matrix.impl.SparseDoubleMatrix2D	classe	18
+cern.colt.matrix.impl.SelectedSparseObjectMatrix2D	classe	14
+cern.colt.matrix.impl.SelectedDenseDoubleMatrix1D	classe	9
+cern.colt.matrix.impl.DenseDoubleMatrix3D	classe	10
+cern.colt.matrix.impl.AbstractMatrix1D	classe	16
+cern.colt.matrix.impl.AbstractMatrix3D	classe	30
+cern.colt.matrix.impl.DenseDoubleMatrix1D	classe	17
+cern.colt.matrix.impl.DelegateDoubleMatrix1D	classe	4
+cern.colt.matrix.impl.SelectedSparseObjectMatrix3D	classe	15
+cern.colt.matrix.impl.SparseDoubleMatrix1D	classe	11
+cern.colt.matrix.impl.SelectedDenseDoubleMatrix2D	classe	14
+cern.colt.matrix.impl.SparseDoubleMatrix3D	classe	11
+cern.colt.matrix.impl.SelectedSparseObjectMatrix1D	classe	9
+cern.colt.matrix.impl.AbstractMatrix2D	classe	23
+cern.colt.matrix.impl.TridiagonalDoubleMatrix2D	classe	12
+cern.colt.matrix.impl.DenseDoubleMatrix2D	classe	17
+cern.colt.matrix.bench.TimerProcedure	interface	2
+cern.colt.matrix.bench.BenchmarkKernel	classe	2
+cern.colt.matrix.bench.BenchmarkMatrix	classe	33
+cern.colt.matrix.bench.Double2DProcedure	classe	2
+cern.colt.matrix.ObjectMatrix2D	classe	38
+cern.colt.matrix.ObjectFactory2D	classe	16
+cern.colt.matrix.linalg.SingularValueDecomposition	classe	8
+cern.colt.matrix.linalg.Property	classe	40
+cern.colt.matrix.linalg.SeqBlas	classe	22
+cern.colt.matrix.linalg.Diagonal	classe	1
+cern.colt.matrix.linalg.LUDecompositionQuick	classe	20
+cern.colt.matrix.linalg.EigenvalueDecomposition	classe	10
+cern.colt.matrix.linalg.LUDecomposition	classe	8
+cern.colt.matrix.linalg.CholeskyDecomposition	classe	5
+cern.colt.matrix.linalg.Matrix2DMatrix2DFunction	interface	1
+cern.colt.matrix.linalg.Algebra	classe	42
+cern.colt.matrix.linalg.Smp	classe	6
+cern.colt.matrix.linalg.QRDecomposition	classe	6
+cern.colt.matrix.linalg.SmpBlas	classe	26
+cern.colt.matrix.linalg.Blas	interface	21
+cern.colt.matrix.DoubleMatrix1DProcedure	interface	1
+cern.colt.matrix.DoubleMatrix3DProcedure	interface	1
+cern.colt.matrix.ObjectMatrix3D	classe	40
+cern.colt.matrix.ObjectMatrix1D	classe	35
+cern.colt.matrix.ObjectFactory1D	classe	8
+cern.colt.matrix.DoubleMatrix2DProcedure	interface	1
+cern.colt.matrix.ObjectFactory3D	classe	3
+cern.colt.matrix.DoubleMatrix3D	classe	42
+cern.colt.matrix.ObjectMatrix3DProcedure	interface	2
+cern.colt.matrix.DoubleMatrix1D	classe	43
+cern.colt.matrix.ObjectMatrix2DProcedure	interface	1
+cern.colt.matrix.objectalgo.ObjectMatrix2DComparator	interface	2
+cern.colt.matrix.objectalgo.ObjectMatrix1DComparator	interface	2
+cern.colt.matrix.DoubleFactory2D	classe	24
+cern.colt.matrix.DoubleMatrix2D	classe	45
+cern.colt.matrix.DoubleFactory3D	classe	6
+cern.colt.matrix.DoubleFactory1D	classe	12
+cern.colt.matrix.ObjectMatrix1DProcedure	interface	1
+cern.colt.Version	classe	9
+cern.colt.buffer.IntBuffer3DConsumer	interface	1
+cern.colt.buffer.IntBuffer	classe	4
+cern.colt.buffer.DoubleBuffer2D	classe	4
+cern.colt.buffer.IntBuffer3D	classe	4
+cern.colt.buffer.DoubleBuffer3D	classe	4
+cern.colt.buffer.ObjectBufferConsumer	interface	1
+cern.colt.buffer.IntBuffer2D	classe	4
+cern.colt.buffer.ObjectBuffer	classe	4
+cern.colt.buffer.DoubleBuffer2DConsumer	interface	1
+cern.colt.buffer.DoubleBufferConsumer	interface	1
+cern.colt.buffer.DoubleBuffer3DConsumer	interface	1
+cern.colt.buffer.IntBufferConsumer	interface	1
+cern.colt.buffer.IntBuffer2DConsumer	interface	1
+cern.jet.math.IntFunctions	classe	29
+cern.jet.math.Arithmetic	classe	15
+cern.jet.math.Functions	classe	33
+cern.jet.math.Mult	classe	3
+cern.jet.math.Algebraic	classe	0
+cern.jet.math.Elliptic	classe	0
+cern.jet.math.PlusMult	classe	5
+cern.jet.math.ExponentialIntegral	classe	0
+cern.jet.math.Polynomial	classe	2
+cern.jet.math.Misc	classe	0
+cern.jet.math.Bessel	classe	15
+cern.jet.math.Complex	classe	0
+cern.jet.math.NumericalIntegration	classe	0
+cern.jet.math.Constants	classe	0
+cern.jet.stat.Descriptive	classe	62
+cern.jet.stat.quantile.KnownDoubleQuantileEstimator	classe	10
+cern.jet.stat.quantile.Utils	classe	1
+cern.jet.stat.quantile.QuantileFinderFactory	classe	7
+cern.jet.stat.quantile.EquiDepthHistogram	classe	8
+cern.jet.stat.quantile.UnknownDoubleQuantileEstimator	classe	9
+cern.jet.stat.quantile.DoubleQuantileEstimator	classe	20
+cern.jet.stat.quantile.QuantileFinderTest	classe	12
+cern.jet.stat.quantile.ExactDoubleQuantileFinder	classe	14
+cern.jet.stat.quantile.Buffer	classe	11
+cern.jet.stat.quantile.QuantileCalc	classe	8
+cern.jet.stat.quantile.BufferSet	classe	0
+cern.jet.stat.quantile.DoubleBufferSet	classe	20
+cern.jet.stat.quantile.DoubleQuantileFinder	interface	11
+cern.jet.stat.quantile.Quantile1Test	classe	1
+cern.jet.stat.Probability	classe	19
+cern.jet.random.Hyperbolic	classe	6
+cern.jet.random.NegativeBinomial	classe	9
+cern.jet.random.Fun	classe	9
+cern.jet.random.Logarithmic	classe	6
+cern.jet.random.BreitWignerMeanSquare	classe	4
+cern.jet.random.Distributions	classe	13
+cern.jet.random.Uniform	classe	18
+cern.jet.random.EmpiricalWalker	classe	7
+cern.jet.random.sampling.WeightedRandomSampler	classe	6
+cern.jet.random.sampling.RandomSampler	classe	9
+cern.jet.random.sampling.RandomSamplingAssistant	classe	9
+cern.jet.random.Zeta	classe	6
+cern.jet.random.StudentT	classe	8
+cern.jet.random.AbstractContinousDistribution	classe	0
+cern.jet.random.PoissonSlow	classe	8
+cern.jet.random.Binomial	classe	10
+cern.jet.random.HyperGeometric	classe	11
+cern.jet.random.Poisson	classe	10
+cern.jet.random.VonMises	classe	6
+cern.jet.random.AbstractDistribution	classe	8
+cern.jet.random.Beta	classe	12
+cern.jet.random.Normal	classe	9
+cern.jet.random.ExponentialPower	classe	6
+cern.jet.random.engine.RandomGenerator	interface	5
+cern.jet.random.engine.RandomSeedTable	classe	2
+cern.jet.random.engine.RandomEngine	classe	8
+cern.jet.random.engine.DRand	classe	2
+cern.jet.random.engine.MersenneTwister64	classe	1
+cern.jet.random.engine.RandomSeedGenerator	classe	3
+cern.jet.random.engine.MersenneTwister	classe	4
+cern.jet.random.BreitWigner	classe	6
+cern.jet.random.ChiSquare	classe	8
+cern.jet.random.AbstractDiscreteDistribution	classe	2
+cern.jet.random.Stack	classe	3
+cern.jet.random.Empirical	classe	8
+cern.clhep.PhysicalConstants	classe	0
+cern.clhep.Units	classe	0
+corejava.Format	classe	21

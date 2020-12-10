@@ -1,122 +1,122 @@
-src.java.com.opensymphony.oscache.web.tag.FlushTag	Feature Envy
-src.java.com.opensymphony.oscache.web.tag.FlushTag	Feature Envy
-src.java.com.opensymphony.oscache.web.tag.FlushTag	Intensive Coupling
-src.webapp.WEB-INF.classes.com.opensymphony.oscache.web.OscacheServlet	Dispersed Coupling
-src.java.com.opensymphony.oscache.web.filter.ExpiresRefreshPolicy	Feature Envy
-src.java.com.opensymphony.oscache.plugins.diskpersistence.DiskPersistenceListener	Feature Envy
-src.test.java.com.opensymphony.oscache.general.TestGeneralCacheAdministrator	Feature Envy
-src.test.java.com.opensymphony.oscache.general.TestGeneralCacheAdministrator	Feature Envy
-src.test.java.com.opensymphony.oscache.general.TestGeneralCacheAdministrator	Intensive Coupling
-src.test.java.com.opensymphony.oscache.general.TestGeneralCacheAdministrator	Refused Parent Bequest
-src.test.java.com.opensymphony.oscache.general.TestGeneralCacheAdministrator	Tradition Breaker
-src.java.com.opensymphony.oscache.base.Config	Shotgun Surgery
-src.test.java.com.opensymphony.oscache.plugins.clustersupport.TestJMSBroadcastingListener	Feature Envy
-src.test.java.com.opensymphony.oscache.base.events.TestScopeEvent	Feature Envy
-src.test.java.com.opensymphony.oscache.plugins.diskpersistence.TestHashDiskPersistenceListener	Feature Envy
-src.test.java.com.opensymphony.oscache.plugins.diskpersistence.TestHashDiskPersistenceListener	Feature Envy
-src.test.java.com.opensymphony.oscache.plugins.clustersupport.ListenForClusterTests$ShutdownHookThread	Feature Envy
-src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache$Entry	Feature Envy
-src.test.java.com.opensymphony.oscache.base.events.TestCacheMapAccessEvent	Feature Envy
-src.test.java.com.opensymphony.oscache.extra.TestScopeEventListenerImpl	Feature Envy
-src.test.java.com.opensymphony.oscache.base.TestCache	Dispersed Coupling
-src.test.java.com.opensymphony.oscache.base.TestCache	Dispersed Coupling
-src.test.java.com.opensymphony.oscache.base.events.TestCacheEntryEvent	Feature Envy
-src.test.java.com.opensymphony.oscache.util.TestFastCronParser	Feature Envy
-src.test.java.com.opensymphony.oscache.util.TestFastCronParser	Feature Envy
-src.test.java.com.opensymphony.oscache.util.TestFastCronParser	Dispersed Coupling
-src.test.java.com.opensymphony.oscache.util.TestFastCronParser	Feature Envy
-src.java.com.opensymphony.oscache.plugins.diskpersistence.HashDiskPersistenceListener	Feature Envy
-src.test.java.com.opensymphony.oscache.extra.TestCacheMapAccessEventListenerImpl	Feature Envy
-src.test.java.com.opensymphony.oscache.extra.TestCacheEntryEventListenerImpl	Feature Envy
-src.test.java.com.opensymphony.oscache.base.TestConcurrency	Feature Envy
-src.test.java.com.opensymphony.oscache.base.TestConcurrency	Intensive Coupling
-src.test.java.com.opensymphony.oscache.base.TestConcurrency	Intensive Coupling
-src.test.java.com.opensymphony.oscache.base.TestConcurrency	Brain Method
-src.test.java.com.opensymphony.oscache.base.TestConcurrency	Dispersed Coupling
-src.java.com.opensymphony.oscache.util.ClassLoaderUtil	Feature Envy
-src.java.com.opensymphony.oscache.plugins.diskpersistence.AbstractDiskPersistenceListener	Intensive Coupling
-src.java.com.opensymphony.oscache.plugins.diskpersistence.AbstractDiskPersistenceListener	Dispersed Coupling
-src.java.com.opensymphony.oscache.plugins.diskpersistence.AbstractDiskPersistenceListener	God Class
-src.java.com.opensymphony.oscache.plugins.diskpersistence.AbstractDiskPersistenceListener	Data Class
-src.test.java.com.opensymphony.oscache.base.algorithm.TestQueueCache	Feature Envy
-src.test.java.com.opensymphony.oscache.base.algorithm.TestQueueCache	Feature Envy
-src.test.java.com.opensymphony.oscache.base.algorithm.TestQueueCache	Feature Envy
-src.test.java.com.opensymphony.oscache.base.algorithm.TestQueueCache	Feature Envy
-src.test.java.com.opensymphony.oscache.base.algorithm.TestQueueCache	Intensive Coupling
-src.test.java.com.opensymphony.oscache.base.algorithm.TestQueueCache	Feature Envy
-src.test.java.com.opensymphony.oscache.base.algorithm.TestQueueCache	Refused Parent Bequest
-src.java.com.opensymphony.oscache.general.GeneralCacheAdministrator	Shotgun Surgery
-src.java.com.opensymphony.oscache.general.GeneralCacheAdministrator	Shotgun Surgery
-src.java.com.opensymphony.oscache.general.GeneralCacheAdministrator	Shotgun Surgery
-src.java.com.opensymphony.oscache.general.GeneralCacheAdministrator	Shotgun Surgery
-src.java.com.opensymphony.oscache.general.GeneralCacheAdministrator	Refused Parent Bequest
-src.java.com.opensymphony.oscache.plugins.clustersupport.AbstractBroadcastingListener	Feature Envy
-src.java.com.opensymphony.oscache.base.AbstractCacheAdministrator	Dispersed Coupling
-src.java.com.opensymphony.oscache.base.AbstractCacheAdministrator	Data Class
-src.java.com.opensymphony.oscache.web.filter.CacheHttpServletResponseWrapper	Feature Envy
-src.java.com.opensymphony.oscache.web.filter.CacheHttpServletResponseWrapper	Feature Envy
-src.java.com.opensymphony.oscache.web.filter.CacheHttpServletResponseWrapper	Feature Envy
-src.java.com.opensymphony.oscache.web.filter.CacheHttpServletResponseWrapper	Feature Envy
-src.java.com.opensymphony.oscache.web.filter.CacheHttpServletResponseWrapper	Feature Envy
-src.java.com.opensymphony.oscache.web.filter.CacheHttpServletResponseWrapper	Feature Envy
-src.test.java.com.opensymphony.oscache.plugins.clustersupport.ListenForClusterTests	Feature Envy
-src.java.com.opensymphony.oscache.extra.CacheMapAccessEventListenerImpl	Feature Envy
-src.java.com.opensymphony.oscache.extra.ScopeEventListenerImpl	Feature Envy
-src.test.java.com.opensymphony.oscache.base.TestCacheEntry	Feature Envy
-src.test.java.com.opensymphony.oscache.plugins.clustersupport.TestJMS10BroadcastingListener	Feature Envy
-src.java.com.opensymphony.oscache.base.Cache	Feature Envy
-src.java.com.opensymphony.oscache.base.Cache	Dispersed Coupling
-src.java.com.opensymphony.oscache.base.Cache	Brain Method
-src.java.com.opensymphony.oscache.base.Cache	Dispersed Coupling
-src.java.com.opensymphony.oscache.base.Cache	Dispersed Coupling
-src.java.com.opensymphony.oscache.base.Cache	God Class
-src.java.com.opensymphony.oscache.base.Cache	Brain Class
-src.java.com.opensymphony.oscache.base.Cache	Data Class
-src.java.com.opensymphony.oscache.base.CacheEntry	Shotgun Surgery
-src.java.com.opensymphony.oscache.util.FastCronParser	Brain Method
-src.java.com.opensymphony.oscache.util.FastCronParser	Brain Method
-src.java.com.opensymphony.oscache.util.FastCronParser	Brain Method
-src.java.com.opensymphony.oscache.util.FastCronParser	Feature Envy
-src.java.com.opensymphony.oscache.util.FastCronParser	Feature Envy
-src.java.com.opensymphony.oscache.util.FastCronParser	God Class
-src.java.com.opensymphony.oscache.util.FastCronParser	Brain Class
-src.java.com.opensymphony.oscache.web.tag.CacheTag	Feature Envy
-src.java.com.opensymphony.oscache.web.tag.CacheTag	Intensive Coupling
-src.java.com.opensymphony.oscache.web.tag.CacheTag	Dispersed Coupling
-src.java.com.opensymphony.oscache.web.tag.CacheTag	Brain Method
-src.java.com.opensymphony.oscache.web.tag.CacheTag	Intensive Coupling
-src.java.com.opensymphony.oscache.web.tag.CacheTag	God Class
-src.java.com.opensymphony.oscache.web.tag.CacheTag	Brain Class
-src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache$HashIterator	Feature Envy
-src.test.java.com.opensymphony.oscache.base.GroupConcurrencyProblemTestCase	Feature Envy
-src.java.com.opensymphony.oscache.web.filter.ResponseContent	Dispersed Coupling
-src.java.com.opensymphony.oscache.web.filter.CacheFilter	Dispersed Coupling
-src.java.com.opensymphony.oscache.web.filter.CacheFilter	Brain Method
-src.java.com.opensymphony.oscache.web.filter.CacheFilter	Dispersed Coupling
-src.java.com.opensymphony.oscache.web.filter.CacheFilter	Intensive Coupling
-src.java.com.opensymphony.oscache.web.filter.CacheFilter	God Class
-src.java.com.opensymphony.oscache.web.filter.CacheFilter	Data Class
-src.java.com.opensymphony.oscache.web.ServletCacheAdministrator	Intensive Coupling
-src.java.com.opensymphony.oscache.web.ServletCacheAdministrator	Dispersed Coupling
-src.java.com.opensymphony.oscache.web.ServletCacheAdministrator	God Class
-src.java.com.opensymphony.oscache.web.ServletCacheAdministrator	Refused Parent Bequest
-src.java.com.opensymphony.oscache.web.ServletCacheAdministrator	Tradition Breaker
-src.test.java.com.opensymphony.oscache.plugins.diskpersistence.TestDiskPersistenceListener	Feature Envy
-src.test.java.com.opensymphony.oscache.plugins.diskpersistence.TestDiskPersistenceListener	Feature Envy
-src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	Feature Envy
-src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	Feature Envy
-src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	Feature Envy
-src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	Feature Envy
-src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	Feature Envy
-src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	Feature Envy
-src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	Feature Envy
-src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	Feature Envy
-src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	Feature Envy
-src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	Feature Envy
-src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	Brain Method
-src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	Feature Envy
-src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	Feature Envy
-src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	Feature Envy
-src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	God Class
-src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	Brain Class
-src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	Data Class
+src.java.com.opensymphony.oscache.web.tag.FlushTag	setScope	Feature Envy
+src.java.com.opensymphony.oscache.web.tag.FlushTag	doStartTag	Feature Envy
+src.java.com.opensymphony.oscache.web.tag.FlushTag	doStartTag	Intensive Coupling
+src.webapp.WEB-INF.classes.com.opensymphony.oscache.web.OscacheServlet	doGet	Dispersed Coupling
+src.java.com.opensymphony.oscache.web.filter.ExpiresRefreshPolicy	needsRefresh	Feature Envy
+src.java.com.opensymphony.oscache.plugins.diskpersistence.DiskPersistenceListener	getCacheFileName	Feature Envy
+src.test.java.com.opensymphony.oscache.general.TestGeneralCacheAdministrator	testCacheEntryEventListenerCounters	Feature Envy
+src.test.java.com.opensymphony.oscache.general.TestGeneralCacheAdministrator	testCacheMapAccessEventListenerCounters	Feature Envy
+src.test.java.com.opensymphony.oscache.general.TestGeneralCacheAdministrator	populate	Intensive Coupling
+src.test.java.com.opensymphony.oscache.general.TestGeneralCacheAdministrator	null	Refused Parent Bequest
+src.test.java.com.opensymphony.oscache.general.TestGeneralCacheAdministrator	null	Tradition Breaker
+src.java.com.opensymphony.oscache.base.Config	getProperty	Shotgun Surgery
+src.test.java.com.opensymphony.oscache.plugins.clustersupport.TestJMSBroadcastingListener	getConfig	Feature Envy
+src.test.java.com.opensymphony.oscache.base.events.TestScopeEvent	testScopeEvent	Feature Envy
+src.test.java.com.opensymphony.oscache.plugins.diskpersistence.TestHashDiskPersistenceListener	setUp	Feature Envy
+src.test.java.com.opensymphony.oscache.plugins.diskpersistence.TestHashDiskPersistenceListener	testStoreRetrieve	Feature Envy
+src.test.java.com.opensymphony.oscache.plugins.clustersupport.ListenForClusterTests$ShutdownHookThread	run	Feature Envy
+src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache$Entry	equals	Feature Envy
+src.test.java.com.opensymphony.oscache.base.events.TestCacheMapAccessEvent	testCacheMapAccessEvent	Feature Envy
+src.test.java.com.opensymphony.oscache.extra.TestScopeEventListenerImpl	testScopeEventListenerImpl	Feature Envy
+src.test.java.com.opensymphony.oscache.base.TestCache	testBug174CacheOverflowAndUpdate	Dispersed Coupling
+src.test.java.com.opensymphony.oscache.base.TestCache	testBug174CacheMisses	Dispersed Coupling
+src.test.java.com.opensymphony.oscache.base.events.TestCacheEntryEvent	testCacheEntryEvent	Feature Envy
+src.test.java.com.opensymphony.oscache.util.TestFastCronParser	testValidExpressionParsing	Feature Envy
+src.test.java.com.opensymphony.oscache.util.TestFastCronParser	cronCall	Feature Envy
+src.test.java.com.opensymphony.oscache.util.TestFastCronParser	cronCall	Dispersed Coupling
+src.test.java.com.opensymphony.oscache.util.TestFastCronParser	iterate	Feature Envy
+src.java.com.opensymphony.oscache.plugins.diskpersistence.HashDiskPersistenceListener	byteArrayToHexString	Feature Envy
+src.test.java.com.opensymphony.oscache.extra.TestCacheMapAccessEventListenerImpl	testCacheMapAccessEventListenerImpl	Feature Envy
+src.test.java.com.opensymphony.oscache.extra.TestCacheEntryEventListenerImpl	testCacheEntryEventListenerImpl	Feature Envy
+src.test.java.com.opensymphony.oscache.base.TestConcurrency	setUp	Feature Envy
+src.test.java.com.opensymphony.oscache.base.TestConcurrency	testStaleEntry	Intensive Coupling
+src.test.java.com.opensymphony.oscache.base.TestConcurrency	testStaleEntryBlocking	Intensive Coupling
+src.test.java.com.opensymphony.oscache.base.TestConcurrency	testConcurrentStaleGets	Brain Method
+src.test.java.com.opensymphony.oscache.base.TestConcurrency	testConcurrentStaleGets	Dispersed Coupling
+src.java.com.opensymphony.oscache.util.ClassLoaderUtil	loadClass	Feature Envy
+src.java.com.opensymphony.oscache.plugins.diskpersistence.AbstractDiskPersistenceListener	initFileCaching	Intensive Coupling
+src.java.com.opensymphony.oscache.plugins.diskpersistence.AbstractDiskPersistenceListener	store	Dispersed Coupling
+src.java.com.opensymphony.oscache.plugins.diskpersistence.AbstractDiskPersistenceListener	null	God Class
+src.java.com.opensymphony.oscache.plugins.diskpersistence.AbstractDiskPersistenceListener	null	Data Class
+src.test.java.com.opensymphony.oscache.base.algorithm.TestQueueCache	testContainsKey	Feature Envy
+src.test.java.com.opensymphony.oscache.base.algorithm.TestQueueCache	testGet	Feature Envy
+src.test.java.com.opensymphony.oscache.base.algorithm.TestQueueCache	testGetSetMaxEntries	Feature Envy
+src.test.java.com.opensymphony.oscache.base.algorithm.TestQueueCache	testPut	Feature Envy
+src.test.java.com.opensymphony.oscache.base.algorithm.TestQueueCache	testPutOverflow	Intensive Coupling
+src.test.java.com.opensymphony.oscache.base.algorithm.TestQueueCache	testRemove	Feature Envy
+src.test.java.com.opensymphony.oscache.base.algorithm.TestQueueCache	null	Refused Parent Bequest
+src.java.com.opensymphony.oscache.general.GeneralCacheAdministrator	getCache	Shotgun Surgery
+src.java.com.opensymphony.oscache.general.GeneralCacheAdministrator	getFromCache	Shotgun Surgery
+src.java.com.opensymphony.oscache.general.GeneralCacheAdministrator	cancelUpdate	Shotgun Surgery
+src.java.com.opensymphony.oscache.general.GeneralCacheAdministrator	putInCache	Shotgun Surgery
+src.java.com.opensymphony.oscache.general.GeneralCacheAdministrator	null	Refused Parent Bequest
+src.java.com.opensymphony.oscache.plugins.clustersupport.AbstractBroadcastingListener	handleClusterNotification	Feature Envy
+src.java.com.opensymphony.oscache.base.AbstractCacheAdministrator	getCacheEventListeners	Dispersed Coupling
+src.java.com.opensymphony.oscache.base.AbstractCacheAdministrator	null	Data Class
+src.java.com.opensymphony.oscache.web.filter.CacheHttpServletResponseWrapper	CacheHttpServletResponseWrapper	Feature Envy
+src.java.com.opensymphony.oscache.web.filter.CacheHttpServletResponseWrapper	CacheHttpServletResponseWrapper	Feature Envy
+src.java.com.opensymphony.oscache.web.filter.CacheHttpServletResponseWrapper	setDateHeader	Feature Envy
+src.java.com.opensymphony.oscache.web.filter.CacheHttpServletResponseWrapper	addDateHeader	Feature Envy
+src.java.com.opensymphony.oscache.web.filter.CacheHttpServletResponseWrapper	setHeader	Feature Envy
+src.java.com.opensymphony.oscache.web.filter.CacheHttpServletResponseWrapper	addHeader	Feature Envy
+src.test.java.com.opensymphony.oscache.plugins.clustersupport.ListenForClusterTests	mainLoop	Feature Envy
+src.java.com.opensymphony.oscache.extra.CacheMapAccessEventListenerImpl	accessed	Feature Envy
+src.java.com.opensymphony.oscache.extra.ScopeEventListenerImpl	scopeFlushed	Feature Envy
+src.test.java.com.opensymphony.oscache.base.TestCacheEntry	testSetGetContent	Feature Envy
+src.test.java.com.opensymphony.oscache.plugins.clustersupport.TestJMS10BroadcastingListener	getConfig	Feature Envy
+src.java.com.opensymphony.oscache.base.Cache	Cache	Feature Envy
+src.java.com.opensymphony.oscache.base.Cache	Cache	Dispersed Coupling
+src.java.com.opensymphony.oscache.base.Cache	getFromCache	Brain Method
+src.java.com.opensymphony.oscache.base.Cache	getFromCache	Dispersed Coupling
+src.java.com.opensymphony.oscache.base.Cache	flushPattern	Dispersed Coupling
+src.java.com.opensymphony.oscache.base.Cache	null	God Class
+src.java.com.opensymphony.oscache.base.Cache	null	Brain Class
+src.java.com.opensymphony.oscache.base.Cache	null	Data Class
+src.java.com.opensymphony.oscache.base.CacheEntry	getKey	Shotgun Surgery
+src.java.com.opensymphony.oscache.util.FastCronParser	getTimeBefore	Brain Method
+src.java.com.opensymphony.oscache.util.FastCronParser	parseExpression	Brain Method
+src.java.com.opensymphony.oscache.util.FastCronParser	storeExpressionValues	Brain Method
+src.java.com.opensymphony.oscache.util.FastCronParser	getValue	Feature Envy
+src.java.com.opensymphony.oscache.util.FastCronParser	makeParseException	Feature Envy
+src.java.com.opensymphony.oscache.util.FastCronParser	null	God Class
+src.java.com.opensymphony.oscache.util.FastCronParser	null	Brain Class
+src.java.com.opensymphony.oscache.web.tag.CacheTag	doAfterBody	Feature Envy
+src.java.com.opensymphony.oscache.web.tag.CacheTag	doAfterBody	Intensive Coupling
+src.java.com.opensymphony.oscache.web.tag.CacheTag	doStartTag	Dispersed Coupling
+src.java.com.opensymphony.oscache.web.tag.CacheTag	parseISO_8601_Duration	Brain Method
+src.java.com.opensymphony.oscache.web.tag.CacheTag	parseISO_8601_Duration	Intensive Coupling
+src.java.com.opensymphony.oscache.web.tag.CacheTag	null	God Class
+src.java.com.opensymphony.oscache.web.tag.CacheTag	null	Brain Class
+src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache$HashIterator	hasNext	Feature Envy
+src.test.java.com.opensymphony.oscache.base.GroupConcurrencyProblemTestCase	main	Feature Envy
+src.java.com.opensymphony.oscache.web.filter.ResponseContent	writeTo	Dispersed Coupling
+src.java.com.opensymphony.oscache.web.filter.CacheFilter	doFilter	Dispersed Coupling
+src.java.com.opensymphony.oscache.web.filter.CacheFilter	init	Brain Method
+src.java.com.opensymphony.oscache.web.filter.CacheFilter	init	Dispersed Coupling
+src.java.com.opensymphony.oscache.web.filter.CacheFilter	instantiateFromInitParam	Intensive Coupling
+src.java.com.opensymphony.oscache.web.filter.CacheFilter	null	God Class
+src.java.com.opensymphony.oscache.web.filter.CacheFilter	null	Data Class
+src.java.com.opensymphony.oscache.web.ServletCacheAdministrator	generateEntryKey	Intensive Coupling
+src.java.com.opensymphony.oscache.web.ServletCacheAdministrator	getSortedQueryString	Dispersed Coupling
+src.java.com.opensymphony.oscache.web.ServletCacheAdministrator	null	God Class
+src.java.com.opensymphony.oscache.web.ServletCacheAdministrator	null	Refused Parent Bequest
+src.java.com.opensymphony.oscache.web.ServletCacheAdministrator	null	Tradition Breaker
+src.test.java.com.opensymphony.oscache.plugins.diskpersistence.TestDiskPersistenceListener	setUp	Feature Envy
+src.test.java.com.opensymphony.oscache.plugins.diskpersistence.TestDiskPersistenceListener	testStoreRetrieve	Feature Envy
+src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	clear	Feature Envy
+src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	containsValue	Feature Envy
+src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	entrySet	Feature Envy
+src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	get	Feature Envy
+src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	putAll	Feature Envy
+src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	findAndRemoveEntry	Feature Envy
+src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	rehash	Feature Envy
+src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	sput	Feature Envy
+src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	sremove	Feature Envy
+src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	writeObject	Feature Envy
+src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	put	Brain Method
+src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	put	Feature Envy
+src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	remove	Feature Envy
+src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	updateGroups	Feature Envy
+src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	null	God Class
+src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	null	Brain Class
+src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	null	Data Class

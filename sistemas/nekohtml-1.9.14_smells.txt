@@ -1,112 +1,112 @@
-src.org.cyberneko.html.filters.DefaultFilter	Feature Envy
-src.org.cyberneko.html.HTMLConfiguration$ErrorReporter	Feature Envy
-src.org.cyberneko.html.HTMLErrorReporter	Shotgun Surgery
-src.org.cyberneko.html.HTMLConfiguration	Feature Envy
-src.org.cyberneko.html.HTMLConfiguration	Dispersed Coupling
-src.org.cyberneko.html.HTMLConfiguration	Dispersed Coupling
-src.org.cyberneko.html.HTMLConfiguration	God Class
-src.sample.Script	Feature Envy
-src.sample.Script	Dispersed Coupling
-src.sample.Script	Feature Envy
-src.org.cyberneko.html.filters.NamespaceBinder$NamespaceSupport	Feature Envy
-test.java.org.cyberneko.html.CanonicalTest	Intensive Coupling
-test.java.org.cyberneko.html.CanonicalTest	Feature Envy
-test.java.org.cyberneko.html.CanonicalTest	Feature Envy
-test.java.org.cyberneko.html.CanonicalTest	Feature Envy
-test.java.org.cyberneko.html.CanonicalTest	Dispersed Coupling
-test.java.org.cyberneko.html.FragmentContextStackTest	Feature Envy
-src.org.cyberneko.html.parsers.DOMFragmentParser	Dispersed Coupling
-src.org.cyberneko.html.parsers.DOMFragmentParser	Feature Envy
-src.org.cyberneko.html.parsers.DOMFragmentParser	God Class
-src.org.cyberneko.html.parsers.DOMFragmentParser	Data Class
-src.org.cyberneko.html.filters.ElementRemover	Refused Parent Bequest
-src.org.cyberneko.html.HTMLScanner$ContentScanner	Brain Method
-src.org.cyberneko.html.HTMLScanner$ContentScanner	Intensive Coupling
-src.org.cyberneko.html.HTMLScanner$ContentScanner	Feature Envy
-src.org.cyberneko.html.HTMLScanner$ContentScanner	Dispersed Coupling
-src.org.cyberneko.html.HTMLScanner$ContentScanner	Dispersed Coupling
-src.org.cyberneko.html.HTMLScanner$ContentScanner	Feature Envy
-src.org.cyberneko.html.HTMLScanner$ContentScanner	Dispersed Coupling
-src.org.cyberneko.html.HTMLScanner$ContentScanner	Feature Envy
-src.org.cyberneko.html.HTMLScanner$ContentScanner	Dispersed Coupling
-src.org.cyberneko.html.HTMLScanner$ContentScanner	Feature Envy
-src.org.cyberneko.html.HTMLScanner$ContentScanner	Dispersed Coupling
-src.org.cyberneko.html.HTMLScanner$ContentScanner	Brain Method
-src.org.cyberneko.html.HTMLScanner$ContentScanner	Intensive Coupling
-src.org.cyberneko.html.HTMLScanner$ContentScanner	Brain Method
-src.org.cyberneko.html.HTMLScanner$ContentScanner	Dispersed Coupling
-src.org.cyberneko.html.HTMLScanner$ContentScanner	Dispersed Coupling
-src.org.cyberneko.html.HTMLScanner$ContentScanner	Brain Method
-src.org.cyberneko.html.HTMLScanner$ContentScanner	Intensive Coupling
-src.org.cyberneko.html.HTMLScanner$ContentScanner	Dispersed Coupling
-src.org.cyberneko.html.HTMLScanner$ContentScanner	Feature Envy
-src.org.cyberneko.html.HTMLScanner$ContentScanner	God Class
-src.org.cyberneko.html.HTMLScanner$ContentScanner	Brain Class
-src.org.cyberneko.html.HTMLTagBalancer$Info	Feature Envy
-src.org.cyberneko.html.HTMLTagBalancer$Info	Intensive Coupling
-src.org.cyberneko.html.HTMLScanner$SpecialScanner	Brain Method
-src.org.cyberneko.html.HTMLScanner$SpecialScanner	Intensive Coupling
-src.org.cyberneko.html.HTMLScanner$SpecialScanner	Dispersed Coupling
-src.org.cyberneko.html.HTMLTagBalancer	Feature Envy
-src.org.cyberneko.html.HTMLTagBalancer	Feature Envy
-src.org.cyberneko.html.HTMLTagBalancer	Brain Method
-src.org.cyberneko.html.HTMLTagBalancer	Dispersed Coupling
-src.org.cyberneko.html.HTMLTagBalancer	Feature Envy
-src.org.cyberneko.html.HTMLTagBalancer	Brain Method
-src.org.cyberneko.html.HTMLTagBalancer	God Class
-src.org.cyberneko.html.HTMLTagBalancer	Brain Class
-src.org.cyberneko.html.HTMLTagBalancer	Data Class
-src.org.cyberneko.html.HTMLScanner	Feature Envy
-src.org.cyberneko.html.HTMLScanner	Feature Envy
-src.org.cyberneko.html.HTMLScanner	Feature Envy
-src.org.cyberneko.html.HTMLScanner	Dispersed Coupling
-src.org.cyberneko.html.HTMLScanner	Feature Envy
-src.org.cyberneko.html.HTMLScanner	Brain Method
-src.org.cyberneko.html.HTMLScanner	Feature Envy
-src.org.cyberneko.html.HTMLScanner	Feature Envy
-src.org.cyberneko.html.HTMLScanner	Feature Envy
-src.org.cyberneko.html.HTMLScanner	Feature Envy
-src.org.cyberneko.html.HTMLScanner	Intensive Coupling
-src.org.cyberneko.html.HTMLScanner	Brain Method
-src.org.cyberneko.html.HTMLScanner	Intensive Coupling
-src.org.cyberneko.html.HTMLScanner	Feature Envy
-src.org.cyberneko.html.HTMLScanner	Feature Envy
-src.org.cyberneko.html.HTMLScanner	Intensive Coupling
-src.org.cyberneko.html.HTMLScanner	Feature Envy
-src.org.cyberneko.html.HTMLScanner	Feature Envy
-src.org.cyberneko.html.HTMLScanner	Intensive Coupling
-src.org.cyberneko.html.HTMLScanner	Feature Envy
-src.org.cyberneko.html.HTMLScanner	Feature Envy
-src.org.cyberneko.html.HTMLScanner	Feature Envy
-src.org.cyberneko.html.HTMLScanner	Feature Envy
-src.org.cyberneko.html.HTMLScanner	God Class
-src.org.cyberneko.html.HTMLScanner	Brain Class
-src.org.cyberneko.html.HTMLEntities$IntProperties	Feature Envy
-src.org.cyberneko.html.filters.NamespaceBinder	Feature Envy
-src.org.cyberneko.html.filters.NamespaceBinder	Feature Envy
-src.org.cyberneko.html.filters.NamespaceBinder	Feature Envy
-src.org.cyberneko.html.filters.NamespaceBinder	Intensive Coupling
-src.org.cyberneko.html.filters.NamespaceBinder	Feature Envy
-src.org.cyberneko.html.filters.NamespaceBinder	Feature Envy
-src.org.cyberneko.html.filters.NamespaceBinder	Brain Method
-src.org.cyberneko.html.filters.NamespaceBinder	Intensive Coupling
-src.org.cyberneko.html.filters.NamespaceBinder	God Class
-src.org.cyberneko.html.filters.NamespaceBinder	Refused Parent Bequest
-src.org.cyberneko.html.HTMLScanner$CurrentEntity	Feature Envy
-src.org.cyberneko.html.HTMLScanner$CurrentEntity	Feature Envy
-src.org.cyberneko.html.HTMLScanner$CurrentEntity	Data Class
-src.org.cyberneko.html.ObjectFactory	Brain Method
-src.org.cyberneko.html.ObjectFactory	Dispersed Coupling
-src.org.cyberneko.html.ObjectFactory	Feature Envy
-src.org.cyberneko.html.ObjectFactory	Feature Envy
-src.org.cyberneko.html.ObjectFactory	God Class
-src.org.cyberneko.html.HTMLAugmentations	Feature Envy
-src.org.cyberneko.html.HTMLScanner$PlaybackInputStream	Feature Envy
-src.org.cyberneko.html.HTMLScanner$PlaybackInputStream	Feature Envy
-src.org.cyberneko.html.filters.Purifier	Feature Envy
-src.org.cyberneko.html.filters.Purifier	Feature Envy
-src.org.cyberneko.html.filters.Purifier	Feature Envy
-src.org.cyberneko.html.filters.Purifier	Feature Envy
-src.org.cyberneko.html.filters.Purifier	God Class
-src.org.cyberneko.html.filters.Purifier	Refused Parent Bequest
-src.org.cyberneko.html.filters.NamespaceBinder$NamespaceSupport$Entry	Feature Envy
+src.org.cyberneko.html.filters.DefaultFilter	merge	Feature Envy
+src.org.cyberneko.html.HTMLConfiguration$ErrorReporter	formatMessage	Feature Envy
+src.org.cyberneko.html.HTMLErrorReporter	reportError	Shotgun Surgery
+src.org.cyberneko.html.HTMLConfiguration	setInputSource	Feature Envy
+src.org.cyberneko.html.HTMLConfiguration	addComponent	Dispersed Coupling
+src.org.cyberneko.html.HTMLConfiguration	reset	Dispersed Coupling
+src.org.cyberneko.html.HTMLConfiguration	null	God Class
+src.sample.Script	characters	Feature Envy
+src.sample.Script	endElement	Dispersed Coupling
+src.sample.Script	main	Feature Envy
+src.org.cyberneko.html.filters.NamespaceBinder$NamespaceSupport	pushContext	Feature Envy
+test.java.org.cyberneko.html.CanonicalTest	suite	Intensive Coupling
+test.java.org.cyberneko.html.CanonicalTest	CanonicalTest	Feature Envy
+test.java.org.cyberneko.html.CanonicalTest	runTest	Feature Envy
+test.java.org.cyberneko.html.CanonicalTest	getResult	Feature Envy
+test.java.org.cyberneko.html.CanonicalTest	getResult	Dispersed Coupling
+test.java.org.cyberneko.html.FragmentContextStackTest	doTest	Feature Envy
+src.org.cyberneko.html.parsers.DOMFragmentParser	parse	Dispersed Coupling
+src.org.cyberneko.html.parsers.DOMFragmentParser	characters	Feature Envy
+src.org.cyberneko.html.parsers.DOMFragmentParser	null	God Class
+src.org.cyberneko.html.parsers.DOMFragmentParser	null	Data Class
+src.org.cyberneko.html.filters.ElementRemover	null	Refused Parent Bequest
+src.org.cyberneko.html.HTMLScanner$ContentScanner	scan	Brain Method
+src.org.cyberneko.html.HTMLScanner$ContentScanner	scan	Intensive Coupling
+src.org.cyberneko.html.HTMLScanner$ContentScanner	scanNoXxxContent	Feature Envy
+src.org.cyberneko.html.HTMLScanner$ContentScanner	scanNoXxxContent	Dispersed Coupling
+src.org.cyberneko.html.HTMLScanner$ContentScanner	scanScriptContent	Dispersed Coupling
+src.org.cyberneko.html.HTMLScanner$ContentScanner	nextContent	Feature Envy
+src.org.cyberneko.html.HTMLScanner$ContentScanner	scanCharacters	Dispersed Coupling
+src.org.cyberneko.html.HTMLScanner$ContentScanner	scanCDATA	Feature Envy
+src.org.cyberneko.html.HTMLScanner$ContentScanner	scanCDATA	Dispersed Coupling
+src.org.cyberneko.html.HTMLScanner$ContentScanner	scanComment	Feature Envy
+src.org.cyberneko.html.HTMLScanner$ContentScanner	scanComment	Dispersed Coupling
+src.org.cyberneko.html.HTMLScanner$ContentScanner	scanPI	Brain Method
+src.org.cyberneko.html.HTMLScanner$ContentScanner	scanPI	Intensive Coupling
+src.org.cyberneko.html.HTMLScanner$ContentScanner	scanStartElement	Brain Method
+src.org.cyberneko.html.HTMLScanner$ContentScanner	scanStartElement	Dispersed Coupling
+src.org.cyberneko.html.HTMLScanner$ContentScanner	changeEncoding	Dispersed Coupling
+src.org.cyberneko.html.HTMLScanner$ContentScanner	scanAttribute	Brain Method
+src.org.cyberneko.html.HTMLScanner$ContentScanner	scanAttribute	Intensive Coupling
+src.org.cyberneko.html.HTMLScanner$ContentScanner	scanEndElement	Dispersed Coupling
+src.org.cyberneko.html.HTMLScanner$ContentScanner	isEnded	Feature Envy
+src.org.cyberneko.html.HTMLScanner$ContentScanner	null	God Class
+src.org.cyberneko.html.HTMLScanner$ContentScanner	null	Brain Class
+src.org.cyberneko.html.HTMLTagBalancer$Info	Info	Feature Envy
+src.org.cyberneko.html.HTMLTagBalancer$Info	Info	Intensive Coupling
+src.org.cyberneko.html.HTMLScanner$SpecialScanner	scan	Brain Method
+src.org.cyberneko.html.HTMLScanner$SpecialScanner	scan	Intensive Coupling
+src.org.cyberneko.html.HTMLScanner$SpecialScanner	scanCharacters	Dispersed Coupling
+src.org.cyberneko.html.HTMLTagBalancer	reset	Feature Envy
+src.org.cyberneko.html.HTMLTagBalancer	consumeBufferedEndElements	Feature Envy
+src.org.cyberneko.html.HTMLTagBalancer	startElement	Brain Method
+src.org.cyberneko.html.HTMLTagBalancer	startElement	Dispersed Coupling
+src.org.cyberneko.html.HTMLTagBalancer	emptyElement	Feature Envy
+src.org.cyberneko.html.HTMLTagBalancer	endElement	Brain Method
+src.org.cyberneko.html.HTMLTagBalancer	null	God Class
+src.org.cyberneko.html.HTMLTagBalancer	null	Brain Class
+src.org.cyberneko.html.HTMLTagBalancer	null	Data Class
+src.org.cyberneko.html.HTMLScanner	pushInputSource	Feature Envy
+src.org.cyberneko.html.HTMLScanner	reset	Feature Envy
+src.org.cyberneko.html.HTMLScanner	setInputSource	Feature Envy
+src.org.cyberneko.html.HTMLScanner	setInputSource	Dispersed Coupling
+src.org.cyberneko.html.HTMLScanner	getValue	Feature Envy
+src.org.cyberneko.html.HTMLScanner	expandSystemId	Brain Method
+src.org.cyberneko.html.HTMLScanner	expandSystemId	Feature Envy
+src.org.cyberneko.html.HTMLScanner	setScannerState	Feature Envy
+src.org.cyberneko.html.HTMLScanner	scanDoctype	Feature Envy
+src.org.cyberneko.html.HTMLScanner	scanName	Feature Envy
+src.org.cyberneko.html.HTMLScanner	scanName	Intensive Coupling
+src.org.cyberneko.html.HTMLScanner	scanEntityRef	Brain Method
+src.org.cyberneko.html.HTMLScanner	scanEntityRef	Intensive Coupling
+src.org.cyberneko.html.HTMLScanner	skip	Feature Envy
+src.org.cyberneko.html.HTMLScanner	skipMarkup	Feature Envy
+src.org.cyberneko.html.HTMLScanner	skipMarkup	Intensive Coupling
+src.org.cyberneko.html.HTMLScanner	skipSpaces	Feature Envy
+src.org.cyberneko.html.HTMLScanner	skipNewlines	Feature Envy
+src.org.cyberneko.html.HTMLScanner	skipNewlines	Intensive Coupling
+src.org.cyberneko.html.HTMLScanner	endsWith	Feature Envy
+src.org.cyberneko.html.HTMLScanner	readPreservingBufferContent	Feature Envy
+src.org.cyberneko.html.HTMLScanner	endCommentAvailable	Feature Envy
+src.org.cyberneko.html.HTMLScanner	reduceToContent	Feature Envy
+src.org.cyberneko.html.HTMLScanner	null	God Class
+src.org.cyberneko.html.HTMLScanner	null	Brain Class
+src.org.cyberneko.html.HTMLEntities$IntProperties	get	Feature Envy
+src.org.cyberneko.html.filters.NamespaceBinder	reset	Feature Envy
+src.org.cyberneko.html.filters.NamespaceBinder	startElement	Feature Envy
+src.org.cyberneko.html.filters.NamespaceBinder	emptyElement	Feature Envy
+src.org.cyberneko.html.filters.NamespaceBinder	emptyElement	Intensive Coupling
+src.org.cyberneko.html.filters.NamespaceBinder	endElement	Feature Envy
+src.org.cyberneko.html.filters.NamespaceBinder	splitQName	Feature Envy
+src.org.cyberneko.html.filters.NamespaceBinder	bindNamespaces	Brain Method
+src.org.cyberneko.html.filters.NamespaceBinder	bindNamespaces	Intensive Coupling
+src.org.cyberneko.html.filters.NamespaceBinder	null	God Class
+src.org.cyberneko.html.filters.NamespaceBinder	null	Refused Parent Bequest
+src.org.cyberneko.html.HTMLScanner$CurrentEntity	load	Feature Envy
+src.org.cyberneko.html.HTMLScanner$CurrentEntity	debugBufferIfNeeded	Feature Envy
+src.org.cyberneko.html.HTMLScanner$CurrentEntity	null	Data Class
+src.org.cyberneko.html.ObjectFactory	createObject	Brain Method
+src.org.cyberneko.html.ObjectFactory	createObject	Dispersed Coupling
+src.org.cyberneko.html.ObjectFactory	findClassLoader	Feature Envy
+src.org.cyberneko.html.ObjectFactory	findJarServiceProvider	Feature Envy
+src.org.cyberneko.html.ObjectFactory	null	God Class
+src.org.cyberneko.html.HTMLAugmentations	HTMLAugmentations	Feature Envy
+src.org.cyberneko.html.HTMLScanner$PlaybackInputStream	read	Feature Envy
+src.org.cyberneko.html.HTMLScanner$PlaybackInputStream	read	Feature Envy
+src.org.cyberneko.html.filters.Purifier	endElement	Feature Envy
+src.org.cyberneko.html.filters.Purifier	handleStartElement	Feature Envy
+src.org.cyberneko.html.filters.Purifier	purifyQName	Feature Envy
+src.org.cyberneko.html.filters.Purifier	purifyText	Feature Envy
+src.org.cyberneko.html.filters.Purifier	null	God Class
+src.org.cyberneko.html.filters.Purifier	null	Refused Parent Bequest
+src.org.cyberneko.html.filters.NamespaceBinder$NamespaceSupport$Entry	Entry	Feature Envy

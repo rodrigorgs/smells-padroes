@@ -1,62 +1,62 @@
-src.org.cyberneko.html.filters.DefaultFilter
-src.org.cyberneko.html.filters.ElementRemover
-src.org.cyberneko.html.filters.Identity
-src.org.cyberneko.html.filters.NamespaceBinder
-src.org.cyberneko.html.filters.NamespaceBinder$NamespaceSupport
-src.org.cyberneko.html.filters.NamespaceBinder$NamespaceSupport$Entry
-src.org.cyberneko.html.filters.Purifier
-src.org.cyberneko.html.HTMLAugmentations
-src.org.cyberneko.html.HTMLComponent
-src.org.cyberneko.html.HTMLConfiguration
-src.org.cyberneko.html.HTMLConfiguration$ErrorReporter
-src.org.cyberneko.html.HTMLElements
-src.org.cyberneko.html.HTMLElements$Element
-src.org.cyberneko.html.HTMLElements$ElementList
-src.org.cyberneko.html.HTMLEntities
-src.org.cyberneko.html.HTMLEntities$IntProperties
-src.org.cyberneko.html.HTMLEntities$IntProperties$Entry
-src.org.cyberneko.html.HTMLErrorReporter
-src.org.cyberneko.html.HTMLEventInfo
-src.org.cyberneko.html.HTMLEventInfo$SynthesizedItem
-src.org.cyberneko.html.HTMLScanner
-src.org.cyberneko.html.HTMLScanner$Scanner
-src.org.cyberneko.html.HTMLScanner$CurrentEntity
-src.org.cyberneko.html.HTMLScanner$ContentScanner
-src.org.cyberneko.html.HTMLScanner$SpecialScanner
-src.org.cyberneko.html.HTMLScanner$PlaybackInputStream
-src.org.cyberneko.html.HTMLScanner$LocationItem
-src.org.cyberneko.html.HTMLTagBalancer
-src.org.cyberneko.html.HTMLTagBalancer$Info
-src.org.cyberneko.html.HTMLTagBalancer$InfoStack
-src.org.cyberneko.html.HTMLTagBalancer$ElementEntry
-src.org.cyberneko.html.HTMLTagBalancingListener
-src.org.cyberneko.html.LostText
-src.org.cyberneko.html.LostText$Entry
-src.org.cyberneko.html.ObjectFactory
-src.org.cyberneko.html.ObjectFactory$ConfigurationError
-src.org.cyberneko.html.parsers.DOMFragmentParser
-src.org.cyberneko.html.parsers.DOMParser
-src.org.cyberneko.html.parsers.SAXParser
-src.org.cyberneko.html.SecuritySupport
-src.org.cyberneko.html.SecuritySupport12
-src.org.cyberneko.html.xercesbridge.XercesBridge
-src.org.cyberneko.html.xercesbridge.XercesBridge_2_0
-src.sample.HTMLSAXParser
-src.sample.Minimal
-src.sample.RemoveElements
-src.sample.Script
-src.sample.TestHTMLDOM
-src.sample.TestHTMLDOMFragment
-test.java.org.cyberneko.html.CanonicalTest
-test.java.org.cyberneko.html.DOMFragmentParserTest
-test.java.org.cyberneko.html.filters.WriterTest
-test.java.org.cyberneko.html.FragmentContextStackTest
-test.java.org.cyberneko.html.HeadNamespaceBug
-test.java.org.cyberneko.html.HTMLErrorHandler
-test.java.org.cyberneko.html.HTMLScannerTest
-test.java.org.cyberneko.html.HTMLScannerTest$EvaluateInputSourceFilter
-test.java.org.cyberneko.html.HTMLScannerTest$InfiniteLoopScanner
-test.java.org.cyberneko.html.HTMLScannerTest$InfiniteLoopScanner$MyContentScanner
-test.java.org.cyberneko.html.HTMLTagBalancingListenerTest
-test.java.org.cyberneko.html.TestParser
-test.java.org.cyberneko.html.UTF8BOMSkipper
+org.cyberneko.html.filters.WriterTest	classe	1
+org.cyberneko.html.FragmentContextStackTest	classe	5
+org.cyberneko.html.HeadNamespaceBug	classe	1
+org.cyberneko.html.HTMLTagBalancingListenerTest	classe	1
+org.cyberneko.html.TestParser	classe	4
+org.cyberneko.html.UTF8BOMSkipper	classe	4
+org.cyberneko.html.CanonicalTest	classe	4
+org.cyberneko.html.HTMLErrorHandler	classe	3
+org.cyberneko.html.HTMLScannerTest	classe	5
+org.cyberneko.html.HTMLScannerTest$EvaluateInputSourceFilter	classe	3
+org.cyberneko.html.HTMLScannerTest$InfiniteLoopScanner	classe	0
+org.cyberneko.html.HTMLScannerTest$InfiniteLoopScanner$MyContentScanner	classe	1
+org.cyberneko.html.DOMFragmentParserTest	classe	4
+org.cyberneko.html.filters.DefaultFilter	classe	31
+org.cyberneko.html.filters.Identity	classe	4
+org.cyberneko.html.filters.NamespaceBinder	classe	13
+org.cyberneko.html.filters.NamespaceBinder$NamespaceSupport	classe	10
+org.cyberneko.html.filters.NamespaceBinder$NamespaceSupport$Entry	classe	0
+org.cyberneko.html.filters.Purifier	classe	21
+org.cyberneko.html.filters.ElementRemover	classe	21
+org.cyberneko.html.parsers.DOMParser	classe	2
+org.cyberneko.html.parsers.SAXParser	classe	0
+org.cyberneko.html.parsers.DOMFragmentParser	classe	29
+org.cyberneko.html.HTMLElements	classe	3
+org.cyberneko.html.HTMLElements$Element	classe	10
+org.cyberneko.html.HTMLElements$ElementList	classe	1
+org.cyberneko.html.HTMLComponent	interface	2
+org.cyberneko.html.HTMLTagBalancingListener	interface	2
+org.cyberneko.html.SecuritySupport12	classe	8
+org.cyberneko.html.HTMLScanner	classe	50
+org.cyberneko.html.HTMLScanner$Scanner	interface	1
+org.cyberneko.html.HTMLScanner$CurrentEntity	classe	18
+org.cyberneko.html.HTMLScanner$ContentScanner	classe	18
+org.cyberneko.html.HTMLScanner$SpecialScanner	classe	3
+org.cyberneko.html.HTMLScanner$PlaybackInputStream	classe	6
+org.cyberneko.html.HTMLScanner$LocationItem	classe	9
+org.cyberneko.html.LostText	classe	3
+org.cyberneko.html.LostText$Entry	classe	0
+org.cyberneko.html.ObjectFactory	classe	7
+org.cyberneko.html.ObjectFactory$ConfigurationError	classe	1
+org.cyberneko.html.SecuritySupport	classe	9
+org.cyberneko.html.HTMLAugmentations	classe	6
+org.cyberneko.html.HTMLEventInfo	interface	7
+org.cyberneko.html.HTMLEventInfo$SynthesizedItem	classe	8
+org.cyberneko.html.HTMLTagBalancer	classe	47
+org.cyberneko.html.HTMLTagBalancer$Info	classe	1
+org.cyberneko.html.HTMLTagBalancer$InfoStack	classe	4
+org.cyberneko.html.HTMLTagBalancer$ElementEntry	classe	0
+org.cyberneko.html.xercesbridge.XercesBridge_2_0	classe	4
+org.cyberneko.html.xercesbridge.XercesBridge	classe	9
+org.cyberneko.html.HTMLEntities	classe	3
+org.cyberneko.html.HTMLEntities$IntProperties	classe	2
+org.cyberneko.html.HTMLEntities$IntProperties$Entry	classe	0
+org.cyberneko.html.HTMLErrorReporter	interface	3
+org.cyberneko.html.HTMLConfiguration	classe	23
+org.cyberneko.html.HTMLConfiguration$ErrorReporter	classe	5
+sample.TestHTMLDOM	classe	2
+sample.RemoveElements	classe	1
+sample.TestHTMLDOMFragment	classe	2
+sample.Script	classe	6
+sample.HTMLSAXParser	classe	0
+sample.Minimal	classe	3

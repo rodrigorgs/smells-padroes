@@ -1,54 +1,132 @@
-junit.framework.TestListener	Observer
-org.junit.experimental.theories.Theories$TheoryAnchor	(Object)Adapter
-junit.framework.JUnit4TestAdapter	Proxy
-junit.extensions.TestDecorator	Decorator
-org.junit.runner.manipulation.Sorter	Singleton
-org.junit.runner.Description	Singleton
-org.junit.internal.runners.model.ReflectiveCallable	Template Method
-org.junit.internal.requests.FilterRequest	Decorator
-junit.framework.JUnit4TestAdapterCache	Singleton
-org.junit.rules.RuleChain	Composite
-org.junit.internal.runners.statements.RunAfters	Decorator
-org.junit.rules.RunRules	Decorator
-org.junit.runner.manipulation.Filter	(Object)Adapter
-org.junit.runner.notification.RunNotifier$SafeNotifier	Template Method
-org.junit.rules.TestRule	Composite
-org.junit.runner.Runner	Template Method
-org.junit.runner.Request	Factory Method
-org.junit.internal.runners.statements.FailOnTimeout$StatementThread	State
-org.junit.internal.matchers.SubstringMatcher	Template Method
-junit.framework.Test	Decorator
-org.junit.runners.ParentRunner	Template Method
-junit.framework.Test	Composite
-org.junit.runners.model.Statement	Decorator
-org.junit.internal.requests.FilterRequest	(Object)Adapter
-org.junit.rules.ExpectedException$ExpectedExceptionStatement	Decorator
-org.junit.rules.TestRule	Factory Method
-org.junit.runners.model.RunnerBuilder	Factory Method
-org.junit.runners.model.FrameworkMethod	(Object)Adapter
-junit.framework.JUnit4TestAdapter	(Object)Adapter
-junit.framework.TestResult	Observer
-org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener	(Object)Adapter
-org.junit.runner.notification.RunNotifier	(Object)Adapter
-junit.framework.TestSuite	Composite
-org.junit.internal.runners.statements.RunBefores	Decorator
-org.junit.runner.manipulation.Filter	State
-org.junit.internal.runners.statements.InvokeMethod	(Object)Adapter
-junit.framework.JUnit4TestAdapterCache	(Object)Adapter
-org.junit.internal.matchers.TypeSafeMatcher	Template Method
-org.junit.experimental.theories.internal.AllMembersSupplier$MethodParameterValue	(Object)Adapter
-org.junit.runners.model.FrameworkMember	Template Method
-org.junit.runners.model.RunnerScheduler	Bridge
-org.junit.internal.ComparisonCriteria	Template Method
-org.junit.runners.model.Statement	State
-org.junit.runner.Runner	Proxy
-org.junit.runners.ParentRunner	Bridge
-org.junit.rules.RuleChain	Singleton
-org.junit.internal.requests.FilterRequest	State
-org.junit.runners.model.RunnerBuilder	Template Method
-org.junit.rules.MethodRule	Factory Method
-org.junit.internal.runners.statements.ExpectException	Decorator
-org.junit.runner.manipulation.Filter	Singleton
-org.junit.runner.Request	Decorator
-junit.runner.BaseTestRunner	Template Method
-org.junit.internal.requests.SortingRequest	Decorator
+org.junit.rules.MethodRule	null	Creator	Factory Method
+org.junit.rules.MethodRule	apply	FactoryMethod()	Factory Method
+org.junit.rules.TestRule	null	Creator	Factory Method
+org.junit.rules.TestRule	apply	FactoryMethod()	Factory Method
+org.junit.runner.Request	null	Creator	Factory Method
+org.junit.runner.Request	getRunner	FactoryMethod()	Factory Method
+org.junit.runners.model.RunnerBuilder	null	Creator	Factory Method
+org.junit.runners.model.RunnerBuilder	runnerForClass	FactoryMethod()	Factory Method
+junit.framework.JUnit4TestAdapterCache	null	Singleton	Singleton
+junit.framework.JUnit4TestAdapterCache	null	uniqueInstance	Singleton
+org.junit.rules.RuleChain	null	Singleton	Singleton
+org.junit.rules.RuleChain	null	uniqueInstance	Singleton
+org.junit.runner.Description	null	Singleton	Singleton
+org.junit.runner.Description	null	uniqueInstance	Singleton
+org.junit.runner.Description	null	uniqueInstance	Singleton
+org.junit.runner.manipulation.Filter	null	Singleton	Singleton
+org.junit.runner.manipulation.Filter	null	uniqueInstance	Singleton
+org.junit.runner.manipulation.Sorter	null	Singleton	Singleton
+org.junit.runner.manipulation.Sorter	null	uniqueInstance	Singleton
+junit.framework.JUnit4TestAdapterCache	null	Adaptee	(Object)Adapter
+junit.framework.JUnit4TestAdapter	null	Adapter	(Object)Adapter
+junit.framework.JUnit4TestAdapter	null	adaptee	(Object)Adapter
+junit.framework.JUnit4TestAdapter	run	Request()	(Object)Adapter
+org.junit.runner.notification.RunNotifier	null	Adaptee	(Object)Adapter
+org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener	null	Adapter	(Object)Adapter
+org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener	null	adaptee	(Object)Adapter
+org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener	endTest	Request()	(Object)Adapter
+org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener	startTest	Request()	(Object)Adapter
+org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener	addError	Request()	(Object)Adapter
+org.junit.runners.model.FrameworkMethod	null	Adaptee	(Object)Adapter
+org.junit.experimental.theories.Theories$TheoryAnchor	null	Adapter	(Object)Adapter
+org.junit.experimental.theories.Theories$TheoryAnchor	null	adaptee	(Object)Adapter
+org.junit.experimental.theories.Theories$TheoryAnchor	evaluate	Request()	(Object)Adapter
+org.junit.runners.model.FrameworkMethod	null	Adaptee	(Object)Adapter
+org.junit.internal.runners.statements.InvokeMethod	null	Adapter	(Object)Adapter
+org.junit.internal.runners.statements.InvokeMethod	null	adaptee	(Object)Adapter
+org.junit.internal.runners.statements.InvokeMethod	evaluate	Request()	(Object)Adapter
+org.junit.internal.requests.FilterRequest	null	Adapter	(Object)Adapter
+org.junit.runner.manipulation.Filter	null	Adaptee	(Object)Adapter
+org.junit.internal.requests.FilterRequest	null	adaptee	(Object)Adapter
+org.junit.internal.requests.FilterRequest	getRunner	Request()	(Object)Adapter
+org.junit.runners.model.FrameworkMethod	null	Adaptee	(Object)Adapter
+org.junit.experimental.theories.internal.AllMembersSupplier$MethodParameterValue	null	Adapter	(Object)Adapter
+org.junit.experimental.theories.internal.AllMembersSupplier$MethodParameterValue	null	adaptee	(Object)Adapter
+org.junit.experimental.theories.internal.AllMembersSupplier$MethodParameterValue	getValue	Request()	(Object)Adapter
+org.junit.experimental.theories.internal.AllMembersSupplier$MethodParameterValue	getDescription	Request()	(Object)Adapter
+junit.framework.Test	null	Component	Composite
+junit.framework.TestSuite	null	Composite	Composite
+junit.framework.TestSuite	countTestCases	Operation()	Composite
+org.junit.rules.TestRule	null	Component	Composite
+org.junit.rules.RuleChain	null	Composite	Composite
+org.junit.rules.RuleChain	apply	Operation()	Composite
+org.junit.runner.Request	null	Component	Decorator
+org.junit.internal.requests.FilterRequest	null	Decorator	Decorator
+org.junit.internal.requests.FilterRequest	null	component	Decorator
+org.junit.internal.requests.FilterRequest	getRunner	Operation()	Decorator
+org.junit.runner.Request	null	Component	Decorator
+org.junit.internal.requests.SortingRequest	null	Decorator	Decorator
+org.junit.internal.requests.SortingRequest	null	component	Decorator
+org.junit.internal.requests.SortingRequest	getRunner	Operation()	Decorator
+org.junit.runners.model.Statement	null	Component	Decorator
+org.junit.internal.runners.statements.ExpectException	null	Decorator	Decorator
+org.junit.internal.runners.statements.ExpectException	null	component	Decorator
+org.junit.internal.runners.statements.ExpectException	evaluate	Operation()	Decorator
+org.junit.runners.model.Statement	null	Component	Decorator
+org.junit.internal.runners.statements.RunAfters	null	Decorator	Decorator
+org.junit.internal.runners.statements.RunAfters	null	component	Decorator
+org.junit.internal.runners.statements.RunAfters	evaluate	Operation()	Decorator
+org.junit.runners.model.Statement	null	Component	Decorator
+org.junit.internal.runners.statements.RunBefores	null	Decorator	Decorator
+org.junit.internal.runners.statements.RunBefores	null	component	Decorator
+org.junit.internal.runners.statements.RunBefores	evaluate	Operation()	Decorator
+org.junit.runners.model.Statement	null	Component	Decorator
+org.junit.rules.ExpectedException$ExpectedExceptionStatement	null	Decorator	Decorator
+org.junit.rules.ExpectedException$ExpectedExceptionStatement	null	component	Decorator
+org.junit.rules.ExpectedException$ExpectedExceptionStatement	evaluate	Operation()	Decorator
+org.junit.runners.model.Statement	null	Component	Decorator
+org.junit.rules.RunRules	null	Decorator	Decorator
+org.junit.rules.RunRules	null	component	Decorator
+org.junit.rules.RunRules	evaluate	Operation()	Decorator
+junit.framework.Test	null	Component	Decorator
+junit.extensions.TestDecorator	null	Decorator	Decorator
+junit.extensions.TestDecorator	null	component	Decorator
+junit.extensions.TestDecorator	countTestCases	Operation()	Decorator
+junit.framework.TestListener	null	Observer	Observer
+junit.framework.TestResult	null	Subject	Observer
+junit.framework.TestResult	addError	Notify()	Observer
+junit.framework.TestResult	addFailure	Notify()	Observer
+junit.framework.TestResult	endTest	Notify()	Observer
+junit.framework.TestResult	startTest	Notify()	Observer
+org.junit.runners.model.Statement	null	State	State
+org.junit.internal.runners.statements.FailOnTimeout$StatementThread	null	Context	State
+org.junit.internal.runners.statements.FailOnTimeout$StatementThread	null	state	State
+org.junit.internal.runners.statements.FailOnTimeout$StatementThread	run	Request()	State
+org.junit.internal.requests.FilterRequest	null	Context	State
+org.junit.runner.manipulation.Filter	null	State	State
+org.junit.internal.requests.FilterRequest	null	state	State
+org.junit.internal.requests.FilterRequest	getRunner	Request()	State
+org.junit.runners.ParentRunner	null	Abstraction	Bridge
+org.junit.runners.model.RunnerScheduler	null	Implementor	Bridge
+org.junit.runners.ParentRunner	null	implementor	Bridge
+org.junit.runners.ParentRunner	runChildren	Operation()	Bridge
+junit.runner.BaseTestRunner	null	AbstractClass	Template Method
+junit.runner.BaseTestRunner	startTest	TemplateMethod()	Template Method
+junit.runner.BaseTestRunner	endTest	TemplateMethod()	Template Method
+junit.runner.BaseTestRunner	addError	TemplateMethod()	Template Method
+junit.runner.BaseTestRunner	addFailure	TemplateMethod()	Template Method
+junit.runner.BaseTestRunner	getTest	TemplateMethod()	Template Method
+org.junit.internal.ComparisonCriteria	null	AbstractClass	Template Method
+org.junit.internal.ComparisonCriteria	arrayEquals	TemplateMethod()	Template Method
+org.junit.internal.matchers.SubstringMatcher	null	AbstractClass	Template Method
+org.junit.internal.matchers.SubstringMatcher	matchesSafely	TemplateMethod()	Template Method
+org.junit.internal.matchers.SubstringMatcher	describeTo	TemplateMethod()	Template Method
+org.junit.internal.matchers.TypeSafeMatcher	null	AbstractClass	Template Method
+org.junit.internal.matchers.TypeSafeMatcher	matches	TemplateMethod()	Template Method
+org.junit.internal.runners.model.ReflectiveCallable	null	AbstractClass	Template Method
+org.junit.internal.runners.model.ReflectiveCallable	run	TemplateMethod()	Template Method
+org.junit.runner.notification.RunNotifier$SafeNotifier	null	AbstractClass	Template Method
+org.junit.runner.notification.RunNotifier$SafeNotifier	run	TemplateMethod()	Template Method
+org.junit.runner.Runner	null	AbstractClass	Template Method
+org.junit.runner.Runner	testCount	TemplateMethod()	Template Method
+org.junit.runners.model.FrameworkMember	null	AbstractClass	Template Method
+org.junit.runners.model.FrameworkMember	isShadowedBy	TemplateMethod()	Template Method
+org.junit.runners.model.RunnerBuilder	null	AbstractClass	Template Method
+org.junit.runners.model.RunnerBuilder	safeRunnerForClass	TemplateMethod()	Template Method
+org.junit.runners.ParentRunner	null	AbstractClass	Template Method
+org.junit.runners.ParentRunner	getDescription	TemplateMethod()	Template Method
+org.junit.runners.ParentRunner	getFilteredChildren	TemplateMethod()	Template Method
+org.junit.runners.ParentRunner	shouldRun	TemplateMethod()	Template Method
+junit.framework.JUnit4TestAdapter	null	Proxy	Proxy
+org.junit.runner.Runner	null	RealSubject	Proxy
+junit.framework.JUnit4TestAdapter	getDescription	Request()	Proxy

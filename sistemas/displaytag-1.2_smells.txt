@@ -1,183 +1,183 @@
-displaytag.src.main.java.org.displaytag.render.HtmlTableWriter	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.render.HtmlTableWriter	Feature Envy
-displaytag.src.main.java.org.displaytag.render.HtmlTableWriter	Feature Envy
-displaytag.src.main.java.org.displaytag.render.HtmlTableWriter	Feature Envy
-displaytag.src.main.java.org.displaytag.render.HtmlTableWriter	Intensive Coupling
-displaytag.src.main.java.org.displaytag.render.HtmlTableWriter	Intensive Coupling
-displaytag.src.main.java.org.displaytag.render.HtmlTableWriter	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.render.HtmlTableWriter	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.render.HtmlTableWriter	Feature Envy
-displaytag.src.main.java.org.displaytag.render.HtmlTableWriter	God Class
-displaytag.src.main.java.org.displaytag.render.HtmlTableWriter	Refused Parent Bequest
-displaytag-export-poi.src.main.java.org.displaytag.render.HssfTableWriter	Dispersed Coupling
-displaytag-export-poi.src.main.java.org.displaytag.render.HssfTableWriter	Dispersed Coupling
-displaytag-export-poi.src.main.java.org.displaytag.render.HssfTableWriter	Refused Parent Bequest
-displaytag.src.main.java.org.displaytag.export.PdfView	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.export.PdfView	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.export.PdfView	Feature Envy
-displaytag.src.main.java.org.displaytag.util.DependencyChecker	Feature Envy
-displaytag-examples.src.main.java.org.displaytag.sample.DisplaySourceServlet	Dispersed Coupling
-displaytag.src.test.java.org.displaytag.test.TestCaseLoader	Feature Envy
-displaytag.src.main.java.org.displaytag.properties.MediaTypeEnum	Shotgun Surgery
-displaytag.src.test.java.com.meterware.servletunit.RequestContext	Feature Envy
-displaytag.src.test.java.com.meterware.servletunit.RequestContext	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.util.Anchor	Feature Envy
-displaytag.src.test.java.org.apache.jasper.runtime.PageContextImpl	Feature Envy
-displaytag.src.test.java.org.apache.jasper.runtime.PageContextImpl	Dispersed Coupling
-displaytag.src.test.java.org.apache.jasper.runtime.PageContextImpl	Feature Envy
-displaytag.src.test.java.org.apache.jasper.runtime.PageContextImpl	God Class
-displaytag.src.main.java.org.displaytag.decorator.AutolinkColumnDecorator	Brain Method
-displaytag.src.main.java.org.displaytag.decorator.AutolinkColumnDecorator	Dispersed Coupling
-displaytag.src.test.java.org.displaytag.test.URLAssert	Feature Envy
-displaytag.src.test.java.org.displaytag.test.URLAssert	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.util.ParamEncoder	Shotgun Surgery
-displaytag.src.test.java.org.displaytag.jsptests.PaginationTest	Dispersed Coupling
-displaytag.src.test.java.org.displaytag.jsptests.Displ009Test	Feature Envy
-displaytag.src.main.java.org.displaytag.util.DefaultHref	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.util.DefaultHref	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.util.DefaultHref	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.export.ExportViewFactory	Feature Envy
-displaytag.src.main.java.org.displaytag.util.Href	Shotgun Surgery
-displaytag.src.main.java.org.displaytag.util.Href	Shotgun Surgery
-displaytag.src.main.java.org.displaytag.util.Href	Shotgun Surgery
-displaytag.src.main.java.org.displaytag.localization.I18nWebworkAdapter	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.localization.I18nWebworkAdapter	Dispersed Coupling
-displaytag.src.test.java.org.displaytag.test.TestAll	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.tags.ColumnTag	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.tags.ColumnTag	Brain Method
-displaytag.src.main.java.org.displaytag.tags.ColumnTag	Intensive Coupling
-displaytag.src.main.java.org.displaytag.tags.ColumnTag	God Class
-displaytag.src.main.java.org.displaytag.decorator.MultilevelTotalTableDecorator	Feature Envy
-displaytag.src.main.java.org.displaytag.decorator.MultilevelTotalTableDecorator	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.decorator.MultilevelTotalTableDecorator	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.decorator.MultilevelTotalTableDecorator	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.decorator.MultilevelTotalTableDecorator	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.decorator.MultilevelTotalTableDecorator	Feature Envy
-displaytag.src.main.java.org.displaytag.decorator.MultilevelTotalTableDecorator	God Class
-displaytag.src.main.java.org.displaytag.decorator.MultilevelTotalTableDecorator	Refused Parent Bequest
-displaytag.src.main.java.org.displaytag.decorator.MultilevelTotalTableDecorator	Tradition Breaker
-displaytag.src.main.java.org.displaytag.export.BaseExportView	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.export.BaseExportView	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.util.LookupUtil	Brain Method
-displaytag.src.main.java.org.displaytag.util.LookupUtil	Feature Envy
-displaytag.src.main.java.org.displaytag.util.LookupUtil	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.util.LookupUtil	Dispersed Coupling
-displaytag.src.test.java.org.displaytag.jsptests.NestedTest	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.decorator.MultilevelTotalTableDecorator$GroupTotals	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.model.HeaderCell	Shotgun Surgery
-displaytag.src.main.java.org.displaytag.model.HeaderCell	Shotgun Surgery
-displaytag.src.main.java.org.displaytag.model.HeaderCell	Shotgun Surgery
-displaytag.src.main.java.org.displaytag.model.HeaderCell	Feature Envy
-displaytag.src.main.java.org.displaytag.model.HeaderCell	Feature Envy
-displaytag.src.main.java.org.displaytag.model.HeaderCell	God Class
-displaytag-examples.src.main.java.org.displaytag.sample.decorators.ItextTotalWrapper	Feature Envy
-displaytag.src.test.java.org.displaytag.jsptests.ExportLinksTest	Dispersed Coupling
-displaytag.src.test.java.org.displaytag.filter.MockFilterSupport$MockFilterChain	Feature Envy
-displaytag-portlet.src.test.java.org.displaytag.portlet.PortletHrefTest	Feature Envy
-displaytag-portlet.src.test.java.org.displaytag.portlet.PortletHrefTest	Feature Envy
-displaytag-portlet.src.test.java.org.displaytag.portlet.PortletHrefTest	Feature Envy
-displaytag-portlet.src.test.java.org.displaytag.portlet.PortletHrefTest	Feature Envy
-displaytag-portlet.src.test.java.org.displaytag.portlet.PortletHrefTest	Feature Envy
-displaytag-portlet.src.test.java.org.displaytag.portlet.PortletHrefTest	Feature Envy
-displaytag-portlet.src.test.java.org.displaytag.portlet.PortletHrefTest	Feature Envy
-displaytag-portlet.src.test.java.org.displaytag.portlet.PortletHrefTest	Feature Envy
-displaytag-portlet.src.test.java.org.displaytag.portlet.PortletHrefTest	Feature Envy
-displaytag.src.main.java.org.displaytag.pagination.SmartListHelper	Intensive Coupling
-displaytag.src.main.java.org.displaytag.render.TableWriterAdapter	Refused Parent Bequest
-displaytag.src.main.java.org.displaytag.model.Column	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.model.Column	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.model.Column	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.pagination.Pagination	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.localization.I18nJstlAdapter	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.util.PostHref	Dispersed Coupling
-displaytag.src.test.java.org.displaytag.jsptests.Displ017Test	Feature Envy
-displaytag.src.test.java.org.displaytag.jsptests.Displ017Test	Dispersed Coupling
-displaytag.src.test.java.org.displaytag.properties.AbstractTitleKeyAutoColumnTest	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.decorator.CheckboxTableDecorator	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.tags.CaptionTag	Feature Envy
-displaytag.src.main.java.org.displaytag.tags.CaptionTag	Feature Envy
-displaytag.src.main.java.org.displaytag.tags.CaptionTag	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.filter.DisplayTagSpringInterceptor	Dispersed Coupling
-displaytag.src.test.java.org.displaytag.jsptests.Displ243Test	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.localization.I18nStrutsAdapter	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.util.DefaultRequestHelper	Dispersed Coupling
-displaytag-examples.src.main.java.org.displaytag.sample.decorators.Wrapper	Feature Envy
-displaytag-portlet.src.main.java.org.displaytag.portlet.PortletHref	Feature Envy
-displaytag-portlet.src.main.java.org.displaytag.portlet.PortletHref	Dispersed Coupling
-displaytag-portlet.src.main.java.org.displaytag.portlet.PortletHref	Dispersed Coupling
-displaytag-portlet.src.main.java.org.displaytag.portlet.PortletHref	God Class
-displaytag-examples.src.main.java.org.displaytag.sample.TestList	Feature Envy
-displaytag.src.main.java.org.displaytag.pagination.PaginatedListSmartListHelper	Feature Envy
-displaytag.src.main.java.org.displaytag.pagination.PaginatedListSmartListHelper	Feature Envy
-displaytag.src.main.java.org.displaytag.pagination.PaginatedListSmartListHelper	Intensive Coupling
-displaytag.src.main.java.org.displaytag.pagination.PaginatedListSmartListHelper	Intensive Coupling
-displaytag.src.main.java.org.displaytag.pagination.PaginatedListSmartListHelper	Refused Parent Bequest
-displaytag-portlet.src.test.java.org.displaytag.portlet.PortletRequestHelperTest	Feature Envy
-displaytag-portlet.src.test.java.org.displaytag.portlet.PortletRequestHelperTest	Feature Envy
-displaytag.src.main.java.org.displaytag.tags.TableTag	Intensive Coupling
-displaytag.src.main.java.org.displaytag.tags.TableTag	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.tags.TableTag	Brain Method
-displaytag.src.main.java.org.displaytag.tags.TableTag	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.tags.TableTag	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.tags.TableTag	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.tags.TableTag	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.tags.TableTag	Brain Method
-displaytag.src.main.java.org.displaytag.tags.TableTag	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.tags.TableTag	Intensive Coupling
-displaytag.src.main.java.org.displaytag.tags.TableTag	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.tags.TableTag	God Class
-displaytag.src.main.java.org.displaytag.tags.TableTag	Brain Class
-displaytag.src.main.java.org.displaytag.tags.TableTag	Refused Parent Bequest
-displaytag.src.main.java.org.displaytag.tags.TableTag	Tradition Breaker
-displaytag.src.main.java.org.displaytag.tags.TableFooterTag	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.tags.TableFooterTag	Dispersed Coupling
-displaytag.src.test.java.org.displaytag.test.DisplaytagCase	Feature Envy
-displaytag.src.main.java.org.displaytag.filter.ExportDelegate	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.render.TableWriterTemplate	Feature Envy
-displaytag.src.main.java.org.displaytag.render.TableWriterTemplate	Brain Method
-displaytag.src.main.java.org.displaytag.render.TableWriterTemplate	Intensive Coupling
-displaytag.src.main.java.org.displaytag.render.TableWriterTemplate	God Class
-displaytag.src.main.java.org.displaytag.render.TableWriterTemplate	Data Class
-displaytag.src.main.java.org.displaytag.decorator.TableDecorator	Feature Envy
-displaytag.src.main.java.org.displaytag.decorator.TableDecorator	Refused Parent Bequest
-displaytag.src.main.java.org.displaytag.render.ItextTableWriter	Feature Envy
-displaytag.src.main.java.org.displaytag.render.ItextTableWriter	Feature Envy
-displaytag.src.main.java.org.displaytag.render.ItextTableWriter	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.render.ItextTableWriter	Feature Envy
-displaytag.src.main.java.org.displaytag.render.ItextTableWriter	Refused Parent Bequest
-displaytag.src.test.java.com.meterware.servletunit.ServletUnitHttpRequest	Dispersed Coupling
-displaytag.src.test.java.com.meterware.servletunit.ServletUnitHttpRequest	Feature Envy
-displaytag.src.test.java.com.meterware.servletunit.ServletUnitHttpRequest	Feature Envy
-displaytag.src.test.java.com.meterware.servletunit.ServletUnitHttpRequest	God Class
-displaytag.src.main.java.org.displaytag.filter.ResponseOverrideFilter	Dispersed Coupling
-displaytag.src.test.java.org.displaytag.tld.TldTest	Intensive Coupling
-displaytag.src.test.java.org.displaytag.tld.TldTest	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.model.Row	Dispersed Coupling
-displaytag.src.test.java.org.displaytag.tld.TldTest$ClasspathEntityResolver	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.tags.el.ELTableTag	Refused Parent Bequest
-displaytag.src.test.java.org.displaytag.jsptests.Displ018Test	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.util.MediaUtil	Feature Envy
-displaytag.src.main.java.org.displaytag.util.MediaUtil	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.util.HtmlTagUtil	Brain Method
-displaytag.src.main.java.org.displaytag.util.HtmlTagUtil	Intensive Coupling
-displaytag.src.main.java.org.displaytag.properties.TableProperties	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.properties.TableProperties	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.properties.TableProperties	Feature Envy
-displaytag.src.main.java.org.displaytag.properties.TableProperties	Feature Envy
-displaytag.src.main.java.org.displaytag.properties.TableProperties	Feature Envy
-displaytag.src.main.java.org.displaytag.properties.TableProperties	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.properties.TableProperties	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.properties.TableProperties	God Class
-displaytag-export-poi.src.main.java.org.displaytag.export.excel.ExcelHssfView	Dispersed Coupling
-displaytag-export-poi.src.main.java.org.displaytag.export.excel.ExcelHssfView	Feature Envy
-displaytag.src.test.java.org.apache.jasper.servlet.JspServletWrapper	Brain Method
-displaytag.src.test.java.org.apache.jasper.servlet.JspServletWrapper	Dispersed Coupling
-displaytag.src.test.java.org.apache.jasper.servlet.JspServletWrapper	God Class
-displaytag-examples.src.main.java.org.displaytag.sample.RandomSampleUtil	Feature Envy
-displaytag.src.main.java.org.displaytag.decorator.TotalTableDecorator	Feature Envy
-displaytag.src.main.java.org.displaytag.decorator.TotalTableDecorator	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.decorator.TotalTableDecorator	Dispersed Coupling
-displaytag.src.main.java.org.displaytag.model.TableModel	Shotgun Surgery
-displaytag.src.main.java.org.displaytag.model.TableModel	Shotgun Surgery
-displaytag.src.main.java.org.displaytag.model.TableModel	God Class
-displaytag.src.test.java.org.displaytag.jsptests.Displ058Test	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.render.HtmlTableWriter	writeFormFields	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.render.HtmlTableWriter	writeCaption	Feature Envy
+displaytag.src.main.java.org.displaytag.render.HtmlTableWriter	writePreBodyFooter	Feature Envy
+displaytag.src.main.java.org.displaytag.render.HtmlTableWriter	writeTableCloser	Feature Envy
+displaytag.src.main.java.org.displaytag.render.HtmlTableWriter	writeTableHeader	Intensive Coupling
+displaytag.src.main.java.org.displaytag.render.HtmlTableWriter	getSortingHref	Intensive Coupling
+displaytag.src.main.java.org.displaytag.render.HtmlTableWriter	writeSearchResultAndNavigation	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.render.HtmlTableWriter	writeExportLinks	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.render.HtmlTableWriter	getOpenTag	Feature Envy
+displaytag.src.main.java.org.displaytag.render.HtmlTableWriter	null	God Class
+displaytag.src.main.java.org.displaytag.render.HtmlTableWriter	null	Refused Parent Bequest
+displaytag-export-poi.src.main.java.org.displaytag.render.HssfTableWriter	writeTableHeader	Dispersed Coupling
+displaytag-export-poi.src.main.java.org.displaytag.render.HssfTableWriter	writeColumnValue	Dispersed Coupling
+displaytag-export-poi.src.main.java.org.displaytag.render.HssfTableWriter	null	Refused Parent Bequest
+displaytag.src.main.java.org.displaytag.export.PdfView	generateHeaders	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.export.PdfView	generateRows	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.export.PdfView	getCell	Feature Envy
+displaytag.src.main.java.org.displaytag.util.DependencyChecker	check	Feature Envy
+displaytag-examples.src.main.java.org.displaytag.sample.DisplaySourceServlet	doGet	Dispersed Coupling
+displaytag.src.test.java.org.displaytag.test.TestCaseLoader	loadTestCases	Feature Envy
+displaytag.src.main.java.org.displaytag.properties.MediaTypeEnum	getCode	Shotgun Surgery
+displaytag.src.test.java.com.meterware.servletunit.RequestContext	extendedArray	Feature Envy
+displaytag.src.test.java.com.meterware.servletunit.RequestContext	getParameters	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.util.Anchor	getCloseTag	Feature Envy
+displaytag.src.test.java.org.apache.jasper.runtime.PageContextImpl	pushBody	Feature Envy
+displaytag.src.test.java.org.apache.jasper.runtime.PageContextImpl	doHandlePageException	Dispersed Coupling
+displaytag.src.test.java.org.apache.jasper.runtime.PageContextImpl	proprietaryEvaluate	Feature Envy
+displaytag.src.test.java.org.apache.jasper.runtime.PageContextImpl	null	God Class
+displaytag.src.main.java.org.displaytag.decorator.AutolinkColumnDecorator	decorate	Brain Method
+displaytag.src.main.java.org.displaytag.decorator.AutolinkColumnDecorator	decorate	Dispersed Coupling
+displaytag.src.test.java.org.displaytag.test.URLAssert	assertEquals	Feature Envy
+displaytag.src.test.java.org.displaytag.test.URLAssert	assertEquals	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.util.ParamEncoder	encodeParameterName	Shotgun Surgery
+displaytag.src.test.java.org.displaytag.jsptests.PaginationTest	doTest	Dispersed Coupling
+displaytag.src.test.java.org.displaytag.jsptests.Displ009Test	doTest	Feature Envy
+displaytag.src.main.java.org.displaytag.util.DefaultHref	setFullUrl	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.util.DefaultHref	addParameterMap	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.util.DefaultHref	toString	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.export.ExportViewFactory	registerExportView	Feature Envy
+displaytag.src.main.java.org.displaytag.util.Href	addParameter	Shotgun Surgery
+displaytag.src.main.java.org.displaytag.util.Href	toString	Shotgun Surgery
+displaytag.src.main.java.org.displaytag.util.Href	clone	Shotgun Surgery
+displaytag.src.main.java.org.displaytag.localization.I18nWebworkAdapter	resolveLocale	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.localization.I18nWebworkAdapter	getResource	Dispersed Coupling
+displaytag.src.test.java.org.displaytag.test.TestAll	addAllTests	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.tags.ColumnTag	doEndTag	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.tags.ColumnTag	addHeaderToTable	Brain Method
+displaytag.src.main.java.org.displaytag.tags.ColumnTag	addHeaderToTable	Intensive Coupling
+displaytag.src.main.java.org.displaytag.tags.ColumnTag	null	God Class
+displaytag.src.main.java.org.displaytag.decorator.MultilevelTotalTableDecorator	init	Feature Envy
+displaytag.src.main.java.org.displaytag.decorator.MultilevelTotalTableDecorator	init	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.decorator.MultilevelTotalTableDecorator	totalAllRows	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.decorator.MultilevelTotalTableDecorator	getCellValue	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.decorator.MultilevelTotalTableDecorator	getTotalForColumn	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.decorator.MultilevelTotalTableDecorator	getTotalsRowOpen	Feature Envy
+displaytag.src.main.java.org.displaytag.decorator.MultilevelTotalTableDecorator	null	God Class
+displaytag.src.main.java.org.displaytag.decorator.MultilevelTotalTableDecorator	null	Refused Parent Bequest
+displaytag.src.main.java.org.displaytag.decorator.MultilevelTotalTableDecorator	null	Tradition Breaker
+displaytag.src.main.java.org.displaytag.export.BaseExportView	doHeaders	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.export.BaseExportView	doExport	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.util.LookupUtil	getProperty	Brain Method
+displaytag.src.main.java.org.displaytag.util.LookupUtil	getProperty	Feature Envy
+displaytag.src.main.java.org.displaytag.util.LookupUtil	getProperty	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.util.LookupUtil	getIndexedProperty	Dispersed Coupling
+displaytag.src.test.java.org.displaytag.jsptests.NestedTest	doTest	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.decorator.MultilevelTotalTableDecorator$GroupTotals	printTotals	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.model.HeaderCell	getBeanPropertyName	Shotgun Surgery
+displaytag.src.main.java.org.displaytag.model.HeaderCell	getColumnNumber	Shotgun Surgery
+displaytag.src.main.java.org.displaytag.model.HeaderCell	getTitle	Shotgun Surgery
+displaytag.src.main.java.org.displaytag.model.HeaderCell	getCloseTag	Feature Envy
+displaytag.src.main.java.org.displaytag.model.HeaderCell	getHeaderCloseTag	Feature Envy
+displaytag.src.main.java.org.displaytag.model.HeaderCell	null	God Class
+displaytag-examples.src.main.java.org.displaytag.sample.decorators.ItextTotalWrapper	getCell	Feature Envy
+displaytag.src.test.java.org.displaytag.jsptests.ExportLinksTest	doTest	Dispersed Coupling
+displaytag.src.test.java.org.displaytag.filter.MockFilterSupport$MockFilterChain	doFilter	Feature Envy
+displaytag-portlet.src.test.java.org.displaytag.portlet.PortletHrefTest	testUrlTypeParameters	Feature Envy
+displaytag-portlet.src.test.java.org.displaytag.portlet.PortletHrefTest	testSecureParameters	Feature Envy
+displaytag-portlet.src.test.java.org.displaytag.portlet.PortletHrefTest	testPortletModeParameters	Feature Envy
+displaytag-portlet.src.test.java.org.displaytag.portlet.PortletHrefTest	testWindowStateParameters	Feature Envy
+displaytag-portlet.src.test.java.org.displaytag.portlet.PortletHrefTest	testAddParameters	Feature Envy
+displaytag-portlet.src.test.java.org.displaytag.portlet.PortletHrefTest	testRemoveParameter	Feature Envy
+displaytag-portlet.src.test.java.org.displaytag.portlet.PortletHrefTest	testClone	Feature Envy
+displaytag-portlet.src.test.java.org.displaytag.portlet.PortletHrefTest	testBaseUrl	Feature Envy
+displaytag-portlet.src.test.java.org.displaytag.portlet.PortletHrefTest	testFullUrl	Feature Envy
+displaytag.src.main.java.org.displaytag.pagination.SmartListHelper	getPageNavigationBar	Intensive Coupling
+displaytag.src.main.java.org.displaytag.render.TableWriterAdapter	null	Refused Parent Bequest
+displaytag.src.main.java.org.displaytag.model.Column	getValue	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.model.Column	createChoppedAndLinkedValue	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.model.Column	getColumnHref	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.pagination.Pagination	getFormattedBanner	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.localization.I18nJstlAdapter	getResource	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.util.PostHref	toString	Dispersed Coupling
+displaytag.src.test.java.org.displaytag.jsptests.Displ017Test	doTest	Feature Envy
+displaytag.src.test.java.org.displaytag.jsptests.Displ017Test	checkOnlyOneSorted	Dispersed Coupling
+displaytag.src.test.java.org.displaytag.properties.AbstractTitleKeyAutoColumnTest	doTest	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.decorator.CheckboxTableDecorator	finish	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.tags.CaptionTag	getOpenTag	Feature Envy
+displaytag.src.main.java.org.displaytag.tags.CaptionTag	getCloseTag	Feature Envy
+displaytag.src.main.java.org.displaytag.tags.CaptionTag	doEndTag	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.filter.DisplayTagSpringInterceptor	preHandle	Dispersed Coupling
+displaytag.src.test.java.org.displaytag.jsptests.Displ243Test	doTest	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.localization.I18nStrutsAdapter	getResource	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.util.DefaultRequestHelper	getParameterMap	Dispersed Coupling
+displaytag-examples.src.main.java.org.displaytag.sample.decorators.Wrapper	getLink1	Feature Envy
+displaytag-portlet.src.main.java.org.displaytag.portlet.PortletHref	addParameterMap	Feature Envy
+displaytag-portlet.src.main.java.org.displaytag.portlet.PortletHref	addParameterMap	Dispersed Coupling
+displaytag-portlet.src.main.java.org.displaytag.portlet.PortletHref	toString	Dispersed Coupling
+displaytag-portlet.src.main.java.org.displaytag.portlet.PortletHref	null	God Class
+displaytag-examples.src.main.java.org.displaytag.sample.TestList	TestList	Feature Envy
+displaytag.src.main.java.org.displaytag.pagination.PaginatedListSmartListHelper	computePageCount	Feature Envy
+displaytag.src.main.java.org.displaytag.pagination.PaginatedListSmartListHelper	getLastIndexForPage	Feature Envy
+displaytag.src.main.java.org.displaytag.pagination.PaginatedListSmartListHelper	getPageNavigationBar	Intensive Coupling
+displaytag.src.main.java.org.displaytag.pagination.PaginatedListSmartListHelper	getSearchResultsSummary	Intensive Coupling
+displaytag.src.main.java.org.displaytag.pagination.PaginatedListSmartListHelper	null	Refused Parent Bequest
+displaytag-portlet.src.test.java.org.displaytag.portlet.PortletRequestHelperTest	testEmptyPageContext	Feature Envy
+displaytag-portlet.src.test.java.org.displaytag.portlet.PortletRequestHelperTest	testBasicPageContext	Feature Envy
+displaytag.src.main.java.org.displaytag.tags.TableTag	addColumn	Intensive Coupling
+displaytag.src.main.java.org.displaytag.tags.TableTag	doStartTag	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.tags.TableTag	initParameters	Brain Method
+displaytag.src.main.java.org.displaytag.tags.TableTag	initParameters	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.tags.TableTag	initHref	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.tags.TableTag	doEndTag	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.tags.TableTag	describeEmptyTable	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.tags.TableTag	writeExport	Brain Method
+displaytag.src.main.java.org.displaytag.tags.TableTag	writeExport	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.tags.TableTag	setupViewableData	Intensive Coupling
+displaytag.src.main.java.org.displaytag.tags.TableTag	getTotals	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.tags.TableTag	null	God Class
+displaytag.src.main.java.org.displaytag.tags.TableTag	null	Brain Class
+displaytag.src.main.java.org.displaytag.tags.TableTag	null	Refused Parent Bequest
+displaytag.src.main.java.org.displaytag.tags.TableTag	null	Tradition Breaker
+displaytag.src.main.java.org.displaytag.tags.TableFooterTag	doEndTag	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.tags.TableFooterTag	doStartTag	Dispersed Coupling
+displaytag.src.test.java.org.displaytag.test.DisplaytagCase	assertEqualsIgnoreOrder	Feature Envy
+displaytag.src.main.java.org.displaytag.filter.ExportDelegate	writeExport	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.render.TableWriterTemplate	writeTable	Feature Envy
+displaytag.src.main.java.org.displaytag.render.TableWriterTemplate	writeTableBody	Brain Method
+displaytag.src.main.java.org.displaytag.render.TableWriterTemplate	writeTableBody	Intensive Coupling
+displaytag.src.main.java.org.displaytag.render.TableWriterTemplate	null	God Class
+displaytag.src.main.java.org.displaytag.render.TableWriterTemplate	null	Data Class
+displaytag.src.main.java.org.displaytag.decorator.TableDecorator	displayGroupedValue	Feature Envy
+displaytag.src.main.java.org.displaytag.decorator.TableDecorator	null	Refused Parent Bequest
+displaytag.src.main.java.org.displaytag.render.ItextTableWriter	getTableFont	Feature Envy
+displaytag.src.main.java.org.displaytag.render.ItextTableWriter	getCaptionFont	Feature Envy
+displaytag.src.main.java.org.displaytag.render.ItextTableWriter	writeTableHeader	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.render.ItextTableWriter	getCell	Feature Envy
+displaytag.src.main.java.org.displaytag.render.ItextTableWriter	null	Refused Parent Bequest
+displaytag.src.test.java.com.meterware.servletunit.ServletUnitHttpRequest	getPreferredLocales	Dispersed Coupling
+displaytag.src.test.java.com.meterware.servletunit.ServletUnitHttpRequest	getRequestURL	Feature Envy
+displaytag.src.test.java.com.meterware.servletunit.ServletUnitHttpRequest	addCookie	Feature Envy
+displaytag.src.test.java.com.meterware.servletunit.ServletUnitHttpRequest	null	God Class
+displaytag.src.main.java.org.displaytag.filter.ResponseOverrideFilter	doFilter	Dispersed Coupling
+displaytag.src.test.java.org.displaytag.tld.TldTest	checkTld	Intensive Coupling
+displaytag.src.test.java.org.displaytag.tld.TldTest	getTagAttributeList	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.model.Row	getOpenTag	Dispersed Coupling
+displaytag.src.test.java.org.displaytag.tld.TldTest$ClasspathEntityResolver	resolveEntity	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.tags.el.ELTableTag	null	Refused Parent Bequest
+displaytag.src.test.java.org.displaytag.jsptests.Displ018Test	doTest	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.util.MediaUtil	setMedia	Feature Envy
+displaytag.src.main.java.org.displaytag.util.MediaUtil	setMedia	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.util.HtmlTagUtil	abbreviateHtmlString	Brain Method
+displaytag.src.main.java.org.displaytag.util.HtmlTagUtil	abbreviateHtmlString	Intensive Coupling
+displaytag.src.main.java.org.displaytag.properties.TableProperties	loadUserProperties	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.properties.TableProperties	getLocaleResolverInstance	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.properties.TableProperties	addProperties	Feature Envy
+displaytag.src.main.java.org.displaytag.properties.TableProperties	getRequestHelperFactoryInstance	Feature Envy
+displaytag.src.main.java.org.displaytag.properties.TableProperties	getDecoratorFactoryInstance	Feature Envy
+displaytag.src.main.java.org.displaytag.properties.TableProperties	geResourceProvider	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.properties.TableProperties	getDefaultComparator	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.properties.TableProperties	null	God Class
+displaytag-export-poi.src.main.java.org.displaytag.export.excel.ExcelHssfView	doExport	Dispersed Coupling
+displaytag-export-poi.src.main.java.org.displaytag.export.excel.ExcelHssfView	writeCell	Feature Envy
+displaytag.src.test.java.org.apache.jasper.servlet.JspServletWrapper	service	Brain Method
+displaytag.src.test.java.org.apache.jasper.servlet.JspServletWrapper	service	Dispersed Coupling
+displaytag.src.test.java.org.apache.jasper.servlet.JspServletWrapper	null	God Class
+displaytag-examples.src.main.java.org.displaytag.sample.RandomSampleUtil	getRandomDate	Feature Envy
+displaytag.src.main.java.org.displaytag.decorator.TotalTableDecorator	init	Feature Envy
+displaytag.src.main.java.org.displaytag.decorator.TotalTableDecorator	startRow	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.decorator.TotalTableDecorator	createTotalRow	Dispersed Coupling
+displaytag.src.main.java.org.displaytag.model.TableModel	getTableDecorator	Shotgun Surgery
+displaytag.src.main.java.org.displaytag.model.TableModel	getHeaderCellList	Shotgun Surgery
+displaytag.src.main.java.org.displaytag.model.TableModel	null	God Class
+displaytag.src.test.java.org.displaytag.jsptests.Displ058Test	doTest	Dispersed Coupling

@@ -1,133 +1,506 @@
-org.axiondb.engine.BaseDatabase	Factory Method
-org.axiondb.TransactionManager	Factory Method
-org.axiondb.InWhereNode	(Object)Adapter
-org.axiondb.functions.MatchesFunction	State
-org.axiondb.Row	State
-org.axiondb.types.LOBType	State
-org.axiondb.engine.AxionSequencesMetaTableUpdater	State
-org.axiondb.RowSource	(Object)Adapter
-org.axiondb.Index	Observer
-org.axiondb.types.ClobSource	State
-org.axiondb.types.LobLocator	Factory Method
-org.axiondb.types.BaseDataType	Factory Method
-org.axiondb.types.LobSource	Decorator
-org.axiondb.engine.BaseDatabase	Template Method
-org.axiondb.RowIterator	(Object)Adapter
-org.axiondb.types.LobSource	State
-org.axiondb.engine.rowiterators.RebindableIndexedRowIterator	State
-org.axiondb.engine.LazyRow	(Object)Adapter
-org.axiondb.functions.LowerFunction	(Object)Adapter
-org.axiondb.InWhereNode	State
-org.axiondb.engine.rowiterators.IndexJoinedRowIterator	State
-org.axiondb.RowIterator	State
-org.axiondb.Column	(Object)Adapter
-org.axiondb.engine.BaseTable	Observer
-org.axiondb.engine.SortedMapIndex	(Object)Adapter
-org.axiondb.Selectable	(Object)Adapter
-org.axiondb.functions.UpperFunction	(Object)Adapter
-org.axiondb.RowIterator	Decorator
-org.axiondb.functions.LowerFunction	State
-org.axiondb.DataType	(Object)Adapter
-org.axiondb.engine.rowiterators.FilteringRowIterator	(Object)Adapter
-org.axiondb.functions.MinFunction	(Object)Adapter
-org.axiondb.types.LobLocatorFactory	(Object)Adapter
-org.axiondb.DataType	State
-org.axiondb.WhereNode	State
-org.axiondb.engine.AxionTypesMetaTableUpdater	(Object)Adapter
-org.axiondb.engine.BaseIndex	Factory Method
-org.axiondb.Constraint	State
-org.axiondb.Table	Factory Method
-org.axiondb.functions.MaxFunction	(Object)Adapter
-org.axiondb.functions.LikeToRegexpFunction	(Object)Adapter
-org.axiondb.ComparisonOperator	Singleton
-org.axiondb.jdbc.AxionResultSet	State
-org.axiondb.constraints.CheckConstraint	(Object)Adapter
-org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator	(Object)Adapter
-org.axiondb.engine.commands.AddConstraintCommand	State
-org.axiondb.types.CompressedLobSource	Decorator
-org.axiondb.engine.commands.CreateTableCommand	Composite
-org.axiondb.Row	Composite
-org.axiondb.Database	(Object)Adapter
-org.axiondb.engine.rowiterators.CollatingRowIterator	Composite
-org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator	State
-org.axiondb.engine.TransactableTableImpl	State
-org.axiondb.engine.rowiterators.FilteringRowIterator	State
-org.axiondb.functions.ConcatFunction	State
-org.axiondb.engine.rowiterators.DistinctRowIterator	State
-org.axiondb.engine.AxionTypesMetaTableUpdater	State
-org.axiondb.functions.MaxFunction	State
-org.axiondb.TransactionManager	State
-org.axiondb.engine.IntBTreeIndex	(Object)Adapter
-org.axiondb.ComparisonOperator	State
-org.axiondb.constraints.CheckConstraint	State
-org.axiondb.RowDecorator	State
-org.axiondb.engine.rowiterators.ChainedRowIterator	Composite
-org.axiondb.ComparisonOperator	(Object)Adapter
-org.axiondb.engine.rowiterators.DelegatingRowIterator	Decorator
-org.axiondb.engine.BaseDatabase	Bridge
-org.axiondb.RowComparator	State
-org.axiondb.TableFactory	Factory Method
-org.axiondb.functions.Base64DecodeFunction	State
-org.axiondb.engine.rowiterators.AbstractAcceptingRowIterator	Template Method
-org.axiondb.AxionCommand	State
-org.axiondb.engine.AxionColumnsMetaTableUpdater	(Object)Adapter
-org.axiondb.engine.AxionTablesMetaTableUpdater	(Object)Adapter
-org.axiondb.AxionCommand	Composite
-org.axiondb.Selectable	Decorator
-org.axiondb.types.BlobSource	State
-org.axiondb.FunctionFactory	Factory Method
-org.axiondb.engine.BaseArrayIndex	Template Method
-org.axiondb.engine.TransactionManagerImpl	(Object)Adapter
-org.axiondb.WhereNode	(Object)Adapter
-org.axiondb.Index	State
-org.axiondb.IndexLoader	Factory Method
-org.axiondb.event.DatabaseModificationListener	Bridge
-org.axiondb.types.LOBType	(Object)Adapter
-org.axiondb.functions.ConcatFunction	(Object)Adapter
-org.axiondb.engine.AxionTablesMetaTableUpdater	State
-org.axiondb.functions.Base64DecodeFunction	(Object)Adapter
-org.axiondb.engine.ObjectBTreeIndex	(Object)Adapter
-org.axiondb.engine.SnapshotIsolationTransaction	State
-org.axiondb.types.LobLocatorFactory	Factory Method
-org.axiondb.engine.TransactionManagerImpl	State
-org.axiondb.engine.LazyRow	State
-org.axiondb.LeafWhereNode	State
-org.axiondb.engine.commands.SelectCommand	State
-org.axiondb.util.BTree	(Object)Adapter
-org.axiondb.jdbc.AxionConnection	State
-org.axiondb.engine.rowiterators.AbstractFilteringRowIterator	Template Method
-org.axiondb.engine.BaseTable	Factory Method
-org.axiondb.engine.rowiterators.TransformingRowIterator	Template Method
-org.axiondb.jdbc.AbstractAxionClob	Template Method
-org.axiondb.engine.rowiterators.JoinedRow	Composite
-org.axiondb.engine.AxionColumnsMetaTableUpdater	State
-org.axiondb.functions.MinFunction	State
-org.axiondb.LeafWhereNode	(Object)Adapter
-org.axiondb.types.BaseDataType	Template Method
-org.axiondb.jdbc.AxionPreparedStatement	State
-org.axiondb.engine.BaseDiskTable	Template Method
-org.axiondb.types.ClobSource	(Object)Adapter
-org.axiondb.functions.UpperFunction	State
-org.axiondb.engine.rowiterators.ChangingIndexedRowIterator	State
-org.axiondb.Index	Factory Method
-org.axiondb.RowIterator	Composite
-org.axiondb.Database	State
-org.axiondb.event.DatabaseModificationListener	(Object)Adapter
-org.axiondb.functions.LikeToRegexpFunction	State
-org.axiondb.engine.AxionSequencesMetaTableUpdater	(Object)Adapter
-org.axiondb.types.AnyType	Singleton
-org.axiondb.RowSource	State
-org.axiondb.types.LobSource	(Object)Adapter
-org.axiondb.types.LobLocatorFactory	State
-org.axiondb.functions.ContainsFunction	State
-org.axiondb.Selectable	State
-org.axiondb.engine.BaseTable	Template Method
-org.axiondb.engine.BaseDatabase	(Object)Adapter
-org.axiondb.engine.Databases	Singleton
-org.axiondb.expression.Expression	Decorator
-org.axiondb.IndexFactory	Factory Method
-org.axiondb.util.ObjectBTree	(Object)Adapter
-org.axiondb.RowDecoratorIterator	State
-org.axiondb.functions.ContainsFunction	(Object)Adapter
-org.axiondb.Table	State
-org.axiondb.jdbc.AxionDatabaseMetaData	State
+org.axiondb.engine.BaseDatabase	null	Creator	Factory Method
+org.axiondb.engine.BaseDatabase	createSystemTable	FactoryMethod()	Factory Method
+org.axiondb.engine.BaseIndex	null	Creator	Factory Method
+org.axiondb.engine.BaseIndex	getRowIterator	FactoryMethod()	Factory Method
+org.axiondb.engine.BaseTable	null	Creator	Factory Method
+org.axiondb.engine.BaseTable	getRowIterator	FactoryMethod()	Factory Method
+org.axiondb.FunctionFactory	null	Creator	Factory Method
+org.axiondb.FunctionFactory	makeNewInstance	FactoryMethod()	Factory Method
+org.axiondb.Index	null	Creator	Factory Method
+org.axiondb.Index	getRowIterator	FactoryMethod()	Factory Method
+org.axiondb.IndexFactory	null	Creator	Factory Method
+org.axiondb.IndexFactory	makeNewInstance	FactoryMethod()	Factory Method
+org.axiondb.IndexLoader	null	Creator	Factory Method
+org.axiondb.IndexLoader	loadIndex	FactoryMethod()	Factory Method
+org.axiondb.Table	null	Creator	Factory Method
+org.axiondb.Table	getMatchingRows	FactoryMethod()	Factory Method
+org.axiondb.Table	makeTransactableTable	FactoryMethod()	Factory Method
+org.axiondb.TableFactory	null	Creator	Factory Method
+org.axiondb.TableFactory	createTable	FactoryMethod()	Factory Method
+org.axiondb.TransactionManager	null	Creator	Factory Method
+org.axiondb.TransactionManager	createTransaction	FactoryMethod()	Factory Method
+org.axiondb.types.BaseDataType	null	Creator	Factory Method
+org.axiondb.types.BaseDataType	makeNewInstance	FactoryMethod()	Factory Method
+org.axiondb.types.LobLocator	null	Creator	Factory Method
+org.axiondb.types.LobLocator	getLobSource	FactoryMethod()	Factory Method
+org.axiondb.types.LobLocatorFactory	null	Creator	Factory Method
+org.axiondb.types.LobLocatorFactory	read	FactoryMethod()	Factory Method
+org.axiondb.types.LobLocatorFactory	makeLobLocator	FactoryMethod()	Factory Method
+org.axiondb.ComparisonOperator	null	Singleton	Singleton
+org.axiondb.ComparisonOperator	null	uniqueInstance	Singleton
+org.axiondb.ComparisonOperator	null	uniqueInstance	Singleton
+org.axiondb.ComparisonOperator	null	uniqueInstance	Singleton
+org.axiondb.ComparisonOperator	null	uniqueInstance	Singleton
+org.axiondb.ComparisonOperator	null	uniqueInstance	Singleton
+org.axiondb.ComparisonOperator	null	uniqueInstance	Singleton
+org.axiondb.ComparisonOperator	null	uniqueInstance	Singleton
+org.axiondb.ComparisonOperator	null	uniqueInstance	Singleton
+org.axiondb.engine.Databases	null	Singleton	Singleton
+org.axiondb.engine.Databases	null	uniqueInstance	Singleton
+org.axiondb.types.AnyType	null	Singleton	Singleton
+org.axiondb.types.AnyType	null	uniqueInstance	Singleton
+org.axiondb.DataType	null	Adaptee	(Object)Adapter
+org.axiondb.functions.Base64DecodeFunction	null	Adapter	(Object)Adapter
+org.axiondb.functions.Base64DecodeFunction	null	adaptee	(Object)Adapter
+org.axiondb.functions.Base64DecodeFunction	evaluate	Request()	(Object)Adapter
+org.axiondb.DataType	null	Adaptee	(Object)Adapter
+org.axiondb.functions.ConcatFunction	null	Adapter	(Object)Adapter
+org.axiondb.functions.ConcatFunction	null	adaptee	(Object)Adapter
+org.axiondb.functions.ConcatFunction	evaluate	Request()	(Object)Adapter
+org.axiondb.DataType	null	Adaptee	(Object)Adapter
+org.axiondb.functions.ContainsFunction	null	Adapter	(Object)Adapter
+org.axiondb.functions.ContainsFunction	null	adaptee	(Object)Adapter
+org.axiondb.functions.ContainsFunction	evaluate	Request()	(Object)Adapter
+org.axiondb.DataType	null	Adaptee	(Object)Adapter
+org.axiondb.functions.LikeToRegexpFunction	null	Adapter	(Object)Adapter
+org.axiondb.functions.LikeToRegexpFunction	null	adaptee	(Object)Adapter
+org.axiondb.functions.LikeToRegexpFunction	evaluate	Request()	(Object)Adapter
+org.axiondb.DataType	null	Adaptee	(Object)Adapter
+org.axiondb.functions.LowerFunction	null	Adapter	(Object)Adapter
+org.axiondb.functions.LowerFunction	null	adaptee	(Object)Adapter
+org.axiondb.functions.LowerFunction	evaluate	Request()	(Object)Adapter
+org.axiondb.DataType	null	Adaptee	(Object)Adapter
+org.axiondb.functions.MaxFunction	null	Adapter	(Object)Adapter
+org.axiondb.functions.MaxFunction	null	adaptee	(Object)Adapter
+org.axiondb.functions.MaxFunction	evaluate	Request()	(Object)Adapter
+org.axiondb.DataType	null	Adaptee	(Object)Adapter
+org.axiondb.functions.MinFunction	null	Adapter	(Object)Adapter
+org.axiondb.functions.MinFunction	null	adaptee	(Object)Adapter
+org.axiondb.functions.MinFunction	evaluate	Request()	(Object)Adapter
+org.axiondb.DataType	null	Adaptee	(Object)Adapter
+org.axiondb.functions.UpperFunction	null	Adapter	(Object)Adapter
+org.axiondb.functions.UpperFunction	null	adaptee	(Object)Adapter
+org.axiondb.functions.UpperFunction	evaluate	Request()	(Object)Adapter
+org.axiondb.util.BTree	null	Adaptee	(Object)Adapter
+org.axiondb.engine.IntBTreeIndex	null	Adapter	(Object)Adapter
+org.axiondb.engine.IntBTreeIndex	null	adaptee	(Object)Adapter
+org.axiondb.engine.IntBTreeIndex	rowInserted	Request()	(Object)Adapter
+org.axiondb.engine.IntBTreeIndex	rowDeleted	Request()	(Object)Adapter
+org.axiondb.util.ObjectBTree	null	Adaptee	(Object)Adapter
+org.axiondb.engine.ObjectBTreeIndex	null	Adapter	(Object)Adapter
+org.axiondb.engine.ObjectBTreeIndex	null	adaptee	(Object)Adapter
+org.axiondb.engine.ObjectBTreeIndex	rowInserted	Request()	(Object)Adapter
+org.axiondb.engine.ObjectBTreeIndex	rowDeleted	Request()	(Object)Adapter
+org.axiondb.Column	null	Adaptee	(Object)Adapter
+org.axiondb.engine.SortedMapIndex	null	Adapter	(Object)Adapter
+org.axiondb.engine.SortedMapIndex	null	adaptee	(Object)Adapter
+org.axiondb.engine.SortedMapIndex	getRowIterator	Request()	(Object)Adapter
+org.axiondb.engine.SortedMapIndex	supportsOperator	Request()	(Object)Adapter
+org.axiondb.engine.SortedMapIndex	changeRowId	Request()	(Object)Adapter
+org.axiondb.Database	null	Adaptee	(Object)Adapter
+org.axiondb.engine.AxionColumnsMetaTableUpdater	null	Adapter	(Object)Adapter
+org.axiondb.engine.AxionColumnsMetaTableUpdater	null	adaptee	(Object)Adapter
+org.axiondb.engine.AxionColumnsMetaTableUpdater	tableAdded	Request()	(Object)Adapter
+org.axiondb.engine.AxionColumnsMetaTableUpdater	columnAdded	Request()	(Object)Adapter
+org.axiondb.RowIterator	null	Adaptee	(Object)Adapter
+org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator	null	Adapter	(Object)Adapter
+org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator	null	adaptee	(Object)Adapter
+org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator	current	Request()	(Object)Adapter
+org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator	next	Request()	(Object)Adapter
+org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator	previous	Request()	(Object)Adapter
+org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator	hasNext	Request()	(Object)Adapter
+org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator	hasPrevious	Request()	(Object)Adapter
+org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator	hasCurrent	Request()	(Object)Adapter
+org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator	first	Request()	(Object)Adapter
+org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator	last	Request()	(Object)Adapter
+org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator	reset	Request()	(Object)Adapter
+org.axiondb.Database	null	Adaptee	(Object)Adapter
+org.axiondb.engine.AxionSequencesMetaTableUpdater	null	Adapter	(Object)Adapter
+org.axiondb.engine.AxionSequencesMetaTableUpdater	null	adaptee	(Object)Adapter
+org.axiondb.engine.AxionSequencesMetaTableUpdater	sequenceAdded	Request()	(Object)Adapter
+org.axiondb.Database	null	Adaptee	(Object)Adapter
+org.axiondb.engine.AxionTablesMetaTableUpdater	null	Adapter	(Object)Adapter
+org.axiondb.engine.AxionTablesMetaTableUpdater	null	adaptee	(Object)Adapter
+org.axiondb.engine.AxionTablesMetaTableUpdater	tableAdded	Request()	(Object)Adapter
+org.axiondb.Database	null	Adaptee	(Object)Adapter
+org.axiondb.engine.AxionTypesMetaTableUpdater	null	Adapter	(Object)Adapter
+org.axiondb.engine.AxionTypesMetaTableUpdater	null	adaptee	(Object)Adapter
+org.axiondb.engine.AxionTypesMetaTableUpdater	typeAdded	Request()	(Object)Adapter
+org.axiondb.event.DatabaseModificationListener	null	Adaptee	(Object)Adapter
+org.axiondb.engine.BaseDatabase	null	Adapter	(Object)Adapter
+org.axiondb.engine.BaseDatabase	null	adaptee	(Object)Adapter
+org.axiondb.engine.BaseDatabase	null	adaptee	(Object)Adapter
+org.axiondb.engine.BaseDatabase	addTable	Request()	(Object)Adapter
+org.axiondb.engine.BaseDatabase	createSequence	Request()	(Object)Adapter
+org.axiondb.types.LobLocatorFactory	null	Adaptee	(Object)Adapter
+org.axiondb.types.LOBType	null	Adapter	(Object)Adapter
+org.axiondb.types.LOBType	null	adaptee	(Object)Adapter
+org.axiondb.types.LOBType	convert	Request()	(Object)Adapter
+org.axiondb.types.LOBType	read	Request()	(Object)Adapter
+org.axiondb.types.LOBType	write	Request()	(Object)Adapter
+org.axiondb.engine.LazyRow	null	Adapter	(Object)Adapter
+org.axiondb.RowSource	null	Adaptee	(Object)Adapter
+org.axiondb.engine.LazyRow	null	adaptee	(Object)Adapter
+org.axiondb.engine.LazyRow	size	Request()	(Object)Adapter
+org.axiondb.Selectable	null	Adaptee	(Object)Adapter
+org.axiondb.InWhereNode	null	Adapter	(Object)Adapter
+org.axiondb.InWhereNode	null	adaptee	(Object)Adapter
+org.axiondb.InWhereNode	evaluate	Request()	(Object)Adapter
+org.axiondb.Selectable	null	Adaptee	(Object)Adapter
+org.axiondb.LeafWhereNode	null	Adapter	(Object)Adapter
+org.axiondb.LeafWhereNode	null	adaptee	(Object)Adapter
+org.axiondb.LeafWhereNode	null	adaptee	(Object)Adapter
+org.axiondb.LeafWhereNode	evaluate	Request()	(Object)Adapter
+org.axiondb.types.LobSource	null	Adaptee	(Object)Adapter
+org.axiondb.types.ClobSource	null	Adapter	(Object)Adapter
+org.axiondb.types.ClobSource	null	adaptee	(Object)Adapter
+org.axiondb.types.ClobSource	setUtf8Stream	Request()	(Object)Adapter
+org.axiondb.Database	null	Adaptee	(Object)Adapter
+org.axiondb.engine.TransactionManagerImpl	null	Adapter	(Object)Adapter
+org.axiondb.engine.TransactionManagerImpl	null	adaptee	(Object)Adapter
+org.axiondb.engine.TransactionManagerImpl	shutdown	Request()	(Object)Adapter
+org.axiondb.WhereNode	null	Adaptee	(Object)Adapter
+org.axiondb.engine.rowiterators.FilteringRowIterator	null	Adapter	(Object)Adapter
+org.axiondb.engine.rowiterators.FilteringRowIterator	null	adaptee	(Object)Adapter
+org.axiondb.engine.rowiterators.FilteringRowIterator	acceptable	Request()	(Object)Adapter
+org.axiondb.ComparisonOperator	null	Adaptee	(Object)Adapter
+org.axiondb.LeafWhereNode	null	Adapter	(Object)Adapter
+org.axiondb.LeafWhereNode	null	adaptee	(Object)Adapter
+org.axiondb.LeafWhereNode	evaluate	Request()	(Object)Adapter
+org.axiondb.WhereNode	null	Adaptee	(Object)Adapter
+org.axiondb.constraints.CheckConstraint	null	Adapter	(Object)Adapter
+org.axiondb.constraints.CheckConstraint	null	adaptee	(Object)Adapter
+org.axiondb.constraints.CheckConstraint	evaluate	Request()	(Object)Adapter
+org.axiondb.AxionCommand	null	Component	Composite
+org.axiondb.engine.commands.CreateTableCommand	null	Composite	Composite
+org.axiondb.engine.commands.CreateTableCommand	execute	Operation()	Composite
+org.axiondb.RowIterator	null	Component	Composite
+org.axiondb.engine.rowiterators.ChainedRowIterator	null	Composite	Composite
+org.axiondb.engine.rowiterators.ChainedRowIterator	reset	Operation()	Composite
+org.axiondb.engine.rowiterators.ChainedRowIterator	next	Operation()	Composite
+org.axiondb.engine.rowiterators.ChainedRowIterator	previous	Operation()	Composite
+org.axiondb.engine.rowiterators.ChainedRowIterator	hasNext	Operation()	Composite
+org.axiondb.RowIterator	null	Component	Composite
+org.axiondb.engine.rowiterators.CollatingRowIterator	null	Composite	Composite
+org.axiondb.engine.rowiterators.CollatingRowIterator	hasNext	Operation()	Composite
+org.axiondb.engine.rowiterators.CollatingRowIterator	reset	Operation()	Composite
+org.axiondb.Row	null	Component	Composite
+org.axiondb.engine.rowiterators.JoinedRow	null	Composite	Composite
+org.axiondb.engine.rowiterators.JoinedRow	get	Operation()	Composite
+org.axiondb.engine.rowiterators.JoinedRow	set	Operation()	Composite
+org.axiondb.Selectable	null	Component	Decorator
+org.axiondb.expression.Expression	null	Decorator	Decorator
+org.axiondb.expression.Expression	null	component	Decorator
+org.axiondb.expression.Expression	null	component	Decorator
+org.axiondb.expression.Expression	evaluate	Operation()	Decorator
+org.axiondb.RowIterator	null	Component	Decorator
+org.axiondb.engine.rowiterators.DelegatingRowIterator	null	Decorator	Decorator
+org.axiondb.engine.rowiterators.DelegatingRowIterator	null	component	Decorator
+org.axiondb.engine.rowiterators.DelegatingRowIterator	current	Operation()	Decorator
+org.axiondb.engine.rowiterators.DelegatingRowIterator	hasCurrent	Operation()	Decorator
+org.axiondb.engine.rowiterators.DelegatingRowIterator	first	Operation()	Decorator
+org.axiondb.engine.rowiterators.DelegatingRowIterator	last	Operation()	Decorator
+org.axiondb.engine.rowiterators.DelegatingRowIterator	next	Operation()	Decorator
+org.axiondb.engine.rowiterators.DelegatingRowIterator	previous	Operation()	Decorator
+org.axiondb.engine.rowiterators.DelegatingRowIterator	hasNext	Operation()	Decorator
+org.axiondb.engine.rowiterators.DelegatingRowIterator	hasPrevious	Operation()	Decorator
+org.axiondb.engine.rowiterators.DelegatingRowIterator	add	Operation()	Decorator
+org.axiondb.engine.rowiterators.DelegatingRowIterator	nextIndex	Operation()	Decorator
+org.axiondb.engine.rowiterators.DelegatingRowIterator	previousIndex	Operation()	Decorator
+org.axiondb.engine.rowiterators.DelegatingRowIterator	currentIndex	Operation()	Decorator
+org.axiondb.engine.rowiterators.DelegatingRowIterator	remove	Operation()	Decorator
+org.axiondb.engine.rowiterators.DelegatingRowIterator	set	Operation()	Decorator
+org.axiondb.engine.rowiterators.DelegatingRowIterator	reset	Operation()	Decorator
+org.axiondb.engine.rowiterators.DelegatingRowIterator	peekNext	Operation()	Decorator
+org.axiondb.engine.rowiterators.DelegatingRowIterator	peekPrevious	Operation()	Decorator
+org.axiondb.types.LobSource	null	Component	Decorator
+org.axiondb.types.CompressedLobSource	null	Decorator	Decorator
+org.axiondb.types.CompressedLobSource	null	component	Decorator
+org.axiondb.types.CompressedLobSource	truncate	Operation()	Decorator
+org.axiondb.types.CompressedLobSource	getInputStream	Operation()	Decorator
+org.axiondb.types.CompressedLobSource	setOutputStream	Operation()	Decorator
+org.axiondb.Index	null	Observer	Observer
+org.axiondb.engine.BaseTable	null	Subject	Observer
+org.axiondb.engine.BaseTable	getIndexForColumn	Notify()	Observer
+org.axiondb.engine.BaseTable	isColumnIndexed	Notify()	Observer
+org.axiondb.engine.TransactableTableImpl	null	Context	State
+org.axiondb.Table	null	State	State
+org.axiondb.engine.TransactableTableImpl	null	state	State
+org.axiondb.engine.TransactableTableImpl	getName	Request()	State
+org.axiondb.engine.TransactableTableImpl	getType	Request()	State
+org.axiondb.engine.TransactableTableImpl	addConstraint	Request()	State
+org.axiondb.engine.TransactableTableImpl	removeConstraint	Request()	State
+org.axiondb.engine.TransactableTableImpl	getConstraints	Request()	State
+org.axiondb.engine.TransactableTableImpl	addIndex	Request()	State
+org.axiondb.engine.TransactableTableImpl	removeIndex	Request()	State
+org.axiondb.engine.TransactableTableImpl	populateIndex	Request()	State
+org.axiondb.engine.TransactableTableImpl	getIndexForColumn	Request()	State
+org.axiondb.engine.TransactableTableImpl	isColumnIndexed	Request()	State
+org.axiondb.engine.TransactableTableImpl	addColumn	Request()	State
+org.axiondb.engine.TransactableTableImpl	getColumn	Request()	State
+org.axiondb.engine.TransactableTableImpl	getColumn	Request()	State
+org.axiondb.engine.TransactableTableImpl	hasColumn	Request()	State
+org.axiondb.engine.TransactableTableImpl	getColumnIndex	Request()	State
+org.axiondb.engine.TransactableTableImpl	getColumnIdentifiers	Request()	State
+org.axiondb.engine.TransactableTableImpl	getColumnCount	Request()	State
+org.axiondb.engine.TransactableTableImpl	getIndices	Request()	State
+org.axiondb.engine.TransactableTableImpl	addRow	Request()	State
+org.axiondb.engine.TransactableTableImpl	getRowIterator	Request()	State
+org.axiondb.engine.TransactableTableImpl	getIndexedRows	Request()	State
+org.axiondb.engine.TransactableTableImpl	getRowCount	Request()	State
+org.axiondb.engine.TransactableTableImpl	getNextRowId	Request()	State
+org.axiondb.engine.TransactableTableImpl	freeRowId	Request()	State
+org.axiondb.engine.TransactableTableImpl	drop	Request()	State
+org.axiondb.engine.TransactableTableImpl	checkpoint	Request()	State
+org.axiondb.engine.TransactableTableImpl	shutdown	Request()	State
+org.axiondb.engine.TransactableTableImpl	remount	Request()	State
+org.axiondb.engine.TransactableTableImpl	applyInserts	Request()	State
+org.axiondb.engine.TransactableTableImpl	applyDeletes	Request()	State
+org.axiondb.engine.TransactableTableImpl	applyUpdates	Request()	State
+org.axiondb.engine.TransactableTableImpl	apply	Request()	State
+org.axiondb.DataType	null	State	State
+org.axiondb.functions.Base64DecodeFunction	null	Context	State
+org.axiondb.functions.Base64DecodeFunction	null	state	State
+org.axiondb.functions.Base64DecodeFunction	evaluate	Request()	State
+org.axiondb.DataType	null	State	State
+org.axiondb.functions.ConcatFunction	null	Context	State
+org.axiondb.functions.ConcatFunction	null	state	State
+org.axiondb.functions.ConcatFunction	evaluate	Request()	State
+org.axiondb.DataType	null	State	State
+org.axiondb.functions.ContainsFunction	null	Context	State
+org.axiondb.functions.ContainsFunction	null	state	State
+org.axiondb.functions.ContainsFunction	evaluate	Request()	State
+org.axiondb.DataType	null	State	State
+org.axiondb.functions.LikeToRegexpFunction	null	Context	State
+org.axiondb.functions.LikeToRegexpFunction	null	state	State
+org.axiondb.functions.LikeToRegexpFunction	evaluate	Request()	State
+org.axiondb.DataType	null	State	State
+org.axiondb.functions.LowerFunction	null	Context	State
+org.axiondb.functions.LowerFunction	null	state	State
+org.axiondb.functions.LowerFunction	evaluate	Request()	State
+org.axiondb.DataType	null	State	State
+org.axiondb.functions.MatchesFunction	null	Context	State
+org.axiondb.functions.MatchesFunction	null	state	State
+org.axiondb.functions.MatchesFunction	getStringFromArg	Request()	State
+org.axiondb.DataType	null	State	State
+org.axiondb.functions.MaxFunction	null	Context	State
+org.axiondb.functions.MaxFunction	null	state	State
+org.axiondb.functions.MaxFunction	evaluate	Request()	State
+org.axiondb.DataType	null	State	State
+org.axiondb.functions.MinFunction	null	Context	State
+org.axiondb.functions.MinFunction	null	state	State
+org.axiondb.functions.MinFunction	evaluate	Request()	State
+org.axiondb.DataType	null	State	State
+org.axiondb.functions.UpperFunction	null	Context	State
+org.axiondb.functions.UpperFunction	null	state	State
+org.axiondb.functions.UpperFunction	evaluate	Request()	State
+org.axiondb.engine.commands.SelectCommand	null	Context	State
+org.axiondb.RowIterator	null	State	State
+org.axiondb.engine.commands.SelectCommand	null	state	State
+org.axiondb.engine.commands.SelectCommand	executeQuery	Request()	State
+org.axiondb.engine.commands.SelectCommand	processQuery	Request()	State
+org.axiondb.engine.AxionColumnsMetaTableUpdater	null	Context	State
+org.axiondb.Database	null	State	State
+org.axiondb.engine.AxionColumnsMetaTableUpdater	null	state	State
+org.axiondb.engine.AxionColumnsMetaTableUpdater	tableAdded	Request()	State
+org.axiondb.engine.AxionColumnsMetaTableUpdater	columnAdded	Request()	State
+org.axiondb.engine.SnapshotIsolationTransaction	null	Context	State
+org.axiondb.Database	null	State	State
+org.axiondb.engine.SnapshotIsolationTransaction	null	state	State
+org.axiondb.engine.SnapshotIsolationTransaction	getName	Request()	State
+org.axiondb.engine.SnapshotIsolationTransaction	dropTable	Request()	State
+org.axiondb.engine.SnapshotIsolationTransaction	addTable	Request()	State
+org.axiondb.engine.SnapshotIsolationTransaction	tableAltered	Request()	State
+org.axiondb.engine.SnapshotIsolationTransaction	getDataType	Request()	State
+org.axiondb.engine.SnapshotIsolationTransaction	getIndexFactory	Request()	State
+org.axiondb.engine.SnapshotIsolationTransaction	getTableFactory	Request()	State
+org.axiondb.engine.SnapshotIsolationTransaction	getTableDirectory	Request()	State
+org.axiondb.engine.SnapshotIsolationTransaction	resolveSelectable	Request()	State
+org.axiondb.engine.SnapshotIsolationTransaction	resolveFromNode	Request()	State
+org.axiondb.engine.SnapshotIsolationTransaction	resolveWhereNode	Request()	State
+org.axiondb.engine.SnapshotIsolationTransaction	checkpoint	Request()	State
+org.axiondb.engine.SnapshotIsolationTransaction	shutdown	Request()	State
+org.axiondb.engine.SnapshotIsolationTransaction	remount	Request()	State
+org.axiondb.engine.SnapshotIsolationTransaction	isReadOnly	Request()	State
+org.axiondb.engine.SnapshotIsolationTransaction	createSequence	Request()	State
+org.axiondb.engine.SnapshotIsolationTransaction	getSequence	Request()	State
+org.axiondb.engine.SnapshotIsolationTransaction	dropSequence	Request()	State
+org.axiondb.engine.SnapshotIsolationTransaction	getTransactionManager	Request()	State
+org.axiondb.engine.SnapshotIsolationTransaction	getWrappedTable	Request()	State
+org.axiondb.Database	null	State	State
+org.axiondb.jdbc.AxionDatabaseMetaData	null	Context	State
+org.axiondb.jdbc.AxionDatabaseMetaData	null	state	State
+org.axiondb.jdbc.AxionDatabaseMetaData	isReadOnly	Request()	State
+org.axiondb.Database	null	State	State
+org.axiondb.jdbc.AxionConnection	null	Context	State
+org.axiondb.jdbc.AxionConnection	null	state	State
+org.axiondb.jdbc.AxionConnection	close	Request()	State
+org.axiondb.jdbc.AxionConnection	commit	Request()	State
+org.axiondb.jdbc.AxionConnection	rollback	Request()	State
+org.axiondb.jdbc.AxionConnection	getCurrentTransaction	Request()	State
+org.axiondb.jdbc.AxionConnection	commitIfAuto	Request()	State
+org.axiondb.Row	null	State	State
+org.axiondb.engine.rowiterators.IndexJoinedRowIterator	null	Context	State
+org.axiondb.engine.rowiterators.IndexJoinedRowIterator	null	state	State
+org.axiondb.engine.rowiterators.IndexJoinedRowIterator	null	state	State
+org.axiondb.engine.rowiterators.IndexJoinedRowIterator	setNextRow	Request()	State
+org.axiondb.engine.rowiterators.IndexJoinedRowIterator	setPreviousRow	Request()	State
+org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator	null	Context	State
+org.axiondb.RowIterator	null	State	State
+org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator	null	state	State
+org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator	current	Request()	State
+org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator	next	Request()	State
+org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator	previous	Request()	State
+org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator	hasNext	Request()	State
+org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator	hasPrevious	Request()	State
+org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator	hasCurrent	Request()	State
+org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator	first	Request()	State
+org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator	last	Request()	State
+org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator	nextIndex	Request()	State
+org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator	previousIndex	Request()	State
+org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator	remove	Request()	State
+org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator	set	Request()	State
+org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator	add	Request()	State
+org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator	reset	Request()	State
+org.axiondb.engine.rowiterators.RowIteratorRowDecoratorIterator	decorate	Request()	State
+org.axiondb.RowComparator	null	Context	State
+org.axiondb.Selectable	null	State	State
+org.axiondb.RowComparator	null	state	State
+org.axiondb.RowComparator	evaluate	Request()	State
+org.axiondb.jdbc.AxionResultSet	null	Context	State
+org.axiondb.Selectable	null	State	State
+org.axiondb.jdbc.AxionResultSet	null	state	State
+org.axiondb.jdbc.AxionResultSet	getValue	Request()	State
+org.axiondb.jdbc.AxionResultSet	getDataType	Request()	State
+org.axiondb.engine.AxionSequencesMetaTableUpdater	null	Context	State
+org.axiondb.Database	null	State	State
+org.axiondb.engine.AxionSequencesMetaTableUpdater	null	state	State
+org.axiondb.engine.AxionSequencesMetaTableUpdater	sequenceAdded	Request()	State
+org.axiondb.engine.AxionTablesMetaTableUpdater	null	Context	State
+org.axiondb.Database	null	State	State
+org.axiondb.engine.AxionTablesMetaTableUpdater	null	state	State
+org.axiondb.engine.AxionTablesMetaTableUpdater	tableAdded	Request()	State
+org.axiondb.engine.AxionTypesMetaTableUpdater	null	Context	State
+org.axiondb.Database	null	State	State
+org.axiondb.engine.AxionTypesMetaTableUpdater	null	state	State
+org.axiondb.engine.AxionTypesMetaTableUpdater	typeAdded	Request()	State
+org.axiondb.engine.rowiterators.ChangingIndexedRowIterator	null	Context	State
+org.axiondb.Index	null	State	State
+org.axiondb.engine.rowiterators.ChangingIndexedRowIterator	null	state	State
+org.axiondb.engine.rowiterators.ChangingIndexedRowIterator	setIndexKey	Request()	State
+org.axiondb.engine.rowiterators.RebindableIndexedRowIterator	null	Context	State
+org.axiondb.Index	null	State	State
+org.axiondb.engine.rowiterators.RebindableIndexedRowIterator	null	state	State
+org.axiondb.engine.rowiterators.RebindableIndexedRowIterator	reset	Request()	State
+org.axiondb.jdbc.AxionPreparedStatement	null	Context	State
+org.axiondb.AxionCommand	null	State	State
+org.axiondb.jdbc.AxionPreparedStatement	null	state	State
+org.axiondb.jdbc.AxionPreparedStatement	setParameter	Request()	State
+org.axiondb.jdbc.AxionPreparedStatement	clearParameters	Request()	State
+org.axiondb.jdbc.AxionPreparedStatement	execute	Request()	State
+org.axiondb.jdbc.AxionPreparedStatement	executeQuery	Request()	State
+org.axiondb.types.LOBType	null	Context	State
+org.axiondb.types.LobLocatorFactory	null	State	State
+org.axiondb.types.LOBType	null	state	State
+org.axiondb.types.LOBType	convert	Request()	State
+org.axiondb.types.LOBType	read	Request()	State
+org.axiondb.types.LOBType	write	Request()	State
+org.axiondb.types.LOBType	writeStringClob	Request()	State
+org.axiondb.types.LOBType	writeByteArrayBlob	Request()	State
+org.axiondb.engine.LazyRow	null	Context	State
+org.axiondb.RowSource	null	State	State
+org.axiondb.engine.LazyRow	null	state	State
+org.axiondb.engine.LazyRow	size	Request()	State
+org.axiondb.engine.LazyRow	getRow	Request()	State
+org.axiondb.RowDecorator	null	Context	State
+org.axiondb.Row	null	State	State
+org.axiondb.RowDecorator	null	state	State
+org.axiondb.RowDecorator	get	Request()	State
+org.axiondb.RowDecorator	set	Request()	State
+org.axiondb.jdbc.AxionResultSet	null	Context	State
+org.axiondb.RowDecoratorIterator	null	State	State
+org.axiondb.jdbc.AxionResultSet	null	state	State
+org.axiondb.jdbc.AxionResultSet	beforeFirst	Request()	State
+org.axiondb.jdbc.AxionResultSet	isBeforeFirst	Request()	State
+org.axiondb.jdbc.AxionResultSet	next	Request()	State
+org.axiondb.jdbc.AxionResultSet	null	Context	State
+org.axiondb.TransactionManager	null	State	State
+org.axiondb.jdbc.AxionResultSet	null	state	State
+org.axiondb.jdbc.AxionResultSet	close	Request()	State
+org.axiondb.InWhereNode	null	Context	State
+org.axiondb.Selectable	null	State	State
+org.axiondb.InWhereNode	null	state	State
+org.axiondb.InWhereNode	evaluate	Request()	State
+org.axiondb.LeafWhereNode	null	Context	State
+org.axiondb.Selectable	null	State	State
+org.axiondb.LeafWhereNode	null	state	State
+org.axiondb.LeafWhereNode	null	state	State
+org.axiondb.LeafWhereNode	evaluate	Request()	State
+org.axiondb.types.BlobSource	null	Context	State
+org.axiondb.types.LobSource	null	State	State
+org.axiondb.types.BlobSource	null	state	State
+org.axiondb.types.BlobSource	length	Request()	State
+org.axiondb.types.BlobSource	truncate	Request()	State
+org.axiondb.types.BlobSource	getBinaryStream	Request()	State
+org.axiondb.types.BlobSource	setBinaryStream	Request()	State
+org.axiondb.types.ClobSource	null	Context	State
+org.axiondb.types.LobSource	null	State	State
+org.axiondb.types.ClobSource	null	state	State
+org.axiondb.types.ClobSource	getUtf8Stream	Request()	State
+org.axiondb.types.ClobSource	setUtf8Stream	Request()	State
+org.axiondb.types.ClobSource	length	Request()	State
+org.axiondb.types.ClobSource	truncate	Request()	State
+org.axiondb.engine.rowiterators.DistinctRowIterator	null	Context	State
+org.axiondb.Selectable	null	State	State
+org.axiondb.engine.rowiterators.DistinctRowIterator	null	state	State
+org.axiondb.engine.rowiterators.DistinctRowIterator	populateValueList	Request()	State
+org.axiondb.engine.TransactionManagerImpl	null	Context	State
+org.axiondb.Database	null	State	State
+org.axiondb.engine.TransactionManagerImpl	null	state	State
+org.axiondb.engine.TransactionManagerImpl	shutdown	Request()	State
+org.axiondb.engine.rowiterators.FilteringRowIterator	null	Context	State
+org.axiondb.WhereNode	null	State	State
+org.axiondb.engine.rowiterators.FilteringRowIterator	null	state	State
+org.axiondb.engine.rowiterators.FilteringRowIterator	acceptable	Request()	State
+org.axiondb.LeafWhereNode	null	Context	State
+org.axiondb.ComparisonOperator	null	State	State
+org.axiondb.LeafWhereNode	null	state	State
+org.axiondb.LeafWhereNode	evaluate	Request()	State
+org.axiondb.engine.commands.AddConstraintCommand	null	Context	State
+org.axiondb.Constraint	null	State	State
+org.axiondb.engine.commands.AddConstraintCommand	null	state	State
+org.axiondb.engine.commands.AddConstraintCommand	execute	Request()	State
+org.axiondb.constraints.CheckConstraint	null	Context	State
+org.axiondb.WhereNode	null	State	State
+org.axiondb.constraints.CheckConstraint	null	state	State
+org.axiondb.constraints.CheckConstraint	evaluate	Request()	State
+org.axiondb.engine.BaseDatabase	null	Abstraction	Bridge
+org.axiondb.event.DatabaseModificationListener	null	Implementor	Bridge
+org.axiondb.engine.BaseDatabase	null	implementor	Bridge
+org.axiondb.engine.BaseDatabase	null	implementor	Bridge
+org.axiondb.engine.BaseDatabase	addTable	Operation()	Bridge
+org.axiondb.engine.BaseDatabase	createSequence	Operation()	Bridge
+org.axiondb.engine.BaseArrayIndex	null	AbstractClass	Template Method
+org.axiondb.engine.BaseArrayIndex	getRowIterator	TemplateMethod()	Template Method
+org.axiondb.engine.BaseArrayIndex	rowInserted	TemplateMethod()	Template Method
+org.axiondb.engine.BaseArrayIndex	rowDeleted	TemplateMethod()	Template Method
+org.axiondb.engine.BaseArrayIndex	save	TemplateMethod()	Template Method
+org.axiondb.engine.BaseArrayIndex	changeRowId	TemplateMethod()	Template Method
+org.axiondb.engine.BaseDatabase	null	AbstractClass	Template Method
+org.axiondb.engine.BaseDatabase	createMetaDataTables	TemplateMethod()	Template Method
+org.axiondb.engine.BaseDiskTable	null	AbstractClass	Template Method
+org.axiondb.engine.BaseDiskTable	addColumn	TemplateMethod()	Template Method
+org.axiondb.engine.BaseDiskTable	drop	TemplateMethod()	Template Method
+org.axiondb.engine.BaseDiskTable	shutdown	TemplateMethod()	Template Method
+org.axiondb.engine.BaseDiskTable	remount	TemplateMethod()	Template Method
+org.axiondb.engine.BaseDiskTable	getMetaFile	TemplateMethod()	Template Method
+org.axiondb.engine.BaseTable	null	AbstractClass	Template Method
+org.axiondb.engine.BaseTable	getRowIterator	TemplateMethod()	Template Method
+org.axiondb.engine.rowiterators.AbstractAcceptingRowIterator	null	AbstractClass	Template Method
+org.axiondb.engine.rowiterators.AbstractAcceptingRowIterator	determineNextRow	TemplateMethod()	Template Method
+org.axiondb.engine.rowiterators.AbstractAcceptingRowIterator	determinePreviousRow	TemplateMethod()	Template Method
+org.axiondb.engine.rowiterators.AbstractFilteringRowIterator	null	AbstractClass	Template Method
+org.axiondb.engine.rowiterators.AbstractFilteringRowIterator	hasNext	TemplateMethod()	Template Method
+org.axiondb.engine.rowiterators.AbstractFilteringRowIterator	hasPrevious	TemplateMethod()	Template Method
+org.axiondb.engine.rowiterators.AbstractFilteringRowIterator	next	TemplateMethod()	Template Method
+org.axiondb.engine.rowiterators.AbstractFilteringRowIterator	previous	TemplateMethod()	Template Method
+org.axiondb.engine.rowiterators.TransformingRowIterator	null	AbstractClass	Template Method
+org.axiondb.engine.rowiterators.TransformingRowIterator	current	TemplateMethod()	Template Method
+org.axiondb.engine.rowiterators.TransformingRowIterator	first	TemplateMethod()	Template Method
+org.axiondb.engine.rowiterators.TransformingRowIterator	last	TemplateMethod()	Template Method
+org.axiondb.engine.rowiterators.TransformingRowIterator	next	TemplateMethod()	Template Method
+org.axiondb.engine.rowiterators.TransformingRowIterator	previous	TemplateMethod()	Template Method
+org.axiondb.jdbc.AbstractAxionClob	null	AbstractClass	Template Method
+org.axiondb.jdbc.AbstractAxionClob	setCharacterStream	TemplateMethod()	Template Method
+org.axiondb.types.BaseDataType	null	AbstractClass	Template Method
+org.axiondb.types.BaseDataType	toString	TemplateMethod()	Template Method

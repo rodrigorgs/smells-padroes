@@ -1,139 +1,139 @@
-source.org.java.plugin.JpfException
-source.org.java.plugin.ObjectFactory
-source.org.java.plugin.PathResolver
-source.org.java.plugin.Plugin
-source.org.java.plugin.PluginClassLoader
-source.org.java.plugin.PluginLifecycleException
-source.org.java.plugin.PluginManager
-source.org.java.plugin.PluginManager$EventListener
-source.org.java.plugin.PluginManager$EventListenerAdapter
-source.org.java.plugin.PluginManager$PluginLocation
-source.org.java.plugin.registry.Documentable
-source.org.java.plugin.registry.Documentation
-source.org.java.plugin.registry.Documentation$Reference
-source.org.java.plugin.registry.Extension
-source.org.java.plugin.registry.Extension$Parameter
-source.org.java.plugin.registry.ExtensionPoint
-source.org.java.plugin.registry.ExtensionPoint$ParameterDefinition
-source.org.java.plugin.registry.Identity
-source.org.java.plugin.registry.IntegrityCheckReport
-source.org.java.plugin.registry.IntegrityCheckReport$ReportItem
-source.org.java.plugin.registry.Library
-source.org.java.plugin.registry.ManifestProcessingException
-source.org.java.plugin.registry.PluginAttribute
-source.org.java.plugin.registry.PluginDescriptor
-source.org.java.plugin.registry.PluginElement
-source.org.java.plugin.registry.PluginFragment
-source.org.java.plugin.registry.PluginPrerequisite
-source.org.java.plugin.registry.PluginRegistry
-source.org.java.plugin.registry.PluginRegistry$RegistryChangeListener
-source.org.java.plugin.registry.PluginRegistry$RegistryChangeData
-source.org.java.plugin.registry.PluginRegistry$ManifestInfo
-source.org.java.plugin.registry.UniqueIdentity
-source.org.java.plugin.registry.Version
-source.org.java.plugin.registry.xml.BaseHandler
-source.org.java.plugin.registry.xml.SimpleStack
-source.org.java.plugin.registry.xml.DocumentationImpl
-source.org.java.plugin.registry.xml.DocumentationImpl$ReferenceImpl
-source.org.java.plugin.registry.xml.ExtensionImpl
-source.org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl
-source.org.java.plugin.registry.xml.ExtensionPointImpl
-source.org.java.plugin.registry.xml.ExtensionPointImpl$ParameterDefinitionImpl
-source.org.java.plugin.registry.xml.IdentityImpl
-source.org.java.plugin.registry.xml.IntegrityChecker
-source.org.java.plugin.registry.xml.IntegrityChecker$ReportItemImpl
-source.org.java.plugin.registry.xml.LibraryImpl
-source.org.java.plugin.registry.xml.ManifestHandler
-source.org.java.plugin.registry.xml.ManifestInfoHandler
-source.org.java.plugin.registry.xml.ManifestParser
-source.org.java.plugin.registry.xml.ModelPluginManifest
-source.org.java.plugin.registry.xml.ModelPluginDescriptor
-source.org.java.plugin.registry.xml.ModelPluginFragment
-source.org.java.plugin.registry.xml.ModelDocumentation
-source.org.java.plugin.registry.xml.ModelDocumentationReference
-source.org.java.plugin.registry.xml.ModelAttribute
-source.org.java.plugin.registry.xml.ModelPrerequisite
-source.org.java.plugin.registry.xml.ModelLibrary
-source.org.java.plugin.registry.xml.ModelExtensionPoint
-source.org.java.plugin.registry.xml.ModelParameterDef
-source.org.java.plugin.registry.xml.ModelExtension
-source.org.java.plugin.registry.xml.ModelParameter
-source.org.java.plugin.registry.xml.ModelManifestInfo
-source.org.java.plugin.registry.xml.ParameterValueParser
-source.org.java.plugin.registry.xml.PluginAttributeImpl
-source.org.java.plugin.registry.xml.PluginDescriptorImpl
-source.org.java.plugin.registry.xml.PluginElementImpl
-source.org.java.plugin.registry.xml.PluginFragmentImpl
-source.org.java.plugin.registry.xml.PluginPrerequisiteImpl
-source.org.java.plugin.registry.xml.PluginRegistryImpl
-source.org.java.plugin.registry.xml.PluginRegistryImpl$RegistryChangeDataImpl
-source.org.java.plugin.registry.xml.PluginRegistryImpl$ManifestInfoImpl
-source.org.java.plugin.standard.PluginLifecycleHandler
-source.org.java.plugin.standard.ShadingPathResolver
-source.org.java.plugin.standard.ShadingUtil
-source.org.java.plugin.standard.ShadowDataController
-source.org.java.plugin.standard.ShadowDataController$ShadowFileFilter
-source.org.java.plugin.standard.RegexpFileFilter
-source.org.java.plugin.standard.CombinedFileFilter
-source.org.java.plugin.standard.StandardObjectFactory
-source.org.java.plugin.standard.StandardPathResolver
-source.org.java.plugin.standard.StandardPluginClassLoader
-source.org.java.plugin.standard.StandardPluginClassLoader$ResourceFilter
-source.org.java.plugin.standard.StandardPluginClassLoader$PluginResourceLoader
-source.org.java.plugin.standard.StandardPluginLifecycleHandler
-source.org.java.plugin.standard.StandardPluginLocation
-source.org.java.plugin.standard.StandardPluginManager
-source.org.java.plugin.standard.StandardPluginManager$EmptyPlugin
-source.org.java.plugin.util.ExtendedProperties
-source.org.java.plugin.util.IoUtil
-source.org.java.plugin.util.ResourceManager
-source-boot.org.java.plugin.boot.Application
-source-boot.org.java.plugin.boot.ApplicationInitializer
-source-boot.org.java.plugin.boot.ApplicationPlugin
-source-boot.org.java.plugin.boot.Boot
-source-boot.org.java.plugin.boot.SimpleSplashHandler
-source-boot.org.java.plugin.boot.SplashHandlerWrapper
-source-boot.org.java.plugin.boot.BootErrorHandler
-source-boot.org.java.plugin.boot.BootErrorHandlerConsole
-source-boot.org.java.plugin.boot.BootErrorHandlerGui
-source-boot.org.java.plugin.boot.ControlThread
-source-boot.org.java.plugin.boot.DefaultApplicationInitializer
-source-boot.org.java.plugin.boot.DefaultPluginsCollector
-source-boot.org.java.plugin.boot.DefaultPluginsCollector$LocationsDescriptorHandler
-source-boot.org.java.plugin.boot.ErrorDialog
-source-boot.org.java.plugin.boot.PluginsCollector
-source-boot.org.java.plugin.boot.ServiceApplication
-source-boot.org.java.plugin.boot.SplashHandler
-source-boot.org.java.plugin.boot.SplashWindow
-source-tools.org.java.plugin.tools.ant.BaseJpfTask
-source-tools.org.java.plugin.tools.ant.CheckTask
-source-tools.org.java.plugin.tools.ant.DocTask
-source-tools.org.java.plugin.tools.ant.PackTask
-source-tools.org.java.plugin.tools.ant.PathTask
-source-tools.org.java.plugin.tools.ant.PluginInfoTask
-source-tools.org.java.plugin.tools.ant.SingleFilePluginTask
-source-tools.org.java.plugin.tools.ant.SortTask
-source-tools.org.java.plugin.tools.ant.UnpackTask
-source-tools.org.java.plugin.tools.ant.VersionUpdateTask
-source-tools.org.java.plugin.tools.ant.VersionUpdateTask$PluginInfo
-source-tools.org.java.plugin.tools.docgen.ClassPathPageSource
-source-tools.org.java.plugin.tools.docgen.DocGenerator
-source-tools.org.java.plugin.tools.docgen.DocGenerator$Tool
-source-tools.org.java.plugin.tools.docgen.DocGenerator$IdentityComparator
-source-tools.org.java.plugin.tools.mocks.MockDocumentation
-source-tools.org.java.plugin.tools.mocks.MockExtension
-source-tools.org.java.plugin.tools.mocks.MockExtensionPoint
-source-tools.org.java.plugin.tools.mocks.MockIdentity
-source-tools.org.java.plugin.tools.mocks.MockLibrary
-source-tools.org.java.plugin.tools.mocks.MockParameter
-source-tools.org.java.plugin.tools.mocks.MockParameterDefinition
-source-tools.org.java.plugin.tools.mocks.MockPluginAttribute
-source-tools.org.java.plugin.tools.mocks.MockPluginDescriptor
-source-tools.org.java.plugin.tools.mocks.MockPluginElement
-source-tools.org.java.plugin.tools.mocks.MockPluginFragment
-source-tools.org.java.plugin.tools.mocks.MockPluginPrerequisite
-source-tools.org.java.plugin.tools.mocks.MockPluginRegistry
-source-tools.org.java.plugin.tools.PluginArchiver
-source-tools.org.java.plugin.tools.PluginArchiver$Filter
-source-tools.org.java.plugin.tools.PluginArchiver$ArchiveDescriptorEntry
-source-tools.org.java.plugin.tools.Util
+org.java.plugin.tools.mocks.MockParameter	classe	21
+org.java.plugin.tools.mocks.MockExtensionPoint	classe	22
+org.java.plugin.tools.mocks.MockExtension	classe	11
+org.java.plugin.tools.mocks.MockPluginPrerequisite	classe	15
+org.java.plugin.tools.mocks.MockLibrary	classe	9
+org.java.plugin.tools.mocks.MockDocumentation	classe	8
+org.java.plugin.tools.mocks.MockPluginAttribute	classe	8
+org.java.plugin.tools.mocks.MockPluginFragment	classe	18
+org.java.plugin.tools.mocks.MockPluginDescriptor	classe	33
+org.java.plugin.tools.mocks.MockIdentity	classe	2
+org.java.plugin.tools.mocks.MockPluginElement	classe	8
+org.java.plugin.tools.mocks.MockPluginRegistry	classe	28
+org.java.plugin.tools.mocks.MockParameterDefinition	classe	15
+org.java.plugin.tools.ant.SingleFilePluginTask	classe	2
+org.java.plugin.tools.ant.PluginInfoTask	classe	8
+org.java.plugin.tools.ant.VersionUpdateTask	classe	4
+org.java.plugin.tools.ant.VersionUpdateTask$PluginInfo	classe	8
+org.java.plugin.tools.ant.UnpackTask	classe	3
+org.java.plugin.tools.ant.SortTask	classe	9
+org.java.plugin.tools.ant.PackTask	classe	2
+org.java.plugin.tools.ant.PathTask	classe	8
+org.java.plugin.tools.ant.BaseJpfTask	classe	16
+org.java.plugin.tools.ant.CheckTask	classe	3
+org.java.plugin.tools.ant.DocTask	classe	8
+org.java.plugin.tools.PluginArchiver	classe	15
+org.java.plugin.tools.PluginArchiver$Filter	interface	1
+org.java.plugin.tools.PluginArchiver$ArchiveDescriptorEntry	classe	4
+org.java.plugin.tools.Util	classe	2
+org.java.plugin.tools.docgen.ClassPathPageSource	classe	4
+org.java.plugin.tools.docgen.DocGenerator	classe	18
+org.java.plugin.tools.docgen.DocGenerator$Tool	classe	3
+org.java.plugin.tools.docgen.DocGenerator$IdentityComparator	classe	1
+org.java.plugin.JpfException	classe	1
+org.java.plugin.util.IoUtil	classe	19
+org.java.plugin.util.ExtendedProperties	classe	5
+org.java.plugin.util.ResourceManager	classe	6
+org.java.plugin.PluginManager	classe	23
+org.java.plugin.PluginManager$EventListener	interface	4
+org.java.plugin.PluginManager$EventListenerAdapter	classe	4
+org.java.plugin.PluginManager$PluginLocation	interface	2
+org.java.plugin.ObjectFactory	classe	10
+org.java.plugin.Plugin	classe	10
+org.java.plugin.standard.ShadingPathResolver	classe	8
+org.java.plugin.standard.ShadingUtil	classe	9
+org.java.plugin.standard.ShadowDataController	classe	8
+org.java.plugin.standard.ShadowDataController$ShadowFileFilter	classe	1
+org.java.plugin.standard.RegexpFileFilter	classe	1
+org.java.plugin.standard.CombinedFileFilter	classe	1
+org.java.plugin.standard.PluginLifecycleHandler	classe	8
+org.java.plugin.standard.StandardPluginLocation	classe	5
+org.java.plugin.standard.StandardObjectFactory	classe	7
+org.java.plugin.standard.StandardPathResolver	classe	8
+org.java.plugin.standard.StandardPluginManager	classe	23
+org.java.plugin.standard.StandardPluginManager$EmptyPlugin	classe	2
+org.java.plugin.standard.StandardPluginClassLoader	classe	28
+org.java.plugin.standard.StandardPluginClassLoader$ResourceFilter	classe	2
+org.java.plugin.standard.StandardPluginClassLoader$PluginResourceLoader	classe	3
+org.java.plugin.standard.StandardPluginLifecycleHandler	classe	6
+org.java.plugin.PluginClassLoader	classe	5
+org.java.plugin.registry.Documentation	interface	4
+org.java.plugin.registry.Documentation$Reference	interface	3
+org.java.plugin.registry.PluginRegistry	interface	23
+org.java.plugin.registry.PluginRegistry$RegistryChangeListener	interface	1
+org.java.plugin.registry.PluginRegistry$RegistryChangeData	interface	9
+org.java.plugin.registry.PluginRegistry$ManifestInfo	interface	6
+org.java.plugin.registry.Documentable	interface	2
+org.java.plugin.registry.Extension	interface	6
+org.java.plugin.registry.Extension$Parameter	interface	16
+org.java.plugin.registry.IntegrityCheckReport	interface	3
+org.java.plugin.registry.IntegrityCheckReport$ReportItem	interface	5
+org.java.plugin.registry.PluginElement	interface	2
+org.java.plugin.registry.Library	interface	4
+org.java.plugin.registry.Identity	interface	1
+org.java.plugin.registry.xml.ManifestInfoHandler	classe	4
+org.java.plugin.registry.xml.ExtensionPointImpl	classe	21
+org.java.plugin.registry.xml.ExtensionPointImpl$ParameterDefinitionImpl	classe	13
+org.java.plugin.registry.xml.BaseHandler	classe	4
+org.java.plugin.registry.xml.SimpleStack	classe	3
+org.java.plugin.registry.xml.LibraryImpl	classe	6
+org.java.plugin.registry.xml.PluginRegistryImpl	classe	30
+org.java.plugin.registry.xml.PluginRegistryImpl$RegistryChangeDataImpl	classe	16
+org.java.plugin.registry.xml.PluginRegistryImpl$ManifestInfoImpl	classe	6
+org.java.plugin.registry.xml.ManifestHandler	classe	4
+org.java.plugin.registry.xml.PluginAttributeImpl	classe	6
+org.java.plugin.registry.xml.PluginDescriptorImpl	classe	29
+org.java.plugin.registry.xml.PluginPrerequisiteImpl	classe	15
+org.java.plugin.registry.xml.ExtensionImpl	classe	14
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	classe	22
+org.java.plugin.registry.xml.IdentityImpl	classe	4
+org.java.plugin.registry.xml.PluginFragmentImpl	classe	13
+org.java.plugin.registry.xml.DocumentationImpl	classe	4
+org.java.plugin.registry.xml.DocumentationImpl$ReferenceImpl	classe	3
+org.java.plugin.registry.xml.IntegrityChecker	classe	5
+org.java.plugin.registry.xml.IntegrityChecker$ReportItemImpl	classe	5
+org.java.plugin.registry.xml.ManifestParser	classe	4
+org.java.plugin.registry.xml.PluginElementImpl	classe	5
+org.java.plugin.registry.xml.ParameterValueParser	classe	4
+org.java.plugin.registry.xml.ModelPluginManifest	classe	17
+org.java.plugin.registry.xml.ModelPluginDescriptor	classe	2
+org.java.plugin.registry.xml.ModelPluginFragment	classe	6
+org.java.plugin.registry.xml.ModelDocumentation	classe	5
+org.java.plugin.registry.xml.ModelDocumentationReference	classe	4
+org.java.plugin.registry.xml.ModelAttribute	classe	7
+org.java.plugin.registry.xml.ModelPrerequisite	classe	16
+org.java.plugin.registry.xml.ModelLibrary	classe	11
+org.java.plugin.registry.xml.ModelExtensionPoint	classe	11
+org.java.plugin.registry.xml.ModelParameterDef	classe	13
+org.java.plugin.registry.xml.ModelExtension	classe	9
+org.java.plugin.registry.xml.ModelParameter	classe	7
+org.java.plugin.registry.xml.ModelManifestInfo	classe	12
+org.java.plugin.registry.PluginFragment	interface	7
+org.java.plugin.registry.PluginDescriptor	interface	17
+org.java.plugin.registry.PluginAttribute	interface	5
+org.java.plugin.registry.ExtensionPoint	interface	14
+org.java.plugin.registry.ExtensionPoint$ParameterDefinition	interface	8
+org.java.plugin.registry.PluginPrerequisite	interface	7
+org.java.plugin.registry.UniqueIdentity	interface	1
+org.java.plugin.registry.Version	classe	16
+org.java.plugin.registry.ManifestProcessingException	classe	0
+org.java.plugin.PluginLifecycleException	classe	0
+org.java.plugin.PathResolver	interface	6
+org.java.plugin.boot.SplashWindow	classe	5
+org.java.plugin.boot.DefaultApplicationInitializer	classe	7
+org.java.plugin.boot.BootErrorHandlerGui	classe	4
+org.java.plugin.boot.SplashHandler	interface	10
+org.java.plugin.boot.Application	interface	1
+org.java.plugin.boot.ServiceApplication	interface	1
+org.java.plugin.boot.DefaultPluginsCollector	classe	5
+org.java.plugin.boot.DefaultPluginsCollector$LocationsDescriptorHandler	classe	1
+org.java.plugin.boot.ApplicationPlugin	classe	1
+org.java.plugin.boot.BootErrorHandlerConsole	classe	4
+org.java.plugin.boot.ErrorDialog	classe	24
+org.java.plugin.boot.ApplicationInitializer	interface	2
+org.java.plugin.boot.PluginsCollector	interface	2
+org.java.plugin.boot.BootErrorHandler	interface	4
+org.java.plugin.boot.Boot	classe	13
+org.java.plugin.boot.SimpleSplashHandler	classe	10
+org.java.plugin.boot.SplashHandlerWrapper	classe	10
+org.java.plugin.boot.ControlThread	classe	11

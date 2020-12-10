@@ -1,125 +1,622 @@
-cern.colt.buffer.DoubleBuffer3DConsumer	Decorator
-hep.aida.ref.AbstractHistogram2D	Bridge
-hep.aida.bin.QuantileBin1D	State
-hep.aida.ref.AbstractHistogram2D	Factory Method
-cern.colt.matrix.impl.WrapperDoubleMatrix1D	Decorator
-cern.colt.matrix.DoubleFactory3D	Singleton
-cern.jet.random.VonMises	Singleton
-cern.colt.buffer.IntBuffer	Decorator
-cern.colt.matrix.DoubleMatrix2D	State
-hep.aida.bin.AbstractBin1D	Template Method
-cern.colt.matrix.ObjectMatrix2D	Factory Method
-hep.aida.bin.AbstractBin	Template Method
-hep.aida.ref.AbstractHistogram3D	(Object)Adapter
-cern.jet.random.Beta	Singleton
-hep.aida.ref.AbstractHistogram2D	Template Method
-cern.colt.matrix.impl.AbstractFormatter	Template Method
-cern.jet.random.Uniform	Singleton
-cern.colt.buffer.IntBuffer3D	Decorator
-cern.colt.buffer.ObjectBufferConsumer	Decorator
-cern.colt.matrix.ObjectMatrix1D	Template Method
-hep.aida.ref.AbstractHistogram1D	(Object)Adapter
-cern.jet.random.StudentT	Singleton
-cern.colt.buffer.DoubleBuffer3D	Decorator
-cern.colt.matrix.ObjectMatrix3D	Template Method
-cern.colt.buffer.IntBuffer	Proxy2
-cern.colt.buffer.DoubleBufferConsumer	Decorator
-cern.colt.buffer.ObjectBuffer	Decorator
-cern.jet.random.Normal	Singleton
-cern.jet.stat.quantile.Buffer	Template Method
-cern.colt.matrix.ObjectFactory1D	Singleton
-cern.colt.buffer.IntBuffer2DConsumer	Decorator
-cern.colt.matrix.linalg.CholeskyDecomposition	State
-cern.colt.list.DistinctNumberList	Proxy
-cern.colt.matrix.doublealgo.Sorting	Singleton
-hep.aida.ref.AbstractHistogram3D	Bridge
-cern.colt.map.AbstractIntObjectMap	Template Method
-cern.colt.map.AbstractLongObjectMap	Template Method
-cern.colt.buffer.DoubleBuffer	Proxy2
-cern.colt.buffer.DoubleBuffer2DConsumer	Decorator
-cern.jet.random.Poisson	Singleton
-cern.colt.buffer.IntBufferConsumer	Proxy2
-cern.colt.matrix.DoubleMatrix2D	Template Method
-cern.colt.matrix.ObjectMatrix1D	Factory Method
-hep.aida.ref.AbstractHistogram3D	Factory Method
-cern.colt.matrix.ObjectFactory3D	Singleton
-cern.jet.random.Binomial	Singleton
-cern.colt.buffer.DoubleBufferConsumer	Proxy2
-cern.colt.matrix.DoubleMatrix2D	Decorator
-cern.colt.matrix.linalg.Property	Singleton
-cern.jet.random.AbstractDiscreteDistribution	Template Method
-cern.colt.matrix.objectalgo.Sorting	Singleton
-cern.colt.map.AbstractIntIntMap	Template Method
-cern.colt.function.DoubleFunction	State
-cern.colt.list.AbstractBooleanList	Template Method
-cern.jet.random.PoissonSlow	Singleton
-cern.colt.matrix.DoubleMatrix1D	Decorator
-cern.jet.random.AbstractDistribution	Prototype
-cern.colt.list.AbstractList	Template Method
-cern.jet.stat.quantile.DoubleQuantileFinder	State
-cern.colt.matrix.DoubleMatrix1D	Factory Method
-cern.jet.random.Gamma	Singleton
-cern.colt.matrix.impl.WrapperDoubleMatrix2D	Decorator
-cern.colt.list.IntArrayList	Proxy2
-cern.colt.matrix.linalg.LUDecompositionQuick	State
-cern.colt.matrix.ObjectMatrix2D	Template Method
-hep.aida.IAxis	Bridge
-cern.colt.buffer.DoubleBuffer2D	Decorator
-cern.clhep.PhysicalConstants	Singleton
-cern.colt.list.AbstractByteList	Template Method
-cern.colt.matrix.DoubleMatrix2D	Factory Method
-cern.jet.random.NegativeBinomial	Singleton
-cern.colt.list.AbstractShortList	Template Method
-cern.colt.matrix.linalg.QRDecomposition	State
-cern.jet.random.ExponentialPower	Singleton
-cern.jet.random.ChiSquare	Singleton
-cern.colt.matrix.impl.FormerFactory$1	(Object)Adapter
-cern.jet.math.IntFunctions	Singleton
-cern.colt.list.MinMaxNumberList	Proxy
-cern.colt.buffer.IntBufferConsumer	Decorator
-cern.colt.list.DoubleArrayList	Proxy2
-hep.aida.ref.AbstractHistogram3D	Template Method
-cern.colt.matrix.doublealgo.Transform	Singleton
-cern.jet.stat.quantile.DoubleQuantileEstimator	Template Method
-cern.colt.function.DoubleDoubleFunction	State
-cern.colt.matrix.ObjectFactory2D	Singleton
-hep.aida.bin.QuantileBin1D	Prototype
-cern.jet.random.Hyperbolic	Singleton
-cern.colt.matrix.linalg.Blas	Decorator
-cern.colt.matrix.DoubleMatrix3D	Template Method
-cern.colt.list.AbstractFloatList	Template Method
-cern.colt.map.AbstractIntDoubleMap	Template Method
-cern.jet.random.Exponential	Singleton
-cern.colt.buffer.IntBuffer3DConsumer	Decorator
-cern.jet.random.sampling.RandomSampler	Prototype
-hep.aida.ref.AbstractHistogram1D	Bridge
-cern.jet.random.engine.RandomEngine	Template Method
-cern.colt.buffer.IntBuffer2D	Decorator
-cern.colt.list.AbstractCharList	Template Method
-cern.jet.random.AbstractDistribution	Template Method
-cern.jet.random.BreitWigner	Singleton
-cern.colt.list.AbstractCollection	Template Method
-cern.colt.matrix.DoubleMatrix3D	Factory Method
-cern.colt.matrix.linalg.Algebra	Singleton
-cern.colt.list.AbstractDoubleList	Template Method
-cern.jet.random.Zeta	Singleton
-cern.colt.matrix.DoubleFactory1D	Singleton
-cern.jet.math.Functions	State
-hep.aida.bin.BinFunctions1D	Singleton
-cern.jet.random.HyperGeometric	Singleton
-cern.colt.matrix.DoubleMatrix1D	Template Method
-cern.jet.math.Functions	Singleton
-cern.colt.buffer.DoubleBuffer	Decorator
-hep.aida.ref.AbstractHistogram2D	(Object)Adapter
-cern.colt.matrix.ObjectMatrix3D	Factory Method
-cern.colt.matrix.DoubleFactory2D	Singleton
-cern.colt.list.AbstractIntList	Template Method
-hep.aida.IAxis	(Object)Adapter
-cern.jet.random.engine.RandomEngine	Prototype
-corejava.Format	(Object)Adapter
-cern.jet.stat.quantile.DoubleQuantileFinder	Prototype
-cern.colt.list.AbstractLongList	Template Method
-cern.jet.random.Logarithmic	Singleton
-cern.colt.map.AbstractDoubleIntMap	Template Method
-cern.jet.stat.quantile.DoubleQuantileFinder	Factory Method
-cern.colt.matrix.linalg.SmpBlas	Decorator
+cern.colt.matrix.DoubleMatrix1D	null	Creator	Factory Method
+cern.colt.matrix.DoubleMatrix1D	like	FactoryMethod()	Factory Method
+cern.colt.matrix.DoubleMatrix1D	like2D	FactoryMethod()	Factory Method
+cern.colt.matrix.DoubleMatrix1D	viewSelectionLike	FactoryMethod()	Factory Method
+cern.colt.matrix.DoubleMatrix2D	null	Creator	Factory Method
+cern.colt.matrix.DoubleMatrix2D	like	FactoryMethod()	Factory Method
+cern.colt.matrix.DoubleMatrix2D	like1D	FactoryMethod()	Factory Method
+cern.colt.matrix.DoubleMatrix2D	like1D	FactoryMethod()	Factory Method
+cern.colt.matrix.DoubleMatrix2D	viewSelectionLike	FactoryMethod()	Factory Method
+cern.colt.matrix.DoubleMatrix3D	null	Creator	Factory Method
+cern.colt.matrix.DoubleMatrix3D	like	FactoryMethod()	Factory Method
+cern.colt.matrix.DoubleMatrix3D	like2D	FactoryMethod()	Factory Method
+cern.colt.matrix.DoubleMatrix3D	viewSelectionLike	FactoryMethod()	Factory Method
+cern.colt.matrix.ObjectMatrix1D	null	Creator	Factory Method
+cern.colt.matrix.ObjectMatrix1D	like	FactoryMethod()	Factory Method
+cern.colt.matrix.ObjectMatrix1D	like2D	FactoryMethod()	Factory Method
+cern.colt.matrix.ObjectMatrix1D	viewSelectionLike	FactoryMethod()	Factory Method
+cern.colt.matrix.ObjectMatrix2D	null	Creator	Factory Method
+cern.colt.matrix.ObjectMatrix2D	like	FactoryMethod()	Factory Method
+cern.colt.matrix.ObjectMatrix2D	like1D	FactoryMethod()	Factory Method
+cern.colt.matrix.ObjectMatrix2D	like1D	FactoryMethod()	Factory Method
+cern.colt.matrix.ObjectMatrix2D	viewSelectionLike	FactoryMethod()	Factory Method
+cern.colt.matrix.ObjectMatrix3D	null	Creator	Factory Method
+cern.colt.matrix.ObjectMatrix3D	like	FactoryMethod()	Factory Method
+cern.colt.matrix.ObjectMatrix3D	like2D	FactoryMethod()	Factory Method
+cern.colt.matrix.ObjectMatrix3D	viewSelectionLike	FactoryMethod()	Factory Method
+cern.jet.stat.quantile.DoubleQuantileFinder	null	Creator	Factory Method
+cern.jet.stat.quantile.DoubleQuantileFinder	quantileElements	FactoryMethod()	Factory Method
+hep.aida.ref.AbstractHistogram2D	null	Creator	Factory Method
+hep.aida.ref.AbstractHistogram2D	internalSliceX	FactoryMethod()	Factory Method
+hep.aida.ref.AbstractHistogram2D	internalSliceY	FactoryMethod()	Factory Method
+hep.aida.ref.AbstractHistogram3D	null	Creator	Factory Method
+hep.aida.ref.AbstractHistogram3D	internalSliceXY	FactoryMethod()	Factory Method
+hep.aida.ref.AbstractHistogram3D	internalSliceXZ	FactoryMethod()	Factory Method
+hep.aida.ref.AbstractHistogram3D	internalSliceYZ	FactoryMethod()	Factory Method
+cern.jet.random.engine.RandomEngine	null	Prototype	Prototype
+cern.jet.random.AbstractDistribution	null	Client	Prototype
+cern.jet.random.AbstractDistribution	null	prototype	Prototype
+cern.jet.random.AbstractDistribution	clone	Operation()	Prototype
+cern.jet.random.engine.RandomEngine	null	Prototype	Prototype
+cern.jet.random.sampling.RandomSampler	null	Client	Prototype
+cern.jet.random.sampling.RandomSampler	null	prototype	Prototype
+cern.jet.random.sampling.RandomSampler	clone	Operation()	Prototype
+cern.jet.stat.quantile.DoubleQuantileFinder	null	Prototype	Prototype
+hep.aida.bin.QuantileBin1D	null	Client	Prototype
+hep.aida.bin.QuantileBin1D	null	prototype	Prototype
+hep.aida.bin.QuantileBin1D	clone	Operation()	Prototype
+cern.clhep.PhysicalConstants	null	Singleton	Singleton
+cern.clhep.PhysicalConstants	null	uniqueInstance	Singleton
+cern.colt.matrix.doublealgo.Sorting	null	Singleton	Singleton
+cern.colt.matrix.doublealgo.Sorting	null	uniqueInstance	Singleton
+cern.colt.matrix.doublealgo.Sorting	null	uniqueInstance	Singleton
+cern.colt.matrix.doublealgo.Transform	null	Singleton	Singleton
+cern.colt.matrix.doublealgo.Transform	null	uniqueInstance	Singleton
+cern.colt.matrix.DoubleFactory1D	null	Singleton	Singleton
+cern.colt.matrix.DoubleFactory1D	null	uniqueInstance	Singleton
+cern.colt.matrix.DoubleFactory1D	null	uniqueInstance	Singleton
+cern.colt.matrix.DoubleFactory2D	null	Singleton	Singleton
+cern.colt.matrix.DoubleFactory2D	null	uniqueInstance	Singleton
+cern.colt.matrix.DoubleFactory2D	null	uniqueInstance	Singleton
+cern.colt.matrix.DoubleFactory2D	null	uniqueInstance	Singleton
+cern.colt.matrix.DoubleFactory3D	null	Singleton	Singleton
+cern.colt.matrix.DoubleFactory3D	null	uniqueInstance	Singleton
+cern.colt.matrix.DoubleFactory3D	null	uniqueInstance	Singleton
+cern.colt.matrix.linalg.Algebra	null	Singleton	Singleton
+cern.colt.matrix.linalg.Algebra	null	uniqueInstance	Singleton
+cern.colt.matrix.linalg.Algebra	null	uniqueInstance	Singleton
+cern.colt.matrix.linalg.Property	null	Singleton	Singleton
+cern.colt.matrix.linalg.Property	null	uniqueInstance	Singleton
+cern.colt.matrix.linalg.Property	null	uniqueInstance	Singleton
+cern.colt.matrix.linalg.Property	null	uniqueInstance	Singleton
+cern.colt.matrix.objectalgo.Sorting	null	Singleton	Singleton
+cern.colt.matrix.objectalgo.Sorting	null	uniqueInstance	Singleton
+cern.colt.matrix.objectalgo.Sorting	null	uniqueInstance	Singleton
+cern.colt.matrix.ObjectFactory1D	null	Singleton	Singleton
+cern.colt.matrix.ObjectFactory1D	null	uniqueInstance	Singleton
+cern.colt.matrix.ObjectFactory1D	null	uniqueInstance	Singleton
+cern.colt.matrix.ObjectFactory2D	null	Singleton	Singleton
+cern.colt.matrix.ObjectFactory2D	null	uniqueInstance	Singleton
+cern.colt.matrix.ObjectFactory2D	null	uniqueInstance	Singleton
+cern.colt.matrix.ObjectFactory3D	null	Singleton	Singleton
+cern.colt.matrix.ObjectFactory3D	null	uniqueInstance	Singleton
+cern.colt.matrix.ObjectFactory3D	null	uniqueInstance	Singleton
+cern.jet.math.Functions	null	Singleton	Singleton
+cern.jet.math.Functions	null	uniqueInstance	Singleton
+cern.jet.math.IntFunctions	null	Singleton	Singleton
+cern.jet.math.IntFunctions	null	uniqueInstance	Singleton
+cern.jet.random.Beta	null	Singleton	Singleton
+cern.jet.random.Beta	null	uniqueInstance	Singleton
+cern.jet.random.Binomial	null	Singleton	Singleton
+cern.jet.random.Binomial	null	uniqueInstance	Singleton
+cern.jet.random.BreitWigner	null	Singleton	Singleton
+cern.jet.random.BreitWigner	null	uniqueInstance	Singleton
+cern.jet.random.ChiSquare	null	Singleton	Singleton
+cern.jet.random.ChiSquare	null	uniqueInstance	Singleton
+cern.jet.random.Exponential	null	Singleton	Singleton
+cern.jet.random.Exponential	null	uniqueInstance	Singleton
+cern.jet.random.ExponentialPower	null	Singleton	Singleton
+cern.jet.random.ExponentialPower	null	uniqueInstance	Singleton
+cern.jet.random.Gamma	null	Singleton	Singleton
+cern.jet.random.Gamma	null	uniqueInstance	Singleton
+cern.jet.random.Hyperbolic	null	Singleton	Singleton
+cern.jet.random.Hyperbolic	null	uniqueInstance	Singleton
+cern.jet.random.HyperGeometric	null	Singleton	Singleton
+cern.jet.random.HyperGeometric	null	uniqueInstance	Singleton
+cern.jet.random.Logarithmic	null	Singleton	Singleton
+cern.jet.random.Logarithmic	null	uniqueInstance	Singleton
+cern.jet.random.NegativeBinomial	null	Singleton	Singleton
+cern.jet.random.NegativeBinomial	null	uniqueInstance	Singleton
+cern.jet.random.Normal	null	Singleton	Singleton
+cern.jet.random.Normal	null	uniqueInstance	Singleton
+cern.jet.random.Poisson	null	Singleton	Singleton
+cern.jet.random.Poisson	null	uniqueInstance	Singleton
+cern.jet.random.PoissonSlow	null	Singleton	Singleton
+cern.jet.random.PoissonSlow	null	uniqueInstance	Singleton
+cern.jet.random.StudentT	null	Singleton	Singleton
+cern.jet.random.StudentT	null	uniqueInstance	Singleton
+cern.jet.random.Uniform	null	Singleton	Singleton
+cern.jet.random.Uniform	null	uniqueInstance	Singleton
+cern.jet.random.VonMises	null	Singleton	Singleton
+cern.jet.random.VonMises	null	uniqueInstance	Singleton
+cern.jet.random.Zeta	null	Singleton	Singleton
+cern.jet.random.Zeta	null	uniqueInstance	Singleton
+hep.aida.bin.BinFunctions1D	null	Singleton	Singleton
+hep.aida.bin.BinFunctions1D	null	uniqueInstance	Singleton
+hep.aida.IAxis	null	Adaptee	(Object)Adapter
+hep.aida.ref.AbstractHistogram1D	null	Adapter	(Object)Adapter
+hep.aida.ref.AbstractHistogram1D	null	adaptee	(Object)Adapter
+hep.aida.ref.AbstractHistogram1D	minMaxBins	Request()	(Object)Adapter
+hep.aida.IAxis	null	Adaptee	(Object)Adapter
+hep.aida.ref.AbstractHistogram2D	null	Adapter	(Object)Adapter
+hep.aida.ref.AbstractHistogram2D	null	adaptee	(Object)Adapter
+hep.aida.ref.AbstractHistogram2D	null	adaptee	(Object)Adapter
+hep.aida.ref.AbstractHistogram2D	minMaxBins	Request()	(Object)Adapter
+hep.aida.IAxis	null	Adaptee	(Object)Adapter
+hep.aida.ref.AbstractHistogram3D	null	Adapter	(Object)Adapter
+hep.aida.ref.AbstractHistogram3D	null	adaptee	(Object)Adapter
+hep.aida.ref.AbstractHistogram3D	null	adaptee	(Object)Adapter
+hep.aida.ref.AbstractHistogram3D	null	adaptee	(Object)Adapter
+hep.aida.ref.AbstractHistogram3D	minMaxBins	Request()	(Object)Adapter
+corejava.Format	null	Adaptee	(Object)Adapter
+cern.colt.matrix.impl.FormerFactory$1	null	Adapter	(Object)Adapter
+cern.colt.matrix.impl.FormerFactory$1	null	adaptee	(Object)Adapter
+cern.colt.matrix.impl.FormerFactory$1	form	Request()	(Object)Adapter
+cern.colt.matrix.DoubleMatrix1D	null	Component	Decorator
+cern.colt.matrix.impl.WrapperDoubleMatrix1D	null	Decorator	Decorator
+cern.colt.matrix.impl.WrapperDoubleMatrix1D	null	component	Decorator
+cern.colt.matrix.impl.WrapperDoubleMatrix1D	getQuick	Operation()	Decorator
+cern.colt.matrix.impl.WrapperDoubleMatrix1D	like	Operation()	Decorator
+cern.colt.matrix.impl.WrapperDoubleMatrix1D	like2D	Operation()	Decorator
+cern.colt.matrix.impl.WrapperDoubleMatrix1D	setQuick	Operation()	Decorator
+cern.colt.matrix.DoubleMatrix2D	null	Component	Decorator
+cern.colt.matrix.impl.WrapperDoubleMatrix2D	null	Decorator	Decorator
+cern.colt.matrix.impl.WrapperDoubleMatrix2D	null	component	Decorator
+cern.colt.matrix.impl.WrapperDoubleMatrix2D	getQuick	Operation()	Decorator
+cern.colt.matrix.impl.WrapperDoubleMatrix2D	like	Operation()	Decorator
+cern.colt.matrix.impl.WrapperDoubleMatrix2D	like1D	Operation()	Decorator
+cern.colt.matrix.impl.WrapperDoubleMatrix2D	setQuick	Operation()	Decorator
+cern.colt.buffer.DoubleBufferConsumer	null	Component	Decorator
+cern.colt.buffer.DoubleBuffer	null	Decorator	Decorator
+cern.colt.buffer.DoubleBuffer	null	component	Decorator
+cern.colt.buffer.DoubleBuffer	addAllOf	Operation()	Decorator
+cern.colt.buffer.DoubleBuffer2DConsumer	null	Component	Decorator
+cern.colt.buffer.DoubleBuffer2D	null	Decorator	Decorator
+cern.colt.buffer.DoubleBuffer2D	null	component	Decorator
+cern.colt.buffer.DoubleBuffer2D	addAllOf	Operation()	Decorator
+cern.colt.buffer.DoubleBuffer3DConsumer	null	Component	Decorator
+cern.colt.buffer.DoubleBuffer3D	null	Decorator	Decorator
+cern.colt.buffer.DoubleBuffer3D	null	component	Decorator
+cern.colt.buffer.DoubleBuffer3D	addAllOf	Operation()	Decorator
+cern.colt.buffer.IntBufferConsumer	null	Component	Decorator
+cern.colt.buffer.IntBuffer	null	Decorator	Decorator
+cern.colt.buffer.IntBuffer	null	component	Decorator
+cern.colt.buffer.IntBuffer	addAllOf	Operation()	Decorator
+cern.colt.buffer.IntBuffer2DConsumer	null	Component	Decorator
+cern.colt.buffer.IntBuffer2D	null	Decorator	Decorator
+cern.colt.buffer.IntBuffer2D	null	component	Decorator
+cern.colt.buffer.IntBuffer2D	addAllOf	Operation()	Decorator
+cern.colt.buffer.IntBuffer3DConsumer	null	Component	Decorator
+cern.colt.buffer.IntBuffer3D	null	Decorator	Decorator
+cern.colt.buffer.IntBuffer3D	null	component	Decorator
+cern.colt.buffer.IntBuffer3D	addAllOf	Operation()	Decorator
+cern.colt.buffer.ObjectBufferConsumer	null	Component	Decorator
+cern.colt.buffer.ObjectBuffer	null	Decorator	Decorator
+cern.colt.buffer.ObjectBuffer	null	component	Decorator
+cern.colt.buffer.ObjectBuffer	addAllOf	Operation()	Decorator
+cern.colt.matrix.linalg.Blas	null	Component	Decorator
+cern.colt.matrix.linalg.SmpBlas	null	Decorator	Decorator
+cern.colt.matrix.linalg.SmpBlas	null	component	Decorator
+cern.colt.matrix.linalg.SmpBlas	dasum	Operation()	Decorator
+cern.colt.matrix.linalg.SmpBlas	daxpy	Operation()	Decorator
+cern.colt.matrix.linalg.SmpBlas	daxpy	Operation()	Decorator
+cern.colt.matrix.linalg.SmpBlas	dcopy	Operation()	Decorator
+cern.colt.matrix.linalg.SmpBlas	dcopy	Operation()	Decorator
+cern.colt.matrix.linalg.SmpBlas	ddot	Operation()	Decorator
+cern.colt.matrix.linalg.SmpBlas	dgemm	Operation()	Decorator
+cern.colt.matrix.linalg.SmpBlas	dgemv	Operation()	Decorator
+cern.colt.matrix.linalg.SmpBlas	dger	Operation()	Decorator
+cern.colt.matrix.linalg.SmpBlas	dnrm2	Operation()	Decorator
+cern.colt.matrix.linalg.SmpBlas	drot	Operation()	Decorator
+cern.colt.matrix.linalg.SmpBlas	drotg	Operation()	Decorator
+cern.colt.matrix.linalg.SmpBlas	dscal	Operation()	Decorator
+cern.colt.matrix.linalg.SmpBlas	dscal	Operation()	Decorator
+cern.colt.matrix.linalg.SmpBlas	dswap	Operation()	Decorator
+cern.colt.matrix.linalg.SmpBlas	dswap	Operation()	Decorator
+cern.colt.matrix.linalg.SmpBlas	dsymv	Operation()	Decorator
+cern.colt.matrix.linalg.SmpBlas	dtrmv	Operation()	Decorator
+cern.colt.matrix.linalg.SmpBlas	idamax	Operation()	Decorator
+cern.colt.matrix.DoubleMatrix2D	null	State	State
+cern.colt.matrix.linalg.QRDecomposition	null	Context	State
+cern.colt.matrix.linalg.QRDecomposition	null	state	State
+cern.colt.matrix.linalg.QRDecomposition	getQ	Request()	State
+cern.colt.matrix.linalg.QRDecomposition	getR	Request()	State
+cern.colt.matrix.linalg.QRDecomposition	solve	Request()	State
+cern.colt.matrix.DoubleMatrix2D	null	State	State
+cern.colt.matrix.linalg.LUDecompositionQuick	null	Context	State
+cern.colt.matrix.linalg.LUDecompositionQuick	null	state	State
+cern.colt.matrix.linalg.LUDecompositionQuick	decompose	Request()	State
+cern.colt.matrix.linalg.LUDecompositionQuick	decompose	Request()	State
+cern.colt.matrix.linalg.LUDecompositionQuick	det	Request()	State
+cern.colt.matrix.linalg.LUDecompositionQuick	solve	Request()	State
+cern.colt.matrix.linalg.LUDecompositionQuick	solve	Request()	State
+cern.colt.matrix.linalg.LUDecompositionQuick	solveOld	Request()	State
+cern.colt.matrix.DoubleMatrix2D	null	State	State
+cern.colt.matrix.linalg.CholeskyDecomposition	null	Context	State
+cern.colt.matrix.linalg.CholeskyDecomposition	null	state	State
+cern.colt.matrix.linalg.CholeskyDecomposition	solve	Request()	State
+cern.colt.matrix.linalg.CholeskyDecomposition	XXXsolveBuggy	Request()	State
+hep.aida.bin.QuantileBin1D	null	Context	State
+cern.jet.stat.quantile.DoubleQuantileFinder	null	State	State
+hep.aida.bin.QuantileBin1D	null	state	State
+hep.aida.bin.QuantileBin1D	addAllOfFromTo	Request()	State
+hep.aida.bin.QuantileBin1D	clear	Request()	State
+hep.aida.bin.QuantileBin1D	clone	Request()	State
+hep.aida.bin.QuantileBin1D	quantileInverse	Request()	State
+hep.aida.bin.QuantileBin1D	quantiles	Request()	State
+cern.colt.function.DoubleFunction	null	State	State
+cern.jet.math.Functions	null	Context	State
+cern.jet.math.Functions	null	state	State
+cern.jet.math.Functions	null	state	State
+cern.jet.math.Functions	null	state	State
+cern.jet.math.Functions	demo1	Request()	State
+cern.colt.function.DoubleDoubleFunction	null	State	State
+cern.jet.math.Functions	null	Context	State
+cern.jet.math.Functions	null	state	State
+cern.jet.math.Functions	demo1	Request()	State
+cern.jet.math.Functions	demo2	Request()	State
+hep.aida.ref.AbstractHistogram1D	null	Abstraction	Bridge
+hep.aida.IAxis	null	Implementor	Bridge
+hep.aida.ref.AbstractHistogram1D	null	implementor	Bridge
+hep.aida.ref.AbstractHistogram1D	entries	Operation()	Bridge
+hep.aida.ref.AbstractHistogram1D	map	Operation()	Bridge
+hep.aida.ref.AbstractHistogram1D	minMaxBins	Operation()	Bridge
+hep.aida.ref.AbstractHistogram1D	sumBinHeights	Operation()	Bridge
+hep.aida.ref.AbstractHistogram2D	null	Abstraction	Bridge
+hep.aida.IAxis	null	Implementor	Bridge
+hep.aida.ref.AbstractHistogram2D	null	implementor	Bridge
+hep.aida.ref.AbstractHistogram2D	null	implementor	Bridge
+hep.aida.ref.AbstractHistogram2D	allEntries	Operation()	Bridge
+hep.aida.ref.AbstractHistogram2D	entries	Operation()	Bridge
+hep.aida.ref.AbstractHistogram2D	mapX	Operation()	Bridge
+hep.aida.ref.AbstractHistogram2D	mapY	Operation()	Bridge
+hep.aida.ref.AbstractHistogram2D	minMaxBins	Operation()	Bridge
+hep.aida.ref.AbstractHistogram2D	sumAllBinHeights	Operation()	Bridge
+hep.aida.ref.AbstractHistogram2D	sumBinHeights	Operation()	Bridge
+hep.aida.ref.AbstractHistogram3D	null	Abstraction	Bridge
+hep.aida.IAxis	null	Implementor	Bridge
+hep.aida.ref.AbstractHistogram3D	null	implementor	Bridge
+hep.aida.ref.AbstractHistogram3D	null	implementor	Bridge
+hep.aida.ref.AbstractHistogram3D	null	implementor	Bridge
+hep.aida.ref.AbstractHistogram3D	allEntries	Operation()	Bridge
+hep.aida.ref.AbstractHistogram3D	entries	Operation()	Bridge
+hep.aida.ref.AbstractHistogram3D	mapX	Operation()	Bridge
+hep.aida.ref.AbstractHistogram3D	mapY	Operation()	Bridge
+hep.aida.ref.AbstractHistogram3D	mapZ	Operation()	Bridge
+hep.aida.ref.AbstractHistogram3D	minMaxBins	Operation()	Bridge
+hep.aida.ref.AbstractHistogram3D	sumAllBinHeights	Operation()	Bridge
+hep.aida.ref.AbstractHistogram3D	sumBinHeights	Operation()	Bridge
+cern.colt.list.AbstractBooleanList	null	AbstractClass	Template Method
+cern.colt.list.AbstractBooleanList	beforeInsertDummies	TemplateMethod()	Template Method
+cern.colt.list.AbstractBooleanList	elements	TemplateMethod()	Template Method
+cern.colt.list.AbstractBooleanList	equals	TemplateMethod()	Template Method
+cern.colt.list.AbstractBooleanList	fillFromToWith	TemplateMethod()	Template Method
+cern.colt.list.AbstractBooleanList	get	TemplateMethod()	Template Method
+cern.colt.list.AbstractBooleanList	indexOfFromTo	TemplateMethod()	Template Method
+cern.colt.list.AbstractBooleanList	lastIndexOfFromTo	TemplateMethod()	Template Method
+cern.colt.list.AbstractBooleanList	removeAll	TemplateMethod()	Template Method
+cern.colt.list.AbstractBooleanList	replaceFromToWithFrom	TemplateMethod()	Template Method
+cern.colt.list.AbstractBooleanList	retainAll	TemplateMethod()	Template Method
+cern.colt.list.AbstractBooleanList	reverse	TemplateMethod()	Template Method
+cern.colt.list.AbstractBooleanList	set	TemplateMethod()	Template Method
+cern.colt.list.AbstractBooleanList	shuffleFromTo	TemplateMethod()	Template Method
+cern.colt.list.AbstractByteList	null	AbstractClass	Template Method
+cern.colt.list.AbstractByteList	beforeInsertDummies	TemplateMethod()	Template Method
+cern.colt.list.AbstractByteList	elements	TemplateMethod()	Template Method
+cern.colt.list.AbstractByteList	equals	TemplateMethod()	Template Method
+cern.colt.list.AbstractByteList	fillFromToWith	TemplateMethod()	Template Method
+cern.colt.list.AbstractByteList	get	TemplateMethod()	Template Method
+cern.colt.list.AbstractByteList	indexOfFromTo	TemplateMethod()	Template Method
+cern.colt.list.AbstractByteList	lastIndexOfFromTo	TemplateMethod()	Template Method
+cern.colt.list.AbstractByteList	removeAll	TemplateMethod()	Template Method
+cern.colt.list.AbstractByteList	replaceFromToWithFrom	TemplateMethod()	Template Method
+cern.colt.list.AbstractByteList	retainAll	TemplateMethod()	Template Method
+cern.colt.list.AbstractByteList	reverse	TemplateMethod()	Template Method
+cern.colt.list.AbstractByteList	set	TemplateMethod()	Template Method
+cern.colt.list.AbstractByteList	shuffleFromTo	TemplateMethod()	Template Method
+cern.colt.list.AbstractCharList	null	AbstractClass	Template Method
+cern.colt.list.AbstractCharList	beforeInsertDummies	TemplateMethod()	Template Method
+cern.colt.list.AbstractCharList	elements	TemplateMethod()	Template Method
+cern.colt.list.AbstractCharList	equals	TemplateMethod()	Template Method
+cern.colt.list.AbstractCharList	fillFromToWith	TemplateMethod()	Template Method
+cern.colt.list.AbstractCharList	get	TemplateMethod()	Template Method
+cern.colt.list.AbstractCharList	indexOfFromTo	TemplateMethod()	Template Method
+cern.colt.list.AbstractCharList	lastIndexOfFromTo	TemplateMethod()	Template Method
+cern.colt.list.AbstractCharList	removeAll	TemplateMethod()	Template Method
+cern.colt.list.AbstractCharList	replaceFromToWithFrom	TemplateMethod()	Template Method
+cern.colt.list.AbstractCharList	retainAll	TemplateMethod()	Template Method
+cern.colt.list.AbstractCharList	reverse	TemplateMethod()	Template Method
+cern.colt.list.AbstractCharList	set	TemplateMethod()	Template Method
+cern.colt.list.AbstractCharList	shuffleFromTo	TemplateMethod()	Template Method
+cern.colt.list.AbstractCollection	null	AbstractClass	Template Method
+cern.colt.list.AbstractCollection	isEmpty	TemplateMethod()	Template Method
+cern.colt.list.AbstractCollection	toString	TemplateMethod()	Template Method
+cern.colt.list.AbstractDoubleList	null	AbstractClass	Template Method
+cern.colt.list.AbstractDoubleList	beforeInsertDummies	TemplateMethod()	Template Method
+cern.colt.list.AbstractDoubleList	elements	TemplateMethod()	Template Method
+cern.colt.list.AbstractDoubleList	equals	TemplateMethod()	Template Method
+cern.colt.list.AbstractDoubleList	fillFromToWith	TemplateMethod()	Template Method
+cern.colt.list.AbstractDoubleList	get	TemplateMethod()	Template Method
+cern.colt.list.AbstractDoubleList	indexOfFromTo	TemplateMethod()	Template Method
+cern.colt.list.AbstractDoubleList	lastIndexOfFromTo	TemplateMethod()	Template Method
+cern.colt.list.AbstractDoubleList	removeAll	TemplateMethod()	Template Method
+cern.colt.list.AbstractDoubleList	replaceFromToWithFrom	TemplateMethod()	Template Method
+cern.colt.list.AbstractDoubleList	retainAll	TemplateMethod()	Template Method
+cern.colt.list.AbstractDoubleList	reverse	TemplateMethod()	Template Method
+cern.colt.list.AbstractDoubleList	set	TemplateMethod()	Template Method
+cern.colt.list.AbstractDoubleList	shuffleFromTo	TemplateMethod()	Template Method
+cern.colt.list.AbstractFloatList	null	AbstractClass	Template Method
+cern.colt.list.AbstractFloatList	beforeInsertDummies	TemplateMethod()	Template Method
+cern.colt.list.AbstractFloatList	elements	TemplateMethod()	Template Method
+cern.colt.list.AbstractFloatList	equals	TemplateMethod()	Template Method
+cern.colt.list.AbstractFloatList	fillFromToWith	TemplateMethod()	Template Method
+cern.colt.list.AbstractFloatList	get	TemplateMethod()	Template Method
+cern.colt.list.AbstractFloatList	indexOfFromTo	TemplateMethod()	Template Method
+cern.colt.list.AbstractFloatList	lastIndexOfFromTo	TemplateMethod()	Template Method
+cern.colt.list.AbstractFloatList	removeAll	TemplateMethod()	Template Method
+cern.colt.list.AbstractFloatList	replaceFromToWithFrom	TemplateMethod()	Template Method
+cern.colt.list.AbstractFloatList	retainAll	TemplateMethod()	Template Method
+cern.colt.list.AbstractFloatList	reverse	TemplateMethod()	Template Method
+cern.colt.list.AbstractFloatList	set	TemplateMethod()	Template Method
+cern.colt.list.AbstractFloatList	shuffleFromTo	TemplateMethod()	Template Method
+cern.colt.list.AbstractIntList	null	AbstractClass	Template Method
+cern.colt.list.AbstractIntList	beforeInsertDummies	TemplateMethod()	Template Method
+cern.colt.list.AbstractIntList	elements	TemplateMethod()	Template Method
+cern.colt.list.AbstractIntList	equals	TemplateMethod()	Template Method
+cern.colt.list.AbstractIntList	fillFromToWith	TemplateMethod()	Template Method
+cern.colt.list.AbstractIntList	get	TemplateMethod()	Template Method
+cern.colt.list.AbstractIntList	indexOfFromTo	TemplateMethod()	Template Method
+cern.colt.list.AbstractIntList	lastIndexOfFromTo	TemplateMethod()	Template Method
+cern.colt.list.AbstractIntList	removeAll	TemplateMethod()	Template Method
+cern.colt.list.AbstractIntList	replaceFromToWithFrom	TemplateMethod()	Template Method
+cern.colt.list.AbstractIntList	retainAll	TemplateMethod()	Template Method
+cern.colt.list.AbstractIntList	reverse	TemplateMethod()	Template Method
+cern.colt.list.AbstractIntList	set	TemplateMethod()	Template Method
+cern.colt.list.AbstractIntList	shuffleFromTo	TemplateMethod()	Template Method
+cern.colt.list.AbstractList	null	AbstractClass	Template Method
+cern.colt.list.AbstractList	beforeInsertAllOf	TemplateMethod()	Template Method
+cern.colt.list.AbstractList	clear	TemplateMethod()	Template Method
+cern.colt.list.AbstractList	mergeSort	TemplateMethod()	Template Method
+cern.colt.list.AbstractList	quickSort	TemplateMethod()	Template Method
+cern.colt.list.AbstractList	remove	TemplateMethod()	Template Method
+cern.colt.list.AbstractList	setSize	TemplateMethod()	Template Method
+cern.colt.list.AbstractList	shuffle	TemplateMethod()	Template Method
+cern.colt.list.AbstractList	sortFromTo	TemplateMethod()	Template Method
+cern.colt.list.AbstractLongList	null	AbstractClass	Template Method
+cern.colt.list.AbstractLongList	beforeInsertDummies	TemplateMethod()	Template Method
+cern.colt.list.AbstractLongList	elements	TemplateMethod()	Template Method
+cern.colt.list.AbstractLongList	equals	TemplateMethod()	Template Method
+cern.colt.list.AbstractLongList	fillFromToWith	TemplateMethod()	Template Method
+cern.colt.list.AbstractLongList	get	TemplateMethod()	Template Method
+cern.colt.list.AbstractLongList	indexOfFromTo	TemplateMethod()	Template Method
+cern.colt.list.AbstractLongList	lastIndexOfFromTo	TemplateMethod()	Template Method
+cern.colt.list.AbstractLongList	removeAll	TemplateMethod()	Template Method
+cern.colt.list.AbstractLongList	replaceFromToWithFrom	TemplateMethod()	Template Method
+cern.colt.list.AbstractLongList	retainAll	TemplateMethod()	Template Method
+cern.colt.list.AbstractLongList	reverse	TemplateMethod()	Template Method
+cern.colt.list.AbstractLongList	set	TemplateMethod()	Template Method
+cern.colt.list.AbstractLongList	shuffleFromTo	TemplateMethod()	Template Method
+cern.colt.list.AbstractShortList	null	AbstractClass	Template Method
+cern.colt.list.AbstractShortList	beforeInsertDummies	TemplateMethod()	Template Method
+cern.colt.list.AbstractShortList	elements	TemplateMethod()	Template Method
+cern.colt.list.AbstractShortList	equals	TemplateMethod()	Template Method
+cern.colt.list.AbstractShortList	fillFromToWith	TemplateMethod()	Template Method
+cern.colt.list.AbstractShortList	get	TemplateMethod()	Template Method
+cern.colt.list.AbstractShortList	indexOfFromTo	TemplateMethod()	Template Method
+cern.colt.list.AbstractShortList	lastIndexOfFromTo	TemplateMethod()	Template Method
+cern.colt.list.AbstractShortList	removeAll	TemplateMethod()	Template Method
+cern.colt.list.AbstractShortList	replaceFromToWithFrom	TemplateMethod()	Template Method
+cern.colt.list.AbstractShortList	retainAll	TemplateMethod()	Template Method
+cern.colt.list.AbstractShortList	reverse	TemplateMethod()	Template Method
+cern.colt.list.AbstractShortList	set	TemplateMethod()	Template Method
+cern.colt.list.AbstractShortList	shuffleFromTo	TemplateMethod()	Template Method
+cern.colt.map.AbstractDoubleIntMap	null	AbstractClass	Template Method
+cern.colt.map.AbstractDoubleIntMap	containsKey	TemplateMethod()	Template Method
+cern.colt.map.AbstractDoubleIntMap	forEachPair	TemplateMethod()	Template Method
+cern.colt.map.AbstractDoubleIntMap	keys	TemplateMethod()	Template Method
+cern.colt.map.AbstractDoubleIntMap	pairsSortedByKey	TemplateMethod()	Template Method
+cern.colt.map.AbstractDoubleIntMap	toString	TemplateMethod()	Template Method
+cern.colt.map.AbstractDoubleIntMap	toStringByValue	TemplateMethod()	Template Method
+cern.colt.map.AbstractDoubleIntMap	values	TemplateMethod()	Template Method
+cern.colt.map.AbstractIntDoubleMap	null	AbstractClass	Template Method
+cern.colt.map.AbstractIntDoubleMap	containsKey	TemplateMethod()	Template Method
+cern.colt.map.AbstractIntDoubleMap	forEachPair	TemplateMethod()	Template Method
+cern.colt.map.AbstractIntDoubleMap	keys	TemplateMethod()	Template Method
+cern.colt.map.AbstractIntDoubleMap	pairsSortedByKey	TemplateMethod()	Template Method
+cern.colt.map.AbstractIntDoubleMap	toString	TemplateMethod()	Template Method
+cern.colt.map.AbstractIntDoubleMap	toStringByValue	TemplateMethod()	Template Method
+cern.colt.map.AbstractIntDoubleMap	values	TemplateMethod()	Template Method
+cern.colt.map.AbstractIntIntMap	null	AbstractClass	Template Method
+cern.colt.map.AbstractIntIntMap	containsKey	TemplateMethod()	Template Method
+cern.colt.map.AbstractIntIntMap	forEachPair	TemplateMethod()	Template Method
+cern.colt.map.AbstractIntIntMap	keys	TemplateMethod()	Template Method
+cern.colt.map.AbstractIntIntMap	pairsSortedByKey	TemplateMethod()	Template Method
+cern.colt.map.AbstractIntIntMap	toString	TemplateMethod()	Template Method
+cern.colt.map.AbstractIntIntMap	toStringByValue	TemplateMethod()	Template Method
+cern.colt.map.AbstractIntIntMap	values	TemplateMethod()	Template Method
+cern.colt.map.AbstractIntObjectMap	null	AbstractClass	Template Method
+cern.colt.map.AbstractIntObjectMap	containsKey	TemplateMethod()	Template Method
+cern.colt.map.AbstractIntObjectMap	forEachPair	TemplateMethod()	Template Method
+cern.colt.map.AbstractIntObjectMap	keys	TemplateMethod()	Template Method
+cern.colt.map.AbstractIntObjectMap	pairsSortedByKey	TemplateMethod()	Template Method
+cern.colt.map.AbstractIntObjectMap	toString	TemplateMethod()	Template Method
+cern.colt.map.AbstractIntObjectMap	toStringByValue	TemplateMethod()	Template Method
+cern.colt.map.AbstractIntObjectMap	values	TemplateMethod()	Template Method
+cern.colt.map.AbstractLongObjectMap	null	AbstractClass	Template Method
+cern.colt.map.AbstractLongObjectMap	containsKey	TemplateMethod()	Template Method
+cern.colt.map.AbstractLongObjectMap	forEachPair	TemplateMethod()	Template Method
+cern.colt.map.AbstractLongObjectMap	keys	TemplateMethod()	Template Method
+cern.colt.map.AbstractLongObjectMap	pairsSortedByKey	TemplateMethod()	Template Method
+cern.colt.map.AbstractLongObjectMap	toString	TemplateMethod()	Template Method
+cern.colt.map.AbstractLongObjectMap	toStringByValue	TemplateMethod()	Template Method
+cern.colt.map.AbstractLongObjectMap	values	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix1D	null	AbstractClass	Template Method
+cern.colt.matrix.DoubleMatrix1D	aggregate	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix1D	aggregate	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix1D	assign	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix1D	assign	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix1D	assign	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix1D	assign	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix1D	assign	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix1D	assign	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix1D	cardinality	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix1D	cardinality	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix1D	get	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix1D	getNonZeros	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix1D	getNonZeros	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix1D	like	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix1D	set	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix1D	swap	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix1D	toArray	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix1D	viewSelection	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix1D	viewSelection	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix1D	xforEach	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix1D	zDotProduct	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix1D	zDotProduct	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix2D	null	AbstractClass	Template Method
+cern.colt.matrix.DoubleMatrix2D	aggregate	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix2D	aggregate	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix2D	assign	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix2D	assign	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix2D	assign	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix2D	assign	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix2D	assign	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix2D	cardinality	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix2D	forEachNonZero	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix2D	get	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix2D	getNonZeros	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix2D	like	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix2D	set	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix2D	toArray	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix2D	viewColumn	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix2D	viewRow	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix2D	viewSelection	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix2D	xforEach	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix2D	zAssign8Neighbors	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix2D	zMult	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix2D	zMult	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix3D	null	AbstractClass	Template Method
+cern.colt.matrix.DoubleMatrix3D	aggregate	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix3D	aggregate	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix3D	assign	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix3D	assign	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix3D	assign	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix3D	assign	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix3D	assign	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix3D	cardinality	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix3D	get	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix3D	getNonZeros	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix3D	like	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix3D	set	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix3D	toArray	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix3D	viewColumn	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix3D	viewRow	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix3D	viewSelection	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix3D	viewSlice	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix3D	xforEach	TemplateMethod()	Template Method
+cern.colt.matrix.DoubleMatrix3D	zAssign27Neighbors	TemplateMethod()	Template Method
+cern.colt.matrix.impl.AbstractFormatter	null	AbstractClass	Template Method
+cern.colt.matrix.impl.AbstractFormatter	formatRow	TemplateMethod()	Template Method
+cern.colt.matrix.impl.AbstractFormatter	toString	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix1D	null	AbstractClass	Template Method
+cern.colt.matrix.ObjectMatrix1D	aggregate	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix1D	aggregate	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix1D	assign	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix1D	assign	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix1D	assign	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix1D	assign	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix1D	assign	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix1D	cardinality	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix1D	equals	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix1D	get	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix1D	getNonZeros	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix1D	like	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix1D	set	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix1D	swap	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix1D	toArray	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix1D	viewSelection	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix1D	viewSelection	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix1D	xforEach	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix2D	null	AbstractClass	Template Method
+cern.colt.matrix.ObjectMatrix2D	aggregate	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix2D	aggregate	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix2D	assign	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix2D	assign	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix2D	assign	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix2D	assign	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix2D	assign	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix2D	cardinality	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix2D	equals	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix2D	get	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix2D	getNonZeros	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix2D	like	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix2D	set	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix2D	toArray	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix2D	viewColumn	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix2D	viewRow	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix2D	viewSelection	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix2D	xforEach	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix3D	null	AbstractClass	Template Method
+cern.colt.matrix.ObjectMatrix3D	aggregate	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix3D	aggregate	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix3D	assign	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix3D	assign	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix3D	assign	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix3D	assign	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix3D	assign	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix3D	cardinality	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix3D	equals	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix3D	get	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix3D	getNonZeros	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix3D	like	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix3D	set	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix3D	toArray	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix3D	viewColumn	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix3D	viewRow	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix3D	viewSelection	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix3D	viewSlice	TemplateMethod()	Template Method
+cern.colt.matrix.ObjectMatrix3D	xforEach	TemplateMethod()	Template Method
+cern.jet.random.AbstractDiscreteDistribution	null	AbstractClass	Template Method
+cern.jet.random.AbstractDiscreteDistribution	nextDouble	TemplateMethod()	Template Method
+cern.jet.random.AbstractDistribution	null	AbstractClass	Template Method
+cern.jet.random.AbstractDistribution	apply	TemplateMethod()	Template Method
+cern.jet.random.AbstractDistribution	nextInt	TemplateMethod()	Template Method
+cern.jet.random.engine.RandomEngine	null	AbstractClass	Template Method
+cern.jet.random.engine.RandomEngine	apply	TemplateMethod()	Template Method
+cern.jet.random.engine.RandomEngine	nextLong	TemplateMethod()	Template Method
+cern.jet.random.engine.RandomEngine	raw	TemplateMethod()	Template Method
+cern.jet.stat.quantile.Buffer	null	AbstractClass	Template Method
+cern.jet.stat.quantile.Buffer	isPartial	TemplateMethod()	Template Method
+cern.jet.stat.quantile.DoubleQuantileEstimator	null	AbstractClass	Template Method
+cern.jet.stat.quantile.DoubleQuantileEstimator	add	TemplateMethod()	Template Method
+cern.jet.stat.quantile.DoubleQuantileEstimator	addAllOfFromTo	TemplateMethod()	Template Method
+cern.jet.stat.quantile.DoubleQuantileEstimator	collapse	TemplateMethod()	Template Method
+hep.aida.bin.AbstractBin	null	AbstractClass	Template Method
+hep.aida.bin.AbstractBin	equals	TemplateMethod()	Template Method
+hep.aida.bin.AbstractBin1D	null	AbstractClass	Template Method
+hep.aida.bin.AbstractBin1D	addAllOfFromTo	TemplateMethod()	Template Method
+hep.aida.bin.AbstractBin1D	compareWith	TemplateMethod()	Template Method
+hep.aida.bin.AbstractBin1D	equals	TemplateMethod()	Template Method
+hep.aida.bin.AbstractBin1D	mean	TemplateMethod()	Template Method
+hep.aida.bin.AbstractBin1D	rms	TemplateMethod()	Template Method
+hep.aida.bin.AbstractBin1D	toString	TemplateMethod()	Template Method
+hep.aida.bin.AbstractBin1D	variance	TemplateMethod()	Template Method
+hep.aida.ref.AbstractHistogram2D	null	AbstractClass	Template Method
+hep.aida.ref.AbstractHistogram2D	projectionX	TemplateMethod()	Template Method
+hep.aida.ref.AbstractHistogram2D	projectionY	TemplateMethod()	Template Method
+hep.aida.ref.AbstractHistogram2D	sliceX	TemplateMethod()	Template Method
+hep.aida.ref.AbstractHistogram2D	sliceX	TemplateMethod()	Template Method
+hep.aida.ref.AbstractHistogram2D	sliceY	TemplateMethod()	Template Method
+hep.aida.ref.AbstractHistogram2D	sliceY	TemplateMethod()	Template Method
+hep.aida.ref.AbstractHistogram3D	null	AbstractClass	Template Method
+hep.aida.ref.AbstractHistogram3D	projectionXY	TemplateMethod()	Template Method
+hep.aida.ref.AbstractHistogram3D	projectionXZ	TemplateMethod()	Template Method
+hep.aida.ref.AbstractHistogram3D	projectionYZ	TemplateMethod()	Template Method
+hep.aida.ref.AbstractHistogram3D	sliceXY	TemplateMethod()	Template Method
+hep.aida.ref.AbstractHistogram3D	sliceXZ	TemplateMethod()	Template Method
+hep.aida.ref.AbstractHistogram3D	sliceYZ	TemplateMethod()	Template Method
+cern.colt.list.DistinctNumberList	null	Proxy	Proxy
+cern.colt.list.MinMaxNumberList	null	RealSubject	Proxy
+cern.colt.list.DistinctNumberList	ensureCapacity	Request()	Proxy
+cern.colt.list.DistinctNumberList	getQuick	Request()	Proxy
+cern.colt.list.DistinctNumberList	setQuick	Request()	Proxy
+cern.colt.buffer.DoubleBuffer	null	Proxy	Proxy2
+cern.colt.list.DoubleArrayList	null	RealSubject	Proxy2
+cern.colt.buffer.DoubleBufferConsumer	null	Subject	Proxy2
+cern.colt.buffer.DoubleBuffer	null	subject	Proxy2
+cern.colt.buffer.DoubleBuffer	addAllOf	Request()	Proxy2
+cern.colt.buffer.IntBuffer	null	Proxy	Proxy2
+cern.colt.list.IntArrayList	null	RealSubject	Proxy2
+cern.colt.buffer.IntBufferConsumer	null	Subject	Proxy2
+cern.colt.buffer.IntBuffer	null	subject	Proxy2
+cern.colt.buffer.IntBuffer	addAllOf	Request()	Proxy2

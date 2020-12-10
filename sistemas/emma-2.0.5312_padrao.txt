@@ -1,146 +1,625 @@
-com.vladium.emma.instr.InstrProcessorST	State
-com.vladium.jcd.cls.InterfaceCollection	Visitor
-com.vladium.emma.report.html.doc.IContent	Observer
-com.vladium.emma.rt.AppRunner$AppRunnerExitHook	State
-com.vladium.jcd.cls.IAttributeCollection	State
-com.vladium.jcd.cls.constant.CONSTANT_Methodref_info	Visitor
-com.vladium.jcd.cls.constant.ICONSTANTVisitor	Visitor
-com.vladium.jcd.cls.Field_info	State
-com.vladium.emma.report.MethodItem	Visitor
-com.vladium.emma.data.IMetaData	State
-com.vladium.jcd.cls.attribute.IDeclaredExceptionTable	Prototype
-com.vladium.util.args.OptsParser$OptDefMetadata	(Object)Adapter
-com.vladium.jcd.cls.IFieldCollection	(Object)Adapter
-com.vladium.util.exit.ExitHookManager	Singleton
-com.vladium.emma.instr.InstrVisitor$Branch	State
-com.vladium.util.ByteArrayOStream	(Object)Adapter
-com.vladium.util.IProperties$IMapper	State
-com.vladium.emma.data.IMetaData	(Object)Adapter
-com.vladium.emma.report.ReportDataModel	(Object)Adapter
-com.vladium.emma.report.PackageItem	Visitor
-com.vladium.logging.Logger	(Object)Adapter
-com.vladium.jcd.cls.AttributeCollection	Visitor
-com.vladium.jcd.cls.constant.CONSTANT_String_info	Visitor
-com.vladium.jcd.cls.IConstantCollection	Prototype
-com.vladium.util.IProperties$Factory$PropertiesImpl	(Object)Adapter
-com.vladium.emma.Processor	Bridge
-com.vladium.emma.filter.IInclExclFilter$Factory$WCInclExclFilter	State
-com.vladium.jcd.cls.IMethodCollection	Prototype
-com.vladium.emma.instr.InstrVisitor	(Object)Adapter
-com.vladium.jcd.cls.ConstantCollection	(Object)Adapter
-com.vladium.emma.report.html.doc.HTMLTable$IRow	Factory Method
-com.vladium.jcd.cls.attribute.IExceptionHandlerTable	State
-com.vladium.emma.rt.ClassPathProcessorST	State
-com.vladium.jcd.cls.constant.CONSTANT_Long_info	Visitor
-com.vladium.emma.report.IReportGenerator	State
-com.vladium.jcd.cls.attribute.IAttributeVisitor	Visitor
-com.vladium.emma.instr.InstrVisitor$clinitHeader	(Object)Adapter
-com.vladium.util.ObjectIntMap	(Object)Adapter
-com.vladium.emma.rt.InstrClassLoadHook	(Object)Adapter
-com.vladium.jcd.cls.attribute.CodeAttribute_info	State
-com.vladium.jcd.cls.constant.CONSTANT_Class_info	Visitor
-com.vladium.util.args.OptsParser$Token	Singleton
-com.vladium.jcd.cls.ClassDef	State
-com.vladium.emma.report.ReportCfg	State
-com.vladium.emma.rt.ClassPathProcessorST	(Object)Adapter
-com.vladium.util.IProperties$Factory$PropertiesImpl	State
-com.vladium.jcd.cls.attribute.GenericAttribute_info	Visitor
-com.vladium.jcd.cls.attribute.IExceptionHandlerTable	Prototype
-com.vladium.emma.report.ReportProcessor	State
-com.vladium.jcd.cls.attribute.CodeAttribute_info	Prototype
-com.vladium.emma.instr.InstrProcessorST$Job	State
-com.vladium.util.IPathEnumerator$Factory$PathEnumerator	(Object)Adapter
-com.vladium.emma.instr.InstrProcessor$OutMode	Singleton
-com.vladium.emma.data.ICoverageData	(Object)Adapter
-com.vladium.emma.report.AllItem	Visitor
-com.vladium.emma.report.IItemVisitor	Visitor
-com.vladium.jcd.cls.attribute.SyntheticAttribute_info	Visitor
-com.vladium.emma.instr.InstrVisitor$Block	State
-com.vladium.jcd.cls.attribute.SourceFileAttribute_info	Visitor
-com.vladium.jcd.cls.IConstantCollection	State
-com.vladium.jcd.cls.IClassDefVisitor	Visitor
-com.vladium.emma.report.html.doc.Attribute	Singleton
-com.vladium.emma.report.html.doc.Tag	State
-com.vladium.jcd.cls.Method_info	State
-com.vladium.emma.filter.IInclExclFilter	(Object)Adapter
-com.vladium.emma.rt.InstrClassLoadHook	State
-com.vladium.emma.Command	Template Method
-com.vladium.jcd.cls.attribute.Attribute_info	Template Method
-com.vladium.emma.report.html.doc.Tag	Singleton
-com.vladium.util.IProperties$IMapper	(Object)Adapter
-com.vladium.jcd.cls.attribute.CodeAttribute_info	(Object)Adapter
-com.vladium.emma.report.html.doc.ISimpleElement$Factory$SimpleElementImpl	State
-com.vladium.jcd.cls.IConstantCollection	Factory Method
-com.vladium.emma.data.ICoverageData	State
-com.vladium.emma.report.html.doc.IElement$Factory$ElementImpl	Observer
-com.vladium.util.IPathEnumerator$IPathHandler	State
-com.vladium.jcd.cls.attribute.DeclaredExceptionTable	(Object)Adapter
-com.vladium.emma.report.Item	Composite
-com.vladium.util.WCMatcher	State
-com.vladium.emma.report.SrcFileItem	Visitor
-com.vladium.jcd.cls.attribute.ExceptionsAttribute_info	Visitor
-com.vladium.jcd.cls.MethodCollection	Visitor
-com.vladium.jcd.cls.attribute.IDeclaredExceptionTable	(Object)Adapter
-com.vladium.util.IProperties	State
-com.vladium.emma.report.ClassItem	Visitor
-com.vladium.jcd.cls.constant.CONSTANT_InterfaceMethodref_info	Visitor
-com.vladium.util.WCMatcher	Singleton
-com.vladium.emma.instr.InstrProcessor$OutMode	Command
-com.vladium.jcd.cls.attribute.InnerClassesAttribute_info	Visitor
-com.vladium.jcd.cls.constant.CONSTANT_Double_info	Visitor
-com.vladium.jcd.cls.attribute.ConstantValueAttribute_info	Visitor
-com.vladium.jcd.cls.Field_info	Prototype
-com.vladium.util.exit.ExitHookManager	Bridge
-com.vladium.emma.report.IReportDataModel	Factory Method
-com.vladium.jcd.cls.constant.CONSTANT_NameAndType_info	Visitor
-com.vladium.jcd.cls.ClassDef	Visitor
-com.vladium.jcd.cls.FieldCollection	Visitor
-com.vladium.jcd.cls.IConstantCollection	(Object)Adapter
-com.vladium.emma.rt.InstrClassLoader	State
-com.vladium.jcd.cls.attribute.IDeclaredExceptionTable	State
-com.vladium.util.IClassLoadStrategy	Bridge
-com.vladium.emma.instr.instrCommand	Command
-com.vladium.emma.instr.InstrVisitor$methodHeader	(Object)Adapter
-com.vladium.emma.report.ItemComparator	Singleton
-com.vladium.jcd.cls.constant.CONSTANT_Fieldref_info	Visitor
-com.vladium.emma.ant.GenericCfg	State
-com.vladium.util.IPathEnumerator$IPathHandler	(Object)Adapter
-com.vladium.jcd.cls.attribute.ExceptionsAttribute_info	State
-com.vladium.jcd.cls.IInterfaceCollection	Prototype
-com.vladium.jcd.cls.IAttributeCollection	(Object)Adapter
-com.vladium.jcd.cls.constant.CONSTANT_Float_info	Visitor
-com.vladium.jcd.cls.ConstantCollection	Visitor
-com.vladium.emma.rt.IClassLoadHook	State
-com.vladium.jcd.cls.attribute.ExceptionsAttribute_info	Prototype
-com.vladium.util.ClassLoaderResolver	Bridge
-com.vladium.jcd.cls.constant.CONSTANT_Utf8_info	Visitor
-com.vladium.jcd.cls.attribute.IExceptionHandlerTable	(Object)Adapter
-com.vladium.util.IPathEnumerator$Factory$PathEnumerator	State
-com.vladium.jcd.cls.constant.CONSTANT_Integer_info	Visitor
-com.vladium.emma.instr.InstrVisitor$BlockSegment	(Object)Adapter
-com.vladium.util.IntVector	(Object)Adapter
-com.vladium.jcd.cls.InterfaceCollection	(Object)Adapter
-com.vladium.jcd.cls.IAttributeCollection	Prototype
-com.vladium.util.IProperties	Bridge
-com.vladium.jcd.cls.attribute.BridgeAttribute_info	Visitor
-com.vladium.jcd.cls.attribute.ExceptionsAttribute_info	(Object)Adapter
-com.vladium.emma.report.html.doc.AttributeSet	State
-com.vladium.util.args.IOptsParser	Factory Method
-com.vladium.jcd.cls.ClassDef	Prototype
-com.vladium.emma.report.ReportDataModel	State
-com.vladium.emma.instr.InstrVisitor$CodeSegment	State
-com.vladium.jcd.cls.IFieldCollection	State
-com.vladium.emma.report.ReportCfg$Element	Bridge
-com.vladium.jcd.cls.constant.CONSTANT_info	Template Method
-com.vladium.jcd.cls.Method_info	Prototype
-com.vladium.emma.filter.IInclExclFilter	State
-com.vladium.util.args.OptsParser	(Object)Adapter
-com.vladium.emma.ant.VerbosityCfg	State
-com.vladium.jcd.cls.attribute.CodeAttribute_info	Visitor
-com.vladium.jcd.cls.attribute.LineNumberTableAttribute_info	Visitor
-com.vladium.emma.report.IItem	Composite
-com.vladium.emma.rt.RT	Bridge
-com.vladium.emma.Processor	Template Method
-com.vladium.jcd.cls.IFieldCollection	Prototype
-com.vladium.logging.Logger	Singleton
-com.vladium.jcd.cls.ClassDef	(Object)Adapter
+com.vladium.emma.report.html.doc.HTMLTable$IRow	null	Creator	Factory Method
+com.vladium.emma.report.html.doc.HTMLTable$IRow	newCell	FactoryMethod()	Factory Method
+com.vladium.emma.report.IReportDataModel	null	Creator	Factory Method
+com.vladium.emma.report.IReportDataModel	getView	FactoryMethod()	Factory Method
+com.vladium.jcd.cls.IConstantCollection	null	Creator	Factory Method
+com.vladium.jcd.cls.IConstantCollection	iterator	FactoryMethod()	Factory Method
+com.vladium.util.args.IOptsParser	null	Creator	Factory Method
+com.vladium.util.args.IOptsParser	parse	FactoryMethod()	Factory Method
+com.vladium.jcd.cls.ClassDef	null	Client	Prototype
+com.vladium.jcd.cls.IInterfaceCollection	null	Prototype	Prototype
+com.vladium.jcd.cls.ClassDef	null	prototype	Prototype
+com.vladium.jcd.cls.ClassDef	clone	Operation()	Prototype
+com.vladium.jcd.cls.ClassDef	null	Client	Prototype
+com.vladium.jcd.cls.IMethodCollection	null	Prototype	Prototype
+com.vladium.jcd.cls.ClassDef	null	prototype	Prototype
+com.vladium.jcd.cls.ClassDef	clone	Operation()	Prototype
+com.vladium.jcd.cls.ClassDef	null	Client	Prototype
+com.vladium.jcd.cls.IAttributeCollection	null	Prototype	Prototype
+com.vladium.jcd.cls.ClassDef	null	prototype	Prototype
+com.vladium.jcd.cls.ClassDef	clone	Operation()	Prototype
+com.vladium.jcd.cls.Field_info	null	Client	Prototype
+com.vladium.jcd.cls.IAttributeCollection	null	Prototype	Prototype
+com.vladium.jcd.cls.Field_info	null	prototype	Prototype
+com.vladium.jcd.cls.Field_info	clone	Operation()	Prototype
+com.vladium.jcd.cls.Method_info	null	Client	Prototype
+com.vladium.jcd.cls.IAttributeCollection	null	Prototype	Prototype
+com.vladium.jcd.cls.Method_info	null	prototype	Prototype
+com.vladium.jcd.cls.Method_info	clone	Operation()	Prototype
+com.vladium.jcd.cls.ClassDef	null	Client	Prototype
+com.vladium.jcd.cls.IConstantCollection	null	Prototype	Prototype
+com.vladium.jcd.cls.ClassDef	null	prototype	Prototype
+com.vladium.jcd.cls.ClassDef	clone	Operation()	Prototype
+com.vladium.jcd.cls.ClassDef	null	Client	Prototype
+com.vladium.jcd.cls.IFieldCollection	null	Prototype	Prototype
+com.vladium.jcd.cls.ClassDef	null	prototype	Prototype
+com.vladium.jcd.cls.ClassDef	clone	Operation()	Prototype
+com.vladium.jcd.cls.attribute.CodeAttribute_info	null	Client	Prototype
+com.vladium.jcd.cls.attribute.IExceptionHandlerTable	null	Prototype	Prototype
+com.vladium.jcd.cls.attribute.CodeAttribute_info	null	prototype	Prototype
+com.vladium.jcd.cls.attribute.CodeAttribute_info	clone	Operation()	Prototype
+com.vladium.jcd.cls.attribute.ExceptionsAttribute_info	null	Client	Prototype
+com.vladium.jcd.cls.attribute.IDeclaredExceptionTable	null	Prototype	Prototype
+com.vladium.jcd.cls.attribute.ExceptionsAttribute_info	null	prototype	Prototype
+com.vladium.jcd.cls.attribute.ExceptionsAttribute_info	clone	Operation()	Prototype
+com.vladium.emma.instr.InstrProcessor$OutMode	null	Singleton	Singleton
+com.vladium.emma.instr.InstrProcessor$OutMode	null	uniqueInstance	Singleton
+com.vladium.emma.instr.InstrProcessor$OutMode	null	uniqueInstance	Singleton
+com.vladium.emma.instr.InstrProcessor$OutMode	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	Singleton	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	Singleton	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.ItemComparator	null	Singleton	Singleton
+com.vladium.emma.report.ItemComparator	null	uniqueInstance	Singleton
+com.vladium.logging.Logger	null	Singleton	Singleton
+com.vladium.logging.Logger	null	uniqueInstance	Singleton
+com.vladium.util.args.OptsParser$Token	null	Singleton	Singleton
+com.vladium.util.args.OptsParser$Token	null	uniqueInstance	Singleton
+com.vladium.util.args.OptsParser$Token	null	uniqueInstance	Singleton
+com.vladium.util.args.OptsParser$Token	null	uniqueInstance	Singleton
+com.vladium.util.args.OptsParser$Token	null	uniqueInstance	Singleton
+com.vladium.util.args.OptsParser$Token	null	uniqueInstance	Singleton
+com.vladium.util.args.OptsParser$Token	null	uniqueInstance	Singleton
+com.vladium.util.args.OptsParser$Token	null	uniqueInstance	Singleton
+com.vladium.util.args.OptsParser$Token	null	uniqueInstance	Singleton
+com.vladium.util.args.OptsParser$Token	null	uniqueInstance	Singleton
+com.vladium.util.args.OptsParser$Token	null	uniqueInstance	Singleton
+com.vladium.util.args.OptsParser$Token	null	uniqueInstance	Singleton
+com.vladium.util.args.OptsParser$Token	null	uniqueInstance	Singleton
+com.vladium.util.args.OptsParser$Token	null	uniqueInstance	Singleton
+com.vladium.util.args.OptsParser$Token	null	uniqueInstance	Singleton
+com.vladium.util.exit.ExitHookManager	null	Singleton	Singleton
+com.vladium.util.exit.ExitHookManager	null	uniqueInstance	Singleton
+com.vladium.util.WCMatcher	null	Singleton	Singleton
+com.vladium.util.WCMatcher	null	uniqueInstance	Singleton
+com.vladium.util.WCMatcher	null	uniqueInstance	Singleton
+com.vladium.emma.instr.InstrProcessor$OutMode	null	Singleton	Singleton
+com.vladium.emma.instr.InstrProcessor$OutMode	null	uniqueInstance	Singleton
+com.vladium.emma.instr.InstrProcessor$OutMode	null	uniqueInstance	Singleton
+com.vladium.emma.instr.InstrProcessor$OutMode	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	Singleton	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Attribute	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	Singleton	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.html.doc.Tag	null	uniqueInstance	Singleton
+com.vladium.emma.report.ItemComparator	null	Singleton	Singleton
+com.vladium.emma.report.ItemComparator	null	uniqueInstance	Singleton
+com.vladium.logging.Logger	null	Singleton	Singleton
+com.vladium.logging.Logger	null	uniqueInstance	Singleton
+com.vladium.util.args.OptsParser$Token	null	Singleton	Singleton
+com.vladium.util.args.OptsParser$Token	null	uniqueInstance	Singleton
+com.vladium.util.args.OptsParser$Token	null	uniqueInstance	Singleton
+com.vladium.util.args.OptsParser$Token	null	uniqueInstance	Singleton
+com.vladium.util.args.OptsParser$Token	null	uniqueInstance	Singleton
+com.vladium.util.args.OptsParser$Token	null	uniqueInstance	Singleton
+com.vladium.util.args.OptsParser$Token	null	uniqueInstance	Singleton
+com.vladium.util.args.OptsParser$Token	null	uniqueInstance	Singleton
+com.vladium.util.args.OptsParser$Token	null	uniqueInstance	Singleton
+com.vladium.util.args.OptsParser$Token	null	uniqueInstance	Singleton
+com.vladium.util.args.OptsParser$Token	null	uniqueInstance	Singleton
+com.vladium.util.args.OptsParser$Token	null	uniqueInstance	Singleton
+com.vladium.util.args.OptsParser$Token	null	uniqueInstance	Singleton
+com.vladium.util.args.OptsParser$Token	null	uniqueInstance	Singleton
+com.vladium.util.args.OptsParser$Token	null	uniqueInstance	Singleton
+com.vladium.util.exit.ExitHookManager	null	Singleton	Singleton
+com.vladium.util.exit.ExitHookManager	null	uniqueInstance	Singleton
+com.vladium.util.WCMatcher	null	Singleton	Singleton
+com.vladium.util.WCMatcher	null	uniqueInstance	Singleton
+com.vladium.util.WCMatcher	null	uniqueInstance	Singleton
+com.vladium.util.IntVector	null	Adaptee	(Object)Adapter
+com.vladium.jcd.cls.InterfaceCollection	null	Adapter	(Object)Adapter
+com.vladium.jcd.cls.InterfaceCollection	null	adaptee	(Object)Adapter
+com.vladium.jcd.cls.InterfaceCollection	get	Request()	(Object)Adapter
+com.vladium.jcd.cls.InterfaceCollection	size	Request()	(Object)Adapter
+com.vladium.jcd.cls.InterfaceCollection	clone	Request()	(Object)Adapter
+com.vladium.jcd.cls.InterfaceCollection	add	Request()	(Object)Adapter
+com.vladium.jcd.cls.InterfaceCollection	set	Request()	(Object)Adapter
+com.vladium.jcd.cls.ClassDef	null	Adaptee	(Object)Adapter
+com.vladium.emma.instr.InstrVisitor	null	Adapter	(Object)Adapter
+com.vladium.emma.instr.InstrVisitor	null	adaptee	(Object)Adapter
+com.vladium.emma.instr.InstrVisitor	visit	Request()	(Object)Adapter
+com.vladium.emma.instr.InstrVisitor	visit	Request()	(Object)Adapter
+com.vladium.emma.instr.InstrVisitor	visit	Request()	(Object)Adapter
+com.vladium.logging.Logger	null	Adaptee	(Object)Adapter
+com.vladium.emma.rt.ClassPathProcessorST	null	Adapter	(Object)Adapter
+com.vladium.emma.rt.ClassPathProcessorST	null	adaptee	(Object)Adapter
+com.vladium.emma.rt.ClassPathProcessorST	handleArchiveEntry	Request()	(Object)Adapter
+com.vladium.emma.rt.ClassPathProcessorST	handleFile	Request()	(Object)Adapter
+com.vladium.util.args.OptsParser$OptDefMetadata	null	Adaptee	(Object)Adapter
+com.vladium.util.args.OptsParser	null	Adapter	(Object)Adapter
+com.vladium.util.args.OptsParser	null	adaptee	(Object)Adapter
+com.vladium.util.args.OptsParser	usage	Request()	(Object)Adapter
+com.vladium.util.args.OptsParser	parse	Request()	(Object)Adapter
+com.vladium.util.ByteArrayOStream	null	Adaptee	(Object)Adapter
+com.vladium.emma.instr.InstrVisitor$BlockSegment	null	Adapter	(Object)Adapter
+com.vladium.emma.instr.InstrVisitor$BlockSegment	null	adaptee	(Object)Adapter
+com.vladium.emma.instr.InstrVisitor$BlockSegment	length	Request()	(Object)Adapter
+com.vladium.emma.instr.InstrVisitor$BlockSegment	emit	Request()	(Object)Adapter
+com.vladium.util.ByteArrayOStream	null	Adaptee	(Object)Adapter
+com.vladium.emma.instr.InstrVisitor$clinitHeader	null	Adapter	(Object)Adapter
+com.vladium.emma.instr.InstrVisitor$clinitHeader	null	adaptee	(Object)Adapter
+com.vladium.emma.instr.InstrVisitor$clinitHeader	length	Request()	(Object)Adapter
+com.vladium.emma.instr.InstrVisitor$clinitHeader	emit	Request()	(Object)Adapter
+com.vladium.util.ByteArrayOStream	null	Adaptee	(Object)Adapter
+com.vladium.emma.instr.InstrVisitor$methodHeader	null	Adapter	(Object)Adapter
+com.vladium.emma.instr.InstrVisitor$methodHeader	null	adaptee	(Object)Adapter
+com.vladium.emma.instr.InstrVisitor$methodHeader	length	Request()	(Object)Adapter
+com.vladium.emma.instr.InstrVisitor$methodHeader	emit	Request()	(Object)Adapter
+com.vladium.jcd.cls.IAttributeCollection	null	Adaptee	(Object)Adapter
+com.vladium.jcd.cls.ClassDef	null	Adapter	(Object)Adapter
+com.vladium.jcd.cls.ClassDef	null	adaptee	(Object)Adapter
+com.vladium.jcd.cls.ClassDef	writeInClassFormat	Request()	(Object)Adapter
+com.vladium.emma.data.IMetaData	null	Adaptee	(Object)Adapter
+com.vladium.emma.rt.ClassPathProcessorST	null	Adapter	(Object)Adapter
+com.vladium.emma.rt.ClassPathProcessorST	null	adaptee	(Object)Adapter
+com.vladium.emma.rt.ClassPathProcessorST	handleArchiveEntry	Request()	(Object)Adapter
+com.vladium.emma.rt.ClassPathProcessorST	handleFile	Request()	(Object)Adapter
+com.vladium.jcd.cls.IAttributeCollection	null	Adaptee	(Object)Adapter
+com.vladium.jcd.cls.attribute.CodeAttribute_info	null	Adapter	(Object)Adapter
+com.vladium.jcd.cls.attribute.CodeAttribute_info	null	adaptee	(Object)Adapter
+com.vladium.jcd.cls.attribute.CodeAttribute_info	length	Request()	(Object)Adapter
+com.vladium.jcd.cls.attribute.CodeAttribute_info	toString	Request()	(Object)Adapter
+com.vladium.jcd.cls.IConstantCollection	null	Adaptee	(Object)Adapter
+com.vladium.jcd.cls.ClassDef	null	Adapter	(Object)Adapter
+com.vladium.jcd.cls.ClassDef	null	adaptee	(Object)Adapter
+com.vladium.jcd.cls.ClassDef	writeInClassFormat	Request()	(Object)Adapter
+com.vladium.jcd.cls.IFieldCollection	null	Adaptee	(Object)Adapter
+com.vladium.jcd.cls.ClassDef	null	Adapter	(Object)Adapter
+com.vladium.jcd.cls.ClassDef	null	adaptee	(Object)Adapter
+com.vladium.jcd.cls.ClassDef	writeInClassFormat	Request()	(Object)Adapter
+com.vladium.util.ObjectIntMap	null	Adaptee	(Object)Adapter
+com.vladium.jcd.cls.ConstantCollection	null	Adapter	(Object)Adapter
+com.vladium.jcd.cls.ConstantCollection	null	adaptee	(Object)Adapter
+com.vladium.jcd.cls.ConstantCollection	set	Request()	(Object)Adapter
+com.vladium.jcd.cls.ConstantCollection	add	Request()	(Object)Adapter
+com.vladium.logging.Logger	null	Adaptee	(Object)Adapter
+com.vladium.emma.instr.InstrVisitor	null	Adapter	(Object)Adapter
+com.vladium.emma.instr.InstrVisitor	null	adaptee	(Object)Adapter
+com.vladium.emma.instr.InstrVisitor	visit	Request()	(Object)Adapter
+com.vladium.emma.instr.InstrVisitor	visit	Request()	(Object)Adapter
+com.vladium.emma.instr.InstrVisitor	visit	Request()	(Object)Adapter
+com.vladium.emma.instr.InstrVisitor	visit	Request()	(Object)Adapter
+com.vladium.util.IntVector	null	Adaptee	(Object)Adapter
+com.vladium.jcd.cls.attribute.DeclaredExceptionTable	null	Adapter	(Object)Adapter
+com.vladium.jcd.cls.attribute.DeclaredExceptionTable	null	adaptee	(Object)Adapter
+com.vladium.jcd.cls.attribute.DeclaredExceptionTable	get	Request()	(Object)Adapter
+com.vladium.jcd.cls.attribute.DeclaredExceptionTable	size	Request()	(Object)Adapter
+com.vladium.jcd.cls.attribute.DeclaredExceptionTable	length	Request()	(Object)Adapter
+com.vladium.jcd.cls.attribute.DeclaredExceptionTable	clone	Request()	(Object)Adapter
+com.vladium.jcd.cls.attribute.DeclaredExceptionTable	add	Request()	(Object)Adapter
+com.vladium.jcd.cls.attribute.DeclaredExceptionTable	set	Request()	(Object)Adapter
+com.vladium.util.IPathEnumerator$IPathHandler	null	Adaptee	(Object)Adapter
+com.vladium.util.IPathEnumerator$Factory$PathEnumerator	null	Adapter	(Object)Adapter
+com.vladium.util.IPathEnumerator$Factory$PathEnumerator	null	adaptee	(Object)Adapter
+com.vladium.util.IPathEnumerator$Factory$PathEnumerator	enumerate	Request()	(Object)Adapter
+com.vladium.jcd.cls.attribute.IExceptionHandlerTable	null	Adaptee	(Object)Adapter
+com.vladium.jcd.cls.attribute.CodeAttribute_info	null	Adapter	(Object)Adapter
+com.vladium.jcd.cls.attribute.CodeAttribute_info	null	adaptee	(Object)Adapter
+com.vladium.jcd.cls.attribute.CodeAttribute_info	length	Request()	(Object)Adapter
+com.vladium.jcd.cls.attribute.IDeclaredExceptionTable	null	Adaptee	(Object)Adapter
+com.vladium.jcd.cls.attribute.ExceptionsAttribute_info	null	Adapter	(Object)Adapter
+com.vladium.jcd.cls.attribute.ExceptionsAttribute_info	null	adaptee	(Object)Adapter
+com.vladium.jcd.cls.attribute.ExceptionsAttribute_info	length	Request()	(Object)Adapter
+com.vladium.logging.Logger	null	Adaptee	(Object)Adapter
+com.vladium.util.IPathEnumerator$Factory$PathEnumerator	null	Adapter	(Object)Adapter
+com.vladium.util.IPathEnumerator$Factory$PathEnumerator	null	adaptee	(Object)Adapter
+com.vladium.util.IPathEnumerator$Factory$PathEnumerator	enumerate	Request()	(Object)Adapter
+com.vladium.emma.instr.InstrVisitor	null	Adaptee	(Object)Adapter
+com.vladium.emma.rt.ClassPathProcessorST	null	Adapter	(Object)Adapter
+com.vladium.emma.rt.ClassPathProcessorST	null	adaptee	(Object)Adapter
+com.vladium.emma.rt.ClassPathProcessorST	handleArchiveEntry	Request()	(Object)Adapter
+com.vladium.emma.rt.ClassPathProcessorST	handleFile	Request()	(Object)Adapter
+com.vladium.emma.data.IMetaData	null	Adaptee	(Object)Adapter
+com.vladium.emma.rt.InstrClassLoadHook	null	Adapter	(Object)Adapter
+com.vladium.emma.rt.InstrClassLoadHook	null	adaptee	(Object)Adapter
+com.vladium.emma.rt.InstrClassLoadHook	processClassDef	Request()	(Object)Adapter
+com.vladium.emma.filter.IInclExclFilter	null	Adaptee	(Object)Adapter
+com.vladium.emma.rt.ClassPathProcessorST	null	Adapter	(Object)Adapter
+com.vladium.emma.rt.ClassPathProcessorST	null	adaptee	(Object)Adapter
+com.vladium.emma.rt.ClassPathProcessorST	handleArchiveEntry	Request()	(Object)Adapter
+com.vladium.emma.rt.ClassPathProcessorST	handleFile	Request()	(Object)Adapter
+com.vladium.emma.data.IMetaData	null	Adaptee	(Object)Adapter
+com.vladium.emma.report.ReportDataModel	null	Adapter	(Object)Adapter
+com.vladium.emma.report.ReportDataModel	null	adaptee	(Object)Adapter
+com.vladium.emma.report.ReportDataModel	getView	Request()	(Object)Adapter
+com.vladium.emma.instr.InstrVisitor	null	Adaptee	(Object)Adapter
+com.vladium.emma.rt.InstrClassLoadHook	null	Adapter	(Object)Adapter
+com.vladium.emma.rt.InstrClassLoadHook	null	adaptee	(Object)Adapter
+com.vladium.emma.rt.InstrClassLoadHook	processClassDef	Request()	(Object)Adapter
+com.vladium.emma.data.ICoverageData	null	Adaptee	(Object)Adapter
+com.vladium.emma.report.ReportDataModel	null	Adapter	(Object)Adapter
+com.vladium.emma.report.ReportDataModel	null	adaptee	(Object)Adapter
+com.vladium.emma.report.ReportDataModel	getView	Request()	(Object)Adapter
+com.vladium.emma.filter.IInclExclFilter	null	Adaptee	(Object)Adapter
+com.vladium.emma.rt.InstrClassLoadHook	null	Adapter	(Object)Adapter
+com.vladium.emma.rt.InstrClassLoadHook	null	adaptee	(Object)Adapter
+com.vladium.emma.rt.InstrClassLoadHook	processClassDef	Request()	(Object)Adapter
+com.vladium.util.IProperties$IMapper	null	Adaptee	(Object)Adapter
+com.vladium.util.IProperties$Factory$PropertiesImpl	null	Adapter	(Object)Adapter
+com.vladium.util.IProperties$Factory$PropertiesImpl	null	adaptee	(Object)Adapter
+com.vladium.util.IProperties$Factory$PropertiesImpl	getProperty	Request()	(Object)Adapter
+com.vladium.emma.instr.InstrProcessor$OutMode	null	Receiver	Command
+com.vladium.emma.instr.instrCommand	null	ConcreteCommand	Command
+com.vladium.emma.instr.instrCommand	null	receiver	Command
+com.vladium.emma.instr.instrCommand	run	Execute()	Command
+com.vladium.emma.report.IItem	null	Component	Composite
+com.vladium.emma.report.Item	null	Composite	Composite
+com.vladium.emma.report.Item	getAggregate	Operation()	Composite
+com.vladium.emma.report.html.doc.IContent	null	Observer	Observer
+com.vladium.emma.report.html.doc.IElement$Factory$ElementImpl	null	Subject	Observer
+com.vladium.emma.report.html.doc.IElement$Factory$ElementImpl	emit	Notify()	Observer
+com.vladium.emma.rt.AppRunner$AppRunnerExitHook	null	Context	State
+com.vladium.emma.report.IReportGenerator	null	State	State
+com.vladium.emma.rt.AppRunner$AppRunnerExitHook	null	state	State
+com.vladium.emma.rt.AppRunner$AppRunnerExitHook	run	Request()	State
+com.vladium.emma.instr.InstrVisitor$Block	null	Context	State
+com.vladium.emma.instr.InstrVisitor$Branch	null	State	State
+com.vladium.emma.instr.InstrVisitor$Block	null	state	State
+com.vladium.emma.instr.InstrVisitor$Block	emit	Request()	State
+com.vladium.emma.report.html.doc.ISimpleElement$Factory$SimpleElementImpl	null	Context	State
+com.vladium.emma.report.html.doc.AttributeSet	null	State	State
+com.vladium.emma.report.html.doc.ISimpleElement$Factory$SimpleElementImpl	null	state	State
+com.vladium.emma.report.html.doc.ISimpleElement$Factory$SimpleElementImpl	emit	Request()	State
+com.vladium.emma.report.html.doc.ISimpleElement$Factory$SimpleElementImpl	null	Context	State
+com.vladium.emma.report.html.doc.Tag	null	State	State
+com.vladium.emma.report.html.doc.ISimpleElement$Factory$SimpleElementImpl	null	state	State
+com.vladium.emma.report.html.doc.ISimpleElement$Factory$SimpleElementImpl	toString	Request()	State
+com.vladium.emma.report.html.doc.ISimpleElement$Factory$SimpleElementImpl	emit	Request()	State
+com.vladium.emma.instr.InstrVisitor$Block	null	Context	State
+com.vladium.emma.instr.InstrVisitor$CodeSegment	null	State	State
+com.vladium.emma.instr.InstrVisitor$Block	null	state	State
+com.vladium.emma.instr.InstrVisitor$Block	emit	Request()	State
+com.vladium.jcd.cls.ClassDef	null	Context	State
+com.vladium.jcd.cls.IAttributeCollection	null	State	State
+com.vladium.jcd.cls.ClassDef	null	state	State
+com.vladium.jcd.cls.ClassDef	isSynthetic	Request()	State
+com.vladium.jcd.cls.ClassDef	isNested	Request()	State
+com.vladium.jcd.cls.ClassDef	clone	Request()	State
+com.vladium.jcd.cls.Field_info	null	Context	State
+com.vladium.jcd.cls.IAttributeCollection	null	State	State
+com.vladium.jcd.cls.Field_info	null	state	State
+com.vladium.jcd.cls.Field_info	isSynthetic	Request()	State
+com.vladium.jcd.cls.Field_info	clone	Request()	State
+com.vladium.jcd.cls.Method_info	null	Context	State
+com.vladium.jcd.cls.IAttributeCollection	null	State	State
+com.vladium.jcd.cls.Method_info	null	state	State
+com.vladium.jcd.cls.Method_info	isSynthetic	Request()	State
+com.vladium.jcd.cls.Method_info	isBridge	Request()	State
+com.vladium.jcd.cls.Method_info	toString	Request()	State
+com.vladium.jcd.cls.Method_info	clone	Request()	State
+com.vladium.emma.instr.InstrProcessorST	null	Context	State
+com.vladium.emma.data.IMetaData	null	State	State
+com.vladium.emma.instr.InstrProcessorST	null	state	State
+com.vladium.emma.instr.InstrProcessorST	handleArchiveEntry	Request()	State
+com.vladium.emma.instr.InstrProcessorST	handleFile	Request()	State
+com.vladium.emma.instr.InstrProcessorST	_run	Request()	State
+com.vladium.emma.rt.ClassPathProcessorST	null	Context	State
+com.vladium.emma.data.IMetaData	null	State	State
+com.vladium.emma.rt.ClassPathProcessorST	null	state	State
+com.vladium.emma.rt.ClassPathProcessorST	handleArchiveEntry	Request()	State
+com.vladium.emma.rt.ClassPathProcessorST	handleFile	Request()	State
+com.vladium.emma.report.ReportProcessor	null	Context	State
+com.vladium.emma.report.IReportGenerator	null	State	State
+com.vladium.emma.report.ReportProcessor	null	state	State
+com.vladium.emma.report.ReportProcessor	_run	Request()	State
+com.vladium.jcd.cls.attribute.CodeAttribute_info	null	Context	State
+com.vladium.jcd.cls.IAttributeCollection	null	State	State
+com.vladium.jcd.cls.attribute.CodeAttribute_info	null	state	State
+com.vladium.jcd.cls.attribute.CodeAttribute_info	length	Request()	State
+com.vladium.jcd.cls.attribute.CodeAttribute_info	toString	Request()	State
+com.vladium.jcd.cls.attribute.CodeAttribute_info	clone	Request()	State
+com.vladium.jcd.cls.ClassDef	null	Context	State
+com.vladium.jcd.cls.IConstantCollection	null	State	State
+com.vladium.jcd.cls.ClassDef	null	state	State
+com.vladium.jcd.cls.ClassDef	getThisClass	Request()	State
+com.vladium.jcd.cls.ClassDef	getSuperClass	Request()	State
+com.vladium.jcd.cls.ClassDef	clone	Request()	State
+com.vladium.jcd.cls.ClassDef	computeSUID	Request()	State
+com.vladium.jcd.cls.ClassDef	addCONSTANT_Utf8	Request()	State
+com.vladium.jcd.cls.ClassDef	addStringConstant	Request()	State
+com.vladium.jcd.cls.ClassDef	addNameType	Request()	State
+com.vladium.jcd.cls.ClassDef	addClassref	Request()	State
+com.vladium.jcd.cls.ClassDef	addFieldref	Request()	State
+com.vladium.jcd.cls.ClassDef	addFieldref	Request()	State
+com.vladium.util.IProperties	null	State	State
+com.vladium.emma.ant.GenericCfg	null	Context	State
+com.vladium.emma.ant.GenericCfg	null	state	State
+com.vladium.emma.ant.GenericCfg	getGenericSettings	Request()	State
+com.vladium.util.IProperties	null	State	State
+com.vladium.emma.ant.VerbosityCfg	null	Context	State
+com.vladium.emma.ant.VerbosityCfg	null	state	State
+com.vladium.emma.ant.VerbosityCfg	getSettings	Request()	State
+com.vladium.emma.rt.AppRunner$AppRunnerExitHook	null	Context	State
+com.vladium.emma.data.ICoverageData	null	State	State
+com.vladium.emma.rt.AppRunner$AppRunnerExitHook	null	state	State
+com.vladium.emma.rt.AppRunner$AppRunnerExitHook	run	Request()	State
+com.vladium.jcd.cls.ClassDef	null	Context	State
+com.vladium.jcd.cls.IFieldCollection	null	State	State
+com.vladium.jcd.cls.ClassDef	null	state	State
+com.vladium.jcd.cls.ClassDef	getFields	Request()	State
+com.vladium.jcd.cls.ClassDef	clone	Request()	State
+com.vladium.jcd.cls.ClassDef	addField	Request()	State
+com.vladium.jcd.cls.ClassDef	addField	Request()	State
+com.vladium.jcd.cls.ClassDef	addFieldref	Request()	State
+com.vladium.emma.rt.AppRunner$AppRunnerExitHook	null	Context	State
+com.vladium.emma.data.IMetaData	null	State	State
+com.vladium.emma.rt.AppRunner$AppRunnerExitHook	null	state	State
+com.vladium.emma.rt.AppRunner$AppRunnerExitHook	run	Request()	State
+com.vladium.util.IPathEnumerator$Factory$PathEnumerator	null	Context	State
+com.vladium.util.IPathEnumerator$IPathHandler	null	State	State
+com.vladium.util.IPathEnumerator$Factory$PathEnumerator	null	state	State
+com.vladium.util.IPathEnumerator$Factory$PathEnumerator	enumerate	Request()	State
+com.vladium.util.IPathEnumerator$Factory$PathEnumerator	enumeratePathDir	Request()	State
+com.vladium.util.IPathEnumerator$Factory$PathEnumerator	enumeratePathArchive	Request()	State
+com.vladium.jcd.cls.attribute.CodeAttribute_info	null	Context	State
+com.vladium.jcd.cls.attribute.IExceptionHandlerTable	null	State	State
+com.vladium.jcd.cls.attribute.CodeAttribute_info	null	state	State
+com.vladium.jcd.cls.attribute.CodeAttribute_info	length	Request()	State
+com.vladium.jcd.cls.attribute.CodeAttribute_info	clone	Request()	State
+com.vladium.emma.instr.InstrProcessorST	null	Context	State
+com.vladium.emma.instr.InstrProcessorST$Job	null	State	State
+com.vladium.emma.instr.InstrProcessorST	null	state	State
+com.vladium.emma.instr.InstrProcessorST	drainJobQueue	Request()	State
+com.vladium.emma.rt.InstrClassLoader	null	Context	State
+com.vladium.emma.rt.IClassLoadHook	null	State	State
+com.vladium.emma.rt.InstrClassLoader	null	state	State
+com.vladium.emma.rt.InstrClassLoader	findClass	Request()	State
+com.vladium.jcd.cls.attribute.ExceptionsAttribute_info	null	Context	State
+com.vladium.jcd.cls.attribute.IDeclaredExceptionTable	null	State	State
+com.vladium.jcd.cls.attribute.ExceptionsAttribute_info	null	state	State
+com.vladium.jcd.cls.attribute.ExceptionsAttribute_info	length	Request()	State
+com.vladium.jcd.cls.attribute.ExceptionsAttribute_info	clone	Request()	State
+com.vladium.emma.rt.InstrClassLoadHook	null	Context	State
+com.vladium.emma.data.IMetaData	null	State	State
+com.vladium.emma.rt.InstrClassLoadHook	null	state	State
+com.vladium.emma.rt.InstrClassLoadHook	processClassDef	Request()	State
+com.vladium.emma.rt.InstrClassLoader	null	Context	State
+com.vladium.emma.filter.IInclExclFilter	null	State	State
+com.vladium.emma.rt.InstrClassLoader	null	state	State
+com.vladium.emma.rt.InstrClassLoader	null	state	State
+com.vladium.emma.rt.InstrClassLoader	loadClass	Request()	State
+com.vladium.util.IProperties	null	State	State
+com.vladium.emma.report.ReportCfg	null	Context	State
+com.vladium.emma.report.ReportCfg	null	state	State
+com.vladium.emma.report.ReportCfg	setUnits	Request()	State
+com.vladium.emma.report.ReportCfg	setDepth	Request()	State
+com.vladium.emma.report.ReportCfg	setColumns	Request()	State
+com.vladium.emma.report.ReportCfg	setSort	Request()	State
+com.vladium.emma.report.ReportCfg	setMetrics	Request()	State
+com.vladium.emma.report.ReportCfg	setOutfile	Request()	State
+com.vladium.emma.report.ReportCfg	setEncoding	Request()	State
+com.vladium.emma.rt.ClassPathProcessorST	null	Context	State
+com.vladium.emma.filter.IInclExclFilter	null	State	State
+com.vladium.emma.rt.ClassPathProcessorST	null	state	State
+com.vladium.emma.rt.ClassPathProcessorST	handleArchiveEntry	Request()	State
+com.vladium.emma.rt.ClassPathProcessorST	handleFile	Request()	State
+com.vladium.emma.report.ReportDataModel	null	Context	State
+com.vladium.emma.data.IMetaData	null	State	State
+com.vladium.emma.report.ReportDataModel	null	state	State
+com.vladium.emma.report.ReportDataModel	getView	Request()	State
+com.vladium.emma.filter.IInclExclFilter$Factory$WCInclExclFilter	null	Context	State
+com.vladium.util.WCMatcher	null	State	State
+com.vladium.emma.filter.IInclExclFilter$Factory$WCInclExclFilter	null	state	State
+com.vladium.emma.filter.IInclExclFilter$Factory$WCInclExclFilter	null	state	State
+com.vladium.emma.filter.IInclExclFilter$Factory$WCInclExclFilter	included	Request()	State
+com.vladium.emma.report.ReportDataModel	null	Context	State
+com.vladium.emma.data.ICoverageData	null	State	State
+com.vladium.emma.report.ReportDataModel	null	state	State
+com.vladium.emma.report.ReportDataModel	getView	Request()	State
+com.vladium.emma.rt.InstrClassLoadHook	null	Context	State
+com.vladium.emma.filter.IInclExclFilter	null	State	State
+com.vladium.emma.rt.InstrClassLoadHook	null	state	State
+com.vladium.emma.rt.InstrClassLoadHook	processClassDef	Request()	State
+com.vladium.util.IProperties$Factory$PropertiesImpl	null	Context	State
+com.vladium.util.IProperties$IMapper	null	State	State
+com.vladium.util.IProperties$Factory$PropertiesImpl	null	state	State
+com.vladium.util.IProperties$Factory$PropertiesImpl	getProperty	Request()	State
+com.vladium.emma.Processor	null	Abstraction	Bridge
+com.vladium.util.IProperties	null	Implementor	Bridge
+com.vladium.emma.Processor	null	implementor	Bridge
+com.vladium.emma.Processor	run	Operation()	Bridge
+com.vladium.util.ClassLoaderResolver	null	Abstraction	Bridge
+com.vladium.util.IClassLoadStrategy	null	Implementor	Bridge
+com.vladium.util.ClassLoaderResolver	null	implementor	Bridge
+com.vladium.util.ClassLoaderResolver	getClassLoader	Operation()	Bridge
+com.vladium.util.ClassLoaderResolver	getClassLoader	Operation()	Bridge
+com.vladium.emma.report.ReportCfg$Element	null	Abstraction	Bridge
+com.vladium.util.IProperties	null	Implementor	Bridge
+com.vladium.emma.report.ReportCfg$Element	null	implementor	Bridge
+com.vladium.emma.report.ReportCfg$Element	setUnits	Operation()	Bridge
+com.vladium.emma.report.ReportCfg$Element	setDepth	Operation()	Bridge
+com.vladium.emma.report.ReportCfg$Element	setColumns	Operation()	Bridge
+com.vladium.emma.report.ReportCfg$Element	setSort	Operation()	Bridge
+com.vladium.emma.report.ReportCfg$Element	setMetrics	Operation()	Bridge
+com.vladium.emma.report.ReportCfg$Element	setOutfile	Operation()	Bridge
+com.vladium.emma.report.ReportCfg$Element	setEncoding	Operation()	Bridge
+com.vladium.emma.report.ReportCfg$Element	processGenericSettings	Operation()	Bridge
+com.vladium.emma.rt.RT	null	Abstraction	Bridge
+com.vladium.util.exit.ExitHookManager	null	Implementor	Bridge
+com.vladium.emma.rt.RT	null	implementor	Bridge
+com.vladium.emma.rt.RT	reset	Operation()	Bridge
+com.vladium.emma.Command	null	AbstractClass	Template Method
+com.vladium.emma.Command	usageexit	TemplateMethod()	Template Method
+com.vladium.emma.Processor	null	AbstractClass	Template Method
+com.vladium.emma.Processor	run	TemplateMethod()	Template Method
+com.vladium.jcd.cls.attribute.Attribute_info	null	AbstractClass	Template Method
+com.vladium.jcd.cls.attribute.Attribute_info	writeInClassFormat	TemplateMethod()	Template Method
+com.vladium.jcd.cls.constant.CONSTANT_info	null	AbstractClass	Template Method
+com.vladium.jcd.cls.constant.CONSTANT_info	writeInClassFormat	TemplateMethod()	Template Method
+com.vladium.jcd.cls.constant.CONSTANT_info	tagToString	TemplateMethod()	Template Method
+com.vladium.emma.Command	null	AbstractClass	Template Method
+com.vladium.emma.Command	usageexit	TemplateMethod()	Template Method
+com.vladium.emma.Processor	null	AbstractClass	Template Method
+com.vladium.emma.Processor	run	TemplateMethod()	Template Method
+com.vladium.jcd.cls.attribute.Attribute_info	null	AbstractClass	Template Method
+com.vladium.jcd.cls.attribute.Attribute_info	writeInClassFormat	TemplateMethod()	Template Method
+com.vladium.jcd.cls.constant.CONSTANT_info	null	AbstractClass	Template Method
+com.vladium.jcd.cls.constant.CONSTANT_info	writeInClassFormat	TemplateMethod()	Template Method
+com.vladium.jcd.cls.constant.CONSTANT_info	tagToString	TemplateMethod()	Template Method
+com.vladium.jcd.cls.constant.ICONSTANTVisitor	null	Visitor	Visitor
+com.vladium.jcd.cls.constant.CONSTANT_Class_info	null	ConcreteElement	Visitor
+com.vladium.jcd.cls.constant.CONSTANT_Class_info	accept	Accept()	Visitor
+com.vladium.jcd.cls.constant.ICONSTANTVisitor	null	Visitor	Visitor
+com.vladium.jcd.cls.constant.CONSTANT_Double_info	null	ConcreteElement	Visitor
+com.vladium.jcd.cls.constant.CONSTANT_Double_info	accept	Accept()	Visitor
+com.vladium.jcd.cls.constant.ICONSTANTVisitor	null	Visitor	Visitor
+com.vladium.jcd.cls.constant.CONSTANT_Fieldref_info	null	ConcreteElement	Visitor
+com.vladium.jcd.cls.constant.CONSTANT_Fieldref_info	accept	Accept()	Visitor
+com.vladium.jcd.cls.constant.ICONSTANTVisitor	null	Visitor	Visitor
+com.vladium.jcd.cls.constant.CONSTANT_Float_info	null	ConcreteElement	Visitor
+com.vladium.jcd.cls.constant.CONSTANT_Float_info	accept	Accept()	Visitor
+com.vladium.jcd.cls.constant.ICONSTANTVisitor	null	Visitor	Visitor
+com.vladium.jcd.cls.constant.CONSTANT_Integer_info	null	ConcreteElement	Visitor
+com.vladium.jcd.cls.constant.CONSTANT_Integer_info	accept	Accept()	Visitor
+com.vladium.jcd.cls.constant.ICONSTANTVisitor	null	Visitor	Visitor
+com.vladium.jcd.cls.constant.CONSTANT_InterfaceMethodref_info	null	ConcreteElement	Visitor
+com.vladium.jcd.cls.constant.CONSTANT_InterfaceMethodref_info	accept	Accept()	Visitor
+com.vladium.jcd.cls.constant.ICONSTANTVisitor	null	Visitor	Visitor
+com.vladium.jcd.cls.constant.CONSTANT_Long_info	null	ConcreteElement	Visitor
+com.vladium.jcd.cls.constant.CONSTANT_Long_info	accept	Accept()	Visitor
+com.vladium.jcd.cls.constant.ICONSTANTVisitor	null	Visitor	Visitor
+com.vladium.jcd.cls.constant.CONSTANT_Methodref_info	null	ConcreteElement	Visitor
+com.vladium.jcd.cls.constant.CONSTANT_Methodref_info	accept	Accept()	Visitor
+com.vladium.jcd.cls.constant.ICONSTANTVisitor	null	Visitor	Visitor
+com.vladium.jcd.cls.constant.CONSTANT_NameAndType_info	null	ConcreteElement	Visitor
+com.vladium.jcd.cls.constant.CONSTANT_NameAndType_info	accept	Accept()	Visitor
+com.vladium.jcd.cls.constant.ICONSTANTVisitor	null	Visitor	Visitor
+com.vladium.jcd.cls.constant.CONSTANT_String_info	null	ConcreteElement	Visitor
+com.vladium.jcd.cls.constant.CONSTANT_String_info	accept	Accept()	Visitor
+com.vladium.jcd.cls.constant.ICONSTANTVisitor	null	Visitor	Visitor
+com.vladium.jcd.cls.constant.CONSTANT_Utf8_info	null	ConcreteElement	Visitor
+com.vladium.jcd.cls.constant.CONSTANT_Utf8_info	accept	Accept()	Visitor
+com.vladium.emma.report.AllItem	null	ConcreteElement	Visitor
+com.vladium.emma.report.IItemVisitor	null	Visitor	Visitor
+com.vladium.emma.report.AllItem	accept	Accept()	Visitor
+com.vladium.emma.report.ClassItem	null	ConcreteElement	Visitor
+com.vladium.emma.report.IItemVisitor	null	Visitor	Visitor
+com.vladium.emma.report.ClassItem	accept	Accept()	Visitor
+com.vladium.emma.report.MethodItem	null	ConcreteElement	Visitor
+com.vladium.emma.report.IItemVisitor	null	Visitor	Visitor
+com.vladium.emma.report.MethodItem	accept	Accept()	Visitor
+com.vladium.emma.report.PackageItem	null	ConcreteElement	Visitor
+com.vladium.emma.report.IItemVisitor	null	Visitor	Visitor
+com.vladium.emma.report.PackageItem	accept	Accept()	Visitor
+com.vladium.emma.report.SrcFileItem	null	ConcreteElement	Visitor
+com.vladium.emma.report.IItemVisitor	null	Visitor	Visitor
+com.vladium.emma.report.SrcFileItem	accept	Accept()	Visitor
+com.vladium.jcd.cls.attribute.IAttributeVisitor	null	Visitor	Visitor
+com.vladium.jcd.cls.attribute.BridgeAttribute_info	null	ConcreteElement	Visitor
+com.vladium.jcd.cls.attribute.BridgeAttribute_info	accept	Accept()	Visitor
+com.vladium.jcd.cls.attribute.IAttributeVisitor	null	Visitor	Visitor
+com.vladium.jcd.cls.attribute.CodeAttribute_info	null	ConcreteElement	Visitor
+com.vladium.jcd.cls.attribute.CodeAttribute_info	accept	Accept()	Visitor
+com.vladium.jcd.cls.attribute.IAttributeVisitor	null	Visitor	Visitor
+com.vladium.jcd.cls.attribute.ConstantValueAttribute_info	null	ConcreteElement	Visitor
+com.vladium.jcd.cls.attribute.ConstantValueAttribute_info	accept	Accept()	Visitor
+com.vladium.jcd.cls.attribute.IAttributeVisitor	null	Visitor	Visitor
+com.vladium.jcd.cls.attribute.ExceptionsAttribute_info	null	ConcreteElement	Visitor
+com.vladium.jcd.cls.attribute.ExceptionsAttribute_info	accept	Accept()	Visitor
+com.vladium.jcd.cls.attribute.IAttributeVisitor	null	Visitor	Visitor
+com.vladium.jcd.cls.attribute.GenericAttribute_info	null	ConcreteElement	Visitor
+com.vladium.jcd.cls.attribute.GenericAttribute_info	accept	Accept()	Visitor
+com.vladium.jcd.cls.attribute.IAttributeVisitor	null	Visitor	Visitor
+com.vladium.jcd.cls.attribute.InnerClassesAttribute_info	null	ConcreteElement	Visitor
+com.vladium.jcd.cls.attribute.InnerClassesAttribute_info	accept	Accept()	Visitor
+com.vladium.jcd.cls.attribute.IAttributeVisitor	null	Visitor	Visitor
+com.vladium.jcd.cls.attribute.LineNumberTableAttribute_info	null	ConcreteElement	Visitor
+com.vladium.jcd.cls.attribute.LineNumberTableAttribute_info	accept	Accept()	Visitor
+com.vladium.jcd.cls.attribute.IAttributeVisitor	null	Visitor	Visitor
+com.vladium.jcd.cls.attribute.SourceFileAttribute_info	null	ConcreteElement	Visitor
+com.vladium.jcd.cls.attribute.SourceFileAttribute_info	accept	Accept()	Visitor
+com.vladium.jcd.cls.attribute.IAttributeVisitor	null	Visitor	Visitor
+com.vladium.jcd.cls.attribute.SyntheticAttribute_info	null	ConcreteElement	Visitor
+com.vladium.jcd.cls.attribute.SyntheticAttribute_info	accept	Accept()	Visitor
+com.vladium.jcd.cls.ClassDef	null	ConcreteElement	Visitor
+com.vladium.jcd.cls.IClassDefVisitor	null	Visitor	Visitor
+com.vladium.jcd.cls.ClassDef	accept	Accept()	Visitor
+com.vladium.jcd.cls.InterfaceCollection	null	ConcreteElement	Visitor
+com.vladium.jcd.cls.IClassDefVisitor	null	Visitor	Visitor
+com.vladium.jcd.cls.InterfaceCollection	accept	Accept()	Visitor
+com.vladium.jcd.cls.MethodCollection	null	ConcreteElement	Visitor
+com.vladium.jcd.cls.IClassDefVisitor	null	Visitor	Visitor
+com.vladium.jcd.cls.MethodCollection	accept	Accept()	Visitor
+com.vladium.jcd.cls.AttributeCollection	null	ConcreteElement	Visitor
+com.vladium.jcd.cls.IClassDefVisitor	null	Visitor	Visitor
+com.vladium.jcd.cls.AttributeCollection	accept	Accept()	Visitor
+com.vladium.jcd.cls.ConstantCollection	null	ConcreteElement	Visitor
+com.vladium.jcd.cls.IClassDefVisitor	null	Visitor	Visitor
+com.vladium.jcd.cls.ConstantCollection	accept	Accept()	Visitor
+com.vladium.jcd.cls.FieldCollection	null	ConcreteElement	Visitor
+com.vladium.jcd.cls.IClassDefVisitor	null	Visitor	Visitor
+com.vladium.jcd.cls.FieldCollection	accept	Accept()	Visitor

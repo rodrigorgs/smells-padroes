@@ -1,317 +1,318 @@
-src.org.jgrapht.alg.AbstractPathElement
-src.org.jgrapht.alg.AbstractPathElementList
-src.org.jgrapht.alg.BellmanFordIterator
-src.org.jgrapht.alg.BellmanFordPathElement
-src.org.jgrapht.alg.BellmanFordShortestPath
-src.org.jgrapht.alg.BiconnectivityInspector
-src.org.jgrapht.alg.BlockCutpointGraph
-src.org.jgrapht.alg.BlockCutpointGraph$BCGEdge
-src.org.jgrapht.alg.BlockCutpointGraph$VertexComponentForbiddenFunction
-src.org.jgrapht.alg.BronKerboschCliqueFinder
-src.org.jgrapht.alg.ChromaticNumber
-src.org.jgrapht.alg.ConnectivityInspector
-src.org.jgrapht.alg.ConnectivityInspector$MyTraversalListener
-src.org.jgrapht.alg.CycleDetector
-src.org.jgrapht.alg.CycleDetector$CycleDetectedException
-src.org.jgrapht.alg.CycleDetector$ProbeIterator
-src.org.jgrapht.alg.DijkstraShortestPath
-src.org.jgrapht.alg.DirectedNeighborIndex
-src.org.jgrapht.alg.EdmondsKarpMaximumFlow
-src.org.jgrapht.alg.EdmondsKarpMaximumFlow$Node
-src.org.jgrapht.alg.EdmondsKarpMaximumFlow$Arc
-src.org.jgrapht.alg.EulerianCircuit
-src.org.jgrapht.alg.FloydWarshallShortestPaths
-src.org.jgrapht.alg.HamiltonianCycle
-src.org.jgrapht.alg.KShortestPaths
-src.org.jgrapht.alg.KShortestPaths$PathWrapper
-src.org.jgrapht.alg.KShortestPathsIterator
-src.org.jgrapht.alg.NeighborIndex
-src.org.jgrapht.alg.NeighborIndex$Neighbors
-src.org.jgrapht.alg.RankingPathElement
-src.org.jgrapht.alg.RankingPathElementList
-src.org.jgrapht.alg.StrongConnectivityInspector
-src.org.jgrapht.alg.StrongConnectivityInspector$VertexData
-src.org.jgrapht.alg.StrongConnectivityInspector$VertexData1
-src.org.jgrapht.alg.StrongConnectivityInspector$VertexData2
-src.org.jgrapht.alg.TransitiveClosure
-src.org.jgrapht.alg.util.VertexDegreeComparator
-src.org.jgrapht.alg.VertexCovers
-src.org.jgrapht.demo.CompleteGraphDemo
-src.org.jgrapht.demo.HelloJGraphT
-src.org.jgrapht.demo.JGraphAdapterDemo
-src.org.jgrapht.demo.JGraphAdapterDemo$ListenableDirectedMultigraph
-src.org.jgrapht.demo.PerformanceDemo
-src.org.jgrapht.DirectedGraph
-src.org.jgrapht.EdgeFactory
-src.org.jgrapht.event.ConnectedComponentTraversalEvent
-src.org.jgrapht.event.EdgeTraversalEvent
-src.org.jgrapht.event.GraphChangeEvent
-src.org.jgrapht.event.GraphEdgeChangeEvent
-src.org.jgrapht.event.GraphListener
-src.org.jgrapht.event.GraphVertexChangeEvent
-src.org.jgrapht.event.TraversalListener
-src.org.jgrapht.event.TraversalListenerAdapter
-src.org.jgrapht.event.VertexSetListener
-src.org.jgrapht.event.VertexTraversalEvent
-src.org.jgrapht.experimental.alg.ApproximationAlgorithm
-src.org.jgrapht.experimental.alg.color.BrownBacktrackColoring
-src.org.jgrapht.experimental.alg.color.GreedyColoring
-src.org.jgrapht.experimental.alg.ExactAlgorithm
-src.org.jgrapht.experimental.alg.IntArrayGraphAlgorithm
-src.org.jgrapht.experimental.dag.DirectedAcyclicGraph
-src.org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoOrderMapping
-src.org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoOrderMappingFactory
-src.org.jgrapht.experimental.dag.DirectedAcyclicGraph$Visited
-src.org.jgrapht.experimental.dag.DirectedAcyclicGraph$VisitedFactory
-src.org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoComparator
-src.org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoVertexBiMap
-src.org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoVertexMap
-src.org.jgrapht.experimental.dag.DirectedAcyclicGraph$Region
-src.org.jgrapht.experimental.dag.DirectedAcyclicGraph$VisitedBitSetImpl
-src.org.jgrapht.experimental.dag.DirectedAcyclicGraph$VisitedArrayListImpl
-src.org.jgrapht.experimental.dag.DirectedAcyclicGraph$VisitedHashSetImpl
-src.org.jgrapht.experimental.dag.DirectedAcyclicGraph$VisitedArrayImpl
-src.org.jgrapht.experimental.dag.DirectedAcyclicGraph$CycleFoundException
-src.org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoIterator
-src.org.jgrapht.experimental.equivalence.EquivalenceComparator
-src.org.jgrapht.experimental.equivalence.EquivalenceComparatorChain
-src.org.jgrapht.experimental.equivalence.EquivalenceComparatorChainBase
-src.org.jgrapht.experimental.equivalence.EquivalenceSet
-src.org.jgrapht.experimental.equivalence.EquivalenceSetCreator
-src.org.jgrapht.experimental.equivalence.EquivalenceSetCreator$EqGroupSizeComparator
-src.org.jgrapht.experimental.equivalence.UniformEquivalenceComparator
-src.org.jgrapht.experimental.GraphReader
-src.org.jgrapht.experimental.GraphReader$IntVertexFactory
-src.org.jgrapht.experimental.GraphSquare
-src.org.jgrapht.experimental.GraphTests
-src.org.jgrapht.experimental.isomorphism.AbstractExhaustiveIsomorphismInspector
-src.org.jgrapht.experimental.isomorphism.AbstractExhaustiveIsomorphismInspector$NextFunctor
-src.org.jgrapht.experimental.isomorphism.AdaptiveIsomorphismInspectorFactory
-src.org.jgrapht.experimental.isomorphism.EquivalenceIsomorphismInspector
-src.org.jgrapht.experimental.isomorphism.GraphIsomorphismInspector
-src.org.jgrapht.experimental.isomorphism.GraphOrdering
-src.org.jgrapht.experimental.isomorphism.GraphOrdering$LabelsEdge
-src.org.jgrapht.experimental.isomorphism.IsomorphismRelation
-src.org.jgrapht.experimental.isomorphism.PermutationIsomorphismInspector
-src.org.jgrapht.experimental.isomorphism.VertexDegreeEquivalenceComparator
-src.org.jgrapht.experimental.isomorphism.VertexDegreeEquivalenceComparator$InOutDegrees
-src.org.jgrapht.experimental.PartiteRandomGraphGenerator
-src.org.jgrapht.experimental.permutation.ArrayPermutationsIter
-src.org.jgrapht.experimental.permutation.CollectionPermutationIter
-src.org.jgrapht.experimental.permutation.CompoundPermutationIter
-src.org.jgrapht.experimental.permutation.IntegerPermutationIter
-src.org.jgrapht.experimental.permutation.PermutationFactory
-src.org.jgrapht.experimental.RandomGraphHelper
-src.org.jgrapht.experimental.touchgraph.SimpleTouchgraphApplet
-src.org.jgrapht.experimental.touchgraph.TouchgraphConverter
-src.org.jgrapht.experimental.touchgraph.TouchgraphPanel
-src.org.jgrapht.experimental.UniformRandomGraphGenerator
-src.org.jgrapht.ext.DOTExporter
-src.org.jgrapht.ext.EdgeNameProvider
-src.org.jgrapht.ext.GmlExporter
-src.org.jgrapht.ext.GraphMLExporter
-src.org.jgrapht.ext.IntegerEdgeNameProvider
-src.org.jgrapht.ext.IntegerNameProvider
-src.org.jgrapht.ext.JGraphModelAdapter
-src.org.jgrapht.ext.JGraphModelAdapter$CellFactory
-src.org.jgrapht.ext.JGraphModelAdapter$DefaultCellFactory
-src.org.jgrapht.ext.JGraphModelAdapter$JGraphListener
-src.org.jgrapht.ext.JGraphModelAdapter$JGraphTListener
-src.org.jgrapht.ext.JGraphModelAdapter$ShieldedGraph
-src.org.jgrapht.ext.MatrixExporter
-src.org.jgrapht.ext.StringEdgeNameProvider
-src.org.jgrapht.ext.StringNameProvider
-src.org.jgrapht.ext.VertexNameProvider
-src.org.jgrapht.ext.VisioExporter
-src.org.jgrapht.generate.CompleteBipartiteGraphGenerator
-src.org.jgrapht.generate.CompleteGraphGenerator
-src.org.jgrapht.generate.EmptyGraphGenerator
-src.org.jgrapht.generate.GraphGenerator
-src.org.jgrapht.generate.HyperCubeGraphGenerator
-src.org.jgrapht.generate.LinearGraphGenerator
-src.org.jgrapht.generate.RandomGraphGenerator
-src.org.jgrapht.generate.RandomGraphGenerator$EdgeTopologyFactory
-src.org.jgrapht.generate.RandomGraphGenerator$DefaultEdgeTopologyFactory
-src.org.jgrapht.generate.RingGraphGenerator
-src.org.jgrapht.generate.ScaleFreeGraphGenerator
-src.org.jgrapht.generate.StarGraphGenerator
-src.org.jgrapht.generate.WheelGraphGenerator
-src.org.jgrapht.graph.AbstractBaseGraph
-src.org.jgrapht.graph.AbstractBaseGraph$Specifics
-src.org.jgrapht.graph.AbstractBaseGraph$ArrayListFactory
-src.org.jgrapht.graph.AbstractBaseGraph$DirectedEdgeContainer
-src.org.jgrapht.graph.AbstractBaseGraph$DirectedSpecifics
-src.org.jgrapht.graph.AbstractBaseGraph$UndirectedEdgeContainer
-src.org.jgrapht.graph.AbstractBaseGraph$UndirectedSpecifics
-src.org.jgrapht.graph.AbstractGraph
-src.org.jgrapht.graph.AsUndirectedGraph
-src.org.jgrapht.graph.AsUnweightedDirectedGraph
-src.org.jgrapht.graph.AsUnweightedGraph
-src.org.jgrapht.graph.AsWeightedGraph
-src.org.jgrapht.graph.ClassBasedEdgeFactory
-src.org.jgrapht.graph.ClassBasedVertexFactory
-src.org.jgrapht.graph.DefaultDirectedGraph
-src.org.jgrapht.graph.DefaultDirectedWeightedGraph
-src.org.jgrapht.graph.DefaultEdge
-src.org.jgrapht.graph.DefaultGraphMapping
-src.org.jgrapht.graph.DefaultListenableGraph
-src.org.jgrapht.graph.DefaultListenableGraph$FlyweightEdgeEvent
-src.org.jgrapht.graph.DefaultListenableGraph$FlyweightVertexEvent
-src.org.jgrapht.graph.DefaultWeightedEdge
-src.org.jgrapht.graph.DirectedGraphUnion
-src.org.jgrapht.graph.DirectedMaskSubgraph
-src.org.jgrapht.graph.DirectedMultigraph
-src.org.jgrapht.graph.DirectedPseudograph
-src.org.jgrapht.graph.DirectedSubgraph
-src.org.jgrapht.graph.DirectedWeightedMultigraph
-src.org.jgrapht.graph.DirectedWeightedSubgraph
-src.org.jgrapht.graph.EdgeReversedGraph
-src.org.jgrapht.graph.EdgeSetFactory
-src.org.jgrapht.graph.GraphDelegator
-src.org.jgrapht.graph.GraphPathImpl
-src.org.jgrapht.graph.GraphUnion
-src.org.jgrapht.graph.IntrusiveEdge
-src.org.jgrapht.graph.ListenableDirectedGraph
-src.org.jgrapht.graph.ListenableDirectedWeightedGraph
-src.org.jgrapht.graph.ListenableUndirectedGraph
-src.org.jgrapht.graph.ListenableUndirectedWeightedGraph
-src.org.jgrapht.graph.MaskEdgeSet
-src.org.jgrapht.graph.MaskEdgeSet$MaskEdgeSetNextElementFunctor
-src.org.jgrapht.graph.MaskFunctor
-src.org.jgrapht.graph.MaskSubgraph
-src.org.jgrapht.graph.MaskVertexSet
-src.org.jgrapht.graph.MaskVertexSet$MaskVertexSetNextElementFunctor
-src.org.jgrapht.graph.Multigraph
-src.org.jgrapht.graph.ParanoidGraph
-src.org.jgrapht.graph.Pseudograph
-src.org.jgrapht.graph.SimpleDirectedGraph
-src.org.jgrapht.graph.SimpleDirectedWeightedGraph
-src.org.jgrapht.graph.SimpleGraph
-src.org.jgrapht.graph.SimpleWeightedGraph
-src.org.jgrapht.graph.Subgraph
-src.org.jgrapht.graph.Subgraph$BaseGraphListener
-src.org.jgrapht.graph.UndirectedGraphUnion
-src.org.jgrapht.graph.UndirectedMaskSubgraph
-src.org.jgrapht.graph.UndirectedSubgraph
-src.org.jgrapht.graph.UndirectedWeightedSubgraph
-src.org.jgrapht.graph.UnmodifiableDirectedGraph
-src.org.jgrapht.graph.UnmodifiableGraph
-src.org.jgrapht.graph.UnmodifiableUndirectedGraph
-src.org.jgrapht.graph.WeightedMultigraph
-src.org.jgrapht.graph.WeightedPseudograph
-src.org.jgrapht.Graph
-src.org.jgrapht.GraphHelper
-src.org.jgrapht.GraphMapping
-src.org.jgrapht.GraphPath
-src.org.jgrapht.Graphs
-src.org.jgrapht.ListenableGraph
-src.org.jgrapht.traverse.AbstractGraphIterator
-src.org.jgrapht.traverse.BreadthFirstIterator
-src.org.jgrapht.traverse.ClosestFirstIterator
-src.org.jgrapht.traverse.ClosestFirstIterator$QueueEntry
-src.org.jgrapht.traverse.CrossComponentIterator
-src.org.jgrapht.traverse.CrossComponentIterator$SimpleContainer
-src.org.jgrapht.traverse.CrossComponentIterator$Specifics
-src.org.jgrapht.traverse.CrossComponentIterator$FlyweightEdgeEvent
-src.org.jgrapht.traverse.CrossComponentIterator$FlyweightVertexEvent
-src.org.jgrapht.traverse.CrossComponentIterator$DirectedSpecifics
-src.org.jgrapht.traverse.CrossComponentIterator$UndirectedSpecifics
-src.org.jgrapht.traverse.DepthFirstIterator
-src.org.jgrapht.traverse.GraphIterator
-src.org.jgrapht.traverse.TopologicalOrderIterator
-src.org.jgrapht.traverse.TopologicalOrderIterator$LinkedListQueue
-src.org.jgrapht.UndirectedGraph
-src.org.jgrapht.util.ArrayUnenforcedSet
-src.org.jgrapht.util.ArrayUnenforcedSet$SetForEquality
-src.org.jgrapht.util.FibonacciHeap
-src.org.jgrapht.util.FibonacciHeapNode
-src.org.jgrapht.util.MathUtil
-src.org.jgrapht.util.ModifiableInteger
-src.org.jgrapht.util.PrefetchIterator
-src.org.jgrapht.util.PrefetchIterator$NextElementFunctor
-src.org.jgrapht.util.TypeUtil
-src.org.jgrapht.util.WeightCombiner
-src.org.jgrapht.VertexFactory
-src.org.jgrapht.WeightedGraph
-testsrc.org.jgrapht.alg.AllAlgTests
-testsrc.org.jgrapht.alg.BellmanFordShortestPathTest
-testsrc.org.jgrapht.alg.BiconnectedGraph
-testsrc.org.jgrapht.alg.BiconnectivityInspectorTest
-testsrc.org.jgrapht.alg.BlockCutpointGraphTest
-testsrc.org.jgrapht.alg.BronKerboschCliqueFinderTest
-testsrc.org.jgrapht.alg.ChromaticNumberTest
-testsrc.org.jgrapht.alg.ConnectivityInspectorTest
-testsrc.org.jgrapht.alg.CycleDetectorTest
-testsrc.org.jgrapht.alg.DijkstraShortestPathTest
-testsrc.org.jgrapht.alg.EdmondsKarpMaximumFlowTest
-testsrc.org.jgrapht.alg.EulerianCircuitTest
-testsrc.org.jgrapht.alg.FloydWarshallShortestPathsTest
-testsrc.org.jgrapht.alg.HamiltonianCycleTest
-testsrc.org.jgrapht.alg.KShortestPathCompleteGraph4
-testsrc.org.jgrapht.alg.KShortestPathCompleteGraph5
-testsrc.org.jgrapht.alg.KShortestPathCompleteGraph6
-testsrc.org.jgrapht.alg.KShortestPathCostTest
-testsrc.org.jgrapht.alg.KShortestPathKValuesTest
-testsrc.org.jgrapht.alg.KSPExampleGraph
-testsrc.org.jgrapht.alg.KSPExampleTest
-testsrc.org.jgrapht.alg.NeighborIndexTest
-testsrc.org.jgrapht.alg.NotBiconnectedGraph
-testsrc.org.jgrapht.alg.Picture1Graph
-testsrc.org.jgrapht.alg.ShortestPathTestCase
-testsrc.org.jgrapht.alg.TransitiveClosureTest
-testsrc.org.jgrapht.alg.VertexCoversTest
-testsrc.org.jgrapht.AllTests
-testsrc.org.jgrapht.AllTests$ExpandableTestSuite
-testsrc.org.jgrapht.EnhancedTestCase
-testsrc.org.jgrapht.experimental.dag.DirectedAcyclicGraphTest
-testsrc.org.jgrapht.experimental.dag.DirectedAcyclicGraphTest$LongVertexFactory
-testsrc.org.jgrapht.experimental.dag.DirectedAcyclicGraphTest$RepeatableRandomGraphGenerator
-testsrc.org.jgrapht.experimental.equivalence.EquivalenceGroupCreatorTest
-testsrc.org.jgrapht.experimental.isomorphism.comparators.DirectedEdgeWeightOddEvenComparator
-testsrc.org.jgrapht.experimental.isomorphism.comparators.Mod3GroupComparator
-testsrc.org.jgrapht.experimental.isomorphism.comparators.OddEvenGroupComparator
-testsrc.org.jgrapht.experimental.isomorphism.EdgeTopologyCompare
-testsrc.org.jgrapht.experimental.isomorphism.IntegerVertexFactory
-testsrc.org.jgrapht.experimental.isomorphism.IsomorphismInspectorTest
-testsrc.org.jgrapht.experimental.permutation.CompoundPermutationIterTest
-testsrc.org.jgrapht.ext.DOTExporterTest
-testsrc.org.jgrapht.ext.GmlExporterTest
-testsrc.org.jgrapht.ext.GraphMLExporterTest
-testsrc.org.jgrapht.ext.MatrixExporterTest
-testsrc.org.jgrapht.generate.AllGenerateTests
-testsrc.org.jgrapht.generate.GraphGeneratorTest
-testsrc.org.jgrapht.generate.RandomGraphGeneratorTest
-testsrc.org.jgrapht.graph.AllGraphTests
-testsrc.org.jgrapht.graph.AsUndirectedGraphTest
-testsrc.org.jgrapht.graph.AsUnweightedGraphTest
-testsrc.org.jgrapht.graph.AsWeightedGraphTest
-testsrc.org.jgrapht.graph.CloneTest
-testsrc.org.jgrapht.graph.CloneTest$BrokenVertex
-testsrc.org.jgrapht.graph.DefaultDirectedGraphTest
-testsrc.org.jgrapht.graph.DefaultDirectedGraphTest$LinkedHashSetFactory
-testsrc.org.jgrapht.graph.GenericGraphsTest
-testsrc.org.jgrapht.graph.GenericGraphsTest$CustomEdge
-testsrc.org.jgrapht.graph.GenericGraphsTest$EquivVertex
-testsrc.org.jgrapht.graph.GenericGraphsTest$EquivGraph
-testsrc.org.jgrapht.graph.GenericGraphsTest$FooEdge
-testsrc.org.jgrapht.graph.GenericGraphsTest$FooVertex
-testsrc.org.jgrapht.graph.GenericGraphsTest$BarEdge
-testsrc.org.jgrapht.graph.GenericGraphsTest$BarVertex
-testsrc.org.jgrapht.graph.ListenableGraphTest
-testsrc.org.jgrapht.graph.ListenableGraphTest$MyGraphListner
-testsrc.org.jgrapht.graph.SerializationTest
-testsrc.org.jgrapht.graph.SimpleDirectedGraphTest
-testsrc.org.jgrapht.graph.SubgraphTest
-testsrc.org.jgrapht.traverse.AbstractGraphIteratorTest
-testsrc.org.jgrapht.traverse.AbstractGraphIteratorTest$MyTraversalListener
-testsrc.org.jgrapht.traverse.AllTraverseTests
-testsrc.org.jgrapht.traverse.BreadthFirstIteratorTest
-testsrc.org.jgrapht.traverse.ClosestFirstIteratorTest
-testsrc.org.jgrapht.traverse.DepthFirstIteratorTest
-testsrc.org.jgrapht.traverse.IgnoreDirectionTest
-testsrc.org.jgrapht.traverse.TopologicalOrderIteratorTest
-testsrc.org.jgrapht.util.AllUtilTests
-testsrc.org.jgrapht.util.FibonacciHeapTest
-testsrc.org.jgrapht.util.PrefetchIteratorTest
-testsrc.org.jgrapht.util.PrefetchIteratorTest$IterateFrom1To99
-testsrc.org.jgrapht.util.StopWatch
+org.jgrapht.AllTests	classe	1
+org.jgrapht.AllTests$ExpandableTestSuite	classe	1
+org.jgrapht.experimental.permutation.CompoundPermutationIterTest	classe	1
+org.jgrapht.experimental.isomorphism.IntegerVertexFactory	classe	1
+org.jgrapht.experimental.isomorphism.comparators.DirectedEdgeWeightOddEvenComparator	classe	2
+org.jgrapht.experimental.isomorphism.comparators.Mod3GroupComparator	classe	2
+org.jgrapht.experimental.isomorphism.comparators.OddEvenGroupComparator	classe	2
+org.jgrapht.experimental.isomorphism.IsomorphismInspectorTest	classe	10
+org.jgrapht.experimental.isomorphism.EdgeTopologyCompare	classe	1
+org.jgrapht.experimental.dag.DirectedAcyclicGraphTest	classe	8
+org.jgrapht.experimental.dag.DirectedAcyclicGraphTest$LongVertexFactory	classe	1
+org.jgrapht.experimental.dag.DirectedAcyclicGraphTest$RepeatableRandomGraphGenerator	classe	1
+org.jgrapht.experimental.equivalence.EquivalenceGroupCreatorTest	classe	6
+org.jgrapht.util.PrefetchIteratorTest	classe	2
+org.jgrapht.util.PrefetchIteratorTest$IterateFrom1To99	classe	5
+org.jgrapht.util.StopWatch	classe	2
+org.jgrapht.util.AllUtilTests	classe	1
+org.jgrapht.util.FibonacciHeapTest	classe	2
+org.jgrapht.EnhancedTestCase	classe	2
+org.jgrapht.ext.MatrixExporterTest	classe	3
+org.jgrapht.ext.DOTExporterTest	classe	2
+org.jgrapht.ext.GmlExporterTest	classe	1
+org.jgrapht.ext.GraphMLExporterTest	classe	1
+org.jgrapht.graph.GenericGraphsTest	classe	7
+org.jgrapht.graph.GenericGraphsTest$CustomEdge	classe	1
+org.jgrapht.graph.GenericGraphsTest$EquivVertex	classe	2
+org.jgrapht.graph.GenericGraphsTest$EquivGraph	classe	0
+org.jgrapht.graph.GenericGraphsTest$FooEdge	classe	0
+org.jgrapht.graph.GenericGraphsTest$FooVertex	classe	0
+org.jgrapht.graph.GenericGraphsTest$BarEdge	classe	0
+org.jgrapht.graph.GenericGraphsTest$BarVertex	classe	0
+org.jgrapht.graph.AsUnweightedGraphTest	classe	4
+org.jgrapht.graph.AllGraphTests	classe	1
+org.jgrapht.graph.SerializationTest	classe	2
+org.jgrapht.graph.AsUndirectedGraphTest	classe	8
+org.jgrapht.graph.DefaultDirectedGraphTest	classe	9
+org.jgrapht.graph.DefaultDirectedGraphTest$LinkedHashSetFactory	classe	1
+org.jgrapht.graph.SubgraphTest	classe	4
+org.jgrapht.graph.ListenableGraphTest	classe	3
+org.jgrapht.graph.ListenableGraphTest$MyGraphListner	classe	4
+org.jgrapht.graph.AsWeightedGraphTest	classe	3
+org.jgrapht.graph.SimpleDirectedGraphTest	classe	22
+org.jgrapht.graph.CloneTest	classe	2
+org.jgrapht.graph.CloneTest$BrokenVertex	classe	1
+org.jgrapht.generate.GraphGeneratorTest	classe	8
+org.jgrapht.generate.RandomGraphGeneratorTest	classe	3
+org.jgrapht.generate.AllGenerateTests	classe	1
+org.jgrapht.traverse.ClosestFirstIteratorTest	classe	5
+org.jgrapht.traverse.DepthFirstIteratorTest	classe	5
+org.jgrapht.traverse.IgnoreDirectionTest	classe	4
+org.jgrapht.traverse.AbstractGraphIteratorTest	classe	6
+org.jgrapht.traverse.AbstractGraphIteratorTest$MyTraversalListener	classe	6
+org.jgrapht.traverse.TopologicalOrderIteratorTest	classe	2
+org.jgrapht.traverse.BreadthFirstIteratorTest	classe	3
+org.jgrapht.traverse.AllTraverseTests	classe	1
+org.jgrapht.alg.EulerianCircuitTest	classe	1
+org.jgrapht.alg.KShortestPathCompleteGraph6	classe	2
+org.jgrapht.alg.ShortestPathTestCase	classe	4
+org.jgrapht.alg.KShortestPathCostTest	classe	3
+org.jgrapht.alg.NeighborIndexTest	classe	2
+org.jgrapht.alg.TransitiveClosureTest	classe	2
+org.jgrapht.alg.ConnectivityInspectorTest	classe	7
+org.jgrapht.alg.BiconnectedGraph	classe	2
+org.jgrapht.alg.KSPExampleGraph	classe	2
+org.jgrapht.alg.Picture1Graph	classe	2
+org.jgrapht.alg.FloydWarshallShortestPathsTest	classe	1
+org.jgrapht.alg.NotBiconnectedGraph	classe	2
+org.jgrapht.alg.EdmondsKarpMaximumFlowTest	classe	3
+org.jgrapht.alg.BellmanFordShortestPathTest	classe	3
+org.jgrapht.alg.DijkstraShortestPathTest	classe	2
+org.jgrapht.alg.HamiltonianCycleTest	classe	1
+org.jgrapht.alg.KSPExampleTest	classe	3
+org.jgrapht.alg.BlockCutpointGraphTest	classe	5
+org.jgrapht.alg.VertexCoversTest	classe	4
+org.jgrapht.alg.KShortestPathKValuesTest	classe	6
+org.jgrapht.alg.BiconnectivityInspectorTest	classe	4
+org.jgrapht.alg.ChromaticNumberTest	classe	1
+org.jgrapht.alg.KShortestPathCompleteGraph4	classe	2
+org.jgrapht.alg.KShortestPathCompleteGraph5	classe	2
+org.jgrapht.alg.CycleDetectorTest	classe	5
+org.jgrapht.alg.AllAlgTests	classe	1
+org.jgrapht.alg.BronKerboschCliqueFinderTest	classe	3
+org.jgrapht.demo.JGraphAdapterDemo	classe	4
+org.jgrapht.demo.JGraphAdapterDemo$ListenableDirectedMultigraph	classe	0
+org.jgrapht.demo.PerformanceDemo	classe	3
+org.jgrapht.demo.HelloJGraphT	classe	3
+org.jgrapht.demo.CompleteGraphDemo	classe	2
+org.jgrapht.experimental.permutation.PermutationFactory	classe	2
+org.jgrapht.experimental.permutation.IntegerPermutationIter	classe	12
+org.jgrapht.experimental.permutation.ArrayPermutationsIter	interface	2
+org.jgrapht.experimental.permutation.CollectionPermutationIter	classe	6
+org.jgrapht.experimental.permutation.CompoundPermutationIter	classe	10
+org.jgrapht.experimental.PartiteRandomGraphGenerator	classe	1
+org.jgrapht.experimental.isomorphism.AdaptiveIsomorphismInspectorFactory	classe	8
+org.jgrapht.experimental.isomorphism.VertexDegreeEquivalenceComparator	classe	3
+org.jgrapht.experimental.isomorphism.VertexDegreeEquivalenceComparator$InOutDegrees	classe	1
+org.jgrapht.experimental.isomorphism.GraphIsomorphismInspector	interface	1
+org.jgrapht.experimental.isomorphism.EquivalenceIsomorphismInspector	classe	4
+org.jgrapht.experimental.isomorphism.PermutationIsomorphismInspector	classe	2
+org.jgrapht.experimental.isomorphism.AbstractExhaustiveIsomorphismInspector	classe	10
+org.jgrapht.experimental.isomorphism.AbstractExhaustiveIsomorphismInspector$NextFunctor	classe	1
+org.jgrapht.experimental.isomorphism.IsomorphismRelation	classe	4
+org.jgrapht.experimental.isomorphism.GraphOrdering	classe	4
+org.jgrapht.experimental.isomorphism.GraphOrdering$LabelsEdge	classe	3
+org.jgrapht.experimental.RandomGraphHelper	classe	2
+org.jgrapht.experimental.GraphReader	classe	5
+org.jgrapht.experimental.GraphReader$IntVertexFactory	classe	1
+org.jgrapht.experimental.dag.DirectedAcyclicGraph	classe	13
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoOrderMapping	interface	5
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoOrderMappingFactory	interface	1
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$Visited	interface	3
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$VisitedFactory	interface	1
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoComparator	classe	1
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoVertexBiMap	classe	6
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoVertexMap	classe	7
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$Region	classe	2
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$VisitedBitSetImpl	classe	5
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$VisitedArrayListImpl	classe	5
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$VisitedHashSetImpl	classe	4
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$VisitedArrayImpl	classe	4
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$CycleFoundException	classe	0
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoIterator	classe	4
+org.jgrapht.experimental.equivalence.EquivalenceComparatorChain	interface	1
+org.jgrapht.experimental.equivalence.EquivalenceComparatorChainBase	classe	3
+org.jgrapht.experimental.equivalence.EquivalenceSet	classe	9
+org.jgrapht.experimental.equivalence.EquivalenceSetCreator	classe	3
+org.jgrapht.experimental.equivalence.EquivalenceSetCreator$EqGroupSizeComparator	classe	1
+org.jgrapht.experimental.equivalence.EquivalenceComparator	interface	2
+org.jgrapht.experimental.equivalence.UniformEquivalenceComparator	classe	2
+org.jgrapht.experimental.touchgraph.TouchgraphConverter	classe	1
+org.jgrapht.experimental.touchgraph.TouchgraphPanel	classe	2
+org.jgrapht.experimental.touchgraph.SimpleTouchgraphApplet	classe	3
+org.jgrapht.experimental.GraphSquare	classe	11
+org.jgrapht.experimental.UniformRandomGraphGenerator	classe	1
+org.jgrapht.experimental.GraphTests	classe	5
+org.jgrapht.experimental.alg.ApproximationAlgorithm	interface	3
+org.jgrapht.experimental.alg.color.BrownBacktrackColoring	classe	2
+org.jgrapht.experimental.alg.color.GreedyColoring	classe	6
+org.jgrapht.experimental.alg.IntArrayGraphAlgorithm	classe	0
+org.jgrapht.experimental.alg.ExactAlgorithm	interface	1
+org.jgrapht.ListenableGraph	interface	4
+org.jgrapht.util.ModifiableInteger	classe	14
+org.jgrapht.util.FibonacciHeapNode	classe	3
+org.jgrapht.util.WeightCombiner	interface	1
+org.jgrapht.util.FibonacciHeap	classe	14
+org.jgrapht.util.TypeUtil	classe	1
+org.jgrapht.util.ArrayUnenforcedSet	classe	2
+org.jgrapht.util.ArrayUnenforcedSet$SetForEquality	classe	2
+org.jgrapht.util.MathUtil	classe	1
+org.jgrapht.util.PrefetchIterator	classe	7
+org.jgrapht.util.PrefetchIterator$NextElementFunctor	interface	1
+org.jgrapht.VertexFactory	interface	1
+org.jgrapht.Graph	interface	21
+org.jgrapht.GraphPath	interface	5
+org.jgrapht.ext.StringNameProvider	classe	1
+org.jgrapht.ext.IntegerNameProvider	classe	2
+org.jgrapht.ext.EdgeNameProvider	interface	1
+org.jgrapht.ext.JGraphModelAdapter	classe	24
+org.jgrapht.ext.JGraphModelAdapter$CellFactory	interface	2
+org.jgrapht.ext.JGraphModelAdapter$DefaultCellFactory	classe	2
+org.jgrapht.ext.JGraphModelAdapter$JGraphListener	classe	8
+org.jgrapht.ext.JGraphModelAdapter$JGraphTListener	classe	4
+org.jgrapht.ext.JGraphModelAdapter$ShieldedGraph	classe	9
+org.jgrapht.ext.DOTExporter	classe	2
+org.jgrapht.ext.IntegerEdgeNameProvider	classe	2
+org.jgrapht.ext.VisioExporter	classe	3
+org.jgrapht.ext.StringEdgeNameProvider	classe	1
+org.jgrapht.ext.MatrixExporter	classe	6
+org.jgrapht.ext.GraphMLExporter	classe	1
+org.jgrapht.ext.VertexNameProvider	interface	1
+org.jgrapht.ext.GmlExporter	classe	9
+org.jgrapht.graph.UndirectedGraphUnion	classe	1
+org.jgrapht.graph.SimpleGraph	classe	0
+org.jgrapht.graph.DefaultGraphMapping	classe	2
+org.jgrapht.graph.WeightedPseudograph	classe	0
+org.jgrapht.graph.UndirectedMaskSubgraph	classe	0
+org.jgrapht.graph.MaskEdgeSet	classe	3
+org.jgrapht.graph.MaskEdgeSet$MaskEdgeSetNextElementFunctor	classe	2
+org.jgrapht.graph.Pseudograph	classe	0
+org.jgrapht.graph.MaskFunctor	interface	2
+org.jgrapht.graph.GraphUnion	classe	19
+org.jgrapht.graph.DirectedMaskSubgraph	classe	0
+org.jgrapht.graph.DirectedMultigraph	classe	0
+org.jgrapht.graph.AbstractBaseGraph	classe	30
+org.jgrapht.graph.AbstractBaseGraph$Specifics	classe	12
+org.jgrapht.graph.AbstractBaseGraph$ArrayListFactory	classe	1
+org.jgrapht.graph.AbstractBaseGraph$DirectedEdgeContainer	classe	6
+org.jgrapht.graph.AbstractBaseGraph$DirectedSpecifics	classe	13
+org.jgrapht.graph.AbstractBaseGraph$UndirectedEdgeContainer	classe	4
+org.jgrapht.graph.AbstractBaseGraph$UndirectedSpecifics	classe	13
+org.jgrapht.graph.Multigraph	classe	0
+org.jgrapht.graph.DefaultDirectedGraph	classe	0
+org.jgrapht.graph.DefaultWeightedEdge	classe	1
+org.jgrapht.graph.ListenableDirectedWeightedGraph	classe	0
+org.jgrapht.graph.DirectedGraphUnion	classe	4
+org.jgrapht.graph.AsUnweightedGraph	classe	1
+org.jgrapht.graph.EdgeSetFactory	interface	1
+org.jgrapht.graph.GraphDelegator	classe	24
+org.jgrapht.graph.DefaultListenableGraph	classe	20
+org.jgrapht.graph.DefaultListenableGraph$FlyweightEdgeEvent	classe	2
+org.jgrapht.graph.DefaultListenableGraph$FlyweightVertexEvent	classe	2
+org.jgrapht.graph.AsUndirectedGraph	classe	10
+org.jgrapht.graph.ClassBasedVertexFactory	classe	1
+org.jgrapht.graph.DefaultEdge	classe	3
+org.jgrapht.graph.MaskVertexSet	classe	3
+org.jgrapht.graph.MaskVertexSet$MaskVertexSetNextElementFunctor	classe	1
+org.jgrapht.graph.ListenableUndirectedGraph	classe	0
+org.jgrapht.graph.DirectedWeightedSubgraph	classe	0
+org.jgrapht.graph.ListenableUndirectedWeightedGraph	classe	0
+org.jgrapht.graph.AsUnweightedDirectedGraph	classe	1
+org.jgrapht.graph.DefaultDirectedWeightedGraph	classe	0
+org.jgrapht.graph.IntrusiveEdge	classe	1
+org.jgrapht.graph.UnmodifiableGraph	classe	9
+org.jgrapht.graph.GraphPathImpl	classe	6
+org.jgrapht.graph.Subgraph	classe	21
+org.jgrapht.graph.Subgraph$BaseGraphListener	classe	4
+org.jgrapht.graph.UndirectedWeightedSubgraph	classe	0
+org.jgrapht.graph.DirectedPseudograph	classe	0
+org.jgrapht.graph.AbstractGraph	classe	8
+org.jgrapht.graph.MaskSubgraph	classe	25
+org.jgrapht.graph.ClassBasedEdgeFactory	classe	1
+org.jgrapht.graph.SimpleWeightedGraph	classe	0
+org.jgrapht.graph.SimpleDirectedWeightedGraph	classe	0
+org.jgrapht.graph.UnmodifiableUndirectedGraph	classe	0
+org.jgrapht.graph.UndirectedSubgraph	classe	1
+org.jgrapht.graph.WeightedMultigraph	classe	0
+org.jgrapht.graph.EdgeReversedGraph	classe	12
+org.jgrapht.graph.AsWeightedGraph	classe	2
+org.jgrapht.graph.ListenableDirectedGraph	classe	0
+org.jgrapht.graph.UnmodifiableDirectedGraph	classe	0
+org.jgrapht.graph.ParanoidGraph	classe	3
+org.jgrapht.graph.DirectedWeightedMultigraph	classe	0
+org.jgrapht.graph.DirectedSubgraph	classe	4
+org.jgrapht.graph.SimpleDirectedGraph	classe	0
+org.jgrapht.GraphHelper	classe	0
+org.jgrapht.Graphs	classe	15
+org.jgrapht.DirectedGraph	interface	4
+org.jgrapht.WeightedGraph	interface	1
+org.jgrapht.generate.HyperCubeGraphGenerator	classe	1
+org.jgrapht.generate.RingGraphGenerator	classe	1
+org.jgrapht.generate.WheelGraphGenerator	classe	1
+org.jgrapht.generate.ScaleFreeGraphGenerator	classe	1
+org.jgrapht.generate.LinearGraphGenerator	classe	1
+org.jgrapht.generate.CompleteGraphGenerator	classe	1
+org.jgrapht.generate.RandomGraphGenerator	classe	4
+org.jgrapht.generate.RandomGraphGenerator$EdgeTopologyFactory	interface	2
+org.jgrapht.generate.RandomGraphGenerator$DefaultEdgeTopologyFactory	classe	3
+org.jgrapht.generate.EmptyGraphGenerator	classe	1
+org.jgrapht.generate.CompleteBipartiteGraphGenerator	classe	1
+org.jgrapht.generate.GraphGenerator	interface	1
+org.jgrapht.generate.StarGraphGenerator	classe	1
+org.jgrapht.UndirectedGraph	interface	1
+org.jgrapht.traverse.TopologicalOrderIterator	classe	6
+org.jgrapht.traverse.TopologicalOrderIterator$LinkedListQueue	classe	5
+org.jgrapht.traverse.CrossComponentIterator	classe	16
+org.jgrapht.traverse.CrossComponentIterator$VisitColor	enum	0
+org.jgrapht.traverse.CrossComponentIterator$SimpleContainer	interface	3
+org.jgrapht.traverse.CrossComponentIterator$Specifics	classe	1
+org.jgrapht.traverse.CrossComponentIterator$FlyweightEdgeEvent	classe	1
+org.jgrapht.traverse.CrossComponentIterator$FlyweightVertexEvent	classe	1
+org.jgrapht.traverse.CrossComponentIterator$DirectedSpecifics	classe	1
+org.jgrapht.traverse.CrossComponentIterator$UndirectedSpecifics	classe	1
+org.jgrapht.traverse.AbstractGraphIterator	classe	12
+org.jgrapht.traverse.ClosestFirstIterator	classe	11
+org.jgrapht.traverse.ClosestFirstIterator$QueueEntry	classe	0
+org.jgrapht.traverse.BreadthFirstIterator	classe	4
+org.jgrapht.traverse.DepthFirstIterator	classe	6
+org.jgrapht.traverse.GraphIterator	interface	6
+org.jgrapht.EdgeFactory	interface	1
+org.jgrapht.GraphMapping	interface	2
+org.jgrapht.event.VertexSetListener	interface	2
+org.jgrapht.event.EdgeTraversalEvent	classe	1
+org.jgrapht.event.TraversalListener	interface	5
+org.jgrapht.event.GraphEdgeChangeEvent	classe	1
+org.jgrapht.event.VertexTraversalEvent	classe	1
+org.jgrapht.event.GraphChangeEvent	classe	1
+org.jgrapht.event.GraphListener	interface	2
+org.jgrapht.event.TraversalListenerAdapter	classe	5
+org.jgrapht.event.ConnectedComponentTraversalEvent	classe	1
+org.jgrapht.event.GraphVertexChangeEvent	classe	1
+org.jgrapht.alg.BlockCutpointGraph	classe	8
+org.jgrapht.alg.BlockCutpointGraph$BCGEdge	classe	2
+org.jgrapht.alg.BlockCutpointGraph$VertexComponentForbiddenFunction	classe	2
+org.jgrapht.alg.KShortestPathsIterator	classe	12
+org.jgrapht.alg.StrongConnectivityInspector	classe	7
+org.jgrapht.alg.StrongConnectivityInspector$VertexData	classe	6
+org.jgrapht.alg.StrongConnectivityInspector$VertexData1	classe	2
+org.jgrapht.alg.StrongConnectivityInspector$VertexData2	classe	2
+org.jgrapht.alg.BronKerboschCliqueFinder	classe	4
+org.jgrapht.alg.ChromaticNumber	classe	1
+org.jgrapht.alg.BellmanFordShortestPath	classe	5
+org.jgrapht.alg.DijkstraShortestPath	classe	5
+org.jgrapht.alg.RankingPathElement	classe	2
+org.jgrapht.alg.EdmondsKarpMaximumFlow	classe	8
+org.jgrapht.alg.EdmondsKarpMaximumFlow$Node	classe	0
+org.jgrapht.alg.EdmondsKarpMaximumFlow$Arc	classe	0
+org.jgrapht.alg.BellmanFordPathElement	classe	2
+org.jgrapht.alg.FloydWarshallShortestPaths	classe	3
+org.jgrapht.alg.util.VertexDegreeComparator	classe	1
+org.jgrapht.alg.BiconnectivityInspector	classe	4
+org.jgrapht.alg.ConnectivityInspector	classe	10
+org.jgrapht.alg.ConnectivityInspector$MyTraversalListener	classe	3
+org.jgrapht.alg.RankingPathElementList	classe	7
+org.jgrapht.alg.TransitiveClosure	classe	2
+org.jgrapht.alg.AbstractPathElementList	classe	3
+org.jgrapht.alg.EulerianCircuit	classe	2
+org.jgrapht.alg.DirectedNeighborIndex	classe	10
+org.jgrapht.alg.HamiltonianCycle	classe	1
+org.jgrapht.alg.KShortestPaths	classe	3
+org.jgrapht.alg.KShortestPaths$PathWrapper	classe	6
+org.jgrapht.alg.NeighborIndex	classe	7
+org.jgrapht.alg.NeighborIndex$Neighbors	classe	4
+org.jgrapht.alg.VertexCovers	classe	2
+org.jgrapht.alg.CycleDetector	classe	5
+org.jgrapht.alg.CycleDetector$CycleDetectedException	classe	0
+org.jgrapht.alg.CycleDetector$ProbeIterator	classe	2
+org.jgrapht.alg.BellmanFordIterator	classe	18
+org.jgrapht.alg.AbstractPathElement	classe	5

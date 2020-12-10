@@ -1,69 +1,273 @@
-org.java.plugin.boot.SplashHandler	State
-org.java.plugin.tools.ant.BaseJpfTask	Bridge
-org.java.plugin.ObjectFactory	Factory Method
-org.java.plugin.registry.xml.ModelExtensionPoint	(Object)Adapter
-org.java.plugin.registry.xml.ModelPluginDescriptor	(Object)Adapter
-org.java.plugin.standard.StandardObjectFactory	(Object)Adapter
-org.java.plugin.registry.xml.PluginFragmentImpl	(Object)Adapter
-org.java.plugin.boot.Boot	State
-org.java.plugin.registry.xml.ModelAttribute	(Object)Adapter
-org.java.plugin.registry.xml.ModelParameterDef	(Object)Adapter
-org.java.plugin.standard.StandardPluginManager	State
-org.java.plugin.registry.PluginRegistry	(Object)Adapter
-org.java.plugin.standard.StandardPluginClassLoader	State
-org.java.plugin.registry.PluginRegistry	Bridge
-org.java.plugin.boot.PluginsCollector	(Object)Adapter
-org.java.plugin.registry.xml.ManifestParser	(Object)Adapter
-org.java.plugin.util.ExtendedProperties	(Object)Adapter
-org.java.plugin.registry.xml.PluginRegistryImpl	Proxy
-org.java.plugin.boot.DefaultApplicationInitializer	(Object)Adapter
-org.java.plugin.registry.PluginRegistry$RegistryChangeListener	Observer
-org.java.plugin.standard.StandardPluginManager	(Object)Adapter
-org.java.plugin.registry.xml.PluginRegistryImpl	Observer
-org.java.plugin.registry.xml.PluginPrerequisiteImpl	(Object)Adapter
-org.java.plugin.registry.PluginRegistry	State
-org.java.plugin.registry.ExtensionPoint$ParameterDefinition	(Object)Adapter
-org.java.plugin.Plugin	Template Method
-org.java.plugin.registry.xml.PluginDescriptorImpl	State
-org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	State
-org.java.plugin.tools.mocks.MockPluginRegistry	Proxy
-org.java.plugin.registry.PluginRegistry	Factory Method
-org.java.plugin.boot.SplashHandler	Decorator
-org.java.plugin.PluginManager$EventListener	Observer
-org.java.plugin.boot.SplashWindow	Singleton
-org.java.plugin.registry.xml.ModelLibrary	(Object)Adapter
-org.java.plugin.PathResolver	State
-org.java.plugin.registry.xml.ExtensionImpl	(Object)Adapter
-org.java.plugin.registry.xml.ModelPrerequisite	(Object)Adapter
-org.java.plugin.registry.xml.ModelExtension	(Object)Adapter
-org.java.plugin.registry.xml.PluginRegistryImpl	(Object)Adapter
-org.java.plugin.registry.xml.ModelManifestInfo	(Object)Adapter
-org.java.plugin.boot.SplashHandlerWrapper	Decorator
-org.java.plugin.PathResolver	Bridge
-org.java.plugin.standard.PluginLifecycleHandler	State
-org.java.plugin.ObjectFactory	Template Method
-org.java.plugin.registry.xml.LibraryImpl	(Object)Adapter
-org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	(Object)Adapter
-org.java.plugin.registry.xml.PluginFragmentImpl	State
-org.java.plugin.registry.xml.IdentityImpl	Template Method
-org.java.plugin.registry.xml.ParameterValueParser	(Object)Adapter
-org.java.plugin.registry.xml.ExtensionPointImpl	(Object)Adapter
-org.java.plugin.registry.xml.ExtensionPointImpl$ParameterDefinitionImpl	(Object)Adapter
-org.java.plugin.tools.docgen.DocGenerator	State
-org.java.plugin.registry.xml.PluginRegistryImpl$ManifestInfoImpl	(Object)Adapter
-org.java.plugin.registry.xml.DocumentationImpl$ReferenceImpl	(Object)Adapter
-org.java.plugin.boot.DefaultApplicationInitializer	State
-org.java.plugin.boot.PluginsCollector	State
-org.java.plugin.registry.xml.ModelParameter	(Object)Adapter
-org.java.plugin.standard.StandardPluginManager	Observer
-org.java.plugin.registry.PluginDescriptor	State
-org.java.plugin.standard.StandardPluginClassLoader	(Object)Adapter
-org.java.plugin.registry.xml.PluginAttributeImpl	(Object)Adapter
-org.java.plugin.registry.ExtensionPoint$ParameterDefinition	State
-org.java.plugin.registry.xml.ModelPluginFragment	(Object)Adapter
-org.java.plugin.standard.StandardPluginClassLoader$PluginResourceLoader	(Object)Adapter
-org.java.plugin.registry.xml.ModelDocumentation	(Object)Adapter
-org.java.plugin.registry.xml.DocumentationImpl	(Object)Adapter
-org.java.plugin.standard.PluginLifecycleHandler	(Object)Adapter
-org.java.plugin.registry.xml.ModelDocumentationReference	(Object)Adapter
-org.java.plugin.registry.xml.PluginDescriptorImpl	(Object)Adapter
+org.java.plugin.ObjectFactory	null	Creator	Factory Method
+org.java.plugin.ObjectFactory	createManager	FactoryMethod()	Factory Method
+org.java.plugin.registry.PluginRegistry	null	Creator	Factory Method
+org.java.plugin.registry.PluginRegistry	readManifestInfo	FactoryMethod()	Factory Method
+org.java.plugin.registry.PluginRegistry	checkIntegrity	FactoryMethod()	Factory Method
+org.java.plugin.registry.PluginRegistry	getRegistrationReport	FactoryMethod()	Factory Method
+org.java.plugin.boot.SplashWindow	null	Singleton	Singleton
+org.java.plugin.boot.SplashWindow	null	uniqueInstance	Singleton
+org.java.plugin.registry.xml.ModelAttribute	null	Adaptee	(Object)Adapter
+org.java.plugin.registry.xml.PluginAttributeImpl	null	Adapter	(Object)Adapter
+org.java.plugin.registry.xml.PluginAttributeImpl	null	adaptee	(Object)Adapter
+org.java.plugin.registry.xml.PluginAttributeImpl	getValue	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ModelExtension	null	Adaptee	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionImpl	null	Adapter	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionImpl	null	adaptee	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionImpl	getExtendedPluginId	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionImpl	getExtendedPointId	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ModelExtensionPoint	null	Adaptee	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionPointImpl	null	Adapter	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionPointImpl	null	adaptee	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionPointImpl	getMultiplicity	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionPointImpl	getParameterDefinitions	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionPointImpl	getParentPluginId	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionPointImpl	getParentExtensionPointId	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionPointImpl	isSuccessorOf	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ModelLibrary	null	Adaptee	(Object)Adapter
+org.java.plugin.registry.xml.LibraryImpl	null	Adapter	(Object)Adapter
+org.java.plugin.registry.xml.LibraryImpl	null	adaptee	(Object)Adapter
+org.java.plugin.registry.xml.LibraryImpl	getPath	Request()	(Object)Adapter
+org.java.plugin.registry.xml.LibraryImpl	isCodeLibrary	Request()	(Object)Adapter
+org.java.plugin.registry.xml.LibraryImpl	getVersion	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ParameterValueParser	null	Adaptee	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	null	Adapter	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	null	adaptee	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	valueAsBoolean	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	valueAsDate	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	valueAsNumber	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	valueAsString	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	valueAsExtension	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	valueAsExtensionPoint	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	valueAsPluginDescriptor	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	valueAsUrl	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ModelParameter	null	Adaptee	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	null	Adapter	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	null	adaptee	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	rawValue	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ModelPluginDescriptor	null	Adaptee	(Object)Adapter
+org.java.plugin.registry.xml.PluginDescriptorImpl	null	Adapter	(Object)Adapter
+org.java.plugin.registry.xml.PluginDescriptorImpl	null	adaptee	(Object)Adapter
+org.java.plugin.registry.xml.PluginDescriptorImpl	getVendor	Request()	(Object)Adapter
+org.java.plugin.registry.xml.PluginDescriptorImpl	getVersion	Request()	(Object)Adapter
+org.java.plugin.registry.xml.PluginDescriptorImpl	getPluginClassName	Request()	(Object)Adapter
+org.java.plugin.registry.xml.PluginDescriptorImpl	getLocation	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ModelPluginFragment	null	Adaptee	(Object)Adapter
+org.java.plugin.registry.xml.PluginFragmentImpl	null	Adapter	(Object)Adapter
+org.java.plugin.registry.xml.PluginFragmentImpl	null	adaptee	(Object)Adapter
+org.java.plugin.registry.xml.PluginFragmentImpl	getVendor	Request()	(Object)Adapter
+org.java.plugin.registry.xml.PluginFragmentImpl	getVersion	Request()	(Object)Adapter
+org.java.plugin.registry.xml.PluginFragmentImpl	getPluginId	Request()	(Object)Adapter
+org.java.plugin.registry.xml.PluginFragmentImpl	getPluginVersion	Request()	(Object)Adapter
+org.java.plugin.registry.xml.PluginFragmentImpl	matches	Request()	(Object)Adapter
+org.java.plugin.registry.xml.PluginFragmentImpl	getLocation	Request()	(Object)Adapter
+org.java.plugin.registry.ExtensionPoint$ParameterDefinition	null	Adaptee	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	null	Adapter	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	null	adaptee	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	getDefinition	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	valueAsBoolean	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	valueAsDate	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	valueAsNumber	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	valueAsString	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	valueAsExtension	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	valueAsExtensionPoint	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	valueAsPluginDescriptor	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	valueAsUrl	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ManifestParser	null	Adaptee	(Object)Adapter
+org.java.plugin.registry.xml.PluginRegistryImpl	null	Adapter	(Object)Adapter
+org.java.plugin.registry.xml.PluginRegistryImpl	null	adaptee	(Object)Adapter
+org.java.plugin.registry.xml.PluginRegistryImpl	readManifestInfo	Request()	(Object)Adapter
+org.java.plugin.registry.xml.PluginRegistryImpl	register	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ModelPrerequisite	null	Adaptee	(Object)Adapter
+org.java.plugin.registry.xml.PluginPrerequisiteImpl	null	Adapter	(Object)Adapter
+org.java.plugin.registry.xml.PluginPrerequisiteImpl	null	adaptee	(Object)Adapter
+org.java.plugin.registry.xml.PluginPrerequisiteImpl	getPluginId	Request()	(Object)Adapter
+org.java.plugin.registry.xml.PluginPrerequisiteImpl	getPluginVersion	Request()	(Object)Adapter
+org.java.plugin.registry.xml.PluginPrerequisiteImpl	isOptional	Request()	(Object)Adapter
+org.java.plugin.registry.xml.PluginPrerequisiteImpl	isReverseLookup	Request()	(Object)Adapter
+org.java.plugin.registry.xml.PluginPrerequisiteImpl	matches	Request()	(Object)Adapter
+org.java.plugin.registry.xml.PluginPrerequisiteImpl	getMatch	Request()	(Object)Adapter
+org.java.plugin.registry.xml.PluginPrerequisiteImpl	isExported	Request()	(Object)Adapter
+org.java.plugin.util.ExtendedProperties	null	Adaptee	(Object)Adapter
+org.java.plugin.standard.StandardObjectFactory	null	Adapter	(Object)Adapter
+org.java.plugin.standard.StandardObjectFactory	null	adaptee	(Object)Adapter
+org.java.plugin.standard.StandardObjectFactory	createRegistry	Request()	(Object)Adapter
+org.java.plugin.standard.StandardObjectFactory	createPathResolver	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ModelParameterDef	null	Adaptee	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionPointImpl$ParameterDefinitionImpl	null	Adapter	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionPointImpl$ParameterDefinitionImpl	null	adaptee	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionPointImpl$ParameterDefinitionImpl	getMultiplicity	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionPointImpl$ParameterDefinitionImpl	getType	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionPointImpl$ParameterDefinitionImpl	getCustomData	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ExtensionPointImpl$ParameterDefinitionImpl	getDefaultValue	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ModelManifestInfo	null	Adaptee	(Object)Adapter
+org.java.plugin.registry.xml.PluginRegistryImpl$ManifestInfoImpl	null	Adapter	(Object)Adapter
+org.java.plugin.registry.xml.PluginRegistryImpl$ManifestInfoImpl	null	adaptee	(Object)Adapter
+org.java.plugin.registry.xml.PluginRegistryImpl$ManifestInfoImpl	getId	Request()	(Object)Adapter
+org.java.plugin.registry.xml.PluginRegistryImpl$ManifestInfoImpl	getVersion	Request()	(Object)Adapter
+org.java.plugin.registry.xml.PluginRegistryImpl$ManifestInfoImpl	getVendor	Request()	(Object)Adapter
+org.java.plugin.registry.xml.PluginRegistryImpl$ManifestInfoImpl	getPluginId	Request()	(Object)Adapter
+org.java.plugin.registry.xml.PluginRegistryImpl$ManifestInfoImpl	getPluginVersion	Request()	(Object)Adapter
+org.java.plugin.registry.xml.PluginRegistryImpl$ManifestInfoImpl	getMatchingRule	Request()	(Object)Adapter
+org.java.plugin.standard.StandardPluginClassLoader$PluginResourceLoader	null	Adaptee	(Object)Adapter
+org.java.plugin.standard.StandardPluginClassLoader	null	Adapter	(Object)Adapter
+org.java.plugin.standard.StandardPluginClassLoader	null	adaptee	(Object)Adapter
+org.java.plugin.standard.StandardPluginClassLoader	pluginsSetChanged	Request()	(Object)Adapter
+org.java.plugin.registry.xml.PluginDescriptorImpl	null	Adaptee	(Object)Adapter
+org.java.plugin.registry.xml.PluginPrerequisiteImpl	null	Adapter	(Object)Adapter
+org.java.plugin.registry.xml.PluginPrerequisiteImpl	null	adaptee	(Object)Adapter
+org.java.plugin.registry.xml.PluginPrerequisiteImpl	matches	Request()	(Object)Adapter
+org.java.plugin.util.ExtendedProperties	null	Adaptee	(Object)Adapter
+org.java.plugin.boot.DefaultApplicationInitializer	null	Adapter	(Object)Adapter
+org.java.plugin.boot.DefaultApplicationInitializer	null	adaptee	(Object)Adapter
+org.java.plugin.boot.DefaultApplicationInitializer	configure	Request()	(Object)Adapter
+org.java.plugin.boot.DefaultApplicationInitializer	initApplication	Request()	(Object)Adapter
+org.java.plugin.registry.PluginRegistry	null	Adaptee	(Object)Adapter
+org.java.plugin.standard.StandardPluginManager	null	Adapter	(Object)Adapter
+org.java.plugin.standard.StandardPluginManager	null	adaptee	(Object)Adapter
+org.java.plugin.standard.StandardPluginManager	publishPlugins	Request()	(Object)Adapter
+org.java.plugin.standard.StandardPluginManager	getPlugin	Request()	(Object)Adapter
+org.java.plugin.standard.StandardPluginManager	activatePlugin	Request()	(Object)Adapter
+org.java.plugin.standard.StandardPluginManager	shutdown	Request()	(Object)Adapter
+org.java.plugin.standard.StandardPluginManager	deactivatePlugin	Request()	(Object)Adapter
+org.java.plugin.standard.StandardPluginManager	disablePlugin	Request()	(Object)Adapter
+org.java.plugin.standard.StandardPluginManager	enablePlugin	Request()	(Object)Adapter
+org.java.plugin.standard.PluginLifecycleHandler	null	Adaptee	(Object)Adapter
+org.java.plugin.standard.StandardPluginManager	null	Adapter	(Object)Adapter
+org.java.plugin.standard.StandardPluginManager	null	adaptee	(Object)Adapter
+org.java.plugin.standard.StandardPluginManager	getPluginClassLoader	Request()	(Object)Adapter
+org.java.plugin.standard.StandardPluginManager	shutdown	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ModelDocumentationReference	null	Adaptee	(Object)Adapter
+org.java.plugin.registry.xml.DocumentationImpl$ReferenceImpl	null	Adapter	(Object)Adapter
+org.java.plugin.registry.xml.DocumentationImpl$ReferenceImpl	null	adaptee	(Object)Adapter
+org.java.plugin.registry.xml.DocumentationImpl$ReferenceImpl	getCaption	Request()	(Object)Adapter
+org.java.plugin.registry.xml.DocumentationImpl$ReferenceImpl	getRef	Request()	(Object)Adapter
+org.java.plugin.registry.xml.ModelDocumentation	null	Adaptee	(Object)Adapter
+org.java.plugin.registry.xml.DocumentationImpl	null	Adapter	(Object)Adapter
+org.java.plugin.registry.xml.DocumentationImpl	null	adaptee	(Object)Adapter
+org.java.plugin.registry.xml.DocumentationImpl	getCaption	Request()	(Object)Adapter
+org.java.plugin.registry.xml.DocumentationImpl	getText	Request()	(Object)Adapter
+org.java.plugin.boot.PluginsCollector	null	Adaptee	(Object)Adapter
+org.java.plugin.boot.DefaultApplicationInitializer	null	Adapter	(Object)Adapter
+org.java.plugin.boot.DefaultApplicationInitializer	null	adaptee	(Object)Adapter
+org.java.plugin.boot.DefaultApplicationInitializer	configure	Request()	(Object)Adapter
+org.java.plugin.boot.DefaultApplicationInitializer	initApplication	Request()	(Object)Adapter
+org.java.plugin.boot.SplashHandler	null	Component	Decorator
+org.java.plugin.boot.SplashHandlerWrapper	null	Decorator	Decorator
+org.java.plugin.boot.SplashHandlerWrapper	null	component	Decorator
+org.java.plugin.boot.SplashHandlerWrapper	configure	Operation()	Decorator
+org.java.plugin.boot.SplashHandlerWrapper	getProgress	Operation()	Decorator
+org.java.plugin.boot.SplashHandlerWrapper	setProgress	Operation()	Decorator
+org.java.plugin.boot.SplashHandlerWrapper	getText	Operation()	Decorator
+org.java.plugin.boot.SplashHandlerWrapper	setText	Operation()	Decorator
+org.java.plugin.boot.SplashHandlerWrapper	getImage	Operation()	Decorator
+org.java.plugin.boot.SplashHandlerWrapper	setImage	Operation()	Decorator
+org.java.plugin.boot.SplashHandlerWrapper	isVisible	Operation()	Decorator
+org.java.plugin.boot.SplashHandlerWrapper	setVisible	Operation()	Decorator
+org.java.plugin.boot.SplashHandlerWrapper	getImplementation	Operation()	Decorator
+org.java.plugin.PluginManager$EventListener	null	Observer	Observer
+org.java.plugin.standard.StandardPluginManager	null	Subject	Observer
+org.java.plugin.standard.StandardPluginManager	fireEvent	Notify()	Observer
+org.java.plugin.registry.PluginRegistry$RegistryChangeListener	null	Observer	Observer
+org.java.plugin.registry.xml.PluginRegistryImpl	null	Subject	Observer
+org.java.plugin.registry.xml.PluginRegistryImpl	fireEvent	Notify()	Observer
+org.java.plugin.registry.xml.PluginDescriptorImpl	null	Context	State
+org.java.plugin.registry.PluginRegistry	null	State	State
+org.java.plugin.registry.xml.PluginDescriptorImpl	null	state	State
+org.java.plugin.registry.xml.PluginDescriptorImpl	getUniqueId	Request()	State
+org.java.plugin.registry.xml.PluginFragmentImpl	null	Context	State
+org.java.plugin.registry.PluginRegistry	null	State	State
+org.java.plugin.registry.xml.PluginFragmentImpl	null	state	State
+org.java.plugin.registry.xml.PluginFragmentImpl	getUniqueId	Request()	State
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	null	Context	State
+org.java.plugin.registry.ExtensionPoint$ParameterDefinition	null	State	State
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	null	state	State
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	getDefinition	Request()	State
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	valueAsBoolean	Request()	State
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	valueAsDate	Request()	State
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	valueAsNumber	Request()	State
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	valueAsString	Request()	State
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	valueAsExtension	Request()	State
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	valueAsExtensionPoint	Request()	State
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	valueAsPluginDescriptor	Request()	State
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	valueAsUrl	Request()	State
+org.java.plugin.tools.docgen.DocGenerator	null	Context	State
+org.java.plugin.registry.PluginRegistry	null	State	State
+org.java.plugin.tools.docgen.DocGenerator	null	state	State
+org.java.plugin.tools.docgen.DocGenerator	generate	Request()	State
+org.java.plugin.tools.docgen.DocGenerator	generateForPluginDescriptor	Request()	State
+org.java.plugin.tools.docgen.DocGenerator	getAllPluginDescriptors	Request()	State
+org.java.plugin.tools.docgen.DocGenerator	getAllPluginFragments	Request()	State
+org.java.plugin.tools.docgen.DocGenerator	getAllExtensionPoints	Request()	State
+org.java.plugin.tools.docgen.DocGenerator	getAllExtensions	Request()	State
+org.java.plugin.tools.docgen.DocGenerator	null	Context	State
+org.java.plugin.PathResolver	null	State	State
+org.java.plugin.tools.docgen.DocGenerator	null	state	State
+org.java.plugin.tools.docgen.DocGenerator	generateForPluginDescriptor	Request()	State
+org.java.plugin.standard.StandardPluginManager	null	Context	State
+org.java.plugin.registry.PluginRegistry	null	State	State
+org.java.plugin.standard.StandardPluginManager	null	state	State
+org.java.plugin.standard.StandardPluginManager	registryChangeHandler	Request()	State
+org.java.plugin.standard.StandardPluginManager	publishPlugins	Request()	State
+org.java.plugin.standard.StandardPluginManager	getPlugin	Request()	State
+org.java.plugin.standard.StandardPluginManager	activatePlugin	Request()	State
+org.java.plugin.standard.StandardPluginManager	shutdown	Request()	State
+org.java.plugin.standard.StandardPluginManager	activatePlugin	Request()	State
+org.java.plugin.standard.StandardPluginManager	checkPrerequisites	Request()	State
+org.java.plugin.standard.StandardPluginManager	deactivatePlugin	Request()	State
+org.java.plugin.standard.StandardPluginManager	deactivatePlugin	Request()	State
+org.java.plugin.standard.StandardPluginManager	disablePlugin	Request()	State
+org.java.plugin.standard.StandardPluginManager	enablePlugin	Request()	State
+org.java.plugin.boot.Boot	null	Context	State
+org.java.plugin.boot.SplashHandler	null	State	State
+org.java.plugin.boot.Boot	null	state	State
+org.java.plugin.boot.Boot	main	Request()	State
+org.java.plugin.boot.Boot	boot	Request()	State
+org.java.plugin.boot.Boot	setSplashHandler	Request()	State
+org.java.plugin.boot.Boot	initSplashHandler	Request()	State
+org.java.plugin.standard.PluginLifecycleHandler	null	State	State
+org.java.plugin.standard.StandardPluginManager	null	Context	State
+org.java.plugin.standard.StandardPluginManager	null	state	State
+org.java.plugin.standard.StandardPluginManager	getPluginClassLoader	Request()	State
+org.java.plugin.standard.StandardPluginManager	shutdown	Request()	State
+org.java.plugin.standard.StandardPluginManager	activatePlugin	Request()	State
+org.java.plugin.standard.StandardPluginManager	deactivatePlugin	Request()	State
+org.java.plugin.standard.StandardPluginClassLoader	null	Context	State
+org.java.plugin.registry.PluginDescriptor	null	State	State
+org.java.plugin.standard.StandardPluginClassLoader	null	state	State
+org.java.plugin.standard.StandardPluginClassLoader	null	state	State
+org.java.plugin.standard.StandardPluginClassLoader	null	state	State
+org.java.plugin.standard.StandardPluginClassLoader	collectImports	Request()	State
+org.java.plugin.boot.DefaultApplicationInitializer	null	Context	State
+org.java.plugin.boot.PluginsCollector	null	State	State
+org.java.plugin.boot.DefaultApplicationInitializer	null	state	State
+org.java.plugin.boot.DefaultApplicationInitializer	configure	Request()	State
+org.java.plugin.boot.DefaultApplicationInitializer	initApplication	Request()	State
+org.java.plugin.standard.StandardPluginManager	null	Context	State
+org.java.plugin.PathResolver	null	State	State
+org.java.plugin.standard.StandardPluginManager	null	state	State
+org.java.plugin.standard.StandardPluginManager	registryChangeHandler	Request()	State
+org.java.plugin.tools.ant.BaseJpfTask	null	Abstraction	Bridge
+org.java.plugin.registry.PluginRegistry	null	Implementor	Bridge
+org.java.plugin.tools.ant.BaseJpfTask	null	implementor	Bridge
+org.java.plugin.tools.ant.BaseJpfTask	initRegistry	Operation()	Bridge
+org.java.plugin.tools.ant.BaseJpfTask	isManifestAccepted	Operation()	Bridge
+org.java.plugin.tools.ant.BaseJpfTask	isPluginInList	Operation()	Bridge
+org.java.plugin.tools.ant.BaseJpfTask	null	Abstraction	Bridge
+org.java.plugin.PathResolver	null	Implementor	Bridge
+org.java.plugin.tools.ant.BaseJpfTask	null	implementor	Bridge
+org.java.plugin.tools.ant.BaseJpfTask	initRegistry	Operation()	Bridge
+org.java.plugin.ObjectFactory	null	AbstractClass	Template Method
+org.java.plugin.ObjectFactory	newInstance	TemplateMethod()	Template Method
+org.java.plugin.ObjectFactory	createManager	TemplateMethod()	Template Method
+org.java.plugin.Plugin	null	AbstractClass	Template Method
+org.java.plugin.Plugin	start	TemplateMethod()	Template Method
+org.java.plugin.Plugin	stop	TemplateMethod()	Template Method
+org.java.plugin.registry.xml.IdentityImpl	null	AbstractClass	Template Method
+org.java.plugin.registry.xml.IdentityImpl	equals	TemplateMethod()	Template Method
+org.java.plugin.tools.mocks.MockPluginRegistry	null	Proxy	Proxy
+org.java.plugin.registry.xml.PluginRegistryImpl	null	RealSubject	Proxy
+org.java.plugin.tools.mocks.MockPluginRegistry	extractId	Request()	Proxy
+org.java.plugin.tools.mocks.MockPluginRegistry	extractPluginId	Request()	Proxy
+org.java.plugin.tools.mocks.MockPluginRegistry	extractVersion	Request()	Proxy
+org.java.plugin.tools.mocks.MockPluginRegistry	makeUniqueId	Request()	Proxy
+org.java.plugin.tools.mocks.MockPluginRegistry	makeUniqueId	Request()	Proxy

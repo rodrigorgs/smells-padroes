@@ -1,93 +1,93 @@
-src.eg.AllCombinations
-src.eg.AllFiles
-src.eg.AllFiles$WildCard
-src.eg.AllFiles$Expand
-src.eg.AllPairs
-src.eg.AllPairs$Var
-src.eg.AllPairs$Item
-src.eg.AllPairs$Pair
-src.eg.AllPairs$Setup
-src.eg.AllPairs$Cases
-src.eg.AllPairs$Cases$Case
-src.eg.AllPairs$Pairs
-src.eg.AllPairs$Step
-src.eg.AllPairs$Stats
-src.eg.ArithmeticColumnFixture
-src.eg.ArithmeticFixture
-src.eg.BinaryChop
-src.eg.Calculator
-src.eg.Calculator$HP35
-src.eg.ColumnIndex
-src.eg.ColumnIndex$Column
-src.eg.Division
-src.eg.ExampleTests
-src.eg.music.Browser
-src.eg.music.Dialog
-src.eg.music.Display
-src.eg.music.Music
-src.eg.music.MusicLibrary
-src.eg.music.MusicPlayer
-src.eg.music.Realtime
-src.eg.net.GeoCoordinate
-src.eg.Page
-src.eg.Page$Row
-src.eg.Sqrt
-src.fat.AnnotationFixture
-src.fat.Color
-src.fat.Divide
-src.fat.DocumentParseFixture
-src.fat.Equals
-src.fat.ExampleFixture
-src.fat.FatTest
-src.fat.FixtureLoadFixture
-src.fat.FixtureNameFixture
-src.fat.Frameworks
-src.fat.HtmlToTextFixture
-src.fat.Money
-src.fat.NotAFixture
-src.fat.ReferenceFixture
-src.fat.StandardAnnotationFixture
-src.fat.Table
-src.fat.TableParseFixture
-src.fat.Tests
-src.fat.Tests$Color
-src.fat.TextToHtmlFixture
-src.fit.ActionFixture
-src.fit.ColumnFixture
-src.fit.Counts
-src.fit.FileRunner
-src.fit.FileRunnerTest
-src.fit.Fixture
-src.fit.Fixture$RunTime
-src.fit.FixtureTest
-src.fit.FrameworkTest
-src.fit.FrameworkTest$TestFixture
-src.fit.Parse
-src.fit.ParseTest
-src.fit.PrimitiveFixture
-src.fit.RowFixture
-src.fit.RowFixtureTest
-src.fit.RowFixtureTest$BusinessObject
-src.fit.RowFixtureTest$TestRowFixture
-src.fit.ScientificDouble
-src.fit.Summary
-src.fit.TimedActionFixture
-src.fit.TypeAdapter
-src.fit.TypeAdapter$ByteAdapter
-src.fit.TypeAdapter$ClassByteAdapter
-src.fit.TypeAdapter$ShortAdapter
-src.fit.TypeAdapter$ClassShortAdapter
-src.fit.TypeAdapter$IntAdapter
-src.fit.TypeAdapter$ClassIntegerAdapter
-src.fit.TypeAdapter$LongAdapter
-src.fit.TypeAdapter$ClassLongAdapter
-src.fit.TypeAdapter$FloatAdapter
-src.fit.TypeAdapter$ClassFloatAdapter
-src.fit.TypeAdapter$DoubleAdapter
-src.fit.TypeAdapter$ClassDoubleAdapter
-src.fit.TypeAdapter$CharAdapter
-src.fit.TypeAdapter$ClassCharacterAdapter
-src.fit.TypeAdapter$BooleanAdapter
-src.fit.TypeAdapter$ClassBooleanAdapter
-src.fit.TypeAdapter$ArrayAdapter
-src.fit.WikiRunner
+fit.FileRunnerTest	classe	2
+fit.TimedActionFixture	classe	4
+fit.RowFixtureTest	classe	1
+fit.RowFixtureTest$BusinessObject	classe	1
+fit.RowFixtureTest$TestRowFixture	classe	2
+fit.WikiRunner	classe	1
+fit.ScientificDouble	classe	10
+fit.ParseTest	classe	8
+fit.Counts	classe	2
+fit.RowFixture	classe	15
+fit.FixtureTest	classe	1
+fit.PrimitiveFixture	classe	7
+fit.FileRunner	classe	7
+fit.ColumnFixture	classe	10
+fit.FrameworkTest	classe	6
+fit.FrameworkTest$TestFixture	classe	1
+fit.TypeAdapter	classe	11
+fit.TypeAdapter$ByteAdapter	classe	1
+fit.TypeAdapter$ClassByteAdapter	classe	1
+fit.TypeAdapter$ShortAdapter	classe	1
+fit.TypeAdapter$ClassShortAdapter	classe	1
+fit.TypeAdapter$IntAdapter	classe	1
+fit.TypeAdapter$ClassIntegerAdapter	classe	1
+fit.TypeAdapter$LongAdapter	classe	1
+fit.TypeAdapter$ClassLongAdapter	classe	1
+fit.TypeAdapter$FloatAdapter	classe	2
+fit.TypeAdapter$ClassFloatAdapter	classe	1
+fit.TypeAdapter$DoubleAdapter	classe	2
+fit.TypeAdapter$ClassDoubleAdapter	classe	1
+fit.TypeAdapter$CharAdapter	classe	1
+fit.TypeAdapter$ClassCharacterAdapter	classe	1
+fit.TypeAdapter$BooleanAdapter	classe	1
+fit.TypeAdapter$ClassBooleanAdapter	classe	1
+fit.TypeAdapter$ArrayAdapter	classe	4
+fit.ActionFixture	classe	7
+fit.Parse	classe	19
+fit.Summary	classe	5
+fit.Fixture	classe	27
+fit.Fixture$RunTime	classe	2
+eg.AllCombinations	classe	5
+eg.music.Browser	classe	20
+eg.music.MusicPlayer	classe	7
+eg.music.Dialog	classe	2
+eg.music.Display	classe	3
+eg.music.MusicLibrary	classe	11
+eg.music.Music	classe	4
+eg.music.Realtime	classe	7
+eg.AllPairs	classe	13
+eg.AllPairs$Var	classe	2
+eg.AllPairs$Item	classe	3
+eg.AllPairs$Pair	classe	4
+eg.AllPairs$Setup	classe	2
+eg.AllPairs$Cases	classe	2
+eg.AllPairs$Cases$Case	classe	0
+eg.AllPairs$Pairs	classe	3
+eg.AllPairs$Step	classe	8
+eg.AllPairs$Stats	classe	3
+eg.Page	classe	6
+eg.Page$Row	classe	3
+eg.net.GeoCoordinate	classe	4
+eg.Sqrt	classe	1
+eg.ArithmeticFixture	classe	2
+eg.ColumnIndex	classe	5
+eg.ColumnIndex$Column	classe	0
+eg.ArithmeticColumnFixture	classe	7
+eg.AllFiles	classe	12
+eg.AllFiles$WildCard	classe	1
+eg.AllFiles$Expand	classe	1
+eg.Calculator	classe	9
+eg.Calculator$HP35	classe	5
+eg.BinaryChop	classe	13
+eg.ExampleTests	classe	8
+eg.Division	classe	1
+fat.ExampleFixture	classe	0
+fat.NotAFixture	classe	0
+fat.StandardAnnotationFixture	classe	4
+fat.Table	classe	2
+fat.FixtureLoadFixture	classe	3
+fat.AnnotationFixture	classe	5
+fat.FixtureNameFixture	classe	4
+fat.Money	classe	3
+fat.TextToHtmlFixture	classe	3
+fat.Frameworks	classe	2
+fat.TableParseFixture	classe	7
+fat.Divide	classe	1
+fat.Equals	classe	6
+fat.ReferenceFixture	classe	1
+fat.Tests	classe	6
+fat.Tests$Color	classe	5
+fat.FatTest	classe	3
+fat.HtmlToTextFixture	classe	2
+fat.Color	classe	6
+fat.DocumentParseFixture	classe	6

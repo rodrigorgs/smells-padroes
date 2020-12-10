@@ -1,116 +1,116 @@
-docs.wiki.Statistics_attachments.StatisticListenerImpl
-src.java.com.opensymphony.oscache.base.AbstractCacheAdministrator
-src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache
-src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache$Entry
-src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache$HashIterator
-src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache$KeyIterator
-src.java.com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache$ValueIterator
-src.java.com.opensymphony.oscache.base.algorithm.FIFOCache
-src.java.com.opensymphony.oscache.base.algorithm.LRUCache
-src.java.com.opensymphony.oscache.base.algorithm.UnlimitedCache
-src.java.com.opensymphony.oscache.base.Cache
-src.java.com.opensymphony.oscache.base.CacheEntry
-src.java.com.opensymphony.oscache.base.Config
-src.java.com.opensymphony.oscache.base.EntryRefreshPolicy
-src.java.com.opensymphony.oscache.base.EntryUpdateState
-src.java.com.opensymphony.oscache.base.events.CacheEntryEvent
-src.java.com.opensymphony.oscache.base.events.CacheEntryEventListener
-src.java.com.opensymphony.oscache.base.events.CacheEntryEventType
-src.java.com.opensymphony.oscache.base.events.CacheEvent
-src.java.com.opensymphony.oscache.base.events.CacheEventListener
-src.java.com.opensymphony.oscache.base.events.CacheGroupEvent
-src.java.com.opensymphony.oscache.base.events.CacheMapAccessEvent
-src.java.com.opensymphony.oscache.base.events.CacheMapAccessEventListener
-src.java.com.opensymphony.oscache.base.events.CacheMapAccessEventType
-src.java.com.opensymphony.oscache.base.events.CachePatternEvent
-src.java.com.opensymphony.oscache.base.events.CachewideEvent
-src.java.com.opensymphony.oscache.base.events.CachewideEventType
-src.java.com.opensymphony.oscache.base.events.ScopeEvent
-src.java.com.opensymphony.oscache.base.events.ScopeEventListener
-src.java.com.opensymphony.oscache.base.events.ScopeEventType
-src.java.com.opensymphony.oscache.base.FinalizationException
-src.java.com.opensymphony.oscache.base.InitializationException
-src.java.com.opensymphony.oscache.base.LifecycleAware
-src.java.com.opensymphony.oscache.base.NeedsRefreshException
-src.java.com.opensymphony.oscache.base.persistence.CachePersistenceException
-src.java.com.opensymphony.oscache.base.persistence.PersistenceListener
-src.java.com.opensymphony.oscache.extra.CacheEntryEventListenerImpl
-src.java.com.opensymphony.oscache.extra.CacheMapAccessEventListenerImpl
-src.java.com.opensymphony.oscache.extra.ScopeEventListenerImpl
-src.java.com.opensymphony.oscache.general.GeneralCacheAdministrator
-src.java.com.opensymphony.oscache.plugins.clustersupport.AbstractBroadcastingListener
-src.java.com.opensymphony.oscache.plugins.clustersupport.ClusterNotification
-src.java.com.opensymphony.oscache.plugins.clustersupport.JavaGroupsBroadcastingListener
-src.java.com.opensymphony.oscache.plugins.clustersupport.JMS10BroadcastingListener
-src.java.com.opensymphony.oscache.plugins.clustersupport.JMSBroadcastingListener
-src.java.com.opensymphony.oscache.plugins.diskpersistence.AbstractDiskPersistenceListener
-src.java.com.opensymphony.oscache.plugins.diskpersistence.DiskPersistenceListener
-src.java.com.opensymphony.oscache.plugins.diskpersistence.HashDiskPersistenceListener
-src.java.com.opensymphony.oscache.util.ClassLoaderUtil
-src.java.com.opensymphony.oscache.util.FastCronParser
-src.java.com.opensymphony.oscache.util.ValueSet
-src.java.com.opensymphony.oscache.util.StringUtil
-src.java.com.opensymphony.oscache.web.CacheContextListener
-src.java.com.opensymphony.oscache.web.filter.CacheFilter
-src.java.com.opensymphony.oscache.web.filter.CacheHttpServletResponseWrapper
-src.java.com.opensymphony.oscache.web.filter.ExpiresRefreshPolicy
-src.java.com.opensymphony.oscache.web.filter.ICacheGroupsProvider
-src.java.com.opensymphony.oscache.web.filter.ICacheKeyProvider
-src.java.com.opensymphony.oscache.web.filter.ResponseContent
-src.java.com.opensymphony.oscache.web.filter.SplitServletOutputStream
-src.java.com.opensymphony.oscache.web.ServletCache
-src.java.com.opensymphony.oscache.web.ServletCacheAdministrator
-src.java.com.opensymphony.oscache.web.tag.CacheTag
-src.java.com.opensymphony.oscache.web.tag.FlushTag
-src.java.com.opensymphony.oscache.web.tag.GroupsTag
-src.java.com.opensymphony.oscache.web.tag.GroupTag
-src.java.com.opensymphony.oscache.web.tag.UseCachedTag
-src.java.com.opensymphony.oscache.web.WebEntryRefreshPolicy
-src.test.java.com.opensymphony.oscache.base.algorithm.TestAbstractCache
-src.test.java.com.opensymphony.oscache.base.algorithm.TestCompleteAlgorithm
-src.test.java.com.opensymphony.oscache.base.algorithm.TestFIFOCache
-src.test.java.com.opensymphony.oscache.base.algorithm.TestLRUCache
-src.test.java.com.opensymphony.oscache.base.algorithm.TestQueueCache
-src.test.java.com.opensymphony.oscache.base.algorithm.TestUnlimitedCache
-src.test.java.com.opensymphony.oscache.base.DummyAlwayRefreshEntryPolicy
-src.test.java.com.opensymphony.oscache.base.events.TestCacheEntryEvent
-src.test.java.com.opensymphony.oscache.base.events.TestCacheMapAccessEvent
-src.test.java.com.opensymphony.oscache.base.events.TestCompleteEvents
-src.test.java.com.opensymphony.oscache.base.events.TestScopeEvent
-src.test.java.com.opensymphony.oscache.base.GroupConcurrencyProblemTestCase
-src.test.java.com.opensymphony.oscache.base.Client
-src.test.java.com.opensymphony.oscache.base.TestAbstractCacheAdministrator
-src.test.java.com.opensymphony.oscache.base.TestCache
-src.test.java.com.opensymphony.oscache.base.TestCacheEntry
-src.test.java.com.opensymphony.oscache.base.TestCompleteBase
-src.test.java.com.opensymphony.oscache.base.TestConcurrency
-src.test.java.com.opensymphony.oscache.base.TestConcurrency$GetEntry
-src.test.java.com.opensymphony.oscache.base.TestConcurrency$GetStaleEntryAndCancelUpdate
-src.test.java.com.opensymphony.oscache.base.TestConcurrency$OSGeneralTest
-src.test.java.com.opensymphony.oscache.extra.TestCacheEntryEventListenerImpl
-src.test.java.com.opensymphony.oscache.extra.TestCacheMapAccessEventListenerImpl
-src.test.java.com.opensymphony.oscache.extra.TestCompleteExtra
-src.test.java.com.opensymphony.oscache.extra.TestScopeEventListenerImpl
-src.test.java.com.opensymphony.oscache.general.TestCompleteGeneral
-src.test.java.com.opensymphony.oscache.general.TestGeneralCacheAdministrator
-src.test.java.com.opensymphony.oscache.plugins.clustersupport.BaseTestBroadcastingListener
-src.test.java.com.opensymphony.oscache.plugins.clustersupport.ListenForClusterTests
-src.test.java.com.opensymphony.oscache.plugins.clustersupport.ListenForClusterTests$ShutdownHookThread
-src.test.java.com.opensymphony.oscache.plugins.clustersupport.TestCompleteClustering
-src.test.java.com.opensymphony.oscache.plugins.clustersupport.TestJavaGroupsBroadcastingListener
-src.test.java.com.opensymphony.oscache.plugins.clustersupport.TestJMS10BroadcastingListener
-src.test.java.com.opensymphony.oscache.plugins.clustersupport.TestJMSBroadcastingListener
-src.test.java.com.opensymphony.oscache.plugins.diskpersistence.TestDiskPersistenceListener
-src.test.java.com.opensymphony.oscache.plugins.diskpersistence.TestDiskPersistenceListener$CacheFileFilter
-src.test.java.com.opensymphony.oscache.plugins.diskpersistence.TestHashDiskPersistenceListener
-src.test.java.com.opensymphony.oscache.plugins.diskpersistence.TestHashDiskPersistenceListener$CacheFileFilter
-src.test.java.com.opensymphony.oscache.plugins.diskpersistence.TestUnSerializable
-src.test.java.com.opensymphony.oscache.plugins.diskpersistence.TestUnSerializable$UnSerializable
-src.test.java.com.opensymphony.oscache.util.TestFastCronParser
-src.test.java.com.opensymphony.oscache.web.CheckDeployment
-src.test.java.com.opensymphony.oscache.web.TestCompleteWeb
-src.test.java.com.opensymphony.oscache.web.TestLoadCompleteWeb
-src.test.java.com.opensymphony.oscache.web.TestOscacheFilter
-src.test.java.com.opensymphony.oscache.web.TestOscacheJsp
-src.test.java.com.opensymphony.oscache.web.TestOscacheServlet
-src.webapp.WEB-INF.classes.com.opensymphony.oscache.web.OscacheServlet
+com.opensymphony.oscache.extra.StatisticListenerImpl	classe	11
+com.opensymphony.oscache.util.TestFastCronParser	classe	7
+com.opensymphony.oscache.general.TestGeneralCacheAdministrator	classe	14
+com.opensymphony.oscache.general.TestCompleteGeneral	classe	2
+com.opensymphony.oscache.plugins.clustersupport.TestCompleteClustering	classe	2
+com.opensymphony.oscache.plugins.clustersupport.ListenForClusterTests	classe	3
+com.opensymphony.oscache.plugins.clustersupport.ListenForClusterTests$ShutdownHookThread	classe	1
+com.opensymphony.oscache.plugins.clustersupport.TestJavaGroupsBroadcastingListener	classe	3
+com.opensymphony.oscache.plugins.clustersupport.TestJMS10BroadcastingListener	classe	3
+com.opensymphony.oscache.plugins.clustersupport.BaseTestBroadcastingListener	classe	5
+com.opensymphony.oscache.plugins.clustersupport.TestJMSBroadcastingListener	classe	3
+com.opensymphony.oscache.plugins.diskpersistence.TestDiskPersistenceListener	classe	8
+com.opensymphony.oscache.plugins.diskpersistence.TestDiskPersistenceListener$CacheFileFilter	classe	1
+com.opensymphony.oscache.plugins.diskpersistence.TestUnSerializable	classe	5
+com.opensymphony.oscache.plugins.diskpersistence.TestUnSerializable$UnSerializable	classe	0
+com.opensymphony.oscache.plugins.diskpersistence.TestHashDiskPersistenceListener	classe	8
+com.opensymphony.oscache.plugins.diskpersistence.TestHashDiskPersistenceListener$CacheFileFilter	classe	1
+com.opensymphony.oscache.web.TestOscacheJsp	classe	8
+com.opensymphony.oscache.web.TestOscacheFilter	classe	9
+com.opensymphony.oscache.web.CheckDeployment	classe	1
+com.opensymphony.oscache.web.TestLoadCompleteWeb	classe	2
+com.opensymphony.oscache.web.TestOscacheServlet	classe	7
+com.opensymphony.oscache.web.TestCompleteWeb	classe	2
+com.opensymphony.oscache.extra.TestCacheEntryEventListenerImpl	classe	2
+com.opensymphony.oscache.extra.TestCompleteExtra	classe	2
+com.opensymphony.oscache.extra.TestCacheMapAccessEventListenerImpl	classe	2
+com.opensymphony.oscache.extra.TestScopeEventListenerImpl	classe	2
+com.opensymphony.oscache.base.TestCache	classe	12
+com.opensymphony.oscache.base.DummyAlwayRefreshEntryPolicy	classe	1
+com.opensymphony.oscache.base.TestAbstractCacheAdministrator	classe	7
+com.opensymphony.oscache.base.TestCompleteBase	classe	2
+com.opensymphony.oscache.base.GroupConcurrencyProblemTestCase	classe	1
+com.opensymphony.oscache.base.Client	classe	1
+com.opensymphony.oscache.base.algorithm.TestAbstractCache	classe	10
+com.opensymphony.oscache.base.algorithm.TestQueueCache	classe	9
+com.opensymphony.oscache.base.algorithm.TestLRUCache	classe	4
+com.opensymphony.oscache.base.algorithm.TestCompleteAlgorithm	classe	2
+com.opensymphony.oscache.base.algorithm.TestUnlimitedCache	classe	5
+com.opensymphony.oscache.base.algorithm.TestFIFOCache	classe	4
+com.opensymphony.oscache.base.TestConcurrency	classe	8
+com.opensymphony.oscache.base.TestConcurrency$GetEntry	classe	1
+com.opensymphony.oscache.base.TestConcurrency$GetStaleEntryAndCancelUpdate	classe	1
+com.opensymphony.oscache.base.TestConcurrency$OSGeneralTest	classe	2
+com.opensymphony.oscache.base.events.TestScopeEvent	classe	2
+com.opensymphony.oscache.base.events.TestCompleteEvents	classe	2
+com.opensymphony.oscache.base.events.TestCacheMapAccessEvent	classe	2
+com.opensymphony.oscache.base.events.TestCacheEntryEvent	classe	2
+com.opensymphony.oscache.base.TestCacheEntry	classe	9
+com.opensymphony.oscache.web.OscacheServlet	classe	4
+com.opensymphony.oscache.util.FastCronParser	classe	16
+com.opensymphony.oscache.util.ValueSet	classe	0
+com.opensymphony.oscache.util.StringUtil	classe	2
+com.opensymphony.oscache.util.ClassLoaderUtil	classe	1
+com.opensymphony.oscache.general.GeneralCacheAdministrator	classe	18
+com.opensymphony.oscache.plugins.clustersupport.ClusterNotification	classe	3
+com.opensymphony.oscache.plugins.clustersupport.JavaGroupsBroadcastingListener	classe	7
+com.opensymphony.oscache.plugins.clustersupport.AbstractBroadcastingListener	classe	15
+com.opensymphony.oscache.plugins.clustersupport.JMS10BroadcastingListener	classe	3
+com.opensymphony.oscache.plugins.clustersupport.JMSBroadcastingListener	classe	3
+com.opensymphony.oscache.plugins.diskpersistence.DiskPersistenceListener	classe	1
+com.opensymphony.oscache.plugins.diskpersistence.AbstractDiskPersistenceListener	classe	23
+com.opensymphony.oscache.plugins.diskpersistence.HashDiskPersistenceListener	classe	3
+com.opensymphony.oscache.web.ServletCacheAdministrator	classe	30
+com.opensymphony.oscache.web.WebEntryRefreshPolicy	interface	1
+com.opensymphony.oscache.web.CacheContextListener	classe	2
+com.opensymphony.oscache.web.ServletCache	classe	5
+com.opensymphony.oscache.web.filter.CacheHttpServletResponseWrapper	classe	20
+com.opensymphony.oscache.web.filter.CacheFilter	classe	11
+com.opensymphony.oscache.web.filter.ICacheGroupsProvider	interface	1
+com.opensymphony.oscache.web.filter.SplitServletOutputStream	classe	3
+com.opensymphony.oscache.web.filter.ResponseContent	classe	15
+com.opensymphony.oscache.web.filter.ExpiresRefreshPolicy	classe	1
+com.opensymphony.oscache.web.filter.ICacheKeyProvider	interface	1
+com.opensymphony.oscache.web.tag.FlushTag	classe	6
+com.opensymphony.oscache.web.tag.UseCachedTag	classe	2
+com.opensymphony.oscache.web.tag.GroupTag	classe	2
+com.opensymphony.oscache.web.tag.GroupsTag	classe	2
+com.opensymphony.oscache.web.tag.CacheTag	classe	23
+com.opensymphony.oscache.extra.CacheMapAccessEventListenerImpl	classe	6
+com.opensymphony.oscache.extra.ScopeEventListenerImpl	classe	7
+com.opensymphony.oscache.extra.CacheEntryEventListenerImpl	classe	15
+com.opensymphony.oscache.base.AbstractCacheAdministrator	classe	14
+com.opensymphony.oscache.base.EntryUpdateState	classe	10
+com.opensymphony.oscache.base.LifecycleAware	interface	2
+com.opensymphony.oscache.base.FinalizationException	classe	0
+com.opensymphony.oscache.base.Cache	classe	40
+com.opensymphony.oscache.base.algorithm.FIFOCache	classe	4
+com.opensymphony.oscache.base.algorithm.UnlimitedCache	classe	5
+com.opensymphony.oscache.base.algorithm.LRUCache	classe	5
+com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	classe	58
+com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache$Entry	classe	7
+com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache$HashIterator	classe	6
+com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache$KeyIterator	classe	1
+com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache$ValueIterator	classe	1
+com.opensymphony.oscache.base.CacheEntry	classe	13
+com.opensymphony.oscache.base.persistence.PersistenceListener	interface	10
+com.opensymphony.oscache.base.persistence.CachePersistenceException	classe	0
+com.opensymphony.oscache.base.InitializationException	classe	0
+com.opensymphony.oscache.base.Config	classe	5
+com.opensymphony.oscache.base.NeedsRefreshException	classe	1
+com.opensymphony.oscache.base.EntryRefreshPolicy	interface	1
+com.opensymphony.oscache.base.events.ScopeEvent	classe	3
+com.opensymphony.oscache.base.events.CachePatternEvent	classe	3
+com.opensymphony.oscache.base.events.ScopeEventType	classe	0
+com.opensymphony.oscache.base.events.CacheEntryEvent	classe	4
+com.opensymphony.oscache.base.events.CacheGroupEvent	classe	3
+com.opensymphony.oscache.base.events.CacheMapAccessEvent	classe	3
+com.opensymphony.oscache.base.events.ScopeEventListener	interface	1
+com.opensymphony.oscache.base.events.CacheMapAccessEventType	classe	0
+com.opensymphony.oscache.base.events.CachewideEventType	classe	0
+com.opensymphony.oscache.base.events.CacheEntryEventListener	interface	7
+com.opensymphony.oscache.base.events.CacheMapAccessEventListener	interface	1
+com.opensymphony.oscache.base.events.CacheEntryEventType	classe	0
+com.opensymphony.oscache.base.events.CachewideEvent	classe	2
+com.opensymphony.oscache.base.events.CacheEventListener	interface	0
+com.opensymphony.oscache.base.events.CacheEvent	classe	1

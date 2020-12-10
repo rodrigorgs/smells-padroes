@@ -1,6 +1,30 @@
-org.cyberneko.html.xercesbridge.XercesBridge	Singleton
-org.cyberneko.html.HTMLTagBalancer	State
-org.cyberneko.html.HTMLScanner$Scanner	State
-org.cyberneko.html.HTMLErrorReporter	State
-org.cyberneko.html.HTMLScanner	State
-org.cyberneko.html.HTMLTagBalancingListener	State
+org.cyberneko.html.xercesbridge.XercesBridge	null	Singleton	Singleton
+org.cyberneko.html.xercesbridge.XercesBridge	null	uniqueInstance	Singleton
+org.cyberneko.html.HTMLScanner$Scanner	null	State	State
+org.cyberneko.html.HTMLScanner	null	Context	State
+org.cyberneko.html.HTMLScanner	null	state	State
+org.cyberneko.html.HTMLScanner	null	state	State
+org.cyberneko.html.HTMLScanner	evaluateInputSource	Request()	State
+org.cyberneko.html.HTMLScanner	scanDocument	Request()	State
+org.cyberneko.html.HTMLScanner	null	Context	State
+org.cyberneko.html.HTMLErrorReporter	null	State	State
+org.cyberneko.html.HTMLScanner	null	state	State
+org.cyberneko.html.HTMLScanner	setInputSource	Request()	State
+org.cyberneko.html.HTMLScanner	scanDoctype	Request()	State
+org.cyberneko.html.HTMLScanner	scanLiteral	Request()	State
+org.cyberneko.html.HTMLScanner	scanEntityRef	Request()	State
+org.cyberneko.html.HTMLTagBalancer	null	Context	State
+org.cyberneko.html.HTMLErrorReporter	null	State	State
+org.cyberneko.html.HTMLTagBalancer	null	state	State
+org.cyberneko.html.HTMLTagBalancer	doctypeDecl	Request()	State
+org.cyberneko.html.HTMLTagBalancer	endDocument	Request()	State
+org.cyberneko.html.HTMLTagBalancer	startElement	Request()	State
+org.cyberneko.html.HTMLTagBalancer	startGeneralEntity	Request()	State
+org.cyberneko.html.HTMLTagBalancer	forceStartBody	Request()	State
+org.cyberneko.html.HTMLTagBalancer	characters	Request()	State
+org.cyberneko.html.HTMLTagBalancer	endElement	Request()	State
+org.cyberneko.html.HTMLTagBalancer	null	Context	State
+org.cyberneko.html.HTMLTagBalancingListener	null	State	State
+org.cyberneko.html.HTMLTagBalancer	null	state	State
+org.cyberneko.html.HTMLTagBalancer	notifyDiscardedStartElement	Request()	State
+org.cyberneko.html.HTMLTagBalancer	notifyDiscardedEndElement	Request()	State

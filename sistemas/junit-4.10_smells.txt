@@ -1,34 +1,34 @@
-org.junit.internal.runners.statements.ExpectException	Feature Envy
-org.junit.runners.ParentRunner	Refused Parent Bequest
-junit.runner.BaseTestRunner	Dispersed Coupling
-junit.runner.BaseTestRunner	Feature Envy
-junit.runner.BaseTestRunner	God Class
-junit.runner.BaseTestRunner	Data Class
-org.junit.runners.model.Statement	Shotgun Surgery
-org.junit.experimental.max.MaxCore	Feature Envy
-org.junit.internal.matchers.TypeSafeMatcher	Feature Envy
-org.junit.experimental.categories.Categories$CategoryFilter	Refused Parent Bequest
-org.junit.internal.builders.AnnotatedBuilder	Feature Envy
-org.junit.runner.Description	Shotgun Surgery
-org.junit.internal.runners.MethodValidator	Dispersed Coupling
-org.junit.runners.BlockJUnit4ClassRunner	Feature Envy
-org.junit.runners.BlockJUnit4ClassRunner	God Class
-org.junit.runners.BlockJUnit4ClassRunner	Refused Parent Bequest
-org.junit.internal.runners.JUnit4ClassRunner	Refused Parent Bequest
-junit.textui.TestRunner	Data Class
-junit.textui.TestRunner	Refused Parent Bequest
-org.junit.experimental.theories.Theories$TheoryAnchor	Refused Parent Bequest
-org.junit.runners.Parameterized	Feature Envy
-org.junit.internal.runners.MethodRoadie	Feature Envy
-org.junit.internal.runners.MethodRoadie	Intensive Coupling
-org.junit.internal.runners.JUnit38ClassRunner	Dispersed Coupling
-org.junit.internal.runners.JUnit38ClassRunner	Refused Parent Bequest
-org.junit.runners.model.FrameworkMethod	Dispersed Coupling
-org.junit.runners.model.FrameworkMethod	Refused Parent Bequest
-org.junit.runner.JUnitCore	Dispersed Coupling
-junit.framework.TestSuite	Feature Envy
-junit.framework.TestSuite	Intensive Coupling
-junit.framework.TestSuite	Feature Envy
-junit.framework.TestSuite	Feature Envy
-org.junit.experimental.theories.internal.AllMembersSupplier	Dispersed Coupling
-junit.framework.TestCase	Refused Parent Bequest
+org.junit.internal.runners.statements.ExpectException	evaluate	Feature Envy
+org.junit.runners.ParentRunner	null	Refused Parent Bequest
+junit.runner.BaseTestRunner	getTest	Dispersed Coupling
+junit.runner.BaseTestRunner	processArguments	Feature Envy
+junit.runner.BaseTestRunner	null	God Class
+junit.runner.BaseTestRunner	null	Data Class
+org.junit.runners.model.Statement	evaluate	Shotgun Surgery
+org.junit.experimental.max.MaxCore	buildRunner	Feature Envy
+org.junit.internal.matchers.TypeSafeMatcher	findExpectedType	Feature Envy
+org.junit.experimental.categories.Categories$CategoryFilter	null	Refused Parent Bequest
+org.junit.internal.builders.AnnotatedBuilder	buildRunner	Feature Envy
+org.junit.runner.Description	getChildren	Shotgun Surgery
+org.junit.internal.runners.MethodValidator	validateTestMethods	Dispersed Coupling
+org.junit.runners.BlockJUnit4ClassRunner	validateNoNonStaticInnerClass	Feature Envy
+org.junit.runners.BlockJUnit4ClassRunner	null	God Class
+org.junit.runners.BlockJUnit4ClassRunner	null	Refused Parent Bequest
+org.junit.internal.runners.JUnit4ClassRunner	null	Refused Parent Bequest
+junit.textui.TestRunner	null	Data Class
+junit.textui.TestRunner	null	Refused Parent Bequest
+org.junit.experimental.theories.Theories$TheoryAnchor	null	Refused Parent Bequest
+org.junit.runners.Parameterized	Parameterized	Feature Envy
+org.junit.internal.runners.MethodRoadie	runWithTimeout	Feature Envy
+org.junit.internal.runners.MethodRoadie	runTestMethod	Intensive Coupling
+org.junit.internal.runners.JUnit38ClassRunner	makeDescription	Dispersed Coupling
+org.junit.internal.runners.JUnit38ClassRunner	null	Refused Parent Bequest
+org.junit.runners.model.FrameworkMethod	validatePublicVoid	Dispersed Coupling
+org.junit.runners.model.FrameworkMethod	null	Refused Parent Bequest
+org.junit.runner.JUnitCore	runMain	Dispersed Coupling
+junit.framework.TestSuite	addTestsFromTestCase	Feature Envy
+junit.framework.TestSuite	addTestsFromTestCase	Intensive Coupling
+junit.framework.TestSuite	addTestMethod	Feature Envy
+junit.framework.TestSuite	isTestMethod	Feature Envy
+org.junit.experimental.theories.internal.AllMembersSupplier	addFields	Dispersed Coupling
+junit.framework.TestCase	null	Refused Parent Bequest

@@ -1,1221 +1,1221 @@
-core.com.itextpdf.text.pdf.qrcode.Version	Feature Envy
-core.com.itextpdf.text.pdf.PdfLine	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfLine	Feature Envy
-core.com.itextpdf.text.pdf.PdfLine	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfLine	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfLine	Dispersed Coupling
-core.com.itextpdf.text.ImgCCITT	Feature Envy
-core.com.itextpdf.text.pdf.PdfGState	Feature Envy
-core.com.itextpdf.text.pdf.PdfGState	Feature Envy
-core.com.itextpdf.text.pdf.PdfGState	Feature Envy
-core.com.itextpdf.text.pdf.PdfGState	Feature Envy
-core.com.itextpdf.text.pdf.BarcodeEAN	Intensive Coupling
-core.com.itextpdf.text.pdf.BarcodeEAN	Feature Envy
-core.com.itextpdf.text.pdf.BarcodeEAN	Feature Envy
-core.com.itextpdf.text.pdf.BarcodeEAN	Brain Method
-core.com.itextpdf.text.pdf.BarcodeEAN	Intensive Coupling
-core.com.itextpdf.text.pdf.BarcodeEAN	God Class
-core.com.itextpdf.text.pdf.BarcodeEAN	Brain Class
-core.com.itextpdf.text.pdf.BarcodeEAN	Refused Parent Bequest
-core.com.itextpdf.text.pdf.BarcodeEAN	Tradition Breaker
-core.com.itextpdf.text.SpecialSymbol	Feature Envy
-core.com.itextpdf.text.SpecialSymbol	God Class
-core.com.itextpdf.text.pdf.internal.PdfViewerPreferencesImp	Feature Envy
-core.com.itextpdf.text.pdf.internal.PdfViewerPreferencesImp	God Class
-core.com.itextpdf.text.pdf.internal.PdfViewerPreferencesImp	Data Class
-core.com.itextpdf.text.pdf.codec.TIFFLZWDecoder	Feature Envy
-core.com.itextpdf.text.pdf.VerticalText	Feature Envy
-core.com.itextpdf.text.pdf.VerticalText	Feature Envy
-core.com.itextpdf.text.pdf.VerticalText	Dispersed Coupling
-core.com.itextpdf.text.pdf.VerticalText	Feature Envy
-core.com.itextpdf.text.pdf.VerticalText	Intensive Coupling
-core.com.itextpdf.text.pdf.BarcodePDF417	Brain Method
-core.com.itextpdf.text.pdf.BarcodePDF417	Brain Method
-core.com.itextpdf.text.pdf.BarcodePDF417	Feature Envy
-core.com.itextpdf.text.pdf.BarcodePDF417	Brain Method
-core.com.itextpdf.text.pdf.BarcodePDF417	Feature Envy
-core.com.itextpdf.text.pdf.BarcodePDF417	God Class
-core.com.itextpdf.text.pdf.BarcodePDF417	Brain Class
-core.com.itextpdf.text.pdf.internal.PolylineShapeIterator	Feature Envy
-core.com.itextpdf.text.pdf.internal.PolylineShapeIterator	Feature Envy
-core.com.itextpdf.text.pdf.PageResources	Feature Envy
-core.com.itextpdf.text.pdf.PageResources	Feature Envy
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$BeginMarkedContentDictionary	Feature Envy
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$TextSetTextMatrix	Feature Envy
-core.com.itextpdf.text.pdf.PdfFont	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfSmartCopy	Dispersed Coupling
-core.com.itextpdf.text.pdf.BidiOrder	Feature Envy
-core.com.itextpdf.text.pdf.BidiOrder	Brain Method
-core.com.itextpdf.text.pdf.BidiOrder	Brain Method
-core.com.itextpdf.text.pdf.BidiOrder	Feature Envy
-core.com.itextpdf.text.pdf.BidiOrder	Feature Envy
-core.com.itextpdf.text.pdf.BidiOrder	Feature Envy
-core.com.itextpdf.text.pdf.BidiOrder	God Class
-core.com.itextpdf.text.pdf.BidiOrder	Brain Class
-core.com.itextpdf.text.pdf.BidiOrder	Data Class
-core.com.itextpdf.text.pdf.codec.JBIG2SegmentReader	Dispersed Coupling
-core.com.itextpdf.text.pdf.codec.JBIG2SegmentReader	Brain Method
-core.com.itextpdf.text.pdf.codec.JBIG2SegmentReader	Intensive Coupling
-core.com.itextpdf.text.pdf.codec.JBIG2SegmentReader	Feature Envy
-core.com.itextpdf.text.pdf.codec.JBIG2SegmentReader	Data Class
-core.com.itextpdf.text.pdf.PdfContentParser	Feature Envy
-core.com.itextpdf.text.pdf.PdfContentParser	Feature Envy
-core.com.itextpdf.text.Section	God Class
-core.com.itextpdf.text.pdf.BaseField	Brain Method
-core.com.itextpdf.text.pdf.BaseField	Intensive Coupling
-core.com.itextpdf.text.pdf.BaseField	Brain Method
-core.com.itextpdf.text.pdf.BaseField	Dispersed Coupling
-core.com.itextpdf.text.pdf.BaseField	Feature Envy
-core.com.itextpdf.text.pdf.BaseField	Feature Envy
-core.com.itextpdf.text.pdf.BaseField	Dispersed Coupling
-core.com.itextpdf.text.pdf.BaseField	God Class
-core.com.itextpdf.text.pdf.BaseField	Brain Class
-core.com.itextpdf.text.pdf.collection.PdfCollectionField	Feature Envy
-core.com.itextpdf.text.pdf.PdfSmartCopy$ByteStore	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfSmartCopy$ByteStore	Feature Envy
-core.com.itextpdf.text.pdf.PdfEncodings$Cp437Conversion	Feature Envy
-core.com.itextpdf.text.pdf.qrcode.MaskUtil	Feature Envy
-core.com.itextpdf.text.pdf.qrcode.MaskUtil	Feature Envy
-core.com.itextpdf.text.pdf.qrcode.MaskUtil	Feature Envy
-core.com.itextpdf.text.pdf.qrcode.MaskUtil	Feature Envy
-core.com.itextpdf.text.pdf.qrcode.MaskUtil	God Class
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$MoveNextLineAndShowTextWithSpacing	Feature Envy
-core.com.itextpdf.text.pdf.PdfCopy$PageStamp	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfCopy$PageStamp	Feature Envy
-core.com.itextpdf.text.pdf.PdfCopy$PageStamp	Dispersed Coupling
-core.com.itextpdf.text.FontFactoryImp	Feature Envy
-core.com.itextpdf.text.FontFactoryImp	Brain Method
-core.com.itextpdf.text.FontFactoryImp	Dispersed Coupling
-core.com.itextpdf.text.FontFactoryImp	Intensive Coupling
-core.com.itextpdf.text.FontFactoryImp	Brain Method
-core.com.itextpdf.text.FontFactoryImp	Dispersed Coupling
-core.com.itextpdf.text.FontFactoryImp	Feature Envy
-core.com.itextpdf.text.FontFactoryImp	Intensive Coupling
-core.com.itextpdf.text.FontFactoryImp	God Class
-core.com.itextpdf.text.FontFactoryImp	Brain Class
-core.com.itextpdf.text.pdf.CJKFont	Intensive Coupling
-core.com.itextpdf.text.pdf.CJKFont	Feature Envy
-core.com.itextpdf.text.pdf.CJKFont	Feature Envy
-core.com.itextpdf.text.pdf.CJKFont	Feature Envy
-core.com.itextpdf.text.pdf.CJKFont	Brain Method
-core.com.itextpdf.text.pdf.CJKFont	Feature Envy
-core.com.itextpdf.text.pdf.CJKFont	Feature Envy
-core.com.itextpdf.text.pdf.CJKFont	Feature Envy
-core.com.itextpdf.text.pdf.CJKFont	God Class
-core.com.itextpdf.text.pdf.CJKFont	Brain Class
-core.com.itextpdf.text.pdf.CJKFont	Refused Parent Bequest
-core.com.itextpdf.text.pdf.PdfCopyFieldsImp	Feature Envy
-core.com.itextpdf.text.pdf.PdfCopyFieldsImp	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfCopyFieldsImp	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfCopyFieldsImp	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfCopyFieldsImp	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfCopyFieldsImp	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfCopyFieldsImp	Brain Method
-core.com.itextpdf.text.pdf.PdfCopyFieldsImp	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfCopyFieldsImp	Feature Envy
-core.com.itextpdf.text.pdf.PdfCopyFieldsImp	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfCopyFieldsImp	Feature Envy
-core.com.itextpdf.text.pdf.PdfCopyFieldsImp	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfCopyFieldsImp	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfCopyFieldsImp	Feature Envy
-core.com.itextpdf.text.pdf.PdfCopyFieldsImp	God Class
-core.com.itextpdf.text.pdf.PdfCopyFieldsImp	Brain Class
-core.com.itextpdf.text.pdf.PdfCopyFieldsImp	Refused Parent Bequest
-core.com.itextpdf.text.pdf.PdfEncryption	Feature Envy
-core.com.itextpdf.text.pdf.PdfEncryption	Feature Envy
-core.com.itextpdf.text.pdf.PdfEncryption	Feature Envy
-core.com.itextpdf.text.pdf.PdfEncryption	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfEncryption	Brain Method
-core.com.itextpdf.text.pdf.PdfEncryption	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfEncryption	God Class
-core.com.itextpdf.text.DocWriter	Data Class
-core.com.itextpdf.text.pdf.richmedia.RichMediaAnnotation	Feature Envy
-rups.com.itextpdf.rups.view.Console	Feature Envy
-core.com.itextpdf.text.pdf.PdfStamperImp	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfStamperImp	Brain Method
-core.com.itextpdf.text.pdf.PdfStamperImp	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfStamperImp	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfStamperImp	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfStamperImp	Feature Envy
-core.com.itextpdf.text.pdf.PdfStamperImp	Feature Envy
-core.com.itextpdf.text.pdf.PdfStamperImp	Brain Method
-core.com.itextpdf.text.pdf.PdfStamperImp	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfStamperImp	Feature Envy
-core.com.itextpdf.text.pdf.PdfStamperImp	Brain Method
-core.com.itextpdf.text.pdf.PdfStamperImp	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfStamperImp	Brain Method
-core.com.itextpdf.text.pdf.PdfStamperImp	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfStamperImp	Brain Method
-core.com.itextpdf.text.pdf.PdfStamperImp	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfStamperImp	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfStamperImp	Feature Envy
-core.com.itextpdf.text.pdf.PdfStamperImp	Feature Envy
-core.com.itextpdf.text.pdf.PdfStamperImp	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfStamperImp	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfStamperImp	God Class
-core.com.itextpdf.text.pdf.PdfStamperImp	Brain Class
-core.com.itextpdf.text.pdf.PdfStamperImp	Refused Parent Bequest
-core.com.itextpdf.text.pdf.TrueTypeFontSubSet	Brain Method
-core.com.itextpdf.text.pdf.TrueTypeFontSubSet	Feature Envy
-core.com.itextpdf.text.pdf.TrueTypeFontSubSet	Feature Envy
-core.com.itextpdf.text.pdf.TrueTypeFontSubSet	Feature Envy
-core.com.itextpdf.text.pdf.TrueTypeFontSubSet	Feature Envy
-core.com.itextpdf.text.pdf.ArabicLigaturizer	Feature Envy
-core.com.itextpdf.text.pdf.ArabicLigaturizer	Feature Envy
-core.com.itextpdf.text.pdf.ArabicLigaturizer	Brain Method
-core.com.itextpdf.text.pdf.ArabicLigaturizer	Feature Envy
-core.com.itextpdf.text.pdf.ArabicLigaturizer	Feature Envy
-core.com.itextpdf.text.pdf.ArabicLigaturizer	Feature Envy
-core.com.itextpdf.text.pdf.ArabicLigaturizer	God Class
-core.com.itextpdf.text.pdf.ArabicLigaturizer	Brain Class
-core.com.itextpdf.text.pdf.ArabicLigaturizer	Data Class
-core.com.itextpdf.text.pdf.Type1Font	Brain Method
-core.com.itextpdf.text.pdf.Type1Font	Dispersed Coupling
-core.com.itextpdf.text.pdf.Type1Font	Brain Method
-core.com.itextpdf.text.pdf.Type1Font	Dispersed Coupling
-core.com.itextpdf.text.pdf.Type1Font	Feature Envy
-core.com.itextpdf.text.pdf.Type1Font	Feature Envy
-core.com.itextpdf.text.pdf.Type1Font	Feature Envy
-core.com.itextpdf.text.pdf.Type1Font	Feature Envy
-core.com.itextpdf.text.pdf.Type1Font	God Class
-core.com.itextpdf.text.pdf.Type1Font	Brain Class
-core.com.itextpdf.text.pdf.Type1Font	Refused Parent Bequest
-core.com.itextpdf.text.pdf.OutputStreamEncryption	Feature Envy
-core.com.itextpdf.text.pdf.CFFFont	Brain Method
-core.com.itextpdf.text.pdf.CFFFont	Brain Method
-core.com.itextpdf.text.pdf.CFFFont	Dispersed Coupling
-core.com.itextpdf.text.pdf.CFFFont	Feature Envy
-core.com.itextpdf.text.pdf.CFFFont	Feature Envy
-core.com.itextpdf.text.pdf.CFFFont	Brain Method
-core.com.itextpdf.text.pdf.CFFFont	Brain Class
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor	Feature Envy
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor	Shotgun Surgery
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor	Dispersed Coupling
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor	Feature Envy
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor	Dispersed Coupling
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor	Dispersed Coupling
-core.com.itextpdf.text.pdf.PRAcroForm	Dispersed Coupling
-core.com.itextpdf.text.pdf.PRAcroForm	Feature Envy
-core.com.itextpdf.text.pdf.PRAcroForm	Refused Parent Bequest
-core.com.itextpdf.text.pdf.collection.PdfCollection	Feature Envy
-core.com.itextpdf.text.pdf.fonts.cmaps.CMap	Feature Envy
-core.com.itextpdf.text.pdf.PdfEncryptor	Feature Envy
-core.com.itextpdf.text.pdf.PdfPKCS7	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfPKCS7	Brain Method
-core.com.itextpdf.text.pdf.PdfPKCS7	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfPKCS7	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfPKCS7	Feature Envy
-core.com.itextpdf.text.pdf.PdfPKCS7	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfPKCS7	Feature Envy
-core.com.itextpdf.text.pdf.PdfPKCS7	Brain Method
-core.com.itextpdf.text.pdf.PdfPKCS7	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfPKCS7	God Class
-core.com.itextpdf.text.pdf.PdfPKCS7	Brain Class
-core.com.itextpdf.text.pdf.hyphenation.HyphenationTree	Feature Envy
-core.com.itextpdf.text.pdf.hyphenation.HyphenationTree	Brain Method
-core.com.itextpdf.text.pdf.hyphenation.HyphenationTree	God Class
-core.com.itextpdf.text.pdf.hyphenation.HyphenationTree	Refused Parent Bequest
-core.com.itextpdf.text.pdf.hyphenation.HyphenationTree	Tradition Breaker
-core.com.itextpdf.text.ImgRaw	Feature Envy
-core.com.itextpdf.text.pdf.PdfFileSpecification	Feature Envy
-core.com.itextpdf.text.pdf.PdfFileSpecification	Brain Method
-core.com.itextpdf.text.pdf.PdfFileSpecification	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfFileSpecification	Refused Parent Bequest
-core.com.itextpdf.text.pdf.PdfFileSpecification	Tradition Breaker
-core.com.itextpdf.text.pdf.BaseFont	Intensive Coupling
-core.com.itextpdf.text.pdf.BaseFont	Brain Method
-core.com.itextpdf.text.pdf.BaseFont	Dispersed Coupling
-core.com.itextpdf.text.pdf.BaseFont	Shotgun Surgery
-core.com.itextpdf.text.pdf.BaseFont	Shotgun Surgery
-core.com.itextpdf.text.pdf.BaseFont	Shotgun Surgery
-core.com.itextpdf.text.pdf.BaseFont	God Class
-core.com.itextpdf.text.pdf.BaseFont	Brain Class
-core.com.itextpdf.text.pdf.BaseFont	Data Class
-core.com.itextpdf.text.xml.simpleparser.SimpleXMLParser	Brain Method
-core.com.itextpdf.text.xml.simpleparser.SimpleXMLParser	Feature Envy
-core.com.itextpdf.text.xml.simpleparser.SimpleXMLParser	Intensive Coupling
-core.com.itextpdf.text.xml.simpleparser.SimpleXMLParser	Dispersed Coupling
-core.com.itextpdf.text.xml.simpleparser.SimpleXMLParser	God Class
-core.com.itextpdf.text.xml.simpleparser.SimpleXMLParser	Brain Class
-core.com.itextpdf.text.pdf.PdfGraphics2D	Feature Envy
-core.com.itextpdf.text.pdf.PdfGraphics2D	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfGraphics2D	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfGraphics2D	Brain Method
-core.com.itextpdf.text.pdf.PdfGraphics2D	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfGraphics2D	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfGraphics2D	Feature Envy
-core.com.itextpdf.text.pdf.PdfGraphics2D	Feature Envy
-core.com.itextpdf.text.pdf.PdfGraphics2D	Feature Envy
-core.com.itextpdf.text.pdf.PdfGraphics2D	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfGraphics2D	Brain Method
-core.com.itextpdf.text.pdf.PdfGraphics2D	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfGraphics2D	Feature Envy
-core.com.itextpdf.text.pdf.PdfGraphics2D	Feature Envy
-core.com.itextpdf.text.pdf.PdfGraphics2D	Brain Method
-core.com.itextpdf.text.pdf.PdfGraphics2D	Feature Envy
-core.com.itextpdf.text.pdf.PdfGraphics2D	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfGraphics2D	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfGraphics2D	Brain Method
-core.com.itextpdf.text.pdf.PdfGraphics2D	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfGraphics2D	God Class
-core.com.itextpdf.text.pdf.PdfGraphics2D	Brain Class
-core.com.itextpdf.text.xml.simpleparser.EntitiesToSymbol	Feature Envy
-core.com.itextpdf.text.pdf.PdfPublicKeySecurityHandler	Feature Envy
-core.com.itextpdf.text.pdf.parser.TaggedPdfReaderTool	Feature Envy
-core.com.itextpdf.text.pdf.parser.TaggedPdfReaderTool	Dispersed Coupling
-core.com.itextpdf.text.pdf.parser.TaggedPdfReaderTool	Dispersed Coupling
-core.com.itextpdf.text.html.simpleparser.HTMLWorker	Brain Method
-core.com.itextpdf.text.html.simpleparser.HTMLWorker	Dispersed Coupling
-core.com.itextpdf.text.html.simpleparser.HTMLWorker	Brain Method
-core.com.itextpdf.text.html.simpleparser.HTMLWorker	Dispersed Coupling
-core.com.itextpdf.text.html.simpleparser.HTMLWorker	Intensive Coupling
-core.com.itextpdf.text.html.simpleparser.HTMLWorker	God Class
-core.com.itextpdf.text.html.simpleparser.HTMLWorker	Brain Class
-core.com.itextpdf.text.pdf.DefaultFontMapper	Brain Method
-core.com.itextpdf.text.pdf.DefaultFontMapper	Feature Envy
-core.com.itextpdf.text.pdf.DefaultFontMapper	Feature Envy
-core.com.itextpdf.text.pdf.DefaultFontMapper	Dispersed Coupling
-core.com.itextpdf.text.pdf.DefaultFontMapper	God Class
-core.com.itextpdf.text.pdf.codec.wmf.MetaState	Intensive Coupling
-core.com.itextpdf.text.pdf.codec.wmf.MetaState	God Class
-core.com.itextpdf.text.pdf.Barcode128	Intensive Coupling
-core.com.itextpdf.text.pdf.Barcode128	Brain Method
-core.com.itextpdf.text.pdf.Barcode128	Intensive Coupling
-core.com.itextpdf.text.pdf.Barcode128	Dispersed Coupling
-core.com.itextpdf.text.pdf.Barcode128	God Class
-core.com.itextpdf.text.pdf.Barcode128	Brain Class
-core.com.itextpdf.text.pdf.Barcode128	Data Class
-core.com.itextpdf.text.pdf.Barcode128	Refused Parent Bequest
-core.com.itextpdf.text.pdf.Barcode39	Intensive Coupling
-core.com.itextpdf.text.pdf.Barcode39	God Class
-core.com.itextpdf.text.pdf.qrcode.Encoder	Intensive Coupling
-core.com.itextpdf.text.pdf.qrcode.Encoder	Feature Envy
-core.com.itextpdf.text.pdf.qrcode.Encoder	Intensive Coupling
-core.com.itextpdf.text.pdf.qrcode.Encoder	Intensive Coupling
-core.com.itextpdf.text.pdf.qrcode.Encoder	Feature Envy
-core.com.itextpdf.text.pdf.qrcode.Encoder	Feature Envy
-core.com.itextpdf.text.pdf.qrcode.Encoder	God Class
-core.com.itextpdf.text.xml.xmp.XmpReader	Feature Envy
-core.com.itextpdf.text.xml.xmp.XmpReader	Intensive Coupling
-core.com.itextpdf.text.pdf.parser.LineSegment	Feature Envy
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$TextMoveStartNextLine	Feature Envy
-core.com.itextpdf.text.pdf.FdfWriter	Feature Envy
-core.com.itextpdf.text.pdf.FdfWriter	Feature Envy
-core.com.itextpdf.text.pdf.FdfWriter	Intensive Coupling
-core.com.itextpdf.text.pdf.FdfWriter	Dispersed Coupling
-core.com.itextpdf.text.pdf.collection.PdfCollectionItem	Feature Envy
-core.com.itextpdf.text.pdf.collection.PdfCollectionItem	Feature Envy
-core.com.itextpdf.text.pdf.collection.PdfCollectionItem	Feature Envy
-core.com.itextpdf.text.pdf.collection.PdfCollectionItem	Refused Parent Bequest
-core.com.itextpdf.text.pdf.PdfArray	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfArray	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfArray	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfArray	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfArray	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfArray	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfArray	Refused Parent Bequest
-core.com.itextpdf.text.pdf.PdfArray	Tradition Breaker
-core.com.itextpdf.text.ElementListener	Shotgun Surgery
-core.com.itextpdf.text.pdf.qrcode.QRCodeWriter	Feature Envy
-core.com.itextpdf.text.pdf.MultiColumnText	Brain Method
-core.com.itextpdf.text.pdf.MultiColumnText	Dispersed Coupling
-core.com.itextpdf.text.pdf.MultiColumnText	Feature Envy
-core.com.itextpdf.text.pdf.MultiColumnText	God Class
-core.com.itextpdf.text.pdf.MultiColumnText	Data Class
-core.com.itextpdf.text.pdf.qrcode.MatrixUtil	Feature Envy
-core.com.itextpdf.text.pdf.qrcode.MatrixUtil	Feature Envy
-core.com.itextpdf.text.pdf.qrcode.MatrixUtil	Feature Envy
-core.com.itextpdf.text.pdf.qrcode.MatrixUtil	Feature Envy
-core.com.itextpdf.text.pdf.qrcode.MatrixUtil	Feature Envy
-core.com.itextpdf.text.pdf.qrcode.MatrixUtil	Feature Envy
-core.com.itextpdf.text.pdf.qrcode.MatrixUtil	Feature Envy
-core.com.itextpdf.text.pdf.qrcode.MatrixUtil	Feature Envy
-core.com.itextpdf.text.pdf.qrcode.MatrixUtil	Feature Envy
-core.com.itextpdf.text.pdf.qrcode.MatrixUtil	Feature Envy
-core.com.itextpdf.text.pdf.qrcode.MatrixUtil	God Class
-rups.com.itextpdf.rups.controller.PdfReaderController	Feature Envy
-rups.com.itextpdf.rups.controller.PdfReaderController	Feature Envy
-rups.com.itextpdf.rups.controller.PdfReaderController	Feature Envy
-core.com.itextpdf.text.pdf.SpotColor	Feature Envy
-core.com.itextpdf.text.pdf.PdfFormField	Feature Envy
-core.com.itextpdf.text.pdf.PdfFormField	Feature Envy
-core.com.itextpdf.text.pdf.PdfFormField	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfFormField	Feature Envy
-core.com.itextpdf.text.pdf.PdfFormField	Feature Envy
-core.com.itextpdf.text.pdf.PdfFormField	Feature Envy
-core.com.itextpdf.text.pdf.PdfFormField	Feature Envy
-core.com.itextpdf.text.pdf.PdfFormField	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfFormField	God Class
-core.com.itextpdf.text.pdf.PdfFormField	Data Class
-core.com.itextpdf.text.pdf.PdfFormField	Refused Parent Bequest
-core.com.itextpdf.text.pdf.TrueTypeFontUnicode	Feature Envy
-core.com.itextpdf.text.pdf.TrueTypeFontUnicode	Feature Envy
-core.com.itextpdf.text.pdf.TrueTypeFontUnicode	Feature Envy
-core.com.itextpdf.text.pdf.TrueTypeFontUnicode	Feature Envy
-core.com.itextpdf.text.pdf.TrueTypeFontUnicode	Brain Method
-core.com.itextpdf.text.pdf.TrueTypeFontUnicode	Dispersed Coupling
-core.com.itextpdf.text.pdf.TrueTypeFontUnicode	Feature Envy
-core.com.itextpdf.text.pdf.TrueTypeFontUnicode	God Class
-core.com.itextpdf.text.pdf.TrueTypeFontUnicode	Refused Parent Bequest
-core.com.itextpdf.text.ZapfDingbatsNumberList	Dispersed Coupling
-core.com.itextpdf.text.pdf.codec.TIFFFaxDecoder	Brain Method
-core.com.itextpdf.text.pdf.codec.TIFFFaxDecoder	Brain Method
-core.com.itextpdf.text.pdf.codec.TIFFFaxDecoder	Brain Method
-core.com.itextpdf.text.pdf.codec.TIFFFaxDecoder	Feature Envy
-core.com.itextpdf.text.pdf.codec.TIFFFaxDecoder	Brain Method
-core.com.itextpdf.text.pdf.codec.TIFFFaxDecoder	Brain Class
-core.com.itextpdf.text.html.simpleparser.ChainedProperties	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfRectangle	Feature Envy
-core.com.itextpdf.text.pdf.PdfRectangle	Feature Envy
-core.com.itextpdf.text.pdf.PdfRectangle	Refused Parent Bequest
-core.com.itextpdf.text.pdf.PdfTransition	Feature Envy
-rups.com.itextpdf.rups.view.itext.XRefTable	Feature Envy
-core.com.itextpdf.text.pdf.PdfTransparencyGroup	Feature Envy
-core.com.itextpdf.text.pdf.PdfTransparencyGroup	Feature Envy
-core.com.itextpdf.text.pdf.PdfSigGenericPKCS	Dispersed Coupling
-core.com.itextpdf.text.pdf.parser.TextMarginFinder	Feature Envy
-core.com.itextpdf.text.pdf.PdfVisibilityExpression	Feature Envy
-core.com.itextpdf.text.html.simpleparser.IncCell	Dispersed Coupling
-core.com.itextpdf.text.BaseColor	Shotgun Surgery
-core.com.itextpdf.text.BaseColor	Shotgun Surgery
-core.com.itextpdf.text.BaseColor	Shotgun Surgery
-core.com.itextpdf.text.pdf.ColumnText	Intensive Coupling
-core.com.itextpdf.text.pdf.ColumnText	Feature Envy
-core.com.itextpdf.text.pdf.ColumnText	Brain Method
-core.com.itextpdf.text.pdf.ColumnText	Intensive Coupling
-core.com.itextpdf.text.pdf.ColumnText	Feature Envy
-core.com.itextpdf.text.pdf.ColumnText	Brain Method
-core.com.itextpdf.text.pdf.ColumnText	Intensive Coupling
-core.com.itextpdf.text.pdf.ColumnText	God Class
-core.com.itextpdf.text.pdf.ColumnText	Brain Class
-core.com.itextpdf.text.Rectangle	Shotgun Surgery
-core.com.itextpdf.text.Rectangle	Shotgun Surgery
-core.com.itextpdf.text.Rectangle	Shotgun Surgery
-core.com.itextpdf.text.Rectangle	Shotgun Surgery
-core.com.itextpdf.text.Rectangle	Shotgun Surgery
-core.com.itextpdf.text.Rectangle	Shotgun Surgery
-core.com.itextpdf.text.Rectangle	Shotgun Surgery
-core.com.itextpdf.text.Rectangle	Shotgun Surgery
-core.com.itextpdf.text.Rectangle	Shotgun Surgery
-core.com.itextpdf.text.GreekList	Dispersed Coupling
-core.com.itextpdf.text.html.WebColors	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfStructureTreeRoot	Feature Envy
-core.com.itextpdf.text.pdf.FontDetails	Brain Method
-core.com.itextpdf.text.pdf.FontDetails	Dispersed Coupling
-core.com.itextpdf.text.pdf.FontDetails	Feature Envy
-rups.com.itextpdf.rups.model.PdfFile	Feature Envy
-rups.com.itextpdf.rups.model.PdfFile	Intensive Coupling
-core.com.itextpdf.text.RomanList	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfLister	Feature Envy
-core.com.itextpdf.text.pdf.PdfContentByte	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfContentByte	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfContentByte	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfContentByte	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfContentByte	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfContentByte	Brain Method
-core.com.itextpdf.text.pdf.PdfContentByte	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfContentByte	Feature Envy
-core.com.itextpdf.text.pdf.PdfContentByte	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfContentByte	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfContentByte	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfContentByte	Feature Envy
-core.com.itextpdf.text.pdf.PdfContentByte	Brain Method
-core.com.itextpdf.text.pdf.PdfContentByte	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfContentByte	Feature Envy
-core.com.itextpdf.text.pdf.PdfContentByte	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfContentByte	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfContentByte	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfContentByte	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfContentByte	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfContentByte	Feature Envy
-core.com.itextpdf.text.pdf.PdfContentByte	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfContentByte	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfContentByte	Feature Envy
-core.com.itextpdf.text.pdf.PdfContentByte	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfContentByte	Feature Envy
-core.com.itextpdf.text.pdf.PdfContentByte	Feature Envy
-core.com.itextpdf.text.pdf.PdfContentByte	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfContentByte	Feature Envy
-core.com.itextpdf.text.pdf.PdfContentByte	Feature Envy
-core.com.itextpdf.text.pdf.PdfContentByte	Feature Envy
-core.com.itextpdf.text.pdf.PdfContentByte	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfContentByte	Feature Envy
-core.com.itextpdf.text.pdf.PdfContentByte	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfContentByte	Feature Envy
-core.com.itextpdf.text.pdf.PdfContentByte	Brain Class
-core.com.itextpdf.text.pdf.BarcodeCodabar	Feature Envy
-core.com.itextpdf.text.pdf.BarcodeCodabar	Feature Envy
-core.com.itextpdf.text.pdf.BarcodeCodabar	Intensive Coupling
-core.com.itextpdf.text.pdf.BarcodeCodabar	God Class
-core.com.itextpdf.text.pdf.FontSelector	Feature Envy
-core.com.itextpdf.text.pdf.FontSelector	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfWriter	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfWriter	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfWriter	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfWriter	Feature Envy
-core.com.itextpdf.text.pdf.PdfWriter	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfWriter	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfWriter	Feature Envy
-core.com.itextpdf.text.pdf.PdfWriter	Feature Envy
-core.com.itextpdf.text.pdf.PdfWriter	Feature Envy
-core.com.itextpdf.text.pdf.PdfWriter	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfWriter	Feature Envy
-core.com.itextpdf.text.pdf.PdfWriter	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfWriter	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfWriter	Feature Envy
-core.com.itextpdf.text.pdf.PdfWriter	Feature Envy
-core.com.itextpdf.text.pdf.PdfWriter	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfWriter	Brain Method
-core.com.itextpdf.text.pdf.PdfWriter	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfWriter	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfWriter	God Class
-core.com.itextpdf.text.pdf.PdfWriter	Brain Class
-core.com.itextpdf.text.pdf.PdfWriter	Refused Parent Bequest
-core.com.itextpdf.text.pdf.PdfWriter	Tradition Breaker
-core.com.itextpdf.text.pdf.SimpleBookmark	Brain Method
-core.com.itextpdf.text.pdf.SimpleBookmark	Intensive Coupling
-core.com.itextpdf.text.pdf.SimpleBookmark	Feature Envy
-core.com.itextpdf.text.pdf.SimpleBookmark	Feature Envy
-core.com.itextpdf.text.pdf.SimpleBookmark	Dispersed Coupling
-core.com.itextpdf.text.pdf.SimpleBookmark	Feature Envy
-core.com.itextpdf.text.pdf.SimpleBookmark	Dispersed Coupling
-core.com.itextpdf.text.pdf.SimpleBookmark	Brain Method
-core.com.itextpdf.text.pdf.SimpleBookmark	Dispersed Coupling
-core.com.itextpdf.text.pdf.SimpleBookmark	Dispersed Coupling
-core.com.itextpdf.text.pdf.SimpleBookmark	Feature Envy
-core.com.itextpdf.text.pdf.SimpleBookmark	Feature Envy
-core.com.itextpdf.text.pdf.SimpleBookmark	Dispersed Coupling
-core.com.itextpdf.text.pdf.SimpleBookmark	God Class
-core.com.itextpdf.text.pdf.SimpleBookmark	Brain Class
-core.com.itextpdf.text.MarkedSection	Feature Envy
-core.com.itextpdf.text.MarkedSection	Refused Parent Bequest
-core.com.itextpdf.text.Chunk	Shotgun Surgery
-core.com.itextpdf.text.Chunk	Shotgun Surgery
-core.com.itextpdf.text.Chunk	Shotgun Surgery
-core.com.itextpdf.text.Chunk	God Class
-core.com.itextpdf.text.pdf.PdfPCell	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfPCell	God Class
-core.com.itextpdf.text.pdf.PdfPCell	Refused Parent Bequest
-core.com.itextpdf.text.pdf.PdfSigGenericPKCS$VeriSign	Feature Envy
-core.com.itextpdf.text.pdf.PdfSignatureAppearance	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfSignatureAppearance	Brain Method
-core.com.itextpdf.text.pdf.PdfSignatureAppearance	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfSignatureAppearance	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfSignatureAppearance	Feature Envy
-core.com.itextpdf.text.pdf.PdfSignatureAppearance	Brain Method
-core.com.itextpdf.text.pdf.PdfSignatureAppearance	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfSignatureAppearance	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfSignatureAppearance	Feature Envy
-core.com.itextpdf.text.pdf.PdfSignatureAppearance	God Class
-core.com.itextpdf.text.pdf.PdfSignatureAppearance	Brain Class
-core.com.itextpdf.text.PageSize	Dispersed Coupling
-core.com.itextpdf.text.pdf.FdfReader	Dispersed Coupling
-core.com.itextpdf.text.pdf.FdfReader	Feature Envy
-core.com.itextpdf.text.pdf.FdfReader	Dispersed Coupling
-core.com.itextpdf.text.pdf.FdfReader	Refused Parent Bequest
-core.com.itextpdf.text.FontFactory	Feature Envy
-core.com.itextpdf.text.pdf.events.IndexEvents	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfNameTree	Brain Method
-core.com.itextpdf.text.pdf.PdfNameTree	Dispersed Coupling
-core.com.itextpdf.text.pdf.richmedia.RichMediaInstance	Feature Envy
-core.com.itextpdf.text.pdf.codec.BmpImage	Brain Method
-core.com.itextpdf.text.pdf.codec.BmpImage	Feature Envy
-core.com.itextpdf.text.pdf.codec.BmpImage	Brain Method
-core.com.itextpdf.text.pdf.codec.BmpImage	God Class
-core.com.itextpdf.text.pdf.codec.BmpImage	Brain Class
-core.com.itextpdf.text.pdf.PdfWriter$PdfBody	Feature Envy
-core.com.itextpdf.text.pdf.PdfWriter$PdfBody	Feature Envy
-core.com.itextpdf.text.pdf.PdfWriter$PdfBody	Brain Method
-core.com.itextpdf.text.pdf.PdfWriter$PdfBody	Dispersed Coupling
-rups.com.itextpdf.rups.view.itext.FormTree	Dispersed Coupling
-rups.com.itextpdf.rups.view.itext.FormTree	Dispersed Coupling
-rups.com.itextpdf.rups.view.itext.FormTree	Feature Envy
-rups.com.itextpdf.rups.view.itext.FormTree	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfChunk	Brain Method
-core.com.itextpdf.text.pdf.PdfChunk	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfChunk	Brain Method
-core.com.itextpdf.text.pdf.PdfChunk	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfChunk	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfChunk	Feature Envy
-core.com.itextpdf.text.pdf.PdfChunk	Feature Envy
-core.com.itextpdf.text.pdf.PdfChunk	Feature Envy
-core.com.itextpdf.text.pdf.PdfChunk	Feature Envy
-core.com.itextpdf.text.pdf.PdfChunk	Feature Envy
-core.com.itextpdf.text.pdf.PdfChunk	God Class
-core.com.itextpdf.text.pdf.PdfChunk	Brain Class
-core.com.itextpdf.text.pdf.BarcodeEANSUPP	Feature Envy
-core.com.itextpdf.text.pdf.ICC_Profile	Feature Envy
-core.com.itextpdf.text.pdf.PdfStamper	Feature Envy
-core.com.itextpdf.text.pdf.PdfStamper	Feature Envy
-core.com.itextpdf.text.pdf.PdfStamper	Feature Envy
-core.com.itextpdf.text.pdf.PdfStamper	Dispersed Coupling
-core.com.itextpdf.text.pdf.richmedia.RichMediaWindow	Feature Envy
-core.com.itextpdf.text.pdf.codec.Base64	Brain Method
-core.com.itextpdf.text.pdf.codec.Base64	Feature Envy
-core.com.itextpdf.text.pdf.codec.Base64	Dispersed Coupling
-core.com.itextpdf.text.pdf.codec.Base64	God Class
-core.com.itextpdf.text.pdf.codec.Base64	Brain Class
-core.com.itextpdf.text.pdf.codec.Base64	Data Class
-core.com.itextpdf.text.Annotation	Data Class
-core.com.itextpdf.text.pdf.EnumerateTTC	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfLayer	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfLayer	Feature Envy
-core.com.itextpdf.text.pdf.PdfLayer	Feature Envy
-core.com.itextpdf.text.pdf.PdfLayer	Feature Envy
-core.com.itextpdf.text.pdf.PdfLayer	Feature Envy
-core.com.itextpdf.text.pdf.PdfLayer	Feature Envy
-core.com.itextpdf.text.pdf.PdfLayer	Refused Parent Bequest
-rups.com.itextpdf.rups.view.itext.treenodes.XdpTreeNode	Feature Envy
-rups.com.itextpdf.rups.model.ProgressDialog	Feature Envy
-core.com.itextpdf.text.ImgWMF	Feature Envy
-core.com.itextpdf.text.pdf.PRStream	Refused Parent Bequest
-core.com.itextpdf.text.pdf.PdfImportedPage	Refused Parent Bequest
-core.com.itextpdf.text.pdf.PdfSignatureAppearance$RangeStream	Feature Envy
-core.com.itextpdf.text.pdf.richmedia.RichMediaConfiguration	Feature Envy
-core.com.itextpdf.text.pdf.PdfImage	Brain Method
-core.com.itextpdf.text.pdf.PdfImage	Dispersed Coupling
-core.com.itextpdf.text.pdf.AcroFields$Item	Shotgun Surgery
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$BeginText	Feature Envy
-core.com.itextpdf.text.pdf.Type3Glyph	Feature Envy
-core.com.itextpdf.text.pdf.DefaultFontMapper$BaseFontParameters	Feature Envy
-core.com.itextpdf.text.pdf.PdfTemplate	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfTemplate	Refused Parent Bequest
-core.com.itextpdf.text.pdf.CFFFontSubset	Feature Envy
-core.com.itextpdf.text.pdf.CFFFontSubset	Feature Envy
-core.com.itextpdf.text.pdf.CFFFontSubset	Feature Envy
-core.com.itextpdf.text.pdf.CFFFontSubset	Feature Envy
-core.com.itextpdf.text.pdf.CFFFontSubset	Feature Envy
-core.com.itextpdf.text.pdf.CFFFontSubset	Feature Envy
-core.com.itextpdf.text.pdf.CFFFontSubset	Feature Envy
-core.com.itextpdf.text.pdf.CFFFontSubset	Feature Envy
-core.com.itextpdf.text.pdf.CFFFontSubset	Feature Envy
-core.com.itextpdf.text.pdf.CFFFontSubset	Feature Envy
-core.com.itextpdf.text.pdf.CFFFontSubset	Dispersed Coupling
-core.com.itextpdf.text.pdf.CFFFontSubset	Feature Envy
-core.com.itextpdf.text.pdf.CFFFontSubset	Feature Envy
-core.com.itextpdf.text.pdf.CFFFontSubset	Feature Envy
-core.com.itextpdf.text.pdf.CFFFontSubset	Feature Envy
-core.com.itextpdf.text.pdf.CFFFontSubset	Feature Envy
-core.com.itextpdf.text.pdf.CFFFontSubset	Feature Envy
-core.com.itextpdf.text.pdf.CFFFontSubset	Feature Envy
-core.com.itextpdf.text.pdf.CFFFontSubset	Feature Envy
-core.com.itextpdf.text.pdf.CFFFontSubset	Feature Envy
-core.com.itextpdf.text.pdf.CFFFontSubset	God Class
-core.com.itextpdf.text.pdf.CFFFontSubset	Refused Parent Bequest
-core.com.itextpdf.text.pdf.PushbuttonField	Feature Envy
-core.com.itextpdf.text.pdf.PushbuttonField	Brain Method
-core.com.itextpdf.text.pdf.PushbuttonField	Intensive Coupling
-core.com.itextpdf.text.pdf.PushbuttonField	Intensive Coupling
-core.com.itextpdf.text.pdf.PushbuttonField	God Class
-core.com.itextpdf.text.pdf.PushbuttonField	Brain Class
-core.com.itextpdf.text.pdf.PushbuttonField	Refused Parent Bequest
-core.com.itextpdf.text.pdf.PushbuttonField	Tradition Breaker
-core.com.itextpdf.text.pdf.BaseFont$StreamFont	Feature Envy
-core.com.itextpdf.text.pdf.PdfPTable	Feature Envy
-core.com.itextpdf.text.pdf.PdfPTable	Feature Envy
-core.com.itextpdf.text.pdf.PdfPTable	Feature Envy
-core.com.itextpdf.text.pdf.PdfPTable	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfPTable	Feature Envy
-core.com.itextpdf.text.pdf.PdfPTable	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfPTable	Feature Envy
-core.com.itextpdf.text.pdf.PdfPTable	God Class
-core.com.itextpdf.text.pdf.PdfObject	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfObject	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfObject	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfObject	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfObject	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfObject	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfObject	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfObject	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfObject	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfObject	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfObject	Data Class
-rups.com.itextpdf.rups.view.models.DictionaryTableModel	Feature Envy
-core.com.itextpdf.text.pdf.internal.PdfAnnotationsImp	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfPages	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfEFStream	Brain Method
-core.com.itextpdf.text.pdf.PdfEFStream	Dispersed Coupling
-core.com.itextpdf.text.pdf.XfaForm	Dispersed Coupling
-core.com.itextpdf.text.pdf.XfaForm	Feature Envy
-core.com.itextpdf.text.pdf.XfaForm	Dispersed Coupling
-core.com.itextpdf.text.pdf.XfaForm	Intensive Coupling
-core.com.itextpdf.text.pdf.XfaForm	Feature Envy
-core.com.itextpdf.text.pdf.XfaForm	Feature Envy
-core.com.itextpdf.text.pdf.XfaForm	Feature Envy
-core.com.itextpdf.text.pdf.XfaForm	God Class
-core.com.itextpdf.text.pdf.PRIndirectReference	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfDestination	Feature Envy
-core.com.itextpdf.text.pdf.PdfDestination	Feature Envy
-core.com.itextpdf.text.Phrase	Shotgun Surgery
-core.com.itextpdf.text.Phrase	Dispersed Coupling
-core.com.itextpdf.text.Phrase	Feature Envy
-core.com.itextpdf.text.Phrase	Intensive Coupling
-core.com.itextpdf.text.Phrase	Intensive Coupling
-core.com.itextpdf.text.Phrase	God Class
-core.com.itextpdf.text.pdf.BidiLine	Dispersed Coupling
-core.com.itextpdf.text.pdf.BidiLine	Brain Method
-core.com.itextpdf.text.pdf.BidiLine	Dispersed Coupling
-core.com.itextpdf.text.pdf.BidiLine	Feature Envy
-core.com.itextpdf.text.pdf.BidiLine	Feature Envy
-core.com.itextpdf.text.pdf.BidiLine	Intensive Coupling
-core.com.itextpdf.text.pdf.BidiLine	Data Class
-core.com.itextpdf.text.pdf.TextField	Feature Envy
-core.com.itextpdf.text.pdf.TextField	Brain Method
-core.com.itextpdf.text.pdf.TextField	Intensive Coupling
-core.com.itextpdf.text.pdf.TextField	Dispersed Coupling
-core.com.itextpdf.text.pdf.TextField	Intensive Coupling
-core.com.itextpdf.text.pdf.TextField	Brain Method
-core.com.itextpdf.text.pdf.TextField	Intensive Coupling
-core.com.itextpdf.text.pdf.TextField	Feature Envy
-core.com.itextpdf.text.pdf.TextField	God Class
-core.com.itextpdf.text.pdf.TextField	Brain Class
-core.com.itextpdf.text.pdf.TextField	Refused Parent Bequest
-core.com.itextpdf.text.pdf.TextField	Tradition Breaker
-core.com.itextpdf.text.Jpeg2000	Feature Envy
-core.com.itextpdf.text.Jpeg2000	Brain Method
-core.com.itextpdf.text.Jpeg2000	Feature Envy
-core.com.itextpdf.text.factories.RomanNumberFactory	Feature Envy
-core.com.itextpdf.text.pdf.draw.DottedLineSeparator	Feature Envy
-core.com.itextpdf.text.xml.xmp.XmpWriter	Dispersed Coupling
-core.com.itextpdf.text.xml.xmp.XmpWriter	Dispersed Coupling
-core.com.itextpdf.text.xml.xmp.XmpWriter	Data Class
-core.com.itextpdf.text.Image	Dispersed Coupling
-core.com.itextpdf.text.Image	Brain Method
-core.com.itextpdf.text.Image	Dispersed Coupling
-core.com.itextpdf.text.Image	Brain Method
-core.com.itextpdf.text.Image	Dispersed Coupling
-core.com.itextpdf.text.Image	Shotgun Surgery
-core.com.itextpdf.text.Image	Shotgun Surgery
-core.com.itextpdf.text.Image	Feature Envy
-core.com.itextpdf.text.Image	Dispersed Coupling
-core.com.itextpdf.text.Image	Feature Envy
-core.com.itextpdf.text.Image	God Class
-core.com.itextpdf.text.Image	Brain Class
-core.com.itextpdf.text.Image	Refused Parent Bequest
-core.com.itextpdf.text.Image	Tradition Breaker
-core.com.itextpdf.text.pdf.BarcodeDatamatrix	Feature Envy
-core.com.itextpdf.text.pdf.BarcodeDatamatrix	Brain Method
-core.com.itextpdf.text.pdf.BarcodeDatamatrix	Brain Method
-core.com.itextpdf.text.pdf.BarcodeDatamatrix	Feature Envy
-core.com.itextpdf.text.pdf.BarcodeDatamatrix	God Class
-core.com.itextpdf.text.pdf.BarcodeDatamatrix	Brain Class
-core.com.itextpdf.text.pdf.codec.TIFFFaxDecompressor	Brain Method
-core.com.itextpdf.text.pdf.codec.TIFFFaxDecompressor	Brain Method
-core.com.itextpdf.text.pdf.codec.TIFFFaxDecompressor	Brain Method
-core.com.itextpdf.text.pdf.codec.TIFFFaxDecompressor	Brain Method
-core.com.itextpdf.text.pdf.codec.TIFFFaxDecompressor	Brain Class
-core.com.itextpdf.text.pdf.OcspClientBouncyCastle	Dispersed Coupling
-core.com.itextpdf.text.xml.simpleparser.EntitiesToUnicode	Intensive Coupling
-core.com.itextpdf.text.pdf.parser.Vector	Feature Envy
-core.com.itextpdf.text.pdf.codec.Base64$InputStream	Brain Method
-core.com.itextpdf.text.pdf.XfdfReader	Feature Envy
-core.com.itextpdf.text.pdf.XfdfReader	Intensive Coupling
-core.com.itextpdf.text.pdf.internal.PdfXConformanceImp	Feature Envy
-core.com.itextpdf.text.pdf.internal.PdfXConformanceImp	Feature Envy
-core.com.itextpdf.text.pdf.internal.PdfXConformanceImp	Brain Method
-core.com.itextpdf.text.pdf.internal.PdfXConformanceImp	Dispersed Coupling
-core.com.itextpdf.text.pdf.internal.PdfXConformanceImp	Data Class
-core.com.itextpdf.text.pdf.PdfIndirectReference	Shotgun Surgery
-core.com.itextpdf.text.pdf.SequenceList	Brain Method
-core.com.itextpdf.text.Element	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfAnnotation	Feature Envy
-core.com.itextpdf.text.pdf.PdfAnnotation	Feature Envy
-core.com.itextpdf.text.pdf.PdfAnnotation	Feature Envy
-core.com.itextpdf.text.pdf.PdfAnnotation	Feature Envy
-core.com.itextpdf.text.pdf.PdfAnnotation	Feature Envy
-core.com.itextpdf.text.pdf.PdfAnnotation	Feature Envy
-core.com.itextpdf.text.pdf.PdfAnnotation	Feature Envy
-core.com.itextpdf.text.pdf.PdfAnnotation	Feature Envy
-core.com.itextpdf.text.pdf.PdfAnnotation	Feature Envy
-core.com.itextpdf.text.pdf.PdfAnnotation	Feature Envy
-core.com.itextpdf.text.pdf.PdfAnnotation	Feature Envy
-core.com.itextpdf.text.pdf.PdfAnnotation	Feature Envy
-core.com.itextpdf.text.pdf.PdfAnnotation	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfAnnotation	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfAnnotation	Feature Envy
-core.com.itextpdf.text.pdf.PdfAnnotation	Feature Envy
-core.com.itextpdf.text.pdf.PdfAnnotation	Feature Envy
-core.com.itextpdf.text.pdf.PdfAnnotation	God Class
-core.com.itextpdf.text.pdf.PdfAnnotation	Refused Parent Bequest
-core.com.itextpdf.text.pdf.PdfString	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfString	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfString	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfString	Refused Parent Bequest
-core.com.itextpdf.text.pdf.PdfReader$PageRefs	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfReader$PageRefs	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfReader$PageRefs	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfReader$PageRefs	Dispersed Coupling
-rups.com.itextpdf.rups.view.itext.OutlineTree	Feature Envy
-core.com.itextpdf.text.pdf.PdfAction	Feature Envy
-core.com.itextpdf.text.pdf.PdfAction	Feature Envy
-core.com.itextpdf.text.pdf.PdfAction	Feature Envy
-core.com.itextpdf.text.pdf.PdfAction	Feature Envy
-core.com.itextpdf.text.pdf.PdfAction	Feature Envy
-core.com.itextpdf.text.pdf.PdfAction	Feature Envy
-core.com.itextpdf.text.pdf.PdfAction	Feature Envy
-core.com.itextpdf.text.pdf.PdfAction	Feature Envy
-core.com.itextpdf.text.pdf.PdfAction	Feature Envy
-core.com.itextpdf.text.pdf.PdfAction	Feature Envy
-core.com.itextpdf.text.pdf.PdfAction	Feature Envy
-core.com.itextpdf.text.pdf.PdfAction	Feature Envy
-core.com.itextpdf.text.pdf.PdfAction	Feature Envy
-core.com.itextpdf.text.pdf.PdfAction	Feature Envy
-core.com.itextpdf.text.pdf.PdfAction	Feature Envy
-core.com.itextpdf.text.pdf.PdfAction	Feature Envy
-core.com.itextpdf.text.pdf.PdfAction	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfAction	God Class
-core.com.itextpdf.text.pdf.PdfAction	Data Class
-core.com.itextpdf.text.pdf.PdfAction	Refused Parent Bequest
-core.com.itextpdf.text.pdf.PdfAction	Tradition Breaker
-core.com.itextpdf.text.pdf.PdfStream	Feature Envy
-core.com.itextpdf.text.pdf.PdfStream	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfStream	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfStream	Brain Method
-core.com.itextpdf.text.pdf.PdfStream	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfStream	Feature Envy
-core.com.itextpdf.text.pdf.PdfStream	God Class
-core.com.itextpdf.text.pdf.PdfStream	Data Class
-core.com.itextpdf.text.pdf.PdfStream	Refused Parent Bequest
-core.com.itextpdf.text.pdf.PdfNumber	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfNumber	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfPageLabels	Feature Envy
-core.com.itextpdf.text.pdf.PdfPageLabels	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfPageLabels	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfPageLabels	Data Class
-core.com.itextpdf.text.pdf.codec.TIFFDirectory	Feature Envy
-core.com.itextpdf.text.pdf.codec.TIFFDirectory	Brain Method
-core.com.itextpdf.text.pdf.codec.TIFFDirectory	Dispersed Coupling
-core.com.itextpdf.text.pdf.codec.TIFFDirectory	Feature Envy
-core.com.itextpdf.text.pdf.codec.TIFFDirectory	God Class
-core.com.itextpdf.text.pdf.codec.GifImage	Feature Envy
-core.com.itextpdf.text.pdf.codec.GifImage	Brain Method
-core.com.itextpdf.text.pdf.codec.GifImage	God Class
-core.com.itextpdf.text.pdf.PdfName	Feature Envy
-core.com.itextpdf.text.pdf.PdfName	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfName	Data Class
-core.com.itextpdf.text.pdf.PdfName	Refused Parent Bequest
-core.com.itextpdf.text.pdf.qrcode.ByteMatrix	Shotgun Surgery
-core.com.itextpdf.text.pdf.qrcode.ByteMatrix	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfSigGenericPKCS$PPKLite	Feature Envy
-core.com.itextpdf.text.pdf.ByteBuffer	Feature Envy
-core.com.itextpdf.text.pdf.ByteBuffer	Shotgun Surgery
-core.com.itextpdf.text.pdf.ByteBuffer	Shotgun Surgery
-core.com.itextpdf.text.pdf.ByteBuffer	Shotgun Surgery
-core.com.itextpdf.text.pdf.ByteBuffer	Shotgun Surgery
-core.com.itextpdf.text.pdf.ByteBuffer	Brain Method
-core.com.itextpdf.text.pdf.ByteBuffer	Intensive Coupling
-core.com.itextpdf.text.pdf.ByteBuffer	Shotgun Surgery
-core.com.itextpdf.text.pdf.ByteBuffer	Shotgun Surgery
-core.com.itextpdf.text.pdf.ByteBuffer	God Class
-core.com.itextpdf.text.pdf.ByteBuffer	Brain Class
-core.com.itextpdf.text.pdf.ByteBuffer	Data Class
-core.com.itextpdf.text.pdf.PdfEncodings	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfEncodings	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfEncodings	Feature Envy
-core.com.itextpdf.text.pdf.PdfEncodings	Brain Method
-core.com.itextpdf.text.pdf.PdfEncodings	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfEncodings	Feature Envy
-core.com.itextpdf.text.pdf.PdfEncodings	God Class
-core.com.itextpdf.text.pdf.PdfEncodings	Brain Class
-core.com.itextpdf.text.pdf.HyphenationAuto	Feature Envy
-core.com.itextpdf.text.pdf.PdfPRow	Feature Envy
-core.com.itextpdf.text.pdf.PdfPRow	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfPRow	Brain Method
-core.com.itextpdf.text.pdf.PdfPRow	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfPRow	Feature Envy
-core.com.itextpdf.text.pdf.PdfPRow	Brain Method
-core.com.itextpdf.text.pdf.PdfPRow	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfPRow	Brain Class
-core.com.itextpdf.text.pdf.hyphenation.SimplePatternParser	Intensive Coupling
-core.com.itextpdf.text.pdf.hyphenation.SimplePatternParser	Feature Envy
-core.com.itextpdf.text.pdf.hyphenation.SimplePatternParser	Intensive Coupling
-core.com.itextpdf.text.pdf.hyphenation.SimplePatternParser	Dispersed Coupling
-core.com.itextpdf.text.pdf.hyphenation.SimplePatternParser	God Class
-core.com.itextpdf.text.pdf.hyphenation.TernaryTree$Iterator	Feature Envy
-core.com.itextpdf.text.ListItem	Feature Envy
-core.com.itextpdf.text.ListItem	Refused Parent Bequest
-core.com.itextpdf.text.pdf.PdfAcroForm	Feature Envy
-core.com.itextpdf.text.pdf.PdfAcroForm	Feature Envy
-core.com.itextpdf.text.pdf.PdfAcroForm	Feature Envy
-core.com.itextpdf.text.pdf.PdfAcroForm	Feature Envy
-core.com.itextpdf.text.pdf.PdfAcroForm	Data Class
-core.com.itextpdf.text.pdf.PdfAcroForm	Refused Parent Bequest
-core.com.itextpdf.text.html.simpleparser.StyleSheet	Feature Envy
-core.com.itextpdf.text.pdf.PdfOutline	God Class
-core.com.itextpdf.text.pdf.PdfOutline	Refused Parent Bequest
-core.com.itextpdf.text.pdf.parser.PdfContentReaderTool	Feature Envy
-core.com.itextpdf.text.pdf.parser.PdfContentReaderTool	Intensive Coupling
-core.com.itextpdf.text.pdf.parser.PdfContentReaderTool	Dispersed Coupling
-core.com.itextpdf.text.pdf.parser.PdfContentReaderTool	Feature Envy
-rups.com.itextpdf.rups.model.ObjectLoader	Feature Envy
-core.com.itextpdf.text.pdf.events.FieldPositioningEvents	Dispersed Coupling
-core.com.itextpdf.text.pdf.events.FieldPositioningEvents	Refused Parent Bequest
-core.com.itextpdf.text.pdf.richmedia.RichMediaExecuteAction	Feature Envy
-core.com.itextpdf.text.pdf.PRTokeniser	Feature Envy
-core.com.itextpdf.text.pdf.PRTokeniser	Feature Envy
-core.com.itextpdf.text.pdf.PRTokeniser	Feature Envy
-core.com.itextpdf.text.pdf.PRTokeniser	Brain Method
-core.com.itextpdf.text.pdf.PRTokeniser	Feature Envy
-core.com.itextpdf.text.pdf.PRTokeniser	Brain Method
-core.com.itextpdf.text.pdf.PRTokeniser	Brain Class
-core.com.itextpdf.text.pdf.PdfDocument	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfDocument	Brain Method
-core.com.itextpdf.text.pdf.PdfDocument	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfDocument	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfDocument	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfDocument	Brain Method
-core.com.itextpdf.text.pdf.PdfDocument	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfDocument	Feature Envy
-core.com.itextpdf.text.pdf.PdfDocument	Feature Envy
-core.com.itextpdf.text.pdf.PdfDocument	Feature Envy
-core.com.itextpdf.text.pdf.PdfDocument	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfDocument	Feature Envy
-core.com.itextpdf.text.pdf.PdfDocument	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfDocument	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfDocument	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfDocument	Feature Envy
-core.com.itextpdf.text.pdf.PdfDocument	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfDocument	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfDocument	Feature Envy
-core.com.itextpdf.text.pdf.PdfDocument	God Class
-core.com.itextpdf.text.pdf.PdfDocument	Brain Class
-core.com.itextpdf.text.pdf.PdfDocument	Refused Parent Bequest
-core.com.itextpdf.text.pdf.parser.SimpleTextExtractionStrategy	Feature Envy
-core.com.itextpdf.text.pdf.parser.SimpleTextExtractionStrategy	Intensive Coupling
-core.com.itextpdf.text.List	Dispersed Coupling
-core.com.itextpdf.text.List	God Class
-core.com.itextpdf.text.pdf.parser.PdfImageObject	Brain Method
-core.com.itextpdf.text.pdf.parser.PdfImageObject	Dispersed Coupling
-core.com.itextpdf.text.pdf.codec.PngWriter	Feature Envy
-core.com.itextpdf.text.pdf.XfaForm$Xml2SomTemplate	Feature Envy
-core.com.itextpdf.text.pdf.XfaForm$Xml2SomTemplate	Brain Method
-core.com.itextpdf.text.pdf.XfaForm$Xml2SomTemplate	Intensive Coupling
-core.com.itextpdf.text.pdf.qrcode.ReedSolomonEncoder	Feature Envy
-core.com.itextpdf.text.pdf.PdfPatternPainter	Refused Parent Bequest
-core.com.itextpdf.text.Font	Feature Envy
-core.com.itextpdf.text.Font	Feature Envy
-core.com.itextpdf.text.Font	Shotgun Surgery
-core.com.itextpdf.text.Font	Feature Envy
-core.com.itextpdf.text.Font	Feature Envy
-core.com.itextpdf.text.Utilities	Feature Envy
-core.com.itextpdf.text.Utilities	Feature Envy
-rups.com.itextpdf.rups.view.itext.PdfObjectPanel	Feature Envy
-core.com.itextpdf.text.pdf.codec.TiffImage	Feature Envy
-core.com.itextpdf.text.pdf.codec.TiffImage	Brain Method
-core.com.itextpdf.text.pdf.codec.TiffImage	Intensive Coupling
-core.com.itextpdf.text.pdf.codec.TiffImage	Brain Method
-core.com.itextpdf.text.pdf.codec.TiffImage	Dispersed Coupling
-core.com.itextpdf.text.pdf.codec.TiffImage	God Class
-core.com.itextpdf.text.pdf.codec.TiffImage	Brain Class
-core.com.itextpdf.text.pdf.PdfColor	Feature Envy
-rups.com.itextpdf.rups.view.itext.PagesTable	Dispersed Coupling
-rups.com.itextpdf.rups.view.itext.PagesTable	Feature Envy
-rups.com.itextpdf.rups.view.itext.PagesTable	Feature Envy
-core.com.itextpdf.text.xml.xmp.XmpSchema	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfPSXObject	Feature Envy
-core.com.itextpdf.text.html.simpleparser.FactoryProperties	Feature Envy
-core.com.itextpdf.text.html.simpleparser.FactoryProperties	Dispersed Coupling
-core.com.itextpdf.text.html.simpleparser.FactoryProperties	Dispersed Coupling
-core.com.itextpdf.text.html.simpleparser.FactoryProperties	Intensive Coupling
-core.com.itextpdf.text.html.simpleparser.FactoryProperties	Brain Method
-core.com.itextpdf.text.html.simpleparser.FactoryProperties	Dispersed Coupling
-core.com.itextpdf.text.html.simpleparser.FactoryProperties	God Class
-core.com.itextpdf.text.pdf.PdfDictionary	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfDictionary	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfDictionary	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfDictionary	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfDictionary	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfDictionary	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfDictionary	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfDictionary	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfDictionary	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfDictionary	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfDictionary	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfDictionary	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfDictionary	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfDictionary	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfDictionary	God Class
-core.com.itextpdf.text.pdf.PdfDictionary	Refused Parent Bequest
-core.com.itextpdf.text.pdf.PdfDictionary	Tradition Breaker
-core.com.itextpdf.text.Anchor	Dispersed Coupling
-core.com.itextpdf.text.Anchor	Feature Envy
-core.com.itextpdf.text.Anchor	Intensive Coupling
-core.com.itextpdf.text.Anchor	Refused Parent Bequest
-core.com.itextpdf.text.pdf.PdfEncodings$SymbolConversion	Feature Envy
-core.com.itextpdf.text.pdf.draw.LineSeparator	Refused Parent Bequest
-core.com.itextpdf.text.pdf.PdfReader	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfReader	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfReader	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfReader	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfReader	Brain Method
-core.com.itextpdf.text.pdf.PdfReader	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfReader	Feature Envy
-core.com.itextpdf.text.pdf.PdfReader	Feature Envy
-core.com.itextpdf.text.pdf.PdfReader	Feature Envy
-core.com.itextpdf.text.pdf.PdfReader	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfReader	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfReader	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfReader	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfReader	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfReader	Brain Method
-core.com.itextpdf.text.pdf.PdfReader	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfReader	Brain Method
-core.com.itextpdf.text.pdf.PdfReader	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfReader	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfReader	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfReader	Feature Envy
-core.com.itextpdf.text.pdf.PdfReader	Brain Method
-core.com.itextpdf.text.pdf.PdfReader	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfReader	Brain Method
-core.com.itextpdf.text.pdf.PdfReader	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfReader	Feature Envy
-core.com.itextpdf.text.pdf.PdfReader	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfReader	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfReader	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfReader	Brain Method
-core.com.itextpdf.text.pdf.PdfReader	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfReader	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfReader	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfReader	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfReader	Feature Envy
-core.com.itextpdf.text.pdf.PdfReader	Feature Envy
-core.com.itextpdf.text.pdf.PdfReader	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfReader	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfReader	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfReader	Feature Envy
-core.com.itextpdf.text.pdf.PdfReader	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfReader	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfReader	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfReader	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfReader	Feature Envy
-core.com.itextpdf.text.pdf.PdfReader	Brain Method
-core.com.itextpdf.text.pdf.PdfReader	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfReader	Feature Envy
-core.com.itextpdf.text.pdf.PdfReader	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfReader	Feature Envy
-core.com.itextpdf.text.pdf.PdfReader	God Class
-core.com.itextpdf.text.pdf.PdfReader	Brain Class
-rups.com.itextpdf.rups.view.itext.treenodes.XfaTreeNode	Dispersed Coupling
-core.com.itextpdf.text.html.simpleparser.IncTable	Dispersed Coupling
-rups.com.itextpdf.rups.io.FileChooserAction	Feature Envy
-rups.com.itextpdf.rups.view.itext.treenodes.PdfObjectTreeNode	Feature Envy
-rups.com.itextpdf.rups.view.itext.treenodes.PdfObjectTreeNode	Feature Envy
-rups.com.itextpdf.rups.view.itext.treenodes.PdfObjectTreeNode	Feature Envy
-rups.com.itextpdf.rups.view.itext.treenodes.PdfObjectTreeNode	Refused Parent Bequest
-rups.com.itextpdf.rups.view.itext.treenodes.PdfObjectTreeNode	Tradition Breaker
-core.com.itextpdf.text.pdf.PdfDocument$PdfCatalog	Dispersed Coupling
-core.com.itextpdf.text.pdf.collection.PdfTargetDictionary	Feature Envy
-core.com.itextpdf.text.Jpeg	Feature Envy
-core.com.itextpdf.text.Jpeg	Brain Method
-core.com.itextpdf.text.Jpeg	Dispersed Coupling
-core.com.itextpdf.text.Jpeg	God Class
-core.com.itextpdf.text.Jpeg	Data Class
-core.com.itextpdf.text.Paragraph	Feature Envy
-core.com.itextpdf.text.Paragraph	God Class
-core.com.itextpdf.text.Paragraph	Refused Parent Bequest
-core.com.itextpdf.text.pdf.PdfCopy	Feature Envy
-core.com.itextpdf.text.pdf.PdfCopy	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfCopy	Feature Envy
-core.com.itextpdf.text.pdf.PdfCopy	Feature Envy
-core.com.itextpdf.text.pdf.PdfCopy	God Class
-core.com.itextpdf.text.pdf.PdfCopy	Refused Parent Bequest
-core.com.itextpdf.text.factories.ElementFactory	Intensive Coupling
-core.com.itextpdf.text.factories.ElementFactory	Dispersed Coupling
-core.com.itextpdf.text.factories.ElementFactory	Dispersed Coupling
-core.com.itextpdf.text.factories.ElementFactory	Dispersed Coupling
-core.com.itextpdf.text.factories.ElementFactory	Feature Envy
-core.com.itextpdf.text.factories.ElementFactory	God Class
-core.com.itextpdf.text.pdf.parser.LocationTextExtractionStrategy	Feature Envy
-core.com.itextpdf.text.pdf.parser.LocationTextExtractionStrategy	Dispersed Coupling
-core.com.itextpdf.text.pdf.parser.LocationTextExtractionStrategy	Feature Envy
-core.com.itextpdf.text.pdf.PdfPKCS7$X509Name	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfPKCS7$X509Name	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfBorderDictionary	Feature Envy
-core.com.itextpdf.text.pdf.PdfIndirectObject	Shotgun Surgery
-core.com.itextpdf.text.pdf.parser.LocationTextExtractionStrategy$TextChunk	Feature Envy
-core.com.itextpdf.text.pdf.internal.PdfVersionImp	Feature Envy
-core.com.itextpdf.text.pdf.internal.PdfVersionImp	Intensive Coupling
-core.com.itextpdf.text.pdf.XfaForm$Xml2SomDatasets	Intensive Coupling
-core.com.itextpdf.text.pdf.XfaForm$Xml2SomDatasets	Feature Envy
-core.com.itextpdf.text.pdf.XfaForm$Xml2SomDatasets	Intensive Coupling
-core.com.itextpdf.text.pdf.XfaForm$Xml2SomDatasets	Feature Envy
-core.com.itextpdf.text.pdf.XfaForm$Xml2SomDatasets	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfMediaClipData	Feature Envy
-core.com.itextpdf.text.Document	Feature Envy
-core.com.itextpdf.text.Document	God Class
-core.com.itextpdf.text.Document	Data Class
-core.com.itextpdf.text.pdf.PdfRendition	Feature Envy
-core.com.itextpdf.text.pdf.IntHashtable	Feature Envy
-core.com.itextpdf.text.pdf.IntHashtable	Feature Envy
-core.com.itextpdf.text.pdf.IntHashtable	Shotgun Surgery
-core.com.itextpdf.text.pdf.IntHashtable	Feature Envy
-core.com.itextpdf.text.pdf.IntHashtable	Shotgun Surgery
-core.com.itextpdf.text.pdf.IntHashtable	Feature Envy
-core.com.itextpdf.text.pdf.IntHashtable	Feature Envy
-core.com.itextpdf.text.pdf.IntHashtable	Shotgun Surgery
-core.com.itextpdf.text.pdf.IntHashtable	Feature Envy
-core.com.itextpdf.text.pdf.IntHashtable	Feature Envy
-core.com.itextpdf.text.pdf.IntHashtable	Data Class
-core.com.itextpdf.text.pdf.fonts.cmaps.CMapParser	Brain Method
-core.com.itextpdf.text.pdf.fonts.cmaps.CMapParser	Dispersed Coupling
-core.com.itextpdf.text.pdf.fonts.cmaps.CMapParser	Brain Method
-core.com.itextpdf.text.pdf.fonts.cmaps.CMapParser	Feature Envy
-core.com.itextpdf.text.pdf.fonts.cmaps.CMapParser	Dispersed Coupling
-core.com.itextpdf.text.pdf.fonts.cmaps.CMapParser	Feature Envy
-core.com.itextpdf.text.pdf.fonts.cmaps.CMapParser	God Class
-core.com.itextpdf.text.pdf.fonts.cmaps.CMapParser	Brain Class
-core.com.itextpdf.text.pdf.BarcodeInter25	Feature Envy
-core.com.itextpdf.text.pdf.BarcodeInter25	Intensive Coupling
-core.com.itextpdf.text.html.Markup	Intensive Coupling
-core.com.itextpdf.text.html.Markup	Data Class
-core.com.itextpdf.text.html.HtmlEncoder	Feature Envy
-core.com.itextpdf.text.html.HtmlEncoder	Feature Envy
-core.com.itextpdf.text.pdf.TrueTypeFont	Dispersed Coupling
-core.com.itextpdf.text.pdf.TrueTypeFont	Dispersed Coupling
-core.com.itextpdf.text.pdf.TrueTypeFont	Dispersed Coupling
-core.com.itextpdf.text.pdf.TrueTypeFont	Brain Method
-core.com.itextpdf.text.pdf.TrueTypeFont	Feature Envy
-core.com.itextpdf.text.pdf.TrueTypeFont	Feature Envy
-core.com.itextpdf.text.pdf.TrueTypeFont	Brain Method
-core.com.itextpdf.text.pdf.TrueTypeFont	Dispersed Coupling
-core.com.itextpdf.text.pdf.TrueTypeFont	Feature Envy
-core.com.itextpdf.text.pdf.TrueTypeFont	God Class
-core.com.itextpdf.text.pdf.TrueTypeFont	Brain Class
-core.com.itextpdf.text.pdf.TrueTypeFont	Refused Parent Bequest
-core.com.itextpdf.text.pdf.collection.PdfCollectionSort	Feature Envy
-core.com.itextpdf.text.pdf.DocumentFont	Feature Envy
-core.com.itextpdf.text.pdf.DocumentFont	Brain Method
-core.com.itextpdf.text.pdf.DocumentFont	Dispersed Coupling
-core.com.itextpdf.text.pdf.DocumentFont	Brain Method
-core.com.itextpdf.text.pdf.DocumentFont	Dispersed Coupling
-core.com.itextpdf.text.pdf.DocumentFont	Feature Envy
-core.com.itextpdf.text.pdf.DocumentFont	God Class
-core.com.itextpdf.text.pdf.DocumentFont	Brain Class
-core.com.itextpdf.text.pdf.DocumentFont	Refused Parent Bequest
-core.com.itextpdf.text.ElementTags	Feature Envy
-core.com.itextpdf.text.ElementTags	Feature Envy
-core.com.itextpdf.text.pdf.PdfAppearance	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfAppearance	Shotgun Surgery
-core.com.itextpdf.text.pdf.SimpleNamedDestination	Intensive Coupling
-core.com.itextpdf.text.pdf.SimpleNamedDestination	Feature Envy
-core.com.itextpdf.text.pdf.SimpleNamedDestination	Dispersed Coupling
-core.com.itextpdf.text.pdf.SimpleNamedDestination	Feature Envy
-core.com.itextpdf.text.pdf.SimpleNamedDestination	Dispersed Coupling
-core.com.itextpdf.text.pdf.SimpleNamedDestination	Feature Envy
-core.com.itextpdf.text.pdf.SimpleNamedDestination	Feature Envy
-core.com.itextpdf.text.pdf.SimpleNamedDestination	God Class
-core.com.itextpdf.text.pdf.PdfLayerMembership	Feature Envy
-core.com.itextpdf.text.pdf.XfaForm$Xml2Som	Intensive Coupling
-core.com.itextpdf.text.pdf.XfaForm$Xml2Som	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfWriter$PdfTrailer	Feature Envy
-core.com.itextpdf.text.pdf.PdfWriter$PdfTrailer	Feature Envy
-core.com.itextpdf.text.pdf.codec.JBIG2SegmentReader$JBIG2Page	Feature Envy
-core.com.itextpdf.text.pdf.codec.TiffWriter$FieldAscii	Feature Envy
-core.com.itextpdf.text.pdf.CMapAwareDocumentFont	Refused Parent Bequest
-core.com.itextpdf.text.pdf.PdfNumberTree	Brain Method
-core.com.itextpdf.text.pdf.PdfNumberTree	Dispersed Coupling
-core.com.itextpdf.text.pdf.RadioCheckField	Feature Envy
-core.com.itextpdf.text.pdf.RadioCheckField	Intensive Coupling
-core.com.itextpdf.text.pdf.RadioCheckField	Intensive Coupling
-core.com.itextpdf.text.pdf.RadioCheckField	Feature Envy
-core.com.itextpdf.text.pdf.RadioCheckField	Intensive Coupling
-core.com.itextpdf.text.pdf.RadioCheckField	God Class
-core.com.itextpdf.text.pdf.RadioCheckField	Refused Parent Bequest
-core.com.itextpdf.text.pdf.RadioCheckField	Tradition Breaker
-core.com.itextpdf.text.Meta	Feature Envy
-core.com.itextpdf.text.Meta	Feature Envy
-core.com.itextpdf.text.pdf.qrcode.QRCode	Feature Envy
-core.com.itextpdf.text.pdf.hyphenation.TernaryTree	Feature Envy
-core.com.itextpdf.text.pdf.hyphenation.TernaryTree	Brain Method
-core.com.itextpdf.text.pdf.hyphenation.TernaryTree	Feature Envy
-core.com.itextpdf.text.pdf.hyphenation.TernaryTree	Feature Envy
-core.com.itextpdf.text.pdf.hyphenation.TernaryTree	Feature Envy
-core.com.itextpdf.text.pdf.PdfCopyForms	Feature Envy
-core.com.itextpdf.text.pdf.BarcodeQRCode	Feature Envy
-core.com.itextpdf.text.pdf.BarcodeQRCode	Feature Envy
-core.com.itextpdf.text.pdf.BarcodeQRCode	Feature Envy
-core.com.itextpdf.text.pdf.PdfReaderInstance	Shotgun Surgery
-core.com.itextpdf.text.pdf.PdfReaderInstance	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfReaderInstance	Dispersed Coupling
-core.com.itextpdf.text.pdf.PdfCopyFields	Feature Envy
-core.com.itextpdf.text.pdf.PdfCopyFormsImp	Feature Envy
-core.com.itextpdf.text.pdf.PdfCopyFormsImp	Intensive Coupling
-core.com.itextpdf.text.pdf.PdfShading	Feature Envy
-core.com.itextpdf.text.pdf.PdfShading	God Class
-core.com.itextpdf.text.pdf.AcroFields	Brain Method
-core.com.itextpdf.text.pdf.AcroFields	Intensive Coupling
-core.com.itextpdf.text.pdf.AcroFields	Dispersed Coupling
-core.com.itextpdf.text.pdf.AcroFields	Dispersed Coupling
-core.com.itextpdf.text.pdf.AcroFields	Dispersed Coupling
-core.com.itextpdf.text.pdf.AcroFields	Brain Method
-core.com.itextpdf.text.pdf.AcroFields	Intensive Coupling
-core.com.itextpdf.text.pdf.AcroFields	Brain Method
-core.com.itextpdf.text.pdf.AcroFields	Dispersed Coupling
-core.com.itextpdf.text.pdf.AcroFields	Feature Envy
-core.com.itextpdf.text.pdf.AcroFields	Dispersed Coupling
-core.com.itextpdf.text.pdf.AcroFields	Brain Method
-core.com.itextpdf.text.pdf.AcroFields	Dispersed Coupling
-core.com.itextpdf.text.pdf.AcroFields	Brain Method
-core.com.itextpdf.text.pdf.AcroFields	Dispersed Coupling
-core.com.itextpdf.text.pdf.AcroFields	Brain Method
-core.com.itextpdf.text.pdf.AcroFields	Dispersed Coupling
-core.com.itextpdf.text.pdf.AcroFields	Dispersed Coupling
-core.com.itextpdf.text.pdf.AcroFields	Feature Envy
-core.com.itextpdf.text.pdf.AcroFields	Shotgun Surgery
-core.com.itextpdf.text.pdf.AcroFields	Dispersed Coupling
-core.com.itextpdf.text.pdf.AcroFields	Feature Envy
-core.com.itextpdf.text.pdf.AcroFields	Intensive Coupling
-core.com.itextpdf.text.pdf.AcroFields	Dispersed Coupling
-core.com.itextpdf.text.pdf.AcroFields	Dispersed Coupling
-core.com.itextpdf.text.pdf.AcroFields	Intensive Coupling
-core.com.itextpdf.text.pdf.AcroFields	Dispersed Coupling
-core.com.itextpdf.text.pdf.AcroFields	Intensive Coupling
-core.com.itextpdf.text.pdf.AcroFields	Intensive Coupling
-core.com.itextpdf.text.pdf.AcroFields	God Class
-core.com.itextpdf.text.pdf.AcroFields	Brain Class
-rups.com.itextpdf.rups.view.itext.XfaTree	Feature Envy
-core.com.itextpdf.text.pdf.PdfDate	Feature Envy
-core.com.itextpdf.text.pdf.PdfDate	Dispersed Coupling
-core.com.itextpdf.text.pdf.qrcode.BitVector	Feature Envy
-core.com.itextpdf.text.RectangleReadOnly	Refused Parent Bequest
-core.com.itextpdf.text.pdf.PdfSignature	Feature Envy
-core.com.itextpdf.text.xml.XmlDomWriter	Intensive Coupling
-core.com.itextpdf.text.xml.XmlDomWriter	Feature Envy
-core.com.itextpdf.text.xml.XmlDomWriter	God Class
-core.com.itextpdf.text.pdf.codec.PngImage	Brain Method
-core.com.itextpdf.text.pdf.codec.PngImage	Dispersed Coupling
-core.com.itextpdf.text.pdf.codec.PngImage	Brain Method
-core.com.itextpdf.text.pdf.codec.PngImage	Feature Envy
-core.com.itextpdf.text.pdf.codec.PngImage	Brain Method
-core.com.itextpdf.text.pdf.codec.PngImage	Intensive Coupling
-core.com.itextpdf.text.pdf.codec.PngImage	Brain Method
-core.com.itextpdf.text.pdf.codec.PngImage	Feature Envy
-core.com.itextpdf.text.pdf.codec.PngImage	God Class
-core.com.itextpdf.text.pdf.codec.PngImage	Brain Class
-core.com.itextpdf.text.pdf.codec.PngImage	Data Class
-core.com.itextpdf.text.pdf.RandomAccessFileOrArray	Brain Method
-core.com.itextpdf.text.pdf.RandomAccessFileOrArray	Shotgun Surgery
-core.com.itextpdf.text.pdf.RandomAccessFileOrArray	Feature Envy
-core.com.itextpdf.text.pdf.RandomAccessFileOrArray	Shotgun Surgery
-core.com.itextpdf.text.pdf.RandomAccessFileOrArray	Shotgun Surgery
-core.com.itextpdf.text.pdf.RandomAccessFileOrArray	Shotgun Surgery
-core.com.itextpdf.text.pdf.RandomAccessFileOrArray	Shotgun Surgery
-core.com.itextpdf.text.pdf.RandomAccessFileOrArray	Shotgun Surgery
-core.com.itextpdf.text.pdf.RandomAccessFileOrArray	Shotgun Surgery
-core.com.itextpdf.text.pdf.RandomAccessFileOrArray	Shotgun Surgery
-core.com.itextpdf.text.pdf.RandomAccessFileOrArray	Shotgun Surgery
-core.com.itextpdf.text.pdf.RandomAccessFileOrArray	God Class
-core.com.itextpdf.text.pdf.RandomAccessFileOrArray	Brain Class
-core.com.itextpdf.text.pdf.RandomAccessFileOrArray	Data Class
-core.com.itextpdf.text.pdf.Type3Font	Dispersed Coupling
-core.com.itextpdf.text.pdf.Type3Font	Feature Envy
-core.com.itextpdf.text.pdf.Type3Font	God Class
-core.com.itextpdf.text.pdf.Type3Font	Refused Parent Bequest
-core.com.itextpdf.text.pdf.codec.wmf.MetaDo	Brain Method
-core.com.itextpdf.text.pdf.codec.wmf.MetaDo	Intensive Coupling
-core.com.itextpdf.text.pdf.codec.wmf.MetaDo	Intensive Coupling
-core.com.itextpdf.text.pdf.codec.wmf.MetaDo	Intensive Coupling
-core.com.itextpdf.text.pdf.codec.wmf.MetaDo	Dispersed Coupling
-core.com.itextpdf.text.pdf.codec.wmf.MetaDo	God Class
-core.com.itextpdf.text.pdf.codec.wmf.MetaDo	Brain Class
-core.com.itextpdf.text.pdf.codec.wmf.MetaDo	Data Class
+core.com.itextpdf.text.pdf.qrcode.Version	buildFunctionPattern	Feature Envy
+core.com.itextpdf.text.pdf.PdfLine	add	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfLine	indentLeft	Feature Envy
+core.com.itextpdf.text.pdf.PdfLine	getMaxSize	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfLine	getAscender	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfLine	getDescender	Dispersed Coupling
+core.com.itextpdf.text.ImgCCITT	ImgCCITT	Feature Envy
+core.com.itextpdf.text.pdf.PdfGState	setOverPrintStroking	Feature Envy
+core.com.itextpdf.text.pdf.PdfGState	setOverPrintNonStroking	Feature Envy
+core.com.itextpdf.text.pdf.PdfGState	setAlphaIsShape	Feature Envy
+core.com.itextpdf.text.pdf.PdfGState	setTextKnockout	Feature Envy
+core.com.itextpdf.text.pdf.BarcodeEAN	convertUPCAtoUPCE	Intensive Coupling
+core.com.itextpdf.text.pdf.BarcodeEAN	getBarsUPCE	Feature Envy
+core.com.itextpdf.text.pdf.BarcodeEAN	getBarcodeSize	Feature Envy
+core.com.itextpdf.text.pdf.BarcodeEAN	placeBarcode	Brain Method
+core.com.itextpdf.text.pdf.BarcodeEAN	placeBarcode	Intensive Coupling
+core.com.itextpdf.text.pdf.BarcodeEAN	null	God Class
+core.com.itextpdf.text.pdf.BarcodeEAN	null	Brain Class
+core.com.itextpdf.text.pdf.BarcodeEAN	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.BarcodeEAN	null	Tradition Breaker
+core.com.itextpdf.text.SpecialSymbol	get	Feature Envy
+core.com.itextpdf.text.SpecialSymbol	null	God Class
+core.com.itextpdf.text.pdf.internal.PdfViewerPreferencesImp	addToCatalog	Feature Envy
+core.com.itextpdf.text.pdf.internal.PdfViewerPreferencesImp	null	God Class
+core.com.itextpdf.text.pdf.internal.PdfViewerPreferencesImp	null	Data Class
+core.com.itextpdf.text.pdf.codec.TIFFLZWDecoder	writeString	Feature Envy
+core.com.itextpdf.text.pdf.VerticalText	shortenChunkArray	Feature Envy
+core.com.itextpdf.text.pdf.VerticalText	go	Feature Envy
+core.com.itextpdf.text.pdf.VerticalText	go	Dispersed Coupling
+core.com.itextpdf.text.pdf.VerticalText	writeLine	Feature Envy
+core.com.itextpdf.text.pdf.VerticalText	writeLine	Intensive Coupling
+core.com.itextpdf.text.pdf.BarcodePDF417	textCompaction	Brain Method
+core.com.itextpdf.text.pdf.BarcodePDF417	breakString	Brain Method
+core.com.itextpdf.text.pdf.BarcodePDF417	macroCodes	Feature Envy
+core.com.itextpdf.text.pdf.BarcodePDF417	paintCode	Brain Method
+core.com.itextpdf.text.pdf.BarcodePDF417	getImage	Feature Envy
+core.com.itextpdf.text.pdf.BarcodePDF417	null	God Class
+core.com.itextpdf.text.pdf.BarcodePDF417	null	Brain Class
+core.com.itextpdf.text.pdf.internal.PolylineShapeIterator	currentSegment	Feature Envy
+core.com.itextpdf.text.pdf.internal.PolylineShapeIterator	currentSegment	Feature Envy
+core.com.itextpdf.text.pdf.PageResources	setOriginalResources	Feature Envy
+core.com.itextpdf.text.pdf.PageResources	getResources	Feature Envy
+core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$BeginMarkedContentDictionary	invoke	Feature Envy
+core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$TextSetTextMatrix	invoke	Feature Envy
+core.com.itextpdf.text.pdf.PdfFont	getFont	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfSmartCopy	copyIndirect	Dispersed Coupling
+core.com.itextpdf.text.pdf.BidiOrder	reinsertExplicitCodes	Feature Envy
+core.com.itextpdf.text.pdf.BidiOrder	processEmbeddings	Brain Method
+core.com.itextpdf.text.pdf.BidiOrder	resolveWeakTypes	Brain Method
+core.com.itextpdf.text.pdf.BidiOrder	computeMultilineReordering	Feature Envy
+core.com.itextpdf.text.pdf.BidiOrder	validateTypes	Feature Envy
+core.com.itextpdf.text.pdf.BidiOrder	validateLineBreaks	Feature Envy
+core.com.itextpdf.text.pdf.BidiOrder	null	God Class
+core.com.itextpdf.text.pdf.BidiOrder	null	Brain Class
+core.com.itextpdf.text.pdf.BidiOrder	null	Data Class
+core.com.itextpdf.text.pdf.codec.JBIG2SegmentReader	read	Dispersed Coupling
+core.com.itextpdf.text.pdf.codec.JBIG2SegmentReader	readHeader	Brain Method
+core.com.itextpdf.text.pdf.codec.JBIG2SegmentReader	readHeader	Intensive Coupling
+core.com.itextpdf.text.pdf.codec.JBIG2SegmentReader	getGlobal	Feature Envy
+core.com.itextpdf.text.pdf.codec.JBIG2SegmentReader	null	Data Class
+core.com.itextpdf.text.pdf.PdfContentParser	readArray	Feature Envy
+core.com.itextpdf.text.pdf.PdfContentParser	readPRObject	Feature Envy
+core.com.itextpdf.text.Section	null	God Class
+core.com.itextpdf.text.pdf.BaseField	getBorderAppearance	Brain Method
+core.com.itextpdf.text.pdf.BaseField	getBorderAppearance	Intensive Coupling
+core.com.itextpdf.text.pdf.BaseField	breakLines	Brain Method
+core.com.itextpdf.text.pdf.BaseField	breakLines	Dispersed Coupling
+core.com.itextpdf.text.pdf.BaseField	drawTopFrame	Feature Envy
+core.com.itextpdf.text.pdf.BaseField	drawBottomFrame	Feature Envy
+core.com.itextpdf.text.pdf.BaseField	moveFields	Dispersed Coupling
+core.com.itextpdf.text.pdf.BaseField	null	God Class
+core.com.itextpdf.text.pdf.BaseField	null	Brain Class
+core.com.itextpdf.text.pdf.collection.PdfCollectionField	PdfCollectionField	Feature Envy
+core.com.itextpdf.text.pdf.PdfSmartCopy$ByteStore	serObject	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfSmartCopy$ByteStore	serDic	Feature Envy
+core.com.itextpdf.text.pdf.PdfEncodings$Cp437Conversion	charToByte	Feature Envy
+core.com.itextpdf.text.pdf.qrcode.MaskUtil	applyMaskPenaltyRule2	Feature Envy
+core.com.itextpdf.text.pdf.qrcode.MaskUtil	applyMaskPenaltyRule3	Feature Envy
+core.com.itextpdf.text.pdf.qrcode.MaskUtil	applyMaskPenaltyRule4	Feature Envy
+core.com.itextpdf.text.pdf.qrcode.MaskUtil	applyMaskPenaltyRule1Internal	Feature Envy
+core.com.itextpdf.text.pdf.qrcode.MaskUtil	null	God Class
+core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$MoveNextLineAndShowTextWithSpacing	invoke	Feature Envy
+core.com.itextpdf.text.pdf.PdfCopy$PageStamp	alterContents	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfCopy$PageStamp	addDocumentField	Feature Envy
+core.com.itextpdf.text.pdf.PdfCopy$PageStamp	addAnnotation	Dispersed Coupling
+core.com.itextpdf.text.FontFactoryImp	FontFactoryImp	Feature Envy
+core.com.itextpdf.text.FontFactoryImp	getFont	Brain Method
+core.com.itextpdf.text.FontFactoryImp	getFont	Dispersed Coupling
+core.com.itextpdf.text.FontFactoryImp	registerFamily	Intensive Coupling
+core.com.itextpdf.text.FontFactoryImp	register	Brain Method
+core.com.itextpdf.text.FontFactoryImp	register	Dispersed Coupling
+core.com.itextpdf.text.FontFactoryImp	registerDirectory	Feature Envy
+core.com.itextpdf.text.FontFactoryImp	registerDirectory	Intensive Coupling
+core.com.itextpdf.text.FontFactoryImp	null	God Class
+core.com.itextpdf.text.FontFactoryImp	null	Brain Class
+core.com.itextpdf.text.pdf.CJKFont	CJKFont	Intensive Coupling
+core.com.itextpdf.text.pdf.CJKFont	getFontDescriptor	Feature Envy
+core.com.itextpdf.text.pdf.CJKFont	getCIDFont	Feature Envy
+core.com.itextpdf.text.pdf.CJKFont	getFontBaseType	Feature Envy
+core.com.itextpdf.text.pdf.CJKFont	convertToHCIDMetrics	Brain Method
+core.com.itextpdf.text.pdf.CJKFont	convertToHCIDMetrics	Feature Envy
+core.com.itextpdf.text.pdf.CJKFont	convertToVCIDMetrics	Feature Envy
+core.com.itextpdf.text.pdf.CJKFont	readFontProperties	Feature Envy
+core.com.itextpdf.text.pdf.CJKFont	null	God Class
+core.com.itextpdf.text.pdf.CJKFont	null	Brain Class
+core.com.itextpdf.text.pdf.CJKFont	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.PdfCopyFieldsImp	addDocument	Feature Envy
+core.com.itextpdf.text.pdf.PdfCopyFieldsImp	addDocument	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfCopyFieldsImp	getCOName	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfCopyFieldsImp	updateCalculationOrder	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfCopyFieldsImp	propagate	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfCopyFieldsImp	adjustTabOrder	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfCopyFieldsImp	branchForm	Brain Method
+core.com.itextpdf.text.pdf.PdfCopyFieldsImp	branchForm	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfCopyFieldsImp	createAcroForms	Feature Envy
+core.com.itextpdf.text.pdf.PdfCopyFieldsImp	closeIt	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfCopyFieldsImp	addPageOffsetToField	Feature Envy
+core.com.itextpdf.text.pdf.PdfCopyFieldsImp	createWidgets	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfCopyFieldsImp	mergeField	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfCopyFieldsImp	mergeWithMaster	Feature Envy
+core.com.itextpdf.text.pdf.PdfCopyFieldsImp	null	God Class
+core.com.itextpdf.text.pdf.PdfCopyFieldsImp	null	Brain Class
+core.com.itextpdf.text.pdf.PdfCopyFieldsImp	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.PdfEncryption	setCryptoMode	Feature Envy
+core.com.itextpdf.text.pdf.PdfEncryption	padPassword	Feature Envy
+core.com.itextpdf.text.pdf.PdfEncryption	computeOwnerKey	Feature Envy
+core.com.itextpdf.text.pdf.PdfEncryption	computeOwnerKey	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfEncryption	getEncryptionDictionary	Brain Method
+core.com.itextpdf.text.pdf.PdfEncryption	getEncryptionDictionary	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfEncryption	null	God Class
+core.com.itextpdf.text.DocWriter	null	Data Class
+core.com.itextpdf.text.pdf.richmedia.RichMediaAnnotation	RichMediaAnnotation	Feature Envy
+rups.com.itextpdf.rups.view.Console	update	Feature Envy
+core.com.itextpdf.text.pdf.PdfStamperImp	PdfStamperImp	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfStamperImp	close	Brain Method
+core.com.itextpdf.text.pdf.PdfStamperImp	close	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfStamperImp	alterContents	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfStamperImp	addComments	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfStamperImp	getUnderContent	Feature Envy
+core.com.itextpdf.text.pdf.PdfStamperImp	getOverContent	Feature Envy
+core.com.itextpdf.text.pdf.PdfStamperImp	insertPage	Brain Method
+core.com.itextpdf.text.pdf.PdfStamperImp	insertPage	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfStamperImp	partialFormFlattening	Feature Envy
+core.com.itextpdf.text.pdf.PdfStamperImp	flatFields	Brain Method
+core.com.itextpdf.text.pdf.PdfStamperImp	flatFields	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfStamperImp	flatFreeTextFields	Brain Method
+core.com.itextpdf.text.pdf.PdfStamperImp	flatFreeTextFields	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfStamperImp	addAnnotation	Brain Method
+core.com.itextpdf.text.pdf.PdfStamperImp	addAnnotation	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfStamperImp	addFileAttachments	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfStamperImp	setDuration	Feature Envy
+core.com.itextpdf.text.pdf.PdfStamperImp	markUsed	Feature Envy
+core.com.itextpdf.text.pdf.PdfStamperImp	readOCProperties	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfStamperImp	addOrder	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfStamperImp	null	God Class
+core.com.itextpdf.text.pdf.PdfStamperImp	null	Brain Class
+core.com.itextpdf.text.pdf.PdfStamperImp	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.TrueTypeFontSubSet	assembleFont	Brain Method
+core.com.itextpdf.text.pdf.TrueTypeFontSubSet	readLoca	Feature Envy
+core.com.itextpdf.text.pdf.TrueTypeFontSubSet	createNewGlyphTables	Feature Envy
+core.com.itextpdf.text.pdf.TrueTypeFontSubSet	locaTobytes	Feature Envy
+core.com.itextpdf.text.pdf.TrueTypeFontSubSet	writeFontString	Feature Envy
+core.com.itextpdf.text.pdf.ArabicLigaturizer	ligature	Feature Envy
+core.com.itextpdf.text.pdf.ArabicLigaturizer	copycstostring	Feature Envy
+core.com.itextpdf.text.pdf.ArabicLigaturizer	doublelig	Brain Method
+core.com.itextpdf.text.pdf.ArabicLigaturizer	doublelig	Feature Envy
+core.com.itextpdf.text.pdf.ArabicLigaturizer	shape	Feature Envy
+core.com.itextpdf.text.pdf.ArabicLigaturizer	shapeToArabicDigitsWithContext	Feature Envy
+core.com.itextpdf.text.pdf.ArabicLigaturizer	null	God Class
+core.com.itextpdf.text.pdf.ArabicLigaturizer	null	Brain Class
+core.com.itextpdf.text.pdf.ArabicLigaturizer	null	Data Class
+core.com.itextpdf.text.pdf.Type1Font	Type1Font	Brain Method
+core.com.itextpdf.text.pdf.Type1Font	Type1Font	Dispersed Coupling
+core.com.itextpdf.text.pdf.Type1Font	process	Brain Method
+core.com.itextpdf.text.pdf.Type1Font	process	Dispersed Coupling
+core.com.itextpdf.text.pdf.Type1Font	getFullFontStream	Feature Envy
+core.com.itextpdf.text.pdf.Type1Font	getFontDescriptor	Feature Envy
+core.com.itextpdf.text.pdf.Type1Font	getFontBaseType	Feature Envy
+core.com.itextpdf.text.pdf.Type1Font	setKerning	Feature Envy
+core.com.itextpdf.text.pdf.Type1Font	null	God Class
+core.com.itextpdf.text.pdf.Type1Font	null	Brain Class
+core.com.itextpdf.text.pdf.Type1Font	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.OutputStreamEncryption	write	Feature Envy
+core.com.itextpdf.text.pdf.CFFFont	getDictItem	Brain Method
+core.com.itextpdf.text.pdf.CFFFont	getCID	Brain Method
+core.com.itextpdf.text.pdf.CFFFont	getCID	Dispersed Coupling
+core.com.itextpdf.text.pdf.CFFFont	isCID	Feature Envy
+core.com.itextpdf.text.pdf.CFFFont	getNames	Feature Envy
+core.com.itextpdf.text.pdf.CFFFont	CFFFont	Brain Method
+core.com.itextpdf.text.pdf.CFFFont	null	Brain Class
+core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor	populateXObjectDoHandlers	Feature Envy
+core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor	gs	Shotgun Surgery
+core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor	displayXObject	Dispersed Coupling
+core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor	parseEmbeddedImage	Feature Envy
+core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor	parseEmbeddedImage	Dispersed Coupling
+core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor	processContent	Dispersed Coupling
+core.com.itextpdf.text.pdf.PRAcroForm	iterateFields	Dispersed Coupling
+core.com.itextpdf.text.pdf.PRAcroForm	mergeAttrib	Feature Envy
+core.com.itextpdf.text.pdf.PRAcroForm	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.collection.PdfCollection	PdfCollection	Feature Envy
+core.com.itextpdf.text.pdf.fonts.cmaps.CMap	addMapping	Feature Envy
+core.com.itextpdf.text.pdf.PdfEncryptor	getPermissionsVerbose	Feature Envy
+core.com.itextpdf.text.pdf.PdfPKCS7	findOcsp	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfPKCS7	PdfPKCS7	Brain Method
+core.com.itextpdf.text.pdf.PdfPKCS7	PdfPKCS7	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfPKCS7	PdfPKCS7	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfPKCS7	signCertificateChain	Feature Envy
+core.com.itextpdf.text.pdf.PdfPKCS7	signCertificateChain	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfPKCS7	loadCacertsKeyStore	Feature Envy
+core.com.itextpdf.text.pdf.PdfPKCS7	getEncodedPKCS7	Brain Method
+core.com.itextpdf.text.pdf.PdfPKCS7	getEncodedPKCS7	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfPKCS7	null	God Class
+core.com.itextpdf.text.pdf.PdfPKCS7	null	Brain Class
+core.com.itextpdf.text.pdf.hyphenation.HyphenationTree	getValues	Feature Envy
+core.com.itextpdf.text.pdf.hyphenation.HyphenationTree	hyphenate	Brain Method
+core.com.itextpdf.text.pdf.hyphenation.HyphenationTree	null	God Class
+core.com.itextpdf.text.pdf.hyphenation.HyphenationTree	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.hyphenation.HyphenationTree	null	Tradition Breaker
+core.com.itextpdf.text.ImgRaw	ImgRaw	Feature Envy
+core.com.itextpdf.text.pdf.PdfFileSpecification	url	Feature Envy
+core.com.itextpdf.text.pdf.PdfFileSpecification	fileEmbedded	Brain Method
+core.com.itextpdf.text.pdf.PdfFileSpecification	fileEmbedded	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfFileSpecification	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.PdfFileSpecification	null	Tradition Breaker
+core.com.itextpdf.text.pdf.BaseFont	createFont	Intensive Coupling
+core.com.itextpdf.text.pdf.BaseFont	createEncoding	Brain Method
+core.com.itextpdf.text.pdf.BaseFont	createEncoding	Dispersed Coupling
+core.com.itextpdf.text.pdf.BaseFont	getWidthPoint	Shotgun Surgery
+core.com.itextpdf.text.pdf.BaseFont	getFontDescriptor	Shotgun Surgery
+core.com.itextpdf.text.pdf.BaseFont	getFontType	Shotgun Surgery
+core.com.itextpdf.text.pdf.BaseFont	null	God Class
+core.com.itextpdf.text.pdf.BaseFont	null	Brain Class
+core.com.itextpdf.text.pdf.BaseFont	null	Data Class
+core.com.itextpdf.text.xml.simpleparser.SimpleXMLParser	go	Brain Method
+core.com.itextpdf.text.xml.simpleparser.SimpleXMLParser	go	Feature Envy
+core.com.itextpdf.text.xml.simpleparser.SimpleXMLParser	go	Intensive Coupling
+core.com.itextpdf.text.xml.simpleparser.SimpleXMLParser	parse	Dispersed Coupling
+core.com.itextpdf.text.xml.simpleparser.SimpleXMLParser	null	God Class
+core.com.itextpdf.text.xml.simpleparser.SimpleXMLParser	null	Brain Class
+core.com.itextpdf.text.pdf.PdfGraphics2D	drawRenderedImage	Feature Envy
+core.com.itextpdf.text.pdf.PdfGraphics2D	drawRenderedImage	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfGraphics2D	doAttributes	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfGraphics2D	drawString	Brain Method
+core.com.itextpdf.text.pdf.PdfGraphics2D	drawString	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfGraphics2D	drawString	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfGraphics2D	hit	Feature Envy
+core.com.itextpdf.text.pdf.PdfGraphics2D	setComposite	Feature Envy
+core.com.itextpdf.text.pdf.PdfGraphics2D	setPaint	Feature Envy
+core.com.itextpdf.text.pdf.PdfGraphics2D	transformStroke	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfGraphics2D	setStrokeDiff	Brain Method
+core.com.itextpdf.text.pdf.PdfGraphics2D	setStrokeDiff	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfGraphics2D	getCachedBaseFont	Feature Envy
+core.com.itextpdf.text.pdf.PdfGraphics2D	drawImage	Feature Envy
+core.com.itextpdf.text.pdf.PdfGraphics2D	followPath	Brain Method
+core.com.itextpdf.text.pdf.PdfGraphics2D	followPath	Feature Envy
+core.com.itextpdf.text.pdf.PdfGraphics2D	followPath	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfGraphics2D	drawImage	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfGraphics2D	setPaint	Brain Method
+core.com.itextpdf.text.pdf.PdfGraphics2D	setPaint	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfGraphics2D	null	God Class
+core.com.itextpdf.text.pdf.PdfGraphics2D	null	Brain Class
+core.com.itextpdf.text.xml.simpleparser.EntitiesToSymbol	get	Feature Envy
+core.com.itextpdf.text.pdf.PdfPublicKeySecurityHandler	getEncodedRecipient	Feature Envy
+core.com.itextpdf.text.pdf.parser.TaggedPdfReaderTool	inspectChildDictionary	Feature Envy
+core.com.itextpdf.text.pdf.parser.TaggedPdfReaderTool	inspectChildDictionary	Dispersed Coupling
+core.com.itextpdf.text.pdf.parser.TaggedPdfReaderTool	parseTag	Dispersed Coupling
+core.com.itextpdf.text.html.simpleparser.HTMLWorker	startElement	Brain Method
+core.com.itextpdf.text.html.simpleparser.HTMLWorker	startElement	Dispersed Coupling
+core.com.itextpdf.text.html.simpleparser.HTMLWorker	endElement	Brain Method
+core.com.itextpdf.text.html.simpleparser.HTMLWorker	endElement	Dispersed Coupling
+core.com.itextpdf.text.html.simpleparser.HTMLWorker	text	Intensive Coupling
+core.com.itextpdf.text.html.simpleparser.HTMLWorker	null	God Class
+core.com.itextpdf.text.html.simpleparser.HTMLWorker	null	Brain Class
+core.com.itextpdf.text.pdf.DefaultFontMapper	awtToPdf	Brain Method
+core.com.itextpdf.text.pdf.DefaultFontMapper	pdfToAwt	Feature Envy
+core.com.itextpdf.text.pdf.DefaultFontMapper	getBaseFontParameters	Feature Envy
+core.com.itextpdf.text.pdf.DefaultFontMapper	insertDirectory	Dispersed Coupling
+core.com.itextpdf.text.pdf.DefaultFontMapper	null	God Class
+core.com.itextpdf.text.pdf.codec.wmf.MetaState	selectMetaObject	Intensive Coupling
+core.com.itextpdf.text.pdf.codec.wmf.MetaState	null	God Class
+core.com.itextpdf.text.pdf.Barcode128	getHumanReadableUCCEAN	Intensive Coupling
+core.com.itextpdf.text.pdf.Barcode128	getRawText	Brain Method
+core.com.itextpdf.text.pdf.Barcode128	placeBarcode	Intensive Coupling
+core.com.itextpdf.text.pdf.Barcode128	setCode	Dispersed Coupling
+core.com.itextpdf.text.pdf.Barcode128	null	God Class
+core.com.itextpdf.text.pdf.Barcode128	null	Brain Class
+core.com.itextpdf.text.pdf.Barcode128	null	Data Class
+core.com.itextpdf.text.pdf.Barcode128	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.Barcode39	placeBarcode	Intensive Coupling
+core.com.itextpdf.text.pdf.Barcode39	null	God Class
+core.com.itextpdf.text.pdf.qrcode.Encoder	encode	Intensive Coupling
+core.com.itextpdf.text.pdf.qrcode.Encoder	chooseMode	Feature Envy
+core.com.itextpdf.text.pdf.qrcode.Encoder	initQRCode	Intensive Coupling
+core.com.itextpdf.text.pdf.qrcode.Encoder	interleaveWithECBytes	Intensive Coupling
+core.com.itextpdf.text.pdf.qrcode.Encoder	appendBytes	Feature Envy
+core.com.itextpdf.text.pdf.qrcode.Encoder	appendECI	Feature Envy
+core.com.itextpdf.text.pdf.qrcode.Encoder	null	God Class
+core.com.itextpdf.text.xml.xmp.XmpReader	replaceNode	Feature Envy
+core.com.itextpdf.text.xml.xmp.XmpReader	add	Intensive Coupling
+core.com.itextpdf.text.pdf.parser.LineSegment	getBoundingRectange	Feature Envy
+core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$TextMoveStartNextLine	invoke	Feature Envy
+core.com.itextpdf.text.pdf.FdfWriter	iterateFields	Feature Envy
+core.com.itextpdf.text.pdf.FdfWriter	removeField	Feature Envy
+core.com.itextpdf.text.pdf.FdfWriter	removeField	Intensive Coupling
+core.com.itextpdf.text.pdf.FdfWriter	setFields	Dispersed Coupling
+core.com.itextpdf.text.pdf.collection.PdfCollectionItem	addItem	Feature Envy
+core.com.itextpdf.text.pdf.collection.PdfCollectionItem	addItem	Feature Envy
+core.com.itextpdf.text.pdf.collection.PdfCollectionItem	addItem	Feature Envy
+core.com.itextpdf.text.pdf.collection.PdfCollectionItem	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.PdfArray	size	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfArray	isEmpty	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfArray	add	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfArray	listIterator	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfArray	getPdfObject	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfArray	getAsNumber	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfArray	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.PdfArray	null	Tradition Breaker
+core.com.itextpdf.text.ElementListener	add	Shotgun Surgery
+core.com.itextpdf.text.pdf.qrcode.QRCodeWriter	renderResult	Feature Envy
+core.com.itextpdf.text.pdf.MultiColumnText	write	Brain Method
+core.com.itextpdf.text.pdf.MultiColumnText	write	Dispersed Coupling
+core.com.itextpdf.text.pdf.MultiColumnText	getHeight	Feature Envy
+core.com.itextpdf.text.pdf.MultiColumnText	null	God Class
+core.com.itextpdf.text.pdf.MultiColumnText	null	Data Class
+core.com.itextpdf.text.pdf.qrcode.MatrixUtil	embedTypeInfo	Feature Envy
+core.com.itextpdf.text.pdf.qrcode.MatrixUtil	maybeEmbedVersionInfo	Feature Envy
+core.com.itextpdf.text.pdf.qrcode.MatrixUtil	embedDataBits	Feature Envy
+core.com.itextpdf.text.pdf.qrcode.MatrixUtil	embedTimingPatterns	Feature Envy
+core.com.itextpdf.text.pdf.qrcode.MatrixUtil	embedDarkDotAtLeftBottomCorner	Feature Envy
+core.com.itextpdf.text.pdf.qrcode.MatrixUtil	embedHorizontalSeparationPattern	Feature Envy
+core.com.itextpdf.text.pdf.qrcode.MatrixUtil	embedVerticalSeparationPattern	Feature Envy
+core.com.itextpdf.text.pdf.qrcode.MatrixUtil	embedPositionAdjustmentPattern	Feature Envy
+core.com.itextpdf.text.pdf.qrcode.MatrixUtil	embedPositionDetectionPattern	Feature Envy
+core.com.itextpdf.text.pdf.qrcode.MatrixUtil	embedPositionDetectionPatternsAndSeparators	Feature Envy
+core.com.itextpdf.text.pdf.qrcode.MatrixUtil	null	God Class
+rups.com.itextpdf.rups.controller.PdfReaderController	startObjectLoader	Feature Envy
+rups.com.itextpdf.rups.controller.PdfReaderController	render	Feature Envy
+rups.com.itextpdf.rups.controller.PdfReaderController	gotoPage	Feature Envy
+core.com.itextpdf.text.pdf.SpotColor	SpotColor	Feature Envy
+core.com.itextpdf.text.pdf.PdfFormField	PdfFormField	Feature Envy
+core.com.itextpdf.text.pdf.PdfFormField	setWidget	Feature Envy
+core.com.itextpdf.text.pdf.PdfFormField	setWidget	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfFormField	setButton	Feature Envy
+core.com.itextpdf.text.pdf.PdfFormField	createTextField	Feature Envy
+core.com.itextpdf.text.pdf.PdfFormField	createChoice	Feature Envy
+core.com.itextpdf.text.pdf.PdfFormField	setFieldFlags	Feature Envy
+core.com.itextpdf.text.pdf.PdfFormField	setFieldName	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfFormField	null	God Class
+core.com.itextpdf.text.pdf.PdfFormField	null	Data Class
+core.com.itextpdf.text.pdf.PdfFormField	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.TrueTypeFontUnicode	getWidth	Feature Envy
+core.com.itextpdf.text.pdf.TrueTypeFontUnicode	getToUnicode	Feature Envy
+core.com.itextpdf.text.pdf.TrueTypeFontUnicode	getCIDFontType2	Feature Envy
+core.com.itextpdf.text.pdf.TrueTypeFontUnicode	getFontBaseType	Feature Envy
+core.com.itextpdf.text.pdf.TrueTypeFontUnicode	writeFont	Brain Method
+core.com.itextpdf.text.pdf.TrueTypeFontUnicode	writeFont	Dispersed Coupling
+core.com.itextpdf.text.pdf.TrueTypeFontUnicode	getMetricsTT	Feature Envy
+core.com.itextpdf.text.pdf.TrueTypeFontUnicode	null	God Class
+core.com.itextpdf.text.pdf.TrueTypeFontUnicode	null	Refused Parent Bequest
+core.com.itextpdf.text.ZapfDingbatsNumberList	add	Dispersed Coupling
+core.com.itextpdf.text.pdf.codec.TIFFFaxDecoder	decodeNextScanline	Brain Method
+core.com.itextpdf.text.pdf.codec.TIFFFaxDecoder	decode2D	Brain Method
+core.com.itextpdf.text.pdf.codec.TIFFFaxDecoder	decodeT6	Brain Method
+core.com.itextpdf.text.pdf.codec.TIFFFaxDecoder	readEOL	Feature Envy
+core.com.itextpdf.text.pdf.codec.TIFFFaxDecoder	nextNBits	Brain Method
+core.com.itextpdf.text.pdf.codec.TIFFFaxDecoder	null	Brain Class
+core.com.itextpdf.text.html.simpleparser.ChainedProperties	addToChain	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfRectangle	PdfRectangle	Feature Envy
+core.com.itextpdf.text.pdf.PdfRectangle	PdfRectangle	Feature Envy
+core.com.itextpdf.text.pdf.PdfRectangle	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.PdfTransition	getTransitionDictionary	Feature Envy
+rups.com.itextpdf.rups.view.itext.XRefTable	selectRowByReference	Feature Envy
+core.com.itextpdf.text.pdf.PdfTransparencyGroup	setIsolated	Feature Envy
+core.com.itextpdf.text.pdf.PdfTransparencyGroup	setKnockout	Feature Envy
+core.com.itextpdf.text.pdf.PdfSigGenericPKCS	setSignInfo	Dispersed Coupling
+core.com.itextpdf.text.pdf.parser.TextMarginFinder	renderText	Feature Envy
+core.com.itextpdf.text.pdf.PdfVisibilityExpression	PdfVisibilityExpression	Feature Envy
+core.com.itextpdf.text.html.simpleparser.IncCell	IncCell	Dispersed Coupling
+core.com.itextpdf.text.BaseColor	getRed	Shotgun Surgery
+core.com.itextpdf.text.BaseColor	getGreen	Shotgun Surgery
+core.com.itextpdf.text.BaseColor	getBlue	Shotgun Surgery
+core.com.itextpdf.text.pdf.ColumnText	addElement	Intensive Coupling
+core.com.itextpdf.text.pdf.ColumnText	convertColumn	Feature Envy
+core.com.itextpdf.text.pdf.ColumnText	go	Brain Method
+core.com.itextpdf.text.pdf.ColumnText	go	Intensive Coupling
+core.com.itextpdf.text.pdf.ColumnText	setRunDirection	Feature Envy
+core.com.itextpdf.text.pdf.ColumnText	goComposite	Brain Method
+core.com.itextpdf.text.pdf.ColumnText	goComposite	Intensive Coupling
+core.com.itextpdf.text.pdf.ColumnText	null	God Class
+core.com.itextpdf.text.pdf.ColumnText	null	Brain Class
+core.com.itextpdf.text.Rectangle	getLeft	Shotgun Surgery
+core.com.itextpdf.text.Rectangle	setRight	Shotgun Surgery
+core.com.itextpdf.text.Rectangle	getRight	Shotgun Surgery
+core.com.itextpdf.text.Rectangle	getWidth	Shotgun Surgery
+core.com.itextpdf.text.Rectangle	setTop	Shotgun Surgery
+core.com.itextpdf.text.Rectangle	getTop	Shotgun Surgery
+core.com.itextpdf.text.Rectangle	getBottom	Shotgun Surgery
+core.com.itextpdf.text.Rectangle	getHeight	Shotgun Surgery
+core.com.itextpdf.text.Rectangle	getRotation	Shotgun Surgery
+core.com.itextpdf.text.GreekList	add	Dispersed Coupling
+core.com.itextpdf.text.html.WebColors	getRGBColor	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfStructureTreeRoot	mapRole	Feature Envy
+core.com.itextpdf.text.pdf.FontDetails	convertToBytes	Brain Method
+core.com.itextpdf.text.pdf.FontDetails	convertToBytes	Dispersed Coupling
+core.com.itextpdf.text.pdf.FontDetails	writeFont	Feature Envy
+rups.com.itextpdf.rups.model.PdfFile	PdfFile	Feature Envy
+rups.com.itextpdf.rups.model.PdfFile	readFile	Intensive Coupling
+core.com.itextpdf.text.RomanList	add	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfLister	listAnyObject	Feature Envy
+core.com.itextpdf.text.pdf.PdfContentByte	getInternalBuffer	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfContentByte	setLineWidth	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfContentByte	clip	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfContentByte	setGrayFill	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfContentByte	rectangle	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfContentByte	variableRectangle	Brain Method
+core.com.itextpdf.text.pdf.PdfContentByte	variableRectangle	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfContentByte	rectangle	Feature Envy
+core.com.itextpdf.text.pdf.PdfContentByte	rectangle	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfContentByte	newPath	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfContentByte	fill	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfContentByte	addImage	Feature Envy
+core.com.itextpdf.text.pdf.PdfContentByte	addImage	Brain Method
+core.com.itextpdf.text.pdf.PdfContentByte	addImage	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfContentByte	beginText	Feature Envy
+core.com.itextpdf.text.pdf.PdfContentByte	beginText	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfContentByte	endText	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfContentByte	saveState	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfContentByte	restoreState	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfContentByte	setFontAndSize	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfContentByte	showText2	Feature Envy
+core.com.itextpdf.text.pdf.PdfContentByte	showText	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfContentByte	getKernArray	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfContentByte	newlineShowText	Feature Envy
+core.com.itextpdf.text.pdf.PdfContentByte	setTextMatrix	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfContentByte	moveTextWithLeading	Feature Envy
+core.com.itextpdf.text.pdf.PdfContentByte	bezierArc	Feature Envy
+core.com.itextpdf.text.pdf.PdfContentByte	setColorFill	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfContentByte	checkNoPattern	Feature Envy
+core.com.itextpdf.text.pdf.PdfContentByte	beginLayer	Feature Envy
+core.com.itextpdf.text.pdf.PdfContentByte	beginLayer2	Feature Envy
+core.com.itextpdf.text.pdf.PdfContentByte	beginMarkedContentSequence	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfContentByte	beginMarkedContentSequence	Feature Envy
+core.com.itextpdf.text.pdf.PdfContentByte	beginMarkedContentSequence	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfContentByte	sanityCheck	Feature Envy
+core.com.itextpdf.text.pdf.PdfContentByte	null	Brain Class
+core.com.itextpdf.text.pdf.BarcodeCodabar	getBarsCodabar	Feature Envy
+core.com.itextpdf.text.pdf.BarcodeCodabar	getBarcodeSize	Feature Envy
+core.com.itextpdf.text.pdf.BarcodeCodabar	placeBarcode	Intensive Coupling
+core.com.itextpdf.text.pdf.BarcodeCodabar	null	God Class
+core.com.itextpdf.text.pdf.FontSelector	addFont	Feature Envy
+core.com.itextpdf.text.pdf.FontSelector	process	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfWriter	addToBody	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfWriter	addToBody	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfWriter	getPdfIndirectReference	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfWriter	open	Feature Envy
+core.com.itextpdf.text.pdf.PdfWriter	close	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfWriter	addSharedObjectsToBody	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfWriter	writeOutlines	Feature Envy
+core.com.itextpdf.text.pdf.PdfWriter	addNamedDestinations	Feature Envy
+core.com.itextpdf.text.pdf.PdfWriter	setEncryption	Feature Envy
+core.com.itextpdf.text.pdf.PdfWriter	getCompressionLevel	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfWriter	eliminateFontSubset	Feature Envy
+core.com.itextpdf.text.pdf.PdfWriter	addDirectTemplateSimple	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfWriter	addDirectTemplateSimple	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfWriter	releaseTemplate	Feature Envy
+core.com.itextpdf.text.pdf.PdfWriter	addOCGRadioGroup	Feature Envy
+core.com.itextpdf.text.pdf.PdfWriter	fillOCProperties	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfWriter	addDirectImageSimple	Brain Method
+core.com.itextpdf.text.pdf.PdfWriter	addDirectImageSimple	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfWriter	add	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfWriter	null	God Class
+core.com.itextpdf.text.pdf.PdfWriter	null	Brain Class
+core.com.itextpdf.text.pdf.PdfWriter	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.PdfWriter	null	Tradition Breaker
+core.com.itextpdf.text.pdf.SimpleBookmark	bookmarkDepth	Brain Method
+core.com.itextpdf.text.pdf.SimpleBookmark	bookmarkDepth	Intensive Coupling
+core.com.itextpdf.text.pdf.SimpleBookmark	makeBookmarkParam	Feature Envy
+core.com.itextpdf.text.pdf.SimpleBookmark	eliminatePages	Feature Envy
+core.com.itextpdf.text.pdf.SimpleBookmark	eliminatePages	Dispersed Coupling
+core.com.itextpdf.text.pdf.SimpleBookmark	shiftPageNumbers	Feature Envy
+core.com.itextpdf.text.pdf.SimpleBookmark	shiftPageNumbers	Dispersed Coupling
+core.com.itextpdf.text.pdf.SimpleBookmark	createOutlineAction	Brain Method
+core.com.itextpdf.text.pdf.SimpleBookmark	createOutlineAction	Dispersed Coupling
+core.com.itextpdf.text.pdf.SimpleBookmark	iterateOutlines	Dispersed Coupling
+core.com.itextpdf.text.pdf.SimpleBookmark	exportToXMLNode	Feature Envy
+core.com.itextpdf.text.pdf.SimpleBookmark	endElement	Feature Envy
+core.com.itextpdf.text.pdf.SimpleBookmark	endElement	Dispersed Coupling
+core.com.itextpdf.text.pdf.SimpleBookmark	null	God Class
+core.com.itextpdf.text.pdf.SimpleBookmark	null	Brain Class
+core.com.itextpdf.text.MarkedSection	MarkedSection	Feature Envy
+core.com.itextpdf.text.MarkedSection	null	Refused Parent Bequest
+core.com.itextpdf.text.Chunk	append	Shotgun Surgery
+core.com.itextpdf.text.Chunk	setFont	Shotgun Surgery
+core.com.itextpdf.text.Chunk	getFont	Shotgun Surgery
+core.com.itextpdf.text.Chunk	null	God Class
+core.com.itextpdf.text.pdf.PdfPCell	getMaxHeight	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfPCell	null	God Class
+core.com.itextpdf.text.pdf.PdfPCell	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.PdfSigGenericPKCS$VeriSign	VeriSign	Feature Envy
+core.com.itextpdf.text.pdf.PdfSignatureAppearance	setVisibleSignature	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfSignatureAppearance	getAppearance	Brain Method
+core.com.itextpdf.text.pdf.PdfSignatureAppearance	getAppearance	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfSignatureAppearance	fitText	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfSignatureAppearance	getNewSigName	Feature Envy
+core.com.itextpdf.text.pdf.PdfSignatureAppearance	preClose	Brain Method
+core.com.itextpdf.text.pdf.PdfSignatureAppearance	preClose	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfSignatureAppearance	close	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfSignatureAppearance	setRunDirection	Feature Envy
+core.com.itextpdf.text.pdf.PdfSignatureAppearance	null	God Class
+core.com.itextpdf.text.pdf.PdfSignatureAppearance	null	Brain Class
+core.com.itextpdf.text.PageSize	getRectangle	Dispersed Coupling
+core.com.itextpdf.text.pdf.FdfReader	kidNode	Dispersed Coupling
+core.com.itextpdf.text.pdf.FdfReader	readFields	Feature Envy
+core.com.itextpdf.text.pdf.FdfReader	getFieldValue	Dispersed Coupling
+core.com.itextpdf.text.pdf.FdfReader	null	Refused Parent Bequest
+core.com.itextpdf.text.FontFactory	getFont	Feature Envy
+core.com.itextpdf.text.pdf.events.IndexEvents	getSortedEntries	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfNameTree	writeTree	Brain Method
+core.com.itextpdf.text.pdf.PdfNameTree	writeTree	Dispersed Coupling
+core.com.itextpdf.text.pdf.richmedia.RichMediaInstance	RichMediaInstance	Feature Envy
+core.com.itextpdf.text.pdf.codec.BmpImage	process	Brain Method
+core.com.itextpdf.text.pdf.codec.BmpImage	process	Feature Envy
+core.com.itextpdf.text.pdf.codec.BmpImage	decodeRLE	Brain Method
+core.com.itextpdf.text.pdf.codec.BmpImage	null	God Class
+core.com.itextpdf.text.pdf.codec.BmpImage	null	Brain Class
+core.com.itextpdf.text.pdf.PdfWriter$PdfBody	flushObjStm	Feature Envy
+core.com.itextpdf.text.pdf.PdfWriter$PdfBody	add	Feature Envy
+core.com.itextpdf.text.pdf.PdfWriter$PdfBody	writeCrossReferenceTable	Brain Method
+core.com.itextpdf.text.pdf.PdfWriter$PdfBody	writeCrossReferenceTable	Dispersed Coupling
+rups.com.itextpdf.rups.view.itext.FormTree	update	Dispersed Coupling
+rups.com.itextpdf.rups.view.itext.FormTree	loadFields	Dispersed Coupling
+rups.com.itextpdf.rups.view.itext.FormTree	loadXfa	Feature Envy
+rups.com.itextpdf.rups.view.itext.FormTree	loadXfa	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfChunk	PdfChunk	Brain Method
+core.com.itextpdf.text.pdf.PdfChunk	PdfChunk	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfChunk	split	Brain Method
+core.com.itextpdf.text.pdf.PdfChunk	split	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfChunk	truncate	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfChunk	width	Feature Envy
+core.com.itextpdf.text.pdf.PdfChunk	trimLastSpace	Feature Envy
+core.com.itextpdf.text.pdf.PdfChunk	trimFirstSpace	Feature Envy
+core.com.itextpdf.text.pdf.PdfChunk	adjustLeft	Feature Envy
+core.com.itextpdf.text.pdf.PdfChunk	trim	Feature Envy
+core.com.itextpdf.text.pdf.PdfChunk	null	God Class
+core.com.itextpdf.text.pdf.PdfChunk	null	Brain Class
+core.com.itextpdf.text.pdf.BarcodeEANSUPP	getBarcodeSize	Feature Envy
+core.com.itextpdf.text.pdf.ICC_Profile	getInstance	Feature Envy
+core.com.itextpdf.text.pdf.PdfStamper	setEncryption	Feature Envy
+core.com.itextpdf.text.pdf.PdfStamper	setEncryption	Feature Envy
+core.com.itextpdf.text.pdf.PdfStamper	setEncryption	Feature Envy
+core.com.itextpdf.text.pdf.PdfStamper	createSignature	Dispersed Coupling
+core.com.itextpdf.text.pdf.richmedia.RichMediaWindow	createDimensionDictionary	Feature Envy
+core.com.itextpdf.text.pdf.codec.Base64	encodeBytes	Brain Method
+core.com.itextpdf.text.pdf.codec.Base64	decode4to3	Feature Envy
+core.com.itextpdf.text.pdf.codec.Base64	decode	Dispersed Coupling
+core.com.itextpdf.text.pdf.codec.Base64	null	God Class
+core.com.itextpdf.text.pdf.codec.Base64	null	Brain Class
+core.com.itextpdf.text.pdf.codec.Base64	null	Data Class
+core.com.itextpdf.text.Annotation	null	Data Class
+core.com.itextpdf.text.pdf.EnumerateTTC	findNames	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfLayer	getRef	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfLayer	getUsage	Feature Envy
+core.com.itextpdf.text.pdf.PdfLayer	setExport	Feature Envy
+core.com.itextpdf.text.pdf.PdfLayer	setZoom	Feature Envy
+core.com.itextpdf.text.pdf.PdfLayer	setPrint	Feature Envy
+core.com.itextpdf.text.pdf.PdfLayer	setView	Feature Envy
+core.com.itextpdf.text.pdf.PdfLayer	null	Refused Parent Bequest
+rups.com.itextpdf.rups.view.itext.treenodes.XdpTreeNode	XdpTreeNode	Feature Envy
+rups.com.itextpdf.rups.model.ProgressDialog	setTotal	Feature Envy
+core.com.itextpdf.text.ImgWMF	processParameters	Feature Envy
+core.com.itextpdf.text.pdf.PRStream	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.PdfImportedPage	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.PdfSignatureAppearance$RangeStream	read	Feature Envy
+core.com.itextpdf.text.pdf.richmedia.RichMediaConfiguration	RichMediaConfiguration	Feature Envy
+core.com.itextpdf.text.pdf.PdfImage	PdfImage	Brain Method
+core.com.itextpdf.text.pdf.PdfImage	PdfImage	Dispersed Coupling
+core.com.itextpdf.text.pdf.AcroFields$Item	getMerged	Shotgun Surgery
+core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$BeginText	invoke	Feature Envy
+core.com.itextpdf.text.pdf.Type3Glyph	addImage	Feature Envy
+core.com.itextpdf.text.pdf.DefaultFontMapper$BaseFontParameters	BaseFontParameters	Feature Envy
+core.com.itextpdf.text.pdf.PdfTemplate	getIndirectReference	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfTemplate	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.CFFFontSubset	CountRange	Feature Envy
+core.com.itextpdf.text.pdf.CFFFontSubset	readFDSelect	Feature Envy
+core.com.itextpdf.text.pdf.CFFFontSubset	ReadFDArray	Feature Envy
+core.com.itextpdf.text.pdf.CFFFontSubset	Process	Feature Envy
+core.com.itextpdf.text.pdf.CFFFontSubset	BuildFDSubrsOffsets	Feature Envy
+core.com.itextpdf.text.pdf.CFFFontSubset	ReadASubr	Feature Envy
+core.com.itextpdf.text.pdf.CFFFontSubset	ReadCommand	Feature Envy
+core.com.itextpdf.text.pdf.CFFFontSubset	CalcHints	Feature Envy
+core.com.itextpdf.text.pdf.CFFFontSubset	BuildNewIndex	Feature Envy
+core.com.itextpdf.text.pdf.CFFFontSubset	AssembleIndex	Feature Envy
+core.com.itextpdf.text.pdf.CFFFontSubset	BuildNewFile	Dispersed Coupling
+core.com.itextpdf.text.pdf.CFFFontSubset	CopyHeader	Feature Envy
+core.com.itextpdf.text.pdf.CFFFontSubset	CreateNewStringIndex	Feature Envy
+core.com.itextpdf.text.pdf.CFFFontSubset	CreateFDArray	Feature Envy
+core.com.itextpdf.text.pdf.CFFFontSubset	Reconstruct	Feature Envy
+core.com.itextpdf.text.pdf.CFFFontSubset	ReconstructFDArray	Feature Envy
+core.com.itextpdf.text.pdf.CFFFontSubset	ReconstructPrivateDict	Feature Envy
+core.com.itextpdf.text.pdf.CFFFontSubset	CalcSubrOffsetSize	Feature Envy
+core.com.itextpdf.text.pdf.CFFFontSubset	countEntireIndexRange	Feature Envy
+core.com.itextpdf.text.pdf.CFFFontSubset	CreateNonCIDPrivate	Feature Envy
+core.com.itextpdf.text.pdf.CFFFontSubset	null	God Class
+core.com.itextpdf.text.pdf.CFFFontSubset	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.PushbuttonField	calculateFontSize	Feature Envy
+core.com.itextpdf.text.pdf.PushbuttonField	getAppearance	Brain Method
+core.com.itextpdf.text.pdf.PushbuttonField	getAppearance	Intensive Coupling
+core.com.itextpdf.text.pdf.PushbuttonField	getField	Intensive Coupling
+core.com.itextpdf.text.pdf.PushbuttonField	null	God Class
+core.com.itextpdf.text.pdf.PushbuttonField	null	Brain Class
+core.com.itextpdf.text.pdf.PushbuttonField	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.PushbuttonField	null	Tradition Breaker
+core.com.itextpdf.text.pdf.BaseFont$StreamFont	StreamFont	Feature Envy
+core.com.itextpdf.text.pdf.PdfPTable	PdfPTable	Feature Envy
+core.com.itextpdf.text.pdf.PdfPTable	PdfPTable	Feature Envy
+core.com.itextpdf.text.pdf.PdfPTable	resetColumnCount	Feature Envy
+core.com.itextpdf.text.pdf.PdfPTable	addCell	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfPTable	beginWritingRows	Feature Envy
+core.com.itextpdf.text.pdf.PdfPTable	getRowHeight	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfPTable	setRunDirection	Feature Envy
+core.com.itextpdf.text.pdf.PdfPTable	null	God Class
+core.com.itextpdf.text.pdf.PdfObject	toString	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfObject	getBytes	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfObject	type	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfObject	isNumber	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfObject	isString	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfObject	isName	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfObject	isArray	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfObject	isDictionary	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfObject	isStream	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfObject	isIndirect	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfObject	null	Data Class
+rups.com.itextpdf.rups.view.models.DictionaryTableModel	getValueAt	Feature Envy
+core.com.itextpdf.text.pdf.internal.PdfAnnotationsImp	rotateAnnotations	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfPages	writePageTree	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfEFStream	toPdf	Brain Method
+core.com.itextpdf.text.pdf.PdfEFStream	toPdf	Dispersed Coupling
+core.com.itextpdf.text.pdf.XfaForm	XfaForm	Dispersed Coupling
+core.com.itextpdf.text.pdf.XfaForm	extractNodes	Feature Envy
+core.com.itextpdf.text.pdf.XfaForm	setXfa	Dispersed Coupling
+core.com.itextpdf.text.pdf.XfaForm	findFieldName	Intensive Coupling
+core.com.itextpdf.text.pdf.XfaForm	getNodeText	Feature Envy
+core.com.itextpdf.text.pdf.XfaForm	setNodeText	Feature Envy
+core.com.itextpdf.text.pdf.XfaForm	fillXfaForm	Feature Envy
+core.com.itextpdf.text.pdf.XfaForm	null	God Class
+core.com.itextpdf.text.pdf.PRIndirectReference	getReader	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfDestination	PdfDestination	Feature Envy
+core.com.itextpdf.text.pdf.PdfDestination	PdfDestination	Feature Envy
+core.com.itextpdf.text.Phrase	getChunks	Shotgun Surgery
+core.com.itextpdf.text.Phrase	add	Dispersed Coupling
+core.com.itextpdf.text.Phrase	addChunk	Feature Envy
+core.com.itextpdf.text.Phrase	addChunk	Intensive Coupling
+core.com.itextpdf.text.Phrase	getInstance	Intensive Coupling
+core.com.itextpdf.text.Phrase	null	God Class
+core.com.itextpdf.text.pdf.BidiLine	getParagraph	Dispersed Coupling
+core.com.itextpdf.text.pdf.BidiLine	processLine	Brain Method
+core.com.itextpdf.text.pdf.BidiLine	processLine	Dispersed Coupling
+core.com.itextpdf.text.pdf.BidiLine	getWidth	Feature Envy
+core.com.itextpdf.text.pdf.BidiLine	createArrayOfPdfChunks	Feature Envy
+core.com.itextpdf.text.pdf.BidiLine	createArrayOfPdfChunks	Intensive Coupling
+core.com.itextpdf.text.pdf.BidiLine	null	Data Class
+core.com.itextpdf.text.pdf.TextField	removeCRLF	Feature Envy
+core.com.itextpdf.text.pdf.TextField	getAppearance	Brain Method
+core.com.itextpdf.text.pdf.TextField	getAppearance	Intensive Coupling
+core.com.itextpdf.text.pdf.TextField	getListAppearance	Dispersed Coupling
+core.com.itextpdf.text.pdf.TextField	getTextField	Intensive Coupling
+core.com.itextpdf.text.pdf.TextField	getChoiceField	Brain Method
+core.com.itextpdf.text.pdf.TextField	getChoiceField	Intensive Coupling
+core.com.itextpdf.text.pdf.TextField	writeMultipleValues	Feature Envy
+core.com.itextpdf.text.pdf.TextField	null	God Class
+core.com.itextpdf.text.pdf.TextField	null	Brain Class
+core.com.itextpdf.text.pdf.TextField	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.TextField	null	Tradition Breaker
+core.com.itextpdf.text.Jpeg2000	jp2_read_boxhdr	Feature Envy
+core.com.itextpdf.text.Jpeg2000	processParameters	Brain Method
+core.com.itextpdf.text.Jpeg2000	processParameters	Feature Envy
+core.com.itextpdf.text.factories.RomanNumberFactory	getString	Feature Envy
+core.com.itextpdf.text.pdf.draw.DottedLineSeparator	draw	Feature Envy
+core.com.itextpdf.text.xml.xmp.XmpWriter	XmpWriter	Dispersed Coupling
+core.com.itextpdf.text.xml.xmp.XmpWriter	XmpWriter	Dispersed Coupling
+core.com.itextpdf.text.xml.xmp.XmpWriter	null	Data Class
+core.com.itextpdf.text.Image	getInstance	Dispersed Coupling
+core.com.itextpdf.text.Image	getInstance	Brain Method
+core.com.itextpdf.text.Image	getInstance	Dispersed Coupling
+core.com.itextpdf.text.Image	getInstance	Brain Method
+core.com.itextpdf.text.Image	getInstance	Dispersed Coupling
+core.com.itextpdf.text.Image	getScaledWidth	Shotgun Surgery
+core.com.itextpdf.text.Image	getScaledHeight	Shotgun Surgery
+core.com.itextpdf.text.Image	matrix	Feature Envy
+core.com.itextpdf.text.Image	simplifyColorspace	Dispersed Coupling
+core.com.itextpdf.text.Image	simplifyColorspace	Feature Envy
+core.com.itextpdf.text.Image	null	God Class
+core.com.itextpdf.text.Image	null	Brain Class
+core.com.itextpdf.text.Image	null	Refused Parent Bequest
+core.com.itextpdf.text.Image	null	Tradition Breaker
+core.com.itextpdf.text.pdf.BarcodeDatamatrix	draw	Feature Envy
+core.com.itextpdf.text.pdf.BarcodeDatamatrix	C40OrTextEncodation	Brain Method
+core.com.itextpdf.text.pdf.BarcodeDatamatrix	processExtensions	Brain Method
+core.com.itextpdf.text.pdf.BarcodeDatamatrix	generate	Feature Envy
+core.com.itextpdf.text.pdf.BarcodeDatamatrix	null	God Class
+core.com.itextpdf.text.pdf.BarcodeDatamatrix	null	Brain Class
+core.com.itextpdf.text.pdf.codec.TIFFFaxDecompressor	decodeNextScanline	Brain Method
+core.com.itextpdf.text.pdf.codec.TIFFFaxDecompressor	decodeT4	Brain Method
+core.com.itextpdf.text.pdf.codec.TIFFFaxDecompressor	decodeT6	Brain Method
+core.com.itextpdf.text.pdf.codec.TIFFFaxDecompressor	nextNBits	Brain Method
+core.com.itextpdf.text.pdf.codec.TIFFFaxDecompressor	null	Brain Class
+core.com.itextpdf.text.pdf.OcspClientBouncyCastle	getEncoded	Dispersed Coupling
+core.com.itextpdf.text.xml.simpleparser.EntitiesToUnicode	decodeString	Intensive Coupling
+core.com.itextpdf.text.pdf.parser.Vector	cross	Feature Envy
+core.com.itextpdf.text.pdf.codec.Base64$InputStream	read	Brain Method
+core.com.itextpdf.text.pdf.XfdfReader	startElement	Feature Envy
+core.com.itextpdf.text.pdf.XfdfReader	endElement	Intensive Coupling
+core.com.itextpdf.text.pdf.internal.PdfXConformanceImp	completeInfoDictionary	Feature Envy
+core.com.itextpdf.text.pdf.internal.PdfXConformanceImp	completeExtraCatalog	Feature Envy
+core.com.itextpdf.text.pdf.internal.PdfXConformanceImp	checkPDFXConformance	Brain Method
+core.com.itextpdf.text.pdf.internal.PdfXConformanceImp	checkPDFXConformance	Dispersed Coupling
+core.com.itextpdf.text.pdf.internal.PdfXConformanceImp	null	Data Class
+core.com.itextpdf.text.pdf.PdfIndirectReference	getNumber	Shotgun Surgery
+core.com.itextpdf.text.pdf.SequenceList	getAttributes	Brain Method
+core.com.itextpdf.text.Element	type	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfAnnotation	PdfAnnotation	Feature Envy
+core.com.itextpdf.text.pdf.PdfAnnotation	PdfAnnotation	Feature Envy
+core.com.itextpdf.text.pdf.PdfAnnotation	createScreen	Feature Envy
+core.com.itextpdf.text.pdf.PdfAnnotation	createText	Feature Envy
+core.com.itextpdf.text.pdf.PdfAnnotation	createLink	Feature Envy
+core.com.itextpdf.text.pdf.PdfAnnotation	createLine	Feature Envy
+core.com.itextpdf.text.pdf.PdfAnnotation	createSquareCircle	Feature Envy
+core.com.itextpdf.text.pdf.PdfAnnotation	createMarkup	Feature Envy
+core.com.itextpdf.text.pdf.PdfAnnotation	createStamp	Feature Envy
+core.com.itextpdf.text.pdf.PdfAnnotation	createFileAttachment	Feature Envy
+core.com.itextpdf.text.pdf.PdfAnnotation	createPopup	Feature Envy
+core.com.itextpdf.text.pdf.PdfAnnotation	createPolygonPolyline	Feature Envy
+core.com.itextpdf.text.pdf.PdfAnnotation	setFlags	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfAnnotation	setAppearance	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfAnnotation	setAdditionalActions	Feature Envy
+core.com.itextpdf.text.pdf.PdfAnnotation	getMK	Feature Envy
+core.com.itextpdf.text.pdf.PdfAnnotation	setMKIconFit	Feature Envy
+core.com.itextpdf.text.pdf.PdfAnnotation	null	God Class
+core.com.itextpdf.text.pdf.PdfAnnotation	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.PdfString	toPdf	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfString	toString	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfString	toUnicodeString	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfString	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.PdfReader$PageRefs	insertPage	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfReader$PageRefs	iteratePages	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfReader$PageRefs	getSinglePage	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfReader$PageRefs	selectPages	Dispersed Coupling
+rups.com.itextpdf.rups.view.itext.OutlineTree	loadOutline	Feature Envy
+core.com.itextpdf.text.pdf.PdfAction	PdfAction	Feature Envy
+core.com.itextpdf.text.pdf.PdfAction	PdfAction	Feature Envy
+core.com.itextpdf.text.pdf.PdfAction	PdfAction	Feature Envy
+core.com.itextpdf.text.pdf.PdfAction	PdfAction	Feature Envy
+core.com.itextpdf.text.pdf.PdfAction	PdfAction	Feature Envy
+core.com.itextpdf.text.pdf.PdfAction	PdfAction	Feature Envy
+core.com.itextpdf.text.pdf.PdfAction	rendition	Feature Envy
+core.com.itextpdf.text.pdf.PdfAction	createHide	Feature Envy
+core.com.itextpdf.text.pdf.PdfAction	createSubmitForm	Feature Envy
+core.com.itextpdf.text.pdf.PdfAction	createResetForm	Feature Envy
+core.com.itextpdf.text.pdf.PdfAction	createImportData	Feature Envy
+core.com.itextpdf.text.pdf.PdfAction	next	Feature Envy
+core.com.itextpdf.text.pdf.PdfAction	gotoLocalPage	Feature Envy
+core.com.itextpdf.text.pdf.PdfAction	gotoLocalPage	Feature Envy
+core.com.itextpdf.text.pdf.PdfAction	gotoRemotePage	Feature Envy
+core.com.itextpdf.text.pdf.PdfAction	gotoEmbedded	Feature Envy
+core.com.itextpdf.text.pdf.PdfAction	setOCGstate	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfAction	null	God Class
+core.com.itextpdf.text.pdf.PdfAction	null	Data Class
+core.com.itextpdf.text.pdf.PdfAction	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.PdfAction	null	Tradition Breaker
+core.com.itextpdf.text.pdf.PdfStream	PdfStream	Feature Envy
+core.com.itextpdf.text.pdf.PdfStream	flateCompress	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfStream	flateCompress	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfStream	toPdf	Brain Method
+core.com.itextpdf.text.pdf.PdfStream	toPdf	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfStream	toString	Feature Envy
+core.com.itextpdf.text.pdf.PdfStream	null	God Class
+core.com.itextpdf.text.pdf.PdfStream	null	Data Class
+core.com.itextpdf.text.pdf.PdfStream	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.PdfNumber	intValue	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfNumber	floatValue	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfPageLabels	addPageLabel	Feature Envy
+core.com.itextpdf.text.pdf.PdfPageLabels	getPageLabels	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfPageLabels	getPageLabelFormats	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfPageLabels	null	Data Class
+core.com.itextpdf.text.pdf.codec.TIFFDirectory	TIFFDirectory	Feature Envy
+core.com.itextpdf.text.pdf.codec.TIFFDirectory	initialize	Brain Method
+core.com.itextpdf.text.pdf.codec.TIFFDirectory	initialize	Dispersed Coupling
+core.com.itextpdf.text.pdf.codec.TIFFDirectory	getNumDirectories	Feature Envy
+core.com.itextpdf.text.pdf.codec.TIFFDirectory	null	God Class
+core.com.itextpdf.text.pdf.codec.GifImage	getFramePosition	Feature Envy
+core.com.itextpdf.text.pdf.codec.GifImage	decodeImageData	Brain Method
+core.com.itextpdf.text.pdf.codec.GifImage	null	God Class
+core.com.itextpdf.text.pdf.PdfName	compareTo	Feature Envy
+core.com.itextpdf.text.pdf.PdfName	equals	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfName	null	Data Class
+core.com.itextpdf.text.pdf.PdfName	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.qrcode.ByteMatrix	getHeight	Shotgun Surgery
+core.com.itextpdf.text.pdf.qrcode.ByteMatrix	getWidth	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfSigGenericPKCS$PPKLite	PPKLite	Feature Envy
+core.com.itextpdf.text.pdf.ByteBuffer	append	Feature Envy
+core.com.itextpdf.text.pdf.ByteBuffer	append	Shotgun Surgery
+core.com.itextpdf.text.pdf.ByteBuffer	append	Shotgun Surgery
+core.com.itextpdf.text.pdf.ByteBuffer	append	Shotgun Surgery
+core.com.itextpdf.text.pdf.ByteBuffer	append	Shotgun Surgery
+core.com.itextpdf.text.pdf.ByteBuffer	formatDouble	Brain Method
+core.com.itextpdf.text.pdf.ByteBuffer	formatDouble	Intensive Coupling
+core.com.itextpdf.text.pdf.ByteBuffer	toByteArray	Shotgun Surgery
+core.com.itextpdf.text.pdf.ByteBuffer	size	Shotgun Surgery
+core.com.itextpdf.text.pdf.ByteBuffer	null	God Class
+core.com.itextpdf.text.pdf.ByteBuffer	null	Brain Class
+core.com.itextpdf.text.pdf.ByteBuffer	null	Data Class
+core.com.itextpdf.text.pdf.PdfEncodings	convertToBytes	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfEncodings	convertToBytes	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfEncodings	readCmap	Feature Envy
+core.com.itextpdf.text.pdf.PdfEncodings	encodeStream	Brain Method
+core.com.itextpdf.text.pdf.PdfEncodings	encodeStream	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfEncodings	encodeSequence	Feature Envy
+core.com.itextpdf.text.pdf.PdfEncodings	null	God Class
+core.com.itextpdf.text.pdf.PdfEncodings	null	Brain Class
+core.com.itextpdf.text.pdf.HyphenationAuto	getHyphenatedWordPre	Feature Envy
+core.com.itextpdf.text.pdf.PdfPRow	calculateHeights	Feature Envy
+core.com.itextpdf.text.pdf.PdfPRow	writeBorderAndBackground	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfPRow	writeCells	Brain Method
+core.com.itextpdf.text.pdf.PdfPRow	writeCells	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfPRow	getEventWidth	Feature Envy
+core.com.itextpdf.text.pdf.PdfPRow	splitRow	Brain Method
+core.com.itextpdf.text.pdf.PdfPRow	splitRow	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfPRow	null	Brain Class
+core.com.itextpdf.text.pdf.hyphenation.SimplePatternParser	normalizeException	Intensive Coupling
+core.com.itextpdf.text.pdf.hyphenation.SimplePatternParser	getExceptionWord	Feature Envy
+core.com.itextpdf.text.pdf.hyphenation.SimplePatternParser	endElement	Intensive Coupling
+core.com.itextpdf.text.pdf.hyphenation.SimplePatternParser	startElement	Dispersed Coupling
+core.com.itextpdf.text.pdf.hyphenation.SimplePatternParser	null	God Class
+core.com.itextpdf.text.pdf.hyphenation.TernaryTree$Iterator	up	Feature Envy
+core.com.itextpdf.text.ListItem	setIndentationLeft	Feature Envy
+core.com.itextpdf.text.ListItem	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.PdfAcroForm	setButtonParams	Feature Envy
+core.com.itextpdf.text.pdf.PdfAcroForm	setTextFieldParams	Feature Envy
+core.com.itextpdf.text.pdf.PdfAcroForm	drawRadioAppearences	Feature Envy
+core.com.itextpdf.text.pdf.PdfAcroForm	drawSignatureAppearences	Feature Envy
+core.com.itextpdf.text.pdf.PdfAcroForm	null	Data Class
+core.com.itextpdf.text.pdf.PdfAcroForm	null	Refused Parent Bequest
+core.com.itextpdf.text.html.simpleparser.StyleSheet	applyStyle	Feature Envy
+core.com.itextpdf.text.pdf.PdfOutline	null	God Class
+core.com.itextpdf.text.pdf.PdfOutline	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.parser.PdfContentReaderTool	getDictionaryDetail	Feature Envy
+core.com.itextpdf.text.pdf.parser.PdfContentReaderTool	getDictionaryDetail	Intensive Coupling
+core.com.itextpdf.text.pdf.parser.PdfContentReaderTool	getXObjectDetail	Dispersed Coupling
+core.com.itextpdf.text.pdf.parser.PdfContentReaderTool	main	Feature Envy
+rups.com.itextpdf.rups.model.ObjectLoader	doTask	Feature Envy
+core.com.itextpdf.text.pdf.events.FieldPositioningEvents	onGenericTag	Dispersed Coupling
+core.com.itextpdf.text.pdf.events.FieldPositioningEvents	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.richmedia.RichMediaExecuteAction	RichMediaExecuteAction	Feature Envy
+core.com.itextpdf.text.pdf.PRTokeniser	checkPdfHeader	Feature Envy
+core.com.itextpdf.text.pdf.PRTokeniser	checkFdfHeader	Feature Envy
+core.com.itextpdf.text.pdf.PRTokeniser	nextValidToken	Feature Envy
+core.com.itextpdf.text.pdf.PRTokeniser	nextToken	Brain Method
+core.com.itextpdf.text.pdf.PRTokeniser	nextToken	Feature Envy
+core.com.itextpdf.text.pdf.PRTokeniser	readLineSegment	Brain Method
+core.com.itextpdf.text.pdf.PRTokeniser	null	Brain Class
+core.com.itextpdf.text.pdf.PdfDocument	add	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfDocument	newPage	Brain Method
+core.com.itextpdf.text.pdf.PdfDocument	newPage	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfDocument	initPage	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfDocument	flushLines	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfDocument	writeLineToContent	Brain Method
+core.com.itextpdf.text.pdf.PdfDocument	writeLineToContent	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfDocument	indentLeft	Feature Envy
+core.com.itextpdf.text.pdf.PdfDocument	indentRight	Feature Envy
+core.com.itextpdf.text.pdf.PdfDocument	addSpacing	Feature Envy
+core.com.itextpdf.text.pdf.PdfDocument	getCatalog	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfDocument	traverseOutlineCount	Feature Envy
+core.com.itextpdf.text.pdf.PdfDocument	traverseOutlineCount	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfDocument	outlineTree	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfDocument	addFileAttachment	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfDocument	add	Feature Envy
+core.com.itextpdf.text.pdf.PdfDocument	add	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfDocument	addPTable	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfDocument	fitsPage	Feature Envy
+core.com.itextpdf.text.pdf.PdfDocument	null	God Class
+core.com.itextpdf.text.pdf.PdfDocument	null	Brain Class
+core.com.itextpdf.text.pdf.PdfDocument	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.parser.SimpleTextExtractionStrategy	renderText	Feature Envy
+core.com.itextpdf.text.pdf.parser.SimpleTextExtractionStrategy	renderText	Intensive Coupling
+core.com.itextpdf.text.List	add	Dispersed Coupling
+core.com.itextpdf.text.List	null	God Class
+core.com.itextpdf.text.pdf.parser.PdfImageObject	getImageAsBytes	Brain Method
+core.com.itextpdf.text.pdf.parser.PdfImageObject	getImageAsBytes	Dispersed Coupling
+core.com.itextpdf.text.pdf.codec.PngWriter	writeChunk	Feature Envy
+core.com.itextpdf.text.pdf.XfaForm$Xml2SomTemplate	getFieldType	Feature Envy
+core.com.itextpdf.text.pdf.XfaForm$Xml2SomTemplate	processTemplate	Brain Method
+core.com.itextpdf.text.pdf.XfaForm$Xml2SomTemplate	processTemplate	Intensive Coupling
+core.com.itextpdf.text.pdf.qrcode.ReedSolomonEncoder	encode	Feature Envy
+core.com.itextpdf.text.pdf.PdfPatternPainter	null	Refused Parent Bequest
+core.com.itextpdf.text.Font	getFamilyname	Feature Envy
+core.com.itextpdf.text.Font	getFamily	Feature Envy
+core.com.itextpdf.text.Font	getSize	Shotgun Surgery
+core.com.itextpdf.text.Font	getStyleValue	Feature Envy
+core.com.itextpdf.text.Font	getCalculatedBaseFont	Feature Envy
+core.com.itextpdf.text.Utilities	addToArray	Feature Envy
+core.com.itextpdf.text.Utilities	unEscapeURL	Feature Envy
+rups.com.itextpdf.rups.view.itext.PdfObjectPanel	PdfObjectPanel	Feature Envy
+core.com.itextpdf.text.pdf.codec.TiffImage	getDpi	Feature Envy
+core.com.itextpdf.text.pdf.codec.TiffImage	getTiffImage	Brain Method
+core.com.itextpdf.text.pdf.codec.TiffImage	getTiffImage	Intensive Coupling
+core.com.itextpdf.text.pdf.codec.TiffImage	getTiffImageColor	Brain Method
+core.com.itextpdf.text.pdf.codec.TiffImage	getTiffImageColor	Dispersed Coupling
+core.com.itextpdf.text.pdf.codec.TiffImage	null	God Class
+core.com.itextpdf.text.pdf.codec.TiffImage	null	Brain Class
+core.com.itextpdf.text.pdf.PdfColor	PdfColor	Feature Envy
+rups.com.itextpdf.rups.view.itext.PagesTable	update	Dispersed Coupling
+rups.com.itextpdf.rups.view.itext.PagesTable	getValueAt	Feature Envy
+rups.com.itextpdf.rups.view.itext.PagesTable	valueChanged	Feature Envy
+core.com.itextpdf.text.xml.xmp.XmpSchema	setProperty	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfPSXObject	getFormXObject	Feature Envy
+core.com.itextpdf.text.html.simpleparser.FactoryProperties	setParagraphLeading	Feature Envy
+core.com.itextpdf.text.html.simpleparser.FactoryProperties	createParagraph	Dispersed Coupling
+core.com.itextpdf.text.html.simpleparser.FactoryProperties	getFont	Dispersed Coupling
+core.com.itextpdf.text.html.simpleparser.FactoryProperties	insertStyle	Intensive Coupling
+core.com.itextpdf.text.html.simpleparser.FactoryProperties	insertStyle	Brain Method
+core.com.itextpdf.text.html.simpleparser.FactoryProperties	insertStyle	Dispersed Coupling
+core.com.itextpdf.text.html.simpleparser.FactoryProperties	null	God Class
+core.com.itextpdf.text.pdf.PdfDictionary	put	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfDictionary	putAll	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfDictionary	remove	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfDictionary	get	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfDictionary	getDirectObject	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfDictionary	getKeys	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfDictionary	size	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfDictionary	contains	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfDictionary	merge	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfDictionary	getAsDict	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfDictionary	getAsArray	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfDictionary	getAsString	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfDictionary	getAsNumber	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfDictionary	getAsName	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfDictionary	null	God Class
+core.com.itextpdf.text.pdf.PdfDictionary	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.PdfDictionary	null	Tradition Breaker
+core.com.itextpdf.text.Anchor	process	Dispersed Coupling
+core.com.itextpdf.text.Anchor	getChunks	Feature Envy
+core.com.itextpdf.text.Anchor	getChunks	Intensive Coupling
+core.com.itextpdf.text.Anchor	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.PdfEncodings$SymbolConversion	charToByte	Feature Envy
+core.com.itextpdf.text.pdf.draw.LineSeparator	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.PdfReader	getSafeFile	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfReader	getNumberOfPages	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfReader	getCatalog	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfReader	getInfo	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfReader	readDecryptedDocObj	Brain Method
+core.com.itextpdf.text.pdf.PdfReader	readDecryptedDocObj	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfReader	getPdfObject	Feature Envy
+core.com.itextpdf.text.pdf.PdfReader	readPages	Feature Envy
+core.com.itextpdf.text.pdf.PdfReader	readDocObjPartial	Feature Envy
+core.com.itextpdf.text.pdf.PdfReader	readOneObjStm	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfReader	readDocObj	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfReader	checkPRStreamLength	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfReader	readObjStm	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfReader	readXref	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfReader	readXrefSection	Brain Method
+core.com.itextpdf.text.pdf.PdfReader	readXrefSection	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfReader	readXRefStream	Brain Method
+core.com.itextpdf.text.pdf.PdfReader	readXRefStream	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfReader	rebuildXref	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfReader	readDictionary	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfReader	readArray	Feature Envy
+core.com.itextpdf.text.pdf.PdfReader	readPRObject	Brain Method
+core.com.itextpdf.text.pdf.PdfReader	readPRObject	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfReader	decodePredictor	Brain Method
+core.com.itextpdf.text.pdf.PdfReader	decodePredictor	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfReader	getPageN	Feature Envy
+core.com.itextpdf.text.pdf.PdfReader	getPageN	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfReader	getPageOrigRef	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfReader	getPageContent	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfReader	getStreamBytes	Brain Method
+core.com.itextpdf.text.pdf.PdfReader	getStreamBytes	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfReader	getStreamBytesRaw	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfReader	eliminateSharedStreams	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfReader	shuffleSubsetNames	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfReader	createFakeFontSubsets	Feature Envy
+core.com.itextpdf.text.pdf.PdfReader	getNamedDestinationFromNames	Feature Envy
+core.com.itextpdf.text.pdf.PdfReader	getNamedDestinationFromStrings	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfReader	removeFields	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfReader	getLinks	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfReader	iterateBookmarks	Feature Envy
+core.com.itextpdf.text.pdf.PdfReader	makeRemoteNamedDestinationsLocal	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfReader	convertNamedDestination	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfReader	consolidateNamedDestinations	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfReader	replaceNamedDestination	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfReader	duplicatePdfObject	Feature Envy
+core.com.itextpdf.text.pdf.PdfReader	removeUnusedNode	Brain Method
+core.com.itextpdf.text.pdf.PdfReader	removeUnusedNode	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfReader	removeUnusedObjects	Feature Envy
+core.com.itextpdf.text.pdf.PdfReader	getJavaScript	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfReader	removeUsageRights	Feature Envy
+core.com.itextpdf.text.pdf.PdfReader	null	God Class
+core.com.itextpdf.text.pdf.PdfReader	null	Brain Class
+rups.com.itextpdf.rups.view.itext.treenodes.XfaTreeNode	writeTo	Dispersed Coupling
+core.com.itextpdf.text.html.simpleparser.IncTable	buildTable	Dispersed Coupling
+rups.com.itextpdf.rups.io.FileChooserAction	actionPerformed	Feature Envy
+rups.com.itextpdf.rups.view.itext.treenodes.PdfObjectTreeNode	PdfObjectTreeNode	Feature Envy
+rups.com.itextpdf.rups.view.itext.treenodes.PdfObjectTreeNode	getInstance	Feature Envy
+rups.com.itextpdf.rups.view.itext.treenodes.PdfObjectTreeNode	getCaption	Feature Envy
+rups.com.itextpdf.rups.view.itext.treenodes.PdfObjectTreeNode	null	Refused Parent Bequest
+rups.com.itextpdf.rups.view.itext.treenodes.PdfObjectTreeNode	null	Tradition Breaker
+core.com.itextpdf.text.pdf.PdfDocument$PdfCatalog	addNames	Dispersed Coupling
+core.com.itextpdf.text.pdf.collection.PdfTargetDictionary	PdfTargetDictionary	Feature Envy
+core.com.itextpdf.text.Jpeg	marker	Feature Envy
+core.com.itextpdf.text.Jpeg	processParameters	Brain Method
+core.com.itextpdf.text.Jpeg	processParameters	Dispersed Coupling
+core.com.itextpdf.text.Jpeg	null	God Class
+core.com.itextpdf.text.Jpeg	null	Data Class
+core.com.itextpdf.text.Paragraph	getTotalLeading	Feature Envy
+core.com.itextpdf.text.Paragraph	null	God Class
+core.com.itextpdf.text.Paragraph	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.PdfCopy	getImportedPage	Feature Envy
+core.com.itextpdf.text.pdf.PdfCopy	copyIndirect	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfCopy	setFromIPage	Feature Envy
+core.com.itextpdf.text.pdf.PdfCopy	freeReader	Feature Envy
+core.com.itextpdf.text.pdf.PdfCopy	null	God Class
+core.com.itextpdf.text.pdf.PdfCopy	null	Refused Parent Bequest
+core.com.itextpdf.text.factories.ElementFactory	getChunk	Intensive Coupling
+core.com.itextpdf.text.factories.ElementFactory	getPhrase	Dispersed Coupling
+core.com.itextpdf.text.factories.ElementFactory	getList	Dispersed Coupling
+core.com.itextpdf.text.factories.ElementFactory	getImage	Dispersed Coupling
+core.com.itextpdf.text.factories.ElementFactory	getAnnotation	Feature Envy
+core.com.itextpdf.text.factories.ElementFactory	null	God Class
+core.com.itextpdf.text.pdf.parser.LocationTextExtractionStrategy	getResultantText	Feature Envy
+core.com.itextpdf.text.pdf.parser.LocationTextExtractionStrategy	getResultantText	Dispersed Coupling
+core.com.itextpdf.text.pdf.parser.LocationTextExtractionStrategy	renderText	Feature Envy
+core.com.itextpdf.text.pdf.PdfPKCS7$X509Name	X509Name	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfPKCS7$X509Name	X509Name	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfBorderDictionary	PdfBorderDictionary	Feature Envy
+core.com.itextpdf.text.pdf.PdfIndirectObject	getIndirectReference	Shotgun Surgery
+core.com.itextpdf.text.pdf.parser.LocationTextExtractionStrategy$TextChunk	printDiagnostics	Feature Envy
+core.com.itextpdf.text.pdf.internal.PdfVersionImp	getVersionAsName	Feature Envy
+core.com.itextpdf.text.pdf.internal.PdfVersionImp	addDeveloperExtension	Intensive Coupling
+core.com.itextpdf.text.pdf.XfaForm$Xml2SomDatasets	insertNode	Intensive Coupling
+core.com.itextpdf.text.pdf.XfaForm$Xml2SomDatasets	hasChildren	Feature Envy
+core.com.itextpdf.text.pdf.XfaForm$Xml2SomDatasets	hasChildren	Intensive Coupling
+core.com.itextpdf.text.pdf.XfaForm$Xml2SomDatasets	processDatasetsInternal	Feature Envy
+core.com.itextpdf.text.pdf.XfaForm$Xml2SomDatasets	processDatasetsInternal	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfMediaClipData	PdfMediaClipData	Feature Envy
+core.com.itextpdf.text.Document	add	Feature Envy
+core.com.itextpdf.text.Document	null	God Class
+core.com.itextpdf.text.Document	null	Data Class
+core.com.itextpdf.text.pdf.PdfRendition	PdfRendition	Feature Envy
+core.com.itextpdf.text.pdf.IntHashtable	contains	Feature Envy
+core.com.itextpdf.text.pdf.IntHashtable	containsKey	Feature Envy
+core.com.itextpdf.text.pdf.IntHashtable	containsKey	Shotgun Surgery
+core.com.itextpdf.text.pdf.IntHashtable	get	Feature Envy
+core.com.itextpdf.text.pdf.IntHashtable	get	Shotgun Surgery
+core.com.itextpdf.text.pdf.IntHashtable	rehash	Feature Envy
+core.com.itextpdf.text.pdf.IntHashtable	put	Feature Envy
+core.com.itextpdf.text.pdf.IntHashtable	put	Shotgun Surgery
+core.com.itextpdf.text.pdf.IntHashtable	remove	Feature Envy
+core.com.itextpdf.text.pdf.IntHashtable	getKeys	Feature Envy
+core.com.itextpdf.text.pdf.IntHashtable	null	Data Class
+core.com.itextpdf.text.pdf.fonts.cmaps.CMapParser	parse	Brain Method
+core.com.itextpdf.text.pdf.fonts.cmaps.CMapParser	parse	Dispersed Coupling
+core.com.itextpdf.text.pdf.fonts.cmaps.CMapParser	parseNextToken	Brain Method
+core.com.itextpdf.text.pdf.fonts.cmaps.CMapParser	parseNextToken	Feature Envy
+core.com.itextpdf.text.pdf.fonts.cmaps.CMapParser	parseNextToken	Dispersed Coupling
+core.com.itextpdf.text.pdf.fonts.cmaps.CMapParser	main	Feature Envy
+core.com.itextpdf.text.pdf.fonts.cmaps.CMapParser	null	God Class
+core.com.itextpdf.text.pdf.fonts.cmaps.CMapParser	null	Brain Class
+core.com.itextpdf.text.pdf.BarcodeInter25	getBarcodeSize	Feature Envy
+core.com.itextpdf.text.pdf.BarcodeInter25	placeBarcode	Intensive Coupling
+core.com.itextpdf.text.html.Markup	parseAttributes	Intensive Coupling
+core.com.itextpdf.text.html.Markup	null	Data Class
+core.com.itextpdf.text.html.HtmlEncoder	encode	Feature Envy
+core.com.itextpdf.text.html.HtmlEncoder	getAlignment	Feature Envy
+core.com.itextpdf.text.pdf.TrueTypeFont	getNames	Dispersed Coupling
+core.com.itextpdf.text.pdf.TrueTypeFont	getAllNames	Dispersed Coupling
+core.com.itextpdf.text.pdf.TrueTypeFont	process	Dispersed Coupling
+core.com.itextpdf.text.pdf.TrueTypeFont	readCMaps	Brain Method
+core.com.itextpdf.text.pdf.TrueTypeFont	getFontBaseType	Feature Envy
+core.com.itextpdf.text.pdf.TrueTypeFont	compactRanges	Feature Envy
+core.com.itextpdf.text.pdf.TrueTypeFont	writeFont	Brain Method
+core.com.itextpdf.text.pdf.TrueTypeFont	writeFont	Dispersed Coupling
+core.com.itextpdf.text.pdf.TrueTypeFont	getMetricsTT	Feature Envy
+core.com.itextpdf.text.pdf.TrueTypeFont	null	God Class
+core.com.itextpdf.text.pdf.TrueTypeFont	null	Brain Class
+core.com.itextpdf.text.pdf.TrueTypeFont	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.collection.PdfCollectionSort	PdfCollectionSort	Feature Envy
+core.com.itextpdf.text.pdf.DocumentFont	readWidths	Feature Envy
+core.com.itextpdf.text.pdf.DocumentFont	fillMetrics	Brain Method
+core.com.itextpdf.text.pdf.DocumentFont	fillMetrics	Dispersed Coupling
+core.com.itextpdf.text.pdf.DocumentFont	doType1TT	Brain Method
+core.com.itextpdf.text.pdf.DocumentFont	doType1TT	Dispersed Coupling
+core.com.itextpdf.text.pdf.DocumentFont	fillEncoding	Feature Envy
+core.com.itextpdf.text.pdf.DocumentFont	null	God Class
+core.com.itextpdf.text.pdf.DocumentFont	null	Brain Class
+core.com.itextpdf.text.pdf.DocumentFont	null	Refused Parent Bequest
+core.com.itextpdf.text.ElementTags	getAlignment	Feature Envy
+core.com.itextpdf.text.ElementTags	alignmentValue	Feature Envy
+core.com.itextpdf.text.pdf.PdfAppearance	setFontAndSize	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfAppearance	setFontAndSize	Shotgun Surgery
+core.com.itextpdf.text.pdf.SimpleNamedDestination	getNamedDestination	Intensive Coupling
+core.com.itextpdf.text.pdf.SimpleNamedDestination	exportToXML	Feature Envy
+core.com.itextpdf.text.pdf.SimpleNamedDestination	createDestinationArray	Dispersed Coupling
+core.com.itextpdf.text.pdf.SimpleNamedDestination	outputNamedDestinationAsNames	Feature Envy
+core.com.itextpdf.text.pdf.SimpleNamedDestination	outputNamedDestinationAsStrings	Dispersed Coupling
+core.com.itextpdf.text.pdf.SimpleNamedDestination	endElement	Feature Envy
+core.com.itextpdf.text.pdf.SimpleNamedDestination	startElement	Feature Envy
+core.com.itextpdf.text.pdf.SimpleNamedDestination	null	God Class
+core.com.itextpdf.text.pdf.PdfLayerMembership	PdfLayerMembership	Feature Envy
+core.com.itextpdf.text.pdf.XfaForm$Xml2Som	inverseSearchAdd	Intensive Coupling
+core.com.itextpdf.text.pdf.XfaForm$Xml2Som	inverseSearchGlobal	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfWriter$PdfTrailer	PdfTrailer	Feature Envy
+core.com.itextpdf.text.pdf.PdfWriter$PdfTrailer	toPdf	Feature Envy
+core.com.itextpdf.text.pdf.codec.JBIG2SegmentReader$JBIG2Page	getData	Feature Envy
+core.com.itextpdf.text.pdf.codec.TiffWriter$FieldAscii	FieldAscii	Feature Envy
+core.com.itextpdf.text.pdf.CMapAwareDocumentFont	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.PdfNumberTree	writeTree	Brain Method
+core.com.itextpdf.text.pdf.PdfNumberTree	writeTree	Dispersed Coupling
+core.com.itextpdf.text.pdf.RadioCheckField	setCheckType	Feature Envy
+core.com.itextpdf.text.pdf.RadioCheckField	getAppearance	Intensive Coupling
+core.com.itextpdf.text.pdf.RadioCheckField	getAppearanceRadioCircle	Intensive Coupling
+core.com.itextpdf.text.pdf.RadioCheckField	getRadioGroup	Feature Envy
+core.com.itextpdf.text.pdf.RadioCheckField	getField	Intensive Coupling
+core.com.itextpdf.text.pdf.RadioCheckField	null	God Class
+core.com.itextpdf.text.pdf.RadioCheckField	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.RadioCheckField	null	Tradition Breaker
+core.com.itextpdf.text.Meta	getName	Feature Envy
+core.com.itextpdf.text.Meta	getType	Feature Envy
+core.com.itextpdf.text.pdf.qrcode.QRCode	isValid	Feature Envy
+core.com.itextpdf.text.pdf.hyphenation.TernaryTree	insert	Feature Envy
+core.com.itextpdf.text.pdf.hyphenation.TernaryTree	insert	Brain Method
+core.com.itextpdf.text.pdf.hyphenation.TernaryTree	insert	Feature Envy
+core.com.itextpdf.text.pdf.hyphenation.TernaryTree	compact	Feature Envy
+core.com.itextpdf.text.pdf.hyphenation.TernaryTree	printStats	Feature Envy
+core.com.itextpdf.text.pdf.PdfCopyForms	setEncryption	Feature Envy
+core.com.itextpdf.text.pdf.BarcodeQRCode	getBitMatrix	Feature Envy
+core.com.itextpdf.text.pdf.BarcodeQRCode	getImage	Feature Envy
+core.com.itextpdf.text.pdf.BarcodeQRCode	createAwtImage	Feature Envy
+core.com.itextpdf.text.pdf.PdfReaderInstance	getReader	Shotgun Surgery
+core.com.itextpdf.text.pdf.PdfReaderInstance	getFormXObject	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfReaderInstance	writeAllVisited	Dispersed Coupling
+core.com.itextpdf.text.pdf.PdfCopyFields	setEncryption	Feature Envy
+core.com.itextpdf.text.pdf.PdfCopyFormsImp	copyDocumentFields	Feature Envy
+core.com.itextpdf.text.pdf.PdfCopyFormsImp	copyDocumentFields	Intensive Coupling
+core.com.itextpdf.text.pdf.PdfShading	addToBody	Feature Envy
+core.com.itextpdf.text.pdf.PdfShading	null	God Class
+core.com.itextpdf.text.pdf.AcroFields	fill	Brain Method
+core.com.itextpdf.text.pdf.AcroFields	fill	Intensive Coupling
+core.com.itextpdf.text.pdf.AcroFields	getAppearanceStates	Dispersed Coupling
+core.com.itextpdf.text.pdf.AcroFields	getListOption	Dispersed Coupling
+core.com.itextpdf.text.pdf.AcroFields	splitDAelements	Dispersed Coupling
+core.com.itextpdf.text.pdf.AcroFields	decodeGenericDictionary	Brain Method
+core.com.itextpdf.text.pdf.AcroFields	decodeGenericDictionary	Intensive Coupling
+core.com.itextpdf.text.pdf.AcroFields	getAppearance	Brain Method
+core.com.itextpdf.text.pdf.AcroFields	getAppearance	Dispersed Coupling
+core.com.itextpdf.text.pdf.AcroFields	getMKColor	Feature Envy
+core.com.itextpdf.text.pdf.AcroFields	getField	Dispersed Coupling
+core.com.itextpdf.text.pdf.AcroFields	setFieldProperty	Brain Method
+core.com.itextpdf.text.pdf.AcroFields	setFieldProperty	Dispersed Coupling
+core.com.itextpdf.text.pdf.AcroFields	setFieldProperty	Brain Method
+core.com.itextpdf.text.pdf.AcroFields	setFieldProperty	Dispersed Coupling
+core.com.itextpdf.text.pdf.AcroFields	setField	Brain Method
+core.com.itextpdf.text.pdf.AcroFields	setField	Dispersed Coupling
+core.com.itextpdf.text.pdf.AcroFields	setListSelection	Dispersed Coupling
+core.com.itextpdf.text.pdf.AcroFields	isInAP	Feature Envy
+core.com.itextpdf.text.pdf.AcroFields	getFields	Shotgun Surgery
+core.com.itextpdf.text.pdf.AcroFields	getFieldPositions	Dispersed Coupling
+core.com.itextpdf.text.pdf.AcroFields	removeRefFromArray	Feature Envy
+core.com.itextpdf.text.pdf.AcroFields	removeField	Intensive Coupling
+core.com.itextpdf.text.pdf.AcroFields	getSignatureNames	Dispersed Coupling
+core.com.itextpdf.text.pdf.AcroFields	getBlankSignatureNames	Dispersed Coupling
+core.com.itextpdf.text.pdf.AcroFields	verifySignature	Intensive Coupling
+core.com.itextpdf.text.pdf.AcroFields	updateByteRange	Dispersed Coupling
+core.com.itextpdf.text.pdf.AcroFields	getNewPushbuttonFromField	Intensive Coupling
+core.com.itextpdf.text.pdf.AcroFields	replacePushbuttonField	Intensive Coupling
+core.com.itextpdf.text.pdf.AcroFields	null	God Class
+core.com.itextpdf.text.pdf.AcroFields	null	Brain Class
+rups.com.itextpdf.rups.view.itext.XfaTree	load	Feature Envy
+core.com.itextpdf.text.pdf.PdfDate	PdfDate	Feature Envy
+core.com.itextpdf.text.pdf.PdfDate	decode	Dispersed Coupling
+core.com.itextpdf.text.pdf.qrcode.BitVector	appendByte	Feature Envy
+core.com.itextpdf.text.RectangleReadOnly	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.PdfSignature	PdfSignature	Feature Envy
+core.com.itextpdf.text.xml.XmlDomWriter	write	Intensive Coupling
+core.com.itextpdf.text.xml.XmlDomWriter	sortAttributes	Feature Envy
+core.com.itextpdf.text.xml.XmlDomWriter	null	God Class
+core.com.itextpdf.text.pdf.codec.PngImage	readPng	Brain Method
+core.com.itextpdf.text.pdf.codec.PngImage	readPng	Dispersed Coupling
+core.com.itextpdf.text.pdf.codec.PngImage	getColorspace	Brain Method
+core.com.itextpdf.text.pdf.codec.PngImage	getColorspace	Feature Envy
+core.com.itextpdf.text.pdf.codec.PngImage	getImage	Brain Method
+core.com.itextpdf.text.pdf.codec.PngImage	getImage	Intensive Coupling
+core.com.itextpdf.text.pdf.codec.PngImage	processPixels	Brain Method
+core.com.itextpdf.text.pdf.codec.PngImage	getPixel	Feature Envy
+core.com.itextpdf.text.pdf.codec.PngImage	null	God Class
+core.com.itextpdf.text.pdf.codec.PngImage	null	Brain Class
+core.com.itextpdf.text.pdf.codec.PngImage	null	Data Class
+core.com.itextpdf.text.pdf.RandomAccessFileOrArray	RandomAccessFileOrArray	Brain Method
+core.com.itextpdf.text.pdf.RandomAccessFileOrArray	read	Shotgun Surgery
+core.com.itextpdf.text.pdf.RandomAccessFileOrArray	read	Feature Envy
+core.com.itextpdf.text.pdf.RandomAccessFileOrArray	readFully	Shotgun Surgery
+core.com.itextpdf.text.pdf.RandomAccessFileOrArray	reOpen	Shotgun Surgery
+core.com.itextpdf.text.pdf.RandomAccessFileOrArray	close	Shotgun Surgery
+core.com.itextpdf.text.pdf.RandomAccessFileOrArray	length	Shotgun Surgery
+core.com.itextpdf.text.pdf.RandomAccessFileOrArray	seek	Shotgun Surgery
+core.com.itextpdf.text.pdf.RandomAccessFileOrArray	getFilePointer	Shotgun Surgery
+core.com.itextpdf.text.pdf.RandomAccessFileOrArray	readUnsignedShort	Shotgun Surgery
+core.com.itextpdf.text.pdf.RandomAccessFileOrArray	readInt	Shotgun Surgery
+core.com.itextpdf.text.pdf.RandomAccessFileOrArray	null	God Class
+core.com.itextpdf.text.pdf.RandomAccessFileOrArray	null	Brain Class
+core.com.itextpdf.text.pdf.RandomAccessFileOrArray	null	Data Class
+core.com.itextpdf.text.pdf.Type3Font	writeFont	Dispersed Coupling
+core.com.itextpdf.text.pdf.Type3Font	convertToBytes	Feature Envy
+core.com.itextpdf.text.pdf.Type3Font	null	God Class
+core.com.itextpdf.text.pdf.Type3Font	null	Refused Parent Bequest
+core.com.itextpdf.text.pdf.codec.wmf.MetaDo	readAll	Brain Method
+core.com.itextpdf.text.pdf.codec.wmf.MetaDo	readAll	Intensive Coupling
+core.com.itextpdf.text.pdf.codec.wmf.MetaDo	outputText	Intensive Coupling
+core.com.itextpdf.text.pdf.codec.wmf.MetaDo	strokeAndFill	Intensive Coupling
+core.com.itextpdf.text.pdf.codec.wmf.MetaDo	wrapBMP	Dispersed Coupling
+core.com.itextpdf.text.pdf.codec.wmf.MetaDo	null	God Class
+core.com.itextpdf.text.pdf.codec.wmf.MetaDo	null	Brain Class
+core.com.itextpdf.text.pdf.codec.wmf.MetaDo	null	Data Class

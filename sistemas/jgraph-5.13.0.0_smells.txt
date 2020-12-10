@@ -1,625 +1,625 @@
-src.org.jgraph.graph.EdgeView	Dispersed Coupling
-src.org.jgraph.graph.EdgeView	Feature Envy
-src.org.jgraph.graph.EdgeView	Feature Envy
-src.org.jgraph.graph.EdgeView	Shotgun Surgery
-src.org.jgraph.graph.EdgeView	Shotgun Surgery
-src.org.jgraph.graph.EdgeView	Shotgun Surgery
-src.org.jgraph.graph.EdgeView	Shotgun Surgery
-src.org.jgraph.graph.EdgeView	Brain Method
-src.org.jgraph.graph.EdgeView	Feature Envy
-src.org.jgraph.graph.EdgeView	Feature Envy
-src.org.jgraph.graph.EdgeView	God Class
-src.org.jgraph.graph.EdgeView	Brain Class
-src.org.jgraph.graph.EdgeView	Refused Parent Bequest
-src.org.jgraph.graph.EdgeView	Tradition Breaker
-src.com.jgraph.io.svg.SVGVertexWriter	Intensive Coupling
-src.org.jgraph.graph.AttributeMap	Feature Envy
-src.org.jgraph.graph.AttributeMap	Feature Envy
-src.org.jgraph.graph.AttributeMap	Intensive Coupling
-src.org.jgraph.graph.AttributeMap	Shotgun Surgery
-src.org.jgraph.graph.AttributeMap	Feature Envy
-src.org.jgraph.graph.AttributeMap	Intensive Coupling
-src.org.jgraph.graph.AttributeMap	Intensive Coupling
-src.org.jgraph.graph.AttributeMap	Dispersed Coupling
-src.org.jgraph.graph.AttributeMap	Shotgun Surgery
-src.org.jgraph.graph.AttributeMap	Feature Envy
-src.org.jgraph.graph.AttributeMap	God Class
-examples.com.jgraph.example.adapter.JGraphSQLBackend	Dispersed Coupling
-examples.com.jgraph.example.adapter.JGraphSQLBackend	Feature Envy
-examples.com.jgraph.example.adapter.JGraphSQLBackend	Feature Envy
-examples.com.jgraph.example.adapter.JGraphSQLBackend	Feature Envy
-examples.com.jgraph.example.adapter.JGraphSQLBackend	Feature Envy
-examples.com.jgraph.example.adapter.JGraphSQLBackend	Feature Envy
-examples.com.jgraph.example.adapter.JGraphSQLBackend	Dispersed Coupling
-examples.com.jgraph.example.adapter.JGraphSQLBackend	God Class
-examples.com.jgraph.example.adapter.JGraphSQLBackend	Data Class
-src.com.jgraph.algebra.JGraphFibonacciHeap	Feature Envy
-src.com.jgraph.algebra.JGraphFibonacciHeap	Feature Envy
-src.com.jgraph.algebra.JGraphFibonacciHeap	Feature Envy
-src.com.jgraph.algebra.JGraphFibonacciHeap	Feature Envy
-src.com.jgraph.algebra.JGraphFibonacciHeap	Feature Envy
-src.com.jgraph.algebra.JGraphFibonacciHeap	Feature Envy
-src.com.jgraph.algebra.JGraphFibonacciHeap	Feature Envy
-examples.com.jgraph.example.JGraphGraphFactory$FactoryConfigDialog	Dispersed Coupling
-examples.com.jgraph.example.JGraphGraphFactory$FactoryConfigDialog	Feature Envy
-src.org.jgraph.graph.DefaultGraphCell	Shotgun Surgery
-src.org.jgraph.graph.DefaultGraphCell	Shotgun Surgery
-src.com.jgraph.layout.tree.JGraphAbstractTreeLayout	Feature Envy
-src.com.jgraph.layout.simple.SimpleGridLayout	Dispersed Coupling
-src.org.jgraph.plaf.basic.BasicGraphDropTargetListener	Feature Envy
-src.org.jgraph.plaf.basic.BasicGraphDropTargetListener	Feature Envy
-src.org.jgraph.plaf.basic.BasicGraphDropTargetListener	Feature Envy
-src.org.jgraph.graph.DefaultGraphModel	Shotgun Surgery
-src.org.jgraph.graph.DefaultGraphModel	Dispersed Coupling
-src.org.jgraph.graph.DefaultGraphModel	Feature Envy
-src.org.jgraph.graph.DefaultGraphModel	Intensive Coupling
-src.org.jgraph.graph.DefaultGraphModel	Intensive Coupling
-src.org.jgraph.graph.DefaultGraphModel	Feature Envy
-src.org.jgraph.graph.DefaultGraphModel	Intensive Coupling
-src.org.jgraph.graph.DefaultGraphModel	Dispersed Coupling
-src.org.jgraph.graph.DefaultGraphModel	Feature Envy
-src.org.jgraph.graph.DefaultGraphModel	Feature Envy
-src.org.jgraph.graph.DefaultGraphModel	Feature Envy
-src.org.jgraph.graph.DefaultGraphModel	Dispersed Coupling
-src.org.jgraph.graph.DefaultGraphModel	Feature Envy
-src.org.jgraph.graph.DefaultGraphModel	Dispersed Coupling
-src.org.jgraph.graph.DefaultGraphModel	Feature Envy
-src.org.jgraph.graph.DefaultGraphModel	Intensive Coupling
-src.org.jgraph.graph.DefaultGraphModel	God Class
-examples.com.jgraph.layout.demo.JGraphLayoutPanel	Feature Envy
-examples.com.jgraph.layout.demo.JGraphLayoutPanel	Dispersed Coupling
-examples.com.jgraph.layout.demo.JGraphLayoutPanel	Feature Envy
-examples.com.jgraph.layout.demo.JGraphLayoutPanel	Feature Envy
-examples.org.jgraph.example.GraphEd$EventRedirector	Feature Envy
-examples.org.jgraph.example.IconExample$IconGraph	Feature Envy
-src.com.jgraph.layout.tree.JGraphTreeLayout	Feature Envy
-src.com.jgraph.layout.tree.JGraphTreeLayout	Feature Envy
-src.com.jgraph.layout.tree.JGraphTreeLayout	Feature Envy
-src.com.jgraph.layout.tree.JGraphTreeLayout	God Class
-src.com.jgraph.layout.tree.JGraphTreeLayout	Refused Parent Bequest
-src.org.jgraph.graph.GraphSelectionModel	Shotgun Surgery
-examples.com.jgraph.example.panelexample.FlyweightUIComponent	Brain Method
-examples.com.jgraph.example.panelexample.FlyweightUIComponent	Dispersed Coupling
-src.com.jgraph.navigation.GraphNavigator$NavigatorPane	Feature Envy
-src.com.jgraph.navigation.GraphNavigator$NavigatorPane	Feature Envy
-src.com.jgraph.navigation.GraphNavigator$NavigatorPane	Dispersed Coupling
-src.com.jgraph.navigation.GraphNavigator$NavigatorPane	Feature Envy
-examples.com.jgraph.layout.JGraphExampleGraph	Dispersed Coupling
-examples.com.jgraph.layout.JGraphExampleGraph	Dispersed Coupling
-examples.com.jgraph.layout.JGraphExampleGraph	Feature Envy
-src.com.jgraph.layout.JGraphModelFacade	Feature Envy
-src.com.jgraph.layout.JGraphModelFacade	Dispersed Coupling
-src.com.jgraph.layout.JGraphModelFacade	Refused Parent Bequest
-examples.org.jgraph.example.JGraphAbstractIconAnimator	Feature Envy
-examples.org.jgraph.example.JGraphAbstractIconAnimator	Feature Envy
-src.org.jgraph.graph.GraphTransferable	Refused Parent Bequest
-src.org.jgraph.util.RectUtils	Feature Envy
-src.com.jgraph.util.JGraphPrintingScrollPane	Dispersed Coupling
-src.org.jgraph.plaf.basic.BasicGraphTransferable	Feature Envy
-examples.com.jgraph.example.GraphEdX	Feature Envy
-examples.com.jgraph.example.GraphEdX	Dispersed Coupling
-examples.com.jgraph.example.GraphEdX	Feature Envy
-examples.com.jgraph.example.GraphEdX	Dispersed Coupling
-examples.com.jgraph.example.GraphEdX	Dispersed Coupling
-examples.com.jgraph.example.GraphEdX	Dispersed Coupling
-examples.com.jgraph.example.GraphEdX	Dispersed Coupling
-examples.com.jgraph.example.GraphEdX	Feature Envy
-examples.com.jgraph.example.GraphEdX	Feature Envy
-examples.com.jgraph.example.GraphEdX	God Class
-examples.com.jgraph.example.GraphEdX	Refused Parent Bequest
-src.org.jgraph.graph.DefaultGraphSelectionModel	Feature Envy
-src.org.jgraph.graph.DefaultGraphSelectionModel	Dispersed Coupling
-src.org.jgraph.graph.DefaultGraphSelectionModel	Feature Envy
-src.org.jgraph.graph.DefaultGraphSelectionModel	Intensive Coupling
-src.org.jgraph.graph.DefaultGraphSelectionModel	Dispersed Coupling
-src.org.jgraph.graph.DefaultGraphSelectionModel	Dispersed Coupling
-src.org.jgraph.graph.DefaultGraphSelectionModel	God Class
-src.com.jgraph.io.svg.SVGVertexRenderer	Feature Envy
-examples.com.jgraph.layout.demo.JGraphLayoutMorphingManager	Dispersed Coupling
-examples.com.jgraph.layout.demo.JGraphLayoutMorphingManager	Dispersed Coupling
-examples.com.jgraph.layout.demo.JGraphLayoutMorphingManager	Dispersed Coupling
-examples.com.jgraph.layout.demo.JGraphLayoutMorphingManager	Dispersed Coupling
-src.com.jgraph.algebra.JGraphAlgebra	Dispersed Coupling
-src.com.jgraph.algebra.JGraphAlgebra	Dispersed Coupling
-src.com.jgraph.algebra.JGraphAlgebra	Dispersed Coupling
-src.com.jgraph.layout.graph.JGraphSpringLayout	Dispersed Coupling
-src.com.jgraph.layout.graph.JGraphSpringLayout	God Class
-examples.com.jgraph.example.fastgraph.FastGraphUI	Dispersed Coupling
-examples.com.jgraph.example.fastgraph.FastGraphUI	Dispersed Coupling
-src.com.jgraph.layout.JGraphFacade	Dispersed Coupling
-src.com.jgraph.layout.JGraphFacade	Feature Envy
-src.com.jgraph.layout.JGraphFacade	Dispersed Coupling
-src.com.jgraph.layout.JGraphFacade	Shotgun Surgery
-src.com.jgraph.layout.JGraphFacade	Feature Envy
-src.com.jgraph.layout.JGraphFacade	Feature Envy
-src.com.jgraph.layout.JGraphFacade	Feature Envy
-src.com.jgraph.layout.JGraphFacade	Dispersed Coupling
-src.com.jgraph.layout.JGraphFacade	Dispersed Coupling
-src.com.jgraph.layout.JGraphFacade	Dispersed Coupling
-src.com.jgraph.layout.JGraphFacade	Dispersed Coupling
-src.com.jgraph.layout.JGraphFacade	Dispersed Coupling
-src.com.jgraph.layout.JGraphFacade	Feature Envy
-src.com.jgraph.layout.JGraphFacade	Feature Envy
-src.com.jgraph.layout.JGraphFacade	Brain Method
-src.com.jgraph.layout.JGraphFacade	Intensive Coupling
-src.com.jgraph.layout.JGraphFacade	Dispersed Coupling
-src.com.jgraph.layout.JGraphFacade	Feature Envy
-src.com.jgraph.layout.JGraphFacade	Feature Envy
-src.com.jgraph.layout.JGraphFacade	Feature Envy
-src.com.jgraph.layout.JGraphFacade	Feature Envy
-src.com.jgraph.layout.JGraphFacade	Shotgun Surgery
-src.com.jgraph.layout.JGraphFacade	Dispersed Coupling
-src.com.jgraph.layout.JGraphFacade	Dispersed Coupling
-src.com.jgraph.layout.JGraphFacade	Feature Envy
-src.com.jgraph.layout.JGraphFacade	Dispersed Coupling
-src.com.jgraph.layout.JGraphFacade	Feature Envy
-src.com.jgraph.layout.JGraphFacade	Feature Envy
-src.com.jgraph.layout.JGraphFacade	Feature Envy
-src.com.jgraph.layout.JGraphFacade	Shotgun Surgery
-src.com.jgraph.layout.JGraphFacade	Dispersed Coupling
-src.com.jgraph.layout.JGraphFacade	God Class
-src.com.jgraph.layout.JGraphFacade	Brain Class
-src.org.jgraph.graph.DefaultGraphModel$GraphModelEdit	Feature Envy
-src.org.jgraph.graph.DefaultGraphModel$GraphModelEdit	Dispersed Coupling
-src.org.jgraph.graph.DefaultGraphModel$GraphModelEdit	Feature Envy
-src.org.jgraph.graph.DefaultGraphModel$GraphModelEdit	Intensive Coupling
-src.org.jgraph.graph.DefaultGraphModel$GraphModelEdit	Feature Envy
-src.org.jgraph.graph.DefaultGraphModel$GraphModelEdit	God Class
-examples.com.jgraph.example.adapter.JGraphSQLEntity	Refused Parent Bequest
-examples.com.jgraph.example.fastgraph.FastGraphModel	Feature Envy
-examples.com.jgraph.example.fastgraph.FastGraphModel	Dispersed Coupling
-src.com.jgraph.navigation.PanningTool	Dispersed Coupling
-src.com.jgraph.navigation.GraphNavigator	Feature Envy
-src.com.jgraph.navigation.GraphNavigator	Intensive Coupling
-src.org.jgraph.graph.GraphTransferHandler	Brain Method
-src.org.jgraph.graph.GraphTransferHandler	Intensive Coupling
-src.org.jgraph.graph.GraphTransferHandler	Feature Envy
-src.org.jgraph.graph.GraphTransferHandler	Dispersed Coupling
-src.org.jgraph.graph.GraphTransferHandler	God Class
-src.org.jgraph.util.ParallelEdgeRouter	Brain Method
-src.org.jgraph.util.ParallelEdgeRouter	Intensive Coupling
-src.org.jgraph.util.ParallelEdgeRouter	Brain Method
-src.org.jgraph.util.ParallelEdgeRouter	Dispersed Coupling
-src.org.jgraph.util.ParallelEdgeRouter	God Class
-src.org.jgraph.util.ParallelEdgeRouter	Brain Class
-src.org.jgraph.util.ParallelEdgeRouter	Refused Parent Bequest
-src.org.jgraph.graph.DefaultGraphCellEditor	Feature Envy
-src.org.jgraph.graph.DefaultGraphCellEditor	Feature Envy
-src.org.jgraph.graph.DefaultGraphCellEditor	God Class
-examples.org.jgraph.example.GraphEd	Feature Envy
-examples.org.jgraph.example.GraphEd	Feature Envy
-examples.org.jgraph.example.GraphEd	Feature Envy
-examples.org.jgraph.example.GraphEd	Feature Envy
-examples.org.jgraph.example.GraphEd	Feature Envy
-examples.org.jgraph.example.GraphEd	Feature Envy
-examples.org.jgraph.example.GraphEd	Feature Envy
-examples.org.jgraph.example.GraphEd	God Class
-src.org.jgraph.graph.GraphModel	Shotgun Surgery
-src.org.jgraph.graph.GraphModel	Shotgun Surgery
-src.org.jgraph.graph.GraphModel	Shotgun Surgery
-src.org.jgraph.graph.GraphModel	Shotgun Surgery
-src.org.jgraph.graph.GraphModel	Shotgun Surgery
-src.org.jgraph.graph.GraphModel	Shotgun Surgery
-src.org.jgraph.graph.GraphModel	Shotgun Surgery
-src.org.jgraph.graph.GraphModel	Shotgun Surgery
-src.org.jgraph.graph.GraphModel	Shotgun Surgery
-src.org.jgraph.graph.GraphModel	Shotgun Surgery
-examples.com.jgraph.layout.JGraphExampleLayoutCache	Dispersed Coupling
-examples.com.jgraph.layout.JGraphExampleLayoutCache	Dispersed Coupling
-examples.com.jgraph.layout.JGraphExampleLayoutCache	Refused Parent Bequest
-examples.com.jgraph.example.fastgraph.FastPortView	Feature Envy
-examples.org.jgraph.example.LiveJGraphInternalFrame	Feature Envy
-examples.com.jgraph.example.fastgraph.FastCircleView$JGraphEllipseRenderer	Feature Envy
-examples.com.jgraph.example.fastgraph.FastCircleView$JGraphEllipseRenderer	Dispersed Coupling
-src.com.jgraph.components.labels.MultiLineVertexRenderer	Feature Envy
-src.com.jgraph.components.labels.MultiLineVertexRenderer	Intensive Coupling
-src.com.jgraph.components.labels.MultiLineVertexRenderer	Intensive Coupling
-src.com.jgraph.components.labels.MultiLineVertexRenderer	Dispersed Coupling
-src.com.jgraph.components.labels.MultiLineVertexRenderer	Dispersed Coupling
-src.com.jgraph.components.labels.MultiLineVertexRenderer	Dispersed Coupling
-src.com.jgraph.components.labels.MultiLineVertexRenderer	Feature Envy
-src.com.jgraph.components.labels.MultiLineVertexRenderer	Dispersed Coupling
-src.com.jgraph.components.labels.MultiLineVertexRenderer	Feature Envy
-src.com.jgraph.components.labels.MultiLineVertexRenderer	Dispersed Coupling
-src.com.jgraph.components.labels.MultiLineVertexRenderer	Feature Envy
-src.com.jgraph.components.labels.MultiLineVertexRenderer	Dispersed Coupling
-src.com.jgraph.components.labels.MultiLineVertexRenderer	God Class
-src.com.jgraph.components.labels.MultiLineVertexRenderer	Refused Parent Bequest
-src.org.jgraph.JGraph	Shotgun Surgery
-src.org.jgraph.JGraph	Shotgun Surgery
-src.org.jgraph.JGraph	Shotgun Surgery
-src.org.jgraph.JGraph	Shotgun Surgery
-src.org.jgraph.JGraph	Shotgun Surgery
-src.org.jgraph.JGraph	Dispersed Coupling
-src.org.jgraph.JGraph	Shotgun Surgery
-src.org.jgraph.JGraph	Feature Envy
-src.org.jgraph.JGraph	Shotgun Surgery
-src.org.jgraph.JGraph	Feature Envy
-src.org.jgraph.JGraph	Feature Envy
-src.org.jgraph.JGraph	Feature Envy
-src.org.jgraph.JGraph	Shotgun Surgery
-src.org.jgraph.JGraph	Feature Envy
-src.org.jgraph.JGraph	Shotgun Surgery
-src.org.jgraph.JGraph	Feature Envy
-src.org.jgraph.JGraph	Shotgun Surgery
-src.org.jgraph.JGraph	Feature Envy
-src.org.jgraph.JGraph	Dispersed Coupling
-src.org.jgraph.JGraph	Shotgun Surgery
-src.org.jgraph.JGraph	Shotgun Surgery
-src.org.jgraph.JGraph	Feature Envy
-src.org.jgraph.JGraph	Feature Envy
-src.org.jgraph.JGraph	Brain Method
-src.org.jgraph.JGraph	Intensive Coupling
-src.org.jgraph.JGraph	Shotgun Surgery
-src.org.jgraph.JGraph	Shotgun Surgery
-src.org.jgraph.JGraph	Shotgun Surgery
-src.org.jgraph.JGraph	Dispersed Coupling
-src.org.jgraph.JGraph	Shotgun Surgery
-src.org.jgraph.JGraph	Shotgun Surgery
-src.org.jgraph.JGraph	Shotgun Surgery
-src.org.jgraph.JGraph	Shotgun Surgery
-src.org.jgraph.JGraph	Feature Envy
-src.org.jgraph.JGraph	Dispersed Coupling
-src.org.jgraph.JGraph	Dispersed Coupling
-src.org.jgraph.JGraph	Feature Envy
-src.org.jgraph.JGraph	God Class
-src.org.jgraph.JGraph	Brain Class
-examples.com.jgraph.layout.JGraphLayoutExample	Feature Envy
-examples.com.jgraph.layout.JGraphLayoutExample	Feature Envy
-examples.com.jgraph.layout.JGraphLayoutExample	Dispersed Coupling
-examples.com.jgraph.layout.JGraphLayoutExample	Refused Parent Bequest
-src.org.jgraph.graph.DefaultGraphCellEditor$DefaultTextField	Feature Envy
-src.org.jgraph.graph.GraphContext	Dispersed Coupling
-src.org.jgraph.graph.GraphContext	Dispersed Coupling
-src.org.jgraph.graph.GraphContext	Intensive Coupling
-src.org.jgraph.graph.GraphContext	Dispersed Coupling
-src.org.jgraph.graph.GraphContext	God Class
-src.org.jgraph.graph.GraphContext	Data Class
-examples.com.jgraph.navigation.NavigationExample	Feature Envy
-src.org.jgraph.graph.VertexView	Feature Envy
-src.org.jgraph.graph.VertexView	Shotgun Surgery
-src.org.jgraph.graph.VertexView	Refused Parent Bequest
-src.org.jgraph.graph.ConnectionSet	Feature Envy
-src.org.jgraph.graph.ConnectionSet	Feature Envy
-examples.com.jgraph.layout.JGraphExampleLayoutCache$JGraphMoveSelectionFacade	Feature Envy
-examples.com.jgraph.layout.JGraphWordBrowser	Feature Envy
-examples.com.jgraph.layout.JGraphWordBrowser	Feature Envy
-examples.com.jgraph.layout.JGraphWordBrowser	Brain Method
-examples.com.jgraph.layout.JGraphWordBrowser	Intensive Coupling
-examples.com.jgraph.layout.JGraphWordBrowser	Feature Envy
-examples.com.jgraph.layout.JGraphWordBrowser	Dispersed Coupling
-examples.com.jgraph.layout.JGraphWordBrowser	Feature Envy
-examples.com.jgraph.layout.JGraphWordBrowser	Feature Envy
-examples.com.jgraph.layout.JGraphWordBrowser	Intensive Coupling
-examples.com.jgraph.layout.JGraphWordBrowser	God Class
-examples.com.jgraph.layout.JGraphWordBrowser	Data Class
-examples.com.jgraph.layout.JGraphWordBrowser	Refused Parent Bequest
-examples.com.jgraph.layout.JGraphWordBrowser	Tradition Breaker
-src.org.jgraph.graph.VertexView$SizeHandle	Dispersed Coupling
-src.org.jgraph.graph.VertexView$SizeHandle	Intensive Coupling
-src.org.jgraph.graph.VertexView$SizeHandle	Dispersed Coupling
-src.org.jgraph.graph.VertexView$SizeHandle	Dispersed Coupling
-src.org.jgraph.graph.VertexView$SizeHandle	Brain Method
-src.org.jgraph.graph.VertexView$SizeHandle	Intensive Coupling
-src.org.jgraph.graph.VertexView$SizeHandle	Dispersed Coupling
-src.org.jgraph.graph.VertexView$SizeHandle	Feature Envy
-src.org.jgraph.plaf.basic.BasicGraphUI$ComponentHandler	Feature Envy
-examples.com.jgraph.example.JGraphShadowBorder	Feature Envy
-examples.com.jgraph.example.JGraphShadowBorder	Feature Envy
-examples.com.jgraph.example.fastgraph.FastCircleView$JGraphEllipseRenderer	Feature Envy
-examples.com.jgraph.example.fastgraph.FastCircleView$JGraphEllipseRenderer	Dispersed Coupling
-src.org.jgraph.util.Spline	Feature Envy
-examples.com.jgraph.example.mycellmodeleditor.BusinessObjectEditor$RealCellEditor	Dispersed Coupling
-src.org.jgraph.graph.DefaultEdge$DefaultRouting	Brain Method
-src.org.jgraph.graph.DefaultEdge$DefaultRouting	Dispersed Coupling
-examples.com.jgraph.example.Main	Feature Envy
-src.org.jgraph.plaf.basic.BasicGraphUI$KeyHandler	Dispersed Coupling
-src.org.jgraph.plaf.basic.BasicGraphUI$GraphSelectAllAction	Feature Envy
-examples.com.jgraph.example.adapter.JGraphSQLBusinessModel	Feature Envy
-examples.com.jgraph.example.mycellmodeleditor.BusinessObjectEditor$RealCellEditor	Dispersed Coupling
-src.com.jgraph.layout.tree.JGraphAbstractTreeLayout$TreeNode	Intensive Coupling
-examples.com.jgraph.example.adapter.JGraphAdapterExample	Feature Envy
-examples.com.jgraph.example.adapter.JGraphAdapterExample	Refused Parent Bequest
-src.com.jgraph.layout.hierarchical.model.JGraphHierarchyModel	Dispersed Coupling
-src.com.jgraph.layout.hierarchical.model.JGraphHierarchyModel	Dispersed Coupling
-src.com.jgraph.layout.hierarchical.model.JGraphHierarchyModel	Dispersed Coupling
-src.com.jgraph.layout.hierarchical.model.JGraphHierarchyModel	Brain Method
-src.com.jgraph.layout.hierarchical.model.JGraphHierarchyModel	Dispersed Coupling
-src.com.jgraph.layout.hierarchical.model.JGraphHierarchyModel	Feature Envy
-src.com.jgraph.layout.hierarchical.model.JGraphHierarchyModel	God Class
-src.com.jgraph.layout.hierarchical.model.JGraphHierarchyModel	Brain Class
-src.com.jgraph.layout.JGraphLayoutProgress	Shotgun Surgery
-examples.com.jgraph.example.JGraphGraphFactory	Feature Envy
-examples.com.jgraph.example.JGraphGraphFactory	Feature Envy
-examples.com.jgraph.example.JGraphGraphFactory	Brain Method
-examples.com.jgraph.example.JGraphGraphFactory	Feature Envy
-examples.com.jgraph.example.JGraphGraphFactory	Feature Envy
-examples.com.jgraph.example.JGraphGraphFactory	Feature Envy
-examples.com.jgraph.example.JGraphGraphFactory	Feature Envy
-examples.com.jgraph.example.JGraphGraphFactory	Dispersed Coupling
-examples.com.jgraph.example.JGraphGraphFactory	God Class
-src.org.jgraph.graph.PortView	Intensive Coupling
-src.org.jgraph.graph.PortView	Refused Parent Bequest
-src.com.jgraph.layout.tree.JGraphCompactTreeLayout	Feature Envy
-src.com.jgraph.layout.tree.JGraphCompactTreeLayout	Feature Envy
-src.com.jgraph.layout.tree.JGraphCompactTreeLayout	Feature Envy
-src.com.jgraph.layout.tree.JGraphCompactTreeLayout	Feature Envy
-src.com.jgraph.layout.tree.JGraphCompactTreeLayout	Feature Envy
-src.com.jgraph.layout.tree.JGraphCompactTreeLayout	Feature Envy
-src.com.jgraph.layout.tree.JGraphCompactTreeLayout	Feature Envy
-src.com.jgraph.layout.tree.JGraphCompactTreeLayout	Feature Envy
-src.com.jgraph.layout.tree.JGraphCompactTreeLayout	Feature Envy
-src.com.jgraph.layout.tree.JGraphCompactTreeLayout	Feature Envy
-src.com.jgraph.layout.tree.JGraphCompactTreeLayout	God Class
-src.com.jgraph.layout.tree.JGraphCompactTreeLayout	Refused Parent Bequest
-examples.com.jgraph.example.adapter.JGraphAdapterModel	Feature Envy
-examples.com.jgraph.example.adapter.JGraphAdapterModel	Dispersed Coupling
-examples.com.jgraph.example.adapter.JGraphAdapterModel	Feature Envy
-examples.com.jgraph.example.adapter.JGraphAdapterModel	Feature Envy
-examples.com.jgraph.example.adapter.JGraphAdapterModel	Feature Envy
-examples.com.jgraph.example.adapter.JGraphAdapterModel	Feature Envy
-examples.com.jgraph.example.adapter.JGraphAdapterModel	God Class
-examples.com.jgraph.example.adapter.JGraphAdapterModel	Data Class
-examples.com.jgraph.example.adapter.JGraphAdapterModel	Refused Parent Bequest
-examples.com.jgraph.example.adapter.JGraphAdapterModel	Tradition Breaker
-src.org.jgraph.graph.AttributeMap$SerializableRectangle2D	Feature Envy
-src.org.jgraph.graph.AttributeMap$SerializableRectangle2D	Feature Envy
-src.org.jgraph.graph.AttributeMap$SerializableRectangle2D	Feature Envy
-src.org.jgraph.graph.AttributeMap$SerializableRectangle2D	Feature Envy
-src.org.jgraph.graph.AttributeMap$SerializableRectangle2D	Feature Envy
-src.org.jgraph.graph.ParentMap	Feature Envy
-src.org.jgraph.graph.ParentMap	Shotgun Surgery
-src.org.jgraph.graph.ParentMap	Feature Envy
-examples.com.jgraph.layout.demo.JGraphLayoutProgressMonitor	Dispersed Coupling
-examples.com.jgraph.example.adapter.JGraphSQLQueryPane	Brain Method
-examples.com.jgraph.example.adapter.JGraphSQLQueryPane	Dispersed Coupling
-examples.org.jgraph.example.GraphEd$MyMarqueeHandler	Feature Envy
-examples.org.jgraph.example.GraphEd$MyMarqueeHandler	Dispersed Coupling
-examples.org.jgraph.example.GraphEd$MyMarqueeHandler	Feature Envy
-examples.org.jgraph.example.GraphEd$MyMarqueeHandler	Feature Envy
-examples.org.jgraph.example.GraphEd$MyMarqueeHandler	Dispersed Coupling
-examples.org.jgraph.example.GraphEd$MyMarqueeHandler	Feature Envy
-examples.org.jgraph.example.GraphEd$MyMarqueeHandler	Dispersed Coupling
-examples.org.jgraph.example.GraphEd$MyMarqueeHandler	Feature Envy
-examples.org.jgraph.example.GraphEd$MyMarqueeHandler	God Class
-examples.org.jgraph.example.GraphEd$MyMarqueeHandler	Refused Parent Bequest
-src.org.jgraph.graph.CellView	Shotgun Surgery
-src.org.jgraph.graph.CellView	Shotgun Surgery
-src.org.jgraph.graph.CellView	Shotgun Surgery
-src.org.jgraph.graph.CellView	Shotgun Surgery
-src.org.jgraph.graph.CellView	Shotgun Surgery
-src.org.jgraph.graph.CellView	Shotgun Surgery
-src.com.jgraph.io.svg.SVGEdgeWriter	Brain Method
-src.com.jgraph.io.svg.SVGEdgeWriter	Dispersed Coupling
-src.org.jgraph.graph.EdgeRenderer	Dispersed Coupling
-src.org.jgraph.graph.EdgeRenderer	Dispersed Coupling
-src.org.jgraph.graph.EdgeRenderer	Dispersed Coupling
-src.org.jgraph.graph.EdgeRenderer	Dispersed Coupling
-src.org.jgraph.graph.EdgeRenderer	Feature Envy
-src.org.jgraph.graph.EdgeRenderer	Dispersed Coupling
-src.org.jgraph.graph.EdgeRenderer	Dispersed Coupling
-src.org.jgraph.graph.EdgeRenderer	Dispersed Coupling
-src.org.jgraph.graph.EdgeRenderer	Brain Method
-src.org.jgraph.graph.EdgeRenderer	Dispersed Coupling
-src.org.jgraph.graph.EdgeRenderer	Dispersed Coupling
-src.org.jgraph.graph.EdgeRenderer	God Class
-src.org.jgraph.graph.EdgeRenderer	Brain Class
-src.com.jgraph.layout.tree.JGraphRadialTreeLayout	Intensive Coupling
-src.com.jgraph.layout.tree.JGraphRadialTreeLayout	Feature Envy
-src.com.jgraph.layout.tree.JGraphRadialTreeLayout	Feature Envy
-src.com.jgraph.layout.tree.JGraphRadialTreeLayout	Intensive Coupling
-src.com.jgraph.layout.tree.JGraphRadialTreeLayout	God Class
-src.com.jgraph.layout.hierarchical.JGraphCoordinateAssignment	Dispersed Coupling
-src.com.jgraph.layout.hierarchical.JGraphCoordinateAssignment	Brain Method
-src.com.jgraph.layout.hierarchical.JGraphCoordinateAssignment	Dispersed Coupling
-src.com.jgraph.layout.hierarchical.JGraphCoordinateAssignment	Brain Method
-src.com.jgraph.layout.hierarchical.JGraphCoordinateAssignment	Dispersed Coupling
-src.com.jgraph.layout.hierarchical.JGraphCoordinateAssignment	Feature Envy
-src.com.jgraph.layout.hierarchical.JGraphCoordinateAssignment	Dispersed Coupling
-src.com.jgraph.layout.hierarchical.JGraphCoordinateAssignment	Brain Method
-src.com.jgraph.layout.hierarchical.JGraphCoordinateAssignment	Dispersed Coupling
-src.com.jgraph.layout.hierarchical.JGraphCoordinateAssignment	Brain Method
-src.com.jgraph.layout.hierarchical.JGraphCoordinateAssignment	Dispersed Coupling
-src.com.jgraph.layout.hierarchical.JGraphCoordinateAssignment	God Class
-src.com.jgraph.layout.hierarchical.JGraphCoordinateAssignment	Brain Class
-src.org.jgraph.graph.DefaultGraphCellEditor$EditorContainer	Feature Envy
-src.org.jgraph.graph.DefaultGraphCellEditor$EditorContainer	Intensive Coupling
-examples.com.jgraph.example.GraphEdMV	Feature Envy
-examples.com.jgraph.example.mycellview.JGraphRoundRectView$ActivityRenderer	Dispersed Coupling
-examples.com.jgraph.example.GraphSelectionDemo$SyncGraphSelectionListener	Dispersed Coupling
-src.com.jgraph.layout.organic.JGraphFastOrganicLayout	Brain Method
-src.com.jgraph.layout.organic.JGraphFastOrganicLayout	Intensive Coupling
-examples.org.jgraph.example.GraphEd$MyGraph	Feature Envy
-src.org.jgraph.util.Spline2D	Feature Envy
-src.org.jgraph.util.Spline2D	Feature Envy
-src.com.jgraph.components.labels.RichTextGraphModel	Feature Envy
-src.com.jgraph.components.labels.RichTextGraphModel	Dispersed Coupling
-examples.com.jgraph.example.JGraphGroupRenderer	Feature Envy
-src.org.jgraph.graph.AbstractCellView	Shotgun Surgery
-src.org.jgraph.graph.AbstractCellView	Dispersed Coupling
-src.org.jgraph.graph.AbstractCellView	Shotgun Surgery
-src.org.jgraph.graph.AbstractCellView	Shotgun Surgery
-src.org.jgraph.graph.AbstractCellView	Dispersed Coupling
-src.org.jgraph.graph.AbstractCellView	Feature Envy
-src.org.jgraph.graph.AbstractCellView	God Class
-src.org.jgraph.plaf.basic.BasicGraphUI$GraphModelHandler	Dispersed Coupling
-examples.com.jgraph.example.fastgraph.FastVertexView	Feature Envy
-examples.com.jgraph.example.mycellmodeleditor.BusinessObjectEditor$RealCellEditor	Dispersed Coupling
-src.org.jgraph.plaf.basic.BasicGraphUI$GraphSelectionHandler	Dispersed Coupling
-src.org.jgraph.graph.BasicMarqueeHandler	Dispersed Coupling
-src.org.jgraph.graph.BasicMarqueeHandler	Dispersed Coupling
-src.org.jgraph.graph.BasicMarqueeHandler	Dispersed Coupling
-src.org.jgraph.graph.BasicMarqueeHandler	Intensive Coupling
-src.com.jgraph.layout.tree.OrganizationalChart$OrganizationalTreeNode	Brain Method
-src.com.jgraph.layout.tree.OrganizationalChart$OrganizationalTreeNode	Dispersed Coupling
-src.com.jgraph.layout.tree.OrganizationalChart$OrganizationalTreeNode	Intensive Coupling
-src.org.jgraph.graph.VertexRenderer	Dispersed Coupling
-src.org.jgraph.graph.VertexRenderer	Feature Envy
-src.org.jgraph.graph.VertexRenderer	Intensive Coupling
-src.org.jgraph.graph.VertexRenderer	God Class
-src.org.jgraph.graph.VertexRenderer	Data Class
-src.com.jgraph.layout.hierarchical.JGraphMinimumCycleRemover	Brain Method
-src.com.jgraph.layout.hierarchical.JGraphMinimumCycleRemover	Dispersed Coupling
-examples.com.jgraph.example.JGraphFoldingManager	Dispersed Coupling
-examples.com.jgraph.example.JGraphFoldingManager	Dispersed Coupling
-src.com.jgraph.layout.hierarchical.JGraphHierarchicalLayout	Brain Method
-src.com.jgraph.layout.hierarchical.JGraphHierarchicalLayout	Intensive Coupling
-src.com.jgraph.layout.hierarchical.JGraphHierarchicalLayout	God Class
-src.com.jgraph.layout.hierarchical.model.JGraphHierarchyEdge	Feature Envy
-examples.com.jgraph.example.mycellmodeleditor.BusinessObjectEditor$RealCellEditor	Dispersed Coupling
-examples.org.jgraph.example.JGraphIconView$IconDisplay	Feature Envy
-examples.com.jgraph.example.groupeditor.GroupManager	Feature Envy
-examples.com.jgraph.example.groupeditor.GroupManager	Intensive Coupling
-src.org.jgraph.graph.GraphLayoutCache$GraphLayoutCacheEdit	Intensive Coupling
-src.org.jgraph.plaf.basic.BasicGraphUI	Dispersed Coupling
-src.org.jgraph.plaf.basic.BasicGraphUI	Feature Envy
-src.org.jgraph.plaf.basic.BasicGraphUI	Intensive Coupling
-src.org.jgraph.plaf.basic.BasicGraphUI	Feature Envy
-src.org.jgraph.plaf.basic.BasicGraphUI	Dispersed Coupling
-src.org.jgraph.plaf.basic.BasicGraphUI	Feature Envy
-src.org.jgraph.plaf.basic.BasicGraphUI	Dispersed Coupling
-src.org.jgraph.plaf.basic.BasicGraphUI	Feature Envy
-src.org.jgraph.plaf.basic.BasicGraphUI	Dispersed Coupling
-src.org.jgraph.plaf.basic.BasicGraphUI	Intensive Coupling
-src.org.jgraph.plaf.basic.BasicGraphUI	Intensive Coupling
-src.org.jgraph.plaf.basic.BasicGraphUI	Dispersed Coupling
-src.org.jgraph.plaf.basic.BasicGraphUI	Feature Envy
-src.org.jgraph.plaf.basic.BasicGraphUI	Dispersed Coupling
-src.org.jgraph.plaf.basic.BasicGraphUI	Dispersed Coupling
-src.org.jgraph.plaf.basic.BasicGraphUI	Dispersed Coupling
-src.org.jgraph.plaf.basic.BasicGraphUI	God Class
-src.org.jgraph.plaf.basic.BasicGraphUI	Data Class
-src.org.jgraph.plaf.basic.BasicGraphUI	Refused Parent Bequest
-examples.com.jgraph.layout.svg.SVGExample	Feature Envy
-examples.com.jgraph.layout.svg.SVGExample	Dispersed Coupling
-src.com.jgraph.layout.hierarchical.JGraphMedianHybridCrossingReduction	Brain Method
-src.com.jgraph.layout.hierarchical.JGraphMedianHybridCrossingReduction	Dispersed Coupling
-src.com.jgraph.layout.hierarchical.JGraphMedianHybridCrossingReduction	Dispersed Coupling
-src.com.jgraph.layout.hierarchical.JGraphMedianHybridCrossingReduction	Brain Method
-src.com.jgraph.layout.hierarchical.JGraphMedianHybridCrossingReduction	Dispersed Coupling
-src.com.jgraph.layout.hierarchical.JGraphMedianHybridCrossingReduction	Feature Envy
-src.com.jgraph.layout.hierarchical.JGraphMedianHybridCrossingReduction	God Class
-src.com.jgraph.layout.hierarchical.JGraphMedianHybridCrossingReduction	Brain Class
-src.org.jgraph.graph.GraphUndoManager	Feature Envy
-src.org.jgraph.graph.GraphUndoManager	Feature Envy
-src.org.jgraph.graph.PortRenderer	Feature Envy
-src.org.jgraph.graph.PortRenderer	Dispersed Coupling
-src.com.jgraph.layout.hierarchical.JGraphGreedyCycleRemover	Dispersed Coupling
-src.com.jgraph.algebra.JGraphUnionFind	Feature Envy
-src.com.jgraph.algebra.JGraphUnionFind	Feature Envy
-src.org.jgraph.plaf.basic.BasicGraphUI$PropertyChangeHandler	Intensive Coupling
-examples.org.jgraph.example.CompoundVertexView	Feature Envy
-examples.org.jgraph.example.CompoundVertexView	Refused Parent Bequest
-src.org.jgraph.graph.GraphLayoutCache	Feature Envy
-src.org.jgraph.graph.GraphLayoutCache	Feature Envy
-src.org.jgraph.graph.GraphLayoutCache	Dispersed Coupling
-src.org.jgraph.graph.GraphLayoutCache	Shotgun Surgery
-src.org.jgraph.graph.GraphLayoutCache	Dispersed Coupling
-src.org.jgraph.graph.GraphLayoutCache	Dispersed Coupling
-src.org.jgraph.graph.GraphLayoutCache	Dispersed Coupling
-src.org.jgraph.graph.GraphLayoutCache	Feature Envy
-src.org.jgraph.graph.GraphLayoutCache	Feature Envy
-src.org.jgraph.graph.GraphLayoutCache	Intensive Coupling
-src.org.jgraph.graph.GraphLayoutCache	Feature Envy
-src.org.jgraph.graph.GraphLayoutCache	Shotgun Surgery
-src.org.jgraph.graph.GraphLayoutCache	Shotgun Surgery
-src.org.jgraph.graph.GraphLayoutCache	Intensive Coupling
-src.org.jgraph.graph.GraphLayoutCache	Brain Method
-src.org.jgraph.graph.GraphLayoutCache	Dispersed Coupling
-src.org.jgraph.graph.GraphLayoutCache	Feature Envy
-src.org.jgraph.graph.GraphLayoutCache	Feature Envy
-src.org.jgraph.graph.GraphLayoutCache	Dispersed Coupling
-src.org.jgraph.graph.GraphLayoutCache	Feature Envy
-src.org.jgraph.graph.GraphLayoutCache	Dispersed Coupling
-src.org.jgraph.graph.GraphLayoutCache	Feature Envy
-src.org.jgraph.graph.GraphLayoutCache	Dispersed Coupling
-src.org.jgraph.graph.GraphLayoutCache	Shotgun Surgery
-src.org.jgraph.graph.GraphLayoutCache	Intensive Coupling
-src.org.jgraph.graph.GraphLayoutCache	Dispersed Coupling
-src.org.jgraph.graph.GraphLayoutCache	Dispersed Coupling
-src.org.jgraph.graph.GraphLayoutCache	Dispersed Coupling
-src.org.jgraph.graph.GraphLayoutCache	Dispersed Coupling
-src.org.jgraph.graph.GraphLayoutCache	Feature Envy
-src.org.jgraph.graph.GraphLayoutCache	Dispersed Coupling
-src.org.jgraph.graph.GraphLayoutCache	God Class
-src.org.jgraph.graph.GraphLayoutCache	Brain Class
-src.com.jgraph.layout.JGraphFacade$DefaultComparator	Feature Envy
-src.com.jgraph.io.svg.SVGGraphWriter	Brain Method
-src.com.jgraph.io.svg.SVGGraphWriter	Dispersed Coupling
-src.com.jgraph.io.svg.SVGGraphWriter	Feature Envy
-src.com.jgraph.io.svg.SVGGraphWriter	Feature Envy
-src.com.jgraph.io.svg.SVGGraphWriter	Dispersed Coupling
-src.com.jgraph.io.svg.SVGGraphWriter	Intensive Coupling
-src.com.jgraph.io.svg.SVGGraphWriter	Feature Envy
-src.com.jgraph.io.svg.SVGGraphWriter	Data Class
-examples.com.jgraph.example.EditorGraph$EditorGraphUI	Dispersed Coupling
-examples.com.jgraph.example.EditorGraph$EditorGraphUI	Dispersed Coupling
-examples.com.jgraph.example.fastgraph.FastEdgeView	Feature Envy
-examples.com.jgraph.example.fastgraph.FastEdgeView	Refused Parent Bequest
-src.org.jgraph.graph.EdgeView$EdgeHandle	Dispersed Coupling
-src.org.jgraph.graph.EdgeView$EdgeHandle	Feature Envy
-src.org.jgraph.graph.EdgeView$EdgeHandle	Intensive Coupling
-src.org.jgraph.graph.EdgeView$EdgeHandle	Feature Envy
-src.org.jgraph.graph.EdgeView$EdgeHandle	Dispersed Coupling
-src.org.jgraph.graph.EdgeView$EdgeHandle	Intensive Coupling
-src.org.jgraph.graph.EdgeView$EdgeHandle	Brain Method
-src.org.jgraph.graph.EdgeView$EdgeHandle	Intensive Coupling
-src.org.jgraph.graph.EdgeView$EdgeHandle	Brain Method
-src.org.jgraph.graph.EdgeView$EdgeHandle	Intensive Coupling
-src.org.jgraph.graph.EdgeView$EdgeHandle	Dispersed Coupling
-src.org.jgraph.graph.EdgeView$EdgeHandle	Brain Method
-src.org.jgraph.graph.EdgeView$EdgeHandle	Intensive Coupling
-src.org.jgraph.graph.EdgeView$EdgeHandle	Dispersed Coupling
-src.org.jgraph.graph.EdgeView$EdgeHandle	Dispersed Coupling
-src.org.jgraph.graph.EdgeView$EdgeHandle	Brain Class
-src.com.jgraph.layout.organic.JGraphSelfOrganizingOrganicLayout	Dispersed Coupling
-src.org.jgraph.plaf.basic.BasicGraphUI$GraphLayoutCacheHandler	Dispersed Coupling
-src.com.jgraph.layout.organic.JGraphOrganicLayout	Feature Envy
-src.com.jgraph.layout.organic.JGraphOrganicLayout	Intensive Coupling
-src.com.jgraph.layout.organic.JGraphOrganicLayout	Brain Method
-src.com.jgraph.layout.organic.JGraphOrganicLayout	Feature Envy
-src.com.jgraph.layout.organic.JGraphOrganicLayout	Feature Envy
-src.com.jgraph.layout.organic.JGraphOrganicLayout	Feature Envy
-src.com.jgraph.layout.organic.JGraphOrganicLayout	Brain Method
-src.com.jgraph.layout.organic.JGraphOrganicLayout	Feature Envy
-src.com.jgraph.layout.organic.JGraphOrganicLayout	Feature Envy
-src.com.jgraph.layout.organic.JGraphOrganicLayout	Feature Envy
-src.com.jgraph.layout.organic.JGraphOrganicLayout	God Class
-src.com.jgraph.layout.organic.JGraphOrganicLayout	Brain Class
-examples.org.jgraph.example.JGraphIconView$IconRenderer	Feature Envy
-examples.org.jgraph.example.JGraphIconView$IconRenderer	Dispersed Coupling
-src.com.jgraph.layout.graph.JGraphSimpleLayout	Feature Envy
-src.org.jgraph.plaf.basic.BasicGraphUI$RootHandle	Dispersed Coupling
-src.org.jgraph.plaf.basic.BasicGraphUI$RootHandle	Dispersed Coupling
-src.org.jgraph.plaf.basic.BasicGraphUI$RootHandle	Feature Envy
-src.org.jgraph.plaf.basic.BasicGraphUI$RootHandle	Intensive Coupling
-src.org.jgraph.plaf.basic.BasicGraphUI$RootHandle	Dispersed Coupling
-src.org.jgraph.plaf.basic.BasicGraphUI$RootHandle	Dispersed Coupling
-src.org.jgraph.plaf.basic.BasicGraphUI$RootHandle	Brain Method
-src.org.jgraph.plaf.basic.BasicGraphUI$RootHandle	Intensive Coupling
-src.org.jgraph.plaf.basic.BasicGraphUI$RootHandle	Dispersed Coupling
-src.org.jgraph.plaf.basic.BasicGraphUI$RootHandle	Brain Method
-src.org.jgraph.plaf.basic.BasicGraphUI$RootHandle	Intensive Coupling
-src.org.jgraph.plaf.basic.BasicGraphUI$RootHandle	Brain Class
-src.org.jgraph.graph.GraphConstants	Feature Envy
-src.org.jgraph.graph.GraphConstants	Feature Envy
-src.org.jgraph.graph.GraphConstants	Dispersed Coupling
-src.org.jgraph.graph.GraphConstants	Feature Envy
-src.org.jgraph.graph.GraphConstants	Dispersed Coupling
-src.org.jgraph.graph.GraphConstants	Feature Envy
-src.org.jgraph.graph.GraphConstants	God Class
-src.org.jgraph.graph.GraphConstants	Data Class
-src.com.jgraph.components.labels.RichTextBusinessObject	Feature Envy
-src.com.jgraph.components.labels.RichTextBusinessObject	Dispersed Coupling
-src.org.jgraph.util.Bezier	Feature Envy
-src.org.jgraph.plaf.basic.BasicGraphUI$MouseHandler	Intensive Coupling
-src.org.jgraph.plaf.basic.BasicGraphUI$MouseHandler	Feature Envy
-src.org.jgraph.plaf.basic.BasicGraphUI$MouseHandler	Dispersed Coupling
-src.org.jgraph.plaf.basic.BasicGraphUI$MouseHandler	Feature Envy
-src.org.jgraph.plaf.basic.BasicGraphUI$MouseHandler	Dispersed Coupling
-src.org.jgraph.plaf.basic.BasicGraphUI$MouseHandler	Feature Envy
-src.org.jgraph.plaf.basic.BasicGraphUI$MouseHandler	God Class
-src.com.jgraph.layout.tree.JGraphTreeLayout$StandardTreeNode	Dispersed Coupling
-src.com.jgraph.layout.tree.JGraphTreeLayout$StandardTreeNode	Intensive Coupling
-src.com.jgraph.layout.tree.JGraphTreeLayout$StandardTreeNode	Refused Parent Bequest
-src.com.jgraph.layout.tree.JGraphTreeLayout$StandardTreeNode	Tradition Breaker
+src.org.jgraph.graph.EdgeView	update	Dispersed Coupling
+src.org.jgraph.graph.EdgeView	checkDefaultLabelPosition	Feature Envy
+src.org.jgraph.graph.EdgeView	intersects	Feature Envy
+src.org.jgraph.graph.EdgeView	getSource	Shotgun Surgery
+src.org.jgraph.graph.EdgeView	getTarget	Shotgun Surgery
+src.org.jgraph.graph.EdgeView	getPointCount	Shotgun Surgery
+src.org.jgraph.graph.EdgeView	getPoint	Shotgun Surgery
+src.org.jgraph.graph.EdgeView	getLabelVector	Brain Method
+src.org.jgraph.graph.EdgeView	getLabelVector	Feature Envy
+src.org.jgraph.graph.EdgeView	convertRelativeLabelPositionToAbsolute	Feature Envy
+src.org.jgraph.graph.EdgeView	null	God Class
+src.org.jgraph.graph.EdgeView	null	Brain Class
+src.org.jgraph.graph.EdgeView	null	Refused Parent Bequest
+src.org.jgraph.graph.EdgeView	null	Tradition Breaker
+src.com.jgraph.io.svg.SVGVertexWriter	createNode	Intensive Coupling
+src.org.jgraph.graph.AttributeMap	createRect	Feature Envy
+src.org.jgraph.graph.AttributeMap	createRect	Feature Envy
+src.org.jgraph.graph.AttributeMap	applyMap	Intensive Coupling
+src.org.jgraph.graph.AttributeMap	applyMap	Shotgun Surgery
+src.org.jgraph.graph.AttributeMap	clonePoints	Feature Envy
+src.org.jgraph.graph.AttributeMap	translate	Intensive Coupling
+src.org.jgraph.graph.AttributeMap	scale	Intensive Coupling
+src.org.jgraph.graph.AttributeMap	diff	Dispersed Coupling
+src.org.jgraph.graph.AttributeMap	clone	Shotgun Surgery
+src.org.jgraph.graph.AttributeMap	cloneEntries	Feature Envy
+src.org.jgraph.graph.AttributeMap	null	God Class
+examples.com.jgraph.example.adapter.JGraphSQLBackend	objectAdded	Dispersed Coupling
+examples.com.jgraph.example.adapter.JGraphSQLBackend	cellRemoved	Feature Envy
+examples.com.jgraph.example.adapter.JGraphSQLBackend	parentChanged	Feature Envy
+examples.com.jgraph.example.adapter.JGraphSQLBackend	propertiesChanged	Feature Envy
+examples.com.jgraph.example.adapter.JGraphSQLBackend	findEdges	Feature Envy
+examples.com.jgraph.example.adapter.JGraphSQLBackend	get	Feature Envy
+examples.com.jgraph.example.adapter.JGraphSQLBackend	get	Dispersed Coupling
+examples.com.jgraph.example.adapter.JGraphSQLBackend	null	God Class
+examples.com.jgraph.example.adapter.JGraphSQLBackend	null	Data Class
+src.com.jgraph.algebra.JGraphFibonacciHeap	decreaseKey	Feature Envy
+src.com.jgraph.algebra.JGraphFibonacciHeap	insert	Feature Envy
+src.com.jgraph.algebra.JGraphFibonacciHeap	removeMin	Feature Envy
+src.com.jgraph.algebra.JGraphFibonacciHeap	cascadingCut	Feature Envy
+src.com.jgraph.algebra.JGraphFibonacciHeap	consolidate	Feature Envy
+src.com.jgraph.algebra.JGraphFibonacciHeap	cut	Feature Envy
+src.com.jgraph.algebra.JGraphFibonacciHeap	link	Feature Envy
+examples.com.jgraph.example.JGraphGraphFactory$FactoryConfigDialog	FactoryConfigDialog	Dispersed Coupling
+examples.com.jgraph.example.JGraphGraphFactory$FactoryConfigDialog	applyValues	Feature Envy
+src.org.jgraph.graph.DefaultGraphCell	getAttributes	Shotgun Surgery
+src.org.jgraph.graph.DefaultGraphCell	addPort	Shotgun Surgery
+src.com.jgraph.layout.tree.JGraphAbstractTreeLayout	setOrientation	Feature Envy
+src.com.jgraph.layout.simple.SimpleGridLayout	run	Dispersed Coupling
+src.org.jgraph.plaf.basic.BasicGraphDropTargetListener	initPropertiesIfNecessary	Feature Envy
+src.org.jgraph.plaf.basic.BasicGraphDropTargetListener	dragEnter	Feature Envy
+src.org.jgraph.plaf.basic.BasicGraphDropTargetListener	dragOver	Feature Envy
+src.org.jgraph.graph.DefaultGraphModel	getValue	Shotgun Surgery
+src.org.jgraph.graph.DefaultGraphModel	cloneCells	Dispersed Coupling
+src.org.jgraph.graph.DefaultGraphModel	insert	Feature Envy
+src.org.jgraph.graph.DefaultGraphModel	updateTransaction	Intensive Coupling
+src.org.jgraph.graph.DefaultGraphModel	handleRemove	Intensive Coupling
+src.org.jgraph.graph.DefaultGraphModel	handleParentMap	Feature Envy
+src.org.jgraph.graph.DefaultGraphModel	handleParentMap	Intensive Coupling
+src.org.jgraph.graph.DefaultGraphModel	handleAttributes	Dispersed Coupling
+src.org.jgraph.graph.DefaultGraphModel	getRoots	Feature Envy
+src.org.jgraph.graph.DefaultGraphModel	getDescendants	Feature Envy
+src.org.jgraph.graph.DefaultGraphModel	order	Feature Envy
+src.org.jgraph.graph.DefaultGraphModel	order	Dispersed Coupling
+src.org.jgraph.graph.DefaultGraphModel	getEdges	Feature Envy
+src.org.jgraph.graph.DefaultGraphModel	getEdgesBetween	Dispersed Coupling
+src.org.jgraph.graph.DefaultGraphModel	getEdges	Feature Envy
+src.org.jgraph.graph.DefaultGraphModel	getEdges	Intensive Coupling
+src.org.jgraph.graph.DefaultGraphModel	null	God Class
+examples.com.jgraph.layout.demo.JGraphLayoutPanel	execute	Feature Envy
+examples.com.jgraph.layout.demo.JGraphLayoutPanel	execute	Dispersed Coupling
+examples.com.jgraph.layout.demo.JGraphLayoutPanel	createFacade	Feature Envy
+examples.com.jgraph.layout.demo.JGraphLayoutPanel	createEdgeAttributes	Feature Envy
+examples.org.jgraph.example.GraphEd$EventRedirector	actionPerformed	Feature Envy
+examples.org.jgraph.example.IconExample$IconGraph	IconGraph	Feature Envy
+src.com.jgraph.layout.tree.JGraphTreeLayout	merge	Feature Envy
+src.com.jgraph.layout.tree.JGraphTreeLayout	distance	Feature Envy
+src.com.jgraph.layout.tree.JGraphTreeLayout	setAlignment	Feature Envy
+src.com.jgraph.layout.tree.JGraphTreeLayout	null	God Class
+src.com.jgraph.layout.tree.JGraphTreeLayout	null	Refused Parent Bequest
+src.org.jgraph.graph.GraphSelectionModel	addGraphSelectionListener	Shotgun Surgery
+examples.com.jgraph.example.panelexample.FlyweightUIComponent	installAttributes	Brain Method
+examples.com.jgraph.example.panelexample.FlyweightUIComponent	installAttributes	Dispersed Coupling
+src.com.jgraph.navigation.GraphNavigator$NavigatorPane	NavigatorPane	Feature Envy
+src.com.jgraph.navigation.GraphNavigator$NavigatorPane	mousePressed	Feature Envy
+src.com.jgraph.navigation.GraphNavigator$NavigatorPane	mouseDragged	Dispersed Coupling
+src.com.jgraph.navigation.GraphNavigator$NavigatorPane	mouseMoved	Feature Envy
+examples.com.jgraph.layout.JGraphExampleGraph	morph	Dispersed Coupling
+examples.com.jgraph.layout.JGraphExampleGraph	initMorphing	Dispersed Coupling
+examples.com.jgraph.layout.JGraphExampleGraph	restore	Feature Envy
+src.com.jgraph.layout.JGraphModelFacade	getNeighbours	Feature Envy
+src.com.jgraph.layout.JGraphModelFacade	getNeighbours	Dispersed Coupling
+src.com.jgraph.layout.JGraphModelFacade	null	Refused Parent Bequest
+examples.org.jgraph.example.JGraphAbstractIconAnimator	repaint	Feature Envy
+examples.org.jgraph.example.JGraphAbstractIconAnimator	stop	Feature Envy
+src.org.jgraph.graph.GraphTransferable	null	Refused Parent Bequest
+src.org.jgraph.util.RectUtils	union	Feature Envy
+src.com.jgraph.util.JGraphPrintingScrollPane	updateMinimumSize	Dispersed Coupling
+src.org.jgraph.plaf.basic.BasicGraphTransferable	getTransferDataFlavors	Feature Envy
+examples.com.jgraph.example.GraphEdX	valueChanged	Feature Envy
+examples.com.jgraph.example.GraphEdX	group	Dispersed Coupling
+examples.com.jgraph.example.GraphEdX	createEdgeAttributes	Feature Envy
+examples.com.jgraph.example.GraphEdX	serializeGraph	Dispersed Coupling
+examples.com.jgraph.example.GraphEdX	deserializeGraph	Dispersed Coupling
+examples.com.jgraph.example.GraphEdX	saveFile	Dispersed Coupling
+examples.com.jgraph.example.GraphEdX	openFile	Dispersed Coupling
+examples.com.jgraph.example.GraphEdX	initFileChooser	Feature Envy
+examples.com.jgraph.example.GraphEdX	configureEncoder	Feature Envy
+examples.com.jgraph.example.GraphEdX	null	God Class
+examples.com.jgraph.example.GraphEdX	null	Refused Parent Bequest
+src.org.jgraph.graph.DefaultGraphSelectionModel	setSelectionMode	Feature Envy
+src.org.jgraph.graph.DefaultGraphSelectionModel	setSelectionCells	Dispersed Coupling
+src.org.jgraph.graph.DefaultGraphSelectionModel	getSelectables	Feature Envy
+src.org.jgraph.graph.DefaultGraphSelectionModel	getSelectables	Intensive Coupling
+src.org.jgraph.graph.DefaultGraphSelectionModel	clearSelection	Dispersed Coupling
+src.org.jgraph.graph.DefaultGraphSelectionModel	select	Dispersed Coupling
+src.org.jgraph.graph.DefaultGraphSelectionModel	null	God Class
+src.com.jgraph.io.svg.SVGVertexRenderer	getPerimeterPoint	Feature Envy
+examples.com.jgraph.layout.demo.JGraphLayoutMorphingManager	initialize	Dispersed Coupling
+examples.com.jgraph.layout.demo.JGraphLayoutMorphingManager	actionPerformed	Dispersed Coupling
+examples.com.jgraph.layout.demo.JGraphLayoutMorphingManager	setCellBounds	Dispersed Coupling
+examples.com.jgraph.layout.demo.JGraphLayoutMorphingManager	fitViewport	Dispersed Coupling
+src.com.jgraph.algebra.JGraphAlgebra	getShortestPath	Dispersed Coupling
+src.com.jgraph.algebra.JGraphAlgebra	getMinimumSpanningTree	Dispersed Coupling
+src.com.jgraph.algebra.JGraphAlgebra	getMinimumSpanningTree	Dispersed Coupling
+src.com.jgraph.layout.graph.JGraphSpringLayout	run	Dispersed Coupling
+src.com.jgraph.layout.graph.JGraphSpringLayout	null	God Class
+examples.com.jgraph.example.fastgraph.FastGraphUI	paintCell	Dispersed Coupling
+examples.com.jgraph.example.fastgraph.FastGraphUI	updateCachedPreferredSize	Dispersed Coupling
+src.com.jgraph.layout.JGraphFacade	resetControlPoints	Dispersed Coupling
+src.com.jgraph.layout.JGraphFacade	getNeighbours	Feature Envy
+src.com.jgraph.layout.JGraphFacade	getNeighbours	Dispersed Coupling
+src.com.jgraph.layout.JGraphFacade	getVertices	Shotgun Surgery
+src.com.jgraph.layout.JGraphFacade	getSource	Feature Envy
+src.com.jgraph.layout.JGraphFacade	getTarget	Feature Envy
+src.com.jgraph.layout.JGraphFacade	getIncomingEdges	Feature Envy
+src.com.jgraph.layout.JGraphFacade	getIncomingEdges	Dispersed Coupling
+src.com.jgraph.layout.JGraphFacade	createNestedMap	Dispersed Coupling
+src.com.jgraph.layout.JGraphFacade	getComponents	Dispersed Coupling
+src.com.jgraph.layout.JGraphFacade	getAttributes	Dispersed Coupling
+src.com.jgraph.layout.JGraphFacade	getGraphOrigin	Dispersed Coupling
+src.com.jgraph.layout.JGraphFacade	scale	Feature Envy
+src.com.jgraph.layout.JGraphFacade	scale	Feature Envy
+src.com.jgraph.layout.JGraphFacade	getBounds	Brain Method
+src.com.jgraph.layout.JGraphFacade	getBounds	Intensive Coupling
+src.com.jgraph.layout.JGraphFacade	setBounds	Dispersed Coupling
+src.com.jgraph.layout.JGraphFacade	getLocations	Feature Envy
+src.com.jgraph.layout.JGraphFacade	getBounds	Feature Envy
+src.com.jgraph.layout.JGraphFacade	getLocation	Feature Envy
+src.com.jgraph.layout.JGraphFacade	setLocations	Feature Envy
+src.com.jgraph.layout.JGraphFacade	setLocation	Shotgun Surgery
+src.com.jgraph.layout.JGraphFacade	setLocation	Dispersed Coupling
+src.com.jgraph.layout.JGraphFacade	translate	Dispersed Coupling
+src.com.jgraph.layout.JGraphFacade	getMaxSize	Feature Envy
+src.com.jgraph.layout.JGraphFacade	getMaxSize	Dispersed Coupling
+src.com.jgraph.layout.JGraphFacade	setSize	Feature Envy
+src.com.jgraph.layout.JGraphFacade	getPoints	Feature Envy
+src.com.jgraph.layout.JGraphFacade	getEdgesBetween	Feature Envy
+src.com.jgraph.layout.JGraphFacade	setDirected	Shotgun Surgery
+src.com.jgraph.layout.JGraphFacade	bfs	Dispersed Coupling
+src.com.jgraph.layout.JGraphFacade	null	God Class
+src.com.jgraph.layout.JGraphFacade	null	Brain Class
+src.org.jgraph.graph.DefaultGraphModel$GraphModelEdit	filterParents	Feature Envy
+src.org.jgraph.graph.DefaultGraphModel$GraphModelEdit	filterParents	Dispersed Coupling
+src.org.jgraph.graph.DefaultGraphModel$GraphModelEdit	handleEmptyGroups	Feature Envy
+src.org.jgraph.graph.DefaultGraphModel$GraphModelEdit	execute	Intensive Coupling
+src.org.jgraph.graph.DefaultGraphModel$GraphModelEdit	toString	Feature Envy
+src.org.jgraph.graph.DefaultGraphModel$GraphModelEdit	null	God Class
+examples.com.jgraph.example.adapter.JGraphSQLEntity	null	Refused Parent Bequest
+examples.com.jgraph.example.fastgraph.FastGraphModel	insert	Feature Envy
+examples.com.jgraph.example.fastgraph.FastGraphModel	handleAttributes	Dispersed Coupling
+src.com.jgraph.navigation.PanningTool	processMouseDraggedEvent	Dispersed Coupling
+src.com.jgraph.navigation.GraphNavigator	setCurrentGraph	Feature Envy
+src.com.jgraph.navigation.GraphNavigator	setCurrentGraph	Intensive Coupling
+src.org.jgraph.graph.GraphTransferHandler	importData	Brain Method
+src.org.jgraph.graph.GraphTransferHandler	importData	Intensive Coupling
+src.org.jgraph.graph.GraphTransferHandler	getInsertionOffset	Feature Envy
+src.org.jgraph.graph.GraphTransferHandler	handleExternalDrop	Dispersed Coupling
+src.org.jgraph.graph.GraphTransferHandler	null	God Class
+src.org.jgraph.util.ParallelEdgeRouter	routeEdge	Brain Method
+src.org.jgraph.util.ParallelEdgeRouter	routeEdge	Intensive Coupling
+src.org.jgraph.util.ParallelEdgeRouter	getParallelEdges	Brain Method
+src.org.jgraph.util.ParallelEdgeRouter	getParallelEdges	Dispersed Coupling
+src.org.jgraph.util.ParallelEdgeRouter	null	God Class
+src.org.jgraph.util.ParallelEdgeRouter	null	Brain Class
+src.org.jgraph.util.ParallelEdgeRouter	null	Refused Parent Bequest
+src.org.jgraph.graph.DefaultGraphCellEditor	shouldStartEditingTimer	Feature Envy
+src.org.jgraph.graph.DefaultGraphCellEditor	createGraphCellEditor	Feature Envy
+src.org.jgraph.graph.DefaultGraphCellEditor	null	God Class
+examples.org.jgraph.example.GraphEd	installListeners	Feature Envy
+examples.org.jgraph.example.GraphEd	uninstallListeners	Feature Envy
+examples.org.jgraph.example.GraphEd	connect	Feature Envy
+examples.org.jgraph.example.GraphEd	createEdgeAttributes	Feature Envy
+examples.org.jgraph.example.GraphEd	getCellCount	Feature Envy
+examples.org.jgraph.example.GraphEd	updateHistoryButtons	Feature Envy
+examples.org.jgraph.example.GraphEd	valueChanged	Feature Envy
+examples.org.jgraph.example.GraphEd	null	God Class
+src.org.jgraph.graph.GraphModel	getRootCount	Shotgun Surgery
+src.org.jgraph.graph.GraphModel	getRootAt	Shotgun Surgery
+src.org.jgraph.graph.GraphModel	getAttributes	Shotgun Surgery
+src.org.jgraph.graph.GraphModel	getSource	Shotgun Surgery
+src.org.jgraph.graph.GraphModel	getTarget	Shotgun Surgery
+src.org.jgraph.graph.GraphModel	isEdge	Shotgun Surgery
+src.org.jgraph.graph.GraphModel	isPort	Shotgun Surgery
+src.org.jgraph.graph.GraphModel	getParent	Shotgun Surgery
+src.org.jgraph.graph.GraphModel	getChild	Shotgun Surgery
+src.org.jgraph.graph.GraphModel	getChildCount	Shotgun Surgery
+examples.com.jgraph.layout.JGraphExampleLayoutCache	layout	Dispersed Coupling
+examples.com.jgraph.layout.JGraphExampleLayoutCache	configureLayout	Dispersed Coupling
+examples.com.jgraph.layout.JGraphExampleLayoutCache	null	Refused Parent Bequest
+examples.com.jgraph.example.fastgraph.FastPortView	getCellAttributes	Feature Envy
+examples.org.jgraph.example.LiveJGraphInternalFrame	LiveJGraphInternalFrame	Feature Envy
+examples.com.jgraph.example.fastgraph.FastCircleView$JGraphEllipseRenderer	getPreferredSize	Feature Envy
+examples.com.jgraph.example.fastgraph.FastCircleView$JGraphEllipseRenderer	paint	Dispersed Coupling
+src.com.jgraph.components.labels.MultiLineVertexRenderer	MultiLineVertexRenderer	Feature Envy
+src.com.jgraph.components.labels.MultiLineVertexRenderer	MultiLineVertexRenderer	Intensive Coupling
+src.com.jgraph.components.labels.MultiLineVertexRenderer	getRendererComponent	Intensive Coupling
+src.com.jgraph.components.labels.MultiLineVertexRenderer	paint	Dispersed Coupling
+src.com.jgraph.components.labels.MultiLineVertexRenderer	paintBackground	Dispersed Coupling
+src.com.jgraph.components.labels.MultiLineVertexRenderer	paintRichText	Dispersed Coupling
+src.com.jgraph.components.labels.MultiLineVertexRenderer	paintShapeBorder	Feature Envy
+src.com.jgraph.components.labels.MultiLineVertexRenderer	paintShapeBorder	Dispersed Coupling
+src.com.jgraph.components.labels.MultiLineVertexRenderer	paintFoldingIcon	Feature Envy
+src.com.jgraph.components.labels.MultiLineVertexRenderer	getTrianglePerimeterPoint	Dispersed Coupling
+src.com.jgraph.components.labels.MultiLineVertexRenderer	intersection	Feature Envy
+src.com.jgraph.components.labels.MultiLineVertexRenderer	installAttributes	Dispersed Coupling
+src.com.jgraph.components.labels.MultiLineVertexRenderer	null	God Class
+src.com.jgraph.components.labels.MultiLineVertexRenderer	null	Refused Parent Bequest
+src.org.jgraph.JGraph	getUI	Shotgun Surgery
+src.org.jgraph.JGraph	getRoots	Shotgun Surgery
+src.org.jgraph.JGraph	getDescendants	Shotgun Surgery
+src.org.jgraph.JGraph	getCellBounds	Shotgun Surgery
+src.org.jgraph.JGraph	getCellBounds	Shotgun Surgery
+src.org.jgraph.JGraph	getNextViewAt	Dispersed Coupling
+src.org.jgraph.JGraph	convertValueToString	Shotgun Surgery
+src.org.jgraph.JGraph	snap	Feature Envy
+src.org.jgraph.JGraph	snap	Shotgun Surgery
+src.org.jgraph.JGraph	snap	Feature Envy
+src.org.jgraph.JGraph	snap	Feature Envy
+src.org.jgraph.JGraph	toScreen	Feature Envy
+src.org.jgraph.JGraph	toScreen	Shotgun Surgery
+src.org.jgraph.JGraph	fromScreen	Feature Envy
+src.org.jgraph.JGraph	fromScreen	Shotgun Surgery
+src.org.jgraph.JGraph	toScreen	Feature Envy
+src.org.jgraph.JGraph	toScreen	Shotgun Surgery
+src.org.jgraph.JGraph	fromScreen	Feature Envy
+src.org.jgraph.JGraph	updateAutoSize	Dispersed Coupling
+src.org.jgraph.JGraph	isXorEnabled	Shotgun Surgery
+src.org.jgraph.JGraph	getScale	Shotgun Surgery
+src.org.jgraph.JGraph	clearOffscreen	Feature Envy
+src.org.jgraph.JGraph	getViewPortBounds	Feature Envy
+src.org.jgraph.JGraph	getOffgraphics	Brain Method
+src.org.jgraph.JGraph	getOffgraphics	Intensive Coupling
+src.org.jgraph.JGraph	getModel	Shotgun Surgery
+src.org.jgraph.JGraph	getGraphLayoutCache	Shotgun Surgery
+src.org.jgraph.JGraph	setMarqueeHandler	Shotgun Surgery
+src.org.jgraph.JGraph	getToolTipText	Dispersed Coupling
+src.org.jgraph.JGraph	getSelectionModel	Shotgun Surgery
+src.org.jgraph.JGraph	isSelectionEmpty	Shotgun Surgery
+src.org.jgraph.JGraph	getSelectionCells	Shotgun Surgery
+src.org.jgraph.JGraph	isCellSelected	Shotgun Surgery
+src.org.jgraph.JGraph	scrollCellToVisible	Feature Envy
+src.org.jgraph.JGraph	getImage	Dispersed Coupling
+src.org.jgraph.JGraph	getClipRectangle	Dispersed Coupling
+src.org.jgraph.JGraph	getScrollableBlockIncrement	Feature Envy
+src.org.jgraph.JGraph	null	God Class
+src.org.jgraph.JGraph	null	Brain Class
+examples.com.jgraph.layout.JGraphLayoutExample	createLayoutActions	Feature Envy
+examples.com.jgraph.layout.JGraphLayoutExample	configureEncoder	Feature Envy
+examples.com.jgraph.layout.JGraphLayoutExample	openFile	Dispersed Coupling
+examples.com.jgraph.layout.JGraphLayoutExample	null	Refused Parent Bequest
+src.org.jgraph.graph.DefaultGraphCellEditor$DefaultTextField	getFont	Feature Envy
+src.org.jgraph.graph.GraphContext	GraphContext	Dispersed Coupling
+src.org.jgraph.graph.GraphContext	createTemporaryPortViews	Dispersed Coupling
+src.org.jgraph.graph.GraphContext	createTemporaryContextViews	Intensive Coupling
+src.org.jgraph.graph.GraphContext	disconnect	Dispersed Coupling
+src.org.jgraph.graph.GraphContext	null	God Class
+src.org.jgraph.graph.GraphContext	null	Data Class
+examples.com.jgraph.navigation.NavigationExample	createEdgeAttributes	Feature Envy
+src.org.jgraph.graph.VertexView	getHandle	Feature Envy
+src.org.jgraph.graph.VertexView	getBounds	Shotgun Surgery
+src.org.jgraph.graph.VertexView	null	Refused Parent Bequest
+src.org.jgraph.graph.ConnectionSet	create	Feature Envy
+src.org.jgraph.graph.ConnectionSet	clone	Feature Envy
+examples.com.jgraph.layout.JGraphExampleLayoutCache$JGraphMoveSelectionFacade	JGraphMoveSelectionFacade	Feature Envy
+examples.com.jgraph.layout.JGraphWordBrowser	addEdge	Feature Envy
+examples.com.jgraph.layout.JGraphWordBrowser	createVertex	Feature Envy
+examples.com.jgraph.layout.JGraphWordBrowser	add	Brain Method
+examples.com.jgraph.layout.JGraphWordBrowser	add	Intensive Coupling
+examples.com.jgraph.layout.JGraphWordBrowser	getContent	Feature Envy
+examples.com.jgraph.layout.JGraphWordBrowser	layout	Dispersed Coupling
+examples.com.jgraph.layout.JGraphWordBrowser	sendEdgesToBack	Feature Envy
+examples.com.jgraph.layout.JGraphWordBrowser	createFacade	Feature Envy
+examples.com.jgraph.layout.JGraphWordBrowser	main	Intensive Coupling
+examples.com.jgraph.layout.JGraphWordBrowser	null	God Class
+examples.com.jgraph.layout.JGraphWordBrowser	null	Data Class
+examples.com.jgraph.layout.JGraphWordBrowser	null	Refused Parent Bequest
+examples.com.jgraph.layout.JGraphWordBrowser	null	Tradition Breaker
+src.org.jgraph.graph.VertexView$SizeHandle	SizeHandle	Dispersed Coupling
+src.org.jgraph.graph.VertexView$SizeHandle	paint	Intensive Coupling
+src.org.jgraph.graph.VertexView$SizeHandle	overlay	Dispersed Coupling
+src.org.jgraph.graph.VertexView$SizeHandle	mousePressed	Dispersed Coupling
+src.org.jgraph.graph.VertexView$SizeHandle	mouseDragged	Brain Method
+src.org.jgraph.graph.VertexView$SizeHandle	mouseDragged	Intensive Coupling
+src.org.jgraph.graph.VertexView$SizeHandle	computeBounds	Dispersed Coupling
+src.org.jgraph.graph.VertexView$SizeHandle	mouseReleased	Feature Envy
+src.org.jgraph.plaf.basic.BasicGraphUI$ComponentHandler	componentMoved	Feature Envy
+examples.com.jgraph.example.JGraphShadowBorder	paintBorder	Feature Envy
+examples.com.jgraph.example.JGraphShadowBorder	average	Feature Envy
+examples.com.jgraph.example.fastgraph.FastCircleView$JGraphEllipseRenderer	getPreferredSize	Feature Envy
+examples.com.jgraph.example.fastgraph.FastCircleView$JGraphEllipseRenderer	paint	Dispersed Coupling
+src.org.jgraph.util.Spline	getValue	Feature Envy
+examples.com.jgraph.example.mycellmodeleditor.BusinessObjectEditor$RealCellEditor	getGraphCellEditorComponent	Dispersed Coupling
+src.org.jgraph.graph.DefaultEdge$DefaultRouting	routeEdge	Brain Method
+src.org.jgraph.graph.DefaultEdge$DefaultRouting	routeEdge	Dispersed Coupling
+examples.com.jgraph.example.Main	createButton	Feature Envy
+src.org.jgraph.plaf.basic.BasicGraphUI$KeyHandler	keyPressed	Dispersed Coupling
+src.org.jgraph.plaf.basic.BasicGraphUI$GraphSelectAllAction	actionPerformed	Feature Envy
+examples.com.jgraph.example.adapter.JGraphSQLBusinessModel	addProperty	Feature Envy
+examples.com.jgraph.example.mycellmodeleditor.BusinessObjectEditor$RealCellEditor	getGraphCellEditorComponent	Dispersed Coupling
+src.com.jgraph.layout.tree.JGraphAbstractTreeLayout$TreeNode	routeEdges	Intensive Coupling
+examples.com.jgraph.example.adapter.JGraphAdapterExample	valueChanged	Feature Envy
+examples.com.jgraph.example.adapter.JGraphAdapterExample	null	Refused Parent Bequest
+src.com.jgraph.layout.hierarchical.model.JGraphHierarchyModel	JGraphHierarchyModel	Dispersed Coupling
+src.com.jgraph.layout.hierarchical.model.JGraphHierarchyModel	formOrderedHierarchy	Dispersed Coupling
+src.com.jgraph.layout.hierarchical.model.JGraphHierarchyModel	createInternalCells	Dispersed Coupling
+src.com.jgraph.layout.hierarchical.model.JGraphHierarchyModel	initialRank	Brain Method
+src.com.jgraph.layout.hierarchical.model.JGraphHierarchyModel	initialRank	Dispersed Coupling
+src.com.jgraph.layout.hierarchical.model.JGraphHierarchyModel	dfs	Feature Envy
+src.com.jgraph.layout.hierarchical.model.JGraphHierarchyModel	null	God Class
+src.com.jgraph.layout.hierarchical.model.JGraphHierarchyModel	null	Brain Class
+src.com.jgraph.layout.JGraphLayoutProgress	isStopped	Shotgun Surgery
+examples.com.jgraph.example.JGraphGraphFactory	insertTreeSampleData	Feature Envy
+examples.com.jgraph.example.JGraphGraphFactory	insertTreeSampleData	Feature Envy
+examples.com.jgraph.example.JGraphGraphFactory	insertConnectedGraphSampleData	Brain Method
+examples.com.jgraph.example.JGraphGraphFactory	insertConnectedGraphSampleData	Feature Envy
+examples.com.jgraph.example.JGraphGraphFactory	insertFullyConnectedGraphSampleData	Feature Envy
+examples.com.jgraph.example.JGraphGraphFactory	initialise	Feature Envy
+examples.com.jgraph.example.JGraphGraphFactory	insertIntoGraph	Feature Envy
+examples.com.jgraph.example.JGraphGraphFactory	insert	Dispersed Coupling
+examples.com.jgraph.example.JGraphGraphFactory	null	God Class
+src.org.jgraph.graph.PortView	getLocation	Intensive Coupling
+src.org.jgraph.graph.PortView	null	Refused Parent Bequest
+src.com.jgraph.layout.tree.JGraphCompactTreeLayout	layout	Feature Envy
+src.com.jgraph.layout.tree.JGraphCompactTreeLayout	join	Feature Envy
+src.com.jgraph.layout.tree.JGraphCompactTreeLayout	merge	Feature Envy
+src.com.jgraph.layout.tree.JGraphCompactTreeLayout	bridge	Feature Envy
+src.com.jgraph.layout.tree.JGraphCompactTreeLayout	branch	Feature Envy
+src.com.jgraph.layout.tree.JGraphCompactTreeLayout	unzip	Feature Envy
+src.com.jgraph.layout.tree.JGraphCompactTreeLayout	zip	Feature Envy
+src.com.jgraph.layout.tree.JGraphCompactTreeLayout	leftRightNodeLayout	Feature Envy
+src.com.jgraph.layout.tree.JGraphCompactTreeLayout	upDownNodeLayout	Feature Envy
+src.com.jgraph.layout.tree.JGraphCompactTreeLayout	setOrientation	Feature Envy
+src.com.jgraph.layout.tree.JGraphCompactTreeLayout	null	God Class
+src.com.jgraph.layout.tree.JGraphCompactTreeLayout	null	Refused Parent Bequest
+examples.com.jgraph.example.adapter.JGraphAdapterModel	handleAttributes	Feature Envy
+examples.com.jgraph.example.adapter.JGraphAdapterModel	handleAttributes	Dispersed Coupling
+examples.com.jgraph.example.adapter.JGraphAdapterModel	valueForCellChanged	Feature Envy
+examples.com.jgraph.example.adapter.JGraphAdapterModel	processConnectionSet	Feature Envy
+examples.com.jgraph.example.adapter.JGraphAdapterModel	processParentMap	Feature Envy
+examples.com.jgraph.example.adapter.JGraphAdapterModel	processNestedAttributes	Feature Envy
+examples.com.jgraph.example.adapter.JGraphAdapterModel	null	God Class
+examples.com.jgraph.example.adapter.JGraphAdapterModel	null	Data Class
+examples.com.jgraph.example.adapter.JGraphAdapterModel	null	Refused Parent Bequest
+examples.com.jgraph.example.adapter.JGraphAdapterModel	null	Tradition Breaker
+src.org.jgraph.graph.AttributeMap$SerializableRectangle2D	setX	Feature Envy
+src.org.jgraph.graph.AttributeMap$SerializableRectangle2D	setY	Feature Envy
+src.org.jgraph.graph.AttributeMap$SerializableRectangle2D	setWidth	Feature Envy
+src.org.jgraph.graph.AttributeMap$SerializableRectangle2D	setHeight	Feature Envy
+src.org.jgraph.graph.AttributeMap$SerializableRectangle2D	writeObject	Feature Envy
+src.org.jgraph.graph.ParentMap	create	Feature Envy
+src.org.jgraph.graph.ParentMap	addEntry	Shotgun Surgery
+src.org.jgraph.graph.ParentMap	clone	Feature Envy
+examples.com.jgraph.layout.demo.JGraphLayoutProgressMonitor	propertyChange	Dispersed Coupling
+examples.com.jgraph.example.adapter.JGraphSQLQueryPane	JGraphSQLQueryPane	Brain Method
+examples.com.jgraph.example.adapter.JGraphSQLQueryPane	JGraphSQLQueryPane	Dispersed Coupling
+examples.org.jgraph.example.GraphEd$MyMarqueeHandler	createHighlight	Feature Envy
+examples.org.jgraph.example.GraphEd$MyMarqueeHandler	mousePressed	Dispersed Coupling
+examples.org.jgraph.example.GraphEd$MyMarqueeHandler	getSourcePortAt	Feature Envy
+examples.org.jgraph.example.GraphEd$MyMarqueeHandler	getTargetPortAt	Feature Envy
+examples.org.jgraph.example.GraphEd$MyMarqueeHandler	paintConnector	Dispersed Coupling
+examples.org.jgraph.example.GraphEd$MyMarqueeHandler	drawConnectorLine	Feature Envy
+examples.org.jgraph.example.GraphEd$MyMarqueeHandler	paintPort	Dispersed Coupling
+examples.org.jgraph.example.GraphEd$MyMarqueeHandler	highlight	Feature Envy
+examples.org.jgraph.example.GraphEd$MyMarqueeHandler	null	God Class
+examples.org.jgraph.example.GraphEd$MyMarqueeHandler	null	Refused Parent Bequest
+src.org.jgraph.graph.CellView	getCell	Shotgun Surgery
+src.org.jgraph.graph.CellView	refresh	Shotgun Surgery
+src.org.jgraph.graph.CellView	getParentView	Shotgun Surgery
+src.org.jgraph.graph.CellView	isLeaf	Shotgun Surgery
+src.org.jgraph.graph.CellView	getBounds	Shotgun Surgery
+src.org.jgraph.graph.CellView	getAllAttributes	Shotgun Surgery
+src.com.jgraph.io.svg.SVGEdgeWriter	createNode	Brain Method
+src.com.jgraph.io.svg.SVGEdgeWriter	createNode	Dispersed Coupling
+src.org.jgraph.graph.EdgeRenderer	intersects	Dispersed Coupling
+src.org.jgraph.graph.EdgeRenderer	getBounds	Dispersed Coupling
+src.org.jgraph.graph.EdgeRenderer	getLabelAngle	Dispersed Coupling
+src.org.jgraph.graph.EdgeRenderer	getLabelPosition	Dispersed Coupling
+src.org.jgraph.graph.EdgeRenderer	isFillable	Feature Envy
+src.org.jgraph.graph.EdgeRenderer	paintLabels	Dispersed Coupling
+src.org.jgraph.graph.EdgeRenderer	paintEdge	Dispersed Coupling
+src.org.jgraph.graph.EdgeRenderer	paintLabel	Dispersed Coupling
+src.org.jgraph.graph.EdgeRenderer	createShape	Brain Method
+src.org.jgraph.graph.EdgeRenderer	createShape	Dispersed Coupling
+src.org.jgraph.graph.EdgeRenderer	createLineEnd	Dispersed Coupling
+src.org.jgraph.graph.EdgeRenderer	null	God Class
+src.org.jgraph.graph.EdgeRenderer	null	Brain Class
+src.com.jgraph.layout.tree.JGraphRadialTreeLayout	run	Intensive Coupling
+src.com.jgraph.layout.tree.JGraphRadialTreeLayout	layoutTree0	Feature Envy
+src.com.jgraph.layout.tree.JGraphRadialTreeLayout	layoutTreeN	Feature Envy
+src.com.jgraph.layout.tree.JGraphRadialTreeLayout	layoutTreeN	Intensive Coupling
+src.com.jgraph.layout.tree.JGraphRadialTreeLayout	null	God Class
+src.com.jgraph.layout.hierarchical.JGraphCoordinateAssignment	run	Dispersed Coupling
+src.com.jgraph.layout.hierarchical.JGraphCoordinateAssignment	minNode	Brain Method
+src.com.jgraph.layout.hierarchical.JGraphCoordinateAssignment	minNode	Dispersed Coupling
+src.com.jgraph.layout.hierarchical.JGraphCoordinateAssignment	rankMedianPosition	Brain Method
+src.com.jgraph.layout.hierarchical.JGraphCoordinateAssignment	rankMedianPosition	Dispersed Coupling
+src.com.jgraph.layout.hierarchical.JGraphCoordinateAssignment	medianXValue	Feature Envy
+src.com.jgraph.layout.hierarchical.JGraphCoordinateAssignment	rankCoordinates	Dispersed Coupling
+src.com.jgraph.layout.hierarchical.JGraphCoordinateAssignment	calculateWidestRank	Brain Method
+src.com.jgraph.layout.hierarchical.JGraphCoordinateAssignment	calculateWidestRank	Dispersed Coupling
+src.com.jgraph.layout.hierarchical.JGraphCoordinateAssignment	setCellLocations	Brain Method
+src.com.jgraph.layout.hierarchical.JGraphCoordinateAssignment	setCellLocations	Dispersed Coupling
+src.com.jgraph.layout.hierarchical.JGraphCoordinateAssignment	null	God Class
+src.com.jgraph.layout.hierarchical.JGraphCoordinateAssignment	null	Brain Class
+src.org.jgraph.graph.DefaultGraphCellEditor$EditorContainer	doLayout	Feature Envy
+src.org.jgraph.graph.DefaultGraphCellEditor$EditorContainer	doLayout	Intensive Coupling
+examples.com.jgraph.example.GraphEdMV	group	Feature Envy
+examples.com.jgraph.example.mycellview.JGraphRoundRectView$ActivityRenderer	paint	Dispersed Coupling
+examples.com.jgraph.example.GraphSelectionDemo$SyncGraphSelectionListener	valueChanged	Dispersed Coupling
+src.com.jgraph.layout.organic.JGraphFastOrganicLayout	run	Brain Method
+src.com.jgraph.layout.organic.JGraphFastOrganicLayout	run	Intensive Coupling
+examples.org.jgraph.example.GraphEd$MyGraph	MyGraph	Feature Envy
+src.org.jgraph.util.Spline2D	Spline2D	Feature Envy
+src.org.jgraph.util.Spline2D	init	Feature Envy
+src.com.jgraph.components.labels.RichTextGraphModel	valueForCellChanged	Feature Envy
+src.com.jgraph.components.labels.RichTextGraphModel	handleAttributes	Dispersed Coupling
+examples.com.jgraph.example.JGraphGroupRenderer	paint	Feature Envy
+src.org.jgraph.graph.AbstractCellView	getCell	Shotgun Surgery
+src.org.jgraph.graph.AbstractCellView	refresh	Dispersed Coupling
+src.org.jgraph.graph.AbstractCellView	isLeaf	Shotgun Surgery
+src.org.jgraph.graph.AbstractCellView	getAllAttributes	Shotgun Surgery
+src.org.jgraph.graph.AbstractCellView	updateGroupBounds	Dispersed Coupling
+src.org.jgraph.graph.AbstractCellView	includeInGroupBounds	Feature Envy
+src.org.jgraph.graph.AbstractCellView	null	God Class
+src.org.jgraph.plaf.basic.BasicGraphUI$GraphModelHandler	graphChanged	Dispersed Coupling
+examples.com.jgraph.example.fastgraph.FastVertexView	getCellAttributes	Feature Envy
+examples.com.jgraph.example.mycellmodeleditor.BusinessObjectEditor$RealCellEditor	getGraphCellEditorComponent	Dispersed Coupling
+src.org.jgraph.plaf.basic.BasicGraphUI$GraphSelectionHandler	valueChanged	Dispersed Coupling
+src.org.jgraph.graph.BasicMarqueeHandler	mouseReleased	Dispersed Coupling
+src.org.jgraph.graph.BasicMarqueeHandler	handleMarqueeEvent	Dispersed Coupling
+src.org.jgraph.graph.BasicMarqueeHandler	mouseDragged	Dispersed Coupling
+src.org.jgraph.graph.BasicMarqueeHandler	overlay	Intensive Coupling
+src.com.jgraph.layout.tree.OrganizationalChart$OrganizationalTreeNode	setPosition	Brain Method
+src.com.jgraph.layout.tree.OrganizationalChart$OrganizationalTreeNode	setPosition	Dispersed Coupling
+src.com.jgraph.layout.tree.OrganizationalChart$OrganizationalTreeNode	positionVerticalChildren	Intensive Coupling
+src.org.jgraph.graph.VertexRenderer	getRendererComponent	Dispersed Coupling
+src.org.jgraph.graph.VertexRenderer	resetAttributes	Feature Envy
+src.org.jgraph.graph.VertexRenderer	getPerimeterPoint	Intensive Coupling
+src.org.jgraph.graph.VertexRenderer	null	God Class
+src.org.jgraph.graph.VertexRenderer	null	Data Class
+src.com.jgraph.layout.hierarchical.JGraphMinimumCycleRemover	run	Brain Method
+src.com.jgraph.layout.hierarchical.JGraphMinimumCycleRemover	run	Dispersed Coupling
+examples.com.jgraph.example.JGraphFoldingManager	mouseReleased	Dispersed Coupling
+examples.com.jgraph.example.JGraphFoldingManager	getGroupByFoldingHandle	Dispersed Coupling
+src.com.jgraph.layout.hierarchical.JGraphHierarchicalLayout	run	Brain Method
+src.com.jgraph.layout.hierarchical.JGraphHierarchicalLayout	run	Intensive Coupling
+src.com.jgraph.layout.hierarchical.JGraphHierarchicalLayout	null	God Class
+src.com.jgraph.layout.hierarchical.model.JGraphHierarchyEdge	getNextLayerConnectedCells	Feature Envy
+examples.com.jgraph.example.mycellmodeleditor.BusinessObjectEditor$RealCellEditor	getGraphCellEditorComponent	Dispersed Coupling
+examples.org.jgraph.example.JGraphIconView$IconDisplay	getMinimumSize	Feature Envy
+examples.com.jgraph.example.groupeditor.GroupManager	mouseReleased	Feature Envy
+examples.com.jgraph.example.groupeditor.GroupManager	getGroupByFoldingHandle	Intensive Coupling
+src.org.jgraph.graph.GraphLayoutCache$GraphLayoutCacheEdit	execute	Intensive Coupling
+src.org.jgraph.plaf.basic.BasicGraphUI	getPreferredSize	Dispersed Coupling
+src.org.jgraph.plaf.basic.BasicGraphUI	isToggleSelectionEvent	Feature Envy
+src.org.jgraph.plaf.basic.BasicGraphUI	installDefaults	Intensive Coupling
+src.org.jgraph.plaf.basic.BasicGraphUI	installListeners	Feature Envy
+src.org.jgraph.plaf.basic.BasicGraphUI	installListeners	Dispersed Coupling
+src.org.jgraph.plaf.basic.BasicGraphUI	getInputMap	Feature Envy
+src.org.jgraph.plaf.basic.BasicGraphUI	uninstallListeners	Dispersed Coupling
+src.org.jgraph.plaf.basic.BasicGraphUI	paint	Feature Envy
+src.org.jgraph.plaf.basic.BasicGraphUI	paint	Dispersed Coupling
+src.org.jgraph.plaf.basic.BasicGraphUI	paintCell	Intensive Coupling
+src.org.jgraph.plaf.basic.BasicGraphUI	paintGrid	Intensive Coupling
+src.org.jgraph.plaf.basic.BasicGraphUI	paintPorts	Dispersed Coupling
+src.org.jgraph.plaf.basic.BasicGraphUI	getPreferredSize	Feature Envy
+src.org.jgraph.plaf.basic.BasicGraphUI	completeEditing	Dispersed Coupling
+src.org.jgraph.plaf.basic.BasicGraphUI	startEditing	Dispersed Coupling
+src.org.jgraph.plaf.basic.BasicGraphUI	getEditorLocation	Dispersed Coupling
+src.org.jgraph.plaf.basic.BasicGraphUI	null	God Class
+src.org.jgraph.plaf.basic.BasicGraphUI	null	Data Class
+src.org.jgraph.plaf.basic.BasicGraphUI	null	Refused Parent Bequest
+examples.com.jgraph.layout.svg.SVGExample	initSVGFileChooser	Feature Envy
+examples.com.jgraph.layout.svg.SVGExample	exportSVG	Dispersed Coupling
+src.com.jgraph.layout.hierarchical.JGraphMedianHybridCrossingReduction	run	Brain Method
+src.com.jgraph.layout.hierarchical.JGraphMedianHybridCrossingReduction	run	Dispersed Coupling
+src.com.jgraph.layout.hierarchical.JGraphMedianHybridCrossingReduction	calculateRankCrossing	Dispersed Coupling
+src.com.jgraph.layout.hierarchical.JGraphMedianHybridCrossingReduction	transpose	Brain Method
+src.com.jgraph.layout.hierarchical.JGraphMedianHybridCrossingReduction	transpose	Dispersed Coupling
+src.com.jgraph.layout.hierarchical.JGraphMedianHybridCrossingReduction	medianRank	Feature Envy
+src.com.jgraph.layout.hierarchical.JGraphMedianHybridCrossingReduction	null	God Class
+src.com.jgraph.layout.hierarchical.JGraphMedianHybridCrossingReduction	null	Brain Class
+src.org.jgraph.graph.GraphUndoManager	editToBeUndone	Feature Envy
+src.org.jgraph.graph.GraphUndoManager	editToBeRedone	Feature Envy
+src.org.jgraph.graph.PortRenderer	PortRenderer	Feature Envy
+src.org.jgraph.graph.PortRenderer	paint	Dispersed Coupling
+src.com.jgraph.layout.hierarchical.JGraphGreedyCycleRemover	getOrderedVertices	Dispersed Coupling
+src.com.jgraph.algebra.JGraphUnionFind	find	Feature Envy
+src.com.jgraph.algebra.JGraphUnionFind	union	Feature Envy
+src.org.jgraph.plaf.basic.BasicGraphUI$PropertyChangeHandler	propertyChange	Intensive Coupling
+examples.org.jgraph.example.CompoundVertexView	translate	Feature Envy
+examples.org.jgraph.example.CompoundVertexView	null	Refused Parent Bequest
+src.org.jgraph.graph.GraphLayoutCache	getBounds	Feature Envy
+src.org.jgraph.graph.GraphLayoutCache	createNestedMap	Feature Envy
+src.org.jgraph.graph.GraphLayoutCache	reload	Dispersed Coupling
+src.org.jgraph.graph.GraphLayoutCache	getModel	Shotgun Surgery
+src.org.jgraph.graph.GraphLayoutCache	updatePorts	Dispersed Coupling
+src.org.jgraph.graph.GraphLayoutCache	graphChanged	Dispersed Coupling
+src.org.jgraph.graph.GraphLayoutCache	hideCellsForChange	Dispersed Coupling
+src.org.jgraph.graph.GraphLayoutCache	insertViews	Feature Envy
+src.org.jgraph.graph.GraphLayoutCache	removeCells	Feature Envy
+src.org.jgraph.graph.GraphLayoutCache	removeCells	Intensive Coupling
+src.org.jgraph.graph.GraphLayoutCache	getCells	Feature Envy
+src.org.jgraph.graph.GraphLayoutCache	getMapping	Shotgun Surgery
+src.org.jgraph.graph.GraphLayoutCache	isVisible	Shotgun Surgery
+src.org.jgraph.graph.GraphLayoutCache	addVisibleDependencies	Intensive Coupling
+src.org.jgraph.graph.GraphLayoutCache	setVisibleImpl	Brain Method
+src.org.jgraph.graph.GraphLayoutCache	setVisibleImpl	Dispersed Coupling
+src.org.jgraph.graph.GraphLayoutCache	getParentPorts	Feature Envy
+src.org.jgraph.graph.GraphLayoutCache	insertClones	Feature Envy
+src.org.jgraph.graph.GraphLayoutCache	insert	Dispersed Coupling
+src.org.jgraph.graph.GraphLayoutCache	remove	Feature Envy
+src.org.jgraph.graph.GraphLayoutCache	setCollapsedState	Dispersed Coupling
+src.org.jgraph.graph.GraphLayoutCache	getChildPort	Feature Envy
+src.org.jgraph.graph.GraphLayoutCache	edit	Dispersed Coupling
+src.org.jgraph.graph.GraphLayoutCache	edit	Shotgun Surgery
+src.org.jgraph.graph.GraphLayoutCache	createLocalEdit	Intensive Coupling
+src.org.jgraph.graph.GraphLayoutCache	copyRemovedViewValue	Dispersed Coupling
+src.org.jgraph.graph.GraphLayoutCache	cellExpanded	Dispersed Coupling
+src.org.jgraph.graph.GraphLayoutCache	cellWillCollapse	Dispersed Coupling
+src.org.jgraph.graph.GraphLayoutCache	handleAttributes	Dispersed Coupling
+src.org.jgraph.graph.GraphLayoutCache	getNeighbours	Feature Envy
+src.org.jgraph.graph.GraphLayoutCache	getAllDescendants	Dispersed Coupling
+src.org.jgraph.graph.GraphLayoutCache	null	God Class
+src.org.jgraph.graph.GraphLayoutCache	null	Brain Class
+src.com.jgraph.layout.JGraphFacade$DefaultComparator	compare	Feature Envy
+src.com.jgraph.io.svg.SVGGraphWriter	createNode	Brain Method
+src.com.jgraph.io.svg.SVGGraphWriter	createNode	Dispersed Coupling
+src.com.jgraph.io.svg.SVGGraphWriter	createRoot	Feature Envy
+src.com.jgraph.io.svg.SVGGraphWriter	createGradient	Feature Envy
+src.com.jgraph.io.svg.SVGGraphWriter	createShapeNode	Dispersed Coupling
+src.com.jgraph.io.svg.SVGGraphWriter	createTextNode	Intensive Coupling
+src.com.jgraph.io.svg.SVGGraphWriter	createDropShadowFilter	Feature Envy
+src.com.jgraph.io.svg.SVGGraphWriter	null	Data Class
+examples.com.jgraph.example.EditorGraph$EditorGraphUI	completeEditing	Dispersed Coupling
+examples.com.jgraph.example.EditorGraph$EditorGraphUI	startEditing	Dispersed Coupling
+examples.com.jgraph.example.fastgraph.FastEdgeView	getCellAttributes	Feature Envy
+examples.com.jgraph.example.fastgraph.FastEdgeView	null	Refused Parent Bequest
+src.org.jgraph.graph.EdgeView$EdgeHandle	EdgeHandle	Dispersed Coupling
+src.org.jgraph.graph.EdgeView$EdgeHandle	createHighlight	Feature Envy
+src.org.jgraph.graph.EdgeView$EdgeHandle	paint	Intensive Coupling
+src.org.jgraph.graph.EdgeView$EdgeHandle	highlight	Feature Envy
+src.org.jgraph.graph.EdgeView$EdgeHandle	overlay	Dispersed Coupling
+src.org.jgraph.graph.EdgeView$EdgeHandle	snap	Intensive Coupling
+src.org.jgraph.graph.EdgeView$EdgeHandle	mousePressed	Brain Method
+src.org.jgraph.graph.EdgeView$EdgeHandle	mousePressed	Intensive Coupling
+src.org.jgraph.graph.EdgeView$EdgeHandle	mouseDragged	Brain Method
+src.org.jgraph.graph.EdgeView$EdgeHandle	mouseDragged	Intensive Coupling
+src.org.jgraph.graph.EdgeView$EdgeHandle	getRelativeLabelPosition	Dispersed Coupling
+src.org.jgraph.graph.EdgeView$EdgeHandle	mouseReleased	Brain Method
+src.org.jgraph.graph.EdgeView$EdgeHandle	mouseReleased	Intensive Coupling
+src.org.jgraph.graph.EdgeView$EdgeHandle	createConnectionSet	Dispersed Coupling
+src.org.jgraph.graph.EdgeView$EdgeHandle	invalidate	Dispersed Coupling
+src.org.jgraph.graph.EdgeView$EdgeHandle	null	Brain Class
+src.com.jgraph.layout.organic.JGraphSelfOrganizingOrganicLayout	run	Dispersed Coupling
+src.org.jgraph.plaf.basic.BasicGraphUI$GraphLayoutCacheHandler	graphLayoutCacheChanged	Dispersed Coupling
+src.com.jgraph.layout.organic.JGraphOrganicLayout	JGraphOrganicLayout	Feature Envy
+src.com.jgraph.layout.organic.JGraphOrganicLayout	run	Intensive Coupling
+src.com.jgraph.layout.organic.JGraphOrganicLayout	performRound	Brain Method
+src.com.jgraph.layout.organic.JGraphOrganicLayout	getNodeDistribution	Feature Envy
+src.com.jgraph.layout.organic.JGraphOrganicLayout	getBorderline	Feature Envy
+src.com.jgraph.layout.organic.JGraphOrganicLayout	getEdgeLength	Feature Envy
+src.com.jgraph.layout.organic.JGraphOrganicLayout	getEdgeCrossing	Brain Method
+src.com.jgraph.layout.organic.JGraphOrganicLayout	getEdgeCrossing	Feature Envy
+src.com.jgraph.layout.organic.JGraphOrganicLayout	getEdgeDistanceFromNode	Feature Envy
+src.com.jgraph.layout.organic.JGraphOrganicLayout	getEdgeDistanceFromEdge	Feature Envy
+src.com.jgraph.layout.organic.JGraphOrganicLayout	null	God Class
+src.com.jgraph.layout.organic.JGraphOrganicLayout	null	Brain Class
+examples.org.jgraph.example.JGraphIconView$IconRenderer	getPreferredSize	Feature Envy
+examples.org.jgraph.example.JGraphIconView$IconRenderer	getRendererComponent	Dispersed Coupling
+src.com.jgraph.layout.graph.JGraphSimpleLayout	run	Feature Envy
+src.org.jgraph.plaf.basic.BasicGraphUI$RootHandle	RootHandle	Dispersed Coupling
+src.org.jgraph.plaf.basic.BasicGraphUI$RootHandle	getInitialLocation	Dispersed Coupling
+src.org.jgraph.plaf.basic.BasicGraphUI$RootHandle	paint	Feature Envy
+src.org.jgraph.plaf.basic.BasicGraphUI$RootHandle	overlay	Intensive Coupling
+src.org.jgraph.plaf.basic.BasicGraphUI$RootHandle	mousePressed	Dispersed Coupling
+src.org.jgraph.plaf.basic.BasicGraphUI$RootHandle	findUnselectedInnermostGroup	Dispersed Coupling
+src.org.jgraph.plaf.basic.BasicGraphUI$RootHandle	mouseDragged	Brain Method
+src.org.jgraph.plaf.basic.BasicGraphUI$RootHandle	mouseDragged	Intensive Coupling
+src.org.jgraph.plaf.basic.BasicGraphUI$RootHandle	constrainDrag	Dispersed Coupling
+src.org.jgraph.plaf.basic.BasicGraphUI$RootHandle	mouseReleased	Brain Method
+src.org.jgraph.plaf.basic.BasicGraphUI$RootHandle	mouseReleased	Intensive Coupling
+src.org.jgraph.plaf.basic.BasicGraphUI$RootHandle	null	Brain Class
+src.org.jgraph.graph.GraphConstants	createAttributes	Feature Envy
+src.org.jgraph.graph.GraphConstants	replaceKeys	Feature Envy
+src.org.jgraph.graph.GraphConstants	replaceKeys	Dispersed Coupling
+src.org.jgraph.graph.GraphConstants	merge	Feature Envy
+src.org.jgraph.graph.GraphConstants	merge	Dispersed Coupling
+src.org.jgraph.graph.GraphConstants	getRouting	Feature Envy
+src.org.jgraph.graph.GraphConstants	null	God Class
+src.org.jgraph.graph.GraphConstants	null	Data Class
+src.com.jgraph.components.labels.RichTextBusinessObject	getTooltip	Feature Envy
+src.com.jgraph.components.labels.RichTextBusinessObject	getTooltip	Dispersed Coupling
+src.org.jgraph.util.Bezier	Bezier	Feature Envy
+src.org.jgraph.plaf.basic.BasicGraphUI$MouseHandler	mousePressed	Intensive Coupling
+src.org.jgraph.plaf.basic.BasicGraphUI$MouseHandler	mouseDragged	Feature Envy
+src.org.jgraph.plaf.basic.BasicGraphUI$MouseHandler	mouseDragged	Dispersed Coupling
+src.org.jgraph.plaf.basic.BasicGraphUI$MouseHandler	mouseMoved	Feature Envy
+src.org.jgraph.plaf.basic.BasicGraphUI$MouseHandler	mouseReleased	Dispersed Coupling
+src.org.jgraph.plaf.basic.BasicGraphUI$MouseHandler	isDescendant	Feature Envy
+src.org.jgraph.plaf.basic.BasicGraphUI$MouseHandler	null	God Class
+src.com.jgraph.layout.tree.JGraphTreeLayout$StandardTreeNode	setPosition	Dispersed Coupling
+src.com.jgraph.layout.tree.JGraphTreeLayout$StandardTreeNode	getNodesByLevel	Intensive Coupling
+src.com.jgraph.layout.tree.JGraphTreeLayout$StandardTreeNode	null	Refused Parent Bequest
+src.com.jgraph.layout.tree.JGraphTreeLayout$StandardTreeNode	null	Tradition Breaker

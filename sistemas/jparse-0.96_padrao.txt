@@ -1,37 +1,121 @@
-jparse.expr.ArithmeticAST	Decorator
-jparse.stmt.StatementAST	Singleton
-jparse.SourceType	(Object)Adapter
-jparse.expr.IndexAST	Decorator
-jparse.stmt.StatementAST	Chain of Responsibility
-jparse.Type	Decorator
-jparse.TypeAST	(Object)Adapter
-jparse.Type	Factory Method
-jparse.expr.ExpressionAST	Template Method
-jparse.Method	State
-jparse.stmt.SwitchAST	Proxy
-jparse.FileAST	(Object)Adapter
-jparse.FileAST	Singleton
-jparse.expr.BitwiseAST	Decorator
-jparse.expr.ExpressionAST	Factory Method
-jparse.expr.NewAST	(Object)Adapter
-jparse.stmt.StatementAST	Template Method
-jparse.Type	Template Method
-jparse.expr.MethodCallAST	Decorator
-jparse.expr.MethodCallAST	(Object)Adapter
-jparse.expr.InitializerAST	Decorator
-jparse.expr.ExpressionAST	Decorator
-jparse.stmt.CaseGroupAST	Proxy
-jparse.Constructor	(Object)Adapter
-jparse.expr.AssignAST	Decorator
-jparse.Type	(Object)Adapter
-jparse.expr.ConditionalAST	Decorator
-jparse.TypeAST	Singleton
-jparse.Method	(Object)Adapter
-jparse.expr.ShiftAST	Decorator
-jparse.expr.BooleanAST	Decorator
-jparse.expr.UnaryArithAST	Decorator
-jparse.expr.MethodCallAST	State
-jparse.SourceType	Decorator
-jparse.expr.ParenthesizedAST	Decorator
-jparse.MethAST	(Object)Adapter
-jparse.expr.TypecastAST	Decorator
+jparse.expr.ExpressionAST	null	Creator	Factory Method
+jparse.expr.ExpressionAST	computeType	FactoryMethod()	Factory Method
+jparse.Type	null	Creator	Factory Method
+jparse.Type	getMethod	FactoryMethod()	Factory Method
+jparse.FileAST	null	Singleton	Singleton
+jparse.FileAST	null	uniqueInstance	Singleton
+jparse.stmt.StatementAST	null	Singleton	Singleton
+jparse.stmt.StatementAST	null	uniqueInstance	Singleton
+jparse.TypeAST	null	Singleton	Singleton
+jparse.TypeAST	null	uniqueInstance	Singleton
+jparse.SourceType	null	Adapter	(Object)Adapter
+jparse.TypeAST	null	Adaptee	(Object)Adapter
+jparse.SourceType	null	adaptee	(Object)Adapter
+jparse.SourceType	getClasses	Request()	(Object)Adapter
+jparse.SourceType	null	Adapter	(Object)Adapter
+jparse.FileAST	null	Adaptee	(Object)Adapter
+jparse.SourceType	null	adaptee	(Object)Adapter
+jparse.SourceType	getSuperclass	Request()	(Object)Adapter
+jparse.SourceType	getInterfaces	Request()	(Object)Adapter
+jparse.expr.MethodCallAST	null	Adapter	(Object)Adapter
+jparse.Method	null	Adaptee	(Object)Adapter
+jparse.expr.MethodCallAST	null	adaptee	(Object)Adapter
+jparse.expr.MethodCallAST	computeType	Request()	(Object)Adapter
+jparse.expr.MethodCallAST	computeExceptions	Request()	(Object)Adapter
+jparse.Type	null	Adaptee	(Object)Adapter
+jparse.MethAST	null	Adapter	(Object)Adapter
+jparse.MethAST	null	adaptee	(Object)Adapter
+jparse.MethAST	getReturnType	Request()	(Object)Adapter
+jparse.expr.MethodCallAST	null	Adapter	(Object)Adapter
+jparse.Constructor	null	Adaptee	(Object)Adapter
+jparse.expr.MethodCallAST	null	adaptee	(Object)Adapter
+jparse.expr.MethodCallAST	computeExceptions	Request()	(Object)Adapter
+jparse.expr.NewAST	null	Adapter	(Object)Adapter
+jparse.Constructor	null	Adaptee	(Object)Adapter
+jparse.expr.NewAST	null	adaptee	(Object)Adapter
+jparse.expr.NewAST	computeExceptions	Request()	(Object)Adapter
+jparse.Type	null	Component	Decorator
+jparse.SourceType	null	Decorator	Decorator
+jparse.SourceType	null	component	Decorator
+jparse.SourceType	null	component	Decorator
+jparse.SourceType	getClasses	Operation()	Decorator
+jparse.SourceType	varType	Operation()	Decorator
+jparse.expr.ArithmeticAST	null	Decorator	Decorator
+jparse.expr.ExpressionAST	null	Component	Decorator
+jparse.expr.ArithmeticAST	null	component	Decorator
+jparse.expr.ArithmeticAST	null	component	Decorator
+jparse.expr.ArithmeticAST	getVarList	Operation()	Decorator
+jparse.expr.AssignAST	null	Decorator	Decorator
+jparse.expr.ExpressionAST	null	Component	Decorator
+jparse.expr.AssignAST	null	component	Decorator
+jparse.expr.AssignAST	null	component	Decorator
+jparse.expr.AssignAST	getVarList	Operation()	Decorator
+jparse.expr.BitwiseAST	null	Decorator	Decorator
+jparse.expr.ExpressionAST	null	Component	Decorator
+jparse.expr.BitwiseAST	null	component	Decorator
+jparse.expr.BitwiseAST	null	component	Decorator
+jparse.expr.BitwiseAST	getVarList	Operation()	Decorator
+jparse.expr.BooleanAST	null	Decorator	Decorator
+jparse.expr.ExpressionAST	null	Component	Decorator
+jparse.expr.BooleanAST	null	component	Decorator
+jparse.expr.BooleanAST	null	component	Decorator
+jparse.expr.BooleanAST	getVarList	Operation()	Decorator
+jparse.expr.ConditionalAST	null	Decorator	Decorator
+jparse.expr.ExpressionAST	null	Component	Decorator
+jparse.expr.ConditionalAST	null	component	Decorator
+jparse.expr.ConditionalAST	null	component	Decorator
+jparse.expr.ConditionalAST	null	component	Decorator
+jparse.expr.ConditionalAST	getVarList	Operation()	Decorator
+jparse.expr.IndexAST	null	Decorator	Decorator
+jparse.expr.ExpressionAST	null	Component	Decorator
+jparse.expr.IndexAST	null	component	Decorator
+jparse.expr.IndexAST	null	component	Decorator
+jparse.expr.IndexAST	getVarList	Operation()	Decorator
+jparse.expr.InitializerAST	null	Decorator	Decorator
+jparse.expr.ExpressionAST	null	Component	Decorator
+jparse.expr.InitializerAST	null	component	Decorator
+jparse.expr.InitializerAST	getVarList	Operation()	Decorator
+jparse.expr.MethodCallAST	null	Decorator	Decorator
+jparse.expr.ExpressionAST	null	Component	Decorator
+jparse.expr.MethodCallAST	null	component	Decorator
+jparse.expr.MethodCallAST	getVarList	Operation()	Decorator
+jparse.expr.ParenthesizedAST	null	Decorator	Decorator
+jparse.expr.ExpressionAST	null	Component	Decorator
+jparse.expr.ParenthesizedAST	null	component	Decorator
+jparse.expr.ParenthesizedAST	getVarList	Operation()	Decorator
+jparse.expr.ShiftAST	null	Decorator	Decorator
+jparse.expr.ExpressionAST	null	Component	Decorator
+jparse.expr.ShiftAST	null	component	Decorator
+jparse.expr.ShiftAST	null	component	Decorator
+jparse.expr.ShiftAST	getVarList	Operation()	Decorator
+jparse.expr.TypecastAST	null	Decorator	Decorator
+jparse.expr.ExpressionAST	null	Component	Decorator
+jparse.expr.TypecastAST	null	component	Decorator
+jparse.expr.TypecastAST	getVarList	Operation()	Decorator
+jparse.expr.UnaryArithAST	null	Decorator	Decorator
+jparse.expr.ExpressionAST	null	Component	Decorator
+jparse.expr.UnaryArithAST	null	component	Decorator
+jparse.expr.UnaryArithAST	getVarList	Operation()	Decorator
+jparse.expr.MethodCallAST	null	Context	State
+jparse.Method	null	State	State
+jparse.expr.MethodCallAST	null	state	State
+jparse.expr.MethodCallAST	computeType	Request()	State
+jparse.expr.MethodCallAST	computeExceptions	Request()	State
+jparse.expr.ExpressionAST	null	AbstractClass	Template Method
+jparse.expr.ExpressionAST	retrieveType	TemplateMethod()	Template Method
+jparse.expr.ExpressionAST	getExceptionTypes	TemplateMethod()	Template Method
+jparse.expr.ExpressionAST	getValue	TemplateMethod()	Template Method
+jparse.stmt.StatementAST	null	AbstractClass	Template Method
+jparse.stmt.StatementAST	getExceptionTypes	TemplateMethod()	Template Method
+jparse.stmt.StatementAST	nextControlPoints	TemplateMethod()	Template Method
+jparse.Type	null	AbstractClass	Template Method
+jparse.Type	forName	TemplateMethod()	Template Method
+jparse.Type	varType	TemplateMethod()	Template Method
+jparse.Type	superClassOf	TemplateMethod()	Template Method
+jparse.Type	superInterfaceOf	TemplateMethod()	Template Method
+jparse.Type	implementsInterface	TemplateMethod()	Template Method
+jparse.stmt.CaseGroupAST	null	RealSubject	Proxy
+jparse.stmt.SwitchAST	null	Proxy	Proxy
+jparse.stmt.SwitchAST	getVarList	Request()	Proxy
+jparse.stmt.StatementAST	null	Handler	Chain of Responsibility
+jparse.stmt.StatementAST	null	successor	Chain of Responsibility

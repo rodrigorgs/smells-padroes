@@ -1,773 +1,773 @@
-src.proguard.ant.ConfigurationElement	Dispersed Coupling
-src.proguard.gui.ClassPathPanel	Feature Envy
-src.proguard.gui.ClassPathPanel	Feature Envy
-src.proguard.gui.ClassPathPanel	Dispersed Coupling
-src.proguard.gui.ClassPathPanel	Refused Parent Bequest
-src.proguard.classfile.editor.VariableCleaner	Feature Envy
-src.proguard.classfile.editor.VariableCleaner	Feature Envy
-src.proguard.classfile.editor.VariableCleaner	Feature Envy
-src.proguard.classfile.editor.VariableCleaner	Feature Envy
-src.proguard.classfile.editor.VariableCleaner	Feature Envy
-src.proguard.classfile.editor.VariableCleaner	Feature Envy
-src.proguard.classfile.util.ClassReferenceInitializer	Dispersed Coupling
-src.proguard.classfile.util.ClassReferenceInitializer	Feature Envy
-src.proguard.classfile.util.ClassReferenceInitializer	Dispersed Coupling
-src.proguard.classfile.util.ClassReferenceInitializer	Feature Envy
-src.proguard.classfile.util.ClassReferenceInitializer	Feature Envy
-src.proguard.classfile.util.ClassReferenceInitializer	Feature Envy
-src.proguard.classfile.util.ClassReferenceInitializer	Feature Envy
-src.proguard.classfile.util.ClassReferenceInitializer	Feature Envy
-src.proguard.classfile.util.ClassReferenceInitializer	Feature Envy
-src.proguard.classfile.util.ClassReferenceInitializer	God Class
-src.proguard.optimize.peephole.BranchTargetFinder	Brain Method
-src.proguard.optimize.peephole.BranchTargetFinder	Dispersed Coupling
-src.proguard.optimize.peephole.BranchTargetFinder	Feature Envy
-src.proguard.optimize.peephole.BranchTargetFinder	Feature Envy
-src.proguard.optimize.peephole.BranchTargetFinder	God Class
-src.proguard.optimize.peephole.BranchTargetFinder	Data Class
-src.proguard.optimize.peephole.BranchTargetFinder	Refused Parent Bequest
-src.proguard.optimize.peephole.BranchTargetFinder	Tradition Breaker
-src.proguard.io.ClassReader	Dispersed Coupling
-src.proguard.classfile.editor.NameAndTypeShrinker	Feature Envy
-src.proguard.classfile.io.ProgramClassReader	Dispersed Coupling
-src.proguard.classfile.io.ProgramClassReader	Feature Envy
-src.proguard.classfile.io.ProgramClassReader	Feature Envy
-src.proguard.classfile.io.ProgramClassReader	Feature Envy
-src.proguard.classfile.io.ProgramClassReader	Feature Envy
-src.proguard.classfile.io.ProgramClassReader	Feature Envy
-src.proguard.classfile.io.ProgramClassReader	Feature Envy
-src.proguard.classfile.io.ProgramClassReader	Feature Envy
-src.proguard.classfile.io.ProgramClassReader	Feature Envy
-src.proguard.classfile.io.ProgramClassReader	Feature Envy
-src.proguard.classfile.io.ProgramClassReader	Feature Envy
-src.proguard.classfile.io.ProgramClassReader	Feature Envy
-src.proguard.classfile.io.ProgramClassReader	Feature Envy
-src.proguard.classfile.io.ProgramClassReader	Feature Envy
-src.proguard.classfile.io.ProgramClassReader	Feature Envy
-src.proguard.classfile.io.ProgramClassReader	Feature Envy
-src.proguard.classfile.io.ProgramClassReader	Feature Envy
-src.proguard.classfile.io.ProgramClassReader	Feature Envy
-src.proguard.classfile.io.ProgramClassReader	Feature Envy
-src.proguard.classfile.io.ProgramClassReader	Feature Envy
-src.proguard.classfile.io.ProgramClassReader	Feature Envy
-src.proguard.classfile.io.ProgramClassReader	Feature Envy
-src.proguard.classfile.io.ProgramClassReader	Feature Envy
-src.proguard.classfile.io.ProgramClassReader	Feature Envy
-src.proguard.classfile.io.ProgramClassReader	Feature Envy
-src.proguard.classfile.io.ProgramClassReader	Feature Envy
-src.proguard.classfile.io.ProgramClassReader	Feature Envy
-src.proguard.classfile.io.ProgramClassReader	Feature Envy
-src.proguard.io.DataEntryCopier	Dispersed Coupling
-src.proguard.classfile.editor.ConstantPoolSorter	Dispersed Coupling
-src.proguard.optimize.info.FieldOptimizationInfo	Feature Envy
-src.proguard.optimize.info.FieldOptimizationInfo	Feature Envy
-src.proguard.optimize.info.FieldOptimizationInfo	Refused Parent Bequest
-src.proguard.classfile.attribute.annotation.Annotation	Shotgun Surgery
-src.proguard.classfile.attribute.LineNumberTableAttribute	Feature Envy
-src.proguard.gui.ListPanel	Feature Envy
-src.proguard.gui.ListPanel	Feature Envy
-src.proguard.gui.ListPanel	Feature Envy
-src.proguard.gui.ListPanel	Feature Envy
-src.proguard.classfile.Member	Shotgun Surgery
-src.proguard.classfile.Member	Shotgun Surgery
-src.proguard.classfile.Member	Shotgun Surgery
-src.proguard.classfile.Member	Shotgun Surgery
-src.proguard.gui.splash.FontSprite	Feature Envy
-src.proguard.evaluation.value.LongValue	Refused Parent Bequest
-src.proguard.optimize.evaluation.LivenessAnalyzer	Brain Method
-src.proguard.optimize.evaluation.LivenessAnalyzer	Dispersed Coupling
-src.proguard.optimize.evaluation.LivenessAnalyzer	Feature Envy
-src.proguard.optimize.evaluation.LivenessAnalyzer	God Class
-src.proguard.optimize.evaluation.LivenessAnalyzer	Data Class
-src.proguard.optimize.evaluation.LivenessAnalyzer	Refused Parent Bequest
-src.proguard.optimize.peephole.ClassMerger	Dispersed Coupling
-src.proguard.optimize.peephole.ClassMerger	Feature Envy
-src.proguard.optimize.peephole.ClassMerger	Feature Envy
-src.proguard.optimize.peephole.ClassMerger	Feature Envy
-src.proguard.optimize.peephole.ClassMerger	Feature Envy
-src.proguard.optimize.peephole.ClassMerger	God Class
-src.proguard.optimize.peephole.ClassMerger	Refused Parent Bequest
-src.proguard.obfuscate.NameMarker	Feature Envy
-src.proguard.obfuscate.SimpleNameFactory	Feature Envy
-src.proguard.ProGuard	Feature Envy
-src.proguard.ProGuard	Feature Envy
-src.proguard.ProGuard	Feature Envy
-src.proguard.ProGuard	Feature Envy
-src.proguard.ProGuard	Feature Envy
-src.proguard.ProGuard	Feature Envy
-src.proguard.ProGuard	Feature Envy
-src.proguard.classfile.attribute.visitor.StackSizeComputer	Dispersed Coupling
-src.proguard.classfile.attribute.visitor.StackSizeComputer	Feature Envy
-src.proguard.classfile.attribute.visitor.StackSizeComputer	Feature Envy
-src.proguard.classfile.attribute.visitor.StackSizeComputer	Dispersed Coupling
-src.proguard.optimize.evaluation.EvaluationShrinker$MyUnusedParameterSimplifier	Dispersed Coupling
-src.proguard.classfile.editor.CodeAttributeEditor	Shotgun Surgery
-src.proguard.classfile.editor.CodeAttributeEditor	Shotgun Surgery
-src.proguard.classfile.editor.CodeAttributeEditor	Shotgun Surgery
-src.proguard.classfile.editor.CodeAttributeEditor	Shotgun Surgery
-src.proguard.classfile.editor.CodeAttributeEditor	Dispersed Coupling
-src.proguard.classfile.editor.CodeAttributeEditor	Feature Envy
-src.proguard.classfile.editor.CodeAttributeEditor	Feature Envy
-src.proguard.classfile.editor.CodeAttributeEditor	Feature Envy
-src.proguard.classfile.editor.CodeAttributeEditor	Feature Envy
-src.proguard.classfile.editor.CodeAttributeEditor	Feature Envy
-src.proguard.classfile.editor.CodeAttributeEditor	Feature Envy
-src.proguard.classfile.editor.CodeAttributeEditor	Feature Envy
-src.proguard.classfile.editor.CodeAttributeEditor	Feature Envy
-src.proguard.classfile.editor.CodeAttributeEditor	God Class
-src.proguard.classfile.editor.CodeAttributeEditor	Data Class
-src.proguard.classfile.instruction.InstructionUtil	Feature Envy
-src.proguard.WordReader	Brain Method
-src.proguard.gui.MemberSpecificationDialog	Feature Envy
-src.proguard.gui.MemberSpecificationDialog	Feature Envy
-src.proguard.classfile.attribute.preverification.FullFrame	Shotgun Surgery
-src.proguard.classfile.attribute.preverification.FullFrame	Shotgun Surgery
-src.proguard.gui.ClassPathPanel$MyListCellRenderer	Dispersed Coupling
-src.proguard.classfile.Clazz	Shotgun Surgery
-src.proguard.classfile.Clazz	Shotgun Surgery
-src.proguard.classfile.Clazz	Shotgun Surgery
-src.proguard.classfile.Clazz	Shotgun Surgery
-src.proguard.classfile.Clazz	Shotgun Surgery
-src.proguard.classfile.Clazz	Shotgun Surgery
-src.proguard.classfile.Clazz	Shotgun Surgery
-src.proguard.classfile.util.DynamicMemberReferenceInitializer	Feature Envy
-src.proguard.classfile.util.DynamicMemberReferenceInitializer	Feature Envy
-src.proguard.classfile.util.DynamicMemberReferenceInitializer	Dispersed Coupling
-src.proguard.classfile.util.DynamicMemberReferenceInitializer	Data Class
-src.proguard.classfile.visitor.ClassVisitor	Shotgun Surgery
-src.proguard.classfile.visitor.ClassVisitor	Shotgun Surgery
-src.proguard.optimize.peephole.RetargetedInnerClassAttributeRemover	Feature Envy
-src.proguard.optimize.peephole.RetargetedInnerClassAttributeRemover	Feature Envy
-src.proguard.gui.splash.LinearColor	Feature Envy
-src.proguard.optimize.evaluation.PartialEvaluator	Dispersed Coupling
-src.proguard.optimize.evaluation.PartialEvaluator	Dispersed Coupling
-src.proguard.optimize.evaluation.PartialEvaluator	Shotgun Surgery
-src.proguard.optimize.evaluation.PartialEvaluator	Shotgun Surgery
-src.proguard.optimize.evaluation.PartialEvaluator	Shotgun Surgery
-src.proguard.optimize.evaluation.PartialEvaluator	Feature Envy
-src.proguard.optimize.evaluation.PartialEvaluator	Brain Method
-src.proguard.optimize.evaluation.PartialEvaluator	Dispersed Coupling
-src.proguard.optimize.evaluation.PartialEvaluator	Feature Envy
-src.proguard.optimize.evaluation.PartialEvaluator	Feature Envy
-src.proguard.optimize.evaluation.PartialEvaluator	God Class
-src.proguard.optimize.evaluation.PartialEvaluator	Brain Class
-src.proguard.optimize.evaluation.PartialEvaluator	Data Class
-src.proguard.optimize.evaluation.PartialEvaluator	Refused Parent Bequest
-src.proguard.optimize.evaluation.PartialEvaluator	Tradition Breaker
-src.proguard.gui.ClassSpecificationsPanel	Refused Parent Bequest
-src.proguard.classfile.editor.AnnotationsAttributeEditor	Feature Envy
-src.proguard.classfile.editor.CodeAttributeEditor$CompositeInstruction	Refused Parent Bequest
-src.proguard.classfile.attribute.LocalVariableTableAttribute	Shotgun Surgery
-src.proguard.util.NameParser	Feature Envy
-src.proguard.gui.OptimizationsDialog	Dispersed Coupling
-src.proguard.util.FileNameParser	Feature Envy
-src.proguard.util.FileNameParser	Feature Envy
-src.proguard.Initializer	Dispersed Coupling
-src.proguard.evaluation.value.Value	Shotgun Surgery
-src.proguard.evaluation.value.Value	Shotgun Surgery
-src.proguard.evaluation.value.Value	Shotgun Surgery
-src.proguard.evaluation.value.Value	Shotgun Surgery
-src.proguard.evaluation.value.Value	Shotgun Surgery
-src.proguard.gui.ProGuardGUI	Feature Envy
-src.proguard.gui.ProGuardGUI	Dispersed Coupling
-src.proguard.gui.ProGuardGUI	Feature Envy
-src.proguard.gui.ProGuardGUI	Dispersed Coupling
-src.proguard.gui.ProGuardGUI	Dispersed Coupling
-src.proguard.gui.ProGuardGUI	Feature Envy
-src.proguard.gui.ProGuardGUI	Dispersed Coupling
-src.proguard.gui.ProGuardGUI	God Class
-src.proguard.util.ClassNameParser	Feature Envy
-src.proguard.util.ClassNameParser	Feature Envy
-src.proguard.evaluation.value.InstructionOffsetValue	Shotgun Surgery
-src.proguard.evaluation.value.InstructionOffsetValue	Shotgun Surgery
-src.proguard.evaluation.value.InstructionOffsetValue	Refused Parent Bequest
-src.proguard.classfile.editor.ExceptionInfoAdder	Feature Envy
-src.proguard.optimize.evaluation.EvaluationSimplifier	Dispersed Coupling
-src.proguard.optimize.evaluation.EvaluationSimplifier	Dispersed Coupling
-src.proguard.optimize.evaluation.EvaluationSimplifier	Feature Envy
-src.proguard.optimize.evaluation.EvaluationSimplifier	Feature Envy
-src.proguard.optimize.evaluation.EvaluationSimplifier	Feature Envy
-src.proguard.optimize.evaluation.EvaluationSimplifier	Dispersed Coupling
-src.proguard.optimize.evaluation.EvaluationSimplifier	Dispersed Coupling
-src.proguard.optimize.evaluation.EvaluationSimplifier	Dispersed Coupling
-src.proguard.optimize.evaluation.EvaluationSimplifier	Dispersed Coupling
-src.proguard.optimize.evaluation.EvaluationSimplifier	Feature Envy
-src.proguard.optimize.evaluation.EvaluationSimplifier	Feature Envy
-src.proguard.optimize.evaluation.EvaluationSimplifier	Refused Parent Bequest
-src.proguard.classfile.editor.AnnotationAdder	Feature Envy
-src.proguard.classfile.editor.AnnotationAdder	Feature Envy
-src.proguard.shrink.UsageMarker	Feature Envy
-src.proguard.shrink.UsageMarker	Feature Envy
-src.proguard.shrink.UsageMarker	Feature Envy
-src.proguard.shrink.UsageMarker	Feature Envy
-src.proguard.shrink.UsageMarker	Feature Envy
-src.proguard.shrink.UsageMarker	Shotgun Surgery
-src.proguard.shrink.UsageMarker	Shotgun Surgery
-src.proguard.shrink.UsageMarker	God Class
-src.proguard.ClassSpecificationVisitorFactory	Feature Envy
-src.proguard.ClassSpecificationVisitorFactory	Feature Envy
-src.proguard.ClassSpecificationVisitorFactory	Feature Envy
-src.proguard.ClassSpecificationVisitorFactory	Feature Envy
-src.proguard.ClassSpecificationVisitorFactory	God Class
-src.proguard.optimize.TailRecursionSimplifier	Dispersed Coupling
-src.proguard.optimize.TailRecursionSimplifier	Dispersed Coupling
-src.proguard.optimize.TailRecursionSimplifier	Feature Envy
-src.proguard.optimize.TailRecursionSimplifier	Dispersed Coupling
-src.proguard.optimize.evaluation.EvaluationShrinker$MyStackConsistencyFixer	Brain Method
-src.proguard.optimize.evaluation.EvaluationShrinker$MyStackConsistencyFixer	Intensive Coupling
-src.proguard.optimize.evaluation.EvaluationShrinker$MyStackConsistencyFixer	Brain Method
-src.proguard.optimize.evaluation.EvaluationShrinker$MyStackConsistencyFixer	Dispersed Coupling
-src.proguard.optimize.evaluation.EvaluationShrinker$MyStackConsistencyFixer	Feature Envy
-src.proguard.optimize.evaluation.EvaluationShrinker$MyStackConsistencyFixer	God Class
-src.proguard.optimize.evaluation.EvaluationShrinker$MyStackConsistencyFixer	Brain Class
-src.proguard.optimize.evaluation.EvaluationShrinker$MyStackConsistencyFixer	Refused Parent Bequest
-src.proguard.gui.TabbedPane	Feature Envy
-src.proguard.gui.TabbedPane	Feature Envy
-src.proguard.classfile.util.InternalTypeEnumeration	Shotgun Surgery
-src.proguard.classfile.util.InternalTypeEnumeration	Feature Envy
-src.proguard.classfile.util.InternalTypeEnumeration	Shotgun Surgery
-src.proguard.classfile.util.InternalTypeEnumeration	Feature Envy
-src.proguard.optimize.peephole.UnreachableExceptionRemover	Feature Envy
-src.proguard.optimize.peephole.UnreachableExceptionRemover	Feature Envy
-src.proguard.classfile.editor.ElementValueAdder	Feature Envy
-src.proguard.classfile.editor.ElementValueAdder	Feature Envy
-src.proguard.classfile.editor.ElementValueAdder	Feature Envy
-src.proguard.classfile.editor.ElementValueAdder	Feature Envy
-src.proguard.classfile.editor.ElementValueAdder	Feature Envy
-src.proguard.obfuscate.ParameterNameMarker	Feature Envy
-src.proguard.obfuscate.ParameterNameMarker	Feature Envy
-src.proguard.optimize.peephole.ReachableCodeMarker	Feature Envy
-src.proguard.optimize.peephole.ReachableCodeMarker	Feature Envy
-src.proguard.classfile.constant.StringConstant	Shotgun Surgery
-src.proguard.classfile.constant.StringConstant	Shotgun Surgery
-src.proguard.DataEntryWriterFactory	Feature Envy
-src.proguard.DataEntryWriterFactory	Intensive Coupling
-src.proguard.preverify.Preverifier	Feature Envy
-src.proguard.optimize.evaluation.EvaluationShrinker$MyProducerMarker	Feature Envy
-src.proguard.optimize.evaluation.EvaluationShrinker$MyProducerMarker	Feature Envy
-src.proguard.optimize.info.ExceptionInstructionChecker	Feature Envy
-src.proguard.optimize.info.ExceptionInstructionChecker	Feature Envy
-src.proguard.ant.MemberSpecificationElement	Dispersed Coupling
-src.proguard.ant.MemberSpecificationElement	Feature Envy
-src.proguard.evaluation.value.SpecificLongValue	God Class
-src.proguard.io.DirectoryWriter	Intensive Coupling
-src.proguard.classfile.util.DescriptorClassEnumeration	Feature Envy
-src.proguard.classfile.util.DescriptorClassEnumeration	Feature Envy
-src.proguard.classfile.util.DescriptorClassEnumeration	Feature Envy
-src.proguard.classfile.instruction.InstructionFactory	Feature Envy
-src.proguard.obfuscate.MemberNameConflictFixer	Feature Envy
-src.proguard.obfuscate.MemberNameConflictFixer	Intensive Coupling
-src.proguard.optimize.peephole.InstructionSequenceReplacer$MyReplacementInstructionFactory	Feature Envy
-src.proguard.optimize.peephole.InstructionSequenceReplacer$MyReplacementInstructionFactory	Feature Envy
-src.proguard.classfile.attribute.preverification.StackMapAttribute	Shotgun Surgery
-src.proguard.classfile.visitor.ClassVersionSetter	Feature Envy
-src.proguard.optimize.peephole.MemberPrivatizer	Feature Envy
-src.proguard.optimize.peephole.MemberPrivatizer	Feature Envy
-src.proguard.optimize.ParameterShrinker	Dispersed Coupling
-src.proguard.evaluation.TracedStack	Data Class
-src.proguard.evaluation.TracedStack	Refused Parent Bequest
-src.proguard.io.ClassRewriter	Dispersed Coupling
-src.proguard.classfile.constant.Constant	Shotgun Surgery
-src.proguard.classfile.constant.Constant	Shotgun Surgery
-src.proguard.classfile.attribute.annotation.AnnotationsAttribute	Shotgun Surgery
-src.proguard.evaluation.value.ValueFactory	Feature Envy
-src.proguard.optimize.peephole.MethodInliner	Dispersed Coupling
-src.proguard.optimize.peephole.MethodInliner	Dispersed Coupling
-src.proguard.optimize.peephole.MethodInliner	Dispersed Coupling
-src.proguard.optimize.peephole.MethodInliner	Dispersed Coupling
-src.proguard.optimize.peephole.MethodInliner	God Class
-src.proguard.classfile.editor.ParameterAnnotationsAttributeEditor	Feature Envy
-src.proguard.ClassPathEntry	Shotgun Surgery
-src.proguard.ClassPathEntry	Feature Envy
-src.proguard.classfile.instruction.SimpleInstruction	Feature Envy
-src.proguard.classfile.instruction.SimpleInstruction	Feature Envy
-src.proguard.classfile.instruction.SimpleInstruction	Feature Envy
-src.proguard.classfile.instruction.SimpleInstruction	Feature Envy
-src.proguard.classfile.instruction.SimpleInstruction	God Class
-src.proguard.classfile.instruction.SimpleInstruction	Refused Parent Bequest
-src.proguard.evaluation.BasicInvocationUnit	Dispersed Coupling
-src.proguard.evaluation.BasicInvocationUnit	God Class
-src.proguard.classfile.attribute.InnerClassesAttribute	Shotgun Surgery
-src.proguard.optimize.info.ParameterUsageMarker	Dispersed Coupling
-src.proguard.optimize.info.ParameterUsageMarker	Feature Envy
-src.proguard.classfile.constant.ClassConstant	Shotgun Surgery
-src.proguard.classfile.constant.ClassConstant	Shotgun Surgery
-src.proguard.classfile.editor.LocalVariableTypeInfoAdder	Feature Envy
-src.proguard.io.DataEntryObfuscator	Dispersed Coupling
-src.proguard.optimize.info.SideEffectInstructionChecker	Feature Envy
-src.proguard.optimize.info.SideEffectInstructionChecker	Feature Envy
-src.proguard.OutputWriter	Intensive Coupling
-src.proguard.OutputWriter	Dispersed Coupling
-src.proguard.classfile.attribute.visitor.ExceptionInfoVisitor	Shotgun Surgery
-src.proguard.InputReader	Feature Envy
-src.proguard.gui.ProGuardGUI$MyLoadStackTraceActionListener	Feature Envy
-src.proguard.classfile.util.InstructionSequenceMatcher	Feature Envy
-src.proguard.classfile.util.InstructionSequenceMatcher	Feature Envy
-src.proguard.classfile.util.InstructionSequenceMatcher	Feature Envy
-src.proguard.classfile.util.InstructionSequenceMatcher	Feature Envy
-src.proguard.classfile.util.InstructionSequenceMatcher	Feature Envy
-src.proguard.classfile.util.InstructionSequenceMatcher	Feature Envy
-src.proguard.classfile.util.InstructionSequenceMatcher	Feature Envy
-src.proguard.classfile.util.InstructionSequenceMatcher	Feature Envy
-src.proguard.classfile.util.InstructionSequenceMatcher	Feature Envy
-src.proguard.classfile.util.InstructionSequenceMatcher	Feature Envy
-src.proguard.classfile.util.InstructionSequenceMatcher	Feature Envy
-src.proguard.classfile.util.InstructionSequenceMatcher	God Class
-src.proguard.classfile.util.InstructionSequenceMatcher	Data Class
-src.proguard.optimize.evaluation.EvaluationShrinker	Dispersed Coupling
-src.proguard.optimize.evaluation.EvaluationShrinker	Brain Method
-src.proguard.optimize.evaluation.EvaluationShrinker	Dispersed Coupling
-src.proguard.optimize.evaluation.EvaluationShrinker	Feature Envy
-src.proguard.optimize.evaluation.EvaluationShrinker	Brain Method
-src.proguard.optimize.evaluation.EvaluationShrinker	Feature Envy
-src.proguard.optimize.evaluation.EvaluationShrinker	Feature Envy
-src.proguard.optimize.evaluation.EvaluationShrinker	Feature Envy
-src.proguard.optimize.evaluation.EvaluationShrinker	God Class
-src.proguard.optimize.evaluation.EvaluationShrinker	Brain Class
-src.proguard.optimize.evaluation.EvaluationShrinker	Refused Parent Bequest
-src.proguard.FullyQualifiedClassNameChecker	Feature Envy
-src.proguard.FullyQualifiedClassNameChecker	Feature Envy
-src.proguard.FullyQualifiedClassNameChecker	Feature Envy
-src.proguard.FullyQualifiedClassNameChecker	Refused Parent Bequest
-src.proguard.obfuscate.AttributeShrinker	Feature Envy
-src.proguard.obfuscate.AttributeShrinker	Feature Envy
-src.proguard.obfuscate.AttributeShrinker	Feature Envy
-src.proguard.classfile.editor.ConstantPoolShrinker	Feature Envy
-src.proguard.classfile.editor.ConstantPoolShrinker	Feature Envy
-src.proguard.classfile.editor.ConstantPoolShrinker	Feature Envy
-src.proguard.classfile.editor.ConstantPoolShrinker	Feature Envy
-src.proguard.classfile.editor.ConstantPoolShrinker	Feature Envy
-src.proguard.classfile.editor.ConstantPoolShrinker	God Class
-src.proguard.classfile.editor.ClassMemberSorter	Feature Envy
-src.proguard.classfile.editor.ClassMemberSorter	Feature Envy
-src.proguard.optimize.BootstrapMethodArgumentShrinker	Feature Envy
-src.proguard.optimize.info.NonPrivateMemberMarker	Feature Envy
-src.proguard.optimize.info.NonPrivateMemberMarker	Feature Envy
-src.proguard.classfile.io.ProgramClassWriter$AttributeBodyWriter	Feature Envy
-src.proguard.classfile.io.ProgramClassWriter$AttributeBodyWriter	Feature Envy
-src.proguard.classfile.io.ProgramClassWriter$AttributeBodyWriter	Feature Envy
-src.proguard.classfile.io.ProgramClassWriter$AttributeBodyWriter	Feature Envy
-src.proguard.classfile.io.ProgramClassWriter$AttributeBodyWriter	Feature Envy
-src.proguard.classfile.io.ProgramClassWriter$AttributeBodyWriter	Feature Envy
-src.proguard.classfile.io.ProgramClassWriter$AttributeBodyWriter	Feature Envy
-src.proguard.classfile.io.ProgramClassWriter$AttributeBodyWriter	Feature Envy
-src.proguard.classfile.editor.MethodInvocationFixer	Dispersed Coupling
-src.proguard.classfile.editor.MethodInvocationFixer	Feature Envy
-src.proguard.classfile.editor.CodeAttributeComposer	Shotgun Surgery
-src.proguard.classfile.editor.CodeAttributeComposer	Shotgun Surgery
-src.proguard.classfile.editor.CodeAttributeComposer	Feature Envy
-src.proguard.classfile.editor.CodeAttributeComposer	Feature Envy
-src.proguard.classfile.editor.CodeAttributeComposer	Feature Envy
-src.proguard.classfile.editor.CodeAttributeComposer	Feature Envy
-src.proguard.classfile.editor.CodeAttributeComposer	Feature Envy
-src.proguard.classfile.editor.CodeAttributeComposer	Feature Envy
-src.proguard.classfile.editor.CodeAttributeComposer	Feature Envy
-src.proguard.classfile.editor.CodeAttributeComposer	Feature Envy
-src.proguard.classfile.editor.CodeAttributeComposer	Feature Envy
-src.proguard.classfile.editor.CodeAttributeComposer	Feature Envy
-src.proguard.classfile.editor.CodeAttributeComposer	God Class
-src.proguard.classfile.util.StringReferenceInitializer	Feature Envy
-src.proguard.optimize.info.SideEffectMethodMarker	Feature Envy
-src.proguard.util.ListParser	Shotgun Surgery
-src.proguard.util.ListParser	Feature Envy
-src.proguard.classfile.constant.RefConstant	Shotgun Surgery
-src.proguard.classfile.constant.RefConstant	Shotgun Surgery
-src.proguard.classfile.constant.RefConstant	Shotgun Surgery
-src.proguard.evaluation.Variables	Shotgun Surgery
-src.proguard.classfile.editor.ExceptionsAttributeEditor	Feature Envy
-src.proguard.classfile.editor.LocalVariableTypeTableAttributeEditor	Feature Envy
-src.proguard.classfile.editor.ConstantAdder	Shotgun Surgery
-src.proguard.classfile.editor.ConstantAdder	Feature Envy
-src.proguard.classfile.editor.ConstantAdder	Feature Envy
-src.proguard.classfile.editor.ConstantAdder	Feature Envy
-src.proguard.classfile.editor.ConstantAdder	Feature Envy
-src.proguard.classfile.editor.ConstantAdder	Feature Envy
-src.proguard.classfile.editor.InstructionAdder	Feature Envy
-src.proguard.optimize.MemberDescriptorSpecializer	Dispersed Coupling
-src.proguard.optimize.MemberDescriptorSpecializer	Dispersed Coupling
-src.proguard.ConfigurationWriter	Intensive Coupling
-src.proguard.ConfigurationWriter	Feature Envy
-src.proguard.ConfigurationWriter	Dispersed Coupling
-src.proguard.ConfigurationWriter	Dispersed Coupling
-src.proguard.ConfigurationWriter	Dispersed Coupling
-src.proguard.ConfigurationWriter	Feature Envy
-src.proguard.ConfigurationWriter	God Class
-src.proguard.classfile.instruction.ConstantInstruction	Feature Envy
-src.proguard.classfile.instruction.ConstantInstruction	Feature Envy
-src.proguard.classfile.instruction.ConstantInstruction	Feature Envy
-src.proguard.classfile.instruction.ConstantInstruction	Feature Envy
-src.proguard.classfile.instruction.ConstantInstruction	God Class
-src.proguard.classfile.instruction.ConstantInstruction	Refused Parent Bequest
-src.proguard.classfile.instruction.ConstantInstruction	Tradition Breaker
-src.proguard.classfile.LibraryClass	Shotgun Surgery
-src.proguard.classfile.LibraryClass	Feature Envy
-src.proguard.classfile.LibraryClass	Feature Envy
-src.proguard.classfile.LibraryClass	Feature Envy
-src.proguard.classfile.LibraryClass	Shotgun Surgery
-src.proguard.classfile.LibraryClass	Shotgun Surgery
-src.proguard.classfile.LibraryClass	Feature Envy
-src.proguard.classfile.LibraryClass	God Class
-src.proguard.classfile.LibraryClass	Data Class
-src.proguard.ant.ClassSpecificationElement	Feature Envy
-src.proguard.classfile.instruction.VariableInstruction	Feature Envy
-src.proguard.classfile.instruction.VariableInstruction	Feature Envy
-src.proguard.classfile.instruction.VariableInstruction	Feature Envy
-src.proguard.classfile.instruction.VariableInstruction	Feature Envy
-src.proguard.classfile.instruction.VariableInstruction	Feature Envy
-src.proguard.classfile.instruction.VariableInstruction	God Class
-src.proguard.classfile.instruction.VariableInstruction	Data Class
-src.proguard.classfile.instruction.VariableInstruction	Refused Parent Bequest
-src.proguard.optimize.peephole.ClassMerger$FieldOptimizationInfoCopier	Feature Envy
-src.proguard.gui.splash.ColorSprite	Feature Envy
-src.proguard.ant.FilterElement	Dispersed Coupling
-src.proguard.classfile.editor.MemberReferenceFixer	Feature Envy
-src.proguard.classfile.editor.MemberReferenceFixer	Feature Envy
-src.proguard.classfile.editor.MemberReferenceFixer	Dispersed Coupling
-src.proguard.classfile.editor.MemberReferenceFixer	Dispersed Coupling
-src.proguard.classfile.editor.MemberReferenceFixer	Feature Envy
-src.proguard.classfile.editor.MemberReferenceFixer	Feature Envy
-src.proguard.classfile.editor.MemberReferenceFixer	God Class
-src.proguard.classfile.editor.ClassReferenceFixer	Feature Envy
-src.proguard.classfile.editor.ClassReferenceFixer	Feature Envy
-src.proguard.classfile.editor.ClassReferenceFixer	Feature Envy
-src.proguard.classfile.editor.ClassReferenceFixer	Feature Envy
-src.proguard.classfile.editor.ClassReferenceFixer	Feature Envy
-src.proguard.classfile.editor.ClassReferenceFixer	Feature Envy
-src.proguard.classfile.editor.ClassReferenceFixer	Feature Envy
-src.proguard.classfile.editor.ClassReferenceFixer	Feature Envy
-src.proguard.classfile.editor.ClassReferenceFixer	Feature Envy
-src.proguard.classfile.editor.ClassReferenceFixer	Feature Envy
-src.proguard.classfile.editor.ClassReferenceFixer	Feature Envy
-src.proguard.classfile.editor.ClassReferenceFixer	Feature Envy
-src.proguard.classfile.editor.ClassReferenceFixer	Dispersed Coupling
-src.proguard.classfile.editor.ClassReferenceFixer	Feature Envy
-src.proguard.classfile.editor.ClassReferenceFixer	Feature Envy
-src.proguard.classfile.editor.ClassReferenceFixer	God Class
-src.proguard.optimize.Optimizer	Dispersed Coupling
-src.proguard.optimize.Optimizer	God Class
-src.proguard.gui.ClassPathPanel$MyListCellRenderer	Dispersed Coupling
-src.proguard.classfile.ProgramClass	Shotgun Surgery
-src.proguard.classfile.ProgramClass	Shotgun Surgery
-src.proguard.classfile.ProgramClass	Feature Envy
-src.proguard.classfile.ProgramClass	Shotgun Surgery
-src.proguard.classfile.ProgramClass	Shotgun Surgery
-src.proguard.classfile.ProgramClass	Shotgun Surgery
-src.proguard.classfile.ProgramClass	Feature Envy
-src.proguard.classfile.ProgramClass	Shotgun Surgery
-src.proguard.classfile.ProgramClass	God Class
-src.proguard.classfile.ProgramClass	Data Class
-src.proguard.classfile.editor.InterfaceSorter	Feature Envy
-src.proguard.classfile.editor.InterfaceSorter	Dispersed Coupling
-src.proguard.classfile.editor.Utf8Shrinker	Feature Envy
-src.proguard.classfile.editor.Utf8Shrinker	Feature Envy
-src.proguard.classfile.editor.Utf8Shrinker	Feature Envy
-src.proguard.classfile.editor.Utf8Shrinker	God Class
-src.proguard.classfile.constant.Utf8Constant	Shotgun Surgery
-src.proguard.classfile.constant.Utf8Constant	Refused Parent Bequest
-src.proguard.optimize.info.NoSideEffectMethodMarker	Feature Envy
-src.proguard.io.FileDataEntry	Feature Envy
-src.proguard.GPL	Feature Envy
-src.proguard.classfile.editor.AccessFixer	Feature Envy
-src.proguard.classfile.editor.AccessFixer	Feature Envy
-src.proguard.Targeter	Feature Envy
-src.proguard.Targeter	Dispersed Coupling
-src.proguard.classfile.visitor.ClassPrinter	Feature Envy
-src.proguard.classfile.visitor.ClassPrinter	Intensive Coupling
-src.proguard.classfile.visitor.ClassPrinter	Dispersed Coupling
-src.proguard.classfile.visitor.ClassPrinter	Feature Envy
-src.proguard.classfile.visitor.ClassPrinter	Feature Envy
-src.proguard.classfile.visitor.ClassPrinter	Feature Envy
-src.proguard.classfile.visitor.ClassPrinter	Feature Envy
-src.proguard.classfile.visitor.ClassPrinter	Feature Envy
-src.proguard.classfile.visitor.ClassPrinter	Feature Envy
-src.proguard.classfile.visitor.ClassPrinter	Feature Envy
-src.proguard.classfile.visitor.ClassPrinter	Feature Envy
-src.proguard.classfile.visitor.ClassPrinter	Feature Envy
-src.proguard.classfile.visitor.ClassPrinter	Feature Envy
-src.proguard.classfile.visitor.ClassPrinter	Feature Envy
-src.proguard.classfile.visitor.ClassPrinter	Feature Envy
-src.proguard.classfile.visitor.ClassPrinter	Feature Envy
-src.proguard.classfile.visitor.ClassPrinter	Feature Envy
-src.proguard.classfile.visitor.ClassPrinter	Feature Envy
-src.proguard.classfile.visitor.ClassPrinter	God Class
-src.proguard.classfile.editor.ComparableConstant	Feature Envy
-src.proguard.classfile.editor.ComparableConstant	Feature Envy
-src.proguard.classfile.editor.ComparableConstant	Feature Envy
-src.proguard.classfile.editor.ComparableConstant	Feature Envy
-src.proguard.optimize.evaluation.VariableOptimizer	Dispersed Coupling
-src.proguard.optimize.evaluation.VariableOptimizer	Feature Envy
-src.proguard.optimize.evaluation.VariableOptimizer	Feature Envy
-src.proguard.optimize.evaluation.VariableOptimizer	Feature Envy
-src.proguard.optimize.evaluation.VariableOptimizer	Refused Parent Bequest
-src.proguard.classfile.editor.LineNumberTableAttributeEditor	Feature Envy
-src.proguard.retrace.ReTrace	Brain Method
-src.proguard.retrace.ReTrace	Dispersed Coupling
-src.proguard.retrace.ReTrace	Feature Envy
-src.proguard.retrace.ReTrace	Dispersed Coupling
-src.proguard.retrace.ReTrace	Feature Envy
-src.proguard.retrace.ReTrace	Dispersed Coupling
-src.proguard.retrace.ReTrace	God Class
-src.proguard.preverify.CodePreverifier	Brain Method
-src.proguard.preverify.CodePreverifier	Dispersed Coupling
-src.proguard.preverify.CodePreverifier	Feature Envy
-src.proguard.preverify.CodePreverifier	Intensive Coupling
-src.proguard.preverify.CodePreverifier	God Class
-src.proguard.preverify.CodePreverifier	Refused Parent Bequest
-src.proguard.classfile.attribute.annotation.AnnotationDefaultAttribute	Shotgun Surgery
-src.proguard.UpToDateChecker$ModificationTimeChecker	Feature Envy
-src.proguard.classfile.visitor.MemberClassAccessFilter	Feature Envy
-src.proguard.gui.ClassSpecificationDialog	Feature Envy
-src.proguard.gui.ClassSpecificationDialog	Feature Envy
-src.proguard.gui.ClassSpecificationDialog	Feature Envy
-src.proguard.gui.splash.Sprite	Shotgun Surgery
-src.proguard.optimize.peephole.VariableShrinker	Dispersed Coupling
-src.proguard.classfile.io.ProgramClassWriter$StackMapFrameBodyWriter	Feature Envy
-src.proguard.classfile.io.ProgramClassWriter$StackMapFrameBodyWriter	Feature Envy
-src.proguard.classfile.io.ProgramClassWriter$StackMapFrameBodyWriter	Feature Envy
-src.proguard.classfile.util.ClassUtil	Feature Envy
-src.proguard.classfile.util.ClassUtil	Feature Envy
-src.proguard.classfile.util.ClassUtil	Feature Envy
-src.proguard.classfile.util.ClassUtil	Feature Envy
-src.proguard.classfile.util.ClassUtil	Feature Envy
-src.proguard.classfile.util.ClassUtil	Feature Envy
-src.proguard.classfile.util.ClassUtil	Feature Envy
-src.proguard.classfile.util.ClassUtil	Feature Envy
-src.proguard.classfile.util.ClassUtil	Feature Envy
-src.proguard.classfile.util.ClassUtil	Feature Envy
-src.proguard.classfile.util.ClassUtil	Feature Envy
-src.proguard.classfile.util.ClassUtil	Feature Envy
-src.proguard.classfile.util.ClassUtil	Feature Envy
-src.proguard.classfile.util.ClassUtil	God Class
-src.proguard.classfile.util.SimplifiedVisitor	God Class
-src.proguard.shrink.AnnotationUsageMarker	Feature Envy
-src.proguard.classfile.util.ClassSuperHierarchyInitializer	Feature Envy
-src.proguard.classfile.util.ClassSuperHierarchyInitializer	Feature Envy
-src.proguard.optimize.peephole.TargetClassChanger	Feature Envy
-src.proguard.optimize.peephole.TargetClassChanger	Intensive Coupling
-src.proguard.optimize.peephole.TargetClassChanger	Feature Envy
-src.proguard.optimize.peephole.TargetClassChanger	Feature Envy
-src.proguard.optimize.peephole.TargetClassChanger	God Class
-src.proguard.classfile.attribute.preverification.StackMapTableAttribute	Shotgun Surgery
-src.proguard.optimize.peephole.InstructionSequenceReplacer	Dispersed Coupling
-src.proguard.classfile.util.DynamicClassReferenceInitializer	Feature Envy
-src.proguard.classfile.util.DynamicClassReferenceInitializer	Feature Envy
-src.proguard.classfile.util.DynamicClassReferenceInitializer	Data Class
-src.proguard.optimize.evaluation.StoringInvocationUnit	Refused Parent Bequest
-src.proguard.obfuscate.DictionaryNameFactory	Intensive Coupling
-src.proguard.classfile.editor.ConstantPoolRemapper	Feature Envy
-src.proguard.classfile.editor.ConstantPoolRemapper	Feature Envy
-src.proguard.classfile.editor.ConstantPoolRemapper	Feature Envy
-src.proguard.classfile.editor.ConstantPoolRemapper	Feature Envy
-src.proguard.classfile.editor.ConstantPoolRemapper	Feature Envy
-src.proguard.classfile.editor.ConstantPoolRemapper	Feature Envy
-src.proguard.classfile.editor.ConstantPoolRemapper	Feature Envy
-src.proguard.classfile.editor.ConstantPoolRemapper	Feature Envy
-src.proguard.classfile.editor.ConstantPoolRemapper	Feature Envy
-src.proguard.classfile.editor.ConstantPoolRemapper	Feature Envy
-src.proguard.classfile.editor.ConstantPoolRemapper	Feature Envy
-src.proguard.classfile.editor.ConstantPoolRemapper	Feature Envy
-src.proguard.classfile.editor.ConstantPoolRemapper	Feature Envy
-src.proguard.classfile.editor.ConstantPoolRemapper	Feature Envy
-src.proguard.classfile.editor.ConstantPoolRemapper	Feature Envy
-src.proguard.classfile.editor.ConstantPoolRemapper	Feature Envy
-src.proguard.classfile.editor.ConstantPoolRemapper	Feature Envy
-src.proguard.classfile.editor.ConstantPoolRemapper	Feature Envy
-src.proguard.classfile.editor.ConstantPoolRemapper	Feature Envy
-src.proguard.classfile.editor.ConstantPoolRemapper	Feature Envy
-src.proguard.classfile.editor.ConstantPoolRemapper	Feature Envy
-src.proguard.classfile.editor.ConstantPoolRemapper	Feature Envy
-src.proguard.classfile.editor.ConstantPoolRemapper	God Class
-src.proguard.classfile.ProgramMember	Shotgun Surgery
-src.proguard.classfile.ProgramMember	Shotgun Surgery
-src.proguard.classfile.ProgramMember	Shotgun Surgery
-src.proguard.classfile.ProgramMember	Shotgun Surgery
-src.proguard.gui.splash.BufferedSprite	Intensive Coupling
-src.proguard.obfuscate.MemberObfuscator	Feature Envy
-src.proguard.obfuscate.MemberObfuscator	Dispersed Coupling
-src.proguard.classfile.ProgramMethod	Shotgun Surgery
-src.proguard.classfile.editor.LocalVariableTableAttributeEditor	Feature Envy
-src.proguard.shrink.ShortestUsagePrinter	Feature Envy
-src.proguard.shrink.ShortestUsagePrinter	Feature Envy
-src.proguard.shrink.ShortestUsagePrinter	Feature Envy
-src.proguard.shrink.ShortestUsagePrinter	Feature Envy
-src.proguard.util.StringMatcher	Shotgun Surgery
-src.proguard.optimize.info.SuperInvocationMarker	Feature Envy
-src.proguard.gui.ProGuardGUI$MyViewConfigurationActionListener	Feature Envy
-src.proguard.optimize.MethodDescriptorShrinker	Dispersed Coupling
-src.proguard.optimize.MethodDescriptorShrinker	Feature Envy
-src.proguard.optimize.MethodDescriptorShrinker	Dispersed Coupling
-src.proguard.optimize.MethodDescriptorShrinker	Dispersed Coupling
-src.proguard.optimize.info.MethodInvocationMarker	Feature Envy
-src.proguard.gui.splash.CircleSprite	Feature Envy
-src.proguard.optimize.info.BackwardBranchMarker	Feature Envy
-src.proguard.gui.ProGuardGUI$MyLoadConfigurationActionListener	Feature Envy
-src.proguard.evaluation.value.IntegerValue	Shotgun Surgery
-src.proguard.evaluation.value.IntegerValue	Refused Parent Bequest
-src.proguard.shrink.ClassShrinker	Feature Envy
-src.proguard.shrink.ClassShrinker	Feature Envy
-src.proguard.shrink.ClassShrinker	Feature Envy
-src.proguard.shrink.ClassShrinker	Feature Envy
-src.proguard.shrink.ClassShrinker	Feature Envy
-src.proguard.shrink.ClassShrinker	Feature Envy
-src.proguard.shrink.ClassShrinker	Feature Envy
-src.proguard.shrink.ClassShrinker	Feature Envy
-src.proguard.shrink.ClassShrinker	Feature Envy
-src.proguard.shrink.ClassShrinker	Feature Envy
-src.proguard.shrink.ClassShrinker	Feature Envy
-src.proguard.shrink.ClassShrinker	Feature Envy
-src.proguard.classfile.attribute.annotation.AnnotationElementValue	Shotgun Surgery
-src.proguard.gui.ProGuardGUI$MySaveConfigurationActionListener	Feature Envy
-src.proguard.classfile.instruction.Instruction	Shotgun Surgery
-src.proguard.classfile.instruction.Instruction	Shotgun Surgery
-src.proguard.classfile.instruction.Instruction	Shotgun Surgery
-src.proguard.classfile.instruction.Instruction	God Class
-src.proguard.classfile.visitor.SimpleClassPrinter	Feature Envy
-src.proguard.classfile.visitor.SimpleClassPrinter	Feature Envy
-src.proguard.classfile.visitor.SimpleClassPrinter	Feature Envy
-src.proguard.classfile.visitor.SimpleClassPrinter	Feature Envy
-src.proguard.classfile.util.StringSharer	Feature Envy
-src.proguard.classfile.util.StringSharer	Feature Envy
-src.proguard.classfile.util.StringSharer	Feature Envy
-src.proguard.classfile.editor.AttributeAdder	Feature Envy
-src.proguard.classfile.editor.AttributeAdder	Feature Envy
-src.proguard.classfile.editor.AttributeAdder	Feature Envy
-src.proguard.classfile.editor.AttributeAdder	Feature Envy
-src.proguard.classfile.editor.AttributeAdder	Feature Envy
-src.proguard.classfile.editor.AttributeAdder	Feature Envy
-src.proguard.classfile.editor.AttributeAdder	Feature Envy
-src.proguard.classfile.visitor.MethodImplementationTraveler	Feature Envy
-src.proguard.classfile.visitor.MethodImplementationTraveler	Feature Envy
-src.proguard.classfile.visitor.MethodImplementationTraveler	Feature Envy
-src.proguard.optimize.DuplicateInitializerFixer	Dispersed Coupling
-src.proguard.optimize.DuplicateInitializerFixer	Feature Envy
-src.proguard.optimize.DuplicateInitializerFixer	Feature Envy
-src.proguard.classfile.editor.VariableRemapper	Dispersed Coupling
-src.proguard.classfile.editor.VariableRemapper	Feature Envy
-src.proguard.classfile.util.AccessUtil	Feature Envy
-src.proguard.classfile.util.AccessUtil	Feature Envy
-src.proguard.ant.ConfigurationTask	Feature Envy
-src.proguard.ant.ConfigurationTask	Feature Envy
-src.proguard.ant.ConfigurationTask	Feature Envy
-src.proguard.ant.ConfigurationTask	Feature Envy
-src.proguard.evaluation.value.FloatValue	Refused Parent Bequest
-src.proguard.evaluation.value.SpecificIntegerValue	God Class
-src.proguard.shrink.Shrinker	Dispersed Coupling
-src.proguard.classfile.attribute.annotation.ElementValue	Shotgun Surgery
-src.proguard.classfile.util.ClassSubHierarchyInitializer	Feature Envy
-src.proguard.classfile.util.ClassSubHierarchyInitializer	Feature Envy
-src.proguard.classfile.editor.ConstantPoolEditor	Feature Envy
-src.proguard.classfile.editor.ConstantPoolEditor	Feature Envy
-src.proguard.classfile.editor.ConstantPoolEditor	Feature Envy
-src.proguard.classfile.editor.ConstantPoolEditor	Shotgun Surgery
-src.proguard.classfile.editor.ConstantPoolEditor	God Class
-src.proguard.classfile.io.LibraryClassReader	Dispersed Coupling
-src.proguard.classfile.io.LibraryClassReader	Feature Envy
-src.proguard.optimize.peephole.GotoCommonCodeReplacer	Dispersed Coupling
-src.proguard.optimize.peephole.GotoCommonCodeReplacer	Feature Envy
-src.proguard.evaluation.value.DoubleValue	Refused Parent Bequest
-src.proguard.ConfigurationParser	Brain Method
-src.proguard.ConfigurationParser	Shotgun Surgery
-src.proguard.ConfigurationParser	Shotgun Surgery
-src.proguard.ConfigurationParser	Dispersed Coupling
-src.proguard.ConfigurationParser	Feature Envy
-src.proguard.ConfigurationParser	Feature Envy
-src.proguard.ConfigurationParser	Brain Method
-src.proguard.ConfigurationParser	Feature Envy
-src.proguard.ConfigurationParser	Brain Method
-src.proguard.ConfigurationParser	Feature Envy
-src.proguard.ConfigurationParser	Dispersed Coupling
-src.proguard.ConfigurationParser	Feature Envy
-src.proguard.ConfigurationParser	Feature Envy
-src.proguard.ConfigurationParser	Brain Class
-src.proguard.classfile.util.WarningPrinter	Shotgun Surgery
-src.proguard.classfile.util.WarningPrinter	Shotgun Surgery
-src.proguard.classfile.editor.ClassEditor	Feature Envy
-src.proguard.classfile.editor.ClassEditor	Feature Envy
-src.proguard.classfile.editor.ClassEditor	Feature Envy
-src.proguard.DescriptorKeepChecker	Dispersed Coupling
-src.proguard.ClassPath	Shotgun Surgery
-src.proguard.classfile.editor.LocalVariableInfoAdder	Feature Envy
-src.proguard.classfile.attribute.annotation.ParameterAnnotationsAttribute	Shotgun Surgery
-src.proguard.classfile.io.ProgramClassWriter	Feature Envy
-src.proguard.classfile.io.ProgramClassWriter	Feature Envy
-src.proguard.classfile.io.ProgramClassWriter	Feature Envy
-src.proguard.shrink.UsagePrinter	Feature Envy
-src.proguard.shrink.UsagePrinter	Feature Envy
-src.proguard.shrink.UsagePrinter	Feature Envy
-src.proguard.classfile.attribute.preverification.SameOneFrame	Shotgun Surgery
-src.proguard.classfile.attribute.preverification.MoreZeroFrame	Shotgun Surgery
-src.proguard.evaluation.Processor	Dispersed Coupling
-src.proguard.classfile.editor.InterfacesEditor	Feature Envy
-src.proguard.ant.ClassPathElement	Dispersed Coupling
-src.proguard.classfile.LibraryMember	Shotgun Surgery
-src.proguard.classfile.LibraryMember	Shotgun Surgery
-src.proguard.util.ArrayUtil	God Class
-src.proguard.optimize.info.PackageVisibleMemberInvokingClassMarker	Feature Envy
-src.proguard.DataEntryReaderFactory	Feature Envy
-src.proguard.DataEntryReaderFactory	Intensive Coupling
-src.proguard.obfuscate.MappingKeeper	Feature Envy
-src.proguard.obfuscate.MappingKeeper	Dispersed Coupling
-src.proguard.obfuscate.Obfuscator	Brain Method
-src.proguard.obfuscate.Obfuscator	Dispersed Coupling
-src.proguard.evaluation.value.ReferenceValue	Dispersed Coupling
-src.proguard.evaluation.value.ReferenceValue	Brain Method
-src.proguard.evaluation.value.ReferenceValue	Dispersed Coupling
-src.proguard.evaluation.value.ReferenceValue	Feature Envy
-src.proguard.evaluation.value.ReferenceValue	Refused Parent Bequest
-src.proguard.evaluation.value.ReferenceValue	Tradition Breaker
-src.proguard.optimize.MethodStaticizer	Feature Envy
-src.proguard.optimize.peephole.ClassFinalizer	Feature Envy
-src.proguard.shrink.ClassShrinker$SignatureShrinker	Dispersed Coupling
-src.proguard.classfile.attribute.CodeAttribute	Shotgun Surgery
-src.proguard.classfile.attribute.CodeAttribute	Shotgun Surgery
-src.proguard.classfile.attribute.CodeAttribute	Shotgun Surgery
-src.proguard.classfile.attribute.CodeAttribute	Refused Parent Bequest
-src.proguard.classfile.instruction.BranchInstruction	Feature Envy
-src.proguard.classfile.instruction.BranchInstruction	Feature Envy
-src.proguard.classfile.instruction.BranchInstruction	Refused Parent Bequest
-src.proguard.classfile.editor.ElementValuesEditor	Feature Envy
-src.proguard.classfile.editor.ElementValuesEditor	Feature Envy
-src.proguard.gui.MemberSpecificationsPanel	Feature Envy
-src.proguard.gui.MemberSpecificationsPanel	Feature Envy
-src.proguard.gui.MemberSpecificationsPanel	Feature Envy
-src.proguard.gui.MemberSpecificationsPanel	Refused Parent Bequest
-src.proguard.classfile.VisitorAccepter	Shotgun Surgery
-src.proguard.classfile.VisitorAccepter	Shotgun Surgery
-src.proguard.UpToDateChecker	Dispersed Coupling
-src.proguard.io.DataEntry	Shotgun Surgery
-src.proguard.obfuscate.MappingReader	Intensive Coupling
-src.proguard.obfuscate.ClassObfuscator	Feature Envy
-src.proguard.obfuscate.ClassObfuscator	Feature Envy
-src.proguard.obfuscate.ClassObfuscator	God Class
-src.proguard.obfuscate.MemberNameCollector	Intensive Coupling
-src.proguard.shrink.ShortestUsageMarker	Refused Parent Bequest
-src.proguard.optimize.info.MethodOptimizationInfo	Feature Envy
-src.proguard.optimize.info.PackageVisibleMemberContainingClassMarker	Feature Envy
-src.proguard.classfile.ClassPool	Shotgun Surgery
-src.proguard.classfile.ClassPool	Shotgun Surgery
-src.proguard.classfile.attribute.LocalVariableTypeTableAttribute	Shotgun Surgery
-src.proguard.evaluation.Stack	Shotgun Surgery
-src.proguard.evaluation.Stack	Shotgun Surgery
-src.proguard.evaluation.Stack	Data Class
-src.proguard.preverify.CodeSubroutineInliner	Dispersed Coupling
-src.proguard.preverify.CodeSubroutineInliner	Dispersed Coupling
-src.proguard.preverify.CodeSubroutineInliner	Feature Envy
-src.proguard.preverify.CodeSubroutineInliner	Dispersed Coupling
-src.proguard.classfile.editor.MemberAdder	Dispersed Coupling
-src.proguard.classfile.editor.MemberAdder	Feature Envy
-src.proguard.classfile.util.MethodLinker	Feature Envy
-src.proguard.classfile.util.MethodLinker	Feature Envy
-src.proguard.classfile.visitor.MemberVisitor	Shotgun Surgery
-src.proguard.classfile.visitor.MemberVisitor	Shotgun Surgery
-src.proguard.classfile.visitor.MemberVisitor	Shotgun Surgery
-src.proguard.classfile.visitor.MemberVisitor	Shotgun Surgery
-src.proguard.optimize.DuplicateInitializerInvocationFixer	Dispersed Coupling
-src.proguard.optimize.ChangedCodePrinter	Feature Envy
-src.proguard.optimize.ChangedCodePrinter	Feature Envy
-src.proguard.optimize.ChangedCodePrinter	Dispersed Coupling
-src.proguard.classfile.io.RuntimeDataOutput	Shotgun Surgery
-src.proguard.classfile.attribute.annotation.ArrayElementValue	Shotgun Surgery
-src.proguard.gui.FilterBuilder	Brain Method
-src.proguard.gui.FilterBuilder	Feature Envy
-src.proguard.gui.FilterBuilder	Intensive Coupling
-src.proguard.classfile.editor.AttributeSorter	Feature Envy
+src.proguard.ant.ConfigurationElement	appendTo	Dispersed Coupling
+src.proguard.gui.ClassPathPanel	ClassPathPanel	Feature Envy
+src.proguard.gui.ClassPathPanel	addAddButton	Feature Envy
+src.proguard.gui.ClassPathPanel	addEditButton	Dispersed Coupling
+src.proguard.gui.ClassPathPanel	null	Refused Parent Bequest
+src.proguard.classfile.editor.VariableCleaner	visitLocalVariableTableAttribute	Feature Envy
+src.proguard.classfile.editor.VariableCleaner	visitLocalVariableTypeTableAttribute	Feature Envy
+src.proguard.classfile.editor.VariableCleaner	removeUnusedLocalVariables	Feature Envy
+src.proguard.classfile.editor.VariableCleaner	removeUnusedLocalVariableTypes	Feature Envy
+src.proguard.classfile.editor.VariableCleaner	trimLocalVariables	Feature Envy
+src.proguard.classfile.editor.VariableCleaner	trimLocalVariableTypes	Feature Envy
+src.proguard.classfile.util.ClassReferenceInitializer	visitAnyRefConstant	Dispersed Coupling
+src.proguard.classfile.util.ClassReferenceInitializer	visitEnclosingMethodAttribute	Feature Envy
+src.proguard.classfile.util.ClassReferenceInitializer	visitEnclosingMethodAttribute	Dispersed Coupling
+src.proguard.classfile.util.ClassReferenceInitializer	visitSignatureAttribute	Feature Envy
+src.proguard.classfile.util.ClassReferenceInitializer	visitLocalVariableInfo	Feature Envy
+src.proguard.classfile.util.ClassReferenceInitializer	visitLocalVariableTypeInfo	Feature Envy
+src.proguard.classfile.util.ClassReferenceInitializer	visitAnnotation	Feature Envy
+src.proguard.classfile.util.ClassReferenceInitializer	visitEnumConstantElementValue	Feature Envy
+src.proguard.classfile.util.ClassReferenceInitializer	visitClassElementValue	Feature Envy
+src.proguard.classfile.util.ClassReferenceInitializer	null	God Class
+src.proguard.optimize.peephole.BranchTargetFinder	visitCodeAttribute	Brain Method
+src.proguard.optimize.peephole.BranchTargetFinder	visitCodeAttribute	Dispersed Coupling
+src.proguard.optimize.peephole.BranchTargetFinder	visitSimpleInstruction	Feature Envy
+src.proguard.optimize.peephole.BranchTargetFinder	visitExceptionInfo	Feature Envy
+src.proguard.optimize.peephole.BranchTargetFinder	null	God Class
+src.proguard.optimize.peephole.BranchTargetFinder	null	Data Class
+src.proguard.optimize.peephole.BranchTargetFinder	null	Refused Parent Bequest
+src.proguard.optimize.peephole.BranchTargetFinder	null	Tradition Breaker
+src.proguard.io.ClassReader	read	Dispersed Coupling
+src.proguard.classfile.editor.NameAndTypeShrinker	visitProgramClass	Feature Envy
+src.proguard.classfile.io.ProgramClassReader	visitProgramClass	Dispersed Coupling
+src.proguard.classfile.io.ProgramClassReader	visitProgramField	Feature Envy
+src.proguard.classfile.io.ProgramClassReader	visitProgramMethod	Feature Envy
+src.proguard.classfile.io.ProgramClassReader	visitBootstrapMethodsAttribute	Feature Envy
+src.proguard.classfile.io.ProgramClassReader	visitInnerClassesAttribute	Feature Envy
+src.proguard.classfile.io.ProgramClassReader	visitExceptionsAttribute	Feature Envy
+src.proguard.classfile.io.ProgramClassReader	visitCodeAttribute	Feature Envy
+src.proguard.classfile.io.ProgramClassReader	visitStackMapAttribute	Feature Envy
+src.proguard.classfile.io.ProgramClassReader	visitStackMapTableAttribute	Feature Envy
+src.proguard.classfile.io.ProgramClassReader	visitLineNumberTableAttribute	Feature Envy
+src.proguard.classfile.io.ProgramClassReader	visitLocalVariableTableAttribute	Feature Envy
+src.proguard.classfile.io.ProgramClassReader	visitLocalVariableTypeTableAttribute	Feature Envy
+src.proguard.classfile.io.ProgramClassReader	visitAnyAnnotationsAttribute	Feature Envy
+src.proguard.classfile.io.ProgramClassReader	visitBootstrapMethodInfo	Feature Envy
+src.proguard.classfile.io.ProgramClassReader	visitInnerClassesInfo	Feature Envy
+src.proguard.classfile.io.ProgramClassReader	visitExceptionInfo	Feature Envy
+src.proguard.classfile.io.ProgramClassReader	visitSameZeroFrame	Feature Envy
+src.proguard.classfile.io.ProgramClassReader	visitSameOneFrame	Feature Envy
+src.proguard.classfile.io.ProgramClassReader	visitMoreZeroFrame	Feature Envy
+src.proguard.classfile.io.ProgramClassReader	visitFullFrame	Feature Envy
+src.proguard.classfile.io.ProgramClassReader	visitLocalVariableInfo	Feature Envy
+src.proguard.classfile.io.ProgramClassReader	visitLocalVariableTypeInfo	Feature Envy
+src.proguard.classfile.io.ProgramClassReader	visitAnnotation	Feature Envy
+src.proguard.classfile.io.ProgramClassReader	visitArrayElementValue	Feature Envy
+src.proguard.classfile.io.ProgramClassReader	createConstant	Feature Envy
+src.proguard.classfile.io.ProgramClassReader	createStackMapFrame	Feature Envy
+src.proguard.classfile.io.ProgramClassReader	createVerificationType	Feature Envy
+src.proguard.classfile.io.ProgramClassReader	createElementValue	Feature Envy
+src.proguard.io.DataEntryCopier	read	Dispersed Coupling
+src.proguard.classfile.editor.ConstantPoolSorter	visitProgramClass	Dispersed Coupling
+src.proguard.optimize.info.FieldOptimizationInfo	FieldOptimizationInfo	Feature Envy
+src.proguard.optimize.info.FieldOptimizationInfo	initialValue	Feature Envy
+src.proguard.optimize.info.FieldOptimizationInfo	null	Refused Parent Bequest
+src.proguard.classfile.attribute.annotation.Annotation	elementValuesAccept	Shotgun Surgery
+src.proguard.classfile.attribute.LineNumberTableAttribute	getLineNumber	Feature Envy
+src.proguard.gui.ListPanel	ListPanel	Feature Envy
+src.proguard.gui.ListPanel	addButton	Feature Envy
+src.proguard.gui.ListPanel	getButtons	Feature Envy
+src.proguard.gui.ListPanel	enableSelectionButtons	Feature Envy
+src.proguard.classfile.Member	getAccessFlags	Shotgun Surgery
+src.proguard.classfile.Member	getName	Shotgun Surgery
+src.proguard.classfile.Member	getDescriptor	Shotgun Surgery
+src.proguard.classfile.Member	accept	Shotgun Surgery
+src.proguard.gui.splash.FontSprite	paint	Feature Envy
+src.proguard.evaluation.value.LongValue	null	Refused Parent Bequest
+src.proguard.optimize.evaluation.LivenessAnalyzer	visitCodeAttribute	Brain Method
+src.proguard.optimize.evaluation.LivenessAnalyzer	visitCodeAttribute	Dispersed Coupling
+src.proguard.optimize.evaluation.LivenessAnalyzer	visitExceptionInfo	Feature Envy
+src.proguard.optimize.evaluation.LivenessAnalyzer	null	God Class
+src.proguard.optimize.evaluation.LivenessAnalyzer	null	Data Class
+src.proguard.optimize.evaluation.LivenessAnalyzer	null	Refused Parent Bequest
+src.proguard.optimize.peephole.ClassMerger	visitProgramClass0	Dispersed Coupling
+src.proguard.optimize.peephole.ClassMerger	isOnlySubClass	Feature Envy
+src.proguard.optimize.peephole.ClassMerger	haveAnyIdenticalMethods	Feature Envy
+src.proguard.optimize.peephole.ClassMerger	overridesAnyMethods	Feature Envy
+src.proguard.optimize.peephole.ClassMerger	shadowsAnyMethods	Feature Envy
+src.proguard.optimize.peephole.ClassMerger	null	God Class
+src.proguard.optimize.peephole.ClassMerger	null	Refused Parent Bequest
+src.proguard.obfuscate.NameMarker	visitInnerClassesInfo	Feature Envy
+src.proguard.obfuscate.SimpleNameFactory	main	Feature Envy
+src.proguard.ProGuard	execute	Feature Envy
+src.proguard.ProGuard	printConfiguration	Feature Envy
+src.proguard.ProGuard	printSeeds	Feature Envy
+src.proguard.ProGuard	shrink	Feature Envy
+src.proguard.ProGuard	obfuscate	Feature Envy
+src.proguard.ProGuard	dump	Feature Envy
+src.proguard.ProGuard	fileName	Feature Envy
+src.proguard.classfile.attribute.visitor.StackSizeComputer	visitCodeAttribute	Dispersed Coupling
+src.proguard.classfile.attribute.visitor.StackSizeComputer	visitSimpleInstruction	Feature Envy
+src.proguard.classfile.attribute.visitor.StackSizeComputer	visitAnySwitchInstruction	Feature Envy
+src.proguard.classfile.attribute.visitor.StackSizeComputer	evaluateInstructionBlock	Dispersed Coupling
+src.proguard.optimize.evaluation.EvaluationShrinker$MyUnusedParameterSimplifier	visitProgramMethod	Dispersed Coupling
+src.proguard.classfile.editor.CodeAttributeEditor	reset	Shotgun Surgery
+src.proguard.classfile.editor.CodeAttributeEditor	replaceInstruction	Shotgun Surgery
+src.proguard.classfile.editor.CodeAttributeEditor	deleteInstruction	Shotgun Surgery
+src.proguard.classfile.editor.CodeAttributeEditor	visitCodeAttribute	Shotgun Surgery
+src.proguard.classfile.editor.CodeAttributeEditor	visitCodeAttribute0	Dispersed Coupling
+src.proguard.classfile.editor.CodeAttributeEditor	visitLineNumberTableAttribute	Feature Envy
+src.proguard.classfile.editor.CodeAttributeEditor	updateInstructions	Feature Envy
+src.proguard.classfile.editor.CodeAttributeEditor	moveInstruction	Feature Envy
+src.proguard.classfile.editor.CodeAttributeEditor	visitTableSwitchInstruction	Feature Envy
+src.proguard.classfile.editor.CodeAttributeEditor	visitLookUpSwitchInstruction	Feature Envy
+src.proguard.classfile.editor.CodeAttributeEditor	visitExceptionInfo	Feature Envy
+src.proguard.classfile.editor.CodeAttributeEditor	visitLocalVariableInfo	Feature Envy
+src.proguard.classfile.editor.CodeAttributeEditor	visitLocalVariableTypeInfo	Feature Envy
+src.proguard.classfile.editor.CodeAttributeEditor	null	God Class
+src.proguard.classfile.editor.CodeAttributeEditor	null	Data Class
+src.proguard.classfile.instruction.InstructionUtil	internalTypeFromArrayType	Feature Envy
+src.proguard.WordReader	nextWord	Brain Method
+src.proguard.gui.MemberSpecificationDialog	addRadioButtonTriplet	Feature Envy
+src.proguard.gui.MemberSpecificationDialog	setMemberSpecificationRadioButtons	Feature Envy
+src.proguard.classfile.attribute.preverification.FullFrame	variablesAccept	Shotgun Surgery
+src.proguard.classfile.attribute.preverification.FullFrame	stackAccept	Shotgun Surgery
+src.proguard.gui.ClassPathPanel$MyListCellRenderer	getListCellRendererComponent	Dispersed Coupling
+src.proguard.classfile.Clazz	getName	Shotgun Surgery
+src.proguard.classfile.Clazz	getString	Shotgun Surgery
+src.proguard.classfile.Clazz	getClassName	Shotgun Surgery
+src.proguard.classfile.Clazz	extendsOrImplements	Shotgun Surgery
+src.proguard.classfile.Clazz	accept	Shotgun Surgery
+src.proguard.classfile.Clazz	hierarchyAccept	Shotgun Surgery
+src.proguard.classfile.Clazz	constantPoolEntryAccept	Shotgun Surgery
+src.proguard.classfile.util.DynamicMemberReferenceInitializer	visitAnyInstruction	Feature Envy
+src.proguard.classfile.util.DynamicMemberReferenceInitializer	printDynamicInvocationNote	Feature Envy
+src.proguard.classfile.util.DynamicMemberReferenceInitializer	printDynamicInvocationNote	Dispersed Coupling
+src.proguard.classfile.util.DynamicMemberReferenceInitializer	null	Data Class
+src.proguard.classfile.visitor.ClassVisitor	visitProgramClass	Shotgun Surgery
+src.proguard.classfile.visitor.ClassVisitor	visitLibraryClass	Shotgun Surgery
+src.proguard.optimize.peephole.RetargetedInnerClassAttributeRemover	visitProgramClass	Feature Envy
+src.proguard.optimize.peephole.RetargetedInnerClassAttributeRemover	visitInnerClassesAttribute	Feature Envy
+src.proguard.gui.splash.LinearColor	getColor	Feature Envy
+src.proguard.optimize.evaluation.PartialEvaluator	visitCodeAttribute	Dispersed Coupling
+src.proguard.optimize.evaluation.PartialEvaluator	visitCodeAttribute0	Dispersed Coupling
+src.proguard.optimize.evaluation.PartialEvaluator	isTraced	Shotgun Surgery
+src.proguard.optimize.evaluation.PartialEvaluator	getVariablesBefore	Shotgun Surgery
+src.proguard.optimize.evaluation.PartialEvaluator	getStackBefore	Shotgun Surgery
+src.proguard.optimize.evaluation.PartialEvaluator	evaluateInstructionBlock	Feature Envy
+src.proguard.optimize.evaluation.PartialEvaluator	evaluateSingleInstructionBlock	Brain Method
+src.proguard.optimize.evaluation.PartialEvaluator	evaluateSingleInstructionBlock	Dispersed Coupling
+src.proguard.optimize.evaluation.PartialEvaluator	evaluateSubroutine	Feature Envy
+src.proguard.optimize.evaluation.PartialEvaluator	initializeArrays	Feature Envy
+src.proguard.optimize.evaluation.PartialEvaluator	null	God Class
+src.proguard.optimize.evaluation.PartialEvaluator	null	Brain Class
+src.proguard.optimize.evaluation.PartialEvaluator	null	Data Class
+src.proguard.optimize.evaluation.PartialEvaluator	null	Refused Parent Bequest
+src.proguard.optimize.evaluation.PartialEvaluator	null	Tradition Breaker
+src.proguard.gui.ClassSpecificationsPanel	null	Refused Parent Bequest
+src.proguard.classfile.editor.AnnotationsAttributeEditor	addAnnotation	Feature Envy
+src.proguard.classfile.editor.CodeAttributeEditor$CompositeInstruction	null	Refused Parent Bequest
+src.proguard.classfile.attribute.LocalVariableTableAttribute	localVariablesAccept	Shotgun Surgery
+src.proguard.util.NameParser	main	Feature Envy
+src.proguard.gui.OptimizationsDialog	OptimizationsDialog	Dispersed Coupling
+src.proguard.util.FileNameParser	parse	Feature Envy
+src.proguard.util.FileNameParser	main	Feature Envy
+src.proguard.Initializer	execute	Dispersed Coupling
+src.proguard.evaluation.value.Value	referenceValue	Shotgun Surgery
+src.proguard.evaluation.value.Value	instructionOffsetValue	Shotgun Surgery
+src.proguard.evaluation.value.Value	isParticular	Shotgun Surgery
+src.proguard.evaluation.value.Value	isCategory2	Shotgun Surgery
+src.proguard.evaluation.value.Value	computationalType	Shotgun Surgery
+src.proguard.gui.ProGuardGUI	extractKeepSpecifications	Feature Envy
+src.proguard.gui.ProGuardGUI	addClassSpecifications	Dispersed Coupling
+src.proguard.gui.ProGuardGUI	createOptimizationsButton	Feature Envy
+src.proguard.gui.ProGuardGUI	setProGuardConfiguration	Dispersed Coupling
+src.proguard.gui.ProGuardGUI	getProGuardConfiguration	Dispersed Coupling
+src.proguard.gui.ProGuardGUI	findMatchingKeepSpecifications	Feature Envy
+src.proguard.gui.ProGuardGUI	findMatchingKeepSpecifications	Dispersed Coupling
+src.proguard.gui.ProGuardGUI	null	God Class
+src.proguard.util.ClassNameParser	createAnyTypeMatcher	Feature Envy
+src.proguard.util.ClassNameParser	main	Feature Envy
+src.proguard.evaluation.value.InstructionOffsetValue	instructionOffsetCount	Shotgun Surgery
+src.proguard.evaluation.value.InstructionOffsetValue	instructionOffset	Shotgun Surgery
+src.proguard.evaluation.value.InstructionOffsetValue	null	Refused Parent Bequest
+src.proguard.classfile.editor.ExceptionInfoAdder	visitExceptionInfo	Feature Envy
+src.proguard.optimize.evaluation.EvaluationSimplifier	visitCodeAttribute	Dispersed Coupling
+src.proguard.optimize.evaluation.EvaluationSimplifier	visitCodeAttribute0	Dispersed Coupling
+src.proguard.optimize.evaluation.EvaluationSimplifier	visitSimpleInstruction	Feature Envy
+src.proguard.optimize.evaluation.EvaluationSimplifier	visitConstantInstruction	Feature Envy
+src.proguard.optimize.evaluation.EvaluationSimplifier	visitBranchInstruction	Feature Envy
+src.proguard.optimize.evaluation.EvaluationSimplifier	replaceIntegerPushInstruction	Dispersed Coupling
+src.proguard.optimize.evaluation.EvaluationSimplifier	replaceLongPushInstruction	Dispersed Coupling
+src.proguard.optimize.evaluation.EvaluationSimplifier	replaceFloatPushInstruction	Dispersed Coupling
+src.proguard.optimize.evaluation.EvaluationSimplifier	replaceDoublePushInstruction	Dispersed Coupling
+src.proguard.optimize.evaluation.EvaluationSimplifier	replaceSwitchInstruction	Feature Envy
+src.proguard.optimize.evaluation.EvaluationSimplifier	insertPopInstructions	Feature Envy
+src.proguard.optimize.evaluation.EvaluationSimplifier	null	Refused Parent Bequest
+src.proguard.classfile.editor.AnnotationAdder	visitAnnotation	Feature Envy
+src.proguard.classfile.editor.AnnotationAdder	visitAnnotation	Feature Envy
+src.proguard.shrink.UsageMarker	markProgramClassBody	Feature Envy
+src.proguard.shrink.UsageMarker	visitLibraryClass	Feature Envy
+src.proguard.shrink.UsageMarker	markMethodHierarchy	Feature Envy
+src.proguard.shrink.UsageMarker	visitEnclosingMethodAttribute	Feature Envy
+src.proguard.shrink.UsageMarker	visitInnerClassesInfo	Feature Envy
+src.proguard.shrink.UsageMarker	markAsUsed	Shotgun Surgery
+src.proguard.shrink.UsageMarker	isUsed	Shotgun Surgery
+src.proguard.shrink.UsageMarker	null	God Class
+src.proguard.ClassSpecificationVisitorFactory	createClassPoolVisitor	Feature Envy
+src.proguard.ClassSpecificationVisitorFactory	createClassPoolVisitor	Feature Envy
+src.proguard.ClassSpecificationVisitorFactory	createClassPoolVisitor	Feature Envy
+src.proguard.ClassSpecificationVisitorFactory	createClassVisitor	Feature Envy
+src.proguard.ClassSpecificationVisitorFactory	null	God Class
+src.proguard.optimize.TailRecursionSimplifier	visitCodeAttribute	Dispersed Coupling
+src.proguard.optimize.TailRecursionSimplifier	visitConstantInstruction	Dispersed Coupling
+src.proguard.optimize.TailRecursionSimplifier	visitExceptionInfo	Feature Envy
+src.proguard.optimize.TailRecursionSimplifier	storeParameters	Dispersed Coupling
+src.proguard.optimize.evaluation.EvaluationShrinker$MyStackConsistencyFixer	visitAnyInstruction	Brain Method
+src.proguard.optimize.evaluation.EvaluationShrinker$MyStackConsistencyFixer	visitAnyInstruction	Intensive Coupling
+src.proguard.optimize.evaluation.EvaluationShrinker$MyStackConsistencyFixer	visitSimpleInstruction	Brain Method
+src.proguard.optimize.evaluation.EvaluationShrinker$MyStackConsistencyFixer	visitSimpleInstruction	Dispersed Coupling
+src.proguard.optimize.evaluation.EvaluationShrinker$MyStackConsistencyFixer	fixDupSwap	Feature Envy
+src.proguard.optimize.evaluation.EvaluationShrinker$MyStackConsistencyFixer	null	God Class
+src.proguard.optimize.evaluation.EvaluationShrinker$MyStackConsistencyFixer	null	Brain Class
+src.proguard.optimize.evaluation.EvaluationShrinker$MyStackConsistencyFixer	null	Refused Parent Bequest
+src.proguard.gui.TabbedPane	TabbedPane	Feature Envy
+src.proguard.gui.TabbedPane	updateButtonSelection	Feature Envy
+src.proguard.classfile.util.InternalTypeEnumeration	hasMoreTypes	Shotgun Surgery
+src.proguard.classfile.util.InternalTypeEnumeration	nextType	Feature Envy
+src.proguard.classfile.util.InternalTypeEnumeration	nextType	Shotgun Surgery
+src.proguard.classfile.util.InternalTypeEnumeration	main	Feature Envy
+src.proguard.optimize.peephole.UnreachableExceptionRemover	visitCodeAttribute	Feature Envy
+src.proguard.optimize.peephole.UnreachableExceptionRemover	visitExceptionInfo	Feature Envy
+src.proguard.classfile.editor.ElementValueAdder	visitConstantElementValue	Feature Envy
+src.proguard.classfile.editor.ElementValueAdder	visitEnumConstantElementValue	Feature Envy
+src.proguard.classfile.editor.ElementValueAdder	visitClassElementValue	Feature Envy
+src.proguard.classfile.editor.ElementValueAdder	visitAnnotationElementValue	Feature Envy
+src.proguard.classfile.editor.ElementValueAdder	visitArrayElementValue	Feature Envy
+src.proguard.obfuscate.ParameterNameMarker	visitLocalVariableTableAttribute	Feature Envy
+src.proguard.obfuscate.ParameterNameMarker	visitLocalVariableTypeTableAttribute	Feature Envy
+src.proguard.optimize.peephole.ReachableCodeMarker	visitSimpleInstruction	Feature Envy
+src.proguard.optimize.peephole.ReachableCodeMarker	visitExceptionInfo	Feature Envy
+src.proguard.classfile.constant.StringConstant	getString	Shotgun Surgery
+src.proguard.classfile.constant.StringConstant	referencedMemberAccept	Shotgun Surgery
+src.proguard.DataEntryWriterFactory	createClassPathEntryWriter	Feature Envy
+src.proguard.DataEntryWriterFactory	createClassPathEntryWriter	Intensive Coupling
+src.proguard.preverify.Preverifier	execute	Feature Envy
+src.proguard.optimize.evaluation.EvaluationShrinker$MyProducerMarker	visitSimpleInstruction	Feature Envy
+src.proguard.optimize.evaluation.EvaluationShrinker$MyProducerMarker	visitBranchInstruction	Feature Envy
+src.proguard.optimize.info.ExceptionInstructionChecker	visitSimpleInstruction	Feature Envy
+src.proguard.optimize.info.ExceptionInstructionChecker	visitConstantInstruction	Feature Envy
+src.proguard.ant.MemberSpecificationElement	appendTo	Dispersed Coupling
+src.proguard.ant.MemberSpecificationElement	requiredAccessFlags	Feature Envy
+src.proguard.evaluation.value.SpecificLongValue	null	God Class
+src.proguard.io.DirectoryWriter	getOutputStream	Intensive Coupling
+src.proguard.classfile.util.DescriptorClassEnumeration	nextFluff	Feature Envy
+src.proguard.classfile.util.DescriptorClassEnumeration	nextClassName	Feature Envy
+src.proguard.classfile.util.DescriptorClassEnumeration	main	Feature Envy
+src.proguard.classfile.instruction.InstructionFactory	create	Feature Envy
+src.proguard.obfuscate.MemberNameConflictFixer	visitProgramMethod	Feature Envy
+src.proguard.obfuscate.MemberNameConflictFixer	visitMember	Intensive Coupling
+src.proguard.optimize.peephole.InstructionSequenceReplacer$MyReplacementInstructionFactory	visitVariableInstruction	Feature Envy
+src.proguard.optimize.peephole.InstructionSequenceReplacer$MyReplacementInstructionFactory	visitConstantInstruction	Feature Envy
+src.proguard.classfile.attribute.preverification.StackMapAttribute	stackMapFramesAccept	Shotgun Surgery
+src.proguard.classfile.visitor.ClassVersionSetter	visitProgramClass	Feature Envy
+src.proguard.optimize.peephole.MemberPrivatizer	visitProgramField	Feature Envy
+src.proguard.optimize.peephole.MemberPrivatizer	visitProgramMethod	Feature Envy
+src.proguard.optimize.ParameterShrinker	visitCodeAttribute	Dispersed Coupling
+src.proguard.evaluation.TracedStack	null	Data Class
+src.proguard.evaluation.TracedStack	null	Refused Parent Bequest
+src.proguard.io.ClassRewriter	read	Dispersed Coupling
+src.proguard.classfile.constant.Constant	getTag	Shotgun Surgery
+src.proguard.classfile.constant.Constant	accept	Shotgun Surgery
+src.proguard.classfile.attribute.annotation.AnnotationsAttribute	annotationsAccept	Shotgun Surgery
+src.proguard.evaluation.value.ValueFactory	createValue	Feature Envy
+src.proguard.optimize.peephole.MethodInliner	visitCodeAttribute	Dispersed Coupling
+src.proguard.optimize.peephole.MethodInliner	visitCodeAttribute0	Dispersed Coupling
+src.proguard.optimize.peephole.MethodInliner	storeParameters	Dispersed Coupling
+src.proguard.optimize.peephole.MethodInliner	visitProgramMethod	Dispersed Coupling
+src.proguard.optimize.peephole.MethodInliner	null	God Class
+src.proguard.classfile.editor.ParameterAnnotationsAttributeEditor	addAnnotation	Feature Envy
+src.proguard.ClassPathEntry	isOutput	Shotgun Surgery
+src.proguard.ClassPathEntry	toString	Feature Envy
+src.proguard.classfile.instruction.SimpleInstruction	embeddedConstant	Feature Envy
+src.proguard.classfile.instruction.SimpleInstruction	canonicalOpcode	Feature Envy
+src.proguard.classfile.instruction.SimpleInstruction	shrink	Feature Envy
+src.proguard.classfile.instruction.SimpleInstruction	constantSize	Feature Envy
+src.proguard.classfile.instruction.SimpleInstruction	null	God Class
+src.proguard.classfile.instruction.SimpleInstruction	null	Refused Parent Bequest
+src.proguard.evaluation.BasicInvocationUnit	enterMethod	Dispersed Coupling
+src.proguard.evaluation.BasicInvocationUnit	null	God Class
+src.proguard.classfile.attribute.InnerClassesAttribute	innerClassEntriesAccept	Shotgun Surgery
+src.proguard.optimize.info.ParameterUsageMarker	visitProgramMethod	Dispersed Coupling
+src.proguard.optimize.info.ParameterUsageMarker	markUsedParameters	Feature Envy
+src.proguard.classfile.constant.ClassConstant	getName	Shotgun Surgery
+src.proguard.classfile.constant.ClassConstant	referencedClassAccept	Shotgun Surgery
+src.proguard.classfile.editor.LocalVariableTypeInfoAdder	visitLocalVariableTypeInfo	Feature Envy
+src.proguard.io.DataEntryObfuscator	renamedDataEntry	Dispersed Coupling
+src.proguard.optimize.info.SideEffectInstructionChecker	visitSimpleInstruction	Feature Envy
+src.proguard.optimize.info.SideEffectInstructionChecker	visitBranchInstruction	Feature Envy
+src.proguard.OutputWriter	execute	Intensive Coupling
+src.proguard.OutputWriter	createPackagePrefixMap	Dispersed Coupling
+src.proguard.classfile.attribute.visitor.ExceptionInfoVisitor	visitExceptionInfo	Shotgun Surgery
+src.proguard.InputReader	checkInputOutput	Feature Envy
+src.proguard.gui.ProGuardGUI$MyLoadStackTraceActionListener	actionPerformed	Feature Envy
+src.proguard.classfile.util.InstructionSequenceMatcher	visitVariableInstruction	Feature Envy
+src.proguard.classfile.util.InstructionSequenceMatcher	visitConstantInstruction	Feature Envy
+src.proguard.classfile.util.InstructionSequenceMatcher	visitTableSwitchInstruction	Feature Envy
+src.proguard.classfile.util.InstructionSequenceMatcher	visitLookUpSwitchInstruction	Feature Envy
+src.proguard.classfile.util.InstructionSequenceMatcher	visitInvokeDynamicConstant	Feature Envy
+src.proguard.classfile.util.InstructionSequenceMatcher	visitMethodHandleConstant	Feature Envy
+src.proguard.classfile.util.InstructionSequenceMatcher	visitAnyRefConstant	Feature Envy
+src.proguard.classfile.util.InstructionSequenceMatcher	visitNameAndTypeConstant	Feature Envy
+src.proguard.classfile.util.InstructionSequenceMatcher	matchingOpcodes	Feature Envy
+src.proguard.classfile.util.InstructionSequenceMatcher	matchingArguments	Feature Envy
+src.proguard.classfile.util.InstructionSequenceMatcher	matchingJumpOffsets	Feature Envy
+src.proguard.classfile.util.InstructionSequenceMatcher	null	God Class
+src.proguard.classfile.util.InstructionSequenceMatcher	null	Data Class
+src.proguard.optimize.evaluation.EvaluationShrinker	visitCodeAttribute	Dispersed Coupling
+src.proguard.optimize.evaluation.EvaluationShrinker	visitCodeAttribute0	Brain Method
+src.proguard.optimize.evaluation.EvaluationShrinker	visitCodeAttribute0	Dispersed Coupling
+src.proguard.optimize.evaluation.EvaluationShrinker	pushOpcode	Feature Envy
+src.proguard.optimize.evaluation.EvaluationShrinker	insertPopInstructions	Brain Method
+src.proguard.optimize.evaluation.EvaluationShrinker	insertPopInstructions	Feature Envy
+src.proguard.optimize.evaluation.EvaluationShrinker	isDupOrSwap	Feature Envy
+src.proguard.optimize.evaluation.EvaluationShrinker	isPop	Feature Envy
+src.proguard.optimize.evaluation.EvaluationShrinker	null	God Class
+src.proguard.optimize.evaluation.EvaluationShrinker	null	Brain Class
+src.proguard.optimize.evaluation.EvaluationShrinker	null	Refused Parent Bequest
+src.proguard.FullyQualifiedClassNameChecker	checkClassSpecifications	Feature Envy
+src.proguard.FullyQualifiedClassNameChecker	checkMemberSpecifications	Feature Envy
+src.proguard.FullyQualifiedClassNameChecker	checkClassName	Feature Envy
+src.proguard.FullyQualifiedClassNameChecker	null	Refused Parent Bequest
+src.proguard.obfuscate.AttributeShrinker	visitProgramClass	Feature Envy
+src.proguard.obfuscate.AttributeShrinker	visitProgramMember	Feature Envy
+src.proguard.obfuscate.AttributeShrinker	visitCodeAttribute	Feature Envy
+src.proguard.classfile.editor.ConstantPoolShrinker	visitProgramClass	Feature Envy
+src.proguard.classfile.editor.ConstantPoolShrinker	visitEnclosingMethodAttribute	Feature Envy
+src.proguard.classfile.editor.ConstantPoolShrinker	visitConstantElementValue	Feature Envy
+src.proguard.classfile.editor.ConstantPoolShrinker	visitEnumConstantElementValue	Feature Envy
+src.proguard.classfile.editor.ConstantPoolShrinker	visitClassElementValue	Feature Envy
+src.proguard.classfile.editor.ConstantPoolShrinker	null	God Class
+src.proguard.classfile.editor.ClassMemberSorter	visitProgramClass	Feature Envy
+src.proguard.classfile.editor.ClassMemberSorter	compare	Feature Envy
+src.proguard.optimize.BootstrapMethodArgumentShrinker	visitBootstrapMethodInfo	Feature Envy
+src.proguard.optimize.info.NonPrivateMemberMarker	visitProgramClass	Feature Envy
+src.proguard.optimize.info.NonPrivateMemberMarker	visitAnyRefConstant	Feature Envy
+src.proguard.classfile.io.ProgramClassWriter$AttributeBodyWriter	visitExceptionsAttribute	Feature Envy
+src.proguard.classfile.io.ProgramClassWriter$AttributeBodyWriter	visitCodeAttribute	Feature Envy
+src.proguard.classfile.io.ProgramClassWriter$AttributeBodyWriter	visitAnyParameterAnnotationsAttribute	Feature Envy
+src.proguard.classfile.io.ProgramClassWriter$AttributeBodyWriter	visitBootstrapMethodInfo	Feature Envy
+src.proguard.classfile.io.ProgramClassWriter$AttributeBodyWriter	visitInnerClassesInfo	Feature Envy
+src.proguard.classfile.io.ProgramClassWriter$AttributeBodyWriter	visitExceptionInfo	Feature Envy
+src.proguard.classfile.io.ProgramClassWriter$AttributeBodyWriter	visitLocalVariableInfo	Feature Envy
+src.proguard.classfile.io.ProgramClassWriter$AttributeBodyWriter	visitLocalVariableTypeInfo	Feature Envy
+src.proguard.classfile.editor.MethodInvocationFixer	visitConstantInstruction	Dispersed Coupling
+src.proguard.classfile.editor.MethodInvocationFixer	visitAnyMethodrefConstant	Feature Envy
+src.proguard.classfile.editor.CodeAttributeComposer	appendInstruction	Shotgun Surgery
+src.proguard.classfile.editor.CodeAttributeComposer	appendLabel	Shotgun Surgery
+src.proguard.classfile.editor.CodeAttributeComposer	appendException	Feature Envy
+src.proguard.classfile.editor.CodeAttributeComposer	visitLineNumberTableAttribute	Feature Envy
+src.proguard.classfile.editor.CodeAttributeComposer	visitLocalVariableTableAttribute	Feature Envy
+src.proguard.classfile.editor.CodeAttributeComposer	visitLocalVariableTypeTableAttribute	Feature Envy
+src.proguard.classfile.editor.CodeAttributeComposer	visitAnySwitchInstruction	Feature Envy
+src.proguard.classfile.editor.CodeAttributeComposer	visitExceptionInfo	Feature Envy
+src.proguard.classfile.editor.CodeAttributeComposer	visitLocalVariableInfo	Feature Envy
+src.proguard.classfile.editor.CodeAttributeComposer	visitLocalVariableTypeInfo	Feature Envy
+src.proguard.classfile.editor.CodeAttributeComposer	print	Feature Envy
+src.proguard.classfile.editor.CodeAttributeComposer	main	Feature Envy
+src.proguard.classfile.editor.CodeAttributeComposer	null	God Class
+src.proguard.classfile.util.StringReferenceInitializer	visitStringConstant	Feature Envy
+src.proguard.optimize.info.SideEffectMethodMarker	visitProgramMethod	Feature Envy
+src.proguard.util.ListParser	parse	Shotgun Surgery
+src.proguard.util.ListParser	main	Feature Envy
+src.proguard.classfile.constant.RefConstant	getName	Shotgun Surgery
+src.proguard.classfile.constant.RefConstant	getType	Shotgun Surgery
+src.proguard.classfile.constant.RefConstant	referencedMemberAccept	Shotgun Surgery
+src.proguard.evaluation.Variables	size	Shotgun Surgery
+src.proguard.classfile.editor.ExceptionsAttributeEditor	addException	Feature Envy
+src.proguard.classfile.editor.LocalVariableTypeTableAttributeEditor	addLocalVariableTypeInfo	Feature Envy
+src.proguard.classfile.editor.ConstantAdder	addConstant	Shotgun Surgery
+src.proguard.classfile.editor.ConstantAdder	visitStringConstant	Feature Envy
+src.proguard.classfile.editor.ConstantAdder	visitInvokeDynamicConstant	Feature Envy
+src.proguard.classfile.editor.ConstantAdder	visitFieldrefConstant	Feature Envy
+src.proguard.classfile.editor.ConstantAdder	visitInterfaceMethodrefConstant	Feature Envy
+src.proguard.classfile.editor.ConstantAdder	visitMethodrefConstant	Feature Envy
+src.proguard.classfile.editor.InstructionAdder	visitConstantInstruction	Feature Envy
+src.proguard.optimize.MemberDescriptorSpecializer	visitProgramField	Dispersed Coupling
+src.proguard.optimize.MemberDescriptorSpecializer	visitProgramMethod	Dispersed Coupling
+src.proguard.ConfigurationWriter	writeJarOptions	Intensive Coupling
+src.proguard.ConfigurationWriter	writeOption	Feature Envy
+src.proguard.ConfigurationWriter	writeOption	Dispersed Coupling
+src.proguard.ConfigurationWriter	writeFieldSpecification	Dispersed Coupling
+src.proguard.ConfigurationWriter	writeMethodSpecification	Dispersed Coupling
+src.proguard.ConfigurationWriter	relativeFileName	Feature Envy
+src.proguard.ConfigurationWriter	null	God Class
+src.proguard.classfile.instruction.ConstantInstruction	shrink	Feature Envy
+src.proguard.classfile.instruction.ConstantInstruction	stackPopCount	Feature Envy
+src.proguard.classfile.instruction.ConstantInstruction	stackPushCount	Feature Envy
+src.proguard.classfile.instruction.ConstantInstruction	constantSize	Feature Envy
+src.proguard.classfile.instruction.ConstantInstruction	null	God Class
+src.proguard.classfile.instruction.ConstantInstruction	null	Refused Parent Bequest
+src.proguard.classfile.instruction.ConstantInstruction	null	Tradition Breaker
+src.proguard.classfile.LibraryClass	getName	Shotgun Surgery
+src.proguard.classfile.LibraryClass	addSubClass	Feature Envy
+src.proguard.classfile.LibraryClass	findField	Feature Envy
+src.proguard.classfile.LibraryClass	findMethod	Feature Envy
+src.proguard.classfile.LibraryClass	fieldsAccept	Shotgun Surgery
+src.proguard.classfile.LibraryClass	methodsAccept	Shotgun Surgery
+src.proguard.classfile.LibraryClass	mayHaveImplementations	Feature Envy
+src.proguard.classfile.LibraryClass	null	God Class
+src.proguard.classfile.LibraryClass	null	Data Class
+src.proguard.ant.ClassSpecificationElement	requiredAccessFlags	Feature Envy
+src.proguard.classfile.instruction.VariableInstruction	embeddedVariable	Feature Envy
+src.proguard.classfile.instruction.VariableInstruction	canonicalOpcode	Feature Envy
+src.proguard.classfile.instruction.VariableInstruction	shrink	Feature Envy
+src.proguard.classfile.instruction.VariableInstruction	readInfo	Feature Envy
+src.proguard.classfile.instruction.VariableInstruction	variableIndexSize	Feature Envy
+src.proguard.classfile.instruction.VariableInstruction	null	God Class
+src.proguard.classfile.instruction.VariableInstruction	null	Data Class
+src.proguard.classfile.instruction.VariableInstruction	null	Refused Parent Bequest
+src.proguard.optimize.peephole.ClassMerger$FieldOptimizationInfoCopier	visitProgramField	Feature Envy
+src.proguard.gui.splash.ColorSprite	paint	Feature Envy
+src.proguard.ant.FilterElement	appendTo	Dispersed Coupling
+src.proguard.classfile.editor.MemberReferenceFixer	visitStringConstant	Feature Envy
+src.proguard.classfile.editor.MemberReferenceFixer	visitFieldrefConstant	Feature Envy
+src.proguard.classfile.editor.MemberReferenceFixer	visitInterfaceMethodrefConstant	Dispersed Coupling
+src.proguard.classfile.editor.MemberReferenceFixer	visitMethodrefConstant	Dispersed Coupling
+src.proguard.classfile.editor.MemberReferenceFixer	visitEnclosingMethodAttribute	Feature Envy
+src.proguard.classfile.editor.MemberReferenceFixer	fixElementValue	Feature Envy
+src.proguard.classfile.editor.MemberReferenceFixer	null	God Class
+src.proguard.classfile.editor.ClassReferenceFixer	visitProgramField	Feature Envy
+src.proguard.classfile.editor.ClassReferenceFixer	visitProgramMethod	Feature Envy
+src.proguard.classfile.editor.ClassReferenceFixer	visitLibraryField	Feature Envy
+src.proguard.classfile.editor.ClassReferenceFixer	visitLibraryMethod	Feature Envy
+src.proguard.classfile.editor.ClassReferenceFixer	visitStringConstant	Feature Envy
+src.proguard.classfile.editor.ClassReferenceFixer	visitClassConstant	Feature Envy
+src.proguard.classfile.editor.ClassReferenceFixer	visitSignatureAttribute	Feature Envy
+src.proguard.classfile.editor.ClassReferenceFixer	visitLocalVariableInfo	Feature Envy
+src.proguard.classfile.editor.ClassReferenceFixer	visitLocalVariableTypeInfo	Feature Envy
+src.proguard.classfile.editor.ClassReferenceFixer	visitAnnotation	Feature Envy
+src.proguard.classfile.editor.ClassReferenceFixer	visitEnumConstantElementValue	Feature Envy
+src.proguard.classfile.editor.ClassReferenceFixer	visitClassElementValue	Feature Envy
+src.proguard.classfile.editor.ClassReferenceFixer	newDescriptor	Dispersed Coupling
+src.proguard.classfile.editor.ClassReferenceFixer	newUniqueMemberName	Feature Envy
+src.proguard.classfile.editor.ClassReferenceFixer	newClassName	Feature Envy
+src.proguard.classfile.editor.ClassReferenceFixer	null	God Class
+src.proguard.optimize.Optimizer	execute	Dispersed Coupling
+src.proguard.optimize.Optimizer	null	God Class
+src.proguard.gui.ClassPathPanel$MyListCellRenderer	getListCellRendererComponent	Dispersed Coupling
+src.proguard.classfile.ProgramClass	getAccessFlags	Shotgun Surgery
+src.proguard.classfile.ProgramClass	getName	Shotgun Surgery
+src.proguard.classfile.ProgramClass	addSubClass	Feature Envy
+src.proguard.classfile.ProgramClass	constantPoolEntriesAccept	Shotgun Surgery
+src.proguard.classfile.ProgramClass	fieldsAccept	Shotgun Surgery
+src.proguard.classfile.ProgramClass	methodsAccept	Shotgun Surgery
+src.proguard.classfile.ProgramClass	mayHaveImplementations	Feature Envy
+src.proguard.classfile.ProgramClass	attributesAccept	Shotgun Surgery
+src.proguard.classfile.ProgramClass	null	God Class
+src.proguard.classfile.ProgramClass	null	Data Class
+src.proguard.classfile.editor.InterfaceSorter	visitProgramClass	Feature Envy
+src.proguard.classfile.editor.InterfaceSorter	visitSignatureAttribute	Dispersed Coupling
+src.proguard.classfile.editor.Utf8Shrinker	visitProgramClass	Feature Envy
+src.proguard.classfile.editor.Utf8Shrinker	visitEnumConstantElementValue	Feature Envy
+src.proguard.classfile.editor.Utf8Shrinker	visitClassElementValue	Feature Envy
+src.proguard.classfile.editor.Utf8Shrinker	null	God Class
+src.proguard.classfile.constant.Utf8Constant	getString	Shotgun Surgery
+src.proguard.classfile.constant.Utf8Constant	null	Refused Parent Bequest
+src.proguard.optimize.info.NoSideEffectMethodMarker	markNoSideEffects	Feature Envy
+src.proguard.io.FileDataEntry	getName	Feature Envy
+src.proguard.GPL	check	Feature Envy
+src.proguard.classfile.editor.AccessFixer	visitProgramClass	Feature Envy
+src.proguard.classfile.editor.AccessFixer	visitProgramMember	Feature Envy
+src.proguard.Targeter	execute	Feature Envy
+src.proguard.Targeter	execute	Dispersed Coupling
+src.proguard.classfile.visitor.ClassPrinter	visitProgramClass	Feature Envy
+src.proguard.classfile.visitor.ClassPrinter	visitProgramClass	Intensive Coupling
+src.proguard.classfile.visitor.ClassPrinter	visitLibraryClass	Dispersed Coupling
+src.proguard.classfile.visitor.ClassPrinter	visitFieldrefConstant	Feature Envy
+src.proguard.classfile.visitor.ClassPrinter	visitInterfaceMethodrefConstant	Feature Envy
+src.proguard.classfile.visitor.ClassPrinter	visitMethodrefConstant	Feature Envy
+src.proguard.classfile.visitor.ClassPrinter	visitNameAndTypeConstant	Feature Envy
+src.proguard.classfile.visitor.ClassPrinter	visitProgramField	Feature Envy
+src.proguard.classfile.visitor.ClassPrinter	visitProgramMethod	Feature Envy
+src.proguard.classfile.visitor.ClassPrinter	visitLibraryField	Feature Envy
+src.proguard.classfile.visitor.ClassPrinter	visitLibraryMethod	Feature Envy
+src.proguard.classfile.visitor.ClassPrinter	visitEnclosingMethodAttribute	Feature Envy
+src.proguard.classfile.visitor.ClassPrinter	visitCodeAttribute	Feature Envy
+src.proguard.classfile.visitor.ClassPrinter	visitExceptionInfo	Feature Envy
+src.proguard.classfile.visitor.ClassPrinter	visitLocalVariableInfo	Feature Envy
+src.proguard.classfile.visitor.ClassPrinter	visitLocalVariableTypeInfo	Feature Envy
+src.proguard.classfile.visitor.ClassPrinter	visitAnnotationElementValue	Feature Envy
+src.proguard.classfile.visitor.ClassPrinter	visitArrayElementValue	Feature Envy
+src.proguard.classfile.visitor.ClassPrinter	null	God Class
+src.proguard.classfile.editor.ComparableConstant	visitInvokeDynamicConstant	Feature Envy
+src.proguard.classfile.editor.ComparableConstant	visitMethodHandleConstant	Feature Envy
+src.proguard.classfile.editor.ComparableConstant	visitAnyRefConstant	Feature Envy
+src.proguard.classfile.editor.ComparableConstant	visitNameAndTypeConstant	Feature Envy
+src.proguard.optimize.evaluation.VariableOptimizer	visitCodeAttribute	Dispersed Coupling
+src.proguard.optimize.evaluation.VariableOptimizer	visitLocalVariableInfo	Feature Envy
+src.proguard.optimize.evaluation.VariableOptimizer	visitLocalVariableTypeInfo	Feature Envy
+src.proguard.optimize.evaluation.VariableOptimizer	updateLiveness	Feature Envy
+src.proguard.optimize.evaluation.VariableOptimizer	null	Refused Parent Bequest
+src.proguard.classfile.editor.LineNumberTableAttributeEditor	addLineNumberInfo	Feature Envy
+src.proguard.retrace.ReTrace	execute	Brain Method
+src.proguard.retrace.ReTrace	execute	Dispersed Coupling
+src.proguard.retrace.ReTrace	originalFieldName	Feature Envy
+src.proguard.retrace.ReTrace	originalFieldName	Dispersed Coupling
+src.proguard.retrace.ReTrace	originalMethodName	Feature Envy
+src.proguard.retrace.ReTrace	originalMethodName	Dispersed Coupling
+src.proguard.retrace.ReTrace	null	God Class
+src.proguard.preverify.CodePreverifier	visitCodeAttribute0	Brain Method
+src.proguard.preverify.CodePreverifier	visitCodeAttribute0	Dispersed Coupling
+src.proguard.preverify.CodePreverifier	correspondingVerificationTypes	Feature Envy
+src.proguard.preverify.CodePreverifier	correspondingVerificationType	Intensive Coupling
+src.proguard.preverify.CodePreverifier	null	God Class
+src.proguard.preverify.CodePreverifier	null	Refused Parent Bequest
+src.proguard.classfile.attribute.annotation.AnnotationDefaultAttribute	defaultValueAccept	Shotgun Surgery
+src.proguard.UpToDateChecker$ModificationTimeChecker	updateModificationTime	Feature Envy
+src.proguard.classfile.visitor.MemberClassAccessFilter	accepted	Feature Envy
+src.proguard.gui.ClassSpecificationDialog	addRadioButtonTriplet	Feature Envy
+src.proguard.gui.ClassSpecificationDialog	setKeepSpecification	Feature Envy
+src.proguard.gui.ClassSpecificationDialog	setClassSpecificationRadioButtons	Feature Envy
+src.proguard.gui.splash.Sprite	paint	Shotgun Surgery
+src.proguard.optimize.peephole.VariableShrinker	visitCodeAttribute	Dispersed Coupling
+src.proguard.classfile.io.ProgramClassWriter$StackMapFrameBodyWriter	visitSameZeroFrame	Feature Envy
+src.proguard.classfile.io.ProgramClassWriter$StackMapFrameBodyWriter	visitSameOneFrame	Feature Envy
+src.proguard.classfile.io.ProgramClassWriter$StackMapFrameBodyWriter	visitFullFrame	Feature Envy
+src.proguard.classfile.util.ClassUtil	internalClassVersion	Feature Envy
+src.proguard.classfile.util.ClassUtil	externalClassVersion	Feature Envy
+src.proguard.classfile.util.ClassUtil	checkVersionNumbers	Feature Envy
+src.proguard.classfile.util.ClassUtil	isInternalArrayInterfaceName	Feature Envy
+src.proguard.classfile.util.ClassUtil	isInternalPrimitiveType	Feature Envy
+src.proguard.classfile.util.ClassUtil	internalArrayTypeFromClassName	Feature Envy
+src.proguard.classfile.util.ClassUtil	internalTypeSize	Feature Envy
+src.proguard.classfile.util.ClassUtil	internalType	Feature Envy
+src.proguard.classfile.util.ClassUtil	externalType	Feature Envy
+src.proguard.classfile.util.ClassUtil	internalMethodDescriptor	Feature Envy
+src.proguard.classfile.util.ClassUtil	externalClassAccessFlags	Feature Envy
+src.proguard.classfile.util.ClassUtil	externalFieldAccessFlags	Feature Envy
+src.proguard.classfile.util.ClassUtil	externalMethodAccessFlags	Feature Envy
+src.proguard.classfile.util.ClassUtil	null	God Class
+src.proguard.classfile.util.SimplifiedVisitor	null	God Class
+src.proguard.shrink.AnnotationUsageMarker	visitEnumConstantElementValue	Feature Envy
+src.proguard.classfile.util.ClassSuperHierarchyInitializer	visitLibraryClass	Feature Envy
+src.proguard.classfile.util.ClassSuperHierarchyInitializer	visitClassConstant	Feature Envy
+src.proguard.optimize.peephole.TargetClassChanger	visitProgramClass	Feature Envy
+src.proguard.optimize.peephole.TargetClassChanger	visitProgramClass	Intensive Coupling
+src.proguard.optimize.peephole.TargetClassChanger	visitStringConstant	Feature Envy
+src.proguard.optimize.peephole.TargetClassChanger	visitAnyElementValue	Feature Envy
+src.proguard.optimize.peephole.TargetClassChanger	null	God Class
+src.proguard.classfile.attribute.preverification.StackMapTableAttribute	stackMapFramesAccept	Shotgun Surgery
+src.proguard.optimize.peephole.InstructionSequenceReplacer	visitAnyInstruction	Dispersed Coupling
+src.proguard.classfile.util.DynamicClassReferenceInitializer	visitStringConstant	Feature Envy
+src.proguard.classfile.util.DynamicClassReferenceInitializer	visitClassConstant	Feature Envy
+src.proguard.classfile.util.DynamicClassReferenceInitializer	null	Data Class
+src.proguard.optimize.evaluation.StoringInvocationUnit	null	Refused Parent Bequest
+src.proguard.obfuscate.DictionaryNameFactory	DictionaryNameFactory	Intensive Coupling
+src.proguard.classfile.editor.ConstantPoolRemapper	visitProgramClass	Feature Envy
+src.proguard.classfile.editor.ConstantPoolRemapper	visitFieldrefConstant	Feature Envy
+src.proguard.classfile.editor.ConstantPoolRemapper	visitInterfaceMethodrefConstant	Feature Envy
+src.proguard.classfile.editor.ConstantPoolRemapper	visitMethodrefConstant	Feature Envy
+src.proguard.classfile.editor.ConstantPoolRemapper	visitNameAndTypeConstant	Feature Envy
+src.proguard.classfile.editor.ConstantPoolRemapper	visitMember	Feature Envy
+src.proguard.classfile.editor.ConstantPoolRemapper	visitSourceFileAttribute	Feature Envy
+src.proguard.classfile.editor.ConstantPoolRemapper	visitSourceDirAttribute	Feature Envy
+src.proguard.classfile.editor.ConstantPoolRemapper	visitEnclosingMethodAttribute	Feature Envy
+src.proguard.classfile.editor.ConstantPoolRemapper	visitSignatureAttribute	Feature Envy
+src.proguard.classfile.editor.ConstantPoolRemapper	visitConstantValueAttribute	Feature Envy
+src.proguard.classfile.editor.ConstantPoolRemapper	visitExceptionsAttribute	Feature Envy
+src.proguard.classfile.editor.ConstantPoolRemapper	visitCodeAttribute	Feature Envy
+src.proguard.classfile.editor.ConstantPoolRemapper	visitBootstrapMethodInfo	Feature Envy
+src.proguard.classfile.editor.ConstantPoolRemapper	visitInnerClassesInfo	Feature Envy
+src.proguard.classfile.editor.ConstantPoolRemapper	visitExceptionInfo	Feature Envy
+src.proguard.classfile.editor.ConstantPoolRemapper	visitConstantInstruction	Feature Envy
+src.proguard.classfile.editor.ConstantPoolRemapper	visitLocalVariableInfo	Feature Envy
+src.proguard.classfile.editor.ConstantPoolRemapper	visitLocalVariableTypeInfo	Feature Envy
+src.proguard.classfile.editor.ConstantPoolRemapper	visitConstantElementValue	Feature Envy
+src.proguard.classfile.editor.ConstantPoolRemapper	visitEnumConstantElementValue	Feature Envy
+src.proguard.classfile.editor.ConstantPoolRemapper	visitClassElementValue	Feature Envy
+src.proguard.classfile.editor.ConstantPoolRemapper	null	God Class
+src.proguard.classfile.ProgramMember	attributesAccept	Shotgun Surgery
+src.proguard.classfile.ProgramMember	getAccessFlags	Shotgun Surgery
+src.proguard.classfile.ProgramMember	getName	Shotgun Surgery
+src.proguard.classfile.ProgramMember	getDescriptor	Shotgun Surgery
+src.proguard.gui.splash.BufferedSprite	paint	Intensive Coupling
+src.proguard.obfuscate.MemberObfuscator	visitAnyMember	Feature Envy
+src.proguard.obfuscate.MemberObfuscator	visitAnyMember	Dispersed Coupling
+src.proguard.classfile.ProgramMethod	attributesAccept	Shotgun Surgery
+src.proguard.classfile.editor.LocalVariableTableAttributeEditor	addLocalVariableInfo	Feature Envy
+src.proguard.shrink.ShortestUsagePrinter	visitProgramField	Feature Envy
+src.proguard.shrink.ShortestUsagePrinter	visitProgramMethod	Feature Envy
+src.proguard.shrink.ShortestUsagePrinter	visitLibraryField	Feature Envy
+src.proguard.shrink.ShortestUsagePrinter	visitLibraryMethod	Feature Envy
+src.proguard.util.StringMatcher	matches	Shotgun Surgery
+src.proguard.optimize.info.SuperInvocationMarker	visitAnyMethodrefConstant	Feature Envy
+src.proguard.gui.ProGuardGUI$MyViewConfigurationActionListener	actionPerformed	Feature Envy
+src.proguard.optimize.MethodDescriptorShrinker	visitProgramMethod	Dispersed Coupling
+src.proguard.optimize.MethodDescriptorShrinker	visitSignatureAttribute	Feature Envy
+src.proguard.optimize.MethodDescriptorShrinker	shrinkDescriptor	Dispersed Coupling
+src.proguard.optimize.MethodDescriptorShrinker	shrinkReferencedClasses	Dispersed Coupling
+src.proguard.optimize.info.MethodInvocationMarker	getInvocationCount	Feature Envy
+src.proguard.gui.splash.CircleSprite	paint	Feature Envy
+src.proguard.optimize.info.BackwardBranchMarker	visitAnySwitchInstruction	Feature Envy
+src.proguard.gui.ProGuardGUI$MyLoadConfigurationActionListener	actionPerformed	Feature Envy
+src.proguard.evaluation.value.IntegerValue	negate	Shotgun Surgery
+src.proguard.evaluation.value.IntegerValue	null	Refused Parent Bequest
+src.proguard.shrink.ClassShrinker	visitProgramClass	Feature Envy
+src.proguard.shrink.ClassShrinker	visitProgramMember	Feature Envy
+src.proguard.shrink.ClassShrinker	visitBootstrapMethodsAttribute	Feature Envy
+src.proguard.shrink.ClassShrinker	visitInnerClassesAttribute	Feature Envy
+src.proguard.shrink.ClassShrinker	visitEnclosingMethodAttribute	Feature Envy
+src.proguard.shrink.ClassShrinker	visitCodeAttribute	Feature Envy
+src.proguard.shrink.ClassShrinker	visitLocalVariableTableAttribute	Feature Envy
+src.proguard.shrink.ClassShrinker	visitLocalVariableTypeTableAttribute	Feature Envy
+src.proguard.shrink.ClassShrinker	visitAnyAnnotationsAttribute	Feature Envy
+src.proguard.shrink.ClassShrinker	visitAnyParameterAnnotationsAttribute	Feature Envy
+src.proguard.shrink.ClassShrinker	visitAnnotation	Feature Envy
+src.proguard.shrink.ClassShrinker	visitArrayElementValue	Feature Envy
+src.proguard.classfile.attribute.annotation.AnnotationElementValue	annotationAccept	Shotgun Surgery
+src.proguard.gui.ProGuardGUI$MySaveConfigurationActionListener	actionPerformed	Feature Envy
+src.proguard.classfile.instruction.Instruction	length	Shotgun Surgery
+src.proguard.classfile.instruction.Instruction	accept	Shotgun Surgery
+src.proguard.classfile.instruction.Instruction	toString	Shotgun Surgery
+src.proguard.classfile.instruction.Instruction	null	God Class
+src.proguard.classfile.visitor.SimpleClassPrinter	visitProgramField	Feature Envy
+src.proguard.classfile.visitor.SimpleClassPrinter	visitProgramMethod	Feature Envy
+src.proguard.classfile.visitor.SimpleClassPrinter	visitLibraryField	Feature Envy
+src.proguard.classfile.visitor.SimpleClassPrinter	visitLibraryMethod	Feature Envy
+src.proguard.classfile.util.StringSharer	visitStringConstant	Feature Envy
+src.proguard.classfile.util.StringSharer	visitAnyRefConstant	Feature Envy
+src.proguard.classfile.util.StringSharer	visitClassConstant	Feature Envy
+src.proguard.classfile.editor.AttributeAdder	visitUnknownAttribute	Feature Envy
+src.proguard.classfile.editor.AttributeAdder	visitEnclosingMethodAttribute	Feature Envy
+src.proguard.classfile.editor.AttributeAdder	visitSignatureAttribute	Feature Envy
+src.proguard.classfile.editor.AttributeAdder	visitExceptionsAttribute	Feature Envy
+src.proguard.classfile.editor.AttributeAdder	visitCodeAttribute	Feature Envy
+src.proguard.classfile.editor.AttributeAdder	visitRuntimeVisibleParameterAnnotationsAttribute	Feature Envy
+src.proguard.classfile.editor.AttributeAdder	visitRuntimeInvisibleParameterAnnotationsAttribute	Feature Envy
+src.proguard.classfile.visitor.MethodImplementationTraveler	visitProgramMethod	Feature Envy
+src.proguard.classfile.visitor.MethodImplementationTraveler	visitLibraryMethod	Feature Envy
+src.proguard.classfile.visitor.MethodImplementationTraveler	isSpecial	Feature Envy
+src.proguard.optimize.DuplicateInitializerFixer	visitProgramMethod	Dispersed Coupling
+src.proguard.optimize.DuplicateInitializerFixer	visitCodeAttribute	Feature Envy
+src.proguard.optimize.DuplicateInitializerFixer	visitAnyParameterAnnotationsAttribute	Feature Envy
+src.proguard.classfile.editor.VariableRemapper	visitCodeAttribute	Dispersed Coupling
+src.proguard.classfile.editor.VariableRemapper	visitVariableInstruction	Feature Envy
+src.proguard.classfile.util.AccessUtil	accessLevel	Feature Envy
+src.proguard.classfile.util.AccessUtil	accessFlags	Feature Envy
+src.proguard.ant.ConfigurationTask	appendTo	Feature Envy
+src.proguard.ant.ConfigurationTask	addConfiguredKeepnames	Feature Envy
+src.proguard.ant.ConfigurationTask	addConfiguredKeepclassmembernames	Feature Envy
+src.proguard.ant.ConfigurationTask	addConfiguredKeepclasseswithmembernames	Feature Envy
+src.proguard.evaluation.value.FloatValue	null	Refused Parent Bequest
+src.proguard.evaluation.value.SpecificIntegerValue	null	God Class
+src.proguard.shrink.Shrinker	execute	Dispersed Coupling
+src.proguard.classfile.attribute.annotation.ElementValue	accept	Shotgun Surgery
+src.proguard.classfile.util.ClassSubHierarchyInitializer	visitProgramClass	Feature Envy
+src.proguard.classfile.util.ClassSubHierarchyInitializer	visitLibraryClass	Feature Envy
+src.proguard.classfile.editor.ConstantPoolEditor	addFieldrefConstant	Feature Envy
+src.proguard.classfile.editor.ConstantPoolEditor	addInterfaceMethodrefConstant	Feature Envy
+src.proguard.classfile.editor.ConstantPoolEditor	addMethodrefConstant	Feature Envy
+src.proguard.classfile.editor.ConstantPoolEditor	addUtf8Constant	Shotgun Surgery
+src.proguard.classfile.editor.ConstantPoolEditor	null	God Class
+src.proguard.classfile.io.LibraryClassReader	visitLibraryClass	Dispersed Coupling
+src.proguard.classfile.io.LibraryClassReader	createConstant	Feature Envy
+src.proguard.optimize.peephole.GotoCommonCodeReplacer	visitBranchInstruction	Dispersed Coupling
+src.proguard.optimize.peephole.GotoCommonCodeReplacer	isPop	Feature Envy
+src.proguard.evaluation.value.DoubleValue	null	Refused Parent Bequest
+src.proguard.ConfigurationParser	parse	Brain Method
+src.proguard.ConfigurationParser	parse	Shotgun Surgery
+src.proguard.ConfigurationParser	close	Shotgun Surgery
+src.proguard.ConfigurationParser	parseClassPathArgument	Dispersed Coupling
+src.proguard.ConfigurationParser	parseKeepClassSpecificationArguments	Feature Envy
+src.proguard.ConfigurationParser	parseClassSpecificationArguments	Feature Envy
+src.proguard.ConfigurationParser	parseClassSpecificationArguments	Brain Method
+src.proguard.ConfigurationParser	parseClassSpecificationArguments	Feature Envy
+src.proguard.ConfigurationParser	parseMemberSpecificationArguments	Brain Method
+src.proguard.ConfigurationParser	parseMemberSpecificationArguments	Feature Envy
+src.proguard.ConfigurationParser	parseMemberSpecificationArguments	Dispersed Coupling
+src.proguard.ConfigurationParser	parseCommaSeparatedList	Feature Envy
+src.proguard.ConfigurationParser	replaceSystemProperties	Feature Envy
+src.proguard.ConfigurationParser	null	Brain Class
+src.proguard.classfile.util.WarningPrinter	print	Shotgun Surgery
+src.proguard.classfile.util.WarningPrinter	print	Shotgun Surgery
+src.proguard.classfile.editor.ClassEditor	removeInterface	Feature Envy
+src.proguard.classfile.editor.ClassEditor	removeField	Feature Envy
+src.proguard.classfile.editor.ClassEditor	removeMethod	Feature Envy
+src.proguard.DescriptorKeepChecker	visitProgramClass	Dispersed Coupling
+src.proguard.ClassPath	get	Shotgun Surgery
+src.proguard.classfile.editor.LocalVariableInfoAdder	visitLocalVariableInfo	Feature Envy
+src.proguard.classfile.attribute.annotation.ParameterAnnotationsAttribute	annotationsAccept	Shotgun Surgery
+src.proguard.classfile.io.ProgramClassWriter	visitProgramClass	Feature Envy
+src.proguard.classfile.io.ProgramClassWriter	visitProgramField	Feature Envy
+src.proguard.classfile.io.ProgramClassWriter	visitProgramMethod	Feature Envy
+src.proguard.shrink.UsagePrinter	visitProgramClass	Feature Envy
+src.proguard.shrink.UsagePrinter	visitProgramField	Feature Envy
+src.proguard.shrink.UsagePrinter	visitProgramMethod	Feature Envy
+src.proguard.classfile.attribute.preverification.SameOneFrame	stackItemAccept	Shotgun Surgery
+src.proguard.classfile.attribute.preverification.MoreZeroFrame	additionalVariablesAccept	Shotgun Surgery
+src.proguard.evaluation.Processor	visitConstantInstruction	Dispersed Coupling
+src.proguard.classfile.editor.InterfacesEditor	addInterface	Feature Envy
+src.proguard.ant.ClassPathElement	appendClassPathEntriesTo	Dispersed Coupling
+src.proguard.classfile.LibraryMember	getName	Shotgun Surgery
+src.proguard.classfile.LibraryMember	getDescriptor	Shotgun Surgery
+src.proguard.util.ArrayUtil	null	God Class
+src.proguard.optimize.info.PackageVisibleMemberInvokingClassMarker	visitAnyMember	Feature Envy
+src.proguard.DataEntryReaderFactory	createDataEntryReader	Feature Envy
+src.proguard.DataEntryReaderFactory	createDataEntryReader	Intensive Coupling
+src.proguard.obfuscate.MappingKeeper	processMethodMapping	Feature Envy
+src.proguard.obfuscate.MappingKeeper	processMethodMapping	Dispersed Coupling
+src.proguard.obfuscate.Obfuscator	execute	Brain Method
+src.proguard.obfuscate.Obfuscator	execute	Dispersed Coupling
+src.proguard.evaluation.value.ReferenceValue	instanceOf	Dispersed Coupling
+src.proguard.evaluation.value.ReferenceValue	generalize	Brain Method
+src.proguard.evaluation.value.ReferenceValue	generalize	Dispersed Coupling
+src.proguard.evaluation.value.ReferenceValue	internalType	Feature Envy
+src.proguard.evaluation.value.ReferenceValue	null	Refused Parent Bequest
+src.proguard.evaluation.value.ReferenceValue	null	Tradition Breaker
+src.proguard.optimize.MethodStaticizer	visitProgramMethod	Feature Envy
+src.proguard.optimize.peephole.ClassFinalizer	visitProgramClass	Feature Envy
+src.proguard.shrink.ClassShrinker$SignatureShrinker	visitSignatureAttribute	Dispersed Coupling
+src.proguard.classfile.attribute.CodeAttribute	instructionsAccept	Shotgun Surgery
+src.proguard.classfile.attribute.CodeAttribute	exceptionsAccept	Shotgun Surgery
+src.proguard.classfile.attribute.CodeAttribute	attributesAccept	Shotgun Surgery
+src.proguard.classfile.attribute.CodeAttribute	null	Refused Parent Bequest
+src.proguard.classfile.instruction.BranchInstruction	canonicalOpcode	Feature Envy
+src.proguard.classfile.instruction.BranchInstruction	shrink	Feature Envy
+src.proguard.classfile.instruction.BranchInstruction	null	Refused Parent Bequest
+src.proguard.classfile.editor.ElementValuesEditor	addElementValue	Feature Envy
+src.proguard.classfile.editor.ElementValuesEditor	deleteElementValue	Feature Envy
+src.proguard.gui.MemberSpecificationsPanel	addAddFieldButton	Feature Envy
+src.proguard.gui.MemberSpecificationsPanel	addAddMethodButton	Feature Envy
+src.proguard.gui.MemberSpecificationsPanel	getMemberSpecifications	Feature Envy
+src.proguard.gui.MemberSpecificationsPanel	null	Refused Parent Bequest
+src.proguard.classfile.VisitorAccepter	getVisitorInfo	Shotgun Surgery
+src.proguard.classfile.VisitorAccepter	setVisitorInfo	Shotgun Surgery
+src.proguard.UpToDateChecker	check	Dispersed Coupling
+src.proguard.io.DataEntry	getName	Shotgun Surgery
+src.proguard.obfuscate.MappingReader	processClassMemberMapping	Intensive Coupling
+src.proguard.obfuscate.ClassObfuscator	visitEnclosingMethodAttribute	Feature Envy
+src.proguard.obfuscate.ClassObfuscator	visitInnerClassesInfo	Feature Envy
+src.proguard.obfuscate.ClassObfuscator	null	God Class
+src.proguard.obfuscate.MemberNameCollector	visitAnyMember	Intensive Coupling
+src.proguard.shrink.ShortestUsageMarker	null	Refused Parent Bequest
+src.proguard.optimize.info.MethodOptimizationInfo	MethodOptimizationInfo	Feature Envy
+src.proguard.optimize.info.PackageVisibleMemberContainingClassMarker	visitAnyMember	Feature Envy
+src.proguard.classfile.ClassPool	getClass	Shotgun Surgery
+src.proguard.classfile.ClassPool	classesAccept	Shotgun Surgery
+src.proguard.classfile.attribute.LocalVariableTypeTableAttribute	localVariablesAccept	Shotgun Surgery
+src.proguard.evaluation.Stack	size	Shotgun Surgery
+src.proguard.evaluation.Stack	getTop	Shotgun Surgery
+src.proguard.evaluation.Stack	null	Data Class
+src.proguard.preverify.CodeSubroutineInliner	visitCodeAttribute	Dispersed Coupling
+src.proguard.preverify.CodeSubroutineInliner	visitCodeAttribute0	Dispersed Coupling
+src.proguard.preverify.CodeSubroutineInliner	inlineSubroutine	Feature Envy
+src.proguard.preverify.CodeSubroutineInliner	visitExceptionInfo	Dispersed Coupling
+src.proguard.classfile.editor.MemberAdder	visitProgramMethod	Dispersed Coupling
+src.proguard.classfile.editor.MemberAdder	newUniqueMemberName	Feature Envy
+src.proguard.classfile.util.MethodLinker	lastMember	Feature Envy
+src.proguard.classfile.util.MethodLinker	lastVisitorAccepter	Feature Envy
+src.proguard.classfile.visitor.MemberVisitor	visitProgramField	Shotgun Surgery
+src.proguard.classfile.visitor.MemberVisitor	visitProgramMethod	Shotgun Surgery
+src.proguard.classfile.visitor.MemberVisitor	visitLibraryField	Shotgun Surgery
+src.proguard.classfile.visitor.MemberVisitor	visitLibraryMethod	Shotgun Surgery
+src.proguard.optimize.DuplicateInitializerInvocationFixer	visitConstantInstruction	Dispersed Coupling
+src.proguard.optimize.ChangedCodePrinter	visitCodeAttribute	Feature Envy
+src.proguard.optimize.ChangedCodePrinter	codeHasChanged	Feature Envy
+src.proguard.optimize.ChangedCodePrinter	printChangedCode	Dispersed Coupling
+src.proguard.classfile.io.RuntimeDataOutput	writeShort	Shotgun Surgery
+src.proguard.classfile.attribute.annotation.ArrayElementValue	elementValuesAccept	Shotgun Surgery
+src.proguard.gui.FilterBuilder	buildFilter	Brain Method
+src.proguard.gui.FilterBuilder	buildFilter	Feature Envy
+src.proguard.gui.FilterBuilder	buildFilter	Intensive Coupling
+src.proguard.classfile.editor.AttributeSorter	compare	Feature Envy

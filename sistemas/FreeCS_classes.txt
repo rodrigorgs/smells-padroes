@@ -1,146 +1,146 @@
-src.freecs.auth.AbstractAuthenticator
-src.freecs.auth.AuthManager
-src.freecs.auth.IAuthenticator
-src.freecs.auth.NoAuthentication
-src.freecs.auth.SQLAuthenticator
-src.freecs.auth.sqlConnectionPool.ConnectionPool
-src.freecs.auth.sqlConnectionPool.DbProperties
-src.freecs.auth.sqlConnectionPool.PoolElement
-src.freecs.auth.sqlConnectionPool.SqlRunner
-src.freecs.auth.XmlRpcAuthenticator
-src.freecs.commands.AbstractCommand
-src.freecs.commands.CmdAccept
-src.freecs.commands.CmdAck
-src.freecs.commands.CmdAct
-src.freecs.commands.CmdAddFriend
-src.freecs.commands.CmdAway
-src.freecs.commands.CmdBan
-src.freecs.commands.CmdCallMemberships
-src.freecs.commands.CmdChangeBgcolor
-src.freecs.commands.CmdChangeColor
-src.freecs.commands.CmdClear
-src.freecs.commands.CmdFriendsOnly
-src.freecs.commands.CmdFun
-src.freecs.commands.CmdHitDice
-src.freecs.commands.CmdIgnore
-src.freecs.commands.CmdInvite
-src.freecs.commands.CmdInviteAll
-src.freecs.commands.CmdJoin
-src.freecs.commands.CmdJoinClosed
-src.freecs.commands.CmdJoinUser
-src.freecs.commands.CmdKick
-src.freecs.commands.CmdKickHard
-src.freecs.commands.CmdKickToRoom
-src.freecs.commands.CmdListAllFriends
-src.freecs.commands.CmdListBan
-src.freecs.commands.CmdListOnlineFriends
-src.freecs.commands.CmdListUsers
-src.freecs.commands.CmdListVips
-src.freecs.commands.CmdLock
-src.freecs.commands.CmdLockChangeForeignAction
-src.freecs.commands.CmdMyCol
-src.freecs.commands.CmdPrivateMessage
-src.freecs.commands.CmdPunish
-src.freecs.commands.CmdQuestion
-src.freecs.commands.CmdQuit
-src.freecs.commands.CmdRemoveFriend
-src.freecs.commands.CmdRepeatedPrivateMessage
-src.freecs.commands.CmdReplyMessage
-src.freecs.commands.CmdResetQuestioncounter
-src.freecs.commands.CmdRespectUser
-src.freecs.commands.CmdRightChange
-src.freecs.commands.CmdRSu
-src.freecs.commands.CmdSepa
-src.freecs.commands.CmdSetTheme
-src.freecs.commands.CmdShout
-src.freecs.commands.CmdShowIp
-src.freecs.commands.CmdShowTime
-src.freecs.commands.CmdShowUserDetail
-src.freecs.commands.CmdSu
-src.freecs.commands.CmdSys
-src.freecs.commands.CmdThink
-src.freecs.commands.CmdUnBan
-src.freecs.commands.CmdUnlock
-src.freecs.commands.CmdUnPunish
-src.freecs.commands.CommandSet
-src.freecs.content.ActionstoreObject
-src.freecs.content.BanObject
-src.freecs.content.CallMembershipObject
-src.freecs.content.Connection
-src.freecs.content.ContentContainer
-src.freecs.content.HTTPRequest
-src.freecs.content.MessageState
-src.freecs.content.PersonalizedMessage
-src.freecs.content.PrivateMessageStore
-src.freecs.core.CanceledRequestException
-src.freecs.core.CentralSelector
-src.freecs.core.CentralSelector$KeepAliveTimeoutChecker
-src.freecs.core.CleanupClass
-src.freecs.core.ConnectionBuffer
-src.freecs.core.Group
-src.freecs.core.GroupManager
-src.freecs.core.Listener
-src.freecs.core.Membership
-src.freecs.core.MembershipManager
-src.freecs.core.MessageParser
-src.freecs.core.MessageRenderer
-src.freecs.core.RequestEvaluator
-src.freecs.core.RequestMonitor
-src.freecs.core.RequestQueue
-src.freecs.core.RequestReader
-src.freecs.core.Responder
-src.freecs.core.ScheduledAction
-src.freecs.core.User
-src.freecs.core.UserManager
-src.freecs.core.UserManager$UserStore
-src.freecs.core.UserManager$UserStore$UserStoreIterator
-src.freecs.external.AbstractRequestHandler
-src.freecs.external.AccessForbiddenException
-src.freecs.external.AdminCore
-src.freecs.external.CmdConfirmHandler
-src.freecs.external.IRequestHandler
-src.freecs.external.StateRequestHandler
-src.freecs.external.StaticRequestHandler
-src.freecs.external.StaticRequestHandler$FileProperties
-src.freecs.external.UserlistManager
-src.freecs.external.UserlistRequestHandler
-src.freecs.external.WebadminRequestHandler
-src.freecs.external.xmlrpc.freecsXmlRpcHandler
-src.freecs.external.xmlrpc.XmlRpcManager
-src.freecs.interfaces.IActionStates
-src.freecs.interfaces.ICommand
-src.freecs.interfaces.IContainer
-src.freecs.interfaces.IGroupPlugin
-src.freecs.interfaces.IGroupReason
-src.freecs.interfaces.IGroupState
-src.freecs.interfaces.IMessageDestination
-src.freecs.interfaces.IReloadable
-src.freecs.interfaces.IRequest
-src.freecs.interfaces.IResponseHeaders
-src.freecs.interfaces.IServerPlugin
-src.freecs.interfaces.IUserStates
-src.freecs.interfaces.IXmlRpcHandler
-src.freecs.layout.Template
-src.freecs.layout.TemplateManager
-src.freecs.layout.TemplateSet
-src.freecs.Server
-src.freecs.util.CookieGenerator
-src.freecs.util.EntityDecoder
-src.freecs.util.FadeColor
-src.freecs.util.FileMonitor
-src.freecs.util.GroupUserList
-src.freecs.util.HashUtils
-src.freecs.util.HtmlEncoder
-src.freecs.util.HttpAuth
-src.freecs.util.HttpDateParser
-src.freecs.util.logger.LogCleaner
-src.freecs.util.logger.LogDestination
-src.freecs.util.logger.LogFile
-src.freecs.util.logger.LogFile$LogFileShrinker
-src.freecs.util.logger.LogWriter
-src.freecs.util.logger.LogWriter$LogEntry
-src.freecs.util.logger.LogWriterBenchmark
-src.freecs.util.MessageTemplateFinder
-src.freecs.util.ObjectBuffer
-src.freecs.util.TrafficMonitor
-src.freecs.util.TrafficMonitor$AddressState
+freecs.core.MessageParser	classe	21
+freecs.core.MessageRenderer	classe	10
+freecs.core.RequestEvaluator	classe	9
+freecs.core.Group	classe	78
+freecs.core.CanceledRequestException	classe	0
+freecs.core.CentralSelector	classe	16
+freecs.core.CentralSelector$KeepAliveTimeoutChecker	classe	1
+freecs.core.CleanupClass	classe	2
+freecs.core.User	classe	144
+freecs.core.ScheduledAction	classe	8
+freecs.core.ConnectionBuffer	classe	20
+freecs.core.MembershipManager	classe	11
+freecs.core.UserManager	classe	33
+freecs.core.UserManager$UserStore	classe	9
+freecs.core.UserManager$UserStore$UserStoreIterator	classe	3
+freecs.core.RequestReader	classe	17
+freecs.core.RequestQueue	classe	7
+freecs.core.Listener	classe	8
+freecs.core.RequestMonitor	classe	5
+freecs.core.Membership	classe	22
+freecs.core.GroupManager	classe	19
+freecs.core.Responder	classe	7
+freecs.util.TrafficMonitor	classe	5
+freecs.util.TrafficMonitor$AddressState	classe	0
+freecs.util.FileMonitor	classe	5
+freecs.util.CookieGenerator	classe	3
+freecs.util.logger.LogFile	classe	6
+freecs.util.logger.LogFile$LogFileShrinker	classe	1
+freecs.util.logger.LogCleaner	classe	7
+freecs.util.logger.LogWriterBenchmark	classe	2
+freecs.util.logger.LogDestination	interface	2
+freecs.util.logger.LogWriter	classe	9
+freecs.util.logger.LogWriter$LogEntry	classe	0
+freecs.util.GroupUserList	classe	4
+freecs.util.HttpAuth	classe	3
+freecs.util.FadeColor	classe	3
+freecs.util.ObjectBuffer	classe	12
+freecs.util.HtmlEncoder	classe	12
+freecs.util.EntityDecoder	classe	8
+freecs.util.HttpDateParser	classe	2
+freecs.util.MessageTemplateFinder	classe	2
+freecs.util.HashUtils	classe	1
+freecs.auth.AuthManager	classe	20
+freecs.auth.AbstractAuthenticator	classe	6
+freecs.auth.NoAuthentication	classe	5
+freecs.auth.sqlConnectionPool.ConnectionPool	classe	6
+freecs.auth.sqlConnectionPool.DbProperties	classe	5
+freecs.auth.sqlConnectionPool.PoolElement	classe	16
+freecs.auth.sqlConnectionPool.SqlRunner	classe	5
+freecs.auth.SQLAuthenticator	classe	6
+freecs.auth.IAuthenticator	interface	5
+freecs.auth.XmlRpcAuthenticator	classe	5
+freecs.layout.TemplateSet	classe	21
+freecs.layout.TemplateManager	classe	11
+freecs.layout.Template	classe	23
+freecs.content.MessageState	classe	4
+freecs.content.BanObject	classe	2
+freecs.content.PrivateMessageStore	classe	0
+freecs.content.CallMembershipObject	classe	0
+freecs.content.PersonalizedMessage	classe	5
+freecs.content.Connection	classe	7
+freecs.content.ContentContainer	classe	27
+freecs.content.ActionstoreObject	classe	3
+freecs.content.HTTPRequest	classe	19
+freecs.commands.CmdAct	classe	5
+freecs.commands.CmdLock	classe	5
+freecs.commands.CommandSet	classe	16
+freecs.commands.CmdUnlock	classe	5
+freecs.commands.CmdUnPunish	classe	5
+freecs.commands.CmdThink	classe	5
+freecs.commands.CmdShowIp	classe	7
+freecs.commands.CmdListOnlineFriends	classe	5
+freecs.commands.CmdRepeatedPrivateMessage	classe	5
+freecs.commands.CmdListAllFriends	classe	5
+freecs.commands.CmdResetQuestioncounter	classe	5
+freecs.commands.CmdJoinClosed	classe	6
+freecs.commands.CmdReplyMessage	classe	5
+freecs.commands.CmdPunish	classe	5
+freecs.commands.CmdRightChange	classe	6
+freecs.commands.CmdQuestion	classe	5
+freecs.commands.CmdAck	classe	5
+freecs.commands.CmdHitDice	classe	5
+freecs.commands.AbstractCommand	classe	28
+freecs.commands.CmdFriendsOnly	classe	5
+freecs.commands.CmdKickHard	classe	5
+freecs.commands.CmdAccept	classe	5
+freecs.commands.CmdBan	classe	5
+freecs.commands.CmdInviteAll	classe	6
+freecs.commands.CmdSys	classe	5
+freecs.commands.CmdUnBan	classe	5
+freecs.commands.CmdIgnore	classe	6
+freecs.commands.CmdInvite	classe	5
+freecs.commands.CmdShout	classe	5
+freecs.commands.CmdRSu	classe	6
+freecs.commands.CmdFun	classe	5
+freecs.commands.CmdQuit	classe	5
+freecs.commands.CmdSepa	classe	5
+freecs.commands.CmdRespectUser	classe	6
+freecs.commands.CmdShowTime	classe	5
+freecs.commands.CmdListUsers	classe	5
+freecs.commands.CmdAway	classe	6
+freecs.commands.CmdListVips	classe	5
+freecs.commands.CmdKick	classe	5
+freecs.commands.CmdChangeColor	classe	5
+freecs.commands.CmdAddFriend	classe	5
+freecs.commands.CmdChangeBgcolor	classe	8
+freecs.commands.CmdKickToRoom	classe	5
+freecs.commands.CmdSetTheme	classe	5
+freecs.commands.CmdPrivateMessage	classe	5
+freecs.commands.CmdJoin	classe	6
+freecs.commands.CmdLockChangeForeignAction	classe	8
+freecs.commands.CmdJoinUser	classe	6
+freecs.commands.CmdSu	classe	6
+freecs.commands.CmdClear	classe	5
+freecs.commands.CmdRemoveFriend	classe	5
+freecs.commands.CmdShowUserDetail	classe	5
+freecs.commands.CmdListBan	classe	6
+freecs.commands.CmdMyCol	classe	5
+freecs.commands.CmdCallMemberships	classe	5
+freecs.Server	classe	64
+freecs.external.IRequestHandler	interface	4
+freecs.external.CmdConfirmHandler	classe	5
+freecs.external.AccessForbiddenException	classe	1
+freecs.external.AdminCore	classe	5
+freecs.external.UserlistRequestHandler	classe	6
+freecs.external.AbstractRequestHandler	classe	4
+freecs.external.StaticRequestHandler	classe	5
+freecs.external.StaticRequestHandler$FileProperties	classe	0
+freecs.external.StateRequestHandler	classe	7
+freecs.external.WebadminRequestHandler	classe	34
+freecs.external.xmlrpc.XmlRpcManager	classe	2
+freecs.external.xmlrpc.freecsXmlRpcHandler	classe	12
+freecs.external.UserlistManager	classe	7
+freecs.interfaces.IRequest	interface	14
+freecs.interfaces.IUserStates	interface	0
+freecs.interfaces.IGroupState	interface	0
+freecs.interfaces.IActionStates	interface	0
+freecs.interfaces.IMessageDestination	interface	3
+freecs.interfaces.ICommand	interface	4
+freecs.interfaces.IServerPlugin	interface	13
+freecs.interfaces.IGroupReason	interface	0
+freecs.interfaces.IResponseHeaders	interface	0
+freecs.interfaces.IGroupPlugin	interface	6
+freecs.interfaces.IContainer	interface	3
+freecs.interfaces.IXmlRpcHandler	interface	3
+freecs.interfaces.IReloadable	interface	6

@@ -1,1064 +1,1065 @@
-com.hp.hpl.jena.assembler.Assembler
-com.hp.hpl.jena.assembler.AssemblerHelp
-com.hp.hpl.jena.assembler.assemblers.AssemblerBase
-com.hp.hpl.jena.assembler.assemblers.AssemblerBase$MapObjectToContent
-com.hp.hpl.jena.assembler.assemblers.AssemblerGroup
-com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$Frame
-com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$ExpandingAssemblerGroup
-com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$PlainAssemblerGroup
-com.hp.hpl.jena.assembler.assemblers.ConnectionAssembler
-com.hp.hpl.jena.assembler.assemblers.ContentAssembler
-com.hp.hpl.jena.assembler.assemblers.ContentAssembler$HashSetWith
-com.hp.hpl.jena.assembler.assemblers.DefaultModelAssembler
-com.hp.hpl.jena.assembler.assemblers.DocumentManagerAssembler
-com.hp.hpl.jena.assembler.assemblers.FileManagerAssembler
-com.hp.hpl.jena.assembler.assemblers.FileModelAssembler
-com.hp.hpl.jena.assembler.assemblers.InfModelAssembler
-com.hp.hpl.jena.assembler.assemblers.LocationMapperAssembler
-com.hp.hpl.jena.assembler.assemblers.MemoryModelAssembler
-com.hp.hpl.jena.assembler.assemblers.ModelAssembler
-com.hp.hpl.jena.assembler.assemblers.ModelSourceAssembler
-com.hp.hpl.jena.assembler.assemblers.NamedModelAssembler
-com.hp.hpl.jena.assembler.assemblers.OntModelAssembler
-com.hp.hpl.jena.assembler.assemblers.OntModelSpecAssembler
-com.hp.hpl.jena.assembler.assemblers.PrefixMappingAssembler
-com.hp.hpl.jena.assembler.assemblers.RDBModelAssembler
-com.hp.hpl.jena.assembler.assemblers.ReasonerFactoryAssembler
-com.hp.hpl.jena.assembler.assemblers.RuleSetAssembler
-com.hp.hpl.jena.assembler.assemblers.UnionModelAssembler
-com.hp.hpl.jena.assembler.BadObjectException
-com.hp.hpl.jena.assembler.ConnectionDescription
-com.hp.hpl.jena.assembler.Content
-com.hp.hpl.jena.assembler.exceptions.AmbiguousSpecificTypeException
-com.hp.hpl.jena.assembler.exceptions.AssemblerException
-com.hp.hpl.jena.assembler.exceptions.CannotConstructException
-com.hp.hpl.jena.assembler.exceptions.CannotHaveRulesException
-com.hp.hpl.jena.assembler.exceptions.CannotLoadClassException
-com.hp.hpl.jena.assembler.exceptions.NoImplementationException
-com.hp.hpl.jena.assembler.exceptions.NoSpecificTypeException
-com.hp.hpl.jena.assembler.exceptions.NotExpectedTypeException
-com.hp.hpl.jena.assembler.exceptions.NotUniqueException
-com.hp.hpl.jena.assembler.exceptions.PropertyRequiredException
-com.hp.hpl.jena.assembler.exceptions.ReasonerClashException
-com.hp.hpl.jena.assembler.exceptions.TransactionAbortedException
-com.hp.hpl.jena.assembler.exceptions.UnknownEncodingException
-com.hp.hpl.jena.assembler.exceptions.UnknownReasonerException
-com.hp.hpl.jena.assembler.exceptions.UnknownStyleException
-com.hp.hpl.jena.assembler.ImportManager
-com.hp.hpl.jena.assembler.JA
-com.hp.hpl.jena.assembler.Mode
-com.hp.hpl.jena.assembler.ModelExpansion
-com.hp.hpl.jena.assembler.ModelExpansion$LinkedSeq
-com.hp.hpl.jena.assembler.RuleSet
-com.hp.hpl.jena.datatypes.BaseDatatype
-com.hp.hpl.jena.datatypes.BaseDatatype$TypedValue
-com.hp.hpl.jena.datatypes.DatatypeFormatException
-com.hp.hpl.jena.datatypes.RDFDatatype
-com.hp.hpl.jena.datatypes.TypeMapper
-com.hp.hpl.jena.datatypes.xsd.AbstractDateTime
-com.hp.hpl.jena.datatypes.xsd.IllegalDateTimeFieldException
-com.hp.hpl.jena.datatypes.xsd.impl.XMLLiteralType
-com.hp.hpl.jena.datatypes.xsd.impl.XSDAbstractDateTimeType
-com.hp.hpl.jena.datatypes.xsd.impl.XSDBaseNumericType
-com.hp.hpl.jena.datatypes.xsd.impl.XSDBaseStringType
-com.hp.hpl.jena.datatypes.xsd.impl.XSDByteType
-com.hp.hpl.jena.datatypes.xsd.impl.XSDDateTimeType
-com.hp.hpl.jena.datatypes.xsd.impl.XSDDateType
-com.hp.hpl.jena.datatypes.xsd.impl.XSDDayType
-com.hp.hpl.jena.datatypes.xsd.impl.XSDDouble
-com.hp.hpl.jena.datatypes.xsd.impl.XSDDurationType
-com.hp.hpl.jena.datatypes.xsd.impl.XSDFloat
-com.hp.hpl.jena.datatypes.xsd.impl.XSDGenericType
-com.hp.hpl.jena.datatypes.xsd.impl.XSDMonthDayType
-com.hp.hpl.jena.datatypes.xsd.impl.XSDMonthType
-com.hp.hpl.jena.datatypes.xsd.impl.XSDTimeType
-com.hp.hpl.jena.datatypes.xsd.impl.XSDYearMonthType
-com.hp.hpl.jena.datatypes.xsd.impl.XSDYearType
-com.hp.hpl.jena.datatypes.xsd.XSDbase64Binary
-com.hp.hpl.jena.datatypes.xsd.XSDDatatype
-com.hp.hpl.jena.datatypes.xsd.XSDDateTime
-com.hp.hpl.jena.datatypes.xsd.XSDDuration
-com.hp.hpl.jena.datatypes.xsd.XSDhexBinary
-com.hp.hpl.jena.db.DBConnection
-com.hp.hpl.jena.db.GraphRDB
-com.hp.hpl.jena.db.IDBConnection
-com.hp.hpl.jena.db.impl.DBBlob
-com.hp.hpl.jena.db.impl.DBBulkUpdateHandler
-com.hp.hpl.jena.db.impl.DBIDInt
-com.hp.hpl.jena.db.impl.DBPattern
-com.hp.hpl.jena.db.impl.DBPrefixMappingImpl
-com.hp.hpl.jena.db.impl.DBProp
-com.hp.hpl.jena.db.impl.DBPropDatabase
-com.hp.hpl.jena.db.impl.DBPropDatabase$MapToLSet
-com.hp.hpl.jena.db.impl.DBPropGraph
-com.hp.hpl.jena.db.impl.DBPropGraph$MapToLSet
-com.hp.hpl.jena.db.impl.DBPropGraph$MapToPrefix
-com.hp.hpl.jena.db.impl.DBPropLSet
-com.hp.hpl.jena.db.impl.DBPropPrefix
-com.hp.hpl.jena.db.impl.DBPropPSet
-com.hp.hpl.jena.db.impl.DBQuery
-com.hp.hpl.jena.db.impl.DBQueryHandler
-com.hp.hpl.jena.db.impl.DBQueryHandler$StageSequence
-com.hp.hpl.jena.db.impl.DBQueryStage
-com.hp.hpl.jena.db.impl.DBQueryStageCompiler
-com.hp.hpl.jena.db.impl.DBReifier
-com.hp.hpl.jena.db.impl.DBReifierGraph
-com.hp.hpl.jena.db.impl.DBTransactionHandler
-com.hp.hpl.jena.db.impl.DriverMap
-com.hp.hpl.jena.db.impl.DriverRDB
-com.hp.hpl.jena.db.impl.DriverRDB$ParseInt
-com.hp.hpl.jena.db.impl.DriverRDB$RDBLongObject
-com.hp.hpl.jena.db.impl.Driver_Derby
-com.hp.hpl.jena.db.impl.Driver_HSQL
-com.hp.hpl.jena.db.impl.Driver_HSQLDB
-com.hp.hpl.jena.db.impl.Driver_MsSQL
-com.hp.hpl.jena.db.impl.Driver_MySQL
-com.hp.hpl.jena.db.impl.Driver_Oracle
-com.hp.hpl.jena.db.impl.Driver_Oracle_LOB
-com.hp.hpl.jena.db.impl.Driver_Oracle_LOB$BLOB
-com.hp.hpl.jena.db.impl.Driver_Oracle_LOB$OracleResultSet
-com.hp.hpl.jena.db.impl.Driver_PostgreSQL
-com.hp.hpl.jena.db.impl.Free
-com.hp.hpl.jena.db.impl.GraphRDBMaker
-com.hp.hpl.jena.db.impl.ICache
-com.hp.hpl.jena.db.impl.IDBBlob
-com.hp.hpl.jena.db.impl.IDBID
-com.hp.hpl.jena.db.impl.IPSet
-com.hp.hpl.jena.db.impl.IRDBDriver
-com.hp.hpl.jena.db.impl.IRDBDriver$GenSQLAnd
-com.hp.hpl.jena.db.impl.LRUCache
-com.hp.hpl.jena.db.impl.PSet_ReifStore_RDB
-com.hp.hpl.jena.db.impl.PSet_ReifStore_RDB$MapResultSetToNode
-com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB
-com.hp.hpl.jena.db.impl.ReificationCache
-com.hp.hpl.jena.db.impl.ReificationCacheMap
-com.hp.hpl.jena.db.impl.ReificationStatementMask
-com.hp.hpl.jena.db.impl.ResultSetIterator
-com.hp.hpl.jena.db.impl.ResultSetReifIterator
-com.hp.hpl.jena.db.impl.ResultSetStringIterator
-com.hp.hpl.jena.db.impl.ResultSetTripleIterator
-com.hp.hpl.jena.db.impl.SimpleCache
-com.hp.hpl.jena.db.impl.SpecializedGraph
-com.hp.hpl.jena.db.impl.SpecializedGraph$CompletionFlag
-com.hp.hpl.jena.db.impl.SpecializedGraphBase
-com.hp.hpl.jena.db.impl.SpecializedGraphReifier
-com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB
-com.hp.hpl.jena.db.impl.SpecializedGraph_TripleStore
-com.hp.hpl.jena.db.impl.SpecializedGraph_TripleStore_RDB
-com.hp.hpl.jena.db.impl.SQLCache
-com.hp.hpl.jena.db.impl.VarDesc
-com.hp.hpl.jena.db.ModelRDB
-com.hp.hpl.jena.db.RDFRDBException
-com.hp.hpl.jena.enhanced.AlreadyLinkedViewException
-com.hp.hpl.jena.enhanced.BuiltinPersonalities
-com.hp.hpl.jena.enhanced.EnhGraph
-com.hp.hpl.jena.enhanced.EnhNode
-com.hp.hpl.jena.enhanced.GraphPersonality
-com.hp.hpl.jena.enhanced.Implementation
-com.hp.hpl.jena.enhanced.NodePersonality
-com.hp.hpl.jena.enhanced.Personality
-com.hp.hpl.jena.enhanced.PersonalityConfigException
-com.hp.hpl.jena.enhanced.Polymorphic
-com.hp.hpl.jena.enhanced.UnsupportedPolymorphismException
-com.hp.hpl.jena.graph.BulkUpdateHandler
-com.hp.hpl.jena.graph.Capabilities
-com.hp.hpl.jena.graph.compose.CompositionBase
-com.hp.hpl.jena.graph.compose.Delta
-com.hp.hpl.jena.graph.compose.DisjointUnion
-com.hp.hpl.jena.graph.compose.Intersection
-com.hp.hpl.jena.graph.compose.MultiUnion
-com.hp.hpl.jena.graph.compose.MultiUnion$MultiUnionStatisticsHandler
-com.hp.hpl.jena.graph.compose.Polyadic
-com.hp.hpl.jena.graph.compose.PolyadicPrefixMappingImpl
-com.hp.hpl.jena.graph.compose.Union
-com.hp.hpl.jena.graph.Factory
-com.hp.hpl.jena.graph.FrontsNode
-com.hp.hpl.jena.graph.FrontsTriple
-com.hp.hpl.jena.graph.GetTriple
-com.hp.hpl.jena.graph.Graph
-com.hp.hpl.jena.graph.GraphAdd
-com.hp.hpl.jena.graph.GraphEventManager
-com.hp.hpl.jena.graph.GraphEvents
-com.hp.hpl.jena.graph.GraphExtract
-com.hp.hpl.jena.graph.GraphExtract$Extraction
-com.hp.hpl.jena.graph.GraphListener
-com.hp.hpl.jena.graph.GraphMaker
-com.hp.hpl.jena.graph.GraphStatisticsHandler
-com.hp.hpl.jena.graph.GraphUtil
-com.hp.hpl.jena.graph.impl.AllCapabilities
-com.hp.hpl.jena.graph.impl.BaseGraphMaker
-com.hp.hpl.jena.graph.impl.FileGraph
-com.hp.hpl.jena.graph.impl.FileGraph$NotifyOnClose
-com.hp.hpl.jena.graph.impl.FileGraphMaker
-com.hp.hpl.jena.graph.impl.FileGraphTransactionHandler
-com.hp.hpl.jena.graph.impl.Fragments
-com.hp.hpl.jena.graph.impl.Fragments$GetSlot
-com.hp.hpl.jena.graph.impl.FragmentTripleIterator
-com.hp.hpl.jena.graph.impl.GraphAddList
-com.hp.hpl.jena.graph.impl.GraphBase
-com.hp.hpl.jena.graph.impl.GraphMatcher
-com.hp.hpl.jena.graph.impl.GraphMatcher$SomeResource
-com.hp.hpl.jena.graph.impl.GraphMatcher$FixedResource
-com.hp.hpl.jena.graph.impl.GraphMatcher$AnonStatement
-com.hp.hpl.jena.graph.impl.GraphMatcher$Bucket
-com.hp.hpl.jena.graph.impl.GraphMatcher$AnonResource
-com.hp.hpl.jena.graph.impl.GraphMatcher$AnonResource$StatementWrapper
-com.hp.hpl.jena.graph.impl.GraphWithPerform
-com.hp.hpl.jena.graph.impl.LiteralLabel
-com.hp.hpl.jena.graph.impl.LiteralLabelFactory
-com.hp.hpl.jena.graph.impl.LiteralLabelImpl
-com.hp.hpl.jena.graph.impl.ReificationWrapper
-com.hp.hpl.jena.graph.impl.ReificationWrapperGraph
-com.hp.hpl.jena.graph.impl.ReifierFragmentHandler
-com.hp.hpl.jena.graph.impl.ReifierFragmentsMap
-com.hp.hpl.jena.graph.impl.ReifierTripleMap
-com.hp.hpl.jena.graph.impl.SimpleBulkUpdateHandler
-com.hp.hpl.jena.graph.impl.SimpleEventManager
-com.hp.hpl.jena.graph.impl.SimpleGraphMaker
-com.hp.hpl.jena.graph.impl.SimpleReifier
-com.hp.hpl.jena.graph.impl.SimpleReifierFragmentHandler
-com.hp.hpl.jena.graph.impl.SimpleReifierFragmentsMap
-com.hp.hpl.jena.graph.impl.SimpleReifierTripleMap
-com.hp.hpl.jena.graph.impl.SimpleTransactionHandler
-com.hp.hpl.jena.graph.impl.TransactionHandlerBase
-com.hp.hpl.jena.graph.impl.TripleStore
-com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler
-com.hp.hpl.jena.graph.impl.WrappedGraph
-com.hp.hpl.jena.graph.impl.WrappedReifier
-com.hp.hpl.jena.graph.Node
-com.hp.hpl.jena.graph.Node$NotLiteral
-com.hp.hpl.jena.graph.Node$NodeMaker
-com.hp.hpl.jena.graph.NodeCache
-com.hp.hpl.jena.graph.NodeVisitor
-com.hp.hpl.jena.graph.Node_ANY
-com.hp.hpl.jena.graph.Node_Blank
-com.hp.hpl.jena.graph.Node_Concrete
-com.hp.hpl.jena.graph.Node_Fluid
-com.hp.hpl.jena.graph.Node_Literal
-com.hp.hpl.jena.graph.Node_NULL
-com.hp.hpl.jena.graph.Node_URI
-com.hp.hpl.jena.graph.Node_Variable
-com.hp.hpl.jena.graph.Node_Variable$VariableName
-com.hp.hpl.jena.graph.query.Applyer
-com.hp.hpl.jena.graph.query.Bind
-com.hp.hpl.jena.graph.query.BindingQueryPlan
-com.hp.hpl.jena.graph.query.BufferPipe
-com.hp.hpl.jena.graph.query.BufferPipe$Finished
-com.hp.hpl.jena.graph.query.BufferPipe$BoundedBufferTakeException
-com.hp.hpl.jena.graph.query.BufferPipe$BoundedBufferPutException
-com.hp.hpl.jena.graph.query.ConstraintStage
-com.hp.hpl.jena.graph.query.Domain
-com.hp.hpl.jena.graph.query.Element
-com.hp.hpl.jena.graph.query.Expression
-com.hp.hpl.jena.graph.query.Expression$Base
-com.hp.hpl.jena.graph.query.Expression$Constant
-com.hp.hpl.jena.graph.query.Expression$Fixed
-com.hp.hpl.jena.graph.query.Expression$Variable
-com.hp.hpl.jena.graph.query.Expression$Application
-com.hp.hpl.jena.graph.query.Expression$Util
-com.hp.hpl.jena.graph.query.Expression$Valof
-com.hp.hpl.jena.graph.query.Expression$BoolConstant
-com.hp.hpl.jena.graph.query.ExpressionFunctionURIs
-com.hp.hpl.jena.graph.query.ExpressionSet
-com.hp.hpl.jena.graph.query.Fixed
-com.hp.hpl.jena.graph.query.FixedValuator
-com.hp.hpl.jena.graph.query.GuardArranger
-com.hp.hpl.jena.graph.query.IndexValues
-com.hp.hpl.jena.graph.query.InitialStage
-com.hp.hpl.jena.graph.query.Mapping
-com.hp.hpl.jena.graph.query.Matcher
-com.hp.hpl.jena.graph.query.NamedGraphMap
-com.hp.hpl.jena.graph.query.NamedTripleBunches
-com.hp.hpl.jena.graph.query.Pattern
-com.hp.hpl.jena.graph.query.PatternCompiler
-com.hp.hpl.jena.graph.query.PatternLiteral
-com.hp.hpl.jena.graph.query.PatternStage
-com.hp.hpl.jena.graph.query.PatternStageBase
-com.hp.hpl.jena.graph.query.PatternStageBase$PatternStageThread
-com.hp.hpl.jena.graph.query.PatternStageBase$Work
-com.hp.hpl.jena.graph.query.PatternStageCompiler
-com.hp.hpl.jena.graph.query.Pipe
-com.hp.hpl.jena.graph.query.Query
-com.hp.hpl.jena.graph.query.Query$UnboundVariableException
-com.hp.hpl.jena.graph.query.QueryHandler
-com.hp.hpl.jena.graph.query.QueryNode
-com.hp.hpl.jena.graph.query.QueryNode$MustNotMatchException
-com.hp.hpl.jena.graph.query.QueryNode$Fixed
-com.hp.hpl.jena.graph.query.QueryNode$Bind
-com.hp.hpl.jena.graph.query.QueryNode$JustBound
-com.hp.hpl.jena.graph.query.QueryNode$Bound
-com.hp.hpl.jena.graph.query.QueryNode$Any
-com.hp.hpl.jena.graph.query.QueryNodeFactory
-com.hp.hpl.jena.graph.query.QueryNodeFactoryBase
-com.hp.hpl.jena.graph.query.QueryTriple
-com.hp.hpl.jena.graph.query.QueryTriple$SimpleApplyer
-com.hp.hpl.jena.graph.query.regexptrees.Alternatives
-com.hp.hpl.jena.graph.query.regexptrees.AnyOf
-com.hp.hpl.jena.graph.query.regexptrees.AnySingle
-com.hp.hpl.jena.graph.query.regexptrees.BackReference
-com.hp.hpl.jena.graph.query.regexptrees.EndOfLine
-com.hp.hpl.jena.graph.query.regexptrees.MultiOperandTree
-com.hp.hpl.jena.graph.query.regexptrees.NoneOf
-com.hp.hpl.jena.graph.query.regexptrees.Nothing
-com.hp.hpl.jena.graph.query.regexptrees.OneOrMore
-com.hp.hpl.jena.graph.query.regexptrees.Optional
-com.hp.hpl.jena.graph.query.regexptrees.Paren
-com.hp.hpl.jena.graph.query.regexptrees.PerlPatternParser
-com.hp.hpl.jena.graph.query.regexptrees.PerlPatternParser$SyntaxException
-com.hp.hpl.jena.graph.query.regexptrees.RegexpTree
-com.hp.hpl.jena.graph.query.regexptrees.RegexpTreeGenerator
-com.hp.hpl.jena.graph.query.regexptrees.Repeated
-com.hp.hpl.jena.graph.query.regexptrees.Sequence
-com.hp.hpl.jena.graph.query.regexptrees.SimpleGenerator
-com.hp.hpl.jena.graph.query.regexptrees.StartOfLine
-com.hp.hpl.jena.graph.query.regexptrees.Text
-com.hp.hpl.jena.graph.query.regexptrees.Text$TextString
-com.hp.hpl.jena.graph.query.regexptrees.Text$TextChar
-com.hp.hpl.jena.graph.query.regexptrees.ZeroOrMore
-com.hp.hpl.jena.graph.query.Rewrite
-com.hp.hpl.jena.graph.query.Rewrite$DyadicLiteral
-com.hp.hpl.jena.graph.query.SimpleQueryEngine
-com.hp.hpl.jena.graph.query.SimpleQueryEngine$Cons
-com.hp.hpl.jena.graph.query.SimpleQueryHandler
-com.hp.hpl.jena.graph.query.SimpleQueryPlan
-com.hp.hpl.jena.graph.query.SimpleTreeQueryPlan
-com.hp.hpl.jena.graph.query.SimpleTripleSorter
-com.hp.hpl.jena.graph.query.SlotValuator
-com.hp.hpl.jena.graph.query.Stage
-com.hp.hpl.jena.graph.query.StageElement
-com.hp.hpl.jena.graph.query.StageElement$PutBindings
-com.hp.hpl.jena.graph.query.StageElement$FindTriples
-com.hp.hpl.jena.graph.query.StageElement$RunValuatorSet
-com.hp.hpl.jena.graph.query.TreeQueryPlan
-com.hp.hpl.jena.graph.query.TripleSorter
-com.hp.hpl.jena.graph.query.Valuator
-com.hp.hpl.jena.graph.query.ValuatorSet
-com.hp.hpl.jena.graph.query.VariableIndexes
-com.hp.hpl.jena.graph.query.VariableValues
-com.hp.hpl.jena.graph.Reifier
-com.hp.hpl.jena.graph.Reifier$Util
-com.hp.hpl.jena.graph.TransactionHandler
-com.hp.hpl.jena.graph.Triple
-com.hp.hpl.jena.graph.Triple$Field
-com.hp.hpl.jena.graph.TripleBoundary
-com.hp.hpl.jena.graph.TripleCache
-com.hp.hpl.jena.graph.TripleIterator
-com.hp.hpl.jena.graph.TripleMatch
-com.hp.hpl.jena.graph.TripleMatchFilter
-com.hp.hpl.jena.graph.TripleMatchIterator
-com.hp.hpl.jena.Jena
-com.hp.hpl.jena.JenaRuntime
-com.hp.hpl.jena.mem.ArrayBunch
-com.hp.hpl.jena.mem.BunchMap
-com.hp.hpl.jena.mem.faster.FasterPatternStage
-com.hp.hpl.jena.mem.faster.FasterTripleStore
-com.hp.hpl.jena.mem.faster.GraphMemFaster
-com.hp.hpl.jena.mem.faster.GraphMemFaster$GraphMemFasterStatisticsHandler
-com.hp.hpl.jena.mem.faster.GraphMemFaster$GraphMemFasterStatisticsHandler$C
-com.hp.hpl.jena.mem.faster.GraphMemFasterQueryHandler
-com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster
-com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$NotifyMe
-com.hp.hpl.jena.mem.faster.ProcessedTriple
-com.hp.hpl.jena.mem.GraphMem
-com.hp.hpl.jena.mem.GraphMemBase
-com.hp.hpl.jena.mem.GraphMemBaseQueryHandler
-com.hp.hpl.jena.mem.GraphMemBulkUpdateHandler
-com.hp.hpl.jena.mem.GraphTripleStore
-com.hp.hpl.jena.mem.GraphTripleStoreBase
-com.hp.hpl.jena.mem.HashCommon
-com.hp.hpl.jena.mem.HashCommon$NotifyEmpty
-com.hp.hpl.jena.mem.HashCommon$MovedKeysIterator
-com.hp.hpl.jena.mem.HashCommon$BasicKeyIterator
-com.hp.hpl.jena.mem.HashedBunchMap
-com.hp.hpl.jena.mem.HashedTripleBunch
-com.hp.hpl.jena.mem.MatchOrBind
-com.hp.hpl.jena.mem.MixedGraphMem
-com.hp.hpl.jena.mem.MixedGraphMemStore
-com.hp.hpl.jena.mem.NodeToTriplesMap
-com.hp.hpl.jena.mem.NodeToTriplesMap$OpenSetBunch
-com.hp.hpl.jena.mem.NodeToTriplesMapBase
-com.hp.hpl.jena.mem.NotifyMe
-com.hp.hpl.jena.mem.ObjectIterator
-com.hp.hpl.jena.mem.SetBunch
-com.hp.hpl.jena.mem.SmallGraphMem
-com.hp.hpl.jena.mem.StoreTripleIterator
-com.hp.hpl.jena.mem.TrackingTripleIterator
-com.hp.hpl.jena.mem.TripleBunch
-com.hp.hpl.jena.mem.WrappedHashMap
-com.hp.hpl.jena.n3.IRIResolver
-com.hp.hpl.jena.n3.JenaReaderBase
-com.hp.hpl.jena.n3.JenaURIException
-com.hp.hpl.jena.n3.N3IndentedWriter
-com.hp.hpl.jena.n3.N3JenaWriter
-com.hp.hpl.jena.n3.N3JenaWriterCommon
-com.hp.hpl.jena.n3.N3JenaWriterPlain
-com.hp.hpl.jena.n3.N3JenaWriterPP
-com.hp.hpl.jena.n3.N3JenaWriterTriples
-com.hp.hpl.jena.n3.N3TurtleJenaWriter
-com.hp.hpl.jena.n3.RelativeURIException
-com.hp.hpl.jena.n3.turtle.LabelToNodeMap
-com.hp.hpl.jena.n3.turtle.parser.JavaCharStream
-com.hp.hpl.jena.n3.turtle.parser.Token
-com.hp.hpl.jena.n3.turtle.parser.TokenMgrError
-com.hp.hpl.jena.n3.turtle.parser.TurtleParser
-com.hp.hpl.jena.n3.turtle.parser.TurtleParserConstants
-com.hp.hpl.jena.n3.turtle.parser.TurtleParserTokenManager
-com.hp.hpl.jena.n3.turtle.ParserBase
-com.hp.hpl.jena.n3.turtle.ParserTurtle
-com.hp.hpl.jena.n3.turtle.Turtle2NTriples
-com.hp.hpl.jena.n3.turtle.TurtleEventDump
-com.hp.hpl.jena.n3.turtle.TurtleEventHandler
-com.hp.hpl.jena.n3.turtle.TurtleEventNull
-com.hp.hpl.jena.n3.turtle.TurtleParseException
-com.hp.hpl.jena.n3.turtle.TurtleRDFGraphInserter
-com.hp.hpl.jena.n3.turtle.TurtleReader
-com.hp.hpl.jena.ontology.AllDifferent
-com.hp.hpl.jena.ontology.AllValuesFromRestriction
-com.hp.hpl.jena.ontology.AnnotationProperty
-com.hp.hpl.jena.ontology.BooleanClassDescription
-com.hp.hpl.jena.ontology.CardinalityQRestriction
-com.hp.hpl.jena.ontology.CardinalityRestriction
-com.hp.hpl.jena.ontology.ComplementClass
-com.hp.hpl.jena.ontology.ConversionException
-com.hp.hpl.jena.ontology.DataRange
-com.hp.hpl.jena.ontology.DatatypeProperty
-com.hp.hpl.jena.ontology.EnumeratedClass
-com.hp.hpl.jena.ontology.FunctionalProperty
-com.hp.hpl.jena.ontology.HasValueRestriction
-com.hp.hpl.jena.ontology.impl.AbstractProfile
-com.hp.hpl.jena.ontology.impl.AllDifferentImpl
-com.hp.hpl.jena.ontology.impl.AllValuesFromRestrictionImpl
-com.hp.hpl.jena.ontology.impl.AnnotationPropertyImpl
-com.hp.hpl.jena.ontology.impl.BooleanClassDescriptionImpl
-com.hp.hpl.jena.ontology.impl.CardinalityQRestrictionImpl
-com.hp.hpl.jena.ontology.impl.CardinalityRestrictionImpl
-com.hp.hpl.jena.ontology.impl.ComplementClassImpl
-com.hp.hpl.jena.ontology.impl.DAML_OILLegacyProfile
-com.hp.hpl.jena.ontology.impl.DAML_OILLegacyProfile$SupportsCheck
-com.hp.hpl.jena.ontology.impl.DAML_OILProfile
-com.hp.hpl.jena.ontology.impl.DAML_OILProfile$SupportsCheck
-com.hp.hpl.jena.ontology.impl.DataRangeImpl
-com.hp.hpl.jena.ontology.impl.DatatypePropertyImpl
-com.hp.hpl.jena.ontology.impl.EnumeratedClassImpl
-com.hp.hpl.jena.ontology.impl.FunctionalPropertyImpl
-com.hp.hpl.jena.ontology.impl.HasValueRestrictionImpl
-com.hp.hpl.jena.ontology.impl.IndividualImpl
-com.hp.hpl.jena.ontology.impl.IntersectionClassImpl
-com.hp.hpl.jena.ontology.impl.InverseFunctionalPropertyImpl
-com.hp.hpl.jena.ontology.impl.MaxCardinalityQRestrictionImpl
-com.hp.hpl.jena.ontology.impl.MaxCardinalityRestrictionImpl
-com.hp.hpl.jena.ontology.impl.MinCardinalityQRestrictionImpl
-com.hp.hpl.jena.ontology.impl.MinCardinalityRestrictionImpl
-com.hp.hpl.jena.ontology.impl.ObjectPropertyImpl
-com.hp.hpl.jena.ontology.impl.OntClassImpl
-com.hp.hpl.jena.ontology.impl.OntModelImpl
-com.hp.hpl.jena.ontology.impl.OntModelImpl$SubjectNodeAs
-com.hp.hpl.jena.ontology.impl.OntModelImpl$NodeAs
-com.hp.hpl.jena.ontology.impl.OntModelImpl$NodeCanAs
-com.hp.hpl.jena.ontology.impl.OntModelImpl$SubjectNodeCanAs
-com.hp.hpl.jena.ontology.impl.OntModelImpl$GetBinding
-com.hp.hpl.jena.ontology.impl.OntModelImpl$RdfTypeTestFn
-com.hp.hpl.jena.ontology.impl.OntModelImpl$ImportsListener
-com.hp.hpl.jena.ontology.impl.OntologyImpl
-com.hp.hpl.jena.ontology.impl.OntPropertyImpl
-com.hp.hpl.jena.ontology.impl.OntPropertyImpl$FilterDeclaringClass
-com.hp.hpl.jena.ontology.impl.OntResourceImpl
-com.hp.hpl.jena.ontology.impl.OntResourceImpl$AsMapper
-com.hp.hpl.jena.ontology.impl.OntResourceImpl$ResourceAsMapper
-com.hp.hpl.jena.ontology.impl.OntResourceImpl$SubjectAsMapper
-com.hp.hpl.jena.ontology.impl.OntResourceImpl$SubjectMapper
-com.hp.hpl.jena.ontology.impl.OntResourceImpl$ObjectAsMapper
-com.hp.hpl.jena.ontology.impl.OntResourceImpl$ObjectAsStringMapper
-com.hp.hpl.jena.ontology.impl.OntResourceImpl$ObjectMapper
-com.hp.hpl.jena.ontology.impl.OntResourceImpl$ObjectAsOntResourceMapper
-com.hp.hpl.jena.ontology.impl.OntResourceImpl$LangTagFilter
-com.hp.hpl.jena.ontology.impl.OntResourceImpl$SingleEqualityFilter
-com.hp.hpl.jena.ontology.impl.OWLDLProfile
-com.hp.hpl.jena.ontology.impl.OWLLiteProfile
-com.hp.hpl.jena.ontology.impl.OWLProfile
-com.hp.hpl.jena.ontology.impl.OWLProfile$SupportsCheck
-com.hp.hpl.jena.ontology.impl.QualifiedRestrictionImpl
-com.hp.hpl.jena.ontology.impl.RDFSProfile
-com.hp.hpl.jena.ontology.impl.RDFSProfile$SupportsCheck
-com.hp.hpl.jena.ontology.impl.RestrictionImpl
-com.hp.hpl.jena.ontology.impl.SomeValuesFromRestrictionImpl
-com.hp.hpl.jena.ontology.impl.SymmetricPropertyImpl
-com.hp.hpl.jena.ontology.impl.TransitivePropertyImpl
-com.hp.hpl.jena.ontology.impl.UnionClassImpl
-com.hp.hpl.jena.ontology.Individual
-com.hp.hpl.jena.ontology.IntersectionClass
-com.hp.hpl.jena.ontology.InverseFunctionalProperty
-com.hp.hpl.jena.ontology.LanguageConsistencyException
-com.hp.hpl.jena.ontology.MaxCardinalityQRestriction
-com.hp.hpl.jena.ontology.MaxCardinalityRestriction
-com.hp.hpl.jena.ontology.MinCardinalityQRestriction
-com.hp.hpl.jena.ontology.MinCardinalityRestriction
-com.hp.hpl.jena.ontology.ObjectProperty
-com.hp.hpl.jena.ontology.OntClass
-com.hp.hpl.jena.ontology.OntDocumentManager
-com.hp.hpl.jena.ontology.OntDocumentManager$ReadFailureHandler
-com.hp.hpl.jena.ontology.OntDocumentManager$ReadHook
-com.hp.hpl.jena.ontology.OntDocumentManager$DefaultReadHook
-com.hp.hpl.jena.ontology.OntModel
-com.hp.hpl.jena.ontology.OntModelSpec
-com.hp.hpl.jena.ontology.Ontology
-com.hp.hpl.jena.ontology.OntologyException
-com.hp.hpl.jena.ontology.OntProperty
-com.hp.hpl.jena.ontology.OntResource
-com.hp.hpl.jena.ontology.OntTools
-com.hp.hpl.jena.ontology.OntTools$DisjointSet
-com.hp.hpl.jena.ontology.OntTools$LCAIndex
-com.hp.hpl.jena.ontology.OntTools$Path
-com.hp.hpl.jena.ontology.OntTools$PredicatesFilter
-com.hp.hpl.jena.ontology.Profile
-com.hp.hpl.jena.ontology.ProfileException
-com.hp.hpl.jena.ontology.ProfileRegistry
-com.hp.hpl.jena.ontology.QualifiedRestriction
-com.hp.hpl.jena.ontology.Restriction
-com.hp.hpl.jena.ontology.SomeValuesFromRestriction
-com.hp.hpl.jena.ontology.SymmetricProperty
-com.hp.hpl.jena.ontology.TransitiveProperty
-com.hp.hpl.jena.ontology.UnionClass
-com.hp.hpl.jena.rdf.arp.ALiteral
-com.hp.hpl.jena.rdf.arp.AResource
-com.hp.hpl.jena.rdf.arp.ARP
-com.hp.hpl.jena.rdf.arp.ARPConfig
-com.hp.hpl.jena.rdf.arp.ARPErrorNumbers
-com.hp.hpl.jena.rdf.arp.ARPEventHandler
-com.hp.hpl.jena.rdf.arp.ARPHandlers
-com.hp.hpl.jena.rdf.arp.ARPOptions
-com.hp.hpl.jena.rdf.arp.DOM2Model
-com.hp.hpl.jena.rdf.arp.ExtendedHandler
-com.hp.hpl.jena.rdf.arp.FatalParsingErrorException
-com.hp.hpl.jena.rdf.arp.impl.AbsXMLContext
-com.hp.hpl.jena.rdf.arp.impl.ANode
-com.hp.hpl.jena.rdf.arp.impl.AResourceInternal
-com.hp.hpl.jena.rdf.arp.impl.ARPDatatypeLiteral
-com.hp.hpl.jena.rdf.arp.impl.ARPResource
-com.hp.hpl.jena.rdf.arp.impl.ARPSaxErrorHandler
-com.hp.hpl.jena.rdf.arp.impl.ARPString
-com.hp.hpl.jena.rdf.arp.impl.AttributeLexer
-com.hp.hpl.jena.rdf.arp.impl.CharacterModel
-com.hp.hpl.jena.rdf.arp.impl.DefaultErrorHandler
-com.hp.hpl.jena.rdf.arp.impl.ElementLexer
-com.hp.hpl.jena.rdf.arp.impl.LexicalHandlerImpl
-com.hp.hpl.jena.rdf.arp.impl.Location
-com.hp.hpl.jena.rdf.arp.impl.Names
-com.hp.hpl.jena.rdf.arp.impl.ParserSupport
-com.hp.hpl.jena.rdf.arp.impl.QNameLexer
-com.hp.hpl.jena.rdf.arp.impl.RDFXMLParser
-com.hp.hpl.jena.rdf.arp.impl.RDFXMLParser$MySAXParser
-com.hp.hpl.jena.rdf.arp.impl.SAX2RDFImpl
-com.hp.hpl.jena.rdf.arp.impl.Taint
-com.hp.hpl.jena.rdf.arp.impl.TaintImpl
-com.hp.hpl.jena.rdf.arp.impl.UntaintableURIReference
-com.hp.hpl.jena.rdf.arp.impl.URIReference
-com.hp.hpl.jena.rdf.arp.impl.XMLBaselessContext
-com.hp.hpl.jena.rdf.arp.impl.XMLContext
-com.hp.hpl.jena.rdf.arp.impl.XMLHandler
-com.hp.hpl.jena.rdf.arp.JenaHandler
-com.hp.hpl.jena.rdf.arp.JenaReader
-com.hp.hpl.jena.rdf.arp.lang.IanaLanguageTag
-com.hp.hpl.jena.rdf.arp.lang.Iso3166
-com.hp.hpl.jena.rdf.arp.lang.Iso639
-com.hp.hpl.jena.rdf.arp.lang.LanguageTag
-com.hp.hpl.jena.rdf.arp.lang.LanguageTagCodes
-com.hp.hpl.jena.rdf.arp.lang.LanguageTagSyntaxException
-com.hp.hpl.jena.rdf.arp.NamespaceHandler
-com.hp.hpl.jena.rdf.arp.NTriple
-com.hp.hpl.jena.rdf.arp.NTriple$TwoSH
-com.hp.hpl.jena.rdf.arp.NTriple$NoSH
-com.hp.hpl.jena.rdf.arp.NTriple$SH
-com.hp.hpl.jena.rdf.arp.SAX2Model
-com.hp.hpl.jena.rdf.arp.SAX2RDF
-com.hp.hpl.jena.rdf.arp.StatementHandler
-com.hp.hpl.jena.rdf.arp.states.AbsWantLiteralValueOrDescription
-com.hp.hpl.jena.rdf.arp.states.AbsXMLLiteral
-com.hp.hpl.jena.rdf.arp.states.Collection
-com.hp.hpl.jena.rdf.arp.states.DAMLCollection
-com.hp.hpl.jena.rdf.arp.states.Frame
-com.hp.hpl.jena.rdf.arp.states.FrameI
-com.hp.hpl.jena.rdf.arp.states.HasSubjectFrameI
-com.hp.hpl.jena.rdf.arp.states.InnerXMLLiteral
-com.hp.hpl.jena.rdf.arp.states.LookingForRDF
-com.hp.hpl.jena.rdf.arp.states.OuterXMLLiteral
-com.hp.hpl.jena.rdf.arp.states.RDFCollection
-com.hp.hpl.jena.rdf.arp.states.StartStateRDForDescription
-com.hp.hpl.jena.rdf.arp.states.WantDescription
-com.hp.hpl.jena.rdf.arp.states.WantEmpty
-com.hp.hpl.jena.rdf.arp.states.WantLiteralValueOrDescription
-com.hp.hpl.jena.rdf.arp.states.WantPropertyElement
-com.hp.hpl.jena.rdf.arp.states.WantsObjectFrameI
-com.hp.hpl.jena.rdf.arp.states.WantsObjectI
-com.hp.hpl.jena.rdf.arp.states.WantTopLevelDescription
-com.hp.hpl.jena.rdf.arp.states.WantTypedLiteral
-com.hp.hpl.jena.rdf.listeners.ChangedListener
-com.hp.hpl.jena.rdf.listeners.NullListener
-com.hp.hpl.jena.rdf.listeners.ObjectListener
-com.hp.hpl.jena.rdf.listeners.StatementListener
-com.hp.hpl.jena.rdf.model.Alt
-com.hp.hpl.jena.rdf.model.AltHasNoDefaultException
-com.hp.hpl.jena.rdf.model.AnonId
-com.hp.hpl.jena.rdf.model.Bag
-com.hp.hpl.jena.rdf.model.Container
-com.hp.hpl.jena.rdf.model.DoesNotReifyException
-com.hp.hpl.jena.rdf.model.EmptyListException
-com.hp.hpl.jena.rdf.model.EmptyListUpdateException
-com.hp.hpl.jena.rdf.model.HasNoModelException
-com.hp.hpl.jena.rdf.model.impl.AltImpl
-com.hp.hpl.jena.rdf.model.impl.BagImpl
-com.hp.hpl.jena.rdf.model.impl.ContainerI
-com.hp.hpl.jena.rdf.model.impl.ContainerImpl
-com.hp.hpl.jena.rdf.model.impl.ContNodeIteratorFactoryImpl
-com.hp.hpl.jena.rdf.model.impl.ContNodeIteratorImpl
-com.hp.hpl.jena.rdf.model.impl.InfModelImpl
-com.hp.hpl.jena.rdf.model.impl.IteratorFactory
-com.hp.hpl.jena.rdf.model.impl.LiteralImpl
-com.hp.hpl.jena.rdf.model.impl.MemoryModelGetter
-com.hp.hpl.jena.rdf.model.impl.ModelCom
-com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter
-com.hp.hpl.jena.rdf.model.impl.ModelMakerImpl
-com.hp.hpl.jena.rdf.model.impl.ModelReifier
-com.hp.hpl.jena.rdf.model.impl.NodeIteratorFactory
-com.hp.hpl.jena.rdf.model.impl.NodeIteratorImpl
-com.hp.hpl.jena.rdf.model.impl.NsIteratorImpl
-com.hp.hpl.jena.rdf.model.impl.NTripleReader
-com.hp.hpl.jena.rdf.model.impl.IStream
-com.hp.hpl.jena.rdf.model.impl.NTripleWriter
-com.hp.hpl.jena.rdf.model.impl.PropertyImpl
-com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler
-com.hp.hpl.jena.rdf.model.impl.RDFListImpl
-com.hp.hpl.jena.rdf.model.impl.RDFListImpl$RDFListIterator
-com.hp.hpl.jena.rdf.model.impl.RDFReaderFImpl
-com.hp.hpl.jena.rdf.model.impl.RDFWriterFImpl
-com.hp.hpl.jena.rdf.model.impl.ReifiedStatementImpl
-com.hp.hpl.jena.rdf.model.impl.ResIteratorImpl
-com.hp.hpl.jena.rdf.model.impl.ResourceImpl
-com.hp.hpl.jena.rdf.model.impl.RSIteratorImpl
-com.hp.hpl.jena.rdf.model.impl.SelectorImpl
-com.hp.hpl.jena.rdf.model.impl.SeqImpl
-com.hp.hpl.jena.rdf.model.impl.SeqNodeIteratorFactoryImpl
-com.hp.hpl.jena.rdf.model.impl.SeqNodeIteratorImpl
-com.hp.hpl.jena.rdf.model.impl.StatementBase
-com.hp.hpl.jena.rdf.model.impl.StatementImpl
-com.hp.hpl.jena.rdf.model.impl.StmtIteratorImpl
-com.hp.hpl.jena.rdf.model.InfModel
-com.hp.hpl.jena.rdf.model.InvalidListException
-com.hp.hpl.jena.rdf.model.ListIndexException
-com.hp.hpl.jena.rdf.model.Literal
-com.hp.hpl.jena.rdf.model.LiteralRequiredException
-com.hp.hpl.jena.rdf.model.Model
-com.hp.hpl.jena.rdf.model.ModelChangedListener
-com.hp.hpl.jena.rdf.model.ModelCon
-com.hp.hpl.jena.rdf.model.ModelExtract
-com.hp.hpl.jena.rdf.model.ModelFactory
-com.hp.hpl.jena.rdf.model.ModelFactory$ModelRDBMaker
-com.hp.hpl.jena.rdf.model.ModelFactoryBase
-com.hp.hpl.jena.rdf.model.ModelGetter
-com.hp.hpl.jena.rdf.model.ModelGraphInterface
-com.hp.hpl.jena.rdf.model.ModelMaker
-com.hp.hpl.jena.rdf.model.ModelReader
-com.hp.hpl.jena.rdf.model.ModelSource
-com.hp.hpl.jena.rdf.model.NodeIterator
-com.hp.hpl.jena.rdf.model.NsIterator
-com.hp.hpl.jena.rdf.model.Property
-com.hp.hpl.jena.rdf.model.RDFErrorHandler
-com.hp.hpl.jena.rdf.model.RDFList
-com.hp.hpl.jena.rdf.model.RDFList$ApplyFn
-com.hp.hpl.jena.rdf.model.RDFList$ReduceFn
-com.hp.hpl.jena.rdf.model.RDFNode
-com.hp.hpl.jena.rdf.model.RDFReader
-com.hp.hpl.jena.rdf.model.RDFReaderF
-com.hp.hpl.jena.rdf.model.RDFVisitor
-com.hp.hpl.jena.rdf.model.RDFWriter
-com.hp.hpl.jena.rdf.model.RDFWriterF
-com.hp.hpl.jena.rdf.model.ReifiedStatement
-com.hp.hpl.jena.rdf.model.ResIterator
-com.hp.hpl.jena.rdf.model.Resource
-com.hp.hpl.jena.rdf.model.ResourceF
-com.hp.hpl.jena.rdf.model.ResourceFactory
-com.hp.hpl.jena.rdf.model.ResourceFactory$Interface
-com.hp.hpl.jena.rdf.model.ResourceFactory$Impl
-com.hp.hpl.jena.rdf.model.ResourceRequiredException
-com.hp.hpl.jena.rdf.model.RSIterator
-com.hp.hpl.jena.rdf.model.Schema
-com.hp.hpl.jena.rdf.model.Selector
-com.hp.hpl.jena.rdf.model.Seq
-com.hp.hpl.jena.rdf.model.SeqIndexBoundsException
-com.hp.hpl.jena.rdf.model.SimpleSelector
-com.hp.hpl.jena.rdf.model.Statement
-com.hp.hpl.jena.rdf.model.Statement$Util
-com.hp.hpl.jena.rdf.model.StatementBoundary
-com.hp.hpl.jena.rdf.model.StatementBoundaryBase
-com.hp.hpl.jena.rdf.model.StatementTripleBoundary
-com.hp.hpl.jena.rdf.model.StmtIterator
-com.hp.hpl.jena.reasoner.BaseInfGraph
-com.hp.hpl.jena.reasoner.BaseInfGraph$InfCapabilities
-com.hp.hpl.jena.reasoner.BaseInfGraph$InfFindSafeCapabilities
-com.hp.hpl.jena.reasoner.BaseInfGraph$InfBulkUpdateHandler
-com.hp.hpl.jena.reasoner.BaseInfGraph$InfTransactionHandler
-com.hp.hpl.jena.reasoner.Derivation
-com.hp.hpl.jena.reasoner.FGraph
-com.hp.hpl.jena.reasoner.Finder
-com.hp.hpl.jena.reasoner.FinderUtil
-com.hp.hpl.jena.reasoner.IllegalParameterException
-com.hp.hpl.jena.reasoner.InfGraph
-com.hp.hpl.jena.reasoner.Reasoner
-com.hp.hpl.jena.reasoner.ReasonerException
-com.hp.hpl.jena.reasoner.ReasonerFactory
-com.hp.hpl.jena.reasoner.ReasonerRegistry
-com.hp.hpl.jena.reasoner.rulesys.BackwardRuleInfGraphI
-com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier
-com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier$GetReifier
-com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleInfGraph
-com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleReasoner
-com.hp.hpl.jena.reasoner.rulesys.BindingEnvironment
-com.hp.hpl.jena.reasoner.rulesys.Builtin
-com.hp.hpl.jena.reasoner.rulesys.BuiltinException
-com.hp.hpl.jena.reasoner.rulesys.BuiltinRegistry
-com.hp.hpl.jena.reasoner.rulesys.builtins.AddOne
-com.hp.hpl.jena.reasoner.rulesys.builtins.AssertDisjointPairs
-com.hp.hpl.jena.reasoner.rulesys.builtins.BaseBuiltin
-com.hp.hpl.jena.reasoner.rulesys.builtins.CountLiteralValues
-com.hp.hpl.jena.reasoner.rulesys.builtins.Drop
-com.hp.hpl.jena.reasoner.rulesys.builtins.Equal
-com.hp.hpl.jena.reasoner.rulesys.builtins.GE
-com.hp.hpl.jena.reasoner.rulesys.builtins.GreaterThan
-com.hp.hpl.jena.reasoner.rulesys.builtins.Hide
-com.hp.hpl.jena.reasoner.rulesys.builtins.IsBNode
-com.hp.hpl.jena.reasoner.rulesys.builtins.IsDType
-com.hp.hpl.jena.reasoner.rulesys.builtins.IsFunctor
-com.hp.hpl.jena.reasoner.rulesys.builtins.IsLiteral
-com.hp.hpl.jena.reasoner.rulesys.builtins.LE
-com.hp.hpl.jena.reasoner.rulesys.builtins.LessThan
-com.hp.hpl.jena.reasoner.rulesys.builtins.ListContains
-com.hp.hpl.jena.reasoner.rulesys.builtins.ListEntry
-com.hp.hpl.jena.reasoner.rulesys.builtins.ListEqual
-com.hp.hpl.jena.reasoner.rulesys.builtins.ListLength
-com.hp.hpl.jena.reasoner.rulesys.builtins.ListMapAsObject
-com.hp.hpl.jena.reasoner.rulesys.builtins.ListMapAsSubject
-com.hp.hpl.jena.reasoner.rulesys.builtins.ListNotContains
-com.hp.hpl.jena.reasoner.rulesys.builtins.ListNotEqual
-com.hp.hpl.jena.reasoner.rulesys.builtins.MakeInstance
-com.hp.hpl.jena.reasoner.rulesys.builtins.MakeSkolem
-com.hp.hpl.jena.reasoner.rulesys.builtins.MakeTemp
-com.hp.hpl.jena.reasoner.rulesys.builtins.Max
-com.hp.hpl.jena.reasoner.rulesys.builtins.Min
-com.hp.hpl.jena.reasoner.rulesys.builtins.NotBNode
-com.hp.hpl.jena.reasoner.rulesys.builtins.NotDType
-com.hp.hpl.jena.reasoner.rulesys.builtins.NotEqual
-com.hp.hpl.jena.reasoner.rulesys.builtins.NotFunctor
-com.hp.hpl.jena.reasoner.rulesys.builtins.NotLiteral
-com.hp.hpl.jena.reasoner.rulesys.builtins.NoValue
-com.hp.hpl.jena.reasoner.rulesys.builtins.Now
-com.hp.hpl.jena.reasoner.rulesys.builtins.Print
-com.hp.hpl.jena.reasoner.rulesys.builtins.Product
-com.hp.hpl.jena.reasoner.rulesys.builtins.Quotient
-com.hp.hpl.jena.reasoner.rulesys.builtins.Regex
-com.hp.hpl.jena.reasoner.rulesys.builtins.Remove
-com.hp.hpl.jena.reasoner.rulesys.builtins.StrConcat
-com.hp.hpl.jena.reasoner.rulesys.builtins.Sum
-com.hp.hpl.jena.reasoner.rulesys.builtins.Table
-com.hp.hpl.jena.reasoner.rulesys.builtins.TableAll
-com.hp.hpl.jena.reasoner.rulesys.builtins.Unbound
-com.hp.hpl.jena.reasoner.rulesys.builtins.UriConcat
-com.hp.hpl.jena.reasoner.rulesys.ClauseEntry
-com.hp.hpl.jena.reasoner.rulesys.DAMLMicroReasoner
-com.hp.hpl.jena.reasoner.rulesys.DAMLMicroReasonerFactory
-com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph
-com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph$RuleStore
-com.hp.hpl.jena.reasoner.rulesys.FBRuleReasoner
-com.hp.hpl.jena.reasoner.rulesys.ForwardRuleInfGraphI
-com.hp.hpl.jena.reasoner.rulesys.Functor
-com.hp.hpl.jena.reasoner.rulesys.Functor$FunctorDatatype
-com.hp.hpl.jena.reasoner.rulesys.GenericRuleReasoner
-com.hp.hpl.jena.reasoner.rulesys.GenericRuleReasoner$RuleMode
-com.hp.hpl.jena.reasoner.rulesys.GenericRuleReasonerFactory
-com.hp.hpl.jena.reasoner.rulesys.impl.BaseRuleReasonerFactory
-com.hp.hpl.jena.reasoner.rulesys.impl.BBRuleContext
-com.hp.hpl.jena.reasoner.rulesys.impl.BFRuleContext
-com.hp.hpl.jena.reasoner.rulesys.impl.BindingStack
-com.hp.hpl.jena.reasoner.rulesys.impl.BindingVector
-com.hp.hpl.jena.reasoner.rulesys.impl.ChoicePointFrame
-com.hp.hpl.jena.reasoner.rulesys.impl.ConsumerChoicePointFrame
-com.hp.hpl.jena.reasoner.rulesys.impl.EnvironmentFrame
-com.hp.hpl.jena.reasoner.rulesys.impl.EnvironmentFrameWithDerivation
-com.hp.hpl.jena.reasoner.rulesys.impl.FrameObject
-com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine
-com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine$ClausePointer
-com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine$RuleStore
-com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngineI
-com.hp.hpl.jena.reasoner.rulesys.impl.Generator
-com.hp.hpl.jena.reasoner.rulesys.impl.Generator$LFlag
-com.hp.hpl.jena.reasoner.rulesys.impl.GenericChoiceFrame
-com.hp.hpl.jena.reasoner.rulesys.impl.GenericTripleMatchFrame
-com.hp.hpl.jena.reasoner.rulesys.impl.LPAgendaEntry
-com.hp.hpl.jena.reasoner.rulesys.impl.LPBindingEnvironment
-com.hp.hpl.jena.reasoner.rulesys.impl.LPBRuleEngine
-com.hp.hpl.jena.reasoner.rulesys.impl.LPBRuleEngine$Count
-com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreter
-com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreterContext
-com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreterState
-com.hp.hpl.jena.reasoner.rulesys.impl.LPRuleStore
-com.hp.hpl.jena.reasoner.rulesys.impl.LPRuleSyntaxException
-com.hp.hpl.jena.reasoner.rulesys.impl.LPTopGoalIterator
-com.hp.hpl.jena.reasoner.rulesys.impl.MutableTriplePattern
-com.hp.hpl.jena.reasoner.rulesys.impl.OWLExptRuleTranslationHook
-com.hp.hpl.jena.reasoner.rulesys.impl.OWLRuleTranslationHook
-com.hp.hpl.jena.reasoner.rulesys.impl.RDFSCMPPreprocessHook
-com.hp.hpl.jena.reasoner.rulesys.impl.RETEClauseFilter
-com.hp.hpl.jena.reasoner.rulesys.impl.RETEConflictSet
-com.hp.hpl.jena.reasoner.rulesys.impl.RETEConflictSet$CSEntry
-com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine
-com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine$ClausePointer
-com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine$RuleStore
-com.hp.hpl.jena.reasoner.rulesys.impl.RETENode
-com.hp.hpl.jena.reasoner.rulesys.impl.RETEQueue
-com.hp.hpl.jena.reasoner.rulesys.impl.RETEQueue$Count
-com.hp.hpl.jena.reasoner.rulesys.impl.RETERuleContext
-com.hp.hpl.jena.reasoner.rulesys.impl.RETESinkNode
-com.hp.hpl.jena.reasoner.rulesys.impl.RETESourceNode
-com.hp.hpl.jena.reasoner.rulesys.impl.RETETerminal
-com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode
-com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode$CompileState
-com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode$CompileState$RuleClauseCodeList
-com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode$TermIndex
-com.hp.hpl.jena.reasoner.rulesys.impl.RuleStore
-com.hp.hpl.jena.reasoner.rulesys.impl.SafeGraph
-com.hp.hpl.jena.reasoner.rulesys.impl.StateFlag
-com.hp.hpl.jena.reasoner.rulesys.impl.TempNodeCache
-com.hp.hpl.jena.reasoner.rulesys.impl.TempNodeCache$NodePair
-com.hp.hpl.jena.reasoner.rulesys.impl.TopLevelTripleMatchFrame
-com.hp.hpl.jena.reasoner.rulesys.impl.TripleMatchFrame
-com.hp.hpl.jena.reasoner.rulesys.impl.WrappedReasonerFactory
-com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleInfGraph
-com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleReasoner
-com.hp.hpl.jena.reasoner.rulesys.Node_RuleVariable
-com.hp.hpl.jena.reasoner.rulesys.OWLFBRuleReasoner
-com.hp.hpl.jena.reasoner.rulesys.OWLFBRuleReasonerFactory
-com.hp.hpl.jena.reasoner.rulesys.OWLMicroReasoner
-com.hp.hpl.jena.reasoner.rulesys.OWLMicroReasonerFactory
-com.hp.hpl.jena.reasoner.rulesys.OWLMiniReasoner
-com.hp.hpl.jena.reasoner.rulesys.OWLMiniReasonerFactory
-com.hp.hpl.jena.reasoner.rulesys.RDFSFBRuleReasoner
-com.hp.hpl.jena.reasoner.rulesys.RDFSFBRuleReasonerFactory
-com.hp.hpl.jena.reasoner.rulesys.RDFSForwardRuleReasoner
-com.hp.hpl.jena.reasoner.rulesys.RDFSRuleInfGraph
-com.hp.hpl.jena.reasoner.rulesys.RDFSRuleReasoner
-com.hp.hpl.jena.reasoner.rulesys.RDFSRuleReasonerFactory
-com.hp.hpl.jena.reasoner.rulesys.RETERuleInfGraph
-com.hp.hpl.jena.reasoner.rulesys.Rule
-com.hp.hpl.jena.reasoner.rulesys.Rule$Parser
-com.hp.hpl.jena.reasoner.rulesys.Rule$ParserException
-com.hp.hpl.jena.reasoner.rulesys.RuleContext
-com.hp.hpl.jena.reasoner.rulesys.RuleDerivation
-com.hp.hpl.jena.reasoner.rulesys.RulePreprocessHook
-com.hp.hpl.jena.reasoner.rulesys.RuleReasoner
-com.hp.hpl.jena.reasoner.rulesys.RuleReasonerFactory
-com.hp.hpl.jena.reasoner.rulesys.SilentAddI
-com.hp.hpl.jena.reasoner.StandardValidityReport
-com.hp.hpl.jena.reasoner.transitiveReasoner.GraphNode
-com.hp.hpl.jena.reasoner.transitiveReasoner.GraphNode$Siblings
-com.hp.hpl.jena.reasoner.transitiveReasoner.GraphNode$Leader
-com.hp.hpl.jena.reasoner.transitiveReasoner.GraphNode$Subordinate
-com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveEngine
-com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache
-com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache$Visitor
-com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache$GraphWalker
-com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache$FullGraphWalker
-com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveInfGraph
-com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveReasoner
-com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveReasonerFactory
-com.hp.hpl.jena.reasoner.TriplePattern
-com.hp.hpl.jena.reasoner.ValidityReport
-com.hp.hpl.jena.reasoner.ValidityReport$Report
-com.hp.hpl.jena.shared.AddDeniedException
-com.hp.hpl.jena.shared.AlreadyExistsException
-com.hp.hpl.jena.shared.AlreadyReifiedException
-com.hp.hpl.jena.shared.AssertionFailureException
-com.hp.hpl.jena.shared.BadBooleanException
-com.hp.hpl.jena.shared.BadCharLiteralException
-com.hp.hpl.jena.shared.BadDescriptionException
-com.hp.hpl.jena.shared.BadDescriptionMultipleRootsException
-com.hp.hpl.jena.shared.BadDescriptionNoRootException
-com.hp.hpl.jena.shared.BadURIException
-com.hp.hpl.jena.shared.BrokenException
-com.hp.hpl.jena.shared.CannotCreateException
-com.hp.hpl.jena.shared.CannotEncodeCharacterException
-com.hp.hpl.jena.shared.CannotReifyException
-com.hp.hpl.jena.shared.ClosedException
-com.hp.hpl.jena.shared.Command
-com.hp.hpl.jena.shared.ConfigException
-com.hp.hpl.jena.shared.DeleteDeniedException
-com.hp.hpl.jena.shared.DoesNotExistException
-com.hp.hpl.jena.shared.impl.JenaParameters
-com.hp.hpl.jena.shared.impl.PrefixMappingImpl
-com.hp.hpl.jena.shared.InvalidPropertyURIException
-com.hp.hpl.jena.shared.JenaException
-com.hp.hpl.jena.shared.Lock
-com.hp.hpl.jena.shared.LockMRSW
-com.hp.hpl.jena.shared.LockMRSW$LockState
-com.hp.hpl.jena.shared.LockMutex
-com.hp.hpl.jena.shared.LockNone
-com.hp.hpl.jena.shared.NamespaceEndsWithNameCharException
-com.hp.hpl.jena.shared.NoReaderForLangException
-com.hp.hpl.jena.shared.NoReasonerSuppliedException
-com.hp.hpl.jena.shared.NoSuchReasonerException
-com.hp.hpl.jena.shared.NotFoundException
-com.hp.hpl.jena.shared.NoWriterForLangException
-com.hp.hpl.jena.shared.PrefixMapping
-com.hp.hpl.jena.shared.PrefixMapping$IllegalPrefixException
-com.hp.hpl.jena.shared.PrefixMapping$JenaLockedException
-com.hp.hpl.jena.shared.PrefixMapping$Factory
-com.hp.hpl.jena.shared.PropertyNotFoundException
-com.hp.hpl.jena.shared.QueryStageException
-com.hp.hpl.jena.shared.RandomOrderGraph
-com.hp.hpl.jena.shared.ReificationStyle
-com.hp.hpl.jena.shared.RulesetNotFoundException
-com.hp.hpl.jena.shared.SyntaxError
-com.hp.hpl.jena.shared.UnknownPropertyException
-com.hp.hpl.jena.shared.UpdateDeniedException
-com.hp.hpl.jena.shared.uuid.Bits
-com.hp.hpl.jena.shared.uuid.JenaUUID
-com.hp.hpl.jena.shared.uuid.JenaUUID$FormatException
-com.hp.hpl.jena.shared.uuid.LibUUID
-com.hp.hpl.jena.shared.uuid.UUIDFactory
-com.hp.hpl.jena.shared.uuid.UUID_nil
-com.hp.hpl.jena.shared.uuid.UUID_V1
-com.hp.hpl.jena.shared.uuid.UUID_V1_Gen
-com.hp.hpl.jena.shared.uuid.UUID_V4
-com.hp.hpl.jena.shared.uuid.UUID_V4_Gen
-com.hp.hpl.jena.shared.wg.LazyFileInputStream
-com.hp.hpl.jena.shared.wg.LazyInputStream
-com.hp.hpl.jena.shared.wg.LazyURLInputStream
-com.hp.hpl.jena.shared.wg.LazyZipEntryInputStream
-com.hp.hpl.jena.shared.wg.TestInputStreamFactory
-com.hp.hpl.jena.shared.WrappedIOException
-com.hp.hpl.jena.util.cache.Cache
-com.hp.hpl.jena.util.cache.CacheControl
-com.hp.hpl.jena.util.cache.CacheManager
-com.hp.hpl.jena.util.cache.EnhancedNodeCache
-com.hp.hpl.jena.util.cache.RandCache
-com.hp.hpl.jena.util.CharEncoding
-com.hp.hpl.jena.util.CharEncoding$IANAnioEncoding
-com.hp.hpl.jena.util.CharEncoding$NonIANAnioEncoding
-com.hp.hpl.jena.util.CharEncoding$NotNioEncoding
-com.hp.hpl.jena.util.CollectionFactory
-com.hp.hpl.jena.util.FileManager
-com.hp.hpl.jena.util.FileUtils
-com.hp.hpl.jena.util.iterator.ArrayIterator
-com.hp.hpl.jena.util.iterator.ClosableIterator
-com.hp.hpl.jena.util.iterator.ConcatenatedIterator
-com.hp.hpl.jena.util.iterator.EarlyBindingIterator
-com.hp.hpl.jena.util.iterator.ExtendedIterator
-com.hp.hpl.jena.util.iterator.Filter
-com.hp.hpl.jena.util.iterator.FilterDropIterator
-com.hp.hpl.jena.util.iterator.FilterIterator
-com.hp.hpl.jena.util.iterator.FilterKeepIterator
-com.hp.hpl.jena.util.iterator.IteratorIterator
-com.hp.hpl.jena.util.iterator.LateBindingIterator
-com.hp.hpl.jena.util.iterator.LazyIterator
-com.hp.hpl.jena.util.iterator.Map1
-com.hp.hpl.jena.util.iterator.Map1Iterator
-com.hp.hpl.jena.util.iterator.MapFilter
-com.hp.hpl.jena.util.iterator.MapFilterIterator
-com.hp.hpl.jena.util.iterator.NiceIterator
-com.hp.hpl.jena.util.iterator.NullIterator
-com.hp.hpl.jena.util.iterator.RandomOrderIterator
-com.hp.hpl.jena.util.iterator.SingletonIterator
-com.hp.hpl.jena.util.iterator.UniqueExtendedIterator
-com.hp.hpl.jena.util.iterator.WrappedIterator
-com.hp.hpl.jena.util.IteratorCollection
-com.hp.hpl.jena.util.LocationMapper
-com.hp.hpl.jena.util.Locator
-com.hp.hpl.jena.util.LocatorClassLoader
-com.hp.hpl.jena.util.LocatorFile
-com.hp.hpl.jena.util.LocatorURL
-com.hp.hpl.jena.util.LocatorZip
-com.hp.hpl.jena.util.Metadata
-com.hp.hpl.jena.util.ModelLoader
-com.hp.hpl.jena.util.ModelQueryUtil
-com.hp.hpl.jena.util.MonitorGraph
-com.hp.hpl.jena.util.MonitorModel
-com.hp.hpl.jena.util.OneToManyMap
-com.hp.hpl.jena.util.OneToManyMap$Entry
-com.hp.hpl.jena.util.PrintUtil
-com.hp.hpl.jena.util.QueryMapper
-com.hp.hpl.jena.util.ResourceUtils
-com.hp.hpl.jena.util.SystemUtils
-com.hp.hpl.jena.util.Tokenizer
-com.hp.hpl.jena.util.tuple.TupleItem
-com.hp.hpl.jena.util.tuple.TupleSet
-com.hp.hpl.jena.util.TypedStream
-com.hp.hpl.jena.util.URIref
-com.hp.hpl.jena.vocabulary.DAMLVocabulary
-com.hp.hpl.jena.vocabulary.DAML_OIL
-com.hp.hpl.jena.vocabulary.DB
-com.hp.hpl.jena.vocabulary.DC
-com.hp.hpl.jena.vocabulary.DCTerms
-com.hp.hpl.jena.vocabulary.DCTypes
-com.hp.hpl.jena.vocabulary.DC_10
-com.hp.hpl.jena.vocabulary.DC_11
-com.hp.hpl.jena.vocabulary.LocationMappingVocab
-com.hp.hpl.jena.vocabulary.OntDocManagerVocab
-com.hp.hpl.jena.vocabulary.OntEventsVocab
-com.hp.hpl.jena.vocabulary.OWL
-com.hp.hpl.jena.vocabulary.OWL2
-com.hp.hpl.jena.vocabulary.OWLResults
-com.hp.hpl.jena.vocabulary.OWLTest
-com.hp.hpl.jena.vocabulary.RDF
-com.hp.hpl.jena.vocabulary.RDF$Nodes
-com.hp.hpl.jena.vocabulary.RDFS
-com.hp.hpl.jena.vocabulary.RDFS$Nodes
-com.hp.hpl.jena.vocabulary.RDFSyntax
-com.hp.hpl.jena.vocabulary.RDFTest
-com.hp.hpl.jena.vocabulary.ReasonerVocabulary
-com.hp.hpl.jena.vocabulary.ResultSet
-com.hp.hpl.jena.vocabulary.RSS
-com.hp.hpl.jena.vocabulary.TestManifest
-com.hp.hpl.jena.vocabulary.TestManifestX
-com.hp.hpl.jena.vocabulary.VCARD
-com.hp.hpl.jena.vocabulary.XSD
-com.hp.hpl.jena.xmloutput.impl.Abbreviated
-com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter
-com.hp.hpl.jena.xmloutput.impl.Basic
-com.hp.hpl.jena.xmloutput.impl.PairEntry
-com.hp.hpl.jena.xmloutput.impl.Relation
-com.hp.hpl.jena.xmloutput.impl.SimpleLogger
-com.hp.hpl.jena.xmloutput.impl.Unparser
-com.hp.hpl.jena.xmloutput.impl.Unparser$WType
-com.hp.hpl.jena.xmloutput.RDFXMLWriterI
-jena.cmdline.Arg
-jena.cmdline.ArgDecl
-jena.cmdline.ArgHandler
-jena.cmdline.CmdLineUtils
-jena.cmdline.CommandLine
-jena.dbcreate
-jena.dbdump
-jena.dblist
-jena.dbload
-jena.dbremove
-jena.qtest
-jena.query
-jena.rdfcat
-jena.rdfcat$RCCommandLine
-jena.rdfcat$IncludeQueueEntry
-jena.rdfcat$RCAction
-jena.rdfcat$ReadAction
-jena.rdfcompare
-jena.rdfcopy
-jena.rdfparse
-jena.rset
-jena.RuleMap
-jena.RuleMap$Deduce
-jena.schemagen
-jena.schemagen$SchemagenOptions
-jena.schemagen$SchemagenOptionsImpl
-jena.schemagen$OptionDefinition
-jena.schemagen$Replacement
-jena.schemagen$SchemagenException
-jena.schemagen$SchemagenUtils
-jena.sparql
-jena.turtle
-jena.util.DBcmd
-jena.version
+jena.RuleMap	classe	3
+jena.RuleMap$Deduce	classe	3
+jena.rdfcompare	classe	3
+jena.dbload	classe	3
+jena.util.DBcmd	classe	13
+jena.turtle	classe	3
+jena.rdfcat	classe	14
+jena.rdfcat$RCCommandLine	classe	4
+jena.rdfcat$IncludeQueueEntry	classe	0
+jena.rdfcat$RCAction	interface	1
+jena.rdfcat$ReadAction	classe	1
+jena.rdfcopy	classe	3
+jena.dblist	classe	4
+jena.cmdline.Arg	classe	8
+jena.cmdline.CmdLineUtils	classe	1
+jena.cmdline.CommandLine	classe	35
+jena.cmdline.ArgDecl	classe	9
+jena.cmdline.ArgHandler	interface	1
+jena.rdfparse	classe	2
+jena.dbcreate	classe	3
+jena.rset	classe	1
+jena.query	classe	2
+jena.dbremove	classe	3
+jena.schemagen	classe	62
+jena.schemagen$SchemagenOptions	interface	64
+jena.schemagen$SchemagenOptions$OPT	enum	0
+jena.schemagen$SchemagenOptionsImpl	classe	75
+jena.schemagen$OptionDefinition	classe	8
+jena.schemagen$Replacement	classe	0
+jena.schemagen$SchemagenException	classe	0
+jena.schemagen$SchemagenUtils	classe	1
+jena.dbdump	classe	3
+jena.sparql	classe	1
+jena.qtest	classe	1
+jena.version	classe	1
+com.hp.hpl.jena.assembler.ModelExpansion	classe	19
+com.hp.hpl.jena.assembler.ModelExpansion$LinkedSeq	classe	2
+com.hp.hpl.jena.assembler.AssemblerHelp	classe	22
+com.hp.hpl.jena.assembler.BadObjectException	classe	3
+com.hp.hpl.jena.assembler.Mode	classe	2
+com.hp.hpl.jena.assembler.assemblers.ReasonerFactoryAssembler	classe	13
+com.hp.hpl.jena.assembler.assemblers.AssemblerBase	classe	18
+com.hp.hpl.jena.assembler.assemblers.AssemblerBase$MapObjectToContent	classe	1
+com.hp.hpl.jena.assembler.assemblers.LocationMapperAssembler	classe	1
+com.hp.hpl.jena.assembler.assemblers.DefaultModelAssembler	classe	2
+com.hp.hpl.jena.assembler.assemblers.ContentAssembler	classe	16
+com.hp.hpl.jena.assembler.assemblers.ContentAssembler$HashSetWith	classe	1
+com.hp.hpl.jena.assembler.assemblers.ConnectionAssembler	classe	9
+com.hp.hpl.jena.assembler.assemblers.ModelSourceAssembler	classe	3
+com.hp.hpl.jena.assembler.assemblers.InfModelAssembler	classe	4
+com.hp.hpl.jena.assembler.assemblers.FileModelAssembler	classe	7
+com.hp.hpl.jena.assembler.assemblers.OntModelSpecAssembler	classe	9
+com.hp.hpl.jena.assembler.assemblers.UnionModelAssembler	classe	3
+com.hp.hpl.jena.assembler.assemblers.PrefixMappingAssembler	classe	4
+com.hp.hpl.jena.assembler.assemblers.RDBModelAssembler	classe	8
+com.hp.hpl.jena.assembler.assemblers.FileManagerAssembler	classe	2
+com.hp.hpl.jena.assembler.assemblers.DocumentManagerAssembler	classe	4
+com.hp.hpl.jena.assembler.assemblers.ModelAssembler	classe	16
+com.hp.hpl.jena.assembler.assemblers.MemoryModelAssembler	classe	2
+com.hp.hpl.jena.assembler.assemblers.AssemblerGroup	classe	5
+com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$Frame	classe	3
+com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$ExpandingAssemblerGroup	classe	5
+com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$PlainAssemblerGroup	classe	4
+com.hp.hpl.jena.assembler.assemblers.NamedModelAssembler	classe	1
+com.hp.hpl.jena.assembler.assemblers.RuleSetAssembler	classe	6
+com.hp.hpl.jena.assembler.assemblers.OntModelAssembler	classe	4
+com.hp.hpl.jena.assembler.exceptions.AssemblerException	classe	9
+com.hp.hpl.jena.assembler.exceptions.AmbiguousSpecificTypeException	classe	3
+com.hp.hpl.jena.assembler.exceptions.CannotConstructException	classe	6
+com.hp.hpl.jena.assembler.exceptions.NoImplementationException	classe	3
+com.hp.hpl.jena.assembler.exceptions.TransactionAbortedException	classe	1
+com.hp.hpl.jena.assembler.exceptions.UnknownStyleException	classe	2
+com.hp.hpl.jena.assembler.exceptions.CannotHaveRulesException	classe	1
+com.hp.hpl.jena.assembler.exceptions.ReasonerClashException	classe	0
+com.hp.hpl.jena.assembler.exceptions.PropertyRequiredException	classe	2
+com.hp.hpl.jena.assembler.exceptions.UnknownEncodingException	classe	2
+com.hp.hpl.jena.assembler.exceptions.NoSpecificTypeException	classe	0
+com.hp.hpl.jena.assembler.exceptions.NotExpectedTypeException	classe	2
+com.hp.hpl.jena.assembler.exceptions.CannotLoadClassException	classe	2
+com.hp.hpl.jena.assembler.exceptions.UnknownReasonerException	classe	2
+com.hp.hpl.jena.assembler.exceptions.NotUniqueException	classe	2
+com.hp.hpl.jena.assembler.Assembler	interface	5
+com.hp.hpl.jena.assembler.ImportManager	classe	7
+com.hp.hpl.jena.assembler.ConnectionDescription	classe	3
+com.hp.hpl.jena.assembler.JA	classe	6
+com.hp.hpl.jena.assembler.RuleSet	classe	5
+com.hp.hpl.jena.assembler.Content	classe	2
+com.hp.hpl.jena.util.LocatorZip	classe	2
+com.hp.hpl.jena.util.SystemUtils	classe	1
+com.hp.hpl.jena.util.ModelQueryUtil	classe	3
+com.hp.hpl.jena.util.LocatorURL	classe	7
+com.hp.hpl.jena.util.OneToManyMap	classe	18
+com.hp.hpl.jena.util.OneToManyMap$Entry	classe	5
+com.hp.hpl.jena.util.Locator	interface	2
+com.hp.hpl.jena.util.cache.Cache	interface	2
+com.hp.hpl.jena.util.cache.EnhancedNodeCache	classe	9
+com.hp.hpl.jena.util.cache.CacheManager	classe	1
+com.hp.hpl.jena.util.cache.RandCache	classe	10
+com.hp.hpl.jena.util.cache.CacheControl	interface	6
+com.hp.hpl.jena.util.tuple.TupleSet	classe	6
+com.hp.hpl.jena.util.tuple.TupleItem	classe	10
+com.hp.hpl.jena.util.CollectionFactory	classe	5
+com.hp.hpl.jena.util.IteratorCollection	classe	2
+com.hp.hpl.jena.util.MonitorGraph	classe	1
+com.hp.hpl.jena.util.FileUtils	classe	27
+com.hp.hpl.jena.util.CharEncoding	classe	5
+com.hp.hpl.jena.util.CharEncoding$IANAnioEncoding	classe	3
+com.hp.hpl.jena.util.CharEncoding$NonIANAnioEncoding	classe	3
+com.hp.hpl.jena.util.CharEncoding$NotNioEncoding	classe	3
+com.hp.hpl.jena.util.iterator.IteratorIterator	classe	3
+com.hp.hpl.jena.util.iterator.MapFilter	interface	1
+com.hp.hpl.jena.util.iterator.Map1	interface	1
+com.hp.hpl.jena.util.iterator.LateBindingIterator	classe	5
+com.hp.hpl.jena.util.iterator.ClosableIterator	interface	1
+com.hp.hpl.jena.util.iterator.NiceIterator	classe	18
+com.hp.hpl.jena.util.iterator.ArrayIterator	classe	3
+com.hp.hpl.jena.util.iterator.FilterKeepIterator	classe	1
+com.hp.hpl.jena.util.iterator.WrappedIterator	classe	8
+com.hp.hpl.jena.util.iterator.ConcatenatedIterator	classe	5
+com.hp.hpl.jena.util.iterator.FilterDropIterator	classe	1
+com.hp.hpl.jena.util.iterator.EarlyBindingIterator	classe	1
+com.hp.hpl.jena.util.iterator.SingletonIterator	classe	2
+com.hp.hpl.jena.util.iterator.Map1Iterator	classe	4
+com.hp.hpl.jena.util.iterator.NullIterator	classe	2
+com.hp.hpl.jena.util.iterator.ExtendedIterator	interface	7
+com.hp.hpl.jena.util.iterator.UniqueExtendedIterator	classe	4
+com.hp.hpl.jena.util.iterator.LazyIterator	classe	10
+com.hp.hpl.jena.util.iterator.MapFilterIterator	classe	4
+com.hp.hpl.jena.util.iterator.FilterIterator	classe	4
+com.hp.hpl.jena.util.iterator.RandomOrderIterator	classe	4
+com.hp.hpl.jena.util.iterator.Filter	classe	5
+com.hp.hpl.jena.util.PrintUtil	classe	14
+com.hp.hpl.jena.util.Metadata	classe	4
+com.hp.hpl.jena.util.Tokenizer	classe	5
+com.hp.hpl.jena.util.URIref	classe	5
+com.hp.hpl.jena.util.LocatorFile	classe	7
+com.hp.hpl.jena.util.QueryMapper	classe	7
+com.hp.hpl.jena.util.LocatorClassLoader	classe	4
+com.hp.hpl.jena.util.ResourceUtils	classe	7
+com.hp.hpl.jena.util.FileManager	classe	38
+com.hp.hpl.jena.util.TypedStream	classe	3
+com.hp.hpl.jena.util.LocationMapper	classe	21
+com.hp.hpl.jena.util.ModelLoader	classe	8
+com.hp.hpl.jena.util.MonitorModel	classe	2
+com.hp.hpl.jena.datatypes.DatatypeFormatException	classe	0
+com.hp.hpl.jena.datatypes.RDFDatatype	interface	12
+com.hp.hpl.jena.datatypes.xsd.impl.XSDMonthDayType	classe	1
+com.hp.hpl.jena.datatypes.xsd.impl.XSDTimeType	classe	2
+com.hp.hpl.jena.datatypes.xsd.impl.XSDBaseStringType	classe	1
+com.hp.hpl.jena.datatypes.xsd.impl.XSDBaseNumericType	classe	8
+com.hp.hpl.jena.datatypes.xsd.impl.XSDDateType	classe	1
+com.hp.hpl.jena.datatypes.xsd.impl.XSDAbstractDateTimeType	classe	16
+com.hp.hpl.jena.datatypes.xsd.impl.XSDMonthType	classe	1
+com.hp.hpl.jena.datatypes.xsd.impl.XSDDayType	classe	1
+com.hp.hpl.jena.datatypes.xsd.impl.XSDDurationType	classe	1
+com.hp.hpl.jena.datatypes.xsd.impl.XSDFloat	classe	5
+com.hp.hpl.jena.datatypes.xsd.impl.XSDByteType	classe	0
+com.hp.hpl.jena.datatypes.xsd.impl.XSDGenericType	classe	0
+com.hp.hpl.jena.datatypes.xsd.impl.XSDYearMonthType	classe	1
+com.hp.hpl.jena.datatypes.xsd.impl.XSDDouble	classe	5
+com.hp.hpl.jena.datatypes.xsd.impl.XSDDateTimeType	classe	1
+com.hp.hpl.jena.datatypes.xsd.impl.XMLLiteralType	classe	3
+com.hp.hpl.jena.datatypes.xsd.impl.XSDYearType	classe	1
+com.hp.hpl.jena.datatypes.xsd.XSDhexBinary	classe	4
+com.hp.hpl.jena.datatypes.xsd.XSDDateTime	classe	14
+com.hp.hpl.jena.datatypes.xsd.XSDDuration	classe	13
+com.hp.hpl.jena.datatypes.xsd.AbstractDateTime	classe	17
+com.hp.hpl.jena.datatypes.xsd.XSDbase64Binary	classe	4
+com.hp.hpl.jena.datatypes.xsd.IllegalDateTimeFieldException	classe	0
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	classe	19
+com.hp.hpl.jena.datatypes.TypeMapper	classe	8
+com.hp.hpl.jena.datatypes.BaseDatatype	classe	14
+com.hp.hpl.jena.datatypes.BaseDatatype$TypedValue	classe	2
+com.hp.hpl.jena.graph.impl.SimpleReifierFragmentHandler	classe	4
+com.hp.hpl.jena.graph.impl.ReifierFragmentsMap	interface	5
+com.hp.hpl.jena.graph.impl.SimpleReifierFragmentsMap	classe	15
+com.hp.hpl.jena.graph.impl.WrappedGraph	classe	22
+com.hp.hpl.jena.graph.impl.FileGraphTransactionHandler	classe	5
+com.hp.hpl.jena.graph.impl.GraphWithPerform	interface	2
+com.hp.hpl.jena.graph.impl.LiteralLabelImpl	classe	25
+com.hp.hpl.jena.graph.impl.TripleStore	interface	11
+com.hp.hpl.jena.graph.impl.ReifierFragmentHandler	interface	3
+com.hp.hpl.jena.graph.impl.TransactionHandlerBase	classe	1
+com.hp.hpl.jena.graph.impl.LiteralLabel	interface	15
+com.hp.hpl.jena.graph.impl.WrappedReifier	classe	17
+com.hp.hpl.jena.graph.impl.Fragments	classe	11
+com.hp.hpl.jena.graph.impl.Fragments$GetSlot	interface	1
+com.hp.hpl.jena.graph.impl.FragmentTripleIterator	classe	5
+com.hp.hpl.jena.graph.impl.SimpleGraphMaker	classe	8
+com.hp.hpl.jena.graph.impl.FileGraph	classe	11
+com.hp.hpl.jena.graph.impl.FileGraph$NotifyOnClose	interface	1
+com.hp.hpl.jena.graph.impl.ReificationWrapperGraph	classe	6
+com.hp.hpl.jena.graph.impl.SimpleEventManager	classe	17
+com.hp.hpl.jena.graph.impl.AllCapabilities	classe	9
+com.hp.hpl.jena.graph.impl.GraphBase	classe	38
+com.hp.hpl.jena.graph.impl.GraphMatcher	classe	22
+com.hp.hpl.jena.graph.impl.GraphMatcher$SomeResource	interface	2
+com.hp.hpl.jena.graph.impl.GraphMatcher$FixedResource	classe	3
+com.hp.hpl.jena.graph.impl.GraphMatcher$AnonStatement	classe	4
+com.hp.hpl.jena.graph.impl.GraphMatcher$Bucket	classe	6
+com.hp.hpl.jena.graph.impl.GraphMatcher$AnonResource	classe	9
+com.hp.hpl.jena.graph.impl.GraphMatcher$AnonResource$StatementWrapper	classe	3
+com.hp.hpl.jena.graph.impl.FileGraphMaker	classe	16
+com.hp.hpl.jena.graph.impl.BaseGraphMaker	classe	6
+com.hp.hpl.jena.graph.impl.ReificationWrapper	classe	25
+com.hp.hpl.jena.graph.impl.ReifierTripleMap	interface	11
+com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	classe	12
+com.hp.hpl.jena.graph.impl.GraphAddList	classe	4
+com.hp.hpl.jena.graph.impl.SimpleReifier	classe	28
+com.hp.hpl.jena.graph.impl.LiteralLabelFactory	classe	5
+com.hp.hpl.jena.graph.impl.SimpleBulkUpdateHandler	classe	22
+com.hp.hpl.jena.graph.impl.SimpleTransactionHandler	classe	5
+com.hp.hpl.jena.graph.impl.SimpleReifierTripleMap	classe	16
+com.hp.hpl.jena.graph.GetTriple	interface	1
+com.hp.hpl.jena.graph.TransactionHandler	interface	5
+com.hp.hpl.jena.graph.Node_Fluid	classe	1
+com.hp.hpl.jena.graph.GraphStatisticsHandler	interface	1
+com.hp.hpl.jena.graph.Node	classe	42
+com.hp.hpl.jena.graph.Node$NotLiteral	classe	0
+com.hp.hpl.jena.graph.Node$NodeMaker	classe	1
+com.hp.hpl.jena.graph.Node_Literal	classe	14
+com.hp.hpl.jena.graph.TripleMatchFilter	classe	1
+com.hp.hpl.jena.graph.BulkUpdateHandler	interface	12
+com.hp.hpl.jena.graph.Graph	interface	19
+com.hp.hpl.jena.graph.TripleMatch	interface	4
+com.hp.hpl.jena.graph.TripleIterator	interface	1
+com.hp.hpl.jena.graph.GraphAdd	interface	1
+com.hp.hpl.jena.graph.compose.Union	classe	4
+com.hp.hpl.jena.graph.compose.MultiUnion	classe	12
+com.hp.hpl.jena.graph.compose.MultiUnion$MultiUnionStatisticsHandler	classe	2
+com.hp.hpl.jena.graph.compose.PolyadicPrefixMappingImpl	classe	14
+com.hp.hpl.jena.graph.compose.CompositionBase	classe	7
+com.hp.hpl.jena.graph.compose.Delta	classe	7
+com.hp.hpl.jena.graph.compose.Polyadic	classe	12
+com.hp.hpl.jena.graph.compose.Intersection	classe	3
+com.hp.hpl.jena.graph.compose.DisjointUnion	classe	4
+com.hp.hpl.jena.graph.GraphEventManager	interface	5
+com.hp.hpl.jena.graph.Node_Blank	classe	4
+com.hp.hpl.jena.graph.FrontsNode	interface	1
+com.hp.hpl.jena.graph.Node_URI	classe	9
+com.hp.hpl.jena.graph.Factory	classe	5
+com.hp.hpl.jena.graph.Node_Concrete	classe	1
+com.hp.hpl.jena.graph.Node_NULL	classe	3
+com.hp.hpl.jena.graph.Node_Variable	classe	6
+com.hp.hpl.jena.graph.Node_Variable$VariableName	classe	3
+com.hp.hpl.jena.graph.FrontsTriple	interface	1
+com.hp.hpl.jena.graph.GraphUtil	classe	1
+com.hp.hpl.jena.graph.TripleCache	classe	3
+com.hp.hpl.jena.graph.GraphExtract	classe	2
+com.hp.hpl.jena.graph.GraphExtract$Extraction	classe	1
+com.hp.hpl.jena.graph.GraphEvents	classe	7
+com.hp.hpl.jena.graph.GraphMaker	interface	12
+com.hp.hpl.jena.graph.TripleMatchIterator	classe	0
+com.hp.hpl.jena.graph.NodeCache	classe	5
+com.hp.hpl.jena.graph.Node_ANY	classe	5
+com.hp.hpl.jena.graph.Triple	classe	24
+com.hp.hpl.jena.graph.Triple$Field	classe	3
+com.hp.hpl.jena.graph.GraphListener	interface	11
+com.hp.hpl.jena.graph.Capabilities	interface	9
+com.hp.hpl.jena.graph.query.QueryNode	classe	7
+com.hp.hpl.jena.graph.query.QueryNode$MustNotMatchException	classe	0
+com.hp.hpl.jena.graph.query.QueryNode$Fixed	classe	3
+com.hp.hpl.jena.graph.query.QueryNode$Bind	classe	5
+com.hp.hpl.jena.graph.query.QueryNode$JustBound	classe	5
+com.hp.hpl.jena.graph.query.QueryNode$Bound	classe	3
+com.hp.hpl.jena.graph.query.QueryNode$Any	classe	2
+com.hp.hpl.jena.graph.query.SimpleQueryEngine	classe	8
+com.hp.hpl.jena.graph.query.SimpleQueryEngine$Cons	classe	1
+com.hp.hpl.jena.graph.query.QueryTriple	classe	5
+com.hp.hpl.jena.graph.query.QueryTriple$SimpleApplyer	classe	2
+com.hp.hpl.jena.graph.query.SimpleTripleSorter	classe	13
+com.hp.hpl.jena.graph.query.Element	classe	4
+com.hp.hpl.jena.graph.query.Matcher	classe	1
+com.hp.hpl.jena.graph.query.Stage	classe	6
+com.hp.hpl.jena.graph.query.TreeQueryPlan	interface	1
+com.hp.hpl.jena.graph.query.QueryNodeFactoryBase	classe	7
+com.hp.hpl.jena.graph.query.QueryNodeFactory	interface	7
+com.hp.hpl.jena.graph.query.SlotValuator	classe	2
+com.hp.hpl.jena.graph.query.PatternLiteral	interface	3
+com.hp.hpl.jena.graph.query.QueryHandler	interface	7
+com.hp.hpl.jena.graph.query.GuardArranger	classe	5
+com.hp.hpl.jena.graph.query.IndexValues	interface	1
+com.hp.hpl.jena.graph.query.ExpressionFunctionURIs	interface	0
+com.hp.hpl.jena.graph.query.Pattern	classe	3
+com.hp.hpl.jena.graph.query.Bind	classe	3
+com.hp.hpl.jena.graph.query.BindingQueryPlan	interface	1
+com.hp.hpl.jena.graph.query.SimpleTreeQueryPlan	classe	6
+com.hp.hpl.jena.graph.query.BufferPipe	classe	7
+com.hp.hpl.jena.graph.query.BufferPipe$Finished	classe	1
+com.hp.hpl.jena.graph.query.BufferPipe$BoundedBufferTakeException	classe	0
+com.hp.hpl.jena.graph.query.BufferPipe$BoundedBufferPutException	classe	0
+com.hp.hpl.jena.graph.query.FixedValuator	classe	2
+com.hp.hpl.jena.graph.query.SimpleQueryPlan	classe	1
+com.hp.hpl.jena.graph.query.Mapping	classe	8
+com.hp.hpl.jena.graph.query.InitialStage	classe	2
+com.hp.hpl.jena.graph.query.Expression	interface	9
+com.hp.hpl.jena.graph.query.Expression$Base	classe	9
+com.hp.hpl.jena.graph.query.Expression$Constant	classe	2
+com.hp.hpl.jena.graph.query.Expression$Fixed	classe	3
+com.hp.hpl.jena.graph.query.Expression$Variable	classe	2
+com.hp.hpl.jena.graph.query.Expression$Application	classe	4
+com.hp.hpl.jena.graph.query.Expression$Util	classe	6
+com.hp.hpl.jena.graph.query.Expression$Valof	classe	2
+com.hp.hpl.jena.graph.query.Expression$BoolConstant	classe	6
+com.hp.hpl.jena.graph.query.ConstraintStage	classe	2
+com.hp.hpl.jena.graph.query.Pipe	interface	5
+com.hp.hpl.jena.graph.query.VariableIndexes	interface	1
+com.hp.hpl.jena.graph.query.Valuator	interface	2
+com.hp.hpl.jena.graph.query.NamedTripleBunches	classe	2
+com.hp.hpl.jena.graph.query.regexptrees.Paren	classe	5
+com.hp.hpl.jena.graph.query.regexptrees.BackReference	classe	4
+com.hp.hpl.jena.graph.query.regexptrees.MultiOperandTree	classe	5
+com.hp.hpl.jena.graph.query.regexptrees.NoneOf	classe	3
+com.hp.hpl.jena.graph.query.regexptrees.Text	classe	5
+com.hp.hpl.jena.graph.query.regexptrees.Text$TextString	classe	4
+com.hp.hpl.jena.graph.query.regexptrees.Text$TextChar	classe	4
+com.hp.hpl.jena.graph.query.regexptrees.Sequence	classe	4
+com.hp.hpl.jena.graph.query.regexptrees.Optional	classe	3
+com.hp.hpl.jena.graph.query.regexptrees.SimpleGenerator	classe	13
+com.hp.hpl.jena.graph.query.regexptrees.EndOfLine	classe	3
+com.hp.hpl.jena.graph.query.regexptrees.Nothing	classe	3
+com.hp.hpl.jena.graph.query.regexptrees.AnySingle	classe	3
+com.hp.hpl.jena.graph.query.regexptrees.PerlPatternParser	classe	20
+com.hp.hpl.jena.graph.query.regexptrees.PerlPatternParser$SyntaxException	classe	0
+com.hp.hpl.jena.graph.query.regexptrees.OneOrMore	classe	3
+com.hp.hpl.jena.graph.query.regexptrees.RegexpTree	classe	3
+com.hp.hpl.jena.graph.query.regexptrees.ZeroOrMore	classe	3
+com.hp.hpl.jena.graph.query.regexptrees.StartOfLine	classe	3
+com.hp.hpl.jena.graph.query.regexptrees.AnyOf	classe	3
+com.hp.hpl.jena.graph.query.regexptrees.RegexpTreeGenerator	interface	13
+com.hp.hpl.jena.graph.query.regexptrees.Repeated	classe	1
+com.hp.hpl.jena.graph.query.regexptrees.Alternatives	classe	4
+com.hp.hpl.jena.graph.query.PatternCompiler	interface	4
+com.hp.hpl.jena.graph.query.Applyer	classe	1
+com.hp.hpl.jena.graph.query.PatternStageCompiler	classe	7
+com.hp.hpl.jena.graph.query.Fixed	classe	3
+com.hp.hpl.jena.graph.query.PatternStageBase	classe	9
+com.hp.hpl.jena.graph.query.PatternStageBase$PatternStageThread	classe	3
+com.hp.hpl.jena.graph.query.PatternStageBase$Work	classe	1
+com.hp.hpl.jena.graph.query.Query	classe	15
+com.hp.hpl.jena.graph.query.Query$UnboundVariableException	classe	0
+com.hp.hpl.jena.graph.query.ExpressionSet	classe	5
+com.hp.hpl.jena.graph.query.PatternStage	classe	0
+com.hp.hpl.jena.graph.query.TripleSorter	interface	1
+com.hp.hpl.jena.graph.query.NamedGraphMap	classe	2
+com.hp.hpl.jena.graph.query.ValuatorSet	classe	3
+com.hp.hpl.jena.graph.query.Rewrite	classe	11
+com.hp.hpl.jena.graph.query.Rewrite$DyadicLiteral	classe	3
+com.hp.hpl.jena.graph.query.VariableValues	interface	1
+com.hp.hpl.jena.graph.query.SimpleQueryHandler	classe	10
+com.hp.hpl.jena.graph.query.StageElement	classe	1
+com.hp.hpl.jena.graph.query.StageElement$PutBindings	classe	1
+com.hp.hpl.jena.graph.query.StageElement$FindTriples	classe	1
+com.hp.hpl.jena.graph.query.StageElement$RunValuatorSet	classe	1
+com.hp.hpl.jena.graph.query.Domain	classe	7
+com.hp.hpl.jena.graph.TripleBoundary	interface	1
+com.hp.hpl.jena.graph.Reifier	interface	16
+com.hp.hpl.jena.graph.Reifier$Util	classe	3
+com.hp.hpl.jena.graph.NodeVisitor	interface	5
+com.hp.hpl.jena.shared.impl.JenaParameters	classe	0
+com.hp.hpl.jena.shared.impl.PrefixMappingImpl	classe	25
+com.hp.hpl.jena.shared.AlreadyExistsException	classe	0
+com.hp.hpl.jena.shared.JenaException	classe	0
+com.hp.hpl.jena.shared.PropertyNotFoundException	classe	0
+com.hp.hpl.jena.shared.ReificationStyle	classe	3
+com.hp.hpl.jena.shared.UnknownPropertyException	classe	0
+com.hp.hpl.jena.shared.WrappedIOException	classe	0
+com.hp.hpl.jena.shared.NoReasonerSuppliedException	classe	0
+com.hp.hpl.jena.shared.AssertionFailureException	classe	0
+com.hp.hpl.jena.shared.Command	interface	1
+com.hp.hpl.jena.shared.LockNone	classe	2
+com.hp.hpl.jena.shared.BadURIException	classe	0
+com.hp.hpl.jena.shared.AlreadyReifiedException	classe	0
+com.hp.hpl.jena.shared.BadDescriptionMultipleRootsException	classe	0
+com.hp.hpl.jena.shared.CannotEncodeCharacterException	classe	2
+com.hp.hpl.jena.shared.NoReaderForLangException	classe	0
+com.hp.hpl.jena.shared.LockMRSW	classe	5
+com.hp.hpl.jena.shared.LockMRSW$LockState	classe	1
+com.hp.hpl.jena.shared.DoesNotExistException	classe	0
+com.hp.hpl.jena.shared.DeleteDeniedException	classe	0
+com.hp.hpl.jena.shared.CannotReifyException	classe	0
+com.hp.hpl.jena.shared.LockMutex	classe	2
+com.hp.hpl.jena.shared.NamespaceEndsWithNameCharException	classe	0
+com.hp.hpl.jena.shared.ConfigException	classe	0
+com.hp.hpl.jena.shared.BrokenException	classe	0
+com.hp.hpl.jena.shared.NoWriterForLangException	classe	0
+com.hp.hpl.jena.shared.InvalidPropertyURIException	classe	0
+com.hp.hpl.jena.shared.BadCharLiteralException	classe	0
+com.hp.hpl.jena.shared.QueryStageException	classe	0
+com.hp.hpl.jena.shared.RandomOrderGraph	classe	4
+com.hp.hpl.jena.shared.BadDescriptionException	classe	0
+com.hp.hpl.jena.shared.BadDescriptionNoRootException	classe	0
+com.hp.hpl.jena.shared.NoSuchReasonerException	classe	1
+com.hp.hpl.jena.shared.Lock	interface	2
+com.hp.hpl.jena.shared.RulesetNotFoundException	classe	1
+com.hp.hpl.jena.shared.NotFoundException	classe	0
+com.hp.hpl.jena.shared.uuid.UUID_V4	classe	11
+com.hp.hpl.jena.shared.uuid.UUID_V1_Gen	classe	11
+com.hp.hpl.jena.shared.uuid.UUID_nil	classe	8
+com.hp.hpl.jena.shared.uuid.LibUUID	classe	2
+com.hp.hpl.jena.shared.uuid.UUIDFactory	interface	3
+com.hp.hpl.jena.shared.uuid.UUID_V1	classe	14
+com.hp.hpl.jena.shared.uuid.UUID_V4_Gen	classe	8
+com.hp.hpl.jena.shared.uuid.JenaUUID	classe	19
+com.hp.hpl.jena.shared.uuid.JenaUUID$FormatException	classe	0
+com.hp.hpl.jena.shared.uuid.Bits	classe	23
+com.hp.hpl.jena.shared.ClosedException	classe	1
+com.hp.hpl.jena.shared.SyntaxError	classe	0
+com.hp.hpl.jena.shared.wg.TestInputStreamFactory	classe	10
+com.hp.hpl.jena.shared.wg.LazyZipEntryInputStream	classe	1
+com.hp.hpl.jena.shared.wg.LazyInputStream	classe	4
+com.hp.hpl.jena.shared.wg.LazyFileInputStream	classe	1
+com.hp.hpl.jena.shared.wg.LazyURLInputStream	classe	1
+com.hp.hpl.jena.shared.CannotCreateException	classe	0
+com.hp.hpl.jena.shared.PrefixMapping	interface	13
+com.hp.hpl.jena.shared.PrefixMapping$IllegalPrefixException	classe	0
+com.hp.hpl.jena.shared.PrefixMapping$JenaLockedException	classe	0
+com.hp.hpl.jena.shared.PrefixMapping$Factory	classe	1
+com.hp.hpl.jena.shared.BadBooleanException	classe	0
+com.hp.hpl.jena.shared.UpdateDeniedException	classe	1
+com.hp.hpl.jena.shared.AddDeniedException	classe	0
+com.hp.hpl.jena.ontology.MinCardinalityQRestriction	interface	4
+com.hp.hpl.jena.ontology.OntProperty	interface	62
+com.hp.hpl.jena.ontology.impl.CardinalityRestrictionImpl	classe	4
+com.hp.hpl.jena.ontology.impl.InverseFunctionalPropertyImpl	classe	0
+com.hp.hpl.jena.ontology.impl.MinCardinalityRestrictionImpl	classe	4
+com.hp.hpl.jena.ontology.impl.ComplementClassImpl	classe	10
+com.hp.hpl.jena.ontology.impl.SomeValuesFromRestrictionImpl	classe	4
+com.hp.hpl.jena.ontology.impl.UnionClassImpl	classe	2
+com.hp.hpl.jena.ontology.impl.MaxCardinalityRestrictionImpl	classe	4
+com.hp.hpl.jena.ontology.impl.IndividualImpl	classe	9
+com.hp.hpl.jena.ontology.impl.RDFSProfile	classe	65
+com.hp.hpl.jena.ontology.impl.RDFSProfile$SupportsCheck	classe	1
+com.hp.hpl.jena.ontology.impl.ObjectPropertyImpl	classe	3
+com.hp.hpl.jena.ontology.impl.OWLLiteProfile	classe	12
+com.hp.hpl.jena.ontology.impl.AbstractProfile	classe	6
+com.hp.hpl.jena.ontology.impl.OntModelImpl	classe	163
+com.hp.hpl.jena.ontology.impl.OntModelImpl$SubjectNodeAs	classe	1
+com.hp.hpl.jena.ontology.impl.OntModelImpl$NodeAs	classe	1
+com.hp.hpl.jena.ontology.impl.OntModelImpl$NodeCanAs	classe	1
+com.hp.hpl.jena.ontology.impl.OntModelImpl$SubjectNodeCanAs	classe	1
+com.hp.hpl.jena.ontology.impl.OntModelImpl$GetBinding	classe	1
+com.hp.hpl.jena.ontology.impl.OntModelImpl$RdfTypeTestFn	classe	1
+com.hp.hpl.jena.ontology.impl.OntModelImpl$ImportsListener	classe	2
+com.hp.hpl.jena.ontology.impl.OntClassImpl	classe	58
+com.hp.hpl.jena.ontology.impl.AnnotationPropertyImpl	classe	2
+com.hp.hpl.jena.ontology.impl.DatatypePropertyImpl	classe	0
+com.hp.hpl.jena.ontology.impl.MinCardinalityQRestrictionImpl	classe	6
+com.hp.hpl.jena.ontology.impl.DAML_OILProfile	classe	67
+com.hp.hpl.jena.ontology.impl.DAML_OILProfile$SupportsCheck	classe	1
+com.hp.hpl.jena.ontology.impl.IntersectionClassImpl	classe	2
+com.hp.hpl.jena.ontology.impl.MaxCardinalityQRestrictionImpl	classe	6
+com.hp.hpl.jena.ontology.impl.CardinalityQRestrictionImpl	classe	6
+com.hp.hpl.jena.ontology.impl.HasValueRestrictionImpl	classe	4
+com.hp.hpl.jena.ontology.impl.OWLDLProfile	classe	3
+com.hp.hpl.jena.ontology.impl.DAML_OILLegacyProfile	classe	67
+com.hp.hpl.jena.ontology.impl.DAML_OILLegacyProfile$SupportsCheck	classe	1
+com.hp.hpl.jena.ontology.impl.OWLProfile	classe	67
+com.hp.hpl.jena.ontology.impl.OWLProfile$SupportsCheck	classe	5
+com.hp.hpl.jena.ontology.impl.OntPropertyImpl	classe	65
+com.hp.hpl.jena.ontology.impl.OntPropertyImpl$FilterDeclaringClass	classe	1
+com.hp.hpl.jena.ontology.impl.AllDifferentImpl	classe	7
+com.hp.hpl.jena.ontology.impl.OntResourceImpl	classe	103
+com.hp.hpl.jena.ontology.impl.OntResourceImpl$AsMapper	classe	1
+com.hp.hpl.jena.ontology.impl.OntResourceImpl$ResourceAsMapper	classe	1
+com.hp.hpl.jena.ontology.impl.OntResourceImpl$SubjectAsMapper	classe	1
+com.hp.hpl.jena.ontology.impl.OntResourceImpl$SubjectMapper	classe	1
+com.hp.hpl.jena.ontology.impl.OntResourceImpl$ObjectAsMapper	classe	1
+com.hp.hpl.jena.ontology.impl.OntResourceImpl$ObjectAsStringMapper	classe	1
+com.hp.hpl.jena.ontology.impl.OntResourceImpl$ObjectMapper	classe	1
+com.hp.hpl.jena.ontology.impl.OntResourceImpl$ObjectAsOntResourceMapper	classe	1
+com.hp.hpl.jena.ontology.impl.OntResourceImpl$LangTagFilter	classe	1
+com.hp.hpl.jena.ontology.impl.OntResourceImpl$SingleEqualityFilter	classe	1
+com.hp.hpl.jena.ontology.impl.BooleanClassDescriptionImpl	classe	9
+com.hp.hpl.jena.ontology.impl.AllValuesFromRestrictionImpl	classe	4
+com.hp.hpl.jena.ontology.impl.FunctionalPropertyImpl	classe	0
+com.hp.hpl.jena.ontology.impl.TransitivePropertyImpl	classe	0
+com.hp.hpl.jena.ontology.impl.OntologyImpl	classe	24
+com.hp.hpl.jena.ontology.impl.EnumeratedClassImpl	classe	7
+com.hp.hpl.jena.ontology.impl.DataRangeImpl	classe	7
+com.hp.hpl.jena.ontology.impl.SymmetricPropertyImpl	classe	0
+com.hp.hpl.jena.ontology.impl.RestrictionImpl	classe	22
+com.hp.hpl.jena.ontology.impl.QualifiedRestrictionImpl	classe	8
+com.hp.hpl.jena.ontology.Profile	interface	67
+com.hp.hpl.jena.ontology.Restriction	interface	22
+com.hp.hpl.jena.ontology.OntClass	interface	54
+com.hp.hpl.jena.ontology.AllDifferent	interface	7
+com.hp.hpl.jena.ontology.MaxCardinalityQRestriction	interface	4
+com.hp.hpl.jena.ontology.SymmetricProperty	interface	0
+com.hp.hpl.jena.ontology.MinCardinalityRestriction	interface	4
+com.hp.hpl.jena.ontology.BooleanClassDescription	interface	8
+com.hp.hpl.jena.ontology.SomeValuesFromRestriction	interface	4
+com.hp.hpl.jena.ontology.OntologyException	classe	0
+com.hp.hpl.jena.ontology.ProfileException	classe	0
+com.hp.hpl.jena.ontology.OntDocumentManager	classe	47
+com.hp.hpl.jena.ontology.OntDocumentManager$ReadFailureHandler	interface	1
+com.hp.hpl.jena.ontology.OntDocumentManager$ReadHook	interface	2
+com.hp.hpl.jena.ontology.OntDocumentManager$DefaultReadHook	classe	2
+com.hp.hpl.jena.ontology.HasValueRestriction	interface	4
+com.hp.hpl.jena.ontology.ProfileRegistry	classe	3
+com.hp.hpl.jena.ontology.EnumeratedClass	interface	7
+com.hp.hpl.jena.ontology.CardinalityQRestriction	interface	4
+com.hp.hpl.jena.ontology.IntersectionClass	interface	0
+com.hp.hpl.jena.ontology.OntResource	interface	84
+com.hp.hpl.jena.ontology.Individual	interface	9
+com.hp.hpl.jena.ontology.OntModelSpec	classe	25
+com.hp.hpl.jena.ontology.ComplementClass	interface	2
+com.hp.hpl.jena.ontology.ObjectProperty	interface	0
+com.hp.hpl.jena.ontology.OntModel	interface	123
+com.hp.hpl.jena.ontology.CardinalityRestriction	interface	4
+com.hp.hpl.jena.ontology.InverseFunctionalProperty	interface	0
+com.hp.hpl.jena.ontology.UnionClass	interface	0
+com.hp.hpl.jena.ontology.Ontology	interface	24
+com.hp.hpl.jena.ontology.LanguageConsistencyException	classe	0
+com.hp.hpl.jena.ontology.ConversionException	classe	0
+com.hp.hpl.jena.ontology.DataRange	interface	7
+com.hp.hpl.jena.ontology.QualifiedRestriction	interface	6
+com.hp.hpl.jena.ontology.OntTools	classe	7
+com.hp.hpl.jena.ontology.OntTools$DisjointSet	classe	15
+com.hp.hpl.jena.ontology.OntTools$LCAIndex	classe	3
+com.hp.hpl.jena.ontology.OntTools$Path	classe	5
+com.hp.hpl.jena.ontology.OntTools$PredicatesFilter	classe	1
+com.hp.hpl.jena.ontology.TransitiveProperty	interface	0
+com.hp.hpl.jena.ontology.MaxCardinalityRestriction	interface	4
+com.hp.hpl.jena.ontology.AnnotationProperty	interface	0
+com.hp.hpl.jena.ontology.AllValuesFromRestriction	interface	4
+com.hp.hpl.jena.ontology.FunctionalProperty	interface	0
+com.hp.hpl.jena.ontology.DatatypeProperty	interface	0
+com.hp.hpl.jena.reasoner.InfGraph	interface	13
+com.hp.hpl.jena.reasoner.ReasonerFactory	interface	3
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveReasonerFactory	classe	4
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveReasoner	classe	13
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache	classe	17
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache$Visitor	interface	1
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache$GraphWalker	classe	5
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache$FullGraphWalker	classe	3
+com.hp.hpl.jena.reasoner.transitiveReasoner.GraphNode	classe	26
+com.hp.hpl.jena.reasoner.transitiveReasoner.GraphNode$Siblings	classe	6
+com.hp.hpl.jena.reasoner.transitiveReasoner.GraphNode$Leader	classe	5
+com.hp.hpl.jena.reasoner.transitiveReasoner.GraphNode$Subordinate	classe	3
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveEngine	classe	13
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveInfGraph	classe	8
+com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleInfGraph	classe	32
+com.hp.hpl.jena.reasoner.rulesys.RuleDerivation	classe	7
+com.hp.hpl.jena.reasoner.rulesys.impl.LPBRuleEngine	classe	25
+com.hp.hpl.jena.reasoner.rulesys.impl.LPBRuleEngine$Count	classe	4
+com.hp.hpl.jena.reasoner.rulesys.impl.MutableTriplePattern	classe	1
+com.hp.hpl.jena.reasoner.rulesys.impl.LPBindingEnvironment	classe	3
+com.hp.hpl.jena.reasoner.rulesys.impl.RDFSCMPPreprocessHook	classe	2
+com.hp.hpl.jena.reasoner.rulesys.impl.EnvironmentFrame	classe	3
+com.hp.hpl.jena.reasoner.rulesys.impl.RETETerminal	classe	3
+com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode	classe	8
+com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode$CompileState	classe	13
+com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode$CompileState$RuleClauseCodeList	classe	1
+com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode$TermIndex	classe	0
+com.hp.hpl.jena.reasoner.rulesys.impl.LPAgendaEntry	interface	3
+com.hp.hpl.jena.reasoner.rulesys.impl.TripleMatchFrame	classe	3
+com.hp.hpl.jena.reasoner.rulesys.impl.RETENode	interface	1
+com.hp.hpl.jena.reasoner.rulesys.impl.GenericTripleMatchFrame	classe	3
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEClauseFilter	classe	5
+com.hp.hpl.jena.reasoner.rulesys.impl.BaseRuleReasonerFactory	classe	0
+com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreterState	interface	0
+com.hp.hpl.jena.reasoner.rulesys.impl.LPTopGoalIterator	classe	11
+com.hp.hpl.jena.reasoner.rulesys.impl.LPRuleSyntaxException	classe	0
+com.hp.hpl.jena.reasoner.rulesys.impl.BFRuleContext	classe	15
+com.hp.hpl.jena.reasoner.rulesys.impl.WrappedReasonerFactory	classe	4
+com.hp.hpl.jena.reasoner.rulesys.impl.StateFlag	classe	1
+com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngineI	interface	9
+com.hp.hpl.jena.reasoner.rulesys.impl.RETESinkNode	interface	1
+com.hp.hpl.jena.reasoner.rulesys.impl.RETESourceNode	interface	1
+com.hp.hpl.jena.reasoner.rulesys.impl.RETERuleContext	classe	14
+com.hp.hpl.jena.reasoner.rulesys.impl.BindingVector	classe	12
+com.hp.hpl.jena.reasoner.rulesys.impl.TopLevelTripleMatchFrame	classe	2
+com.hp.hpl.jena.reasoner.rulesys.impl.OWLRuleTranslationHook	classe	3
+com.hp.hpl.jena.reasoner.rulesys.impl.ConsumerChoicePointFrame	classe	10
+com.hp.hpl.jena.reasoner.rulesys.impl.EnvironmentFrameWithDerivation	classe	4
+com.hp.hpl.jena.reasoner.rulesys.impl.TempNodeCache	classe	1
+com.hp.hpl.jena.reasoner.rulesys.impl.TempNodeCache$NodePair	classe	4
+com.hp.hpl.jena.reasoner.rulesys.impl.GenericChoiceFrame	classe	2
+com.hp.hpl.jena.reasoner.rulesys.impl.ChoicePointFrame	classe	4
+com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreterContext	interface	4
+com.hp.hpl.jena.reasoner.rulesys.impl.LPRuleStore	classe	9
+com.hp.hpl.jena.reasoner.rulesys.impl.RuleStore	classe	9
+com.hp.hpl.jena.reasoner.rulesys.impl.FrameObject	classe	4
+com.hp.hpl.jena.reasoner.rulesys.impl.BBRuleContext	classe	12
+com.hp.hpl.jena.reasoner.rulesys.impl.BindingStack	classe	11
+com.hp.hpl.jena.reasoner.rulesys.impl.SafeGraph	classe	3
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine	classe	23
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine$ClausePointer	classe	1
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine$RuleStore	classe	0
+com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine	classe	18
+com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine$ClausePointer	classe	1
+com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine$RuleStore	classe	0
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEQueue	classe	4
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEQueue$Count	classe	4
+com.hp.hpl.jena.reasoner.rulesys.impl.OWLExptRuleTranslationHook	classe	3
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEConflictSet	classe	4
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEConflictSet$CSEntry	classe	0
+com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreter	classe	22
+com.hp.hpl.jena.reasoner.rulesys.impl.Generator	classe	18
+com.hp.hpl.jena.reasoner.rulesys.impl.Generator$LFlag	classe	1
+com.hp.hpl.jena.reasoner.rulesys.RuleContext	interface	10
+com.hp.hpl.jena.reasoner.rulesys.RuleReasonerFactory	interface	0
+com.hp.hpl.jena.reasoner.rulesys.Builtin	interface	7
+com.hp.hpl.jena.reasoner.rulesys.OWLFBRuleReasonerFactory	classe	4
+com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	classe	44
+com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph$RuleStore	classe	0
+com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleInfGraph	classe	21
+com.hp.hpl.jena.reasoner.rulesys.Node_RuleVariable	classe	13
+com.hp.hpl.jena.reasoner.rulesys.ClauseEntry	interface	1
+com.hp.hpl.jena.reasoner.rulesys.RDFSRuleReasoner	classe	5
+com.hp.hpl.jena.reasoner.rulesys.OWLMicroReasoner	classe	3
+com.hp.hpl.jena.reasoner.rulesys.GenericRuleReasonerFactory	classe	4
+com.hp.hpl.jena.reasoner.rulesys.RETERuleInfGraph	classe	3
+com.hp.hpl.jena.reasoner.rulesys.BuiltinException	classe	0
+com.hp.hpl.jena.reasoner.rulesys.OWLFBRuleReasoner	classe	5
+com.hp.hpl.jena.reasoner.rulesys.DAMLMicroReasonerFactory	classe	4
+com.hp.hpl.jena.reasoner.rulesys.RuleReasoner	interface	2
+com.hp.hpl.jena.reasoner.rulesys.DAMLMicroReasoner	classe	2
+com.hp.hpl.jena.reasoner.rulesys.RDFSRuleReasonerFactory	classe	4
+com.hp.hpl.jena.reasoner.rulesys.GenericRuleReasoner	classe	21
+com.hp.hpl.jena.reasoner.rulesys.GenericRuleReasoner$RuleMode	classe	1
+com.hp.hpl.jena.reasoner.rulesys.BuiltinRegistry	classe	4
+com.hp.hpl.jena.reasoner.rulesys.RDFSFBRuleReasonerFactory	classe	4
+com.hp.hpl.jena.reasoner.rulesys.builtins.BaseBuiltin	classe	8
+com.hp.hpl.jena.reasoner.rulesys.builtins.LessThan	classe	3
+com.hp.hpl.jena.reasoner.rulesys.builtins.Quotient	classe	3
+com.hp.hpl.jena.reasoner.rulesys.builtins.NotLiteral	classe	3
+com.hp.hpl.jena.reasoner.rulesys.builtins.NotDType	classe	3
+com.hp.hpl.jena.reasoner.rulesys.builtins.Regex	classe	4
+com.hp.hpl.jena.reasoner.rulesys.builtins.StrConcat	classe	4
+com.hp.hpl.jena.reasoner.rulesys.builtins.AddOne	classe	3
+com.hp.hpl.jena.reasoner.rulesys.builtins.Drop	classe	3
+com.hp.hpl.jena.reasoner.rulesys.builtins.IsLiteral	classe	3
+com.hp.hpl.jena.reasoner.rulesys.builtins.Product	classe	3
+com.hp.hpl.jena.reasoner.rulesys.builtins.Now	classe	3
+com.hp.hpl.jena.reasoner.rulesys.builtins.AssertDisjointPairs	classe	3
+com.hp.hpl.jena.reasoner.rulesys.builtins.UriConcat	classe	2
+com.hp.hpl.jena.reasoner.rulesys.builtins.NotFunctor	classe	3
+com.hp.hpl.jena.reasoner.rulesys.builtins.MakeInstance	classe	2
+com.hp.hpl.jena.reasoner.rulesys.builtins.Remove	classe	3
+com.hp.hpl.jena.reasoner.rulesys.builtins.ListLength	classe	4
+com.hp.hpl.jena.reasoner.rulesys.builtins.Table	classe	2
+com.hp.hpl.jena.reasoner.rulesys.builtins.NotBNode	classe	3
+com.hp.hpl.jena.reasoner.rulesys.builtins.ListContains	classe	4
+com.hp.hpl.jena.reasoner.rulesys.builtins.Print	classe	4
+com.hp.hpl.jena.reasoner.rulesys.builtins.IsFunctor	classe	3
+com.hp.hpl.jena.reasoner.rulesys.builtins.Sum	classe	3
+com.hp.hpl.jena.reasoner.rulesys.builtins.LE	classe	3
+com.hp.hpl.jena.reasoner.rulesys.builtins.NotEqual	classe	3
+com.hp.hpl.jena.reasoner.rulesys.builtins.Max	classe	3
+com.hp.hpl.jena.reasoner.rulesys.builtins.IsDType	classe	4
+com.hp.hpl.jena.reasoner.rulesys.builtins.Unbound	classe	2
+com.hp.hpl.jena.reasoner.rulesys.builtins.Min	classe	3
+com.hp.hpl.jena.reasoner.rulesys.builtins.ListEqual	classe	4
+com.hp.hpl.jena.reasoner.rulesys.builtins.TableAll	classe	2
+com.hp.hpl.jena.reasoner.rulesys.builtins.ListNotContains	classe	3
+com.hp.hpl.jena.reasoner.rulesys.builtins.MakeTemp	classe	3
+com.hp.hpl.jena.reasoner.rulesys.builtins.ListMapAsObject	classe	3
+com.hp.hpl.jena.reasoner.rulesys.builtins.ListEntry	classe	4
+com.hp.hpl.jena.reasoner.rulesys.builtins.MakeSkolem	classe	2
+com.hp.hpl.jena.reasoner.rulesys.builtins.CountLiteralValues	classe	3
+com.hp.hpl.jena.reasoner.rulesys.builtins.NoValue	classe	3
+com.hp.hpl.jena.reasoner.rulesys.builtins.GreaterThan	classe	3
+com.hp.hpl.jena.reasoner.rulesys.builtins.Equal	classe	3
+com.hp.hpl.jena.reasoner.rulesys.builtins.Hide	classe	4
+com.hp.hpl.jena.reasoner.rulesys.builtins.ListNotEqual	classe	3
+com.hp.hpl.jena.reasoner.rulesys.builtins.IsBNode	classe	3
+com.hp.hpl.jena.reasoner.rulesys.builtins.GE	classe	3
+com.hp.hpl.jena.reasoner.rulesys.builtins.ListMapAsSubject	classe	3
+com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleReasoner	classe	11
+com.hp.hpl.jena.reasoner.rulesys.RDFSForwardRuleReasoner	classe	2
+com.hp.hpl.jena.reasoner.rulesys.FBRuleReasoner	classe	22
+com.hp.hpl.jena.reasoner.rulesys.OWLMicroReasonerFactory	classe	4
+com.hp.hpl.jena.reasoner.rulesys.RDFSRuleInfGraph	classe	1
+com.hp.hpl.jena.reasoner.rulesys.RDFSFBRuleReasoner	classe	2
+com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleReasoner	classe	12
+com.hp.hpl.jena.reasoner.rulesys.BindingEnvironment	interface	3
+com.hp.hpl.jena.reasoner.rulesys.SilentAddI	interface	1
+com.hp.hpl.jena.reasoner.rulesys.OWLMiniReasoner	classe	3
+com.hp.hpl.jena.reasoner.rulesys.Functor	classe	17
+com.hp.hpl.jena.reasoner.rulesys.Functor$FunctorDatatype	classe	0
+com.hp.hpl.jena.reasoner.rulesys.ForwardRuleInfGraphI	interface	10
+com.hp.hpl.jena.reasoner.rulesys.BackwardRuleInfGraphI	interface	5
+com.hp.hpl.jena.reasoner.rulesys.RulePreprocessHook	interface	2
+com.hp.hpl.jena.reasoner.rulesys.OWLMiniReasonerFactory	classe	4
+com.hp.hpl.jena.reasoner.rulesys.Rule	classe	38
+com.hp.hpl.jena.reasoner.rulesys.Rule$Parser	classe	18
+com.hp.hpl.jena.reasoner.rulesys.Rule$ParserException	classe	1
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	classe	17
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier$GetReifier	interface	1
+com.hp.hpl.jena.reasoner.Derivation	interface	2
+com.hp.hpl.jena.reasoner.ReasonerException	classe	0
+com.hp.hpl.jena.reasoner.StandardValidityReport	classe	7
+com.hp.hpl.jena.reasoner.Reasoner	interface	9
+com.hp.hpl.jena.reasoner.TriplePattern	classe	20
+com.hp.hpl.jena.reasoner.ValidityReport	interface	3
+com.hp.hpl.jena.reasoner.ValidityReport$Report	classe	5
+com.hp.hpl.jena.reasoner.BaseInfGraph	classe	32
+com.hp.hpl.jena.reasoner.BaseInfGraph$InfCapabilities	classe	4
+com.hp.hpl.jena.reasoner.BaseInfGraph$InfFindSafeCapabilities	classe	1
+com.hp.hpl.jena.reasoner.BaseInfGraph$InfBulkUpdateHandler	classe	2
+com.hp.hpl.jena.reasoner.BaseInfGraph$InfTransactionHandler	classe	5
+com.hp.hpl.jena.reasoner.FinderUtil	classe	3
+com.hp.hpl.jena.reasoner.FGraph	classe	4
+com.hp.hpl.jena.reasoner.Finder	interface	3
+com.hp.hpl.jena.reasoner.IllegalParameterException	classe	0
+com.hp.hpl.jena.reasoner.ReasonerRegistry	classe	15
+com.hp.hpl.jena.JenaRuntime	classe	7
+com.hp.hpl.jena.n3.turtle.TurtleEventHandler	interface	4
+com.hp.hpl.jena.n3.turtle.ParserTurtle	classe	2
+com.hp.hpl.jena.n3.turtle.TurtleEventNull	classe	4
+com.hp.hpl.jena.n3.turtle.LabelToNodeMap	classe	3
+com.hp.hpl.jena.n3.turtle.parser.JavaCharStream	classe	30
+com.hp.hpl.jena.n3.turtle.parser.TurtleParserTokenManager	classe	23
+com.hp.hpl.jena.n3.turtle.parser.TurtleParserConstants	interface	0
+com.hp.hpl.jena.n3.turtle.parser.TokenMgrError	classe	3
+com.hp.hpl.jena.n3.turtle.parser.TurtleParser	classe	41
+com.hp.hpl.jena.n3.turtle.parser.Token	classe	4
+com.hp.hpl.jena.n3.turtle.Turtle2NTriples	classe	7
+com.hp.hpl.jena.n3.turtle.ParserBase	classe	38
+com.hp.hpl.jena.n3.turtle.TurtleParseException	classe	0
+com.hp.hpl.jena.n3.turtle.TurtleRDFGraphInserter	classe	4
+com.hp.hpl.jena.n3.turtle.TurtleReader	classe	1
+com.hp.hpl.jena.n3.turtle.TurtleEventDump	classe	5
+com.hp.hpl.jena.n3.RelativeURIException	classe	0
+com.hp.hpl.jena.n3.N3JenaWriterTriples	classe	2
+com.hp.hpl.jena.n3.N3JenaWriter	classe	5
+com.hp.hpl.jena.n3.N3JenaWriterCommon	classe	49
+com.hp.hpl.jena.n3.N3IndentedWriter	classe	13
+com.hp.hpl.jena.n3.N3JenaWriterPlain	classe	0
+com.hp.hpl.jena.n3.JenaReaderBase	classe	8
+com.hp.hpl.jena.n3.IRIResolver	classe	10
+com.hp.hpl.jena.n3.JenaURIException	classe	0
+com.hp.hpl.jena.n3.N3JenaWriterPP	classe	15
+com.hp.hpl.jena.n3.N3TurtleJenaWriter	classe	0
+com.hp.hpl.jena.xmloutput.impl.Basic	classe	15
+com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	classe	60
+com.hp.hpl.jena.xmloutput.impl.PairEntry	classe	5
+com.hp.hpl.jena.xmloutput.impl.Unparser	classe	83
+com.hp.hpl.jena.xmloutput.impl.Unparser$WType	classe	2
+com.hp.hpl.jena.xmloutput.impl.Abbreviated	classe	8
+com.hp.hpl.jena.xmloutput.impl.SimpleLogger	interface	2
+com.hp.hpl.jena.xmloutput.impl.Relation	classe	19
+com.hp.hpl.jena.xmloutput.RDFXMLWriterI	interface	1
+com.hp.hpl.jena.db.impl.DBIDInt	classe	4
+com.hp.hpl.jena.db.impl.ReificationStatementMask	classe	17
+com.hp.hpl.jena.db.impl.DBTransactionHandler	classe	4
+com.hp.hpl.jena.db.impl.ReificationCacheMap	classe	5
+com.hp.hpl.jena.db.impl.DBProp	classe	12
+com.hp.hpl.jena.db.impl.SimpleCache	classe	4
+com.hp.hpl.jena.db.impl.Driver_Derby	classe	9
+com.hp.hpl.jena.db.impl.Driver_HSQLDB	classe	0
+com.hp.hpl.jena.db.impl.DriverMap	classe	5
+com.hp.hpl.jena.db.impl.DBPrefixMappingImpl	classe	4
+com.hp.hpl.jena.db.impl.DBReifierGraph	classe	24
+com.hp.hpl.jena.db.impl.SpecializedGraph_TripleStore_RDB	classe	1
+com.hp.hpl.jena.db.impl.ICache	interface	4
+com.hp.hpl.jena.db.impl.DBPattern	classe	18
+com.hp.hpl.jena.db.impl.Driver_HSQL	classe	8
+com.hp.hpl.jena.db.impl.VarDesc	classe	4
+com.hp.hpl.jena.db.impl.SpecializedGraph	interface	15
+com.hp.hpl.jena.db.impl.SpecializedGraph$CompletionFlag	classe	2
+com.hp.hpl.jena.db.impl.IDBID	interface	2
+com.hp.hpl.jena.db.impl.LRUCache	classe	7
+com.hp.hpl.jena.db.impl.DBQueryStageCompiler	classe	6
+com.hp.hpl.jena.db.impl.DriverRDB	classe	142
+com.hp.hpl.jena.db.impl.DriverRDB$ParseInt	classe	0
+com.hp.hpl.jena.db.impl.DriverRDB$RDBLongObject	classe	0
+com.hp.hpl.jena.db.impl.DBPropDatabase	classe	21
+com.hp.hpl.jena.db.impl.DBPropDatabase$MapToLSet	classe	1
+com.hp.hpl.jena.db.impl.Driver_Oracle_LOB	classe	13
+com.hp.hpl.jena.db.impl.Driver_Oracle_LOB$BLOB	interface	4
+com.hp.hpl.jena.db.impl.Driver_Oracle_LOB$OracleResultSet	interface	1
+com.hp.hpl.jena.db.impl.ResultSetTripleIterator	classe	8
+com.hp.hpl.jena.db.impl.Free	classe	10
+com.hp.hpl.jena.db.impl.Driver_PostgreSQL	classe	7
+com.hp.hpl.jena.db.impl.Driver_MsSQL	classe	5
+com.hp.hpl.jena.db.impl.DBBlob	classe	2
+com.hp.hpl.jena.db.impl.GraphRDBMaker	classe	12
+com.hp.hpl.jena.db.impl.ResultSetStringIterator	classe	1
+com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	classe	30
+com.hp.hpl.jena.db.impl.SpecializedGraphReifier	interface	5
+com.hp.hpl.jena.db.impl.DBPropPrefix	classe	4
+com.hp.hpl.jena.db.impl.Driver_Oracle	classe	13
+com.hp.hpl.jena.db.impl.SpecializedGraph_TripleStore	classe	13
+com.hp.hpl.jena.db.impl.DBQueryHandler	classe	19
+com.hp.hpl.jena.db.impl.DBQueryHandler$StageSequence	classe	2
+com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB	classe	23
+com.hp.hpl.jena.db.impl.PSet_ReifStore_RDB	classe	11
+com.hp.hpl.jena.db.impl.PSet_ReifStore_RDB$MapResultSetToNode	classe	1
+com.hp.hpl.jena.db.impl.DBQueryStage	classe	9
+com.hp.hpl.jena.db.impl.SQLCache	classe	37
+com.hp.hpl.jena.db.impl.DBQuery	classe	3
+com.hp.hpl.jena.db.impl.DBReifier	classe	19
+com.hp.hpl.jena.db.impl.IDBBlob	interface	2
+com.hp.hpl.jena.db.impl.IRDBDriver	interface	75
+com.hp.hpl.jena.db.impl.IRDBDriver$GenSQLAnd	classe	1
+com.hp.hpl.jena.db.impl.Driver_MySQL	classe	8
+com.hp.hpl.jena.db.impl.SpecializedGraphBase	classe	2
+com.hp.hpl.jena.db.impl.DBPropLSet	classe	6
+com.hp.hpl.jena.db.impl.IPSet	interface	21
+com.hp.hpl.jena.db.impl.DBPropGraph	classe	25
+com.hp.hpl.jena.db.impl.DBPropGraph$MapToLSet	classe	1
+com.hp.hpl.jena.db.impl.DBPropGraph$MapToPrefix	classe	1
+com.hp.hpl.jena.db.impl.ReificationCache	classe	11
+com.hp.hpl.jena.db.impl.ResultSetReifIterator	classe	12
+com.hp.hpl.jena.db.impl.DBBulkUpdateHandler	classe	16
+com.hp.hpl.jena.db.impl.DBPropPSet	classe	3
+com.hp.hpl.jena.db.impl.ResultSetIterator	classe	19
+com.hp.hpl.jena.db.IDBConnection	interface	14
+com.hp.hpl.jena.db.RDFRDBException	classe	0
+com.hp.hpl.jena.db.ModelRDB	classe	23
+com.hp.hpl.jena.db.DBConnection	classe	15
+com.hp.hpl.jena.db.GraphRDB	classe	40
+com.hp.hpl.jena.Jena	interface	0
+com.hp.hpl.jena.enhanced.PersonalityConfigException	classe	0
+com.hp.hpl.jena.enhanced.NodePersonality	classe	0
+com.hp.hpl.jena.enhanced.AlreadyLinkedViewException	classe	0
+com.hp.hpl.jena.enhanced.UnsupportedPolymorphismException	classe	4
+com.hp.hpl.jena.enhanced.Personality	classe	6
+com.hp.hpl.jena.enhanced.BuiltinPersonalities	classe	1
+com.hp.hpl.jena.enhanced.EnhNode	classe	15
+com.hp.hpl.jena.enhanced.Polymorphic	classe	10
+com.hp.hpl.jena.enhanced.Implementation	classe	2
+com.hp.hpl.jena.enhanced.GraphPersonality	classe	0
+com.hp.hpl.jena.enhanced.EnhGraph	classe	8
+com.hp.hpl.jena.rdf.model.LiteralRequiredException	classe	0
+com.hp.hpl.jena.rdf.model.EmptyListUpdateException	classe	0
+com.hp.hpl.jena.rdf.model.impl.ResourceImpl	classe	48
+com.hp.hpl.jena.rdf.model.impl.NodeIteratorFactory	interface	1
+com.hp.hpl.jena.rdf.model.impl.BagImpl	classe	0
+com.hp.hpl.jena.rdf.model.impl.ContNodeIteratorFactoryImpl	classe	1
+com.hp.hpl.jena.rdf.model.impl.StatementBase	classe	35
+com.hp.hpl.jena.rdf.model.impl.InfModelImpl	classe	11
+com.hp.hpl.jena.rdf.model.impl.NodeIteratorImpl	classe	1
+com.hp.hpl.jena.rdf.model.impl.ContainerImpl	classe	30
+com.hp.hpl.jena.rdf.model.impl.SeqImpl	classe	53
+com.hp.hpl.jena.rdf.model.impl.LiteralImpl	classe	28
+com.hp.hpl.jena.rdf.model.impl.ContNodeIteratorImpl	classe	4
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	classe	14
+com.hp.hpl.jena.rdf.model.impl.StmtIteratorImpl	classe	3
+com.hp.hpl.jena.rdf.model.impl.SelectorImpl	classe	1
+com.hp.hpl.jena.rdf.model.impl.ModelReifier	classe	17
+com.hp.hpl.jena.rdf.model.impl.ContainerI	interface	1
+com.hp.hpl.jena.rdf.model.impl.ReifiedStatementImpl	classe	10
+com.hp.hpl.jena.rdf.model.impl.PropertyImpl	classe	7
+com.hp.hpl.jena.rdf.model.impl.NsIteratorImpl	classe	1
+com.hp.hpl.jena.rdf.model.impl.AltImpl	classe	28
+com.hp.hpl.jena.rdf.model.impl.RDFDefaultErrorHandler	classe	3
+com.hp.hpl.jena.rdf.model.impl.SeqNodeIteratorImpl	classe	4
+com.hp.hpl.jena.rdf.model.impl.RDFWriterFImpl	classe	3
+com.hp.hpl.jena.rdf.model.impl.RSIteratorImpl	classe	1
+com.hp.hpl.jena.rdf.model.impl.SeqNodeIteratorFactoryImpl	classe	1
+com.hp.hpl.jena.rdf.model.impl.MemoryModelGetter	classe	2
+com.hp.hpl.jena.rdf.model.impl.ModelCom	classe	238
+com.hp.hpl.jena.rdf.model.impl.StatementImpl	classe	26
+com.hp.hpl.jena.rdf.model.impl.NTripleReader	classe	21
+com.hp.hpl.jena.rdf.model.impl.IStream	classe	5
+com.hp.hpl.jena.rdf.model.impl.RDFReaderFImpl	classe	4
+com.hp.hpl.jena.rdf.model.impl.ModelMakerImpl	classe	17
+com.hp.hpl.jena.rdf.model.impl.RDFListImpl	classe	46
+com.hp.hpl.jena.rdf.model.impl.RDFListImpl$RDFListIterator	classe	3
+com.hp.hpl.jena.rdf.model.impl.IteratorFactory	classe	7
+com.hp.hpl.jena.rdf.model.impl.ResIteratorImpl	classe	1
+com.hp.hpl.jena.rdf.model.impl.NTripleWriter	classe	13
+com.hp.hpl.jena.rdf.model.RDFWriterF	interface	3
+com.hp.hpl.jena.rdf.model.Alt	interface	27
+com.hp.hpl.jena.rdf.model.Property	interface	5
+com.hp.hpl.jena.rdf.model.HasNoModelException	classe	0
+com.hp.hpl.jena.rdf.model.Statement	interface	42
+com.hp.hpl.jena.rdf.model.Statement$Util	classe	0
+com.hp.hpl.jena.rdf.model.AltHasNoDefaultException	classe	0
+com.hp.hpl.jena.rdf.model.ModelCon	interface	84
+com.hp.hpl.jena.rdf.model.ModelSource	interface	4
+com.hp.hpl.jena.rdf.model.RDFVisitor	interface	3
+com.hp.hpl.jena.rdf.model.ModelMaker	interface	8
+com.hp.hpl.jena.rdf.model.Seq	interface	45
+com.hp.hpl.jena.rdf.model.Schema	interface	0
+com.hp.hpl.jena.rdf.model.StatementBoundary	interface	2
+com.hp.hpl.jena.rdf.model.StmtIterator	interface	1
+com.hp.hpl.jena.rdf.model.ListIndexException	classe	0
+com.hp.hpl.jena.rdf.model.EmptyListException	classe	0
+com.hp.hpl.jena.rdf.model.Resource	interface	39
+com.hp.hpl.jena.rdf.model.DoesNotReifyException	classe	0
+com.hp.hpl.jena.rdf.model.Container	interface	24
+com.hp.hpl.jena.rdf.model.NodeIterator	interface	5
+com.hp.hpl.jena.rdf.model.Bag	interface	1
+com.hp.hpl.jena.rdf.model.SimpleSelector	classe	7
+com.hp.hpl.jena.rdf.model.ResourceF	interface	1
+com.hp.hpl.jena.rdf.model.ResourceRequiredException	classe	0
+com.hp.hpl.jena.rdf.model.RDFWriter	interface	4
+com.hp.hpl.jena.rdf.model.ModelGetter	interface	2
+com.hp.hpl.jena.rdf.model.AnonId	classe	6
+com.hp.hpl.jena.rdf.model.ModelGraphInterface	interface	5
+com.hp.hpl.jena.rdf.model.Literal	interface	18
+com.hp.hpl.jena.rdf.model.InvalidListException	classe	0
+com.hp.hpl.jena.rdf.model.RDFNode	interface	12
+com.hp.hpl.jena.rdf.model.StatementTripleBoundary	classe	2
+com.hp.hpl.jena.rdf.model.RSIterator	interface	1
+com.hp.hpl.jena.rdf.model.RDFReader	interface	5
+com.hp.hpl.jena.rdf.model.Selector	interface	5
+com.hp.hpl.jena.rdf.model.ModelExtract	classe	3
+com.hp.hpl.jena.rdf.model.InfModel	interface	10
+com.hp.hpl.jena.rdf.model.RDFList	interface	33
+com.hp.hpl.jena.rdf.model.RDFList$ApplyFn	interface	1
+com.hp.hpl.jena.rdf.model.RDFList$ReduceFn	interface	1
+com.hp.hpl.jena.rdf.model.ModelChangedListener	interface	11
+com.hp.hpl.jena.rdf.model.StatementBoundaryBase	classe	4
+com.hp.hpl.jena.rdf.model.RDFErrorHandler	interface	3
+com.hp.hpl.jena.rdf.model.ResourceFactory	classe	10
+com.hp.hpl.jena.rdf.model.ResourceFactory$Interface	interface	8
+com.hp.hpl.jena.rdf.model.ResourceFactory$Impl	classe	8
+com.hp.hpl.jena.rdf.model.ReifiedStatement	interface	1
+com.hp.hpl.jena.rdf.model.ModelFactoryBase	classe	9
+com.hp.hpl.jena.rdf.model.SeqIndexBoundsException	classe	0
+com.hp.hpl.jena.rdf.model.ResIterator	interface	1
+com.hp.hpl.jena.rdf.model.Model	interface	91
+com.hp.hpl.jena.rdf.model.ModelFactory	classe	29
+com.hp.hpl.jena.rdf.model.ModelFactory$ModelRDBMaker	classe	1
+com.hp.hpl.jena.rdf.model.NsIterator	interface	1
+com.hp.hpl.jena.rdf.model.ModelReader	interface	1
+com.hp.hpl.jena.rdf.model.RDFReaderF	interface	3
+com.hp.hpl.jena.rdf.arp.impl.UntaintableURIReference	classe	1
+com.hp.hpl.jena.rdf.arp.impl.ParserSupport	classe	15
+com.hp.hpl.jena.rdf.arp.impl.Taint	interface	2
+com.hp.hpl.jena.rdf.arp.impl.ARPDatatypeLiteral	classe	5
+com.hp.hpl.jena.rdf.arp.impl.AbsXMLContext	classe	12
+com.hp.hpl.jena.rdf.arp.impl.URIReference	classe	15
+com.hp.hpl.jena.rdf.arp.impl.LexicalHandlerImpl	classe	7
+com.hp.hpl.jena.rdf.arp.impl.Names	interface	0
+com.hp.hpl.jena.rdf.arp.impl.DefaultErrorHandler	classe	3
+com.hp.hpl.jena.rdf.arp.impl.AResourceInternal	interface	2
+com.hp.hpl.jena.rdf.arp.impl.CharacterModel	classe	4
+com.hp.hpl.jena.rdf.arp.impl.ANode	interface	0
+com.hp.hpl.jena.rdf.arp.impl.XMLHandler	classe	42
+com.hp.hpl.jena.rdf.arp.impl.QNameLexer	classe	14
+com.hp.hpl.jena.rdf.arp.impl.AttributeLexer	classe	14
+com.hp.hpl.jena.rdf.arp.impl.SAX2RDFImpl	classe	21
+com.hp.hpl.jena.rdf.arp.impl.Location	classe	5
+com.hp.hpl.jena.rdf.arp.impl.ARPResource	classe	11
+com.hp.hpl.jena.rdf.arp.impl.ARPString	classe	5
+com.hp.hpl.jena.rdf.arp.impl.XMLBaselessContext	classe	6
+com.hp.hpl.jena.rdf.arp.impl.TaintImpl	classe	2
+com.hp.hpl.jena.rdf.arp.impl.XMLContext	classe	5
+com.hp.hpl.jena.rdf.arp.impl.RDFXMLParser	classe	6
+com.hp.hpl.jena.rdf.arp.impl.RDFXMLParser$MySAXParser	classe	1
+com.hp.hpl.jena.rdf.arp.impl.ElementLexer	classe	7
+com.hp.hpl.jena.rdf.arp.impl.ARPSaxErrorHandler	classe	4
+com.hp.hpl.jena.rdf.arp.FatalParsingErrorException	classe	0
+com.hp.hpl.jena.rdf.arp.SAX2RDF	classe	8
+com.hp.hpl.jena.rdf.arp.ARPConfig	interface	4
+com.hp.hpl.jena.rdf.arp.NamespaceHandler	interface	2
+com.hp.hpl.jena.rdf.arp.SAX2Model	classe	8
+com.hp.hpl.jena.rdf.arp.JenaHandler	classe	7
+com.hp.hpl.jena.rdf.arp.ExtendedHandler	interface	4
+com.hp.hpl.jena.rdf.arp.ARPErrorNumbers	interface	0
+com.hp.hpl.jena.rdf.arp.lang.IanaLanguageTag	classe	1
+com.hp.hpl.jena.rdf.arp.lang.Iso3166	classe	1
+com.hp.hpl.jena.rdf.arp.lang.LanguageTag	classe	2
+com.hp.hpl.jena.rdf.arp.lang.Iso639	classe	2
+com.hp.hpl.jena.rdf.arp.lang.LanguageTagSyntaxException	classe	0
+com.hp.hpl.jena.rdf.arp.lang.LanguageTagCodes	interface	0
+com.hp.hpl.jena.rdf.arp.NTriple	classe	16
+com.hp.hpl.jena.rdf.arp.NTriple$TwoSH	classe	2
+com.hp.hpl.jena.rdf.arp.NTriple$NoSH	classe	2
+com.hp.hpl.jena.rdf.arp.NTriple$SH	classe	2
+com.hp.hpl.jena.rdf.arp.AResource	interface	6
+com.hp.hpl.jena.rdf.arp.states.LookingForRDF	classe	3
+com.hp.hpl.jena.rdf.arp.states.AbsWantLiteralValueOrDescription	classe	7
+com.hp.hpl.jena.rdf.arp.states.WantEmpty	classe	2
+com.hp.hpl.jena.rdf.arp.states.Collection	classe	6
+com.hp.hpl.jena.rdf.arp.states.WantTopLevelDescription	classe	3
+com.hp.hpl.jena.rdf.arp.states.Frame	classe	11
+com.hp.hpl.jena.rdf.arp.states.WantTypedLiteral	classe	3
+com.hp.hpl.jena.rdf.arp.states.StartStateRDForDescription	classe	2
+com.hp.hpl.jena.rdf.arp.states.FrameI	interface	10
+com.hp.hpl.jena.rdf.arp.states.AbsXMLLiteral	classe	13
+com.hp.hpl.jena.rdf.arp.states.WantLiteralValueOrDescription	classe	3
+com.hp.hpl.jena.rdf.arp.states.WantsObjectFrameI	interface	0
+com.hp.hpl.jena.rdf.arp.states.WantDescription	classe	6
+com.hp.hpl.jena.rdf.arp.states.WantsObjectI	interface	1
+com.hp.hpl.jena.rdf.arp.states.DAMLCollection	classe	3
+com.hp.hpl.jena.rdf.arp.states.OuterXMLLiteral	classe	1
+com.hp.hpl.jena.rdf.arp.states.HasSubjectFrameI	interface	2
+com.hp.hpl.jena.rdf.arp.states.InnerXMLLiteral	classe	1
+com.hp.hpl.jena.rdf.arp.states.WantPropertyElement	classe	18
+com.hp.hpl.jena.rdf.arp.states.RDFCollection	classe	3
+com.hp.hpl.jena.rdf.arp.ARPOptions	classe	14
+com.hp.hpl.jena.rdf.arp.JenaReader	classe	17
+com.hp.hpl.jena.rdf.arp.ARPEventHandler	interface	0
+com.hp.hpl.jena.rdf.arp.ARP	classe	11
+com.hp.hpl.jena.rdf.arp.ALiteral	interface	5
+com.hp.hpl.jena.rdf.arp.ARPHandlers	classe	9
+com.hp.hpl.jena.rdf.arp.StatementHandler	interface	2
+com.hp.hpl.jena.rdf.arp.DOM2Model	classe	3
+com.hp.hpl.jena.rdf.listeners.ObjectListener	classe	13
+com.hp.hpl.jena.rdf.listeners.StatementListener	classe	11
+com.hp.hpl.jena.rdf.listeners.NullListener	classe	11
+com.hp.hpl.jena.rdf.listeners.ChangedListener	classe	13
+com.hp.hpl.jena.vocabulary.RDFTest	classe	1
+com.hp.hpl.jena.vocabulary.XSD	classe	1
+com.hp.hpl.jena.vocabulary.RDFS	classe	3
+com.hp.hpl.jena.vocabulary.RDFS$Nodes	classe	0
+com.hp.hpl.jena.vocabulary.DAMLVocabulary	interface	54
+com.hp.hpl.jena.vocabulary.OWLResults	classe	1
+com.hp.hpl.jena.vocabulary.OWL	classe	1
+com.hp.hpl.jena.vocabulary.LocationMappingVocab	classe	1
+com.hp.hpl.jena.vocabulary.ReasonerVocabulary	classe	5
+com.hp.hpl.jena.vocabulary.RDF	classe	4
+com.hp.hpl.jena.vocabulary.RDF$Nodes	classe	0
+com.hp.hpl.jena.vocabulary.VCARD	classe	1
+com.hp.hpl.jena.vocabulary.OntEventsVocab	classe	1
+com.hp.hpl.jena.vocabulary.DCTerms	classe	1
+com.hp.hpl.jena.vocabulary.DAML_OIL	classe	56
+com.hp.hpl.jena.vocabulary.TestManifestX	classe	1
+com.hp.hpl.jena.vocabulary.DC_10	classe	2
+com.hp.hpl.jena.vocabulary.DCTypes	classe	1
+com.hp.hpl.jena.vocabulary.TestManifest	classe	1
+com.hp.hpl.jena.vocabulary.RSS	classe	1
+com.hp.hpl.jena.vocabulary.DC_11	classe	1
+com.hp.hpl.jena.vocabulary.RDFSyntax	classe	1
+com.hp.hpl.jena.vocabulary.OWLTest	classe	1
+com.hp.hpl.jena.vocabulary.OntDocManagerVocab	classe	1
+com.hp.hpl.jena.vocabulary.DB	classe	1
+com.hp.hpl.jena.vocabulary.ResultSet	classe	1
+com.hp.hpl.jena.vocabulary.DC	classe	0
+com.hp.hpl.jena.vocabulary.OWL2	classe	3
+com.hp.hpl.jena.mem.MatchOrBind	classe	4
+com.hp.hpl.jena.mem.NodeToTriplesMapBase	classe	14
+com.hp.hpl.jena.mem.NotifyMe	classe	1
+com.hp.hpl.jena.mem.HashedBunchMap	classe	8
+com.hp.hpl.jena.mem.GraphTripleStoreBase	classe	13
+com.hp.hpl.jena.mem.NodeToTriplesMap	classe	12
+com.hp.hpl.jena.mem.NodeToTriplesMap$OpenSetBunch	classe	1
+com.hp.hpl.jena.mem.ObjectIterator	classe	5
+com.hp.hpl.jena.mem.ArrayBunch	classe	9
+com.hp.hpl.jena.mem.HashCommon	classe	15
+com.hp.hpl.jena.mem.HashCommon$NotifyEmpty	interface	1
+com.hp.hpl.jena.mem.HashCommon$MovedKeysIterator	classe	3
+com.hp.hpl.jena.mem.HashCommon$BasicKeyIterator	classe	3
+com.hp.hpl.jena.mem.GraphTripleStore	classe	0
+com.hp.hpl.jena.mem.MixedGraphMem	classe	9
+com.hp.hpl.jena.mem.MixedGraphMemStore	classe	10
+com.hp.hpl.jena.mem.TripleBunch	interface	8
+com.hp.hpl.jena.mem.BunchMap	interface	6
+com.hp.hpl.jena.mem.WrappedHashMap	classe	6
+com.hp.hpl.jena.mem.GraphMemBaseQueryHandler	classe	7
+com.hp.hpl.jena.mem.GraphMemBulkUpdateHandler	classe	2
+com.hp.hpl.jena.mem.TrackingTripleIterator	classe	1
+com.hp.hpl.jena.mem.GraphMem	classe	10
+com.hp.hpl.jena.mem.StoreTripleIterator	classe	1
+com.hp.hpl.jena.mem.SetBunch	classe	10
+com.hp.hpl.jena.mem.SmallGraphMem	classe	9
+com.hp.hpl.jena.mem.faster.FasterPatternStage	classe	0
+com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster	classe	12
+com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$NotifyMe	classe	1
+com.hp.hpl.jena.mem.faster.GraphMemFaster	classe	14
+com.hp.hpl.jena.mem.faster.GraphMemFaster$GraphMemFasterStatisticsHandler	classe	3
+com.hp.hpl.jena.mem.faster.GraphMemFaster$GraphMemFasterStatisticsHandler$C	classe	0
+com.hp.hpl.jena.mem.faster.ProcessedTriple	classe	2
+com.hp.hpl.jena.mem.faster.GraphMemFasterQueryHandler	classe	1
+com.hp.hpl.jena.mem.faster.FasterTripleStore	classe	6
+com.hp.hpl.jena.mem.GraphMemBase	classe	7
+com.hp.hpl.jena.mem.HashedTripleBunch	classe	12

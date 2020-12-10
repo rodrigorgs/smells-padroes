@@ -1,38 +1,135 @@
-org.quickserver.util.io.ByteBufferOutputStream	(Object)Adapter
-pipeserver.Data	State
-org.quickserver.net.server.impl.BasicClientHandler	Template Method
-org.quickserver.net.server.AuthStatus	Singleton
-org.quickserver.net.qsadmin.CommandHandler	Command
-cmdserver.PReader	State
-org.quickserver.net.server.ClientIdentifier	State
-org.quickserver.net.server.GhostSocketReaper	(Object)Adapter
-org.quickserver.net.qsadmin.CommandPlugin	Command
-org.quickserver.net.server.QuickServer	(Object)Adapter
-org.quickserver.net.server.impl.BasicClientHandler	(Object)Adapter
-org.quickserver.net.server.QuickServer	State
-org.quickserver.net.server.PoolManager	State
-org.quickserver.net.server.impl.NonBlockingClientHandler	State
-org.quickserver.net.qsadmin.CommandPlugin	State
-org.quickserver.net.server.Authenticator	Bridge
-org.quickserver.net.server.ClientEvent	Singleton
-filesrv.PrepareHook	(Object)Adapter
-org.quickserver.net.server.ClientWriteHandler	State
-org.quickserver.net.qsadmin.QSAdminShell	Singleton
-org.quickserver.util.pool.QSObjectPoolMaker	Factory Method
-org.quickserver.sql.DBPoolUtil	State
-org.quickserver.net.server.GhostSocketReaper	State
-org.quickserver.net.server.impl.BasicClientHandler	Bridge
-org.quickserver.net.server.DataType	Singleton
-org.quickserver.util.pool.QSObjectPoolMaker	State
-org.quickserver.net.qsadmin.CommandHandler	State
-org.quickserver.net.server.impl.NonBlockingClientHandler	(Object)Adapter
-org.quickserver.net.server.impl.BasicClientIdentifier	(Object)Adapter
-org.quickserver.net.server.DataMode	Singleton
-org.quickserver.net.server.ClientHandler	State
-org.quickserver.util.io.ByteBufferInputStream	State
-org.quickserver.util.pool.QSObjectPool	(Object)Adapter
-org.quickserver.net.server.ClientAuthenticationHandler	Bridge
-org.quickserver.util.pool.QSObjectPool	Bridge
-org.quickserver.net.server.impl.BasicClientIdentifier	Bridge
-org.quickserver.net.server.ClientEventHandler	Bridge
-org.quickserver.net.server.ClientExtendedEventHandler	Bridge
+org.quickserver.util.pool.QSObjectPoolMaker	null	Creator	Factory Method
+org.quickserver.util.pool.QSObjectPoolMaker	getQSObjectPool	FactoryMethod()	Factory Method
+org.quickserver.net.qsadmin.QSAdminShell	null	Singleton	Singleton
+org.quickserver.net.qsadmin.QSAdminShell	null	uniqueInstance	Singleton
+org.quickserver.net.server.AuthStatus	null	Singleton	Singleton
+org.quickserver.net.server.AuthStatus	null	uniqueInstance	Singleton
+org.quickserver.net.server.AuthStatus	null	uniqueInstance	Singleton
+org.quickserver.net.server.ClientEvent	null	Singleton	Singleton
+org.quickserver.net.server.ClientEvent	null	uniqueInstance	Singleton
+org.quickserver.net.server.ClientEvent	null	uniqueInstance	Singleton
+org.quickserver.net.server.ClientEvent	null	uniqueInstance	Singleton
+org.quickserver.net.server.ClientEvent	null	uniqueInstance	Singleton
+org.quickserver.net.server.ClientEvent	null	uniqueInstance	Singleton
+org.quickserver.net.server.ClientEvent	null	uniqueInstance	Singleton
+org.quickserver.net.server.ClientEvent	null	uniqueInstance	Singleton
+org.quickserver.net.server.ClientEvent	null	uniqueInstance	Singleton
+org.quickserver.net.server.DataMode	null	Singleton	Singleton
+org.quickserver.net.server.DataMode	null	uniqueInstance	Singleton
+org.quickserver.net.server.DataMode	null	uniqueInstance	Singleton
+org.quickserver.net.server.DataMode	null	uniqueInstance	Singleton
+org.quickserver.net.server.DataMode	null	uniqueInstance	Singleton
+org.quickserver.net.server.DataType	null	Singleton	Singleton
+org.quickserver.net.server.DataType	null	uniqueInstance	Singleton
+org.quickserver.net.server.DataType	null	uniqueInstance	Singleton
+org.quickserver.util.io.ByteBufferOutputStream	null	Adaptee	(Object)Adapter
+org.quickserver.net.server.impl.NonBlockingClientHandler	null	Adapter	(Object)Adapter
+org.quickserver.net.server.impl.NonBlockingClientHandler	null	adaptee	(Object)Adapter
+org.quickserver.net.server.impl.NonBlockingClientHandler	closeConnection	Request()	(Object)Adapter
+org.quickserver.net.server.impl.NonBlockingClientHandler	run	Request()	(Object)Adapter
+org.quickserver.net.server.QuickServer	null	Adaptee	(Object)Adapter
+org.quickserver.net.server.impl.BasicClientHandler	null	Adapter	(Object)Adapter
+org.quickserver.net.server.impl.BasicClientHandler	null	adaptee	(Object)Adapter
+org.quickserver.net.server.impl.BasicClientHandler	handleClient	Request()	(Object)Adapter
+filesrv.PrepareHook	null	Adapter	(Object)Adapter
+org.quickserver.net.server.QuickServer	null	Adaptee	(Object)Adapter
+filesrv.PrepareHook	null	adaptee	(Object)Adapter
+filesrv.PrepareHook	handleEvent	Request()	(Object)Adapter
+org.quickserver.net.server.GhostSocketReaper	null	Adapter	(Object)Adapter
+org.quickserver.net.server.QuickServer	null	Adaptee	(Object)Adapter
+org.quickserver.net.server.GhostSocketReaper	null	adaptee	(Object)Adapter
+org.quickserver.net.server.GhostSocketReaper	initHook	Request()	(Object)Adapter
+org.quickserver.util.pool.QSObjectPool	null	Adaptee	(Object)Adapter
+org.quickserver.net.server.impl.BasicClientIdentifier	null	Adapter	(Object)Adapter
+org.quickserver.net.server.impl.BasicClientIdentifier	null	adaptee	(Object)Adapter
+org.quickserver.net.server.impl.BasicClientIdentifier	getObjectToSynchronize	Request()	(Object)Adapter
+org.quickserver.net.server.impl.BasicClientIdentifier	findAllClient	Request()	(Object)Adapter
+org.quickserver.net.qsadmin.CommandPlugin	null	Receiver	Command
+org.quickserver.net.qsadmin.CommandHandler	null	ConcreteCommand	Command
+org.quickserver.net.qsadmin.CommandHandler	null	receiver	Command
+org.quickserver.net.qsadmin.CommandHandler	handleCommand	Execute()	Command
+cmdserver.PReader	null	Context	State
+org.quickserver.net.server.ClientHandler	null	State	State
+cmdserver.PReader	null	state	State
+cmdserver.PReader	run	Request()	State
+org.quickserver.util.io.ByteBufferInputStream	null	Context	State
+org.quickserver.net.server.ClientHandler	null	State	State
+org.quickserver.util.io.ByteBufferInputStream	null	state	State
+org.quickserver.util.io.ByteBufferInputStream	close	Request()	State
+org.quickserver.util.io.ByteBufferInputStream	read	Request()	State
+org.quickserver.util.io.ByteBufferInputStream	read	Request()	State
+org.quickserver.util.io.ByteBufferInputStream	addStringsBackAsBuffer	Request()	State
+org.quickserver.util.io.ByteBufferInputStream	returnBufferBack	Request()	State
+org.quickserver.util.io.ByteBufferInputStream	isLineReady	Request()	State
+pipeserver.Data	null	Context	State
+org.quickserver.net.server.ClientHandler	null	State	State
+pipeserver.Data	null	state	State
+pipeserver.Data	init	Request()	State
+pipeserver.Data	run	Request()	State
+org.quickserver.net.server.impl.NonBlockingClientHandler	null	Context	State
+org.quickserver.net.server.ClientWriteHandler	null	State	State
+org.quickserver.net.server.impl.NonBlockingClientHandler	null	state	State
+org.quickserver.net.server.impl.NonBlockingClientHandler	processWrite	Request()	State
+org.quickserver.net.server.ClientIdentifier	null	State	State
+org.quickserver.net.server.QuickServer	null	Context	State
+org.quickserver.net.server.QuickServer	null	state	State
+org.quickserver.net.server.QuickServer	startServer	Request()	State
+org.quickserver.net.server.QuickServer	makeClientHandlerPool	Request()	State
+org.quickserver.net.server.QuickServer	findFirstClientById	Request()	State
+org.quickserver.net.server.QuickServer	findAllClient	Request()	State
+org.quickserver.net.server.QuickServer	findAllClientById	Request()	State
+org.quickserver.net.server.QuickServer	findClientByKey	Request()	State
+org.quickserver.net.server.QuickServer	findAllClientByKey	Request()	State
+org.quickserver.net.server.QuickServer	null	Context	State
+org.quickserver.net.server.PoolManager	null	State	State
+org.quickserver.net.server.QuickServer	null	state	State
+org.quickserver.net.server.QuickServer	makeClientHandlerPool	Request()	State
+org.quickserver.net.server.QuickServer	makeClientDataPool	Request()	State
+org.quickserver.net.server.QuickServer	makeByteBufferPool	Request()	State
+org.quickserver.net.server.QuickServer	makeClientPool	Request()	State
+org.quickserver.net.server.QuickServer	null	Context	State
+org.quickserver.sql.DBPoolUtil	null	State	State
+org.quickserver.net.server.QuickServer	null	state	State
+org.quickserver.net.server.QuickServer	makeDBObjectPool	Request()	State
+org.quickserver.net.server.GhostSocketReaper	null	Context	State
+org.quickserver.net.server.ClientIdentifier	null	State	State
+org.quickserver.net.server.GhostSocketReaper	null	state	State
+org.quickserver.net.server.GhostSocketReaper	optimisticGhostSocketsFinder	Request()	State
+org.quickserver.net.server.GhostSocketReaper	syncGhostSocketsFinder	Request()	State
+org.quickserver.net.server.QuickServer	null	Context	State
+org.quickserver.util.pool.QSObjectPoolMaker	null	State	State
+org.quickserver.net.server.QuickServer	null	state	State
+org.quickserver.net.server.QuickServer	makeQSObjectPool	Request()	State
+org.quickserver.net.qsadmin.CommandHandler	null	Context	State
+org.quickserver.net.qsadmin.CommandPlugin	null	State	State
+org.quickserver.net.qsadmin.CommandHandler	null	state	State
+org.quickserver.net.qsadmin.CommandHandler	handleCommand	Request()	State
+org.quickserver.net.server.impl.BasicClientHandler	null	Abstraction	Bridge
+org.quickserver.net.server.ClientEventHandler	null	Implementor	Bridge
+org.quickserver.net.server.impl.BasicClientHandler	null	implementor	Bridge
+org.quickserver.net.server.impl.BasicClientHandler	notifyCloseOrLost	Operation()	Bridge
+org.quickserver.net.server.impl.BasicClientHandler	null	Abstraction	Bridge
+org.quickserver.net.server.Authenticator	null	Implementor	Bridge
+org.quickserver.net.server.impl.BasicClientHandler	null	implementor	Bridge
+org.quickserver.net.server.impl.BasicClientHandler	processAuthorisation	Operation()	Bridge
+org.quickserver.net.server.impl.BasicClientHandler	null	Abstraction	Bridge
+org.quickserver.net.server.ClientAuthenticationHandler	null	Implementor	Bridge
+org.quickserver.net.server.impl.BasicClientHandler	null	implementor	Bridge
+org.quickserver.net.server.impl.BasicClientHandler	processAuthorisation	Operation()	Bridge
+org.quickserver.net.server.impl.BasicClientHandler	null	Abstraction	Bridge
+org.quickserver.net.server.ClientExtendedEventHandler	null	Implementor	Bridge
+org.quickserver.net.server.impl.BasicClientHandler	null	implementor	Bridge
+org.quickserver.net.server.impl.BasicClientHandler	processMaxConnection	Operation()	Bridge
+org.quickserver.net.server.impl.BasicClientHandler	processMaxAuthTry	Operation()	Bridge
+org.quickserver.net.server.impl.BasicClientHandler	handleTimeout	Operation()	Bridge
+org.quickserver.net.server.impl.BasicClientIdentifier	null	Abstraction	Bridge
+org.quickserver.util.pool.QSObjectPool	null	Implementor	Bridge
+org.quickserver.net.server.impl.BasicClientIdentifier	null	implementor	Bridge
+org.quickserver.net.server.impl.BasicClientIdentifier	getObjectToSynchronize	Operation()	Bridge
+org.quickserver.net.server.impl.BasicClientIdentifier	findAllClient	Operation()	Bridge
+org.quickserver.net.server.impl.BasicClientHandler	null	AbstractClass	Template Method
+org.quickserver.net.server.impl.BasicClientHandler	prepareForRun	TemplateMethod()	Template Method
+org.quickserver.net.server.impl.BasicClientHandler	readBytes	TemplateMethod()	Template Method
+org.quickserver.net.server.impl.BasicClientHandler	forceClose	TemplateMethod()	Template Method
+org.quickserver.net.server.impl.BasicClientHandler	makeSecure	TemplateMethod()	Template Method
+org.quickserver.net.server.impl.BasicClientHandler	readBinary	TemplateMethod()	Template Method

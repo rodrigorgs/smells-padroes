@@ -1,67 +1,189 @@
-net.suberic.util.gui.propedit.PropertyEditorManager	(Object)Adapter
-net.suberic.pooka.UserProfile	State
-net.suberic.pooka.thread.LoadMessageThread	Observer
-net.suberic.util.swing.ProgressDialog	State
-net.suberic.pooka.AddressBookEntry	State
-net.suberic.pooka.gui.MainPanel	(Object)Adapter
-net.suberic.pooka.gui.SwingUIFactory	Factory Method
-net.suberic.pooka.RowCounter	Singleton
-net.suberic.util.gui.propedit.DisableFilter	(Object)Adapter
-net.suberic.pooka.filter.SpamFilter	State
-net.suberic.util.ItemCreator	State
-net.suberic.util.ItemCreator	Factory Method
-net.suberic.pooka.gui.propedit.AddressBookEditorPane	State
-net.suberic.pooka.gui.SwingUIFactory	Template Method
-net.suberic.pooka.cache.MessageCache	State
-net.suberic.pooka.gui.MainPanel	Proxy
-net.suberic.pooka.gui.FolderDisplayPanel	(Object)Adapter
-net.suberic.pooka.gui.FolderPanel	Proxy
-net.suberic.pooka.gui.PookaDesktopPaneUIFactory	(Object)Adapter
-net.suberic.util.gui.propedit.SwingPropertyEditor	(Object)Adapter
-net.suberic.pooka.gui.ErrorHandler	State
-net.suberic.util.ItemListChangeListener	Observer
-net.suberic.util.VariableBundle	State
-net.suberic.pooka.gui.MessagePanel	(Object)Adapter
-net.suberic.pooka.AddressBook	Factory Method
-net.suberic.util.ItemManager	Observer
-net.suberic.pooka.FolderInfo	Proxy
-net.suberic.pooka.StoreInfo	State
-net.suberic.pooka.gui.MessageUI	Bridge
-net.suberic.pooka.gui.PreviewContentPanel	Proxy
-net.suberic.pooka.gui.propedit.AddressEntryEditor	State
-net.suberic.pooka.gui.filter.MoveFilterEditor	(Object)Adapter
-net.suberic.pooka.gui.AttachmentHandler$SaveAttachmentThread	State
-net.suberic.pooka.gui.HyperlinkDispatcher	State
-net.suberic.util.gui.propedit.UniqueFilter	(Object)Adapter
-net.suberic.pooka.gui.propedit.FolderSelectorPane	(Object)Adapter
-net.suberic.pooka.event.MessageLoadedListener	Observer
-net.suberic.pooka.AddressBook	State
-net.suberic.pooka.gui.MainPanel$PookaFocusManager	(Object)Adapter
-net.suberic.util.gui.propedit.SwingPropertyEditor	Template Method
-net.suberic.pooka.gui.propedit.AddressBookEditorPane$AddressBookTableModel	State
-net.suberic.pooka.gui.FolderNode	Proxy
-net.suberic.pooka.gui.PreviewFolderPanel	Proxy
-net.suberic.pooka.gui.MessageUI	Factory Method
-net.suberic.util.gui.propedit.PropertyEditorManager	State
-net.suberic.pooka.cache.WrappedMimePartDataSource	State
-net.suberic.pooka.ExternalLauncher	State
-net.suberic.pooka.gui.PookaPreviewPaneUIFactory	(Object)Adapter
-net.suberic.pooka.gui.PookaUIFactory	Factory Method
-net.suberic.util.ItemManager	State
-net.suberic.pooka.gui.AuthenticatorUI	State
-net.suberic.pooka.SignatureGenerator	State
-net.suberic.pooka.gui.ReadMessageDisplayPanel	(Object)Adapter
-net.suberic.util.VariableBundle	Chain of Responsibility
-net.suberic.util.gui.propedit.PropertyTranslatorFilter	(Object)Adapter
-net.suberic.pooka.gui.propedit.AddressEntryController	State
-net.suberic.pooka.filter.SpamSearchTerm	State
-net.suberic.pooka.gui.SearchTermIconManager	(Object)Adapter
-net.suberic.util.gui.propedit.RequiredFilter	(Object)Adapter
-net.suberic.pooka.gui.PreviewFolderPanel	(Object)Adapter
-net.suberic.pooka.gui.MessageDisplayPanel	Bridge
-net.suberic.pooka.gui.SearchTermIcon	(Object)Adapter
-net.suberic.pooka.cache.CachingFolderInfo	State
-net.suberic.pooka.resource.ResourceManager	Factory Method
-net.suberic.pooka.gui.PreviewContentPanel	(Object)Adapter
-net.suberic.pooka.gui.FolderInternalFrame	Proxy
-net.suberic.util.gui.ConfigurableKeyBinding	(Object)Adapter
+net.suberic.pooka.AddressBook	null	Creator	Factory Method
+net.suberic.pooka.AddressBook	newAddressBookEntry	FactoryMethod()	Factory Method
+net.suberic.pooka.gui.MessageUI	null	Creator	Factory Method
+net.suberic.pooka.gui.MessageUI	createProgressDialog	FactoryMethod()	Factory Method
+net.suberic.pooka.gui.PookaUIFactory	null	Creator	Factory Method
+net.suberic.pooka.gui.PookaUIFactory	createMessageUI	FactoryMethod()	Factory Method
+net.suberic.pooka.gui.PookaUIFactory	createProgressDialog	FactoryMethod()	Factory Method
+net.suberic.pooka.gui.PookaUIFactory	createAuthenticatorUI	FactoryMethod()	Factory Method
+net.suberic.pooka.gui.SwingUIFactory	null	Creator	Factory Method
+net.suberic.pooka.gui.SwingUIFactory	createMessageUI	FactoryMethod()	Factory Method
+net.suberic.pooka.gui.SwingUIFactory	createFolderDisplayUI	FactoryMethod()	Factory Method
+net.suberic.pooka.gui.SwingUIFactory	createContentPanel	FactoryMethod()	Factory Method
+net.suberic.pooka.gui.SwingUIFactory	createProgressDialog	FactoryMethod()	Factory Method
+net.suberic.pooka.resource.ResourceManager	null	Creator	Factory Method
+net.suberic.pooka.resource.ResourceManager	createFolderInfo	FactoryMethod()	Factory Method
+net.suberic.pooka.resource.ResourceManager	createVariableBundle	FactoryMethod()	Factory Method
+net.suberic.util.ItemCreator	null	Creator	Factory Method
+net.suberic.util.ItemCreator	createItem	FactoryMethod()	Factory Method
+net.suberic.pooka.RowCounter	null	Singleton	Singleton
+net.suberic.pooka.RowCounter	null	uniqueInstance	Singleton
+net.suberic.pooka.gui.MainPanel$PookaFocusManager	null	Adaptee	(Object)Adapter
+net.suberic.pooka.gui.MainPanel	null	Adapter	(Object)Adapter
+net.suberic.pooka.gui.MainPanel	null	adaptee	(Object)Adapter
+net.suberic.pooka.gui.MainPanel	getActions	Request()	(Object)Adapter
+net.suberic.pooka.gui.FolderDisplayPanel	null	Adaptee	(Object)Adapter
+net.suberic.pooka.gui.PreviewFolderPanel	null	Adapter	(Object)Adapter
+net.suberic.pooka.gui.PreviewFolderPanel	null	adaptee	(Object)Adapter
+net.suberic.pooka.gui.PreviewFolderPanel	closeFolderDisplay	Request()	(Object)Adapter
+net.suberic.util.gui.propedit.PropertyEditorManager	null	Adaptee	(Object)Adapter
+net.suberic.util.gui.propedit.SwingPropertyEditor	null	Adapter	(Object)Adapter
+net.suberic.util.gui.propedit.SwingPropertyEditor	null	adaptee	(Object)Adapter
+net.suberic.util.gui.propedit.SwingPropertyEditor	addPropertyEditorListener	Request()	(Object)Adapter
+net.suberic.util.gui.propedit.SwingPropertyEditor	removePropertyEditorListener	Request()	(Object)Adapter
+net.suberic.util.gui.propedit.SwingPropertyEditor	remove	Request()	(Object)Adapter
+net.suberic.pooka.gui.ReadMessageDisplayPanel	null	Adaptee	(Object)Adapter
+net.suberic.pooka.gui.PreviewContentPanel	null	Adapter	(Object)Adapter
+net.suberic.pooka.gui.PreviewContentPanel	null	adaptee	(Object)Adapter
+net.suberic.pooka.gui.PreviewContentPanel	refreshDisplay	Request()	(Object)Adapter
+net.suberic.pooka.gui.MessagePanel	null	Adaptee	(Object)Adapter
+net.suberic.pooka.gui.PookaDesktopPaneUIFactory	null	Adapter	(Object)Adapter
+net.suberic.pooka.gui.PookaDesktopPaneUIFactory	null	adaptee	(Object)Adapter
+net.suberic.pooka.gui.PookaDesktopPaneUIFactory	createContentPanel	Request()	(Object)Adapter
+net.suberic.pooka.gui.PreviewContentPanel	null	Adaptee	(Object)Adapter
+net.suberic.pooka.gui.PookaPreviewPaneUIFactory	null	Adapter	(Object)Adapter
+net.suberic.pooka.gui.PookaPreviewPaneUIFactory	null	adaptee	(Object)Adapter
+net.suberic.pooka.gui.PookaPreviewPaneUIFactory	doDefaultOpen	Request()	(Object)Adapter
+net.suberic.pooka.gui.PookaPreviewPaneUIFactory	createFolderDisplayUI	Request()	(Object)Adapter
+net.suberic.pooka.gui.PookaPreviewPaneUIFactory	createContentPanel	Request()	(Object)Adapter
+net.suberic.util.gui.ConfigurableKeyBinding	null	Adaptee	(Object)Adapter
+net.suberic.pooka.gui.PreviewFolderPanel	null	Adapter	(Object)Adapter
+net.suberic.pooka.gui.PreviewFolderPanel	null	adaptee	(Object)Adapter
+net.suberic.pooka.gui.PreviewFolderPanel	setEnabled	Request()	(Object)Adapter
+net.suberic.util.gui.propedit.PropertyEditorManager	null	Adaptee	(Object)Adapter
+net.suberic.util.gui.propedit.DisableFilter	null	Adapter	(Object)Adapter
+net.suberic.util.gui.propedit.DisableFilter	null	adaptee	(Object)Adapter
+net.suberic.util.gui.propedit.DisableFilter	configureListener	Request()	(Object)Adapter
+net.suberic.util.gui.propedit.PropertyEditorManager	null	Adaptee	(Object)Adapter
+net.suberic.util.gui.propedit.PropertyTranslatorFilter	null	Adapter	(Object)Adapter
+net.suberic.util.gui.propedit.PropertyTranslatorFilter	null	adaptee	(Object)Adapter
+net.suberic.util.gui.propedit.PropertyTranslatorFilter	configureListener	Request()	(Object)Adapter
+net.suberic.util.gui.propedit.PropertyEditorManager	null	Adaptee	(Object)Adapter
+net.suberic.util.gui.propedit.RequiredFilter	null	Adapter	(Object)Adapter
+net.suberic.util.gui.propedit.RequiredFilter	null	adaptee	(Object)Adapter
+net.suberic.util.gui.propedit.RequiredFilter	configureListener	Request()	(Object)Adapter
+net.suberic.util.gui.propedit.PropertyEditorManager	null	Adaptee	(Object)Adapter
+net.suberic.util.gui.propedit.UniqueFilter	null	Adapter	(Object)Adapter
+net.suberic.util.gui.propedit.UniqueFilter	null	adaptee	(Object)Adapter
+net.suberic.util.gui.propedit.UniqueFilter	configureListener	Request()	(Object)Adapter
+net.suberic.pooka.gui.propedit.FolderSelectorPane	null	Adaptee	(Object)Adapter
+net.suberic.pooka.gui.filter.MoveFilterEditor	null	Adapter	(Object)Adapter
+net.suberic.pooka.gui.filter.MoveFilterEditor	null	adaptee	(Object)Adapter
+net.suberic.pooka.gui.filter.MoveFilterEditor	configureEditor	Request()	(Object)Adapter
+net.suberic.pooka.gui.filter.MoveFilterEditor	getValue	Request()	(Object)Adapter
+net.suberic.pooka.gui.filter.MoveFilterEditor	setValue	Request()	(Object)Adapter
+net.suberic.pooka.gui.SearchTermIconManager	null	Adaptee	(Object)Adapter
+net.suberic.pooka.gui.SearchTermIcon	null	Adapter	(Object)Adapter
+net.suberic.pooka.gui.SearchTermIcon	null	adaptee	(Object)Adapter
+net.suberic.pooka.gui.SearchTermIcon	getIcon	Request()	(Object)Adapter
+net.suberic.util.ItemListChangeListener	null	Observer	Observer
+net.suberic.util.ItemManager	null	Subject	Observer
+net.suberic.util.ItemManager	fireItemListChangeEvent	Notify()	Observer
+net.suberic.pooka.event.MessageLoadedListener	null	Observer	Observer
+net.suberic.pooka.thread.LoadMessageThread	null	Subject	Observer
+net.suberic.pooka.thread.LoadMessageThread	fireMessageLoadedEvent	Notify()	Observer
+net.suberic.util.ItemManager	null	Context	State
+net.suberic.util.ItemCreator	null	State	State
+net.suberic.util.ItemManager	null	state	State
+net.suberic.util.ItemManager	refreshItems	Request()	State
+net.suberic.util.ItemManager	createItemList	Request()	State
+net.suberic.pooka.filter.SpamSearchTerm	null	Context	State
+net.suberic.pooka.filter.SpamFilter	null	State	State
+net.suberic.pooka.filter.SpamSearchTerm	null	state	State
+net.suberic.pooka.filter.SpamSearchTerm	match	Request()	State
+net.suberic.util.gui.propedit.PropertyEditorManager	null	Context	State
+net.suberic.util.VariableBundle	null	State	State
+net.suberic.util.gui.propedit.PropertyEditorManager	null	state	State
+net.suberic.util.gui.propedit.PropertyEditorManager	commit	Request()	State
+net.suberic.pooka.cache.CachingFolderInfo	null	Context	State
+net.suberic.pooka.cache.MessageCache	null	State	State
+net.suberic.pooka.cache.CachingFolderInfo	null	state	State
+net.suberic.pooka.cache.CachingFolderInfo	updateFolderStatusForLoading	Request()	State
+net.suberic.pooka.cache.CachingFolderInfo	createInfosAndProxies	Request()	State
+net.suberic.pooka.cache.CachingFolderInfo	fetch	Request()	State
+net.suberic.pooka.cache.CachingFolderInfo	getFirstUnreadMessage	Request()	State
+net.suberic.pooka.cache.CachingFolderInfo	synchronizeCache	Request()	State
+net.suberic.pooka.gui.HyperlinkDispatcher	null	Context	State
+net.suberic.pooka.gui.ErrorHandler	null	State	State
+net.suberic.pooka.gui.HyperlinkDispatcher	null	state	State
+net.suberic.pooka.gui.HyperlinkDispatcher	hyperlinkUpdate	Request()	State
+net.suberic.util.swing.ProgressDialog	null	State	State
+net.suberic.pooka.gui.AttachmentHandler$SaveAttachmentThread	null	Context	State
+net.suberic.pooka.gui.AttachmentHandler$SaveAttachmentThread	null	state	State
+net.suberic.pooka.gui.AttachmentHandler$SaveAttachmentThread	run	Request()	State
+net.suberic.pooka.gui.AttachmentHandler$SaveAttachmentThread	cancelSave	Request()	State
+net.suberic.util.swing.ProgressDialog	null	State	State
+net.suberic.pooka.ExternalLauncher	null	Context	State
+net.suberic.pooka.ExternalLauncher	null	state	State
+net.suberic.pooka.ExternalLauncher	run	Request()	State
+net.suberic.pooka.ExternalLauncher	cancelSave	Request()	State
+net.suberic.pooka.cache.WrappedMimePartDataSource	null	Context	State
+net.suberic.pooka.cache.MessageCache	null	State	State
+net.suberic.pooka.cache.WrappedMimePartDataSource	null	state	State
+net.suberic.pooka.cache.WrappedMimePartDataSource	getInputStream	Request()	State
+net.suberic.pooka.gui.propedit.AddressEntryEditor	null	Context	State
+net.suberic.pooka.AddressBookEntry	null	State	State
+net.suberic.pooka.gui.propedit.AddressEntryEditor	null	state	State
+net.suberic.pooka.gui.propedit.AddressEntryEditor	setValue	Request()	State
+net.suberic.pooka.gui.propedit.AddressEntryController	null	Context	State
+net.suberic.pooka.AddressBookEntry	null	State	State
+net.suberic.pooka.gui.propedit.AddressEntryController	null	state	State
+net.suberic.pooka.gui.propedit.AddressEntryController	saveProperties	Request()	State
+net.suberic.pooka.gui.propedit.AddressBookEditorPane$AddressBookTableModel	null	Context	State
+net.suberic.pooka.AddressBookEntry	null	State	State
+net.suberic.pooka.gui.propedit.AddressBookEditorPane$AddressBookTableModel	null	state	State
+net.suberic.pooka.gui.propedit.AddressBookEditorPane$AddressBookTableModel	getValueAt	Request()	State
+net.suberic.pooka.gui.propedit.AddressBookEditorPane	null	Context	State
+net.suberic.pooka.AddressBook	null	State	State
+net.suberic.pooka.gui.propedit.AddressBookEditorPane	null	state	State
+net.suberic.pooka.gui.propedit.AddressBookEditorPane	performSearch	Request()	State
+net.suberic.pooka.gui.propedit.AddressBookEditorPane	performAdd	Request()	State
+net.suberic.pooka.gui.propedit.AddressBookEditorPane	editSelectedValue	Request()	State
+net.suberic.pooka.gui.propedit.AddressBookEditorPane	removeSelectedValue	Request()	State
+net.suberic.pooka.gui.propedit.AddressBookEditorPane	setValue	Request()	State
+net.suberic.pooka.gui.propedit.AddressBookEditorPane	resetDefaultValue	Request()	State
+net.suberic.pooka.SignatureGenerator	null	State	State
+net.suberic.pooka.UserProfile	null	Context	State
+net.suberic.pooka.UserProfile	null	state	State
+net.suberic.pooka.UserProfile	getSignature	Request()	State
+net.suberic.pooka.UserProfile	getSignature	Request()	State
+net.suberic.pooka.StoreInfo	null	Context	State
+net.suberic.pooka.gui.AuthenticatorUI	null	State	State
+net.suberic.pooka.StoreInfo	null	state	State
+net.suberic.pooka.StoreInfo	connectStore	Request()	State
+net.suberic.pooka.UserProfile	null	Context	State
+net.suberic.pooka.AddressBook	null	State	State
+net.suberic.pooka.UserProfile	null	state	State
+net.suberic.pooka.UserProfile	getAddressMatcher	Request()	State
+net.suberic.pooka.gui.propedit.AddressEntryController	null	Context	State
+net.suberic.pooka.AddressBook	null	State	State
+net.suberic.pooka.gui.propedit.AddressEntryController	null	state	State
+net.suberic.pooka.gui.propedit.AddressEntryController	saveProperties	Request()	State
+net.suberic.pooka.gui.MessageDisplayPanel	null	Abstraction	Bridge
+net.suberic.pooka.gui.MessageUI	null	Implementor	Bridge
+net.suberic.pooka.gui.MessageDisplayPanel	null	implementor	Bridge
+net.suberic.pooka.gui.MessageDisplayPanel	getMessageProxy	Operation()	Bridge
+net.suberic.pooka.gui.SwingUIFactory	null	AbstractClass	Template Method
+net.suberic.pooka.gui.SwingUIFactory	createMessageUI	TemplateMethod()	Template Method
+net.suberic.pooka.gui.SwingUIFactory	showEditorWindow	TemplateMethod()	Template Method
+net.suberic.util.gui.propedit.SwingPropertyEditor	null	AbstractClass	Template Method
+net.suberic.util.gui.propedit.SwingPropertyEditor	addDisableMask	TemplateMethod()	Template Method
+net.suberic.util.gui.propedit.SwingPropertyEditor	removeDisableMask	TemplateMethod()	Template Method
+net.suberic.pooka.FolderInfo	null	RealSubject	Proxy
+net.suberic.pooka.gui.FolderInternalFrame	null	Proxy	Proxy
+net.suberic.pooka.gui.FolderInternalFrame	getDefaultProfile	Request()	Proxy
+net.suberic.pooka.FolderInfo	null	RealSubject	Proxy
+net.suberic.pooka.gui.PreviewFolderPanel	null	Proxy	Proxy
+net.suberic.pooka.gui.PreviewFolderPanel	getDefaultProfile	Request()	Proxy
+net.suberic.pooka.FolderInfo	null	RealSubject	Proxy
+net.suberic.pooka.gui.FolderNode	null	Proxy	Proxy
+net.suberic.pooka.gui.FolderNode	getDefaultProfile	Request()	Proxy
+net.suberic.pooka.gui.FolderPanel	null	RealSubject	Proxy
+net.suberic.pooka.gui.MainPanel	null	Proxy	Proxy
+net.suberic.pooka.gui.MainPanel	getDefaultProfile	Request()	Proxy
+net.suberic.pooka.gui.PreviewFolderPanel	null	RealSubject	Proxy
+net.suberic.pooka.gui.PreviewContentPanel	null	Proxy	Proxy
+net.suberic.pooka.gui.PreviewContentPanel	getActions	Request()	Proxy
+net.suberic.pooka.gui.PreviewContentPanel	getDefaultProfile	Request()	Proxy
+net.suberic.util.VariableBundle	null	Handler	Chain of Responsibility
+net.suberic.util.VariableBundle	null	successor	Chain of Responsibility

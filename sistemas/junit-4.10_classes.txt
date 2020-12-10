@@ -1,137 +1,138 @@
-junit.extensions.ActiveTestSuite
-junit.extensions.RepeatedTest
-junit.extensions.TestDecorator
-junit.extensions.TestSetup
-junit.framework.AssertionFailedError
-junit.framework.ComparisonCompactor
-junit.framework.JUnit4TestAdapter
-junit.framework.JUnit4TestAdapterCache
-junit.framework.JUnit4TestCaseFacade
-junit.framework.Protectable
-junit.framework.Test
-junit.framework.TestCase
-junit.framework.TestFailure
-junit.framework.TestListener
-junit.framework.TestResult
-junit.framework.TestSuite
-junit.runner.BaseTestRunner
-junit.runner.TestRunListener
-junit.runner.Version
-junit.textui.ResultPrinter
-junit.textui.TestRunner
-org.junit.Assume
-org.junit.experimental.categories.Categories
-org.junit.experimental.categories.Categories$CategoryFilter
-org.junit.experimental.max.CouldNotReadCoreException
-org.junit.experimental.max.MaxCore
-org.junit.experimental.max.MaxHistory
-org.junit.experimental.max.MaxHistory$RememberingListener
-org.junit.experimental.max.MaxHistory$TestComparator
-org.junit.experimental.ParallelComputer
-org.junit.experimental.results.FailureList
-org.junit.experimental.results.PrintableResult
-org.junit.experimental.results.ResultMatchers
-org.junit.experimental.runners.Enclosed
-org.junit.experimental.theories.internal.AllMembersSupplier
-org.junit.experimental.theories.internal.AllMembersSupplier$MethodParameterValue
-org.junit.experimental.theories.internal.Assignments
-org.junit.experimental.theories.internal.ParameterizedAssertionError
-org.junit.experimental.theories.ParameterSignature
-org.junit.experimental.theories.ParameterSupplier
-org.junit.experimental.theories.PotentialAssignment
-org.junit.experimental.theories.PotentialAssignment$CouldNotGenerateValueException
-org.junit.experimental.theories.suppliers.TestedOnSupplier
-org.junit.experimental.theories.Theories
-org.junit.experimental.theories.Theories$TheoryAnchor
-org.junit.internal.ArrayComparisonFailure
-org.junit.internal.AssumptionViolatedException
-org.junit.internal.builders.AllDefaultPossibilitiesBuilder
-org.junit.internal.builders.AnnotatedBuilder
-org.junit.internal.builders.IgnoredBuilder
-org.junit.internal.builders.IgnoredClassRunner
-org.junit.internal.builders.JUnit3Builder
-org.junit.internal.builders.JUnit4Builder
-org.junit.internal.builders.NullBuilder
-org.junit.internal.builders.SuiteMethodBuilder
-org.junit.internal.ComparisonCriteria
-org.junit.internal.ExactComparisonCriteria
-org.junit.internal.InexactComparisonCriteria
-org.junit.internal.JUnitSystem
-org.junit.internal.matchers.CombinableMatcher
-org.junit.internal.matchers.Each
-org.junit.internal.matchers.IsCollectionContaining
-org.junit.internal.matchers.StringContains
-org.junit.internal.matchers.SubstringMatcher
-org.junit.internal.matchers.TypeSafeMatcher
-org.junit.internal.RealSystem
-org.junit.internal.requests.ClassRequest
-org.junit.internal.requests.FilterRequest
-org.junit.internal.requests.SortingRequest
-org.junit.internal.runners.ClassRoadie
-org.junit.internal.runners.ErrorReportingRunner
-org.junit.internal.runners.FailedBefore
-org.junit.internal.runners.JUnit38ClassRunner
-org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener
-org.junit.internal.runners.JUnit4ClassRunner
-org.junit.internal.runners.MethodRoadie
-org.junit.internal.runners.MethodValidator
-org.junit.internal.runners.model.EachTestNotifier
-org.junit.internal.runners.model.ReflectiveCallable
-org.junit.internal.runners.statements.ExpectException
-org.junit.internal.runners.statements.Fail
-org.junit.internal.runners.statements.FailOnTimeout
-org.junit.internal.runners.statements.FailOnTimeout$StatementThread
-org.junit.internal.runners.statements.InvokeMethod
-org.junit.internal.runners.statements.RunAfters
-org.junit.internal.runners.statements.RunBefores
-org.junit.internal.runners.SuiteMethod
-org.junit.internal.runners.TestMethod
-org.junit.internal.TextListener
-org.junit.matchers.JUnitMatchers
-org.junit.rules.ErrorCollector
-org.junit.rules.ExpectedException
-org.junit.rules.ExpectedException$ExpectedExceptionStatement
-org.junit.rules.ExternalResource
-org.junit.rules.MethodRule
-org.junit.rules.RuleChain
-org.junit.rules.RunRules
-org.junit.rules.TemporaryFolder
-org.junit.rules.TestName
-org.junit.rules.TestRule
-org.junit.rules.TestWatcher
-org.junit.rules.TestWatchman
-org.junit.rules.Timeout
-org.junit.rules.Verifier
-org.junit.runner.Computer
-org.junit.runner.Describable
-org.junit.runner.Description
-org.junit.runner.JUnitCore
-org.junit.runner.manipulation.Filter
-org.junit.runner.manipulation.Filterable
-org.junit.runner.manipulation.NoTestsRemainException
-org.junit.runner.manipulation.Sortable
-org.junit.runner.manipulation.Sorter
-org.junit.runner.notification.Failure
-org.junit.runner.notification.RunListener
-org.junit.runner.notification.RunNotifier
-org.junit.runner.notification.RunNotifier$SafeNotifier
-org.junit.runner.notification.StoppedByUserException
-org.junit.runner.Request
-org.junit.runner.Result
-org.junit.runner.Result$Listener
-org.junit.runner.Runner
-org.junit.runners.AllTests
-org.junit.runners.BlockJUnit4ClassRunner
-org.junit.runners.JUnit4
-org.junit.runners.model.FrameworkField
-org.junit.runners.model.FrameworkMember
-org.junit.runners.model.FrameworkMethod
-org.junit.runners.model.NoGenericTypeParametersValidator
-org.junit.runners.model.RunnerBuilder
-org.junit.runners.model.RunnerScheduler
-org.junit.runners.model.Statement
-org.junit.runners.Parameterized
-org.junit.runners.Parameterized$TestClassRunnerForParameters
-org.junit.runners.ParentRunner
-org.junit.runners.Suite
-org.junit.Test$None
+junit.textui.TestRunner	classe	15
+junit.textui.ResultPrinter	classe	16
+junit.framework.ComparisonCompactor	classe	7
+junit.framework.JUnit4TestCaseFacade	classe	4
+junit.framework.JUnit4TestAdapter	classe	10
+junit.framework.TestListener	interface	4
+junit.framework.AssertionFailedError	classe	1
+junit.framework.TestFailure	classe	6
+junit.framework.Test	interface	2
+junit.framework.Protectable	interface	1
+junit.framework.TestResult	classe	17
+junit.framework.TestCase	classe	11
+junit.framework.JUnit4TestAdapterCache	classe	5
+junit.framework.TestSuite	classe	20
+junit.runner.BaseTestRunner	classe	29
+junit.runner.TestRunListener	interface	6
+junit.runner.Version	classe	2
+junit.extensions.ActiveTestSuite	classe	4
+junit.extensions.RepeatedTest	classe	3
+junit.extensions.TestSetup	classe	3
+junit.extensions.TestDecorator	classe	5
+org.junit.experimental.ParallelComputer	classe	5
+org.junit.experimental.theories.PotentialAssignment	classe	3
+org.junit.experimental.theories.PotentialAssignment$CouldNotGenerateValueException	classe	0
+org.junit.experimental.theories.Theories	classe	6
+org.junit.experimental.theories.Theories$TheoryAnchor	classe	10
+org.junit.experimental.theories.suppliers.TestedOnSupplier	classe	1
+org.junit.experimental.theories.ParameterSupplier	classe	1
+org.junit.experimental.theories.internal.AllMembersSupplier	classe	6
+org.junit.experimental.theories.internal.AllMembersSupplier$MethodParameterValue	classe	2
+org.junit.experimental.theories.internal.ParameterizedAssertionError	classe	4
+org.junit.experimental.theories.internal.Assignments	classe	13
+org.junit.experimental.theories.ParameterSignature	classe	11
+org.junit.experimental.max.MaxCore	classe	12
+org.junit.experimental.max.CouldNotReadCoreException	classe	0
+org.junit.experimental.max.MaxHistory	classe	10
+org.junit.experimental.max.MaxHistory$RememberingListener	classe	4
+org.junit.experimental.max.MaxHistory$TestComparator	classe	2
+org.junit.experimental.results.PrintableResult	classe	4
+org.junit.experimental.results.FailureList	classe	1
+org.junit.experimental.results.ResultMatchers	classe	4
+org.junit.experimental.runners.Enclosed	classe	0
+org.junit.experimental.categories.Categories	classe	5
+org.junit.experimental.categories.Categories$CategoryFilter	classe	7
+org.junit.runner.manipulation.Filterable	interface	1
+org.junit.runner.manipulation.Sortable	interface	1
+org.junit.runner.manipulation.Sorter	classe	2
+org.junit.runner.manipulation.Filter	classe	5
+org.junit.runner.manipulation.NoTestsRemainException	classe	0
+org.junit.runner.notification.Failure	classe	6
+org.junit.runner.notification.StoppedByUserException	classe	0
+org.junit.runner.notification.RunListener	classe	7
+org.junit.runner.notification.RunNotifier	classe	11
+org.junit.runner.notification.RunNotifier$SafeNotifier	classe	2
+org.junit.runner.Runner	classe	3
+org.junit.runner.Computer	classe	3
+org.junit.runner.Description	classe	22
+org.junit.runner.Describable	interface	1
+org.junit.runner.JUnitCore	classe	14
+org.junit.runner.Result	classe	7
+org.junit.runner.Result$Listener	classe	6
+org.junit.runner.Request	classe	11
+org.junit.internal.builders.JUnit4Builder	classe	1
+org.junit.internal.builders.IgnoredClassRunner	classe	2
+org.junit.internal.builders.AnnotatedBuilder	classe	2
+org.junit.internal.builders.NullBuilder	classe	1
+org.junit.internal.builders.IgnoredBuilder	classe	1
+org.junit.internal.builders.AllDefaultPossibilitiesBuilder	classe	6
+org.junit.internal.builders.JUnit3Builder	classe	2
+org.junit.internal.builders.SuiteMethodBuilder	classe	2
+org.junit.internal.InexactComparisonCriteria	classe	1
+org.junit.internal.ArrayComparisonFailure	classe	3
+org.junit.internal.requests.ClassRequest	classe	1
+org.junit.internal.requests.SortingRequest	classe	1
+org.junit.internal.requests.FilterRequest	classe	1
+org.junit.internal.JUnitSystem	interface	2
+org.junit.internal.RealSystem	classe	2
+org.junit.internal.ComparisonCriteria	classe	4
+org.junit.internal.TextListener	classe	10
+org.junit.internal.AssumptionViolatedException	classe	2
+org.junit.internal.runners.TestMethod	classe	8
+org.junit.internal.runners.MethodRoadie	classe	8
+org.junit.internal.runners.JUnit38ClassRunner	classe	9
+org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener	classe	7
+org.junit.internal.runners.JUnit4ClassRunner	classe	17
+org.junit.internal.runners.MethodValidator	classe	6
+org.junit.internal.runners.FailedBefore	classe	0
+org.junit.internal.runners.ErrorReportingRunner	classe	5
+org.junit.internal.runners.statements.Fail	classe	1
+org.junit.internal.runners.statements.FailOnTimeout	classe	4
+org.junit.internal.runners.statements.FailOnTimeout$StatementThread	classe	1
+org.junit.internal.runners.statements.RunBefores	classe	1
+org.junit.internal.runners.statements.InvokeMethod	classe	1
+org.junit.internal.runners.statements.ExpectException	classe	1
+org.junit.internal.runners.statements.RunAfters	classe	1
+org.junit.internal.runners.ClassRoadie	classe	5
+org.junit.internal.runners.model.ReflectiveCallable	classe	2
+org.junit.internal.runners.model.EachTestNotifier	classe	6
+org.junit.internal.runners.SuiteMethod	classe	1
+org.junit.internal.runners.rules.RuleFieldValidator	enum	8
+org.junit.internal.ExactComparisonCriteria	classe	1
+org.junit.internal.matchers.Each	classe	1
+org.junit.internal.matchers.SubstringMatcher	classe	4
+org.junit.internal.matchers.CombinableMatcher	classe	4
+org.junit.internal.matchers.IsCollectionContaining	classe	6
+org.junit.internal.matchers.TypeSafeMatcher	classe	4
+org.junit.internal.matchers.StringContains	classe	3
+org.junit.Test$None	classe	0
+org.junit.Assume	classe	4
+org.junit.rules.TestRule	interface	1
+org.junit.rules.Verifier	classe	2
+org.junit.rules.RunRules	classe	2
+org.junit.rules.TestName	classe	2
+org.junit.rules.RuleChain	classe	4
+org.junit.rules.ErrorCollector	classe	5
+org.junit.rules.Timeout	classe	1
+org.junit.rules.TestWatchman	classe	5
+org.junit.rules.TemporaryFolder	classe	10
+org.junit.rules.ExpectedException	classe	7
+org.junit.rules.ExpectedException$ExpectedExceptionStatement	classe	1
+org.junit.rules.MethodRule	interface	1
+org.junit.rules.ExternalResource	classe	4
+org.junit.rules.TestWatcher	classe	5
+org.junit.runners.AllTests	classe	0
+org.junit.runners.Parameterized	classe	3
+org.junit.runners.Parameterized$TestClassRunnerForParameters	classe	7
+org.junit.runners.Suite	classe	5
+org.junit.runners.model.FrameworkMember	classe	3
+org.junit.runners.model.Statement	classe	1
+org.junit.runners.model.FrameworkField	classe	8
+org.junit.runners.model.FrameworkMethod	classe	13
+org.junit.runners.model.RunnerBuilder	classe	7
+org.junit.runners.model.NoGenericTypeParametersValidator	classe	5
+org.junit.runners.model.RunnerScheduler	interface	2
+org.junit.runners.BlockJUnit4ClassRunner	classe	30
+org.junit.runners.ParentRunner	classe	27
+org.junit.runners.JUnit4	classe	0
+org.junit.matchers.JUnitMatchers	classe	8

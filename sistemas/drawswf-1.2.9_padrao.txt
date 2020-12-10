@@ -1,90 +1,486 @@
-com.anotherbigidea.flash.interfaces.SWFTags	State
-com.anotherbigidea.flash.readers.MovieBuilder$TextBuilder	(Object)Adapter
-at.bestsolution.drawswf.drawobjects.Picture	(Object)Adapter
-at.bestsolution.drawswf.DrawingPanel	State
-com.anotherbigidea.flash.readers.TagParser	(Object)Adapter
-org.apache.batik.ext.awt.image.rendered.AbstractTiledRed	Template Method
-org.apache.batik.ext.awt.image.rendered.TileGenerator	(Object)Adapter
-org.apache.batik.ext.awt.image.PadMode	Singleton
-com.anotherbigidea.flash.interfaces.SWFActions	Decorator
-com.anotherbigidea.flash.interfaces.SWFTagTypes	Factory Method
-org.apache.batik.ext.awt.image.rendered.LRUCache$LRUObj	State
-org.apache.batik.ext.awt.image.SVGComposite$AlphaPreCompositeContext	Template Method
-com.incors.plaf.kunststoff.KunststoffCheckBoxUI	Singleton
-com.incors.plaf.kunststoff.GradientTheme	State
-org.apache.batik.ext.awt.image.SVGComposite$AlphaPreCompositeContext_INT_PACK	Template Method
-org.apache.batik.ext.awt.image.SVGComposite	Singleton
-org.apache.batik.ext.awt.image.rendered.TileMap	(Object)Adapter
-org.apache.batik.ext.awt.image.rendered.TileGenerator	State
-com.anotherbigidea.flash.writers.TagWriter	(Object)Adapter
-com.incors.plaf.kunststoff.KunststoffToolBarUI	Singleton
-com.anotherbigidea.flash.writers.SWFWriter	(Object)Adapter
-at.bestsolution.drawswf.util.DrawSWFConfig	Singleton
-at.bestsolution.ext.awt.FontLoader	Singleton
-at.bestsolution.ext.swing.GradientJRadioButton	(Object)Adapter
-com.anotherbigidea.flash.structs.Matrix	(Object)Adapter
-com.anotherbigidea.flash.readers.MovieBuilder	State
-org.apache.batik.ext.awt.image.rendered.TileMap	State
-com.anotherbigidea.flash.structs.FillStyle	(Object)Adapter
-com.anotherbigidea.flash.Unprotector	Decorator
-com.anotherbigidea.flash.interfaces.SWFTagTypes	State
-com.anotherbigidea.flash.movie.TimeLine	State
-com.anotherbigidea.io.OutStream	(Object)Adapter
-com.incors.plaf.kunststoff.KunststoffToggleButtonUI	Singleton
-com.anotherbigidea.flash.writers.SWFTagTypesImpl	Decorator
-at.bestsolution.drawswf.DrawObjectList	(Object)Adapter
-at.bestsolution.drawswf.LineWidthChooser	(Object)Adapter
-com.incors.plaf.kunststoff.KunststoffButtonUI	Singleton
-com.anotherbigidea.flash.readers.SWFReader	State
-at.bestsolution.drawswf.actions.OpenOptionsDialogAction	(Object)Adapter
-com.anotherbigidea.flash.interfaces.SWFTags	(Object)Adapter
-com.anotherbigidea.flash.movie.Symbol	Template Method
-at.bestsolution.drawswf.MainWindow	Singleton
-org.apache.batik.ext.awt.image.CompositeRule	Singleton
-at.bestsolution.ext.swing.dialog.JGradientChooser	Singleton
-at.bestsolution.drawswf.dialog.FontDialog	(Object)Adapter
-org.apache.batik.ext.awt.image.rendered.TileGrid	(Object)Adapter
-at.bestsolution.drawswf.PictureDialog	(Object)Adapter
-com.anotherbigidea.flash.movie.Text	(Object)Adapter
-at.bestsolution.drawswf.actions.SetColorAction	(Object)Adapter
-at.bestsolution.drawswf.drawobjects.DrawSWFFont	(Object)Adapter
-com.anotherbigidea.flash.structs.Color	(Object)Adapter
-org.apache.batik.ext.awt.image.rendered.TileGrid	State
-at.bestsolution.ext.swing.dialog.AlphaColorChooser	Singleton
-com.anotherbigidea.flash.movie.FontLoader$VectorImpl	(Object)Adapter
-com.anotherbigidea.flash.movie.Font	(Object)Adapter
-at.bestsolution.drawswf.actions.ObjectListAction	(Object)Adapter
-com.anotherbigidea.flash.interfaces.SWFTags	Decorator
-at.bestsolution.drawswf.drawobjects.Text	(Object)Adapter
-com.anotherbigidea.flash.interfaces.SWFActions	State
-at.bestsolution.drawswf.dialog.OptionsDialog	(Object)Adapter
-com.anotherbigidea.flash.readers.MovieBuilder$ShapeBuilder	(Object)Adapter
-at.bestsolution.drawswf.actions.GraphicTemplateAction	(Object)Adapter
-at.bestsolution.drawswf.drawobjects.DrawObject	State
-com.anotherbigidea.flash.readers.ActionParser	State
-com.anotherbigidea.flash.writers.ActionWriter	(Object)Adapter
-com.anotherbigidea.flash.structs.LineStyle	(Object)Adapter
-at.bestsolution.drawswf.actions.SetLineWidthAction	(Object)Adapter
-org.apache.batik.ext.awt.image.rendered.TileStore	Bridge
-com.anotherbigidea.flash.movie.Shape	(Object)Adapter
-com.anotherbigidea.flash.movie.Frame	State
-com.anotherbigidea.flash.writers.SWFActionsImpl	Decorator
-at.bestsolution.drawswf.IconProvider	Singleton
-at.bestsolution.ext.swing.icon.GradientIcon	(Object)Adapter
-at.bestsolution.ext.swing.GradientJRadioButtonMenuItem	(Object)Adapter
-org.apache.batik.ext.awt.MultipleGradientPaintContext	Template Method
-com.incors.plaf.kunststoff.KunststoffLookAndFeel	State
-org.apache.batik.ext.awt.image.rendered.LRUCache$LRUNode	State
-at.bestsolution.drawswf.plugin.remotesave.dialog.RemoteSaveDialog	Singleton
-org.apache.batik.ext.awt.image.rendered.LRUCache	(Object)Adapter
-at.bestsolution.drawswf.plugin.remotesave.util.RemoteSaveConfig	Singleton
-com.anotherbigidea.flash.writers.TagWriter	State
-com.anotherbigidea.flash.interfaces.SWFTagTypes	Decorator
-com.anotherbigidea.flash.movie.Movie	(Object)Adapter
-at.bestsolution.drawswf.AboutWindow	(Object)Adapter
-at.bestsolution.drawswf.actions.AboutAction	(Object)Adapter
-at.bestsolution.ext.swing.dialog.AlphaColorChooser	(Object)Adapter
-com.anotherbigidea.flash.readers.MovieBuilder	(Object)Adapter
-com.anotherbigidea.flash.interfaces.SWFTagTypes	(Object)Adapter
-org.apache.batik.ext.awt.image.rendered.AbstractTiledRed	Bridge
-com.anotherbigidea.flash.readers.TagParser	State
+com.anotherbigidea.flash.interfaces.SWFTagTypes	null	Creator	Factory Method
+com.anotherbigidea.flash.interfaces.SWFTagTypes	tagDefineShape	FactoryMethod()	Factory Method
+com.anotherbigidea.flash.interfaces.SWFTagTypes	tagDefineShape2	FactoryMethod()	Factory Method
+com.anotherbigidea.flash.interfaces.SWFTagTypes	tagDefineShape3	FactoryMethod()	Factory Method
+com.anotherbigidea.flash.interfaces.SWFTagTypes	tagDefineSprite	FactoryMethod()	Factory Method
+com.anotherbigidea.flash.interfaces.SWFTagTypes	tagDefineText	FactoryMethod()	Factory Method
+com.anotherbigidea.flash.interfaces.SWFTagTypes	tagDefineText2	FactoryMethod()	Factory Method
+com.anotherbigidea.flash.interfaces.SWFTagTypes	tagDefineButton	FactoryMethod()	Factory Method
+com.anotherbigidea.flash.interfaces.SWFTagTypes	tagDefineButton2	FactoryMethod()	Factory Method
+com.anotherbigidea.flash.interfaces.SWFTagTypes	tagDefineMorphShape	FactoryMethod()	Factory Method
+at.bestsolution.drawswf.IconProvider	null	Singleton	Singleton
+at.bestsolution.drawswf.IconProvider	null	uniqueInstance	Singleton
+at.bestsolution.drawswf.MainWindow	null	Singleton	Singleton
+at.bestsolution.drawswf.MainWindow	null	uniqueInstance	Singleton
+at.bestsolution.drawswf.plugin.remotesave.dialog.RemoteSaveDialog	null	Singleton	Singleton
+at.bestsolution.drawswf.plugin.remotesave.dialog.RemoteSaveDialog	null	uniqueInstance	Singleton
+at.bestsolution.drawswf.plugin.remotesave.util.RemoteSaveConfig	null	Singleton	Singleton
+at.bestsolution.drawswf.plugin.remotesave.util.RemoteSaveConfig	null	uniqueInstance	Singleton
+at.bestsolution.drawswf.util.DrawSWFConfig	null	Singleton	Singleton
+at.bestsolution.drawswf.util.DrawSWFConfig	null	uniqueInstance	Singleton
+at.bestsolution.ext.awt.FontLoader	null	Singleton	Singleton
+at.bestsolution.ext.awt.FontLoader	null	uniqueInstance	Singleton
+at.bestsolution.ext.swing.dialog.AlphaColorChooser	null	Singleton	Singleton
+at.bestsolution.ext.swing.dialog.AlphaColorChooser	null	uniqueInstance	Singleton
+at.bestsolution.ext.swing.dialog.JGradientChooser	null	Singleton	Singleton
+at.bestsolution.ext.swing.dialog.JGradientChooser	null	uniqueInstance	Singleton
+com.incors.plaf.kunststoff.KunststoffButtonUI	null	Singleton	Singleton
+com.incors.plaf.kunststoff.KunststoffButtonUI	null	uniqueInstance	Singleton
+com.incors.plaf.kunststoff.KunststoffCheckBoxUI	null	Singleton	Singleton
+com.incors.plaf.kunststoff.KunststoffCheckBoxUI	null	uniqueInstance	Singleton
+com.incors.plaf.kunststoff.KunststoffToggleButtonUI	null	Singleton	Singleton
+com.incors.plaf.kunststoff.KunststoffToggleButtonUI	null	uniqueInstance	Singleton
+com.incors.plaf.kunststoff.KunststoffToolBarUI	null	Singleton	Singleton
+com.incors.plaf.kunststoff.KunststoffToolBarUI	null	uniqueInstance	Singleton
+org.apache.batik.ext.awt.image.CompositeRule	null	Singleton	Singleton
+org.apache.batik.ext.awt.image.CompositeRule	null	uniqueInstance	Singleton
+org.apache.batik.ext.awt.image.CompositeRule	null	uniqueInstance	Singleton
+org.apache.batik.ext.awt.image.CompositeRule	null	uniqueInstance	Singleton
+org.apache.batik.ext.awt.image.CompositeRule	null	uniqueInstance	Singleton
+org.apache.batik.ext.awt.image.CompositeRule	null	uniqueInstance	Singleton
+org.apache.batik.ext.awt.image.CompositeRule	null	uniqueInstance	Singleton
+org.apache.batik.ext.awt.image.CompositeRule	null	uniqueInstance	Singleton
+org.apache.batik.ext.awt.image.CompositeRule	null	uniqueInstance	Singleton
+org.apache.batik.ext.awt.image.CompositeRule	null	uniqueInstance	Singleton
+org.apache.batik.ext.awt.image.PadMode	null	Singleton	Singleton
+org.apache.batik.ext.awt.image.PadMode	null	uniqueInstance	Singleton
+org.apache.batik.ext.awt.image.PadMode	null	uniqueInstance	Singleton
+org.apache.batik.ext.awt.image.PadMode	null	uniqueInstance	Singleton
+org.apache.batik.ext.awt.image.SVGComposite	null	Singleton	Singleton
+org.apache.batik.ext.awt.image.SVGComposite	null	uniqueInstance	Singleton
+org.apache.batik.ext.awt.image.SVGComposite	null	uniqueInstance	Singleton
+org.apache.batik.ext.awt.image.SVGComposite	null	uniqueInstance	Singleton
+org.apache.batik.ext.awt.image.SVGComposite	null	uniqueInstance	Singleton
+org.apache.batik.ext.awt.image.SVGComposite	null	uniqueInstance	Singleton
+org.apache.batik.ext.awt.image.SVGComposite	null	uniqueInstance	Singleton
+org.apache.batik.ext.awt.image.SVGComposite	null	uniqueInstance	Singleton
+org.apache.batik.ext.awt.image.SVGComposite	null	uniqueInstance	Singleton
+org.apache.batik.ext.awt.image.SVGComposite	null	uniqueInstance	Singleton
+at.bestsolution.drawswf.dialog.FontDialog	null	Adaptee	(Object)Adapter
+at.bestsolution.drawswf.drawobjects.Text	null	Adapter	(Object)Adapter
+at.bestsolution.drawswf.drawobjects.Text	null	adaptee	(Object)Adapter
+at.bestsolution.drawswf.drawobjects.Text	mouseReleased	Request()	(Object)Adapter
+at.bestsolution.drawswf.drawobjects.DrawSWFFont	null	Adaptee	(Object)Adapter
+at.bestsolution.drawswf.drawobjects.Text	null	Adapter	(Object)Adapter
+at.bestsolution.drawswf.drawobjects.Text	null	adaptee	(Object)Adapter
+at.bestsolution.drawswf.drawobjects.Text	drawObject	Request()	(Object)Adapter
+at.bestsolution.drawswf.drawobjects.Text	drawObject	Request()	(Object)Adapter
+at.bestsolution.drawswf.drawobjects.Text	mouseReleased	Request()	(Object)Adapter
+at.bestsolution.drawswf.drawobjects.Text	toSVG	Request()	(Object)Adapter
+at.bestsolution.drawswf.PictureDialog	null	Adaptee	(Object)Adapter
+at.bestsolution.drawswf.drawobjects.Picture	null	Adapter	(Object)Adapter
+at.bestsolution.drawswf.drawobjects.Picture	null	adaptee	(Object)Adapter
+at.bestsolution.drawswf.drawobjects.Picture	mouseReleased	Request()	(Object)Adapter
+com.anotherbigidea.flash.interfaces.SWFTagTypes	null	Adaptee	(Object)Adapter
+com.anotherbigidea.flash.readers.TagParser	null	Adapter	(Object)Adapter
+com.anotherbigidea.flash.readers.TagParser	null	adaptee	(Object)Adapter
+com.anotherbigidea.flash.readers.TagParser	tag	Request()	(Object)Adapter
+com.anotherbigidea.flash.interfaces.SWFTags	null	Adaptee	(Object)Adapter
+com.anotherbigidea.flash.writers.TagWriter	null	Adapter	(Object)Adapter
+com.anotherbigidea.flash.writers.TagWriter	null	adaptee	(Object)Adapter
+com.anotherbigidea.flash.writers.TagWriter	tagProtect	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.TagWriter	tagEnableDebug	Request()	(Object)Adapter
+com.anotherbigidea.io.OutStream	null	Adaptee	(Object)Adapter
+com.anotherbigidea.flash.writers.TagWriter	null	Adapter	(Object)Adapter
+com.anotherbigidea.flash.writers.TagWriter	null	adaptee	(Object)Adapter
+com.anotherbigidea.flash.writers.TagWriter	tagDefineSound	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.TagWriter	tagDefineButtonSound	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.TagWriter	tagSerialNumber	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.TagWriter	tagGenerator	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.TagWriter	tagGeneratorText	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.TagWriter	tagGeneratorCommand	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.TagWriter	tagGeneratorFont	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.TagWriter	tagNameCharacter	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.TagWriter	tagDefineBits	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.TagWriter	tagJPEGTables	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.TagWriter	tagDefineBitsJPEG3	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.TagWriter	tagDefineSprite	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.TagWriter	tagDefineFontInfo	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.TagWriter	tagDefineFont2	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.TagWriter	tagDefineTextField	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.TagWriter	tagDefineButton2	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.TagWriter	tagExport	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.TagWriter	tagImport	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.TagWriter	tagDefineQuickTimeMovie	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.TagWriter	tagDefineBitsJPEG2	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.TagWriter	tagDefineBitsJPEG2	Request()	(Object)Adapter
+com.anotherbigidea.io.OutStream	null	Adaptee	(Object)Adapter
+com.anotherbigidea.flash.writers.SWFWriter	null	Adapter	(Object)Adapter
+com.anotherbigidea.flash.writers.SWFWriter	null	adaptee	(Object)Adapter
+com.anotherbigidea.flash.writers.SWFWriter	tag	Request()	(Object)Adapter
+at.bestsolution.drawswf.AboutWindow	null	Adaptee	(Object)Adapter
+at.bestsolution.drawswf.actions.AboutAction	null	Adapter	(Object)Adapter
+at.bestsolution.drawswf.actions.AboutAction	null	adaptee	(Object)Adapter
+at.bestsolution.drawswf.actions.AboutAction	actionPerformed	Request()	(Object)Adapter
+at.bestsolution.drawswf.LineWidthChooser	null	Adaptee	(Object)Adapter
+at.bestsolution.drawswf.actions.SetLineWidthAction	null	Adapter	(Object)Adapter
+at.bestsolution.drawswf.actions.SetLineWidthAction	null	adaptee	(Object)Adapter
+at.bestsolution.drawswf.actions.SetLineWidthAction	actionPerformed	Request()	(Object)Adapter
+at.bestsolution.drawswf.PictureDialog	null	Adaptee	(Object)Adapter
+at.bestsolution.drawswf.actions.GraphicTemplateAction	null	Adapter	(Object)Adapter
+at.bestsolution.drawswf.actions.GraphicTemplateAction	null	adaptee	(Object)Adapter
+at.bestsolution.drawswf.actions.GraphicTemplateAction	actionPerformed	Request()	(Object)Adapter
+at.bestsolution.drawswf.dialog.OptionsDialog	null	Adaptee	(Object)Adapter
+at.bestsolution.drawswf.actions.OpenOptionsDialogAction	null	Adapter	(Object)Adapter
+at.bestsolution.drawswf.actions.OpenOptionsDialogAction	null	adaptee	(Object)Adapter
+at.bestsolution.drawswf.actions.OpenOptionsDialogAction	actionPerformed	Request()	(Object)Adapter
+at.bestsolution.ext.swing.dialog.AlphaColorChooser	null	Adaptee	(Object)Adapter
+at.bestsolution.drawswf.actions.SetColorAction	null	Adapter	(Object)Adapter
+at.bestsolution.drawswf.actions.SetColorAction	null	adaptee	(Object)Adapter
+at.bestsolution.drawswf.actions.SetColorAction	actionPerformed	Request()	(Object)Adapter
+at.bestsolution.drawswf.DrawObjectList	null	Adaptee	(Object)Adapter
+at.bestsolution.drawswf.actions.ObjectListAction	null	Adapter	(Object)Adapter
+at.bestsolution.drawswf.actions.ObjectListAction	null	adaptee	(Object)Adapter
+at.bestsolution.drawswf.actions.ObjectListAction	actionPerformed	Request()	(Object)Adapter
+com.anotherbigidea.io.OutStream	null	Adaptee	(Object)Adapter
+com.anotherbigidea.flash.writers.ActionWriter	null	Adapter	(Object)Adapter
+com.anotherbigidea.flash.writers.ActionWriter	null	adaptee	(Object)Adapter
+com.anotherbigidea.flash.writers.ActionWriter	end	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.ActionWriter	unknown	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.ActionWriter	jumpLabel	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.ActionWriter	gotoFrame	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.ActionWriter	gotoFrame	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.ActionWriter	getURL	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.ActionWriter	setTarget	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.ActionWriter	waitForFrame	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.ActionWriter	waitForFrame	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.ActionWriter	call	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.ActionWriter	getURL	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.ActionWriter	gotoFrame	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.ActionWriter	lookupTable	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.ActionWriter	startFunction	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.ActionWriter	endBlock	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.ActionWriter	startWith	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.ActionWriter	storeInRegister	Request()	(Object)Adapter
+com.anotherbigidea.flash.movie.Shape	null	Adaptee	(Object)Adapter
+com.anotherbigidea.flash.readers.MovieBuilder$ShapeBuilder	null	Adapter	(Object)Adapter
+com.anotherbigidea.flash.readers.MovieBuilder$ShapeBuilder	null	adaptee	(Object)Adapter
+com.anotherbigidea.flash.readers.MovieBuilder$ShapeBuilder	setFillStyle0	Request()	(Object)Adapter
+com.anotherbigidea.flash.readers.MovieBuilder$ShapeBuilder	setFillStyle1	Request()	(Object)Adapter
+com.anotherbigidea.flash.readers.MovieBuilder$ShapeBuilder	setLineStyle	Request()	(Object)Adapter
+com.anotherbigidea.flash.readers.MovieBuilder$ShapeBuilder	defineFillStyle	Request()	(Object)Adapter
+com.anotherbigidea.flash.readers.MovieBuilder$ShapeBuilder	defineFillStyle	Request()	(Object)Adapter
+com.anotherbigidea.flash.readers.MovieBuilder$ShapeBuilder	defineFillStyle	Request()	(Object)Adapter
+com.anotherbigidea.flash.readers.MovieBuilder$ShapeBuilder	defineLineStyle	Request()	(Object)Adapter
+com.anotherbigidea.flash.movie.Movie	null	Adaptee	(Object)Adapter
+com.anotherbigidea.flash.readers.MovieBuilder	null	Adapter	(Object)Adapter
+com.anotherbigidea.flash.readers.MovieBuilder	null	adaptee	(Object)Adapter
+com.anotherbigidea.flash.readers.MovieBuilder	tagSetBackgroundColor	Request()	(Object)Adapter
+com.anotherbigidea.flash.readers.MovieBuilder	tagProtect	Request()	(Object)Adapter
+com.anotherbigidea.flash.readers.MovieBuilder	tagDefineButton	Request()	(Object)Adapter
+com.anotherbigidea.flash.readers.MovieBuilder	tagDefineButton2	Request()	(Object)Adapter
+com.anotherbigidea.flash.readers.MovieBuilder	tagExport	Request()	(Object)Adapter
+com.anotherbigidea.flash.readers.MovieBuilder	tagImport	Request()	(Object)Adapter
+at.bestsolution.ext.swing.icon.GradientIcon	null	Adaptee	(Object)Adapter
+at.bestsolution.ext.swing.GradientJRadioButton	null	Adapter	(Object)Adapter
+at.bestsolution.ext.swing.GradientJRadioButton	null	adaptee	(Object)Adapter
+at.bestsolution.ext.swing.GradientJRadioButton	getGradient	Request()	(Object)Adapter
+at.bestsolution.ext.swing.icon.GradientIcon	null	Adaptee	(Object)Adapter
+at.bestsolution.ext.swing.GradientJRadioButtonMenuItem	null	Adapter	(Object)Adapter
+at.bestsolution.ext.swing.GradientJRadioButtonMenuItem	null	adaptee	(Object)Adapter
+at.bestsolution.ext.swing.GradientJRadioButtonMenuItem	getGradient	Request()	(Object)Adapter
+com.anotherbigidea.flash.writers.TagWriter	null	Adaptee	(Object)Adapter
+com.anotherbigidea.flash.writers.ActionWriter	null	Adapter	(Object)Adapter
+com.anotherbigidea.flash.writers.ActionWriter	null	adaptee	(Object)Adapter
+com.anotherbigidea.flash.writers.ActionWriter	done	Request()	(Object)Adapter
+org.apache.batik.ext.awt.image.rendered.LRUCache	null	Adaptee	(Object)Adapter
+org.apache.batik.ext.awt.image.rendered.TileGrid	null	Adapter	(Object)Adapter
+org.apache.batik.ext.awt.image.rendered.TileGrid	null	adaptee	(Object)Adapter
+org.apache.batik.ext.awt.image.rendered.TileGrid	setTile	Request()	(Object)Adapter
+org.apache.batik.ext.awt.image.rendered.TileGrid	getTileNoCompute	Request()	(Object)Adapter
+org.apache.batik.ext.awt.image.rendered.TileGrid	getTile	Request()	(Object)Adapter
+org.apache.batik.ext.awt.image.rendered.LRUCache	null	Adaptee	(Object)Adapter
+org.apache.batik.ext.awt.image.rendered.TileMap	null	Adapter	(Object)Adapter
+org.apache.batik.ext.awt.image.rendered.TileMap	null	adaptee	(Object)Adapter
+org.apache.batik.ext.awt.image.rendered.TileMap	setTile	Request()	(Object)Adapter
+org.apache.batik.ext.awt.image.rendered.TileMap	getTileNoCompute	Request()	(Object)Adapter
+org.apache.batik.ext.awt.image.rendered.TileMap	getTile	Request()	(Object)Adapter
+com.anotherbigidea.flash.movie.Shape	null	Adaptee	(Object)Adapter
+com.anotherbigidea.flash.movie.FontLoader$VectorImpl	null	Adapter	(Object)Adapter
+com.anotherbigidea.flash.movie.FontLoader$VectorImpl	null	adaptee	(Object)Adapter
+com.anotherbigidea.flash.movie.FontLoader$VectorImpl	line	Request()	(Object)Adapter
+com.anotherbigidea.flash.movie.FontLoader$VectorImpl	curve	Request()	(Object)Adapter
+com.anotherbigidea.flash.movie.FontLoader$VectorImpl	move	Request()	(Object)Adapter
+org.apache.batik.ext.awt.image.rendered.TileGenerator	null	Adaptee	(Object)Adapter
+org.apache.batik.ext.awt.image.rendered.TileGrid	null	Adapter	(Object)Adapter
+org.apache.batik.ext.awt.image.rendered.TileGrid	null	adaptee	(Object)Adapter
+org.apache.batik.ext.awt.image.rendered.TileGrid	getTile	Request()	(Object)Adapter
+org.apache.batik.ext.awt.image.rendered.TileGenerator	null	Adaptee	(Object)Adapter
+org.apache.batik.ext.awt.image.rendered.TileMap	null	Adapter	(Object)Adapter
+org.apache.batik.ext.awt.image.rendered.TileMap	null	adaptee	(Object)Adapter
+org.apache.batik.ext.awt.image.rendered.TileMap	getTile	Request()	(Object)Adapter
+com.anotherbigidea.flash.movie.Font	null	Adaptee	(Object)Adapter
+com.anotherbigidea.flash.readers.MovieBuilder$TextBuilder	null	Adapter	(Object)Adapter
+com.anotherbigidea.flash.readers.MovieBuilder$TextBuilder	null	adaptee	(Object)Adapter
+com.anotherbigidea.flash.readers.MovieBuilder$TextBuilder	text	Request()	(Object)Adapter
+com.anotherbigidea.flash.movie.Text	null	Adaptee	(Object)Adapter
+com.anotherbigidea.flash.readers.MovieBuilder$TextBuilder	null	Adapter	(Object)Adapter
+com.anotherbigidea.flash.readers.MovieBuilder$TextBuilder	null	adaptee	(Object)Adapter
+com.anotherbigidea.flash.readers.MovieBuilder$TextBuilder	text	Request()	(Object)Adapter
+com.anotherbigidea.flash.structs.Color	null	Adaptee	(Object)Adapter
+com.anotherbigidea.flash.structs.FillStyle	null	Adapter	(Object)Adapter
+com.anotherbigidea.flash.structs.FillStyle	null	adaptee	(Object)Adapter
+com.anotherbigidea.flash.structs.FillStyle	null	adaptee	(Object)Adapter
+com.anotherbigidea.flash.structs.FillStyle	write	Request()	(Object)Adapter
+com.anotherbigidea.flash.structs.Color	null	Adaptee	(Object)Adapter
+com.anotherbigidea.flash.structs.LineStyle	null	Adapter	(Object)Adapter
+com.anotherbigidea.flash.structs.LineStyle	null	adaptee	(Object)Adapter
+com.anotherbigidea.flash.structs.LineStyle	write	Request()	(Object)Adapter
+com.anotherbigidea.flash.structs.Matrix	null	Adaptee	(Object)Adapter
+com.anotherbigidea.flash.structs.FillStyle	null	Adapter	(Object)Adapter
+com.anotherbigidea.flash.structs.FillStyle	null	adaptee	(Object)Adapter
+com.anotherbigidea.flash.structs.FillStyle	write	Request()	(Object)Adapter
+com.anotherbigidea.flash.interfaces.SWFActions	null	Component	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	null	Decorator	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	null	component	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	start	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	end	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	done	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	blob	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	unknown	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	initArray	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	jumpLabel	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	gotoFrame	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	gotoFrame	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	getURL	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	nextFrame	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	prevFrame	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	play	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	stop	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	toggleQuality	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	stopSounds	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	setTarget	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	jump	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	ifJump	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	waitForFrame	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	waitForFrame	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	pop	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	push	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	push	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	push	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	pushNull	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	pushRegister	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	push	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	push	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	lookup	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	add	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	substract	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	multiply	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	divide	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	equals	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	lessThan	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	and	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	or	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	not	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	stringEquals	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	stringLength	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	concat	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	substring	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	stringLessThan	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	stringLengthMB	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	substringMB	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	toInteger	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	charToAscii	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	asciiToChar	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	charMBToAscii	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	asciiToCharMB	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	call	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	getVariable	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	setVariable	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	getURL	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	gotoFrame	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	setTarget	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	getProperty	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	setProperty	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	cloneSprite	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	removeSprite	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	startDrag	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	endDrag	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	trace	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	getTime	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	randomNumber	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	lookupTable	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	callFunction	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	callMethod	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	startFunction	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	endBlock	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	comment	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	defineLocalValue	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	defineLocal	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	deleteProperty	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	deleteThreadVars	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	enumerate	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	typedEquals	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	getMember	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	initObject	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	newMethod	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	newObject	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	setMember	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	getTargetPath	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	startWith	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	duplicate	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	returnValue	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	swap	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	storeInRegister	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	convertToNumber	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	convertToString	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	typeOf	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	typedAdd	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	typedLessThan	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	modulo	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	bitAnd	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	bitOr	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	bitXor	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	shiftLeft	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	shiftRight	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	shiftRightUnsigned	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	decrement	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFActionsImpl	increment	Operation()	Decorator
+com.anotherbigidea.flash.interfaces.SWFTagTypes	null	Component	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	null	Decorator	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	null	component	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	tagDefineSound	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	tagDefineButtonSound	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	tagSerialNumber	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	tagGenerator	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	tagGeneratorText	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	tagGeneratorFont	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	tagGeneratorCommand	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	tagNameCharacter	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	tagDefineBits	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	tagJPEGTables	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	tagDefineBitsJPEG3	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	tagDefineShape	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	tagDefineShape2	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	tagDefineShape3	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	tagSetBackgroundColor	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	tagDefineSprite	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	tagProtect	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	tagEnableDebug	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	tagDefineFont	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	tagDefineFontInfo	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	tagDefineFont2	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	tagDefineTextField	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	tagDefineText	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	tagDefineText2	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	tagDefineButton	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	tagButtonCXForm	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	tagDefineButton2	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	tagExport	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	tagImport	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	tagDefineQuickTimeMovie	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	tagDefineBitsJPEG2	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	tagDefineBitsJPEG2	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	tagDefineMorphShape	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	tagDefineBitsLossless	Operation()	Decorator
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	tagDefineBitsLossless2	Operation()	Decorator
+com.anotherbigidea.flash.interfaces.SWFTags	null	Component	Decorator
+com.anotherbigidea.flash.Unprotector	null	Decorator	Decorator
+com.anotherbigidea.flash.Unprotector	null	component	Decorator
+com.anotherbigidea.flash.Unprotector	tag	Operation()	Decorator
+com.anotherbigidea.flash.readers.ActionParser	null	Context	State
+com.anotherbigidea.flash.interfaces.SWFActions	null	State	State
+com.anotherbigidea.flash.readers.ActionParser	null	state	State
+com.anotherbigidea.flash.readers.ActionParser	processRecords	Request()	State
+com.anotherbigidea.flash.readers.ActionParser	parseDefineFunction	Request()	State
+com.anotherbigidea.flash.readers.ActionParser	parseWith	Request()	State
+com.anotherbigidea.flash.readers.ActionParser	parseLookupTable	Request()	State
+com.anotherbigidea.flash.readers.ActionParser	parseGetURL2	Request()	State
+com.anotherbigidea.flash.readers.ActionParser	parsePush	Request()	State
+at.bestsolution.drawswf.drawobjects.DrawObject	null	State	State
+at.bestsolution.drawswf.DrawingPanel	null	Context	State
+at.bestsolution.drawswf.DrawingPanel	null	state	State
+at.bestsolution.drawswf.DrawingPanel	selectObject	Request()	State
+at.bestsolution.drawswf.DrawingPanel	dragObject	Request()	State
+at.bestsolution.drawswf.DrawingPanel	mousePressed	Request()	State
+at.bestsolution.drawswf.DrawingPanel	drawGradientLine	Request()	State
+at.bestsolution.drawswf.DrawingPanel	mouseReleased	Request()	State
+at.bestsolution.drawswf.DrawingPanel	mouseDragged	Request()	State
+com.anotherbigidea.flash.interfaces.SWFTagTypes	null	State	State
+com.anotherbigidea.flash.readers.TagParser	null	Context	State
+com.anotherbigidea.flash.readers.TagParser	null	state	State
+com.anotherbigidea.flash.readers.TagParser	tag	Request()	State
+com.anotherbigidea.flash.readers.TagParser	parseDefineSound	Request()	State
+com.anotherbigidea.flash.readers.TagParser	parseDefineButtonSound	Request()	State
+com.anotherbigidea.flash.readers.TagParser	parseDefineBits	Request()	State
+com.anotherbigidea.flash.readers.TagParser	parseDefineJPEGTables	Request()	State
+com.anotherbigidea.flash.readers.TagParser	parseDefineBitsJPEG3	Request()	State
+com.anotherbigidea.flash.readers.TagParser	parseMorphShape	Request()	State
+com.anotherbigidea.flash.readers.TagParser	parseDefineJPEG2	Request()	State
+com.anotherbigidea.flash.readers.TagParser	parseDefineBitsLossless	Request()	State
+com.anotherbigidea.flash.readers.TagParser	parseExport	Request()	State
+com.anotherbigidea.flash.readers.TagParser	parseImport	Request()	State
+com.anotherbigidea.flash.readers.TagParser	parseDefineButton2	Request()	State
+com.anotherbigidea.flash.readers.TagParser	parseButtonCXForm	Request()	State
+com.anotherbigidea.flash.readers.TagParser	parseDefineButton	Request()	State
+com.anotherbigidea.flash.readers.TagParser	parseDefineText	Request()	State
+com.anotherbigidea.flash.readers.TagParser	parseDefineTextField	Request()	State
+com.anotherbigidea.flash.readers.TagParser	parseDefineFont2	Request()	State
+com.anotherbigidea.flash.readers.TagParser	parseFontInfo	Request()	State
+com.anotherbigidea.flash.readers.TagParser	parseDefineFont	Request()	State
+com.anotherbigidea.flash.readers.TagParser	parseDefineSprite	Request()	State
+com.anotherbigidea.flash.readers.TagParser	parseDefineShape	Request()	State
+com.anotherbigidea.flash.interfaces.SWFTags	null	State	State
+com.anotherbigidea.flash.writers.TagWriter	null	Context	State
+com.anotherbigidea.flash.writers.TagWriter	null	state	State
+com.anotherbigidea.flash.writers.TagWriter	completeTag	Request()	State
+com.anotherbigidea.flash.writers.TagWriter	tag	Request()	State
+com.anotherbigidea.flash.writers.TagWriter	tagEnd	Request()	State
+com.anotherbigidea.flash.writers.TagWriter	tagShowFrame	Request()	State
+com.anotherbigidea.flash.writers.TagWriter	tagProtect	Request()	State
+com.anotherbigidea.flash.writers.TagWriter	tagEnableDebug	Request()	State
+com.anotherbigidea.flash.readers.SWFReader	null	Context	State
+com.anotherbigidea.flash.interfaces.SWFTags	null	State	State
+com.anotherbigidea.flash.readers.SWFReader	null	state	State
+com.anotherbigidea.flash.readers.SWFReader	readOneTag	Request()	State
+com.anotherbigidea.flash.movie.Frame	null	Context	State
+com.anotherbigidea.flash.movie.TimeLine	null	State	State
+com.anotherbigidea.flash.movie.Frame	null	state	State
+com.anotherbigidea.flash.movie.Frame	placeSymbol	Request()	State
+com.anotherbigidea.flash.movie.Frame	placeMovieClip	Request()	State
+com.anotherbigidea.flash.readers.MovieBuilder	null	Context	State
+com.anotherbigidea.flash.movie.TimeLine	null	State	State
+com.anotherbigidea.flash.readers.MovieBuilder	null	state	State
+com.anotherbigidea.flash.readers.MovieBuilder	tagShowFrame	Request()	State
+com.anotherbigidea.flash.readers.MovieBuilder	currentFrame	Request()	State
+com.anotherbigidea.flash.readers.MovieBuilder	tagPlaceObject	Request()	State
+com.anotherbigidea.flash.readers.MovieBuilder	tagPlaceObject2	Request()	State
+com.incors.plaf.kunststoff.KunststoffLookAndFeel	null	Context	State
+com.incors.plaf.kunststoff.GradientTheme	null	State	State
+com.incors.plaf.kunststoff.KunststoffLookAndFeel	null	state	State
+com.incors.plaf.kunststoff.KunststoffLookAndFeel	getComponentGradientColorReflection	Request()	State
+com.incors.plaf.kunststoff.KunststoffLookAndFeel	getComponentGradientColorShadow	Request()	State
+com.incors.plaf.kunststoff.KunststoffLookAndFeel	getTextComponentGradientColorReflection	Request()	State
+com.incors.plaf.kunststoff.KunststoffLookAndFeel	getTextComponentGradientColorShadow	Request()	State
+com.incors.plaf.kunststoff.KunststoffLookAndFeel	getBackgroundGradientShadow	Request()	State
+org.apache.batik.ext.awt.image.rendered.TileGrid	null	Context	State
+org.apache.batik.ext.awt.image.rendered.TileGenerator	null	State	State
+org.apache.batik.ext.awt.image.rendered.TileGrid	null	state	State
+org.apache.batik.ext.awt.image.rendered.TileGrid	getTile	Request()	State
+org.apache.batik.ext.awt.image.rendered.TileMap	null	Context	State
+org.apache.batik.ext.awt.image.rendered.TileGenerator	null	State	State
+org.apache.batik.ext.awt.image.rendered.TileMap	null	state	State
+org.apache.batik.ext.awt.image.rendered.TileMap	getTile	Request()	State
+org.apache.batik.ext.awt.image.rendered.LRUCache$LRUObj	null	State	State
+org.apache.batik.ext.awt.image.rendered.LRUCache$LRUNode	null	Context	State
+org.apache.batik.ext.awt.image.rendered.LRUCache$LRUNode	null	state	State
+org.apache.batik.ext.awt.image.rendered.LRUCache$LRUNode	setObj	Request()	State
+org.apache.batik.ext.awt.image.rendered.AbstractTiledRed	null	Abstraction	Bridge
+org.apache.batik.ext.awt.image.rendered.TileStore	null	Implementor	Bridge
+org.apache.batik.ext.awt.image.rendered.AbstractTiledRed	null	implementor	Bridge
+org.apache.batik.ext.awt.image.rendered.AbstractTiledRed	getTile	Operation()	Bridge
+org.apache.batik.ext.awt.image.rendered.AbstractTiledRed	setTile	Operation()	Bridge
+org.apache.batik.ext.awt.image.rendered.AbstractTiledRed	copyToRasterByBlocks	Operation()	Bridge
+org.apache.batik.ext.awt.image.rendered.AbstractTiledRed	copyToRaster	Operation()	Bridge
+com.anotherbigidea.flash.movie.Symbol	null	AbstractClass	Template Method
+com.anotherbigidea.flash.movie.Symbol	define	TemplateMethod()	Template Method
+org.apache.batik.ext.awt.image.rendered.AbstractTiledRed	null	AbstractClass	Template Method
+org.apache.batik.ext.awt.image.rendered.AbstractTiledRed	genTile	TemplateMethod()	Template Method
+org.apache.batik.ext.awt.image.rendered.AbstractTiledRed	drawBlockAndCopy	TemplateMethod()	Template Method
+org.apache.batik.ext.awt.image.rendered.AbstractTiledRed	drawBlockInPlace	TemplateMethod()	Template Method
+org.apache.batik.ext.awt.image.SVGComposite$AlphaPreCompositeContext	null	AbstractClass	Template Method
+org.apache.batik.ext.awt.image.SVGComposite$AlphaPreCompositeContext	compose	TemplateMethod()	Template Method
+org.apache.batik.ext.awt.image.SVGComposite$AlphaPreCompositeContext_INT_PACK	null	AbstractClass	Template Method
+org.apache.batik.ext.awt.image.SVGComposite$AlphaPreCompositeContext_INT_PACK	precompose	TemplateMethod()	Template Method
+org.apache.batik.ext.awt.MultipleGradientPaintContext	null	AbstractClass	Template Method
+org.apache.batik.ext.awt.MultipleGradientPaintContext	getRaster	TemplateMethod()	Template Method

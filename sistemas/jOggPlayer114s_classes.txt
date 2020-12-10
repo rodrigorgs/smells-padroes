@@ -1,279 +1,285 @@
-src.ca.bc.webarts.jOggPlayer
-src.ca.bc.webarts.jOggPlayer$TimerThread
-src.ca.bc.webarts.JOggPlayerAutoUpdating
-src.ca.bc.webarts.tools.AutoUpdateApp
-src.ca.bc.webarts.tools.JOrbisComment
-src.ca.bc.webarts.tools.State
-src.ca.bc.webarts.tools.Log
-src.ca.bc.webarts.tools.StreamGobbler
-src.ca.bc.webarts.widgets.ColouredLabel
-src.ca.bc.webarts.widgets.dnd.DnDList
-src.ca.bc.webarts.widgets.dnd.FileDrop
-src.ca.bc.webarts.widgets.dnd.FileDrop$Listener
-src.ca.bc.webarts.widgets.dnd.FileDropBean
-src.ca.bc.webarts.widgets.dnd.FileDropBeanBeanInfo
-src.ca.bc.webarts.widgets.dnd.FileDropEvent
-src.ca.bc.webarts.widgets.dnd.FileDropListener
-src.ca.bc.webarts.widgets.dnd.TransferableObject
-src.ca.bc.webarts.widgets.dnd.TransferableObject$Fetcher
-src.ca.bc.webarts.widgets.ExampleFileFilter
-src.ca.bc.webarts.widgets.FirewallAuthenticator
-src.ca.bc.webarts.widgets.ImageCanvas
-src.ca.bc.webarts.widgets.JAboutBox
-src.ca.bc.webarts.widgets.JCheckDropDown
-src.ca.bc.webarts.widgets.JCheckDropDown$ListCheckBoxMouseListsener
-src.ca.bc.webarts.widgets.JCheckDropDown$ListListener
-src.ca.bc.webarts.widgets.JCheckDropDown$CheckBoxRenderer
-src.ca.bc.webarts.widgets.PlayList
-src.ca.bc.webarts.widgets.OggFileRef
-src.ca.bc.webarts.widgets.PopUpButton
-src.ca.bc.webarts.widgets.PopUpButton$ListMouseListener
-src.ca.bc.webarts.widgets.Splash
-src.ca.bc.webarts.widgets.Util
-src.ca.bc.webarts.widgets.VorbisInfo
-src.com.jcraft.jogg.Buffer
-src.com.jcraft.jogg.Packet
-src.com.jcraft.jogg.Page
-src.com.jcraft.jogg.StreamState
-src.com.jcraft.jogg.SyncState
-src.com.jcraft.jorbis.AllocChain
-src.com.jcraft.jorbis.Block
-src.com.jcraft.jorbis.ChainingExample
-src.com.jcraft.jorbis.CodeBook
-src.com.jcraft.jorbis.DecodeAux
-src.com.jcraft.jorbis.Comment
-src.com.jcraft.jorbis.DecodeExample
-src.com.jcraft.jorbis.Drft
-src.com.jcraft.jorbis.DspState
-src.com.jcraft.jorbis.EncodeAuxNearestMatch
-src.com.jcraft.jorbis.EncodeAuxThreshMatch
-src.com.jcraft.jorbis.Floor0
-src.com.jcraft.jorbis.InfoFloor0
-src.com.jcraft.jorbis.LookFloor0
-src.com.jcraft.jorbis.EchstateFloor0
-src.com.jcraft.jorbis.Floor1
-src.com.jcraft.jorbis.InfoFloor1
-src.com.jcraft.jorbis.LookFloor1
-src.com.jcraft.jorbis.Lsfit_acc
-src.com.jcraft.jorbis.EchstateFloor1
-src.com.jcraft.jorbis.FuncFloor
-src.com.jcraft.jorbis.FuncMapping
-src.com.jcraft.jorbis.FuncResidue
-src.com.jcraft.jorbis.FuncTime
-src.com.jcraft.jorbis.Info
-src.com.jcraft.jorbis.InfoMode
-src.com.jcraft.jorbis.JOrbisException
-src.com.jcraft.jorbis.Lookup
-src.com.jcraft.jorbis.Lpc
-src.com.jcraft.jorbis.Lsp
-src.com.jcraft.jorbis.Mapping0
-src.com.jcraft.jorbis.InfoMapping0
-src.com.jcraft.jorbis.LookMapping0
-src.com.jcraft.jorbis.Mdct
-src.com.jcraft.jorbis.PsyInfo
-src.com.jcraft.jorbis.PsyLook
-src.com.jcraft.jorbis.Residue0
-src.com.jcraft.jorbis.LookResidue0
-src.com.jcraft.jorbis.InfoResidue0
-src.com.jcraft.jorbis.Residue1
-src.com.jcraft.jorbis.Residue2
-src.com.jcraft.jorbis.StaticCodeBook
-src.com.jcraft.jorbis.Time0
-src.com.jcraft.jorbis.VorbisFile
-src.com.jcraft.jorbis.VorbisFile$SeekableInputStream
-src.kiwi.event.ChangeSupport
-src.kiwi.event.PropertyChangeSource
-src.kiwi.ResourceAnchor
-src.kiwi.text.ParsingException
-src.kiwi.ui.AboutFrame
-src.kiwi.ui.AboutFrame$_ActionListener
-src.kiwi.ui.AbstractCellEditor
-src.kiwi.ui.ArrowButtonView
-src.kiwi.ui.ArrowButtonView$_ActionListener
-src.kiwi.ui.AudioClip
-src.kiwi.ui.AudioClipViewer
-src.kiwi.ui.BooleanCellRenderer
-src.kiwi.ui.ButtonPanel
-src.kiwi.ui.ButtonPanel$AnchorLayout
-src.kiwi.ui.ColoredCellRenderer
-src.kiwi.ui.ColoredString
-src.kiwi.ui.ColorSwatch
-src.kiwi.ui.ColorSwatchCellRenderer
-src.kiwi.ui.ColorTheme
-src.kiwi.ui.ConsoleAdapter
-src.kiwi.ui.ConsoleFrame
-src.kiwi.ui.ContentPanel
-src.kiwi.ui.DataField
-src.kiwi.ui.DataField$_DocumentListener
-src.kiwi.ui.DateChooser
-src.kiwi.ui.DateChooser$CalendarPane
-src.kiwi.ui.DateChooser$CalendarPane$_MouseListener2
-src.kiwi.ui.DateChooserField
-src.kiwi.ui.DateField
-src.kiwi.ui.DateRangeHelper
-src.kiwi.ui.DateTableCellRenderer
-src.kiwi.ui.DocumentBrowserFrame
-src.kiwi.ui.DocumentBrowserView
-src.kiwi.ui.FilesystemListView
-src.kiwi.ui.FilesystemTableView
-src.kiwi.ui.FilesystemTreeView
-src.kiwi.ui.HeaderCellRenderer
-src.kiwi.ui.ImagePanel
-src.kiwi.ui.ImageView
-src.kiwi.ui.KButton
-src.kiwi.ui.KCheckBox
-src.kiwi.ui.KDesktopPane
-src.kiwi.ui.KFileChooser
-src.kiwi.ui.KFileChooser$_Dialog
-src.kiwi.ui.KFrame
-src.kiwi.ui.KFrame$_WindowListener
-src.kiwi.ui.KFrame$_PropertyChangeListener
-src.kiwi.ui.KInternalFrame
-src.kiwi.ui.KInternalFrame$_WindowListener
-src.kiwi.ui.KInternalFrame$_PropertyChangeListener
-src.kiwi.ui.KiwiTheme
-src.kiwi.ui.KLabel
-src.kiwi.ui.KLabelArea
-src.kiwi.ui.KPanel
-src.kiwi.ui.KRadioButton
-src.kiwi.ui.KScrollPane
-src.kiwi.ui.KTable
-src.kiwi.ui.KTable$_SelectionModel
-src.kiwi.ui.KTable$_HeaderRenderer
-src.kiwi.ui.KTable$_TableHeader
-src.kiwi.ui.KToggleButton
-src.kiwi.ui.LocaleChooser
-src.kiwi.ui.LookAndFeelChooser
-src.kiwi.ui.MarkupProxy
-src.kiwi.ui.MarkupProxyFactory
-src.kiwi.ui.ModelListCellRenderer
-src.kiwi.ui.ModelTableCellRenderer
-src.kiwi.ui.ModelTreeCellRenderer
-src.kiwi.ui.NoAppropriateEditorException
-src.kiwi.ui.NumericCellEditor
-src.kiwi.ui.NumericField
-src.kiwi.ui.NumericTableCellRenderer
-src.kiwi.ui.PathEditor
-src.kiwi.ui.PathEditor$PathListCellEditor
-src.kiwi.ui.ScrollbackView
-src.kiwi.ui.ScrollbackView$FastListModel
-src.kiwi.ui.SimpleEditor
-src.kiwi.ui.SimpleStyledEditor
-src.kiwi.ui.SimpleStyledEditor$TextReader
-src.kiwi.ui.SplashScreen
-src.kiwi.ui.StackView
-src.kiwi.ui.StateIndicator
-src.kiwi.ui.StatusBar
-src.kiwi.ui.TextureViewer
-src.kiwi.ui.Thermometer
-src.kiwi.ui.ToggleIndicator
-src.kiwi.ui.ToolTipManager
-src.kiwi.ui.ToolTipWindow
-src.kiwi.ui.TreeTable
-src.kiwi.ui.UIChangeManager
-src.kiwi.ui.UIElement
-src.kiwi.ui.UIElementChooser
-src.kiwi.ui.UIElementChooser$_ListSelectionListener
-src.kiwi.ui.UIElementViewer
-src.kiwi.ui.WebBrowser
-src.kiwi.ui.WizardPanel
-src.kiwi.ui.WizardPanelSequence
-src.kiwi.ui.WizardView
-src.kiwi.ui.WizardView$_ActionListener
-src.kiwi.ui.WorkspaceEditor
-src.kiwi.ui.WorkspaceEditor$_KeyListener
-src.kiwi.ui.WorkspaceEditor$_FocusListener
-src.kiwi.ui.WorkspaceEditor$_MouseListener
-src.kiwi.ui.WorkspaceEditor$_ButtonListener
-src.kiwi.ui.WorkspaceEditorFactory
-src.kiwi.ui.WorkspaceManager
-src.kiwi.ui.WorkspaceManager$_FrameListener
-src.kiwi.util.ArraySequence
-src.kiwi.util.Assert
-src.kiwi.util.AssertionException
-src.kiwi.util.BooleanHolder
-src.kiwi.util.CommandDispatcher
-src.kiwi.util.CommandProcessor
-src.kiwi.util.Comparator
-src.kiwi.util.ComponentPrinter
-src.kiwi.util.Config
-src.kiwi.util.Counter
-src.kiwi.util.DateHolder
-src.kiwi.util.DirectoryPath
-src.kiwi.util.DoubleHolder
-src.kiwi.util.ExceptionHandler
-src.kiwi.util.FileLoggingEndpoint
-src.kiwi.util.FloatHolder
-src.kiwi.util.HashCodeComparator
-src.kiwi.util.HolderObject
-src.kiwi.util.IntegerHolder
-src.kiwi.util.IntervalTimer
-src.kiwi.util.KiwiUtils
-src.kiwi.util.ListConsumer
-src.kiwi.util.LocaleData
-src.kiwi.util.LocaleManager
-src.kiwi.util.LoggingEndpoint
-src.kiwi.util.LoggingMux
-src.kiwi.util.MergeSort
-src.kiwi.util.NotImplementedException
-src.kiwi.util.NullLoggingEndpoint
-src.kiwi.util.ProgressObserver
-src.kiwi.util.RawLoggingEndpoint
-src.kiwi.util.ReplacementClassLoader
-src.kiwi.util.Resource
-src.kiwi.util.ResourceDecoder
-src.kiwi.util.ResourceLoader
-src.kiwi.util.ResourceManager
-src.kiwi.util.ResourceNotFoundException
-src.kiwi.util.ResourcePool
-src.kiwi.util.Sequence
-src.kiwi.util.StreamUtils
-src.kiwi.util.StringComparator
-src.kiwi.util.StringHolder
-src.kiwi.util.StringUtils
-src.kiwi.util.TaggedObject
-src.kiwi.util.Task
-src.kiwi.util.TimerPool
-src.kiwi.util.VectorSequence
-src.kiwi.util.VectorUtils
-src.net.roarsoftware.lastfm.Album
-src.net.roarsoftware.lastfm.Artist
-src.net.roarsoftware.lastfm.Authenticator
-src.net.roarsoftware.lastfm.Caller
-src.net.roarsoftware.lastfm.CallException
-src.net.roarsoftware.lastfm.Chart
-src.net.roarsoftware.lastfm.Event
-src.net.roarsoftware.lastfm.Event$Venue
-src.net.roarsoftware.lastfm.Geo
-src.net.roarsoftware.lastfm.Group
-src.net.roarsoftware.lastfm.ImageHolder
-src.net.roarsoftware.lastfm.Library
-src.net.roarsoftware.lastfm.MusicEntry
-src.net.roarsoftware.lastfm.PaginatedResult
-src.net.roarsoftware.lastfm.Playlist
-src.net.roarsoftware.lastfm.Radio
-src.net.roarsoftware.lastfm.Radio$RadioStation
-src.net.roarsoftware.lastfm.Result
-src.net.roarsoftware.lastfm.scrobble.ResponseStatus
-src.net.roarsoftware.lastfm.scrobble.Scrobbler
-src.net.roarsoftware.lastfm.scrobble.SubmissionData
-src.net.roarsoftware.lastfm.Session
-src.net.roarsoftware.lastfm.Tag
-src.net.roarsoftware.lastfm.Tasteometer
-src.net.roarsoftware.lastfm.Tasteometer$ComparisonResult
-src.net.roarsoftware.lastfm.Track
-src.net.roarsoftware.lastfm.User
-src.net.roarsoftware.util.StringUtilities
-src.net.roarsoftware.xml.DomElement
-src.org.jconfig.ConfigurationFileHandler
-src.org.jconfig.ConfigurationFileHandler$MyErrorHandler
-src.org.jconfig.ConfigurationHandler
-src.org.jconfig.ConfigurationManager
-src.org.jconfig.ConfigurationManagerException
-src.org.jconfig.ConfigurationPropertiesHandler
-src.org.jconfig.event.FileListener
-src.org.jconfig.event.FileListenerEvent
-src.org.jconfig.FileWatcher
-src.org.jconfig.FileWatcherExample
-src.org.jconfig.DoSomething
-src.org.jconfig.DoSomethingElse
+net.roarsoftware.lastfm.Tasteometer	classe	1
+net.roarsoftware.lastfm.Tasteometer$ComparisonResult	classe	2
+net.roarsoftware.lastfm.Tasteometer$InputType	enum	0
+net.roarsoftware.lastfm.scrobble.ResponseStatus	classe	4
+net.roarsoftware.lastfm.scrobble.Scrobbler	classe	9
+net.roarsoftware.lastfm.scrobble.Source	enum	1
+net.roarsoftware.lastfm.scrobble.SubmissionData	classe	1
+net.roarsoftware.lastfm.PaginatedResult	classe	3
+net.roarsoftware.lastfm.CallException	classe	0
+net.roarsoftware.lastfm.Group	classe	11
+net.roarsoftware.lastfm.Track	classe	23
+net.roarsoftware.lastfm.Album	classe	10
+net.roarsoftware.lastfm.Geo	classe	6
+net.roarsoftware.lastfm.Tag	classe	12
+net.roarsoftware.lastfm.Radio	classe	7
+net.roarsoftware.lastfm.Radio$RadioStation	classe	8
+net.roarsoftware.lastfm.Library	classe	12
+net.roarsoftware.lastfm.User	classe	42
+net.roarsoftware.lastfm.MusicEntry	classe	11
+net.roarsoftware.lastfm.Chart	classe	6
+net.roarsoftware.lastfm.ImageHolder	classe	2
+net.roarsoftware.lastfm.Event	classe	15
+net.roarsoftware.lastfm.Event$Venue	classe	9
+net.roarsoftware.lastfm.Event$AttendanceStatus	enum	1
+net.roarsoftware.lastfm.Artist	classe	14
+net.roarsoftware.lastfm.Authenticator	classe	4
+net.roarsoftware.lastfm.Playlist	classe	12
+net.roarsoftware.lastfm.Caller	classe	17
+net.roarsoftware.lastfm.Result	classe	10
+net.roarsoftware.lastfm.Result$Status	enum	0
+net.roarsoftware.lastfm.Session	classe	6
+net.roarsoftware.lastfm.ImageSize	enum	0
+net.roarsoftware.lastfm.Period	enum	1
+net.roarsoftware.util.StringUtilities	classe	5
+net.roarsoftware.xml.DomElement	classe	8
+kiwi.ui.WorkspaceManager	classe	27
+kiwi.ui.WorkspaceManager$_FrameListener	classe	5
+kiwi.ui.TreeTable	classe	2
+kiwi.ui.SimpleStyledEditor	classe	10
+kiwi.ui.SimpleStyledEditor$TextReader	classe	4
+kiwi.ui.ColoredString	classe	4
+kiwi.ui.KRadioButton	classe	0
+kiwi.ui.MarkupProxyFactory	interface	1
+kiwi.ui.FilesystemTreeView	classe	8
+kiwi.ui.ConsoleFrame	classe	4
+kiwi.ui.ColoredCellRenderer	classe	1
+kiwi.ui.PathEditor	classe	3
+kiwi.ui.PathEditor$PathListCellEditor	classe	9
+kiwi.ui.KPanel	classe	5
+kiwi.ui.KScrollPane	classe	1
+kiwi.ui.MarkupProxy	classe	2
+kiwi.ui.ColorSwatchCellRenderer	classe	3
+kiwi.ui.ConsoleAdapter	classe	1
+kiwi.ui.NoAppropriateEditorException	classe	1
+kiwi.ui.ArrowButtonView	classe	5
+kiwi.ui.ArrowButtonView$_ActionListener	classe	1
+kiwi.ui.UIElement	classe	3
+kiwi.ui.KDesktopPane	classe	3
+kiwi.ui.ContentPanel	classe	7
+kiwi.ui.UIElementChooser	classe	6
+kiwi.ui.UIElementChooser$_ListSelectionListener	classe	1
+kiwi.ui.AboutFrame	classe	5
+kiwi.ui.AboutFrame$_ActionListener	classe	1
+kiwi.ui.ModelListCellRenderer	classe	1
+kiwi.ui.ImageView	classe	1
+kiwi.ui.WorkspaceEditor	classe	23
+kiwi.ui.WorkspaceEditor$_KeyListener	classe	1
+kiwi.ui.WorkspaceEditor$_FocusListener	classe	2
+kiwi.ui.WorkspaceEditor$_MouseListener	classe	2
+kiwi.ui.WorkspaceEditor$_ButtonListener	classe	1
+kiwi.ui.ButtonPanel	classe	6
+kiwi.ui.ButtonPanel$AnchorLayout	classe	11
+kiwi.ui.ModelTreeCellRenderer	classe	3
+kiwi.ui.WizardPanelSequence	classe	15
+kiwi.ui.WebBrowser	classe	5
+kiwi.ui.DateField	classe	4
+kiwi.ui.ToolTipManager	classe	9
+kiwi.ui.KButton	classe	0
+kiwi.ui.ModelTableCellRenderer	classe	1
+kiwi.ui.KLabelArea	classe	5
+kiwi.ui.ImagePanel	classe	6
+kiwi.ui.TextureViewer	classe	2
+kiwi.ui.FilesystemTableView	classe	7
+kiwi.ui.StateIndicator	classe	5
+kiwi.ui.ColorSwatch	classe	5
+kiwi.ui.DateTableCellRenderer	classe	3
+kiwi.ui.StatusBar	classe	12
+kiwi.ui.Thermometer	classe	8
+kiwi.ui.WizardPanel	classe	11
+kiwi.ui.SimpleEditor	classe	10
+kiwi.ui.DateChooserField	classe	2
+kiwi.ui.KToggleButton	classe	0
+kiwi.ui.ToolTipWindow	classe	12
+kiwi.ui.WorkspaceEditorFactory	interface	2
+kiwi.ui.ToggleIndicator	classe	2
+kiwi.ui.NumericCellEditor	classe	10
+kiwi.ui.HeaderCellRenderer	classe	2
+kiwi.ui.StackView	classe	11
+kiwi.ui.ScrollbackView	classe	6
+kiwi.ui.ScrollbackView$FastListModel	classe	6
+kiwi.ui.NumericTableCellRenderer	classe	7
+kiwi.ui.LookAndFeelChooser	classe	1
+kiwi.ui.KInternalFrame	classe	8
+kiwi.ui.KInternalFrame$_WindowListener	classe	1
+kiwi.ui.KInternalFrame$_PropertyChangeListener	classe	1
+kiwi.ui.KLabel	classe	1
+kiwi.ui.UIChangeManager	classe	15
+kiwi.ui.LocaleChooser	classe	1
+kiwi.ui.WizardView	classe	10
+kiwi.ui.WizardView$_ActionListener	classe	1
+kiwi.ui.AudioClip	classe	6
+kiwi.ui.ColorTheme	classe	50
+kiwi.ui.DataField	classe	14
+kiwi.ui.DataField$_DocumentListener	classe	3
+kiwi.ui.KFrame	classe	10
+kiwi.ui.KFrame$_WindowListener	classe	1
+kiwi.ui.KFrame$_PropertyChangeListener	classe	1
+kiwi.ui.DateChooser	classe	16
+kiwi.ui.DateChooser$CalendarPane	classe	4
+kiwi.ui.DateChooser$CalendarPane$_MouseListener2	classe	2
+kiwi.ui.BooleanCellRenderer	classe	1
+kiwi.ui.DocumentBrowserFrame	classe	1
+kiwi.ui.KTable	classe	12
+kiwi.ui.KTable$_SelectionModel	classe	7
+kiwi.ui.KTable$_HeaderRenderer	classe	1
+kiwi.ui.KTable$_TableHeader	classe	2
+kiwi.ui.AudioClipViewer	classe	3
+kiwi.ui.FilesystemListView	classe	7
+kiwi.ui.NumericField	classe	19
+kiwi.ui.KFileChooser	classe	5
+kiwi.ui.KFileChooser$_Dialog	classe	0
+kiwi.ui.UIElementViewer	interface	2
+kiwi.ui.DateRangeHelper	classe	7
+kiwi.ui.DocumentBrowserView	classe	3
+kiwi.ui.KiwiTheme	classe	6
+kiwi.ui.SplashScreen	classe	4
+kiwi.ui.KCheckBox	classe	0
+kiwi.ui.AbstractCellEditor	classe	9
+kiwi.util.BooleanHolder	classe	4
+kiwi.util.StringUtils	classe	5
+kiwi.util.StreamUtils	classe	5
+kiwi.util.ResourceNotFoundException	classe	0
+kiwi.util.Sequence	interface	2
+kiwi.util.DoubleHolder	classe	4
+kiwi.util.NullLoggingEndpoint	classe	2
+kiwi.util.ExceptionHandler	interface	1
+kiwi.util.ProgressObserver	interface	1
+kiwi.util.HashCodeComparator	classe	1
+kiwi.util.DirectoryPath	classe	6
+kiwi.util.KiwiUtils	classe	29
+kiwi.util.LocaleData	classe	6
+kiwi.util.Resource	interface	2
+kiwi.util.VectorSequence	classe	4
+kiwi.util.LocaleManager	classe	52
+kiwi.util.Assert	classe	1
+kiwi.util.NotImplementedException	classe	0
+kiwi.util.AssertionException	classe	0
+kiwi.util.TimerPool	classe	3
+kiwi.util.RawLoggingEndpoint	classe	2
+kiwi.util.CommandProcessor	interface	4
+kiwi.util.DateHolder	classe	4
+kiwi.util.Counter	classe	2
+kiwi.util.LoggingEndpoint	interface	2
+kiwi.util.StringComparator	classe	2
+kiwi.util.MergeSort	classe	4
+kiwi.util.ComponentPrinter	classe	3
+kiwi.util.VectorUtils	classe	11
+kiwi.util.Task	classe	4
+kiwi.util.ResourceManager	classe	25
+kiwi.util.Config	classe	25
+kiwi.util.ResourceDecoder	classe	6
+kiwi.util.ResourceLoader	classe	6
+kiwi.util.StringHolder	classe	4
+kiwi.util.Comparator	interface	1
+kiwi.util.FloatHolder	classe	4
+kiwi.util.ArraySequence	classe	4
+kiwi.util.FileLoggingEndpoint	classe	2
+kiwi.util.IntervalTimer	classe	11
+kiwi.util.TaggedObject	classe	4
+kiwi.util.ListConsumer	interface	1
+kiwi.util.ResourcePool	classe	6
+kiwi.util.ReplacementClassLoader	classe	2
+kiwi.util.HolderObject	classe	3
+kiwi.util.LoggingMux	classe	6
+kiwi.util.CommandDispatcher	classe	3
+kiwi.util.IntegerHolder	classe	4
+kiwi.ResourceAnchor	classe	0
+kiwi.text.ParsingException	classe	3
+kiwi.event.PropertyChangeSource	interface	2
+kiwi.event.ChangeSupport	classe	3
+org.jconfig.ConfigurationPropertiesHandler	classe	8
+org.jconfig.ConfigurationManager	classe	36
+org.jconfig.ConfigurationHandler	interface	5
+org.jconfig.ConfigurationFileHandler	classe	13
+org.jconfig.ConfigurationFileHandler$MyErrorHandler	classe	4
+org.jconfig.FileWatcher	classe	9
+org.jconfig.FileWatcherExample	classe	2
+org.jconfig.DoSomething	classe	1
+org.jconfig.DoSomethingElse	classe	1
+org.jconfig.ConfigurationManagerException	classe	0
+org.jconfig.event.FileListener	interface	1
+org.jconfig.event.FileListenerEvent	classe	1
+ca.bc.webarts.tools.JOrbisComment	classe	24
+ca.bc.webarts.tools.State	classe	2
+ca.bc.webarts.tools.StreamGobbler	classe	11
+ca.bc.webarts.tools.AutoUpdateApp	classe	19
+ca.bc.webarts.tools.Log	classe	29
+ca.bc.webarts.JOggPlayerAutoUpdating	classe	1
+ca.bc.webarts.jOggPlayer	classe	31
+ca.bc.webarts.jOggPlayer$TimerThread	classe	2
+ca.bc.webarts.widgets.Util	classe	59
+ca.bc.webarts.widgets.ColouredLabel	classe	12
+ca.bc.webarts.widgets.dnd.DnDList	classe	12
+ca.bc.webarts.widgets.dnd.FileDropEvent	classe	1
+ca.bc.webarts.widgets.dnd.TransferableObject	classe	4
+ca.bc.webarts.widgets.dnd.TransferableObject$Fetcher	interface	1
+ca.bc.webarts.widgets.dnd.FileDrop	classe	8
+ca.bc.webarts.widgets.dnd.FileDrop$Listener	interface	1
+ca.bc.webarts.widgets.dnd.FileDropListener	interface	1
+ca.bc.webarts.widgets.dnd.FileDropBean	classe	5
+ca.bc.webarts.widgets.dnd.FileDropBeanBeanInfo	classe	6
+ca.bc.webarts.widgets.ImageCanvas	classe	3
+ca.bc.webarts.widgets.Splash	classe	4
+ca.bc.webarts.widgets.FirewallAuthenticator	classe	1
+ca.bc.webarts.widgets.ExampleFileFilter	classe	7
+ca.bc.webarts.widgets.PopUpButton	classe	10
+ca.bc.webarts.widgets.PopUpButton$ListMouseListener	classe	3
+ca.bc.webarts.widgets.VorbisInfo	classe	16
+ca.bc.webarts.widgets.JCheckDropDown	classe	20
+ca.bc.webarts.widgets.JCheckDropDown$ListCheckBoxMouseListsener	classe	3
+ca.bc.webarts.widgets.JCheckDropDown$ListListener	classe	3
+ca.bc.webarts.widgets.JCheckDropDown$CheckBoxRenderer	classe	1
+ca.bc.webarts.widgets.PlayList	classe	48
+ca.bc.webarts.widgets.OggFileRef	classe	16
+ca.bc.webarts.widgets.JAboutBox	classe	0
+com.jcraft.jogg.Page	classe	9
+com.jcraft.jogg.StreamState	classe	13
+com.jcraft.jogg.Packet	classe	0
+com.jcraft.jogg.SyncState	classe	9
+com.jcraft.jogg.Buffer	classe	19
+com.jcraft.jorbis.Residue2	classe	2
+com.jcraft.jorbis.DecodeExample	classe	1
+com.jcraft.jorbis.Lpc	classe	6
+com.jcraft.jorbis.Floor1	classe	13
+com.jcraft.jorbis.InfoFloor1	classe	2
+com.jcraft.jorbis.LookFloor1	classe	1
+com.jcraft.jorbis.Lsfit_acc	classe	0
+com.jcraft.jorbis.EchstateFloor1	classe	0
+com.jcraft.jorbis.Lsp	classe	1
+com.jcraft.jorbis.Drft	classe	14
+com.jcraft.jorbis.DspState	classe	8
+com.jcraft.jorbis.Lookup	classe	4
+com.jcraft.jorbis.Floor0	classe	16
+com.jcraft.jorbis.InfoFloor0	classe	0
+com.jcraft.jorbis.LookFloor0	classe	0
+com.jcraft.jorbis.EchstateFloor0	classe	0
+com.jcraft.jorbis.PsyInfo	classe	1
+com.jcraft.jorbis.EncodeAuxThreshMatch	classe	0
+com.jcraft.jorbis.Info	classe	10
+com.jcraft.jorbis.InfoMode	classe	0
+com.jcraft.jorbis.PsyLook	classe	1
+com.jcraft.jorbis.ChainingExample	classe	1
+com.jcraft.jorbis.VorbisFile	classe	38
+com.jcraft.jorbis.VorbisFile$SeekableInputStream	classe	12
+com.jcraft.jorbis.StaticCodeBook	classe	9
+com.jcraft.jorbis.Mdct	classe	5
+com.jcraft.jorbis.FuncMapping	classe	6
+com.jcraft.jorbis.FuncResidue	classe	7
+com.jcraft.jorbis.FuncTime	classe	7
+com.jcraft.jorbis.Time0	classe	7
+com.jcraft.jorbis.Comment	classe	15
+com.jcraft.jorbis.Mapping0	classe	7
+com.jcraft.jorbis.InfoMapping0	classe	1
+com.jcraft.jorbis.LookMapping0	classe	0
+com.jcraft.jorbis.JOrbisException	classe	0
+com.jcraft.jorbis.EncodeAuxNearestMatch	classe	0
+com.jcraft.jorbis.AllocChain	classe	0
+com.jcraft.jorbis.Residue0	classe	11
+com.jcraft.jorbis.LookResidue0	classe	0
+com.jcraft.jorbis.InfoResidue0	classe	0
+com.jcraft.jorbis.Block	classe	3
+com.jcraft.jorbis.Residue1	classe	2
+com.jcraft.jorbis.CodeBook	classe	18
+com.jcraft.jorbis.DecodeAux	classe	0
+com.jcraft.jorbis.FuncFloor	classe	9

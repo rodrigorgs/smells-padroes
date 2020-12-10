@@ -1,631 +1,631 @@
-examples.annotations.examples.Applet
-examples.annotations.examples.Application
-examples.annotations.examples.Bean
-examples.annotations.examples.NativeCallBack
-src.proguard.ant.ClassPathElement
-src.proguard.ant.ClassSpecificationElement
-src.proguard.ant.ConfigurationElement
-src.proguard.ant.ConfigurationTask
-src.proguard.ant.FilterElement
-src.proguard.ant.KeepSpecificationElement
-src.proguard.ant.MemberSpecificationElement
-src.proguard.ArgumentWordReader
-src.proguard.classfile.attribute.annotation.Annotation
-src.proguard.classfile.attribute.annotation.AnnotationDefaultAttribute
-src.proguard.classfile.attribute.annotation.AnnotationElementValue
-src.proguard.classfile.attribute.annotation.AnnotationsAttribute
-src.proguard.classfile.attribute.annotation.ArrayElementValue
-src.proguard.classfile.attribute.annotation.ClassElementValue
-src.proguard.classfile.attribute.annotation.ConstantElementValue
-src.proguard.classfile.attribute.annotation.ElementValue
-src.proguard.classfile.attribute.annotation.EnumConstantElementValue
-src.proguard.classfile.attribute.annotation.ParameterAnnotationsAttribute
-src.proguard.classfile.attribute.annotation.RuntimeInvisibleAnnotationsAttribute
-src.proguard.classfile.attribute.annotation.RuntimeInvisibleParameterAnnotationsAttribute
-src.proguard.classfile.attribute.annotation.RuntimeVisibleAnnotationsAttribute
-src.proguard.classfile.attribute.annotation.RuntimeVisibleParameterAnnotationsAttribute
-src.proguard.classfile.attribute.annotation.visitor.AllAnnotationVisitor
-src.proguard.classfile.attribute.annotation.visitor.AllElementValueVisitor
-src.proguard.classfile.attribute.annotation.visitor.AnnotatedClassVisitor
-src.proguard.classfile.attribute.annotation.visitor.AnnotationToMemberVisitor
-src.proguard.classfile.attribute.annotation.visitor.AnnotationTypeFilter
-src.proguard.classfile.attribute.annotation.visitor.AnnotationVisitor
-src.proguard.classfile.attribute.annotation.visitor.ElementValueVisitor
-src.proguard.classfile.attribute.Attribute
-src.proguard.classfile.attribute.BootstrapMethodInfo
-src.proguard.classfile.attribute.BootstrapMethodsAttribute
-src.proguard.classfile.attribute.CodeAttribute
-src.proguard.classfile.attribute.ConstantValueAttribute
-src.proguard.classfile.attribute.DeprecatedAttribute
-src.proguard.classfile.attribute.EnclosingMethodAttribute
-src.proguard.classfile.attribute.ExceptionInfo
-src.proguard.classfile.attribute.ExceptionsAttribute
-src.proguard.classfile.attribute.InnerClassesAttribute
-src.proguard.classfile.attribute.InnerClassesInfo
-src.proguard.classfile.attribute.LineNumberInfo
-src.proguard.classfile.attribute.LineNumberTableAttribute
-src.proguard.classfile.attribute.LocalVariableInfo
-src.proguard.classfile.attribute.LocalVariableTableAttribute
-src.proguard.classfile.attribute.LocalVariableTypeInfo
-src.proguard.classfile.attribute.LocalVariableTypeTableAttribute
-src.proguard.classfile.attribute.preverification.DoubleType
-src.proguard.classfile.attribute.preverification.FloatType
-src.proguard.classfile.attribute.preverification.FullFrame
-src.proguard.classfile.attribute.preverification.IntegerType
-src.proguard.classfile.attribute.preverification.LessZeroFrame
-src.proguard.classfile.attribute.preverification.LongType
-src.proguard.classfile.attribute.preverification.MoreZeroFrame
-src.proguard.classfile.attribute.preverification.NullType
-src.proguard.classfile.attribute.preverification.ObjectType
-src.proguard.classfile.attribute.preverification.SameOneFrame
-src.proguard.classfile.attribute.preverification.SameZeroFrame
-src.proguard.classfile.attribute.preverification.StackMapAttribute
-src.proguard.classfile.attribute.preverification.StackMapFrame
-src.proguard.classfile.attribute.preverification.StackMapTableAttribute
-src.proguard.classfile.attribute.preverification.TopType
-src.proguard.classfile.attribute.preverification.UninitializedThisType
-src.proguard.classfile.attribute.preverification.UninitializedType
-src.proguard.classfile.attribute.preverification.VerificationType
-src.proguard.classfile.attribute.preverification.VerificationTypeFactory
-src.proguard.classfile.attribute.preverification.visitor.StackMapFrameVisitor
-src.proguard.classfile.attribute.preverification.visitor.VerificationTypeVisitor
-src.proguard.classfile.attribute.SignatureAttribute
-src.proguard.classfile.attribute.SourceDirAttribute
-src.proguard.classfile.attribute.SourceFileAttribute
-src.proguard.classfile.attribute.SyntheticAttribute
-src.proguard.classfile.attribute.UnknownAttribute
-src.proguard.classfile.attribute.visitor.AllAttributeVisitor
-src.proguard.classfile.attribute.visitor.AllBootstrapMethodInfoVisitor
-src.proguard.classfile.attribute.visitor.AllExceptionInfoVisitor
-src.proguard.classfile.attribute.visitor.AllInnerClassesInfoVisitor
-src.proguard.classfile.attribute.visitor.AttributeNameFilter
-src.proguard.classfile.attribute.visitor.AttributeVisitor
-src.proguard.classfile.attribute.visitor.BootstrapMethodInfoVisitor
-src.proguard.classfile.attribute.visitor.ExceptionInfoVisitor
-src.proguard.classfile.attribute.visitor.InnerClassesInfoVisitor
-src.proguard.classfile.attribute.visitor.LineNumberInfoVisitor
-src.proguard.classfile.attribute.visitor.LocalVariableInfoVisitor
-src.proguard.classfile.attribute.visitor.LocalVariableTypeInfoVisitor
-src.proguard.classfile.attribute.visitor.MultiAttributeVisitor
-src.proguard.classfile.attribute.visitor.NonEmptyAttributeFilter
-src.proguard.classfile.attribute.visitor.RequiredAttributeFilter
-src.proguard.classfile.attribute.visitor.StackSizeComputer
-src.proguard.classfile.ClassConstants
-src.proguard.classfile.ClassPool
-src.proguard.classfile.Clazz
-src.proguard.classfile.constant.ClassConstant
-src.proguard.classfile.constant.Constant
-src.proguard.classfile.constant.DoubleConstant
-src.proguard.classfile.constant.FieldrefConstant
-src.proguard.classfile.constant.FloatConstant
-src.proguard.classfile.constant.IntegerConstant
-src.proguard.classfile.constant.InterfaceMethodrefConstant
-src.proguard.classfile.constant.InvokeDynamicConstant
-src.proguard.classfile.constant.LongConstant
-src.proguard.classfile.constant.MethodHandleConstant
-src.proguard.classfile.constant.MethodrefConstant
-src.proguard.classfile.constant.MethodTypeConstant
-src.proguard.classfile.constant.NameAndTypeConstant
-src.proguard.classfile.constant.RefConstant
-src.proguard.classfile.constant.StringConstant
-src.proguard.classfile.constant.Utf8Constant
-src.proguard.classfile.constant.visitor.AllConstantVisitor
-src.proguard.classfile.constant.visitor.BootstrapMethodHandleTraveler
-src.proguard.classfile.constant.visitor.ConstantTagFilter
-src.proguard.classfile.constant.visitor.ConstantVisitor
-src.proguard.classfile.constant.visitor.ExceptClassConstantFilter
-src.proguard.classfile.constant.visitor.MethodrefTraveler
-src.proguard.classfile.editor.AccessFixer
-src.proguard.classfile.editor.AccessFixer$MyReferencedClassFinder
-src.proguard.classfile.editor.AnnotationAdder
-src.proguard.classfile.editor.AnnotationsAttributeEditor
-src.proguard.classfile.editor.AttributeAdder
-src.proguard.classfile.editor.AttributesEditor
-src.proguard.classfile.editor.AttributeSorter
-src.proguard.classfile.editor.BridgeMethodFixer
-src.proguard.classfile.editor.ClassEditor
-src.proguard.classfile.editor.ClassElementSorter
-src.proguard.classfile.editor.ClassMemberSorter
-src.proguard.classfile.editor.ClassReferenceFixer
-src.proguard.classfile.editor.CodeAttributeComposer
-src.proguard.classfile.editor.CodeAttributeEditor
-src.proguard.classfile.editor.CodeAttributeEditor$CompositeInstruction
-src.proguard.classfile.editor.CodeAttributeEditorResetter
-src.proguard.classfile.editor.ComparableConstant
-src.proguard.classfile.editor.ConstantAdder
-src.proguard.classfile.editor.ConstantPoolEditor
-src.proguard.classfile.editor.ConstantPoolRemapper
-src.proguard.classfile.editor.ConstantPoolShrinker
-src.proguard.classfile.editor.ConstantPoolSorter
-src.proguard.classfile.editor.ElementValueAdder
-src.proguard.classfile.editor.ElementValuesEditor
-src.proguard.classfile.editor.ExceptionAdder
-src.proguard.classfile.editor.ExceptionInfoAdder
-src.proguard.classfile.editor.ExceptionsAttributeEditor
-src.proguard.classfile.editor.InnerClassesAccessFixer
-src.proguard.classfile.editor.InstructionAdder
-src.proguard.classfile.editor.InstructionWriter
-src.proguard.classfile.editor.InterfaceAdder
-src.proguard.classfile.editor.InterfacesEditor
-src.proguard.classfile.editor.InterfaceSorter
-src.proguard.classfile.editor.LineNumberInfoAdder
-src.proguard.classfile.editor.LineNumberTableAttributeEditor
-src.proguard.classfile.editor.LocalVariableInfoAdder
-src.proguard.classfile.editor.LocalVariableTableAttributeEditor
-src.proguard.classfile.editor.LocalVariableTypeInfoAdder
-src.proguard.classfile.editor.LocalVariableTypeTableAttributeEditor
-src.proguard.classfile.editor.MemberAdder
-src.proguard.classfile.editor.MemberReferenceFixer
-src.proguard.classfile.editor.MethodInvocationFixer
-src.proguard.classfile.editor.NameAndTypeShrinker
-src.proguard.classfile.editor.NamedAttributeDeleter
-src.proguard.classfile.editor.ParameterAnnotationsAttributeEditor
-src.proguard.classfile.editor.StackSizeUpdater
-src.proguard.classfile.editor.SubclassAdder
-src.proguard.classfile.editor.SubclassToAdder
-src.proguard.classfile.editor.Utf8Shrinker
-src.proguard.classfile.editor.VariableCleaner
-src.proguard.classfile.editor.VariableEditor
-src.proguard.classfile.editor.VariableRemapper
-src.proguard.classfile.editor.VariableSizeUpdater
-src.proguard.classfile.Field
-src.proguard.classfile.instruction.BranchInstruction
-src.proguard.classfile.instruction.ConstantInstruction
-src.proguard.classfile.instruction.Instruction
-src.proguard.classfile.instruction.InstructionConstants
-src.proguard.classfile.instruction.InstructionFactory
-src.proguard.classfile.instruction.InstructionUtil
-src.proguard.classfile.instruction.LookUpSwitchInstruction
-src.proguard.classfile.instruction.SimpleInstruction
-src.proguard.classfile.instruction.SwitchInstruction
-src.proguard.classfile.instruction.TableSwitchInstruction
-src.proguard.classfile.instruction.VariableInstruction
-src.proguard.classfile.instruction.visitor.AllInstructionVisitor
-src.proguard.classfile.instruction.visitor.InstructionConstantVisitor
-src.proguard.classfile.instruction.visitor.InstructionCounter
-src.proguard.classfile.instruction.visitor.InstructionVisitor
-src.proguard.classfile.instruction.visitor.MultiInstructionVisitor
-src.proguard.classfile.io.LibraryClassReader
-src.proguard.classfile.io.ProgramClassReader
-src.proguard.classfile.io.ProgramClassWriter
-src.proguard.classfile.io.ProgramClassWriter$ConstantBodyWriter
-src.proguard.classfile.io.ProgramClassWriter$AttributeBodyWriter
-src.proguard.classfile.io.ProgramClassWriter$StackMapFrameBodyWriter
-src.proguard.classfile.io.ProgramClassWriter$VerificationTypeBodyWriter
-src.proguard.classfile.io.ProgramClassWriter$ElementValueBodyWriter
-src.proguard.classfile.io.RuntimeDataInput
-src.proguard.classfile.io.RuntimeDataOutput
-src.proguard.classfile.LibraryClass
-src.proguard.classfile.LibraryField
-src.proguard.classfile.LibraryMember
-src.proguard.classfile.LibraryMethod
-src.proguard.classfile.Member
-src.proguard.classfile.Method
-src.proguard.classfile.ProgramClass
-src.proguard.classfile.ProgramField
-src.proguard.classfile.ProgramMember
-src.proguard.classfile.ProgramMethod
-src.proguard.classfile.util.AccessUtil
-src.proguard.classfile.util.ClassReferenceInitializer
-src.proguard.classfile.util.ClassSubHierarchyInitializer
-src.proguard.classfile.util.ClassSuperHierarchyInitializer
-src.proguard.classfile.util.ClassUtil
-src.proguard.classfile.util.DescriptorClassEnumeration
-src.proguard.classfile.util.DynamicClassReferenceInitializer
-src.proguard.classfile.util.DynamicMemberReferenceInitializer
-src.proguard.classfile.util.EnumFieldReferenceInitializer
-src.proguard.classfile.util.ExternalTypeEnumeration
-src.proguard.classfile.util.InstructionSequenceMatcher
-src.proguard.classfile.util.InternalTypeEnumeration
-src.proguard.classfile.util.MemberFinder
-src.proguard.classfile.util.MemberFinder$MemberFoundException
-src.proguard.classfile.util.MethodLinker
-src.proguard.classfile.util.SimplifiedVisitor
-src.proguard.classfile.util.StringReferenceInitializer
-src.proguard.classfile.util.StringSharer
-src.proguard.classfile.util.WarningPrinter
-src.proguard.classfile.visitor.AllClassVisitor
-src.proguard.classfile.visitor.AllFieldVisitor
-src.proguard.classfile.visitor.AllMemberVisitor
-src.proguard.classfile.visitor.AllMethodVisitor
-src.proguard.classfile.visitor.BottomClassFilter
-src.proguard.classfile.visitor.ClassAccessFilter
-src.proguard.classfile.visitor.ClassCleaner
-src.proguard.classfile.visitor.ClassCollector
-src.proguard.classfile.visitor.ClassCounter
-src.proguard.classfile.visitor.ClassHierarchyTraveler
-src.proguard.classfile.visitor.ClassNameFilter
-src.proguard.classfile.visitor.ClassPoolFiller
-src.proguard.classfile.visitor.ClassPoolVisitor
-src.proguard.classfile.visitor.ClassPresenceFilter
-src.proguard.classfile.visitor.ClassPrinter
-src.proguard.classfile.visitor.ClassVersionFilter
-src.proguard.classfile.visitor.ClassVersionSetter
-src.proguard.classfile.visitor.ClassVisitor
-src.proguard.classfile.visitor.ConcreteClassDownTraveler
-src.proguard.classfile.visitor.DotClassClassVisitor
-src.proguard.classfile.visitor.ExceptClassesFilter
-src.proguard.classfile.visitor.ExceptClassFilter
-src.proguard.classfile.visitor.ExceptionCounter
-src.proguard.classfile.visitor.ExceptionExcludedOffsetFilter
-src.proguard.classfile.visitor.ExceptionHandlerConstantVisitor
-src.proguard.classfile.visitor.ExceptionHandlerFilter
-src.proguard.classfile.visitor.ExceptionOffsetFilter
-src.proguard.classfile.visitor.ExceptionRangeFilter
-src.proguard.classfile.visitor.ImplementedClassConstantFilter
-src.proguard.classfile.visitor.ImplementedClassFilter
-src.proguard.classfile.visitor.ImplementingClassConstantFilter
-src.proguard.classfile.visitor.LibraryClassFilter
-src.proguard.classfile.visitor.LibraryMemberFilter
-src.proguard.classfile.visitor.MemberAccessFilter
-src.proguard.classfile.visitor.MemberClassAccessFilter
-src.proguard.classfile.visitor.MemberCollector
-src.proguard.classfile.visitor.MemberCounter
-src.proguard.classfile.visitor.MemberDescriptorFilter
-src.proguard.classfile.visitor.MemberToClassVisitor
-src.proguard.classfile.visitor.MemberVisitor
-src.proguard.classfile.visitor.MethodImplementationFilter
-src.proguard.classfile.visitor.MethodImplementationTraveler
-src.proguard.classfile.visitor.MultiClassPoolVisitor
-src.proguard.classfile.visitor.MultiClassVisitor
-src.proguard.classfile.visitor.MultiMemberVisitor
-src.proguard.classfile.visitor.NamedClassVisitor
-src.proguard.classfile.visitor.NamedFieldVisitor
-src.proguard.classfile.visitor.NamedMethodVisitor
-src.proguard.classfile.visitor.ProgramClassFilter
-src.proguard.classfile.visitor.ProgramMemberFilter
-src.proguard.classfile.visitor.ReferencedClassVisitor
-src.proguard.classfile.visitor.ReferencedMemberVisitor
-src.proguard.classfile.visitor.SimilarMemberVisitor
-src.proguard.classfile.visitor.SimpleClassPrinter
-src.proguard.classfile.visitor.SubclassFilter
-src.proguard.classfile.visitor.SubclassTraveler
-src.proguard.classfile.visitor.VariableClassVisitor
-src.proguard.classfile.visitor.VariableMemberVisitor
-src.proguard.classfile.VisitorAccepter
-src.proguard.ClassPath
-src.proguard.ClassPathEntry
-src.proguard.ClassSpecification
-src.proguard.ClassSpecificationVisitorFactory
-src.proguard.Configuration
-src.proguard.ConfigurationConstants
-src.proguard.ConfigurationParser
-src.proguard.ConfigurationWriter
-src.proguard.DataEntryReaderFactory
-src.proguard.DataEntryWriterFactory
-src.proguard.DescriptorKeepChecker
-src.proguard.DuplicateClassPrinter
-src.proguard.evaluation.BasicBranchUnit
-src.proguard.evaluation.BasicInvocationUnit
-src.proguard.evaluation.BranchUnit
-src.proguard.evaluation.ClassConstantValueFactory
-src.proguard.evaluation.ConstantValueFactory
-src.proguard.evaluation.InvocationUnit
-src.proguard.evaluation.Processor
-src.proguard.evaluation.Stack
-src.proguard.evaluation.TracedStack
-src.proguard.evaluation.TracedVariables
-src.proguard.evaluation.value.Category1Value
-src.proguard.evaluation.value.Category2Value
-src.proguard.evaluation.value.ComparisonValue
-src.proguard.evaluation.value.CompositeDoubleValue
-src.proguard.evaluation.value.CompositeFloatValue
-src.proguard.evaluation.value.CompositeIntegerValue
-src.proguard.evaluation.value.CompositeLongValue
-src.proguard.evaluation.value.ConvertedByteValue
-src.proguard.evaluation.value.ConvertedCharacterValue
-src.proguard.evaluation.value.ConvertedDoubleValue
-src.proguard.evaluation.value.ConvertedFloatValue
-src.proguard.evaluation.value.ConvertedIntegerValue
-src.proguard.evaluation.value.ConvertedLongValue
-src.proguard.evaluation.value.ConvertedShortValue
-src.proguard.evaluation.value.DoubleValue
-src.proguard.evaluation.value.FloatValue
-src.proguard.evaluation.value.IdentifiedDoubleValue
-src.proguard.evaluation.value.IdentifiedFloatValue
-src.proguard.evaluation.value.IdentifiedIntegerValue
-src.proguard.evaluation.value.IdentifiedLongValue
-src.proguard.evaluation.value.IdentifiedReferenceValue
-src.proguard.evaluation.value.IdentifiedValueFactory
-src.proguard.evaluation.value.InstructionOffsetValue
-src.proguard.evaluation.value.IntegerValue
-src.proguard.evaluation.value.LongValue
-src.proguard.evaluation.value.NegatedDoubleValue
-src.proguard.evaluation.value.NegatedFloatValue
-src.proguard.evaluation.value.NegatedIntegerValue
-src.proguard.evaluation.value.NegatedLongValue
-src.proguard.evaluation.value.ParticularDoubleValue
-src.proguard.evaluation.value.ParticularFloatValue
-src.proguard.evaluation.value.ParticularIntegerValue
-src.proguard.evaluation.value.ParticularLongValue
-src.proguard.evaluation.value.ReferenceValue
-src.proguard.evaluation.value.SpecificDoubleValue
-src.proguard.evaluation.value.SpecificFloatValue
-src.proguard.evaluation.value.SpecificIntegerValue
-src.proguard.evaluation.value.SpecificLongValue
-src.proguard.evaluation.value.SpecificValueFactory
-src.proguard.evaluation.value.TopValue
-src.proguard.evaluation.value.UnknownDoubleValue
-src.proguard.evaluation.value.UnknownFloatValue
-src.proguard.evaluation.value.UnknownIntegerValue
-src.proguard.evaluation.value.UnknownLongValue
-src.proguard.evaluation.value.Value
-src.proguard.evaluation.value.ValueFactory
-src.proguard.evaluation.Variables
-src.proguard.FileWordReader
-src.proguard.FullyQualifiedClassNameChecker
-src.proguard.GPL
-src.proguard.gui.ClassPathPanel
-src.proguard.gui.ClassPathPanel$MyListCellRenderer
-src.proguard.gui.ClassSpecificationDialog
-src.proguard.gui.ClassSpecificationsPanel
-src.proguard.gui.ClassSpecificationsPanel$MyListCellRenderer
-src.proguard.gui.ExtensionFileFilter
-src.proguard.gui.FilterBuilder
-src.proguard.gui.FilterDialog
-src.proguard.gui.GUIResources
-src.proguard.gui.KeepSpecificationsPanel
-src.proguard.gui.ListPanel
-src.proguard.gui.MemberSpecificationDialog
-src.proguard.gui.MemberSpecificationsPanel
-src.proguard.gui.MemberSpecificationsPanel$MyListCellRenderer
-src.proguard.gui.MemberSpecificationsPanel$MyMemberSpecificationWrapper
-src.proguard.gui.MessageDialogRunnable
-src.proguard.gui.OptimizationsDialog
-src.proguard.gui.ProGuardGUI
-src.proguard.gui.ProGuardGUI$MyLoadConfigurationActionListener
-src.proguard.gui.ProGuardGUI$MySaveConfigurationActionListener
-src.proguard.gui.ProGuardGUI$MyViewConfigurationActionListener
-src.proguard.gui.ProGuardGUI$MyProcessActionListener
-src.proguard.gui.ProGuardGUI$MyLoadStackTraceActionListener
-src.proguard.gui.ProGuardGUI$MyReTraceActionListener
-src.proguard.gui.ProGuardRunnable
-src.proguard.gui.ReTraceRunnable
-src.proguard.gui.splash.BufferedSprite
-src.proguard.gui.splash.CircleSprite
-src.proguard.gui.splash.ClipSprite
-src.proguard.gui.splash.ColorSprite
-src.proguard.gui.splash.CompositeSprite
-src.proguard.gui.splash.ConstantColor
-src.proguard.gui.splash.ConstantDouble
-src.proguard.gui.splash.ConstantFont
-src.proguard.gui.splash.ConstantInt
-src.proguard.gui.splash.ConstantString
-src.proguard.gui.splash.ConstantTiming
-src.proguard.gui.splash.FontSprite
-src.proguard.gui.splash.ImageSprite
-src.proguard.gui.splash.LinearColor
-src.proguard.gui.splash.LinearDouble
-src.proguard.gui.splash.LinearInt
-src.proguard.gui.splash.LinearTiming
-src.proguard.gui.splash.OverrideGraphics2D
-src.proguard.gui.splash.RectangleSprite
-src.proguard.gui.splash.SawToothTiming
-src.proguard.gui.splash.ShadowedSprite
-src.proguard.gui.splash.SineTiming
-src.proguard.gui.splash.SmoothTiming
-src.proguard.gui.splash.SplashPanel
-src.proguard.gui.splash.SplashPanel$MyAnimator
-src.proguard.gui.splash.SplashPanel$MyRepainter
-src.proguard.gui.splash.Sprite
-src.proguard.gui.splash.TextSprite
-src.proguard.gui.splash.TimeSwitchSprite
-src.proguard.gui.splash.Timing
-src.proguard.gui.splash.TypeWriterString
-src.proguard.gui.splash.VariableColor
-src.proguard.gui.splash.VariableDouble
-src.proguard.gui.splash.VariableFont
-src.proguard.gui.splash.VariableInt
-src.proguard.gui.splash.VariableSizeFont
-src.proguard.gui.splash.VariableString
-src.proguard.gui.SwingUtil
-src.proguard.gui.TabbedPane
-src.proguard.gui.TextAreaOutputStream
-src.proguard.Initializer
-src.proguard.InputReader
-src.proguard.io.CascadingDataEntryWriter
-src.proguard.io.ClassFilter
-src.proguard.io.ClassReader
-src.proguard.io.ClassRewriter
-src.proguard.io.DataEntry
-src.proguard.io.DataEntryClassWriter
-src.proguard.io.DataEntryCopier
-src.proguard.io.DataEntryDirectoryFilter
-src.proguard.io.DataEntryFilter
-src.proguard.io.DataEntryNameFilter
-src.proguard.io.DataEntryObfuscator
-src.proguard.io.DataEntryParentFilter
-src.proguard.io.DataEntryPump
-src.proguard.io.DataEntryReader
-src.proguard.io.DataEntryRenamer
-src.proguard.io.DataEntryRewriter
-src.proguard.io.DataEntryWriter
-src.proguard.io.DirectoryFilter
-src.proguard.io.DirectoryPump
-src.proguard.io.DirectoryWriter
-src.proguard.io.FileDataEntry
-src.proguard.io.FilteredDataEntryReader
-src.proguard.io.FilteredDataEntryWriter
-src.proguard.io.Finisher
-src.proguard.io.JarReader
-src.proguard.io.JarWriter
-src.proguard.io.ManifestRewriter
-src.proguard.io.ManifestRewriter$SplitLineReader
-src.proguard.io.ManifestRewriter$SplitLineWriter
-src.proguard.io.NameFilter
-src.proguard.io.ParentDataEntryWriter
-src.proguard.io.RenamedDataEntry
-src.proguard.io.ZipDataEntry
-src.proguard.KeepClassMemberChecker
-src.proguard.KeepClassSpecification
-src.proguard.LineWordReader
-src.proguard.MemberSpecification
-src.proguard.obfuscate.AttributeShrinker
-src.proguard.obfuscate.AttributeUsageMarker
-src.proguard.obfuscate.ClassObfuscator
-src.proguard.obfuscate.ClassObfuscator$MyKeepCollector
-src.proguard.obfuscate.ClassRenamer
-src.proguard.obfuscate.DictionaryNameFactory
-src.proguard.obfuscate.MapCleaner
-src.proguard.obfuscate.MappingKeeper
-src.proguard.obfuscate.MappingPrinter
-src.proguard.obfuscate.MappingProcessor
-src.proguard.obfuscate.MappingReader
-src.proguard.obfuscate.MemberNameCleaner
-src.proguard.obfuscate.MemberNameCollector
-src.proguard.obfuscate.MemberNameConflictFixer
-src.proguard.obfuscate.MemberObfuscator
-src.proguard.obfuscate.MemberObfuscator$MyFixedName
-src.proguard.obfuscate.MemberSpecialNameFilter
-src.proguard.obfuscate.MultiMappingProcessor
-src.proguard.obfuscate.NameFactory
-src.proguard.obfuscate.NameFactoryResetter
-src.proguard.obfuscate.NameMarker
-src.proguard.obfuscate.NumericNameFactory
-src.proguard.obfuscate.Obfuscator
-src.proguard.obfuscate.ParameterNameMarker
-src.proguard.obfuscate.SimpleNameFactory
-src.proguard.obfuscate.SourceFileRenamer
-src.proguard.obfuscate.SpecialNameFactory
-src.proguard.optimize.BootstrapMethodArgumentShrinker
-src.proguard.optimize.ChangedCodePrinter
-src.proguard.optimize.ConstantMemberFilter
-src.proguard.optimize.ConstantParameterFilter
-src.proguard.optimize.DuplicateInitializerFixer
-src.proguard.optimize.DuplicateInitializerInvocationFixer
-src.proguard.optimize.evaluation.EvaluationShrinker
-src.proguard.optimize.evaluation.EvaluationShrinker$MyUnusedParameterSimplifier
-src.proguard.optimize.evaluation.EvaluationShrinker$MyProducerMarker
-src.proguard.optimize.evaluation.EvaluationShrinker$MyVariableInitializationMarker
-src.proguard.optimize.evaluation.EvaluationShrinker$MyStackConsistencyFixer
-src.proguard.optimize.evaluation.EvaluationSimplifier
-src.proguard.optimize.evaluation.LivenessAnalyzer
-src.proguard.optimize.evaluation.LoadingInvocationUnit
-src.proguard.optimize.evaluation.PartialEvaluator
-src.proguard.optimize.evaluation.PartialEvaluator$MyInstructionBlock
-src.proguard.optimize.evaluation.StoringInvocationUnit
-src.proguard.optimize.evaluation.TracedBranchUnit
-src.proguard.optimize.evaluation.VariableOptimizer
-src.proguard.optimize.info.AccessMethodMarker
-src.proguard.optimize.info.BackwardBranchMarker
-src.proguard.optimize.info.CatchExceptionMarker
-src.proguard.optimize.info.CaughtClassFilter
-src.proguard.optimize.info.CaughtClassMarker
-src.proguard.optimize.info.ClassOptimizationInfo
-src.proguard.optimize.info.ClassOptimizationInfoSetter
-src.proguard.optimize.info.DotClassFilter
-src.proguard.optimize.info.DotClassMarker
-src.proguard.optimize.info.ExceptionInstructionChecker
-src.proguard.optimize.info.FieldOptimizationInfo
-src.proguard.optimize.info.InstanceofClassFilter
-src.proguard.optimize.info.InstanceofClassMarker
-src.proguard.optimize.info.InstantiationClassFilter
-src.proguard.optimize.info.InstantiationClassMarker
-src.proguard.optimize.info.MemberOptimizationInfoSetter
-src.proguard.optimize.info.MethodInvocationMarker
-src.proguard.optimize.info.MethodOptimizationInfo
-src.proguard.optimize.info.NonPrivateMemberMarker
-src.proguard.optimize.info.NoSideEffectMethodMarker
-src.proguard.optimize.info.PackageVisibleMemberContainingClassMarker
-src.proguard.optimize.info.PackageVisibleMemberInvokingClassMarker
-src.proguard.optimize.info.ParameterUsageMarker
-src.proguard.optimize.info.ReadWriteFieldMarker
-src.proguard.optimize.info.SideEffectInstructionChecker
-src.proguard.optimize.info.SideEffectMethodFilter
-src.proguard.optimize.info.SideEffectMethodMarker
-src.proguard.optimize.info.StaticInitializerContainingClassFilter
-src.proguard.optimize.info.StaticInitializerContainingClassMarker
-src.proguard.optimize.info.SuperInvocationMarker
-src.proguard.optimize.info.VariableUsageMarker
-src.proguard.optimize.KeepMarker
-src.proguard.optimize.KeptClassFilter
-src.proguard.optimize.KeptMemberFilter
-src.proguard.optimize.MemberDescriptorSpecializer
-src.proguard.optimize.MethodDescriptorShrinker
-src.proguard.optimize.MethodStaticizer
-src.proguard.optimize.OptimizationInfoMemberFilter
-src.proguard.optimize.Optimizer
-src.proguard.optimize.ParameterShrinker
-src.proguard.optimize.peephole.BranchTargetFinder
-src.proguard.optimize.peephole.ClassFinalizer
-src.proguard.optimize.peephole.ClassMerger
-src.proguard.optimize.peephole.ClassMerger$FieldOptimizationInfoCopier
-src.proguard.optimize.peephole.GotoCommonCodeReplacer
-src.proguard.optimize.peephole.GotoGotoReplacer
-src.proguard.optimize.peephole.GotoReturnReplacer
-src.proguard.optimize.peephole.HorizontalClassMerger
-src.proguard.optimize.peephole.InstructionSequenceConstants
-src.proguard.optimize.peephole.InstructionSequenceReplacer
-src.proguard.optimize.peephole.InstructionSequenceReplacer$MyReplacementInstructionFactory
-src.proguard.optimize.peephole.InstructionSequencesReplacer
-src.proguard.optimize.peephole.MemberPrivatizer
-src.proguard.optimize.peephole.MethodFinalizer
-src.proguard.optimize.peephole.MethodInliner
-src.proguard.optimize.peephole.NopRemover
-src.proguard.optimize.peephole.PeepholeOptimizer
-src.proguard.optimize.peephole.ReachableCodeMarker
-src.proguard.optimize.peephole.RetargetedInnerClassAttributeRemover
-src.proguard.optimize.peephole.TargetClassChanger
-src.proguard.optimize.peephole.UnreachableCodeRemover
-src.proguard.optimize.peephole.UnreachableExceptionRemover
-src.proguard.optimize.peephole.VariableShrinker
-src.proguard.optimize.peephole.VerticalClassMerger
-src.proguard.optimize.TailRecursionSimplifier
-src.proguard.optimize.TailRecursionSimplifier$MyRecursionChecker
-src.proguard.optimize.WriteOnlyFieldFilter
-src.proguard.OutputWriter
-src.proguard.ParseException
-src.proguard.preverify.CodePreverifier
-src.proguard.preverify.CodeSubroutineInliner
-src.proguard.preverify.Preverifier
-src.proguard.preverify.SubroutineInliner
-src.proguard.ProGuard
-src.proguard.retrace.ReTrace
-src.proguard.retrace.ReTrace$FieldInfo
-src.proguard.retrace.ReTrace$MethodInfo
-src.proguard.SeedPrinter
-src.proguard.shrink.AnnotationUsageMarker
-src.proguard.shrink.ClassShrinker
-src.proguard.shrink.ClassShrinker$SignatureShrinker
-src.proguard.shrink.InnerUsageMarker
-src.proguard.shrink.InterfaceUsageMarker
-src.proguard.shrink.LocalVariableTypeUsageMarker
-src.proguard.shrink.ShortestUsageMark
-src.proguard.shrink.ShortestUsageMarker
-src.proguard.shrink.ShortestUsageMarker$MyRecursiveCauseChecker
-src.proguard.shrink.ShortestUsagePrinter
-src.proguard.shrink.Shrinker
-src.proguard.shrink.SignatureUsageMarker
-src.proguard.shrink.UsageMarker
-src.proguard.shrink.UsageMarker$MyInterfaceUsageMarker
-src.proguard.shrink.UsageMarker$MyPossiblyUsedMemberUsageMarker
-src.proguard.shrink.UsageMarker$MyNonEmptyMethodUsageMarker
-src.proguard.shrink.UsageMarker$MyBootStrapMethodUsageMarker
-src.proguard.shrink.UsagePrinter
-src.proguard.shrink.UsedClassFilter
-src.proguard.shrink.UsedMemberFilter
-src.proguard.SubclassedClassFilter
-src.proguard.Targeter
-src.proguard.UpToDateChecker
-src.proguard.UpToDateChecker$ModificationTimeChecker
-src.proguard.util.AndMatcher
-src.proguard.util.ArrayUtil
-src.proguard.util.ClassNameParser
-src.proguard.util.ConstantMatcher
-src.proguard.util.EmptyStringMatcher
-src.proguard.util.ExtensionMatcher
-src.proguard.util.FileNameParser
-src.proguard.util.FixedStringMatcher
-src.proguard.util.ListMatcher
-src.proguard.util.ListParser
-src.proguard.util.ListUtil
-src.proguard.util.NameParser
-src.proguard.util.NotMatcher
-src.proguard.util.ObjectUtil
-src.proguard.util.OrMatcher
-src.proguard.util.SettableMatcher
-src.proguard.util.StringMatcher
-src.proguard.util.StringParser
-src.proguard.util.VariableStringMatcher
-src.proguard.WordReader
-src.proguard.wtk.ProGuardObfuscator
+null.Application	classe	1
+null.Applet	classe	1
+null.NativeCallBack	classe	3
+null.Bean	classe	6
+proguard.FullyQualifiedClassNameChecker	classe	7
+proguard.ant.ClassPathElement	classe	9
+proguard.ant.ConfigurationTask	classe	35
+proguard.ant.FilterElement	classe	3
+proguard.ant.ConfigurationElement	classe	1
+proguard.ant.MemberSpecificationElement	classe	8
+proguard.ant.KeepSpecificationElement	classe	4
+proguard.ant.ClassSpecificationElement	classe	13
+proguard.ClassPath	classe	9
+proguard.ConfigurationWriter	classe	22
+proguard.DataEntryWriterFactory	classe	3
+proguard.obfuscate.NameFactory	interface	2
+proguard.obfuscate.MappingProcessor	interface	3
+proguard.obfuscate.DictionaryNameFactory	classe	3
+proguard.obfuscate.SimpleNameFactory	classe	7
+proguard.obfuscate.SourceFileRenamer	classe	4
+proguard.obfuscate.AttributeShrinker	classe	6
+proguard.obfuscate.NameMarker	classe	13
+proguard.obfuscate.MemberNameCollector	classe	1
+proguard.obfuscate.MemberObfuscator	classe	6
+proguard.obfuscate.MemberObfuscator$MyFixedName	classe	2
+proguard.obfuscate.SpecialNameFactory	classe	4
+proguard.obfuscate.MappingReader	classe	3
+proguard.obfuscate.ParameterNameMarker	classe	4
+proguard.obfuscate.Obfuscator	classe	1
+proguard.obfuscate.ClassRenamer	classe	5
+proguard.obfuscate.MappingPrinter	classe	6
+proguard.obfuscate.MemberNameCleaner	classe	4
+proguard.obfuscate.NameFactoryResetter	classe	2
+proguard.obfuscate.MemberNameConflictFixer	classe	5
+proguard.obfuscate.AttributeUsageMarker	classe	3
+proguard.obfuscate.MapCleaner	classe	1
+proguard.obfuscate.MultiMappingProcessor	classe	3
+proguard.obfuscate.ClassObfuscator	classe	17
+proguard.obfuscate.ClassObfuscator$MyKeepCollector	classe	3
+proguard.obfuscate.MemberSpecialNameFilter	classe	5
+proguard.obfuscate.NumericNameFactory	classe	2
+proguard.obfuscate.MappingKeeper	classe	3
+proguard.Initializer	classe	3
+proguard.Targeter	classe	1
+proguard.ProGuard	classe	18
+proguard.optimize.MemberDescriptorSpecializer	classe	2
+proguard.optimize.KeepMarker	classe	8
+proguard.optimize.WriteOnlyFieldFilter	classe	1
+proguard.optimize.TailRecursionSimplifier	classe	6
+proguard.optimize.TailRecursionSimplifier$MyRecursionChecker	classe	3
+proguard.optimize.Optimizer	classe	3
+proguard.optimize.ParameterShrinker	classe	2
+proguard.optimize.OptimizationInfoMemberFilter	classe	4
+proguard.optimize.peephole.ReachableCodeMarker	classe	13
+proguard.optimize.peephole.GotoGotoReplacer	classe	2
+proguard.optimize.peephole.MethodInliner	classe	14
+proguard.optimize.peephole.MemberPrivatizer	classe	2
+proguard.optimize.peephole.RetargetedInnerClassAttributeRemover	classe	7
+proguard.optimize.peephole.GotoCommonCodeReplacer	classe	7
+proguard.optimize.peephole.HorizontalClassMerger	classe	1
+proguard.optimize.peephole.PeepholeOptimizer	classe	2
+proguard.optimize.peephole.InstructionSequenceReplacer	classe	2
+proguard.optimize.peephole.InstructionSequenceReplacer$MyReplacementInstructionFactory	classe	10
+proguard.optimize.peephole.BranchTargetFinder	classe	38
+proguard.optimize.peephole.TargetClassChanger	classe	31
+proguard.optimize.peephole.MethodFinalizer	classe	1
+proguard.optimize.peephole.InstructionSequenceConstants	classe	1
+proguard.optimize.peephole.GotoReturnReplacer	classe	2
+proguard.optimize.peephole.VerticalClassMerger	classe	1
+proguard.optimize.peephole.InstructionSequencesReplacer	classe	1
+proguard.optimize.peephole.ClassMerger	classe	16
+proguard.optimize.peephole.ClassMerger$FieldOptimizationInfoCopier	classe	2
+proguard.optimize.peephole.UnreachableExceptionRemover	classe	5
+proguard.optimize.peephole.UnreachableCodeRemover	classe	4
+proguard.optimize.peephole.ClassFinalizer	classe	1
+proguard.optimize.peephole.NopRemover	classe	2
+proguard.optimize.peephole.VariableShrinker	classe	2
+proguard.optimize.info.MemberOptimizationInfoSetter	classe	2
+proguard.optimize.info.MethodInvocationMarker	classe	9
+proguard.optimize.info.DotClassFilter	classe	2
+proguard.optimize.info.InstantiationClassFilter	classe	2
+proguard.optimize.info.ReadWriteFieldMarker	classe	11
+proguard.optimize.info.FieldOptimizationInfo	classe	15
+proguard.optimize.info.NoSideEffectMethodMarker	classe	5
+proguard.optimize.info.PackageVisibleMemberContainingClassMarker	classe	4
+proguard.optimize.info.DotClassMarker	classe	8
+proguard.optimize.info.NonPrivateMemberMarker	classe	13
+proguard.optimize.info.InstantiationClassMarker	classe	7
+proguard.optimize.info.ClassOptimizationInfo	classe	19
+proguard.optimize.info.InstanceofClassFilter	classe	2
+proguard.optimize.info.ClassOptimizationInfoSetter	classe	1
+proguard.optimize.info.InstanceofClassMarker	classe	7
+proguard.optimize.info.ExceptionInstructionChecker	classe	4
+proguard.optimize.info.SideEffectInstructionChecker	classe	14
+proguard.optimize.info.SuperInvocationMarker	classe	5
+proguard.optimize.info.CatchExceptionMarker	classe	4
+proguard.optimize.info.CaughtClassMarker	classe	4
+proguard.optimize.info.ParameterUsageMarker	classe	12
+proguard.optimize.info.SideEffectMethodFilter	classe	4
+proguard.optimize.info.SideEffectMethodMarker	classe	8
+proguard.optimize.info.CaughtClassFilter	classe	2
+proguard.optimize.info.PackageVisibleMemberInvokingClassMarker	classe	8
+proguard.optimize.info.StaticInitializerContainingClassMarker	classe	3
+proguard.optimize.info.VariableUsageMarker	classe	5
+proguard.optimize.info.StaticInitializerContainingClassFilter	classe	2
+proguard.optimize.info.AccessMethodMarker	classe	16
+proguard.optimize.info.MethodOptimizationInfo	classe	33
+proguard.optimize.info.BackwardBranchMarker	classe	6
+proguard.optimize.MethodDescriptorShrinker	classe	6
+proguard.optimize.ChangedCodePrinter	classe	34
+proguard.optimize.DuplicateInitializerFixer	classe	5
+proguard.optimize.ConstantParameterFilter	classe	1
+proguard.optimize.evaluation.EvaluationShrinker	classe	36
+proguard.optimize.evaluation.EvaluationShrinker$MyUnusedParameterSimplifier	classe	5
+proguard.optimize.evaluation.EvaluationShrinker$MyProducerMarker	classe	5
+proguard.optimize.evaluation.EvaluationShrinker$MyVariableInitializationMarker	classe	2
+proguard.optimize.evaluation.EvaluationShrinker$MyStackConsistencyFixer	classe	10
+proguard.optimize.evaluation.StoringInvocationUnit	classe	12
+proguard.optimize.evaluation.PartialEvaluator	classe	34
+proguard.optimize.evaluation.PartialEvaluator$MyInstructionBlock	classe	0
+proguard.optimize.evaluation.LoadingInvocationUnit	classe	4
+proguard.optimize.evaluation.TracedBranchUnit	classe	1
+proguard.optimize.evaluation.EvaluationSimplifier	classe	27
+proguard.optimize.evaluation.VariableOptimizer	classe	11
+proguard.optimize.evaluation.LivenessAnalyzer	classe	19
+proguard.optimize.ConstantMemberFilter	classe	2
+proguard.optimize.MethodStaticizer	classe	1
+proguard.optimize.KeptMemberFilter	classe	4
+proguard.optimize.KeptClassFilter	classe	2
+proguard.optimize.DuplicateInitializerInvocationFixer	classe	7
+proguard.optimize.BootstrapMethodArgumentShrinker	classe	4
+proguard.GPL	classe	7
+proguard.LineWordReader	classe	3
+proguard.util.ClassNameParser	classe	3
+proguard.util.FixedStringMatcher	classe	1
+proguard.util.ListParser	classe	5
+proguard.util.OrMatcher	classe	1
+proguard.util.StringMatcher	interface	1
+proguard.util.AndMatcher	classe	1
+proguard.util.ExtensionMatcher	classe	2
+proguard.util.ListMatcher	classe	1
+proguard.util.SettableMatcher	classe	2
+proguard.util.NotMatcher	classe	1
+proguard.util.ListUtil	classe	5
+proguard.util.FileNameParser	classe	2
+proguard.util.EmptyStringMatcher	classe	1
+proguard.util.VariableStringMatcher	classe	2
+proguard.util.ObjectUtil	classe	3
+proguard.util.NameParser	classe	2
+proguard.util.ConstantMatcher	classe	1
+proguard.util.StringParser	interface	1
+proguard.util.ArrayUtil	classe	39
+proguard.retrace.ReTrace	classe	10
+proguard.retrace.ReTrace$FieldInfo	classe	1
+proguard.retrace.ReTrace$MethodInfo	classe	1
+proguard.WordReader	classe	14
+proguard.ClassPathEntry	classe	22
+proguard.ClassSpecificationVisitorFactory	classe	11
+proguard.DescriptorKeepChecker	classe	5
+proguard.DataEntryReaderFactory	classe	2
+proguard.io.RenamedDataEntry	classe	6
+proguard.io.DataEntryRewriter	classe	3
+proguard.io.ClassFilter	classe	0
+proguard.io.DataEntryCopier	classe	3
+proguard.io.DataEntryFilter	interface	1
+proguard.io.CascadingDataEntryWriter	classe	4
+proguard.io.FilteredDataEntryWriter	classe	4
+proguard.io.DataEntryPump	interface	1
+proguard.io.FilteredDataEntryReader	classe	1
+proguard.io.DataEntryObfuscator	classe	2
+proguard.io.DataEntryParentFilter	classe	1
+proguard.io.NameFilter	classe	0
+proguard.io.DirectoryPump	classe	2
+proguard.io.ParentDataEntryWriter	classe	4
+proguard.io.DataEntryNameFilter	classe	1
+proguard.io.DirectoryWriter	classe	6
+proguard.io.ClassRewriter	classe	1
+proguard.io.ZipDataEntry	classe	6
+proguard.io.DataEntryClassWriter	classe	1
+proguard.io.DataEntryRenamer	classe	1
+proguard.io.ClassReader	classe	1
+proguard.io.DataEntryDirectoryFilter	classe	1
+proguard.io.DirectoryFilter	classe	0
+proguard.io.DataEntryReader	interface	1
+proguard.io.JarWriter	classe	7
+proguard.io.Finisher	interface	1
+proguard.io.DataEntryWriter	interface	4
+proguard.io.ManifestRewriter	classe	1
+proguard.io.ManifestRewriter$SplitLineReader	classe	3
+proguard.io.ManifestRewriter$SplitLineWriter	classe	3
+proguard.io.JarReader	classe	1
+proguard.io.FileDataEntry	classe	6
+proguard.io.DataEntry	interface	5
+proguard.Configuration	classe	0
+proguard.KeepClassSpecification	classe	3
+proguard.ConfigurationParser	classe	31
+proguard.wtk.ProGuardObfuscator	classe	3
+proguard.classfile.ProgramClass	classe	41
+proguard.classfile.Method	interface	0
+proguard.classfile.LibraryMember	classe	7
+proguard.classfile.attribute.LocalVariableInfo	classe	4
+proguard.classfile.attribute.LineNumberInfo	classe	0
+proguard.classfile.attribute.BootstrapMethodInfo	classe	3
+proguard.classfile.attribute.EnclosingMethodAttribute	classe	6
+proguard.classfile.attribute.UnknownAttribute	classe	4
+proguard.classfile.attribute.SyntheticAttribute	classe	3
+proguard.classfile.attribute.LocalVariableTypeTableAttribute	classe	2
+proguard.classfile.attribute.ExceptionInfo	classe	4
+proguard.classfile.attribute.BootstrapMethodsAttribute	classe	3
+proguard.classfile.attribute.DeprecatedAttribute	classe	3
+proguard.classfile.attribute.annotation.EnumConstantElementValue	classe	6
+proguard.classfile.attribute.annotation.ConstantElementValue	classe	2
+proguard.classfile.attribute.annotation.ArrayElementValue	classe	3
+proguard.classfile.attribute.annotation.RuntimeVisibleAnnotationsAttribute	classe	3
+proguard.classfile.attribute.annotation.RuntimeVisibleParameterAnnotationsAttribute	classe	1
+proguard.classfile.attribute.annotation.RuntimeInvisibleAnnotationsAttribute	classe	3
+proguard.classfile.attribute.annotation.AnnotationDefaultAttribute	classe	2
+proguard.classfile.attribute.annotation.ElementValue	classe	6
+proguard.classfile.attribute.annotation.AnnotationsAttribute	classe	3
+proguard.classfile.attribute.annotation.visitor.AnnotationTypeFilter	classe	5
+proguard.classfile.attribute.annotation.visitor.AnnotatedClassVisitor	classe	1
+proguard.classfile.attribute.annotation.visitor.AllAnnotationVisitor	classe	8
+proguard.classfile.attribute.annotation.visitor.AllElementValueVisitor	classe	18
+proguard.classfile.attribute.annotation.visitor.AnnotationToMemberVisitor	classe	1
+proguard.classfile.attribute.annotation.visitor.AnnotationVisitor	interface	4
+proguard.classfile.attribute.annotation.visitor.ElementValueVisitor	interface	5
+proguard.classfile.attribute.annotation.AnnotationElementValue	classe	3
+proguard.classfile.attribute.annotation.ClassElementValue	classe	3
+proguard.classfile.attribute.annotation.RuntimeInvisibleParameterAnnotationsAttribute	classe	1
+proguard.classfile.attribute.annotation.ParameterAnnotationsAttribute	classe	1
+proguard.classfile.attribute.annotation.Annotation	classe	6
+proguard.classfile.attribute.LocalVariableTableAttribute	classe	2
+proguard.classfile.attribute.LineNumberTableAttribute	classe	5
+proguard.classfile.attribute.preverification.SameOneFrame	classe	6
+proguard.classfile.attribute.preverification.NullType	classe	5
+proguard.classfile.attribute.preverification.UninitializedThisType	classe	5
+proguard.classfile.attribute.preverification.MoreZeroFrame	classe	6
+proguard.classfile.attribute.preverification.StackMapFrame	classe	8
+proguard.classfile.attribute.preverification.DoubleType	classe	5
+proguard.classfile.attribute.preverification.StackMapAttribute	classe	2
+proguard.classfile.attribute.preverification.VerificationType	classe	8
+proguard.classfile.attribute.preverification.VerificationTypeFactory	classe	9
+proguard.classfile.attribute.preverification.LessZeroFrame	classe	5
+proguard.classfile.attribute.preverification.visitor.VerificationTypeVisitor	interface	27
+proguard.classfile.attribute.preverification.visitor.StackMapFrameVisitor	interface	5
+proguard.classfile.attribute.preverification.SameZeroFrame	classe	3
+proguard.classfile.attribute.preverification.ObjectType	classe	7
+proguard.classfile.attribute.preverification.FullFrame	classe	7
+proguard.classfile.attribute.preverification.UninitializedType	classe	7
+proguard.classfile.attribute.preverification.FloatType	classe	5
+proguard.classfile.attribute.preverification.IntegerType	classe	5
+proguard.classfile.attribute.preverification.TopType	classe	5
+proguard.classfile.attribute.preverification.LongType	classe	5
+proguard.classfile.attribute.preverification.StackMapTableAttribute	classe	2
+proguard.classfile.attribute.InnerClassesAttribute	classe	2
+proguard.classfile.attribute.InnerClassesInfo	classe	8
+proguard.classfile.attribute.visitor.StackSizeComputer	classe	13
+proguard.classfile.attribute.visitor.AllBootstrapMethodInfoVisitor	classe	2
+proguard.classfile.attribute.visitor.RequiredAttributeFilter	classe	32
+proguard.classfile.attribute.visitor.LocalVariableInfoVisitor	interface	1
+proguard.classfile.attribute.visitor.NonEmptyAttributeFilter	classe	32
+proguard.classfile.attribute.visitor.LocalVariableTypeInfoVisitor	interface	1
+proguard.classfile.attribute.visitor.LineNumberInfoVisitor	interface	1
+proguard.classfile.attribute.visitor.MultiAttributeVisitor	classe	34
+proguard.classfile.attribute.visitor.AttributeNameFilter	classe	33
+proguard.classfile.attribute.visitor.BootstrapMethodInfoVisitor	interface	1
+proguard.classfile.attribute.visitor.AllExceptionInfoVisitor	classe	2
+proguard.classfile.attribute.visitor.InnerClassesInfoVisitor	interface	1
+proguard.classfile.attribute.visitor.AllAttributeVisitor	classe	6
+proguard.classfile.attribute.visitor.ExceptionInfoVisitor	interface	1
+proguard.classfile.attribute.visitor.AttributeVisitor	interface	32
+proguard.classfile.attribute.visitor.AllInnerClassesInfoVisitor	classe	2
+proguard.classfile.attribute.ConstantValueAttribute	classe	1
+proguard.classfile.attribute.Attribute	classe	7
+proguard.classfile.attribute.SignatureAttribute	classe	4
+proguard.classfile.attribute.SourceFileAttribute	classe	1
+proguard.classfile.attribute.SourceDirAttribute	classe	1
+proguard.classfile.attribute.LocalVariableTypeInfo	classe	4
+proguard.classfile.attribute.CodeAttribute	classe	9
+proguard.classfile.attribute.ExceptionsAttribute	classe	2
+proguard.classfile.util.SimplifiedVisitor	classe	120
+proguard.classfile.util.MemberFinder	classe	7
+proguard.classfile.util.MemberFinder$MemberFoundException	classe	0
+proguard.classfile.util.DynamicMemberReferenceInitializer	classe	10
+proguard.classfile.util.InstructionSequenceMatcher	classe	39
+proguard.classfile.util.MethodLinker	classe	5
+proguard.classfile.util.AccessUtil	classe	3
+proguard.classfile.util.ClassReferenceInitializer	classe	33
+proguard.classfile.util.InternalTypeEnumeration	classe	8
+proguard.classfile.util.StringSharer	classe	9
+proguard.classfile.util.EnumFieldReferenceInitializer	classe	7
+proguard.classfile.util.ClassSuperHierarchyInitializer	classe	4
+proguard.classfile.util.DescriptorClassEnumeration	classe	6
+proguard.classfile.util.DynamicClassReferenceInitializer	classe	9
+proguard.classfile.util.ClassSubHierarchyInitializer	classe	3
+proguard.classfile.util.ClassUtil	classe	53
+proguard.classfile.util.StringReferenceInitializer	classe	3
+proguard.classfile.util.ExternalTypeEnumeration	classe	5
+proguard.classfile.util.WarningPrinter	classe	6
+proguard.classfile.LibraryField	classe	2
+proguard.classfile.Clazz	interface	37
+proguard.classfile.io.ProgramClassWriter	classe	7
+proguard.classfile.io.ProgramClassWriter$ConstantBodyWriter	classe	12
+proguard.classfile.io.ProgramClassWriter$AttributeBodyWriter	classe	29
+proguard.classfile.io.ProgramClassWriter$StackMapFrameBodyWriter	classe	6
+proguard.classfile.io.ProgramClassWriter$VerificationTypeBodyWriter	classe	3
+proguard.classfile.io.ProgramClassWriter$ElementValueBodyWriter	classe	5
+proguard.classfile.io.LibraryClassReader	classe	21
+proguard.classfile.io.ProgramClassReader	classe	62
+proguard.classfile.io.RuntimeDataOutput	classe	14
+proguard.classfile.io.RuntimeDataInput	classe	15
+proguard.classfile.VisitorAccepter	interface	2
+proguard.classfile.ProgramMethod	classe	3
+proguard.classfile.constant.DoubleConstant	classe	4
+proguard.classfile.constant.InterfaceMethodrefConstant	classe	2
+proguard.classfile.constant.ClassConstant	classe	4
+proguard.classfile.constant.FloatConstant	classe	4
+proguard.classfile.constant.NameAndTypeConstant	classe	8
+proguard.classfile.constant.Constant	classe	4
+proguard.classfile.constant.InvokeDynamicConstant	classe	8
+proguard.classfile.constant.RefConstant	classe	8
+proguard.classfile.constant.MethodTypeConstant	classe	4
+proguard.classfile.constant.StringConstant	classe	5
+proguard.classfile.constant.visitor.ExceptClassConstantFilter	classe	1
+proguard.classfile.constant.visitor.AllConstantVisitor	classe	2
+proguard.classfile.constant.visitor.MethodrefTraveler	classe	2
+proguard.classfile.constant.visitor.ConstantVisitor	interface	14
+proguard.classfile.constant.visitor.BootstrapMethodHandleTraveler	classe	5
+proguard.classfile.constant.visitor.ConstantTagFilter	classe	1
+proguard.classfile.constant.FieldrefConstant	classe	2
+proguard.classfile.constant.Utf8Constant	classe	10
+proguard.classfile.constant.IntegerConstant	classe	4
+proguard.classfile.constant.LongConstant	classe	4
+proguard.classfile.constant.MethodrefConstant	classe	2
+proguard.classfile.constant.MethodHandleConstant	classe	6
+proguard.classfile.visitor.ExceptionHandlerConstantVisitor	classe	1
+proguard.classfile.visitor.ClassPrinter	classe	79
+proguard.classfile.visitor.AllMemberVisitor	classe	2
+proguard.classfile.visitor.ClassAccessFilter	classe	3
+proguard.classfile.visitor.ImplementedClassFilter	classe	2
+proguard.classfile.visitor.ProgramMemberFilter	classe	4
+proguard.classfile.visitor.ClassCollector	classe	1
+proguard.classfile.visitor.ExceptionHandlerFilter	classe	1
+proguard.classfile.visitor.MemberDescriptorFilter	classe	5
+proguard.classfile.visitor.LibraryMemberFilter	classe	4
+proguard.classfile.visitor.MultiMemberVisitor	classe	6
+proguard.classfile.visitor.VariableMemberVisitor	classe	6
+proguard.classfile.visitor.SubclassFilter	classe	3
+proguard.classfile.visitor.ClassVersionSetter	classe	2
+proguard.classfile.visitor.ReferencedClassVisitor	classe	25
+proguard.classfile.visitor.ExceptClassFilter	classe	2
+proguard.classfile.visitor.ReferencedMemberVisitor	classe	4
+proguard.classfile.visitor.ClassPoolVisitor	interface	1
+proguard.classfile.visitor.MemberCollector	classe	1
+proguard.classfile.visitor.ClassCounter	classe	3
+proguard.classfile.visitor.DotClassClassVisitor	classe	4
+proguard.classfile.visitor.ExceptionExcludedOffsetFilter	classe	1
+proguard.classfile.visitor.MemberCounter	classe	5
+proguard.classfile.visitor.AllMethodVisitor	classe	2
+proguard.classfile.visitor.NamedMethodVisitor	classe	2
+proguard.classfile.visitor.MemberClassAccessFilter	classe	5
+proguard.classfile.visitor.SubclassTraveler	classe	2
+proguard.classfile.visitor.ExceptionCounter	classe	2
+proguard.classfile.visitor.ClassVersionFilter	classe	2
+proguard.classfile.visitor.ExceptionRangeFilter	classe	1
+proguard.classfile.visitor.ClassVisitor	interface	2
+proguard.classfile.visitor.ClassPoolFiller	classe	1
+proguard.classfile.visitor.MethodImplementationFilter	classe	2
+proguard.classfile.visitor.VariableClassVisitor	classe	4
+proguard.classfile.visitor.MethodImplementationTraveler	classe	3
+proguard.classfile.visitor.ExceptClassesFilter	classe	3
+proguard.classfile.visitor.MemberVisitor	interface	4
+proguard.classfile.visitor.MemberToClassVisitor	classe	4
+proguard.classfile.visitor.ClassPresenceFilter	classe	3
+proguard.classfile.visitor.MemberAccessFilter	classe	5
+proguard.classfile.visitor.ClassNameFilter	classe	3
+proguard.classfile.visitor.ConcreteClassDownTraveler	classe	2
+proguard.classfile.visitor.SimilarMemberVisitor	classe	4
+proguard.classfile.visitor.NamedFieldVisitor	classe	2
+proguard.classfile.visitor.AllFieldVisitor	classe	2
+proguard.classfile.visitor.ClassCleaner	classe	27
+proguard.classfile.visitor.SimpleClassPrinter	classe	6
+proguard.classfile.visitor.ClassHierarchyTraveler	classe	2
+proguard.classfile.visitor.MultiClassPoolVisitor	classe	3
+proguard.classfile.visitor.ImplementingClassConstantFilter	classe	1
+proguard.classfile.visitor.ImplementedClassConstantFilter	classe	1
+proguard.classfile.visitor.LibraryClassFilter	classe	2
+proguard.classfile.visitor.MultiClassVisitor	classe	4
+proguard.classfile.visitor.ExceptionOffsetFilter	classe	1
+proguard.classfile.visitor.AllClassVisitor	classe	1
+proguard.classfile.visitor.NamedClassVisitor	classe	1
+proguard.classfile.visitor.BottomClassFilter	classe	2
+proguard.classfile.visitor.ProgramClassFilter	classe	2
+proguard.classfile.ClassPool	classe	11
+proguard.classfile.Member	interface	5
+proguard.classfile.instruction.VariableInstruction	classe	16
+proguard.classfile.instruction.InstructionConstants	interface	0
+proguard.classfile.instruction.InstructionUtil	classe	1
+proguard.classfile.instruction.BranchInstruction	classe	11
+proguard.classfile.instruction.visitor.MultiInstructionVisitor	classe	8
+proguard.classfile.instruction.visitor.AllInstructionVisitor	classe	2
+proguard.classfile.instruction.visitor.InstructionCounter	classe	2
+proguard.classfile.instruction.visitor.InstructionVisitor	interface	6
+proguard.classfile.instruction.visitor.InstructionConstantVisitor	classe	2
+proguard.classfile.instruction.InstructionFactory	classe	1
+proguard.classfile.instruction.ConstantInstruction	classe	27
+proguard.classfile.instruction.LookUpSwitchInstruction	classe	6
+proguard.classfile.instruction.Instruction	classe	28
+proguard.classfile.instruction.SimpleInstruction	classe	11
+proguard.classfile.instruction.TableSwitchInstruction	classe	6
+proguard.classfile.instruction.SwitchInstruction	classe	3
+proguard.classfile.LibraryMethod	classe	2
+proguard.classfile.ClassConstants	interface	0
+proguard.classfile.ProgramField	classe	3
+proguard.classfile.Field	interface	0
+proguard.classfile.ProgramMember	classe	9
+proguard.classfile.editor.AnnotationsAttributeEditor	classe	1
+proguard.classfile.editor.LineNumberTableAttributeEditor	classe	1
+proguard.classfile.editor.ExceptionsAttributeEditor	classe	1
+proguard.classfile.editor.NameAndTypeShrinker	classe	10
+proguard.classfile.editor.LocalVariableInfoAdder	classe	1
+proguard.classfile.editor.AccessFixer	classe	11
+proguard.classfile.editor.AccessFixer$MyReferencedClassFinder	classe	1
+proguard.classfile.editor.CodeAttributeEditorResetter	classe	2
+proguard.classfile.editor.BridgeMethodFixer	classe	6
+proguard.classfile.editor.AttributesEditor	classe	6
+proguard.classfile.editor.ElementValuesEditor	classe	6
+proguard.classfile.editor.AnnotationAdder	classe	2
+proguard.classfile.editor.AttributeSorter	classe	5
+proguard.classfile.editor.InnerClassesAccessFixer	classe	5
+proguard.classfile.editor.ExceptionAdder	classe	1
+proguard.classfile.editor.ConstantPoolRemapper	classe	63
+proguard.classfile.editor.NamedAttributeDeleter	classe	2
+proguard.classfile.editor.VariableRemapper	classe	10
+proguard.classfile.editor.ClassReferenceFixer	classe	31
+proguard.classfile.editor.ElementValueAdder	classe	6
+proguard.classfile.editor.CodeAttributeEditor	classe	49
+proguard.classfile.editor.CodeAttributeEditor$CompositeInstruction	classe	7
+proguard.classfile.editor.ClassMemberSorter	classe	3
+proguard.classfile.editor.ClassElementSorter	classe	1
+proguard.classfile.editor.StackSizeUpdater	classe	2
+proguard.classfile.editor.InterfaceAdder	classe	1
+proguard.classfile.editor.ConstantPoolSorter	classe	1
+proguard.classfile.editor.MemberAdder	classe	3
+proguard.classfile.editor.Utf8Shrinker	classe	38
+proguard.classfile.editor.InterfaceSorter	classe	3
+proguard.classfile.editor.ParameterAnnotationsAttributeEditor	classe	1
+proguard.classfile.editor.InstructionAdder	classe	2
+proguard.classfile.editor.VariableEditor	classe	5
+proguard.classfile.editor.InstructionWriter	classe	12
+proguard.classfile.editor.AttributeAdder	classe	21
+proguard.classfile.editor.MemberReferenceFixer	classe	23
+proguard.classfile.editor.ClassEditor	classe	9
+proguard.classfile.editor.LocalVariableTypeTableAttributeEditor	classe	1
+proguard.classfile.editor.VariableCleaner	classe	9
+proguard.classfile.editor.LineNumberInfoAdder	classe	1
+proguard.classfile.editor.LocalVariableTableAttributeEditor	classe	1
+proguard.classfile.editor.ExceptionInfoAdder	classe	1
+proguard.classfile.editor.CodeAttributeComposer	classe	40
+proguard.classfile.editor.SubclassToAdder	classe	2
+proguard.classfile.editor.VariableSizeUpdater	classe	4
+proguard.classfile.editor.ConstantPoolShrinker	classe	50
+proguard.classfile.editor.ConstantPoolEditor	classe	29
+proguard.classfile.editor.ConstantAdder	classe	17
+proguard.classfile.editor.MethodInvocationFixer	classe	8
+proguard.classfile.editor.InterfacesEditor	classe	3
+proguard.classfile.editor.LocalVariableTypeInfoAdder	classe	1
+proguard.classfile.editor.SubclassAdder	classe	2
+proguard.classfile.editor.ComparableConstant	classe	17
+proguard.classfile.LibraryClass	classe	43
+proguard.FileWordReader	classe	0
+proguard.SeedPrinter	classe	1
+proguard.ParseException	classe	0
+proguard.shrink.ShortestUsageMark	classe	7
+proguard.shrink.AnnotationUsageMarker	classe	19
+proguard.shrink.UsedClassFilter	classe	2
+proguard.shrink.UsageMarker	classe	62
+proguard.shrink.UsageMarker$MyInterfaceUsageMarker	classe	2
+proguard.shrink.UsageMarker$MyPossiblyUsedMemberUsageMarker	classe	2
+proguard.shrink.UsageMarker$MyNonEmptyMethodUsageMarker	classe	2
+proguard.shrink.UsageMarker$MyBootStrapMethodUsageMarker	classe	3
+proguard.shrink.Shrinker	classe	1
+proguard.shrink.InterfaceUsageMarker	classe	4
+proguard.shrink.UsagePrinter	classe	7
+proguard.shrink.ClassShrinker	classe	20
+proguard.shrink.ClassShrinker$SignatureShrinker	classe	2
+proguard.shrink.ShortestUsagePrinter	classe	10
+proguard.shrink.ShortestUsageMarker	classe	12
+proguard.shrink.ShortestUsageMarker$MyRecursiveCauseChecker	classe	8
+proguard.shrink.LocalVariableTypeUsageMarker	classe	9
+proguard.shrink.InnerUsageMarker	classe	8
+proguard.shrink.UsedMemberFilter	classe	4
+proguard.shrink.SignatureUsageMarker	classe	6
+proguard.ArgumentWordReader	classe	3
+proguard.InputReader	classe	5
+proguard.UpToDateChecker	classe	1
+proguard.UpToDateChecker$ModificationTimeChecker	classe	7
+proguard.preverify.SubroutineInliner	classe	1
+proguard.preverify.Preverifier	classe	1
+proguard.preverify.CodePreverifier	classe	10
+proguard.preverify.CodeSubroutineInliner	classe	8
+proguard.gui.KeepSpecificationsPanel	classe	3
+proguard.gui.ClassPathPanel	classe	10
+proguard.gui.ClassPathPanel$MyListCellRenderer	classe	2
+proguard.gui.splash.CircleSprite	classe	1
+proguard.gui.splash.BufferedSprite	classe	1
+proguard.gui.splash.ConstantFont	classe	1
+proguard.gui.splash.SineTiming	classe	1
+proguard.gui.splash.ConstantInt	classe	1
+proguard.gui.splash.ConstantTiming	classe	1
+proguard.gui.splash.TypeWriterString	classe	1
+proguard.gui.splash.VariableColor	interface	1
+proguard.gui.splash.LinearColor	classe	1
+proguard.gui.splash.Sprite	interface	1
+proguard.gui.splash.VariableInt	interface	1
+proguard.gui.splash.SplashPanel	classe	4
+proguard.gui.splash.SplashPanel$MyAnimator	classe	1
+proguard.gui.splash.SplashPanel$MyRepainter	classe	1
+proguard.gui.splash.SmoothTiming	classe	1
+proguard.gui.splash.VariableSizeFont	classe	1
+proguard.gui.splash.ColorSprite	classe	1
+proguard.gui.splash.VariableDouble	interface	1
+proguard.gui.splash.ConstantDouble	classe	1
+proguard.gui.splash.VariableFont	interface	1
+proguard.gui.splash.RectangleSprite	classe	1
+proguard.gui.splash.ConstantString	classe	1
+proguard.gui.splash.VariableString	interface	1
+proguard.gui.splash.LinearInt	classe	1
+proguard.gui.splash.FontSprite	classe	1
+proguard.gui.splash.LinearTiming	classe	1
+proguard.gui.splash.ConstantColor	classe	1
+proguard.gui.splash.ImageSprite	classe	1
+proguard.gui.splash.TimeSwitchSprite	classe	1
+proguard.gui.splash.CompositeSprite	classe	1
+proguard.gui.splash.OverrideGraphics2D	classe	90
+proguard.gui.splash.ShadowedSprite	classe	1
+proguard.gui.splash.TextSprite	classe	1
+proguard.gui.splash.LinearDouble	classe	1
+proguard.gui.splash.ClipSprite	classe	1
+proguard.gui.splash.Timing	interface	1
+proguard.gui.splash.SawToothTiming	classe	1
+proguard.gui.SwingUtil	classe	2
+proguard.gui.ClassSpecificationDialog	classe	10
+proguard.gui.FilterDialog	classe	13
+proguard.gui.TextAreaOutputStream	classe	2
+proguard.gui.OptimizationsDialog	classe	5
+proguard.gui.MessageDialogRunnable	classe	2
+proguard.gui.ClassSpecificationsPanel	classe	9
+proguard.gui.ClassSpecificationsPanel$MyListCellRenderer	classe	1
+proguard.gui.ProGuardRunnable	classe	3
+proguard.gui.FilterBuilder	classe	2
+proguard.gui.GUIResources	classe	2
+proguard.gui.MemberSpecificationDialog	classe	8
+proguard.gui.ExtensionFileFilter	classe	2
+proguard.gui.TabbedPane	classe	7
+proguard.gui.ProGuardGUI	classe	27
+proguard.gui.ProGuardGUI$MyLoadConfigurationActionListener	classe	1
+proguard.gui.ProGuardGUI$MySaveConfigurationActionListener	classe	1
+proguard.gui.ProGuardGUI$MyViewConfigurationActionListener	classe	1
+proguard.gui.ProGuardGUI$MyProcessActionListener	classe	1
+proguard.gui.ProGuardGUI$MyLoadStackTraceActionListener	classe	1
+proguard.gui.ProGuardGUI$MyReTraceActionListener	classe	1
+proguard.gui.ListPanel	classe	17
+proguard.gui.MemberSpecificationsPanel	classe	7
+proguard.gui.MemberSpecificationsPanel$MyListCellRenderer	classe	1
+proguard.gui.MemberSpecificationsPanel$MyMemberSpecificationWrapper	classe	0
+proguard.gui.ReTraceRunnable	classe	2
+proguard.OutputWriter	classe	3
+proguard.MemberSpecification	classe	2
+proguard.SubclassedClassFilter	classe	2
+proguard.evaluation.ConstantValueFactory	classe	9
+proguard.evaluation.Variables	classe	16
+proguard.evaluation.InvocationUnit	interface	3
+proguard.evaluation.value.IdentifiedLongValue	classe	3
+proguard.evaluation.value.LongValue	classe	60
+proguard.evaluation.value.CompositeFloatValue	classe	3
+proguard.evaluation.value.ConvertedCharacterValue	classe	3
+proguard.evaluation.value.FloatValue	classe	42
+proguard.evaluation.value.UnknownFloatValue	classe	17
+proguard.evaluation.value.TopValue	classe	8
+proguard.evaluation.value.UnknownDoubleValue	classe	17
+proguard.evaluation.value.IdentifiedIntegerValue	classe	3
+proguard.evaluation.value.SpecificDoubleValue	classe	27
+proguard.evaluation.value.ConvertedLongValue	classe	3
+proguard.evaluation.value.ConvertedFloatValue	classe	3
+proguard.evaluation.value.IdentifiedValueFactory	classe	5
+proguard.evaluation.value.CompositeIntegerValue	classe	3
+proguard.evaluation.value.NegatedIntegerValue	classe	4
+proguard.evaluation.value.ConvertedIntegerValue	classe	3
+proguard.evaluation.value.NegatedFloatValue	classe	4
+proguard.evaluation.value.SpecificFloatValue	classe	27
+proguard.evaluation.value.DoubleValue	classe	42
+proguard.evaluation.value.Category1Value	classe	2
+proguard.evaluation.value.ComparisonValue	classe	3
+proguard.evaluation.value.CompositeDoubleValue	classe	3
+proguard.evaluation.value.ReferenceValue	classe	20
+proguard.evaluation.value.ParticularLongValue	classe	40
+proguard.evaluation.value.ValueFactory	classe	13
+proguard.evaluation.value.InstructionOffsetValue	classe	15
+proguard.evaluation.value.ConvertedShortValue	classe	3
+proguard.evaluation.value.CompositeLongValue	classe	3
+proguard.evaluation.value.IdentifiedFloatValue	classe	3
+proguard.evaluation.value.SpecificIntegerValue	classe	58
+proguard.evaluation.value.NegatedDoubleValue	classe	4
+proguard.evaluation.value.IdentifiedReferenceValue	classe	6
+proguard.evaluation.value.Category2Value	classe	2
+proguard.evaluation.value.IdentifiedDoubleValue	classe	3
+proguard.evaluation.value.SpecificValueFactory	classe	4
+proguard.evaluation.value.ParticularIntegerValue	classe	60
+proguard.evaluation.value.Value	classe	14
+proguard.evaluation.value.UnknownIntegerValue	classe	34
+proguard.evaluation.value.NegatedLongValue	classe	4
+proguard.evaluation.value.ParticularFloatValue	classe	29
+proguard.evaluation.value.ConvertedDoubleValue	classe	3
+proguard.evaluation.value.UnknownLongValue	classe	23
+proguard.evaluation.value.ConvertedByteValue	classe	3
+proguard.evaluation.value.ParticularDoubleValue	classe	29
+proguard.evaluation.value.SpecificLongValue	classe	39
+proguard.evaluation.value.IntegerValue	classe	120
+proguard.evaluation.TracedStack	classe	26
+proguard.evaluation.TracedVariables	classe	10
+proguard.evaluation.BasicBranchUnit	classe	9
+proguard.evaluation.Processor	classe	6
+proguard.evaluation.ClassConstantValueFactory	classe	1
+proguard.evaluation.BasicInvocationUnit	classe	19
+proguard.evaluation.BranchUnit	interface	4
+proguard.evaluation.Stack	classe	31
+proguard.ClassSpecification	classe	5
+proguard.DuplicateClassPrinter	classe	2
+proguard.ConfigurationConstants	classe	0
+proguard.KeepClassMemberChecker	classe	1

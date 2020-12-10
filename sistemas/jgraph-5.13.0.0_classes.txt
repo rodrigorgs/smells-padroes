@@ -1,286 +1,286 @@
-examples.com.jgraph.components.OverviewExample
-examples.com.jgraph.components.RichTextExample
-examples.com.jgraph.example.adapter.JGraphAdapterBackend
-examples.com.jgraph.example.adapter.JGraphAdapterExample
-examples.com.jgraph.example.adapter.JGraphAdapterModel
-examples.com.jgraph.example.adapter.JGraphAdapterModel$BusinessModelEdit
-examples.com.jgraph.example.adapter.JGraphBusinessObject
-examples.com.jgraph.example.adapter.JGraphSQLBackend
-examples.com.jgraph.example.adapter.JGraphSQLBusinessModel
-examples.com.jgraph.example.adapter.JGraphSQLEntity
-examples.com.jgraph.example.adapter.JGraphSQLQueryPane
-examples.com.jgraph.example.adapter.JGraphSQLRelation
-examples.com.jgraph.example.EditorGraph
-examples.com.jgraph.example.EditorGraph$EditorGraphUI
-examples.com.jgraph.example.fastgraph.FastCellViewFactory
-examples.com.jgraph.example.fastgraph.FastCircleCell
-examples.com.jgraph.example.fastgraph.FastCircleView
-examples.com.jgraph.example.fastgraph.FastCircleView$JGraphEllipseRenderer
-examples.com.jgraph.example.fastgraph.FastEdge
-examples.com.jgraph.example.fastgraph.FastEdgeView
-examples.com.jgraph.example.fastgraph.FastGraph
-examples.com.jgraph.example.fastgraph.FastGraph$MyFastGraph
-examples.com.jgraph.example.fastgraph.FastGraph$FastMarqueeHandler
-examples.com.jgraph.example.fastgraph.FastGraph$FastGraphMenuBar
-examples.com.jgraph.example.fastgraph.FastGraphFactory
-examples.com.jgraph.example.fastgraph.FastGraphFactory$FastFactoryConfigDialog
-examples.com.jgraph.example.fastgraph.FastGraphModel
-examples.com.jgraph.example.fastgraph.FastGraphUI
-examples.com.jgraph.example.fastgraph.FastPortView
-examples.com.jgraph.example.fastgraph.FastVertexView
-examples.com.jgraph.example.GraphEdMV
-examples.com.jgraph.example.GraphEdX
-examples.com.jgraph.example.GraphEdX$MyGraphModel
-examples.com.jgraph.example.GraphEdXMenuBar
-examples.com.jgraph.example.GraphSelectionDemo
-examples.com.jgraph.example.GraphSelectionDemo$SyncTreeSelectionListener
-examples.com.jgraph.example.GraphSelectionDemo$MyMouseListener
-examples.com.jgraph.example.GraphSelectionDemo$SyncGraphSelectionListener
-examples.com.jgraph.example.GraphSelectionDemo$GraphModelTreeNode
-examples.com.jgraph.example.GraphTreeModel
-examples.com.jgraph.example.GraphTreeModel$GraphModelTreeNode
-examples.com.jgraph.example.groupeditor.EditableGroupDemo
-examples.com.jgraph.example.groupeditor.EditableGroupRenderer
-examples.com.jgraph.example.groupeditor.GroupManager
-examples.com.jgraph.example.JGraphFoldingManager
-examples.com.jgraph.example.JGraphGraphFactory
-examples.com.jgraph.example.JGraphGraphFactory$FactoryConfigDialog
-examples.com.jgraph.example.JGraphGroupRenderer
-examples.com.jgraph.example.JGraphShadowBorder
-examples.com.jgraph.example.Main
-examples.com.jgraph.example.mycellmodeleditor.BusinessObjectEditor
-examples.com.jgraph.example.mycellmodeleditor.BusinessObjectEditor$RealCellEditor
-examples.com.jgraph.example.mycellmodeleditor.BusinessObjectWrapper
-examples.com.jgraph.example.mycellmodeleditor.MyCellModelEditor
-examples.com.jgraph.example.mycellmodeleditor.MyEditorComponent
-examples.com.jgraph.example.mycellview.GPCellViewFactory
-examples.com.jgraph.example.mycellview.JGraphEllipseView
-examples.com.jgraph.example.mycellview.JGraphEllipseView$JGraphEllipseRenderer
-examples.com.jgraph.example.mycellview.JGraphRoundRectView
-examples.com.jgraph.example.mycellview.JGraphRoundRectView$ActivityRenderer
-examples.com.jgraph.example.mycellview.MyCellView
-examples.com.jgraph.example.MyPortView
-examples.com.jgraph.example.MyPortView$MyPortRenderer
-examples.com.jgraph.example.panelexample.BusinessObjectEditor2
-examples.com.jgraph.example.panelexample.BusinessObjectEditor2$RealCellEditor
-examples.com.jgraph.example.panelexample.BusinessObjectWrapper2
-examples.com.jgraph.example.panelexample.FlyweightUIComponent
-examples.com.jgraph.example.SerialGraph
-examples.com.jgraph.layout.DataGraphLayoutCache
-examples.com.jgraph.layout.demo.JGraphLayoutDemo
-examples.com.jgraph.layout.demo.JGraphLayoutMorphingManager
-examples.com.jgraph.layout.demo.JGraphLayoutPanel
-examples.com.jgraph.layout.demo.JGraphLayoutProgressMonitor
-examples.com.jgraph.layout.JGraphExampleGraph
-examples.com.jgraph.layout.JGraphExampleLayoutCache
-examples.com.jgraph.layout.JGraphExampleLayoutCache$JGraphMoveSelectionFacade
-examples.com.jgraph.layout.JGraphHeadlessLayoutExample
-examples.com.jgraph.layout.JGraphLayoutExample
-examples.com.jgraph.layout.JGraphLayoutExampleMenuBar
-examples.com.jgraph.layout.JGraphModelLayoutExample
-examples.com.jgraph.layout.JGraphWordBrowser
-examples.com.jgraph.layout.JGraphWordBrowser$SynonymRenderer
-examples.com.jgraph.layout.svg.SVGExample
-examples.com.jgraph.layout.svg.SVGMenuBar
-examples.com.jgraph.navigation.NavigationExample
-examples.com.jgraph.navigation.NavigationToolBar
-examples.org.jgraph.example.CompoundVertexView
-examples.org.jgraph.example.GraphEd
-examples.org.jgraph.example.GraphEd$MyGraph
-examples.org.jgraph.example.GraphEd$MyEdgeHandle
-examples.org.jgraph.example.GraphEd$MyModel
-examples.org.jgraph.example.GraphEd$MyMarqueeHandler
-examples.org.jgraph.example.GraphEd$EventRedirector
-examples.org.jgraph.example.GraphEd$StatusBarGraphListener
-examples.org.jgraph.example.GraphEd$EdStatusBar
-examples.org.jgraph.example.GroupingRemoving
-examples.org.jgraph.example.HelloWorld
-examples.org.jgraph.example.IconExample
-examples.org.jgraph.example.IconExample$IconGraph
-examples.org.jgraph.example.IconExample$CustomCell
-examples.org.jgraph.example.IconExample$InvisiblePortView
-examples.org.jgraph.example.IconExample$InvisiblePortRenderer
-examples.org.jgraph.example.JGraphAbstractIconAnimator
-examples.org.jgraph.example.JGraphIconView
-examples.org.jgraph.example.JGraphIconView$MyMultiLinedEditor
-examples.org.jgraph.example.JGraphIconView$IconRenderer
-examples.org.jgraph.example.JGraphIconView$IconDisplay
-examples.org.jgraph.example.JGraphIconView$DescriptionTextArea
-examples.org.jgraph.example.JGraphIconView$MultiLinedEditor
-examples.org.jgraph.example.JGraphIconView$MultiLinedEditor$RealCellEditor
-examples.org.jgraph.example.JGraphIconView$MultiLinedEditor$ModifiedEditorContainer
-examples.org.jgraph.example.LiveJGraphDemo
-examples.org.jgraph.example.LiveJGraphDemo$AddRootInternalFrameAction
-examples.org.jgraph.example.LiveJGraphDemo$AddChildInternalFrameAction
-examples.org.jgraph.example.LiveJGraphDemo$AddParentInternalFrameAction
-examples.org.jgraph.example.LiveJGraphDemo$FrameSelectionListener
-examples.org.jgraph.example.LiveJGraphDemo$CompListener
-examples.org.jgraph.example.LiveJGraphDemo$FrameComponentListener
-examples.org.jgraph.example.LiveJGraphInternalFrame
-src.com.jgraph.algebra.cost.JGraphConstantCostFunction
-src.com.jgraph.algebra.cost.JGraphCostFunction
-src.com.jgraph.algebra.cost.JGraphDistanceCostFunction
-src.com.jgraph.algebra.JGraphAlgebra
-src.com.jgraph.algebra.JGraphFibonacciHeap
-src.com.jgraph.algebra.JGraphFibonacciHeap$Node
-src.com.jgraph.algebra.JGraphUnionFind
-src.com.jgraph.algebra.JGraphUnionFind$Node
-src.com.jgraph.components.labels.CellConstants
-src.com.jgraph.components.labels.MultiLineVertexRenderer
-src.com.jgraph.components.labels.MultiLineVertexView
-src.com.jgraph.components.labels.RedirectingEditor
-src.com.jgraph.components.labels.RedirectingEditor$RealCellEditor
-src.com.jgraph.components.labels.RichTextBusinessObject
-src.com.jgraph.components.labels.RichTextEditor
-src.com.jgraph.components.labels.RichTextEditor$RealCellEditor
-src.com.jgraph.components.labels.RichTextEditor$ModifiedEditorContainer
-src.com.jgraph.components.labels.RichTextGraphModel
-src.com.jgraph.components.labels.RichTextValue
-src.com.jgraph.io.svg.SVGEdgeWriter
-src.com.jgraph.io.svg.SVGGraphConstants
-src.com.jgraph.io.svg.SVGGraphWriter
-src.com.jgraph.io.svg.SVGUtils
-src.com.jgraph.io.svg.SVGVertexRenderer
-src.com.jgraph.io.svg.SVGVertexWriter
-src.com.jgraph.layout.graph.JGraphAnnealingLayout
-src.com.jgraph.layout.graph.JGraphFRLayout
-src.com.jgraph.layout.graph.JGraphISOMLayout
-src.com.jgraph.layout.graph.JGraphSimpleLayout
-src.com.jgraph.layout.graph.JGraphSpringLayout
-src.com.jgraph.layout.hierarchical.JGraphCoordinateAssignment
-src.com.jgraph.layout.hierarchical.JGraphCoordinateAssignment$WeightedCellSorter
-src.com.jgraph.layout.hierarchical.JGraphCoordinateAssignment$AreaSpatialCache
-src.com.jgraph.layout.hierarchical.JGraphGreedyCycleRemover
-src.com.jgraph.layout.hierarchical.JGraphHierarchicalLayout
-src.com.jgraph.layout.hierarchical.JGraphHierarchicalLayoutStep
-src.com.jgraph.layout.hierarchical.JGraphLongestPathLayering
-src.com.jgraph.layout.hierarchical.JGraphMedianHybridCrossingReduction
-src.com.jgraph.layout.hierarchical.JGraphMedianHybridCrossingReduction$MedianCellSorter
-src.com.jgraph.layout.hierarchical.JGraphMinimumCycleRemover
-src.com.jgraph.layout.hierarchical.JGraphNetworkSimplexLayering
-src.com.jgraph.layout.hierarchical.model.JGraphAbstractHierarchyCell
-src.com.jgraph.layout.hierarchical.model.JGraphHierarchyEdge
-src.com.jgraph.layout.hierarchical.model.JGraphHierarchyModel
-src.com.jgraph.layout.hierarchical.model.JGraphHierarchyNode
-src.com.jgraph.layout.hierarchical.model.JGraphHierarchyRank
-src.com.jgraph.layout.JGraphCompoundLayout
-src.com.jgraph.layout.JGraphFacade
-src.com.jgraph.layout.JGraphFacade$CellVisitor
-src.com.jgraph.layout.JGraphFacade$DefaultComparator
-src.com.jgraph.layout.JGraphLayout
-src.com.jgraph.layout.JGraphLayout$Stoppable
-src.com.jgraph.layout.JGraphLayoutProgress
-src.com.jgraph.layout.JGraphModelFacade
-src.com.jgraph.layout.organic.JGraphFastOrganicLayout
-src.com.jgraph.layout.organic.JGraphOrganicLayout
-src.com.jgraph.layout.organic.JGraphOrganicLayout$CellWrapper
-src.com.jgraph.layout.organic.JGraphSelfOrganizingOrganicLayout
-src.com.jgraph.layout.routing.JGraphParallelRouter
-src.com.jgraph.layout.simple.SimpleGridLayout
-src.com.jgraph.layout.tree.JGraphAbstractTreeLayout
-src.com.jgraph.layout.tree.JGraphAbstractTreeLayout$TreeNode
-src.com.jgraph.layout.tree.JGraphCompactTreeLayout
-src.com.jgraph.layout.tree.JGraphCompactTreeLayout$CompactTreeNode
-src.com.jgraph.layout.tree.JGraphCompactTreeLayout$Polygon
-src.com.jgraph.layout.tree.JGraphCompactTreeLayout$PolyLine
-src.com.jgraph.layout.tree.JGraphMoenLayout
-src.com.jgraph.layout.tree.JGraphRadialTreeLayout
-src.com.jgraph.layout.tree.JGraphRadialTreeLayout$TreeNode
-src.com.jgraph.layout.tree.JGraphTreeLayout
-src.com.jgraph.layout.tree.JGraphTreeLayout$StandardTreeNode
-src.com.jgraph.layout.tree.JGraphTreeLayout$PolyLine
-src.com.jgraph.layout.tree.OrganizationalChart
-src.com.jgraph.layout.tree.OrganizationalChart$OrganizationalTreeNode
-src.com.jgraph.navigation.GraphNavigator
-src.com.jgraph.navigation.GraphNavigator$NavigatorPane
-src.com.jgraph.navigation.PanningTool
-src.com.jgraph.util.JGraphPrintingScrollPane
-src.com.jgraph.util.JGraphPrintingScrollPane$Viewport
-src.org.jgraph.event.GraphLayoutCacheEvent
-src.org.jgraph.event.GraphLayoutCacheEvent$GraphLayoutCacheChange
-src.org.jgraph.event.GraphLayoutCacheListener
-src.org.jgraph.event.GraphModelEvent
-src.org.jgraph.event.GraphModelEvent$GraphModelChange
-src.org.jgraph.event.GraphModelListener
-src.org.jgraph.event.GraphSelectionEvent
-src.org.jgraph.event.GraphSelectionListener
-src.org.jgraph.graph.AbstractCellView
-src.org.jgraph.graph.AttributeMap
-src.org.jgraph.graph.AttributeMap$SerializablePoint2D
-src.org.jgraph.graph.AttributeMap$SerializableRectangle2D
-src.org.jgraph.graph.BasicMarqueeHandler
-src.org.jgraph.graph.CellHandle
-src.org.jgraph.graph.CellMapper
-src.org.jgraph.graph.CellView
-src.org.jgraph.graph.CellViewFactory
-src.org.jgraph.graph.CellViewRenderer
-src.org.jgraph.graph.ConnectionSet
-src.org.jgraph.graph.ConnectionSet$Connection
-src.org.jgraph.graph.DefaultCellViewFactory
-src.org.jgraph.graph.DefaultEdge
-src.org.jgraph.graph.DefaultEdge$LoopRouting
-src.org.jgraph.graph.DefaultEdge$DefaultRouting
-src.org.jgraph.graph.DefaultGraphCell
-src.org.jgraph.graph.DefaultGraphCellEditor
-src.org.jgraph.graph.DefaultGraphCellEditor$DefaultTextField
-src.org.jgraph.graph.DefaultGraphCellEditor$EditorContainer
-src.org.jgraph.graph.DefaultGraphModel
-src.org.jgraph.graph.DefaultGraphModel$GraphModelEdit
-src.org.jgraph.graph.DefaultGraphModel$GraphModelLayerEdit
-src.org.jgraph.graph.DefaultGraphModel$EmptyIterator
-src.org.jgraph.graph.DefaultGraphSelectionModel
-src.org.jgraph.graph.DefaultGraphSelectionModel$CellPlaceHolder
-src.org.jgraph.graph.DefaultPort
-src.org.jgraph.graph.DefaultRealEditor
-src.org.jgraph.graph.Edge
-src.org.jgraph.graph.Edge$Routing
-src.org.jgraph.graph.EdgeRenderer
-src.org.jgraph.graph.EdgeView
-src.org.jgraph.graph.EdgeView$EdgeHandle
-src.org.jgraph.graph.ExecutableChange
-src.org.jgraph.graph.GraphCell
-src.org.jgraph.graph.GraphCellEditor
-src.org.jgraph.graph.GraphConstants
-src.org.jgraph.graph.GraphContext
-src.org.jgraph.graph.GraphLayoutCache
-src.org.jgraph.graph.GraphLayoutCache$GraphLayoutCacheEdit
-src.org.jgraph.graph.GraphModel
-src.org.jgraph.graph.GraphSelectionModel
-src.org.jgraph.graph.GraphTransferable
-src.org.jgraph.graph.GraphTransferHandler
-src.org.jgraph.graph.GraphUndoManager
-src.org.jgraph.graph.ParentMap
-src.org.jgraph.graph.ParentMap$Entry
-src.org.jgraph.graph.Port
-src.org.jgraph.graph.PortRenderer
-src.org.jgraph.graph.PortView
-src.org.jgraph.graph.VertexRenderer
-src.org.jgraph.graph.VertexView
-src.org.jgraph.graph.VertexView$SizeHandle
-src.org.jgraph.JGraph
-src.org.jgraph.JGraph$EmptySelectionModel
-src.org.jgraph.JGraph$GraphSelectionRedirector
-src.org.jgraph.plaf.basic.BasicGraphDropTargetListener
-src.org.jgraph.plaf.basic.BasicGraphTransferable
-src.org.jgraph.plaf.basic.BasicGraphUI
-src.org.jgraph.plaf.basic.BasicGraphUI$ComponentHandler
-src.org.jgraph.plaf.basic.BasicGraphUI$GraphModelHandler
-src.org.jgraph.plaf.basic.BasicGraphUI$GraphLayoutCacheHandler
-src.org.jgraph.plaf.basic.BasicGraphUI$GraphSelectionHandler
-src.org.jgraph.plaf.basic.BasicGraphUI$CellEditorHandler
-src.org.jgraph.plaf.basic.BasicGraphUI$KeyHandler
-src.org.jgraph.plaf.basic.BasicGraphUI$MouseHandler
-src.org.jgraph.plaf.basic.BasicGraphUI$RootHandle
-src.org.jgraph.plaf.basic.BasicGraphUI$PropertyChangeHandler
-src.org.jgraph.plaf.basic.BasicGraphUI$GraphIncrementAction
-src.org.jgraph.plaf.basic.BasicGraphUI$GraphCancelEditingAction
-src.org.jgraph.plaf.basic.BasicGraphUI$GraphEditAction
-src.org.jgraph.plaf.basic.BasicGraphUI$GraphSelectAllAction
-src.org.jgraph.plaf.basic.BasicGraphUI$MouseInputHandler
-src.org.jgraph.plaf.basic.BasicGraphUI$GraphDropTargetListener
-src.org.jgraph.plaf.GraphUI
-src.org.jgraph.util.Bezier
-src.org.jgraph.util.ParallelEdgeRouter
-src.org.jgraph.util.RectUtils
-src.org.jgraph.util.Spline
-src.org.jgraph.util.Spline2D
+org.jgraph.example.IconExample	classe	3
+org.jgraph.example.IconExample$IconGraph	classe	0
+org.jgraph.example.IconExample$CustomCell	classe	4
+org.jgraph.example.IconExample$InvisiblePortView	classe	3
+org.jgraph.example.IconExample$InvisiblePortRenderer	classe	1
+org.jgraph.example.GraphEd	classe	49
+org.jgraph.example.GraphEd$MyGraph	classe	0
+org.jgraph.example.GraphEd$MyEdgeHandle	classe	2
+org.jgraph.example.GraphEd$MyModel	classe	2
+org.jgraph.example.GraphEd$MyMarqueeHandler	classe	14
+org.jgraph.example.GraphEd$EventRedirector	classe	1
+org.jgraph.example.GraphEd$StatusBarGraphListener	classe	2
+org.jgraph.example.GraphEd$EdStatusBar	classe	5
+org.jgraph.example.LiveJGraphInternalFrame	classe	4
+org.jgraph.example.LiveJGraphDemo	classe	1
+org.jgraph.example.LiveJGraphDemo$AddRootInternalFrameAction	classe	1
+org.jgraph.example.LiveJGraphDemo$AddChildInternalFrameAction	classe	1
+org.jgraph.example.LiveJGraphDemo$AddParentInternalFrameAction	classe	1
+org.jgraph.example.LiveJGraphDemo$FrameSelectionListener	classe	2
+org.jgraph.example.LiveJGraphDemo$CompListener	classe	1
+org.jgraph.example.LiveJGraphDemo$FrameComponentListener	classe	2
+org.jgraph.example.JGraphIconView	classe	6
+org.jgraph.example.JGraphIconView$MyMultiLinedEditor	classe	1
+org.jgraph.example.JGraphIconView$IconRenderer	classe	7
+org.jgraph.example.JGraphIconView$IconDisplay	classe	3
+org.jgraph.example.JGraphIconView$DescriptionTextArea	classe	2
+org.jgraph.example.JGraphIconView$MultiLinedEditor	classe	3
+org.jgraph.example.JGraphIconView$MultiLinedEditor$RealCellEditor	classe	4
+org.jgraph.example.JGraphIconView$MultiLinedEditor$ModifiedEditorContainer	classe	1
+org.jgraph.example.CompoundVertexView	classe	6
+org.jgraph.example.HelloWorld	classe	2
+org.jgraph.example.GroupingRemoving	classe	2
+org.jgraph.example.JGraphAbstractIconAnimator	classe	6
+com.jgraph.example.JGraphGroupRenderer	classe	3
+com.jgraph.example.JGraphFoldingManager	classe	2
+com.jgraph.example.groupeditor.EditableGroupRenderer	classe	2
+com.jgraph.example.groupeditor.EditableGroupDemo	classe	3
+com.jgraph.example.groupeditor.GroupManager	classe	2
+com.jgraph.example.fastgraph.FastEdge	classe	1
+com.jgraph.example.fastgraph.FastCircleView	classe	2
+com.jgraph.example.fastgraph.FastCircleView$JGraphEllipseRenderer	classe	2
+com.jgraph.example.fastgraph.FastGraphUI	classe	2
+com.jgraph.example.fastgraph.FastEdgeView	classe	11
+com.jgraph.example.fastgraph.FastGraphModel	classe	5
+com.jgraph.example.fastgraph.FastCircleCell	classe	0
+com.jgraph.example.fastgraph.FastPortView	classe	5
+com.jgraph.example.fastgraph.FastGraphFactory	classe	2
+com.jgraph.example.fastgraph.FastGraphFactory$FastFactoryConfigDialog	classe	1
+com.jgraph.example.fastgraph.FastCellViewFactory	classe	4
+com.jgraph.example.fastgraph.FastGraph	classe	5
+com.jgraph.example.fastgraph.FastGraph$MyFastGraph	classe	1
+com.jgraph.example.fastgraph.FastGraph$FastMarqueeHandler	classe	3
+com.jgraph.example.fastgraph.FastGraph$FastGraphMenuBar	classe	0
+com.jgraph.example.fastgraph.FastVertexView	classe	5
+com.jgraph.example.GraphEdXMenuBar	classe	1
+com.jgraph.example.SerialGraph	classe	3
+com.jgraph.example.adapter.JGraphSQLBackend	classe	28
+com.jgraph.example.adapter.JGraphSQLQueryPane	classe	1
+com.jgraph.example.adapter.JGraphSQLEntity	classe	7
+com.jgraph.example.adapter.JGraphSQLRelation	classe	4
+com.jgraph.example.adapter.JGraphAdapterExample	classe	11
+com.jgraph.example.adapter.JGraphAdapterModel	classe	30
+com.jgraph.example.adapter.JGraphAdapterModel$BusinessModelEdit	classe	1
+com.jgraph.example.adapter.JGraphSQLBusinessModel	classe	3
+com.jgraph.example.adapter.JGraphAdapterBackend	interface	9
+com.jgraph.example.adapter.JGraphBusinessObject	classe	10
+com.jgraph.example.GraphEdX	classe	18
+com.jgraph.example.GraphEdX$MyGraphModel	classe	2
+com.jgraph.example.GraphTreeModel	classe	2
+com.jgraph.example.GraphTreeModel$GraphModelTreeNode	classe	8
+com.jgraph.example.mycellview.JGraphEllipseView	classe	2
+com.jgraph.example.mycellview.JGraphEllipseView$JGraphEllipseRenderer	classe	2
+com.jgraph.example.mycellview.GPCellViewFactory	classe	2
+com.jgraph.example.mycellview.JGraphRoundRectView	classe	2
+com.jgraph.example.mycellview.JGraphRoundRectView$ActivityRenderer	classe	2
+com.jgraph.example.mycellview.MyCellView	classe	2
+com.jgraph.example.Main	classe	3
+com.jgraph.example.JGraphShadowBorder	classe	5
+com.jgraph.example.JGraphGraphFactory	classe	24
+com.jgraph.example.JGraphGraphFactory$FactoryConfigDialog	classe	2
+com.jgraph.example.panelexample.BusinessObjectEditor2	classe	1
+com.jgraph.example.panelexample.BusinessObjectEditor2$RealCellEditor	classe	2
+com.jgraph.example.panelexample.FlyweightUIComponent	classe	7
+com.jgraph.example.panelexample.BusinessObjectWrapper2	classe	7
+com.jgraph.example.GraphSelectionDemo	classe	2
+com.jgraph.example.GraphSelectionDemo$SyncTreeSelectionListener	classe	1
+com.jgraph.example.GraphSelectionDemo$MyMouseListener	classe	1
+com.jgraph.example.GraphSelectionDemo$SyncGraphSelectionListener	classe	2
+com.jgraph.example.GraphSelectionDemo$GraphModelTreeNode	classe	8
+com.jgraph.example.MyPortView	classe	3
+com.jgraph.example.MyPortView$MyPortRenderer	classe	1
+com.jgraph.example.GraphEdMV	classe	3
+com.jgraph.example.mycellmodeleditor.BusinessObjectEditor	classe	1
+com.jgraph.example.mycellmodeleditor.BusinessObjectEditor$RealCellEditor	classe	2
+com.jgraph.example.mycellmodeleditor.MyCellModelEditor	classe	1
+com.jgraph.example.mycellmodeleditor.MyEditorComponent	classe	5
+com.jgraph.example.mycellmodeleditor.BusinessObjectWrapper	classe	5
+com.jgraph.example.EditorGraph	classe	2
+com.jgraph.example.EditorGraph$EditorGraphUI	classe	3
+com.jgraph.layout.svg.SVGMenuBar	classe	1
+com.jgraph.layout.svg.SVGExample	classe	5
+com.jgraph.layout.demo.JGraphLayoutMorphingManager	classe	8
+com.jgraph.layout.demo.JGraphLayoutProgressMonitor	classe	2
+com.jgraph.layout.demo.JGraphLayoutPanel	classe	7
+com.jgraph.layout.demo.JGraphLayoutDemo	classe	2
+com.jgraph.layout.JGraphExampleGraph	classe	5
+com.jgraph.layout.JGraphWordBrowser	classe	18
+com.jgraph.layout.JGraphWordBrowser$SynonymRenderer	classe	1
+com.jgraph.layout.JGraphExampleLayoutCache	classe	8
+com.jgraph.layout.JGraphExampleLayoutCache$JGraphMoveSelectionFacade	classe	1
+com.jgraph.layout.JGraphModelLayoutExample	classe	1
+com.jgraph.layout.DataGraphLayoutCache	classe	1
+com.jgraph.layout.JGraphLayoutExampleMenuBar	classe	0
+com.jgraph.layout.JGraphLayoutExample	classe	12
+com.jgraph.layout.JGraphHeadlessLayoutExample	classe	2
+com.jgraph.navigation.NavigationExample	classe	7
+com.jgraph.navigation.NavigationToolBar	classe	1
+com.jgraph.components.RichTextExample	classe	3
+com.jgraph.components.OverviewExample	classe	2
+org.jgraph.util.Spline	classe	7
+org.jgraph.util.ParallelEdgeRouter	classe	8
+org.jgraph.util.Bezier	classe	3
+org.jgraph.util.RectUtils	classe	1
+org.jgraph.util.Spline2D	classe	8
+org.jgraph.plaf.basic.BasicGraphTransferable	classe	13
+org.jgraph.plaf.basic.BasicGraphUI	classe	77
+org.jgraph.plaf.basic.BasicGraphUI$ComponentHandler	classe	4
+org.jgraph.plaf.basic.BasicGraphUI$GraphModelHandler	classe	1
+org.jgraph.plaf.basic.BasicGraphUI$GraphLayoutCacheHandler	classe	1
+org.jgraph.plaf.basic.BasicGraphUI$GraphSelectionHandler	classe	1
+org.jgraph.plaf.basic.BasicGraphUI$CellEditorHandler	classe	2
+org.jgraph.plaf.basic.BasicGraphUI$KeyHandler	classe	2
+org.jgraph.plaf.basic.BasicGraphUI$MouseHandler	classe	7
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	classe	14
+org.jgraph.plaf.basic.BasicGraphUI$PropertyChangeHandler	classe	1
+org.jgraph.plaf.basic.BasicGraphUI$GraphIncrementAction	classe	2
+org.jgraph.plaf.basic.BasicGraphUI$GraphCancelEditingAction	classe	2
+org.jgraph.plaf.basic.BasicGraphUI$GraphEditAction	classe	2
+org.jgraph.plaf.basic.BasicGraphUI$GraphSelectAllAction	classe	2
+org.jgraph.plaf.basic.BasicGraphUI$MouseInputHandler	classe	8
+org.jgraph.plaf.basic.BasicGraphUI$GraphDropTargetListener	classe	5
+org.jgraph.plaf.basic.BasicGraphDropTargetListener	classe	15
+org.jgraph.plaf.GraphUI	classe	14
+org.jgraph.graph.GraphCellEditor	interface	1
+org.jgraph.graph.GraphTransferHandler	classe	13
+org.jgraph.graph.ConnectionSet	classe	17
+org.jgraph.graph.ConnectionSet$Connection	classe	8
+org.jgraph.graph.GraphTransferable	classe	12
+org.jgraph.graph.CellViewRenderer	interface	1
+org.jgraph.graph.AttributeMap	classe	21
+org.jgraph.graph.AttributeMap$SerializablePoint2D	classe	4
+org.jgraph.graph.AttributeMap$SerializableRectangle2D	classe	6
+org.jgraph.graph.CellMapper	interface	2
+org.jgraph.graph.GraphCell	interface	3
+org.jgraph.graph.DefaultGraphCellEditor	classe	24
+org.jgraph.graph.DefaultGraphCellEditor$DefaultTextField	classe	2
+org.jgraph.graph.DefaultGraphCellEditor$EditorContainer	classe	3
+org.jgraph.graph.PortRenderer	classe	15
+org.jgraph.graph.Port	interface	5
+org.jgraph.graph.DefaultGraphCell	classe	8
+org.jgraph.graph.DefaultEdge	classe	5
+org.jgraph.graph.DefaultEdge$LoopRouting	classe	6
+org.jgraph.graph.DefaultEdge$DefaultRouting	classe	1
+org.jgraph.graph.VertexView	classe	9
+org.jgraph.graph.VertexView$SizeHandle	classe	10
+org.jgraph.graph.VertexRenderer	classe	21
+org.jgraph.graph.BasicMarqueeHandler	classe	19
+org.jgraph.graph.ParentMap	classe	8
+org.jgraph.graph.ParentMap$Entry	classe	2
+org.jgraph.graph.AbstractCellView	classe	31
+org.jgraph.graph.GraphUndoManager	classe	8
+org.jgraph.graph.DefaultGraphSelectionModel	classe	31
+org.jgraph.graph.DefaultGraphSelectionModel$CellPlaceHolder	classe	4
+org.jgraph.graph.CellViewFactory	interface	1
+org.jgraph.graph.EdgeView	classe	40
+org.jgraph.graph.EdgeView$EdgeHandle	classe	22
+org.jgraph.graph.EdgeRenderer	classe	44
+org.jgraph.graph.GraphLayoutCache	classe	135
+org.jgraph.graph.GraphLayoutCache$GraphLayoutCacheEdit	classe	13
+org.jgraph.graph.DefaultPort	classe	8
+org.jgraph.graph.CellView	interface	17
+org.jgraph.graph.GraphModel	interface	32
+org.jgraph.graph.GraphSelectionModel	interface	22
+org.jgraph.graph.GraphContext	classe	13
+org.jgraph.graph.DefaultCellViewFactory	classe	6
+org.jgraph.graph.Edge	interface	4
+org.jgraph.graph.Edge$Routing	interface	2
+org.jgraph.graph.PortView	classe	10
+org.jgraph.graph.DefaultGraphModel	classe	79
+org.jgraph.graph.DefaultGraphModel$GraphModelEdit	classe	23
+org.jgraph.graph.DefaultGraphModel$GraphModelLayerEdit	classe	22
+org.jgraph.graph.DefaultGraphModel$EmptyIterator	classe	3
+org.jgraph.graph.DefaultRealEditor	classe	1
+org.jgraph.graph.ExecutableChange	classe	3
+org.jgraph.graph.CellHandle	interface	6
+org.jgraph.graph.GraphConstants	classe	120
+org.jgraph.JGraph	classe	188
+org.jgraph.JGraph$EmptySelectionModel	classe	4
+org.jgraph.JGraph$GraphSelectionRedirector	classe	1
+org.jgraph.event.GraphModelEvent	classe	1
+org.jgraph.event.GraphModelEvent$GraphModelChange	interface	6
+org.jgraph.event.GraphLayoutCacheEvent	classe	1
+org.jgraph.event.GraphLayoutCacheEvent$GraphLayoutCacheChange	interface	9
+org.jgraph.event.GraphSelectionEvent	classe	6
+org.jgraph.event.GraphSelectionListener	interface	1
+org.jgraph.event.GraphLayoutCacheListener	interface	1
+org.jgraph.event.GraphModelListener	interface	1
+com.jgraph.util.JGraphPrintingScrollPane	classe	12
+com.jgraph.util.JGraphPrintingScrollPane$Viewport	classe	3
+com.jgraph.layout.tree.OrganizationalChart	classe	3
+com.jgraph.layout.tree.OrganizationalChart$OrganizationalTreeNode	classe	6
+com.jgraph.layout.tree.JGraphRadialTreeLayout	classe	23
+com.jgraph.layout.tree.JGraphRadialTreeLayout$TreeNode	classe	8
+com.jgraph.layout.tree.JGraphTreeLayout	classe	16
+com.jgraph.layout.tree.JGraphTreeLayout$StandardTreeNode	classe	11
+com.jgraph.layout.tree.JGraphTreeLayout$PolyLine	classe	0
+com.jgraph.layout.tree.JGraphAbstractTreeLayout	classe	13
+com.jgraph.layout.tree.JGraphAbstractTreeLayout$TreeNode	classe	3
+com.jgraph.layout.tree.JGraphMoenLayout	classe	1
+com.jgraph.layout.tree.JGraphCompactTreeLayout	classe	24
+com.jgraph.layout.tree.JGraphCompactTreeLayout$CompactTreeNode	classe	1
+com.jgraph.layout.tree.JGraphCompactTreeLayout$Polygon	classe	0
+com.jgraph.layout.tree.JGraphCompactTreeLayout$PolyLine	classe	0
+com.jgraph.layout.hierarchical.JGraphLongestPathLayering	classe	1
+com.jgraph.layout.hierarchical.JGraphHierarchicalLayout	classe	24
+com.jgraph.layout.hierarchical.JGraphMinimumCycleRemover	classe	1
+com.jgraph.layout.hierarchical.JGraphMedianHybridCrossingReduction	classe	8
+com.jgraph.layout.hierarchical.JGraphMedianHybridCrossingReduction$MedianCellSorter	classe	1
+com.jgraph.layout.hierarchical.JGraphNetworkSimplexLayering	classe	4
+com.jgraph.layout.hierarchical.model.JGraphHierarchyEdge	classe	9
+com.jgraph.layout.hierarchical.model.JGraphHierarchyNode	classe	8
+com.jgraph.layout.hierarchical.model.JGraphAbstractHierarchyCell	classe	9
+com.jgraph.layout.hierarchical.model.JGraphHierarchyModel	classe	17
+com.jgraph.layout.hierarchical.model.JGraphHierarchyRank	classe	0
+com.jgraph.layout.hierarchical.JGraphHierarchicalLayoutStep	interface	1
+com.jgraph.layout.hierarchical.JGraphGreedyCycleRemover	classe	2
+com.jgraph.layout.hierarchical.JGraphCoordinateAssignment	classe	25
+com.jgraph.layout.hierarchical.JGraphCoordinateAssignment$WeightedCellSorter	classe	1
+com.jgraph.layout.hierarchical.JGraphCoordinateAssignment$AreaSpatialCache	classe	0
+com.jgraph.layout.JGraphFacade	classe	99
+com.jgraph.layout.JGraphFacade$CellVisitor	interface	1
+com.jgraph.layout.JGraphFacade$DefaultComparator	classe	1
+com.jgraph.layout.organic.JGraphOrganicLayout	classe	65
+com.jgraph.layout.organic.JGraphOrganicLayout$CellWrapper	classe	17
+com.jgraph.layout.organic.JGraphFastOrganicLayout	classe	13
+com.jgraph.layout.organic.JGraphSelfOrganizingOrganicLayout	classe	19
+com.jgraph.layout.graph.JGraphAnnealingLayout	classe	1
+com.jgraph.layout.graph.JGraphISOMLayout	classe	1
+com.jgraph.layout.graph.JGraphSpringLayout	classe	14
+com.jgraph.layout.graph.JGraphFRLayout	classe	1
+com.jgraph.layout.graph.JGraphSimpleLayout	classe	6
+com.jgraph.layout.JGraphModelFacade	classe	5
+com.jgraph.layout.JGraphLayoutProgress	classe	11
+com.jgraph.layout.simple.SimpleGridLayout	classe	15
+com.jgraph.layout.JGraphLayout	interface	1
+com.jgraph.layout.JGraphLayout$Stoppable	interface	1
+com.jgraph.layout.JGraphCompoundLayout	classe	4
+com.jgraph.layout.routing.JGraphParallelRouter	classe	0
+com.jgraph.io.svg.SVGGraphWriter	classe	9
+com.jgraph.io.svg.SVGVertexRenderer	classe	3
+com.jgraph.io.svg.SVGEdgeWriter	classe	1
+com.jgraph.io.svg.SVGVertexWriter	classe	1
+com.jgraph.io.svg.SVGUtils	classe	1
+com.jgraph.io.svg.SVGGraphConstants	classe	4
+com.jgraph.navigation.GraphNavigator	classe	15
+com.jgraph.navigation.GraphNavigator$NavigatorPane	classe	8
+com.jgraph.navigation.PanningTool	classe	7
+com.jgraph.components.labels.RichTextValue	classe	8
+com.jgraph.components.labels.MultiLineVertexRenderer	classe	16
+com.jgraph.components.labels.RichTextEditor	classe	3
+com.jgraph.components.labels.RichTextEditor$RealCellEditor	classe	3
+com.jgraph.components.labels.RichTextEditor$ModifiedEditorContainer	classe	1
+com.jgraph.components.labels.RichTextGraphModel	classe	5
+com.jgraph.components.labels.RedirectingEditor	classe	1
+com.jgraph.components.labels.RedirectingEditor$RealCellEditor	classe	5
+com.jgraph.components.labels.CellConstants	classe	4
+com.jgraph.components.labels.MultiLineVertexView	classe	2
+com.jgraph.components.labels.RichTextBusinessObject	classe	12
+com.jgraph.algebra.JGraphUnionFind	classe	4
+com.jgraph.algebra.JGraphUnionFind$Node	classe	4
+com.jgraph.algebra.cost.JGraphConstantCostFunction	classe	1
+com.jgraph.algebra.cost.JGraphDistanceCostFunction	classe	2
+com.jgraph.algebra.cost.JGraphCostFunction	interface	1
+com.jgraph.algebra.JGraphAlgebra	classe	10
+com.jgraph.algebra.JGraphFibonacciHeap	classe	13
+com.jgraph.algebra.JGraphFibonacciHeap$Node	classe	3

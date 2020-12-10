@@ -1,579 +1,582 @@
-core.com.itextpdf.text.Anchor
-core.com.itextpdf.text.Annotation
-core.com.itextpdf.text.BadElementException
-core.com.itextpdf.text.BaseColor
-core.com.itextpdf.text.Chapter
-core.com.itextpdf.text.ChapterAutoNumber
-core.com.itextpdf.text.Chunk
-core.com.itextpdf.text.DocListener
-core.com.itextpdf.text.Document
-core.com.itextpdf.text.DocumentException
-core.com.itextpdf.text.DocWriter
-core.com.itextpdf.text.Element
-core.com.itextpdf.text.ElementListener
-core.com.itextpdf.text.ElementTags
-core.com.itextpdf.text.error_messages.MessageLocalization
-core.com.itextpdf.text.ExceptionConverter
-core.com.itextpdf.text.exceptions.BadPasswordException
-core.com.itextpdf.text.exceptions.IllegalPdfSyntaxException
-core.com.itextpdf.text.exceptions.InvalidPdfException
-core.com.itextpdf.text.exceptions.UnsupportedPdfException
-core.com.itextpdf.text.factories.ElementFactory
-core.com.itextpdf.text.factories.GreekAlphabetFactory
-core.com.itextpdf.text.factories.RomanAlphabetFactory
-core.com.itextpdf.text.factories.RomanNumberFactory
-core.com.itextpdf.text.factories.RomanNumberFactory$RomanDigit
-core.com.itextpdf.text.Font
-core.com.itextpdf.text.FontFactory
-core.com.itextpdf.text.FontFactoryImp
-core.com.itextpdf.text.FontProvider
-core.com.itextpdf.text.GreekList
-core.com.itextpdf.text.Header
-core.com.itextpdf.text.html.HtmlEncoder
-core.com.itextpdf.text.html.HtmlTags
-core.com.itextpdf.text.html.Markup
-core.com.itextpdf.text.html.simpleparser.ALink
-core.com.itextpdf.text.html.simpleparser.ChainedProperties
-core.com.itextpdf.text.html.simpleparser.ChainedProperties$ChainedProperty
-core.com.itextpdf.text.html.simpleparser.FactoryProperties
-core.com.itextpdf.text.html.simpleparser.HTMLWorker
-core.com.itextpdf.text.html.simpleparser.ImageProvider
-core.com.itextpdf.text.html.simpleparser.Img
-core.com.itextpdf.text.html.simpleparser.IncCell
-core.com.itextpdf.text.html.simpleparser.IncTable
-core.com.itextpdf.text.html.simpleparser.StyleSheet
-core.com.itextpdf.text.html.WebColors
-core.com.itextpdf.text.Image
-core.com.itextpdf.text.ImgCCITT
-core.com.itextpdf.text.ImgJBIG2
-core.com.itextpdf.text.ImgRaw
-core.com.itextpdf.text.ImgTemplate
-core.com.itextpdf.text.ImgWMF
-core.com.itextpdf.text.Jpeg
-core.com.itextpdf.text.Jpeg2000
-core.com.itextpdf.text.LargeElement
-core.com.itextpdf.text.List
-core.com.itextpdf.text.ListItem
-core.com.itextpdf.text.MarkedObject
-core.com.itextpdf.text.MarkedSection
-core.com.itextpdf.text.Meta
-core.com.itextpdf.text.PageSize
-core.com.itextpdf.text.Paragraph
-core.com.itextpdf.text.pdf.AcroFields
-core.com.itextpdf.text.pdf.AcroFields$Item
-core.com.itextpdf.text.pdf.AcroFields$InstHit
-core.com.itextpdf.text.pdf.AcroFields$RevisionStream
-core.com.itextpdf.text.pdf.AcroFields$SorterComparator
-core.com.itextpdf.text.pdf.AcroFields$FieldPosition
-core.com.itextpdf.text.pdf.ArabicLigaturizer
-core.com.itextpdf.text.pdf.ArabicLigaturizer$charstruct
-core.com.itextpdf.text.pdf.AsianFontMapper
-core.com.itextpdf.text.pdf.BadPdfFormatException
-core.com.itextpdf.text.pdf.Barcode
-core.com.itextpdf.text.pdf.Barcode128
-core.com.itextpdf.text.pdf.Barcode39
-core.com.itextpdf.text.pdf.BarcodeCodabar
-core.com.itextpdf.text.pdf.BarcodeDatamatrix
-core.com.itextpdf.text.pdf.BarcodeDatamatrix$DmParams
-core.com.itextpdf.text.pdf.BarcodeDatamatrix$Placement
-core.com.itextpdf.text.pdf.BarcodeDatamatrix$ReedSolomon
-core.com.itextpdf.text.pdf.BarcodeEAN
-core.com.itextpdf.text.pdf.BarcodeEANSUPP
-core.com.itextpdf.text.pdf.BarcodeInter25
-core.com.itextpdf.text.pdf.BarcodePDF417
-core.com.itextpdf.text.pdf.BarcodePDF417$Segment
-core.com.itextpdf.text.pdf.BarcodePDF417$SegmentList
-core.com.itextpdf.text.pdf.BarcodePostnet
-core.com.itextpdf.text.pdf.BarcodeQRCode
-core.com.itextpdf.text.pdf.BaseField
-core.com.itextpdf.text.pdf.BaseFont
-core.com.itextpdf.text.pdf.BaseFont$StreamFont
-core.com.itextpdf.text.pdf.BidiLine
-core.com.itextpdf.text.pdf.BidiOrder
-core.com.itextpdf.text.pdf.ByteBuffer
-core.com.itextpdf.text.pdf.CFFFont
-core.com.itextpdf.text.pdf.CFFFont$Item
-core.com.itextpdf.text.pdf.CFFFont$OffsetItem
-core.com.itextpdf.text.pdf.CFFFont$RangeItem
-core.com.itextpdf.text.pdf.CFFFont$IndexOffsetItem
-core.com.itextpdf.text.pdf.CFFFont$IndexBaseItem
-core.com.itextpdf.text.pdf.CFFFont$IndexMarkerItem
-core.com.itextpdf.text.pdf.CFFFont$SubrMarkerItem
-core.com.itextpdf.text.pdf.CFFFont$DictOffsetItem
-core.com.itextpdf.text.pdf.CFFFont$UInt24Item
-core.com.itextpdf.text.pdf.CFFFont$UInt32Item
-core.com.itextpdf.text.pdf.CFFFont$UInt16Item
-core.com.itextpdf.text.pdf.CFFFont$UInt8Item
-core.com.itextpdf.text.pdf.CFFFont$StringItem
-core.com.itextpdf.text.pdf.CFFFont$DictNumberItem
-core.com.itextpdf.text.pdf.CFFFont$MarkerItem
-core.com.itextpdf.text.pdf.CFFFont$Font
-core.com.itextpdf.text.pdf.CFFFontSubset
-core.com.itextpdf.text.pdf.CJKFont
-core.com.itextpdf.text.pdf.CMapAwareDocumentFont
-core.com.itextpdf.text.pdf.CMYKColor
-core.com.itextpdf.text.pdf.codec.Base64
-core.com.itextpdf.text.pdf.codec.Base64$InputStream
-core.com.itextpdf.text.pdf.codec.Base64$OutputStream
-core.com.itextpdf.text.pdf.codec.BitFile
-core.com.itextpdf.text.pdf.codec.BmpImage
-core.com.itextpdf.text.pdf.codec.CCITTG4Encoder
-core.com.itextpdf.text.pdf.codec.GifImage
-core.com.itextpdf.text.pdf.codec.GifImage$GifFrame
-core.com.itextpdf.text.pdf.codec.JBIG2Image
-core.com.itextpdf.text.pdf.codec.JBIG2SegmentReader
-core.com.itextpdf.text.pdf.codec.JBIG2SegmentReader$JBIG2Segment
-core.com.itextpdf.text.pdf.codec.JBIG2SegmentReader$JBIG2Page
-core.com.itextpdf.text.pdf.codec.LZWCompressor
-core.com.itextpdf.text.pdf.codec.LZWStringTable
-core.com.itextpdf.text.pdf.codec.PngImage
-core.com.itextpdf.text.pdf.codec.PngImage$NewByteArrayOutputStream
-core.com.itextpdf.text.pdf.codec.PngWriter
-core.com.itextpdf.text.pdf.codec.TIFFConstants
-core.com.itextpdf.text.pdf.codec.TIFFDirectory
-core.com.itextpdf.text.pdf.codec.TIFFFaxDecoder
-core.com.itextpdf.text.pdf.codec.TIFFFaxDecompressor
-core.com.itextpdf.text.pdf.codec.TIFFField
-core.com.itextpdf.text.pdf.codec.TiffImage
-core.com.itextpdf.text.pdf.codec.TIFFLZWDecoder
-core.com.itextpdf.text.pdf.codec.TiffWriter
-core.com.itextpdf.text.pdf.codec.TiffWriter$FieldBase
-core.com.itextpdf.text.pdf.codec.TiffWriter$FieldShort
-core.com.itextpdf.text.pdf.codec.TiffWriter$FieldLong
-core.com.itextpdf.text.pdf.codec.TiffWriter$FieldRational
-core.com.itextpdf.text.pdf.codec.TiffWriter$FieldByte
-core.com.itextpdf.text.pdf.codec.TiffWriter$FieldUndefined
-core.com.itextpdf.text.pdf.codec.TiffWriter$FieldImage
-core.com.itextpdf.text.pdf.codec.TiffWriter$FieldAscii
-core.com.itextpdf.text.pdf.codec.wmf.InputMeta
-core.com.itextpdf.text.pdf.codec.wmf.MetaBrush
-core.com.itextpdf.text.pdf.codec.wmf.MetaDo
-core.com.itextpdf.text.pdf.codec.wmf.MetaFont
-core.com.itextpdf.text.pdf.codec.wmf.MetaObject
-core.com.itextpdf.text.pdf.codec.wmf.MetaPen
-core.com.itextpdf.text.pdf.codec.wmf.MetaState
-core.com.itextpdf.text.pdf.codec.wmf.Point
-core.com.itextpdf.text.pdf.collection.PdfCollection
-core.com.itextpdf.text.pdf.collection.PdfCollectionField
-core.com.itextpdf.text.pdf.collection.PdfCollectionItem
-core.com.itextpdf.text.pdf.collection.PdfCollectionSchema
-core.com.itextpdf.text.pdf.collection.PdfCollectionSort
-core.com.itextpdf.text.pdf.collection.PdfTargetDictionary
-core.com.itextpdf.text.pdf.ColorDetails
-core.com.itextpdf.text.pdf.ColumnText
-core.com.itextpdf.text.pdf.crypto.AESCipher
-core.com.itextpdf.text.pdf.crypto.ARCFOUREncryption
-core.com.itextpdf.text.pdf.crypto.IVGenerator
-core.com.itextpdf.text.pdf.DefaultFontMapper
-core.com.itextpdf.text.pdf.DefaultFontMapper$BaseFontParameters
-core.com.itextpdf.text.pdf.DefaultSplitCharacter
-core.com.itextpdf.text.pdf.DocumentFont
-core.com.itextpdf.text.pdf.draw.DottedLineSeparator
-core.com.itextpdf.text.pdf.draw.DrawInterface
-core.com.itextpdf.text.pdf.draw.LineSeparator
-core.com.itextpdf.text.pdf.draw.VerticalPositionMark
-core.com.itextpdf.text.pdf.EnumerateTTC
-core.com.itextpdf.text.pdf.events.FieldPositioningEvents
-core.com.itextpdf.text.pdf.events.IndexEvents
-core.com.itextpdf.text.pdf.events.IndexEvents$Entry
-core.com.itextpdf.text.pdf.events.PdfPageEventForwarder
-core.com.itextpdf.text.pdf.events.PdfPCellEventForwarder
-core.com.itextpdf.text.pdf.events.PdfPTableEventForwarder
-core.com.itextpdf.text.pdf.ExtendedColor
-core.com.itextpdf.text.pdf.ExtraEncoding
-core.com.itextpdf.text.pdf.FdfReader
-core.com.itextpdf.text.pdf.FdfWriter
-core.com.itextpdf.text.pdf.FdfWriter$Wrt
-core.com.itextpdf.text.pdf.FontDetails
-core.com.itextpdf.text.pdf.FontMapper
-core.com.itextpdf.text.pdf.fonts.cmaps.CMap
-core.com.itextpdf.text.pdf.fonts.cmaps.CMapParser
-core.com.itextpdf.text.pdf.fonts.cmaps.CMapParser$LiteralName
-core.com.itextpdf.text.pdf.fonts.cmaps.CMapParser$Operator
-core.com.itextpdf.text.pdf.fonts.cmaps.CodespaceRange
-core.com.itextpdf.text.pdf.fonts.FontsResourceAnchor
-core.com.itextpdf.text.pdf.FontSelector
-core.com.itextpdf.text.pdf.GlyphList
-core.com.itextpdf.text.pdf.GrayColor
-core.com.itextpdf.text.pdf.hyphenation.ByteVector
-core.com.itextpdf.text.pdf.hyphenation.CharVector
-core.com.itextpdf.text.pdf.hyphenation.Hyphen
-core.com.itextpdf.text.pdf.hyphenation.Hyphenation
-core.com.itextpdf.text.pdf.hyphenation.HyphenationException
-core.com.itextpdf.text.pdf.hyphenation.HyphenationTree
-core.com.itextpdf.text.pdf.hyphenation.Hyphenator
-core.com.itextpdf.text.pdf.hyphenation.PatternConsumer
-core.com.itextpdf.text.pdf.hyphenation.SimplePatternParser
-core.com.itextpdf.text.pdf.hyphenation.TernaryTree
-core.com.itextpdf.text.pdf.hyphenation.TernaryTree$Iterator
-core.com.itextpdf.text.pdf.hyphenation.TernaryTree$Iterator$Item
-core.com.itextpdf.text.pdf.HyphenationAuto
-core.com.itextpdf.text.pdf.HyphenationEvent
-core.com.itextpdf.text.pdf.ICC_Profile
-core.com.itextpdf.text.pdf.interfaces.PdfAnnotations
-core.com.itextpdf.text.pdf.interfaces.PdfDocumentActions
-core.com.itextpdf.text.pdf.interfaces.PdfEncryptionSettings
-core.com.itextpdf.text.pdf.interfaces.PdfPageActions
-core.com.itextpdf.text.pdf.interfaces.PdfRunDirection
-core.com.itextpdf.text.pdf.interfaces.PdfVersion
-core.com.itextpdf.text.pdf.interfaces.PdfViewerPreferences
-core.com.itextpdf.text.pdf.interfaces.PdfXConformance
-core.com.itextpdf.text.pdf.internal.PdfAnnotationsImp
-core.com.itextpdf.text.pdf.internal.PdfVersionImp
-core.com.itextpdf.text.pdf.internal.PdfViewerPreferencesImp
-core.com.itextpdf.text.pdf.internal.PdfXConformanceImp
-core.com.itextpdf.text.pdf.internal.PolylineShape
-core.com.itextpdf.text.pdf.internal.PolylineShapeIterator
-core.com.itextpdf.text.pdf.IntHashtable
-core.com.itextpdf.text.pdf.IntHashtable$Entry
-core.com.itextpdf.text.pdf.IntHashtable$IntHashtableIterator
-core.com.itextpdf.text.pdf.LZWDecoder
-core.com.itextpdf.text.pdf.MappedRandomAccessFile
-core.com.itextpdf.text.pdf.MultiColumnText
-core.com.itextpdf.text.pdf.MultiColumnText$ColumnDef
-core.com.itextpdf.text.pdf.OcspClient
-core.com.itextpdf.text.pdf.OcspClientBouncyCastle
-core.com.itextpdf.text.pdf.OutputStreamCounter
-core.com.itextpdf.text.pdf.OutputStreamEncryption
-core.com.itextpdf.text.pdf.PageResources
-core.com.itextpdf.text.pdf.parser.ContentByteUtils
-core.com.itextpdf.text.pdf.parser.ContentOperator
-core.com.itextpdf.text.pdf.parser.FilteredRenderListener
-core.com.itextpdf.text.pdf.parser.FilteredTextRenderListener
-core.com.itextpdf.text.pdf.parser.GraphicsState
-core.com.itextpdf.text.pdf.parser.ImageRenderInfo
-core.com.itextpdf.text.pdf.parser.LineSegment
-core.com.itextpdf.text.pdf.parser.LocationTextExtractionStrategy
-core.com.itextpdf.text.pdf.parser.LocationTextExtractionStrategy$TextChunk
-core.com.itextpdf.text.pdf.parser.MarkedContentInfo
-core.com.itextpdf.text.pdf.parser.MarkedContentRenderFilter
-core.com.itextpdf.text.pdf.parser.Matrix
-core.com.itextpdf.text.pdf.parser.PdfContentReaderTool
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$EmbeddedImageInfo
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$ResourceDictionary
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$IgnoreOperatorContentOperator
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$ShowTextArray
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$MoveNextLineAndShowTextWithSpacing
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$MoveNextLineAndShowText
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$ShowText
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$TextMoveNextLine
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$TextSetTextMatrix
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$TextMoveStartNextLineWithLeading
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$TextMoveStartNextLine
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$SetTextFont
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$SetTextRenderMode
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$SetTextRise
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$SetTextLeading
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$SetTextHorizontalScaling
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$SetTextCharacterSpacing
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$SetTextWordSpacing
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$ProcessGraphicsStateResource
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$PushGraphicsState
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$ModifyCurrentTransformationMatrix
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$PopGraphicsState
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$BeginText
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$EndText
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$BeginMarkedContent
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$BeginMarkedContentDictionary
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$EndMarkedContent
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$Do
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$FormXObjectDoHandler
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$ImageXObjectDoHandler
-core.com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$IgnoreXObjectDoHandler
-core.com.itextpdf.text.pdf.parser.PdfImageObject
-core.com.itextpdf.text.pdf.parser.PdfReaderContentParser
-core.com.itextpdf.text.pdf.parser.PdfTextExtractor
-core.com.itextpdf.text.pdf.parser.RegionTextRenderFilter
-core.com.itextpdf.text.pdf.parser.RenderFilter
-core.com.itextpdf.text.pdf.parser.RenderListener
-core.com.itextpdf.text.pdf.parser.SimpleTextExtractionStrategy
-core.com.itextpdf.text.pdf.parser.TaggedPdfReaderTool
-core.com.itextpdf.text.pdf.parser.TextExtractionStrategy
-core.com.itextpdf.text.pdf.parser.TextMarginFinder
-core.com.itextpdf.text.pdf.parser.TextRenderInfo
-core.com.itextpdf.text.pdf.parser.Vector
-core.com.itextpdf.text.pdf.parser.XObjectDoHandler
-core.com.itextpdf.text.pdf.PatternColor
-core.com.itextpdf.text.pdf.PdfAcroForm
-core.com.itextpdf.text.pdf.PdfAction
-core.com.itextpdf.text.pdf.PdfAnnotation
-core.com.itextpdf.text.pdf.PdfAnnotation$PdfImportedLink
-core.com.itextpdf.text.pdf.PdfAppearance
-core.com.itextpdf.text.pdf.PdfArray
-core.com.itextpdf.text.pdf.PdfBoolean
-core.com.itextpdf.text.pdf.PdfBorderArray
-core.com.itextpdf.text.pdf.PdfBorderDictionary
-core.com.itextpdf.text.pdf.PdfChunk
-core.com.itextpdf.text.pdf.PdfColor
-core.com.itextpdf.text.pdf.PdfContentByte
-core.com.itextpdf.text.pdf.PdfContentByte$GraphicState
-core.com.itextpdf.text.pdf.PdfContentParser
-core.com.itextpdf.text.pdf.PdfContents
-core.com.itextpdf.text.pdf.PdfCopy
-core.com.itextpdf.text.pdf.PdfCopy$IndirectReferences
-core.com.itextpdf.text.pdf.PdfCopy$RefKey
-core.com.itextpdf.text.pdf.PdfCopy$PageStamp
-core.com.itextpdf.text.pdf.PdfCopy$StampContent
-core.com.itextpdf.text.pdf.PdfCopyFields
-core.com.itextpdf.text.pdf.PdfCopyFieldsImp
-core.com.itextpdf.text.pdf.PdfCopyForms
-core.com.itextpdf.text.pdf.PdfCopyFormsImp
-core.com.itextpdf.text.pdf.PdfDashPattern
-core.com.itextpdf.text.pdf.PdfDate
-core.com.itextpdf.text.pdf.PdfDestination
-core.com.itextpdf.text.pdf.PdfDeveloperExtension
-core.com.itextpdf.text.pdf.PdfDictionary
-core.com.itextpdf.text.pdf.PdfDocument
-core.com.itextpdf.text.pdf.PdfDocument$PdfInfo
-core.com.itextpdf.text.pdf.PdfDocument$PdfCatalog
-core.com.itextpdf.text.pdf.PdfDocument$Indentation
-core.com.itextpdf.text.pdf.PdfDocument$Destination
-core.com.itextpdf.text.pdf.PdfEFStream
-core.com.itextpdf.text.pdf.PdfEncodings
-core.com.itextpdf.text.pdf.PdfEncodings$WingdingsConversion
-core.com.itextpdf.text.pdf.PdfEncodings$Cp437Conversion
-core.com.itextpdf.text.pdf.PdfEncodings$SymbolConversion
-core.com.itextpdf.text.pdf.PdfEncodings$SymbolTTConversion
-core.com.itextpdf.text.pdf.PdfEncryption
-core.com.itextpdf.text.pdf.PdfEncryptor
-core.com.itextpdf.text.pdf.PdfException
-core.com.itextpdf.text.pdf.PdfFileSpecification
-core.com.itextpdf.text.pdf.PdfFont
-core.com.itextpdf.text.pdf.PdfFormField
-core.com.itextpdf.text.pdf.PdfFormXObject
-core.com.itextpdf.text.pdf.PdfFunction
-core.com.itextpdf.text.pdf.PdfGraphics2D
-core.com.itextpdf.text.pdf.PdfGraphics2D$Kid
-core.com.itextpdf.text.pdf.PdfGraphics2D$FakeComponent
-core.com.itextpdf.text.pdf.PdfGraphics2D$HyperLinkKey
-core.com.itextpdf.text.pdf.PdfGState
-core.com.itextpdf.text.pdf.PdfICCBased
-core.com.itextpdf.text.pdf.PdfImage
-core.com.itextpdf.text.pdf.PdfImportedPage
-core.com.itextpdf.text.pdf.PdfIndirectObject
-core.com.itextpdf.text.pdf.PdfIndirectReference
-core.com.itextpdf.text.pdf.PdfLayer
-core.com.itextpdf.text.pdf.PdfLayerMembership
-core.com.itextpdf.text.pdf.PdfLine
-core.com.itextpdf.text.pdf.PdfLister
-core.com.itextpdf.text.pdf.PdfLiteral
-core.com.itextpdf.text.pdf.PdfMediaClipData
-core.com.itextpdf.text.pdf.PdfName
-core.com.itextpdf.text.pdf.PdfNameTree
-core.com.itextpdf.text.pdf.PdfNull
-core.com.itextpdf.text.pdf.PdfNumber
-core.com.itextpdf.text.pdf.PdfNumberTree
-core.com.itextpdf.text.pdf.PdfObject
-core.com.itextpdf.text.pdf.PdfOCG
-core.com.itextpdf.text.pdf.PdfOCProperties
-core.com.itextpdf.text.pdf.PdfOutline
-core.com.itextpdf.text.pdf.PdfPage
-core.com.itextpdf.text.pdf.PdfPageElement
-core.com.itextpdf.text.pdf.PdfPageEvent
-core.com.itextpdf.text.pdf.PdfPageEventHelper
-core.com.itextpdf.text.pdf.PdfPageLabels
-core.com.itextpdf.text.pdf.PdfPageLabels$PdfPageLabelFormat
-core.com.itextpdf.text.pdf.PdfPages
-core.com.itextpdf.text.pdf.PdfPattern
-core.com.itextpdf.text.pdf.PdfPatternPainter
-core.com.itextpdf.text.pdf.PdfPCell
-core.com.itextpdf.text.pdf.PdfPCellEvent
-core.com.itextpdf.text.pdf.PdfPKCS7
-core.com.itextpdf.text.pdf.PdfPKCS7$X509Name
-core.com.itextpdf.text.pdf.PdfPKCS7$X509NameTokenizer
-core.com.itextpdf.text.pdf.PdfPrinterGraphics2D
-core.com.itextpdf.text.pdf.PdfPRow
-core.com.itextpdf.text.pdf.PdfPSXObject
-core.com.itextpdf.text.pdf.PdfPTable
-core.com.itextpdf.text.pdf.PdfPTableEvent
-core.com.itextpdf.text.pdf.PdfPublicKeyRecipient
-core.com.itextpdf.text.pdf.PdfPublicKeySecurityHandler
-core.com.itextpdf.text.pdf.PdfReader
-core.com.itextpdf.text.pdf.PdfReader$PageRefs
-core.com.itextpdf.text.pdf.PdfReaderInstance
-core.com.itextpdf.text.pdf.PdfRectangle
-core.com.itextpdf.text.pdf.PdfRendition
-core.com.itextpdf.text.pdf.PdfResources
-core.com.itextpdf.text.pdf.PdfShading
-core.com.itextpdf.text.pdf.PdfShadingPattern
-core.com.itextpdf.text.pdf.PdfSigGenericPKCS
-core.com.itextpdf.text.pdf.PdfSigGenericPKCS$VeriSign
-core.com.itextpdf.text.pdf.PdfSigGenericPKCS$PPKLite
-core.com.itextpdf.text.pdf.PdfSigGenericPKCS$PPKMS
-core.com.itextpdf.text.pdf.PdfSignature
-core.com.itextpdf.text.pdf.PdfSignatureAppearance
-core.com.itextpdf.text.pdf.PdfSignatureAppearance$RangeStream
-core.com.itextpdf.text.pdf.PdfSignatureAppearance$SignatureEvent
-core.com.itextpdf.text.pdf.PdfSmartCopy
-core.com.itextpdf.text.pdf.PdfSmartCopy$ByteStore
-core.com.itextpdf.text.pdf.PdfSpotColor
-core.com.itextpdf.text.pdf.PdfStamper
-core.com.itextpdf.text.pdf.PdfStamperImp
-core.com.itextpdf.text.pdf.PdfStamperImp$PageStamp
-core.com.itextpdf.text.pdf.PdfStream
-core.com.itextpdf.text.pdf.PdfString
-core.com.itextpdf.text.pdf.PdfStructureElement
-core.com.itextpdf.text.pdf.PdfStructureTreeRoot
-core.com.itextpdf.text.pdf.PdfTemplate
-core.com.itextpdf.text.pdf.PdfTextArray
-core.com.itextpdf.text.pdf.PdfTransition
-core.com.itextpdf.text.pdf.PdfTransparencyGroup
-core.com.itextpdf.text.pdf.PdfVisibilityExpression
-core.com.itextpdf.text.pdf.PdfWriter
-core.com.itextpdf.text.pdf.PdfWriter$PdfBody
-core.com.itextpdf.text.pdf.PdfWriter$PdfBody$PdfCrossReference
-core.com.itextpdf.text.pdf.PdfWriter$PdfTrailer
-core.com.itextpdf.text.pdf.PdfXConformanceException
-core.com.itextpdf.text.pdf.Pfm2afm
-core.com.itextpdf.text.pdf.PRAcroForm
-core.com.itextpdf.text.pdf.PRAcroForm$FieldInformation
-core.com.itextpdf.text.pdf.PRIndirectReference
-core.com.itextpdf.text.pdf.PRStream
-core.com.itextpdf.text.pdf.PRTokeniser
-core.com.itextpdf.text.pdf.PushbuttonField
-core.com.itextpdf.text.pdf.qrcode.BitArray
-core.com.itextpdf.text.pdf.qrcode.BitMatrix
-core.com.itextpdf.text.pdf.qrcode.BitVector
-core.com.itextpdf.text.pdf.qrcode.BlockPair
-core.com.itextpdf.text.pdf.qrcode.ByteArray
-core.com.itextpdf.text.pdf.qrcode.ByteMatrix
-core.com.itextpdf.text.pdf.qrcode.CharacterSetECI
-core.com.itextpdf.text.pdf.qrcode.EncodeHintType
-core.com.itextpdf.text.pdf.qrcode.Encoder
-core.com.itextpdf.text.pdf.qrcode.ErrorCorrectionLevel
-core.com.itextpdf.text.pdf.qrcode.FormatInformation
-core.com.itextpdf.text.pdf.qrcode.GF256
-core.com.itextpdf.text.pdf.qrcode.GF256Poly
-core.com.itextpdf.text.pdf.qrcode.MaskUtil
-core.com.itextpdf.text.pdf.qrcode.MatrixUtil
-core.com.itextpdf.text.pdf.qrcode.Mode
-core.com.itextpdf.text.pdf.qrcode.QRCode
-core.com.itextpdf.text.pdf.qrcode.QRCodeWriter
-core.com.itextpdf.text.pdf.qrcode.ReedSolomonEncoder
-core.com.itextpdf.text.pdf.qrcode.ReedSolomonException
-core.com.itextpdf.text.pdf.qrcode.Version
-core.com.itextpdf.text.pdf.qrcode.Version$ECBlocks
-core.com.itextpdf.text.pdf.qrcode.Version$ECB
-core.com.itextpdf.text.pdf.qrcode.WriterException
-core.com.itextpdf.text.pdf.RadioCheckField
-core.com.itextpdf.text.pdf.RandomAccessFileOrArray
-core.com.itextpdf.text.pdf.richmedia.CuePoint
-core.com.itextpdf.text.pdf.richmedia.RichMediaActivation
-core.com.itextpdf.text.pdf.richmedia.RichMediaAnimation
-core.com.itextpdf.text.pdf.richmedia.RichMediaAnnotation
-core.com.itextpdf.text.pdf.richmedia.RichMediaCommand
-core.com.itextpdf.text.pdf.richmedia.RichMediaConfiguration
-core.com.itextpdf.text.pdf.richmedia.RichMediaDeactivation
-core.com.itextpdf.text.pdf.richmedia.RichMediaExecuteAction
-core.com.itextpdf.text.pdf.richmedia.RichMediaInstance
-core.com.itextpdf.text.pdf.richmedia.RichMediaParams
-core.com.itextpdf.text.pdf.richmedia.RichMediaPosition
-core.com.itextpdf.text.pdf.richmedia.RichMediaPresentation
-core.com.itextpdf.text.pdf.richmedia.RichMediaWindow
-core.com.itextpdf.text.pdf.SequenceList
-core.com.itextpdf.text.pdf.ShadingColor
-core.com.itextpdf.text.pdf.SimpleBookmark
-core.com.itextpdf.text.pdf.SimpleNamedDestination
-core.com.itextpdf.text.pdf.SpotColor
-core.com.itextpdf.text.pdf.StampContent
-core.com.itextpdf.text.pdf.StandardDecryption
-core.com.itextpdf.text.pdf.TextField
-core.com.itextpdf.text.pdf.TrueTypeFont
-core.com.itextpdf.text.pdf.TrueTypeFont$FontHeader
-core.com.itextpdf.text.pdf.TrueTypeFont$HorizontalHeader
-core.com.itextpdf.text.pdf.TrueTypeFont$WindowsMetrics
-core.com.itextpdf.text.pdf.TrueTypeFontSubSet
-core.com.itextpdf.text.pdf.TrueTypeFontUnicode
-core.com.itextpdf.text.pdf.TSAClient
-core.com.itextpdf.text.pdf.TSAClientBouncyCastle
-core.com.itextpdf.text.pdf.Type1Font
-core.com.itextpdf.text.pdf.Type3Font
-core.com.itextpdf.text.pdf.Type3Glyph
-core.com.itextpdf.text.pdf.VerticalText
-core.com.itextpdf.text.pdf.XfaForm
-core.com.itextpdf.text.pdf.XfaForm$InverseStore
-core.com.itextpdf.text.pdf.XfaForm$Stack2
-core.com.itextpdf.text.pdf.XfaForm$Xml2Som
-core.com.itextpdf.text.pdf.XfaForm$Xml2SomDatasets
-core.com.itextpdf.text.pdf.XfaForm$AcroFieldsSearch
-core.com.itextpdf.text.pdf.XfaForm$Xml2SomTemplate
-core.com.itextpdf.text.pdf.XfdfReader
-core.com.itextpdf.text.Phrase
-core.com.itextpdf.text.Rectangle
-core.com.itextpdf.text.RectangleReadOnly
-core.com.itextpdf.text.RomanList
-core.com.itextpdf.text.RtfElementInterface
-core.com.itextpdf.text.Section
-core.com.itextpdf.text.SpecialSymbol
-core.com.itextpdf.text.SplitCharacter
-core.com.itextpdf.text.TextElementArray
-core.com.itextpdf.text.Utilities
-core.com.itextpdf.text.xml.simpleparser.EntitiesToSymbol
-core.com.itextpdf.text.xml.simpleparser.EntitiesToUnicode
-core.com.itextpdf.text.xml.simpleparser.IanaEncodings
-core.com.itextpdf.text.xml.simpleparser.SimpleXMLDocHandler
-core.com.itextpdf.text.xml.simpleparser.SimpleXMLDocHandlerComment
-core.com.itextpdf.text.xml.simpleparser.SimpleXMLParser
-core.com.itextpdf.text.xml.XmlDomWriter
-core.com.itextpdf.text.xml.xmp.DublinCoreSchema
-core.com.itextpdf.text.xml.xmp.LangAlt
-core.com.itextpdf.text.xml.xmp.PdfA1Schema
-core.com.itextpdf.text.xml.xmp.PdfSchema
-core.com.itextpdf.text.xml.xmp.XmpArray
-core.com.itextpdf.text.xml.xmp.XmpBasicSchema
-core.com.itextpdf.text.xml.xmp.XmpMMSchema
-core.com.itextpdf.text.xml.xmp.XmpReader
-core.com.itextpdf.text.xml.xmp.XmpSchema
-core.com.itextpdf.text.xml.xmp.XmpWriter
-core.com.itextpdf.text.ZapfDingbatsList
-core.com.itextpdf.text.ZapfDingbatsNumberList
-rups.com.itextpdf.rups.controller.PdfReaderController
-rups.com.itextpdf.rups.controller.RupsController
-rups.com.itextpdf.rups.io.FileChooserAction
-rups.com.itextpdf.rups.io.FileCloseAction
-rups.com.itextpdf.rups.io.filters.PdfFilter
-rups.com.itextpdf.rups.io.OutputStreamResource
-rups.com.itextpdf.rups.io.TextAreaOutputStream
-rups.com.itextpdf.rups.model.BackgroundTask
-rups.com.itextpdf.rups.model.BackgroundTask$ThreadWrapper
-rups.com.itextpdf.rups.model.IndirectObjectFactory
-rups.com.itextpdf.rups.model.ObjectLoader
-rups.com.itextpdf.rups.model.PdfFile
-rups.com.itextpdf.rups.model.Permissions
-rups.com.itextpdf.rups.model.ProgressDialog
-rups.com.itextpdf.rups.model.TreeNodeFactory
-rups.com.itextpdf.rups.model.XfaFile
-rups.com.itextpdf.rups.Rups
-rups.com.itextpdf.rups.view.Console
-rups.com.itextpdf.rups.view.Console$ReadWriteThread
-rups.com.itextpdf.rups.view.Console$ConsoleStyleContext
-rups.com.itextpdf.rups.view.icons.IconActionListener
-rups.com.itextpdf.rups.view.icons.IconButton
-rups.com.itextpdf.rups.view.icons.IconFetcher
-rups.com.itextpdf.rups.view.icons.IconTreeCellRenderer
-rups.com.itextpdf.rups.view.icons.IconTreeNode
-rups.com.itextpdf.rups.view.itext.FormTree
-rups.com.itextpdf.rups.view.itext.OutlineTree
-rups.com.itextpdf.rups.view.itext.PagesTable
-rups.com.itextpdf.rups.view.itext.PdfObjectPanel
-rups.com.itextpdf.rups.view.itext.PdfTree
-rups.com.itextpdf.rups.view.itext.StreamTextArea
-rups.com.itextpdf.rups.view.itext.treenodes.FormTreeNode
-rups.com.itextpdf.rups.view.itext.treenodes.OutlineTreeNode
-rups.com.itextpdf.rups.view.itext.treenodes.PdfObjectTreeNode
-rups.com.itextpdf.rups.view.itext.treenodes.PdfPagesTreeNode
-rups.com.itextpdf.rups.view.itext.treenodes.PdfPageTreeNode
-rups.com.itextpdf.rups.view.itext.treenodes.PdfTrailerTreeNode
-rups.com.itextpdf.rups.view.itext.treenodes.XdpTreeNode
-rups.com.itextpdf.rups.view.itext.treenodes.XfaTreeNode
-rups.com.itextpdf.rups.view.itext.XfaTextArea
-rups.com.itextpdf.rups.view.itext.XfaTree
-rups.com.itextpdf.rups.view.itext.XRefTable
-rups.com.itextpdf.rups.view.MessageAction
-rups.com.itextpdf.rups.view.models.DictionaryTableModel
-rups.com.itextpdf.rups.view.models.JTableAutoModel
-rups.com.itextpdf.rups.view.models.JTableAutoModelInterface
-rups.com.itextpdf.rups.view.models.PdfArrayTableModel
-rups.com.itextpdf.rups.view.PageSelectionListener
-rups.com.itextpdf.rups.view.RupsMenuBar
+com.itextpdf.text.Meta	classe	9
+com.itextpdf.text.ImgRaw	classe	0
+com.itextpdf.text.BaseColor	classe	10
+com.itextpdf.text.Element	interface	6
+com.itextpdf.text.LargeElement	interface	3
+com.itextpdf.text.MarkedObject	classe	7
+com.itextpdf.text.FontFactoryImp	classe	24
+com.itextpdf.text.Image	classe	103
+com.itextpdf.text.ChapterAutoNumber	classe	3
+com.itextpdf.text.FontProvider	interface	2
+com.itextpdf.text.Jpeg2000	classe	3
+com.itextpdf.text.MarkedSection	classe	18
+com.itextpdf.text.RomanList	classe	1
+com.itextpdf.text.Utilities	classe	22
+com.itextpdf.text.FontFactory	classe	27
+com.itextpdf.text.PageSize	classe	1
+com.itextpdf.text.List	classe	37
+com.itextpdf.text.ElementListener	interface	1
+com.itextpdf.text.ElementTags	classe	2
+com.itextpdf.text.ListItem	classe	4
+com.itextpdf.text.ImgCCITT	classe	0
+com.itextpdf.text.pdf.PdfBoolean	classe	2
+com.itextpdf.text.pdf.StampContent	classe	4
+com.itextpdf.text.pdf.PdfCopy	classe	21
+com.itextpdf.text.pdf.PdfCopy$IndirectReferences	classe	3
+com.itextpdf.text.pdf.PdfCopy$RefKey	classe	3
+com.itextpdf.text.pdf.PdfCopy$PageStamp	classe	7
+com.itextpdf.text.pdf.PdfCopy$StampContent	classe	2
+com.itextpdf.text.pdf.AcroFields	classe	59
+com.itextpdf.text.pdf.AcroFields$Item	classe	17
+com.itextpdf.text.pdf.AcroFields$InstHit	classe	1
+com.itextpdf.text.pdf.AcroFields$RevisionStream	classe	3
+com.itextpdf.text.pdf.AcroFields$SorterComparator	classe	1
+com.itextpdf.text.pdf.AcroFields$FieldPosition	classe	0
+com.itextpdf.text.pdf.PdfNameTree	classe	3
+com.itextpdf.text.pdf.PRTokeniser	classe	27
+com.itextpdf.text.pdf.PRTokeniser$TokenType	enum	0
+com.itextpdf.text.pdf.ExtraEncoding	interface	3
+com.itextpdf.text.pdf.CJKFont	classe	32
+com.itextpdf.text.pdf.Pfm2afm	classe	11
+com.itextpdf.text.pdf.crypto.IVGenerator	classe	2
+com.itextpdf.text.pdf.crypto.AESCipher	classe	2
+com.itextpdf.text.pdf.crypto.ARCFOUREncryption	classe	6
+com.itextpdf.text.pdf.VerticalText	classe	19
+com.itextpdf.text.pdf.PdfPageElement	interface	2
+com.itextpdf.text.pdf.PdfFileSpecification	classe	13
+com.itextpdf.text.pdf.PushbuttonField	classe	21
+com.itextpdf.text.pdf.PdfEncodings	classe	15
+com.itextpdf.text.pdf.PdfEncodings$WingdingsConversion	classe	3
+com.itextpdf.text.pdf.PdfEncodings$Cp437Conversion	classe	3
+com.itextpdf.text.pdf.PdfEncodings$SymbolConversion	classe	3
+com.itextpdf.text.pdf.PdfEncodings$SymbolTTConversion	classe	3
+com.itextpdf.text.pdf.LZWDecoder	classe	7
+com.itextpdf.text.pdf.XfaForm	classe	30
+com.itextpdf.text.pdf.XfaForm$InverseStore	classe	2
+com.itextpdf.text.pdf.XfaForm$Stack2	classe	4
+com.itextpdf.text.pdf.XfaForm$Xml2Som	classe	14
+com.itextpdf.text.pdf.XfaForm$Xml2SomDatasets	classe	3
+com.itextpdf.text.pdf.XfaForm$AcroFieldsSearch	classe	2
+com.itextpdf.text.pdf.XfaForm$Xml2SomTemplate	classe	4
+com.itextpdf.text.pdf.PdfStructureTreeRoot	classe	6
+com.itextpdf.text.pdf.collection.PdfCollectionItem	classe	9
+com.itextpdf.text.pdf.collection.PdfCollectionSchema	classe	1
+com.itextpdf.text.pdf.collection.PdfCollection	classe	4
+com.itextpdf.text.pdf.collection.PdfTargetDictionary	classe	6
+com.itextpdf.text.pdf.collection.PdfCollectionField	classe	5
+com.itextpdf.text.pdf.collection.PdfCollectionSort	classe	2
+com.itextpdf.text.pdf.PRAcroForm	classe	8
+com.itextpdf.text.pdf.PRAcroForm$FieldInformation	classe	3
+com.itextpdf.text.pdf.PdfIndirectReference	classe	3
+com.itextpdf.text.pdf.EnumerateTTC	classe	2
+com.itextpdf.text.pdf.PdfPSXObject	classe	2
+com.itextpdf.text.pdf.Barcode128	classe	10
+com.itextpdf.text.pdf.PRIndirectReference	classe	3
+com.itextpdf.text.pdf.SimpleBookmark	classe	19
+com.itextpdf.text.pdf.PdfDate	classe	4
+com.itextpdf.text.pdf.CFFFont	classe	16
+com.itextpdf.text.pdf.CFFFont$Item	classe	3
+com.itextpdf.text.pdf.CFFFont$OffsetItem	classe	1
+com.itextpdf.text.pdf.CFFFont$RangeItem	classe	2
+com.itextpdf.text.pdf.CFFFont$IndexOffsetItem	classe	2
+com.itextpdf.text.pdf.CFFFont$IndexBaseItem	classe	0
+com.itextpdf.text.pdf.CFFFont$IndexMarkerItem	classe	1
+com.itextpdf.text.pdf.CFFFont$SubrMarkerItem	classe	1
+com.itextpdf.text.pdf.CFFFont$DictOffsetItem	classe	2
+com.itextpdf.text.pdf.CFFFont$UInt24Item	classe	2
+com.itextpdf.text.pdf.CFFFont$UInt32Item	classe	2
+com.itextpdf.text.pdf.CFFFont$UInt16Item	classe	2
+com.itextpdf.text.pdf.CFFFont$UInt8Item	classe	2
+com.itextpdf.text.pdf.CFFFont$StringItem	classe	2
+com.itextpdf.text.pdf.CFFFont$DictNumberItem	classe	2
+com.itextpdf.text.pdf.CFFFont$MarkerItem	classe	1
+com.itextpdf.text.pdf.CFFFont$Font	classe	0
+com.itextpdf.text.pdf.PdfLayerMembership	classe	6
+com.itextpdf.text.pdf.TSAClient	interface	2
+com.itextpdf.text.pdf.PdfGState	classe	9
+com.itextpdf.text.pdf.PdfLine	classe	26
+com.itextpdf.text.pdf.PdfEncryption	classe	26
+com.itextpdf.text.pdf.PdfPTable	classe	87
+com.itextpdf.text.pdf.BarcodeDatamatrix	classe	25
+com.itextpdf.text.pdf.BarcodeDatamatrix$DmParams	classe	0
+com.itextpdf.text.pdf.BarcodeDatamatrix$Placement	classe	8
+com.itextpdf.text.pdf.BarcodeDatamatrix$ReedSolomon	classe	3
+com.itextpdf.text.pdf.DefaultSplitCharacter	classe	2
+com.itextpdf.text.pdf.BaseField	classe	41
+com.itextpdf.text.pdf.PdfCopyFields	classe	16
+com.itextpdf.text.pdf.RandomAccessFileOrArray	classe	42
+com.itextpdf.text.pdf.BarcodePDF417	classe	54
+com.itextpdf.text.pdf.BarcodePDF417$Segment	classe	0
+com.itextpdf.text.pdf.BarcodePDF417$SegmentList	classe	4
+com.itextpdf.text.pdf.TSAClientBouncyCastle	classe	4
+com.itextpdf.text.pdf.PatternColor	classe	3
+com.itextpdf.text.pdf.XfdfReader	classe	10
+com.itextpdf.text.pdf.FontDetails	classe	7
+com.itextpdf.text.pdf.PdfVisibilityExpression	classe	5
+com.itextpdf.text.pdf.PdfDeveloperExtension	classe	4
+com.itextpdf.text.pdf.PdfCopyFormsImp	classe	2
+com.itextpdf.text.pdf.PdfResources	classe	1
+com.itextpdf.text.pdf.PdfString	classe	10
+com.itextpdf.text.pdf.PdfEncryptor	classe	15
+com.itextpdf.text.pdf.PdfLiteral	classe	3
+com.itextpdf.text.pdf.PdfCopyFieldsImp	classe	25
+com.itextpdf.text.pdf.PdfGraphics2D	classe	89
+com.itextpdf.text.pdf.PdfGraphics2D$Kid	classe	0
+com.itextpdf.text.pdf.PdfGraphics2D$FakeComponent	classe	0
+com.itextpdf.text.pdf.PdfGraphics2D$HyperLinkKey	classe	2
+com.itextpdf.text.pdf.PdfReader	classe	127
+com.itextpdf.text.pdf.PdfReader$PageRefs	classe	16
+com.itextpdf.text.pdf.PdfAppearance	classe	4
+com.itextpdf.text.pdf.PdfObject	classe	18
+com.itextpdf.text.pdf.PdfTemplate	classe	22
+com.itextpdf.text.pdf.PdfSigGenericPKCS	classe	5
+com.itextpdf.text.pdf.PdfSigGenericPKCS$VeriSign	classe	0
+com.itextpdf.text.pdf.PdfSigGenericPKCS$PPKLite	classe	0
+com.itextpdf.text.pdf.PdfSigGenericPKCS$PPKMS	classe	0
+com.itextpdf.text.pdf.codec.TIFFConstants	classe	0
+com.itextpdf.text.pdf.codec.wmf.MetaDo	classe	8
+com.itextpdf.text.pdf.codec.wmf.Point	classe	0
+com.itextpdf.text.pdf.codec.wmf.InputMeta	classe	7
+com.itextpdf.text.pdf.codec.wmf.MetaPen	classe	4
+com.itextpdf.text.pdf.codec.wmf.MetaFont	classe	6
+com.itextpdf.text.pdf.codec.wmf.MetaObject	classe	1
+com.itextpdf.text.pdf.codec.wmf.MetaBrush	classe	4
+com.itextpdf.text.pdf.codec.wmf.MetaState	classe	34
+com.itextpdf.text.pdf.codec.LZWStringTable	classe	6
+com.itextpdf.text.pdf.codec.Base64	classe	23
+com.itextpdf.text.pdf.codec.Base64$InputStream	classe	2
+com.itextpdf.text.pdf.codec.Base64$OutputStream	classe	6
+com.itextpdf.text.pdf.codec.TIFFField	classe	20
+com.itextpdf.text.pdf.codec.TIFFFaxDecompressor	classe	14
+com.itextpdf.text.pdf.codec.PngImage	classe	22
+com.itextpdf.text.pdf.codec.PngImage$NewByteArrayOutputStream	classe	1
+com.itextpdf.text.pdf.codec.TIFFLZWDecoder	classe	7
+com.itextpdf.text.pdf.codec.BitFile	classe	2
+com.itextpdf.text.pdf.codec.TIFFFaxDecoder	classe	14
+com.itextpdf.text.pdf.codec.JBIG2SegmentReader	classe	11
+com.itextpdf.text.pdf.codec.JBIG2SegmentReader$JBIG2Segment	classe	1
+com.itextpdf.text.pdf.codec.JBIG2SegmentReader$JBIG2Page	classe	2
+com.itextpdf.text.pdf.codec.BmpImage	classe	28
+com.itextpdf.text.pdf.codec.TIFFDirectory	classe	28
+com.itextpdf.text.pdf.codec.LZWCompressor	classe	2
+com.itextpdf.text.pdf.codec.CCITTG4Encoder	classe	14
+com.itextpdf.text.pdf.codec.PngWriter	classe	12
+com.itextpdf.text.pdf.codec.GifImage	classe	18
+com.itextpdf.text.pdf.codec.GifImage$GifFrame	classe	0
+com.itextpdf.text.pdf.codec.TiffImage	classe	8
+com.itextpdf.text.pdf.codec.JBIG2Image	classe	3
+com.itextpdf.text.pdf.codec.TiffWriter	classe	6
+com.itextpdf.text.pdf.codec.TiffWriter$FieldBase	classe	5
+com.itextpdf.text.pdf.codec.TiffWriter$FieldShort	classe	0
+com.itextpdf.text.pdf.codec.TiffWriter$FieldLong	classe	0
+com.itextpdf.text.pdf.codec.TiffWriter$FieldRational	classe	0
+com.itextpdf.text.pdf.codec.TiffWriter$FieldByte	classe	0
+com.itextpdf.text.pdf.codec.TiffWriter$FieldUndefined	classe	0
+com.itextpdf.text.pdf.codec.TiffWriter$FieldImage	classe	0
+com.itextpdf.text.pdf.codec.TiffWriter$FieldAscii	classe	0
+com.itextpdf.text.pdf.PdfImportedPage	classe	13
+com.itextpdf.text.pdf.PRStream	classe	12
+com.itextpdf.text.pdf.PdfPatternPainter	classe	36
+com.itextpdf.text.pdf.BarcodeEANSUPP	classe	3
+com.itextpdf.text.pdf.TrueTypeFontSubSet	classe	13
+com.itextpdf.text.pdf.BarcodeInter25	classe	6
+com.itextpdf.text.pdf.MultiColumnText	classe	26
+com.itextpdf.text.pdf.MultiColumnText$ColumnDef	classe	3
+com.itextpdf.text.pdf.PdfRectangle	classe	16
+com.itextpdf.text.pdf.PdfFormXObject	classe	0
+com.itextpdf.text.pdf.PdfOCProperties	classe	0
+com.itextpdf.text.pdf.PdfTransition	classe	3
+com.itextpdf.text.pdf.BarcodeCodabar	classe	5
+com.itextpdf.text.pdf.PdfPublicKeySecurityHandler	classe	7
+com.itextpdf.text.pdf.internal.PolylineShapeIterator	classe	5
+com.itextpdf.text.pdf.internal.PdfXConformanceImp	classe	10
+com.itextpdf.text.pdf.internal.PolylineShape	classe	11
+com.itextpdf.text.pdf.internal.PdfAnnotationsImp	classe	11
+com.itextpdf.text.pdf.internal.PdfViewerPreferencesImp	classe	8
+com.itextpdf.text.pdf.internal.PdfVersionImp	classe	9
+com.itextpdf.text.pdf.PdfFunction	classe	5
+com.itextpdf.text.pdf.PdfNumberTree	classe	3
+com.itextpdf.text.pdf.PdfStamper	classe	44
+com.itextpdf.text.pdf.PdfDashPattern	classe	2
+com.itextpdf.text.pdf.hyphenation.TernaryTree	classe	21
+com.itextpdf.text.pdf.hyphenation.TernaryTree$Iterator	classe	6
+com.itextpdf.text.pdf.hyphenation.TernaryTree$Iterator$Item	classe	1
+com.itextpdf.text.pdf.hyphenation.Hyphen	classe	1
+com.itextpdf.text.pdf.hyphenation.SimplePatternParser	classe	14
+com.itextpdf.text.pdf.hyphenation.HyphenationException	classe	0
+com.itextpdf.text.pdf.hyphenation.PatternConsumer	interface	3
+com.itextpdf.text.pdf.hyphenation.ByteVector	classe	7
+com.itextpdf.text.pdf.hyphenation.Hyphenation	classe	5
+com.itextpdf.text.pdf.hyphenation.CharVector	classe	9
+com.itextpdf.text.pdf.hyphenation.Hyphenator	classe	12
+com.itextpdf.text.pdf.hyphenation.HyphenationTree	classe	13
+com.itextpdf.text.pdf.PdfAcroForm	classe	34
+com.itextpdf.text.pdf.PdfPTableEvent	interface	1
+com.itextpdf.text.pdf.PdfSpotColor	classe	2
+com.itextpdf.text.pdf.Type1Font	classe	16
+com.itextpdf.text.pdf.PdfMediaClipData	classe	0
+com.itextpdf.text.pdf.PdfBorderDictionary	classe	0
+com.itextpdf.text.pdf.PdfName	classe	5
+com.itextpdf.text.pdf.PdfWriter	classe	149
+com.itextpdf.text.pdf.PdfWriter$PdfBody	classe	14
+com.itextpdf.text.pdf.PdfWriter$PdfBody$PdfCrossReference	classe	6
+com.itextpdf.text.pdf.PdfWriter$PdfTrailer	classe	1
+com.itextpdf.text.pdf.PdfPages	classe	7
+com.itextpdf.text.pdf.PdfPageEventHelper	classe	11
+com.itextpdf.text.pdf.PageResources	classe	14
+com.itextpdf.text.pdf.parser.TaggedPdfReaderTool	classe	5
+com.itextpdf.text.pdf.parser.Vector	classe	11
+com.itextpdf.text.pdf.parser.FilteredTextRenderListener	classe	1
+com.itextpdf.text.pdf.parser.PdfImageObject	classe	7
+com.itextpdf.text.pdf.parser.Matrix	classe	7
+com.itextpdf.text.pdf.parser.LineSegment	classe	5
+com.itextpdf.text.pdf.parser.FilteredRenderListener	classe	4
+com.itextpdf.text.pdf.parser.ContentOperator	interface	1
+com.itextpdf.text.pdf.parser.MarkedContentRenderFilter	classe	1
+com.itextpdf.text.pdf.parser.PdfTextExtractor	classe	2
+com.itextpdf.text.pdf.parser.GraphicsState	classe	10
+com.itextpdf.text.pdf.parser.PdfReaderContentParser	classe	1
+com.itextpdf.text.pdf.parser.SimpleTextExtractionStrategy	classe	5
+com.itextpdf.text.pdf.parser.RegionTextRenderFilter	classe	1
+com.itextpdf.text.pdf.parser.PdfContentReaderTool	classe	7
+com.itextpdf.text.pdf.parser.TextExtractionStrategy	interface	1
+com.itextpdf.text.pdf.parser.XObjectDoHandler	interface	1
+com.itextpdf.text.pdf.parser.ContentByteUtils	classe	2
+com.itextpdf.text.pdf.parser.RenderListener	interface	4
+com.itextpdf.text.pdf.parser.LocationTextExtractionStrategy	classe	6
+com.itextpdf.text.pdf.parser.LocationTextExtractionStrategy$TextChunk	classe	5
+com.itextpdf.text.pdf.parser.MarkedContentInfo	classe	3
+com.itextpdf.text.pdf.parser.TextMarginFinder	classe	10
+com.itextpdf.text.pdf.parser.RenderFilter	classe	2
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor	classe	17
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$EmbeddedImageInfo	classe	0
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$ResourceDictionary	classe	3
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$IgnoreOperatorContentOperator	classe	1
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$ShowTextArray	classe	1
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$MoveNextLineAndShowTextWithSpacing	classe	1
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$MoveNextLineAndShowText	classe	1
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$ShowText	classe	1
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$TextMoveNextLine	classe	1
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$TextSetTextMatrix	classe	1
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$TextMoveStartNextLineWithLeading	classe	1
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$TextMoveStartNextLine	classe	1
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$SetTextFont	classe	1
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$SetTextRenderMode	classe	1
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$SetTextRise	classe	1
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$SetTextLeading	classe	1
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$SetTextHorizontalScaling	classe	1
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$SetTextCharacterSpacing	classe	1
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$SetTextWordSpacing	classe	1
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$ProcessGraphicsStateResource	classe	1
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$PushGraphicsState	classe	1
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$ModifyCurrentTransformationMatrix	classe	1
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$PopGraphicsState	classe	1
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$BeginText	classe	1
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$EndText	classe	1
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$BeginMarkedContent	classe	1
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$BeginMarkedContentDictionary	classe	2
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$EndMarkedContent	classe	1
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$Do	classe	1
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$FormXObjectDoHandler	classe	1
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$ImageXObjectDoHandler	classe	1
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$IgnoreXObjectDoHandler	classe	1
+com.itextpdf.text.pdf.parser.TextRenderInfo	classe	12
+com.itextpdf.text.pdf.parser.ImageRenderInfo	classe	6
+com.itextpdf.text.pdf.PdfImage	classe	4
+com.itextpdf.text.pdf.MappedRandomAccessFile	classe	10
+com.itextpdf.text.pdf.Barcode	classe	37
+com.itextpdf.text.pdf.TextField	classe	30
+com.itextpdf.text.pdf.qrcode.GF256	classe	8
+com.itextpdf.text.pdf.qrcode.QRCode	classe	24
+com.itextpdf.text.pdf.qrcode.BitMatrix	classe	10
+com.itextpdf.text.pdf.qrcode.MaskUtil	classe	6
+com.itextpdf.text.pdf.qrcode.BitArray	classe	11
+com.itextpdf.text.pdf.qrcode.ByteMatrix	classe	8
+com.itextpdf.text.pdf.qrcode.GF256Poly	classe	11
+com.itextpdf.text.pdf.qrcode.Mode	classe	5
+com.itextpdf.text.pdf.qrcode.QRCodeWriter	classe	4
+com.itextpdf.text.pdf.qrcode.ReedSolomonEncoder	classe	2
+com.itextpdf.text.pdf.qrcode.WriterException	classe	0
+com.itextpdf.text.pdf.qrcode.ErrorCorrectionLevel	classe	5
+com.itextpdf.text.pdf.qrcode.BitVector	classe	10
+com.itextpdf.text.pdf.qrcode.MatrixUtil	classe	20
+com.itextpdf.text.pdf.qrcode.EncodeHintType	classe	0
+com.itextpdf.text.pdf.qrcode.BlockPair	classe	2
+com.itextpdf.text.pdf.qrcode.ReedSolomonException	classe	0
+com.itextpdf.text.pdf.qrcode.ByteArray	classe	7
+com.itextpdf.text.pdf.qrcode.Encoder	classe	21
+com.itextpdf.text.pdf.qrcode.Version	classe	11
+com.itextpdf.text.pdf.qrcode.Version$ECBlocks	classe	4
+com.itextpdf.text.pdf.qrcode.Version$ECB	classe	2
+com.itextpdf.text.pdf.qrcode.CharacterSetECI	classe	6
+com.itextpdf.text.pdf.qrcode.FormatInformation	classe	7
+com.itextpdf.text.pdf.GlyphList	classe	2
+com.itextpdf.text.pdf.PdfContentParser	classe	7
+com.itextpdf.text.pdf.OutputStreamCounter	classe	7
+com.itextpdf.text.pdf.PdfOCG	interface	2
+com.itextpdf.text.pdf.BarcodePostnet	classe	4
+com.itextpdf.text.pdf.PdfFormField	classe	33
+com.itextpdf.text.pdf.PdfColor	classe	0
+com.itextpdf.text.pdf.ICC_Profile	classe	5
+com.itextpdf.text.pdf.PdfLayer	classe	22
+com.itextpdf.text.pdf.PdfPattern	classe	0
+com.itextpdf.text.pdf.Barcode39	classe	6
+com.itextpdf.text.pdf.DefaultFontMapper	classe	9
+com.itextpdf.text.pdf.DefaultFontMapper$BaseFontParameters	classe	0
+com.itextpdf.text.pdf.ArabicLigaturizer	classe	11
+com.itextpdf.text.pdf.ArabicLigaturizer$charstruct	classe	0
+com.itextpdf.text.pdf.PdfNull	classe	1
+com.itextpdf.text.pdf.BarcodeQRCode	classe	3
+com.itextpdf.text.pdf.DocumentFont	classe	28
+com.itextpdf.text.pdf.BidiOrder	classe	25
+com.itextpdf.text.pdf.HyphenationAuto	classe	3
+com.itextpdf.text.pdf.PdfICCBased	classe	0
+com.itextpdf.text.pdf.BadPdfFormatException	classe	0
+com.itextpdf.text.pdf.PdfOutline	classe	23
+com.itextpdf.text.pdf.FontSelector	classe	2
+com.itextpdf.text.pdf.StandardDecryption	classe	2
+com.itextpdf.text.pdf.PdfAnnotation	classe	55
+com.itextpdf.text.pdf.PdfAnnotation$PdfImportedLink	classe	7
+com.itextpdf.text.pdf.ByteBuffer	classe	26
+com.itextpdf.text.pdf.SpotColor	classe	4
+com.itextpdf.text.pdf.PdfContentByte	classe	174
+com.itextpdf.text.pdf.PdfContentByte$GraphicState	classe	0
+com.itextpdf.text.pdf.PdfStream	classe	8
+com.itextpdf.text.pdf.PdfPRow	classe	15
+com.itextpdf.text.pdf.FontMapper	interface	2
+com.itextpdf.text.pdf.SequenceList	classe	6
+com.itextpdf.text.pdf.CMYKColor	classe	6
+com.itextpdf.text.pdf.PdfPrinterGraphics2D	classe	1
+com.itextpdf.text.pdf.BidiLine	classe	22
+com.itextpdf.text.pdf.CFFFontSubset	classe	38
+com.itextpdf.text.pdf.PdfRendition	classe	0
+com.itextpdf.text.pdf.PdfFont	classe	9
+com.itextpdf.text.pdf.OcspClientBouncyCastle	classe	2
+com.itextpdf.text.pdf.BarcodeEAN	classe	10
+com.itextpdf.text.pdf.PdfPKCS7	classe	49
+com.itextpdf.text.pdf.PdfPKCS7$X509Name	classe	4
+com.itextpdf.text.pdf.PdfPKCS7$X509NameTokenizer	classe	2
+com.itextpdf.text.pdf.PdfNumber	classe	4
+com.itextpdf.text.pdf.PdfPageEvent	interface	11
+com.itextpdf.text.pdf.TrueTypeFontUnicode	classe	16
+com.itextpdf.text.pdf.GrayColor	classe	3
+com.itextpdf.text.pdf.PdfXConformanceException	classe	0
+com.itextpdf.text.pdf.RadioCheckField	classe	12
+com.itextpdf.text.pdf.AsianFontMapper	classe	1
+com.itextpdf.text.pdf.TrueTypeFont	classe	40
+com.itextpdf.text.pdf.TrueTypeFont$FontHeader	classe	0
+com.itextpdf.text.pdf.TrueTypeFont$HorizontalHeader	classe	0
+com.itextpdf.text.pdf.TrueTypeFont$WindowsMetrics	classe	0
+com.itextpdf.text.pdf.PdfArray	classe	24
+com.itextpdf.text.pdf.PdfTransparencyGroup	classe	2
+com.itextpdf.text.pdf.CMapAwareDocumentFont	classe	7
+com.itextpdf.text.pdf.PdfSignature	classe	8
+com.itextpdf.text.pdf.SimpleNamedDestination	classe	15
+com.itextpdf.text.pdf.PdfChunk	classe	36
+com.itextpdf.text.pdf.FdfWriter	classe	14
+com.itextpdf.text.pdf.FdfWriter$Wrt	classe	2
+com.itextpdf.text.pdf.events.PdfPCellEventForwarder	classe	2
+com.itextpdf.text.pdf.events.PdfPTableEventForwarder	classe	2
+com.itextpdf.text.pdf.events.IndexEvents	classe	9
+com.itextpdf.text.pdf.events.IndexEvents$Entry	classe	10
+com.itextpdf.text.pdf.events.PdfPageEventForwarder	classe	12
+com.itextpdf.text.pdf.events.FieldPositioningEvents	classe	5
+com.itextpdf.text.pdf.PdfStructureElement	classe	4
+com.itextpdf.text.pdf.ColumnText	classe	62
+com.itextpdf.text.pdf.PdfContents	classe	0
+com.itextpdf.text.pdf.PdfPublicKeyRecipient	classe	4
+com.itextpdf.text.pdf.PdfPage	classe	4
+com.itextpdf.text.pdf.HyphenationEvent	interface	3
+com.itextpdf.text.pdf.PdfStamperImp	classe	63
+com.itextpdf.text.pdf.PdfStamperImp$PageStamp	classe	0
+com.itextpdf.text.pdf.PdfTextArray	classe	5
+com.itextpdf.text.pdf.PdfPageLabels	classe	8
+com.itextpdf.text.pdf.PdfPageLabels$PdfPageLabelFormat	classe	0
+com.itextpdf.text.pdf.fonts.cmaps.CodespaceRange	classe	4
+com.itextpdf.text.pdf.fonts.cmaps.CMapParser	classe	9
+com.itextpdf.text.pdf.fonts.cmaps.CMapParser$LiteralName	classe	0
+com.itextpdf.text.pdf.fonts.cmaps.CMapParser$Operator	classe	0
+com.itextpdf.text.pdf.fonts.cmaps.CMap	classe	6
+com.itextpdf.text.pdf.fonts.FontsResourceAnchor	classe	0
+com.itextpdf.text.pdf.PdfShading	classe	22
+com.itextpdf.text.pdf.Type3Font	classe	21
+com.itextpdf.text.pdf.PdfEFStream	classe	1
+com.itextpdf.text.pdf.PdfIndirectObject	classe	2
+com.itextpdf.text.pdf.Type3Glyph	classe	3
+com.itextpdf.text.pdf.ExtendedColor	classe	3
+com.itextpdf.text.pdf.PdfDictionary	classe	27
+com.itextpdf.text.pdf.PdfDocument	classe	75
+com.itextpdf.text.pdf.PdfDocument$PdfInfo	classe	8
+com.itextpdf.text.pdf.PdfDocument$PdfCatalog	classe	3
+com.itextpdf.text.pdf.PdfDocument$Indentation	classe	0
+com.itextpdf.text.pdf.PdfDocument$Destination	classe	0
+com.itextpdf.text.pdf.BaseFont	classe	70
+com.itextpdf.text.pdf.BaseFont$StreamFont	classe	0
+com.itextpdf.text.pdf.ShadingColor	classe	3
+com.itextpdf.text.pdf.PdfSmartCopy	classe	1
+com.itextpdf.text.pdf.PdfSmartCopy$ByteStore	classe	5
+com.itextpdf.text.pdf.draw.LineSeparator	classe	10
+com.itextpdf.text.pdf.draw.DottedLineSeparator	classe	3
+com.itextpdf.text.pdf.draw.DrawInterface	interface	1
+com.itextpdf.text.pdf.draw.VerticalPositionMark	classe	10
+com.itextpdf.text.pdf.PdfPCellEvent	interface	1
+com.itextpdf.text.pdf.ColorDetails	classe	3
+com.itextpdf.text.pdf.FdfReader	classe	8
+com.itextpdf.text.pdf.OutputStreamEncryption	classe	6
+com.itextpdf.text.pdf.IntHashtable	classe	15
+com.itextpdf.text.pdf.IntHashtable$Entry	classe	3
+com.itextpdf.text.pdf.IntHashtable$IntHashtableIterator	classe	3
+com.itextpdf.text.pdf.PdfAction	classe	19
+com.itextpdf.text.pdf.PdfCopyForms	classe	17
+com.itextpdf.text.pdf.PdfBorderArray	classe	0
+com.itextpdf.text.pdf.PdfSignatureAppearance	classe	68
+com.itextpdf.text.pdf.PdfSignatureAppearance$RenderingMode	enum	0
+com.itextpdf.text.pdf.PdfSignatureAppearance$RangeStream	classe	2
+com.itextpdf.text.pdf.PdfSignatureAppearance$SignatureEvent	interface	1
+com.itextpdf.text.pdf.PdfException	classe	0
+com.itextpdf.text.pdf.PdfReaderInstance	classe	10
+com.itextpdf.text.pdf.PdfLister	classe	5
+com.itextpdf.text.pdf.interfaces.PdfDocumentActions	interface	3
+com.itextpdf.text.pdf.interfaces.PdfPageActions	interface	3
+com.itextpdf.text.pdf.interfaces.PdfVersion	interface	4
+com.itextpdf.text.pdf.interfaces.PdfXConformance	interface	3
+com.itextpdf.text.pdf.interfaces.PdfRunDirection	interface	2
+com.itextpdf.text.pdf.interfaces.PdfAnnotations	interface	4
+com.itextpdf.text.pdf.interfaces.PdfViewerPreferences	interface	2
+com.itextpdf.text.pdf.interfaces.PdfEncryptionSettings	interface	2
+com.itextpdf.text.pdf.richmedia.RichMediaPresentation	classe	6
+com.itextpdf.text.pdf.richmedia.RichMediaCommand	classe	1
+com.itextpdf.text.pdf.richmedia.RichMediaExecuteAction	classe	1
+com.itextpdf.text.pdf.richmedia.RichMediaDeactivation	classe	1
+com.itextpdf.text.pdf.richmedia.RichMediaWindow	classe	4
+com.itextpdf.text.pdf.richmedia.RichMediaConfiguration	classe	2
+com.itextpdf.text.pdf.richmedia.RichMediaActivation	classe	6
+com.itextpdf.text.pdf.richmedia.RichMediaAnnotation	classe	10
+com.itextpdf.text.pdf.richmedia.CuePoint	classe	3
+com.itextpdf.text.pdf.richmedia.RichMediaAnimation	classe	3
+com.itextpdf.text.pdf.richmedia.RichMediaPosition	classe	4
+com.itextpdf.text.pdf.richmedia.RichMediaParams	classe	5
+com.itextpdf.text.pdf.richmedia.RichMediaInstance	classe	2
+com.itextpdf.text.pdf.PdfPCell	classe	68
+com.itextpdf.text.pdf.PdfShadingPattern	classe	10
+com.itextpdf.text.pdf.OcspClient	interface	1
+com.itextpdf.text.pdf.PdfDestination	classe	2
+com.itextpdf.text.Document	classe	45
+com.itextpdf.text.ZapfDingbatsList	classe	3
+com.itextpdf.text.html.WebColors	classe	1
+com.itextpdf.text.html.HtmlEncoder	classe	3
+com.itextpdf.text.html.HtmlTags	classe	0
+com.itextpdf.text.html.Markup	classe	5
+com.itextpdf.text.html.simpleparser.ImageProvider	interface	1
+com.itextpdf.text.html.simpleparser.HTMLWorker	classe	23
+com.itextpdf.text.html.simpleparser.FactoryProperties	classe	13
+com.itextpdf.text.html.simpleparser.Img	interface	1
+com.itextpdf.text.html.simpleparser.StyleSheet	classe	5
+com.itextpdf.text.html.simpleparser.ALink	interface	1
+com.itextpdf.text.html.simpleparser.ChainedProperties	classe	4
+com.itextpdf.text.html.simpleparser.ChainedProperties$ChainedProperty	classe	0
+com.itextpdf.text.html.simpleparser.IncTable	classe	10
+com.itextpdf.text.html.simpleparser.IncCell	classe	7
+com.itextpdf.text.Font	classe	25
+com.itextpdf.text.Font$FontFamily	enum	0
+com.itextpdf.text.exceptions.IllegalPdfSyntaxException	classe	0
+com.itextpdf.text.exceptions.BadPasswordException	classe	0
+com.itextpdf.text.exceptions.UnsupportedPdfException	classe	0
+com.itextpdf.text.exceptions.InvalidPdfException	classe	0
+com.itextpdf.text.xml.xmp.PdfA1Schema	classe	2
+com.itextpdf.text.xml.xmp.XmpArray	classe	1
+com.itextpdf.text.xml.xmp.XmpBasicSchema	classe	6
+com.itextpdf.text.xml.xmp.DublinCoreSchema	classe	8
+com.itextpdf.text.xml.xmp.PdfSchema	classe	3
+com.itextpdf.text.xml.xmp.XmpMMSchema	classe	0
+com.itextpdf.text.xml.xmp.LangAlt	classe	3
+com.itextpdf.text.xml.xmp.XmpWriter	classe	5
+com.itextpdf.text.xml.xmp.XmpSchema	classe	8
+com.itextpdf.text.xml.xmp.XmpReader	classe	5
+com.itextpdf.text.xml.XmlDomWriter	classe	7
+com.itextpdf.text.xml.simpleparser.SimpleXMLParser	classe	14
+com.itextpdf.text.xml.simpleparser.EntitiesToUnicode	classe	2
+com.itextpdf.text.xml.simpleparser.IanaEncodings	classe	1
+com.itextpdf.text.xml.simpleparser.SimpleXMLDocHandler	interface	5
+com.itextpdf.text.xml.simpleparser.SimpleXMLDocHandlerComment	interface	1
+com.itextpdf.text.xml.simpleparser.EntitiesToSymbol	classe	2
+com.itextpdf.text.error_messages.MessageLocalization	classe	12
+com.itextpdf.text.Jpeg	classe	3
+com.itextpdf.text.ImgJBIG2	classe	2
+com.itextpdf.text.RectangleReadOnly	classe	25
+com.itextpdf.text.ImgWMF	classe	2
+com.itextpdf.text.SplitCharacter	interface	1
+com.itextpdf.text.DocumentException	classe	0
+com.itextpdf.text.Rectangle	classe	60
+com.itextpdf.text.ExceptionConverter	classe	9
+com.itextpdf.text.factories.GreekAlphabetFactory	classe	5
+com.itextpdf.text.factories.ElementFactory	classe	11
+com.itextpdf.text.factories.RomanNumberFactory	classe	5
+com.itextpdf.text.factories.RomanNumberFactory$RomanDigit	classe	0
+com.itextpdf.text.factories.RomanAlphabetFactory	classe	5
+com.itextpdf.text.BadElementException	classe	0
+com.itextpdf.text.Chunk	classe	42
+com.itextpdf.text.ImgTemplate	classe	0
+com.itextpdf.text.Section	classe	49
+com.itextpdf.text.Chapter	classe	2
+com.itextpdf.text.TextElementArray	interface	1
+com.itextpdf.text.Phrase	classe	23
+com.itextpdf.text.DocListener	interface	9
+com.itextpdf.text.GreekList	classe	2
+com.itextpdf.text.DocWriter	classe	24
+com.itextpdf.text.ZapfDingbatsNumberList	classe	3
+com.itextpdf.text.RtfElementInterface	interface	0
+com.itextpdf.text.Paragraph	classe	26
+com.itextpdf.text.SpecialSymbol	classe	3
+com.itextpdf.text.Header	classe	1
+com.itextpdf.text.Anchor	classe	8
+com.itextpdf.text.Annotation	classe	18
+com.itextpdf.rups.io.filters.PdfFilter	classe	2
+com.itextpdf.rups.io.TextAreaOutputStream	classe	4
+com.itextpdf.rups.io.FileChooserAction	classe	2
+com.itextpdf.rups.io.OutputStreamResource	interface	1
+com.itextpdf.rups.io.FileCloseAction	classe	1
+com.itextpdf.rups.Rups	classe	2
+com.itextpdf.rups.controller.PdfReaderController	classe	12
+com.itextpdf.rups.controller.RupsController	classe	5
+com.itextpdf.rups.model.TreeNodeFactory	classe	4
+com.itextpdf.rups.model.PdfFile	classe	3
+com.itextpdf.rups.model.IndirectObjectFactory	classe	10
+com.itextpdf.rups.model.XfaFile	classe	2
+com.itextpdf.rups.model.BackgroundTask	classe	4
+com.itextpdf.rups.model.BackgroundTask$ThreadWrapper	classe	2
+com.itextpdf.rups.model.ObjectLoader	classe	5
+com.itextpdf.rups.model.Permissions	classe	18
+com.itextpdf.rups.model.ProgressDialog	classe	3
+com.itextpdf.rups.view.models.DictionaryTableModel	classe	4
+com.itextpdf.rups.view.models.JTableAutoModel	classe	4
+com.itextpdf.rups.view.models.PdfArrayTableModel	classe	4
+com.itextpdf.rups.view.models.JTableAutoModelInterface	interface	4
+com.itextpdf.rups.view.itext.StreamTextArea	classe	2
+com.itextpdf.rups.view.itext.FormTree	classe	6
+com.itextpdf.rups.view.itext.XfaTree	classe	2
+com.itextpdf.rups.view.itext.XfaTextArea	classe	2
+com.itextpdf.rups.view.itext.treenodes.XfaTreeNode	classe	2
+com.itextpdf.rups.view.itext.treenodes.FormTreeNode	classe	1
+com.itextpdf.rups.view.itext.treenodes.PdfPagesTreeNode	classe	0
+com.itextpdf.rups.view.itext.treenodes.XdpTreeNode	classe	3
+com.itextpdf.rups.view.itext.treenodes.PdfPageTreeNode	classe	0
+com.itextpdf.rups.view.itext.treenodes.PdfTrailerTreeNode	classe	1
+com.itextpdf.rups.view.itext.treenodes.PdfObjectTreeNode	classe	16
+com.itextpdf.rups.view.itext.treenodes.OutlineTreeNode	classe	1
+com.itextpdf.rups.view.itext.PdfObjectPanel	classe	3
+com.itextpdf.rups.view.itext.XRefTable	classe	10
+com.itextpdf.rups.view.itext.PagesTable	classe	6
+com.itextpdf.rups.view.itext.PdfTree	classe	3
+com.itextpdf.rups.view.itext.OutlineTree	classe	3
+com.itextpdf.rups.view.icons.IconTreeNode	classe	1
+com.itextpdf.rups.view.icons.IconButton	classe	0
+com.itextpdf.rups.view.icons.IconActionListener	interface	1
+com.itextpdf.rups.view.icons.IconTreeCellRenderer	classe	1
+com.itextpdf.rups.view.icons.IconFetcher	classe	1
+com.itextpdf.rups.view.Console	classe	5
+com.itextpdf.rups.view.Console$ReadWriteThread	classe	1
+com.itextpdf.rups.view.Console$ConsoleStyleContext	classe	0
+com.itextpdf.rups.view.PageSelectionListener	interface	1
+com.itextpdf.rups.view.RupsMenuBar	classe	4
+com.itextpdf.rups.view.MessageAction	classe	1

@@ -1,60 +1,60 @@
-src.fit.TypeAdapter	Data Class
-src.fit.FileRunnerTest	Feature Envy
-src.eg.ColumnIndex	Dispersed Coupling
-src.eg.AllPairs	Refused Parent Bequest
-src.fit.RowFixture	Feature Envy
-src.fit.RowFixture	Feature Envy
-src.fit.RowFixture	Feature Envy
-src.fit.RowFixture	Feature Envy
-src.fit.RowFixture	Feature Envy
-src.fit.RowFixture	God Class
-src.fit.RowFixture	Data Class
-src.fit.RowFixture	Refused Parent Bequest
-src.fit.TimedActionFixture	Feature Envy
-src.fit.TimedActionFixture	Feature Envy
-src.fit.ParseTest	Feature Envy
-src.fit.ParseTest	Feature Envy
-src.fit.ParseTest	Feature Envy
-src.fit.ParseTest	Feature Envy
-src.fit.Parse	Shotgun Surgery
-src.fit.Parse	Shotgun Surgery
-src.fit.Parse	God Class
-src.fit.Parse	Data Class
-src.fat.Equals	Feature Envy
-src.fat.Equals	Feature Envy
-src.fat.Table	Feature Envy
-src.eg.BinaryChop	Feature Envy
-src.eg.BinaryChop	Refused Parent Bequest
-src.eg.AllPairs$Setup	Feature Envy
-src.fat.AnnotationFixture	Feature Envy
-src.fat.AnnotationFixture	Feature Envy
-src.fat.AnnotationFixture	Feature Envy
-src.fat.Tests	Feature Envy
-src.fat.FixtureNameFixture	Feature Envy
-src.fit.Fixture	Feature Envy
-src.fit.Fixture	Shotgun Surgery
-src.fit.Fixture	Shotgun Surgery
-src.fit.Fixture	Shotgun Surgery
-src.fit.Fixture	God Class
-src.fit.Fixture	Data Class
-src.fit.Summary	Feature Envy
-src.fit.ColumnFixture	Feature Envy
-src.fit.ColumnFixture	Refused Parent Bequest
-src.eg.ColumnIndex$Column	Feature Envy
-src.eg.ColumnIndex$Column	Feature Envy
-src.eg.music.Browser	Refused Parent Bequest
-src.eg.Calculator$HP35	Brain Method
-src.eg.Calculator$HP35	Intensive Coupling
-src.eg.AllFiles	Feature Envy
-src.eg.AllFiles	Feature Envy
-src.eg.AllFiles	Refused Parent Bequest
-src.eg.AllPairs$Stats	Feature Envy
-src.eg.music.MusicPlayer	Feature Envy
-src.eg.music.MusicPlayer	Feature Envy
-src.fit.ActionFixture	Feature Envy
-src.eg.music.MusicLibrary	Feature Envy
-src.eg.music.MusicLibrary	Feature Envy
-src.eg.music.MusicLibrary	Feature Envy
-src.eg.music.MusicLibrary	Feature Envy
-src.fit.TypeAdapter$ArrayAdapter	Feature Envy
-src.fat.FatTest	Feature Envy
+src.fit.TypeAdapter	null	Data Class
+src.fit.FileRunnerTest	testHtml	Feature Envy
+src.eg.ColumnIndex	query	Dispersed Coupling
+src.eg.AllPairs	null	Refused Parent Bequest
+src.fit.RowFixture	doRows	Feature Envy
+src.fit.RowFixture	match	Feature Envy
+src.fit.RowFixture	eSort	Feature Envy
+src.fit.RowFixture	mark	Feature Envy
+src.fit.RowFixture	buildRows	Feature Envy
+src.fit.RowFixture	null	God Class
+src.fit.RowFixture	null	Data Class
+src.fit.RowFixture	null	Refused Parent Bequest
+src.fit.TimedActionFixture	doTable	Feature Envy
+src.fit.TimedActionFixture	doCells	Feature Envy
+src.fit.ParseTest	testParsing	Feature Envy
+src.fit.ParseTest	testRecursing	Feature Envy
+src.fit.ParseTest	testIterating	Feature Envy
+src.fit.ParseTest	testIndexing	Feature Envy
+src.fit.Parse	text	Shotgun Surgery
+src.fit.Parse	addToBody	Shotgun Surgery
+src.fit.Parse	null	God Class
+src.fit.Parse	null	Data Class
+src.fat.Equals	type	Feature Envy
+src.fat.Equals	parseCustomBoolean	Feature Envy
+src.fat.Table	copy	Feature Envy
+src.eg.BinaryChop	chopWednesday	Feature Envy
+src.eg.BinaryChop	null	Refused Parent Bequest
+src.eg.AllPairs$Setup	doCell	Feature Envy
+src.fat.AnnotationFixture	ResultingHTML	Feature Envy
+src.fat.AnnotationFixture	addParse	Feature Envy
+src.fat.AnnotationFixture	removeParse	Feature Envy
+src.fat.Tests	count	Feature Envy
+src.fat.FixtureNameFixture	GenerateRowParses	Feature Envy
+src.fit.Fixture	getArgsForTable	Feature Envy
+src.fit.Fixture	right	Shotgun Surgery
+src.fit.Fixture	ignore	Shotgun Surgery
+src.fit.Fixture	exception	Shotgun Surgery
+src.fit.Fixture	null	God Class
+src.fit.Fixture	null	Data Class
+src.fit.Summary	mark	Feature Envy
+src.fit.ColumnFixture	doCell	Feature Envy
+src.fit.ColumnFixture	null	Refused Parent Bequest
+src.eg.ColumnIndex$Column	Column	Feature Envy
+src.eg.ColumnIndex$Column	Column	Feature Envy
+src.eg.music.Browser	null	Refused Parent Bequest
+src.eg.Calculator$HP35	key	Brain Method
+src.eg.Calculator$HP35	key	Intensive Coupling
+src.eg.AllFiles	doFiles	Feature Envy
+src.eg.AllFiles	run	Feature Envy
+src.eg.AllFiles	null	Refused Parent Bequest
+src.eg.AllPairs$Stats	generate	Feature Envy
+src.eg.music.MusicPlayer	play	Feature Envy
+src.eg.music.MusicPlayer	pause	Feature Envy
+src.fit.ActionFixture	enter	Feature Envy
+src.eg.music.MusicLibrary	findArtist	Feature Envy
+src.eg.music.MusicLibrary	findAlbum	Feature Envy
+src.eg.music.MusicLibrary	findGenre	Feature Envy
+src.eg.music.MusicLibrary	findYear	Feature Envy
+src.fit.TypeAdapter$ArrayAdapter	equals	Feature Envy
+src.fat.FatTest	testCopy	Feature Envy

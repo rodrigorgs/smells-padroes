@@ -1,118 +1,447 @@
-org.apache.commons.collections.functors.SwitchClosure	Decorator
-org.apache.commons.collections.map.AbstractLinkedMap$LinkEntry	(Object)Adapter
-org.apache.commons.collections.map.AbstractLinkedMap	(Object)Adapter
-org.apache.commons.collections.buffer.TestBlockingBuffer$ReadThread	State
-org.apache.commons.collections.bidimap.TreeBidiMap	(Object)Adapter
-org.apache.commons.collections.map.Flat3Map	(Object)Adapter
-org.apache.commons.collections.bidimap.AbstractTestBidiMap	Decorator
-org.apache.commons.collections.iterators.AbstractTestMapIterator	Template Method
-org.apache.commons.collections.PriorityQueue	Decorator
-org.apache.commons.collections.map.AbstractInputCheckedMapDecorator	State
-org.apache.commons.collections.comparators.AbstractTestComparator	Template Method
-org.apache.commons.collections.collection.PredicatedCollection	State
-org.apache.commons.collections.functors.SwitchTransformer	Decorator
-org.apache.commons.collections.functors.ForClosure	Decorator
-org.apache.commons.collections.OrderedBidiMap	Factory Method
-org.apache.commons.collections.functors.TransformedPredicate	(Object)Adapter
-org.apache.commons.collections.IterableMap	Factory Method
-org.apache.commons.collections.bag.AbstractTestBag	Template Method
-org.apache.commons.collections.list.TreeList$AVLNode	(Object)Adapter
-org.apache.commons.collections.FastHashMap$CollectionView	Template Method
-org.apache.commons.collections.iterators.AbstractMapIteratorDecorator	Decorator
-org.apache.commons.collections.bidimap.AbstractTestBidiMap	Factory Method
-org.apache.commons.collections.iterators.UnmodifiableOrderedMapIterator	Decorator
-org.apache.commons.collections.comparators.ComparableComparator	Singleton
-org.apache.commons.collections.functors.TransformerClosure	State
-org.apache.commons.collections.Transformer	(Object)Adapter
-org.apache.commons.collections.functors.SwitchTransformer	State
-org.apache.commons.collections.bidimap.AbstractTestBidiMap$TestInverseBidiMap	Decorator
-org.apache.commons.collections.DoubleOrderedMap$DoubleOrderedMapIterator	Template Method
-org.apache.commons.collections.Transformer	Decorator
-org.apache.commons.collections.AbstractTestObject	Template Method
-org.apache.commons.collections.set.AbstractTestSet	Template Method
-org.apache.commons.collections.functors.NullIsFalsePredicate	Decorator
-org.apache.commons.collections.functors.NullIsTruePredicate	Decorator
-org.apache.commons.collections.functors.SwitchClosure	State
-org.apache.commons.collections.list.AbstractLinkedList$Node	(Object)Adapter
-org.apache.commons.collections.Buffer	State
-org.apache.commons.collections.bidimap.AbstractDualBidiMap$BidiMapIterator	(Object)Adapter
-org.apache.commons.collections.map.SingletonMap	(Object)Adapter
-org.apache.commons.collections.functors.NullIsExceptionPredicate	Decorator
-org.apache.commons.collections.collection.CompositeCollection	State
-org.apache.commons.collections.list.LazyList	State
-org.apache.commons.collections.bidimap.AbstractTestBidiMap	Template Method
-org.apache.commons.collections.iterators.UnmodifiableMapIterator	Decorator
-org.apache.commons.collections.Predicate	(Object)Adapter
-org.apache.commons.collections.BidiMap	Factory Method
-org.apache.commons.collections.map.PredicatedMap	State
-org.apache.commons.collections.map.CompositeMap	State
-org.apache.commons.collections.Factory	State
-org.apache.commons.collections.functors.WhileClosure	Decorator
-org.apache.commons.collections.bidimap.AbstractDualBidiMap	Template Method
-org.apache.commons.collections.list.TreeList	(Object)Adapter
-org.apache.commons.collections.iterators.FilterIterator	State
-org.apache.commons.collections.buffer.TestBoundedBuffer$DelayedRemove	State
-org.apache.commons.collections.map.TransformedMap	State
-org.apache.commons.collections.bidimap.AbstractDualBidiMap	Factory Method
-org.apache.commons.collections.map.SingletonMap$SingletonMapIterator	(Object)Adapter
-org.apache.commons.collections.Closure	(Object)Adapter
-org.apache.commons.collections.Closure	Decorator
-org.apache.commons.collections.map.AbstractInputCheckedMapDecorator$MapEntry	State
-org.apache.commons.collections.iterators.FilterListIterator	State
-org.apache.commons.collections.functors.OrPredicate	Decorator
-org.apache.commons.collections.map.Flat3Map	Proxy
-org.apache.commons.collections.functors.TransformedPredicate	Decorator
-org.apache.commons.collections.bidimap.AbstractDualBidiMap	(Object)Adapter
-org.apache.commons.collections.MapIterator	Decorator
-org.apache.commons.collections.functors.TransformerPredicate	State
-org.apache.commons.collections.functors.ClosureTransformer	(Object)Adapter
-org.apache.commons.collections.map.AbstractTestMap	Template Method
-org.apache.commons.collections.functors.WhileClosure	(Object)Adapter
-org.apache.commons.collections.collection.CompositeCollection$CollectionMutator	State
-org.apache.commons.collections.functors.WhileClosure	State
-org.apache.commons.collections.TestTypedCollection	Template Method
-org.apache.commons.collections.Transformer	State
-org.apache.commons.collections.functors.FactoryTransformer	(Object)Adapter
-org.apache.commons.collections.functors.TransformedPredicate	State
-org.apache.commons.collections.map.CompositeMap$MapMutator	State
-org.apache.commons.collections.functors.AndPredicate	Decorator
-org.apache.commons.collections.map.MultiKeyMap	Proxy
-org.apache.commons.collections.list.TreeList$TreeListIterator	(Object)Adapter
-org.apache.commons.collections.FastTreeMap$CollectionView	Template Method
-org.apache.commons.collections.functors.NotPredicate	Decorator
-org.apache.commons.collections.Closure	State
-org.apache.commons.collections.functors.TransformerPredicate	(Object)Adapter
-org.apache.commons.collections.map.AbstractHashedMap	Proxy
-org.apache.commons.collections.iterators.TransformIterator	State
-org.apache.commons.collections.iterators.AbstractTestIterator	Template Method
-org.apache.commons.collections.iterators.ObjectGraphIterator	State
-org.apache.commons.collections.Factory	(Object)Adapter
-org.apache.commons.collections.bag.AbstractTestBag	Factory Method
-org.apache.commons.collections.map.Flat3Map$FlatMapIterator	(Object)Adapter
-org.apache.commons.collections.OrderedMap	Factory Method
-org.apache.commons.collections.collection.AbstractTestCollection	Template Method
-org.apache.commons.collections.iterators.AbstractOrderedMapIteratorDecorator	Decorator
-org.apache.commons.collections.comparators.BooleanComparator	Singleton
-org.apache.commons.collections.collection.TransformedCollection	State
-org.apache.commons.collections.list.AbstractLinkedList$LinkedListIterator	(Object)Adapter
-org.apache.commons.collections.TestLinkedList	Template Method
-org.apache.commons.collections.iterators.AbstractTestListIterator	Template Method
-org.apache.commons.collections.SynchronizedPriorityQueue	Decorator
-org.apache.commons.collections.map.LazyMap	State
-org.apache.commons.collections.functors.IfClosure	Decorator
-org.apache.commons.collections.list.AbstractTestList	Template Method
-org.apache.commons.collections.Predicate	Decorator
-org.apache.commons.collections.bidimap.DualTreeBidiMap$BidiOrderedMapIterator	(Object)Adapter
-org.apache.commons.collections.functors.ClosureTransformer	State
-org.apache.commons.collections.functors.FactoryTransformer	State
-org.apache.commons.collections.comparators.TransformingComparator	State
-org.apache.commons.collections.map.PredicatedMap	(Object)Adapter
-org.apache.commons.collections.functors.TransformerClosure	(Object)Adapter
-org.apache.commons.collections.map.TransformedMap	(Object)Adapter
-org.apache.commons.collections.Predicate	State
-org.apache.commons.collections.map.MultiValueMap	State
-org.apache.commons.collections.functors.IfClosure	State
-org.apache.commons.collections.OrderedMapIterator	Decorator
-org.apache.commons.collections.bidimap.TreeBidiMap$ViewIterator	(Object)Adapter
-org.apache.commons.collections.functors.IfClosure	(Object)Adapter
-org.apache.commons.collections.functors.PredicateTransformer	State
+org.apache.commons.collections.bag.AbstractTestBag	null	Creator	Factory Method
+org.apache.commons.collections.bag.AbstractTestBag	makeBag	FactoryMethod()	Factory Method
+org.apache.commons.collections.bidimap.AbstractDualBidiMap	null	Creator	Factory Method
+org.apache.commons.collections.bidimap.AbstractDualBidiMap	createBidiMap	FactoryMethod()	Factory Method
+org.apache.commons.collections.bidimap.AbstractTestBidiMap	null	Creator	Factory Method
+org.apache.commons.collections.bidimap.AbstractTestBidiMap	makeEmptyBidiMap	FactoryMethod()	Factory Method
+org.apache.commons.collections.BidiMap	null	Creator	Factory Method
+org.apache.commons.collections.BidiMap	mapIterator	FactoryMethod()	Factory Method
+org.apache.commons.collections.IterableMap	null	Creator	Factory Method
+org.apache.commons.collections.IterableMap	mapIterator	FactoryMethod()	Factory Method
+org.apache.commons.collections.OrderedBidiMap	null	Creator	Factory Method
+org.apache.commons.collections.OrderedBidiMap	inverseOrderedBidiMap	FactoryMethod()	Factory Method
+org.apache.commons.collections.OrderedMap	null	Creator	Factory Method
+org.apache.commons.collections.OrderedMap	orderedMapIterator	FactoryMethod()	Factory Method
+org.apache.commons.collections.comparators.BooleanComparator	null	Singleton	Singleton
+org.apache.commons.collections.comparators.BooleanComparator	null	uniqueInstance	Singleton
+org.apache.commons.collections.comparators.BooleanComparator	null	uniqueInstance	Singleton
+org.apache.commons.collections.comparators.ComparableComparator	null	Singleton	Singleton
+org.apache.commons.collections.comparators.ComparableComparator	null	uniqueInstance	Singleton
+org.apache.commons.collections.map.Flat3Map	null	Adaptee	(Object)Adapter
+org.apache.commons.collections.map.Flat3Map$FlatMapIterator	null	Adapter	(Object)Adapter
+org.apache.commons.collections.map.Flat3Map$FlatMapIterator	null	adaptee	(Object)Adapter
+org.apache.commons.collections.map.Flat3Map$FlatMapIterator	hasNext	Request()	(Object)Adapter
+org.apache.commons.collections.map.Flat3Map$FlatMapIterator	remove	Request()	(Object)Adapter
+org.apache.commons.collections.map.Flat3Map$FlatMapIterator	getKey	Request()	(Object)Adapter
+org.apache.commons.collections.map.Flat3Map$FlatMapIterator	getValue	Request()	(Object)Adapter
+org.apache.commons.collections.map.Flat3Map$FlatMapIterator	setValue	Request()	(Object)Adapter
+org.apache.commons.collections.map.AbstractLinkedMap$LinkEntry	null	Adaptee	(Object)Adapter
+org.apache.commons.collections.map.AbstractLinkedMap	null	Adapter	(Object)Adapter
+org.apache.commons.collections.map.AbstractLinkedMap	null	adaptee	(Object)Adapter
+org.apache.commons.collections.map.AbstractLinkedMap	firstKey	Request()	(Object)Adapter
+org.apache.commons.collections.map.AbstractLinkedMap	lastKey	Request()	(Object)Adapter
+org.apache.commons.collections.map.AbstractLinkedMap	nextKey	Request()	(Object)Adapter
+org.apache.commons.collections.map.AbstractLinkedMap	previousKey	Request()	(Object)Adapter
+org.apache.commons.collections.list.TreeList$AVLNode	null	Adaptee	(Object)Adapter
+org.apache.commons.collections.list.TreeList$TreeListIterator	null	Adapter	(Object)Adapter
+org.apache.commons.collections.list.TreeList$TreeListIterator	null	adaptee	(Object)Adapter
+org.apache.commons.collections.list.TreeList$TreeListIterator	null	adaptee	(Object)Adapter
+org.apache.commons.collections.list.TreeList$TreeListIterator	previous	Request()	(Object)Adapter
+org.apache.commons.collections.list.AbstractLinkedList$Node	null	Adaptee	(Object)Adapter
+org.apache.commons.collections.list.AbstractLinkedList$LinkedListIterator	null	Adapter	(Object)Adapter
+org.apache.commons.collections.list.AbstractLinkedList$LinkedListIterator	null	adaptee	(Object)Adapter
+org.apache.commons.collections.list.AbstractLinkedList$LinkedListIterator	null	adaptee	(Object)Adapter
+org.apache.commons.collections.list.AbstractLinkedList$LinkedListIterator	previous	Request()	(Object)Adapter
+org.apache.commons.collections.list.TreeList	null	Adaptee	(Object)Adapter
+org.apache.commons.collections.list.TreeList$TreeListIterator	null	Adapter	(Object)Adapter
+org.apache.commons.collections.list.TreeList$TreeListIterator	null	adaptee	(Object)Adapter
+org.apache.commons.collections.list.TreeList$TreeListIterator	previous	Request()	(Object)Adapter
+org.apache.commons.collections.map.SingletonMap	null	Adaptee	(Object)Adapter
+org.apache.commons.collections.map.SingletonMap$SingletonMapIterator	null	Adapter	(Object)Adapter
+org.apache.commons.collections.map.SingletonMap$SingletonMapIterator	null	adaptee	(Object)Adapter
+org.apache.commons.collections.map.SingletonMap$SingletonMapIterator	previous	Request()	(Object)Adapter
+org.apache.commons.collections.bidimap.TreeBidiMap	null	Adaptee	(Object)Adapter
+org.apache.commons.collections.bidimap.TreeBidiMap$ViewIterator	null	Adapter	(Object)Adapter
+org.apache.commons.collections.bidimap.TreeBidiMap$ViewIterator	null	adaptee	(Object)Adapter
+org.apache.commons.collections.bidimap.TreeBidiMap$ViewIterator	previous	Request()	(Object)Adapter
+org.apache.commons.collections.bidimap.AbstractDualBidiMap	null	Adaptee	(Object)Adapter
+org.apache.commons.collections.bidimap.DualTreeBidiMap$BidiOrderedMapIterator	null	Adapter	(Object)Adapter
+org.apache.commons.collections.bidimap.DualTreeBidiMap$BidiOrderedMapIterator	null	adaptee	(Object)Adapter
+org.apache.commons.collections.bidimap.DualTreeBidiMap$BidiOrderedMapIterator	reset	Request()	(Object)Adapter
+org.apache.commons.collections.bidimap.AbstractDualBidiMap	null	Adaptee	(Object)Adapter
+org.apache.commons.collections.bidimap.AbstractDualBidiMap$BidiMapIterator	null	Adapter	(Object)Adapter
+org.apache.commons.collections.bidimap.AbstractDualBidiMap$BidiMapIterator	null	adaptee	(Object)Adapter
+org.apache.commons.collections.bidimap.AbstractDualBidiMap$BidiMapIterator	setValue	Request()	(Object)Adapter
+org.apache.commons.collections.Transformer	null	Adaptee	(Object)Adapter
+org.apache.commons.collections.map.TransformedMap	null	Adapter	(Object)Adapter
+org.apache.commons.collections.map.TransformedMap	null	adaptee	(Object)Adapter
+org.apache.commons.collections.map.TransformedMap	checkSetValue	Request()	(Object)Adapter
+org.apache.commons.collections.functors.TransformedPredicate	null	Adapter	(Object)Adapter
+org.apache.commons.collections.Transformer	null	Adaptee	(Object)Adapter
+org.apache.commons.collections.functors.TransformedPredicate	null	adaptee	(Object)Adapter
+org.apache.commons.collections.functors.TransformedPredicate	evaluate	Request()	(Object)Adapter
+org.apache.commons.collections.functors.TransformerPredicate	null	Adapter	(Object)Adapter
+org.apache.commons.collections.Transformer	null	Adaptee	(Object)Adapter
+org.apache.commons.collections.functors.TransformerPredicate	null	adaptee	(Object)Adapter
+org.apache.commons.collections.functors.TransformerPredicate	evaluate	Request()	(Object)Adapter
+org.apache.commons.collections.functors.IfClosure	null	Adapter	(Object)Adapter
+org.apache.commons.collections.Predicate	null	Adaptee	(Object)Adapter
+org.apache.commons.collections.functors.IfClosure	null	adaptee	(Object)Adapter
+org.apache.commons.collections.functors.IfClosure	execute	Request()	(Object)Adapter
+org.apache.commons.collections.functors.WhileClosure	null	Adapter	(Object)Adapter
+org.apache.commons.collections.Predicate	null	Adaptee	(Object)Adapter
+org.apache.commons.collections.functors.WhileClosure	null	adaptee	(Object)Adapter
+org.apache.commons.collections.functors.WhileClosure	execute	Request()	(Object)Adapter
+org.apache.commons.collections.Closure	null	Adaptee	(Object)Adapter
+org.apache.commons.collections.functors.ClosureTransformer	null	Adapter	(Object)Adapter
+org.apache.commons.collections.functors.ClosureTransformer	null	adaptee	(Object)Adapter
+org.apache.commons.collections.functors.ClosureTransformer	transform	Request()	(Object)Adapter
+org.apache.commons.collections.Transformer	null	Adaptee	(Object)Adapter
+org.apache.commons.collections.functors.TransformerClosure	null	Adapter	(Object)Adapter
+org.apache.commons.collections.functors.TransformerClosure	null	adaptee	(Object)Adapter
+org.apache.commons.collections.functors.TransformerClosure	execute	Request()	(Object)Adapter
+org.apache.commons.collections.Factory	null	Adaptee	(Object)Adapter
+org.apache.commons.collections.functors.FactoryTransformer	null	Adapter	(Object)Adapter
+org.apache.commons.collections.functors.FactoryTransformer	null	adaptee	(Object)Adapter
+org.apache.commons.collections.functors.FactoryTransformer	transform	Request()	(Object)Adapter
+org.apache.commons.collections.Predicate	null	Adaptee	(Object)Adapter
+org.apache.commons.collections.map.PredicatedMap	null	Adapter	(Object)Adapter
+org.apache.commons.collections.map.PredicatedMap	null	adaptee	(Object)Adapter
+org.apache.commons.collections.map.PredicatedMap	checkSetValue	Request()	(Object)Adapter
+org.apache.commons.collections.bidimap.AbstractTestBidiMap	null	Component	Decorator
+org.apache.commons.collections.bidimap.AbstractTestBidiMap$TestInverseBidiMap	null	Decorator	Decorator
+org.apache.commons.collections.bidimap.AbstractTestBidiMap$TestInverseBidiMap	null	component	Decorator
+org.apache.commons.collections.bidimap.AbstractTestBidiMap$TestInverseBidiMap	null	component	Decorator
+org.apache.commons.collections.bidimap.AbstractTestBidiMap$TestInverseBidiMap	makeEmptyBidiMap	Operation()	Decorator
+org.apache.commons.collections.OrderedMapIterator	null	Component	Decorator
+org.apache.commons.collections.iterators.AbstractOrderedMapIteratorDecorator	null	Decorator	Decorator
+org.apache.commons.collections.iterators.AbstractOrderedMapIteratorDecorator	null	component	Decorator
+org.apache.commons.collections.iterators.AbstractOrderedMapIteratorDecorator	hasPrevious	Operation()	Decorator
+org.apache.commons.collections.iterators.AbstractOrderedMapIteratorDecorator	previous	Operation()	Decorator
+org.apache.commons.collections.OrderedMapIterator	null	Component	Decorator
+org.apache.commons.collections.iterators.UnmodifiableOrderedMapIterator	null	Decorator	Decorator
+org.apache.commons.collections.iterators.UnmodifiableOrderedMapIterator	null	component	Decorator
+org.apache.commons.collections.iterators.UnmodifiableOrderedMapIterator	hasPrevious	Operation()	Decorator
+org.apache.commons.collections.iterators.UnmodifiableOrderedMapIterator	previous	Operation()	Decorator
+org.apache.commons.collections.MapIterator	null	Component	Decorator
+org.apache.commons.collections.iterators.AbstractMapIteratorDecorator	null	Decorator	Decorator
+org.apache.commons.collections.iterators.AbstractMapIteratorDecorator	null	component	Decorator
+org.apache.commons.collections.iterators.AbstractMapIteratorDecorator	hasNext	Operation()	Decorator
+org.apache.commons.collections.iterators.AbstractMapIteratorDecorator	next	Operation()	Decorator
+org.apache.commons.collections.iterators.AbstractMapIteratorDecorator	remove	Operation()	Decorator
+org.apache.commons.collections.iterators.AbstractMapIteratorDecorator	getKey	Operation()	Decorator
+org.apache.commons.collections.iterators.AbstractMapIteratorDecorator	getValue	Operation()	Decorator
+org.apache.commons.collections.iterators.AbstractMapIteratorDecorator	setValue	Operation()	Decorator
+org.apache.commons.collections.MapIterator	null	Component	Decorator
+org.apache.commons.collections.iterators.UnmodifiableMapIterator	null	Decorator	Decorator
+org.apache.commons.collections.iterators.UnmodifiableMapIterator	null	component	Decorator
+org.apache.commons.collections.iterators.UnmodifiableMapIterator	hasNext	Operation()	Decorator
+org.apache.commons.collections.iterators.UnmodifiableMapIterator	next	Operation()	Decorator
+org.apache.commons.collections.iterators.UnmodifiableMapIterator	getKey	Operation()	Decorator
+org.apache.commons.collections.iterators.UnmodifiableMapIterator	getValue	Operation()	Decorator
+org.apache.commons.collections.Predicate	null	Component	Decorator
+org.apache.commons.collections.functors.AndPredicate	null	Decorator	Decorator
+org.apache.commons.collections.functors.AndPredicate	null	component	Decorator
+org.apache.commons.collections.functors.AndPredicate	null	component	Decorator
+org.apache.commons.collections.functors.AndPredicate	evaluate	Operation()	Decorator
+org.apache.commons.collections.Predicate	null	Component	Decorator
+org.apache.commons.collections.functors.NotPredicate	null	Decorator	Decorator
+org.apache.commons.collections.functors.NotPredicate	null	component	Decorator
+org.apache.commons.collections.functors.NotPredicate	evaluate	Operation()	Decorator
+org.apache.commons.collections.Predicate	null	Component	Decorator
+org.apache.commons.collections.functors.NullIsExceptionPredicate	null	Decorator	Decorator
+org.apache.commons.collections.functors.NullIsExceptionPredicate	null	component	Decorator
+org.apache.commons.collections.functors.NullIsExceptionPredicate	evaluate	Operation()	Decorator
+org.apache.commons.collections.Predicate	null	Component	Decorator
+org.apache.commons.collections.functors.NullIsFalsePredicate	null	Decorator	Decorator
+org.apache.commons.collections.functors.NullIsFalsePredicate	null	component	Decorator
+org.apache.commons.collections.functors.NullIsFalsePredicate	evaluate	Operation()	Decorator
+org.apache.commons.collections.Predicate	null	Component	Decorator
+org.apache.commons.collections.functors.NullIsTruePredicate	null	Decorator	Decorator
+org.apache.commons.collections.functors.NullIsTruePredicate	null	component	Decorator
+org.apache.commons.collections.functors.NullIsTruePredicate	evaluate	Operation()	Decorator
+org.apache.commons.collections.Predicate	null	Component	Decorator
+org.apache.commons.collections.functors.OrPredicate	null	Decorator	Decorator
+org.apache.commons.collections.functors.OrPredicate	null	component	Decorator
+org.apache.commons.collections.functors.OrPredicate	null	component	Decorator
+org.apache.commons.collections.functors.OrPredicate	evaluate	Operation()	Decorator
+org.apache.commons.collections.Predicate	null	Component	Decorator
+org.apache.commons.collections.functors.TransformedPredicate	null	Decorator	Decorator
+org.apache.commons.collections.functors.TransformedPredicate	null	component	Decorator
+org.apache.commons.collections.functors.TransformedPredicate	evaluate	Operation()	Decorator
+org.apache.commons.collections.Transformer	null	Component	Decorator
+org.apache.commons.collections.functors.SwitchTransformer	null	Decorator	Decorator
+org.apache.commons.collections.functors.SwitchTransformer	null	component	Decorator
+org.apache.commons.collections.functors.SwitchTransformer	null	component	Decorator
+org.apache.commons.collections.functors.SwitchTransformer	transform	Operation()	Decorator
+org.apache.commons.collections.PriorityQueue	null	Component	Decorator
+org.apache.commons.collections.SynchronizedPriorityQueue	null	Decorator	Decorator
+org.apache.commons.collections.SynchronizedPriorityQueue	null	component	Decorator
+org.apache.commons.collections.SynchronizedPriorityQueue	clear	Operation()	Decorator
+org.apache.commons.collections.SynchronizedPriorityQueue	isEmpty	Operation()	Decorator
+org.apache.commons.collections.SynchronizedPriorityQueue	insert	Operation()	Decorator
+org.apache.commons.collections.SynchronizedPriorityQueue	peek	Operation()	Decorator
+org.apache.commons.collections.SynchronizedPriorityQueue	pop	Operation()	Decorator
+org.apache.commons.collections.Closure	null	Component	Decorator
+org.apache.commons.collections.functors.ForClosure	null	Decorator	Decorator
+org.apache.commons.collections.functors.ForClosure	null	component	Decorator
+org.apache.commons.collections.functors.ForClosure	execute	Operation()	Decorator
+org.apache.commons.collections.Closure	null	Component	Decorator
+org.apache.commons.collections.functors.IfClosure	null	Decorator	Decorator
+org.apache.commons.collections.functors.IfClosure	null	component	Decorator
+org.apache.commons.collections.functors.IfClosure	null	component	Decorator
+org.apache.commons.collections.functors.IfClosure	execute	Operation()	Decorator
+org.apache.commons.collections.Closure	null	Component	Decorator
+org.apache.commons.collections.functors.SwitchClosure	null	Decorator	Decorator
+org.apache.commons.collections.functors.SwitchClosure	null	component	Decorator
+org.apache.commons.collections.functors.SwitchClosure	null	component	Decorator
+org.apache.commons.collections.functors.SwitchClosure	execute	Operation()	Decorator
+org.apache.commons.collections.Closure	null	Component	Decorator
+org.apache.commons.collections.functors.WhileClosure	null	Decorator	Decorator
+org.apache.commons.collections.functors.WhileClosure	null	component	Decorator
+org.apache.commons.collections.functors.WhileClosure	execute	Operation()	Decorator
+org.apache.commons.collections.buffer.TestBlockingBuffer$ReadThread	null	Context	State
+org.apache.commons.collections.Buffer	null	State	State
+org.apache.commons.collections.buffer.TestBlockingBuffer$ReadThread	null	state	State
+org.apache.commons.collections.buffer.TestBlockingBuffer$ReadThread	run	Request()	State
+org.apache.commons.collections.buffer.TestBoundedBuffer$DelayedRemove	null	Context	State
+org.apache.commons.collections.Buffer	null	State	State
+org.apache.commons.collections.buffer.TestBoundedBuffer$DelayedRemove	null	state	State
+org.apache.commons.collections.buffer.TestBoundedBuffer$DelayedRemove	run	Request()	State
+org.apache.commons.collections.Predicate	null	State	State
+org.apache.commons.collections.iterators.FilterListIterator	null	Context	State
+org.apache.commons.collections.iterators.FilterListIterator	null	state	State
+org.apache.commons.collections.iterators.FilterListIterator	setNextObject	Request()	State
+org.apache.commons.collections.iterators.FilterListIterator	setPreviousObject	Request()	State
+org.apache.commons.collections.comparators.TransformingComparator	null	Context	State
+org.apache.commons.collections.Transformer	null	State	State
+org.apache.commons.collections.comparators.TransformingComparator	null	state	State
+org.apache.commons.collections.comparators.TransformingComparator	compare	Request()	State
+org.apache.commons.collections.iterators.ObjectGraphIterator	null	Context	State
+org.apache.commons.collections.Transformer	null	State	State
+org.apache.commons.collections.iterators.ObjectGraphIterator	null	state	State
+org.apache.commons.collections.iterators.ObjectGraphIterator	updateCurrentIterator	Request()	State
+org.apache.commons.collections.iterators.ObjectGraphIterator	findNextByIterator	Request()	State
+org.apache.commons.collections.iterators.TransformIterator	null	Context	State
+org.apache.commons.collections.Transformer	null	State	State
+org.apache.commons.collections.iterators.TransformIterator	null	state	State
+org.apache.commons.collections.iterators.TransformIterator	transform	Request()	State
+org.apache.commons.collections.map.LazyMap	null	Context	State
+org.apache.commons.collections.Transformer	null	State	State
+org.apache.commons.collections.map.LazyMap	null	state	State
+org.apache.commons.collections.map.LazyMap	get	Request()	State
+org.apache.commons.collections.map.TransformedMap	null	Context	State
+org.apache.commons.collections.Transformer	null	State	State
+org.apache.commons.collections.map.TransformedMap	null	state	State
+org.apache.commons.collections.map.TransformedMap	null	state	State
+org.apache.commons.collections.map.TransformedMap	transformKey	Request()	State
+org.apache.commons.collections.map.TransformedMap	transformValue	Request()	State
+org.apache.commons.collections.map.TransformedMap	checkSetValue	Request()	State
+org.apache.commons.collections.functors.SwitchTransformer	null	Context	State
+org.apache.commons.collections.Predicate	null	State	State
+org.apache.commons.collections.functors.SwitchTransformer	null	state	State
+org.apache.commons.collections.functors.SwitchTransformer	transform	Request()	State
+org.apache.commons.collections.functors.TransformedPredicate	null	Context	State
+org.apache.commons.collections.Transformer	null	State	State
+org.apache.commons.collections.functors.TransformedPredicate	null	state	State
+org.apache.commons.collections.functors.TransformedPredicate	evaluate	Request()	State
+org.apache.commons.collections.functors.PredicateTransformer	null	Context	State
+org.apache.commons.collections.Predicate	null	State	State
+org.apache.commons.collections.functors.PredicateTransformer	null	state	State
+org.apache.commons.collections.functors.PredicateTransformer	transform	Request()	State
+org.apache.commons.collections.functors.TransformerPredicate	null	Context	State
+org.apache.commons.collections.Transformer	null	State	State
+org.apache.commons.collections.functors.TransformerPredicate	null	state	State
+org.apache.commons.collections.functors.TransformerPredicate	evaluate	Request()	State
+org.apache.commons.collections.collection.CompositeCollection	null	Context	State
+org.apache.commons.collections.collection.CompositeCollection$CollectionMutator	null	State	State
+org.apache.commons.collections.collection.CompositeCollection	null	state	State
+org.apache.commons.collections.collection.CompositeCollection	add	Request()	State
+org.apache.commons.collections.collection.CompositeCollection	remove	Request()	State
+org.apache.commons.collections.collection.CompositeCollection	addAll	Request()	State
+org.apache.commons.collections.functors.IfClosure	null	Context	State
+org.apache.commons.collections.Predicate	null	State	State
+org.apache.commons.collections.functors.IfClosure	null	state	State
+org.apache.commons.collections.functors.IfClosure	execute	Request()	State
+org.apache.commons.collections.functors.SwitchClosure	null	Context	State
+org.apache.commons.collections.Predicate	null	State	State
+org.apache.commons.collections.functors.SwitchClosure	null	state	State
+org.apache.commons.collections.functors.SwitchClosure	execute	Request()	State
+org.apache.commons.collections.functors.WhileClosure	null	Context	State
+org.apache.commons.collections.Predicate	null	State	State
+org.apache.commons.collections.functors.WhileClosure	null	state	State
+org.apache.commons.collections.functors.WhileClosure	execute	Request()	State
+org.apache.commons.collections.map.AbstractInputCheckedMapDecorator$MapEntry	null	Context	State
+org.apache.commons.collections.map.AbstractInputCheckedMapDecorator	null	State	State
+org.apache.commons.collections.map.AbstractInputCheckedMapDecorator$MapEntry	null	state	State
+org.apache.commons.collections.map.AbstractInputCheckedMapDecorator$MapEntry	setValue	Request()	State
+org.apache.commons.collections.map.CompositeMap	null	Context	State
+org.apache.commons.collections.map.CompositeMap$MapMutator	null	State	State
+org.apache.commons.collections.map.CompositeMap	null	state	State
+org.apache.commons.collections.map.CompositeMap	addComposited	Request()	State
+org.apache.commons.collections.map.CompositeMap	put	Request()	State
+org.apache.commons.collections.map.CompositeMap	putAll	Request()	State
+org.apache.commons.collections.map.MultiValueMap	null	Context	State
+org.apache.commons.collections.Factory	null	State	State
+org.apache.commons.collections.map.MultiValueMap	null	state	State
+org.apache.commons.collections.map.MultiValueMap	createCollection	Request()	State
+org.apache.commons.collections.functors.ClosureTransformer	null	Context	State
+org.apache.commons.collections.Closure	null	State	State
+org.apache.commons.collections.functors.ClosureTransformer	null	state	State
+org.apache.commons.collections.functors.ClosureTransformer	transform	Request()	State
+org.apache.commons.collections.functors.TransformerClosure	null	Context	State
+org.apache.commons.collections.Transformer	null	State	State
+org.apache.commons.collections.functors.TransformerClosure	null	state	State
+org.apache.commons.collections.functors.TransformerClosure	execute	Request()	State
+org.apache.commons.collections.functors.FactoryTransformer	null	Context	State
+org.apache.commons.collections.Factory	null	State	State
+org.apache.commons.collections.functors.FactoryTransformer	null	state	State
+org.apache.commons.collections.functors.FactoryTransformer	transform	Request()	State
+org.apache.commons.collections.iterators.FilterIterator	null	Context	State
+org.apache.commons.collections.Predicate	null	State	State
+org.apache.commons.collections.iterators.FilterIterator	null	state	State
+org.apache.commons.collections.iterators.FilterIterator	setNextObject	Request()	State
+org.apache.commons.collections.list.LazyList	null	Context	State
+org.apache.commons.collections.Factory	null	State	State
+org.apache.commons.collections.list.LazyList	null	state	State
+org.apache.commons.collections.list.LazyList	get	Request()	State
+org.apache.commons.collections.collection.PredicatedCollection	null	Context	State
+org.apache.commons.collections.Predicate	null	State	State
+org.apache.commons.collections.collection.PredicatedCollection	null	state	State
+org.apache.commons.collections.collection.PredicatedCollection	validate	Request()	State
+org.apache.commons.collections.Transformer	null	State	State
+org.apache.commons.collections.collection.TransformedCollection	null	Context	State
+org.apache.commons.collections.collection.TransformedCollection	null	state	State
+org.apache.commons.collections.collection.TransformedCollection	transform	Request()	State
+org.apache.commons.collections.map.PredicatedMap	null	Context	State
+org.apache.commons.collections.Predicate	null	State	State
+org.apache.commons.collections.map.PredicatedMap	null	state	State
+org.apache.commons.collections.map.PredicatedMap	null	state	State
+org.apache.commons.collections.map.PredicatedMap	validate	Request()	State
+org.apache.commons.collections.map.PredicatedMap	checkSetValue	Request()	State
+org.apache.commons.collections.AbstractTestObject	null	AbstractClass	Template Method
+org.apache.commons.collections.AbstractTestObject	testObjectEqualsSelf	TemplateMethod()	Template Method
+org.apache.commons.collections.AbstractTestObject	testEqualsNull	TemplateMethod()	Template Method
+org.apache.commons.collections.AbstractTestObject	testObjectHashCodeEqualsSelfHashCode	TemplateMethod()	Template Method
+org.apache.commons.collections.AbstractTestObject	testObjectHashCodeEqualsContract	TemplateMethod()	Template Method
+org.apache.commons.collections.AbstractTestObject	testSerializeDeserializeThenCompare	TemplateMethod()	Template Method
+org.apache.commons.collections.AbstractTestObject	testSimpleSerialization	TemplateMethod()	Template Method
+org.apache.commons.collections.AbstractTestObject	testCanonicalEmptyCollectionExists	TemplateMethod()	Template Method
+org.apache.commons.collections.AbstractTestObject	testCanonicalFullCollectionExists	TemplateMethod()	Template Method
+org.apache.commons.collections.bag.AbstractTestBag	null	AbstractClass	Template Method
+org.apache.commons.collections.bag.AbstractTestBag	makeObject	TemplateMethod()	Template Method
+org.apache.commons.collections.bag.AbstractTestBag	testBagAdd	TemplateMethod()	Template Method
+org.apache.commons.collections.bag.AbstractTestBag	testBagEqualsSelf	TemplateMethod()	Template Method
+org.apache.commons.collections.bag.AbstractTestBag	testRemove	TemplateMethod()	Template Method
+org.apache.commons.collections.bag.AbstractTestBag	testRemoveAll	TemplateMethod()	Template Method
+org.apache.commons.collections.bag.AbstractTestBag	testContains	TemplateMethod()	Template Method
+org.apache.commons.collections.bag.AbstractTestBag	testContainsAll	TemplateMethod()	Template Method
+org.apache.commons.collections.bag.AbstractTestBag	testSize	TemplateMethod()	Template Method
+org.apache.commons.collections.bag.AbstractTestBag	testRetainAll	TemplateMethod()	Template Method
+org.apache.commons.collections.bag.AbstractTestBag	testIterator	TemplateMethod()	Template Method
+org.apache.commons.collections.bag.AbstractTestBag	testIteratorFail	TemplateMethod()	Template Method
+org.apache.commons.collections.bag.AbstractTestBag	testIteratorFailNoMore	TemplateMethod()	Template Method
+org.apache.commons.collections.bag.AbstractTestBag	testIteratorFailDoubleRemove	TemplateMethod()	Template Method
+org.apache.commons.collections.bag.AbstractTestBag	testIteratorRemoveProtectsInvariants	TemplateMethod()	Template Method
+org.apache.commons.collections.bag.AbstractTestBag	testToArray	TemplateMethod()	Template Method
+org.apache.commons.collections.bag.AbstractTestBag	testToArrayPopulate	TemplateMethod()	Template Method
+org.apache.commons.collections.bag.AbstractTestBag	testEquals	TemplateMethod()	Template Method
+org.apache.commons.collections.bag.AbstractTestBag	testEqualsHashBag	TemplateMethod()	Template Method
+org.apache.commons.collections.bag.AbstractTestBag	testHashCode	TemplateMethod()	Template Method
+org.apache.commons.collections.bag.AbstractTestBag	testEmptyBagSerialization	TemplateMethod()	Template Method
+org.apache.commons.collections.bag.AbstractTestBag	testFullBagSerialization	TemplateMethod()	Template Method
+org.apache.commons.collections.bag.AbstractTestBag	testEmptyBagCompatibility	TemplateMethod()	Template Method
+org.apache.commons.collections.bag.AbstractTestBag	testFullBagCompatibility	TemplateMethod()	Template Method
+org.apache.commons.collections.bidimap.AbstractDualBidiMap	null	AbstractClass	Template Method
+org.apache.commons.collections.bidimap.AbstractDualBidiMap	inverseBidiMap	TemplateMethod()	Template Method
+org.apache.commons.collections.bidimap.AbstractTestBidiMap	null	AbstractClass	Template Method
+org.apache.commons.collections.bidimap.AbstractTestBidiMap	makeFullBidiMap	TemplateMethod()	Template Method
+org.apache.commons.collections.bidimap.AbstractTestBidiMap	makeEmptyMap	TemplateMethod()	Template Method
+org.apache.commons.collections.bidimap.AbstractTestBidiMap	testBidiPut	TemplateMethod()	Template Method
+org.apache.commons.collections.collection.AbstractTestCollection	null	AbstractClass	Template Method
+org.apache.commons.collections.collection.AbstractTestCollection	resetEmpty	TemplateMethod()	Template Method
+org.apache.commons.collections.collection.AbstractTestCollection	resetFull	TemplateMethod()	Template Method
+org.apache.commons.collections.collection.AbstractTestCollection	makeFullCollection	TemplateMethod()	Template Method
+org.apache.commons.collections.collection.AbstractTestCollection	makeObject	TemplateMethod()	Template Method
+org.apache.commons.collections.collection.AbstractTestCollection	testSerializeDeserializeThenCompare	TemplateMethod()	Template Method
+org.apache.commons.collections.comparators.AbstractTestComparator	null	AbstractClass	Template Method
+org.apache.commons.collections.comparators.AbstractTestComparator	makeObject	TemplateMethod()	Template Method
+org.apache.commons.collections.comparators.AbstractTestComparator	testEmptyListSort	TemplateMethod()	Template Method
+org.apache.commons.collections.comparators.AbstractTestComparator	testReverseListSort	TemplateMethod()	Template Method
+org.apache.commons.collections.comparators.AbstractTestComparator	testRandomListSort	TemplateMethod()	Template Method
+org.apache.commons.collections.comparators.AbstractTestComparator	testComparatorIsSerializable	TemplateMethod()	Template Method
+org.apache.commons.collections.comparators.AbstractTestComparator	testComparatorCompatibility	TemplateMethod()	Template Method
+org.apache.commons.collections.DoubleOrderedMap$DoubleOrderedMapIterator	null	AbstractClass	Template Method
+org.apache.commons.collections.DoubleOrderedMap$DoubleOrderedMapIterator	next	TemplateMethod()	Template Method
+org.apache.commons.collections.FastHashMap$CollectionView	null	AbstractClass	Template Method
+org.apache.commons.collections.FastHashMap$CollectionView	clear	TemplateMethod()	Template Method
+org.apache.commons.collections.FastHashMap$CollectionView	remove	TemplateMethod()	Template Method
+org.apache.commons.collections.FastHashMap$CollectionView	removeAll	TemplateMethod()	Template Method
+org.apache.commons.collections.FastHashMap$CollectionView	retainAll	TemplateMethod()	Template Method
+org.apache.commons.collections.FastHashMap$CollectionView	size	TemplateMethod()	Template Method
+org.apache.commons.collections.FastHashMap$CollectionView	isEmpty	TemplateMethod()	Template Method
+org.apache.commons.collections.FastHashMap$CollectionView	contains	TemplateMethod()	Template Method
+org.apache.commons.collections.FastHashMap$CollectionView	containsAll	TemplateMethod()	Template Method
+org.apache.commons.collections.FastHashMap$CollectionView	toArray	TemplateMethod()	Template Method
+org.apache.commons.collections.FastHashMap$CollectionView	toArray	TemplateMethod()	Template Method
+org.apache.commons.collections.FastHashMap$CollectionView	equals	TemplateMethod()	Template Method
+org.apache.commons.collections.FastHashMap$CollectionView	hashCode	TemplateMethod()	Template Method
+org.apache.commons.collections.FastTreeMap$CollectionView	null	AbstractClass	Template Method
+org.apache.commons.collections.FastTreeMap$CollectionView	clear	TemplateMethod()	Template Method
+org.apache.commons.collections.FastTreeMap$CollectionView	remove	TemplateMethod()	Template Method
+org.apache.commons.collections.FastTreeMap$CollectionView	removeAll	TemplateMethod()	Template Method
+org.apache.commons.collections.FastTreeMap$CollectionView	retainAll	TemplateMethod()	Template Method
+org.apache.commons.collections.FastTreeMap$CollectionView	size	TemplateMethod()	Template Method
+org.apache.commons.collections.FastTreeMap$CollectionView	isEmpty	TemplateMethod()	Template Method
+org.apache.commons.collections.FastTreeMap$CollectionView	contains	TemplateMethod()	Template Method
+org.apache.commons.collections.FastTreeMap$CollectionView	containsAll	TemplateMethod()	Template Method
+org.apache.commons.collections.FastTreeMap$CollectionView	toArray	TemplateMethod()	Template Method
+org.apache.commons.collections.FastTreeMap$CollectionView	toArray	TemplateMethod()	Template Method
+org.apache.commons.collections.FastTreeMap$CollectionView	equals	TemplateMethod()	Template Method
+org.apache.commons.collections.FastTreeMap$CollectionView	hashCode	TemplateMethod()	Template Method
+org.apache.commons.collections.iterators.AbstractTestIterator	null	AbstractClass	Template Method
+org.apache.commons.collections.iterators.AbstractTestIterator	makeObject	TemplateMethod()	Template Method
+org.apache.commons.collections.iterators.AbstractTestIterator	testEmptyIterator	TemplateMethod()	Template Method
+org.apache.commons.collections.iterators.AbstractTestIterator	testFullIterator	TemplateMethod()	Template Method
+org.apache.commons.collections.iterators.AbstractTestIterator	testRemove	TemplateMethod()	Template Method
+org.apache.commons.collections.iterators.AbstractTestListIterator	null	AbstractClass	Template Method
+org.apache.commons.collections.iterators.AbstractTestListIterator	makeEmptyIterator	TemplateMethod()	Template Method
+org.apache.commons.collections.iterators.AbstractTestListIterator	makeFullIterator	TemplateMethod()	Template Method
+org.apache.commons.collections.iterators.AbstractTestListIterator	testEmptyListIteratorIsIndeedEmpty	TemplateMethod()	Template Method
+org.apache.commons.collections.iterators.AbstractTestListIterator	testWalkForwardAndBack	TemplateMethod()	Template Method
+org.apache.commons.collections.iterators.AbstractTestListIterator	testAdd	TemplateMethod()	Template Method
+org.apache.commons.collections.iterators.AbstractTestListIterator	testSet	TemplateMethod()	Template Method
+org.apache.commons.collections.iterators.AbstractTestListIterator	testRemoveThenSet	TemplateMethod()	Template Method
+org.apache.commons.collections.iterators.AbstractTestListIterator	testAddThenSet	TemplateMethod()	Template Method
+org.apache.commons.collections.iterators.AbstractTestListIterator	testAddThenRemove	TemplateMethod()	Template Method
+org.apache.commons.collections.iterators.AbstractTestMapIterator	null	AbstractClass	Template Method
+org.apache.commons.collections.iterators.AbstractTestMapIterator	makeEmptyIterator	TemplateMethod()	Template Method
+org.apache.commons.collections.iterators.AbstractTestMapIterator	makeFullIterator	TemplateMethod()	Template Method
+org.apache.commons.collections.iterators.AbstractTestMapIterator	testEmptyMapIterator	TemplateMethod()	Template Method
+org.apache.commons.collections.iterators.AbstractTestMapIterator	testFullMapIterator	TemplateMethod()	Template Method
+org.apache.commons.collections.iterators.AbstractTestMapIterator	testMapIteratorSet	TemplateMethod()	Template Method
+org.apache.commons.collections.iterators.AbstractTestMapIterator	testRemove	TemplateMethod()	Template Method
+org.apache.commons.collections.iterators.AbstractTestMapIterator	testMapIteratorSetRemoveSet	TemplateMethod()	Template Method
+org.apache.commons.collections.iterators.AbstractTestMapIterator	testMapIteratorRemoveGetKey	TemplateMethod()	Template Method
+org.apache.commons.collections.iterators.AbstractTestMapIterator	testMapIteratorRemoveGetValue	TemplateMethod()	Template Method
+org.apache.commons.collections.list.AbstractTestList	null	AbstractClass	Template Method
+org.apache.commons.collections.list.AbstractTestList	makeFullList	TemplateMethod()	Template Method
+org.apache.commons.collections.list.AbstractTestList	makeCollection	TemplateMethod()	Template Method
+org.apache.commons.collections.list.AbstractTestList	testListAddByIndexBoundsChecking	TemplateMethod()	Template Method
+org.apache.commons.collections.list.AbstractTestList	testListEquals	TemplateMethod()	Template Method
+org.apache.commons.collections.list.AbstractTestList	testListGetByIndexBoundsChecking	TemplateMethod()	Template Method
+org.apache.commons.collections.list.AbstractTestList	testListSetByIndexBoundsChecking	TemplateMethod()	Template Method
+org.apache.commons.collections.list.AbstractTestList	testListRemoveByIndexBoundsChecking	TemplateMethod()	Template Method
+org.apache.commons.collections.list.AbstractTestList	testEmptyListSerialization	TemplateMethod()	Template Method
+org.apache.commons.collections.list.AbstractTestList	testEmptyListCompatibility	TemplateMethod()	Template Method
+org.apache.commons.collections.map.AbstractTestMap	null	AbstractClass	Template Method
+org.apache.commons.collections.map.AbstractTestMap	makeFullMap	TemplateMethod()	Template Method
+org.apache.commons.collections.map.AbstractTestMap	makeObject	TemplateMethod()	Template Method
+org.apache.commons.collections.map.AbstractTestMap	testMakeMap	TemplateMethod()	Template Method
+org.apache.commons.collections.map.AbstractTestMap	testEmptyMapCompatibility	TemplateMethod()	Template Method
+org.apache.commons.collections.map.AbstractTestMap	resetEmpty	TemplateMethod()	Template Method
+org.apache.commons.collections.set.AbstractTestSet	null	AbstractClass	Template Method
+org.apache.commons.collections.set.AbstractTestSet	makeFullSet	TemplateMethod()	Template Method
+org.apache.commons.collections.set.AbstractTestSet	makeCollection	TemplateMethod()	Template Method
+org.apache.commons.collections.TestLinkedList	null	AbstractClass	Template Method
+org.apache.commons.collections.TestLinkedList	makeEmptyList	TemplateMethod()	Template Method
+org.apache.commons.collections.TestLinkedList	makeFullLinkedList	TemplateMethod()	Template Method
+org.apache.commons.collections.TestTypedCollection	null	AbstractClass	Template Method
+org.apache.commons.collections.TestTypedCollection	testIllegalAdd	TemplateMethod()	Template Method
+org.apache.commons.collections.TestTypedCollection	testIllegalAddAll	TemplateMethod()	Template Method
+org.apache.commons.collections.map.Flat3Map	null	Proxy	Proxy
+org.apache.commons.collections.map.AbstractHashedMap	null	RealSubject	Proxy
+org.apache.commons.collections.map.Flat3Map	mapIterator	Request()	Proxy
+org.apache.commons.collections.map.MultiKeyMap	null	Proxy	Proxy
+org.apache.commons.collections.map.AbstractHashedMap	null	RealSubject	Proxy
+org.apache.commons.collections.map.MultiKeyMap	mapIterator	Request()	Proxy

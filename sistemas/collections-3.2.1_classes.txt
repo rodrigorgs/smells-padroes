@@ -1,581 +1,581 @@
-src.java.org.apache.commons.collections.ArrayStack
-src.java.org.apache.commons.collections.bag.AbstractBagDecorator
-src.java.org.apache.commons.collections.bag.AbstractMapBag
-src.java.org.apache.commons.collections.bag.AbstractMapBag$BagIterator
-src.java.org.apache.commons.collections.bag.AbstractMapBag$MutableInteger
-src.java.org.apache.commons.collections.bag.AbstractSortedBagDecorator
-src.java.org.apache.commons.collections.bag.PredicatedBag
-src.java.org.apache.commons.collections.bag.PredicatedSortedBag
-src.java.org.apache.commons.collections.bag.SynchronizedBag
-src.java.org.apache.commons.collections.bag.SynchronizedBag$SynchronizedBagSet
-src.java.org.apache.commons.collections.bag.SynchronizedSortedBag
-src.java.org.apache.commons.collections.bag.TransformedBag
-src.java.org.apache.commons.collections.bag.TransformedSortedBag
-src.java.org.apache.commons.collections.bag.TypedBag
-src.java.org.apache.commons.collections.bag.TypedSortedBag
-src.java.org.apache.commons.collections.bag.UnmodifiableBag
-src.java.org.apache.commons.collections.bag.UnmodifiableSortedBag
-src.java.org.apache.commons.collections.Bag
-src.java.org.apache.commons.collections.BagUtils
-src.java.org.apache.commons.collections.BeanMap
-src.java.org.apache.commons.collections.BeanMap$MyMapEntry
-src.java.org.apache.commons.collections.bidimap.AbstractBidiMapDecorator
-src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap
-src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$View
-src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$KeySet
-src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$KeySetIterator
-src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$Values
-src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$ValuesIterator
-src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$EntrySet
-src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$EntrySetIterator
-src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$MapEntry
-src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$BidiMapIterator
-src.java.org.apache.commons.collections.bidimap.AbstractOrderedBidiMapDecorator
-src.java.org.apache.commons.collections.bidimap.AbstractSortedBidiMapDecorator
-src.java.org.apache.commons.collections.bidimap.DualHashBidiMap
-src.java.org.apache.commons.collections.bidimap.DualTreeBidiMap
-src.java.org.apache.commons.collections.bidimap.DualTreeBidiMap$ViewMap
-src.java.org.apache.commons.collections.bidimap.DualTreeBidiMap$BidiOrderedMapIterator
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap$View
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap$ViewIterator
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap$ViewMapIterator
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap$EntryView
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap$Node
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap$Inverse
-src.java.org.apache.commons.collections.bidimap.UnmodifiableBidiMap
-src.java.org.apache.commons.collections.bidimap.UnmodifiableOrderedBidiMap
-src.java.org.apache.commons.collections.bidimap.UnmodifiableSortedBidiMap
-src.java.org.apache.commons.collections.BidiMap
-src.java.org.apache.commons.collections.BinaryHeap
-src.java.org.apache.commons.collections.BoundedCollection
-src.java.org.apache.commons.collections.BoundedMap
-src.java.org.apache.commons.collections.buffer.AbstractBufferDecorator
-src.java.org.apache.commons.collections.buffer.BlockingBuffer
-src.java.org.apache.commons.collections.buffer.BoundedBuffer
-src.java.org.apache.commons.collections.buffer.BoundedBuffer$NotifyingIterator
-src.java.org.apache.commons.collections.buffer.CircularFifoBuffer
-src.java.org.apache.commons.collections.buffer.PredicatedBuffer
-src.java.org.apache.commons.collections.buffer.PriorityBuffer
-src.java.org.apache.commons.collections.buffer.SynchronizedBuffer
-src.java.org.apache.commons.collections.buffer.TransformedBuffer
-src.java.org.apache.commons.collections.buffer.TypedBuffer
-src.java.org.apache.commons.collections.buffer.UnmodifiableBuffer
-src.java.org.apache.commons.collections.Buffer
-src.java.org.apache.commons.collections.BufferOverflowException
-src.java.org.apache.commons.collections.BufferUnderflowException
-src.java.org.apache.commons.collections.BufferUtils
-src.java.org.apache.commons.collections.Closure
-src.java.org.apache.commons.collections.ClosureUtils
-src.java.org.apache.commons.collections.collection.AbstractCollectionDecorator
-src.java.org.apache.commons.collections.collection.AbstractSerializableCollectionDecorator
-src.java.org.apache.commons.collections.collection.CompositeCollection
-src.java.org.apache.commons.collections.collection.CompositeCollection$CollectionMutator
-src.java.org.apache.commons.collections.collection.PredicatedCollection
-src.java.org.apache.commons.collections.collection.SynchronizedCollection
-src.java.org.apache.commons.collections.collection.TransformedCollection
-src.java.org.apache.commons.collections.collection.TypedCollection
-src.java.org.apache.commons.collections.collection.UnmodifiableBoundedCollection
-src.java.org.apache.commons.collections.collection.UnmodifiableCollection
-src.java.org.apache.commons.collections.CollectionUtils
-src.java.org.apache.commons.collections.comparators.BooleanComparator
-src.java.org.apache.commons.collections.comparators.ComparableComparator
-src.java.org.apache.commons.collections.comparators.ComparatorChain
-src.java.org.apache.commons.collections.comparators.FixedOrderComparator
-src.java.org.apache.commons.collections.comparators.NullComparator
-src.java.org.apache.commons.collections.comparators.ReverseComparator
-src.java.org.apache.commons.collections.comparators.TransformingComparator
-src.java.org.apache.commons.collections.ComparatorUtils
-src.java.org.apache.commons.collections.CursorableSubList
-src.java.org.apache.commons.collections.DefaultMapBag
-src.java.org.apache.commons.collections.DefaultMapBag$BagIterator
-src.java.org.apache.commons.collections.DoubleOrderedMap
-src.java.org.apache.commons.collections.DoubleOrderedMap$DoubleOrderedMapIterator
-src.java.org.apache.commons.collections.DoubleOrderedMap$Node
-src.java.org.apache.commons.collections.EnumerationUtils
-src.java.org.apache.commons.collections.ExtendedProperties
-src.java.org.apache.commons.collections.ExtendedProperties$PropertiesReader
-src.java.org.apache.commons.collections.ExtendedProperties$PropertiesTokenizer
-src.java.org.apache.commons.collections.Factory
-src.java.org.apache.commons.collections.FactoryUtils
-src.java.org.apache.commons.collections.FastArrayList
-src.java.org.apache.commons.collections.FastArrayList$SubList
-src.java.org.apache.commons.collections.FastArrayList$SubList$SubListIter
-src.java.org.apache.commons.collections.FastArrayList$ListIter
-src.java.org.apache.commons.collections.FastHashMap
-src.java.org.apache.commons.collections.FastHashMap$CollectionView
-src.java.org.apache.commons.collections.FastHashMap$CollectionView$CollectionViewIterator
-src.java.org.apache.commons.collections.FastHashMap$KeySet
-src.java.org.apache.commons.collections.FastHashMap$Values
-src.java.org.apache.commons.collections.FastHashMap$EntrySet
-src.java.org.apache.commons.collections.FastTreeMap
-src.java.org.apache.commons.collections.FastTreeMap$CollectionView
-src.java.org.apache.commons.collections.FastTreeMap$CollectionView$CollectionViewIterator
-src.java.org.apache.commons.collections.FastTreeMap$KeySet
-src.java.org.apache.commons.collections.FastTreeMap$Values
-src.java.org.apache.commons.collections.FastTreeMap$EntrySet
-src.java.org.apache.commons.collections.FunctorException
-src.java.org.apache.commons.collections.functors.AllPredicate
-src.java.org.apache.commons.collections.functors.AndPredicate
-src.java.org.apache.commons.collections.functors.AnyPredicate
-src.java.org.apache.commons.collections.functors.ChainedClosure
-src.java.org.apache.commons.collections.functors.ChainedTransformer
-src.java.org.apache.commons.collections.functors.CloneTransformer
-src.java.org.apache.commons.collections.functors.ClosureTransformer
-src.java.org.apache.commons.collections.functors.ConstantFactory
-src.java.org.apache.commons.collections.functors.ConstantTransformer
-src.java.org.apache.commons.collections.functors.EqualPredicate
-src.java.org.apache.commons.collections.functors.ExceptionClosure
-src.java.org.apache.commons.collections.functors.ExceptionFactory
-src.java.org.apache.commons.collections.functors.ExceptionPredicate
-src.java.org.apache.commons.collections.functors.ExceptionTransformer
-src.java.org.apache.commons.collections.functors.FactoryTransformer
-src.java.org.apache.commons.collections.functors.FalsePredicate
-src.java.org.apache.commons.collections.functors.ForClosure
-src.java.org.apache.commons.collections.functors.FunctorUtils
-src.java.org.apache.commons.collections.functors.IdentityPredicate
-src.java.org.apache.commons.collections.functors.IfClosure
-src.java.org.apache.commons.collections.functors.InstanceofPredicate
-src.java.org.apache.commons.collections.functors.InstantiateFactory
-src.java.org.apache.commons.collections.functors.InstantiateTransformer
-src.java.org.apache.commons.collections.functors.InvokerTransformer
-src.java.org.apache.commons.collections.functors.MapTransformer
-src.java.org.apache.commons.collections.functors.NonePredicate
-src.java.org.apache.commons.collections.functors.NOPClosure
-src.java.org.apache.commons.collections.functors.NOPTransformer
-src.java.org.apache.commons.collections.functors.NotNullPredicate
-src.java.org.apache.commons.collections.functors.NotPredicate
-src.java.org.apache.commons.collections.functors.NullIsExceptionPredicate
-src.java.org.apache.commons.collections.functors.NullIsFalsePredicate
-src.java.org.apache.commons.collections.functors.NullIsTruePredicate
-src.java.org.apache.commons.collections.functors.NullPredicate
-src.java.org.apache.commons.collections.functors.OnePredicate
-src.java.org.apache.commons.collections.functors.OrPredicate
-src.java.org.apache.commons.collections.functors.PredicateDecorator
-src.java.org.apache.commons.collections.functors.PredicateTransformer
-src.java.org.apache.commons.collections.functors.PrototypeFactory
-src.java.org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory
-src.java.org.apache.commons.collections.functors.PrototypeFactory$PrototypeSerializationFactory
-src.java.org.apache.commons.collections.functors.StringValueTransformer
-src.java.org.apache.commons.collections.functors.SwitchClosure
-src.java.org.apache.commons.collections.functors.SwitchTransformer
-src.java.org.apache.commons.collections.functors.TransformedPredicate
-src.java.org.apache.commons.collections.functors.TransformerClosure
-src.java.org.apache.commons.collections.functors.TransformerPredicate
-src.java.org.apache.commons.collections.functors.TruePredicate
-src.java.org.apache.commons.collections.functors.UniquePredicate
-src.java.org.apache.commons.collections.functors.WhileClosure
-src.java.org.apache.commons.collections.IterableMap
-src.java.org.apache.commons.collections.iterators.AbstractEmptyIterator
-src.java.org.apache.commons.collections.iterators.AbstractIteratorDecorator
-src.java.org.apache.commons.collections.iterators.AbstractListIteratorDecorator
-src.java.org.apache.commons.collections.iterators.AbstractMapIteratorDecorator
-src.java.org.apache.commons.collections.iterators.AbstractOrderedMapIteratorDecorator
-src.java.org.apache.commons.collections.iterators.ArrayIterator
-src.java.org.apache.commons.collections.iterators.ArrayListIterator
-src.java.org.apache.commons.collections.iterators.CollatingIterator
-src.java.org.apache.commons.collections.iterators.EmptyIterator
-src.java.org.apache.commons.collections.iterators.EmptyListIterator
-src.java.org.apache.commons.collections.iterators.EmptyMapIterator
-src.java.org.apache.commons.collections.iterators.EmptyOrderedIterator
-src.java.org.apache.commons.collections.iterators.EmptyOrderedMapIterator
-src.java.org.apache.commons.collections.iterators.EntrySetMapIterator
-src.java.org.apache.commons.collections.iterators.EnumerationIterator
-src.java.org.apache.commons.collections.iterators.FilterIterator
-src.java.org.apache.commons.collections.iterators.FilterListIterator
-src.java.org.apache.commons.collections.iterators.IteratorChain
-src.java.org.apache.commons.collections.iterators.IteratorEnumeration
-src.java.org.apache.commons.collections.iterators.ListIteratorWrapper
-src.java.org.apache.commons.collections.iterators.LoopingIterator
-src.java.org.apache.commons.collections.iterators.LoopingListIterator
-src.java.org.apache.commons.collections.iterators.ObjectArrayIterator
-src.java.org.apache.commons.collections.iterators.ObjectArrayListIterator
-src.java.org.apache.commons.collections.iterators.ObjectGraphIterator
-src.java.org.apache.commons.collections.iterators.ProxyIterator
-src.java.org.apache.commons.collections.iterators.ProxyListIterator
-src.java.org.apache.commons.collections.iterators.ReverseListIterator
-src.java.org.apache.commons.collections.iterators.SingletonIterator
-src.java.org.apache.commons.collections.iterators.SingletonListIterator
-src.java.org.apache.commons.collections.iterators.TransformIterator
-src.java.org.apache.commons.collections.iterators.UniqueFilterIterator
-src.java.org.apache.commons.collections.iterators.UnmodifiableIterator
-src.java.org.apache.commons.collections.iterators.UnmodifiableListIterator
-src.java.org.apache.commons.collections.iterators.UnmodifiableMapIterator
-src.java.org.apache.commons.collections.iterators.UnmodifiableOrderedMapIterator
-src.java.org.apache.commons.collections.IteratorUtils
-src.java.org.apache.commons.collections.keyvalue.AbstractKeyValue
-src.java.org.apache.commons.collections.keyvalue.AbstractMapEntry
-src.java.org.apache.commons.collections.keyvalue.AbstractMapEntryDecorator
-src.java.org.apache.commons.collections.keyvalue.DefaultKeyValue
-src.java.org.apache.commons.collections.keyvalue.MultiKey
-src.java.org.apache.commons.collections.keyvalue.TiedMapEntry
-src.java.org.apache.commons.collections.keyvalue.UnmodifiableMapEntry
-src.java.org.apache.commons.collections.KeyValue
-src.java.org.apache.commons.collections.list.AbstractLinkedList
-src.java.org.apache.commons.collections.list.AbstractLinkedList$Node
-src.java.org.apache.commons.collections.list.AbstractLinkedList$LinkedListIterator
-src.java.org.apache.commons.collections.list.AbstractLinkedList$LinkedSubListIterator
-src.java.org.apache.commons.collections.list.AbstractLinkedList$LinkedSubList
-src.java.org.apache.commons.collections.list.AbstractListDecorator
-src.java.org.apache.commons.collections.list.AbstractSerializableListDecorator
-src.java.org.apache.commons.collections.list.FixedSizeList
-src.java.org.apache.commons.collections.list.FixedSizeList$FixedSizeListIterator
-src.java.org.apache.commons.collections.list.GrowthList
-src.java.org.apache.commons.collections.list.LazyList
-src.java.org.apache.commons.collections.list.NodeCachingLinkedList
-src.java.org.apache.commons.collections.list.PredicatedList
-src.java.org.apache.commons.collections.list.PredicatedList$PredicatedListIterator
-src.java.org.apache.commons.collections.list.SetUniqueList
-src.java.org.apache.commons.collections.list.SetUniqueList$SetListIterator
-src.java.org.apache.commons.collections.list.SetUniqueList$SetListListIterator
-src.java.org.apache.commons.collections.list.SynchronizedList
-src.java.org.apache.commons.collections.list.TransformedList
-src.java.org.apache.commons.collections.list.TransformedList$TransformedListIterator
-src.java.org.apache.commons.collections.list.TreeList
-src.java.org.apache.commons.collections.list.TreeList$AVLNode
-src.java.org.apache.commons.collections.list.TreeList$TreeListIterator
-src.java.org.apache.commons.collections.list.TypedList
-src.java.org.apache.commons.collections.list.UnmodifiableList
-src.java.org.apache.commons.collections.ListUtils
-src.java.org.apache.commons.collections.map.AbstractHashedMap
-src.java.org.apache.commons.collections.map.AbstractHashedMap$HashMapIterator
-src.java.org.apache.commons.collections.map.AbstractHashedMap$EntrySet
-src.java.org.apache.commons.collections.map.AbstractHashedMap$EntrySetIterator
-src.java.org.apache.commons.collections.map.AbstractHashedMap$KeySet
-src.java.org.apache.commons.collections.map.AbstractHashedMap$KeySetIterator
-src.java.org.apache.commons.collections.map.AbstractHashedMap$Values
-src.java.org.apache.commons.collections.map.AbstractHashedMap$ValuesIterator
-src.java.org.apache.commons.collections.map.AbstractHashedMap$HashEntry
-src.java.org.apache.commons.collections.map.AbstractHashedMap$HashIterator
-src.java.org.apache.commons.collections.map.AbstractInputCheckedMapDecorator
-src.java.org.apache.commons.collections.map.AbstractInputCheckedMapDecorator$EntrySet
-src.java.org.apache.commons.collections.map.AbstractInputCheckedMapDecorator$EntrySetIterator
-src.java.org.apache.commons.collections.map.AbstractInputCheckedMapDecorator$MapEntry
-src.java.org.apache.commons.collections.map.AbstractLinkedMap
-src.java.org.apache.commons.collections.map.AbstractLinkedMap$LinkMapIterator
-src.java.org.apache.commons.collections.map.AbstractLinkedMap$EntrySetIterator
-src.java.org.apache.commons.collections.map.AbstractLinkedMap$KeySetIterator
-src.java.org.apache.commons.collections.map.AbstractLinkedMap$ValuesIterator
-src.java.org.apache.commons.collections.map.AbstractLinkedMap$LinkEntry
-src.java.org.apache.commons.collections.map.AbstractLinkedMap$LinkIterator
-src.java.org.apache.commons.collections.map.AbstractMapDecorator
-src.java.org.apache.commons.collections.map.AbstractOrderedMapDecorator
-src.java.org.apache.commons.collections.map.AbstractReferenceMap
-src.java.org.apache.commons.collections.map.AbstractReferenceMap$ReferenceEntrySet
-src.java.org.apache.commons.collections.map.AbstractReferenceMap$ReferenceKeySet
-src.java.org.apache.commons.collections.map.AbstractReferenceMap$ReferenceValues
-src.java.org.apache.commons.collections.map.AbstractReferenceMap$ReferenceEntry
-src.java.org.apache.commons.collections.map.AbstractReferenceMap$ReferenceEntrySetIterator
-src.java.org.apache.commons.collections.map.AbstractReferenceMap$ReferenceKeySetIterator
-src.java.org.apache.commons.collections.map.AbstractReferenceMap$ReferenceValuesIterator
-src.java.org.apache.commons.collections.map.AbstractReferenceMap$ReferenceMapIterator
-src.java.org.apache.commons.collections.map.AbstractReferenceMap$SoftRef
-src.java.org.apache.commons.collections.map.AbstractReferenceMap$WeakRef
-src.java.org.apache.commons.collections.map.AbstractSortedMapDecorator
-src.java.org.apache.commons.collections.map.CaseInsensitiveMap
-src.java.org.apache.commons.collections.map.CompositeMap
-src.java.org.apache.commons.collections.map.CompositeMap$MapMutator
-src.java.org.apache.commons.collections.map.DefaultedMap
-src.java.org.apache.commons.collections.map.FixedSizeMap
-src.java.org.apache.commons.collections.map.FixedSizeSortedMap
-src.java.org.apache.commons.collections.map.Flat3Map
-src.java.org.apache.commons.collections.map.Flat3Map$FlatMapIterator
-src.java.org.apache.commons.collections.map.Flat3Map$EntrySet
-src.java.org.apache.commons.collections.map.Flat3Map$EntrySetIterator
-src.java.org.apache.commons.collections.map.Flat3Map$KeySet
-src.java.org.apache.commons.collections.map.Flat3Map$KeySetIterator
-src.java.org.apache.commons.collections.map.Flat3Map$Values
-src.java.org.apache.commons.collections.map.Flat3Map$ValuesIterator
-src.java.org.apache.commons.collections.map.HashedMap
-src.java.org.apache.commons.collections.map.IdentityMap
-src.java.org.apache.commons.collections.map.IdentityMap$IdentityEntry
-src.java.org.apache.commons.collections.map.LazyMap
-src.java.org.apache.commons.collections.map.LazySortedMap
-src.java.org.apache.commons.collections.map.LinkedMap
-src.java.org.apache.commons.collections.map.LinkedMap$LinkedMapList
-src.java.org.apache.commons.collections.map.ListOrderedMap
-src.java.org.apache.commons.collections.map.ListOrderedMap$ValuesView
-src.java.org.apache.commons.collections.map.ListOrderedMap$KeySetView
-src.java.org.apache.commons.collections.map.ListOrderedMap$EntrySetView
-src.java.org.apache.commons.collections.map.ListOrderedMap$ListOrderedIterator
-src.java.org.apache.commons.collections.map.ListOrderedMap$ListOrderedMapEntry
-src.java.org.apache.commons.collections.map.ListOrderedMap$ListOrderedMapIterator
-src.java.org.apache.commons.collections.map.MultiKeyMap
-src.java.org.apache.commons.collections.map.MultiValueMap
-src.java.org.apache.commons.collections.map.MultiValueMap$Values
-src.java.org.apache.commons.collections.map.MultiValueMap$ValuesIterator
-src.java.org.apache.commons.collections.map.MultiValueMap$ReflectionFactory
-src.java.org.apache.commons.collections.map.PredicatedMap
-src.java.org.apache.commons.collections.map.PredicatedSortedMap
-src.java.org.apache.commons.collections.map.ReferenceIdentityMap
-src.java.org.apache.commons.collections.map.SingletonMap
-src.java.org.apache.commons.collections.map.SingletonMap$SingletonMapIterator
-src.java.org.apache.commons.collections.map.SingletonMap$SingletonValues
-src.java.org.apache.commons.collections.map.TransformedMap
-src.java.org.apache.commons.collections.map.TransformedSortedMap
-src.java.org.apache.commons.collections.map.TypedMap
-src.java.org.apache.commons.collections.map.TypedSortedMap
-src.java.org.apache.commons.collections.map.UnmodifiableEntrySet
-src.java.org.apache.commons.collections.map.UnmodifiableEntrySet$UnmodifiableEntrySetIterator
-src.java.org.apache.commons.collections.map.UnmodifiableEntrySet$UnmodifiableEntry
-src.java.org.apache.commons.collections.map.UnmodifiableMap
-src.java.org.apache.commons.collections.map.UnmodifiableOrderedMap
-src.java.org.apache.commons.collections.map.UnmodifiableSortedMap
-src.java.org.apache.commons.collections.MapIterator
-src.java.org.apache.commons.collections.MapUtils
-src.java.org.apache.commons.collections.MultiHashMap
-src.java.org.apache.commons.collections.MultiHashMap$Values
-src.java.org.apache.commons.collections.MultiHashMap$ValueIterator
-src.java.org.apache.commons.collections.MultiMap
-src.java.org.apache.commons.collections.OrderedBidiMap
-src.java.org.apache.commons.collections.OrderedIterator
-src.java.org.apache.commons.collections.OrderedMap
-src.java.org.apache.commons.collections.OrderedMapIterator
-src.java.org.apache.commons.collections.Predicate
-src.java.org.apache.commons.collections.PredicateUtils
-src.java.org.apache.commons.collections.PriorityQueue
-src.java.org.apache.commons.collections.ProxyMap
-src.java.org.apache.commons.collections.ResettableIterator
-src.java.org.apache.commons.collections.ResettableListIterator
-src.java.org.apache.commons.collections.SequencedHashMap
-src.java.org.apache.commons.collections.SequencedHashMap$Entry
-src.java.org.apache.commons.collections.SequencedHashMap$OrderedIterator
-src.java.org.apache.commons.collections.set.AbstractSerializableSetDecorator
-src.java.org.apache.commons.collections.set.AbstractSetDecorator
-src.java.org.apache.commons.collections.set.AbstractSortedSetDecorator
-src.java.org.apache.commons.collections.set.CompositeSet
-src.java.org.apache.commons.collections.set.CompositeSet$SetMutator
-src.java.org.apache.commons.collections.set.ListOrderedSet
-src.java.org.apache.commons.collections.set.ListOrderedSet$OrderedSetIterator
-src.java.org.apache.commons.collections.set.MapBackedSet
-src.java.org.apache.commons.collections.set.PredicatedSet
-src.java.org.apache.commons.collections.set.PredicatedSortedSet
-src.java.org.apache.commons.collections.set.SynchronizedSet
-src.java.org.apache.commons.collections.set.SynchronizedSortedSet
-src.java.org.apache.commons.collections.set.TransformedSet
-src.java.org.apache.commons.collections.set.TransformedSortedSet
-src.java.org.apache.commons.collections.set.TypedSet
-src.java.org.apache.commons.collections.set.TypedSortedSet
-src.java.org.apache.commons.collections.set.UnmodifiableSet
-src.java.org.apache.commons.collections.set.UnmodifiableSortedSet
-src.java.org.apache.commons.collections.SetUtils
-src.java.org.apache.commons.collections.SortedBag
-src.java.org.apache.commons.collections.SortedBidiMap
-src.java.org.apache.commons.collections.SynchronizedPriorityQueue
-src.java.org.apache.commons.collections.Transformer
-src.java.org.apache.commons.collections.TransformerUtils
-src.java.org.apache.commons.collections.Unmodifiable
-src.test.org.apache.commons.collections.AbstractTestObject
-src.test.org.apache.commons.collections.bag.AbstractTestBag
-src.test.org.apache.commons.collections.bag.AbstractTestSortedBag
-src.test.org.apache.commons.collections.bag.TestPredicatedBag
-src.test.org.apache.commons.collections.bag.TestPredicatedSortedBag
-src.test.org.apache.commons.collections.bag.TestTransformedBag
-src.test.org.apache.commons.collections.bag.TestTransformedSortedBag
-src.test.org.apache.commons.collections.bag.TestTypedBag
-src.test.org.apache.commons.collections.bag.TestTypedSortedBag
-src.test.org.apache.commons.collections.bidimap.AbstractTestBidiMap
-src.test.org.apache.commons.collections.bidimap.AbstractTestBidiMap$TestBidiMapEntrySet
-src.test.org.apache.commons.collections.bidimap.AbstractTestBidiMap$TestInverseBidiMap
-src.test.org.apache.commons.collections.bidimap.AbstractTestBidiMap$TestBidiMapIterator
-src.test.org.apache.commons.collections.bidimap.AbstractTestOrderedBidiMap
-src.test.org.apache.commons.collections.bidimap.AbstractTestOrderedBidiMap$TestBidiOrderedMapIterator
-src.test.org.apache.commons.collections.bidimap.AbstractTestSortedBidiMap
-src.test.org.apache.commons.collections.bidimap.TestAbstractOrderedBidiMapDecorator
-src.test.org.apache.commons.collections.bidimap.TestAbstractOrderedBidiMapDecorator$TestOrderedBidiMap
-src.test.org.apache.commons.collections.bidimap.TestDualHashBidiMap
-src.test.org.apache.commons.collections.bidimap.TestDualTreeBidiMap
-src.test.org.apache.commons.collections.bidimap.TestDualTreeBidiMap2
-src.test.org.apache.commons.collections.bidimap.TestTreeBidiMap
-src.test.org.apache.commons.collections.bidimap.TestUnmodifiableBidiMap
-src.test.org.apache.commons.collections.bidimap.TestUnmodifiableOrderedBidiMap
-src.test.org.apache.commons.collections.bidimap.TestUnmodifiableSortedBidiMap
-src.test.org.apache.commons.collections.buffer.TestBlockingBuffer
-src.test.org.apache.commons.collections.buffer.TestBlockingBuffer$DelayedAdd
-src.test.org.apache.commons.collections.buffer.TestBlockingBuffer$DelayedAddAll
-src.test.org.apache.commons.collections.buffer.TestBlockingBuffer$ReadThread
-src.test.org.apache.commons.collections.buffer.TestBlockingBuffer$MyBuffer
-src.test.org.apache.commons.collections.buffer.TestBoundedBuffer
-src.test.org.apache.commons.collections.buffer.TestBoundedBuffer$DelayedIteratorRemove
-src.test.org.apache.commons.collections.buffer.TestBoundedBuffer$DelayedRemove
-src.test.org.apache.commons.collections.buffer.TestCircularFifoBuffer
-src.test.org.apache.commons.collections.buffer.TestPredicatedBuffer
-src.test.org.apache.commons.collections.buffer.TestPriorityBuffer
-src.test.org.apache.commons.collections.buffer.TestSynchronizedBuffer
-src.test.org.apache.commons.collections.buffer.TestTransformedBuffer
-src.test.org.apache.commons.collections.buffer.TestUnmodifiableBuffer
-src.test.org.apache.commons.collections.BulkTest
-src.test.org.apache.commons.collections.BulkTestSuiteMaker
-src.test.org.apache.commons.collections.collection.AbstractTestCollection
-src.test.org.apache.commons.collections.collection.TestCompositeCollection
-src.test.org.apache.commons.collections.collection.TestPredicatedCollection
-src.test.org.apache.commons.collections.collection.TestSynchronizedCollection
-src.test.org.apache.commons.collections.collection.TestTransformedCollection
-src.test.org.apache.commons.collections.collection.TestTransformedCollection$StringToInteger
-src.test.org.apache.commons.collections.collection.TestUnmodifiableCollection
-src.test.org.apache.commons.collections.comparators.AbstractTestComparator
-src.test.org.apache.commons.collections.comparators.TestBooleanComparator
-src.test.org.apache.commons.collections.comparators.TestComparableComparator
-src.test.org.apache.commons.collections.comparators.TestComparatorChain
-src.test.org.apache.commons.collections.comparators.TestComparatorChain$PseudoRow
-src.test.org.apache.commons.collections.comparators.TestComparatorChain$ColumnComparator
-src.test.org.apache.commons.collections.comparators.TestFixedOrderComparator
-src.test.org.apache.commons.collections.comparators.TestNullComparator
-src.test.org.apache.commons.collections.comparators.TestNullComparator$TestNullComparator1
-src.test.org.apache.commons.collections.comparators.TestNullComparator$TestNullComparator2
-src.test.org.apache.commons.collections.comparators.TestReverseComparator
-src.test.org.apache.commons.collections.iterators.AbstractTestIterator
-src.test.org.apache.commons.collections.iterators.AbstractTestListIterator
-src.test.org.apache.commons.collections.iterators.AbstractTestMapIterator
-src.test.org.apache.commons.collections.iterators.AbstractTestOrderedMapIterator
-src.test.org.apache.commons.collections.iterators.TestArrayIterator
-src.test.org.apache.commons.collections.iterators.TestArrayIterator2
-src.test.org.apache.commons.collections.iterators.TestArrayListIterator
-src.test.org.apache.commons.collections.iterators.TestArrayListIterator2
-src.test.org.apache.commons.collections.iterators.TestCollatingIterator
-src.test.org.apache.commons.collections.iterators.TestFilterIterator
-src.test.org.apache.commons.collections.iterators.TestFilterListIterator
-src.test.org.apache.commons.collections.iterators.TestIteratorChain
-src.test.org.apache.commons.collections.iterators.TestListIteratorWrapper
-src.test.org.apache.commons.collections.iterators.TestLoopingIterator
-src.test.org.apache.commons.collections.iterators.TestLoopingListIterator
-src.test.org.apache.commons.collections.iterators.TestObjectArrayIterator
-src.test.org.apache.commons.collections.iterators.TestObjectArrayListIterator
-src.test.org.apache.commons.collections.iterators.TestObjectArrayListIterator2
-src.test.org.apache.commons.collections.iterators.TestObjectGraphIterator
-src.test.org.apache.commons.collections.iterators.TestObjectGraphIterator$LeafFinder
-src.test.org.apache.commons.collections.iterators.TestObjectGraphIterator$Forest
-src.test.org.apache.commons.collections.iterators.TestObjectGraphIterator$Tree
-src.test.org.apache.commons.collections.iterators.TestObjectGraphIterator$Branch
-src.test.org.apache.commons.collections.iterators.TestObjectGraphIterator$Leaf
-src.test.org.apache.commons.collections.iterators.TestReverseListIterator
-src.test.org.apache.commons.collections.iterators.TestSingletonIterator
-src.test.org.apache.commons.collections.iterators.TestSingletonIterator2
-src.test.org.apache.commons.collections.iterators.TestSingletonListIterator
-src.test.org.apache.commons.collections.iterators.TestUniqueFilterIterator
-src.test.org.apache.commons.collections.iterators.TestUnmodifiableIterator
-src.test.org.apache.commons.collections.iterators.TestUnmodifiableListIterator
-src.test.org.apache.commons.collections.iterators.TestUnmodifiableMapIterator
-src.test.org.apache.commons.collections.iterators.TestUnmodifiableOrderedMapIterator
-src.test.org.apache.commons.collections.keyvalue.AbstractTestMapEntry
-src.test.org.apache.commons.collections.keyvalue.TestDefaultKeyValue
-src.test.org.apache.commons.collections.keyvalue.TestDefaultMapEntry
-src.test.org.apache.commons.collections.keyvalue.TestMultiKey
-src.test.org.apache.commons.collections.keyvalue.TestTiedMapEntry
-src.test.org.apache.commons.collections.keyvalue.TestUnmodifiableMapEntry
-src.test.org.apache.commons.collections.list.AbstractTestList
-src.test.org.apache.commons.collections.list.AbstractTestList$BulkTestSubList
-src.test.org.apache.commons.collections.list.AbstractTestList$TestListIterator
-src.test.org.apache.commons.collections.list.TestAbstractLinkedList
-src.test.org.apache.commons.collections.list.TestFixedSizeList
-src.test.org.apache.commons.collections.list.TestGrowthList
-src.test.org.apache.commons.collections.list.TestNodeCachingLinkedList
-src.test.org.apache.commons.collections.list.TestPredicatedList
-src.test.org.apache.commons.collections.list.TestSetUniqueList
-src.test.org.apache.commons.collections.list.TestSynchronizedList
-src.test.org.apache.commons.collections.list.TestTransformedList
-src.test.org.apache.commons.collections.list.TestTreeList
-src.test.org.apache.commons.collections.list.TestTypedList
-src.test.org.apache.commons.collections.list.TestUnmodifiableList
-src.test.org.apache.commons.collections.LocalTestNode
-src.test.org.apache.commons.collections.map.AbstractTestIterableMap
-src.test.org.apache.commons.collections.map.AbstractTestIterableMap$InnerTestMapIterator
-src.test.org.apache.commons.collections.map.AbstractTestMap
-src.test.org.apache.commons.collections.map.AbstractTestMap$TestMapEntrySet
-src.test.org.apache.commons.collections.map.AbstractTestMap$TestMapKeySet
-src.test.org.apache.commons.collections.map.AbstractTestMap$TestMapValues
-src.test.org.apache.commons.collections.map.AbstractTestOrderedMap
-src.test.org.apache.commons.collections.map.AbstractTestOrderedMap$InnerTestOrderedMapIterator
-src.test.org.apache.commons.collections.map.AbstractTestSortedMap
-src.test.org.apache.commons.collections.map.AbstractTestSortedMap$TestViewMap
-src.test.org.apache.commons.collections.map.AbstractTestSortedMap$TestHeadMap
-src.test.org.apache.commons.collections.map.AbstractTestSortedMap$TestTailMap
-src.test.org.apache.commons.collections.map.AbstractTestSortedMap$TestSubMap
-src.test.org.apache.commons.collections.map.TestCaseInsensitiveMap
-src.test.org.apache.commons.collections.map.TestCompositeMap
-src.test.org.apache.commons.collections.map.TestDefaultedMap
-src.test.org.apache.commons.collections.map.TestFixedSizeMap
-src.test.org.apache.commons.collections.map.TestFixedSizeSortedMap
-src.test.org.apache.commons.collections.map.TestFlat3Map
-src.test.org.apache.commons.collections.map.TestFlat3Map$TestFlatMapIterator
-src.test.org.apache.commons.collections.map.TestHashedMap
-src.test.org.apache.commons.collections.map.TestIdentityMap
-src.test.org.apache.commons.collections.map.TestLazyMap
-src.test.org.apache.commons.collections.map.TestLazySortedMap
-src.test.org.apache.commons.collections.map.TestLinkedMap
-src.test.org.apache.commons.collections.map.TestLinkedMap$TestListView
-src.test.org.apache.commons.collections.map.TestListOrderedMap
-src.test.org.apache.commons.collections.map.TestListOrderedMap$TestKeyListView
-src.test.org.apache.commons.collections.map.TestListOrderedMap$TestValueListView
-src.test.org.apache.commons.collections.map.TestListOrderedMap2
-src.test.org.apache.commons.collections.map.TestListOrderedMap2$TestListView
-src.test.org.apache.commons.collections.map.TestMultiKeyMap
-src.test.org.apache.commons.collections.map.TestMultiValueMap
-src.test.org.apache.commons.collections.map.TestPredicatedMap
-src.test.org.apache.commons.collections.map.TestPredicatedSortedMap
-src.test.org.apache.commons.collections.map.TestReferenceIdentityMap
-src.test.org.apache.commons.collections.map.TestSingletonMap
-src.test.org.apache.commons.collections.map.TestTransformedMap
-src.test.org.apache.commons.collections.map.TestTransformedSortedMap
-src.test.org.apache.commons.collections.map.TestUnmodifiableMap
-src.test.org.apache.commons.collections.map.TestUnmodifiableOrderedMap
-src.test.org.apache.commons.collections.map.TestUnmodifiableSortedMap
-src.test.org.apache.commons.collections.MapPerformance
-src.test.org.apache.commons.collections.MapPerformance$DummyMap
-src.test.org.apache.commons.collections.set.AbstractTestSet
-src.test.org.apache.commons.collections.set.AbstractTestSortedSet
-src.test.org.apache.commons.collections.set.AbstractTestSortedSet$TestSortedSetSubSet
-src.test.org.apache.commons.collections.set.TestCompositeSet
-src.test.org.apache.commons.collections.set.TestListOrderedSet
-src.test.org.apache.commons.collections.set.TestListOrderedSet$A
-src.test.org.apache.commons.collections.set.TestListOrderedSet$B
-src.test.org.apache.commons.collections.set.TestListOrderedSet2
-src.test.org.apache.commons.collections.set.TestMapBackedSet
-src.test.org.apache.commons.collections.set.TestMapBackedSet2
-src.test.org.apache.commons.collections.set.TestPredicatedSet
-src.test.org.apache.commons.collections.set.TestPredicatedSortedSet
-src.test.org.apache.commons.collections.set.TestSynchronizedSet
-src.test.org.apache.commons.collections.set.TestSynchronizedSortedSet
-src.test.org.apache.commons.collections.set.TestTransformedSet
-src.test.org.apache.commons.collections.set.TestTransformedSortedSet
-src.test.org.apache.commons.collections.set.TestTypedSet
-src.test.org.apache.commons.collections.set.TestTypedSortedSet
-src.test.org.apache.commons.collections.set.TestUnmodifiableSet
-src.test.org.apache.commons.collections.set.TestUnmodifiableSortedSet
-src.test.org.apache.commons.collections.TestAllPackages
-src.test.org.apache.commons.collections.TestArrayList
-src.test.org.apache.commons.collections.TestArrayStack
-src.test.org.apache.commons.collections.TestBagUtils
-src.test.org.apache.commons.collections.TestBeanMap
-src.test.org.apache.commons.collections.TestBeanMap$BeanWithProperties
-src.test.org.apache.commons.collections.TestBinaryHeap
-src.test.org.apache.commons.collections.TestBufferUtils
-src.test.org.apache.commons.collections.TestClosureUtils
-src.test.org.apache.commons.collections.TestClosureUtils$MockClosure
-src.test.org.apache.commons.collections.TestClosureUtils$MockTransformer
-src.test.org.apache.commons.collections.TestCollectionUtils
-src.test.org.apache.commons.collections.TestDoubleOrderedMap
-src.test.org.apache.commons.collections.TestEnumerationUtils
-src.test.org.apache.commons.collections.TestExtendedProperties
-src.test.org.apache.commons.collections.TestFactoryUtils
-src.test.org.apache.commons.collections.TestFactoryUtils$Mock1
-src.test.org.apache.commons.collections.TestFactoryUtils$Mock2
-src.test.org.apache.commons.collections.TestFactoryUtils$Mock3
-src.test.org.apache.commons.collections.TestFastArrayList
-src.test.org.apache.commons.collections.TestFastArrayList1
-src.test.org.apache.commons.collections.TestFastHashMap
-src.test.org.apache.commons.collections.TestFastHashMap1
-src.test.org.apache.commons.collections.TestFastTreeMap
-src.test.org.apache.commons.collections.TestFastTreeMap1
-src.test.org.apache.commons.collections.TestIteratorUtils
-src.test.org.apache.commons.collections.TestLinkedList
-src.test.org.apache.commons.collections.TestListUtils
-src.test.org.apache.commons.collections.TestMapUtils
-src.test.org.apache.commons.collections.TestMultiHashMap
-src.test.org.apache.commons.collections.TestMultiHashMap$MapPair
-src.test.org.apache.commons.collections.TestPredicateUtils
-src.test.org.apache.commons.collections.TestSequencedHashMap
-src.test.org.apache.commons.collections.TestSetUtils
-src.test.org.apache.commons.collections.TestTransformerUtils
-src.test.org.apache.commons.collections.TestTreeMap
-src.test.org.apache.commons.collections.TestTypedCollection
+org.apache.commons.collections.TestFastTreeMap1	classe	4
+org.apache.commons.collections.TestBagUtils	classe	11
+org.apache.commons.collections.TestTransformerUtils	classe	20
+org.apache.commons.collections.TestPredicateUtils	classe	69
+org.apache.commons.collections.bidimap.AbstractTestOrderedBidiMap	classe	5
+org.apache.commons.collections.bidimap.AbstractTestOrderedBidiMap$TestBidiOrderedMapIterator	classe	8
+org.apache.commons.collections.bidimap.TestDualHashBidiMap	classe	4
+org.apache.commons.collections.bidimap.TestDualTreeBidiMap	classe	4
+org.apache.commons.collections.bidimap.TestDualTreeBidiMap2	classe	9
+org.apache.commons.collections.bidimap.TestTreeBidiMap	classe	8
+org.apache.commons.collections.bidimap.TestUnmodifiableSortedBidiMap	classe	13
+org.apache.commons.collections.bidimap.TestAbstractOrderedBidiMapDecorator	classe	6
+org.apache.commons.collections.bidimap.TestAbstractOrderedBidiMapDecorator$TestOrderedBidiMap	classe	1
+org.apache.commons.collections.bidimap.AbstractTestSortedBidiMap	classe	18
+org.apache.commons.collections.bidimap.AbstractTestBidiMap	classe	27
+org.apache.commons.collections.bidimap.AbstractTestBidiMap$TestBidiMapEntrySet	classe	1
+org.apache.commons.collections.bidimap.AbstractTestBidiMap$TestInverseBidiMap	classe	12
+org.apache.commons.collections.bidimap.AbstractTestBidiMap$TestBidiMapIterator	classe	8
+org.apache.commons.collections.bidimap.TestUnmodifiableBidiMap	classe	10
+org.apache.commons.collections.bidimap.TestUnmodifiableOrderedBidiMap	classe	12
+org.apache.commons.collections.collection.TestSynchronizedCollection	classe	6
+org.apache.commons.collections.collection.TestPredicatedCollection	classe	12
+org.apache.commons.collections.collection.TestTransformedCollection	classe	10
+org.apache.commons.collections.collection.TestTransformedCollection$StringToInteger	classe	1
+org.apache.commons.collections.collection.TestUnmodifiableCollection	classe	9
+org.apache.commons.collections.collection.AbstractTestCollection	classe	40
+org.apache.commons.collections.collection.TestCompositeCollection	classe	26
+org.apache.commons.collections.TestArrayList	classe	5
+org.apache.commons.collections.TestLinkedList	classe	14
+org.apache.commons.collections.TestSequencedHashMap	classe	14
+org.apache.commons.collections.comparators.TestBooleanComparator	classe	14
+org.apache.commons.collections.comparators.TestComparableComparator	classe	3
+org.apache.commons.collections.comparators.AbstractTestComparator	classe	15
+org.apache.commons.collections.comparators.TestNullComparator	classe	1
+org.apache.commons.collections.comparators.TestNullComparator$TestNullComparator1	classe	3
+org.apache.commons.collections.comparators.TestNullComparator$TestNullComparator2	classe	3
+org.apache.commons.collections.comparators.TestReverseComparator	classe	4
+org.apache.commons.collections.comparators.TestComparatorChain	classe	8
+org.apache.commons.collections.comparators.TestComparatorChain$PseudoRow	classe	3
+org.apache.commons.collections.comparators.TestComparatorChain$ColumnComparator	classe	3
+org.apache.commons.collections.comparators.TestFixedOrderComparator	classe	9
+org.apache.commons.collections.MapPerformance	classe	3
+org.apache.commons.collections.MapPerformance$DummyMap	classe	12
+org.apache.commons.collections.TestSetUtils	classe	5
+org.apache.commons.collections.TestDoubleOrderedMap	classe	36
+org.apache.commons.collections.LocalTestNode	classe	7
+org.apache.commons.collections.TestClosureUtils	classe	15
+org.apache.commons.collections.TestClosureUtils$MockClosure	classe	1
+org.apache.commons.collections.TestClosureUtils$MockTransformer	classe	1
+org.apache.commons.collections.TestTreeMap	classe	5
+org.apache.commons.collections.TestBeanMap	classe	17
+org.apache.commons.collections.TestBeanMap$BeanWithProperties	classe	20
+org.apache.commons.collections.TestFastArrayList1	classe	6
+org.apache.commons.collections.TestEnumerationUtils	classe	3
+org.apache.commons.collections.TestBinaryHeap	classe	14
+org.apache.commons.collections.TestListUtils	classe	9
+org.apache.commons.collections.TestArrayStack	classe	7
+org.apache.commons.collections.map.TestCompositeMap	classe	14
+org.apache.commons.collections.map.TestCaseInsensitiveMap	classe	8
+org.apache.commons.collections.map.TestUnmodifiableOrderedMap	classe	10
+org.apache.commons.collections.map.TestLinkedMap	classe	12
+org.apache.commons.collections.map.TestLinkedMap$TestListView	classe	8
+org.apache.commons.collections.map.TestMultiValueMap	classe	25
+org.apache.commons.collections.map.TestTransformedSortedMap	classe	8
+org.apache.commons.collections.map.AbstractTestOrderedMap	classe	7
+org.apache.commons.collections.map.AbstractTestOrderedMap$InnerTestOrderedMapIterator	classe	8
+org.apache.commons.collections.map.TestFixedSizeSortedMap	classe	8
+org.apache.commons.collections.map.TestListOrderedMap2	classe	9
+org.apache.commons.collections.map.TestListOrderedMap2$TestListView	classe	8
+org.apache.commons.collections.map.TestSingletonMap	classe	14
+org.apache.commons.collections.map.TestTransformedMap	classe	7
+org.apache.commons.collections.map.AbstractTestIterableMap	classe	4
+org.apache.commons.collections.map.AbstractTestIterableMap$InnerTestMapIterator	classe	9
+org.apache.commons.collections.map.TestReferenceIdentityMap	classe	13
+org.apache.commons.collections.map.TestHashedMap	classe	6
+org.apache.commons.collections.map.TestIdentityMap	classe	8
+org.apache.commons.collections.map.TestLazySortedMap	classe	11
+org.apache.commons.collections.map.TestUnmodifiableSortedMap	classe	10
+org.apache.commons.collections.map.TestFixedSizeMap	classe	7
+org.apache.commons.collections.map.TestLazyMap	classe	7
+org.apache.commons.collections.map.TestMultiKeyMap	classe	21
+org.apache.commons.collections.map.TestUnmodifiableMap	classe	10
+org.apache.commons.collections.map.AbstractTestSortedMap	classe	8
+org.apache.commons.collections.map.AbstractTestSortedMap$TestViewMap	classe	15
+org.apache.commons.collections.map.AbstractTestSortedMap$TestHeadMap	classe	4
+org.apache.commons.collections.map.AbstractTestSortedMap$TestTailMap	classe	4
+org.apache.commons.collections.map.AbstractTestSortedMap$TestSubMap	classe	4
+org.apache.commons.collections.map.TestDefaultedMap	classe	8
+org.apache.commons.collections.map.TestListOrderedMap	classe	15
+org.apache.commons.collections.map.TestListOrderedMap$TestKeyListView	classe	8
+org.apache.commons.collections.map.TestListOrderedMap$TestValueListView	classe	8
+org.apache.commons.collections.map.TestPredicatedSortedMap	classe	12
+org.apache.commons.collections.map.TestFlat3Map	classe	12
+org.apache.commons.collections.map.TestFlat3Map$TestFlatMapIterator	classe	8
+org.apache.commons.collections.map.TestPredicatedMap	classe	8
+org.apache.commons.collections.map.AbstractTestMap	classe	64
+org.apache.commons.collections.map.AbstractTestMap$TestMapEntrySet	classe	15
+org.apache.commons.collections.map.AbstractTestMap$TestMapKeySet	classe	11
+org.apache.commons.collections.map.AbstractTestMap$TestMapValues	classe	14
+org.apache.commons.collections.keyvalue.AbstractTestMapEntry	classe	9
+org.apache.commons.collections.keyvalue.TestTiedMapEntry	classe	5
+org.apache.commons.collections.keyvalue.TestUnmodifiableMapEntry	classe	8
+org.apache.commons.collections.keyvalue.TestDefaultMapEntry	classe	6
+org.apache.commons.collections.keyvalue.TestMultiKey	classe	14
+org.apache.commons.collections.keyvalue.TestDefaultKeyValue	classe	10
+org.apache.commons.collections.list.TestGrowthList	classe	13
+org.apache.commons.collections.list.TestPredicatedList	classe	11
+org.apache.commons.collections.list.TestUnmodifiableList	classe	12
+org.apache.commons.collections.list.TestFixedSizeList	classe	7
+org.apache.commons.collections.list.TestNodeCachingLinkedList	classe	6
+org.apache.commons.collections.list.TestTypedList	classe	6
+org.apache.commons.collections.list.TestSynchronizedList	classe	5
+org.apache.commons.collections.list.TestAbstractLinkedList	classe	6
+org.apache.commons.collections.list.TestTransformedList	classe	8
+org.apache.commons.collections.list.TestTreeList	classe	9
+org.apache.commons.collections.list.TestSetUniqueList	classe	21
+org.apache.commons.collections.list.AbstractTestList	classe	48
+org.apache.commons.collections.list.AbstractTestList$BulkTestSubList	classe	11
+org.apache.commons.collections.list.AbstractTestList$TestListIterator	classe	6
+org.apache.commons.collections.TestMultiHashMap	classe	35
+org.apache.commons.collections.TestMultiHashMap$MapPair	classe	0
+org.apache.commons.collections.TestExtendedProperties	classe	11
+org.apache.commons.collections.TestFactoryUtils	classe	19
+org.apache.commons.collections.TestFactoryUtils$Mock1	classe	1
+org.apache.commons.collections.TestFactoryUtils$Mock2	classe	1
+org.apache.commons.collections.TestFactoryUtils$Mock3	classe	1
+org.apache.commons.collections.BulkTest	classe	4
+org.apache.commons.collections.BulkTestSuiteMaker	classe	10
+org.apache.commons.collections.set.TestPredicatedSet	classe	10
+org.apache.commons.collections.set.AbstractTestSet	classe	12
+org.apache.commons.collections.set.TestPredicatedSortedSet	classe	10
+org.apache.commons.collections.set.TestSynchronizedSet	classe	4
+org.apache.commons.collections.set.AbstractTestSortedSet	classe	9
+org.apache.commons.collections.set.AbstractTestSortedSet$TestSortedSetSubSet	classe	13
+org.apache.commons.collections.set.TestUnmodifiableSet	classe	7
+org.apache.commons.collections.set.TestMapBackedSet	classe	4
+org.apache.commons.collections.set.TestListOrderedSet	classe	10
+org.apache.commons.collections.set.TestListOrderedSet$A	classe	2
+org.apache.commons.collections.set.TestListOrderedSet$B	classe	2
+org.apache.commons.collections.set.TestUnmodifiableSortedSet	classe	11
+org.apache.commons.collections.set.TestListOrderedSet2	classe	8
+org.apache.commons.collections.set.TestTypedSet	classe	5
+org.apache.commons.collections.set.TestSynchronizedSortedSet	classe	4
+org.apache.commons.collections.set.TestTypedSortedSet	classe	9
+org.apache.commons.collections.set.TestMapBackedSet2	classe	7
+org.apache.commons.collections.set.TestTransformedSet	classe	8
+org.apache.commons.collections.set.TestTransformedSortedSet	classe	6
+org.apache.commons.collections.set.TestCompositeSet	classe	9
+org.apache.commons.collections.TestTypedCollection	classe	4
+org.apache.commons.collections.TestMapUtils	classe	34
+org.apache.commons.collections.TestBufferUtils	classe	3
+org.apache.commons.collections.TestCollectionUtils	classe	62
+org.apache.commons.collections.TestFastHashMap1	classe	4
+org.apache.commons.collections.bag.TestTypedSortedBag	classe	8
+org.apache.commons.collections.bag.TestTypedBag	classe	9
+org.apache.commons.collections.bag.TestTransformedSortedBag	classe	5
+org.apache.commons.collections.bag.TestTransformedBag	classe	5
+org.apache.commons.collections.bag.TestPredicatedSortedBag	classe	9
+org.apache.commons.collections.bag.TestPredicatedBag	classe	10
+org.apache.commons.collections.bag.AbstractTestBag	classe	24
+org.apache.commons.collections.bag.AbstractTestSortedBag	classe	0
+org.apache.commons.collections.TestFastTreeMap	classe	6
+org.apache.commons.collections.TestAllPackages	classe	2
+org.apache.commons.collections.TestFastArrayList	classe	10
+org.apache.commons.collections.TestIteratorUtils	classe	18
+org.apache.commons.collections.iterators.TestCollatingIterator	classe	12
+org.apache.commons.collections.iterators.TestUnmodifiableListIterator	classe	8
+org.apache.commons.collections.iterators.TestSingletonListIterator	classe	8
+org.apache.commons.collections.iterators.AbstractTestMapIterator	classe	16
+org.apache.commons.collections.iterators.AbstractTestOrderedMapIterator	classe	5
+org.apache.commons.collections.iterators.TestLoopingIterator	classe	9
+org.apache.commons.collections.iterators.AbstractTestListIterator	classe	14
+org.apache.commons.collections.iterators.AbstractTestIterator	classe	10
+org.apache.commons.collections.iterators.TestArrayListIterator2	classe	7
+org.apache.commons.collections.iterators.TestFilterIterator	classe	15
+org.apache.commons.collections.iterators.TestObjectArrayIterator	classe	12
+org.apache.commons.collections.iterators.TestUnmodifiableIterator	classe	6
+org.apache.commons.collections.iterators.TestArrayListIterator	classe	7
+org.apache.commons.collections.iterators.TestUniqueFilterIterator	classe	5
+org.apache.commons.collections.iterators.TestListIteratorWrapper	classe	7
+org.apache.commons.collections.iterators.TestObjectArrayListIterator2	classe	6
+org.apache.commons.collections.iterators.TestArrayIterator	classe	7
+org.apache.commons.collections.iterators.TestReverseListIterator	classe	8
+org.apache.commons.collections.iterators.TestSingletonIterator	classe	8
+org.apache.commons.collections.iterators.TestUnmodifiableOrderedMapIterator	classe	9
+org.apache.commons.collections.iterators.TestUnmodifiableMapIterator	classe	9
+org.apache.commons.collections.iterators.TestObjectGraphIterator	classe	20
+org.apache.commons.collections.iterators.TestObjectGraphIterator$LeafFinder	classe	1
+org.apache.commons.collections.iterators.TestObjectGraphIterator$Forest	classe	3
+org.apache.commons.collections.iterators.TestObjectGraphIterator$Tree	classe	3
+org.apache.commons.collections.iterators.TestObjectGraphIterator$Branch	classe	3
+org.apache.commons.collections.iterators.TestObjectGraphIterator$Leaf	classe	2
+org.apache.commons.collections.iterators.TestFilterListIterator	classe	23
+org.apache.commons.collections.iterators.TestLoopingListIterator	classe	13
+org.apache.commons.collections.iterators.TestObjectArrayListIterator	classe	6
+org.apache.commons.collections.iterators.TestSingletonIterator2	classe	7
+org.apache.commons.collections.iterators.TestIteratorChain	classe	9
+org.apache.commons.collections.iterators.TestArrayIterator2	classe	11
+org.apache.commons.collections.TestFastHashMap	classe	3
+org.apache.commons.collections.buffer.TestPredicatedBuffer	classe	10
+org.apache.commons.collections.buffer.TestSynchronizedBuffer	classe	8
+org.apache.commons.collections.buffer.TestBlockingBuffer	classe	23
+org.apache.commons.collections.buffer.TestBlockingBuffer$DelayedAdd	classe	1
+org.apache.commons.collections.buffer.TestBlockingBuffer$DelayedAddAll	classe	1
+org.apache.commons.collections.buffer.TestBlockingBuffer$ReadThread	classe	1
+org.apache.commons.collections.buffer.TestBlockingBuffer$MyBuffer	classe	2
+org.apache.commons.collections.buffer.TestCircularFifoBuffer	classe	24
+org.apache.commons.collections.buffer.TestPriorityBuffer	classe	19
+org.apache.commons.collections.buffer.TestTransformedBuffer	classe	3
+org.apache.commons.collections.buffer.TestBoundedBuffer	classe	13
+org.apache.commons.collections.buffer.TestBoundedBuffer$DelayedIteratorRemove	classe	1
+org.apache.commons.collections.buffer.TestBoundedBuffer$DelayedRemove	classe	1
+org.apache.commons.collections.buffer.TestUnmodifiableBuffer	classe	11
+org.apache.commons.collections.AbstractTestObject	classe	23
+org.apache.commons.collections.BidiMap	interface	5
+org.apache.commons.collections.ProxyMap	classe	14
+org.apache.commons.collections.IteratorUtils	classe	43
+org.apache.commons.collections.FastArrayList	classe	31
+org.apache.commons.collections.FastArrayList$SubList	classe	26
+org.apache.commons.collections.FastArrayList$SubList$SubListIter	classe	11
+org.apache.commons.collections.FastArrayList$ListIter	classe	11
+org.apache.commons.collections.ComparatorUtils	classe	11
+org.apache.commons.collections.FunctorException	classe	4
+org.apache.commons.collections.bidimap.AbstractDualBidiMap	classe	24
+org.apache.commons.collections.bidimap.AbstractDualBidiMap$View	classe	3
+org.apache.commons.collections.bidimap.AbstractDualBidiMap$KeySet	classe	3
+org.apache.commons.collections.bidimap.AbstractDualBidiMap$KeySetIterator	classe	2
+org.apache.commons.collections.bidimap.AbstractDualBidiMap$Values	classe	3
+org.apache.commons.collections.bidimap.AbstractDualBidiMap$ValuesIterator	classe	2
+org.apache.commons.collections.bidimap.AbstractDualBidiMap$EntrySet	classe	2
+org.apache.commons.collections.bidimap.AbstractDualBidiMap$EntrySetIterator	classe	2
+org.apache.commons.collections.bidimap.AbstractDualBidiMap$MapEntry	classe	1
+org.apache.commons.collections.bidimap.AbstractDualBidiMap$BidiMapIterator	classe	8
+org.apache.commons.collections.bidimap.UnmodifiableBidiMap	classe	11
+org.apache.commons.collections.bidimap.AbstractOrderedBidiMapDecorator	classe	7
+org.apache.commons.collections.bidimap.UnmodifiableOrderedBidiMap	classe	13
+org.apache.commons.collections.bidimap.AbstractBidiMapDecorator	classe	5
+org.apache.commons.collections.bidimap.UnmodifiableSortedBidiMap	classe	17
+org.apache.commons.collections.bidimap.AbstractSortedBidiMapDecorator	classe	6
+org.apache.commons.collections.bidimap.DualHashBidiMap	classe	3
+org.apache.commons.collections.bidimap.DualTreeBidiMap	classe	14
+org.apache.commons.collections.bidimap.DualTreeBidiMap$ViewMap	classe	5
+org.apache.commons.collections.bidimap.DualTreeBidiMap$BidiOrderedMapIterator	classe	10
+org.apache.commons.collections.bidimap.TreeBidiMap	classe	63
+org.apache.commons.collections.bidimap.TreeBidiMap$View	classe	5
+org.apache.commons.collections.bidimap.TreeBidiMap$ViewIterator	classe	6
+org.apache.commons.collections.bidimap.TreeBidiMap$ViewMapIterator	classe	3
+org.apache.commons.collections.bidimap.TreeBidiMap$EntryView	classe	2
+org.apache.commons.collections.bidimap.TreeBidiMap$Node	classe	18
+org.apache.commons.collections.bidimap.TreeBidiMap$Inverse	classe	25
+org.apache.commons.collections.BoundedCollection	interface	2
+org.apache.commons.collections.BeanMap	classe	30
+org.apache.commons.collections.BeanMap$MyMapEntry	classe	1
+org.apache.commons.collections.collection.UnmodifiableBoundedCollection	classe	11
+org.apache.commons.collections.collection.CompositeCollection	classe	20
+org.apache.commons.collections.collection.CompositeCollection$CollectionMutator	interface	3
+org.apache.commons.collections.collection.TransformedCollection	classe	5
+org.apache.commons.collections.collection.PredicatedCollection	classe	4
+org.apache.commons.collections.collection.TypedCollection	classe	1
+org.apache.commons.collections.collection.SynchronizedCollection	classe	17
+org.apache.commons.collections.collection.UnmodifiableCollection	classe	8
+org.apache.commons.collections.collection.AbstractCollectionDecorator	classe	17
+org.apache.commons.collections.collection.AbstractSerializableCollectionDecorator	classe	2
+org.apache.commons.collections.OrderedBidiMap	interface	2
+org.apache.commons.collections.FactoryUtils	classe	6
+org.apache.commons.collections.ListUtils	classe	15
+org.apache.commons.collections.Closure	interface	1
+org.apache.commons.collections.MapUtils	classe	68
+org.apache.commons.collections.Transformer	interface	1
+org.apache.commons.collections.MultiHashMap	classe	16
+org.apache.commons.collections.MultiHashMap$Values	classe	3
+org.apache.commons.collections.MultiHashMap$ValueIterator	classe	4
+org.apache.commons.collections.functors.StringValueTransformer	classe	2
+org.apache.commons.collections.functors.PredicateDecorator	interface	1
+org.apache.commons.collections.functors.IdentityPredicate	classe	3
+org.apache.commons.collections.functors.ExceptionClosure	classe	2
+org.apache.commons.collections.functors.NOPClosure	classe	2
+org.apache.commons.collections.functors.ClosureTransformer	classe	3
+org.apache.commons.collections.functors.FunctorUtils	classe	7
+org.apache.commons.collections.functors.TransformerPredicate	classe	3
+org.apache.commons.collections.functors.NullPredicate	classe	2
+org.apache.commons.collections.functors.ConstantTransformer	classe	3
+org.apache.commons.collections.functors.PredicateTransformer	classe	3
+org.apache.commons.collections.functors.WhileClosure	classe	5
+org.apache.commons.collections.functors.ForClosure	classe	4
+org.apache.commons.collections.functors.NullIsTruePredicate	classe	3
+org.apache.commons.collections.functors.TransformedPredicate	classe	4
+org.apache.commons.collections.functors.NonePredicate	classe	4
+org.apache.commons.collections.functors.ExceptionTransformer	classe	2
+org.apache.commons.collections.functors.SwitchTransformer	classe	6
+org.apache.commons.collections.functors.TransformerClosure	classe	3
+org.apache.commons.collections.functors.OrPredicate	classe	3
+org.apache.commons.collections.functors.NOPTransformer	classe	2
+org.apache.commons.collections.functors.MapTransformer	classe	3
+org.apache.commons.collections.functors.ExceptionFactory	classe	2
+org.apache.commons.collections.functors.ChainedClosure	classe	5
+org.apache.commons.collections.functors.AndPredicate	classe	3
+org.apache.commons.collections.functors.PrototypeFactory	classe	1
+org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory	classe	2
+org.apache.commons.collections.functors.PrototypeFactory$PrototypeSerializationFactory	classe	1
+org.apache.commons.collections.functors.ExceptionPredicate	classe	2
+org.apache.commons.collections.functors.InstanceofPredicate	classe	3
+org.apache.commons.collections.functors.InvokerTransformer	classe	3
+org.apache.commons.collections.functors.FalsePredicate	classe	2
+org.apache.commons.collections.functors.CloneTransformer	classe	2
+org.apache.commons.collections.functors.NotPredicate	classe	3
+org.apache.commons.collections.functors.ConstantFactory	classe	3
+org.apache.commons.collections.functors.ChainedTransformer	classe	5
+org.apache.commons.collections.functors.AllPredicate	classe	4
+org.apache.commons.collections.functors.NullIsFalsePredicate	classe	3
+org.apache.commons.collections.functors.NullIsExceptionPredicate	classe	3
+org.apache.commons.collections.functors.AnyPredicate	classe	4
+org.apache.commons.collections.functors.TruePredicate	classe	2
+org.apache.commons.collections.functors.FactoryTransformer	classe	3
+org.apache.commons.collections.functors.NotNullPredicate	classe	2
+org.apache.commons.collections.functors.SwitchClosure	classe	6
+org.apache.commons.collections.functors.UniquePredicate	classe	2
+org.apache.commons.collections.functors.InstantiateTransformer	classe	2
+org.apache.commons.collections.functors.OnePredicate	classe	4
+org.apache.commons.collections.functors.EqualPredicate	classe	3
+org.apache.commons.collections.functors.InstantiateFactory	classe	3
+org.apache.commons.collections.functors.IfClosure	classe	6
+org.apache.commons.collections.ResettableListIterator	interface	1
+org.apache.commons.collections.OrderedIterator	interface	2
+org.apache.commons.collections.comparators.ComparatorChain	classe	13
+org.apache.commons.collections.comparators.BooleanComparator	classe	8
+org.apache.commons.collections.comparators.ReverseComparator	classe	3
+org.apache.commons.collections.comparators.ComparableComparator	classe	4
+org.apache.commons.collections.comparators.TransformingComparator	classe	1
+org.apache.commons.collections.comparators.FixedOrderComparator	classe	7
+org.apache.commons.collections.comparators.NullComparator	classe	3
+org.apache.commons.collections.CollectionUtils	classe	47
+org.apache.commons.collections.Factory	interface	1
+org.apache.commons.collections.Bag	interface	11
+org.apache.commons.collections.Predicate	interface	1
+org.apache.commons.collections.PriorityQueue	interface	5
+org.apache.commons.collections.SortedBag	interface	3
+org.apache.commons.collections.FastHashMap	classe	17
+org.apache.commons.collections.FastHashMap$CollectionView	classe	17
+org.apache.commons.collections.FastHashMap$CollectionView$CollectionViewIterator	classe	3
+org.apache.commons.collections.FastHashMap$KeySet	classe	2
+org.apache.commons.collections.FastHashMap$Values	classe	2
+org.apache.commons.collections.FastHashMap$EntrySet	classe	2
+org.apache.commons.collections.SynchronizedPriorityQueue	classe	6
+org.apache.commons.collections.ClosureUtils	classe	17
+org.apache.commons.collections.map.TransformedSortedMap	classe	9
+org.apache.commons.collections.map.AbstractLinkedMap	classe	18
+org.apache.commons.collections.map.AbstractLinkedMap$LinkMapIterator	classe	5
+org.apache.commons.collections.map.AbstractLinkedMap$EntrySetIterator	classe	2
+org.apache.commons.collections.map.AbstractLinkedMap$KeySetIterator	classe	2
+org.apache.commons.collections.map.AbstractLinkedMap$ValuesIterator	classe	2
+org.apache.commons.collections.map.AbstractLinkedMap$LinkEntry	classe	0
+org.apache.commons.collections.map.AbstractLinkedMap$LinkIterator	classe	8
+org.apache.commons.collections.map.Flat3Map	classe	21
+org.apache.commons.collections.map.Flat3Map$FlatMapIterator	classe	8
+org.apache.commons.collections.map.Flat3Map$EntrySet	classe	4
+org.apache.commons.collections.map.Flat3Map$EntrySetIterator	classe	9
+org.apache.commons.collections.map.Flat3Map$KeySet	classe	5
+org.apache.commons.collections.map.Flat3Map$KeySetIterator	classe	1
+org.apache.commons.collections.map.Flat3Map$Values	classe	4
+org.apache.commons.collections.map.Flat3Map$ValuesIterator	classe	1
+org.apache.commons.collections.map.PredicatedMap	classe	8
+org.apache.commons.collections.map.FixedSizeSortedMap	classe	16
+org.apache.commons.collections.map.UnmodifiableSortedMap	classe	16
+org.apache.commons.collections.map.PredicatedSortedMap	classe	8
+org.apache.commons.collections.map.DefaultedMap	classe	6
+org.apache.commons.collections.map.ReferenceIdentityMap	classe	6
+org.apache.commons.collections.map.AbstractSortedMapDecorator	classe	7
+org.apache.commons.collections.map.AbstractInputCheckedMapDecorator	classe	3
+org.apache.commons.collections.map.AbstractInputCheckedMapDecorator$EntrySet	classe	3
+org.apache.commons.collections.map.AbstractInputCheckedMapDecorator$EntrySetIterator	classe	1
+org.apache.commons.collections.map.AbstractInputCheckedMapDecorator$MapEntry	classe	1
+org.apache.commons.collections.map.FixedSizeMap	classe	12
+org.apache.commons.collections.map.LazySortedMap	classe	9
+org.apache.commons.collections.map.UnmodifiableOrderedMap	classe	12
+org.apache.commons.collections.map.CaseInsensitiveMap	classe	4
+org.apache.commons.collections.map.AbstractHashedMap	classe	45
+org.apache.commons.collections.map.AbstractHashedMap$HashMapIterator	classe	4
+org.apache.commons.collections.map.AbstractHashedMap$EntrySet	classe	5
+org.apache.commons.collections.map.AbstractHashedMap$EntrySetIterator	classe	1
+org.apache.commons.collections.map.AbstractHashedMap$KeySet	classe	5
+org.apache.commons.collections.map.AbstractHashedMap$KeySetIterator	classe	1
+org.apache.commons.collections.map.AbstractHashedMap$Values	classe	4
+org.apache.commons.collections.map.AbstractHashedMap$ValuesIterator	classe	1
+org.apache.commons.collections.map.AbstractHashedMap$HashEntry	classe	6
+org.apache.commons.collections.map.AbstractHashedMap$HashIterator	classe	5
+org.apache.commons.collections.map.AbstractOrderedMapDecorator	classe	7
+org.apache.commons.collections.map.UnmodifiableMap	classe	11
+org.apache.commons.collections.map.ListOrderedMap	classe	26
+org.apache.commons.collections.map.ListOrderedMap$ValuesView	classe	7
+org.apache.commons.collections.map.ListOrderedMap$KeySetView	classe	4
+org.apache.commons.collections.map.ListOrderedMap$EntrySetView	classe	11
+org.apache.commons.collections.map.ListOrderedMap$ListOrderedIterator	classe	2
+org.apache.commons.collections.map.ListOrderedMap$ListOrderedMapEntry	classe	2
+org.apache.commons.collections.map.ListOrderedMap$ListOrderedMapIterator	classe	10
+org.apache.commons.collections.map.LinkedMap	classe	8
+org.apache.commons.collections.map.LinkedMap$LinkedMapList	classe	17
+org.apache.commons.collections.map.TypedMap	classe	1
+org.apache.commons.collections.map.SingletonMap	classe	29
+org.apache.commons.collections.map.SingletonMap$SingletonMapIterator	classe	10
+org.apache.commons.collections.map.SingletonMap$SingletonValues	classe	5
+org.apache.commons.collections.map.UnmodifiableEntrySet	classe	10
+org.apache.commons.collections.map.UnmodifiableEntrySet$UnmodifiableEntrySetIterator	classe	2
+org.apache.commons.collections.map.UnmodifiableEntrySet$UnmodifiableEntry	classe	1
+org.apache.commons.collections.map.AbstractMapDecorator	classe	16
+org.apache.commons.collections.map.AbstractReferenceMap	classe	27
+org.apache.commons.collections.map.AbstractReferenceMap$ReferenceEntrySet	classe	2
+org.apache.commons.collections.map.AbstractReferenceMap$ReferenceKeySet	classe	2
+org.apache.commons.collections.map.AbstractReferenceMap$ReferenceValues	classe	2
+org.apache.commons.collections.map.AbstractReferenceMap$ReferenceEntry	classe	8
+org.apache.commons.collections.map.AbstractReferenceMap$ReferenceEntrySetIterator	classe	7
+org.apache.commons.collections.map.AbstractReferenceMap$ReferenceKeySetIterator	classe	1
+org.apache.commons.collections.map.AbstractReferenceMap$ReferenceValuesIterator	classe	1
+org.apache.commons.collections.map.AbstractReferenceMap$ReferenceMapIterator	classe	4
+org.apache.commons.collections.map.AbstractReferenceMap$SoftRef	classe	1
+org.apache.commons.collections.map.AbstractReferenceMap$WeakRef	classe	1
+org.apache.commons.collections.map.MultiKeyMap	classe	47
+org.apache.commons.collections.map.HashedMap	classe	3
+org.apache.commons.collections.map.LazyMap	classe	5
+org.apache.commons.collections.map.TypedSortedMap	classe	1
+org.apache.commons.collections.map.MultiValueMap	classe	16
+org.apache.commons.collections.map.MultiValueMap$Values	classe	3
+org.apache.commons.collections.map.MultiValueMap$ValuesIterator	classe	3
+org.apache.commons.collections.map.MultiValueMap$ReflectionFactory	classe	1
+org.apache.commons.collections.map.IdentityMap	classe	7
+org.apache.commons.collections.map.IdentityMap$IdentityEntry	classe	2
+org.apache.commons.collections.map.TransformedMap	classe	11
+org.apache.commons.collections.map.CompositeMap	classe	17
+org.apache.commons.collections.map.CompositeMap$MapMutator	interface	3
+org.apache.commons.collections.keyvalue.UnmodifiableMapEntry	classe	1
+org.apache.commons.collections.keyvalue.MultiKey	classe	6
+org.apache.commons.collections.keyvalue.DefaultKeyValue	classe	5
+org.apache.commons.collections.keyvalue.AbstractMapEntryDecorator	classe	7
+org.apache.commons.collections.keyvalue.AbstractKeyValue	classe	3
+org.apache.commons.collections.keyvalue.TiedMapEntry	classe	6
+org.apache.commons.collections.keyvalue.AbstractMapEntry	classe	3
+org.apache.commons.collections.ExtendedProperties	classe	57
+org.apache.commons.collections.ExtendedProperties$PropertiesReader	classe	1
+org.apache.commons.collections.ExtendedProperties$PropertiesTokenizer	classe	2
+org.apache.commons.collections.MapIterator	interface	6
+org.apache.commons.collections.list.LazyList	classe	3
+org.apache.commons.collections.list.AbstractSerializableListDecorator	classe	2
+org.apache.commons.collections.list.TreeList	classe	13
+org.apache.commons.collections.list.TreeList$AVLNode	classe	29
+org.apache.commons.collections.list.TreeList$TreeListIterator	classe	10
+org.apache.commons.collections.list.SetUniqueList	classe	18
+org.apache.commons.collections.list.SetUniqueList$SetListIterator	classe	2
+org.apache.commons.collections.list.SetUniqueList$SetListListIterator	classe	5
+org.apache.commons.collections.list.AbstractListDecorator	classe	11
+org.apache.commons.collections.list.NodeCachingLinkedList	classe	11
+org.apache.commons.collections.list.UnmodifiableList	classe	15
+org.apache.commons.collections.list.FixedSizeList	classe	20
+org.apache.commons.collections.list.FixedSizeList$FixedSizeListIterator	classe	2
+org.apache.commons.collections.list.SynchronizedList	classe	12
+org.apache.commons.collections.list.TypedList	classe	1
+org.apache.commons.collections.list.TransformedList	classe	12
+org.apache.commons.collections.list.TransformedList$TransformedListIterator	classe	2
+org.apache.commons.collections.list.GrowthList	classe	4
+org.apache.commons.collections.list.AbstractLinkedList	classe	47
+org.apache.commons.collections.list.AbstractLinkedList$Node	classe	6
+org.apache.commons.collections.list.AbstractLinkedList$LinkedListIterator	classe	11
+org.apache.commons.collections.list.AbstractLinkedList$LinkedSubListIterator	classe	5
+org.apache.commons.collections.list.AbstractLinkedList$LinkedSubList	classe	13
+org.apache.commons.collections.list.PredicatedList	classe	12
+org.apache.commons.collections.list.PredicatedList$PredicatedListIterator	classe	2
+org.apache.commons.collections.OrderedMap	interface	5
+org.apache.commons.collections.BufferUtils	classe	9
+org.apache.commons.collections.BufferUnderflowException	classe	1
+org.apache.commons.collections.FastTreeMap	classe	23
+org.apache.commons.collections.FastTreeMap$CollectionView	classe	17
+org.apache.commons.collections.FastTreeMap$CollectionView$CollectionViewIterator	classe	3
+org.apache.commons.collections.FastTreeMap$KeySet	classe	2
+org.apache.commons.collections.FastTreeMap$Values	classe	2
+org.apache.commons.collections.FastTreeMap$EntrySet	classe	2
+org.apache.commons.collections.TransformerUtils	classe	22
+org.apache.commons.collections.PredicateUtils	classe	29
+org.apache.commons.collections.ResettableIterator	interface	1
+org.apache.commons.collections.SetUtils	classe	13
+org.apache.commons.collections.CursorableSubList	classe	34
+org.apache.commons.collections.SortedBidiMap	interface	2
+org.apache.commons.collections.ArrayStack	classe	8
+org.apache.commons.collections.BinaryHeap	classe	20
+org.apache.commons.collections.DoubleOrderedMap	classe	47
+org.apache.commons.collections.DoubleOrderedMap$DoubleOrderedMapIterator	classe	4
+org.apache.commons.collections.DoubleOrderedMap$Node	classe	18
+org.apache.commons.collections.Buffer	interface	2
+org.apache.commons.collections.OrderedMapIterator	interface	2
+org.apache.commons.collections.set.TransformedSet	classe	1
+org.apache.commons.collections.set.CompositeSet	classe	7
+org.apache.commons.collections.set.CompositeSet$SetMutator	interface	1
+org.apache.commons.collections.set.SynchronizedSortedSet	classe	8
+org.apache.commons.collections.set.TypedSortedSet	classe	1
+org.apache.commons.collections.set.AbstractSetDecorator	classe	1
+org.apache.commons.collections.set.TypedSet	classe	1
+org.apache.commons.collections.set.ListOrderedSet	classe	19
+org.apache.commons.collections.set.ListOrderedSet$OrderedSetIterator	classe	2
+org.apache.commons.collections.set.SynchronizedSet	classe	2
+org.apache.commons.collections.set.UnmodifiableSet	classe	8
+org.apache.commons.collections.set.AbstractSerializableSetDecorator	classe	2
+org.apache.commons.collections.set.MapBackedSet	classe	17
+org.apache.commons.collections.set.UnmodifiableSortedSet	classe	13
+org.apache.commons.collections.set.PredicatedSortedSet	classe	8
+org.apache.commons.collections.set.AbstractSortedSetDecorator	classe	7
+org.apache.commons.collections.set.PredicatedSet	classe	2
+org.apache.commons.collections.set.TransformedSortedSet	classe	8
+org.apache.commons.collections.IterableMap	interface	1
+org.apache.commons.collections.EnumerationUtils	classe	1
+org.apache.commons.collections.bag.SynchronizedBag	classe	6
+org.apache.commons.collections.bag.SynchronizedBag$SynchronizedBagSet	classe	0
+org.apache.commons.collections.bag.AbstractMapBag	classe	25
+org.apache.commons.collections.bag.AbstractMapBag$BagIterator	classe	3
+org.apache.commons.collections.bag.AbstractMapBag$MutableInteger	classe	2
+org.apache.commons.collections.bag.UnmodifiableBag	classe	13
+org.apache.commons.collections.bag.PredicatedSortedBag	classe	5
+org.apache.commons.collections.bag.UnmodifiableSortedBag	classe	13
+org.apache.commons.collections.bag.AbstractBagDecorator	classe	5
+org.apache.commons.collections.bag.TransformedSortedBag	classe	5
+org.apache.commons.collections.bag.PredicatedBag	classe	6
+org.apache.commons.collections.bag.SynchronizedSortedBag	classe	5
+org.apache.commons.collections.bag.TransformedBag	classe	6
+org.apache.commons.collections.bag.TypedSortedBag	classe	1
+org.apache.commons.collections.bag.AbstractSortedBagDecorator	classe	4
+org.apache.commons.collections.bag.TypedBag	classe	1
+org.apache.commons.collections.BagUtils	classe	10
+org.apache.commons.collections.Unmodifiable	interface	0
+org.apache.commons.collections.SequencedHashMap	classe	36
+org.apache.commons.collections.SequencedHashMap$Entry	classe	6
+org.apache.commons.collections.SequencedHashMap$OrderedIterator	classe	3
+org.apache.commons.collections.DefaultMapBag	classe	27
+org.apache.commons.collections.DefaultMapBag$BagIterator	classe	3
+org.apache.commons.collections.BufferOverflowException	classe	1
+org.apache.commons.collections.MultiMap	interface	7
+org.apache.commons.collections.KeyValue	interface	2
+org.apache.commons.collections.iterators.IteratorChain	classe	11
+org.apache.commons.collections.iterators.EmptyListIterator	classe	0
+org.apache.commons.collections.iterators.UnmodifiableOrderedMapIterator	classe	9
+org.apache.commons.collections.iterators.AbstractListIteratorDecorator	classe	10
+org.apache.commons.collections.iterators.UnmodifiableIterator	classe	4
+org.apache.commons.collections.iterators.CollatingIterator	classe	15
+org.apache.commons.collections.iterators.UniqueFilterIterator	classe	0
+org.apache.commons.collections.iterators.ReverseListIterator	classe	10
+org.apache.commons.collections.iterators.AbstractIteratorDecorator	classe	4
+org.apache.commons.collections.iterators.TransformIterator	classe	8
+org.apache.commons.collections.iterators.AbstractEmptyIterator	classe	13
+org.apache.commons.collections.iterators.ArrayListIterator	classe	8
+org.apache.commons.collections.iterators.LoopingListIterator	classe	11
+org.apache.commons.collections.iterators.ObjectGraphIterator	classe	6
+org.apache.commons.collections.iterators.ProxyIterator	classe	5
+org.apache.commons.collections.iterators.ArrayIterator	classe	7
+org.apache.commons.collections.iterators.SingletonListIterator	classe	10
+org.apache.commons.collections.iterators.EmptyMapIterator	classe	0
+org.apache.commons.collections.iterators.ObjectArrayIterator	classe	8
+org.apache.commons.collections.iterators.EnumerationIterator	classe	5
+org.apache.commons.collections.iterators.LoopingIterator	classe	5
+org.apache.commons.collections.iterators.IteratorEnumeration	classe	4
+org.apache.commons.collections.iterators.SingletonIterator	classe	4
+org.apache.commons.collections.iterators.ListIteratorWrapper	classe	10
+org.apache.commons.collections.iterators.EmptyOrderedIterator	classe	0
+org.apache.commons.collections.iterators.ProxyListIterator	classe	11
+org.apache.commons.collections.iterators.AbstractMapIteratorDecorator	classe	7
+org.apache.commons.collections.iterators.ObjectArrayListIterator	classe	8
+org.apache.commons.collections.iterators.UnmodifiableListIterator	classe	10
+org.apache.commons.collections.iterators.EmptyOrderedMapIterator	classe	0
+org.apache.commons.collections.iterators.UnmodifiableMapIterator	classe	7
+org.apache.commons.collections.iterators.EmptyIterator	classe	0
+org.apache.commons.collections.iterators.EntrySetMapIterator	classe	8
+org.apache.commons.collections.iterators.FilterIterator	classe	8
+org.apache.commons.collections.iterators.AbstractOrderedMapIteratorDecorator	classe	9
+org.apache.commons.collections.iterators.FilterListIterator	classe	17
+org.apache.commons.collections.buffer.CircularFifoBuffer	classe	1
+org.apache.commons.collections.buffer.BoundedBuffer	classe	9
+org.apache.commons.collections.buffer.BoundedBuffer$NotifyingIterator	classe	1
+org.apache.commons.collections.buffer.SynchronizedBuffer	classe	4
+org.apache.commons.collections.buffer.AbstractBufferDecorator	classe	3
+org.apache.commons.collections.buffer.TransformedBuffer	classe	4
+org.apache.commons.collections.buffer.UnmodifiableBuffer	classe	11
+org.apache.commons.collections.buffer.TypedBuffer	classe	1
+org.apache.commons.collections.buffer.PredicatedBuffer	classe	4
+org.apache.commons.collections.buffer.PriorityBuffer	classe	18
+org.apache.commons.collections.buffer.BlockingBuffer	classe	8
+org.apache.commons.collections.BoundedMap	interface	2

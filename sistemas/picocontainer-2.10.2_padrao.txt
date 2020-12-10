@@ -1,80 +1,286 @@
-org.picocontainer.parameters.CollectionComponentParameter	Singleton
-org.picocontainer.behaviors.FieldDecorated$Decorator	State
-org.picocontainer.containers.ImmutablePicoContainer	Decorator
-org.picocontainer.Converting	Factory Method
-org.picocontainer.injectors.AbstractInjector	Bridge
-org.picocontainer.parameters.BasicComponentParameter	Visitor
-org.picocontainer.injectors.Reinjection$ReinjectionInjector	(Object)Adapter
-org.picocontainer.monitors.ComposingMonitor	State
-org.picocontainer.DefaultPicoContainer	(Object)Adapter
-org.picocontainer.classname.DefaultClassLoadingPicoContainer$AsPropertiesPicoContainer	State
-org.picocontainer.DefaultPicoContainer	Strategy
-org.picocontainer.PicoContainer	Decorator
-org.picocontainer.MutablePicoContainer	State
-org.picocontainer.lifecycle.CompositeLifecycleStrategy	Proxy
-org.picocontainer.parameters.ComponentParameter	Decorator
-org.picocontainer.LifecycleStrategy	Strategy
-org.picocontainer.ComponentAdapter	Decorator
-org.picocontainer.injectors.IterativeInjector	(Object)Adapter
-org.picocontainer.adapters.InstanceAdapter	Decorator
-org.picocontainer.injectors.AbstractInjector	Template Method
-org.picocontainer.LifecycleStrategy	Proxy2
-org.picocontainer.ComponentMonitor	Decorator
-org.picocontainer.behaviors.Decorated$Decorator	State
-org.picocontainer.ComponentAdapter	Bridge
-org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard	Template Method
-org.picocontainer.PicoContainer	(Object)Adapter
-org.picocontainer.Parameter$Resolver	Decorator
-org.picocontainer.classname.DefaultClassLoadingPicoContainer$AsPropertiesPicoContainer	Proxy
-org.picocontainer.Parameter	Bridge
-org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter	Decorator
-org.picocontainer.ComponentMonitor	State
-org.picocontainer.behaviors.Intercepted	State
-org.picocontainer.behaviors.Decorated	State
-org.picocontainer.Parameter$DelegateResolver	Decorator
-org.picocontainer.parameters.CollectionComponentParameter	Visitor
-org.picocontainer.monitors.WriterComponentMonitor	Decorator
-org.picocontainer.ComponentFactory	Decorator
-org.picocontainer.behaviors.AbstractBehavior	Bridge
-org.picocontainer.monitors.ConsoleComponentMonitor	Decorator
-org.picocontainer.injectors.ProviderAdapter	Decorator
-org.picocontainer.LifecycleStrategy	Decorator
-org.picocontainer.PicoContainer	State
-org.picocontainer.parameters.BasicComponentParameter	Singleton
-org.picocontainer.parameters.DefaultConstructorParameter	Singleton
-org.picocontainer.monitors.LifecycleComponentMonitor	Decorator
-org.picocontainer.lifecycle.NullLifecycleStrategy	Proxy2
-org.picocontainer.Parameter	Factory Method
-org.picocontainer.behaviors.AbstractBehaviorFactory	Decorator
-org.picocontainer.ComponentLifecycle	State
-org.picocontainer.behaviors.AbstractBehaviorFactory	Visitor
-org.picocontainer.ObjectReference	State
-org.picocontainer.parameters.ComponentParameter	Singleton
-org.picocontainer.classname.DefaultClassLoadingPicoContainer	Proxy
-org.picocontainer.parameters.NullParameter	Singleton
-org.picocontainer.PicoVisitor	Visitor
-org.picocontainer.lifecycle.StartableLifecycleStrategy	Proxy
-org.picocontainer.MutablePicoContainer	Factory Method
-org.picocontainer.DefaultPicoContainer$KnowsContainerAdapter	Decorator
-org.picocontainer.injectors.Reinjection$ReinjectionInjector	State
-org.picocontainer.monitors.ComposingMonitor$Composer	State
-org.picocontainer.containers.AbstractDelegatingPicoContainer	Decorator
-org.picocontainer.adapters.AbstractAdapter	Visitor
-org.picocontainer.lifecycle.LifecycleState	(Object)Adapter
-org.picocontainer.Parameter	Decorator
-org.picocontainer.behaviors.FieldDecorated	State
-org.picocontainer.lifecycle.LifecycleState	State
-org.picocontainer.DefaultPicoContainer	State
-org.picocontainer.injectors.IterativeInjector	Template Method
-org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard	(Object)Adapter
-org.picocontainer.behaviors.Stored	State
-org.picocontainer.Injector	(Object)Adapter
-org.picocontainer.ComponentFactory	State
-org.picocontainer.monitors.AbstractComponentMonitor	Decorator
-org.picocontainer.parameters.DefaultConstructorParameter	Visitor
-org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter	(Object)Adapter
-org.picocontainer.behaviors.Intercepted$Controller	State
-org.picocontainer.parameters.ComponentParameter$1	Decorator
-org.picocontainer.parameters.ConstantParameter	Visitor
-org.picocontainer.containers.AbstractDelegatingPicoContainer	Visitor
-org.picocontainer.injectors.ProviderAdapter	Proxy2
+org.picocontainer.Converting	null	Creator	Factory Method
+org.picocontainer.Converting	getConverters	FactoryMethod()	Factory Method
+org.picocontainer.MutablePicoContainer	null	Creator	Factory Method
+org.picocontainer.MutablePicoContainer	makeChildContainer	FactoryMethod()	Factory Method
+org.picocontainer.MutablePicoContainer	as	FactoryMethod()	Factory Method
+org.picocontainer.Parameter	null	Creator	Factory Method
+org.picocontainer.Parameter	resolve	FactoryMethod()	Factory Method
+org.picocontainer.parameters.BasicComponentParameter	null	Singleton	Singleton
+org.picocontainer.parameters.BasicComponentParameter	null	uniqueInstance	Singleton
+org.picocontainer.parameters.CollectionComponentParameter	null	Singleton	Singleton
+org.picocontainer.parameters.CollectionComponentParameter	null	uniqueInstance	Singleton
+org.picocontainer.parameters.CollectionComponentParameter	null	uniqueInstance	Singleton
+org.picocontainer.parameters.ComponentParameter	null	Singleton	Singleton
+org.picocontainer.parameters.ComponentParameter	null	uniqueInstance	Singleton
+org.picocontainer.parameters.ComponentParameter	null	uniqueInstance	Singleton
+org.picocontainer.parameters.ComponentParameter	null	uniqueInstance	Singleton
+org.picocontainer.parameters.DefaultConstructorParameter	null	Singleton	Singleton
+org.picocontainer.parameters.DefaultConstructorParameter	null	uniqueInstance	Singleton
+org.picocontainer.parameters.NullParameter	null	Singleton	Singleton
+org.picocontainer.parameters.NullParameter	null	uniqueInstance	Singleton
+org.picocontainer.Injector	null	Adaptee	(Object)Adapter
+org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter	null	Adapter	(Object)Adapter
+org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter	null	adaptee	(Object)Adapter
+org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter	getComponentKey	Request()	(Object)Adapter
+org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter	getComponentInstance	Request()	(Object)Adapter
+org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter	getComponentInstance	Request()	(Object)Adapter
+org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter	verify	Request()	(Object)Adapter
+org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter	accept	Request()	(Object)Adapter
+org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard	null	Adaptee	(Object)Adapter
+org.picocontainer.injectors.IterativeInjector	null	Adapter	(Object)Adapter
+org.picocontainer.injectors.IterativeInjector	null	adaptee	(Object)Adapter
+org.picocontainer.injectors.IterativeInjector	getComponentInstance	Request()	(Object)Adapter
+org.picocontainer.injectors.Reinjection$ReinjectionInjector	null	Adapter	(Object)Adapter
+org.picocontainer.PicoContainer	null	Adaptee	(Object)Adapter
+org.picocontainer.injectors.Reinjection$ReinjectionInjector	null	adaptee	(Object)Adapter
+org.picocontainer.injectors.Reinjection$ReinjectionInjector	getComponentInstance	Request()	(Object)Adapter
+org.picocontainer.lifecycle.LifecycleState	null	Adaptee	(Object)Adapter
+org.picocontainer.DefaultPicoContainer	null	Adapter	(Object)Adapter
+org.picocontainer.DefaultPicoContainer	null	adaptee	(Object)Adapter
+org.picocontainer.DefaultPicoContainer	removeComponent	Request()	(Object)Adapter
+org.picocontainer.DefaultPicoContainer	addChildContainer	Request()	(Object)Adapter
+org.picocontainer.ComponentAdapter	null	Component	Decorator
+org.picocontainer.DefaultPicoContainer$KnowsContainerAdapter	null	Decorator	Decorator
+org.picocontainer.DefaultPicoContainer$KnowsContainerAdapter	null	component	Decorator
+org.picocontainer.DefaultPicoContainer$KnowsContainerAdapter	getComponentKey	Operation()	Decorator
+org.picocontainer.DefaultPicoContainer$KnowsContainerAdapter	getComponentImplementation	Operation()	Decorator
+org.picocontainer.DefaultPicoContainer$KnowsContainerAdapter	getComponentInstance	Operation()	Decorator
+org.picocontainer.DefaultPicoContainer$KnowsContainerAdapter	getComponentInstance	Operation()	Decorator
+org.picocontainer.DefaultPicoContainer$KnowsContainerAdapter	verify	Operation()	Decorator
+org.picocontainer.DefaultPicoContainer$KnowsContainerAdapter	accept	Operation()	Decorator
+org.picocontainer.LifecycleStrategy	null	Component	Decorator
+org.picocontainer.adapters.InstanceAdapter	null	Decorator	Decorator
+org.picocontainer.adapters.InstanceAdapter	null	component	Decorator
+org.picocontainer.adapters.InstanceAdapter	start	Operation()	Decorator
+org.picocontainer.adapters.InstanceAdapter	stop	Operation()	Decorator
+org.picocontainer.adapters.InstanceAdapter	dispose	Operation()	Decorator
+org.picocontainer.adapters.InstanceAdapter	hasLifecycle	Operation()	Decorator
+org.picocontainer.adapters.InstanceAdapter	isLazy	Operation()	Decorator
+org.picocontainer.LifecycleStrategy	null	Component	Decorator
+org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter	null	Decorator	Decorator
+org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter	null	component	Decorator
+org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter	start	Operation()	Decorator
+org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter	stop	Operation()	Decorator
+org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter	dispose	Operation()	Decorator
+org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter	hasLifecycle	Operation()	Decorator
+org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter	isLazy	Operation()	Decorator
+org.picocontainer.LifecycleStrategy	null	Component	Decorator
+org.picocontainer.injectors.ProviderAdapter	null	Decorator	Decorator
+org.picocontainer.injectors.ProviderAdapter	null	component	Decorator
+org.picocontainer.injectors.ProviderAdapter	start	Operation()	Decorator
+org.picocontainer.injectors.ProviderAdapter	stop	Operation()	Decorator
+org.picocontainer.injectors.ProviderAdapter	dispose	Operation()	Decorator
+org.picocontainer.injectors.ProviderAdapter	hasLifecycle	Operation()	Decorator
+org.picocontainer.injectors.ProviderAdapter	isLazy	Operation()	Decorator
+org.picocontainer.ComponentFactory	null	Component	Decorator
+org.picocontainer.behaviors.AbstractBehaviorFactory	null	Decorator	Decorator
+org.picocontainer.behaviors.AbstractBehaviorFactory	null	component	Decorator
+org.picocontainer.behaviors.AbstractBehaviorFactory	verify	Operation()	Decorator
+org.picocontainer.behaviors.AbstractBehaviorFactory	accept	Operation()	Decorator
+org.picocontainer.PicoContainer	null	Component	Decorator
+org.picocontainer.containers.AbstractDelegatingPicoContainer	null	Decorator	Decorator
+org.picocontainer.containers.AbstractDelegatingPicoContainer	null	component	Decorator
+org.picocontainer.containers.AbstractDelegatingPicoContainer	accept	Operation()	Decorator
+org.picocontainer.containers.AbstractDelegatingPicoContainer	getComponent	Operation()	Decorator
+org.picocontainer.containers.AbstractDelegatingPicoContainer	getComponent	Operation()	Decorator
+org.picocontainer.containers.AbstractDelegatingPicoContainer	getComponentAdapter	Operation()	Decorator
+org.picocontainer.containers.AbstractDelegatingPicoContainer	getComponentAdapters	Operation()	Decorator
+org.picocontainer.containers.AbstractDelegatingPicoContainer	getComponents	Operation()	Decorator
+org.picocontainer.containers.AbstractDelegatingPicoContainer	getParent	Operation()	Decorator
+org.picocontainer.PicoContainer	null	Component	Decorator
+org.picocontainer.containers.ImmutablePicoContainer	null	Decorator	Decorator
+org.picocontainer.containers.ImmutablePicoContainer	null	component	Decorator
+org.picocontainer.containers.ImmutablePicoContainer	getComponent	Operation()	Decorator
+org.picocontainer.containers.ImmutablePicoContainer	getComponent	Operation()	Decorator
+org.picocontainer.containers.ImmutablePicoContainer	getParent	Operation()	Decorator
+org.picocontainer.containers.ImmutablePicoContainer	getComponentAdapter	Operation()	Decorator
+org.picocontainer.containers.ImmutablePicoContainer	getComponentAdapters	Operation()	Decorator
+org.picocontainer.containers.ImmutablePicoContainer	accept	Operation()	Decorator
+org.picocontainer.ComponentMonitor	null	Component	Decorator
+org.picocontainer.monitors.AbstractComponentMonitor	null	Decorator	Decorator
+org.picocontainer.monitors.AbstractComponentMonitor	null	component	Decorator
+org.picocontainer.monitors.AbstractComponentMonitor	invoking	Operation()	Decorator
+org.picocontainer.monitors.AbstractComponentMonitor	invoked	Operation()	Decorator
+org.picocontainer.monitors.AbstractComponentMonitor	invocationFailed	Operation()	Decorator
+org.picocontainer.monitors.AbstractComponentMonitor	lifecycleInvocationFailed	Operation()	Decorator
+org.picocontainer.monitors.AbstractComponentMonitor	noComponentFound	Operation()	Decorator
+org.picocontainer.ComponentMonitor	null	Component	Decorator
+org.picocontainer.monitors.ConsoleComponentMonitor	null	Decorator	Decorator
+org.picocontainer.monitors.ConsoleComponentMonitor	null	component	Decorator
+org.picocontainer.monitors.ConsoleComponentMonitor	invoking	Operation()	Decorator
+org.picocontainer.monitors.ConsoleComponentMonitor	invoked	Operation()	Decorator
+org.picocontainer.monitors.ConsoleComponentMonitor	invocationFailed	Operation()	Decorator
+org.picocontainer.monitors.ConsoleComponentMonitor	lifecycleInvocationFailed	Operation()	Decorator
+org.picocontainer.monitors.ConsoleComponentMonitor	noComponentFound	Operation()	Decorator
+org.picocontainer.monitors.ConsoleComponentMonitor	newInjector	Operation()	Decorator
+org.picocontainer.monitors.ConsoleComponentMonitor	newBehavior	Operation()	Decorator
+org.picocontainer.ComponentMonitor	null	Component	Decorator
+org.picocontainer.monitors.LifecycleComponentMonitor	null	Decorator	Decorator
+org.picocontainer.monitors.LifecycleComponentMonitor	null	component	Decorator
+org.picocontainer.monitors.LifecycleComponentMonitor	invoking	Operation()	Decorator
+org.picocontainer.monitors.LifecycleComponentMonitor	invoked	Operation()	Decorator
+org.picocontainer.monitors.LifecycleComponentMonitor	invocationFailed	Operation()	Decorator
+org.picocontainer.monitors.LifecycleComponentMonitor	lifecycleInvocationFailed	Operation()	Decorator
+org.picocontainer.monitors.LifecycleComponentMonitor	noComponentFound	Operation()	Decorator
+org.picocontainer.monitors.LifecycleComponentMonitor	newInjector	Operation()	Decorator
+org.picocontainer.monitors.LifecycleComponentMonitor	newBehavior	Operation()	Decorator
+org.picocontainer.ComponentMonitor	null	Component	Decorator
+org.picocontainer.monitors.WriterComponentMonitor	null	Decorator	Decorator
+org.picocontainer.monitors.WriterComponentMonitor	null	component	Decorator
+org.picocontainer.monitors.WriterComponentMonitor	invoking	Operation()	Decorator
+org.picocontainer.monitors.WriterComponentMonitor	invoked	Operation()	Decorator
+org.picocontainer.monitors.WriterComponentMonitor	invocationFailed	Operation()	Decorator
+org.picocontainer.monitors.WriterComponentMonitor	lifecycleInvocationFailed	Operation()	Decorator
+org.picocontainer.monitors.WriterComponentMonitor	noComponentFound	Operation()	Decorator
+org.picocontainer.monitors.WriterComponentMonitor	newInjector	Operation()	Decorator
+org.picocontainer.monitors.WriterComponentMonitor	newBehavior	Operation()	Decorator
+org.picocontainer.Parameter	null	Component	Decorator
+org.picocontainer.parameters.ComponentParameter	null	Decorator	Decorator
+org.picocontainer.parameters.ComponentParameter	null	component	Decorator
+org.picocontainer.parameters.ComponentParameter	verify	Operation()	Decorator
+org.picocontainer.parameters.ComponentParameter	accept	Operation()	Decorator
+org.picocontainer.Parameter$Resolver	null	Component	Decorator
+org.picocontainer.Parameter$DelegateResolver	null	Decorator	Decorator
+org.picocontainer.Parameter$DelegateResolver	null	component	Decorator
+org.picocontainer.Parameter$DelegateResolver	isResolved	Operation()	Decorator
+org.picocontainer.Parameter$DelegateResolver	resolveInstance	Operation()	Decorator
+org.picocontainer.Parameter$DelegateResolver	getComponentAdapter	Operation()	Decorator
+org.picocontainer.Parameter$Resolver	null	Component	Decorator
+org.picocontainer.parameters.ComponentParameter$1	null	Decorator	Decorator
+org.picocontainer.parameters.ComponentParameter$1	null	component	Decorator
+org.picocontainer.parameters.ComponentParameter$1	isResolved	Operation()	Decorator
+org.picocontainer.parameters.ComponentParameter$1	getComponentAdapter	Operation()	Decorator
+org.picocontainer.PicoContainer	null	State	State
+org.picocontainer.DefaultPicoContainer	null	Context	State
+org.picocontainer.DefaultPicoContainer	null	state	State
+org.picocontainer.DefaultPicoContainer	getComponentAdapter	Request()	State
+org.picocontainer.DefaultPicoContainer	getInstance	Request()	State
+org.picocontainer.classname.DefaultClassLoadingPicoContainer$AsPropertiesPicoContainer	null	Context	State
+org.picocontainer.MutablePicoContainer	null	State	State
+org.picocontainer.classname.DefaultClassLoadingPicoContainer$AsPropertiesPicoContainer	null	state	State
+org.picocontainer.classname.DefaultClassLoadingPicoContainer$AsPropertiesPicoContainer	addComponent	Request()	State
+org.picocontainer.classname.DefaultClassLoadingPicoContainer$AsPropertiesPicoContainer	addComponent	Request()	State
+org.picocontainer.classname.DefaultClassLoadingPicoContainer$AsPropertiesPicoContainer	addConfig	Request()	State
+org.picocontainer.classname.DefaultClassLoadingPicoContainer$AsPropertiesPicoContainer	addAdapter	Request()	State
+org.picocontainer.DefaultPicoContainer	null	Context	State
+org.picocontainer.ComponentMonitor	null	State	State
+org.picocontainer.DefaultPicoContainer	null	state	State
+org.picocontainer.DefaultPicoContainer	getComponentAdapter	Request()	State
+org.picocontainer.PicoContainer	null	State	State
+org.picocontainer.injectors.Reinjection$ReinjectionInjector	null	Context	State
+org.picocontainer.injectors.Reinjection$ReinjectionInjector	null	state	State
+org.picocontainer.injectors.Reinjection$ReinjectionInjector	getComponentInstance	Request()	State
+org.picocontainer.ComponentLifecycle	null	State	State
+org.picocontainer.behaviors.Stored	null	Context	State
+org.picocontainer.behaviors.Stored	null	state	State
+org.picocontainer.behaviors.Stored	componentHasLifecycle	Request()	State
+org.picocontainer.behaviors.Stored	dispose	Request()	State
+org.picocontainer.behaviors.Stored	getLifecycleDescriptor	Request()	State
+org.picocontainer.behaviors.Stored	start	Request()	State
+org.picocontainer.behaviors.Stored	stop	Request()	State
+org.picocontainer.behaviors.Stored	isStarted	Request()	State
+org.picocontainer.DefaultPicoContainer	null	Context	State
+org.picocontainer.ComponentFactory	null	State	State
+org.picocontainer.DefaultPicoContainer	null	state	State
+org.picocontainer.DefaultPicoContainer	accept	Request()	State
+org.picocontainer.DefaultPicoContainer	null	Context	State
+org.picocontainer.lifecycle.LifecycleState	null	State	State
+org.picocontainer.DefaultPicoContainer	null	state	State
+org.picocontainer.DefaultPicoContainer	removeComponent	Request()	State
+org.picocontainer.DefaultPicoContainer	addComponent	Request()	State
+org.picocontainer.DefaultPicoContainer	start	Request()	State
+org.picocontainer.DefaultPicoContainer	stop	Request()	State
+org.picocontainer.DefaultPicoContainer	dispose	Request()	State
+org.picocontainer.DefaultPicoContainer	addChildContainer	Request()	State
+org.picocontainer.behaviors.Intercepted$Controller	null	State	State
+org.picocontainer.behaviors.Intercepted	null	Context	State
+org.picocontainer.behaviors.Intercepted	null	state	State
+org.picocontainer.behaviors.Intercepted	invokeMethod	Request()	State
+org.picocontainer.behaviors.Stored	null	Context	State
+org.picocontainer.ObjectReference	null	State	State
+org.picocontainer.behaviors.Stored	null	state	State
+org.picocontainer.behaviors.Stored	guardInstRef	Request()	State
+org.picocontainer.behaviors.Stored	getStoredObject	Request()	State
+org.picocontainer.behaviors.Stored	flush	Request()	State
+org.picocontainer.behaviors.Stored	getComponentInstance	Request()	State
+org.picocontainer.behaviors.Decorated	null	Context	State
+org.picocontainer.behaviors.Decorated$Decorator	null	State	State
+org.picocontainer.behaviors.Decorated	null	state	State
+org.picocontainer.behaviors.Decorated	getComponentInstance	Request()	State
+org.picocontainer.behaviors.FieldDecorated	null	Context	State
+org.picocontainer.behaviors.FieldDecorated$Decorator	null	State	State
+org.picocontainer.behaviors.FieldDecorated	null	state	State
+org.picocontainer.behaviors.FieldDecorated	getComponentInstance	Request()	State
+org.picocontainer.monitors.ComposingMonitor	null	Context	State
+org.picocontainer.monitors.ComposingMonitor$Composer	null	State	State
+org.picocontainer.monitors.ComposingMonitor	null	state	State
+org.picocontainer.monitors.ComposingMonitor	noComponentFound	Request()	State
+org.picocontainer.DefaultPicoContainer	null	Context	Strategy
+org.picocontainer.LifecycleStrategy	null	Strategy	Strategy
+org.picocontainer.DefaultPicoContainer	null	strategy	Strategy
+org.picocontainer.DefaultPicoContainer	decorateComponent	ContextInterface()	Strategy
+org.picocontainer.DefaultPicoContainer	potentiallyStartAdapter	ContextInterface()	Strategy
+org.picocontainer.DefaultPicoContainer	instantiateComponentAsIsStartable	ContextInterface()	Strategy
+org.picocontainer.behaviors.AbstractBehavior	null	Abstraction	Bridge
+org.picocontainer.ComponentAdapter	null	Implementor	Bridge
+org.picocontainer.behaviors.AbstractBehavior	null	implementor	Bridge
+org.picocontainer.behaviors.AbstractBehavior	getComponentKey	Operation()	Bridge
+org.picocontainer.behaviors.AbstractBehavior	getComponentImplementation	Operation()	Bridge
+org.picocontainer.behaviors.AbstractBehavior	getComponentInstance	Operation()	Bridge
+org.picocontainer.behaviors.AbstractBehavior	verify	Operation()	Bridge
+org.picocontainer.behaviors.AbstractBehavior	accept	Operation()	Bridge
+org.picocontainer.injectors.AbstractInjector	null	Abstraction	Bridge
+org.picocontainer.Parameter	null	Implementor	Bridge
+org.picocontainer.injectors.AbstractInjector	null	implementor	Bridge
+org.picocontainer.injectors.AbstractInjector	accept	Operation()	Bridge
+org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard	null	AbstractClass	Template Method
+org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard	observe	TemplateMethod()	Template Method
+org.picocontainer.injectors.AbstractInjector	null	AbstractClass	Template Method
+org.picocontainer.injectors.AbstractInjector	getComponentInstance	TemplateMethod()	Template Method
+org.picocontainer.injectors.IterativeInjector	null	AbstractClass	Template Method
+org.picocontainer.injectors.IterativeInjector	decorateComponentInstance	TemplateMethod()	Template Method
+org.picocontainer.parameters.BasicComponentParameter	null	ConcreteElement	Visitor
+org.picocontainer.PicoVisitor	null	Visitor	Visitor
+org.picocontainer.parameters.BasicComponentParameter	accept	Accept()	Visitor
+org.picocontainer.parameters.CollectionComponentParameter	null	ConcreteElement	Visitor
+org.picocontainer.PicoVisitor	null	Visitor	Visitor
+org.picocontainer.parameters.CollectionComponentParameter	accept	Accept()	Visitor
+org.picocontainer.parameters.ConstantParameter	null	ConcreteElement	Visitor
+org.picocontainer.PicoVisitor	null	Visitor	Visitor
+org.picocontainer.parameters.ConstantParameter	accept	Accept()	Visitor
+org.picocontainer.parameters.DefaultConstructorParameter	null	ConcreteElement	Visitor
+org.picocontainer.PicoVisitor	null	Visitor	Visitor
+org.picocontainer.parameters.DefaultConstructorParameter	accept	Accept()	Visitor
+org.picocontainer.adapters.AbstractAdapter	null	ConcreteElement	Visitor
+org.picocontainer.PicoVisitor	null	Visitor	Visitor
+org.picocontainer.adapters.AbstractAdapter	accept	Accept()	Visitor
+org.picocontainer.behaviors.AbstractBehaviorFactory	null	ConcreteElement	Visitor
+org.picocontainer.PicoVisitor	null	Visitor	Visitor
+org.picocontainer.behaviors.AbstractBehaviorFactory	accept	Accept()	Visitor
+org.picocontainer.containers.AbstractDelegatingPicoContainer	null	ConcreteElement	Visitor
+org.picocontainer.PicoVisitor	null	Visitor	Visitor
+org.picocontainer.containers.AbstractDelegatingPicoContainer	accept	Accept()	Visitor
+org.picocontainer.lifecycle.CompositeLifecycleStrategy	null	Proxy	Proxy
+org.picocontainer.lifecycle.StartableLifecycleStrategy	null	RealSubject	Proxy
+org.picocontainer.lifecycle.CompositeLifecycleStrategy	start	Request()	Proxy
+org.picocontainer.lifecycle.CompositeLifecycleStrategy	stop	Request()	Proxy
+org.picocontainer.lifecycle.CompositeLifecycleStrategy	dispose	Request()	Proxy
+org.picocontainer.lifecycle.CompositeLifecycleStrategy	hasLifecycle	Request()	Proxy
+org.picocontainer.classname.DefaultClassLoadingPicoContainer$AsPropertiesPicoContainer	null	Proxy	Proxy
+org.picocontainer.classname.DefaultClassLoadingPicoContainer	null	RealSubject	Proxy
+org.picocontainer.classname.DefaultClassLoadingPicoContainer$AsPropertiesPicoContainer	addClassLoaderURL	Request()	Proxy
+org.picocontainer.classname.DefaultClassLoadingPicoContainer$AsPropertiesPicoContainer	getComponentClassLoader	Request()	Proxy
+org.picocontainer.classname.DefaultClassLoadingPicoContainer$AsPropertiesPicoContainer	makeChildContainer	Request()	Proxy
+org.picocontainer.classname.DefaultClassLoadingPicoContainer$AsPropertiesPicoContainer	makeChildContainer	Request()	Proxy
+org.picocontainer.classname.DefaultClassLoadingPicoContainer$AsPropertiesPicoContainer	addChildContainer	Request()	Proxy
+org.picocontainer.classname.DefaultClassLoadingPicoContainer$AsPropertiesPicoContainer	removeChildContainer	Request()	Proxy
+org.picocontainer.classname.DefaultClassLoadingPicoContainer$AsPropertiesPicoContainer	change	Request()	Proxy
+org.picocontainer.injectors.ProviderAdapter	null	Proxy	Proxy2
+org.picocontainer.lifecycle.NullLifecycleStrategy	null	RealSubject	Proxy2
+org.picocontainer.LifecycleStrategy	null	Subject	Proxy2
+org.picocontainer.injectors.ProviderAdapter	null	subject	Proxy2
+org.picocontainer.injectors.ProviderAdapter	start	Request()	Proxy2
+org.picocontainer.injectors.ProviderAdapter	stop	Request()	Proxy2
+org.picocontainer.injectors.ProviderAdapter	dispose	Request()	Proxy2
+org.picocontainer.injectors.ProviderAdapter	hasLifecycle	Request()	Proxy2
+org.picocontainer.injectors.ProviderAdapter	isLazy	Request()	Proxy2

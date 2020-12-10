@@ -1,647 +1,647 @@
-src.test.org.apache.commons.collections.map.TestSingletonMap	Refused Parent Bequest
-src.test.org.apache.commons.collections.TestLinkedList	Refused Parent Bequest
-src.test.org.apache.commons.collections.map.TestListOrderedMap	Feature Envy
-src.test.org.apache.commons.collections.map.TestListOrderedMap	Feature Envy
-src.test.org.apache.commons.collections.map.TestListOrderedMap	Feature Envy
-src.test.org.apache.commons.collections.map.TestListOrderedMap	Feature Envy
-src.test.org.apache.commons.collections.map.TestListOrderedMap	Feature Envy
-src.test.org.apache.commons.collections.map.TestListOrderedMap	God Class
-src.test.org.apache.commons.collections.map.TestListOrderedMap	Refused Parent Bequest
-src.test.org.apache.commons.collections.map.TestListOrderedMap	Tradition Breaker
-src.java.org.apache.commons.collections.BeanMap	Dispersed Coupling
-src.java.org.apache.commons.collections.BeanMap	God Class
-src.java.org.apache.commons.collections.BeanMap	Data Class
-src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap	Feature Envy
-src.java.org.apache.commons.collections.OrderedMap	Shotgun Surgery
-src.java.org.apache.commons.collections.ExtendedProperties$PropertiesReader	Dispersed Coupling
-src.java.org.apache.commons.collections.list.TreeList	Feature Envy
-src.java.org.apache.commons.collections.map.AbstractLinkedMap	Feature Envy
-src.java.org.apache.commons.collections.map.AbstractLinkedMap	Feature Envy
-src.java.org.apache.commons.collections.map.AbstractLinkedMap	Feature Envy
-src.java.org.apache.commons.collections.map.AbstractLinkedMap	Feature Envy
-src.java.org.apache.commons.collections.map.AbstractLinkedMap	God Class
-src.java.org.apache.commons.collections.map.AbstractLinkedMap	Refused Parent Bequest
-src.test.org.apache.commons.collections.TestMapUtils	Feature Envy
-src.test.org.apache.commons.collections.TestMapUtils	Feature Envy
-src.test.org.apache.commons.collections.TestMapUtils	Feature Envy
-src.test.org.apache.commons.collections.TestMapUtils	Feature Envy
-src.test.org.apache.commons.collections.TestMapUtils	Feature Envy
-src.test.org.apache.commons.collections.TestMapUtils	Feature Envy
-src.test.org.apache.commons.collections.TestMapUtils	Feature Envy
-src.test.org.apache.commons.collections.TestMapUtils	God Class
-src.test.org.apache.commons.collections.TestMapUtils	Refused Parent Bequest
-src.java.org.apache.commons.collections.CursorableSubList	Feature Envy
-src.java.org.apache.commons.collections.CursorableSubList	Feature Envy
-src.java.org.apache.commons.collections.CursorableSubList	Feature Envy
-src.java.org.apache.commons.collections.CursorableSubList	God Class
-src.java.org.apache.commons.collections.CursorableSubList	Data Class
-src.java.org.apache.commons.collections.CursorableSubList	Refused Parent Bequest
-src.java.org.apache.commons.collections.map.UnmodifiableOrderedMap	Refused Parent Bequest
-src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$KeySetIterator	Feature Envy
-src.java.org.apache.commons.collections.map.AbstractHashedMap	Feature Envy
-src.java.org.apache.commons.collections.map.AbstractHashedMap	Shotgun Surgery
-src.java.org.apache.commons.collections.map.AbstractHashedMap	Feature Envy
-src.java.org.apache.commons.collections.map.AbstractHashedMap	Shotgun Surgery
-src.java.org.apache.commons.collections.map.AbstractHashedMap	Feature Envy
-src.java.org.apache.commons.collections.map.AbstractHashedMap	Feature Envy
-src.java.org.apache.commons.collections.map.AbstractHashedMap	Shotgun Surgery
-src.java.org.apache.commons.collections.map.AbstractHashedMap	Feature Envy
-src.java.org.apache.commons.collections.map.AbstractHashedMap	Feature Envy
-src.java.org.apache.commons.collections.map.AbstractHashedMap	Shotgun Surgery
-src.java.org.apache.commons.collections.map.AbstractHashedMap	Feature Envy
-src.java.org.apache.commons.collections.map.AbstractHashedMap	Feature Envy
-src.java.org.apache.commons.collections.map.AbstractHashedMap	Feature Envy
-src.java.org.apache.commons.collections.map.AbstractHashedMap	Feature Envy
-src.java.org.apache.commons.collections.map.AbstractHashedMap	Feature Envy
-src.java.org.apache.commons.collections.map.AbstractHashedMap	Shotgun Surgery
-src.java.org.apache.commons.collections.map.AbstractHashedMap	Feature Envy
-src.java.org.apache.commons.collections.map.AbstractHashedMap	God Class
-src.test.org.apache.commons.collections.TestFactoryUtils	Feature Envy
-src.java.org.apache.commons.collections.MultiHashMap	Dispersed Coupling
-src.java.org.apache.commons.collections.MultiHashMap	Feature Envy
-src.java.org.apache.commons.collections.MultiHashMap	Feature Envy
-src.java.org.apache.commons.collections.MultiHashMap	Feature Envy
-src.java.org.apache.commons.collections.MultiHashMap	Feature Envy
-src.java.org.apache.commons.collections.MultiHashMap	God Class
-src.test.org.apache.commons.collections.iterators.TestFilterIterator	Feature Envy
-src.test.org.apache.commons.collections.iterators.TestFilterIterator	Dispersed Coupling
-src.test.org.apache.commons.collections.iterators.TestFilterIterator	Refused Parent Bequest
-src.java.org.apache.commons.collections.list.GrowthList	Feature Envy
-src.java.org.apache.commons.collections.list.GrowthList	Feature Envy
-src.java.org.apache.commons.collections.list.GrowthList	Feature Envy
-src.test.org.apache.commons.collections.bidimap.AbstractTestOrderedBidiMap	Dispersed Coupling
-src.test.org.apache.commons.collections.TestBagUtils	Refused Parent Bequest
-src.test.org.apache.commons.collections.TestBagUtils	Tradition Breaker
-src.java.org.apache.commons.collections.functors.SwitchTransformer	Dispersed Coupling
-src.test.org.apache.commons.collections.map.TestLazySortedMap	Feature Envy
-src.test.org.apache.commons.collections.map.TestLazySortedMap	Refused Parent Bequest
-src.test.org.apache.commons.collections.list.AbstractTestList	Feature Envy
-src.test.org.apache.commons.collections.list.AbstractTestList	Feature Envy
-src.test.org.apache.commons.collections.list.AbstractTestList	Feature Envy
-src.test.org.apache.commons.collections.list.AbstractTestList	Feature Envy
-src.test.org.apache.commons.collections.list.AbstractTestList	Feature Envy
-src.test.org.apache.commons.collections.list.AbstractTestList	God Class
-src.test.org.apache.commons.collections.list.AbstractTestList	Refused Parent Bequest
-src.test.org.apache.commons.collections.list.AbstractTestList	Tradition Breaker
-src.test.org.apache.commons.collections.TestListUtils	Refused Parent Bequest
-src.java.org.apache.commons.collections.map.ListOrderedMap$EntrySetView	Feature Envy
-src.test.org.apache.commons.collections.map.AbstractTestSortedMap$TestViewMap	Refused Parent Bequest
-src.java.org.apache.commons.collections.iterators.ArrayListIterator	Refused Parent Bequest
-src.test.org.apache.commons.collections.list.TestNodeCachingLinkedList	Feature Envy
-src.test.org.apache.commons.collections.list.TestNodeCachingLinkedList	Feature Envy
-src.test.org.apache.commons.collections.map.TestLinkedMap	Feature Envy
-src.test.org.apache.commons.collections.map.TestLinkedMap	Feature Envy
-src.test.org.apache.commons.collections.map.TestLinkedMap	Feature Envy
-src.test.org.apache.commons.collections.map.TestLinkedMap	Refused Parent Bequest
-src.test.org.apache.commons.collections.map.TestLinkedMap	Tradition Breaker
-src.java.org.apache.commons.collections.functors.SwitchClosure	Dispersed Coupling
-src.test.org.apache.commons.collections.list.TestUnmodifiableList	Refused Parent Bequest
-src.java.org.apache.commons.collections.BinaryHeap	God Class
-src.java.org.apache.commons.collections.collection.UnmodifiableBoundedCollection	Refused Parent Bequest
-src.java.org.apache.commons.collections.map.AbstractMapDecorator	Shotgun Surgery
-src.java.org.apache.commons.collections.map.AbstractMapDecorator	Shotgun Surgery
-src.java.org.apache.commons.collections.map.AbstractMapDecorator	Shotgun Surgery
-src.test.org.apache.commons.collections.TestCollectionUtils	Feature Envy
-src.test.org.apache.commons.collections.TestCollectionUtils	Feature Envy
-src.test.org.apache.commons.collections.TestCollectionUtils	Feature Envy
-src.test.org.apache.commons.collections.TestCollectionUtils	Feature Envy
-src.test.org.apache.commons.collections.TestCollectionUtils	Feature Envy
-src.test.org.apache.commons.collections.TestCollectionUtils	Feature Envy
-src.test.org.apache.commons.collections.TestCollectionUtils	Feature Envy
-src.test.org.apache.commons.collections.TestCollectionUtils	Feature Envy
-src.test.org.apache.commons.collections.TestCollectionUtils	God Class
-src.java.org.apache.commons.collections.BidiMap	Shotgun Surgery
-src.java.org.apache.commons.collections.list.SetUniqueList	Refused Parent Bequest
-src.java.org.apache.commons.collections.iterators.ObjectArrayListIterator	Refused Parent Bequest
-src.java.org.apache.commons.collections.Predicate	Shotgun Surgery
-src.test.org.apache.commons.collections.keyvalue.TestTiedMapEntry	Feature Envy
-src.java.org.apache.commons.collections.bag.UnmodifiableSortedBag	Refused Parent Bequest
-src.test.org.apache.commons.collections.collection.TestCompositeCollection	Feature Envy
-src.test.org.apache.commons.collections.collection.TestCompositeCollection	Feature Envy
-src.test.org.apache.commons.collections.collection.TestCompositeCollection	Feature Envy
-src.test.org.apache.commons.collections.collection.TestCompositeCollection	Refused Parent Bequest
-src.java.org.apache.commons.collections.list.PredicatedList	Refused Parent Bequest
-src.test.org.apache.commons.collections.AbstractTestObject	Shotgun Surgery
-src.test.org.apache.commons.collections.AbstractTestObject	Shotgun Surgery
-src.test.org.apache.commons.collections.AbstractTestObject	Shotgun Surgery
-src.test.org.apache.commons.collections.AbstractTestObject	Refused Parent Bequest
-src.java.org.apache.commons.collections.Buffer	Shotgun Surgery
-src.java.org.apache.commons.collections.Buffer	Shotgun Surgery
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap	Feature Envy
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap	Feature Envy
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap	Intensive Coupling
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap	Feature Envy
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap	Feature Envy
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap	Feature Envy
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap	Feature Envy
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap	Feature Envy
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap	Feature Envy
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap	Intensive Coupling
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap	Feature Envy
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap	Intensive Coupling
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap	Feature Envy
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap	Intensive Coupling
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap	Brain Method
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap	Feature Envy
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap	Intensive Coupling
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap	Feature Envy
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap	Intensive Coupling
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap	God Class
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap	Brain Class
-src.test.org.apache.commons.collections.iterators.AbstractTestMapIterator	Feature Envy
-src.test.org.apache.commons.collections.iterators.AbstractTestMapIterator	Feature Envy
-src.test.org.apache.commons.collections.iterators.AbstractTestMapIterator	Intensive Coupling
-src.test.org.apache.commons.collections.iterators.AbstractTestMapIterator	Feature Envy
-src.test.org.apache.commons.collections.iterators.AbstractTestMapIterator	Intensive Coupling
-src.test.org.apache.commons.collections.iterators.AbstractTestMapIterator	Refused Parent Bequest
-src.test.org.apache.commons.collections.iterators.AbstractTestMapIterator	Tradition Breaker
-src.java.org.apache.commons.collections.ResettableIterator	Shotgun Surgery
-src.test.org.apache.commons.collections.TestIteratorUtils	Feature Envy
-src.test.org.apache.commons.collections.TestIteratorUtils	Feature Envy
-src.test.org.apache.commons.collections.TestIteratorUtils	God Class
-src.test.org.apache.commons.collections.TestIteratorUtils	Refused Parent Bequest
-src.test.org.apache.commons.collections.TestIteratorUtils	Tradition Breaker
-src.java.org.apache.commons.collections.keyvalue.DefaultKeyValue	Feature Envy
-src.java.org.apache.commons.collections.keyvalue.DefaultKeyValue	Feature Envy
-src.java.org.apache.commons.collections.keyvalue.DefaultKeyValue	Feature Envy
-src.java.org.apache.commons.collections.keyvalue.DefaultKeyValue	Refused Parent Bequest
-src.test.org.apache.commons.collections.list.TestAbstractLinkedList	Feature Envy
-src.test.org.apache.commons.collections.list.TestAbstractLinkedList	Intensive Coupling
-src.test.org.apache.commons.collections.list.TestAbstractLinkedList	Feature Envy
-src.test.org.apache.commons.collections.list.TestAbstractLinkedList	Feature Envy
-src.test.org.apache.commons.collections.list.TestAbstractLinkedList	Feature Envy
-src.java.org.apache.commons.collections.bag.UnmodifiableBag	Refused Parent Bequest
-src.java.org.apache.commons.collections.keyvalue.TiedMapEntry	Feature Envy
-src.java.org.apache.commons.collections.bidimap.UnmodifiableOrderedBidiMap	Refused Parent Bequest
-src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$KeySet	Feature Envy
-src.test.org.apache.commons.collections.set.TestListOrderedSet	Feature Envy
-src.test.org.apache.commons.collections.set.TestListOrderedSet	Feature Envy
-src.test.org.apache.commons.collections.set.TestListOrderedSet	Refused Parent Bequest
-src.test.org.apache.commons.collections.set.TestListOrderedSet	Tradition Breaker
-src.test.org.apache.commons.collections.keyvalue.TestDefaultKeyValue	Feature Envy
-src.test.org.apache.commons.collections.keyvalue.TestDefaultKeyValue	Feature Envy
-src.test.org.apache.commons.collections.keyvalue.TestDefaultKeyValue	Feature Envy
-src.test.org.apache.commons.collections.keyvalue.TestDefaultKeyValue	Feature Envy
-src.java.org.apache.commons.collections.list.UnmodifiableList	Refused Parent Bequest
-src.test.org.apache.commons.collections.TestClosureUtils	Feature Envy
-src.test.org.apache.commons.collections.TestClosureUtils	Feature Envy
-src.test.org.apache.commons.collections.TestClosureUtils	Feature Envy
-src.test.org.apache.commons.collections.TestClosureUtils	Feature Envy
-src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$KeySet	Feature Envy
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap$Node	Feature Envy
-src.java.org.apache.commons.collections.functors.OnePredicate	Feature Envy
-src.java.org.apache.commons.collections.set.UnmodifiableSortedSet	Refused Parent Bequest
-src.java.org.apache.commons.collections.map.MultiKeyMap	Feature Envy
-src.java.org.apache.commons.collections.map.MultiKeyMap	Feature Envy
-src.java.org.apache.commons.collections.map.MultiKeyMap	Feature Envy
-src.java.org.apache.commons.collections.map.MultiKeyMap	Data Class
-src.test.org.apache.commons.collections.map.AbstractTestMap	Shotgun Surgery
-src.test.org.apache.commons.collections.map.AbstractTestMap	Shotgun Surgery
-src.test.org.apache.commons.collections.map.AbstractTestMap	Shotgun Surgery
-src.test.org.apache.commons.collections.map.AbstractTestMap	Shotgun Surgery
-src.test.org.apache.commons.collections.map.AbstractTestMap	Shotgun Surgery
-src.test.org.apache.commons.collections.map.AbstractTestMap	Shotgun Surgery
-src.test.org.apache.commons.collections.map.AbstractTestMap	Shotgun Surgery
-src.test.org.apache.commons.collections.map.AbstractTestMap	Shotgun Surgery
-src.test.org.apache.commons.collections.map.AbstractTestMap	Shotgun Surgery
-src.test.org.apache.commons.collections.map.AbstractTestMap	Shotgun Surgery
-src.test.org.apache.commons.collections.map.AbstractTestMap	Shotgun Surgery
-src.test.org.apache.commons.collections.map.AbstractTestMap	Feature Envy
-src.test.org.apache.commons.collections.map.AbstractTestMap	Brain Method
-src.test.org.apache.commons.collections.map.AbstractTestMap	Dispersed Coupling
-src.test.org.apache.commons.collections.map.AbstractTestMap	Dispersed Coupling
-src.test.org.apache.commons.collections.map.AbstractTestMap	Feature Envy
-src.test.org.apache.commons.collections.map.AbstractTestMap	Feature Envy
-src.test.org.apache.commons.collections.map.AbstractTestMap	Feature Envy
-src.test.org.apache.commons.collections.map.AbstractTestMap	Feature Envy
-src.test.org.apache.commons.collections.map.AbstractTestMap	Feature Envy
-src.test.org.apache.commons.collections.map.AbstractTestMap	Feature Envy
-src.test.org.apache.commons.collections.map.AbstractTestMap	Shotgun Surgery
-src.test.org.apache.commons.collections.map.AbstractTestMap	Shotgun Surgery
-src.test.org.apache.commons.collections.map.AbstractTestMap	God Class
-src.test.org.apache.commons.collections.map.AbstractTestMap	Brain Class
-src.test.org.apache.commons.collections.map.AbstractTestMap	Data Class
-src.test.org.apache.commons.collections.map.AbstractTestMap	Refused Parent Bequest
-src.test.org.apache.commons.collections.map.AbstractTestMap	Tradition Breaker
-src.test.org.apache.commons.collections.TestExtendedProperties	Feature Envy
-src.test.org.apache.commons.collections.TestExtendedProperties	Feature Envy
-src.test.org.apache.commons.collections.TestExtendedProperties	Feature Envy
-src.java.org.apache.commons.collections.DoubleOrderedMap	Feature Envy
-src.java.org.apache.commons.collections.DoubleOrderedMap	Feature Envy
-src.java.org.apache.commons.collections.DoubleOrderedMap	Feature Envy
-src.java.org.apache.commons.collections.DoubleOrderedMap	Feature Envy
-src.java.org.apache.commons.collections.DoubleOrderedMap	Feature Envy
-src.java.org.apache.commons.collections.DoubleOrderedMap	Intensive Coupling
-src.java.org.apache.commons.collections.DoubleOrderedMap	Feature Envy
-src.java.org.apache.commons.collections.DoubleOrderedMap	Intensive Coupling
-src.java.org.apache.commons.collections.DoubleOrderedMap	Feature Envy
-src.java.org.apache.commons.collections.DoubleOrderedMap	Intensive Coupling
-src.java.org.apache.commons.collections.DoubleOrderedMap	Brain Method
-src.java.org.apache.commons.collections.DoubleOrderedMap	Feature Envy
-src.java.org.apache.commons.collections.DoubleOrderedMap	Intensive Coupling
-src.java.org.apache.commons.collections.DoubleOrderedMap	Feature Envy
-src.java.org.apache.commons.collections.DoubleOrderedMap	Intensive Coupling
-src.java.org.apache.commons.collections.DoubleOrderedMap	Feature Envy
-src.java.org.apache.commons.collections.DoubleOrderedMap	Intensive Coupling
-src.java.org.apache.commons.collections.DoubleOrderedMap	God Class
-src.java.org.apache.commons.collections.DoubleOrderedMap	Brain Class
-src.test.org.apache.commons.collections.TestSequencedHashMap	Feature Envy
-src.test.org.apache.commons.collections.TestSequencedHashMap	Refused Parent Bequest
-src.java.org.apache.commons.collections.functors.InvokerTransformer	Feature Envy
-src.java.org.apache.commons.collections.functors.InvokerTransformer	Feature Envy
-src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$KeySet	Feature Envy
-src.java.org.apache.commons.collections.FastTreeMap	Feature Envy
-src.java.org.apache.commons.collections.FastTreeMap	Dispersed Coupling
-src.java.org.apache.commons.collections.FastTreeMap	Data Class
-src.test.org.apache.commons.collections.set.TestListOrderedSet2	Feature Envy
-src.test.org.apache.commons.collections.set.TestListOrderedSet2	Feature Envy
-src.test.org.apache.commons.collections.set.TestListOrderedSet2	Refused Parent Bequest
-src.java.org.apache.commons.collections.Transformer	Shotgun Surgery
-src.test.org.apache.commons.collections.map.TestMultiKeyMap	Feature Envy
-src.test.org.apache.commons.collections.map.TestMultiKeyMap	Feature Envy
-src.test.org.apache.commons.collections.map.TestMultiKeyMap	Feature Envy
-src.test.org.apache.commons.collections.map.TestMultiKeyMap	Feature Envy
-src.test.org.apache.commons.collections.map.TestMultiKeyMap	God Class
-src.test.org.apache.commons.collections.map.TestMultiKeyMap	Data Class
-src.test.org.apache.commons.collections.map.TestMultiKeyMap	Refused Parent Bequest
-src.java.org.apache.commons.collections.functors.InstantiateTransformer	Feature Envy
-src.java.org.apache.commons.collections.functors.InstantiateTransformer	Feature Envy
-src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$Values	Feature Envy
-src.test.org.apache.commons.collections.map.AbstractTestMap$TestMapEntrySet	Dispersed Coupling
-src.test.org.apache.commons.collections.map.AbstractTestMap$TestMapEntrySet	Intensive Coupling
-src.test.org.apache.commons.collections.map.AbstractTestMap$TestMapEntrySet	Feature Envy
-src.test.org.apache.commons.collections.map.AbstractTestMap$TestMapEntrySet	Refused Parent Bequest
-src.java.org.apache.commons.collections.keyvalue.AbstractMapEntry	Feature Envy
-src.java.org.apache.commons.collections.comparators.ComparatorChain	Feature Envy
-src.test.org.apache.commons.collections.list.TestPredicatedList	Refused Parent Bequest
-src.test.org.apache.commons.collections.TestBinaryHeap	Feature Envy
-src.test.org.apache.commons.collections.TestBinaryHeap	Intensive Coupling
-src.test.org.apache.commons.collections.TestBinaryHeap	Intensive Coupling
-src.test.org.apache.commons.collections.TestBinaryHeap	Feature Envy
-src.test.org.apache.commons.collections.TestBinaryHeap	God Class
-src.test.org.apache.commons.collections.iterators.TestSingletonListIterator	Feature Envy
-src.test.org.apache.commons.collections.keyvalue.TestUnmodifiableMapEntry	Feature Envy
-src.test.org.apache.commons.collections.keyvalue.TestUnmodifiableMapEntry	Feature Envy
-src.test.org.apache.commons.collections.iterators.TestLoopingListIterator	Feature Envy
-src.test.org.apache.commons.collections.TestDoubleOrderedMap	Feature Envy
-src.test.org.apache.commons.collections.TestDoubleOrderedMap	Feature Envy
-src.test.org.apache.commons.collections.TestDoubleOrderedMap	Feature Envy
-src.test.org.apache.commons.collections.TestDoubleOrderedMap	Feature Envy
-src.test.org.apache.commons.collections.TestDoubleOrderedMap	Feature Envy
-src.test.org.apache.commons.collections.TestDoubleOrderedMap	Feature Envy
-src.test.org.apache.commons.collections.TestDoubleOrderedMap	Feature Envy
-src.test.org.apache.commons.collections.TestDoubleOrderedMap	Intensive Coupling
-src.test.org.apache.commons.collections.TestDoubleOrderedMap	Feature Envy
-src.test.org.apache.commons.collections.TestDoubleOrderedMap	Intensive Coupling
-src.test.org.apache.commons.collections.TestDoubleOrderedMap	Feature Envy
-src.test.org.apache.commons.collections.TestDoubleOrderedMap	Feature Envy
-src.test.org.apache.commons.collections.TestDoubleOrderedMap	Feature Envy
-src.test.org.apache.commons.collections.TestDoubleOrderedMap	Feature Envy
-src.test.org.apache.commons.collections.TestDoubleOrderedMap	Intensive Coupling
-src.test.org.apache.commons.collections.TestDoubleOrderedMap	Feature Envy
-src.test.org.apache.commons.collections.TestDoubleOrderedMap	Intensive Coupling
-src.test.org.apache.commons.collections.TestDoubleOrderedMap	Brain Method
-src.test.org.apache.commons.collections.TestDoubleOrderedMap	Intensive Coupling
-src.test.org.apache.commons.collections.TestDoubleOrderedMap	Brain Method
-src.test.org.apache.commons.collections.TestDoubleOrderedMap	Feature Envy
-src.test.org.apache.commons.collections.TestDoubleOrderedMap	Intensive Coupling
-src.test.org.apache.commons.collections.TestDoubleOrderedMap	Brain Method
-src.test.org.apache.commons.collections.TestDoubleOrderedMap	Intensive Coupling
-src.test.org.apache.commons.collections.TestDoubleOrderedMap	Brain Method
-src.test.org.apache.commons.collections.TestDoubleOrderedMap	Feature Envy
-src.test.org.apache.commons.collections.TestDoubleOrderedMap	Intensive Coupling
-src.test.org.apache.commons.collections.TestDoubleOrderedMap	Brain Method
-src.test.org.apache.commons.collections.TestDoubleOrderedMap	Intensive Coupling
-src.test.org.apache.commons.collections.TestDoubleOrderedMap	Brain Method
-src.test.org.apache.commons.collections.TestDoubleOrderedMap	Intensive Coupling
-src.test.org.apache.commons.collections.TestDoubleOrderedMap	God Class
-src.test.org.apache.commons.collections.TestDoubleOrderedMap	Brain Class
-src.test.org.apache.commons.collections.TestDoubleOrderedMap	Refused Parent Bequest
-src.test.org.apache.commons.collections.TestDoubleOrderedMap	Tradition Breaker
-src.java.org.apache.commons.collections.set.ListOrderedSet	Intensive Coupling
-src.java.org.apache.commons.collections.set.ListOrderedSet	Refused Parent Bequest
-src.java.org.apache.commons.collections.map.FixedSizeMap	Refused Parent Bequest
-src.java.org.apache.commons.collections.buffer.BlockingBuffer	Refused Parent Bequest
-src.test.org.apache.commons.collections.map.TestMultiValueMap	Feature Envy
-src.test.org.apache.commons.collections.bidimap.TestUnmodifiableOrderedBidiMap	Refused Parent Bequest
-src.test.org.apache.commons.collections.set.AbstractTestSortedSet$TestSortedSetSubSet	Feature Envy
-src.test.org.apache.commons.collections.set.AbstractTestSortedSet$TestSortedSetSubSet	Refused Parent Bequest
-src.java.org.apache.commons.collections.functors.InstantiateFactory	Feature Envy
-src.test.org.apache.commons.collections.map.AbstractTestIterableMap	Feature Envy
-src.java.org.apache.commons.collections.keyvalue.AbstractKeyValue	Shotgun Surgery
-src.java.org.apache.commons.collections.bag.AbstractMapBag	Feature Envy
-src.java.org.apache.commons.collections.map.AbstractHashedMap$HashIterator	Feature Envy
-src.java.org.apache.commons.collections.map.AbstractHashedMap$HashIterator	Feature Envy
-src.test.org.apache.commons.collections.iterators.TestArrayListIterator	Feature Envy
-src.test.org.apache.commons.collections.map.TestIdentityMap	Feature Envy
-src.test.org.apache.commons.collections.map.TestIdentityMap	Feature Envy
-src.java.org.apache.commons.collections.map.AbstractReferenceMap	Feature Envy
-src.java.org.apache.commons.collections.map.AbstractReferenceMap	God Class
-src.java.org.apache.commons.collections.map.AbstractReferenceMap	Data Class
-src.java.org.apache.commons.collections.map.AbstractReferenceMap	Refused Parent Bequest
-src.java.org.apache.commons.collections.FastHashMap	Feature Envy
-src.java.org.apache.commons.collections.FastHashMap	Dispersed Coupling
-src.java.org.apache.commons.collections.FastHashMap	Data Class
-src.test.org.apache.commons.collections.TestPredicateUtils	God Class
-src.test.org.apache.commons.collections.buffer.TestCircularFifoBuffer	Refused Parent Bequest
-src.java.org.apache.commons.collections.Closure	Shotgun Surgery
-src.java.org.apache.commons.collections.map.AbstractLinkedMap$LinkIterator	Feature Envy
-src.test.org.apache.commons.collections.map.TestHashedMap	Feature Envy
-src.java.org.apache.commons.collections.bidimap.UnmodifiableSortedBidiMap	Refused Parent Bequest
-src.test.org.apache.commons.collections.bag.TestPredicatedBag	Refused Parent Bequest
-src.java.org.apache.commons.collections.collection.AbstractCollectionDecorator	Shotgun Surgery
-src.java.org.apache.commons.collections.collection.AbstractCollectionDecorator	Shotgun Surgery
-src.java.org.apache.commons.collections.bidimap.UnmodifiableBidiMap	Refused Parent Bequest
-src.java.org.apache.commons.collections.map.UnmodifiableEntrySet	Refused Parent Bequest
-src.test.org.apache.commons.collections.bag.AbstractTestBag	Feature Envy
-src.test.org.apache.commons.collections.bag.AbstractTestBag	Feature Envy
-src.test.org.apache.commons.collections.bag.AbstractTestBag	Intensive Coupling
-src.test.org.apache.commons.collections.bag.AbstractTestBag	Refused Parent Bequest
-src.test.org.apache.commons.collections.iterators.TestObjectArrayListIterator	Feature Envy
-src.java.org.apache.commons.collections.MapUtils	Feature Envy
-src.java.org.apache.commons.collections.MapUtils	Feature Envy
-src.java.org.apache.commons.collections.MapUtils	Intensive Coupling
-src.java.org.apache.commons.collections.MapUtils	Feature Envy
-src.java.org.apache.commons.collections.MapUtils	God Class
-src.java.org.apache.commons.collections.list.AbstractLinkedList$LinkedSubListIterator	Feature Envy
-src.java.org.apache.commons.collections.list.AbstractLinkedList$LinkedSubListIterator	Feature Envy
-src.test.org.apache.commons.collections.TestBeanMap	Feature Envy
-src.test.org.apache.commons.collections.TestBeanMap	Refused Parent Bequest
-src.test.org.apache.commons.collections.keyvalue.TestDefaultMapEntry	Feature Envy
-src.java.org.apache.commons.collections.SequencedHashMap$Entry	Feature Envy
-src.test.org.apache.commons.collections.iterators.TestUniqueFilterIterator	Feature Envy
-src.test.org.apache.commons.collections.iterators.TestFilterListIterator	Brain Method
-src.test.org.apache.commons.collections.iterators.TestFilterListIterator	Intensive Coupling
-src.java.org.apache.commons.collections.functors.AnyPredicate	Feature Envy
-src.java.org.apache.commons.collections.functors.AnyPredicate	Feature Envy
-src.test.org.apache.commons.collections.iterators.TestObjectArrayIterator	Feature Envy
-src.test.org.apache.commons.collections.iterators.TestObjectArrayIterator	Refused Parent Bequest
-src.java.org.apache.commons.collections.BeanMap$MyMapEntry	Feature Envy
-src.test.org.apache.commons.collections.BulkTestSuiteMaker	Feature Envy
-src.test.org.apache.commons.collections.BulkTestSuiteMaker	Feature Envy
-src.test.org.apache.commons.collections.BulkTestSuiteMaker	Feature Envy
-src.java.org.apache.commons.collections.functors.AllPredicate	Feature Envy
-src.java.org.apache.commons.collections.functors.AllPredicate	Feature Envy
-src.java.org.apache.commons.collections.list.NodeCachingLinkedList	Feature Envy
-src.java.org.apache.commons.collections.list.NodeCachingLinkedList	Refused Parent Bequest
-src.java.org.apache.commons.collections.list.SynchronizedList	Refused Parent Bequest
-src.test.org.apache.commons.collections.set.AbstractTestSortedSet	Refused Parent Bequest
-src.test.org.apache.commons.collections.iterators.TestArrayIterator	Feature Envy
-src.java.org.apache.commons.collections.OrderedIterator	Feature Envy
-src.java.org.apache.commons.collections.buffer.BoundedBuffer	Feature Envy
-src.java.org.apache.commons.collections.buffer.BoundedBuffer	Refused Parent Bequest
-src.java.org.apache.commons.collections.iterators.CollatingIterator	Feature Envy
-src.java.org.apache.commons.collections.iterators.CollatingIterator	Feature Envy
-src.test.org.apache.commons.collections.keyvalue.AbstractTestMapEntry	Feature Envy
-src.test.org.apache.commons.collections.keyvalue.AbstractTestMapEntry	Feature Envy
-src.test.org.apache.commons.collections.keyvalue.AbstractTestMapEntry	Feature Envy
-src.test.org.apache.commons.collections.keyvalue.AbstractTestMapEntry	Feature Envy
-src.test.org.apache.commons.collections.buffer.TestBoundedBuffer	Refused Parent Bequest
-src.java.org.apache.commons.collections.map.SingletonMap	Feature Envy
-src.java.org.apache.commons.collections.map.SingletonMap	Feature Envy
-src.java.org.apache.commons.collections.map.SingletonMap	God Class
-src.java.org.apache.commons.collections.map.SingletonMap	Data Class
-src.java.org.apache.commons.collections.map.AbstractReferenceMap$ReferenceEntrySetIterator	Feature Envy
-src.java.org.apache.commons.collections.map.AbstractReferenceMap$ReferenceEntrySetIterator	Feature Envy
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap$Node	Feature Envy
-src.java.org.apache.commons.collections.Bag	Shotgun Surgery
-src.java.org.apache.commons.collections.Bag	Shotgun Surgery
-src.java.org.apache.commons.collections.Bag	Shotgun Surgery
-src.java.org.apache.commons.collections.Bag	Shotgun Surgery
-src.java.org.apache.commons.collections.Bag	Shotgun Surgery
-src.java.org.apache.commons.collections.FastArrayList	Data Class
-src.test.org.apache.commons.collections.iterators.AbstractTestIterator	Refused Parent Bequest
-src.test.org.apache.commons.collections.set.TestMapBackedSet2	Refused Parent Bequest
-src.java.org.apache.commons.collections.map.AbstractReferenceMap$ReferenceEntry	Feature Envy
-src.java.org.apache.commons.collections.map.AbstractReferenceMap$ReferenceEntry	Feature Envy
-src.java.org.apache.commons.collections.map.AbstractReferenceMap$ReferenceEntry	Refused Parent Bequest
-src.test.org.apache.commons.collections.map.TestTransformedSortedMap	Intensive Coupling
-src.test.org.apache.commons.collections.map.TestTransformedSortedMap	Feature Envy
-src.test.org.apache.commons.collections.map.TestTransformedSortedMap	Feature Envy
-src.java.org.apache.commons.collections.list.FixedSizeList	Refused Parent Bequest
-src.test.org.apache.commons.collections.map.TestCompositeMap	Refused Parent Bequest
-src.java.org.apache.commons.collections.list.AbstractListDecorator	Shotgun Surgery
-src.test.org.apache.commons.collections.map.TestFlat3Map	Feature Envy
-src.test.org.apache.commons.collections.map.TestFlat3Map	Feature Envy
-src.test.org.apache.commons.collections.map.TestFlat3Map	Feature Envy
-src.java.org.apache.commons.collections.IteratorUtils	Dispersed Coupling
-src.java.org.apache.commons.collections.IteratorUtils	God Class
-src.java.org.apache.commons.collections.IteratorUtils	Data Class
-src.test.org.apache.commons.collections.TestFastArrayList	Refused Parent Bequest
-src.test.org.apache.commons.collections.comparators.TestFixedOrderComparator	Feature Envy
-src.test.org.apache.commons.collections.comparators.TestFixedOrderComparator	Feature Envy
-src.java.org.apache.commons.collections.map.TransformedMap	Feature Envy
-src.java.org.apache.commons.collections.map.TransformedMap	Refused Parent Bequest
-src.java.org.apache.commons.collections.map.AbstractHashedMap$HashEntry	Shotgun Surgery
-src.java.org.apache.commons.collections.map.AbstractHashedMap$HashEntry	Shotgun Surgery
-src.test.org.apache.commons.collections.map.TestTransformedMap	Feature Envy
-src.test.org.apache.commons.collections.map.TestTransformedMap	Feature Envy
-src.test.org.apache.commons.collections.map.TestListOrderedMap2	Feature Envy
-src.test.org.apache.commons.collections.map.TestListOrderedMap2	Feature Envy
-src.test.org.apache.commons.collections.map.TestListOrderedMap2	Refused Parent Bequest
-src.test.org.apache.commons.collections.map.TestListOrderedMap2	Tradition Breaker
-src.test.org.apache.commons.collections.bag.TestTypedBag	Refused Parent Bequest
-src.test.org.apache.commons.collections.map.AbstractTestOrderedMap	Dispersed Coupling
-src.test.org.apache.commons.collections.map.AbstractTestOrderedMap	Refused Parent Bequest
-src.test.org.apache.commons.collections.iterators.TestCollatingIterator	Feature Envy
-src.test.org.apache.commons.collections.iterators.TestCollatingIterator	Dispersed Coupling
-src.test.org.apache.commons.collections.iterators.TestCollatingIterator	Dispersed Coupling
-src.test.org.apache.commons.collections.iterators.TestCollatingIterator	Refused Parent Bequest
-src.test.org.apache.commons.collections.iterators.TestCollatingIterator	Tradition Breaker
-src.java.org.apache.commons.collections.map.FixedSizeSortedMap	Refused Parent Bequest
-src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$EntrySetIterator	Feature Envy
-src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$EntrySetIterator	Feature Envy
-src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$EntrySetIterator	Feature Envy
-src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$EntrySetIterator	Feature Envy
-src.test.org.apache.commons.collections.map.TestPredicatedSortedMap	Feature Envy
-src.test.org.apache.commons.collections.map.TestPredicatedSortedMap	Refused Parent Bequest
-src.java.org.apache.commons.collections.CollectionUtils	Dispersed Coupling
-src.java.org.apache.commons.collections.CollectionUtils	Dispersed Coupling
-src.java.org.apache.commons.collections.CollectionUtils	Dispersed Coupling
-src.java.org.apache.commons.collections.CollectionUtils	God Class
-src.test.org.apache.commons.collections.iterators.TestObjectGraphIterator	Feature Envy
-src.test.org.apache.commons.collections.iterators.TestObjectGraphIterator	Feature Envy
-src.test.org.apache.commons.collections.iterators.TestObjectGraphIterator	Feature Envy
-src.test.org.apache.commons.collections.iterators.TestObjectGraphIterator	Feature Envy
-src.test.org.apache.commons.collections.iterators.TestObjectGraphIterator	Refused Parent Bequest
-src.test.org.apache.commons.collections.iterators.TestObjectGraphIterator	Tradition Breaker
-src.test.org.apache.commons.collections.map.TestCaseInsensitiveMap	Feature Envy
-src.test.org.apache.commons.collections.iterators.TestArrayIterator2	Feature Envy
-src.test.org.apache.commons.collections.iterators.TestArrayIterator2	Feature Envy
-src.test.org.apache.commons.collections.iterators.TestArrayIterator2	Feature Envy
-src.test.org.apache.commons.collections.iterators.TestArrayIterator2	Refused Parent Bequest
-src.test.org.apache.commons.collections.iterators.TestArrayIterator2	Tradition Breaker
-src.test.org.apache.commons.collections.iterators.TestListIteratorWrapper	Feature Envy
-src.test.org.apache.commons.collections.set.TestUnmodifiableSortedSet	Refused Parent Bequest
-src.java.org.apache.commons.collections.map.PredicatedMap	Feature Envy
-src.java.org.apache.commons.collections.map.PredicatedMap	Refused Parent Bequest
-src.java.org.apache.commons.collections.map.UnmodifiableMap	Refused Parent Bequest
-src.java.org.apache.commons.collections.Factory	Shotgun Surgery
-src.java.org.apache.commons.collections.iterators.IteratorChain	Feature Envy
-src.java.org.apache.commons.collections.SortedBag	Shotgun Surgery
-src.java.org.apache.commons.collections.SortedBag	Shotgun Surgery
-src.java.org.apache.commons.collections.list.AbstractLinkedList	Feature Envy
-src.java.org.apache.commons.collections.list.AbstractLinkedList	Feature Envy
-src.java.org.apache.commons.collections.list.AbstractLinkedList	Feature Envy
-src.java.org.apache.commons.collections.list.AbstractLinkedList	Feature Envy
-src.java.org.apache.commons.collections.list.AbstractLinkedList	Feature Envy
-src.java.org.apache.commons.collections.list.AbstractLinkedList	Feature Envy
-src.java.org.apache.commons.collections.list.AbstractLinkedList	God Class
-src.java.org.apache.commons.collections.list.AbstractLinkedList	Data Class
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap$ViewIterator	Feature Envy
-src.test.org.apache.commons.collections.map.TestReferenceIdentityMap	Feature Envy
-src.test.org.apache.commons.collections.map.TestReferenceIdentityMap	Feature Envy
-src.test.org.apache.commons.collections.map.TestReferenceIdentityMap	Refused Parent Bequest
-src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$EntrySet	Feature Envy
-src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$EntrySet	Feature Envy
-src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$EntrySet	Feature Envy
-src.test.org.apache.commons.collections.iterators.AbstractTestListIterator	Feature Envy
-src.test.org.apache.commons.collections.iterators.AbstractTestListIterator	Refused Parent Bequest
-src.test.org.apache.commons.collections.iterators.AbstractTestListIterator	Tradition Breaker
-src.java.org.apache.commons.collections.map.MultiValueMap	Feature Envy
-src.java.org.apache.commons.collections.map.MultiValueMap	Refused Parent Bequest
-src.java.org.apache.commons.collections.map.MultiValueMap	Tradition Breaker
-src.test.org.apache.commons.collections.TestTransformerUtils	Feature Envy
-src.test.org.apache.commons.collections.TestTransformerUtils	Feature Envy
-src.test.org.apache.commons.collections.TestTransformerUtils	Feature Envy
-src.test.org.apache.commons.collections.TestTransformerUtils	God Class
-src.test.org.apache.commons.collections.bidimap.AbstractTestSortedBidiMap	Feature Envy
-src.test.org.apache.commons.collections.bidimap.AbstractTestSortedBidiMap	Feature Envy
-src.test.org.apache.commons.collections.bidimap.AbstractTestSortedBidiMap	Feature Envy
-src.test.org.apache.commons.collections.bidimap.AbstractTestSortedBidiMap	Feature Envy
-src.test.org.apache.commons.collections.bidimap.AbstractTestSortedBidiMap	Feature Envy
-src.test.org.apache.commons.collections.bidimap.AbstractTestSortedBidiMap	Feature Envy
-src.test.org.apache.commons.collections.bidimap.AbstractTestSortedBidiMap	Feature Envy
-src.test.org.apache.commons.collections.bidimap.AbstractTestSortedBidiMap	Feature Envy
-src.test.org.apache.commons.collections.bidimap.AbstractTestSortedBidiMap	Feature Envy
-src.test.org.apache.commons.collections.bidimap.AbstractTestSortedBidiMap	Feature Envy
-src.test.org.apache.commons.collections.bidimap.AbstractTestSortedBidiMap	Refused Parent Bequest
-src.test.org.apache.commons.collections.keyvalue.TestMultiKey	Feature Envy
-src.test.org.apache.commons.collections.keyvalue.TestMultiKey	Feature Envy
-src.test.org.apache.commons.collections.keyvalue.TestMultiKey	Feature Envy
-src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$KeySet	Feature Envy
-src.test.org.apache.commons.collections.bidimap.TestUnmodifiableSortedBidiMap	Refused Parent Bequest
-src.test.org.apache.commons.collections.iterators.AbstractTestOrderedMapIterator	Intensive Coupling
-src.test.org.apache.commons.collections.buffer.TestBlockingBuffer	Refused Parent Bequest
-src.java.org.apache.commons.collections.list.TreeList$TreeListIterator	Feature Envy
-src.java.org.apache.commons.collections.list.TreeList$TreeListIterator	Feature Envy
-src.test.org.apache.commons.collections.bidimap.AbstractTestBidiMap$TestBidiMapEntrySet	Intensive Coupling
-src.java.org.apache.commons.collections.DefaultMapBag	God Class
-src.test.org.apache.commons.collections.list.TestSetUniqueList	Feature Envy
-src.test.org.apache.commons.collections.list.TestSetUniqueList	Feature Envy
-src.test.org.apache.commons.collections.list.TestSetUniqueList	Feature Envy
-src.test.org.apache.commons.collections.list.TestSetUniqueList	Feature Envy
-src.test.org.apache.commons.collections.list.TestSetUniqueList	Feature Envy
-src.test.org.apache.commons.collections.list.TestSetUniqueList	Feature Envy
-src.test.org.apache.commons.collections.list.TestSetUniqueList	Feature Envy
-src.test.org.apache.commons.collections.list.TestSetUniqueList	Feature Envy
-src.test.org.apache.commons.collections.list.TestSetUniqueList	Feature Envy
-src.test.org.apache.commons.collections.list.TestSetUniqueList	Feature Envy
-src.test.org.apache.commons.collections.list.TestSetUniqueList	Refused Parent Bequest
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap$Node	Feature Envy
-src.test.org.apache.commons.collections.bidimap.AbstractTestBidiMap	Feature Envy
-src.test.org.apache.commons.collections.bidimap.AbstractTestBidiMap	Intensive Coupling
-src.test.org.apache.commons.collections.bidimap.AbstractTestBidiMap	God Class
-src.test.org.apache.commons.collections.bidimap.AbstractTestBidiMap	Refused Parent Bequest
-src.test.org.apache.commons.collections.iterators.TestIteratorChain	Feature Envy
-src.test.org.apache.commons.collections.iterators.TestIteratorChain	Refused Parent Bequest
-src.java.org.apache.commons.collections.ExtendedProperties	Intensive Coupling
-src.java.org.apache.commons.collections.ExtendedProperties	Intensive Coupling
-src.java.org.apache.commons.collections.ExtendedProperties	Dispersed Coupling
-src.java.org.apache.commons.collections.ExtendedProperties	God Class
-src.test.org.apache.commons.collections.map.TestLazyMap	Feature Envy
-src.java.org.apache.commons.collections.map.Flat3Map$FlatMapIterator	Feature Envy
-src.java.org.apache.commons.collections.map.Flat3Map$FlatMapIterator	Feature Envy
-src.java.org.apache.commons.collections.map.Flat3Map$FlatMapIterator	Feature Envy
-src.test.org.apache.commons.collections.comparators.AbstractTestComparator	Refused Parent Bequest
-src.java.org.apache.commons.collections.map.LinkedMap	Feature Envy
-src.java.org.apache.commons.collections.map.LinkedMap	Refused Parent Bequest
-src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$Values	Feature Envy
-src.java.org.apache.commons.collections.SequencedHashMap	Feature Envy
-src.java.org.apache.commons.collections.SequencedHashMap	Feature Envy
-src.java.org.apache.commons.collections.SequencedHashMap	Feature Envy
-src.java.org.apache.commons.collections.SequencedHashMap	Feature Envy
-src.java.org.apache.commons.collections.SequencedHashMap	Feature Envy
-src.java.org.apache.commons.collections.SequencedHashMap	Feature Envy
-src.java.org.apache.commons.collections.SequencedHashMap	Feature Envy
-src.java.org.apache.commons.collections.SequencedHashMap	Feature Envy
-src.java.org.apache.commons.collections.SequencedHashMap	Feature Envy
-src.java.org.apache.commons.collections.SequencedHashMap	God Class
-src.java.org.apache.commons.collections.SequencedHashMap	Data Class
-src.test.org.apache.commons.collections.buffer.TestPriorityBuffer	Feature Envy
-src.test.org.apache.commons.collections.buffer.TestPriorityBuffer	Dispersed Coupling
-src.test.org.apache.commons.collections.buffer.TestPriorityBuffer	Feature Envy
-src.test.org.apache.commons.collections.buffer.TestPriorityBuffer	Dispersed Coupling
-src.test.org.apache.commons.collections.buffer.TestPriorityBuffer	Feature Envy
-src.test.org.apache.commons.collections.buffer.TestPriorityBuffer	Dispersed Coupling
-src.test.org.apache.commons.collections.buffer.TestPriorityBuffer	God Class
-src.test.org.apache.commons.collections.buffer.TestPriorityBuffer	Data Class
-src.test.org.apache.commons.collections.list.TestTreeList	Feature Envy
-src.test.org.apache.commons.collections.list.TestTreeList	Intensive Coupling
-src.test.org.apache.commons.collections.list.TestTreeList	Feature Envy
-src.test.org.apache.commons.collections.list.TestTreeList	Feature Envy
-src.test.org.apache.commons.collections.list.TestTreeList	Feature Envy
-src.test.org.apache.commons.collections.list.TestTreeList	Refused Parent Bequest
-src.test.org.apache.commons.collections.map.TestDefaultedMap	Feature Envy
-src.test.org.apache.commons.collections.map.TestDefaultedMap	Feature Envy
-src.test.org.apache.commons.collections.map.TestDefaultedMap	Feature Envy
-src.test.org.apache.commons.collections.map.TestDefaultedMap	Feature Envy
-src.java.org.apache.commons.collections.map.DefaultedMap	Refused Parent Bequest
-src.java.org.apache.commons.collections.list.LazyList	Feature Envy
-src.java.org.apache.commons.collections.map.ListOrderedMap	Feature Envy
-src.java.org.apache.commons.collections.map.ListOrderedMap	Feature Envy
-src.java.org.apache.commons.collections.map.ListOrderedMap	Feature Envy
-src.java.org.apache.commons.collections.map.ListOrderedMap	Dispersed Coupling
-src.java.org.apache.commons.collections.map.ListOrderedMap	Data Class
-src.java.org.apache.commons.collections.map.ListOrderedMap	Refused Parent Bequest
-src.test.org.apache.commons.collections.comparators.TestBooleanComparator	Feature Envy
-src.test.org.apache.commons.collections.comparators.TestBooleanComparator	Feature Envy
-src.test.org.apache.commons.collections.comparators.TestBooleanComparator	Feature Envy
-src.test.org.apache.commons.collections.comparators.TestBooleanComparator	Feature Envy
-src.test.org.apache.commons.collections.comparators.TestBooleanComparator	Feature Envy
-src.test.org.apache.commons.collections.comparators.TestBooleanComparator	Feature Envy
-src.test.org.apache.commons.collections.comparators.TestBooleanComparator	Refused Parent Bequest
-src.java.org.apache.commons.collections.MapIterator	Shotgun Surgery
-src.java.org.apache.commons.collections.MapIterator	Shotgun Surgery
-src.java.org.apache.commons.collections.MapIterator	Shotgun Surgery
-src.java.org.apache.commons.collections.MapIterator	Shotgun Surgery
-src.java.org.apache.commons.collections.MapIterator	Shotgun Surgery
-src.java.org.apache.commons.collections.MapIterator	Shotgun Surgery
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap$Node	Feature Envy
-src.test.org.apache.commons.collections.list.TestGrowthList	Feature Envy
-src.test.org.apache.commons.collections.list.TestGrowthList	Feature Envy
-src.test.org.apache.commons.collections.TestMultiHashMap	Feature Envy
-src.test.org.apache.commons.collections.TestMultiHashMap	Feature Envy
-src.test.org.apache.commons.collections.TestMultiHashMap	God Class
-src.test.org.apache.commons.collections.TestMultiHashMap	Refused Parent Bequest
-src.java.org.apache.commons.collections.keyvalue.UnmodifiableMapEntry	Feature Envy
-src.test.org.apache.commons.collections.map.TestPredicatedMap	Feature Envy
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap$Inverse	Feature Envy
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap$Inverse	Feature Envy
-src.java.org.apache.commons.collections.bidimap.TreeBidiMap$Inverse	Feature Envy
-src.test.org.apache.commons.collections.collection.AbstractTestCollection	Shotgun Surgery
-src.test.org.apache.commons.collections.collection.AbstractTestCollection	Shotgun Surgery
-src.test.org.apache.commons.collections.collection.AbstractTestCollection	Intensive Coupling
-src.test.org.apache.commons.collections.collection.AbstractTestCollection	Shotgun Surgery
-src.test.org.apache.commons.collections.collection.AbstractTestCollection	Shotgun Surgery
-src.test.org.apache.commons.collections.collection.AbstractTestCollection	Feature Envy
-src.test.org.apache.commons.collections.collection.AbstractTestCollection	Shotgun Surgery
-src.test.org.apache.commons.collections.collection.AbstractTestCollection	Shotgun Surgery
-src.test.org.apache.commons.collections.collection.AbstractTestCollection	Intensive Coupling
-src.test.org.apache.commons.collections.collection.AbstractTestCollection	Dispersed Coupling
-src.test.org.apache.commons.collections.collection.AbstractTestCollection	Dispersed Coupling
-src.test.org.apache.commons.collections.collection.AbstractTestCollection	Feature Envy
-src.test.org.apache.commons.collections.collection.AbstractTestCollection	Dispersed Coupling
-src.test.org.apache.commons.collections.collection.AbstractTestCollection	Dispersed Coupling
-src.test.org.apache.commons.collections.collection.AbstractTestCollection	Intensive Coupling
-src.test.org.apache.commons.collections.collection.AbstractTestCollection	God Class
-src.test.org.apache.commons.collections.collection.AbstractTestCollection	Data Class
-src.test.org.apache.commons.collections.collection.AbstractTestCollection	Refused Parent Bequest
-src.test.org.apache.commons.collections.collection.AbstractTestCollection	Tradition Breaker
-src.java.org.apache.commons.collections.map.Flat3Map	Shotgun Surgery
-src.java.org.apache.commons.collections.map.Flat3Map	Brain Method
-src.java.org.apache.commons.collections.map.Flat3Map	Feature Envy
-src.java.org.apache.commons.collections.map.Flat3Map	Dispersed Coupling
-src.java.org.apache.commons.collections.map.Flat3Map	Brain Method
-src.java.org.apache.commons.collections.map.Flat3Map	Feature Envy
-src.java.org.apache.commons.collections.bidimap.DualTreeBidiMap	Refused Parent Bequest
+src.test.org.apache.commons.collections.map.TestSingletonMap	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.TestLinkedList	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.map.TestListOrderedMap	testGetByIndex	Feature Envy
+src.test.org.apache.commons.collections.map.TestListOrderedMap	testGetValueByIndex	Feature Envy
+src.test.org.apache.commons.collections.map.TestListOrderedMap	testSetValueByIndex	Feature Envy
+src.test.org.apache.commons.collections.map.TestListOrderedMap	testPut_intObjectObject	Feature Envy
+src.test.org.apache.commons.collections.map.TestListOrderedMap	testValueList_setByIndex	Feature Envy
+src.test.org.apache.commons.collections.map.TestListOrderedMap	null	God Class
+src.test.org.apache.commons.collections.map.TestListOrderedMap	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.map.TestListOrderedMap	null	Tradition Breaker
+src.java.org.apache.commons.collections.BeanMap	initialise	Dispersed Coupling
+src.java.org.apache.commons.collections.BeanMap	null	God Class
+src.java.org.apache.commons.collections.BeanMap	null	Data Class
+src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap	putAll	Feature Envy
+src.java.org.apache.commons.collections.OrderedMap	orderedMapIterator	Shotgun Surgery
+src.java.org.apache.commons.collections.ExtendedProperties$PropertiesReader	readProperty	Dispersed Coupling
+src.java.org.apache.commons.collections.list.TreeList	set	Feature Envy
+src.java.org.apache.commons.collections.map.AbstractLinkedMap	containsValue	Feature Envy
+src.java.org.apache.commons.collections.map.AbstractLinkedMap	getEntry	Feature Envy
+src.java.org.apache.commons.collections.map.AbstractLinkedMap	addEntry	Feature Envy
+src.java.org.apache.commons.collections.map.AbstractLinkedMap	removeEntry	Feature Envy
+src.java.org.apache.commons.collections.map.AbstractLinkedMap	null	God Class
+src.java.org.apache.commons.collections.map.AbstractLinkedMap	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.TestMapUtils	testTypedMapIllegalPut	Feature Envy
+src.test.org.apache.commons.collections.TestMapUtils	testInvertMap	Feature Envy
+src.test.org.apache.commons.collections.TestMapUtils	testPutAll_Map_array	Feature Envy
+src.test.org.apache.commons.collections.TestMapUtils	testDebugPrintNullLabel	Feature Envy
+src.test.org.apache.commons.collections.TestMapUtils	testDebugPrintNullKeyToMap2	Feature Envy
+src.test.org.apache.commons.collections.TestMapUtils	testDebugPrint	Feature Envy
+src.test.org.apache.commons.collections.TestMapUtils	testDebugPrintSelfReference	Feature Envy
+src.test.org.apache.commons.collections.TestMapUtils	null	God Class
+src.test.org.apache.commons.collections.TestMapUtils	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.CursorableSubList	CursorableSubList	Feature Envy
+src.java.org.apache.commons.collections.CursorableSubList	insertListable	Feature Envy
+src.java.org.apache.commons.collections.CursorableSubList	removeListable	Feature Envy
+src.java.org.apache.commons.collections.CursorableSubList	null	God Class
+src.java.org.apache.commons.collections.CursorableSubList	null	Data Class
+src.java.org.apache.commons.collections.CursorableSubList	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.map.UnmodifiableOrderedMap	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$KeySetIterator	remove	Feature Envy
+src.java.org.apache.commons.collections.map.AbstractHashedMap	get	Feature Envy
+src.java.org.apache.commons.collections.map.AbstractHashedMap	size	Shotgun Surgery
+src.java.org.apache.commons.collections.map.AbstractHashedMap	containsKey	Feature Envy
+src.java.org.apache.commons.collections.map.AbstractHashedMap	containsKey	Shotgun Surgery
+src.java.org.apache.commons.collections.map.AbstractHashedMap	containsValue	Feature Envy
+src.java.org.apache.commons.collections.map.AbstractHashedMap	put	Feature Envy
+src.java.org.apache.commons.collections.map.AbstractHashedMap	put	Shotgun Surgery
+src.java.org.apache.commons.collections.map.AbstractHashedMap	putAll	Feature Envy
+src.java.org.apache.commons.collections.map.AbstractHashedMap	remove	Feature Envy
+src.java.org.apache.commons.collections.map.AbstractHashedMap	hashIndex	Shotgun Surgery
+src.java.org.apache.commons.collections.map.AbstractHashedMap	getEntry	Feature Envy
+src.java.org.apache.commons.collections.map.AbstractHashedMap	reuseEntry	Feature Envy
+src.java.org.apache.commons.collections.map.AbstractHashedMap	removeEntry	Feature Envy
+src.java.org.apache.commons.collections.map.AbstractHashedMap	destroyEntry	Feature Envy
+src.java.org.apache.commons.collections.map.AbstractHashedMap	ensureCapacity	Feature Envy
+src.java.org.apache.commons.collections.map.AbstractHashedMap	keySet	Shotgun Surgery
+src.java.org.apache.commons.collections.map.AbstractHashedMap	equals	Feature Envy
+src.java.org.apache.commons.collections.map.AbstractHashedMap	null	God Class
+src.test.org.apache.commons.collections.TestFactoryUtils	testInstantiateFactoryComplex	Feature Envy
+src.java.org.apache.commons.collections.MultiHashMap	readObject	Dispersed Coupling
+src.java.org.apache.commons.collections.MultiHashMap	putAll	Feature Envy
+src.java.org.apache.commons.collections.MultiHashMap	containsValue	Feature Envy
+src.java.org.apache.commons.collections.MultiHashMap	clear	Feature Envy
+src.java.org.apache.commons.collections.MultiHashMap	clone	Feature Envy
+src.java.org.apache.commons.collections.MultiHashMap	null	God Class
+src.test.org.apache.commons.collections.iterators.TestFilterIterator	verifyElementsInPredicate	Feature Envy
+src.test.org.apache.commons.collections.iterators.TestFilterIterator	verifyElementsInPredicate	Dispersed Coupling
+src.test.org.apache.commons.collections.iterators.TestFilterIterator	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.list.GrowthList	add	Feature Envy
+src.java.org.apache.commons.collections.list.GrowthList	addAll	Feature Envy
+src.java.org.apache.commons.collections.list.GrowthList	set	Feature Envy
+src.test.org.apache.commons.collections.bidimap.AbstractTestOrderedBidiMap	testPreviousKey	Dispersed Coupling
+src.test.org.apache.commons.collections.TestBagUtils	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.TestBagUtils	null	Tradition Breaker
+src.java.org.apache.commons.collections.functors.SwitchTransformer	getInstance	Dispersed Coupling
+src.test.org.apache.commons.collections.map.TestLazySortedMap	testMapGet	Feature Envy
+src.test.org.apache.commons.collections.map.TestLazySortedMap	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.list.AbstractTestList	testListAddByIndexBoundsChecking	Feature Envy
+src.test.org.apache.commons.collections.list.AbstractTestList	testListAddByIndexBoundsChecking2	Feature Envy
+src.test.org.apache.commons.collections.list.AbstractTestList	testListEquals	Feature Envy
+src.test.org.apache.commons.collections.list.AbstractTestList	testListGetByIndexBoundsChecking	Feature Envy
+src.test.org.apache.commons.collections.list.AbstractTestList	testListRemoveByIndexBoundsChecking2	Feature Envy
+src.test.org.apache.commons.collections.list.AbstractTestList	null	God Class
+src.test.org.apache.commons.collections.list.AbstractTestList	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.list.AbstractTestList	null	Tradition Breaker
+src.test.org.apache.commons.collections.TestListUtils	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.map.ListOrderedMap$EntrySetView	remove	Feature Envy
+src.test.org.apache.commons.collections.map.AbstractTestSortedMap$TestViewMap	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.iterators.ArrayListIterator	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.list.TestNodeCachingLinkedList	testShrinkCache	Feature Envy
+src.test.org.apache.commons.collections.list.TestNodeCachingLinkedList	compareSpeed	Feature Envy
+src.test.org.apache.commons.collections.map.TestLinkedMap	testReset	Feature Envy
+src.test.org.apache.commons.collections.map.TestLinkedMap	testGetByIndex	Feature Envy
+src.test.org.apache.commons.collections.map.TestLinkedMap	testGetValueByIndex	Feature Envy
+src.test.org.apache.commons.collections.map.TestLinkedMap	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.map.TestLinkedMap	null	Tradition Breaker
+src.java.org.apache.commons.collections.functors.SwitchClosure	getInstance	Dispersed Coupling
+src.test.org.apache.commons.collections.list.TestUnmodifiableList	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.BinaryHeap	null	God Class
+src.java.org.apache.commons.collections.collection.UnmodifiableBoundedCollection	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.map.AbstractMapDecorator	getMap	Shotgun Surgery
+src.java.org.apache.commons.collections.map.AbstractMapDecorator	get	Shotgun Surgery
+src.java.org.apache.commons.collections.map.AbstractMapDecorator	size	Shotgun Surgery
+src.test.org.apache.commons.collections.TestCollectionUtils	testGetCardinalityMap	Feature Envy
+src.test.org.apache.commons.collections.TestCollectionUtils	testCardinalityOfNull	Feature Envy
+src.test.org.apache.commons.collections.TestCollectionUtils	testUnion	Feature Envy
+src.test.org.apache.commons.collections.TestCollectionUtils	testIntersection	Feature Envy
+src.test.org.apache.commons.collections.TestCollectionUtils	testDisjunction	Feature Envy
+src.test.org.apache.commons.collections.TestCollectionUtils	testSubtract	Feature Envy
+src.test.org.apache.commons.collections.TestCollectionUtils	testTransform1	Feature Envy
+src.test.org.apache.commons.collections.TestCollectionUtils	bulkTestTypedCollection	Feature Envy
+src.test.org.apache.commons.collections.TestCollectionUtils	null	God Class
+src.java.org.apache.commons.collections.BidiMap	inverseBidiMap	Shotgun Surgery
+src.java.org.apache.commons.collections.list.SetUniqueList	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.iterators.ObjectArrayListIterator	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.Predicate	evaluate	Shotgun Surgery
+src.test.org.apache.commons.collections.keyvalue.TestTiedMapEntry	testSetValue	Feature Envy
+src.java.org.apache.commons.collections.bag.UnmodifiableSortedBag	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.collection.TestCompositeCollection	setUpMutatorTest	Feature Envy
+src.test.org.apache.commons.collections.collection.TestCompositeCollection	testAddAllMutator	Feature Envy
+src.test.org.apache.commons.collections.collection.TestCompositeCollection	testAddMutator	Feature Envy
+src.test.org.apache.commons.collections.collection.TestCompositeCollection	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.list.PredicatedList	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.AbstractTestObject	isTestSerialization	Shotgun Surgery
+src.test.org.apache.commons.collections.AbstractTestObject	readExternalFormFromDisk	Shotgun Surgery
+src.test.org.apache.commons.collections.AbstractTestObject	skipSerializedCanonicalTests	Shotgun Surgery
+src.test.org.apache.commons.collections.AbstractTestObject	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.Buffer	remove	Shotgun Surgery
+src.java.org.apache.commons.collections.Buffer	get	Shotgun Surgery
+src.java.org.apache.commons.collections.bidimap.TreeBidiMap	putAll	Feature Envy
+src.java.org.apache.commons.collections.bidimap.TreeBidiMap	doPut	Feature Envy
+src.java.org.apache.commons.collections.bidimap.TreeBidiMap	doPut	Intensive Coupling
+src.java.org.apache.commons.collections.bidimap.TreeBidiMap	lookup	Feature Envy
+src.java.org.apache.commons.collections.bidimap.TreeBidiMap	nextGreater	Feature Envy
+src.java.org.apache.commons.collections.bidimap.TreeBidiMap	nextSmaller	Feature Envy
+src.java.org.apache.commons.collections.bidimap.TreeBidiMap	isLeftChild	Feature Envy
+src.java.org.apache.commons.collections.bidimap.TreeBidiMap	isRightChild	Feature Envy
+src.java.org.apache.commons.collections.bidimap.TreeBidiMap	rotateLeft	Feature Envy
+src.java.org.apache.commons.collections.bidimap.TreeBidiMap	rotateLeft	Intensive Coupling
+src.java.org.apache.commons.collections.bidimap.TreeBidiMap	rotateRight	Feature Envy
+src.java.org.apache.commons.collections.bidimap.TreeBidiMap	rotateRight	Intensive Coupling
+src.java.org.apache.commons.collections.bidimap.TreeBidiMap	doRedBlackDelete	Feature Envy
+src.java.org.apache.commons.collections.bidimap.TreeBidiMap	doRedBlackDelete	Intensive Coupling
+src.java.org.apache.commons.collections.bidimap.TreeBidiMap	swapPosition	Brain Method
+src.java.org.apache.commons.collections.bidimap.TreeBidiMap	swapPosition	Feature Envy
+src.java.org.apache.commons.collections.bidimap.TreeBidiMap	swapPosition	Intensive Coupling
+src.java.org.apache.commons.collections.bidimap.TreeBidiMap	insertValue	Feature Envy
+src.java.org.apache.commons.collections.bidimap.TreeBidiMap	insertValue	Intensive Coupling
+src.java.org.apache.commons.collections.bidimap.TreeBidiMap	null	God Class
+src.java.org.apache.commons.collections.bidimap.TreeBidiMap	null	Brain Class
+src.test.org.apache.commons.collections.iterators.AbstractTestMapIterator	testEmptyMapIterator	Feature Envy
+src.test.org.apache.commons.collections.iterators.AbstractTestMapIterator	testFullMapIterator	Feature Envy
+src.test.org.apache.commons.collections.iterators.AbstractTestMapIterator	testFullMapIterator	Intensive Coupling
+src.test.org.apache.commons.collections.iterators.AbstractTestMapIterator	testMapIteratorSet	Feature Envy
+src.test.org.apache.commons.collections.iterators.AbstractTestMapIterator	testMapIteratorSet	Intensive Coupling
+src.test.org.apache.commons.collections.iterators.AbstractTestMapIterator	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.iterators.AbstractTestMapIterator	null	Tradition Breaker
+src.java.org.apache.commons.collections.ResettableIterator	reset	Shotgun Surgery
+src.test.org.apache.commons.collections.TestIteratorUtils	testEmptyIterator	Feature Envy
+src.test.org.apache.commons.collections.TestIteratorUtils	testEmptyOrderedIterator	Feature Envy
+src.test.org.apache.commons.collections.TestIteratorUtils	null	God Class
+src.test.org.apache.commons.collections.TestIteratorUtils	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.TestIteratorUtils	null	Tradition Breaker
+src.java.org.apache.commons.collections.keyvalue.DefaultKeyValue	DefaultKeyValue	Feature Envy
+src.java.org.apache.commons.collections.keyvalue.DefaultKeyValue	equals	Feature Envy
+src.java.org.apache.commons.collections.keyvalue.DefaultKeyValue	hashCode	Feature Envy
+src.java.org.apache.commons.collections.keyvalue.DefaultKeyValue	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.list.TestAbstractLinkedList	testAddNodeAfter	Feature Envy
+src.test.org.apache.commons.collections.list.TestAbstractLinkedList	testAddNodeAfter	Intensive Coupling
+src.test.org.apache.commons.collections.list.TestAbstractLinkedList	testRemoveNode	Feature Envy
+src.test.org.apache.commons.collections.list.TestAbstractLinkedList	testGetNode	Feature Envy
+src.test.org.apache.commons.collections.list.TestAbstractLinkedList	checkNodes	Feature Envy
+src.java.org.apache.commons.collections.bag.UnmodifiableBag	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.keyvalue.TiedMapEntry	equals	Feature Envy
+src.java.org.apache.commons.collections.bidimap.UnmodifiableOrderedBidiMap	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$KeySet	iterator	Feature Envy
+src.test.org.apache.commons.collections.set.TestListOrderedSet	testListAddRemove	Feature Envy
+src.test.org.apache.commons.collections.set.TestListOrderedSet	testListAddIndexed	Feature Envy
+src.test.org.apache.commons.collections.set.TestListOrderedSet	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.set.TestListOrderedSet	null	Tradition Breaker
+src.test.org.apache.commons.collections.keyvalue.TestDefaultKeyValue	testAccessorsAndMutators	Feature Envy
+src.test.org.apache.commons.collections.keyvalue.TestDefaultKeyValue	testSelfReferenceHandling	Feature Envy
+src.test.org.apache.commons.collections.keyvalue.TestDefaultKeyValue	testToString	Feature Envy
+src.test.org.apache.commons.collections.keyvalue.TestDefaultKeyValue	testToMapEntry	Feature Envy
+src.java.org.apache.commons.collections.list.UnmodifiableList	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.TestClosureUtils	testForClosure	Feature Envy
+src.test.org.apache.commons.collections.TestClosureUtils	testIfClosure	Feature Envy
+src.test.org.apache.commons.collections.TestClosureUtils	testSwitchClosure	Feature Envy
+src.test.org.apache.commons.collections.TestClosureUtils	testSwitchMapClosure	Feature Envy
+src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$KeySet	remove	Feature Envy
+src.java.org.apache.commons.collections.bidimap.TreeBidiMap$Node	equals	Feature Envy
+src.java.org.apache.commons.collections.functors.OnePredicate	getInstance	Feature Envy
+src.java.org.apache.commons.collections.set.UnmodifiableSortedSet	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.map.MultiKeyMap	removeAll	Feature Envy
+src.java.org.apache.commons.collections.map.MultiKeyMap	removeAll	Feature Envy
+src.java.org.apache.commons.collections.map.MultiKeyMap	removeAll	Feature Envy
+src.java.org.apache.commons.collections.map.MultiKeyMap	null	Data Class
+src.test.org.apache.commons.collections.map.AbstractTestMap	isPutAddSupported	Shotgun Surgery
+src.test.org.apache.commons.collections.map.AbstractTestMap	isPutChangeSupported	Shotgun Surgery
+src.test.org.apache.commons.collections.map.AbstractTestMap	isSetValueSupported	Shotgun Surgery
+src.test.org.apache.commons.collections.map.AbstractTestMap	isRemoveSupported	Shotgun Surgery
+src.test.org.apache.commons.collections.map.AbstractTestMap	isAllowNullKey	Shotgun Surgery
+src.test.org.apache.commons.collections.map.AbstractTestMap	getSampleKeys	Shotgun Surgery
+src.test.org.apache.commons.collections.map.AbstractTestMap	getOtherKeys	Shotgun Surgery
+src.test.org.apache.commons.collections.map.AbstractTestMap	getSampleValues	Shotgun Surgery
+src.test.org.apache.commons.collections.map.AbstractTestMap	getNewSampleValues	Shotgun Surgery
+src.test.org.apache.commons.collections.map.AbstractTestMap	addSampleMappings	Shotgun Surgery
+src.test.org.apache.commons.collections.map.AbstractTestMap	makeFullMap	Shotgun Surgery
+src.test.org.apache.commons.collections.map.AbstractTestMap	cloneMapEntry	Feature Envy
+src.test.org.apache.commons.collections.map.AbstractTestMap	testMapPut	Brain Method
+src.test.org.apache.commons.collections.map.AbstractTestMap	testMapPut	Dispersed Coupling
+src.test.org.apache.commons.collections.map.AbstractTestMap	testMapRemove	Dispersed Coupling
+src.test.org.apache.commons.collections.map.AbstractTestMap	testEntrySetContains2	Feature Envy
+src.test.org.apache.commons.collections.map.AbstractTestMap	testEntrySetContains3	Feature Envy
+src.test.org.apache.commons.collections.map.AbstractTestMap	testEntrySetRemove1	Feature Envy
+src.test.org.apache.commons.collections.map.AbstractTestMap	testEntrySetRemove2	Feature Envy
+src.test.org.apache.commons.collections.map.AbstractTestMap	testEntrySetRemove3	Feature Envy
+src.test.org.apache.commons.collections.map.AbstractTestMap	makeEntryArray	Feature Envy
+src.test.org.apache.commons.collections.map.AbstractTestMap	resetEmpty	Shotgun Surgery
+src.test.org.apache.commons.collections.map.AbstractTestMap	resetFull	Shotgun Surgery
+src.test.org.apache.commons.collections.map.AbstractTestMap	null	God Class
+src.test.org.apache.commons.collections.map.AbstractTestMap	null	Brain Class
+src.test.org.apache.commons.collections.map.AbstractTestMap	null	Data Class
+src.test.org.apache.commons.collections.map.AbstractTestMap	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.map.AbstractTestMap	null	Tradition Breaker
+src.test.org.apache.commons.collections.TestExtendedProperties	testRetrieve	Feature Envy
+src.test.org.apache.commons.collections.TestExtendedProperties	testInterpolation	Feature Envy
+src.test.org.apache.commons.collections.TestExtendedProperties	testInheritDefaultProperties	Feature Envy
+src.java.org.apache.commons.collections.DoubleOrderedMap	lookup	Feature Envy
+src.java.org.apache.commons.collections.DoubleOrderedMap	nextGreater	Feature Envy
+src.java.org.apache.commons.collections.DoubleOrderedMap	isLeftChild	Feature Envy
+src.java.org.apache.commons.collections.DoubleOrderedMap	isRightChild	Feature Envy
+src.java.org.apache.commons.collections.DoubleOrderedMap	rotateLeft	Feature Envy
+src.java.org.apache.commons.collections.DoubleOrderedMap	rotateLeft	Intensive Coupling
+src.java.org.apache.commons.collections.DoubleOrderedMap	rotateRight	Feature Envy
+src.java.org.apache.commons.collections.DoubleOrderedMap	rotateRight	Intensive Coupling
+src.java.org.apache.commons.collections.DoubleOrderedMap	doRedBlackDelete	Feature Envy
+src.java.org.apache.commons.collections.DoubleOrderedMap	doRedBlackDelete	Intensive Coupling
+src.java.org.apache.commons.collections.DoubleOrderedMap	swapPosition	Brain Method
+src.java.org.apache.commons.collections.DoubleOrderedMap	swapPosition	Feature Envy
+src.java.org.apache.commons.collections.DoubleOrderedMap	swapPosition	Intensive Coupling
+src.java.org.apache.commons.collections.DoubleOrderedMap	insertValue	Feature Envy
+src.java.org.apache.commons.collections.DoubleOrderedMap	insertValue	Intensive Coupling
+src.java.org.apache.commons.collections.DoubleOrderedMap	put	Feature Envy
+src.java.org.apache.commons.collections.DoubleOrderedMap	put	Intensive Coupling
+src.java.org.apache.commons.collections.DoubleOrderedMap	null	God Class
+src.java.org.apache.commons.collections.DoubleOrderedMap	null	Brain Class
+src.test.org.apache.commons.collections.TestSequencedHashMap	testFullMapSerialization	Feature Envy
+src.test.org.apache.commons.collections.TestSequencedHashMap	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.functors.InvokerTransformer	getInstance	Feature Envy
+src.java.org.apache.commons.collections.functors.InvokerTransformer	transform	Feature Envy
+src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$KeySet	remove	Feature Envy
+src.java.org.apache.commons.collections.FastTreeMap	equals	Feature Envy
+src.java.org.apache.commons.collections.FastTreeMap	equals	Dispersed Coupling
+src.java.org.apache.commons.collections.FastTreeMap	null	Data Class
+src.test.org.apache.commons.collections.set.TestListOrderedSet2	testListAddRemove	Feature Envy
+src.test.org.apache.commons.collections.set.TestListOrderedSet2	testListAddIndexed	Feature Envy
+src.test.org.apache.commons.collections.set.TestListOrderedSet2	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.Transformer	transform	Shotgun Surgery
+src.test.org.apache.commons.collections.map.TestMultiKeyMap	testMultiKeyContainsKey	Feature Envy
+src.test.org.apache.commons.collections.map.TestMultiKeyMap	testMultiKeyRemove	Feature Envy
+src.test.org.apache.commons.collections.map.TestMultiKeyMap	testMultiKeyRemoveAll3	Feature Envy
+src.test.org.apache.commons.collections.map.TestMultiKeyMap	testMultiKeyRemoveAll4	Feature Envy
+src.test.org.apache.commons.collections.map.TestMultiKeyMap	null	God Class
+src.test.org.apache.commons.collections.map.TestMultiKeyMap	null	Data Class
+src.test.org.apache.commons.collections.map.TestMultiKeyMap	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.functors.InstantiateTransformer	getInstance	Feature Envy
+src.java.org.apache.commons.collections.functors.InstantiateTransformer	transform	Feature Envy
+src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$Values	iterator	Feature Envy
+src.test.org.apache.commons.collections.map.AbstractTestMap$TestMapEntrySet	testMapEntrySetIteratorEntry	Dispersed Coupling
+src.test.org.apache.commons.collections.map.AbstractTestMap$TestMapEntrySet	testMapEntrySetIteratorEntrySetValue	Intensive Coupling
+src.test.org.apache.commons.collections.map.AbstractTestMap$TestMapEntrySet	getEntry	Feature Envy
+src.test.org.apache.commons.collections.map.AbstractTestMap$TestMapEntrySet	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.keyvalue.AbstractMapEntry	hashCode	Feature Envy
+src.java.org.apache.commons.collections.comparators.ComparatorChain	compare	Feature Envy
+src.test.org.apache.commons.collections.list.TestPredicatedList	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.TestBinaryHeap	verify	Feature Envy
+src.test.org.apache.commons.collections.TestBinaryHeap	testBasicOps	Intensive Coupling
+src.test.org.apache.commons.collections.TestBinaryHeap	testBasicComparatorOps	Intensive Coupling
+src.test.org.apache.commons.collections.TestBinaryHeap	showTree	Feature Envy
+src.test.org.apache.commons.collections.TestBinaryHeap	null	God Class
+src.test.org.apache.commons.collections.iterators.TestSingletonListIterator	testIterator	Feature Envy
+src.test.org.apache.commons.collections.keyvalue.TestUnmodifiableMapEntry	testConstructors	Feature Envy
+src.test.org.apache.commons.collections.keyvalue.TestUnmodifiableMapEntry	testAccessorsAndMutators	Feature Envy
+src.test.org.apache.commons.collections.iterators.TestLoopingListIterator	testSet	Feature Envy
+src.test.org.apache.commons.collections.TestDoubleOrderedMap	testSize	Feature Envy
+src.test.org.apache.commons.collections.TestDoubleOrderedMap	testIsEmpty	Feature Envy
+src.test.org.apache.commons.collections.TestDoubleOrderedMap	testContainsKey	Feature Envy
+src.test.org.apache.commons.collections.TestDoubleOrderedMap	testContainsValue	Feature Envy
+src.test.org.apache.commons.collections.TestDoubleOrderedMap	testPut	Feature Envy
+src.test.org.apache.commons.collections.TestDoubleOrderedMap	testClear	Feature Envy
+src.test.org.apache.commons.collections.TestDoubleOrderedMap	testKeySet	Feature Envy
+src.test.org.apache.commons.collections.TestDoubleOrderedMap	testKeySet	Intensive Coupling
+src.test.org.apache.commons.collections.TestDoubleOrderedMap	testValues	Feature Envy
+src.test.org.apache.commons.collections.TestDoubleOrderedMap	testValues	Intensive Coupling
+src.test.org.apache.commons.collections.TestDoubleOrderedMap	testEquals	Feature Envy
+src.test.org.apache.commons.collections.TestDoubleOrderedMap	testHashCode	Feature Envy
+src.test.org.apache.commons.collections.TestDoubleOrderedMap	testConstructors	Feature Envy
+src.test.org.apache.commons.collections.TestDoubleOrderedMap	testKeySetByValue	Feature Envy
+src.test.org.apache.commons.collections.TestDoubleOrderedMap	testKeySetByValue	Intensive Coupling
+src.test.org.apache.commons.collections.TestDoubleOrderedMap	testValuesByValue	Feature Envy
+src.test.org.apache.commons.collections.TestDoubleOrderedMap	testValuesByValue	Intensive Coupling
+src.test.org.apache.commons.collections.TestDoubleOrderedMap	testKeySet	Brain Method
+src.test.org.apache.commons.collections.TestDoubleOrderedMap	testKeySet	Intensive Coupling
+src.test.org.apache.commons.collections.TestDoubleOrderedMap	testKeySetByValue	Brain Method
+src.test.org.apache.commons.collections.TestDoubleOrderedMap	testKeySetByValue	Feature Envy
+src.test.org.apache.commons.collections.TestDoubleOrderedMap	testKeySetByValue	Intensive Coupling
+src.test.org.apache.commons.collections.TestDoubleOrderedMap	testValues	Brain Method
+src.test.org.apache.commons.collections.TestDoubleOrderedMap	testValues	Intensive Coupling
+src.test.org.apache.commons.collections.TestDoubleOrderedMap	testValuesByValue	Brain Method
+src.test.org.apache.commons.collections.TestDoubleOrderedMap	testValuesByValue	Feature Envy
+src.test.org.apache.commons.collections.TestDoubleOrderedMap	testValuesByValue	Intensive Coupling
+src.test.org.apache.commons.collections.TestDoubleOrderedMap	testEntrySet	Brain Method
+src.test.org.apache.commons.collections.TestDoubleOrderedMap	testEntrySet	Intensive Coupling
+src.test.org.apache.commons.collections.TestDoubleOrderedMap	testEntrySetByValue	Brain Method
+src.test.org.apache.commons.collections.TestDoubleOrderedMap	testEntrySetByValue	Intensive Coupling
+src.test.org.apache.commons.collections.TestDoubleOrderedMap	null	God Class
+src.test.org.apache.commons.collections.TestDoubleOrderedMap	null	Brain Class
+src.test.org.apache.commons.collections.TestDoubleOrderedMap	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.TestDoubleOrderedMap	null	Tradition Breaker
+src.java.org.apache.commons.collections.set.ListOrderedSet	retainAll	Intensive Coupling
+src.java.org.apache.commons.collections.set.ListOrderedSet	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.map.FixedSizeMap	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.buffer.BlockingBuffer	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.map.TestMultiValueMap	testPutAll_Map2	Feature Envy
+src.test.org.apache.commons.collections.bidimap.TestUnmodifiableOrderedBidiMap	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.set.AbstractTestSortedSet$TestSortedSetSubSet	TestSortedSetSubSet	Feature Envy
+src.test.org.apache.commons.collections.set.AbstractTestSortedSet$TestSortedSetSubSet	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.functors.InstantiateFactory	getInstance	Feature Envy
+src.test.org.apache.commons.collections.map.AbstractTestIterableMap	testFailFastEntrySet	Feature Envy
+src.java.org.apache.commons.collections.keyvalue.AbstractKeyValue	getKey	Shotgun Surgery
+src.java.org.apache.commons.collections.bag.AbstractMapBag	remove	Feature Envy
+src.java.org.apache.commons.collections.map.AbstractHashedMap$HashIterator	nextEntry	Feature Envy
+src.java.org.apache.commons.collections.map.AbstractHashedMap$HashIterator	remove	Feature Envy
+src.test.org.apache.commons.collections.iterators.TestArrayListIterator	testListIterator	Feature Envy
+src.test.org.apache.commons.collections.map.TestIdentityMap	testBasics	Feature Envy
+src.test.org.apache.commons.collections.map.TestIdentityMap	testHashEntry	Feature Envy
+src.java.org.apache.commons.collections.map.AbstractReferenceMap	purge	Feature Envy
+src.java.org.apache.commons.collections.map.AbstractReferenceMap	null	God Class
+src.java.org.apache.commons.collections.map.AbstractReferenceMap	null	Data Class
+src.java.org.apache.commons.collections.map.AbstractReferenceMap	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.FastHashMap	equals	Feature Envy
+src.java.org.apache.commons.collections.FastHashMap	equals	Dispersed Coupling
+src.java.org.apache.commons.collections.FastHashMap	null	Data Class
+src.test.org.apache.commons.collections.TestPredicateUtils	null	God Class
+src.test.org.apache.commons.collections.buffer.TestCircularFifoBuffer	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.Closure	execute	Shotgun Surgery
+src.java.org.apache.commons.collections.map.AbstractLinkedMap$LinkIterator	remove	Feature Envy
+src.test.org.apache.commons.collections.map.TestHashedMap	testInternalState	Feature Envy
+src.java.org.apache.commons.collections.bidimap.UnmodifiableSortedBidiMap	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.bag.TestPredicatedBag	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.collection.AbstractCollectionDecorator	getCollection	Shotgun Surgery
+src.java.org.apache.commons.collections.collection.AbstractCollectionDecorator	size	Shotgun Surgery
+src.java.org.apache.commons.collections.bidimap.UnmodifiableBidiMap	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.map.UnmodifiableEntrySet	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.bag.AbstractTestBag	testRemove	Feature Envy
+src.test.org.apache.commons.collections.bag.AbstractTestBag	testRemoveAll	Feature Envy
+src.test.org.apache.commons.collections.bag.AbstractTestBag	testIterator	Intensive Coupling
+src.test.org.apache.commons.collections.bag.AbstractTestBag	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.iterators.TestObjectArrayListIterator	testListIterator	Feature Envy
+src.java.org.apache.commons.collections.MapUtils	getBoolean	Feature Envy
+src.java.org.apache.commons.collections.MapUtils	toProperties	Feature Envy
+src.java.org.apache.commons.collections.MapUtils	verbosePrintInternal	Intensive Coupling
+src.java.org.apache.commons.collections.MapUtils	invertMap	Feature Envy
+src.java.org.apache.commons.collections.MapUtils	null	God Class
+src.java.org.apache.commons.collections.list.AbstractLinkedList$LinkedSubListIterator	add	Feature Envy
+src.java.org.apache.commons.collections.list.AbstractLinkedList$LinkedSubListIterator	remove	Feature Envy
+src.test.org.apache.commons.collections.TestBeanMap	makeFullMap	Feature Envy
+src.test.org.apache.commons.collections.TestBeanMap	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.keyvalue.TestDefaultMapEntry	testSelfReferenceHandling	Feature Envy
+src.java.org.apache.commons.collections.SequencedHashMap$Entry	equals	Feature Envy
+src.test.org.apache.commons.collections.iterators.TestUniqueFilterIterator	testIterator	Feature Envy
+src.test.org.apache.commons.collections.iterators.TestFilterListIterator	walkLists	Brain Method
+src.test.org.apache.commons.collections.iterators.TestFilterListIterator	walkLists	Intensive Coupling
+src.java.org.apache.commons.collections.functors.AnyPredicate	getInstance	Feature Envy
+src.java.org.apache.commons.collections.functors.AnyPredicate	getInstance	Feature Envy
+src.test.org.apache.commons.collections.iterators.TestObjectArrayIterator	testIterator	Feature Envy
+src.test.org.apache.commons.collections.iterators.TestObjectArrayIterator	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.BeanMap$MyMapEntry	setValue	Feature Envy
+src.test.org.apache.commons.collections.BulkTestSuiteMaker	makeFirstTestCase	Feature Envy
+src.test.org.apache.commons.collections.BulkTestSuiteMaker	isTest	Feature Envy
+src.test.org.apache.commons.collections.BulkTestSuiteMaker	isBulk	Feature Envy
+src.java.org.apache.commons.collections.functors.AllPredicate	getInstance	Feature Envy
+src.java.org.apache.commons.collections.functors.AllPredicate	getInstance	Feature Envy
+src.java.org.apache.commons.collections.list.NodeCachingLinkedList	addNodeToCache	Feature Envy
+src.java.org.apache.commons.collections.list.NodeCachingLinkedList	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.list.SynchronizedList	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.set.AbstractTestSortedSet	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.iterators.TestArrayIterator	testIterator	Feature Envy
+src.java.org.apache.commons.collections.OrderedIterator	next	Feature Envy
+src.java.org.apache.commons.collections.buffer.BoundedBuffer	timeoutWait	Feature Envy
+src.java.org.apache.commons.collections.buffer.BoundedBuffer	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.iterators.CollatingIterator	set	Feature Envy
+src.java.org.apache.commons.collections.iterators.CollatingIterator	least	Feature Envy
+src.test.org.apache.commons.collections.keyvalue.AbstractTestMapEntry	makeKnownMapEntry	Feature Envy
+src.test.org.apache.commons.collections.keyvalue.AbstractTestMapEntry	testAccessorsAndMutators	Feature Envy
+src.test.org.apache.commons.collections.keyvalue.AbstractTestMapEntry	testSelfReferenceHandling	Feature Envy
+src.test.org.apache.commons.collections.keyvalue.AbstractTestMapEntry	testToString	Feature Envy
+src.test.org.apache.commons.collections.buffer.TestBoundedBuffer	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.map.SingletonMap	putAll	Feature Envy
+src.java.org.apache.commons.collections.map.SingletonMap	equals	Feature Envy
+src.java.org.apache.commons.collections.map.SingletonMap	null	God Class
+src.java.org.apache.commons.collections.map.SingletonMap	null	Data Class
+src.java.org.apache.commons.collections.map.AbstractReferenceMap$ReferenceEntrySetIterator	ReferenceEntrySetIterator	Feature Envy
+src.java.org.apache.commons.collections.map.AbstractReferenceMap$ReferenceEntrySetIterator	hasNext	Feature Envy
+src.java.org.apache.commons.collections.bidimap.TreeBidiMap$Node	equals	Feature Envy
+src.java.org.apache.commons.collections.Bag	getCount	Shotgun Surgery
+src.java.org.apache.commons.collections.Bag	add	Shotgun Surgery
+src.java.org.apache.commons.collections.Bag	add	Shotgun Surgery
+src.java.org.apache.commons.collections.Bag	uniqueSet	Shotgun Surgery
+src.java.org.apache.commons.collections.Bag	size	Shotgun Surgery
+src.java.org.apache.commons.collections.FastArrayList	null	Data Class
+src.test.org.apache.commons.collections.iterators.AbstractTestIterator	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.set.TestMapBackedSet2	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.map.AbstractReferenceMap$ReferenceEntry	equals	Feature Envy
+src.java.org.apache.commons.collections.map.AbstractReferenceMap$ReferenceEntry	purge	Feature Envy
+src.java.org.apache.commons.collections.map.AbstractReferenceMap$ReferenceEntry	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.map.TestTransformedSortedMap	testTransformedMap	Intensive Coupling
+src.test.org.apache.commons.collections.map.TestTransformedSortedMap	testFactory_Decorate	Feature Envy
+src.test.org.apache.commons.collections.map.TestTransformedSortedMap	testFactory_decorateTransform	Feature Envy
+src.java.org.apache.commons.collections.list.FixedSizeList	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.map.TestCompositeMap	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.list.AbstractListDecorator	getList	Shotgun Surgery
+src.test.org.apache.commons.collections.map.TestFlat3Map	testClone2	Feature Envy
+src.test.org.apache.commons.collections.map.TestFlat3Map	testClone4	Feature Envy
+src.test.org.apache.commons.collections.map.TestFlat3Map	testSerialisation4	Feature Envy
+src.java.org.apache.commons.collections.IteratorUtils	getIterator	Dispersed Coupling
+src.java.org.apache.commons.collections.IteratorUtils	null	God Class
+src.java.org.apache.commons.collections.IteratorUtils	null	Data Class
+src.test.org.apache.commons.collections.TestFastArrayList	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.comparators.TestFixedOrderComparator	testUnknownObjectBehavior	Feature Envy
+src.test.org.apache.commons.collections.comparators.TestFixedOrderComparator	assertComparatorYieldsOrder	Feature Envy
+src.java.org.apache.commons.collections.map.TransformedMap	transformMap	Feature Envy
+src.java.org.apache.commons.collections.map.TransformedMap	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.map.AbstractHashedMap$HashEntry	getKey	Shotgun Surgery
+src.java.org.apache.commons.collections.map.AbstractHashedMap$HashEntry	getValue	Shotgun Surgery
+src.test.org.apache.commons.collections.map.TestTransformedMap	testFactory_Decorate	Feature Envy
+src.test.org.apache.commons.collections.map.TestTransformedMap	testFactory_decorateTransform	Feature Envy
+src.test.org.apache.commons.collections.map.TestListOrderedMap2	testGetByIndex	Feature Envy
+src.test.org.apache.commons.collections.map.TestListOrderedMap2	testGetValueByIndex	Feature Envy
+src.test.org.apache.commons.collections.map.TestListOrderedMap2	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.map.TestListOrderedMap2	null	Tradition Breaker
+src.test.org.apache.commons.collections.bag.TestTypedBag	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.map.AbstractTestOrderedMap	testPreviousKey	Dispersed Coupling
+src.test.org.apache.commons.collections.map.AbstractTestOrderedMap	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.iterators.TestCollatingIterator	testGetSetComparator	Feature Envy
+src.test.org.apache.commons.collections.iterators.TestCollatingIterator	testRemoveFromSingle	Dispersed Coupling
+src.test.org.apache.commons.collections.iterators.TestCollatingIterator	testRemoveFromDouble	Dispersed Coupling
+src.test.org.apache.commons.collections.iterators.TestCollatingIterator	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.iterators.TestCollatingIterator	null	Tradition Breaker
+src.java.org.apache.commons.collections.map.FixedSizeSortedMap	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$EntrySetIterator	getKey	Feature Envy
+src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$EntrySetIterator	getValue	Feature Envy
+src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$EntrySetIterator	setValue	Feature Envy
+src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$EntrySetIterator	equals	Feature Envy
+src.test.org.apache.commons.collections.map.TestPredicatedSortedMap	testPut	Feature Envy
+src.test.org.apache.commons.collections.map.TestPredicatedSortedMap	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.CollectionUtils	index	Dispersed Coupling
+src.java.org.apache.commons.collections.CollectionUtils	get	Dispersed Coupling
+src.java.org.apache.commons.collections.CollectionUtils	size	Dispersed Coupling
+src.java.org.apache.commons.collections.CollectionUtils	null	God Class
+src.test.org.apache.commons.collections.iterators.TestObjectGraphIterator	testIteratorConstructorIteration_WithEmptyIterators	Feature Envy
+src.test.org.apache.commons.collections.iterators.TestObjectGraphIterator	testIteration_IteratorOfIteratorsWithEmptyIterators	Feature Envy
+src.test.org.apache.commons.collections.iterators.TestObjectGraphIterator	testIteration_Transformed2	Feature Envy
+src.test.org.apache.commons.collections.iterators.TestObjectGraphIterator	testIteration_Transformed3	Feature Envy
+src.test.org.apache.commons.collections.iterators.TestObjectGraphIterator	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.iterators.TestObjectGraphIterator	null	Tradition Breaker
+src.test.org.apache.commons.collections.map.TestCaseInsensitiveMap	testCaseInsensitive	Feature Envy
+src.test.org.apache.commons.collections.iterators.TestArrayIterator2	testIterator	Feature Envy
+src.test.org.apache.commons.collections.iterators.TestArrayIterator2	testSetArray	Feature Envy
+src.test.org.apache.commons.collections.iterators.TestArrayIterator2	testIndexedArray	Feature Envy
+src.test.org.apache.commons.collections.iterators.TestArrayIterator2	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.iterators.TestArrayIterator2	null	Tradition Breaker
+src.test.org.apache.commons.collections.iterators.TestListIteratorWrapper	testIterator	Feature Envy
+src.test.org.apache.commons.collections.set.TestUnmodifiableSortedSet	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.map.PredicatedMap	putAll	Feature Envy
+src.java.org.apache.commons.collections.map.PredicatedMap	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.map.UnmodifiableMap	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.Factory	create	Shotgun Surgery
+src.java.org.apache.commons.collections.iterators.IteratorChain	updateCurrentIterator	Feature Envy
+src.java.org.apache.commons.collections.SortedBag	first	Shotgun Surgery
+src.java.org.apache.commons.collections.SortedBag	last	Shotgun Surgery
+src.java.org.apache.commons.collections.list.AbstractLinkedList	indexOf	Feature Envy
+src.java.org.apache.commons.collections.list.AbstractLinkedList	lastIndexOf	Feature Envy
+src.java.org.apache.commons.collections.list.AbstractLinkedList	remove	Feature Envy
+src.java.org.apache.commons.collections.list.AbstractLinkedList	addNode	Feature Envy
+src.java.org.apache.commons.collections.list.AbstractLinkedList	removeNode	Feature Envy
+src.java.org.apache.commons.collections.list.AbstractLinkedList	getNode	Feature Envy
+src.java.org.apache.commons.collections.list.AbstractLinkedList	null	God Class
+src.java.org.apache.commons.collections.list.AbstractLinkedList	null	Data Class
+src.java.org.apache.commons.collections.bidimap.TreeBidiMap$ViewIterator	doGetData	Feature Envy
+src.test.org.apache.commons.collections.map.TestReferenceIdentityMap	testBasics	Feature Envy
+src.test.org.apache.commons.collections.map.TestReferenceIdentityMap	testHashEntry	Feature Envy
+src.test.org.apache.commons.collections.map.TestReferenceIdentityMap	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$EntrySet	remove	Feature Envy
+src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$EntrySet	remove	Feature Envy
+src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$EntrySet	iterator	Feature Envy
+src.test.org.apache.commons.collections.iterators.AbstractTestListIterator	testSet	Feature Envy
+src.test.org.apache.commons.collections.iterators.AbstractTestListIterator	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.iterators.AbstractTestListIterator	null	Tradition Breaker
+src.java.org.apache.commons.collections.map.MultiValueMap	putAll	Feature Envy
+src.java.org.apache.commons.collections.map.MultiValueMap	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.map.MultiValueMap	null	Tradition Breaker
+src.test.org.apache.commons.collections.TestTransformerUtils	testPredicateTransformer	Feature Envy
+src.test.org.apache.commons.collections.TestTransformerUtils	testChainedTransformer	Feature Envy
+src.test.org.apache.commons.collections.TestTransformerUtils	testSwitchTransformer	Feature Envy
+src.test.org.apache.commons.collections.TestTransformerUtils	null	God Class
+src.test.org.apache.commons.collections.bidimap.AbstractTestSortedBidiMap	AbstractTestSortedBidiMap	Feature Envy
+src.test.org.apache.commons.collections.bidimap.AbstractTestSortedBidiMap	AbstractTestSortedBidiMap	Feature Envy
+src.test.org.apache.commons.collections.bidimap.AbstractTestSortedBidiMap	testBidiClearByHeadMap	Feature Envy
+src.test.org.apache.commons.collections.bidimap.AbstractTestSortedBidiMap	testBidiRemoveByHeadMapEntrySet	Feature Envy
+src.test.org.apache.commons.collections.bidimap.AbstractTestSortedBidiMap	testBidiTailMapContains	Feature Envy
+src.test.org.apache.commons.collections.bidimap.AbstractTestSortedBidiMap	testBidiClearByTailMap	Feature Envy
+src.test.org.apache.commons.collections.bidimap.AbstractTestSortedBidiMap	testBidiRemoveByTailMapEntrySet	Feature Envy
+src.test.org.apache.commons.collections.bidimap.AbstractTestSortedBidiMap	testBidiSubMapContains	Feature Envy
+src.test.org.apache.commons.collections.bidimap.AbstractTestSortedBidiMap	testBidiClearBySubMap	Feature Envy
+src.test.org.apache.commons.collections.bidimap.AbstractTestSortedBidiMap	testBidiRemoveBySubMapEntrySet	Feature Envy
+src.test.org.apache.commons.collections.bidimap.AbstractTestSortedBidiMap	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.keyvalue.TestMultiKey	testConstructors	Feature Envy
+src.test.org.apache.commons.collections.keyvalue.TestMultiKey	testConstructorsByArray	Feature Envy
+src.test.org.apache.commons.collections.keyvalue.TestMultiKey	testGetIndexed	Feature Envy
+src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$KeySet	remove	Feature Envy
+src.test.org.apache.commons.collections.bidimap.TestUnmodifiableSortedBidiMap	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.iterators.AbstractTestOrderedMapIterator	testFullMapIterator	Intensive Coupling
+src.test.org.apache.commons.collections.buffer.TestBlockingBuffer	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.list.TreeList$TreeListIterator	next	Feature Envy
+src.java.org.apache.commons.collections.list.TreeList$TreeListIterator	previous	Feature Envy
+src.test.org.apache.commons.collections.bidimap.AbstractTestBidiMap$TestBidiMapEntrySet	testMapEntrySetIteratorEntrySetValueCrossCheck	Intensive Coupling
+src.java.org.apache.commons.collections.DefaultMapBag	null	God Class
+src.test.org.apache.commons.collections.list.TestSetUniqueList	testCollectionAddAll	Feature Envy
+src.test.org.apache.commons.collections.list.TestSetUniqueList	testListSetByIndex	Feature Envy
+src.test.org.apache.commons.collections.list.TestSetUniqueList	verify	Feature Envy
+src.test.org.apache.commons.collections.list.TestSetUniqueList	testFactory	Feature Envy
+src.test.org.apache.commons.collections.list.TestSetUniqueList	testSet	Feature Envy
+src.test.org.apache.commons.collections.list.TestSetUniqueList	testUniqueListReInsert	Feature Envy
+src.test.org.apache.commons.collections.list.TestSetUniqueList	testUniqueListDoubleInsert	Feature Envy
+src.test.org.apache.commons.collections.list.TestSetUniqueList	testSetDownwardsInList	Feature Envy
+src.test.org.apache.commons.collections.list.TestSetUniqueList	testSetInBiggerList	Feature Envy
+src.test.org.apache.commons.collections.list.TestSetUniqueList	testSetUpwardsInList	Feature Envy
+src.test.org.apache.commons.collections.list.TestSetUniqueList	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.bidimap.TreeBidiMap$Node	equals	Feature Envy
+src.test.org.apache.commons.collections.bidimap.AbstractTestBidiMap	testBidiPut	Feature Envy
+src.test.org.apache.commons.collections.bidimap.AbstractTestBidiMap	testBidiMapIteratorSet	Intensive Coupling
+src.test.org.apache.commons.collections.bidimap.AbstractTestBidiMap	null	God Class
+src.test.org.apache.commons.collections.bidimap.AbstractTestBidiMap	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.iterators.TestIteratorChain	testIterator	Feature Envy
+src.test.org.apache.commons.collections.iterators.TestIteratorChain	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.ExtendedProperties	interpolateHelper	Intensive Coupling
+src.java.org.apache.commons.collections.ExtendedProperties	load	Intensive Coupling
+src.java.org.apache.commons.collections.ExtendedProperties	save	Dispersed Coupling
+src.java.org.apache.commons.collections.ExtendedProperties	null	God Class
+src.test.org.apache.commons.collections.map.TestLazyMap	testMapGet	Feature Envy
+src.java.org.apache.commons.collections.map.Flat3Map$FlatMapIterator	getKey	Feature Envy
+src.java.org.apache.commons.collections.map.Flat3Map$FlatMapIterator	getValue	Feature Envy
+src.java.org.apache.commons.collections.map.Flat3Map$FlatMapIterator	setValue	Feature Envy
+src.test.org.apache.commons.collections.comparators.AbstractTestComparator	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.map.LinkedMap	indexOf	Feature Envy
+src.java.org.apache.commons.collections.map.LinkedMap	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.bidimap.AbstractDualBidiMap$Values	remove	Feature Envy
+src.java.org.apache.commons.collections.SequencedHashMap	removeEntry	Feature Envy
+src.java.org.apache.commons.collections.SequencedHashMap	insertEntry	Feature Envy
+src.java.org.apache.commons.collections.SequencedHashMap	containsValue	Feature Envy
+src.java.org.apache.commons.collections.SequencedHashMap	putAll	Feature Envy
+src.java.org.apache.commons.collections.SequencedHashMap	toString	Feature Envy
+src.java.org.apache.commons.collections.SequencedHashMap	values	Feature Envy
+src.java.org.apache.commons.collections.SequencedHashMap	getEntry	Feature Envy
+src.java.org.apache.commons.collections.SequencedHashMap	indexOf	Feature Envy
+src.java.org.apache.commons.collections.SequencedHashMap	writeExternal	Feature Envy
+src.java.org.apache.commons.collections.SequencedHashMap	null	God Class
+src.java.org.apache.commons.collections.SequencedHashMap	null	Data Class
+src.test.org.apache.commons.collections.buffer.TestPriorityBuffer	verify	Feature Envy
+src.test.org.apache.commons.collections.buffer.TestPriorityBuffer	testBasicOps	Dispersed Coupling
+src.test.org.apache.commons.collections.buffer.TestPriorityBuffer	testBasicComparatorOps	Feature Envy
+src.test.org.apache.commons.collections.buffer.TestPriorityBuffer	testBasicComparatorOps	Dispersed Coupling
+src.test.org.apache.commons.collections.buffer.TestPriorityBuffer	showTree	Feature Envy
+src.test.org.apache.commons.collections.buffer.TestPriorityBuffer	testSerialization	Dispersed Coupling
+src.test.org.apache.commons.collections.buffer.TestPriorityBuffer	null	God Class
+src.test.org.apache.commons.collections.buffer.TestPriorityBuffer	null	Data Class
+src.test.org.apache.commons.collections.list.TestTreeList	benchmark	Feature Envy
+src.test.org.apache.commons.collections.list.TestTreeList	benchmark	Intensive Coupling
+src.test.org.apache.commons.collections.list.TestTreeList	testAddMultiple	Feature Envy
+src.test.org.apache.commons.collections.list.TestTreeList	testRemove	Feature Envy
+src.test.org.apache.commons.collections.list.TestTreeList	testIndexOf	Feature Envy
+src.test.org.apache.commons.collections.list.TestTreeList	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.map.TestDefaultedMap	testMapGet	Feature Envy
+src.test.org.apache.commons.collections.map.TestDefaultedMap	testMapGet2	Feature Envy
+src.test.org.apache.commons.collections.map.TestDefaultedMap	testMapGet3	Feature Envy
+src.test.org.apache.commons.collections.map.TestDefaultedMap	testMapGet4	Feature Envy
+src.java.org.apache.commons.collections.map.DefaultedMap	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.list.LazyList	get	Feature Envy
+src.java.org.apache.commons.collections.map.ListOrderedMap	put	Feature Envy
+src.java.org.apache.commons.collections.map.ListOrderedMap	putAll	Feature Envy
+src.java.org.apache.commons.collections.map.ListOrderedMap	toString	Feature Envy
+src.java.org.apache.commons.collections.map.ListOrderedMap	toString	Dispersed Coupling
+src.java.org.apache.commons.collections.map.ListOrderedMap	null	Data Class
+src.java.org.apache.commons.collections.map.ListOrderedMap	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.comparators.TestBooleanComparator	getComparableObjectsOrdered	Feature Envy
+src.test.org.apache.commons.collections.comparators.TestBooleanComparator	testStaticFactoryMethods	Feature Envy
+src.test.org.apache.commons.collections.comparators.TestBooleanComparator	testEqualsCompatibleInstance	Feature Envy
+src.test.org.apache.commons.collections.comparators.TestBooleanComparator	trueFirstTests	Feature Envy
+src.test.org.apache.commons.collections.comparators.TestBooleanComparator	falseFirstTests	Feature Envy
+src.test.org.apache.commons.collections.comparators.TestBooleanComparator	nullArgumentTests	Feature Envy
+src.test.org.apache.commons.collections.comparators.TestBooleanComparator	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.MapIterator	hasNext	Shotgun Surgery
+src.java.org.apache.commons.collections.MapIterator	next	Shotgun Surgery
+src.java.org.apache.commons.collections.MapIterator	getKey	Shotgun Surgery
+src.java.org.apache.commons.collections.MapIterator	getValue	Shotgun Surgery
+src.java.org.apache.commons.collections.MapIterator	remove	Shotgun Surgery
+src.java.org.apache.commons.collections.MapIterator	setValue	Shotgun Surgery
+src.java.org.apache.commons.collections.bidimap.TreeBidiMap$Node	equals	Feature Envy
+src.test.org.apache.commons.collections.list.TestGrowthList	testGrowthAddAll	Feature Envy
+src.test.org.apache.commons.collections.list.TestGrowthList	testGrowthSet1	Feature Envy
+src.test.org.apache.commons.collections.TestMultiHashMap	loadMap	Feature Envy
+src.test.org.apache.commons.collections.TestMultiHashMap	testPutAll_Map2	Feature Envy
+src.test.org.apache.commons.collections.TestMultiHashMap	null	God Class
+src.test.org.apache.commons.collections.TestMultiHashMap	null	Refused Parent Bequest
+src.java.org.apache.commons.collections.keyvalue.UnmodifiableMapEntry	UnmodifiableMapEntry	Feature Envy
+src.test.org.apache.commons.collections.map.TestPredicatedMap	testPut	Feature Envy
+src.java.org.apache.commons.collections.bidimap.TreeBidiMap$Inverse	firstKey	Feature Envy
+src.java.org.apache.commons.collections.bidimap.TreeBidiMap$Inverse	lastKey	Feature Envy
+src.java.org.apache.commons.collections.bidimap.TreeBidiMap$Inverse	putAll	Feature Envy
+src.test.org.apache.commons.collections.collection.AbstractTestCollection	isAddSupported	Shotgun Surgery
+src.test.org.apache.commons.collections.collection.AbstractTestCollection	isRemoveSupported	Shotgun Surgery
+src.test.org.apache.commons.collections.collection.AbstractTestCollection	verify	Intensive Coupling
+src.test.org.apache.commons.collections.collection.AbstractTestCollection	resetEmpty	Shotgun Surgery
+src.test.org.apache.commons.collections.collection.AbstractTestCollection	resetFull	Shotgun Surgery
+src.test.org.apache.commons.collections.collection.AbstractTestCollection	cloneMapEntry	Feature Envy
+src.test.org.apache.commons.collections.collection.AbstractTestCollection	getFullElements	Shotgun Surgery
+src.test.org.apache.commons.collections.collection.AbstractTestCollection	getOtherElements	Shotgun Surgery
+src.test.org.apache.commons.collections.collection.AbstractTestCollection	testCollectionIteratorRemove	Intensive Coupling
+src.test.org.apache.commons.collections.collection.AbstractTestCollection	testCollectionRemoveAll	Dispersed Coupling
+src.test.org.apache.commons.collections.collection.AbstractTestCollection	testCollectionRetainAll	Dispersed Coupling
+src.test.org.apache.commons.collections.collection.AbstractTestCollection	testCollectionToArray	Feature Envy
+src.test.org.apache.commons.collections.collection.AbstractTestCollection	testCollectionToArray	Dispersed Coupling
+src.test.org.apache.commons.collections.collection.AbstractTestCollection	testCollectionToArray2	Dispersed Coupling
+src.test.org.apache.commons.collections.collection.AbstractTestCollection	testCollectionIteratorFailFast	Intensive Coupling
+src.test.org.apache.commons.collections.collection.AbstractTestCollection	null	God Class
+src.test.org.apache.commons.collections.collection.AbstractTestCollection	null	Data Class
+src.test.org.apache.commons.collections.collection.AbstractTestCollection	null	Refused Parent Bequest
+src.test.org.apache.commons.collections.collection.AbstractTestCollection	null	Tradition Breaker
+src.java.org.apache.commons.collections.map.Flat3Map	size	Shotgun Surgery
+src.java.org.apache.commons.collections.map.Flat3Map	put	Brain Method
+src.java.org.apache.commons.collections.map.Flat3Map	putAll	Feature Envy
+src.java.org.apache.commons.collections.map.Flat3Map	putAll	Dispersed Coupling
+src.java.org.apache.commons.collections.map.Flat3Map	remove	Brain Method
+src.java.org.apache.commons.collections.map.Flat3Map	equals	Feature Envy
+src.java.org.apache.commons.collections.bidimap.DualTreeBidiMap	null	Refused Parent Bequest

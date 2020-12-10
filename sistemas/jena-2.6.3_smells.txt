@@ -1,948 +1,948 @@
-com.hp.hpl.jena.reasoner.FGraph	Shotgun Surgery
-com.hp.hpl.jena.reasoner.FGraph	Feature Envy
-com.hp.hpl.jena.shared.uuid.UUID_V4	Refused Parent Bequest
-com.hp.hpl.jena.n3.turtle.TurtleEventDump	Feature Envy
-com.hp.hpl.jena.n3.turtle.TurtleEventDump	Feature Envy
-com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB	Dispersed Coupling
-com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB	Intensive Coupling
-com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB	Dispersed Coupling
-com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB	Intensive Coupling
-com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB	Feature Envy
-com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB	Intensive Coupling
-com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB	Feature Envy
-com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB	God Class
-com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB	Data Class
-com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB	Refused Parent Bequest
-com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB	Tradition Breaker
-com.hp.hpl.jena.datatypes.xsd.impl.XSDFloat	Feature Envy
-com.hp.hpl.jena.datatypes.xsd.impl.XSDFloat	Feature Envy
-com.hp.hpl.jena.graph.query.Expression$Util	Intensive Coupling
-com.hp.hpl.jena.db.impl.DBQueryStageCompiler	Dispersed Coupling
-com.hp.hpl.jena.db.impl.DBQueryStageCompiler	Feature Envy
-com.hp.hpl.jena.db.impl.DBQueryStageCompiler	Dispersed Coupling
-com.hp.hpl.jena.db.impl.DBQueryStageCompiler	Dispersed Coupling
-com.hp.hpl.jena.db.impl.DBQueryStageCompiler	Feature Envy
-com.hp.hpl.jena.graph.impl.SimpleReifierFragmentsMap	Feature Envy
-com.hp.hpl.jena.graph.impl.SimpleReifierFragmentsMap	Dispersed Coupling
-com.hp.hpl.jena.graph.impl.SimpleReifierFragmentsMap	Feature Envy
-com.hp.hpl.jena.graph.impl.SimpleReifierFragmentsMap	Feature Envy
-com.hp.hpl.jena.graph.impl.SimpleBulkUpdateHandler	Feature Envy
-com.hp.hpl.jena.graph.impl.SimpleBulkUpdateHandler	Feature Envy
-com.hp.hpl.jena.graph.query.SimpleQueryEngine	Dispersed Coupling
-com.hp.hpl.jena.db.impl.DriverRDB	Feature Envy
-com.hp.hpl.jena.db.impl.DriverRDB	Intensive Coupling
-com.hp.hpl.jena.db.impl.DriverRDB	Dispersed Coupling
-com.hp.hpl.jena.db.impl.DriverRDB	Brain Method
-com.hp.hpl.jena.db.impl.DriverRDB	Dispersed Coupling
-com.hp.hpl.jena.db.impl.DriverRDB	Dispersed Coupling
-com.hp.hpl.jena.db.impl.DriverRDB	Feature Envy
-com.hp.hpl.jena.db.impl.DriverRDB	Feature Envy
-com.hp.hpl.jena.db.impl.DriverRDB	Dispersed Coupling
-com.hp.hpl.jena.db.impl.DriverRDB	Dispersed Coupling
-com.hp.hpl.jena.db.impl.DriverRDB	Feature Envy
-com.hp.hpl.jena.db.impl.DriverRDB	Feature Envy
-com.hp.hpl.jena.db.impl.DriverRDB	Brain Method
-com.hp.hpl.jena.db.impl.DriverRDB	Intensive Coupling
-com.hp.hpl.jena.db.impl.DriverRDB	Feature Envy
-com.hp.hpl.jena.db.impl.DriverRDB	Intensive Coupling
-com.hp.hpl.jena.db.impl.DriverRDB	Feature Envy
-com.hp.hpl.jena.db.impl.DriverRDB	Feature Envy
-com.hp.hpl.jena.db.impl.DriverRDB	Feature Envy
-com.hp.hpl.jena.db.impl.DriverRDB	Feature Envy
-com.hp.hpl.jena.db.impl.DriverRDB	Feature Envy
-com.hp.hpl.jena.db.impl.DriverRDB	Dispersed Coupling
-com.hp.hpl.jena.db.impl.DriverRDB	Feature Envy
-com.hp.hpl.jena.db.impl.DriverRDB	Dispersed Coupling
-com.hp.hpl.jena.db.impl.DriverRDB	Feature Envy
-com.hp.hpl.jena.db.impl.DriverRDB	Shotgun Surgery
-com.hp.hpl.jena.db.impl.DriverRDB	God Class
-com.hp.hpl.jena.db.impl.DriverRDB	Brain Class
-com.hp.hpl.jena.rdf.model.RDFList	Data Class
-com.hp.hpl.jena.assembler.assemblers.ConnectionAssembler	Refused Parent Bequest
-com.hp.hpl.jena.graph.query.PatternStageBase	Refused Parent Bequest
-com.hp.hpl.jena.util.ResourceUtils	Feature Envy
-com.hp.hpl.jena.util.ResourceUtils	Dispersed Coupling
-com.hp.hpl.jena.util.ResourceUtils	Dispersed Coupling
-com.hp.hpl.jena.datatypes.xsd.impl.XSDDurationType	Brain Method
-com.hp.hpl.jena.graph.impl.FragmentTripleIterator	Feature Envy
-com.hp.hpl.jena.reasoner.transitiveReasoner.GraphNode	Intensive Coupling
-com.hp.hpl.jena.reasoner.transitiveReasoner.GraphNode	Intensive Coupling
-com.hp.hpl.jena.graph.compose.Polyadic	Refused Parent Bequest
-com.hp.hpl.jena.reasoner.rulesys.builtins.NoValue	Feature Envy
-com.hp.hpl.jena.graph.Triple	Shotgun Surgery
-com.hp.hpl.jena.graph.Triple	Shotgun Surgery
-com.hp.hpl.jena.graph.Triple	Shotgun Surgery
-com.hp.hpl.jena.graph.Triple	Data Class
-com.hp.hpl.jena.rdf.model.ModelFactory	Feature Envy
-com.hp.hpl.jena.rdf.model.ModelFactory	Data Class
-com.hp.hpl.jena.rdf.model.ModelFactory	Refused Parent Bequest
-com.hp.hpl.jena.datatypes.TypeMapper	Shotgun Surgery
-com.hp.hpl.jena.n3.turtle.Turtle2NTriples	Feature Envy
-com.hp.hpl.jena.n3.turtle.Turtle2NTriples	Feature Envy
-com.hp.hpl.jena.n3.turtle.Turtle2NTriples	Intensive Coupling
-com.hp.hpl.jena.rdf.model.RDFNode	Shotgun Surgery
-com.hp.hpl.jena.rdf.model.RDFNode	Shotgun Surgery
-com.hp.hpl.jena.rdf.model.RDFNode	Shotgun Surgery
-com.hp.hpl.jena.rdf.model.RDFNode	Shotgun Surgery
-com.hp.hpl.jena.reasoner.rulesys.builtins.ListMapAsObject	Feature Envy
-com.hp.hpl.jena.db.impl.GraphRDBMaker	Refused Parent Bequest
-com.hp.hpl.jena.datatypes.BaseDatatype	Feature Envy
-com.hp.hpl.jena.rdf.model.Property	Shotgun Surgery
-com.hp.hpl.jena.reasoner.rulesys.impl.OWLExptRuleTranslationHook	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.impl.OWLExptRuleTranslationHook	Feature Envy
-jena.schemagen	Feature Envy
-jena.schemagen	Dispersed Coupling
-jena.schemagen	Feature Envy
-jena.schemagen	Intensive Coupling
-jena.schemagen	Feature Envy
-jena.schemagen	Feature Envy
-jena.schemagen	Intensive Coupling
-jena.schemagen	Dispersed Coupling
-jena.schemagen	Intensive Coupling
-jena.schemagen	Feature Envy
-jena.schemagen	Dispersed Coupling
-jena.schemagen	Dispersed Coupling
-jena.schemagen	Dispersed Coupling
-jena.schemagen	Dispersed Coupling
-jena.schemagen	Dispersed Coupling
-jena.schemagen	Dispersed Coupling
-jena.schemagen	Dispersed Coupling
-jena.schemagen	Brain Method
-jena.schemagen	Dispersed Coupling
-jena.schemagen	Dispersed Coupling
-jena.schemagen	Feature Envy
-jena.schemagen	Dispersed Coupling
-jena.schemagen	God Class
-jena.schemagen	Brain Class
-jena.schemagen	Data Class
-com.hp.hpl.jena.rdf.arp.impl.URIReference	Refused Parent Bequest
-com.hp.hpl.jena.mem.NodeToTriplesMap	Refused Parent Bequest
-com.hp.hpl.jena.rdf.arp.impl.Location	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.builtins.StrConcat	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.builtins.StrConcat	Intensive Coupling
-com.hp.hpl.jena.rdf.arp.impl.XMLHandler	Feature Envy
-com.hp.hpl.jena.rdf.arp.impl.XMLHandler	Shotgun Surgery
-com.hp.hpl.jena.rdf.arp.impl.XMLHandler	Feature Envy
-com.hp.hpl.jena.rdf.arp.impl.XMLHandler	Feature Envy
-com.hp.hpl.jena.rdf.arp.impl.XMLHandler	Feature Envy
-com.hp.hpl.jena.rdf.arp.impl.XMLHandler	Dispersed Coupling
-com.hp.hpl.jena.rdf.arp.impl.XMLHandler	God Class
-com.hp.hpl.jena.rdf.arp.impl.XMLHandler	Data Class
-com.hp.hpl.jena.rdf.arp.impl.XMLHandler	Refused Parent Bequest
-com.hp.hpl.jena.rdf.arp.impl.XMLHandler	Tradition Breaker
-com.hp.hpl.jena.reasoner.rulesys.builtins.IsDType	Dispersed Coupling
-com.hp.hpl.jena.rdf.model.Model	Shotgun Surgery
-com.hp.hpl.jena.rdf.model.Model	Shotgun Surgery
-com.hp.hpl.jena.rdf.model.Model	Shotgun Surgery
-com.hp.hpl.jena.rdf.model.Model	Shotgun Surgery
-com.hp.hpl.jena.rdf.model.Model	Shotgun Surgery
-com.hp.hpl.jena.rdf.model.Model	Shotgun Surgery
-com.hp.hpl.jena.rdf.model.Model	Shotgun Surgery
-com.hp.hpl.jena.rdf.model.Model	Shotgun Surgery
-com.hp.hpl.jena.reasoner.rulesys.impl.BFRuleContext	Feature Envy
-com.hp.hpl.jena.rdf.model.Resource	Shotgun Surgery
-com.hp.hpl.jena.rdf.model.Resource	Shotgun Surgery
-com.hp.hpl.jena.rdf.model.Resource	Shotgun Surgery
-com.hp.hpl.jena.rdf.model.Resource	Shotgun Surgery
-com.hp.hpl.jena.rdf.model.Resource	Shotgun Surgery
-com.hp.hpl.jena.rdf.model.Resource	Shotgun Surgery
-com.hp.hpl.jena.rdf.model.Resource	Shotgun Surgery
-com.hp.hpl.jena.rdf.model.Resource	Shotgun Surgery
-com.hp.hpl.jena.rdf.model.Resource	Shotgun Surgery
-com.hp.hpl.jena.rdf.model.Resource	Shotgun Surgery
-com.hp.hpl.jena.rdf.model.Resource	Data Class
-com.hp.hpl.jena.rdf.model.impl.AltImpl	Refused Parent Bequest
-com.hp.hpl.jena.reasoner.rulesys.BindingEnvironment	Shotgun Surgery
-jena.schemagen$OptionDefinition	Dispersed Coupling
-com.hp.hpl.jena.rdf.model.impl.ContainerImpl	Dispersed Coupling
-com.hp.hpl.jena.rdf.model.impl.ContainerImpl	Feature Envy
-com.hp.hpl.jena.rdf.model.impl.ContainerImpl	God Class
-com.hp.hpl.jena.rdf.model.impl.ContainerImpl	Refused Parent Bequest
-com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveInfGraph	Feature Envy
-com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveInfGraph	Refused Parent Bequest
-com.hp.hpl.jena.db.impl.Driver_MySQL	Refused Parent Bequest
-com.hp.hpl.jena.util.iterator.NiceIterator	Feature Envy
-com.hp.hpl.jena.graph.Node	Shotgun Surgery
-com.hp.hpl.jena.graph.Node	Shotgun Surgery
-com.hp.hpl.jena.graph.Node	Shotgun Surgery
-com.hp.hpl.jena.graph.Node	Shotgun Surgery
-com.hp.hpl.jena.graph.Node	Shotgun Surgery
-com.hp.hpl.jena.graph.Node	Shotgun Surgery
-com.hp.hpl.jena.graph.Node	Shotgun Surgery
-com.hp.hpl.jena.graph.Node	Shotgun Surgery
-com.hp.hpl.jena.graph.Node	Shotgun Surgery
-com.hp.hpl.jena.graph.Node	Shotgun Surgery
-com.hp.hpl.jena.graph.Node	Shotgun Surgery
-com.hp.hpl.jena.graph.Node	Shotgun Surgery
-com.hp.hpl.jena.graph.Node	Shotgun Surgery
-com.hp.hpl.jena.graph.Node	God Class
-com.hp.hpl.jena.mem.GraphTripleStoreBase	Feature Envy
-com.hp.hpl.jena.graph.compose.MultiUnion	Refused Parent Bequest
-com.hp.hpl.jena.datatypes.xsd.XSDDuration	Refused Parent Bequest
-com.hp.hpl.jena.datatypes.xsd.XSDDuration	Tradition Breaker
-com.hp.hpl.jena.db.impl.ResultSetTripleIterator	Feature Envy
-com.hp.hpl.jena.db.impl.ResultSetTripleIterator	Refused Parent Bequest
-com.hp.hpl.jena.datatypes.xsd.impl.XMLLiteralType	Feature Envy
-com.hp.hpl.jena.graph.query.PatternStageCompiler	Feature Envy
-com.hp.hpl.jena.graph.query.PatternStageCompiler	Intensive Coupling
-com.hp.hpl.jena.graph.compose.PolyadicPrefixMappingImpl	Refused Parent Bequest
-com.hp.hpl.jena.graph.impl.SimpleGraphMaker	Refused Parent Bequest
-com.hp.hpl.jena.datatypes.xsd.impl.XSDBaseNumericType	Feature Envy
-com.hp.hpl.jena.datatypes.xsd.impl.XSDBaseNumericType	Feature Envy
-com.hp.hpl.jena.datatypes.xsd.impl.XSDBaseNumericType	Refused Parent Bequest
-com.hp.hpl.jena.xmloutput.impl.Basic	Feature Envy
-com.hp.hpl.jena.xmloutput.impl.Basic	Feature Envy
-com.hp.hpl.jena.xmloutput.impl.Basic	Refused Parent Bequest
-com.hp.hpl.jena.reasoner.rulesys.builtins.BaseBuiltin	Shotgun Surgery
-com.hp.hpl.jena.reasoner.rulesys.builtins.BaseBuiltin	Shotgun Surgery
-com.hp.hpl.jena.ontology.impl.MaxCardinalityRestrictionImpl	Feature Envy
-com.hp.hpl.jena.rdf.arp.JenaReader	Feature Envy
-com.hp.hpl.jena.rdf.arp.JenaReader	Feature Envy
-com.hp.hpl.jena.rdf.arp.JenaReader	Feature Envy
-com.hp.hpl.jena.rdf.arp.JenaReader	Brain Method
-com.hp.hpl.jena.rdf.arp.JenaReader	Feature Envy
-com.hp.hpl.jena.rdf.arp.JenaReader	Dispersed Coupling
-com.hp.hpl.jena.rdf.arp.JenaReader	Brain Method
-com.hp.hpl.jena.rdf.arp.JenaReader	Feature Envy
-com.hp.hpl.jena.rdf.arp.JenaReader	Intensive Coupling
-com.hp.hpl.jena.rdf.arp.JenaReader	God Class
-com.hp.hpl.jena.rdf.arp.JenaReader	Brain Class
-com.hp.hpl.jena.graph.impl.GraphMatcher$AnonStatement	Feature Envy
-com.hp.hpl.jena.graph.impl.GraphMatcher$AnonStatement	Dispersed Coupling
-com.hp.hpl.jena.db.impl.DBIDInt	Shotgun Surgery
-com.hp.hpl.jena.shared.uuid.UUID_V4_Gen	Feature Envy
-com.hp.hpl.jena.shared.uuid.UUID_V4_Gen	Feature Envy
-jena.dbcreate	Feature Envy
-com.hp.hpl.jena.rdf.model.SimpleSelector	Feature Envy
-com.hp.hpl.jena.rdf.arp.impl.ARPResource	Refused Parent Bequest
-com.hp.hpl.jena.ontology.impl.OntPropertyImpl	Feature Envy
-com.hp.hpl.jena.ontology.impl.OntPropertyImpl	Dispersed Coupling
-com.hp.hpl.jena.ontology.impl.OntPropertyImpl	God Class
-com.hp.hpl.jena.ontology.impl.OntPropertyImpl	Data Class
-com.hp.hpl.jena.ontology.impl.OntPropertyImpl	Refused Parent Bequest
-com.hp.hpl.jena.db.impl.SpecializedGraph	Shotgun Surgery
-com.hp.hpl.jena.assembler.assemblers.RDBModelAssembler	Refused Parent Bequest
-com.hp.hpl.jena.reasoner.ReasonerRegistry	Feature Envy
-com.hp.hpl.jena.rdf.model.impl.NTripleReader	Brain Method
-com.hp.hpl.jena.rdf.model.impl.NTripleReader	Dispersed Coupling
-com.hp.hpl.jena.graph.FrontsTriple	Shotgun Surgery
-com.hp.hpl.jena.ontology.impl.RestrictionImpl	Feature Envy
-com.hp.hpl.jena.ontology.impl.RestrictionImpl	Feature Envy
-com.hp.hpl.jena.ontology.impl.RestrictionImpl	Feature Envy
-com.hp.hpl.jena.ontology.impl.RestrictionImpl	Refused Parent Bequest
-com.hp.hpl.jena.graph.query.SimpleQueryPlan	Feature Envy
-com.hp.hpl.jena.assembler.assemblers.ModelAssembler	Feature Envy
-com.hp.hpl.jena.assembler.assemblers.ModelAssembler	Refused Parent Bequest
-com.hp.hpl.jena.db.impl.Driver_Derby	Refused Parent Bequest
-com.hp.hpl.jena.db.GraphRDB	Feature Envy
-com.hp.hpl.jena.db.GraphRDB	Dispersed Coupling
-com.hp.hpl.jena.db.GraphRDB	Feature Envy
-com.hp.hpl.jena.db.GraphRDB	Feature Envy
-com.hp.hpl.jena.db.GraphRDB	Dispersed Coupling
-com.hp.hpl.jena.db.GraphRDB	God Class
-com.hp.hpl.jena.db.GraphRDB	Refused Parent Bequest
-com.hp.hpl.jena.reasoner.rulesys.RDFSRuleReasoner	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.RDFSRuleReasoner	Refused Parent Bequest
-com.hp.hpl.jena.ontology.OntTools$LCAIndex	Feature Envy
-com.hp.hpl.jena.rdf.arp.JenaHandler	Feature Envy
-com.hp.hpl.jena.rdf.arp.JenaHandler	Refused Parent Bequest
-com.hp.hpl.jena.rdf.arp.NTriple	Dispersed Coupling
-com.hp.hpl.jena.rdf.arp.NTriple	Feature Envy
-com.hp.hpl.jena.rdf.arp.NTriple	Feature Envy
-com.hp.hpl.jena.rdf.arp.NTriple	Brain Method
-com.hp.hpl.jena.rdf.arp.NTriple	Dispersed Coupling
-com.hp.hpl.jena.rdf.arp.NTriple	Feature Envy
-com.hp.hpl.jena.rdf.arp.NTriple	Dispersed Coupling
-com.hp.hpl.jena.rdf.arp.NTriple	God Class
-com.hp.hpl.jena.rdf.arp.NTriple	Brain Class
-com.hp.hpl.jena.util.LocatorURL	Intensive Coupling
-com.hp.hpl.jena.rdf.arp.states.WantLiteralValueOrDescription	Feature Envy
-com.hp.hpl.jena.assembler.exceptions.AssemblerException	Feature Envy
-com.hp.hpl.jena.assembler.exceptions.AssemblerException	Refused Parent Bequest
-com.hp.hpl.jena.rdf.model.impl.SeqImpl	Feature Envy
-com.hp.hpl.jena.rdf.model.impl.SeqImpl	Feature Envy
-com.hp.hpl.jena.rdf.model.impl.SeqImpl	God Class
-com.hp.hpl.jena.rdf.model.impl.SeqImpl	Refused Parent Bequest
-com.hp.hpl.jena.rdf.model.impl.ResourceImpl	Shotgun Surgery
-com.hp.hpl.jena.rdf.model.impl.ResourceImpl	Shotgun Surgery
-com.hp.hpl.jena.rdf.model.impl.ResourceImpl	Shotgun Surgery
-com.hp.hpl.jena.rdf.model.impl.ResourceImpl	God Class
-com.hp.hpl.jena.rdf.model.impl.ResourceImpl	Data Class
-com.hp.hpl.jena.rdf.model.impl.ResourceImpl	Refused Parent Bequest
-com.hp.hpl.jena.mem.MixedGraphMemStore	Feature Envy
-com.hp.hpl.jena.mem.MixedGraphMemStore	Feature Envy
-com.hp.hpl.jena.mem.MixedGraphMemStore	Dispersed Coupling
-com.hp.hpl.jena.mem.MixedGraphMemStore	Intensive Coupling
-com.hp.hpl.jena.db.impl.SQLCache	Dispersed Coupling
-com.hp.hpl.jena.db.impl.SQLCache	Feature Envy
-com.hp.hpl.jena.db.impl.SQLCache	Shotgun Surgery
-com.hp.hpl.jena.db.impl.SQLCache	Shotgun Surgery
-com.hp.hpl.jena.db.impl.SQLCache	Dispersed Coupling
-com.hp.hpl.jena.db.impl.SQLCache	God Class
-com.hp.hpl.jena.graph.impl.LiteralLabel	Shotgun Surgery
-com.hp.hpl.jena.graph.impl.LiteralLabel	Shotgun Surgery
-com.hp.hpl.jena.reasoner.rulesys.impl.RETEConflictSet	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.impl.RETEConflictSet	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.impl.RETEConflictSet	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.impl.RETEConflictSet	Brain Method
-com.hp.hpl.jena.reasoner.rulesys.impl.RETEConflictSet	Intensive Coupling
-com.hp.hpl.jena.reasoner.rulesys.RDFSFBRuleReasonerFactory	Feature Envy
-com.hp.hpl.jena.util.OneToManyMap$Entry	Feature Envy
-com.hp.hpl.jena.graph.GraphAdd	Shotgun Surgery
-com.hp.hpl.jena.reasoner.rulesys.FBRuleReasoner	God Class
-com.hp.hpl.jena.reasoner.rulesys.impl.RETETerminal	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.impl.RETETerminal	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.Rule$Parser	Brain Method
-com.hp.hpl.jena.reasoner.rulesys.Rule$Parser	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.Rule$Parser	Intensive Coupling
-com.hp.hpl.jena.reasoner.rulesys.Rule$Parser	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.Rule$Parser	God Class
-com.hp.hpl.jena.graph.query.Expression$Util	God Class
-com.hp.hpl.jena.rdf.model.Literal	Shotgun Surgery
-com.hp.hpl.jena.rdf.model.Literal	Shotgun Surgery
-com.hp.hpl.jena.reasoner.rulesys.builtins.Product	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.impl.RETEQueue	Dispersed Coupling
-com.hp.hpl.jena.rdf.model.impl.RDFListImpl	Feature Envy
-com.hp.hpl.jena.rdf.model.impl.RDFListImpl	Feature Envy
-com.hp.hpl.jena.rdf.model.impl.RDFListImpl	God Class
-com.hp.hpl.jena.rdf.model.impl.RDFListImpl	Data Class
-com.hp.hpl.jena.rdf.model.impl.RDFListImpl	Refused Parent Bequest
-com.hp.hpl.jena.rdf.model.impl.RDFListImpl	Tradition Breaker
-com.hp.hpl.jena.graph.impl.ReificationWrapper	Feature Envy
-com.hp.hpl.jena.graph.impl.ReificationWrapper	Feature Envy
-com.hp.hpl.jena.graph.impl.ReificationWrapper	Feature Envy
-com.hp.hpl.jena.graph.impl.ReificationWrapper	Feature Envy
-com.hp.hpl.jena.graph.impl.ReificationWrapper	Feature Envy
-com.hp.hpl.jena.graph.impl.ReificationWrapper	Data Class
-com.hp.hpl.jena.db.impl.DBPattern	Feature Envy
-com.hp.hpl.jena.db.impl.DBPattern	God Class
-com.hp.hpl.jena.datatypes.xsd.AbstractDateTime	Data Class
-com.hp.hpl.jena.mem.SmallGraphMem	Refused Parent Bequest
-jena.schemagen$SchemagenOptionsImpl	Dispersed Coupling
-jena.schemagen$SchemagenOptionsImpl	God Class
-com.hp.hpl.jena.ontology.OntModel	Shotgun Surgery
-com.hp.hpl.jena.ontology.OntModel	Data Class
-com.hp.hpl.jena.db.impl.DBPropGraph	Feature Envy
-com.hp.hpl.jena.db.impl.DBPropGraph	Feature Envy
-com.hp.hpl.jena.db.impl.DBPropGraph	Feature Envy
-com.hp.hpl.jena.db.impl.DBPropGraph	God Class
-com.hp.hpl.jena.db.impl.DBPropGraph	Data Class
-com.hp.hpl.jena.db.impl.DBPropGraph	Refused Parent Bequest
-com.hp.hpl.jena.rdf.arp.impl.XMLContext	Refused Parent Bequest
-com.hp.hpl.jena.reasoner.rulesys.GenericRuleReasonerFactory	Feature Envy
-com.hp.hpl.jena.shared.uuid.UUID_V1	Refused Parent Bequest
-com.hp.hpl.jena.util.MonitorGraph	Feature Envy
-com.hp.hpl.jena.util.MonitorGraph	Dispersed Coupling
-com.hp.hpl.jena.n3.turtle.parser.JavaCharStream	Data Class
-com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleInfGraph	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleInfGraph	Data Class
-com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleInfGraph	Refused Parent Bequest
-com.hp.hpl.jena.util.LocationMapper	Dispersed Coupling
-com.hp.hpl.jena.util.LocationMapper	Intensive Coupling
-com.hp.hpl.jena.util.LocationMapper	Feature Envy
-com.hp.hpl.jena.util.LocationMapper	Dispersed Coupling
-com.hp.hpl.jena.util.LocationMapper	God Class
-com.hp.hpl.jena.util.LocationMapper	Data Class
-com.hp.hpl.jena.shared.uuid.UUID_V1_Gen	Feature Envy
-com.hp.hpl.jena.shared.uuid.UUID_V1_Gen	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.impl.BBRuleContext	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.impl.ConsumerChoicePointFrame	Refused Parent Bequest
-com.hp.hpl.jena.reasoner.rulesys.impl.ConsumerChoicePointFrame	Tradition Breaker
-com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	Brain Method
-com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	Intensive Coupling
-com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	God Class
-com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	Brain Class
-com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	Data Class
-com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	Refused Parent Bequest
-com.hp.hpl.jena.reasoner.rulesys.builtins.ListMapAsSubject	Feature Envy
-com.hp.hpl.jena.graph.query.Rewrite	Feature Envy
-com.hp.hpl.jena.assembler.assemblers.ModelSourceAssembler	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.impl.TempNodeCache	Dispersed Coupling
-com.hp.hpl.jena.ontology.OntResource	Data Class
-com.hp.hpl.jena.reasoner.rulesys.RDFSRuleReasonerFactory	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.OWLMicroReasonerFactory	Feature Envy
-com.hp.hpl.jena.mem.HashedTripleBunch	Refused Parent Bequest
-com.hp.hpl.jena.mem.HashedTripleBunch	Tradition Breaker
-com.hp.hpl.jena.assembler.AssemblerHelp	Feature Envy
-com.hp.hpl.jena.assembler.AssemblerHelp	God Class
-com.hp.hpl.jena.reasoner.rulesys.RuleDerivation	Dispersed Coupling
-com.hp.hpl.jena.util.LocatorClassLoader	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.impl.OWLRuleTranslationHook	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.impl.OWLRuleTranslationHook	Feature Envy
-com.hp.hpl.jena.ontology.impl.OntClassImpl	Feature Envy
-com.hp.hpl.jena.ontology.impl.OntClassImpl	Feature Envy
-com.hp.hpl.jena.ontology.impl.OntClassImpl	Dispersed Coupling
-com.hp.hpl.jena.ontology.impl.OntClassImpl	Feature Envy
-com.hp.hpl.jena.ontology.impl.OntClassImpl	Feature Envy
-com.hp.hpl.jena.ontology.impl.OntClassImpl	Feature Envy
-com.hp.hpl.jena.ontology.impl.OntClassImpl	Dispersed Coupling
-com.hp.hpl.jena.ontology.impl.OntClassImpl	Dispersed Coupling
-com.hp.hpl.jena.ontology.impl.OntClassImpl	Dispersed Coupling
-com.hp.hpl.jena.ontology.impl.OntClassImpl	God Class
-com.hp.hpl.jena.ontology.impl.OntClassImpl	Data Class
-com.hp.hpl.jena.ontology.impl.OntClassImpl	Refused Parent Bequest
-com.hp.hpl.jena.rdf.arp.impl.AttributeLexer	Brain Method
-com.hp.hpl.jena.rdf.arp.impl.AttributeLexer	Dispersed Coupling
-com.hp.hpl.jena.rdf.arp.impl.AttributeLexer	God Class
-com.hp.hpl.jena.rdf.arp.impl.AttributeLexer	Data Class
-com.hp.hpl.jena.rdf.arp.impl.SAX2RDFImpl	Refused Parent Bequest
-com.hp.hpl.jena.graph.impl.FileGraph	Refused Parent Bequest
-com.hp.hpl.jena.graph.Node_Literal	Refused Parent Bequest
-com.hp.hpl.jena.shared.LockMRSW$LockState	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleInfGraph	God Class
-com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleInfGraph	Data Class
-com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleInfGraph	Refused Parent Bequest
-com.hp.hpl.jena.reasoner.Finder	Shotgun Surgery
-com.hp.hpl.jena.assembler.Assembler	Shotgun Surgery
-com.hp.hpl.jena.n3.turtle.ParserBase	Brain Method
-com.hp.hpl.jena.n3.turtle.ParserBase	God Class
-com.hp.hpl.jena.datatypes.xsd.XSDhexBinary	Feature Envy
-com.hp.hpl.jena.db.impl.SpecializedGraph$CompletionFlag	Shotgun Surgery
-com.hp.hpl.jena.xmloutput.impl.Unparser	Dispersed Coupling
-com.hp.hpl.jena.xmloutput.impl.Unparser	Feature Envy
-com.hp.hpl.jena.xmloutput.impl.Unparser	Dispersed Coupling
-com.hp.hpl.jena.xmloutput.impl.Unparser	Feature Envy
-com.hp.hpl.jena.xmloutput.impl.Unparser	Dispersed Coupling
-com.hp.hpl.jena.xmloutput.impl.Unparser	Dispersed Coupling
-com.hp.hpl.jena.xmloutput.impl.Unparser	Feature Envy
-com.hp.hpl.jena.xmloutput.impl.Unparser	Feature Envy
-com.hp.hpl.jena.xmloutput.impl.Unparser	Dispersed Coupling
-com.hp.hpl.jena.xmloutput.impl.Unparser	Feature Envy
-com.hp.hpl.jena.xmloutput.impl.Unparser	Dispersed Coupling
-com.hp.hpl.jena.xmloutput.impl.Unparser	Dispersed Coupling
-com.hp.hpl.jena.xmloutput.impl.Unparser	God Class
-com.hp.hpl.jena.reasoner.rulesys.builtins.Sum	Dispersed Coupling
-com.hp.hpl.jena.rdf.model.impl.PropertyImpl	Feature Envy
-com.hp.hpl.jena.rdf.model.impl.PropertyImpl	Refused Parent Bequest
-com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache	Intensive Coupling
-com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache	Intensive Coupling
-com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache	Feature Envy
-com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache	Intensive Coupling
-com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache	God Class
-com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache	Data Class
-com.hp.hpl.jena.graph.FrontsNode	Shotgun Surgery
-com.hp.hpl.jena.reasoner.TriplePattern	Shotgun Surgery
-com.hp.hpl.jena.reasoner.TriplePattern	Shotgun Surgery
-com.hp.hpl.jena.reasoner.TriplePattern	Shotgun Surgery
-com.hp.hpl.jena.reasoner.TriplePattern	Feature Envy
-com.hp.hpl.jena.reasoner.TriplePattern	Dispersed Coupling
-com.hp.hpl.jena.reasoner.TriplePattern	Data Class
-com.hp.hpl.jena.reasoner.rulesys.builtins.Regex	Dispersed Coupling
-com.hp.hpl.jena.ontology.impl.HasValueRestrictionImpl	Feature Envy
-com.hp.hpl.jena.db.impl.ReificationCacheMap	Intensive Coupling
-com.hp.hpl.jena.vocabulary.DAML_OIL	Data Class
-com.hp.hpl.jena.graph.query.regexptrees.PerlPatternParser	Feature Envy
-com.hp.hpl.jena.graph.query.regexptrees.PerlPatternParser	Feature Envy
-com.hp.hpl.jena.graph.query.regexptrees.PerlPatternParser	Feature Envy
-com.hp.hpl.jena.graph.query.regexptrees.PerlPatternParser	God Class
-com.hp.hpl.jena.graph.query.regexptrees.PerlPatternParser	Data Class
-com.hp.hpl.jena.datatypes.xsd.XSDDateTime	Feature Envy
-com.hp.hpl.jena.datatypes.xsd.XSDDateTime	Feature Envy
-com.hp.hpl.jena.datatypes.xsd.XSDDateTime	Feature Envy
-com.hp.hpl.jena.datatypes.xsd.XSDDateTime	Feature Envy
-com.hp.hpl.jena.datatypes.xsd.XSDDateTime	Refused Parent Bequest
-com.hp.hpl.jena.datatypes.xsd.XSDDateTime	Tradition Breaker
-com.hp.hpl.jena.graph.TripleMatch	Shotgun Surgery
-com.hp.hpl.jena.enhanced.EnhNode	Shotgun Surgery
-com.hp.hpl.jena.enhanced.EnhNode	Shotgun Surgery
-com.hp.hpl.jena.enhanced.EnhNode	Refused Parent Bequest
-com.hp.hpl.jena.reasoner.rulesys.builtins.Drop	Dispersed Coupling
-com.hp.hpl.jena.shared.PrefixMapping	Shotgun Surgery
-com.hp.hpl.jena.shared.PrefixMapping	Shotgun Surgery
-com.hp.hpl.jena.shared.PrefixMapping	Shotgun Surgery
-jena.util.DBcmd	Dispersed Coupling
-jena.util.DBcmd	God Class
-com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	Intensive Coupling
-com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	Feature Envy
-com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	Dispersed Coupling
-com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	Brain Method
-com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	Dispersed Coupling
-com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	Brain Method
-com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	Dispersed Coupling
-com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	Dispersed Coupling
-com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	God Class
-com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	Brain Class
-com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	Data Class
-com.hp.hpl.jena.rdf.arp.impl.XMLBaselessContext	Refused Parent Bequest
-com.hp.hpl.jena.util.PrintUtil	Feature Envy
-com.hp.hpl.jena.util.PrintUtil	Intensive Coupling
-com.hp.hpl.jena.util.PrintUtil	Feature Envy
-com.hp.hpl.jena.util.PrintUtil	Feature Envy
-com.hp.hpl.jena.db.IDBConnection	Shotgun Surgery
-com.hp.hpl.jena.rdf.arp.SAX2Model	Refused Parent Bequest
-com.hp.hpl.jena.ontology.OntDocumentManager	Dispersed Coupling
-com.hp.hpl.jena.ontology.OntDocumentManager	Dispersed Coupling
-com.hp.hpl.jena.ontology.OntDocumentManager	Dispersed Coupling
-com.hp.hpl.jena.ontology.OntDocumentManager	Feature Envy
-com.hp.hpl.jena.ontology.OntDocumentManager	God Class
-com.hp.hpl.jena.util.tuple.TupleSet	Brain Method
-com.hp.hpl.jena.util.tuple.TupleSet	Feature Envy
-com.hp.hpl.jena.util.tuple.TupleSet	Dispersed Coupling
-com.hp.hpl.jena.util.tuple.TupleSet	God Class
-com.hp.hpl.jena.db.impl.DBQueryStage	Dispersed Coupling
-com.hp.hpl.jena.db.impl.DBQueryStage	Refused Parent Bequest
-com.hp.hpl.jena.graph.query.Expression$Util	Feature Envy
-com.hp.hpl.jena.graph.impl.FileGraphMaker	Refused Parent Bequest
-com.hp.hpl.jena.rdf.arp.states.WantPropertyElement	Feature Envy
-com.hp.hpl.jena.rdf.arp.states.WantPropertyElement	Dispersed Coupling
-com.hp.hpl.jena.rdf.arp.states.WantPropertyElement	Feature Envy
-com.hp.hpl.jena.rdf.arp.states.WantPropertyElement	Feature Envy
-com.hp.hpl.jena.rdf.arp.states.WantPropertyElement	Feature Envy
-com.hp.hpl.jena.rdf.arp.states.WantPropertyElement	Feature Envy
-com.hp.hpl.jena.rdf.arp.states.WantPropertyElement	Feature Envy
-com.hp.hpl.jena.rdf.arp.states.WantPropertyElement	Feature Envy
-com.hp.hpl.jena.rdf.arp.states.WantPropertyElement	God Class
-com.hp.hpl.jena.rdf.arp.states.WantPropertyElement	Refused Parent Bequest
-com.hp.hpl.jena.datatypes.xsd.impl.XSDDouble	Feature Envy
-com.hp.hpl.jena.datatypes.xsd.impl.XSDDouble	Feature Envy
-com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster	Refused Parent Bequest
-com.hp.hpl.jena.util.ModelQueryUtil	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.impl.RETERuleContext	Feature Envy
-com.hp.hpl.jena.ontology.impl.OntModelImpl	Dispersed Coupling
-com.hp.hpl.jena.ontology.impl.OntModelImpl	Dispersed Coupling
-com.hp.hpl.jena.ontology.impl.OntModelImpl	Dispersed Coupling
-com.hp.hpl.jena.ontology.impl.OntModelImpl	Feature Envy
-com.hp.hpl.jena.ontology.impl.OntModelImpl	Feature Envy
-com.hp.hpl.jena.ontology.impl.OntModelImpl	Dispersed Coupling
-com.hp.hpl.jena.ontology.impl.OntModelImpl	Feature Envy
-com.hp.hpl.jena.ontology.impl.OntModelImpl	Feature Envy
-com.hp.hpl.jena.ontology.impl.OntModelImpl	Feature Envy
-com.hp.hpl.jena.ontology.impl.OntModelImpl	Feature Envy
-com.hp.hpl.jena.ontology.impl.OntModelImpl	God Class
-com.hp.hpl.jena.ontology.impl.OntModelImpl	Data Class
-com.hp.hpl.jena.ontology.impl.OntModelImpl	Refused Parent Bequest
-com.hp.hpl.jena.reasoner.rulesys.Builtin	Shotgun Surgery
-com.hp.hpl.jena.db.DBConnection	Feature Envy
-com.hp.hpl.jena.db.DBConnection	Feature Envy
-com.hp.hpl.jena.graph.impl.LiteralLabelImpl	Feature Envy
-com.hp.hpl.jena.assembler.assemblers.AssemblerBase	Shotgun Surgery
-com.hp.hpl.jena.xmloutput.impl.Relation	Feature Envy
-com.hp.hpl.jena.xmloutput.impl.Relation	Feature Envy
-com.hp.hpl.jena.xmloutput.impl.Relation	Feature Envy
-com.hp.hpl.jena.db.impl.DBProp	Shotgun Surgery
-com.hp.hpl.jena.db.impl.DBProp	Shotgun Surgery
-com.hp.hpl.jena.ontology.impl.MinCardinalityQRestrictionImpl	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.RuleContext	Shotgun Surgery
-com.hp.hpl.jena.db.impl.DBQueryHandler	Intensive Coupling
-com.hp.hpl.jena.db.impl.DBQueryHandler	Intensive Coupling
-com.hp.hpl.jena.db.impl.DBQueryHandler	Feature Envy
-com.hp.hpl.jena.db.impl.DBQueryHandler	Feature Envy
-com.hp.hpl.jena.db.impl.DBQueryHandler	Feature Envy
-com.hp.hpl.jena.db.impl.DBQueryHandler	Dispersed Coupling
-com.hp.hpl.jena.db.impl.DBQueryHandler	Feature Envy
-com.hp.hpl.jena.db.impl.DBQueryHandler	God Class
-com.hp.hpl.jena.db.impl.DBQueryHandler	Refused Parent Bequest
-com.hp.hpl.jena.db.impl.DBQueryHandler	Tradition Breaker
-com.hp.hpl.jena.graph.Graph	Shotgun Surgery
-com.hp.hpl.jena.graph.Graph	Shotgun Surgery
-com.hp.hpl.jena.graph.Graph	Shotgun Surgery
-com.hp.hpl.jena.graph.Graph	Shotgun Surgery
-com.hp.hpl.jena.graph.Graph	Shotgun Surgery
-com.hp.hpl.jena.graph.Graph	Shotgun Surgery
-com.hp.hpl.jena.graph.Graph	Shotgun Surgery
-com.hp.hpl.jena.graph.Graph	Shotgun Surgery
-com.hp.hpl.jena.graph.Graph	Shotgun Surgery
-com.hp.hpl.jena.graph.Graph	Shotgun Surgery
-com.hp.hpl.jena.graph.Graph	Shotgun Surgery
-com.hp.hpl.jena.xmloutput.impl.Abbreviated	Refused Parent Bequest
-com.hp.hpl.jena.assembler.assemblers.FileModelAssembler	Feature Envy
-com.hp.hpl.jena.assembler.assemblers.FileModelAssembler	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.impl.RETEClauseFilter	Brain Method
-com.hp.hpl.jena.reasoner.rulesys.impl.RETEClauseFilter	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.impl.RETEClauseFilter	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.impl.RETEClauseFilter	Feature Envy
-com.hp.hpl.jena.util.URIref	Brain Method
-com.hp.hpl.jena.util.URIref	Feature Envy
-com.hp.hpl.jena.util.URIref	God Class
-com.hp.hpl.jena.db.impl.Free	Refused Parent Bequest
-com.hp.hpl.jena.db.impl.DBReifierGraph	Data Class
-com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$Frame	Shotgun Surgery
-com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$Frame	Feature Envy
-com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$Frame	Dispersed Coupling
-com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$Frame	Refused Parent Bequest
-com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$Frame	Tradition Breaker
-com.hp.hpl.jena.assembler.ModelExpansion	Feature Envy
-com.hp.hpl.jena.assembler.ModelExpansion	Dispersed Coupling
-com.hp.hpl.jena.assembler.ModelExpansion	Dispersed Coupling
-com.hp.hpl.jena.graph.GraphExtract$Extraction	Feature Envy
-com.hp.hpl.jena.graph.GraphExtract$Extraction	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.impl.RDFSCMPPreprocessHook	Dispersed Coupling
-com.hp.hpl.jena.n3.turtle.TurtleRDFGraphInserter	Feature Envy
-com.hp.hpl.jena.graph.NodeCache	Feature Envy
-com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveEngine	Feature Envy
-com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveEngine	Feature Envy
-com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveEngine	Dispersed Coupling
-com.hp.hpl.jena.rdf.arp.impl.Taint	Shotgun Surgery
-com.hp.hpl.jena.util.FileManager	Feature Envy
-com.hp.hpl.jena.util.FileManager	Dispersed Coupling
-com.hp.hpl.jena.util.FileManager	God Class
-com.hp.hpl.jena.util.FileManager	Data Class
-com.hp.hpl.jena.graph.query.StageElement	Shotgun Surgery
-com.hp.hpl.jena.reasoner.rulesys.OWLFBRuleReasoner	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.OWLFBRuleReasoner	Feature Envy
-com.hp.hpl.jena.reasoner.BaseInfGraph	Feature Envy
-com.hp.hpl.jena.reasoner.BaseInfGraph	God Class
-com.hp.hpl.jena.reasoner.BaseInfGraph	Refused Parent Bequest
-com.hp.hpl.jena.reasoner.rulesys.impl.LPTopGoalIterator	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine	Intensive Coupling
-com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine	Brain Method
-com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine	Intensive Coupling
-com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine	God Class
-com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine	Brain Class
-com.hp.hpl.jena.rdf.model.StmtIterator	Shotgun Surgery
-com.hp.hpl.jena.graph.impl.SimpleReifier	Feature Envy
-com.hp.hpl.jena.graph.impl.SimpleReifier	Data Class
-com.hp.hpl.jena.graph.impl.SimpleReifierTripleMap	Dispersed Coupling
-com.hp.hpl.jena.graph.query.QueryTriple	Feature Envy
-com.hp.hpl.jena.graph.query.QueryTriple	Feature Envy
-com.hp.hpl.jena.graph.query.Query	Feature Envy
-com.hp.hpl.jena.ontology.impl.MaxCardinalityQRestrictionImpl	Feature Envy
-com.hp.hpl.jena.db.impl.Driver_Oracle	Refused Parent Bequest
-com.hp.hpl.jena.reasoner.rulesys.impl.LPRuleStore	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.impl.LPRuleStore	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.impl.LPRuleStore	Brain Method
-com.hp.hpl.jena.reasoner.rulesys.impl.LPRuleStore	Intensive Coupling
-com.hp.hpl.jena.reasoner.rulesys.impl.LPRuleStore	Refused Parent Bequest
-com.hp.hpl.jena.reasoner.rulesys.impl.LPRuleStore	Tradition Breaker
-com.hp.hpl.jena.db.impl.ResultSetReifIterator	God Class
-com.hp.hpl.jena.db.impl.ResultSetReifIterator	Refused Parent Bequest
-com.hp.hpl.jena.util.OneToManyMap	Feature Envy
-com.hp.hpl.jena.util.OneToManyMap	Dispersed Coupling
-com.hp.hpl.jena.util.OneToManyMap	Intensive Coupling
-com.hp.hpl.jena.rdf.model.impl.ModelCom	Shotgun Surgery
-com.hp.hpl.jena.rdf.model.impl.ModelCom	Dispersed Coupling
-com.hp.hpl.jena.rdf.model.impl.ModelCom	Feature Envy
-com.hp.hpl.jena.rdf.model.impl.ModelCom	Feature Envy
-com.hp.hpl.jena.rdf.model.impl.ModelCom	God Class
-com.hp.hpl.jena.rdf.model.impl.ModelCom	Data Class
-com.hp.hpl.jena.rdf.model.impl.ModelCom	Refused Parent Bequest
-com.hp.hpl.jena.rdf.arp.states.AbsXMLLiteral	Intensive Coupling
-com.hp.hpl.jena.rdf.arp.states.AbsXMLLiteral	Refused Parent Bequest
-com.hp.hpl.jena.graph.impl.GraphMatcher	Dispersed Coupling
-com.hp.hpl.jena.graph.impl.GraphMatcher	Dispersed Coupling
-com.hp.hpl.jena.graph.impl.GraphMatcher	Feature Envy
-com.hp.hpl.jena.graph.impl.GraphMatcher	Dispersed Coupling
-com.hp.hpl.jena.graph.impl.GraphMatcher	God Class
-com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode$CompileState	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode$CompileState	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode$CompileState	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode$CompileState	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode$CompileState	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode$CompileState	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode$CompileState	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode$CompileState	Brain Method
-com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode$CompileState	Intensive Coupling
-com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode$CompileState	Dispersed Coupling
-com.hp.hpl.jena.shared.wg.TestInputStreamFactory	Feature Envy
-com.hp.hpl.jena.shared.wg.TestInputStreamFactory	Dispersed Coupling
-com.hp.hpl.jena.ontology.impl.CardinalityRestrictionImpl	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.impl.LPBRuleEngine	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.impl.LPBRuleEngine	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.impl.LPBRuleEngine	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.impl.LPBRuleEngine	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.impl.LPBRuleEngine	God Class
-com.hp.hpl.jena.reasoner.rulesys.impl.LPBRuleEngine	Data Class
-com.hp.hpl.jena.mem.MixedGraphMem	Feature Envy
-com.hp.hpl.jena.mem.MixedGraphMem	Intensive Coupling
-com.hp.hpl.jena.mem.MixedGraphMem	Refused Parent Bequest
-com.hp.hpl.jena.ontology.OntTools	Dispersed Coupling
-com.hp.hpl.jena.ontology.OntTools	Dispersed Coupling
-com.hp.hpl.jena.ontology.OntTools	Feature Envy
-com.hp.hpl.jena.ontology.OntTools	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.builtins.CountLiteralValues	Dispersed Coupling
-com.hp.hpl.jena.util.QueryMapper	Feature Envy
-com.hp.hpl.jena.mem.faster.FasterTripleStore	Feature Envy
-com.hp.hpl.jena.mem.faster.FasterTripleStore	Feature Envy
-com.hp.hpl.jena.mem.faster.FasterTripleStore	Feature Envy
-com.hp.hpl.jena.mem.faster.FasterTripleStore	Dispersed Coupling
-com.hp.hpl.jena.db.ModelRDB	Refused Parent Bequest
-com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine	Intensive Coupling
-com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine	God Class
-com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine	Data Class
-com.hp.hpl.jena.assembler.assemblers.AssemblerGroup	Feature Envy
-com.hp.hpl.jena.ontology.impl.DAML_OILLegacyProfile	God Class
-com.hp.hpl.jena.ontology.impl.DAML_OILLegacyProfile	Data Class
-com.hp.hpl.jena.ontology.impl.DAML_OILLegacyProfile	Refused Parent Bequest
-com.hp.hpl.jena.n3.turtle.parser.TurtleParser	Feature Envy
-com.hp.hpl.jena.n3.turtle.parser.TurtleParser	Feature Envy
-com.hp.hpl.jena.n3.turtle.parser.TurtleParser	Feature Envy
-com.hp.hpl.jena.n3.turtle.parser.TurtleParser	Feature Envy
-com.hp.hpl.jena.n3.turtle.parser.TurtleParser	Feature Envy
-com.hp.hpl.jena.n3.turtle.parser.TurtleParser	Feature Envy
-com.hp.hpl.jena.n3.turtle.parser.TurtleParser	Feature Envy
-com.hp.hpl.jena.n3.turtle.parser.TurtleParser	Feature Envy
-com.hp.hpl.jena.n3.turtle.parser.TurtleParser	Feature Envy
-com.hp.hpl.jena.n3.turtle.parser.TurtleParser	Feature Envy
-com.hp.hpl.jena.n3.turtle.parser.TurtleParser	Feature Envy
-com.hp.hpl.jena.n3.turtle.parser.TurtleParser	Feature Envy
-com.hp.hpl.jena.n3.turtle.parser.TurtleParser	Feature Envy
-com.hp.hpl.jena.n3.turtle.parser.TurtleParser	Feature Envy
-com.hp.hpl.jena.n3.turtle.parser.TurtleParser	Data Class
-com.hp.hpl.jena.n3.turtle.parser.TurtleParser	Refused Parent Bequest
-com.hp.hpl.jena.n3.turtle.parser.TurtleParser	Tradition Breaker
-com.hp.hpl.jena.graph.query.SimpleTripleSorter	Feature Envy
-com.hp.hpl.jena.graph.query.SimpleTripleSorter	Feature Envy
-com.hp.hpl.jena.graph.query.SimpleTripleSorter	Feature Envy
-com.hp.hpl.jena.graph.query.SimpleTripleSorter	Feature Envy
-com.hp.hpl.jena.graph.query.Expression$Util	Feature Envy
-com.hp.hpl.jena.db.impl.DBPrefixMappingImpl	Feature Envy
-com.hp.hpl.jena.db.impl.DBPrefixMappingImpl	Feature Envy
-com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache$FullGraphWalker	Feature Envy
-jena.rdfcopy	Dispersed Coupling
-jena.rdfcopy	Feature Envy
-com.hp.hpl.jena.assembler.assemblers.OntModelSpecAssembler	Feature Envy
-com.hp.hpl.jena.assembler.assemblers.OntModelSpecAssembler	Refused Parent Bequest
-com.hp.hpl.jena.reasoner.rulesys.builtins.Print	Feature Envy
-com.hp.hpl.jena.db.impl.Driver_Oracle_LOB	Dispersed Coupling
-com.hp.hpl.jena.db.impl.Driver_Oracle_LOB	Dispersed Coupling
-com.hp.hpl.jena.db.impl.Driver_Oracle_LOB	Refused Parent Bequest
-com.hp.hpl.jena.assembler.assemblers.ContentAssembler	Feature Envy
-com.hp.hpl.jena.assembler.assemblers.ContentAssembler	Refused Parent Bequest
-com.hp.hpl.jena.reasoner.rulesys.OWLFBRuleReasonerFactory	Feature Envy
-com.hp.hpl.jena.mem.faster.GraphMemFaster	Feature Envy
-com.hp.hpl.jena.mem.faster.GraphMemFaster	Feature Envy
-com.hp.hpl.jena.mem.faster.GraphMemFaster	Refused Parent Bequest
-com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph$RuleStore	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph$RuleStore	Intensive Coupling
-com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph$RuleStore	Dispersed Coupling
-com.hp.hpl.jena.db.impl.DBPropDatabase	Refused Parent Bequest
-com.hp.hpl.jena.reasoner.rulesys.Node_RuleVariable	Shotgun Surgery
-com.hp.hpl.jena.reasoner.rulesys.Node_RuleVariable	Refused Parent Bequest
-com.hp.hpl.jena.reasoner.rulesys.builtins.MakeSkolem	Intensive Coupling
-com.hp.hpl.jena.reasoner.rulesys.impl.GenericTripleMatchFrame	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.impl.GenericTripleMatchFrame	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.impl.GenericTripleMatchFrame	Feature Envy
-com.hp.hpl.jena.ontology.impl.MinCardinalityRestrictionImpl	Feature Envy
-com.hp.hpl.jena.util.FileUtils	Feature Envy
-com.hp.hpl.jena.util.FileUtils	God Class
-com.hp.hpl.jena.util.FileUtils	Data Class
-com.hp.hpl.jena.graph.GraphListener	Shotgun Surgery
-com.hp.hpl.jena.mem.faster.GraphMemFaster$GraphMemFasterStatisticsHandler	Feature Envy
-com.hp.hpl.jena.reasoner.ReasonerFactory	Shotgun Surgery
-com.hp.hpl.jena.reasoner.ReasonerFactory	Shotgun Surgery
-com.hp.hpl.jena.reasoner.ReasonerFactory	Shotgun Surgery
-com.hp.hpl.jena.rdf.model.impl.LiteralImpl	God Class
-com.hp.hpl.jena.rdf.model.impl.LiteralImpl	Refused Parent Bequest
-com.hp.hpl.jena.ontology.impl.DAML_OILProfile	God Class
-com.hp.hpl.jena.ontology.impl.DAML_OILProfile	Data Class
-com.hp.hpl.jena.ontology.impl.DAML_OILProfile	Refused Parent Bequest
-com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreter	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreter	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreter	Shotgun Surgery
-com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreter	Brain Method
-com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreter	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreter	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreter	God Class
-com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreter	Brain Class
-com.hp.hpl.jena.db.impl.PSet_ReifStore_RDB	Dispersed Coupling
-com.hp.hpl.jena.db.impl.PSet_ReifStore_RDB	Brain Method
-com.hp.hpl.jena.db.impl.PSet_ReifStore_RDB	Dispersed Coupling
-com.hp.hpl.jena.db.impl.PSet_ReifStore_RDB	Dispersed Coupling
-com.hp.hpl.jena.db.impl.PSet_ReifStore_RDB	Feature Envy
-com.hp.hpl.jena.db.impl.PSet_ReifStore_RDB	Brain Method
-com.hp.hpl.jena.db.impl.PSet_ReifStore_RDB	Dispersed Coupling
-com.hp.hpl.jena.db.impl.PSet_ReifStore_RDB	Dispersed Coupling
-com.hp.hpl.jena.db.impl.PSet_ReifStore_RDB	Intensive Coupling
-com.hp.hpl.jena.db.impl.PSet_ReifStore_RDB	God Class
-com.hp.hpl.jena.db.impl.PSet_ReifStore_RDB	Brain Class
-com.hp.hpl.jena.db.impl.PSet_ReifStore_RDB	Refused Parent Bequest
-com.hp.hpl.jena.db.impl.PSet_ReifStore_RDB	Tradition Breaker
-com.hp.hpl.jena.n3.N3JenaWriterCommon	Dispersed Coupling
-com.hp.hpl.jena.n3.N3JenaWriterCommon	Dispersed Coupling
-com.hp.hpl.jena.n3.N3JenaWriterCommon	Dispersed Coupling
-com.hp.hpl.jena.n3.N3JenaWriterCommon	Dispersed Coupling
-com.hp.hpl.jena.n3.N3JenaWriterCommon	Dispersed Coupling
-com.hp.hpl.jena.n3.N3JenaWriterCommon	Feature Envy
-com.hp.hpl.jena.n3.N3JenaWriterCommon	God Class
-jena.cmdline.CommandLine	Intensive Coupling
-jena.cmdline.CommandLine	God Class
-com.hp.hpl.jena.db.impl.Driver_MsSQL	Dispersed Coupling
-com.hp.hpl.jena.datatypes.xsd.impl.XSDAbstractDateTimeType	God Class
-com.hp.hpl.jena.datatypes.xsd.impl.XSDAbstractDateTimeType	Data Class
-com.hp.hpl.jena.datatypes.xsd.impl.XSDAbstractDateTimeType	Refused Parent Bequest
-com.hp.hpl.jena.rdf.model.RDFErrorHandler	Shotgun Surgery
-com.hp.hpl.jena.graph.query.Domain	Shotgun Surgery
-jena.turtle	Feature Envy
-com.hp.hpl.jena.datatypes.xsd.XSDbase64Binary	Feature Envy
-com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	Feature Envy
-com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	Dispersed Coupling
-com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	Dispersed Coupling
-com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	Dispersed Coupling
-com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	Dispersed Coupling
-com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	Dispersed Coupling
-com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	Feature Envy
-com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	Feature Envy
-com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	God Class
-com.hp.hpl.jena.datatypes.xsd.impl.XSDBaseStringType	Feature Envy
-com.hp.hpl.jena.datatypes.xsd.impl.XSDDateTimeType	Feature Envy
-com.hp.hpl.jena.n3.N3JenaWriterPP	Dispersed Coupling
-com.hp.hpl.jena.n3.N3JenaWriterPP	Feature Envy
-com.hp.hpl.jena.n3.N3JenaWriterPP	Dispersed Coupling
-com.hp.hpl.jena.n3.N3JenaWriterPP	Dispersed Coupling
-com.hp.hpl.jena.n3.N3JenaWriterPP	Intensive Coupling
-com.hp.hpl.jena.n3.N3JenaWriterPP	Brain Method
-com.hp.hpl.jena.n3.N3JenaWriterPP	Dispersed Coupling
-com.hp.hpl.jena.n3.N3JenaWriterPP	Dispersed Coupling
-com.hp.hpl.jena.n3.N3JenaWriterPP	God Class
-com.hp.hpl.jena.n3.N3JenaWriterPP	Refused Parent Bequest
-com.hp.hpl.jena.ontology.Profile	Shotgun Surgery
-com.hp.hpl.jena.ontology.Profile	Shotgun Surgery
-com.hp.hpl.jena.ontology.Profile	Shotgun Surgery
-com.hp.hpl.jena.ontology.Profile	Shotgun Surgery
-com.hp.hpl.jena.ontology.Profile	Data Class
-com.hp.hpl.jena.rdf.arp.impl.AbsXMLContext	Dispersed Coupling
-com.hp.hpl.jena.db.impl.SpecializedGraph_TripleStore	Refused Parent Bequest
-com.hp.hpl.jena.reasoner.rulesys.impl.BindingVector	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.impl.BindingVector	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.impl.BindingVector	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.impl.BindingVector	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.impl.BindingVector	Data Class
-com.hp.hpl.jena.rdf.arp.impl.RDFXMLParser	Intensive Coupling
-com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	Feature Envy
-com.hp.hpl.jena.rdf.model.impl.InfModelImpl	Refused Parent Bequest
-com.hp.hpl.jena.reasoner.rulesys.Functor	Shotgun Surgery
-com.hp.hpl.jena.reasoner.rulesys.Functor	Shotgun Surgery
-com.hp.hpl.jena.reasoner.rulesys.Functor	Shotgun Surgery
-com.hp.hpl.jena.reasoner.rulesys.Functor	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.Functor	Shotgun Surgery
-com.hp.hpl.jena.ontology.impl.SomeValuesFromRestrictionImpl	Dispersed Coupling
-com.hp.hpl.jena.rdf.model.impl.NTripleWriter	Feature Envy
-com.hp.hpl.jena.rdf.model.impl.NTripleWriter	Feature Envy
-com.hp.hpl.jena.rdf.model.impl.NTripleWriter	Feature Envy
-com.hp.hpl.jena.graph.query.regexptrees.Sequence	Intensive Coupling
-com.hp.hpl.jena.n3.turtle.parser.TurtleParserTokenManager	Brain Method
-com.hp.hpl.jena.n3.turtle.parser.TurtleParserTokenManager	Feature Envy
-com.hp.hpl.jena.n3.turtle.parser.TurtleParserTokenManager	Brain Method
-com.hp.hpl.jena.n3.turtle.parser.TurtleParserTokenManager	God Class
-com.hp.hpl.jena.n3.turtle.parser.TurtleParserTokenManager	Brain Class
-com.hp.hpl.jena.n3.turtle.parser.TurtleParserTokenManager	Data Class
-com.hp.hpl.jena.ontology.impl.RDFSProfile	Feature Envy
-com.hp.hpl.jena.ontology.impl.RDFSProfile	God Class
-com.hp.hpl.jena.ontology.impl.RDFSProfile	Data Class
-com.hp.hpl.jena.ontology.impl.RDFSProfile	Refused Parent Bequest
-com.hp.hpl.jena.reasoner.rulesys.Rule	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.Rule	Shotgun Surgery
-com.hp.hpl.jena.reasoner.rulesys.Rule	Shotgun Surgery
-com.hp.hpl.jena.reasoner.rulesys.Rule	Shotgun Surgery
-com.hp.hpl.jena.reasoner.rulesys.Rule	Shotgun Surgery
-com.hp.hpl.jena.reasoner.rulesys.Rule	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.Rule	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.Rule	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.Rule	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.Rule	Shotgun Surgery
-com.hp.hpl.jena.reasoner.rulesys.Rule	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.Rule	God Class
-com.hp.hpl.jena.util.LocatorZip	Feature Envy
-com.hp.hpl.jena.ontology.impl.OntologyImpl	Refused Parent Bequest
-com.hp.hpl.jena.ontology.OntProperty	Data Class
-com.hp.hpl.jena.graph.impl.GraphBase	Shotgun Surgery
-com.hp.hpl.jena.graph.impl.GraphBase	Shotgun Surgery
-com.hp.hpl.jena.graph.impl.GraphBase	Data Class
-com.hp.hpl.jena.n3.N3TurtleJenaWriter	Feature Envy
-com.hp.hpl.jena.rdf.arp.states.WantDescription	Feature Envy
-com.hp.hpl.jena.rdf.arp.states.WantDescription	Dispersed Coupling
-com.hp.hpl.jena.rdf.arp.states.WantDescription	Refused Parent Bequest
-com.hp.hpl.jena.rdf.model.ModelCon	Shotgun Surgery
-com.hp.hpl.jena.rdf.model.ModelCon	Shotgun Surgery
-jena.rdfcompare	Feature Envy
-jena.rdfcompare	Feature Envy
-com.hp.hpl.jena.graph.query.Expression$Util	Feature Envy
-com.hp.hpl.jena.n3.N3JenaWriterTriples	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.impl.Generator	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.impl.Generator	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.impl.Generator	God Class
-com.hp.hpl.jena.reasoner.rulesys.impl.Generator	Data Class
-com.hp.hpl.jena.shared.LockMRSW	Feature Envy
-com.hp.hpl.jena.shared.LockMRSW	Dispersed Coupling
-com.hp.hpl.jena.shared.LockMRSW	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.impl.BindingStack	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.impl.BindingStack	Dispersed Coupling
-com.hp.hpl.jena.mem.GraphTripleStore	Feature Envy
-com.hp.hpl.jena.rdf.model.impl.StatementImpl	Feature Envy
-com.hp.hpl.jena.rdf.model.impl.StatementImpl	Feature Envy
-com.hp.hpl.jena.rdf.model.impl.StatementImpl	Refused Parent Bequest
-com.hp.hpl.jena.graph.query.Pattern	Feature Envy
-com.hp.hpl.jena.ontology.OntModelSpec	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.OWLMiniReasonerFactory	Feature Envy
-com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveReasonerFactory	Feature Envy
-com.hp.hpl.jena.assembler.assemblers.ReasonerFactoryAssembler	Feature Envy
-com.hp.hpl.jena.assembler.assemblers.ReasonerFactoryAssembler	Refused Parent Bequest
-jena.rdfcat	Dispersed Coupling
-jena.rdfcat	Feature Envy
-com.hp.hpl.jena.rdf.model.Statement	Shotgun Surgery
-com.hp.hpl.jena.rdf.model.Statement	Shotgun Surgery
-com.hp.hpl.jena.rdf.model.Statement	Shotgun Surgery
-com.hp.hpl.jena.rdf.model.Statement	Shotgun Surgery
-com.hp.hpl.jena.rdf.model.Statement	Shotgun Surgery
-com.hp.hpl.jena.rdf.model.Statement	Shotgun Surgery
-com.hp.hpl.jena.graph.query.SimpleQueryHandler	Feature Envy
-com.hp.hpl.jena.ontology.impl.OWLProfile	Feature Envy
-com.hp.hpl.jena.ontology.impl.OWLProfile	God Class
-com.hp.hpl.jena.ontology.impl.OWLProfile	Data Class
-com.hp.hpl.jena.ontology.impl.OWLProfile	Refused Parent Bequest
-com.hp.hpl.jena.shared.impl.PrefixMappingImpl	Feature Envy
-com.hp.hpl.jena.ontology.impl.CardinalityQRestrictionImpl	Feature Envy
-com.hp.hpl.jena.graph.query.QueryNode	Intensive Coupling
-com.hp.hpl.jena.reasoner.rulesys.impl.SafeGraph	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.impl.SafeGraph	Feature Envy
-com.hp.hpl.jena.ontology.OntClass	Data Class
-com.hp.hpl.jena.reasoner.rulesys.GenericRuleReasoner	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.GenericRuleReasoner	God Class
-com.hp.hpl.jena.reasoner.rulesys.GenericRuleReasoner	Refused Parent Bequest
-com.hp.hpl.jena.rdf.arp.lang.LanguageTag	Intensive Coupling
-com.hp.hpl.jena.rdf.arp.lang.LanguageTag	Feature Envy
-com.hp.hpl.jena.datatypes.xsd.XSDDatatype	Feature Envy
-com.hp.hpl.jena.datatypes.xsd.XSDDatatype	Dispersed Coupling
-com.hp.hpl.jena.datatypes.xsd.XSDDatatype	Feature Envy
-com.hp.hpl.jena.datatypes.xsd.XSDDatatype	God Class
-com.hp.hpl.jena.datatypes.xsd.XSDDatatype	Data Class
-com.hp.hpl.jena.datatypes.xsd.XSDDatatype	Refused Parent Bequest
-com.hp.hpl.jena.mem.GraphMem	Refused Parent Bequest
-com.hp.hpl.jena.ontology.impl.AllValuesFromRestrictionImpl	Dispersed Coupling
-com.hp.hpl.jena.mem.HashCommon	Feature Envy
-com.hp.hpl.jena.rdf.model.ModelGraphInterface	Shotgun Surgery
-com.hp.hpl.jena.ontology.impl.OntResourceImpl	Shotgun Surgery
-com.hp.hpl.jena.ontology.impl.OntResourceImpl	Feature Envy
-com.hp.hpl.jena.ontology.impl.OntResourceImpl	Intensive Coupling
-com.hp.hpl.jena.ontology.impl.OntResourceImpl	Dispersed Coupling
-com.hp.hpl.jena.ontology.impl.OntResourceImpl	Shotgun Surgery
-com.hp.hpl.jena.ontology.impl.OntResourceImpl	Feature Envy
-com.hp.hpl.jena.ontology.impl.OntResourceImpl	Dispersed Coupling
-com.hp.hpl.jena.ontology.impl.OntResourceImpl	Shotgun Surgery
-com.hp.hpl.jena.ontology.impl.OntResourceImpl	Shotgun Surgery
-com.hp.hpl.jena.ontology.impl.OntResourceImpl	Feature Envy
-com.hp.hpl.jena.ontology.impl.OntResourceImpl	Intensive Coupling
-com.hp.hpl.jena.ontology.impl.OntResourceImpl	Shotgun Surgery
-com.hp.hpl.jena.ontology.impl.OntResourceImpl	God Class
-com.hp.hpl.jena.ontology.impl.OntResourceImpl	Data Class
-com.hp.hpl.jena.ontology.impl.OntResourceImpl	Refused Parent Bequest
-com.hp.hpl.jena.rdf.arp.SAX2RDF	Feature Envy
-com.hp.hpl.jena.mem.NodeToTriplesMapBase	Dispersed Coupling
-com.hp.hpl.jena.reasoner.rulesys.OWLMicroReasoner	Feature Envy
-com.hp.hpl.jena.db.impl.Driver_HSQL	Refused Parent Bequest
-com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode	Intensive Coupling
-com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode	Feature Envy
-com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode	Data Class
-com.hp.hpl.jena.graph.query.SimpleTreeQueryPlan	Feature Envy
-com.hp.hpl.jena.mem.HashedBunchMap	Refused Parent Bequest
-com.hp.hpl.jena.reasoner.rulesys.builtins.Quotient	Dispersed Coupling
-com.hp.hpl.jena.rdf.arp.impl.ParserSupport	Shotgun Surgery
-com.hp.hpl.jena.rdf.arp.impl.ParserSupport	Shotgun Surgery
+com.hp.hpl.jena.reasoner.FGraph	getGraph	Shotgun Surgery
+com.hp.hpl.jena.reasoner.FGraph	contains	Feature Envy
+com.hp.hpl.jena.shared.uuid.UUID_V4	null	Refused Parent Bequest
+com.hp.hpl.jena.n3.turtle.TurtleEventDump	triple	Feature Envy
+com.hp.hpl.jena.n3.turtle.TurtleEventDump	prefix	Feature Envy
+com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB	add	Dispersed Coupling
+com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB	add	Intensive Coupling
+com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB	delete	Dispersed Coupling
+com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB	fragCompact	Intensive Coupling
+com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB	add	Feature Envy
+com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB	add	Intensive Coupling
+com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB	isReifProp	Feature Envy
+com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB	null	God Class
+com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB	null	Data Class
+com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB	null	Refused Parent Bequest
+com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB	null	Tradition Breaker
+com.hp.hpl.jena.datatypes.xsd.impl.XSDFloat	parseValidated	Feature Envy
+com.hp.hpl.jena.datatypes.xsd.impl.XSDFloat	isEqual	Feature Envy
+com.hp.hpl.jena.graph.query.Expression$Util	substituteEntitiesInElementContent	Intensive Coupling
+com.hp.hpl.jena.db.impl.DBQueryStageCompiler	compilePattern	Dispersed Coupling
+com.hp.hpl.jena.db.impl.DBQueryStageCompiler	getReificationChar	Feature Envy
+com.hp.hpl.jena.db.impl.DBQueryStageCompiler	getQual	Dispersed Coupling
+com.hp.hpl.jena.db.impl.DBQueryStageCompiler	compileConstraints	Dispersed Coupling
+com.hp.hpl.jena.db.impl.DBQueryStageCompiler	compileQuery	Feature Envy
+com.hp.hpl.jena.graph.impl.SimpleReifierFragmentsMap	allTriples	Feature Envy
+com.hp.hpl.jena.graph.impl.SimpleReifierFragmentsMap	allTriples	Dispersed Coupling
+com.hp.hpl.jena.graph.impl.SimpleReifierFragmentsMap	size	Feature Envy
+com.hp.hpl.jena.graph.impl.SimpleReifierFragmentsMap	makeSelectors	Feature Envy
+com.hp.hpl.jena.graph.impl.SimpleBulkUpdateHandler	addReifications	Feature Envy
+com.hp.hpl.jena.graph.impl.SimpleBulkUpdateHandler	deleteReifications	Feature Envy
+com.hp.hpl.jena.graph.query.SimpleQueryEngine	addStages	Dispersed Coupling
+com.hp.hpl.jena.db.impl.DriverRDB	getSystemSpecializedGraph	Feature Envy
+com.hp.hpl.jena.db.impl.DriverRDB	getSystemSpecializedGraph	Intensive Coupling
+com.hp.hpl.jena.db.impl.DriverRDB	formatAndConstructSystemSpecializedGraph	Dispersed Coupling
+com.hp.hpl.jena.db.impl.DriverRDB	createSpecializedGraphs	Brain Method
+com.hp.hpl.jena.db.impl.DriverRDB	createSpecializedGraphs	Dispersed Coupling
+com.hp.hpl.jena.db.impl.DriverRDB	recreateSpecializedGraphs	Dispersed Coupling
+com.hp.hpl.jena.db.impl.DriverRDB	createIPSetInstanceFromName	Feature Envy
+com.hp.hpl.jena.db.impl.DriverRDB	removeSpecializedGraphs	Feature Envy
+com.hp.hpl.jena.db.impl.DriverRDB	removeSpecializedGraphs	Dispersed Coupling
+com.hp.hpl.jena.db.impl.DriverRDB	getSequences	Dispersed Coupling
+com.hp.hpl.jena.db.impl.DriverRDB	xaxtOpRaw	Feature Envy
+com.hp.hpl.jena.db.impl.DriverRDB	xactBegin	Feature Envy
+com.hp.hpl.jena.db.impl.DriverRDB	nodeToRDBString	Brain Method
+com.hp.hpl.jena.db.impl.DriverRDB	nodeToRDBString	Intensive Coupling
+com.hp.hpl.jena.db.impl.DriverRDB	RDBStringToNode	Feature Envy
+com.hp.hpl.jena.db.impl.DriverRDB	RDBStringToNode	Intensive Coupling
+com.hp.hpl.jena.db.impl.DriverRDB	RDBLiteralStringToLiteralNode	Feature Envy
+com.hp.hpl.jena.db.impl.DriverRDB	RDBStringParseInt	Feature Envy
+com.hp.hpl.jena.db.impl.DriverRDB	PrefixToLongObject	Feature Envy
+com.hp.hpl.jena.db.impl.DriverRDB	literalToLongObject	Feature Envy
+com.hp.hpl.jena.db.impl.DriverRDB	URIToLongObject	Feature Envy
+com.hp.hpl.jena.db.impl.DriverRDB	getLongObjectID	Dispersed Coupling
+com.hp.hpl.jena.db.impl.DriverRDB	IDtoString	Feature Envy
+com.hp.hpl.jena.db.impl.DriverRDB	IDtoLongObject	Dispersed Coupling
+com.hp.hpl.jena.db.impl.DriverRDB	genSQLStringMatch	Feature Envy
+com.hp.hpl.jena.db.impl.DriverRDB	setTableNames	Shotgun Surgery
+com.hp.hpl.jena.db.impl.DriverRDB	null	God Class
+com.hp.hpl.jena.db.impl.DriverRDB	null	Brain Class
+com.hp.hpl.jena.rdf.model.RDFList	null	Data Class
+com.hp.hpl.jena.assembler.assemblers.ConnectionAssembler	null	Refused Parent Bequest
+com.hp.hpl.jena.graph.query.PatternStageBase	null	Refused Parent Bequest
+com.hp.hpl.jena.util.ResourceUtils	renameResource	Feature Envy
+com.hp.hpl.jena.util.ResourceUtils	renameResource	Dispersed Coupling
+com.hp.hpl.jena.util.ResourceUtils	reachableClosure	Dispersed Coupling
+com.hp.hpl.jena.datatypes.xsd.impl.XSDDurationType	parseValidated	Brain Method
+com.hp.hpl.jena.graph.impl.FragmentTripleIterator	refillFrom	Feature Envy
+com.hp.hpl.jena.reasoner.transitiveReasoner.GraphNode	propagateAdd	Intensive Coupling
+com.hp.hpl.jena.reasoner.transitiveReasoner.GraphNode	propagateSCC	Intensive Coupling
+com.hp.hpl.jena.graph.compose.Polyadic	null	Refused Parent Bequest
+com.hp.hpl.jena.reasoner.rulesys.builtins.NoValue	bodyCall	Feature Envy
+com.hp.hpl.jena.graph.Triple	getSubject	Shotgun Surgery
+com.hp.hpl.jena.graph.Triple	getPredicate	Shotgun Surgery
+com.hp.hpl.jena.graph.Triple	getObject	Shotgun Surgery
+com.hp.hpl.jena.graph.Triple	null	Data Class
+com.hp.hpl.jena.rdf.model.ModelFactory	createRDFSModel	Feature Envy
+com.hp.hpl.jena.rdf.model.ModelFactory	null	Data Class
+com.hp.hpl.jena.rdf.model.ModelFactory	null	Refused Parent Bequest
+com.hp.hpl.jena.datatypes.TypeMapper	getSafeTypeByName	Shotgun Surgery
+com.hp.hpl.jena.n3.turtle.Turtle2NTriples	triple	Feature Envy
+com.hp.hpl.jena.n3.turtle.Turtle2NTriples	outputNode	Feature Envy
+com.hp.hpl.jena.n3.turtle.Turtle2NTriples	outputNode	Intensive Coupling
+com.hp.hpl.jena.rdf.model.RDFNode	isAnon	Shotgun Surgery
+com.hp.hpl.jena.rdf.model.RDFNode	isLiteral	Shotgun Surgery
+com.hp.hpl.jena.rdf.model.RDFNode	isResource	Shotgun Surgery
+com.hp.hpl.jena.rdf.model.RDFNode	getModel	Shotgun Surgery
+com.hp.hpl.jena.reasoner.rulesys.builtins.ListMapAsObject	headAction	Feature Envy
+com.hp.hpl.jena.db.impl.GraphRDBMaker	null	Refused Parent Bequest
+com.hp.hpl.jena.datatypes.BaseDatatype	isEqual	Feature Envy
+com.hp.hpl.jena.rdf.model.Property	getOrdinal	Shotgun Surgery
+com.hp.hpl.jena.reasoner.rulesys.impl.OWLExptRuleTranslationHook	run	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.impl.OWLExptRuleTranslationHook	translateIntersectionList	Feature Envy
+jena.schemagen	main	Feature Envy
+jena.schemagen	determineLanguage	Dispersed Coupling
+jena.schemagen	selectOutput	Feature Envy
+jena.schemagen	processHeader	Intensive Coupling
+jena.schemagen	usage	Feature Envy
+jena.schemagen	getClassName	Feature Envy
+jena.schemagen	getClassName	Intensive Coupling
+jena.schemagen	asLegalJavaID	Dispersed Coupling
+jena.schemagen	protectQuotes	Intensive Coupling
+jena.schemagen	getDefaultPrefixNamespace	Feature Envy
+jena.schemagen	getOntologyElementNamespace	Dispersed Coupling
+jena.schemagen	guessNamespace	Dispersed Coupling
+jena.schemagen	writeRDFProperties	Dispersed Coupling
+jena.schemagen	writeRDFClasses	Dispersed Coupling
+jena.schemagen	writeOntIndividuals	Dispersed Coupling
+jena.schemagen	selectIndividuals	Dispersed Coupling
+jena.schemagen	getComment	Dispersed Coupling
+jena.schemagen	formatComment	Brain Method
+jena.schemagen	filter	Dispersed Coupling
+jena.schemagen	getUCValueName	Dispersed Coupling
+jena.schemagen	sorted	Feature Envy
+jena.schemagen	sorted	Dispersed Coupling
+jena.schemagen	null	God Class
+jena.schemagen	null	Brain Class
+jena.schemagen	null	Data Class
+com.hp.hpl.jena.rdf.arp.impl.URIReference	null	Refused Parent Bequest
+com.hp.hpl.jena.mem.NodeToTriplesMap	null	Refused Parent Bequest
+com.hp.hpl.jena.rdf.arp.impl.Location	Location	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.builtins.StrConcat	lex	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.builtins.StrConcat	lex	Intensive Coupling
+com.hp.hpl.jena.rdf.arp.impl.XMLHandler	triple	Feature Envy
+com.hp.hpl.jena.rdf.arp.impl.XMLHandler	warning	Shotgun Surgery
+com.hp.hpl.jena.rdf.arp.impl.XMLHandler	warning	Feature Envy
+com.hp.hpl.jena.rdf.arp.impl.XMLHandler	endLocalScope	Feature Envy
+com.hp.hpl.jena.rdf.arp.impl.XMLHandler	setHandlersWith	Feature Envy
+com.hp.hpl.jena.rdf.arp.impl.XMLHandler	checkNamespaceURI	Dispersed Coupling
+com.hp.hpl.jena.rdf.arp.impl.XMLHandler	null	God Class
+com.hp.hpl.jena.rdf.arp.impl.XMLHandler	null	Data Class
+com.hp.hpl.jena.rdf.arp.impl.XMLHandler	null	Refused Parent Bequest
+com.hp.hpl.jena.rdf.arp.impl.XMLHandler	null	Tradition Breaker
+com.hp.hpl.jena.reasoner.rulesys.builtins.IsDType	isTypeOK	Dispersed Coupling
+com.hp.hpl.jena.rdf.model.Model	getResource	Shotgun Surgery
+com.hp.hpl.jena.rdf.model.Model	createResource	Shotgun Surgery
+com.hp.hpl.jena.rdf.model.Model	createResource	Shotgun Surgery
+com.hp.hpl.jena.rdf.model.Model	add	Shotgun Surgery
+com.hp.hpl.jena.rdf.model.Model	read	Shotgun Surgery
+com.hp.hpl.jena.rdf.model.Model	contains	Shotgun Surgery
+com.hp.hpl.jena.rdf.model.Model	listStatements	Shotgun Surgery
+com.hp.hpl.jena.rdf.model.Model	listStatements	Shotgun Surgery
+com.hp.hpl.jena.reasoner.rulesys.impl.BFRuleContext	contains	Feature Envy
+com.hp.hpl.jena.rdf.model.Resource	inModel	Shotgun Surgery
+com.hp.hpl.jena.rdf.model.Resource	getURI	Shotgun Surgery
+com.hp.hpl.jena.rdf.model.Resource	equals	Shotgun Surgery
+com.hp.hpl.jena.rdf.model.Resource	getRequiredProperty	Shotgun Surgery
+com.hp.hpl.jena.rdf.model.Resource	listProperties	Shotgun Surgery
+com.hp.hpl.jena.rdf.model.Resource	listProperties	Shotgun Surgery
+com.hp.hpl.jena.rdf.model.Resource	addProperty	Shotgun Surgery
+com.hp.hpl.jena.rdf.model.Resource	addProperty	Shotgun Surgery
+com.hp.hpl.jena.rdf.model.Resource	hasProperty	Shotgun Surgery
+com.hp.hpl.jena.rdf.model.Resource	hasProperty	Shotgun Surgery
+com.hp.hpl.jena.rdf.model.Resource	null	Data Class
+com.hp.hpl.jena.rdf.model.impl.AltImpl	null	Refused Parent Bequest
+com.hp.hpl.jena.reasoner.rulesys.BindingEnvironment	bind	Shotgun Surgery
+jena.schemagen$OptionDefinition	getResource	Dispersed Coupling
+com.hp.hpl.jena.rdf.model.impl.ContainerImpl	listContainerMembers	Dispersed Coupling
+com.hp.hpl.jena.rdf.model.impl.ContainerImpl	containerIndexOf	Feature Envy
+com.hp.hpl.jena.rdf.model.impl.ContainerImpl	null	God Class
+com.hp.hpl.jena.rdf.model.impl.ContainerImpl	null	Refused Parent Bequest
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveInfGraph	prepare	Feature Envy
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveInfGraph	null	Refused Parent Bequest
+com.hp.hpl.jena.db.impl.Driver_MySQL	null	Refused Parent Bequest
+com.hp.hpl.jena.util.iterator.NiceIterator	andThen	Feature Envy
+com.hp.hpl.jena.graph.Node	isConcrete	Shotgun Surgery
+com.hp.hpl.jena.graph.Node	isLiteral	Shotgun Surgery
+com.hp.hpl.jena.graph.Node	isBlank	Shotgun Surgery
+com.hp.hpl.jena.graph.Node	isURI	Shotgun Surgery
+com.hp.hpl.jena.graph.Node	isVariable	Shotgun Surgery
+com.hp.hpl.jena.graph.Node	getLiteralValue	Shotgun Surgery
+com.hp.hpl.jena.graph.Node	getLiteralLexicalForm	Shotgun Surgery
+com.hp.hpl.jena.graph.Node	getLiteralDatatype	Shotgun Surgery
+com.hp.hpl.jena.graph.Node	getURI	Shotgun Surgery
+com.hp.hpl.jena.graph.Node	equals	Shotgun Surgery
+com.hp.hpl.jena.graph.Node	sameValueAs	Shotgun Surgery
+com.hp.hpl.jena.graph.Node	matches	Shotgun Surgery
+com.hp.hpl.jena.graph.Node	toString	Shotgun Surgery
+com.hp.hpl.jena.graph.Node	null	God Class
+com.hp.hpl.jena.mem.GraphTripleStoreBase	find	Feature Envy
+com.hp.hpl.jena.graph.compose.MultiUnion	null	Refused Parent Bequest
+com.hp.hpl.jena.datatypes.xsd.XSDDuration	null	Refused Parent Bequest
+com.hp.hpl.jena.datatypes.xsd.XSDDuration	null	Tradition Breaker
+com.hp.hpl.jena.db.impl.ResultSetTripleIterator	extractRow	Feature Envy
+com.hp.hpl.jena.db.impl.ResultSetTripleIterator	null	Refused Parent Bequest
+com.hp.hpl.jena.datatypes.xsd.impl.XMLLiteralType	isValid	Feature Envy
+com.hp.hpl.jena.graph.query.PatternStageCompiler	compile	Feature Envy
+com.hp.hpl.jena.graph.query.PatternStageCompiler	compile	Intensive Coupling
+com.hp.hpl.jena.graph.compose.PolyadicPrefixMappingImpl	null	Refused Parent Bequest
+com.hp.hpl.jena.graph.impl.SimpleGraphMaker	null	Refused Parent Bequest
+com.hp.hpl.jena.datatypes.xsd.impl.XSDBaseNumericType	isValidLiteral	Feature Envy
+com.hp.hpl.jena.datatypes.xsd.impl.XSDBaseNumericType	isEqual	Feature Envy
+com.hp.hpl.jena.datatypes.xsd.impl.XSDBaseNumericType	null	Refused Parent Bequest
+com.hp.hpl.jena.xmloutput.impl.Basic	writePredicate	Feature Envy
+com.hp.hpl.jena.xmloutput.impl.Basic	writeLiteral	Feature Envy
+com.hp.hpl.jena.xmloutput.impl.Basic	null	Refused Parent Bequest
+com.hp.hpl.jena.reasoner.rulesys.builtins.BaseBuiltin	checkArgs	Shotgun Surgery
+com.hp.hpl.jena.reasoner.rulesys.builtins.BaseBuiltin	getArg	Shotgun Surgery
+com.hp.hpl.jena.ontology.impl.MaxCardinalityRestrictionImpl	setMaxCardinality	Feature Envy
+com.hp.hpl.jena.rdf.arp.JenaReader	read	Feature Envy
+com.hp.hpl.jena.rdf.arp.JenaReader	convert	Feature Envy
+com.hp.hpl.jena.rdf.arp.JenaReader	convert	Feature Envy
+com.hp.hpl.jena.rdf.arp.JenaReader	setProperty	Brain Method
+com.hp.hpl.jena.rdf.arp.JenaReader	setProperty	Feature Envy
+com.hp.hpl.jena.rdf.arp.JenaReader	setProperty	Dispersed Coupling
+com.hp.hpl.jena.rdf.arp.JenaReader	processArpOptions	Brain Method
+com.hp.hpl.jena.rdf.arp.JenaReader	processArpOptions	Feature Envy
+com.hp.hpl.jena.rdf.arp.JenaReader	processArpOptions	Intensive Coupling
+com.hp.hpl.jena.rdf.arp.JenaReader	null	God Class
+com.hp.hpl.jena.rdf.arp.JenaReader	null	Brain Class
+com.hp.hpl.jena.graph.impl.GraphMatcher$AnonStatement	AnonStatement	Feature Envy
+com.hp.hpl.jena.graph.impl.GraphMatcher$AnonStatement	AnonStatement	Dispersed Coupling
+com.hp.hpl.jena.db.impl.DBIDInt	getIntID	Shotgun Surgery
+com.hp.hpl.jena.shared.uuid.UUID_V4_Gen	parseV4	Feature Envy
+com.hp.hpl.jena.shared.uuid.UUID_V4_Gen	unparse	Feature Envy
+jena.dbcreate	exec0	Feature Envy
+com.hp.hpl.jena.rdf.model.SimpleSelector	test	Feature Envy
+com.hp.hpl.jena.rdf.arp.impl.ARPResource	null	Refused Parent Bequest
+com.hp.hpl.jena.ontology.impl.OntPropertyImpl	setSubProperty	Feature Envy
+com.hp.hpl.jena.ontology.impl.OntPropertyImpl	listDeclaringClasses	Dispersed Coupling
+com.hp.hpl.jena.ontology.impl.OntPropertyImpl	null	God Class
+com.hp.hpl.jena.ontology.impl.OntPropertyImpl	null	Data Class
+com.hp.hpl.jena.ontology.impl.OntPropertyImpl	null	Refused Parent Bequest
+com.hp.hpl.jena.db.impl.SpecializedGraph	find	Shotgun Surgery
+com.hp.hpl.jena.assembler.assemblers.RDBModelAssembler	null	Refused Parent Bequest
+com.hp.hpl.jena.reasoner.ReasonerRegistry	getRDFSSimpleReasoner	Feature Envy
+com.hp.hpl.jena.rdf.model.impl.NTripleReader	readLiteral	Brain Method
+com.hp.hpl.jena.rdf.model.impl.NTripleReader	readLiteral	Dispersed Coupling
+com.hp.hpl.jena.graph.FrontsTriple	asTriple	Shotgun Surgery
+com.hp.hpl.jena.ontology.impl.RestrictionImpl	convertToCardinalityRestriction	Feature Envy
+com.hp.hpl.jena.ontology.impl.RestrictionImpl	convertToMinCardinalityRestriction	Feature Envy
+com.hp.hpl.jena.ontology.impl.RestrictionImpl	convertToMaxCardinalityRestriction	Feature Envy
+com.hp.hpl.jena.ontology.impl.RestrictionImpl	null	Refused Parent Bequest
+com.hp.hpl.jena.graph.query.SimpleQueryPlan	executeBindings	Feature Envy
+com.hp.hpl.jena.assembler.assemblers.ModelAssembler	styleFor	Feature Envy
+com.hp.hpl.jena.assembler.assemblers.ModelAssembler	null	Refused Parent Bequest
+com.hp.hpl.jena.db.impl.Driver_Derby	null	Refused Parent Bequest
+com.hp.hpl.jena.db.GraphRDB	styleRDB	Feature Envy
+com.hp.hpl.jena.db.GraphRDB	GraphRDB	Dispersed Coupling
+com.hp.hpl.jena.db.GraphRDB	add	Feature Envy
+com.hp.hpl.jena.db.GraphRDB	delete	Feature Envy
+com.hp.hpl.jena.db.GraphRDB	graphBaseFind	Dispersed Coupling
+com.hp.hpl.jena.db.GraphRDB	null	God Class
+com.hp.hpl.jena.db.GraphRDB	null	Refused Parent Bequest
+com.hp.hpl.jena.reasoner.rulesys.RDFSRuleReasoner	doSetParameter	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.RDFSRuleReasoner	null	Refused Parent Bequest
+com.hp.hpl.jena.ontology.OntTools$LCAIndex	getLCA	Feature Envy
+com.hp.hpl.jena.rdf.arp.JenaHandler	useWith	Feature Envy
+com.hp.hpl.jena.rdf.arp.JenaHandler	null	Refused Parent Bequest
+com.hp.hpl.jena.rdf.arp.NTriple	mainEh	Dispersed Coupling
+com.hp.hpl.jena.rdf.arp.NTriple	lineNumber	Feature Envy
+com.hp.hpl.jena.rdf.arp.NTriple	usage	Feature Envy
+com.hp.hpl.jena.rdf.arp.NTriple	processOpts	Brain Method
+com.hp.hpl.jena.rdf.arp.NTriple	processOpts	Dispersed Coupling
+com.hp.hpl.jena.rdf.arp.NTriple	process	Feature Envy
+com.hp.hpl.jena.rdf.arp.NTriple	process	Dispersed Coupling
+com.hp.hpl.jena.rdf.arp.NTriple	null	God Class
+com.hp.hpl.jena.rdf.arp.NTriple	null	Brain Class
+com.hp.hpl.jena.util.LocatorURL	open	Intensive Coupling
+com.hp.hpl.jena.rdf.arp.states.WantLiteralValueOrDescription	startElement	Feature Envy
+com.hp.hpl.jena.assembler.exceptions.AssemblerException	getIncomingProperty	Feature Envy
+com.hp.hpl.jena.assembler.exceptions.AssemblerException	null	Refused Parent Bequest
+com.hp.hpl.jena.rdf.model.impl.SeqImpl	set	Feature Envy
+com.hp.hpl.jena.rdf.model.impl.SeqImpl	shiftUp	Feature Envy
+com.hp.hpl.jena.rdf.model.impl.SeqImpl	null	God Class
+com.hp.hpl.jena.rdf.model.impl.SeqImpl	null	Refused Parent Bequest
+com.hp.hpl.jena.rdf.model.impl.ResourceImpl	getRequiredProperty	Shotgun Surgery
+com.hp.hpl.jena.rdf.model.impl.ResourceImpl	addProperty	Shotgun Surgery
+com.hp.hpl.jena.rdf.model.impl.ResourceImpl	getModel	Shotgun Surgery
+com.hp.hpl.jena.rdf.model.impl.ResourceImpl	null	God Class
+com.hp.hpl.jena.rdf.model.impl.ResourceImpl	null	Data Class
+com.hp.hpl.jena.rdf.model.impl.ResourceImpl	null	Refused Parent Bequest
+com.hp.hpl.jena.mem.MixedGraphMemStore	add	Feature Envy
+com.hp.hpl.jena.mem.MixedGraphMemStore	remove	Feature Envy
+com.hp.hpl.jena.mem.MixedGraphMemStore	iterator	Dispersed Coupling
+com.hp.hpl.jena.mem.MixedGraphMemStore	iterator	Intensive Coupling
+com.hp.hpl.jena.db.impl.SQLCache	flushPreparedStatementCache	Dispersed Coupling
+com.hp.hpl.jena.db.impl.SQLCache	getSQLStatement	Feature Envy
+com.hp.hpl.jena.db.impl.SQLCache	getPreparedSQLStatement	Shotgun Surgery
+com.hp.hpl.jena.db.impl.SQLCache	returnPreparedSQLStatement	Shotgun Surgery
+com.hp.hpl.jena.db.impl.SQLCache	close	Dispersed Coupling
+com.hp.hpl.jena.db.impl.SQLCache	null	God Class
+com.hp.hpl.jena.graph.impl.LiteralLabel	getValue	Shotgun Surgery
+com.hp.hpl.jena.graph.impl.LiteralLabel	getDatatype	Shotgun Surgery
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEConflictSet	add	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEConflictSet	add	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEConflictSet	fireOne	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEConflictSet	execute	Brain Method
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEConflictSet	execute	Intensive Coupling
+com.hp.hpl.jena.reasoner.rulesys.RDFSFBRuleReasonerFactory	getCapabilities	Feature Envy
+com.hp.hpl.jena.util.OneToManyMap$Entry	equals	Feature Envy
+com.hp.hpl.jena.graph.GraphAdd	add	Shotgun Surgery
+com.hp.hpl.jena.reasoner.rulesys.FBRuleReasoner	null	God Class
+com.hp.hpl.jena.reasoner.rulesys.impl.RETETerminal	fire	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.impl.RETETerminal	clone	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.Rule$Parser	parseNode	Brain Method
+com.hp.hpl.jena.reasoner.rulesys.Rule$Parser	parseNode	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.Rule$Parser	parseNode	Intensive Coupling
+com.hp.hpl.jena.reasoner.rulesys.Rule$Parser	parseNumber	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.Rule$Parser	null	God Class
+com.hp.hpl.jena.graph.query.Expression$Util	null	God Class
+com.hp.hpl.jena.rdf.model.Literal	getLexicalForm	Shotgun Surgery
+com.hp.hpl.jena.rdf.model.Literal	getLanguage	Shotgun Surgery
+com.hp.hpl.jena.reasoner.rulesys.builtins.Product	bodyCall	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEQueue	fire	Dispersed Coupling
+com.hp.hpl.jena.rdf.model.impl.RDFListImpl	remove	Feature Envy
+com.hp.hpl.jena.rdf.model.impl.RDFListImpl	sameListAs	Feature Envy
+com.hp.hpl.jena.rdf.model.impl.RDFListImpl	null	God Class
+com.hp.hpl.jena.rdf.model.impl.RDFListImpl	null	Data Class
+com.hp.hpl.jena.rdf.model.impl.RDFListImpl	null	Refused Parent Bequest
+com.hp.hpl.jena.rdf.model.impl.RDFListImpl	null	Tradition Breaker
+com.hp.hpl.jena.graph.impl.ReificationWrapper	hasTriple	Feature Envy
+com.hp.hpl.jena.graph.impl.ReificationWrapper	tripleFromRSPO	Feature Envy
+com.hp.hpl.jena.graph.impl.ReificationWrapper	getTriple	Feature Envy
+com.hp.hpl.jena.graph.impl.ReificationWrapper	tripleFromSPO	Feature Envy
+com.hp.hpl.jena.graph.impl.ReificationWrapper	isReificationTriple	Feature Envy
+com.hp.hpl.jena.graph.impl.ReificationWrapper	null	Data Class
+com.hp.hpl.jena.db.impl.DBPattern	DBPattern	Feature Envy
+com.hp.hpl.jena.db.impl.DBPattern	null	God Class
+com.hp.hpl.jena.datatypes.xsd.AbstractDateTime	null	Data Class
+com.hp.hpl.jena.mem.SmallGraphMem	null	Refused Parent Bequest
+jena.schemagen$SchemagenOptionsImpl	getAllValues	Dispersed Coupling
+jena.schemagen$SchemagenOptionsImpl	null	God Class
+com.hp.hpl.jena.ontology.OntModel	getProfile	Shotgun Surgery
+com.hp.hpl.jena.ontology.OntModel	null	Data Class
+com.hp.hpl.jena.db.impl.DBPropGraph	DBPropGraph	Feature Envy
+com.hp.hpl.jena.db.impl.DBPropGraph	updatePrefixMaplet	Feature Envy
+com.hp.hpl.jena.db.impl.DBPropGraph	removePrefix	Feature Envy
+com.hp.hpl.jena.db.impl.DBPropGraph	null	God Class
+com.hp.hpl.jena.db.impl.DBPropGraph	null	Data Class
+com.hp.hpl.jena.db.impl.DBPropGraph	null	Refused Parent Bequest
+com.hp.hpl.jena.rdf.arp.impl.XMLContext	null	Refused Parent Bequest
+com.hp.hpl.jena.reasoner.rulesys.GenericRuleReasonerFactory	getCapabilities	Feature Envy
+com.hp.hpl.jena.shared.uuid.UUID_V1	null	Refused Parent Bequest
+com.hp.hpl.jena.util.MonitorGraph	snapshot	Feature Envy
+com.hp.hpl.jena.util.MonitorGraph	snapshot	Dispersed Coupling
+com.hp.hpl.jena.n3.turtle.parser.JavaCharStream	null	Data Class
+com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleInfGraph	extractAxioms	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleInfGraph	null	Data Class
+com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleInfGraph	null	Refused Parent Bequest
+com.hp.hpl.jena.util.LocationMapper	initFromPath	Dispersed Coupling
+com.hp.hpl.jena.util.LocationMapper	altMapping	Intensive Coupling
+com.hp.hpl.jena.util.LocationMapper	toModel	Feature Envy
+com.hp.hpl.jena.util.LocationMapper	processConfig	Dispersed Coupling
+com.hp.hpl.jena.util.LocationMapper	null	God Class
+com.hp.hpl.jena.util.LocationMapper	null	Data Class
+com.hp.hpl.jena.shared.uuid.UUID_V1_Gen	parse	Feature Envy
+com.hp.hpl.jena.shared.uuid.UUID_V1_Gen	unparse	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.impl.BBRuleContext	contains	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.impl.ConsumerChoicePointFrame	null	Refused Parent Bequest
+com.hp.hpl.jena.reasoner.rulesys.impl.ConsumerChoicePointFrame	null	Tradition Breaker
+com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	resetTGCCache	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	prepare	Brain Method
+com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	prepare	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	performAdd	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	validate	Intensive Coupling
+com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	checkLiteral	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	getDTRange	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	accept	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	null	God Class
+com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	null	Brain Class
+com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	null	Data Class
+com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	null	Refused Parent Bequest
+com.hp.hpl.jena.reasoner.rulesys.builtins.ListMapAsSubject	headAction	Feature Envy
+com.hp.hpl.jena.graph.query.Rewrite	rewriteStringMatch	Feature Envy
+com.hp.hpl.jena.assembler.assemblers.ModelSourceAssembler	open	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.impl.TempNodeCache	getTemp	Dispersed Coupling
+com.hp.hpl.jena.ontology.OntResource	null	Data Class
+com.hp.hpl.jena.reasoner.rulesys.RDFSRuleReasonerFactory	getCapabilities	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.OWLMicroReasonerFactory	create	Feature Envy
+com.hp.hpl.jena.mem.HashedTripleBunch	null	Refused Parent Bequest
+com.hp.hpl.jena.mem.HashedTripleBunch	null	Tradition Breaker
+com.hp.hpl.jena.assembler.AssemblerHelp	getString	Feature Envy
+com.hp.hpl.jena.assembler.AssemblerHelp	null	God Class
+com.hp.hpl.jena.reasoner.rulesys.RuleDerivation	printTrace	Dispersed Coupling
+com.hp.hpl.jena.util.LocatorClassLoader	open	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.impl.OWLRuleTranslationHook	run	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.impl.OWLRuleTranslationHook	translateIntersectionList	Feature Envy
+com.hp.hpl.jena.ontology.impl.OntClassImpl	setSubClass	Feature Envy
+com.hp.hpl.jena.ontology.impl.OntClassImpl	hasSubClass	Feature Envy
+com.hp.hpl.jena.ontology.impl.OntClassImpl	listDeclaredProperties	Dispersed Coupling
+com.hp.hpl.jena.ontology.impl.OntClassImpl	isHierarchyRoot	Feature Envy
+com.hp.hpl.jena.ontology.impl.OntClassImpl	isRestriction	Feature Envy
+com.hp.hpl.jena.ontology.impl.OntClassImpl	convertToRestriction	Feature Envy
+com.hp.hpl.jena.ontology.impl.OntClassImpl	testDomain	Dispersed Coupling
+com.hp.hpl.jena.ontology.impl.OntClassImpl	listAllProperties	Dispersed Coupling
+com.hp.hpl.jena.ontology.impl.OntClassImpl	canProveSuperClass	Dispersed Coupling
+com.hp.hpl.jena.ontology.impl.OntClassImpl	null	God Class
+com.hp.hpl.jena.ontology.impl.OntClassImpl	null	Data Class
+com.hp.hpl.jena.ontology.impl.OntClassImpl	null	Refused Parent Bequest
+com.hp.hpl.jena.rdf.arp.impl.AttributeLexer	processSpecials	Brain Method
+com.hp.hpl.jena.rdf.arp.impl.AttributeLexer	processSpecials	Dispersed Coupling
+com.hp.hpl.jena.rdf.arp.impl.AttributeLexer	null	God Class
+com.hp.hpl.jena.rdf.arp.impl.AttributeLexer	null	Data Class
+com.hp.hpl.jena.rdf.arp.impl.SAX2RDFImpl	null	Refused Parent Bequest
+com.hp.hpl.jena.graph.impl.FileGraph	null	Refused Parent Bequest
+com.hp.hpl.jena.graph.Node_Literal	null	Refused Parent Bequest
+com.hp.hpl.jena.shared.LockMRSW$LockState	clean	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleInfGraph	null	God Class
+com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleInfGraph	null	Data Class
+com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleInfGraph	null	Refused Parent Bequest
+com.hp.hpl.jena.reasoner.Finder	find	Shotgun Surgery
+com.hp.hpl.jena.assembler.Assembler	open	Shotgun Surgery
+com.hp.hpl.jena.n3.turtle.ParserBase	unescape	Brain Method
+com.hp.hpl.jena.n3.turtle.ParserBase	null	God Class
+com.hp.hpl.jena.datatypes.xsd.XSDhexBinary	isEqual	Feature Envy
+com.hp.hpl.jena.db.impl.SpecializedGraph$CompletionFlag	isDone	Shotgun Surgery
+com.hp.hpl.jena.xmloutput.impl.Unparser	Unparser	Dispersed Coupling
+com.hp.hpl.jena.xmloutput.impl.Unparser	wPropertyEltDatatype	Feature Envy
+com.hp.hpl.jena.xmloutput.impl.Unparser	wTypedNodeOrDescription	Dispersed Coupling
+com.hp.hpl.jena.xmloutput.impl.Unparser	tab	Feature Envy
+com.hp.hpl.jena.xmloutput.impl.Unparser	hasProperties	Dispersed Coupling
+com.hp.hpl.jena.xmloutput.impl.Unparser	canBeAttribute	Dispersed Coupling
+com.hp.hpl.jena.xmloutput.impl.Unparser	getDamlList	Feature Envy
+com.hp.hpl.jena.xmloutput.impl.Unparser	getRDFList	Feature Envy
+com.hp.hpl.jena.xmloutput.impl.Unparser	getList	Dispersed Coupling
+com.hp.hpl.jena.xmloutput.impl.Unparser	findInfiniteCycles	Feature Envy
+com.hp.hpl.jena.xmloutput.impl.Unparser	findInfiniteCycles	Dispersed Coupling
+com.hp.hpl.jena.xmloutput.impl.Unparser	pleasingTypeIterator	Dispersed Coupling
+com.hp.hpl.jena.xmloutput.impl.Unparser	null	God Class
+com.hp.hpl.jena.reasoner.rulesys.builtins.Sum	bodyCall	Dispersed Coupling
+com.hp.hpl.jena.rdf.model.impl.PropertyImpl	computeOrdinal	Feature Envy
+com.hp.hpl.jena.rdf.model.impl.PropertyImpl	null	Refused Parent Bequest
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache	addRelation	Intensive Coupling
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache	processDeletes	Intensive Coupling
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache	find	Feature Envy
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache	find	Intensive Coupling
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache	null	God Class
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache	null	Data Class
+com.hp.hpl.jena.graph.FrontsNode	asNode	Shotgun Surgery
+com.hp.hpl.jena.reasoner.TriplePattern	getObject	Shotgun Surgery
+com.hp.hpl.jena.reasoner.TriplePattern	getPredicate	Shotgun Surgery
+com.hp.hpl.jena.reasoner.TriplePattern	getSubject	Shotgun Surgery
+com.hp.hpl.jena.reasoner.TriplePattern	simplePrintString	Feature Envy
+com.hp.hpl.jena.reasoner.TriplePattern	simplePrintString	Dispersed Coupling
+com.hp.hpl.jena.reasoner.TriplePattern	null	Data Class
+com.hp.hpl.jena.reasoner.rulesys.builtins.Regex	bodyCall	Dispersed Coupling
+com.hp.hpl.jena.ontology.impl.HasValueRestrictionImpl	getHasValue	Feature Envy
+com.hp.hpl.jena.db.impl.ReificationCacheMap	load	Intensive Coupling
+com.hp.hpl.jena.vocabulary.DAML_OIL	null	Data Class
+com.hp.hpl.jena.graph.query.regexptrees.PerlPatternParser	parseAtom	Feature Envy
+com.hp.hpl.jena.graph.query.regexptrees.PerlPatternParser	parseBackslash	Feature Envy
+com.hp.hpl.jena.graph.query.regexptrees.PerlPatternParser	parseQuantifier	Feature Envy
+com.hp.hpl.jena.graph.query.regexptrees.PerlPatternParser	null	God Class
+com.hp.hpl.jena.graph.query.regexptrees.PerlPatternParser	null	Data Class
+com.hp.hpl.jena.datatypes.xsd.XSDDateTime	getNarrowedDatatype	Feature Envy
+com.hp.hpl.jena.datatypes.xsd.XSDDateTime	narrowType	Feature Envy
+com.hp.hpl.jena.datatypes.xsd.XSDDateTime	convertCalendar	Feature Envy
+com.hp.hpl.jena.datatypes.xsd.XSDDateTime	asCalendar	Feature Envy
+com.hp.hpl.jena.datatypes.xsd.XSDDateTime	null	Refused Parent Bequest
+com.hp.hpl.jena.datatypes.xsd.XSDDateTime	null	Tradition Breaker
+com.hp.hpl.jena.graph.TripleMatch	asTriple	Shotgun Surgery
+com.hp.hpl.jena.enhanced.EnhNode	asNode	Shotgun Surgery
+com.hp.hpl.jena.enhanced.EnhNode	getGraph	Shotgun Surgery
+com.hp.hpl.jena.enhanced.EnhNode	null	Refused Parent Bequest
+com.hp.hpl.jena.reasoner.rulesys.builtins.Drop	headAction	Dispersed Coupling
+com.hp.hpl.jena.shared.PrefixMapping	setNsPrefix	Shotgun Surgery
+com.hp.hpl.jena.shared.PrefixMapping	setNsPrefixes	Shotgun Surgery
+com.hp.hpl.jena.shared.PrefixMapping	getNsPrefixMap	Shotgun Surgery
+jena.util.DBcmd	exec	Dispersed Coupling
+jena.util.DBcmd	null	God Class
+com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	rowCount	Intensive Coupling
+com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	getPreparedStatement	Feature Envy
+com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	storeTripleAR	Dispersed Coupling
+com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	storeTripleList	Brain Method
+com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	storeTripleList	Dispersed Coupling
+com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	deleteTripleList	Brain Method
+com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	deleteTripleList	Dispersed Coupling
+com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	find	Dispersed Coupling
+com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	null	God Class
+com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	null	Brain Class
+com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	null	Data Class
+com.hp.hpl.jena.rdf.arp.impl.XMLBaselessContext	null	Refused Parent Bequest
+com.hp.hpl.jena.util.PrintUtil	print	Feature Envy
+com.hp.hpl.jena.util.PrintUtil	print	Intensive Coupling
+com.hp.hpl.jena.util.PrintUtil	print	Feature Envy
+com.hp.hpl.jena.util.PrintUtil	print	Feature Envy
+com.hp.hpl.jena.db.IDBConnection	getConnection	Shotgun Surgery
+com.hp.hpl.jena.rdf.arp.SAX2Model	null	Refused Parent Bequest
+com.hp.hpl.jena.ontology.OntDocumentManager	unloadImports	Dispersed Coupling
+com.hp.hpl.jena.ontology.OntDocumentManager	queueImports	Dispersed Coupling
+com.hp.hpl.jena.ontology.OntDocumentManager	processMetadata	Dispersed Coupling
+com.hp.hpl.jena.ontology.OntDocumentManager	fetchLoadedImportModel	Feature Envy
+com.hp.hpl.jena.ontology.OntDocumentManager	null	God Class
+com.hp.hpl.jena.util.tuple.TupleSet	tuple	Brain Method
+com.hp.hpl.jena.util.tuple.TupleSet	tuple	Feature Envy
+com.hp.hpl.jena.util.tuple.TupleSet	tuple	Dispersed Coupling
+com.hp.hpl.jena.util.tuple.TupleSet	null	God Class
+com.hp.hpl.jena.db.impl.DBQueryStage	extendSourceBinding	Dispersed Coupling
+com.hp.hpl.jena.db.impl.DBQueryStage	null	Refused Parent Bequest
+com.hp.hpl.jena.graph.query.Expression$Util	equals	Feature Envy
+com.hp.hpl.jena.graph.impl.FileGraphMaker	null	Refused Parent Bequest
+com.hp.hpl.jena.rdf.arp.states.WantPropertyElement	startElement	Feature Envy
+com.hp.hpl.jena.rdf.arp.states.WantPropertyElement	startElement	Dispersed Coupling
+com.hp.hpl.jena.rdf.arp.states.WantPropertyElement	mustBeEmpty	Feature Envy
+com.hp.hpl.jena.rdf.arp.states.WantPropertyElement	rdf_n	Feature Envy
+com.hp.hpl.jena.rdf.arp.states.WantPropertyElement	descriptionOfCases	Feature Envy
+com.hp.hpl.jena.rdf.arp.states.WantPropertyElement	pairwiseIncompatibleErrorMessage	Feature Envy
+com.hp.hpl.jena.rdf.arp.states.WantPropertyElement	complicatedErrorMessage	Feature Envy
+com.hp.hpl.jena.rdf.arp.states.WantPropertyElement	propertyAttributeDescription	Feature Envy
+com.hp.hpl.jena.rdf.arp.states.WantPropertyElement	null	God Class
+com.hp.hpl.jena.rdf.arp.states.WantPropertyElement	null	Refused Parent Bequest
+com.hp.hpl.jena.datatypes.xsd.impl.XSDDouble	parseValidated	Feature Envy
+com.hp.hpl.jena.datatypes.xsd.impl.XSDDouble	isEqual	Feature Envy
+com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster	null	Refused Parent Bequest
+com.hp.hpl.jena.util.ModelQueryUtil	queryBindingsWith	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.impl.RETERuleContext	contains	Feature Envy
+com.hp.hpl.jena.ontology.impl.OntModelImpl	listIndividuals	Dispersed Coupling
+com.hp.hpl.jena.ontology.impl.OntModelImpl	listHierarchyRootClasses	Dispersed Coupling
+com.hp.hpl.jena.ontology.impl.OntModelImpl	listImportedOntologyURIs	Dispersed Coupling
+com.hp.hpl.jena.ontology.impl.OntModelImpl	isInBaseModel	Feature Envy
+com.hp.hpl.jena.ontology.impl.OntModelImpl	isInBaseModel	Feature Envy
+com.hp.hpl.jena.ontology.impl.OntModelImpl	queryFor	Dispersed Coupling
+com.hp.hpl.jena.ontology.impl.OntModelImpl	getReasoner	Feature Envy
+com.hp.hpl.jena.ontology.impl.OntModelImpl	setDerivationLogging	Feature Envy
+com.hp.hpl.jena.ontology.impl.OntModelImpl	getDerivation	Feature Envy
+com.hp.hpl.jena.ontology.impl.OntModelImpl	queryXTypeOfType	Feature Envy
+com.hp.hpl.jena.ontology.impl.OntModelImpl	null	God Class
+com.hp.hpl.jena.ontology.impl.OntModelImpl	null	Data Class
+com.hp.hpl.jena.ontology.impl.OntModelImpl	null	Refused Parent Bequest
+com.hp.hpl.jena.reasoner.rulesys.Builtin	getName	Shotgun Surgery
+com.hp.hpl.jena.db.DBConnection	getDefaultModelProperties	Feature Envy
+com.hp.hpl.jena.db.DBConnection	copySpecializedGraphToModel	Feature Envy
+com.hp.hpl.jena.graph.impl.LiteralLabelImpl	equals	Feature Envy
+com.hp.hpl.jena.assembler.assemblers.AssemblerBase	checkType	Shotgun Surgery
+com.hp.hpl.jena.xmloutput.impl.Relation	copy	Feature Envy
+com.hp.hpl.jena.xmloutput.impl.Relation	pairEntry	Feature Envy
+com.hp.hpl.jena.xmloutput.impl.Relation	iterator	Feature Envy
+com.hp.hpl.jena.db.impl.DBProp	putPropString	Shotgun Surgery
+com.hp.hpl.jena.db.impl.DBProp	getPropString	Shotgun Surgery
+com.hp.hpl.jena.ontology.impl.MinCardinalityQRestrictionImpl	setMinCardinalityQ	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.RuleContext	getEnv	Shotgun Surgery
+com.hp.hpl.jena.db.impl.DBQueryHandler	patternStageWithFullpath	Intensive Coupling
+com.hp.hpl.jena.db.impl.DBQueryHandler	attemptJoiningOthers	Intensive Coupling
+com.hp.hpl.jena.db.impl.DBQueryHandler	findCheapPattern	Feature Envy
+com.hp.hpl.jena.db.impl.DBQueryHandler	associateWithSources	Feature Envy
+com.hp.hpl.jena.db.impl.DBQueryHandler	setQueryOnlyReified	Feature Envy
+com.hp.hpl.jena.db.impl.DBQueryHandler	findConstraints	Dispersed Coupling
+com.hp.hpl.jena.db.impl.DBQueryHandler	dbPartiallyHandlesExpression	Feature Envy
+com.hp.hpl.jena.db.impl.DBQueryHandler	null	God Class
+com.hp.hpl.jena.db.impl.DBQueryHandler	null	Refused Parent Bequest
+com.hp.hpl.jena.db.impl.DBQueryHandler	null	Tradition Breaker
+com.hp.hpl.jena.graph.Graph	queryHandler	Shotgun Surgery
+com.hp.hpl.jena.graph.Graph	getBulkUpdateHandler	Shotgun Surgery
+com.hp.hpl.jena.graph.Graph	getEventManager	Shotgun Surgery
+com.hp.hpl.jena.graph.Graph	getReifier	Shotgun Surgery
+com.hp.hpl.jena.graph.Graph	getPrefixMapping	Shotgun Surgery
+com.hp.hpl.jena.graph.Graph	delete	Shotgun Surgery
+com.hp.hpl.jena.graph.Graph	find	Shotgun Surgery
+com.hp.hpl.jena.graph.Graph	find	Shotgun Surgery
+com.hp.hpl.jena.graph.Graph	contains	Shotgun Surgery
+com.hp.hpl.jena.graph.Graph	contains	Shotgun Surgery
+com.hp.hpl.jena.graph.Graph	size	Shotgun Surgery
+com.hp.hpl.jena.xmloutput.impl.Abbreviated	null	Refused Parent Bequest
+com.hp.hpl.jena.assembler.assemblers.FileModelAssembler	getLanguage	Feature Envy
+com.hp.hpl.jena.assembler.assemblers.FileModelAssembler	getBoolean	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEClauseFilter	compile	Brain Method
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEClauseFilter	compile	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEClauseFilter	fire	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEClauseFilter	getTripleValue	Feature Envy
+com.hp.hpl.jena.util.URIref	encode	Brain Method
+com.hp.hpl.jena.util.URIref	decode	Feature Envy
+com.hp.hpl.jena.util.URIref	null	God Class
+com.hp.hpl.jena.db.impl.Free	null	Refused Parent Bequest
+com.hp.hpl.jena.db.impl.DBReifierGraph	null	Data Class
+com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$Frame	warning	Shotgun Surgery
+com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$Frame	processPropertyAttributes	Feature Envy
+com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$Frame	processPropertyAttributes	Dispersed Coupling
+com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$Frame	null	Refused Parent Bequest
+com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$Frame	null	Tradition Breaker
+com.hp.hpl.jena.assembler.ModelExpansion	addSubclassesFrom	Feature Envy
+com.hp.hpl.jena.assembler.ModelExpansion	addRangeTypes	Dispersed Coupling
+com.hp.hpl.jena.assembler.ModelExpansion	addSupertypes	Dispersed Coupling
+com.hp.hpl.jena.graph.GraphExtract$Extraction	extractInto	Feature Envy
+com.hp.hpl.jena.graph.GraphExtract$Extraction	extractInto	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.impl.RDFSCMPPreprocessHook	run	Dispersed Coupling
+com.hp.hpl.jena.n3.turtle.TurtleRDFGraphInserter	triple	Feature Envy
+com.hp.hpl.jena.graph.NodeCache	get	Feature Envy
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveEngine	cacheSubClassUtility	Feature Envy
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveEngine	cacheSubPropUtility	Feature Envy
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveEngine	cacheSubPropUtility	Dispersed Coupling
+com.hp.hpl.jena.rdf.arp.impl.Taint	isTainted	Shotgun Surgery
+com.hp.hpl.jena.util.FileManager	readModelWorker	Feature Envy
+com.hp.hpl.jena.util.FileManager	readModelWorker	Dispersed Coupling
+com.hp.hpl.jena.util.FileManager	null	God Class
+com.hp.hpl.jena.util.FileManager	null	Data Class
+com.hp.hpl.jena.graph.query.StageElement	run	Shotgun Surgery
+com.hp.hpl.jena.reasoner.rulesys.OWLFBRuleReasoner	bind	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.OWLFBRuleReasoner	getPreload	Feature Envy
+com.hp.hpl.jena.reasoner.BaseInfGraph	graphBaseFind	Feature Envy
+com.hp.hpl.jena.reasoner.BaseInfGraph	null	God Class
+com.hp.hpl.jena.reasoner.BaseInfGraph	null	Refused Parent Bequest
+com.hp.hpl.jena.reasoner.rulesys.impl.LPTopGoalIterator	moveForward	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine	setRuleStore	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine	addSet	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine	compile	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine	findAndProcessAxioms	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine	findAndProcessActions	Intensive Coupling
+com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine	matchRuleBody	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine	matchClauseList	Brain Method
+com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine	matchClauseList	Intensive Coupling
+com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine	match	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine	match	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine	null	God Class
+com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine	null	Brain Class
+com.hp.hpl.jena.rdf.model.StmtIterator	nextStatement	Shotgun Surgery
+com.hp.hpl.jena.graph.impl.SimpleReifier	addFragment	Feature Envy
+com.hp.hpl.jena.graph.impl.SimpleReifier	null	Data Class
+com.hp.hpl.jena.graph.impl.SimpleReifierTripleMap	allTriples	Dispersed Coupling
+com.hp.hpl.jena.graph.query.QueryTriple	classify	Feature Envy
+com.hp.hpl.jena.graph.query.QueryTriple	createMatcher	Feature Envy
+com.hp.hpl.jena.graph.query.Query	addConstraint	Feature Envy
+com.hp.hpl.jena.ontology.impl.MaxCardinalityQRestrictionImpl	setMaxCardinalityQ	Feature Envy
+com.hp.hpl.jena.db.impl.Driver_Oracle	null	Refused Parent Bequest
+com.hp.hpl.jena.reasoner.rulesys.impl.LPRuleStore	codeFor	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.impl.LPRuleStore	codeFor	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.impl.LPRuleStore	compileAll	Brain Method
+com.hp.hpl.jena.reasoner.rulesys.impl.LPRuleStore	compileAll	Intensive Coupling
+com.hp.hpl.jena.reasoner.rulesys.impl.LPRuleStore	null	Refused Parent Bequest
+com.hp.hpl.jena.reasoner.rulesys.impl.LPRuleStore	null	Tradition Breaker
+com.hp.hpl.jena.db.impl.ResultSetReifIterator	null	God Class
+com.hp.hpl.jena.db.impl.ResultSetReifIterator	null	Refused Parent Bequest
+com.hp.hpl.jena.util.OneToManyMap	entrySet	Feature Envy
+com.hp.hpl.jena.util.OneToManyMap	entrySet	Dispersed Coupling
+com.hp.hpl.jena.util.OneToManyMap	toString	Intensive Coupling
+com.hp.hpl.jena.rdf.model.impl.ModelCom	getGraph	Shotgun Surgery
+com.hp.hpl.jena.rdf.model.impl.ModelCom	addNamespaces	Dispersed Coupling
+com.hp.hpl.jena.rdf.model.impl.ModelCom	add	Feature Envy
+com.hp.hpl.jena.rdf.model.impl.ModelCom	findTriplesFrom	Feature Envy
+com.hp.hpl.jena.rdf.model.impl.ModelCom	null	God Class
+com.hp.hpl.jena.rdf.model.impl.ModelCom	null	Data Class
+com.hp.hpl.jena.rdf.model.impl.ModelCom	null	Refused Parent Bequest
+com.hp.hpl.jena.rdf.arp.states.AbsXMLLiteral	startElement	Intensive Coupling
+com.hp.hpl.jena.rdf.arp.states.AbsXMLLiteral	null	Refused Parent Bequest
+com.hp.hpl.jena.graph.impl.GraphMatcher	match	Dispersed Coupling
+com.hp.hpl.jena.graph.impl.GraphMatcher	prepare	Dispersed Coupling
+com.hp.hpl.jena.graph.impl.GraphMatcher	rehash0	Feature Envy
+com.hp.hpl.jena.graph.impl.GraphMatcher	rehash0	Dispersed Coupling
+com.hp.hpl.jena.graph.impl.GraphMatcher	null	God Class
+com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode$CompileState	emitBindingTests	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode$CompileState	aIndex	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode$CompileState	emitHead	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode$CompileState	emitHeadGet	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode$CompileState	emitBody	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode$CompileState	emitBody	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode$CompileState	emitBodyPut	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode$CompileState	classifyVariables	Brain Method
+com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode$CompileState	classifyVariables	Intensive Coupling
+com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode$CompileState	termVars	Dispersed Coupling
+com.hp.hpl.jena.shared.wg.TestInputStreamFactory	open	Feature Envy
+com.hp.hpl.jena.shared.wg.TestInputStreamFactory	open	Dispersed Coupling
+com.hp.hpl.jena.ontology.impl.CardinalityRestrictionImpl	setCardinality	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.impl.LPBRuleEngine	checkSafeToUpdate	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.impl.LPBRuleEngine	pump	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.impl.LPBRuleEngine	printProfile	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.impl.LPBRuleEngine	printProfile	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.impl.LPBRuleEngine	null	God Class
+com.hp.hpl.jena.reasoner.rulesys.impl.LPBRuleEngine	null	Data Class
+com.hp.hpl.jena.mem.MixedGraphMem	graphBaseFind	Feature Envy
+com.hp.hpl.jena.mem.MixedGraphMem	graphBaseFind	Intensive Coupling
+com.hp.hpl.jena.mem.MixedGraphMem	null	Refused Parent Bequest
+com.hp.hpl.jena.ontology.OntTools	findShortestPath	Dispersed Coupling
+com.hp.hpl.jena.ontology.OntTools	lca	Dispersed Coupling
+com.hp.hpl.jena.ontology.OntTools	checkSolution	Feature Envy
+com.hp.hpl.jena.ontology.OntTools	partitionByNamed	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.builtins.CountLiteralValues	bodyCall	Dispersed Coupling
+com.hp.hpl.jena.util.QueryMapper	toQueryTriple	Feature Envy
+com.hp.hpl.jena.mem.faster.FasterTripleStore	FasterTripleStore	Feature Envy
+com.hp.hpl.jena.mem.faster.FasterTripleStore	containsApplyer	Feature Envy
+com.hp.hpl.jena.mem.faster.FasterTripleStore	varSvarOApplyer	Feature Envy
+com.hp.hpl.jena.mem.faster.FasterTripleStore	varSvarOApplyer	Dispersed Coupling
+com.hp.hpl.jena.db.ModelRDB	null	Refused Parent Bequest
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine	compile	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine	inject	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine	findAndProcessAxioms	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine	findAndProcessAxioms	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine	findAndProcessActions	Intensive Coupling
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine	null	God Class
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine	null	Data Class
+com.hp.hpl.jena.assembler.assemblers.AssemblerGroup	copy	Feature Envy
+com.hp.hpl.jena.ontology.impl.DAML_OILLegacyProfile	null	God Class
+com.hp.hpl.jena.ontology.impl.DAML_OILLegacyProfile	null	Data Class
+com.hp.hpl.jena.ontology.impl.DAML_OILLegacyProfile	null	Refused Parent Bequest
+com.hp.hpl.jena.n3.turtle.parser.TurtleParser	Directive	Feature Envy
+com.hp.hpl.jena.n3.turtle.parser.TurtleParser	Verb	Feature Envy
+com.hp.hpl.jena.n3.turtle.parser.TurtleParser	Collection	Feature Envy
+com.hp.hpl.jena.n3.turtle.parser.TurtleParser	Formula	Feature Envy
+com.hp.hpl.jena.n3.turtle.parser.TurtleParser	Var	Feature Envy
+com.hp.hpl.jena.n3.turtle.parser.TurtleParser	NumericLiteral	Feature Envy
+com.hp.hpl.jena.n3.turtle.parser.TurtleParser	String	Feature Envy
+com.hp.hpl.jena.n3.turtle.parser.TurtleParser	PrefixedName	Feature Envy
+com.hp.hpl.jena.n3.turtle.parser.TurtleParser	BlankNode	Feature Envy
+com.hp.hpl.jena.n3.turtle.parser.TurtleParser	IRI_REF	Feature Envy
+com.hp.hpl.jena.n3.turtle.parser.TurtleParser	jj_consume_token	Feature Envy
+com.hp.hpl.jena.n3.turtle.parser.TurtleParser	getNextToken	Feature Envy
+com.hp.hpl.jena.n3.turtle.parser.TurtleParser	getToken	Feature Envy
+com.hp.hpl.jena.n3.turtle.parser.TurtleParser	jj_ntk	Feature Envy
+com.hp.hpl.jena.n3.turtle.parser.TurtleParser	null	Data Class
+com.hp.hpl.jena.n3.turtle.parser.TurtleParser	null	Refused Parent Bequest
+com.hp.hpl.jena.n3.turtle.parser.TurtleParser	null	Tradition Breaker
+com.hp.hpl.jena.graph.query.SimpleTripleSorter	bindingCount	Feature Envy
+com.hp.hpl.jena.graph.query.SimpleTripleSorter	bindingCount	Feature Envy
+com.hp.hpl.jena.graph.query.SimpleTripleSorter	bind	Feature Envy
+com.hp.hpl.jena.graph.query.SimpleTripleSorter	weight	Feature Envy
+com.hp.hpl.jena.graph.query.Expression$Util	variablesOf	Feature Envy
+com.hp.hpl.jena.db.impl.DBPrefixMappingImpl	DBPrefixMappingImpl	Feature Envy
+com.hp.hpl.jena.db.impl.DBPrefixMappingImpl	setNsPrefixes	Feature Envy
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache$FullGraphWalker	walkOne	Feature Envy
+jena.rdfcopy	main	Dispersed Coupling
+jena.rdfcopy	usage	Feature Envy
+com.hp.hpl.jena.assembler.assemblers.OntModelSpecAssembler	getOntModelSpecField	Feature Envy
+com.hp.hpl.jena.assembler.assemblers.OntModelSpecAssembler	null	Refused Parent Bequest
+com.hp.hpl.jena.reasoner.rulesys.builtins.Print	print	Feature Envy
+com.hp.hpl.jena.db.impl.Driver_Oracle_LOB	addRDBLongObject	Dispersed Coupling
+com.hp.hpl.jena.db.impl.Driver_Oracle_LOB	IDtoLongObject	Dispersed Coupling
+com.hp.hpl.jena.db.impl.Driver_Oracle_LOB	null	Refused Parent Bequest
+com.hp.hpl.jena.assembler.assemblers.ContentAssembler	getModelName	Feature Envy
+com.hp.hpl.jena.assembler.assemblers.ContentAssembler	null	Refused Parent Bequest
+com.hp.hpl.jena.reasoner.rulesys.OWLFBRuleReasonerFactory	create	Feature Envy
+com.hp.hpl.jena.mem.faster.GraphMemFaster	matchesReification	Feature Envy
+com.hp.hpl.jena.mem.faster.GraphMemFaster	withReification	Feature Envy
+com.hp.hpl.jena.mem.faster.GraphMemFaster	null	Refused Parent Bequest
+com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph$RuleStore	addRemoveRule	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph$RuleStore	addRemoveRule	Intensive Coupling
+com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph$RuleStore	doAddRemoveRule	Dispersed Coupling
+com.hp.hpl.jena.db.impl.DBPropDatabase	null	Refused Parent Bequest
+com.hp.hpl.jena.reasoner.rulesys.Node_RuleVariable	getIndex	Shotgun Surgery
+com.hp.hpl.jena.reasoner.rulesys.Node_RuleVariable	null	Refused Parent Bequest
+com.hp.hpl.jena.reasoner.rulesys.builtins.MakeSkolem	bodyCall	Intensive Coupling
+com.hp.hpl.jena.reasoner.rulesys.impl.GenericTripleMatchFrame	bindResult	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.impl.GenericTripleMatchFrame	functorMatch	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.impl.GenericTripleMatchFrame	init	Feature Envy
+com.hp.hpl.jena.ontology.impl.MinCardinalityRestrictionImpl	setMinCardinality	Feature Envy
+com.hp.hpl.jena.util.FileUtils	openResourceFileAsStream	Feature Envy
+com.hp.hpl.jena.util.FileUtils	null	God Class
+com.hp.hpl.jena.util.FileUtils	null	Data Class
+com.hp.hpl.jena.graph.GraphListener	notifyEvent	Shotgun Surgery
+com.hp.hpl.jena.mem.faster.GraphMemFaster$GraphMemFasterStatisticsHandler	getStatistic	Feature Envy
+com.hp.hpl.jena.reasoner.ReasonerFactory	create	Shotgun Surgery
+com.hp.hpl.jena.reasoner.ReasonerFactory	getCapabilities	Shotgun Surgery
+com.hp.hpl.jena.reasoner.ReasonerFactory	getURI	Shotgun Surgery
+com.hp.hpl.jena.rdf.model.impl.LiteralImpl	null	God Class
+com.hp.hpl.jena.rdf.model.impl.LiteralImpl	null	Refused Parent Bequest
+com.hp.hpl.jena.ontology.impl.DAML_OILProfile	null	God Class
+com.hp.hpl.jena.ontology.impl.DAML_OILProfile	null	Data Class
+com.hp.hpl.jena.ontology.impl.DAML_OILProfile	null	Refused Parent Bequest
+com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreter	LPInterpreter	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreter	next	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreter	getEngine	Shotgun Surgery
+com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreter	run	Brain Method
+com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreter	run	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreter	deref	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreter	null	God Class
+com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreter	null	Brain Class
+com.hp.hpl.jena.db.impl.PSet_ReifStore_RDB	findReifStmt	Dispersed Coupling
+com.hp.hpl.jena.db.impl.PSet_ReifStore_RDB	findReifTripleMatch	Brain Method
+com.hp.hpl.jena.db.impl.PSet_ReifStore_RDB	findReifTripleMatch	Dispersed Coupling
+com.hp.hpl.jena.db.impl.PSet_ReifStore_RDB	findReifStmtURIByTriple	Dispersed Coupling
+com.hp.hpl.jena.db.impl.PSet_ReifStore_RDB	storeFrag	Feature Envy
+com.hp.hpl.jena.db.impl.PSet_ReifStore_RDB	updateOneFrag	Brain Method
+com.hp.hpl.jena.db.impl.PSet_ReifStore_RDB	updateOneFrag	Dispersed Coupling
+com.hp.hpl.jena.db.impl.PSet_ReifStore_RDB	findFrag	Dispersed Coupling
+com.hp.hpl.jena.db.impl.PSet_ReifStore_RDB	deleteFrag	Intensive Coupling
+com.hp.hpl.jena.db.impl.PSet_ReifStore_RDB	null	God Class
+com.hp.hpl.jena.db.impl.PSet_ReifStore_RDB	null	Brain Class
+com.hp.hpl.jena.db.impl.PSet_ReifStore_RDB	null	Refused Parent Bequest
+com.hp.hpl.jena.db.impl.PSet_ReifStore_RDB	null	Tradition Breaker
+com.hp.hpl.jena.n3.N3JenaWriterCommon	processModel	Dispersed Coupling
+com.hp.hpl.jena.n3.N3JenaWriterCommon	writeObjectList	Dispersed Coupling
+com.hp.hpl.jena.n3.N3JenaWriterCommon	formatResource	Dispersed Coupling
+com.hp.hpl.jena.n3.N3JenaWriterCommon	formatLiteral	Dispersed Coupling
+com.hp.hpl.jena.n3.N3JenaWriterCommon	rdfListIterator	Dispersed Coupling
+com.hp.hpl.jena.n3.N3JenaWriterCommon	getPropValue	Feature Envy
+com.hp.hpl.jena.n3.N3JenaWriterCommon	null	God Class
+jena.cmdline.CommandLine	process	Intensive Coupling
+jena.cmdline.CommandLine	null	God Class
+com.hp.hpl.jena.db.impl.Driver_MsSQL	getSequence	Dispersed Coupling
+com.hp.hpl.jena.datatypes.xsd.impl.XSDAbstractDateTimeType	null	God Class
+com.hp.hpl.jena.datatypes.xsd.impl.XSDAbstractDateTimeType	null	Data Class
+com.hp.hpl.jena.datatypes.xsd.impl.XSDAbstractDateTimeType	null	Refused Parent Bequest
+com.hp.hpl.jena.rdf.model.RDFErrorHandler	error	Shotgun Surgery
+com.hp.hpl.jena.graph.query.Domain	getElement	Shotgun Surgery
+jena.turtle	main	Feature Envy
+com.hp.hpl.jena.datatypes.xsd.XSDbase64Binary	isEqual	Feature Envy
+com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	shortAnonId	Feature Envy
+com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	setFromGivenNamespaces	Dispersed Coupling
+com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	xmlnsDecl	Dispersed Coupling
+com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	tag	Dispersed Coupling
+com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	generateDoctypeDeclaration	Dispersed Coupling
+com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	writeXMLDeclaration	Dispersed Coupling
+com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	flags2str	Feature Envy
+com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	str2flags	Feature Envy
+com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	null	God Class
+com.hp.hpl.jena.datatypes.xsd.impl.XSDBaseStringType	isEqual	Feature Envy
+com.hp.hpl.jena.datatypes.xsd.impl.XSDDateTimeType	parseValidated	Feature Envy
+com.hp.hpl.jena.n3.N3JenaWriterPP	prepareLists	Dispersed Coupling
+com.hp.hpl.jena.n3.N3JenaWriterPP	checkListElement	Feature Envy
+com.hp.hpl.jena.n3.N3JenaWriterPP	prepareOneRefBNodes	Dispersed Coupling
+com.hp.hpl.jena.n3.N3JenaWriterPP	preparePropertiesForSubject	Dispersed Coupling
+com.hp.hpl.jena.n3.N3JenaWriterPP	finishWriting	Intensive Coupling
+com.hp.hpl.jena.n3.N3JenaWriterPP	writeObjectList	Brain Method
+com.hp.hpl.jena.n3.N3JenaWriterPP	writeObjectList	Dispersed Coupling
+com.hp.hpl.jena.n3.N3JenaWriterPP	writeObject	Dispersed Coupling
+com.hp.hpl.jena.n3.N3JenaWriterPP	null	God Class
+com.hp.hpl.jena.n3.N3JenaWriterPP	null	Refused Parent Bequest
+com.hp.hpl.jena.ontology.Profile	THING	Shotgun Surgery
+com.hp.hpl.jena.ontology.Profile	ONE_OF	Shotgun Surgery
+com.hp.hpl.jena.ontology.Profile	ON_PROPERTY	Shotgun Surgery
+com.hp.hpl.jena.ontology.Profile	IMPORTS	Shotgun Surgery
+com.hp.hpl.jena.ontology.Profile	null	Data Class
+com.hp.hpl.jena.rdf.arp.impl.AbsXMLContext	checkURI	Dispersed Coupling
+com.hp.hpl.jena.db.impl.SpecializedGraph_TripleStore	null	Refused Parent Bequest
+com.hp.hpl.jena.reasoner.rulesys.impl.BindingVector	getBinding	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.impl.BindingVector	unify	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.impl.BindingVector	unify	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.impl.BindingVector	equals	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.impl.BindingVector	null	Data Class
+com.hp.hpl.jena.rdf.arp.impl.RDFXMLParser	setEncoding	Intensive Coupling
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	getTriple	Feature Envy
+com.hp.hpl.jena.rdf.model.impl.InfModelImpl	null	Refused Parent Bequest
+com.hp.hpl.jena.reasoner.rulesys.Functor	getName	Shotgun Surgery
+com.hp.hpl.jena.reasoner.rulesys.Functor	getArgs	Shotgun Surgery
+com.hp.hpl.jena.reasoner.rulesys.Functor	getArgLength	Shotgun Surgery
+com.hp.hpl.jena.reasoner.rulesys.Functor	getBoundArgs	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.Functor	getImplementor	Shotgun Surgery
+com.hp.hpl.jena.ontology.impl.SomeValuesFromRestrictionImpl	getSomeValuesFrom	Dispersed Coupling
+com.hp.hpl.jena.rdf.model.impl.NTripleWriter	write	Feature Envy
+com.hp.hpl.jena.rdf.model.impl.NTripleWriter	write	Feature Envy
+com.hp.hpl.jena.rdf.model.impl.NTripleWriter	writeLiteral	Feature Envy
+com.hp.hpl.jena.graph.query.regexptrees.Sequence	create	Intensive Coupling
+com.hp.hpl.jena.n3.turtle.parser.TurtleParserTokenManager	jjMoveNfa_0	Brain Method
+com.hp.hpl.jena.n3.turtle.parser.TurtleParserTokenManager	jjFillToken	Feature Envy
+com.hp.hpl.jena.n3.turtle.parser.TurtleParserTokenManager	getNextToken	Brain Method
+com.hp.hpl.jena.n3.turtle.parser.TurtleParserTokenManager	null	God Class
+com.hp.hpl.jena.n3.turtle.parser.TurtleParserTokenManager	null	Brain Class
+com.hp.hpl.jena.n3.turtle.parser.TurtleParserTokenManager	null	Data Class
+com.hp.hpl.jena.ontology.impl.RDFSProfile	getAnnotationProperties	Feature Envy
+com.hp.hpl.jena.ontology.impl.RDFSProfile	null	God Class
+com.hp.hpl.jena.ontology.impl.RDFSProfile	null	Data Class
+com.hp.hpl.jena.ontology.impl.RDFSProfile	null	Refused Parent Bequest
+com.hp.hpl.jena.reasoner.rulesys.Rule	allMonotonic	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.Rule	bodyLength	Shotgun Surgery
+com.hp.hpl.jena.reasoner.rulesys.Rule	getBodyElement	Shotgun Surgery
+com.hp.hpl.jena.reasoner.rulesys.Rule	headLength	Shotgun Surgery
+com.hp.hpl.jena.reasoner.rulesys.Rule	getHeadElement	Shotgun Surgery
+com.hp.hpl.jena.reasoner.rulesys.Rule	findVars	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.Rule	cloneClause	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.Rule	cloneFunctor	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.Rule	toString	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.Rule	toShortString	Shotgun Surgery
+com.hp.hpl.jena.reasoner.rulesys.Rule	rulesParserFromReader	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.Rule	null	God Class
+com.hp.hpl.jena.util.LocatorZip	open	Feature Envy
+com.hp.hpl.jena.ontology.impl.OntologyImpl	null	Refused Parent Bequest
+com.hp.hpl.jena.ontology.OntProperty	null	Data Class
+com.hp.hpl.jena.graph.impl.GraphBase	checkOpen	Shotgun Surgery
+com.hp.hpl.jena.graph.impl.GraphBase	getReifier	Shotgun Surgery
+com.hp.hpl.jena.graph.impl.GraphBase	null	Data Class
+com.hp.hpl.jena.n3.N3TurtleJenaWriter	N3TurtleJenaWriter	Feature Envy
+com.hp.hpl.jena.rdf.arp.states.WantDescription	startElement	Feature Envy
+com.hp.hpl.jena.rdf.arp.states.WantDescription	startElement	Dispersed Coupling
+com.hp.hpl.jena.rdf.arp.states.WantDescription	null	Refused Parent Bequest
+com.hp.hpl.jena.rdf.model.ModelCon	createTypedLiteral	Shotgun Surgery
+com.hp.hpl.jena.rdf.model.ModelCon	add	Shotgun Surgery
+jena.rdfcompare	main	Feature Envy
+jena.rdfcompare	usage	Feature Envy
+com.hp.hpl.jena.graph.query.Expression$Util	isReificationPredicate	Feature Envy
+com.hp.hpl.jena.n3.N3JenaWriterTriples	writeModel	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.impl.Generator	runCompletionCheck	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.impl.Generator	propagateLive	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.impl.Generator	null	God Class
+com.hp.hpl.jena.reasoner.rulesys.impl.Generator	null	Data Class
+com.hp.hpl.jena.shared.LockMRSW	enterCriticalSection	Feature Envy
+com.hp.hpl.jena.shared.LockMRSW	enterCriticalSection	Dispersed Coupling
+com.hp.hpl.jena.shared.LockMRSW	leaveCriticalSection	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.impl.BindingStack	push	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.impl.BindingStack	getBinding	Dispersed Coupling
+com.hp.hpl.jena.mem.GraphTripleStore	GraphTripleStore	Feature Envy
+com.hp.hpl.jena.rdf.model.impl.StatementImpl	toStatement	Feature Envy
+com.hp.hpl.jena.rdf.model.impl.StatementImpl	sameAs	Feature Envy
+com.hp.hpl.jena.rdf.model.impl.StatementImpl	null	Refused Parent Bequest
+com.hp.hpl.jena.graph.query.Pattern	match	Feature Envy
+com.hp.hpl.jena.ontology.OntModelSpec	getDefaultSpec	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.OWLMiniReasonerFactory	create	Feature Envy
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveReasonerFactory	getCapabilities	Feature Envy
+com.hp.hpl.jena.assembler.assemblers.ReasonerFactoryAssembler	addSchema	Feature Envy
+com.hp.hpl.jena.assembler.assemblers.ReasonerFactoryAssembler	null	Refused Parent Bequest
+jena.rdfcat	readInput	Dispersed Coupling
+jena.rdfcat	usage	Feature Envy
+com.hp.hpl.jena.rdf.model.Statement	getSubject	Shotgun Surgery
+com.hp.hpl.jena.rdf.model.Statement	getPredicate	Shotgun Surgery
+com.hp.hpl.jena.rdf.model.Statement	getObject	Shotgun Surgery
+com.hp.hpl.jena.rdf.model.Statement	getResource	Shotgun Surgery
+com.hp.hpl.jena.rdf.model.Statement	getString	Shotgun Surgery
+com.hp.hpl.jena.rdf.model.Statement	remove	Shotgun Surgery
+com.hp.hpl.jena.graph.query.SimpleQueryHandler	containsNode	Feature Envy
+com.hp.hpl.jena.ontology.impl.OWLProfile	getAnnotationProperties	Feature Envy
+com.hp.hpl.jena.ontology.impl.OWLProfile	null	God Class
+com.hp.hpl.jena.ontology.impl.OWLProfile	null	Data Class
+com.hp.hpl.jena.ontology.impl.OWLProfile	null	Refused Parent Bequest
+com.hp.hpl.jena.shared.impl.PrefixMappingImpl	regenerateReverseMapping	Feature Envy
+com.hp.hpl.jena.ontology.impl.CardinalityQRestrictionImpl	setCardinalityQ	Feature Envy
+com.hp.hpl.jena.graph.query.QueryNode	classify	Intensive Coupling
+com.hp.hpl.jena.reasoner.rulesys.impl.SafeGraph	find	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.impl.SafeGraph	find	Feature Envy
+com.hp.hpl.jena.ontology.OntClass	null	Data Class
+com.hp.hpl.jena.reasoner.rulesys.GenericRuleReasoner	bind	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.GenericRuleReasoner	null	God Class
+com.hp.hpl.jena.reasoner.rulesys.GenericRuleReasoner	null	Refused Parent Bequest
+com.hp.hpl.jena.rdf.arp.lang.LanguageTag	LanguageTag	Intensive Coupling
+com.hp.hpl.jena.rdf.arp.lang.LanguageTag	errorMessage	Feature Envy
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	XSDDatatype	Feature Envy
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	loadUserDefined	Dispersed Coupling
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	getFoundingType	Feature Envy
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	God Class
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	Data Class
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	Refused Parent Bequest
+com.hp.hpl.jena.mem.GraphMem	null	Refused Parent Bequest
+com.hp.hpl.jena.ontology.impl.AllValuesFromRestrictionImpl	getAllValuesFrom	Dispersed Coupling
+com.hp.hpl.jena.mem.HashCommon	showkeys	Feature Envy
+com.hp.hpl.jena.rdf.model.ModelGraphInterface	getGraph	Shotgun Surgery
+com.hp.hpl.jena.ontology.impl.OntResourceImpl	getProfile	Shotgun Surgery
+com.hp.hpl.jena.ontology.impl.OntResourceImpl	remove	Feature Envy
+com.hp.hpl.jena.ontology.impl.OntResourceImpl	remove	Intensive Coupling
+com.hp.hpl.jena.ontology.impl.OntResourceImpl	isIndividual	Dispersed Coupling
+com.hp.hpl.jena.ontology.impl.OntResourceImpl	checkProfile	Shotgun Surgery
+com.hp.hpl.jena.ontology.impl.OntResourceImpl	selectLang	Feature Envy
+com.hp.hpl.jena.ontology.impl.OntResourceImpl	selectLang	Dispersed Coupling
+com.hp.hpl.jena.ontology.impl.OntResourceImpl	setPropertyValue	Shotgun Surgery
+com.hp.hpl.jena.ontology.impl.OntResourceImpl	hasPropertyValue	Shotgun Surgery
+com.hp.hpl.jena.ontology.impl.OntResourceImpl	addListPropertyValue	Feature Envy
+com.hp.hpl.jena.ontology.impl.OntResourceImpl	computeDirectValues	Intensive Coupling
+com.hp.hpl.jena.ontology.impl.OntResourceImpl	removePropertyValue	Shotgun Surgery
+com.hp.hpl.jena.ontology.impl.OntResourceImpl	null	God Class
+com.hp.hpl.jena.ontology.impl.OntResourceImpl	null	Data Class
+com.hp.hpl.jena.ontology.impl.OntResourceImpl	null	Refused Parent Bequest
+com.hp.hpl.jena.rdf.arp.SAX2RDF	installHandlers	Feature Envy
+com.hp.hpl.jena.mem.NodeToTriplesMapBase	iterateAll	Dispersed Coupling
+com.hp.hpl.jena.reasoner.rulesys.OWLMicroReasoner	OWLMicroReasoner	Feature Envy
+com.hp.hpl.jena.db.impl.Driver_HSQL	null	Refused Parent Bequest
+com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode	compile	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode	compile	Intensive Coupling
+com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode	main	Feature Envy
+com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode	null	Data Class
+com.hp.hpl.jena.graph.query.SimpleTreeQueryPlan	findFromTriple	Feature Envy
+com.hp.hpl.jena.mem.HashedBunchMap	null	Refused Parent Bequest
+com.hp.hpl.jena.reasoner.rulesys.builtins.Quotient	bodyCall	Dispersed Coupling
+com.hp.hpl.jena.rdf.arp.impl.ParserSupport	warning	Shotgun Surgery
+com.hp.hpl.jena.rdf.arp.impl.ParserSupport	triple	Shotgun Surgery

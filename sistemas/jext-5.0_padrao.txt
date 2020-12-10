@@ -1,97 +1,296 @@
-FindAllAction	(Object)Adapter
-TokenSource	State
-gnu.regexp.RE	Proxy2
-ParseSubState	Singleton
-org.jext.console.commands.Command	State
-org.gjt.sp.jedit.syntax.MultiModeTokenMarkerWithContext	State
-gnu.regexp.RETokenLookAhead	Proxy2
-com.microstar.xml.XmlHandler	State
-HyperTyperSequenceList	Observer
-org.jext.misc.SwingWorker	Bridge
-org.jext.JextTextArea	(Object)Adapter
-org.jext.gui.Skin	State
-com.incors.plaf.kunststoff.KunststoffCheckBoxUI	Singleton
-org.jext.project.DefaultProjectManager	(Object)Adapter
-com.incors.plaf.kunststoff.GradientTheme	State
-com.incors.plaf.kunststoff.KunststoffToolBarUI	Singleton
-org.jext.JextFrame	(Object)Adapter
-Options$DisplayIro	Factory Method
-FindAllPlugin	(Object)Adapter
-org.gjt.sp.jedit.textarea.TextAreaDefaults	Singleton
-org.gjt.sp.jedit.textarea.InputHandler	Bridge
-org.jext.gui.BundledSkinFactory$PlasticSkin	(Object)Adapter
-com.incors.plaf.kunststoff.KunststoffButtonUI	Singleton
-org.jext.JextFrame	Observer
-org.gjt.sp.jedit.syntax.TokenMarkerWithAddToken	State
-JBrowse	State
-JBrowseParser$LineSource	(Object)Adapter
-org.jext.console.commands.Command	Chain of Responsibility
-org.gjt.sp.jedit.textarea.TextAreaHighlight	Decorator
-org.jext.JextFrame	State
-gnu.regexp.REToken	Chain of Responsibility
-org.gjt.sp.jedit.syntax.TokenMarkerContext	State
-JBrowseParser	State
-SequenceChangedListener	Observer
-gnu.regexp.REToken	Template Method
-com.microstar.xml.XmlParser	State
-org.jext.gui.SkinManager	State
-gnu.regexp.RESyntax	Singleton
-org.jext.search.SearchHighlight	(Object)Adapter
-JBrowseOptionPane	State
-HyperTyperPlugin	(Object)Adapter
-org.gjt.sp.jedit.textarea.Gutter	State
-org.jext.misc.HandlingRunnable	Bridge
-org.gjt.sp.jedit.syntax.ASPPerlscriptTokenMarker	(Object)Adapter
-JBrowseLineParser	(Object)Adapter
-org.jext.options.OptionsDialog	State
-Options$Display	(Object)Adapter
-gnu.regexp.REToken	Decorator
-gnu.regexp.RETokenLookAhead	Decorator
-gnu.regexp.RETokenRepeated	Decorator
-org.jext.project.Project	(Object)Adapter
-com.incors.plaf.kunststoff.KunststoffLookAndFeel	State
-FunnyBrackets	(Object)Adapter
-org.jext.gui.Dockable	State
-org.gjt.sp.jedit.syntax.ASPTokenMarker	State
-FunnyBracketsPlugin	(Object)Adapter
-UML$Type	Singleton
-Options	(Object)Adapter
-JBrowseParser$Results	(Object)Adapter
-gnu.regexp.RE	(Object)Adapter
-UMLTree$Node	(Object)Adapter
-org.jext.gui.PlasticSettings	(Object)Adapter
-HyperTyperObjectManager	(Object)Adapter
-org.jext.misc.FindFilterFactory	Factory Method
-ParseState	Singleton
-gnu.regexp.CharIndexed	State
-org.jext.project.DefaultProjectManager	State
-com.incors.plaf.kunststoff.KunststoffToggleButtonUI	Singleton
-JBrowseParser$LineSource	State
-org.jext.search.SearchHighlight	Decorator
-org.jext.project.Project	State
-gnu.regexp.REToken	Proxy2
-Options$DisplayIro	State
-org.gjt.sp.jedit.syntax.TokenMarkerDebugger	(Object)Adapter
-org.jext.project.AbstractProjectManager	Observer
-org.jext.event.JextListener	Observer
-org.gjt.sp.jedit.textarea.InputHandler$MacroRecorder	Bridge
-JBrowseLineParser	State
-org.jext.options.OptionsDialog	Singleton
-org.gjt.sp.jedit.textarea.TextAreaPainter	State
-UMLTree$CellRenderer	State
-org.gjt.sp.jedit.textarea.TextAreaHighlight	State
-gnu.regexp.RE	Decorator
-org.jext.Plugin	State
-gnu.regexp.REMatchEnumeration	State
-org.jext.project.ProjectManager	State
-org.jext.project.ProjectListener	Observer
-org.jext.gui.DockChangeHandler	State
-org.gjt.sp.jedit.textarea.JEditTextArea	Singleton
-org.gjt.sp.jedit.syntax.TokenMarker	Template Method
-org.jext.search.RESearchMatcher	(Object)Adapter
-FindAll	(Object)Adapter
-org.jext.console.Console	State
-PropertyAccessor	State
-JEditLineSource	(Object)Adapter
-org.jext.project.ProjectManagement	Factory Method
-org.gjt.sp.jedit.syntax.MultiModeToken	Singleton
+Options$DisplayIro	null	Creator	Factory Method
+Options$DisplayIro	getInverseOptions	FactoryMethod()	Factory Method
+org.jext.misc.FindFilterFactory	null	Creator	Factory Method
+org.jext.misc.FindFilterFactory	createFindFilter	FactoryMethod()	Factory Method
+org.jext.project.ProjectManagement	null	Creator	Factory Method
+org.jext.project.ProjectManagement	getProjectManager	FactoryMethod()	Factory Method
+com.incors.plaf.kunststoff.KunststoffButtonUI	null	Singleton	Singleton
+com.incors.plaf.kunststoff.KunststoffButtonUI	null	uniqueInstance	Singleton
+com.incors.plaf.kunststoff.KunststoffCheckBoxUI	null	Singleton	Singleton
+com.incors.plaf.kunststoff.KunststoffCheckBoxUI	null	uniqueInstance	Singleton
+com.incors.plaf.kunststoff.KunststoffToggleButtonUI	null	Singleton	Singleton
+com.incors.plaf.kunststoff.KunststoffToggleButtonUI	null	uniqueInstance	Singleton
+com.incors.plaf.kunststoff.KunststoffToolBarUI	null	Singleton	Singleton
+com.incors.plaf.kunststoff.KunststoffToolBarUI	null	uniqueInstance	Singleton
+gnu.regexp.RESyntax	null	Singleton	Singleton
+gnu.regexp.RESyntax	null	uniqueInstance	Singleton
+gnu.regexp.RESyntax	null	uniqueInstance	Singleton
+gnu.regexp.RESyntax	null	uniqueInstance	Singleton
+gnu.regexp.RESyntax	null	uniqueInstance	Singleton
+gnu.regexp.RESyntax	null	uniqueInstance	Singleton
+gnu.regexp.RESyntax	null	uniqueInstance	Singleton
+gnu.regexp.RESyntax	null	uniqueInstance	Singleton
+gnu.regexp.RESyntax	null	uniqueInstance	Singleton
+gnu.regexp.RESyntax	null	uniqueInstance	Singleton
+gnu.regexp.RESyntax	null	uniqueInstance	Singleton
+gnu.regexp.RESyntax	null	uniqueInstance	Singleton
+gnu.regexp.RESyntax	null	uniqueInstance	Singleton
+gnu.regexp.RESyntax	null	uniqueInstance	Singleton
+gnu.regexp.RESyntax	null	uniqueInstance	Singleton
+gnu.regexp.RESyntax	null	uniqueInstance	Singleton
+gnu.regexp.RESyntax	null	uniqueInstance	Singleton
+org.gjt.sp.jedit.syntax.MultiModeToken	null	Singleton	Singleton
+org.gjt.sp.jedit.syntax.MultiModeToken	null	uniqueInstance	Singleton
+org.gjt.sp.jedit.textarea.JEditTextArea	null	Singleton	Singleton
+org.gjt.sp.jedit.textarea.JEditTextArea	null	uniqueInstance	Singleton
+org.gjt.sp.jedit.textarea.TextAreaDefaults	null	Singleton	Singleton
+org.gjt.sp.jedit.textarea.TextAreaDefaults	null	uniqueInstance	Singleton
+org.jext.options.OptionsDialog	null	Singleton	Singleton
+org.jext.options.OptionsDialog	null	uniqueInstance	Singleton
+ParseState	null	Singleton	Singleton
+ParseState	null	uniqueInstance	Singleton
+ParseState	null	uniqueInstance	Singleton
+ParseState	null	uniqueInstance	Singleton
+ParseSubState	null	Singleton	Singleton
+ParseSubState	null	uniqueInstance	Singleton
+ParseSubState	null	uniqueInstance	Singleton
+ParseSubState	null	uniqueInstance	Singleton
+ParseSubState	null	uniqueInstance	Singleton
+ParseSubState	null	uniqueInstance	Singleton
+ParseSubState	null	uniqueInstance	Singleton
+ParseSubState	null	uniqueInstance	Singleton
+ParseSubState	null	uniqueInstance	Singleton
+ParseSubState	null	uniqueInstance	Singleton
+UML$Type	null	Singleton	Singleton
+UML$Type	null	uniqueInstance	Singleton
+UML$Type	null	uniqueInstance	Singleton
+UML$Type	null	uniqueInstance	Singleton
+UML$Type	null	uniqueInstance	Singleton
+UML$Type	null	uniqueInstance	Singleton
+UML$Type	null	uniqueInstance	Singleton
+UML$Type	null	uniqueInstance	Singleton
+UML$Type	null	uniqueInstance	Singleton
+UML$Type	null	uniqueInstance	Singleton
+HyperTyperObjectManager	null	Adaptee	(Object)Adapter
+HyperTyperPlugin	null	Adapter	(Object)Adapter
+HyperTyperPlugin	null	adaptee	(Object)Adapter
+HyperTyperPlugin	start	Request()	(Object)Adapter
+HyperTyperPlugin	stop	Request()	(Object)Adapter
+HyperTyperPlugin	createOptionPanes	Request()	(Object)Adapter
+HyperTyperPlugin	createMenuItems	Request()	(Object)Adapter
+HyperTyperPlugin	jextEventFired	Request()	(Object)Adapter
+org.jext.JextFrame	null	Adaptee	(Object)Adapter
+org.jext.project.DefaultProjectManager	null	Adapter	(Object)Adapter
+org.jext.project.DefaultProjectManager	null	adaptee	(Object)Adapter
+org.jext.project.DefaultProjectManager	jextEventFired	Request()	(Object)Adapter
+org.gjt.sp.jedit.syntax.ASPPerlscriptTokenMarker	null	Adapter	(Object)Adapter
+org.gjt.sp.jedit.syntax.TokenMarkerDebugger	null	Adaptee	(Object)Adapter
+org.gjt.sp.jedit.syntax.ASPPerlscriptTokenMarker	null	adaptee	(Object)Adapter
+org.gjt.sp.jedit.syntax.ASPPerlscriptTokenMarker	markTokensImpl	Request()	(Object)Adapter
+JBrowseLineParser	null	Adapter	(Object)Adapter
+JBrowseParser$Results	null	Adaptee	(Object)Adapter
+JBrowseLineParser	null	adaptee	(Object)Adapter
+JBrowseLineParser	parse	Request()	(Object)Adapter
+JBrowseLineParser	null	Adapter	(Object)Adapter
+Options	null	Adaptee	(Object)Adapter
+JBrowseLineParser	null	adaptee	(Object)Adapter
+JBrowseLineParser	setOptions	Request()	(Object)Adapter
+JBrowseLineParser	null	Adapter	(Object)Adapter
+UMLTree$Node	null	Adaptee	(Object)Adapter
+JBrowseLineParser	null	adaptee	(Object)Adapter
+JBrowseLineParser	parse	Request()	(Object)Adapter
+FindAllAction	null	Adaptee	(Object)Adapter
+FindAllPlugin	null	Adapter	(Object)Adapter
+FindAllPlugin	null	adaptee	(Object)Adapter
+FindAllPlugin	createMenuItems	Request()	(Object)Adapter
+FunnyBrackets	null	Adaptee	(Object)Adapter
+FunnyBracketsPlugin	null	Adapter	(Object)Adapter
+FunnyBracketsPlugin	null	adaptee	(Object)Adapter
+FunnyBracketsPlugin	start	Request()	(Object)Adapter
+FunnyBracketsPlugin	stop	Request()	(Object)Adapter
+org.jext.gui.PlasticSettings	null	Adaptee	(Object)Adapter
+org.jext.gui.BundledSkinFactory$PlasticSkin	null	Adapter	(Object)Adapter
+org.jext.gui.BundledSkinFactory$PlasticSkin	null	adaptee	(Object)Adapter
+org.jext.gui.BundledSkinFactory$PlasticSkin	apply	Request()	(Object)Adapter
+org.jext.JextFrame	null	Adaptee	(Object)Adapter
+JEditLineSource	null	Adapter	(Object)Adapter
+JEditLineSource	null	adaptee	(Object)Adapter
+JEditLineSource	reset	Request()	(Object)Adapter
+org.jext.JextTextArea	null	Adaptee	(Object)Adapter
+org.jext.search.SearchHighlight	null	Adapter	(Object)Adapter
+org.jext.search.SearchHighlight	null	adaptee	(Object)Adapter
+org.jext.search.SearchHighlight	paintHighlight	Request()	(Object)Adapter
+JBrowseParser$LineSource	null	Adaptee	(Object)Adapter
+JBrowseLineParser	null	Adapter	(Object)Adapter
+JBrowseLineParser	null	adaptee	(Object)Adapter
+JBrowseLineParser	getSourceName	Request()	(Object)Adapter
+JBrowseLineParser	parse	Request()	(Object)Adapter
+FindAll	null	Adaptee	(Object)Adapter
+FindAllPlugin	null	Adapter	(Object)Adapter
+FindAllPlugin	null	adaptee	(Object)Adapter
+FindAllPlugin	stop	Request()	(Object)Adapter
+org.jext.project.Project	null	Adaptee	(Object)Adapter
+org.jext.project.DefaultProjectManager	null	Adapter	(Object)Adapter
+org.jext.project.DefaultProjectManager	null	adaptee	(Object)Adapter
+org.jext.project.DefaultProjectManager	jextEventFired	Request()	(Object)Adapter
+gnu.regexp.RE	null	Adaptee	(Object)Adapter
+org.jext.search.RESearchMatcher	null	Adapter	(Object)Adapter
+org.jext.search.RESearchMatcher	null	adaptee	(Object)Adapter
+org.jext.search.RESearchMatcher	nextMatch	Request()	(Object)Adapter
+org.jext.search.RESearchMatcher	substitute	Request()	(Object)Adapter
+org.jext.JextTextArea	null	Adaptee	(Object)Adapter
+JEditLineSource	null	Adapter	(Object)Adapter
+JEditLineSource	null	adaptee	(Object)Adapter
+JEditLineSource	reset	Request()	(Object)Adapter
+JEditLineSource	createPosition	Request()	(Object)Adapter
+JEditLineSource	getLine	Request()	(Object)Adapter
+Options$Display	null	Adaptee	(Object)Adapter
+JBrowseLineParser	null	Adapter	(Object)Adapter
+JBrowseLineParser	null	adaptee	(Object)Adapter
+JBrowseLineParser	parse	Request()	(Object)Adapter
+gnu.regexp.REToken	null	Component	Decorator
+gnu.regexp.RE	null	Decorator	Decorator
+gnu.regexp.RE	null	component	Decorator
+gnu.regexp.RE	null	component	Decorator
+gnu.regexp.RE	match	Operation()	Decorator
+gnu.regexp.REToken	null	Component	Decorator
+gnu.regexp.RETokenLookAhead	null	Decorator	Decorator
+gnu.regexp.RETokenLookAhead	null	component	Decorator
+gnu.regexp.RETokenLookAhead	match	Operation()	Decorator
+gnu.regexp.REToken	null	Component	Decorator
+gnu.regexp.RETokenRepeated	null	Decorator	Decorator
+gnu.regexp.RETokenRepeated	null	component	Decorator
+gnu.regexp.RETokenRepeated	match	Operation()	Decorator
+org.gjt.sp.jedit.textarea.TextAreaHighlight	null	Component	Decorator
+org.jext.search.SearchHighlight	null	Decorator	Decorator
+org.jext.search.SearchHighlight	null	component	Decorator
+org.jext.search.SearchHighlight	paintHighlight	Operation()	Decorator
+org.jext.event.JextListener	null	Observer	Observer
+org.jext.JextFrame	null	Subject	Observer
+org.jext.JextFrame	fireJextEvent	Notify()	Observer
+org.jext.JextFrame	fireJextEvent	Notify()	Observer
+SequenceChangedListener	null	Observer	Observer
+HyperTyperSequenceList	null	Subject	Observer
+HyperTyperSequenceList	fireSequenceAdded	Notify()	Observer
+HyperTyperSequenceList	fireSequenceRemoved	Notify()	Observer
+org.jext.project.ProjectListener	null	Observer	Observer
+org.jext.project.AbstractProjectManager	null	Subject	Observer
+org.jext.project.AbstractProjectManager	fireProjectEvent	Notify()	Observer
+com.microstar.xml.XmlParser	null	Context	State
+com.microstar.xml.XmlHandler	null	State	State
+com.microstar.xml.XmlParser	null	state	State
+com.microstar.xml.XmlParser	doParse	Request()	State
+com.microstar.xml.XmlParser	error	Request()	State
+com.microstar.xml.XmlParser	parsePI	Request()	State
+com.microstar.xml.XmlParser	parseDoctypedecl	Request()	State
+com.microstar.xml.XmlParser	parseElement	Request()	State
+com.microstar.xml.XmlParser	parseAttribute	Request()	State
+com.microstar.xml.XmlParser	parseETag	Request()	State
+com.microstar.xml.XmlParser	dataBufferFlush	Request()	State
+com.microstar.xml.XmlParser	pushURL	Request()	State
+com.microstar.xml.XmlParser	popInput	Request()	State
+com.microstar.xml.XmlParser	encodingError	Request()	State
+org.jext.options.OptionsDialog	null	Context	State
+org.jext.Plugin	null	State	State
+org.jext.options.OptionsDialog	null	state	State
+org.jext.options.OptionsDialog	createOptionTreeModel	Request()	State
+org.gjt.sp.jedit.syntax.TokenMarkerContext	null	Context	State
+org.gjt.sp.jedit.syntax.TokenMarkerWithAddToken	null	State	State
+org.gjt.sp.jedit.syntax.TokenMarkerContext	null	state	State
+org.gjt.sp.jedit.syntax.TokenMarkerContext	addToken	Request()	State
+org.jext.console.Console	null	Context	State
+org.jext.console.commands.Command	null	State	State
+org.jext.console.Console	null	state	State
+org.jext.console.Console	builtInCommand	Request()	State
+org.jext.console.Console	help	Request()	State
+UMLTree$CellRenderer	null	Context	State
+Options$DisplayIro	null	State	State
+UMLTree$CellRenderer	null	state	State
+UMLTree$CellRenderer	null	state	State
+UMLTree$CellRenderer	getTreeCellRendererComponent	Request()	State
+org.jext.gui.SkinManager	null	Context	State
+org.jext.gui.Skin	null	State	State
+org.jext.gui.SkinManager	null	state	State
+org.jext.gui.SkinManager	applySelectedSkin	Request()	State
+org.jext.project.ProjectManager	null	State	State
+org.jext.JextFrame	null	Context	State
+org.jext.JextFrame	null	state	State
+org.jext.JextFrame	selectProjectManagement	Request()	State
+org.gjt.sp.jedit.textarea.TextAreaHighlight	null	State	State
+org.gjt.sp.jedit.textarea.TextAreaPainter	null	Context	State
+org.gjt.sp.jedit.textarea.TextAreaPainter	null	state	State
+org.gjt.sp.jedit.textarea.TextAreaPainter	null	state	State
+org.gjt.sp.jedit.textarea.TextAreaPainter	addCustomHighlight	Request()	State
+org.gjt.sp.jedit.textarea.TextAreaPainter	addCustomFirstPriorityHighlight	Request()	State
+org.gjt.sp.jedit.textarea.TextAreaPainter	getToolTipText	Request()	State
+org.gjt.sp.jedit.textarea.TextAreaPainter	paintSyntaxLine	Request()	State
+org.gjt.sp.jedit.textarea.TextAreaPainter	paintHighlight	Request()	State
+org.gjt.sp.jedit.textarea.TextAreaHighlight	null	State	State
+org.gjt.sp.jedit.textarea.Gutter	null	Context	State
+org.gjt.sp.jedit.textarea.Gutter	null	state	State
+org.gjt.sp.jedit.textarea.Gutter	paintCustomHighlights	Request()	State
+org.gjt.sp.jedit.textarea.Gutter	addCustomHighlight	Request()	State
+org.gjt.sp.jedit.textarea.Gutter	getToolTipText	Request()	State
+gnu.regexp.REMatchEnumeration	null	Context	State
+gnu.regexp.CharIndexed	null	State	State
+gnu.regexp.REMatchEnumeration	null	state	State
+gnu.regexp.REMatchEnumeration	hasMoreMatches	Request()	State
+gnu.regexp.REMatchEnumeration	nextMatch	Request()	State
+org.gjt.sp.jedit.syntax.ASPTokenMarker	null	Context	State
+org.gjt.sp.jedit.syntax.MultiModeTokenMarkerWithContext	null	State	State
+org.gjt.sp.jedit.syntax.ASPTokenMarker	null	state	State
+org.gjt.sp.jedit.syntax.ASPTokenMarker	null	state	State
+org.gjt.sp.jedit.syntax.ASPTokenMarker	null	state	State
+org.gjt.sp.jedit.syntax.ASPTokenMarker	markTokensImpl	Request()	State
+TokenSource	null	Context	State
+JBrowseParser$LineSource	null	State	State
+TokenSource	null	state	State
+TokenSource	getNextLine	Request()	State
+TokenSource	getNextToken	Request()	State
+TokenSource	skipRestOfLine	Request()	State
+com.incors.plaf.kunststoff.KunststoffLookAndFeel	null	Context	State
+com.incors.plaf.kunststoff.GradientTheme	null	State	State
+com.incors.plaf.kunststoff.KunststoffLookAndFeel	null	state	State
+com.incors.plaf.kunststoff.KunststoffLookAndFeel	getComponentGradientColorReflection	Request()	State
+com.incors.plaf.kunststoff.KunststoffLookAndFeel	getComponentGradientColorShadow	Request()	State
+com.incors.plaf.kunststoff.KunststoffLookAndFeel	getTextComponentGradientColorReflection	Request()	State
+com.incors.plaf.kunststoff.KunststoffLookAndFeel	getTextComponentGradientColorShadow	Request()	State
+com.incors.plaf.kunststoff.KunststoffLookAndFeel	getBackgroundGradientShadow	Request()	State
+JBrowseLineParser	null	Context	State
+JBrowseParser$LineSource	null	State	State
+JBrowseLineParser	null	state	State
+JBrowseLineParser	getSourceName	Request()	State
+JBrowseLineParser	parse	Request()	State
+JBrowseLineParser	insertAsNode	Request()	State
+org.jext.project.Project	null	State	State
+org.jext.project.DefaultProjectManager	null	Context	State
+org.jext.project.DefaultProjectManager	null	state	State
+org.jext.project.DefaultProjectManager	jextEventFired	Request()	State
+JBrowse	null	Context	State
+JBrowseParser	null	State	State
+JBrowse	null	state	State
+JBrowse	parseNow	Request()	State
+org.jext.gui.Dockable	null	Context	State
+org.jext.gui.DockChangeHandler	null	State	State
+org.jext.gui.Dockable	null	state	State
+org.jext.gui.Dockable	setDockingStatus	Request()	State
+JBrowseOptionPane	null	Context	State
+PropertyAccessor	null	State	State
+JBrowseOptionPane	null	state	State
+JBrowseOptionPane	initGui	Request()	State
+org.gjt.sp.jedit.textarea.InputHandler	null	Abstraction	Bridge
+org.gjt.sp.jedit.textarea.InputHandler$MacroRecorder	null	Implementor	Bridge
+org.gjt.sp.jedit.textarea.InputHandler	null	implementor	Bridge
+org.gjt.sp.jedit.textarea.InputHandler	executeAction	Operation()	Bridge
+org.jext.misc.SwingWorker	null	Abstraction	Bridge
+org.jext.misc.HandlingRunnable	null	Implementor	Bridge
+org.jext.misc.SwingWorker	null	implementor	Bridge
+org.jext.misc.SwingWorker	finished	Operation()	Bridge
+gnu.regexp.REToken	null	AbstractClass	Template Method
+gnu.regexp.REToken	next	TemplateMethod()	Template Method
+gnu.regexp.REToken	dumpAll	TemplateMethod()	Template Method
+org.gjt.sp.jedit.syntax.TokenMarker	null	AbstractClass	Template Method
+org.gjt.sp.jedit.syntax.TokenMarker	markTokens	TemplateMethod()	Template Method
+gnu.regexp.RE	null	Proxy	Proxy2
+gnu.regexp.REToken	null	Subject	Proxy2
+gnu.regexp.RETokenLookAhead	null	RealSubject	Proxy2
+gnu.regexp.RE	null	subject	Proxy2
+gnu.regexp.RE	null	subject	Proxy2
+gnu.regexp.RE	match	Request()	Proxy2
+gnu.regexp.RETokenLookAhead	null	subject	Proxy2
+gnu.regexp.RETokenLookAhead	match	Request()	Proxy2
+gnu.regexp.REToken	null	Handler	Chain of Responsibility
+gnu.regexp.REToken	null	successor	Chain of Responsibility
+gnu.regexp.REToken	null	successor	Chain of Responsibility
+org.jext.console.commands.Command	null	Handler	Chain of Responsibility
+org.jext.console.commands.Command	null	successor	Chain of Responsibility

@@ -1,315 +1,315 @@
-ant.ant14.com.vladium.emma.ant.FileTask
-ant.ant14.com.vladium.emma.ant.FilterTask
-ant.ant14.com.vladium.emma.ant.GenericCfg
-ant.ant14.com.vladium.emma.ant.NestedTask
-ant.ant14.com.vladium.emma.ant.PropertyElement
-ant.ant14.com.vladium.emma.ant.StringValue
-ant.ant14.com.vladium.emma.ant.SuppressableTask
-ant.ant14.com.vladium.emma.ant.VerbosityCfg
-ant.ant14.com.vladium.emma.ant.VerbosityCfg$VerbosityAttribute
-ant.ant14.com.vladium.emma.ANTMain
-ant.ant14.com.vladium.emma.data.mergeTask
-ant.ant14.com.vladium.emma.emmajavaTask
-ant.ant14.com.vladium.emma.emmaTask
-ant.ant14.com.vladium.emma.instr.FilterCfg
-ant.ant14.com.vladium.emma.instr.FilterCfg$filterElement
-ant.ant14.com.vladium.emma.instr.instrTask
-ant.ant14.com.vladium.emma.instr.instrTask$ModeAttribute
-ant.ant14.com.vladium.emma.report.IReportEnums
-ant.ant14.com.vladium.emma.report.IReportEnums$TypeAttribute
-ant.ant14.com.vladium.emma.report.IReportEnums$DepthAttribute
-ant.ant14.com.vladium.emma.report.IReportEnums$ViewTypeAttribute
-ant.ant14.com.vladium.emma.report.IReportEnums$UnitsTypeAttribute
-ant.ant14.com.vladium.emma.report.ReportCfg
-ant.ant14.com.vladium.emma.report.ReportCfg$Element
-ant.ant14.com.vladium.emma.report.ReportCfg$Element_HTML
-ant.ant14.com.vladium.emma.report.ReportCfg$Element_TXT
-ant.ant14.com.vladium.emma.report.ReportCfg$Element_XML
-ant.ant14.com.vladium.emma.report.reportTask
-ant.ant15.com.vladium.emma.ant.IANTVersion
-ant.ant15.com.vladium.emma.ant.IANTVersion$_ANTVersion
-ant.ant15.com.vladium.emma.ant.XFileSet
-core.data.com.vladium.app.IAppVersion
-core.java12.com.vladium.emma.AppLoggers
-core.java12.com.vladium.emma.Command
-core.java12.com.vladium.emma.data.ClassDescriptor
-core.java12.com.vladium.emma.data.CoverageData
-core.java12.com.vladium.emma.data.CoverageOptions
-core.java12.com.vladium.emma.data.CoverageOptionsFactory
-core.java12.com.vladium.emma.data.DataFactory
-core.java12.com.vladium.emma.data.DataFactory$UCFileInputStream
-core.java12.com.vladium.emma.data.DataFactory$UCFileOutputStream
-core.java12.com.vladium.emma.data.DataFactory$RandomAccessFileInputStream
-core.java12.com.vladium.emma.data.DataFactory$RandomAccessFileOutputStream
-core.java12.com.vladium.emma.data.ICoverageData
-core.java12.com.vladium.emma.data.ICoverageData$DataHolder
-core.java12.com.vladium.emma.data.IMergeable
-core.java12.com.vladium.emma.data.IMetaData
-core.java12.com.vladium.emma.data.IMetadataConstants
-core.java12.com.vladium.emma.data.ISessionData
-core.java12.com.vladium.emma.data.mergeCommand
-core.java12.com.vladium.emma.data.MergeProcessor
-core.java12.com.vladium.emma.data.MetaData
-core.java12.com.vladium.emma.data.MethodDescriptor
-core.java12.com.vladium.emma.data.SessionData
-core.java12.com.vladium.emma.EMMAException
-core.java12.com.vladium.emma.EMMAProperties
-core.java12.com.vladium.emma.EMMARuntimeException
-core.java12.com.vladium.emma.filter.IInclExclFilter
-core.java12.com.vladium.emma.filter.IInclExclFilter$Factory
-core.java12.com.vladium.emma.filter.IInclExclFilter$Factory$WCInclExclFilter
-core.java12.com.vladium.emma.IAppConstants
-core.java12.com.vladium.emma.IAppErrorCodes
-core.java12.com.vladium.emma.instr.instrCommand
-core.java12.com.vladium.emma.instr.InstrProcessor
-core.java12.com.vladium.emma.instr.InstrProcessor$OutMode
-core.java12.com.vladium.emma.instr.InstrProcessorST
-core.java12.com.vladium.emma.instr.InstrProcessorST$Job
-core.java12.com.vladium.emma.instr.InstrProcessorST$FileWriteJob
-core.java12.com.vladium.emma.instr.InstrProcessorST$EntryWriteJob
-core.java12.com.vladium.emma.instr.InstrVisitor
-core.java12.com.vladium.emma.instr.InstrVisitor$InstrResult
-core.java12.com.vladium.emma.instr.InstrVisitor$BlockList
-core.java12.com.vladium.emma.instr.InstrVisitor$Block
-core.java12.com.vladium.emma.instr.InstrVisitor$EmitCtx
-core.java12.com.vladium.emma.instr.InstrVisitor$Branch
-core.java12.com.vladium.emma.instr.InstrVisitor$TERMINATE
-core.java12.com.vladium.emma.instr.InstrVisitor$RET
-core.java12.com.vladium.emma.instr.InstrVisitor$JUMP2
-core.java12.com.vladium.emma.instr.InstrVisitor$JUMP4
-core.java12.com.vladium.emma.instr.InstrVisitor$IFJUMP2
-core.java12.com.vladium.emma.instr.InstrVisitor$LOOKUPSWITCH
-core.java12.com.vladium.emma.instr.InstrVisitor$TABLESWITCH
-core.java12.com.vladium.emma.instr.InstrVisitor$CodeSegment
-core.java12.com.vladium.emma.instr.InstrVisitor$clinitHeader
-core.java12.com.vladium.emma.instr.InstrVisitor$methodHeader
-core.java12.com.vladium.emma.instr.InstrVisitor$BlockSegment
-core.java12.com.vladium.emma.instr.InstrVisitor$LineNumberComparator
-core.java12.com.vladium.emma.Processor
-core.java12.com.vladium.emma.report.AbstractItemVisitor
-core.java12.com.vladium.emma.report.AbstractReportGenerator
-core.java12.com.vladium.emma.report.AllItem
-core.java12.com.vladium.emma.report.ClassItem
-core.java12.com.vladium.emma.report.html.doc.Attribute
-core.java12.com.vladium.emma.report.html.doc.Attribute$AttributeImpl
-core.java12.com.vladium.emma.report.html.doc.AttributeSet
-core.java12.com.vladium.emma.report.html.doc.AttributeSet$AttributeSetImpl
-core.java12.com.vladium.emma.report.html.doc.ElementList
-core.java12.com.vladium.emma.report.html.doc.HTMLDocument
-core.java12.com.vladium.emma.report.html.doc.HTMLTable
-core.java12.com.vladium.emma.report.html.doc.HTMLTable$ICell
-core.java12.com.vladium.emma.report.html.doc.HTMLTable$IRow
-core.java12.com.vladium.emma.report.html.doc.HTMLTable$Cell
-core.java12.com.vladium.emma.report.html.doc.HTMLTable$Row
-core.java12.com.vladium.emma.report.html.doc.HTMLWriter
-core.java12.com.vladium.emma.report.html.doc.HyperRef
-core.java12.com.vladium.emma.report.html.doc.IContent
-core.java12.com.vladium.emma.report.html.doc.IElement
-core.java12.com.vladium.emma.report.html.doc.IElement$Factory
-core.java12.com.vladium.emma.report.html.doc.IElement$Factory$ElementImpl
-core.java12.com.vladium.emma.report.html.doc.IElementList
-core.java12.com.vladium.emma.report.html.doc.ISimpleElement
-core.java12.com.vladium.emma.report.html.doc.ISimpleElement$Factory
-core.java12.com.vladium.emma.report.html.doc.ISimpleElement$Factory$SimpleElementImpl
-core.java12.com.vladium.emma.report.html.doc.Tag
-core.java12.com.vladium.emma.report.html.doc.Tag$TagImpl
-core.java12.com.vladium.emma.report.html.doc.Text
-core.java12.com.vladium.emma.report.html.doc.TextContent
-core.java12.com.vladium.emma.report.IItem
-core.java12.com.vladium.emma.report.IItemAttribute
-core.java12.com.vladium.emma.report.IItemAttribute$Factory
-core.java12.com.vladium.emma.report.IItemAttribute$Factory$Attribute
-core.java12.com.vladium.emma.report.IItemAttribute$Factory$NameAttribute
-core.java12.com.vladium.emma.report.IItemAttribute$Factory$NameAttribute$NameComparator
-core.java12.com.vladium.emma.report.IItemAttribute$Factory$FractionAttribute
-core.java12.com.vladium.emma.report.IItemAttribute$Factory$FractionAttribute$FractionComparator
-core.java12.com.vladium.emma.report.IItemMetadata
-core.java12.com.vladium.emma.report.IItemMetadata$Factory
-core.java12.com.vladium.emma.report.IItemVisitor
-core.java12.com.vladium.emma.report.IReportDataModel
-core.java12.com.vladium.emma.report.IReportDataModel$Factory
-core.java12.com.vladium.emma.report.IReportDataView
-core.java12.com.vladium.emma.report.IReportGenerator
-core.java12.com.vladium.emma.report.IReportProperties
-core.java12.com.vladium.emma.report.Item
-core.java12.com.vladium.emma.report.Item$ItemMetadata
-core.java12.com.vladium.emma.report.ItemComparator
-core.java12.com.vladium.emma.report.ItemComparator$Factory
-core.java12.com.vladium.emma.report.ItemComparator$Factory$NullComparator
-core.java12.com.vladium.emma.report.ItemComparator$Factory$ReverseComparator
-core.java12.com.vladium.emma.report.ItemComparator$Factory$CompositeComparator
-core.java12.com.vladium.emma.report.MethodItem
-core.java12.com.vladium.emma.report.PackageItem
-core.java12.com.vladium.emma.report.reportCommand
-core.java12.com.vladium.emma.report.ReportDataModel
-core.java12.com.vladium.emma.report.ReportDataModel$ReportDataView
-core.java12.com.vladium.emma.report.ReportProcessor
-core.java12.com.vladium.emma.report.ReportProperties
-core.java12.com.vladium.emma.report.ReportProperties$ParsedProperties
-core.java12.com.vladium.emma.report.ReportProperties$ReportPropertyMapper
-core.java12.com.vladium.emma.report.SourcePathCache
-core.java12.com.vladium.emma.report.SourcePathCache$CacheEntry
-core.java12.com.vladium.emma.report.SourcePathCache$FileExtensionFilter
-core.java12.com.vladium.emma.report.SrcFileItem
-core.java12.com.vladium.emma.report.SrcFileItem$LineCoverageData
-core.java12.com.vladium.emma.rt.AppRunner
-core.java12.com.vladium.emma.rt.AppRunner$Invoker
-core.java12.com.vladium.emma.rt.AppRunner$AppRunnerExitHook
-core.java12.com.vladium.emma.rt.ClassPathCacheEntry
-core.java12.com.vladium.emma.rt.ClassPathProcessorST
-core.java12.com.vladium.emma.rt.IClassLoadHook
-core.java12.com.vladium.emma.rt.InstrClassLoader
-core.java12.com.vladium.emma.rt.InstrClassLoader$PoolEntry
-core.java12.com.vladium.emma.rt.InstrClassLoadHook
-core.java12.com.vladium.emma.rt.RT
-core.java12.com.vladium.emma.rt.RTCoverageDataPersister
-core.java12.com.vladium.emma.rt.RTExitHook
-core.java12.com.vladium.emma.rt.RTSettings
-core.java12.com.vladium.emma.runCommand
-core.java12.com.vladium.jcd.cls.AbstractClassDefVisitor
-core.java12.com.vladium.jcd.cls.attribute.AttributeElementFactory
-core.java12.com.vladium.jcd.cls.attribute.Attribute_info
-core.java12.com.vladium.jcd.cls.attribute.BridgeAttribute_info
-core.java12.com.vladium.jcd.cls.attribute.CodeAttribute_info
-core.java12.com.vladium.jcd.cls.attribute.ConstantValueAttribute_info
-core.java12.com.vladium.jcd.cls.attribute.DeclaredExceptionTable
-core.java12.com.vladium.jcd.cls.attribute.ExceptionHandlerTable
-core.java12.com.vladium.jcd.cls.attribute.ExceptionsAttribute_info
-core.java12.com.vladium.jcd.cls.attribute.Exception_info
-core.java12.com.vladium.jcd.cls.attribute.GenericAttribute_info
-core.java12.com.vladium.jcd.cls.attribute.IAttributeVisitor
-core.java12.com.vladium.jcd.cls.attribute.IDeclaredExceptionTable
-core.java12.com.vladium.jcd.cls.attribute.IExceptionHandlerTable
-core.java12.com.vladium.jcd.cls.attribute.InnerClassesAttribute_info
-core.java12.com.vladium.jcd.cls.attribute.InnerClass_info
-core.java12.com.vladium.jcd.cls.attribute.LineNumberTableAttribute_info
-core.java12.com.vladium.jcd.cls.attribute.LineNumber_info
-core.java12.com.vladium.jcd.cls.attribute.SourceFileAttribute_info
-core.java12.com.vladium.jcd.cls.attribute.SyntheticAttribute_info
-core.java12.com.vladium.jcd.cls.AttributeCollection
-core.java12.com.vladium.jcd.cls.ClassDef
-core.java12.com.vladium.jcd.cls.ClassDef$FieldDescriptor
-core.java12.com.vladium.jcd.cls.ClassDef$ConstructorDescriptor
-core.java12.com.vladium.jcd.cls.ClassDef$MethodDescriptor
-core.java12.com.vladium.jcd.cls.constant.CONSTANT_Class_info
-core.java12.com.vladium.jcd.cls.constant.CONSTANT_Double_info
-core.java12.com.vladium.jcd.cls.constant.CONSTANT_Fieldref_info
-core.java12.com.vladium.jcd.cls.constant.CONSTANT_Float_info
-core.java12.com.vladium.jcd.cls.constant.CONSTANT_info
-core.java12.com.vladium.jcd.cls.constant.CONSTANT_Integer_info
-core.java12.com.vladium.jcd.cls.constant.CONSTANT_InterfaceMethodref_info
-core.java12.com.vladium.jcd.cls.constant.CONSTANT_literal_info
-core.java12.com.vladium.jcd.cls.constant.CONSTANT_Long_info
-core.java12.com.vladium.jcd.cls.constant.CONSTANT_Methodref_info
-core.java12.com.vladium.jcd.cls.constant.CONSTANT_NameAndType_info
-core.java12.com.vladium.jcd.cls.constant.CONSTANT_ref_info
-core.java12.com.vladium.jcd.cls.constant.CONSTANT_String_info
-core.java12.com.vladium.jcd.cls.constant.CONSTANT_Utf8_info
-core.java12.com.vladium.jcd.cls.constant.ICONSTANTVisitor
-core.java12.com.vladium.jcd.cls.ConstantCollection
-core.java12.com.vladium.jcd.cls.ConstantCollection$ConstantIterator
-core.java12.com.vladium.jcd.cls.ElementFactory
-core.java12.com.vladium.jcd.cls.FieldCollection
-core.java12.com.vladium.jcd.cls.Field_info
-core.java12.com.vladium.jcd.cls.IAccessFlags
-core.java12.com.vladium.jcd.cls.IAttributeCollection
-core.java12.com.vladium.jcd.cls.IClassDefConstants
-core.java12.com.vladium.jcd.cls.IClassDefVisitor
-core.java12.com.vladium.jcd.cls.IConstantCollection
-core.java12.com.vladium.jcd.cls.IConstantCollection$IConstantIterator
-core.java12.com.vladium.jcd.cls.IConstantCollection$IConstantComparator
-core.java12.com.vladium.jcd.cls.IFieldCollection
-core.java12.com.vladium.jcd.cls.IInterfaceCollection
-core.java12.com.vladium.jcd.cls.IMethodCollection
-core.java12.com.vladium.jcd.cls.InterfaceCollection
-core.java12.com.vladium.jcd.cls.MethodCollection
-core.java12.com.vladium.jcd.cls.Method_info
-core.java12.com.vladium.jcd.compiler.ClassWriter
-core.java12.com.vladium.jcd.compiler.CodeGen
-core.java12.com.vladium.jcd.compiler.IClassFormatOutput
-core.java12.com.vladium.jcd.lib.Types
-core.java12.com.vladium.jcd.lib.Types$signatureCompiler
-core.java12.com.vladium.jcd.lib.Types$typeDescriptorCompiler
-core.java12.com.vladium.jcd.lib.Types$typeDescriptorCompiler2
-core.java12.com.vladium.jcd.lib.Types$methodDescriptorCompiler
-core.java12.com.vladium.jcd.lib.UDataInputStream
-core.java12.com.vladium.jcd.lib.UDataOutputStream
-core.java12.com.vladium.jcd.opcodes.IOpcodes
-core.java12.com.vladium.jcd.opcodes.IOpcodes$clinit
-core.java12.com.vladium.jcd.opcodes.IOpcodeVisitor
-core.java12.com.vladium.jcd.parser.ClassDefParser
-core.java12.com.vladium.jcd.parser.ClassDefParser$classParser
-core.java12.com.vladium.logging.ILogLevels
-core.java12.com.vladium.logging.Logger
-core.java12.com.vladium.logging.Logger$ThreadLocalStack
-core.java12.com.vladium.util.args.IOptsParser
-core.java12.com.vladium.util.args.IOptsParser$IOpt
-core.java12.com.vladium.util.args.IOptsParser$IOpts
-core.java12.com.vladium.util.args.IOptsParser$Factory
-core.java12.com.vladium.util.args.OptsParser
-core.java12.com.vladium.util.args.OptsParser$Opt
-core.java12.com.vladium.util.args.OptsParser$Opts
-core.java12.com.vladium.util.args.OptsParser$OptDef
-core.java12.com.vladium.util.args.OptsParser$OptDefMetadata
-core.java12.com.vladium.util.args.OptsParser$MetadataParser
-core.java12.com.vladium.util.args.OptsParser$Token
-core.java12.com.vladium.util.asserts.$assert
-core.java12.com.vladium.util.ByteArrayIStream
-core.java12.com.vladium.util.ByteArrayOStream
-core.java12.com.vladium.util.ClassLoadContext
-core.java12.com.vladium.util.ClassLoaderResolver
-core.java12.com.vladium.util.ClassLoaderResolver$DefaultClassLoadStrategy
-core.java12.com.vladium.util.ClassLoaderResolver$CallerResolver
-core.java12.com.vladium.util.Descriptors
-core.java12.com.vladium.util.exception.AbstractException
-core.java12.com.vladium.util.exception.AbstractRuntimeException
-core.java12.com.vladium.util.exception.ExceptionCommon
-core.java12.com.vladium.util.exception.Exceptions
-core.java12.com.vladium.util.exception.ICodedException
-core.java12.com.vladium.util.exception.IThrowableWrapper
-core.java12.com.vladium.util.Files
-core.java12.com.vladium.util.IClassLoadStrategy
-core.java12.com.vladium.util.IConstants
-core.java12.com.vladium.util.IntegerFactory
-core.java12.com.vladium.util.IntIntMap
-core.java12.com.vladium.util.IntIntMap$Entry
-core.java12.com.vladium.util.IntObjectMap
-core.java12.com.vladium.util.IntObjectMap$Entry
-core.java12.com.vladium.util.IntSet
-core.java12.com.vladium.util.IntSet$Entry
-core.java12.com.vladium.util.IntVector
-core.java12.com.vladium.util.IPathEnumerator
-core.java12.com.vladium.util.IPathEnumerator$IPathHandler
-core.java12.com.vladium.util.IPathEnumerator$Factory
-core.java12.com.vladium.util.IPathEnumerator$Factory$PathEnumerator
-core.java12.com.vladium.util.IProperties
-core.java12.com.vladium.util.IProperties$IMapper
-core.java12.com.vladium.util.IProperties$Factory
-core.java12.com.vladium.util.IProperties$Factory$PropertiesImpl
-core.java12.com.vladium.util.ObjectIntMap
-core.java12.com.vladium.util.ObjectIntMap$Entry
-core.java12.com.vladium.util.Property
-core.java12.com.vladium.util.Property$FilePropertyLookup
-core.java12.com.vladium.util.Property$SystemPropertyLookup
-core.java12.com.vladium.util.Property$SystemRedirectsLookup
-core.java12.com.vladium.util.ResourceLoader
-core.java12.com.vladium.util.SoftValueMap
-core.java12.com.vladium.util.SoftValueMap$IndexedSoftReference
-core.java12.com.vladium.util.SoftValueMap$SoftEntry
-core.java12.com.vladium.util.Strings
-core.java12.com.vladium.util.WCMatcher
-core.java12.com.vladium.util.WCMatcher$AllMatcher
-core.java12.com.vladium.util.WCMatcher$EmptyMatcher
-core.java12.com.vladium.util.WCMatcher$StartsWithMatcher
-core.java12.com.vladium.util.WCMatcher$EndsWithMatcher
-core.java12.com.vladium.util.WCMatcher$PatternMatcher
-core.java12.com.vladium.util.XProperties
-core.java12.emma
-core.java12.emmarun
-core.java13.com.vladium.util.exit.ExitHookManager
-core.java13.com.vladium.util.exit.ExitHookManager$JRE13ExitHookManager
-core.java13.com.vladium.util.exit.ExitHookManager$SunJREExitHookManager
-core.java13.com.vladium.util.exit.ExitHookManager$INTSignalHandler
-core.java14.com.vladium.util.IJREVersion
-core.java14.com.vladium.util.IJREVersion$_JREVersion
-tools.java.com.vladium.tools.ClassDep
+com.vladium.emma.ant.XFileSet	classe	1
+com.vladium.emma.ant.IANTVersion	interface	0
+com.vladium.emma.ant.IANTVersion$_ANTVersion	classe	0
+com.vladium.emma.ant.NestedTask	classe	1
+com.vladium.emma.ant.VerbosityCfg	classe	3
+com.vladium.emma.ant.VerbosityCfg$VerbosityAttribute	classe	1
+com.vladium.emma.ant.FilterTask	classe	4
+com.vladium.emma.ant.SuppressableTask	classe	10
+com.vladium.emma.ant.GenericCfg	classe	4
+com.vladium.emma.ant.StringValue	classe	2
+com.vladium.emma.ant.PropertyElement	classe	4
+com.vladium.emma.ant.FileTask	classe	3
+com.vladium.emma.ANTMain	classe	1
+com.vladium.emma.emmajavaTask	classe	40
+com.vladium.emma.emmaTask	classe	7
+com.vladium.emma.report.reportTask	classe	14
+com.vladium.emma.report.IReportEnums	interface	0
+com.vladium.emma.report.IReportEnums$TypeAttribute	classe	1
+com.vladium.emma.report.IReportEnums$DepthAttribute	classe	1
+com.vladium.emma.report.IReportEnums$ViewTypeAttribute	classe	1
+com.vladium.emma.report.IReportEnums$UnitsTypeAttribute	classe	1
+com.vladium.emma.report.ReportCfg	classe	19
+com.vladium.emma.report.ReportCfg$Element	classe	10
+com.vladium.emma.report.ReportCfg$Element_HTML	classe	1
+com.vladium.emma.report.ReportCfg$Element_TXT	classe	1
+com.vladium.emma.report.ReportCfg$Element_XML	classe	1
+com.vladium.emma.data.mergeTask	classe	5
+com.vladium.emma.instr.FilterCfg	classe	3
+com.vladium.emma.instr.FilterCfg$filterElement	classe	4
+com.vladium.emma.instr.instrTask	classe	10
+com.vladium.emma.instr.instrTask$ModeAttribute	classe	1
+com.vladium.tools.ClassDep	classe	3
+com.vladium.util.exit.ExitHookManager	classe	3
+com.vladium.util.exit.ExitHookManager$JRE13ExitHookManager	classe	2
+com.vladium.util.exit.ExitHookManager$SunJREExitHookManager	classe	2
+com.vladium.util.exit.ExitHookManager$INTSignalHandler	classe	3
+com.vladium.util.IJREVersion	interface	0
+com.vladium.util.IJREVersion$_JREVersion	classe	0
+null.emmarun	classe	1
+null.emma	classe	1
+com.vladium.util.ObjectIntMap	classe	9
+com.vladium.util.ObjectIntMap$Entry	classe	0
+com.vladium.util.IntegerFactory	classe	1
+com.vladium.util.IPathEnumerator	interface	1
+com.vladium.util.IPathEnumerator$IPathHandler	interface	6
+com.vladium.util.IPathEnumerator$Factory	classe	1
+com.vladium.util.IPathEnumerator$Factory$PathEnumerator	classe	4
+com.vladium.util.Property	classe	12
+com.vladium.util.Property$FilePropertyLookup	classe	4
+com.vladium.util.Property$SystemPropertyLookup	classe	3
+com.vladium.util.Property$SystemRedirectsLookup	classe	3
+com.vladium.util.ByteArrayIStream	classe	6
+com.vladium.util.IConstants	interface	0
+com.vladium.util.SoftValueMap	classe	18
+com.vladium.util.SoftValueMap$IndexedSoftReference	classe	0
+com.vladium.util.SoftValueMap$SoftEntry	classe	0
+com.vladium.util.ClassLoaderResolver	classe	6
+com.vladium.util.ClassLoaderResolver$DefaultClassLoadStrategy	classe	1
+com.vladium.util.ClassLoaderResolver$CallerResolver	classe	1
+com.vladium.util.IntSet	classe	8
+com.vladium.util.IntSet$Entry	classe	0
+com.vladium.util.Strings	classe	8
+com.vladium.util.IntIntMap	classe	10
+com.vladium.util.IntIntMap$Entry	classe	0
+com.vladium.util.XProperties	classe	2
+com.vladium.util.IntObjectMap	classe	8
+com.vladium.util.IntObjectMap$Entry	classe	0
+com.vladium.util.Files	classe	11
+com.vladium.util.IClassLoadStrategy	interface	1
+com.vladium.util.Descriptors	classe	7
+com.vladium.util.ClassLoadContext	classe	1
+com.vladium.util.asserts.$assert	classe	2
+com.vladium.util.ResourceLoader	classe	8
+com.vladium.util.WCMatcher	classe	3
+com.vladium.util.WCMatcher$AllMatcher	classe	2
+com.vladium.util.WCMatcher$EmptyMatcher	classe	2
+com.vladium.util.WCMatcher$StartsWithMatcher	classe	2
+com.vladium.util.WCMatcher$EndsWithMatcher	classe	2
+com.vladium.util.WCMatcher$PatternMatcher	classe	2
+com.vladium.util.args.OptsParser	classe	7
+com.vladium.util.args.OptsParser$Opt	classe	8
+com.vladium.util.args.OptsParser$Opts	classe	13
+com.vladium.util.args.OptsParser$OptDef	classe	22
+com.vladium.util.args.OptsParser$OptDefMetadata	classe	6
+com.vladium.util.args.OptsParser$MetadataParser	classe	11
+com.vladium.util.args.OptsParser$Token	classe	3
+com.vladium.util.args.IOptsParser	interface	2
+com.vladium.util.args.IOptsParser$IOpt	interface	6
+com.vladium.util.args.IOptsParser$IOpts	interface	6
+com.vladium.util.args.IOptsParser$Factory	classe	1
+com.vladium.util.IntVector	classe	7
+com.vladium.util.exception.ExceptionCommon	classe	7
+com.vladium.util.exception.ICodedException	interface	1
+com.vladium.util.exception.AbstractRuntimeException	classe	11
+com.vladium.util.exception.Exceptions	classe	1
+com.vladium.util.exception.IThrowableWrapper	interface	3
+com.vladium.util.exception.AbstractException	classe	11
+com.vladium.util.ByteArrayOStream	classe	13
+com.vladium.util.IProperties	interface	11
+com.vladium.util.IProperties$IMapper	interface	1
+com.vladium.util.IProperties$Factory	classe	3
+com.vladium.util.IProperties$Factory$PropertiesImpl	classe	14
+com.vladium.jcd.cls.AbstractClassDefVisitor	classe	6
+com.vladium.jcd.cls.IFieldCollection	interface	7
+com.vladium.jcd.cls.InterfaceCollection	classe	7
+com.vladium.jcd.cls.ElementFactory	classe	5
+com.vladium.jcd.cls.IInterfaceCollection	interface	6
+com.vladium.jcd.cls.Field_info	classe	9
+com.vladium.jcd.cls.attribute.BridgeAttribute_info	classe	5
+com.vladium.jcd.cls.attribute.GenericAttribute_info	classe	5
+com.vladium.jcd.cls.attribute.CodeAttribute_info	classe	10
+com.vladium.jcd.cls.attribute.SyntheticAttribute_info	classe	5
+com.vladium.jcd.cls.attribute.LineNumberTableAttribute_info	classe	7
+com.vladium.jcd.cls.attribute.InnerClass_info	classe	3
+com.vladium.jcd.cls.attribute.IAttributeVisitor	interface	9
+com.vladium.jcd.cls.attribute.ConstantValueAttribute_info	classe	6
+com.vladium.jcd.cls.attribute.Exception_info	classe	3
+com.vladium.jcd.cls.attribute.IDeclaredExceptionTable	interface	6
+com.vladium.jcd.cls.attribute.DeclaredExceptionTable	classe	7
+com.vladium.jcd.cls.attribute.SourceFileAttribute_info	classe	6
+com.vladium.jcd.cls.attribute.Attribute_info	classe	7
+com.vladium.jcd.cls.attribute.LineNumber_info	classe	3
+com.vladium.jcd.cls.attribute.ExceptionHandlerTable	classe	7
+com.vladium.jcd.cls.attribute.InnerClassesAttribute_info	classe	8
+com.vladium.jcd.cls.attribute.AttributeElementFactory	classe	1
+com.vladium.jcd.cls.attribute.ExceptionsAttribute_info	classe	6
+com.vladium.jcd.cls.attribute.IExceptionHandlerTable	interface	6
+com.vladium.jcd.cls.IClassDefVisitor	interface	6
+com.vladium.jcd.cls.ConstantCollection	classe	11
+com.vladium.jcd.cls.ConstantCollection$ConstantIterator	classe	4
+com.vladium.jcd.cls.IAccessFlags	interface	2
+com.vladium.jcd.cls.MethodCollection	classe	9
+com.vladium.jcd.cls.ClassDef	classe	39
+com.vladium.jcd.cls.ClassDef$FieldDescriptor	classe	1
+com.vladium.jcd.cls.ClassDef$ConstructorDescriptor	classe	1
+com.vladium.jcd.cls.ClassDef$MethodDescriptor	classe	1
+com.vladium.jcd.cls.constant.CONSTANT_Long_info	classe	5
+com.vladium.jcd.cls.constant.CONSTANT_Fieldref_info	classe	3
+com.vladium.jcd.cls.constant.CONSTANT_Class_info	classe	5
+com.vladium.jcd.cls.constant.ICONSTANTVisitor	interface	11
+com.vladium.jcd.cls.constant.CONSTANT_Double_info	classe	5
+com.vladium.jcd.cls.constant.CONSTANT_Utf8_info	classe	4
+com.vladium.jcd.cls.constant.CONSTANT_InterfaceMethodref_info	classe	3
+com.vladium.jcd.cls.constant.CONSTANT_ref_info	classe	1
+com.vladium.jcd.cls.constant.CONSTANT_String_info	classe	4
+com.vladium.jcd.cls.constant.CONSTANT_NameAndType_info	classe	6
+com.vladium.jcd.cls.constant.CONSTANT_literal_info	classe	0
+com.vladium.jcd.cls.constant.CONSTANT_Methodref_info	classe	3
+com.vladium.jcd.cls.constant.CONSTANT_Integer_info	classe	4
+com.vladium.jcd.cls.constant.CONSTANT_info	classe	8
+com.vladium.jcd.cls.constant.CONSTANT_Float_info	classe	4
+com.vladium.jcd.cls.Method_info	classe	12
+com.vladium.jcd.cls.FieldCollection	classe	8
+com.vladium.jcd.cls.IClassDefConstants	interface	0
+com.vladium.jcd.cls.AttributeCollection	classe	12
+com.vladium.jcd.cls.IAttributeCollection	interface	11
+com.vladium.jcd.cls.IConstantCollection	interface	9
+com.vladium.jcd.cls.IConstantCollection$IConstantIterator	interface	3
+com.vladium.jcd.cls.IConstantCollection$IConstantComparator	interface	1
+com.vladium.jcd.cls.IMethodCollection	interface	8
+com.vladium.jcd.parser.ClassDefParser	classe	3
+com.vladium.jcd.parser.ClassDefParser$classParser	classe	11
+com.vladium.jcd.lib.UDataOutputStream	classe	2
+com.vladium.jcd.lib.UDataInputStream	classe	2
+com.vladium.jcd.lib.Types	classe	16
+com.vladium.jcd.lib.Types$signatureCompiler	classe	7
+com.vladium.jcd.lib.Types$typeDescriptorCompiler	classe	3
+com.vladium.jcd.lib.Types$typeDescriptorCompiler2	classe	3
+com.vladium.jcd.lib.Types$methodDescriptorCompiler	classe	11
+com.vladium.jcd.compiler.CodeGen	classe	4
+com.vladium.jcd.compiler.ClassWriter	classe	1
+com.vladium.jcd.compiler.IClassFormatOutput	interface	1
+com.vladium.jcd.opcodes.IOpcodes	interface	0
+com.vladium.jcd.opcodes.IOpcodes$clinit	classe	0
+com.vladium.jcd.opcodes.IOpcodeVisitor	interface	1
+com.vladium.emma.EMMARuntimeException	classe	0
+com.vladium.emma.IAppConstants	interface	0
+com.vladium.emma.AppLoggers	classe	1
+com.vladium.emma.EMMAException	classe	0
+com.vladium.emma.Command	classe	17
+com.vladium.emma.runCommand	classe	4
+com.vladium.emma.rt.AppRunner	classe	15
+com.vladium.emma.rt.AppRunner$Invoker	classe	2
+com.vladium.emma.rt.AppRunner$AppRunnerExitHook	classe	3
+com.vladium.emma.rt.InstrClassLoader	classe	9
+com.vladium.emma.rt.InstrClassLoader$PoolEntry	classe	1
+com.vladium.emma.rt.ClassPathProcessorST	classe	10
+com.vladium.emma.rt.RTCoverageDataPersister	classe	1
+com.vladium.emma.rt.ClassPathCacheEntry	classe	0
+com.vladium.emma.rt.IClassLoadHook	interface	1
+com.vladium.emma.rt.RT	classe	8
+com.vladium.emma.rt.RTExitHook	classe	2
+com.vladium.emma.rt.InstrClassLoadHook	classe	1
+com.vladium.emma.rt.RTSettings	classe	2
+com.vladium.emma.IAppErrorCodes	interface	0
+com.vladium.emma.Processor	classe	6
+com.vladium.emma.report.ClassItem	classe	10
+com.vladium.emma.report.IReportGenerator	interface	3
+com.vladium.emma.report.IReportDataModel	interface	1
+com.vladium.emma.report.IReportDataModel$Factory	classe	1
+com.vladium.emma.report.IItemVisitor	interface	5
+com.vladium.emma.report.AbstractReportGenerator	classe	4
+com.vladium.emma.report.IItemAttribute	interface	4
+com.vladium.emma.report.IItemAttribute$Factory	classe	2
+com.vladium.emma.report.IItemAttribute$Factory$Attribute	classe	1
+com.vladium.emma.report.IItemAttribute$Factory$NameAttribute	classe	3
+com.vladium.emma.report.IItemAttribute$Factory$NameAttribute$NameComparator	classe	1
+com.vladium.emma.report.IItemAttribute$Factory$FractionAttribute	classe	3
+com.vladium.emma.report.IItemAttribute$Factory$FractionAttribute$FractionComparator	classe	1
+com.vladium.emma.report.IReportProperties	interface	0
+com.vladium.emma.report.html.doc.HTMLTable	classe	4
+com.vladium.emma.report.html.doc.HTMLTable$ICell	interface	1
+com.vladium.emma.report.html.doc.HTMLTable$IRow	interface	1
+com.vladium.emma.report.html.doc.HTMLTable$Cell	classe	1
+com.vladium.emma.report.html.doc.HTMLTable$Row	classe	1
+com.vladium.emma.report.html.doc.ISimpleElement	interface	3
+com.vladium.emma.report.html.doc.ISimpleElement$Factory	classe	2
+com.vladium.emma.report.html.doc.ISimpleElement$Factory$SimpleElementImpl	classe	5
+com.vladium.emma.report.html.doc.IContent	interface	1
+com.vladium.emma.report.html.doc.IElementList	interface	3
+com.vladium.emma.report.html.doc.Text	classe	1
+com.vladium.emma.report.html.doc.ElementList	classe	4
+com.vladium.emma.report.html.doc.Tag	classe	1
+com.vladium.emma.report.html.doc.Tag$TagImpl	classe	3
+com.vladium.emma.report.html.doc.HyperRef	classe	0
+com.vladium.emma.report.html.doc.Attribute	classe	3
+com.vladium.emma.report.html.doc.Attribute$AttributeImpl	classe	5
+com.vladium.emma.report.html.doc.HTMLDocument	classe	15
+com.vladium.emma.report.html.doc.TextContent	classe	1
+com.vladium.emma.report.html.doc.AttributeSet	classe	4
+com.vladium.emma.report.html.doc.AttributeSet$AttributeSetImpl	classe	4
+com.vladium.emma.report.html.doc.HTMLWriter	classe	5
+com.vladium.emma.report.html.doc.IElement	interface	1
+com.vladium.emma.report.html.doc.IElement$Factory	classe	2
+com.vladium.emma.report.html.doc.IElement$Factory$ElementImpl	classe	6
+com.vladium.emma.report.SourcePathCache	classe	2
+com.vladium.emma.report.SourcePathCache$CacheEntry	classe	0
+com.vladium.emma.report.SourcePathCache$FileExtensionFilter	classe	3
+com.vladium.emma.report.AllItem	classe	4
+com.vladium.emma.report.ItemComparator	interface	0
+com.vladium.emma.report.ItemComparator$Factory	classe	1
+com.vladium.emma.report.ItemComparator$Factory$NullComparator	classe	1
+com.vladium.emma.report.ItemComparator$Factory$ReverseComparator	classe	1
+com.vladium.emma.report.ItemComparator$Factory$CompositeComparator	classe	1
+com.vladium.emma.report.IItemMetadata	interface	3
+com.vladium.emma.report.IItemMetadata$Factory	classe	2
+com.vladium.emma.report.MethodItem	classe	7
+com.vladium.emma.report.IReportDataView	interface	1
+com.vladium.emma.report.AbstractItemVisitor	classe	5
+com.vladium.emma.report.PackageItem	classe	5
+com.vladium.emma.report.SrcFileItem	classe	8
+com.vladium.emma.report.SrcFileItem$LineCoverageData	classe	0
+com.vladium.emma.report.ReportDataModel	classe	1
+com.vladium.emma.report.ReportDataModel$ReportDataView	classe	1
+com.vladium.emma.report.reportCommand	classe	3
+com.vladium.emma.report.IItem	interface	9
+com.vladium.emma.report.ReportProcessor	classe	7
+com.vladium.emma.report.ReportProperties	classe	3
+com.vladium.emma.report.ReportProperties$ParsedProperties	classe	21
+com.vladium.emma.report.ReportProperties$ReportPropertyMapper	classe	1
+com.vladium.emma.report.Item	classe	7
+com.vladium.emma.report.Item$ItemMetadata	classe	3
+com.vladium.emma.EMMAProperties	classe	5
+com.vladium.emma.filter.IInclExclFilter	interface	1
+com.vladium.emma.filter.IInclExclFilter$Factory	classe	4
+com.vladium.emma.filter.IInclExclFilter$Factory$WCInclExclFilter	classe	1
+com.vladium.emma.data.CoverageOptions	classe	5
+com.vladium.emma.data.mergeCommand	classe	3
+com.vladium.emma.data.IMetadataConstants	interface	0
+com.vladium.emma.data.MethodDescriptor	classe	13
+com.vladium.emma.data.MergeProcessor	classe	6
+com.vladium.emma.data.ICoverageData	interface	5
+com.vladium.emma.data.ICoverageData$DataHolder	classe	0
+com.vladium.emma.data.ClassDescriptor	classe	14
+com.vladium.emma.data.CoverageOptionsFactory	classe	2
+com.vladium.emma.data.MetaData	classe	13
+com.vladium.emma.data.IMergeable	interface	2
+com.vladium.emma.data.SessionData	classe	2
+com.vladium.emma.data.DataFactory	classe	22
+com.vladium.emma.data.DataFactory$UCFileInputStream	classe	1
+com.vladium.emma.data.DataFactory$UCFileOutputStream	classe	1
+com.vladium.emma.data.DataFactory$RandomAccessFileInputStream	classe	5
+com.vladium.emma.data.DataFactory$RandomAccessFileOutputStream	classe	5
+com.vladium.emma.data.CoverageData	classe	9
+com.vladium.emma.data.ISessionData	interface	2
+com.vladium.emma.data.IMetaData	interface	9
+com.vladium.emma.instr.InstrProcessor	classe	13
+com.vladium.emma.instr.InstrProcessor$OutMode	classe	3
+com.vladium.emma.instr.InstrProcessorST	classe	15
+com.vladium.emma.instr.InstrProcessorST$Job	classe	1
+com.vladium.emma.instr.InstrProcessorST$FileWriteJob	classe	1
+com.vladium.emma.instr.InstrProcessorST$EntryWriteJob	classe	1
+com.vladium.emma.instr.instrCommand	classe	3
+com.vladium.emma.instr.InstrVisitor	classe	17
+com.vladium.emma.instr.InstrVisitor$InstrResult	classe	0
+com.vladium.emma.instr.InstrVisitor$BlockList	classe	0
+com.vladium.emma.instr.InstrVisitor$Block	classe	1
+com.vladium.emma.instr.InstrVisitor$EmitCtx	classe	0
+com.vladium.emma.instr.InstrVisitor$Branch	classe	4
+com.vladium.emma.instr.InstrVisitor$TERMINATE	classe	2
+com.vladium.emma.instr.InstrVisitor$RET	classe	2
+com.vladium.emma.instr.InstrVisitor$JUMP2	classe	2
+com.vladium.emma.instr.InstrVisitor$JUMP4	classe	2
+com.vladium.emma.instr.InstrVisitor$IFJUMP2	classe	2
+com.vladium.emma.instr.InstrVisitor$LOOKUPSWITCH	classe	2
+com.vladium.emma.instr.InstrVisitor$TABLESWITCH	classe	2
+com.vladium.emma.instr.InstrVisitor$CodeSegment	classe	3
+com.vladium.emma.instr.InstrVisitor$clinitHeader	classe	3
+com.vladium.emma.instr.InstrVisitor$methodHeader	classe	3
+com.vladium.emma.instr.InstrVisitor$BlockSegment	classe	3
+com.vladium.emma.instr.InstrVisitor$LineNumberComparator	classe	1
+com.vladium.logging.ILogLevels	interface	0
+com.vladium.logging.Logger	classe	26
+com.vladium.logging.Logger$ThreadLocalStack	classe	1
+com.vladium.app.IAppVersion	interface	0

@@ -1,453 +1,453 @@
-src.freecs.util.logger.LogFile$LogFileShrinker	Dispersed Coupling
-src.freecs.commands.CmdRemoveFriend	Dispersed Coupling
-src.freecs.commands.CmdUnBan	Brain Method
-src.freecs.commands.CmdUnBan	Dispersed Coupling
-src.freecs.content.Connection	Dispersed Coupling
-src.freecs.content.Connection	Feature Envy
-src.freecs.content.Connection	Data Class
-src.freecs.auth.SQLAuthenticator	Feature Envy
-src.freecs.auth.SQLAuthenticator	Feature Envy
-src.freecs.core.MessageParser	Feature Envy
-src.freecs.core.MessageParser	Feature Envy
-src.freecs.core.MessageParser	Shotgun Surgery
-src.freecs.core.MessageParser	Shotgun Surgery
-src.freecs.core.MessageParser	Brain Method
-src.freecs.core.MessageParser	Intensive Coupling
-src.freecs.core.MessageParser	Brain Method
-src.freecs.core.MessageParser	Intensive Coupling
-src.freecs.core.MessageParser	Feature Envy
-src.freecs.core.RequestQueue	Feature Envy
-src.freecs.core.RequestQueue	Feature Envy
-src.freecs.core.RequestQueue	Feature Envy
-src.freecs.commands.CmdAway	Feature Envy
-src.freecs.commands.CmdAway	Dispersed Coupling
-src.freecs.commands.CmdKick	Brain Method
-src.freecs.commands.CmdKick	Intensive Coupling
-src.freecs.commands.CmdListOnlineFriends	Feature Envy
-src.freecs.commands.CmdListOnlineFriends	Dispersed Coupling
-src.freecs.core.ScheduledAction	Feature Envy
-src.freecs.core.UserManager	Feature Envy
-src.freecs.core.UserManager	Feature Envy
-src.freecs.core.UserManager	Brain Method
-src.freecs.core.UserManager	Intensive Coupling
-src.freecs.core.UserManager	Shotgun Surgery
-src.freecs.core.UserManager	Feature Envy
-src.freecs.core.UserManager	Dispersed Coupling
-src.freecs.core.UserManager	Intensive Coupling
-src.freecs.core.UserManager	Intensive Coupling
-src.freecs.core.UserManager	Intensive Coupling
-src.freecs.core.UserManager	Intensive Coupling
-src.freecs.core.UserManager	Feature Envy
-src.freecs.core.UserManager	Intensive Coupling
-src.freecs.core.UserManager	Brain Method
-src.freecs.core.UserManager	Feature Envy
-src.freecs.core.UserManager	God Class
-src.freecs.core.UserManager	Brain Class
-src.freecs.core.UserManager	Data Class
-src.freecs.util.logger.LogFile	Feature Envy
-src.freecs.util.logger.LogFile	Feature Envy
-src.freecs.util.logger.LogFile	Dispersed Coupling
-src.freecs.util.logger.LogFile	Feature Envy
-src.freecs.core.GroupManager	Dispersed Coupling
-src.freecs.core.GroupManager	Shotgun Surgery
-src.freecs.core.GroupManager	Dispersed Coupling
-src.freecs.core.GroupManager	Brain Method
-src.freecs.core.GroupManager	Intensive Coupling
-src.freecs.core.GroupManager	Intensive Coupling
-src.freecs.core.GroupManager	Feature Envy
-src.freecs.core.GroupManager	Intensive Coupling
-src.freecs.core.GroupManager	Dispersed Coupling
-src.freecs.core.GroupManager	God Class
-src.freecs.core.GroupManager	Brain Class
-src.freecs.core.GroupManager	Data Class
-src.freecs.external.StateRequestHandler	Brain Method
-src.freecs.external.StateRequestHandler	Dispersed Coupling
-src.freecs.external.StateRequestHandler	Refused Parent Bequest
-src.freecs.commands.CmdKickToRoom	Brain Method
-src.freecs.commands.CmdKickToRoom	Intensive Coupling
-src.freecs.commands.CommandSet	Intensive Coupling
-src.freecs.commands.CommandSet	Dispersed Coupling
-src.freecs.commands.CommandSet	Data Class
-src.freecs.core.Listener	Dispersed Coupling
-src.freecs.core.Listener	Dispersed Coupling
-src.freecs.core.Listener	Feature Envy
-src.freecs.core.Listener	Dispersed Coupling
-src.freecs.core.Listener	Dispersed Coupling
-src.freecs.commands.CmdRightChange	Brain Method
-src.freecs.commands.CmdRightChange	Intensive Coupling
-src.freecs.commands.CmdRightChange	Feature Envy
-src.freecs.commands.CmdRightChange	God Class
-src.freecs.util.HtmlEncoder	Brain Method
-src.freecs.util.HtmlEncoder	Intensive Coupling
-src.freecs.util.HtmlEncoder	Brain Class
-src.freecs.commands.CmdRSu	Brain Method
-src.freecs.commands.CmdRSu	Dispersed Coupling
-src.freecs.util.FileMonitor	Intensive Coupling
-src.freecs.content.PersonalizedMessage	Feature Envy
-src.freecs.content.PersonalizedMessage	Feature Envy
-src.freecs.core.MembershipManager	Intensive Coupling
-src.freecs.content.HTTPRequest	Brain Method
-src.freecs.content.HTTPRequest	Intensive Coupling
-src.freecs.content.HTTPRequest	Feature Envy
-src.freecs.content.HTTPRequest	God Class
-src.freecs.auth.sqlConnectionPool.DbProperties	Brain Method
-src.freecs.auth.sqlConnectionPool.DbProperties	Feature Envy
-src.freecs.auth.sqlConnectionPool.DbProperties	Intensive Coupling
-src.freecs.auth.sqlConnectionPool.DbProperties	Feature Envy
-src.freecs.auth.sqlConnectionPool.DbProperties	God Class
-src.freecs.auth.sqlConnectionPool.DbProperties	Data Class
-src.freecs.core.RequestMonitor	Feature Envy
-src.freecs.core.RequestMonitor	Dispersed Coupling
-src.freecs.commands.CmdSys	Dispersed Coupling
-src.freecs.util.HttpAuth	Feature Envy
-src.freecs.util.HttpAuth	Feature Envy
-src.freecs.core.CentralSelector	Brain Method
-src.freecs.core.CentralSelector	Feature Envy
-src.freecs.core.CentralSelector	Intensive Coupling
-src.freecs.core.CentralSelector	Dispersed Coupling
-src.freecs.core.CentralSelector	Feature Envy
-src.freecs.core.CentralSelector	Dispersed Coupling
-src.freecs.core.CentralSelector	Dispersed Coupling
-src.freecs.core.CentralSelector	God Class
-src.freecs.core.CentralSelector	Data Class
-src.freecs.auth.AbstractAuthenticator	Feature Envy
-src.freecs.auth.AbstractAuthenticator	Dispersed Coupling
-src.freecs.commands.CmdFriendsOnly	Feature Envy
-src.freecs.commands.CmdJoinClosed	Feature Envy
-src.freecs.commands.CmdJoinClosed	Intensive Coupling
-src.freecs.commands.CmdShout	Feature Envy
-src.freecs.core.User	Feature Envy
-src.freecs.core.User	Dispersed Coupling
-src.freecs.core.User	Dispersed Coupling
-src.freecs.core.User	Feature Envy
-src.freecs.core.User	Shotgun Surgery
-src.freecs.core.User	Shotgun Surgery
-src.freecs.core.User	Feature Envy
-src.freecs.core.User	Feature Envy
-src.freecs.core.User	Shotgun Surgery
-src.freecs.core.User	Dispersed Coupling
-src.freecs.core.User	Feature Envy
-src.freecs.core.User	Shotgun Surgery
-src.freecs.core.User	Shotgun Surgery
-src.freecs.core.User	Feature Envy
-src.freecs.core.User	Feature Envy
-src.freecs.core.User	Feature Envy
-src.freecs.core.User	Feature Envy
-src.freecs.core.User	Feature Envy
-src.freecs.core.User	Dispersed Coupling
-src.freecs.core.User	Shotgun Surgery
-src.freecs.core.User	Shotgun Surgery
-src.freecs.core.User	Shotgun Surgery
-src.freecs.core.User	Feature Envy
-src.freecs.core.User	Shotgun Surgery
-src.freecs.core.User	Dispersed Coupling
-src.freecs.core.User	Shotgun Surgery
-src.freecs.core.User	Shotgun Surgery
-src.freecs.core.User	Shotgun Surgery
-src.freecs.core.User	Feature Envy
-src.freecs.core.User	Feature Envy
-src.freecs.core.User	Feature Envy
-src.freecs.core.User	Dispersed Coupling
-src.freecs.core.User	Feature Envy
-src.freecs.core.User	God Class
-src.freecs.commands.CmdJoinUser	Feature Envy
-src.freecs.commands.CmdJoinUser	Dispersed Coupling
-src.freecs.commands.CmdMyCol	Feature Envy
-src.freecs.util.GroupUserList	Feature Envy
-src.freecs.util.GroupUserList	Shotgun Surgery
-src.freecs.util.GroupUserList	Dispersed Coupling
-src.freecs.util.GroupUserList	Shotgun Surgery
-src.freecs.util.GroupUserList	Feature Envy
-src.freecs.commands.CmdInvite	Dispersed Coupling
-src.freecs.interfaces.IRequest	Shotgun Surgery
-src.freecs.interfaces.IRequest	Shotgun Surgery
-src.freecs.auth.sqlConnectionPool.SqlRunner	Feature Envy
-src.freecs.auth.sqlConnectionPool.SqlRunner	Dispersed Coupling
-src.freecs.auth.sqlConnectionPool.SqlRunner	Dispersed Coupling
-src.freecs.external.CmdConfirmHandler	Brain Method
-src.freecs.external.CmdConfirmHandler	Dispersed Coupling
-src.freecs.commands.CmdRepeatedPrivateMessage	Feature Envy
-src.freecs.external.AbstractRequestHandler	Dispersed Coupling
-src.freecs.commands.CmdThink	Feature Envy
-src.freecs.core.Group	Shotgun Surgery
-src.freecs.core.Group	Dispersed Coupling
-src.freecs.core.Group	Dispersed Coupling
-src.freecs.core.Group	Shotgun Surgery
-src.freecs.core.Group	Shotgun Surgery
-src.freecs.core.Group	Feature Envy
-src.freecs.core.Group	Shotgun Surgery
-src.freecs.core.Group	Shotgun Surgery
-src.freecs.core.Group	Shotgun Surgery
-src.freecs.core.Group	Feature Envy
-src.freecs.core.Group	God Class
-src.freecs.commands.CmdSepa	Brain Method
-src.freecs.commands.CmdSepa	Intensive Coupling
-src.freecs.layout.TemplateManager	Shotgun Surgery
-src.freecs.layout.TemplateManager	Dispersed Coupling
-src.freecs.layout.TemplateManager	Dispersed Coupling
-src.freecs.layout.TemplateManager	Data Class
-src.freecs.commands.CmdInviteAll	Feature Envy
-src.freecs.commands.CmdInviteAll	Dispersed Coupling
-src.freecs.util.CookieGenerator	Feature Envy
-src.freecs.core.Responder	Feature Envy
-src.freecs.core.Responder	Brain Method
-src.freecs.core.Responder	Intensive Coupling
-src.freecs.core.Responder	Feature Envy
-src.freecs.core.Responder	God Class
-src.freecs.core.Responder	Data Class
-src.freecs.auth.AuthManager	Dispersed Coupling
-src.freecs.auth.AuthManager	Brain Method
-src.freecs.auth.AuthManager	Dispersed Coupling
-src.freecs.auth.AuthManager	Brain Method
-src.freecs.auth.AuthManager	Dispersed Coupling
-src.freecs.auth.AuthManager	God Class
-src.freecs.auth.AuthManager	Brain Class
-src.freecs.auth.AuthManager	Data Class
-src.freecs.commands.CmdQuit	Feature Envy
-src.freecs.commands.CmdQuit	Dispersed Coupling
-src.freecs.auth.XmlRpcAuthenticator	Brain Method
-src.freecs.auth.XmlRpcAuthenticator	Intensive Coupling
-src.freecs.commands.CmdShowTime	Feature Envy
-src.freecs.commands.CmdAddFriend	Dispersed Coupling
-src.freecs.core.CentralSelector$KeepAliveTimeoutChecker	Dispersed Coupling
-src.freecs.commands.CmdUnPunish	Brain Method
-src.freecs.commands.CmdUnPunish	Intensive Coupling
-src.freecs.external.StaticRequestHandler	Brain Method
-src.freecs.external.StaticRequestHandler	Dispersed Coupling
-src.freecs.auth.sqlConnectionPool.PoolElement	Feature Envy
-src.freecs.auth.sqlConnectionPool.PoolElement	Feature Envy
-src.freecs.auth.sqlConnectionPool.PoolElement	Dispersed Coupling
-src.freecs.auth.sqlConnectionPool.PoolElement	Dispersed Coupling
-src.freecs.auth.sqlConnectionPool.PoolElement	Brain Method
-src.freecs.auth.sqlConnectionPool.PoolElement	Dispersed Coupling
-src.freecs.auth.sqlConnectionPool.PoolElement	Dispersed Coupling
-src.freecs.auth.sqlConnectionPool.PoolElement	Brain Method
-src.freecs.auth.sqlConnectionPool.PoolElement	Intensive Coupling
-src.freecs.auth.sqlConnectionPool.PoolElement	Feature Envy
-src.freecs.auth.sqlConnectionPool.PoolElement	Feature Envy
-src.freecs.auth.sqlConnectionPool.PoolElement	Data Class
-src.freecs.commands.CmdListAllFriends	Dispersed Coupling
-src.freecs.util.ObjectBuffer	Feature Envy
-src.freecs.Server	Brain Method
-src.freecs.Server	Dispersed Coupling
-src.freecs.Server	Brain Method
-src.freecs.Server	Intensive Coupling
-src.freecs.Server	Brain Method
-src.freecs.Server	Intensive Coupling
-src.freecs.Server	Brain Method
-src.freecs.Server	Intensive Coupling
-src.freecs.Server	Dispersed Coupling
-src.freecs.Server	Shotgun Surgery
-src.freecs.Server	Feature Envy
-src.freecs.Server	Dispersed Coupling
-src.freecs.Server	Feature Envy
-src.freecs.Server	Feature Envy
-src.freecs.Server	Feature Envy
-src.freecs.Server	Dispersed Coupling
-src.freecs.Server	Feature Envy
-src.freecs.Server	Dispersed Coupling
-src.freecs.Server	Feature Envy
-src.freecs.Server	Feature Envy
-src.freecs.Server	Dispersed Coupling
-src.freecs.Server	Dispersed Coupling
-src.freecs.Server	Dispersed Coupling
-src.freecs.Server	Dispersed Coupling
-src.freecs.Server	Dispersed Coupling
-src.freecs.Server	Dispersed Coupling
-src.freecs.Server	Dispersed Coupling
-src.freecs.Server	Dispersed Coupling
-src.freecs.Server	Feature Envy
-src.freecs.Server	Dispersed Coupling
-src.freecs.Server	Feature Envy
-src.freecs.Server	Feature Envy
-src.freecs.Server	God Class
-src.freecs.Server	Brain Class
-src.freecs.Server	Data Class
-src.freecs.core.MessageRenderer	Brain Method
-src.freecs.core.MessageRenderer	Intensive Coupling
-src.freecs.core.MessageRenderer	Dispersed Coupling
-src.freecs.core.MessageRenderer	Brain Method
-src.freecs.core.MessageRenderer	Dispersed Coupling
-src.freecs.core.MessageRenderer	Brain Method
-src.freecs.core.MessageRenderer	Dispersed Coupling
-src.freecs.core.MessageRenderer	Intensive Coupling
-src.freecs.core.MessageRenderer	Feature Envy
-src.freecs.core.MessageRenderer	God Class
-src.freecs.core.MessageRenderer	Brain Class
-src.freecs.core.CleanupClass	Dispersed Coupling
-src.freecs.commands.CmdLockChangeForeignAction	Feature Envy
-src.freecs.commands.CmdLockChangeForeignAction	Brain Method
-src.freecs.commands.CmdLockChangeForeignAction	Intensive Coupling
-src.freecs.commands.CmdLockChangeForeignAction	Brain Method
-src.freecs.commands.CmdLockChangeForeignAction	Intensive Coupling
-src.freecs.commands.CmdLockChangeForeignAction	Brain Method
-src.freecs.commands.CmdLockChangeForeignAction	Intensive Coupling
-src.freecs.commands.CmdLockChangeForeignAction	God Class
-src.freecs.commands.CmdLockChangeForeignAction	Brain Class
-src.freecs.commands.CmdLockChangeForeignAction	Refused Parent Bequest
-src.freecs.util.FadeColor	Feature Envy
-src.freecs.util.TrafficMonitor	Feature Envy
-src.freecs.util.TrafficMonitor	Dispersed Coupling
-src.freecs.commands.CmdAct	Feature Envy
-src.freecs.commands.CmdShowIp	Feature Envy
-src.freecs.commands.CmdShowIp	Dispersed Coupling
-src.freecs.commands.CmdShowIp	Refused Parent Bequest
-src.freecs.commands.CmdHitDice	Brain Method
-src.freecs.commands.CmdHitDice	Dispersed Coupling
-src.freecs.external.AdminCore	Feature Envy
-src.freecs.external.AdminCore	Feature Envy
-src.freecs.external.AdminCore	Feature Envy
-src.freecs.commands.CmdClear	Feature Envy
-src.freecs.commands.CmdReplyMessage	Feature Envy
-src.freecs.core.RequestReader	Feature Envy
-src.freecs.core.RequestReader	Feature Envy
-src.freecs.core.RequestReader	Brain Method
-src.freecs.core.RequestReader	Dispersed Coupling
-src.freecs.core.RequestReader	Feature Envy
-src.freecs.core.RequestReader	Feature Envy
-src.freecs.core.RequestReader	God Class
-src.freecs.core.RequestReader	Data Class
-src.freecs.core.ConnectionBuffer	Feature Envy
-src.freecs.core.ConnectionBuffer	Brain Method
-src.freecs.core.ConnectionBuffer	Intensive Coupling
-src.freecs.core.ConnectionBuffer	Feature Envy
-src.freecs.core.ConnectionBuffer	Feature Envy
-src.freecs.core.ConnectionBuffer	Dispersed Coupling
-src.freecs.core.ConnectionBuffer	Shotgun Surgery
-src.freecs.core.ConnectionBuffer	Feature Envy
-src.freecs.core.ConnectionBuffer	God Class
-src.freecs.external.UserlistManager	Brain Method
-src.freecs.external.UserlistManager	Dispersed Coupling
-src.freecs.external.UserlistManager	Feature Envy
-src.freecs.external.UserlistManager	Dispersed Coupling
-src.freecs.external.UserlistManager	Intensive Coupling
-src.freecs.external.UserlistManager	Brain Method
-src.freecs.external.UserlistManager	Intensive Coupling
-src.freecs.external.UserlistManager	God Class
-src.freecs.external.UserlistManager	Brain Class
-src.freecs.util.logger.LogCleaner	Feature Envy
-src.freecs.util.logger.LogCleaner	Brain Method
-src.freecs.util.logger.LogCleaner	Dispersed Coupling
-src.freecs.core.Membership	Brain Method
-src.freecs.core.Membership	Dispersed Coupling
-src.freecs.core.Membership	Feature Envy
-src.freecs.core.Membership	Feature Envy
-src.freecs.core.Membership	God Class
-src.freecs.core.Membership	Data Class
-src.freecs.commands.CmdBan	Brain Method
-src.freecs.commands.CmdBan	Intensive Coupling
-src.freecs.commands.CmdChangeBgcolor	Dispersed Coupling
-src.freecs.commands.CmdChangeBgcolor	Dispersed Coupling
-src.freecs.commands.CmdChangeBgcolor	Refused Parent Bequest
-src.freecs.commands.CmdQuestion	Feature Envy
-src.freecs.commands.CmdIgnore	Dispersed Coupling
-src.freecs.commands.CmdCallMemberships	Dispersed Coupling
-src.freecs.commands.CmdSetTheme	Dispersed Coupling
-src.freecs.util.MessageTemplateFinder	Dispersed Coupling
-src.freecs.util.MessageTemplateFinder	Intensive Coupling
-src.freecs.content.ContentContainer	Feature Envy
-src.freecs.content.ContentContainer	Feature Envy
-src.freecs.content.ContentContainer	Dispersed Coupling
-src.freecs.content.ContentContainer	Feature Envy
-src.freecs.content.ContentContainer	Dispersed Coupling
-src.freecs.content.ContentContainer	Dispersed Coupling
-src.freecs.content.ContentContainer	Feature Envy
-src.freecs.content.ContentContainer	Dispersed Coupling
-src.freecs.content.ContentContainer	Feature Envy
-src.freecs.content.ContentContainer	Feature Envy
-src.freecs.content.ContentContainer	God Class
-src.freecs.util.logger.LogWriterBenchmark	Dispersed Coupling
-src.freecs.commands.CmdListUsers	Dispersed Coupling
-src.freecs.external.WebadminRequestHandler	Brain Method
-src.freecs.external.WebadminRequestHandler	Dispersed Coupling
-src.freecs.external.WebadminRequestHandler	Brain Method
-src.freecs.external.WebadminRequestHandler	Intensive Coupling
-src.freecs.external.WebadminRequestHandler	Brain Method
-src.freecs.external.WebadminRequestHandler	Dispersed Coupling
-src.freecs.external.WebadminRequestHandler	Feature Envy
-src.freecs.external.WebadminRequestHandler	Feature Envy
-src.freecs.external.WebadminRequestHandler	Feature Envy
-src.freecs.external.WebadminRequestHandler	Feature Envy
-src.freecs.external.WebadminRequestHandler	Feature Envy
-src.freecs.external.WebadminRequestHandler	Feature Envy
-src.freecs.external.WebadminRequestHandler	Feature Envy
-src.freecs.external.WebadminRequestHandler	Feature Envy
-src.freecs.external.WebadminRequestHandler	Brain Method
-src.freecs.external.WebadminRequestHandler	Dispersed Coupling
-src.freecs.external.WebadminRequestHandler	Brain Method
-src.freecs.external.WebadminRequestHandler	Dispersed Coupling
-src.freecs.external.WebadminRequestHandler	Feature Envy
-src.freecs.external.WebadminRequestHandler	Brain Method
-src.freecs.external.WebadminRequestHandler	Dispersed Coupling
-src.freecs.external.WebadminRequestHandler	God Class
-src.freecs.external.WebadminRequestHandler	Brain Class
-src.freecs.external.WebadminRequestHandler	Refused Parent Bequest
-src.freecs.commands.CmdPunish	Brain Method
-src.freecs.commands.CmdPunish	Dispersed Coupling
-src.freecs.commands.CmdKickHard	Brain Method
-src.freecs.commands.CmdKickHard	Intensive Coupling
-src.freecs.external.UserlistRequestHandler	Feature Envy
-src.freecs.layout.Template	Intensive Coupling
-src.freecs.layout.Template	Brain Method
-src.freecs.layout.Template	Intensive Coupling
-src.freecs.layout.Template	Dispersed Coupling
-src.freecs.layout.Template	Dispersed Coupling
-src.freecs.layout.Template	Feature Envy
-src.freecs.layout.Template	Feature Envy
-src.freecs.layout.Template	God Class
-src.freecs.layout.Template	Brain Class
-src.freecs.layout.Template	Data Class
-src.freecs.content.BanObject	Feature Envy
-src.freecs.commands.CmdJoin	Feature Envy
-src.freecs.commands.CmdJoin	Brain Method
-src.freecs.commands.CmdJoin	Intensive Coupling
-src.freecs.commands.AbstractCommand	Dispersed Coupling
-src.freecs.commands.AbstractCommand	Feature Envy
-src.freecs.commands.AbstractCommand	Shotgun Surgery
-src.freecs.commands.AbstractCommand	Feature Envy
-src.freecs.commands.AbstractCommand	Feature Envy
-src.freecs.commands.AbstractCommand	Shotgun Surgery
-src.freecs.commands.AbstractCommand	Feature Envy
-src.freecs.commands.AbstractCommand	Dispersed Coupling
-src.freecs.commands.AbstractCommand	Feature Envy
-src.freecs.commands.AbstractCommand	Dispersed Coupling
-src.freecs.commands.AbstractCommand	Dispersed Coupling
-src.freecs.commands.AbstractCommand	Shotgun Surgery
-src.freecs.commands.AbstractCommand	Feature Envy
-src.freecs.commands.AbstractCommand	Feature Envy
-src.freecs.commands.AbstractCommand	Feature Envy
-src.freecs.commands.AbstractCommand	God Class
-src.freecs.auth.sqlConnectionPool.ConnectionPool	Feature Envy
-src.freecs.auth.sqlConnectionPool.ConnectionPool	Dispersed Coupling
-src.freecs.auth.sqlConnectionPool.ConnectionPool	Feature Envy
-src.freecs.commands.CmdChangeColor	Dispersed Coupling
-src.freecs.commands.CmdSu	Brain Method
-src.freecs.commands.CmdSu	Intensive Coupling
-src.freecs.core.RequestEvaluator	Brain Method
-src.freecs.core.RequestEvaluator	Intensive Coupling
-src.freecs.core.RequestEvaluator	Intensive Coupling
-src.freecs.core.RequestEvaluator	Intensive Coupling
-src.freecs.core.RequestEvaluator	Brain Method
-src.freecs.core.RequestEvaluator	Intensive Coupling
-src.freecs.core.RequestEvaluator	Brain Class
-src.freecs.commands.CmdRespectUser	Brain Method
-src.freecs.commands.CmdRespectUser	Intensive Coupling
-src.freecs.commands.CmdListVips	Dispersed Coupling
-src.freecs.content.MessageState	Feature Envy
-src.freecs.content.MessageState	Feature Envy
-src.freecs.external.xmlrpc.XmlRpcManager	Dispersed Coupling
-src.freecs.commands.CmdListBan	Feature Envy
-src.freecs.commands.CmdListBan	Dispersed Coupling
-src.freecs.util.EntityDecoder	Dispersed Coupling
-src.freecs.util.EntityDecoder	Data Class
-src.freecs.external.xmlrpc.freecsXmlRpcHandler	Feature Envy
-src.freecs.external.xmlrpc.freecsXmlRpcHandler	Dispersed Coupling
-src.freecs.util.logger.LogWriter	Intensive Coupling
-src.freecs.util.logger.LogWriter	Dispersed Coupling
-src.freecs.layout.TemplateSet	Dispersed Coupling
-src.freecs.layout.TemplateSet	Shotgun Surgery
-src.freecs.layout.TemplateSet	Dispersed Coupling
-src.freecs.layout.TemplateSet	Feature Envy
-src.freecs.layout.TemplateSet	Feature Envy
-src.freecs.layout.TemplateSet	God Class
-src.freecs.layout.TemplateSet	Data Class
+src.freecs.util.logger.LogFile$LogFileShrinker	run	Dispersed Coupling
+src.freecs.commands.CmdRemoveFriend	execute	Dispersed Coupling
+src.freecs.commands.CmdUnBan	execute	Brain Method
+src.freecs.commands.CmdUnBan	execute	Dispersed Coupling
+src.freecs.content.Connection	Connection	Dispersed Coupling
+src.freecs.content.Connection	finalize	Feature Envy
+src.freecs.content.Connection	null	Data Class
+src.freecs.auth.SQLAuthenticator	loginUser	Feature Envy
+src.freecs.auth.SQLAuthenticator	loginUser	Feature Envy
+src.freecs.core.MessageParser	MessageParser	Feature Envy
+src.freecs.core.MessageParser	MessageParser	Feature Envy
+src.freecs.core.MessageParser	setSender	Shotgun Surgery
+src.freecs.core.MessageParser	setMessageTemplate	Shotgun Surgery
+src.freecs.core.MessageParser	addPersonalizedMessage	Brain Method
+src.freecs.core.MessageParser	addPersonalizedMessage	Intensive Coupling
+src.freecs.core.MessageParser	parseAndSendMessage	Brain Method
+src.freecs.core.MessageParser	parseAndSendMessage	Intensive Coupling
+src.freecs.core.MessageParser	finalize	Feature Envy
+src.freecs.core.RequestQueue	RequestQueue	Feature Envy
+src.freecs.core.RequestQueue	addKey	Feature Envy
+src.freecs.core.RequestQueue	finalize	Feature Envy
+src.freecs.commands.CmdAway	checkVersion	Feature Envy
+src.freecs.commands.CmdAway	execute	Dispersed Coupling
+src.freecs.commands.CmdKick	execute	Brain Method
+src.freecs.commands.CmdKick	execute	Intensive Coupling
+src.freecs.commands.CmdListOnlineFriends	execute	Feature Envy
+src.freecs.commands.CmdListOnlineFriends	execute	Dispersed Coupling
+src.freecs.core.ScheduledAction	finalize	Feature Envy
+src.freecs.core.UserManager	UserManager	Feature Envy
+src.freecs.core.UserManager	startUserManager	Feature Envy
+src.freecs.core.UserManager	execTryLogin	Brain Method
+src.freecs.core.UserManager	execTryLogin	Intensive Coupling
+src.freecs.core.UserManager	getUserByName	Shotgun Surgery
+src.freecs.core.UserManager	run	Feature Envy
+src.freecs.core.UserManager	run	Dispersed Coupling
+src.freecs.core.UserManager	updateVips	Intensive Coupling
+src.freecs.core.UserManager	updateAdmins	Intensive Coupling
+src.freecs.core.UserManager	updateModerators	Intensive Coupling
+src.freecs.core.UserManager	updateGuests	Intensive Coupling
+src.freecs.core.UserManager	sendFriendNotification	Feature Envy
+src.freecs.core.UserManager	sendFriendNotification	Intensive Coupling
+src.freecs.core.UserManager	resolveState	Brain Method
+src.freecs.core.UserManager	resolveState	Feature Envy
+src.freecs.core.UserManager	null	God Class
+src.freecs.core.UserManager	null	Brain Class
+src.freecs.core.UserManager	null	Data Class
+src.freecs.util.logger.LogFile	getChannel	Feature Envy
+src.freecs.util.logger.LogFile	backupLogFile	Feature Envy
+src.freecs.util.logger.LogFile	backupLogFile	Dispersed Coupling
+src.freecs.util.logger.LogFile	closeChannel	Feature Envy
+src.freecs.core.GroupManager	removeGroup	Dispersed Coupling
+src.freecs.core.GroupManager	getGroup	Shotgun Surgery
+src.freecs.core.GroupManager	openGroup	Dispersed Coupling
+src.freecs.core.GroupManager	checkProperties	Brain Method
+src.freecs.core.GroupManager	checkProperties	Intensive Coupling
+src.freecs.core.GroupManager	updateStartingGroups	Intensive Coupling
+src.freecs.core.GroupManager	updateModeratedGroups	Feature Envy
+src.freecs.core.GroupManager	updateModeratedGroups	Intensive Coupling
+src.freecs.core.GroupManager	checkReason	Dispersed Coupling
+src.freecs.core.GroupManager	null	God Class
+src.freecs.core.GroupManager	null	Brain Class
+src.freecs.core.GroupManager	null	Data Class
+src.freecs.external.StateRequestHandler	handle	Brain Method
+src.freecs.external.StateRequestHandler	handle	Dispersed Coupling
+src.freecs.external.StateRequestHandler	null	Refused Parent Bequest
+src.freecs.commands.CmdKickToRoom	execute	Brain Method
+src.freecs.commands.CmdKickToRoom	execute	Intensive Coupling
+src.freecs.commands.CommandSet	checkActivatedCommands	Intensive Coupling
+src.freecs.commands.CommandSet	evaluate	Dispersed Coupling
+src.freecs.commands.CommandSet	null	Data Class
+src.freecs.core.Listener	updateSscRecieveBuffer	Dispersed Coupling
+src.freecs.core.Listener	initSSC	Dispersed Coupling
+src.freecs.core.Listener	run	Feature Envy
+src.freecs.core.Listener	run	Dispersed Coupling
+src.freecs.core.Listener	accept	Dispersed Coupling
+src.freecs.commands.CmdRightChange	execute	Brain Method
+src.freecs.commands.CmdRightChange	execute	Intensive Coupling
+src.freecs.commands.CmdRightChange	allowedToChangeRight	Feature Envy
+src.freecs.commands.CmdRightChange	null	God Class
+src.freecs.util.HtmlEncoder	encode	Brain Method
+src.freecs.util.HtmlEncoder	encode	Intensive Coupling
+src.freecs.util.HtmlEncoder	null	Brain Class
+src.freecs.commands.CmdRSu	execute	Brain Method
+src.freecs.commands.CmdRSu	execute	Dispersed Coupling
+src.freecs.util.FileMonitor	run	Intensive Coupling
+src.freecs.content.PersonalizedMessage	PersonalizedMessage	Feature Envy
+src.freecs.content.PersonalizedMessage	finalize	Feature Envy
+src.freecs.core.MembershipManager	init	Intensive Coupling
+src.freecs.content.HTTPRequest	parse	Brain Method
+src.freecs.content.HTTPRequest	parse	Intensive Coupling
+src.freecs.content.HTTPRequest	finalize	Feature Envy
+src.freecs.content.HTTPRequest	null	God Class
+src.freecs.auth.sqlConnectionPool.DbProperties	DbProperties	Brain Method
+src.freecs.auth.sqlConnectionPool.DbProperties	DbProperties	Feature Envy
+src.freecs.auth.sqlConnectionPool.DbProperties	DbProperties	Intensive Coupling
+src.freecs.auth.sqlConnectionPool.DbProperties	finalize	Feature Envy
+src.freecs.auth.sqlConnectionPool.DbProperties	null	God Class
+src.freecs.auth.sqlConnectionPool.DbProperties	null	Data Class
+src.freecs.core.RequestMonitor	run	Feature Envy
+src.freecs.core.RequestMonitor	run	Dispersed Coupling
+src.freecs.commands.CmdSys	execute	Dispersed Coupling
+src.freecs.util.HttpAuth	encode	Feature Envy
+src.freecs.util.HttpAuth	decode	Feature Envy
+src.freecs.core.CentralSelector	run	Brain Method
+src.freecs.core.CentralSelector	run	Feature Envy
+src.freecs.core.CentralSelector	run	Intensive Coupling
+src.freecs.core.CentralSelector	readIn	Dispersed Coupling
+src.freecs.core.CentralSelector	addRequest	Feature Envy
+src.freecs.core.CentralSelector	implCloseChannel	Dispersed Coupling
+src.freecs.core.CentralSelector	chkSk	Dispersed Coupling
+src.freecs.core.CentralSelector	null	God Class
+src.freecs.core.CentralSelector	null	Data Class
+src.freecs.auth.AbstractAuthenticator	parseUserList	Feature Envy
+src.freecs.auth.AbstractAuthenticator	filterProperties	Dispersed Coupling
+src.freecs.commands.CmdFriendsOnly	execute	Feature Envy
+src.freecs.commands.CmdJoinClosed	checkVersion	Feature Envy
+src.freecs.commands.CmdJoinClosed	execute	Intensive Coupling
+src.freecs.commands.CmdShout	execute	Feature Envy
+src.freecs.core.User	sendQuitMessage	Feature Envy
+src.freecs.core.User	sendQuitMessage	Dispersed Coupling
+src.freecs.core.User	removeNow	Dispersed Coupling
+src.freecs.core.User	wasActive	Feature Envy
+src.freecs.core.User	getGroup	Shotgun Surgery
+src.freecs.core.User	getCookie	Shotgun Surgery
+src.freecs.core.User	setKey	Feature Envy
+src.freecs.core.User	touch	Feature Envy
+src.freecs.core.User	sendMessage	Shotgun Surgery
+src.freecs.core.User	implSendMessage	Dispersed Coupling
+src.freecs.core.User	rebuildMemberships	Feature Envy
+src.freecs.core.User	hasRight	Shotgun Surgery
+src.freecs.core.User	hasRole	Shotgun Surgery
+src.freecs.core.User	hasEntraceMinRight	Feature Envy
+src.freecs.core.User	hasSepaMinRight	Feature Envy
+src.freecs.core.User	hasMinRight	Feature Envy
+src.freecs.core.User	addPrivateMessageStore	Feature Envy
+src.freecs.core.User	sendMessageHistory	Feature Envy
+src.freecs.core.User	sendMessageHistory	Dispersed Coupling
+src.freecs.core.User	isAway	Shotgun Surgery
+src.freecs.core.User	isPunished	Shotgun Surgery
+src.freecs.core.User	getFadeColCode	Shotgun Surgery
+src.freecs.core.User	getTemplateSet	Feature Envy
+src.freecs.core.User	getTemplateSet	Shotgun Surgery
+src.freecs.core.User	getProperty	Dispersed Coupling
+src.freecs.core.User	getProperty	Shotgun Surgery
+src.freecs.core.User	getName	Shotgun Surgery
+src.freecs.core.User	equals	Shotgun Surgery
+src.freecs.core.User	nextCheck	Feature Envy
+src.freecs.core.User	finalize	Feature Envy
+src.freecs.core.User	compareRoleTo	Feature Envy
+src.freecs.core.User	canUseTemplateset	Dispersed Coupling
+src.freecs.core.User	mayUseTemplateset	Feature Envy
+src.freecs.core.User	null	God Class
+src.freecs.commands.CmdJoinUser	checkVersion	Feature Envy
+src.freecs.commands.CmdJoinUser	execute	Dispersed Coupling
+src.freecs.commands.CmdMyCol	execute	Feature Envy
+src.freecs.util.GroupUserList	GroupUserList	Feature Envy
+src.freecs.util.GroupUserList	addUser	Shotgun Surgery
+src.freecs.util.GroupUserList	sendMessage	Dispersed Coupling
+src.freecs.util.GroupUserList	sendMessage	Shotgun Surgery
+src.freecs.util.GroupUserList	finalize	Feature Envy
+src.freecs.commands.CmdInvite	execute	Dispersed Coupling
+src.freecs.interfaces.IRequest	getValue	Shotgun Surgery
+src.freecs.interfaces.IRequest	getCookie	Shotgun Surgery
+src.freecs.auth.sqlConnectionPool.SqlRunner	logoutUser	Feature Envy
+src.freecs.auth.sqlConnectionPool.SqlRunner	loginUser	Dispersed Coupling
+src.freecs.auth.sqlConnectionPool.SqlRunner	loginUser	Dispersed Coupling
+src.freecs.external.CmdConfirmHandler	handle	Brain Method
+src.freecs.external.CmdConfirmHandler	handle	Dispersed Coupling
+src.freecs.commands.CmdRepeatedPrivateMessage	execute	Feature Envy
+src.freecs.external.AbstractRequestHandler	checkAccessAuth	Dispersed Coupling
+src.freecs.commands.CmdThink	execute	Feature Envy
+src.freecs.core.Group	getRawName	Shotgun Surgery
+src.freecs.core.Group	addUser	Dispersed Coupling
+src.freecs.core.Group	removeUser	Dispersed Coupling
+src.freecs.core.Group	sendMessage	Shotgun Surgery
+src.freecs.core.Group	sendModeratedMessage	Shotgun Surgery
+src.freecs.core.Group	usrMayLock	Feature Envy
+src.freecs.core.Group	usrIsSu	Shotgun Surgery
+src.freecs.core.Group	hasState	Shotgun Surgery
+src.freecs.core.Group	equals	Shotgun Surgery
+src.freecs.core.Group	finalize	Feature Envy
+src.freecs.core.Group	null	God Class
+src.freecs.commands.CmdSepa	execute	Brain Method
+src.freecs.commands.CmdSepa	execute	Intensive Coupling
+src.freecs.layout.TemplateManager	getTemplateSet	Shotgun Surgery
+src.freecs.layout.TemplateManager	loadTemplates	Dispersed Coupling
+src.freecs.layout.TemplateManager	changed	Dispersed Coupling
+src.freecs.layout.TemplateManager	null	Data Class
+src.freecs.commands.CmdInviteAll	checkVersion	Feature Envy
+src.freecs.commands.CmdInviteAll	execute	Dispersed Coupling
+src.freecs.util.CookieGenerator	main	Feature Envy
+src.freecs.core.Responder	addToWrite	Feature Envy
+src.freecs.core.Responder	run	Brain Method
+src.freecs.core.Responder	run	Intensive Coupling
+src.freecs.core.Responder	writeContent	Feature Envy
+src.freecs.core.Responder	null	God Class
+src.freecs.core.Responder	null	Data Class
+src.freecs.auth.AuthManager	createAuthenticators	Dispersed Coupling
+src.freecs.auth.AuthManager	loginUser	Brain Method
+src.freecs.auth.AuthManager	loginUser	Dispersed Coupling
+src.freecs.auth.AuthManager	doLogin	Brain Method
+src.freecs.auth.AuthManager	doLogin	Dispersed Coupling
+src.freecs.auth.AuthManager	null	God Class
+src.freecs.auth.AuthManager	null	Brain Class
+src.freecs.auth.AuthManager	null	Data Class
+src.freecs.commands.CmdQuit	execute	Feature Envy
+src.freecs.commands.CmdQuit	execute	Dispersed Coupling
+src.freecs.auth.XmlRpcAuthenticator	loginUser	Brain Method
+src.freecs.auth.XmlRpcAuthenticator	loginUser	Intensive Coupling
+src.freecs.commands.CmdShowTime	execute	Feature Envy
+src.freecs.commands.CmdAddFriend	execute	Dispersed Coupling
+src.freecs.core.CentralSelector$KeepAliveTimeoutChecker	run	Dispersed Coupling
+src.freecs.commands.CmdUnPunish	execute	Brain Method
+src.freecs.commands.CmdUnPunish	execute	Intensive Coupling
+src.freecs.external.StaticRequestHandler	handle	Brain Method
+src.freecs.external.StaticRequestHandler	handle	Dispersed Coupling
+src.freecs.auth.sqlConnectionPool.PoolElement	isValid	Feature Envy
+src.freecs.auth.sqlConnectionPool.PoolElement	cleanup	Feature Envy
+src.freecs.auth.sqlConnectionPool.PoolElement	loginUser	Dispersed Coupling
+src.freecs.auth.sqlConnectionPool.PoolElement	loginUser	Dispersed Coupling
+src.freecs.auth.sqlConnectionPool.PoolElement	readColumns	Brain Method
+src.freecs.auth.sqlConnectionPool.PoolElement	readColumns	Dispersed Coupling
+src.freecs.auth.sqlConnectionPool.PoolElement	doLoginUpdates	Dispersed Coupling
+src.freecs.auth.sqlConnectionPool.PoolElement	logoutUser	Brain Method
+src.freecs.auth.sqlConnectionPool.PoolElement	logoutUser	Intensive Coupling
+src.freecs.auth.sqlConnectionPool.PoolElement	getEncodedString	Feature Envy
+src.freecs.auth.sqlConnectionPool.PoolElement	finalize	Feature Envy
+src.freecs.auth.sqlConnectionPool.PoolElement	null	Data Class
+src.freecs.commands.CmdListAllFriends	execute	Dispersed Coupling
+src.freecs.util.ObjectBuffer	finalize	Feature Envy
+src.freecs.Server	main	Brain Method
+src.freecs.Server	main	Dispersed Coupling
+src.freecs.Server	checkForConfigValues	Brain Method
+src.freecs.Server	checkForConfigValues	Intensive Coupling
+src.freecs.Server	loadCommands	Brain Method
+src.freecs.Server	loadCommands	Intensive Coupling
+src.freecs.Server	loadXmlRpcHandler	Brain Method
+src.freecs.Server	loadXmlRpcHandler	Intensive Coupling
+src.freecs.Server	loadPlugin	Dispersed Coupling
+src.freecs.Server	isRunning	Shotgun Surgery
+src.freecs.Server	addTempAdminhost	Feature Envy
+src.freecs.Server	addTempAdminhost	Dispersed Coupling
+src.freecs.Server	removeTempAdminhost	Feature Envy
+src.freecs.Server	getUrl	Feature Envy
+src.freecs.Server	banUser	Feature Envy
+src.freecs.Server	banUser	Dispersed Coupling
+src.freecs.Server	banConn	Feature Envy
+src.freecs.Server	banConn	Dispersed Coupling
+src.freecs.Server	banHost	Feature Envy
+src.freecs.Server	permaBanHost	Feature Envy
+src.freecs.Server	storeUser	Dispersed Coupling
+src.freecs.Server	removeStore	Dispersed Coupling
+src.freecs.Server	isPunished	Dispersed Coupling
+src.freecs.Server	isEntranceBanned	Dispersed Coupling
+src.freecs.Server	isCollocked	Dispersed Coupling
+src.freecs.Server	isActlocked	Dispersed Coupling
+src.freecs.Server	isAwaylocked	Dispersed Coupling
+src.freecs.Server	isPunishable	Dispersed Coupling
+src.freecs.Server	getPunishableKey	Feature Envy
+src.freecs.Server	getPunishableKey	Dispersed Coupling
+src.freecs.Server	log	Feature Envy
+src.freecs.Server	logMessage	Feature Envy
+src.freecs.Server	null	God Class
+src.freecs.Server	null	Brain Class
+src.freecs.Server	null	Data Class
+src.freecs.core.MessageRenderer	evalVariable	Brain Method
+src.freecs.core.MessageRenderer	evalVariable	Intensive Coupling
+src.freecs.core.MessageRenderer	renderGroupthemeCreator	Dispersed Coupling
+src.freecs.core.MessageRenderer	renderTitle	Brain Method
+src.freecs.core.MessageRenderer	renderTitle	Dispersed Coupling
+src.freecs.core.MessageRenderer	renderUserName	Brain Method
+src.freecs.core.MessageRenderer	renderUserName	Dispersed Coupling
+src.freecs.core.MessageRenderer	renderValue	Intensive Coupling
+src.freecs.core.MessageRenderer	encode	Feature Envy
+src.freecs.core.MessageRenderer	null	God Class
+src.freecs.core.MessageRenderer	null	Brain Class
+src.freecs.core.CleanupClass	run	Dispersed Coupling
+src.freecs.commands.CmdLockChangeForeignAction	execute	Feature Envy
+src.freecs.commands.CmdLockChangeForeignAction	col	Brain Method
+src.freecs.commands.CmdLockChangeForeignAction	col	Intensive Coupling
+src.freecs.commands.CmdLockChangeForeignAction	away	Brain Method
+src.freecs.commands.CmdLockChangeForeignAction	away	Intensive Coupling
+src.freecs.commands.CmdLockChangeForeignAction	me	Brain Method
+src.freecs.commands.CmdLockChangeForeignAction	me	Intensive Coupling
+src.freecs.commands.CmdLockChangeForeignAction	null	God Class
+src.freecs.commands.CmdLockChangeForeignAction	null	Brain Class
+src.freecs.commands.CmdLockChangeForeignAction	null	Refused Parent Bequest
+src.freecs.util.FadeColor	getFadeColorUsername	Feature Envy
+src.freecs.util.TrafficMonitor	startTrafficMonitor	Feature Envy
+src.freecs.util.TrafficMonitor	run	Dispersed Coupling
+src.freecs.commands.CmdAct	execute	Feature Envy
+src.freecs.commands.CmdShowIp	checkVersion	Feature Envy
+src.freecs.commands.CmdShowIp	execute	Dispersed Coupling
+src.freecs.commands.CmdShowIp	null	Refused Parent Bequest
+src.freecs.commands.CmdHitDice	execute	Brain Method
+src.freecs.commands.CmdHitDice	execute	Dispersed Coupling
+src.freecs.external.AdminCore	messageToAll	Feature Envy
+src.freecs.external.AdminCore	messageToGroup	Feature Envy
+src.freecs.external.AdminCore	messageToUser	Feature Envy
+src.freecs.commands.CmdClear	execute	Feature Envy
+src.freecs.commands.CmdReplyMessage	execute	Feature Envy
+src.freecs.core.RequestReader	RequestReader	Feature Envy
+src.freecs.core.RequestReader	processRequest	Feature Envy
+src.freecs.core.RequestReader	run	Brain Method
+src.freecs.core.RequestReader	run	Dispersed Coupling
+src.freecs.core.RequestReader	evaluate	Feature Envy
+src.freecs.core.RequestReader	finalize	Feature Envy
+src.freecs.core.RequestReader	null	God Class
+src.freecs.core.RequestReader	null	Data Class
+src.freecs.core.ConnectionBuffer	ConnectionBuffer	Feature Envy
+src.freecs.core.ConnectionBuffer	append	Brain Method
+src.freecs.core.ConnectionBuffer	append	Intensive Coupling
+src.freecs.core.ConnectionBuffer	reset	Feature Envy
+src.freecs.core.ConnectionBuffer	addToWrite	Feature Envy
+src.freecs.core.ConnectionBuffer	addToWrite	Dispersed Coupling
+src.freecs.core.ConnectionBuffer	isValid	Shotgun Surgery
+src.freecs.core.ConnectionBuffer	finalize	Feature Envy
+src.freecs.core.ConnectionBuffer	null	God Class
+src.freecs.external.UserlistManager	getUserlist	Brain Method
+src.freecs.external.UserlistManager	getUserlist	Dispersed Coupling
+src.freecs.external.UserlistManager	renderGroupAsText	Feature Envy
+src.freecs.external.UserlistManager	renderGroupAsXml	Dispersed Coupling
+src.freecs.external.UserlistManager	renderUserAsText	Intensive Coupling
+src.freecs.external.UserlistManager	renderUserAsXml	Brain Method
+src.freecs.external.UserlistManager	renderUserAsXml	Intensive Coupling
+src.freecs.external.UserlistManager	null	God Class
+src.freecs.external.UserlistManager	null	Brain Class
+src.freecs.util.logger.LogCleaner	startLogCleaner	Feature Envy
+src.freecs.util.logger.LogCleaner	run	Brain Method
+src.freecs.util.logger.LogCleaner	run	Dispersed Coupling
+src.freecs.core.Membership	init	Brain Method
+src.freecs.core.Membership	init	Dispersed Coupling
+src.freecs.core.Membership	add	Feature Envy
+src.freecs.core.Membership	sendHistory	Feature Envy
+src.freecs.core.Membership	null	God Class
+src.freecs.core.Membership	null	Data Class
+src.freecs.commands.CmdBan	execute	Brain Method
+src.freecs.commands.CmdBan	execute	Intensive Coupling
+src.freecs.commands.CmdChangeBgcolor	execute	Dispersed Coupling
+src.freecs.commands.CmdChangeBgcolor	listAllowedBgcolor	Dispersed Coupling
+src.freecs.commands.CmdChangeBgcolor	null	Refused Parent Bequest
+src.freecs.commands.CmdQuestion	execute	Feature Envy
+src.freecs.commands.CmdIgnore	execute	Dispersed Coupling
+src.freecs.commands.CmdCallMemberships	execute	Dispersed Coupling
+src.freecs.commands.CmdSetTheme	execute	Dispersed Coupling
+src.freecs.util.MessageTemplateFinder	main	Dispersed Coupling
+src.freecs.util.MessageTemplateFinder	search	Intensive Coupling
+src.freecs.content.ContentContainer	ContentContainer	Feature Envy
+src.freecs.content.ContentContainer	wrap	Feature Envy
+src.freecs.content.ContentContainer	wrap	Dispersed Coupling
+src.freecs.content.ContentContainer	appendCookie	Feature Envy
+src.freecs.content.ContentContainer	canUseTemplateset	Dispersed Coupling
+src.freecs.content.ContentContainer	renderTemplate	Dispersed Coupling
+src.freecs.content.ContentContainer	prepareForSending	Feature Envy
+src.freecs.content.ContentContainer	setContent	Dispersed Coupling
+src.freecs.content.ContentContainer	setRedirectTo	Feature Envy
+src.freecs.content.ContentContainer	finalize	Feature Envy
+src.freecs.content.ContentContainer	null	God Class
+src.freecs.util.logger.LogWriterBenchmark	run	Dispersed Coupling
+src.freecs.commands.CmdListUsers	execute	Dispersed Coupling
+src.freecs.external.WebadminRequestHandler	handle	Brain Method
+src.freecs.external.WebadminRequestHandler	handle	Dispersed Coupling
+src.freecs.external.WebadminRequestHandler	checkProperties	Brain Method
+src.freecs.external.WebadminRequestHandler	checkProperties	Intensive Coupling
+src.freecs.external.WebadminRequestHandler	changeState	Brain Method
+src.freecs.external.WebadminRequestHandler	changeState	Dispersed Coupling
+src.freecs.external.WebadminRequestHandler	removeUser	Feature Envy
+src.freecs.external.WebadminRequestHandler	removeBan	Feature Envy
+src.freecs.external.WebadminRequestHandler	removeActionstore	Feature Envy
+src.freecs.external.WebadminRequestHandler	sendMessageToUser	Feature Envy
+src.freecs.external.WebadminRequestHandler	sendMessageToGroup	Feature Envy
+src.freecs.external.WebadminRequestHandler	renderUserlist	Feature Envy
+src.freecs.external.WebadminRequestHandler	searchUser	Feature Envy
+src.freecs.external.WebadminRequestHandler	searchGroup	Feature Envy
+src.freecs.external.WebadminRequestHandler	displayGroup	Brain Method
+src.freecs.external.WebadminRequestHandler	displayGroup	Dispersed Coupling
+src.freecs.external.WebadminRequestHandler	renderBanlist	Brain Method
+src.freecs.external.WebadminRequestHandler	renderBanlist	Dispersed Coupling
+src.freecs.external.WebadminRequestHandler	renderGrouplist	Feature Envy
+src.freecs.external.WebadminRequestHandler	renderConfigoverview	Brain Method
+src.freecs.external.WebadminRequestHandler	renderConfigoverview	Dispersed Coupling
+src.freecs.external.WebadminRequestHandler	null	God Class
+src.freecs.external.WebadminRequestHandler	null	Brain Class
+src.freecs.external.WebadminRequestHandler	null	Refused Parent Bequest
+src.freecs.commands.CmdPunish	execute	Brain Method
+src.freecs.commands.CmdPunish	execute	Dispersed Coupling
+src.freecs.commands.CmdKickHard	execute	Brain Method
+src.freecs.commands.CmdKickHard	execute	Intensive Coupling
+src.freecs.external.UserlistRequestHandler	handle	Feature Envy
+src.freecs.layout.Template	render	Intensive Coupling
+src.freecs.layout.Template	parseFile	Brain Method
+src.freecs.layout.Template	parseFile	Intensive Coupling
+src.freecs.layout.Template	generateUserList	Dispersed Coupling
+src.freecs.layout.Template	fonly	Dispersed Coupling
+src.freecs.layout.Template	generateUserList	Feature Envy
+src.freecs.layout.Template	changed	Feature Envy
+src.freecs.layout.Template	null	God Class
+src.freecs.layout.Template	null	Brain Class
+src.freecs.layout.Template	null	Data Class
+src.freecs.content.BanObject	finalize	Feature Envy
+src.freecs.commands.CmdJoin	checkVersion	Feature Envy
+src.freecs.commands.CmdJoin	execute	Brain Method
+src.freecs.commands.CmdJoin	execute	Intensive Coupling
+src.freecs.commands.AbstractCommand	messageLog	Dispersed Coupling
+src.freecs.commands.AbstractCommand	isPunished	Feature Envy
+src.freecs.commands.AbstractCommand	isPunished	Shotgun Surgery
+src.freecs.commands.AbstractCommand	getUser	Feature Envy
+src.freecs.commands.AbstractCommand	setInvited	Feature Envy
+src.freecs.commands.AbstractCommand	isVip	Shotgun Surgery
+src.freecs.commands.AbstractCommand	isMembershipLocked	Feature Envy
+src.freecs.commands.AbstractCommand	hasMinRightSepa	Dispersed Coupling
+src.freecs.commands.AbstractCommand	sendUserList	Feature Envy
+src.freecs.commands.AbstractCommand	getMultiblePunishableUsers	Dispersed Coupling
+src.freecs.commands.AbstractCommand	getMultibleUsers	Dispersed Coupling
+src.freecs.commands.AbstractCommand	getMultibleUsers	Shotgun Surgery
+src.freecs.commands.AbstractCommand	sendPrivateMessage	Feature Envy
+src.freecs.commands.AbstractCommand	_isColorCodeValid	Feature Envy
+src.freecs.commands.AbstractCommand	isColorCodeValid	Feature Envy
+src.freecs.commands.AbstractCommand	null	God Class
+src.freecs.auth.sqlConnectionPool.ConnectionPool	getPoolElement	Feature Envy
+src.freecs.auth.sqlConnectionPool.ConnectionPool	getPoolElement	Dispersed Coupling
+src.freecs.auth.sqlConnectionPool.ConnectionPool	finalize	Feature Envy
+src.freecs.commands.CmdChangeColor	execute	Dispersed Coupling
+src.freecs.commands.CmdSu	execute	Brain Method
+src.freecs.commands.CmdSu	execute	Intensive Coupling
+src.freecs.core.RequestEvaluator	evaluate	Brain Method
+src.freecs.core.RequestEvaluator	evaluate	Intensive Coupling
+src.freecs.core.RequestEvaluator	handleMessagesConnection	Intensive Coupling
+src.freecs.core.RequestEvaluator	handleSend	Intensive Coupling
+src.freecs.core.RequestEvaluator	loadHandler	Brain Method
+src.freecs.core.RequestEvaluator	loadHandler	Intensive Coupling
+src.freecs.core.RequestEvaluator	null	Brain Class
+src.freecs.commands.CmdRespectUser	execute	Brain Method
+src.freecs.commands.CmdRespectUser	execute	Intensive Coupling
+src.freecs.commands.CmdListVips	execute	Dispersed Coupling
+src.freecs.content.MessageState	MessageState	Feature Envy
+src.freecs.content.MessageState	finalize	Feature Envy
+src.freecs.external.xmlrpc.XmlRpcManager	start	Dispersed Coupling
+src.freecs.commands.CmdListBan	checkVersion	Feature Envy
+src.freecs.commands.CmdListBan	execute	Dispersed Coupling
+src.freecs.util.EntityDecoder	entityTo	Dispersed Coupling
+src.freecs.util.EntityDecoder	null	Data Class
+src.freecs.external.xmlrpc.freecsXmlRpcHandler	checkVersion	Feature Envy
+src.freecs.external.xmlrpc.freecsXmlRpcHandler	getLinuxMemoryDetails	Dispersed Coupling
+src.freecs.util.logger.LogWriter	run	Intensive Coupling
+src.freecs.util.logger.LogWriter	writeToChannel	Dispersed Coupling
+src.freecs.layout.TemplateSet	createTemplates	Dispersed Coupling
+src.freecs.layout.TemplateSet	getMessageTemplate	Shotgun Surgery
+src.freecs.layout.TemplateSet	readMessageSet	Dispersed Coupling
+src.freecs.layout.TemplateSet	changed	Feature Envy
+src.freecs.layout.TemplateSet	removed	Feature Envy
+src.freecs.layout.TemplateSet	null	God Class
+src.freecs.layout.TemplateSet	null	Data Class

@@ -1,439 +1,1886 @@
-proguard.evaluation.BranchUnit	(Object)Adapter
-proguard.classfile.visitor.ClassNameFilter	Decorator
-proguard.io.DataEntry	(Object)Adapter
-proguard.classfile.editor.AttributeAdder	(Object)Adapter
-proguard.classfile.ProgramMethod	Visitor
-proguard.evaluation.BasicInvocationUnit	(Object)Adapter
-proguard.classfile.editor.MethodInvocationFixer	State
-proguard.evaluation.ConstantValueFactory	(Object)Adapter
-proguard.classfile.instruction.BranchInstruction	Visitor
-proguard.classfile.attribute.visitor.MultiAttributeVisitor	Composite
-proguard.io.DataEntryNameFilter	State
-proguard.classfile.attribute.SourceDirAttribute	Visitor
-proguard.classfile.Clazz	Composite
-proguard.classfile.visitor.SimilarMemberVisitor	(Object)Adapter
-proguard.classfile.attribute.ExceptionsAttribute	Visitor
-proguard.classfile.instruction.Instruction	State
-proguard.classfile.attribute.annotation.EnumConstantElementValue	Visitor
-proguard.gui.splash.ColorSprite	(Object)Adapter
-proguard.classfile.instruction.Instruction	Observer
-proguard.gui.splash.CircleSprite	State
-proguard.classfile.editor.ConstantPoolShrinker	Proxy
-proguard.gui.splash.TypeWriterString	(Object)Adapter
-proguard.optimize.MethodDescriptorShrinker	Decorator
-proguard.util.StringParser	Factory Method
-proguard.io.DataEntryFilter	(Object)Adapter
-proguard.classfile.editor.SubclassToAdder	State
-proguard.classfile.attribute.visitor.StackSizeComputer	Proxy2
-proguard.optimize.peephole.MethodFinalizer	Decorator
-proguard.classfile.instruction.Instruction	Template Method
-proguard.classfile.constant.FieldrefConstant	Visitor
-proguard.gui.splash.VariableString	State
-proguard.classfile.attribute.preverification.UninitializedType	Visitor
-proguard.classfile.ClassPool	(Object)Adapter
-proguard.io.DataEntryClassWriter	State
-proguard.classfile.attribute.annotation.visitor.ElementValueVisitor	Decorator
-proguard.io.DataEntryFilter	Decorator
-proguard.evaluation.BranchUnit	State
-proguard.classfile.editor.MemberAdder	(Object)Adapter
-proguard.obfuscate.NameFactoryResetter	State
-proguard.classfile.attribute.preverification.FullFrame	Visitor
-proguard.shrink.UsedMemberFilter	Decorator
-proguard.evaluation.BasicBranchUnit	(Object)Adapter
-proguard.classfile.attribute.visitor.AttributeVisitor	Visitor
-proguard.classfile.util.DynamicMemberReferenceInitializer	State
-proguard.optimize.evaluation.LivenessAnalyzer	Proxy
-proguard.classfile.ProgramField	Visitor
-proguard.classfile.editor.SubclassToAdder	(Object)Adapter
-proguard.gui.splash.Sprite	Decorator
-proguard.classfile.Member	Bridge
-proguard.util.SettableMatcher	Decorator
-proguard.classfile.attribute.annotation.ArrayElementValue	Visitor
-proguard.obfuscate.NameFactory	State
-proguard.optimize.peephole.InstructionSequenceReplacer$MyReplacementInstructionFactory	State
-proguard.classfile.visitor.MemberDescriptorFilter	Decorator
-proguard.optimize.KeptClassFilter	Decorator
-proguard.classfile.editor.StackSizeUpdater	Proxy
-proguard.classfile.util.WarningPrinter	(Object)Adapter
-proguard.classfile.constant.MethodrefConstant	Visitor
-proguard.optimize.peephole.NopRemover	Decorator
-proguard.classfile.visitor.ClassAccessFilter	Decorator
-proguard.classfile.attribute.annotation.visitor.ElementValueVisitor	Visitor
-proguard.evaluation.ClassConstantValueFactory	(Object)Adapter
-proguard.classfile.visitor.MultiMemberVisitor	Composite
-proguard.evaluation.Variables	Observer
-proguard.classfile.editor.NameAndTypeShrinker	Proxy
-proguard.optimize.evaluation.PartialEvaluator	State
-proguard.classfile.instruction.visitor.InstructionVisitor	Proxy2
-proguard.classfile.visitor.MemberVisitor	Proxy2
-proguard.obfuscate.NameFactory	Decorator
-proguard.io.DataEntry	State
-proguard.io.DataEntryCopier	State
-proguard.classfile.attribute.ConstantValueAttribute	Visitor
-proguard.WordReader	Template Method
-proguard.io.CascadingDataEntryWriter	Decorator
-proguard.optimize.info.PackageVisibleMemberInvokingClassMarker	State
-proguard.io.DataEntryRenamer	Decorator
-proguard.classfile.attribute.preverification.MoreZeroFrame	Visitor
-proguard.classfile.attribute.visitor.ExceptionInfoVisitor	Decorator
-proguard.DescriptorKeepChecker	State
-proguard.evaluation.value.Value	State
-proguard.classfile.instruction.visitor.InstructionVisitor	Visitor
-proguard.io.DataEntryClassWriter	(Object)Adapter
-proguard.optimize.ConstantMemberFilter	Decorator
-proguard.io.DataEntry	Decorator
-proguard.io.DataEntryWriter	State
-proguard.io.DirectoryWriter	State
-proguard.util.VariableStringMatcher	Decorator
-proguard.classfile.editor.CodeAttributeEditor	State
-proguard.classfile.util.WarningPrinter	State
-proguard.io.JarWriter	State
-proguard.classfile.visitor.ImplementedClassConstantFilter	State
-proguard.classfile.LibraryMember	Template Method
-proguard.optimize.info.VariableUsageMarker	Proxy
-proguard.classfile.Member	State
-proguard.classfile.ProgramClass	Visitor
-proguard.classfile.constant.MethodTypeConstant	Visitor
-proguard.classfile.LibraryMethod	State
-proguard.classfile.visitor.ReferencedClassVisitor	Proxy2
-proguard.classfile.attribute.annotation.ClassElementValue	Visitor
-proguard.gui.splash.VariableColor	(Object)Adapter
-proguard.gui.splash.LinearColor	(Object)Adapter
-proguard.classfile.editor.ExceptionInfoAdder	(Object)Adapter
-proguard.classfile.visitor.MemberNameFilter	Decorator
-proguard.gui.splash.RectangleSprite	State
-proguard.gui.splash.BufferedSprite	(Object)Adapter
-proguard.classfile.ProgramClass	Composite
-proguard.shrink.ClassShrinker	Proxy
-proguard.evaluation.value.InstructionOffsetValue	(Object)Adapter
-proguard.io.ClassReader	(Object)Adapter
-proguard.classfile.editor.InstructionAdder	(Object)Adapter
-proguard.optimize.peephole.UnreachableExceptionRemover	Decorator
-proguard.classfile.attribute.InnerClassesAttribute	Visitor
-proguard.classfile.constant.FloatConstant	Visitor
-proguard.evaluation.Stack	State
-proguard.classfile.attribute.SignatureAttribute	Visitor
-proguard.classfile.visitor.ExceptionOffsetFilter	Decorator
-proguard.optimize.peephole.InstructionSequenceReplacer	State
-proguard.classfile.util.DynamicClassReferenceInitializer	(Object)Adapter
-proguard.util.StringMatcher	(Object)Adapter
-proguard.classfile.editor.AttributesEditor	(Object)Adapter
-proguard.util.AndMatcher	Decorator
-proguard.classfile.util.DynamicClassReferenceInitializer	State
-proguard.classfile.attribute.preverification.IntegerType	Visitor
-proguard.classfile.visitor.MethodImplementationFilter	Decorator
-proguard.optimize.peephole.MethodFinalizer	Proxy2
-proguard.optimize.peephole.BranchTargetFinder	Proxy2
-proguard.classfile.visitor.ExceptClassesFilter	Decorator
-proguard.optimize.peephole.GotoCommonCodeReplacer	Proxy2
-proguard.optimize.peephole.MemberPrivatizer	Decorator
-proguard.classfile.constant.RefConstant	Bridge
-proguard.classfile.constant.visitor.ConstantVisitor	Proxy2
-proguard.io.DataEntryReader	Decorator
-proguard.optimize.evaluation.VariableOptimizer	Proxy
-proguard.classfile.visitor.ExceptionExcludedOffsetFilter	Decorator
-proguard.classfile.visitor.LibraryMemberFilter	Decorator
-proguard.obfuscate.NameFactoryResetter	(Object)Adapter
-proguard.classfile.constant.MethodHandleConstant	Visitor
-proguard.classfile.constant.InterfaceMethodrefConstant	Visitor
-proguard.optimize.TailRecursionSimplifier	Decorator
-proguard.classfile.editor.InstructionWriter	Proxy
-proguard.classfile.LibraryMethod	Visitor
-proguard.classfile.visitor.ImplementingClassConstantFilter	State
-proguard.classfile.constant.visitor.ConstantTagFilter	Proxy2
-proguard.shrink.UsedClassFilter	Decorator
-proguard.gui.splash.TextSprite	(Object)Adapter
-proguard.classfile.attribute.annotation.RuntimeInvisibleParameterAnnotationsAttribute	Visitor
-proguard.classfile.io.RuntimeDataOutput	(Object)Adapter
-proguard.classfile.attribute.LocalVariableTypeTableAttribute	Visitor
-proguard.optimize.TailRecursionSimplifier	(Object)Adapter
-proguard.io.FilteredDataEntryWriter	State
-proguard.obfuscate.MappingKeeper	State
-proguard.classfile.attribute.annotation.ConstantElementValue	Visitor
-proguard.gui.splash.RectangleSprite	(Object)Adapter
-proguard.optimize.info.InstanceofClassFilter	Decorator
-proguard.classfile.attribute.preverification.LessZeroFrame	Visitor
-proguard.gui.splash.ColorSprite	State
-proguard.classfile.attribute.preverification.ObjectType	Visitor
-proguard.io.DataEntryCopier	(Object)Adapter
-proguard.gui.splash.VariableColor	State
-proguard.classfile.editor.LocalVariableInfoAdder	(Object)Adapter
-proguard.evaluation.value.IntegerValue	Factory Method
-proguard.optimize.WriteOnlyFieldFilter	Decorator
-proguard.classfile.editor.ElementValueAdder	(Object)Adapter
-proguard.obfuscate.ParameterNameMarker	Decorator
-proguard.optimize.evaluation.PartialEvaluator	(Object)Adapter
-proguard.optimize.peephole.GotoCommonCodeReplacer	Proxy
-proguard.gui.splash.LinearDouble	State
-proguard.classfile.attribute.EnclosingMethodAttribute	Visitor
-proguard.obfuscate.MappingKeeper	(Object)Adapter
-proguard.gui.splash.CircleSprite	(Object)Adapter
-proguard.classfile.visitor.MemberVisitor	Composite
-proguard.classfile.LibraryClass	Decorator
-proguard.optimize.TailRecursionSimplifier	Proxy2
-proguard.classfile.attribute.preverification.UninitializedThisType	Visitor
-proguard.gui.splash.Sprite	State
-proguard.classfile.ProgramMethod	(Object)Adapter
-proguard.io.FilteredDataEntryWriter	Decorator
-proguard.classfile.attribute.LocalVariableTableAttribute	Visitor
-proguard.classfile.visitor.MemberToClassVisitor	(Object)Adapter
-proguard.classfile.io.ProgramClassReader	(Object)Adapter
-proguard.optimize.info.StaticInitializerContainingClassFilter	Decorator
-proguard.classfile.attribute.annotation.visitor.AllElementValueVisitor	Decorator
-proguard.optimize.DuplicateInitializerFixer	Decorator
-proguard.classfile.attribute.preverification.StackMapTableAttribute	Visitor
-proguard.evaluation.value.LongValue	Factory Method
-proguard.io.JarWriter	Decorator
-proguard.classfile.attribute.annotation.visitor.AnnotationTypeFilter	State
-proguard.classfile.LibraryClass	Composite
-proguard.util.NotMatcher	Decorator
-proguard.classfile.editor.AnnotationAdder	(Object)Adapter
-proguard.classfile.editor.AccessFixer	State
-proguard.optimize.ConstantParameterFilter	Decorator
-proguard.classfile.attribute.preverification.visitor.VerificationTypeVisitor	Visitor
-proguard.optimize.info.MethodOptimizationInfo	State
-proguard.classfile.attribute.visitor.AttributeVisitor	Decorator
-proguard.classfile.visitor.ClassVisitor	State
-proguard.classfile.editor.ConstantPoolEditor	(Object)Adapter
-proguard.classfile.instruction.visitor.MultiInstructionVisitor	Composite
-proguard.gui.splash.VariableSizeFont	(Object)Adapter
-proguard.classfile.ProgramMember	Template Method
-proguard.io.DataEntryObfuscator	Decorator
-proguard.io.ClassRewriter	State
-proguard.gui.splash.ClipSprite	Decorator
-proguard.gui.splash.TextSprite	State
-proguard.classfile.editor.ConstantPoolRemapper	Proxy
-proguard.classfile.ClassPool	Visitor
-proguard.io.FilteredDataEntryReader	State
-proguard.classfile.LibraryClass	Visitor
-proguard.SubclassedClassFilter	Decorator
-proguard.classfile.attribute.preverification.LongType	Visitor
-proguard.classfile.editor.ExceptionsAttributeEditor	(Object)Adapter
-proguard.util.FixedStringMatcher	Decorator
-proguard.classfile.visitor.ExceptClassFilter	Decorator
-proguard.optimize.info.CaughtClassFilter	Decorator
-proguard.evaluation.value.DoubleValue	Template Method
-proguard.classfile.visitor.MemberVisitor	Decorator
-proguard.util.StringMatcher	Decorator
-proguard.classfile.Clazz	State
-proguard.shrink.ShortestUsageMark	State
-proguard.classfile.attribute.SourceFileAttribute	Visitor
-proguard.evaluation.InvocationUnit	State
-proguard.optimize.DuplicateInitializerInvocationFixer	Proxy
-proguard.classfile.attribute.preverification.FloatType	Visitor
-proguard.evaluation.value.DoubleValue	Factory Method
-proguard.gui.splash.Timing	(Object)Adapter
-proguard.classfile.editor.VariableEditor	Proxy
-proguard.gui.splash.TimeSwitchSprite	Decorator
-proguard.evaluation.TracedVariables	State
-proguard.obfuscate.DictionaryNameFactory	Decorator
-proguard.classfile.editor.LineNumberTableAttributeEditor	(Object)Adapter
-proguard.classfile.attribute.UnknownAttribute	Visitor
-proguard.io.ParentDataEntryWriter	Decorator
-proguard.classfile.attribute.LineNumberTableAttribute	Visitor
-proguard.classfile.util.DynamicMemberReferenceInitializer	(Object)Adapter
-proguard.gui.splash.BufferedSprite	State
-proguard.classfile.constant.visitor.ConstantVisitor	Visitor
-proguard.classfile.visitor.ProgramClassFilter	Decorator
-proguard.classfile.attribute.preverification.SameZeroFrame	Visitor
-proguard.classfile.editor.CodeAttributeComposer	Proxy2
-proguard.classfile.visitor.MultiClassVisitor	Composite
-proguard.evaluation.value.ReferenceValue	State
-proguard.classfile.constant.DoubleConstant	Visitor
-proguard.gui.splash.VariableDouble	(Object)Adapter
-proguard.gui.splash.ImageSprite	State
-proguard.gui.splash.ClipSprite	(Object)Adapter
-proguard.io.DataEntryNameFilter	(Object)Adapter
-proguard.optimize.peephole.InstructionSequenceConstants	State
-proguard.classfile.editor.MethodInvocationFixer	Proxy
-proguard.classfile.constant.NameAndTypeConstant	Visitor
-proguard.classfile.editor.CodeAttributeEditor	Proxy2
-proguard.classfile.attribute.preverification.TopType	Visitor
-proguard.classfile.visitor.ClassNameFilter	State
-proguard.gui.splash.ColorSprite	Decorator
-proguard.classfile.visitor.ImplementedClassConstantFilter	Decorator
-proguard.classfile.visitor.ClassVersionFilter	Decorator
-proguard.classfile.instruction.LookUpSwitchInstruction	Visitor
-proguard.obfuscate.ClassObfuscator	State
-proguard.optimize.peephole.MethodInliner	Proxy2
-proguard.evaluation.Processor	State
-proguard.classfile.instruction.visitor.InstructionVisitor	Composite
-proguard.obfuscate.MemberObfuscator	State
-proguard.io.DataEntryParentFilter	Decorator
-proguard.classfile.attribute.annotation.AnnotationElementValue	Visitor
-proguard.classfile.attribute.annotation.visitor.AnnotationVisitor	Decorator
-proguard.optimize.peephole.PeepholeOptimizer	Proxy
-proguard.classfile.LibraryField	Visitor
-proguard.io.Finisher	State
-proguard.classfile.attribute.preverification.DoubleType	Visitor
-proguard.gui.splash.FontSprite	Decorator
-proguard.util.OrMatcher	Decorator
-proguard.classfile.visitor.LibraryClassFilter	Decorator
-proguard.gui.splash.Timing	State
-proguard.classfile.visitor.MemberDescriptorFilter	State
-proguard.evaluation.Variables	(Object)Adapter
-proguard.gui.splash.TypeWriterString	State
-proguard.classfile.util.MemberFinder	State
-proguard.classfile.editor.ConstantPoolSorter	Proxy
-proguard.gui.splash.VariableDouble	State
-proguard.classfile.visitor.ExceptionRangeFilter	Decorator
-proguard.classfile.attribute.visitor.AttributeVisitor	Composite
-proguard.classfile.instruction.ConstantInstruction	Visitor
-proguard.io.DataEntryWriter	Decorator
-proguard.classfile.visitor.VariableClassVisitor	Decorator
-proguard.classfile.io.ProgramClassWriter	(Object)Adapter
-proguard.classfile.visitor.ProgramMemberFilter	Decorator
-proguard.classfile.attribute.BootstrapMethodsAttribute	Visitor
-proguard.classfile.visitor.MemberAccessFilter	Decorator
-proguard.classfile.constant.StringConstant	Visitor
-proguard.evaluation.Stack	Observer
-proguard.gui.splash.LinearColor	State
-proguard.classfile.visitor.ClassVisitor	Decorator
-proguard.classfile.attribute.CodeAttribute	Visitor
-proguard.classfile.editor.LocalVariableTypeInfoAdder	(Object)Adapter
-proguard.classfile.attribute.visitor.AllAttributeVisitor	Proxy2
-proguard.optimize.info.SideEffectMethodFilter	Decorator
-proguard.gui.splash.VariableFont	(Object)Adapter
-proguard.classfile.LibraryField	State
-proguard.classfile.visitor.ClassVisitor	Proxy2
-proguard.classfile.attribute.preverification.SameOneFrame	Visitor
-proguard.classfile.editor.InterfacesEditor	(Object)Adapter
-proguard.classfile.attribute.visitor.AttributeNameFilter	State
-proguard.classfile.visitor.BottomClassFilter	Decorator
-proguard.classfile.util.InstructionSequenceMatcher	State
-proguard.classfile.visitor.ImplementedClassFilter	Decorator
-proguard.classfile.editor.ConstantAdder	(Object)Adapter
-proguard.evaluation.value.IntegerValue	Template Method
-proguard.evaluation.value.Value	Observer
-proguard.classfile.attribute.visitor.AttributeVisitor	Proxy2
-proguard.classfile.visitor.SubclassFilter	Decorator
-proguard.evaluation.Stack	(Object)Adapter
-proguard.DuplicateClassPrinter	(Object)Adapter
-proguard.optimize.peephole.MethodInliner	(Object)Adapter
-proguard.optimize.peephole.MethodInliner	Decorator
-proguard.classfile.constant.Constant	State
-proguard.classfile.editor.CodeAttributeEditor	Proxy
-proguard.evaluation.value.FloatValue	Template Method
-proguard.classfile.editor.LocalVariableTableAttributeEditor	(Object)Adapter
-proguard.classfile.visitor.ClassPoolVisitor	Composite
-proguard.classfile.visitor.ImplementingClassConstantFilter	Decorator
-proguard.classfile.editor.ParameterAnnotationsAttributeEditor	(Object)Adapter
-proguard.classfile.visitor.MemberToClassVisitor	State
-proguard.classfile.visitor.ClassVisitor	Composite
-proguard.optimize.ChangedCodePrinter	Decorator
-proguard.gui.splash.VariableInt	(Object)Adapter
-proguard.io.DataEntryWriter	(Object)Adapter
-proguard.classfile.attribute.annotation.AnnotationDefaultAttribute	Visitor
-proguard.classfile.editor.InterfaceAdder	(Object)Adapter
-proguard.gui.splash.ShadowedSprite	(Object)Adapter
-proguard.classfile.constant.IntegerConstant	Visitor
-proguard.classfile.editor.MethodInvocationFixer	(Object)Adapter
-proguard.classfile.attribute.SyntheticAttribute	Visitor
-proguard.classfile.editor.MemberAdder	Decorator
-proguard.classfile.attribute.annotation.RuntimeVisibleParameterAnnotationsAttribute	Visitor
-proguard.classfile.editor.ClassEditor	(Object)Adapter
-proguard.optimize.info.InstantiationClassFilter	Decorator
-proguard.classfile.attribute.annotation.visitor.AnnotationToMemberVisitor	State
-proguard.gui.splash.FontSprite	(Object)Adapter
-proguard.classfile.editor.LocalVariableTypeTableAttributeEditor	(Object)Adapter
-proguard.optimize.info.DotClassFilter	Decorator
-proguard.io.RenamedDataEntry	Decorator
-proguard.io.DataEntryFilter	State
-proguard.classfile.visitor.MultiClassPoolVisitor	Composite
-proguard.classfile.visitor.MemberVisitor	Visitor
-proguard.classfile.visitor.MemberNameFilter	State
-proguard.classfile.attribute.annotation.visitor.AnnotatedClassVisitor	(Object)Adapter
-proguard.classfile.constant.ClassConstant	Visitor
-proguard.evaluation.value.InstructionOffsetValue	Singleton
-proguard.classfile.util.ClassReferenceInitializer	(Object)Adapter
-proguard.evaluation.InvocationUnit	(Object)Adapter
-proguard.gui.splash.BufferedSprite	Decorator
-proguard.optimize.peephole.ClassFinalizer	Decorator
-proguard.optimize.peephole.VariableShrinker	Proxy
-proguard.optimize.peephole.GotoGotoReplacer	Decorator
-proguard.obfuscate.MemberNameFilter	Decorator
-proguard.classfile.editor.CodeAttributeEditor	Observer
-proguard.io.ClassRewriter	(Object)Adapter
-proguard.optimize.peephole.GotoReturnReplacer	Decorator
-proguard.optimize.MethodStaticizer	Decorator
-proguard.classfile.attribute.visitor.ExceptionInfoVisitor	Visitor
-proguard.classfile.instruction.VariableInstruction	Visitor
-proguard.classfile.instruction.SimpleInstruction	Visitor
-proguard.obfuscate.SpecialNameFactory	Decorator
-proguard.WordReader	Chain of Responsibility
-proguard.io.FilteredDataEntryReader	Decorator
-proguard.optimize.info.AccessMethodMarker	Proxy2
-proguard.classfile.constant.visitor.ConstantVisitor	Decorator
-proguard.classfile.Clazz	Decorator
-proguard.gui.splash.SplashPanel	State
-proguard.gui.splash.VariableSizeFont	State
-proguard.classfile.visitor.MemberClassAccessFilter	Decorator
-proguard.classfile.attribute.preverification.visitor.StackMapFrameVisitor	Visitor
-proguard.optimize.MemberDescriptorSpecializer	Decorator
-proguard.evaluation.value.FloatValue	Factory Method
-proguard.classfile.visitor.ClassVisitor	Visitor
-proguard.classfile.visitor.MemberClassAccessFilter	State
-proguard.classfile.ProgramField	State
-proguard.optimize.OptimizationInfoMemberFilter	Decorator
-proguard.obfuscate.NameFactory	(Object)Adapter
-proguard.classfile.visitor.VariableMemberVisitor	Decorator
-proguard.classfile.editor.VariableRemapper	Proxy
-proguard.io.JarReader	Decorator
-proguard.classfile.instruction.visitor.InstructionVisitor	Decorator
-proguard.classfile.editor.VariableSizeUpdater	Proxy
-proguard.io.JarWriter	(Object)Adapter
-proguard.classfile.editor.CodeAttributeComposer	Proxy
-proguard.classfile.constant.LongConstant	Visitor
-proguard.classfile.attribute.annotation.RuntimeInvisibleAnnotationsAttribute	Visitor
-proguard.io.FilteredDataEntryWriter	(Object)Adapter
-proguard.classfile.util.EnumFieldReferenceInitializer	State
-proguard.classfile.Clazz	(Object)Adapter
-proguard.gui.splash.LinearInt	(Object)Adapter
-proguard.classfile.attribute.annotation.visitor.AnnotationTypeFilter	Decorator
-proguard.classfile.visitor.ClassPoolVisitor	Visitor
-proguard.classfile.visitor.SimilarMemberVisitor	State
-proguard.gui.splash.VariableInt	State
-proguard.classfile.visitor.ImplementedClassConstantFilter	(Object)Adapter
-proguard.optimize.evaluation.PartialEvaluator	Proxy
-proguard.util.StringMatcher	State
-proguard.classfile.constant.InvokeDynamicConstant	Visitor
-proguard.optimize.peephole.GotoCommonCodeReplacer	Decorator
-proguard.gui.splash.LinearDouble	(Object)Adapter
-proguard.classfile.constant.visitor.ExceptClassConstantFilter	Decorator
-proguard.classfile.attribute.annotation.visitor.AnnotatedClassVisitor	State
-proguard.DescriptorKeepChecker	(Object)Adapter
-proguard.gui.splash.VariableFont	State
-proguard.classfile.visitor.ExceptionHandlerFilter	Decorator
-proguard.gui.splash.ShadowedSprite	Decorator
-proguard.gui.splash.ClipSprite	State
-proguard.classfile.instruction.TableSwitchInstruction	Visitor
-proguard.classfile.io.RuntimeDataInput	(Object)Adapter
-proguard.evaluation.Processor	(Object)Adapter
-proguard.classfile.constant.Utf8Constant	Visitor
-proguard.gui.splash.ShadowedSprite	State
-proguard.io.FilteredDataEntryReader	(Object)Adapter
-proguard.classfile.attribute.preverification.NullType	Visitor
-proguard.classfile.editor.AnnotationsAttributeEditor	(Object)Adapter
-proguard.gui.splash.ImageSprite	(Object)Adapter
-proguard.classfile.visitor.ImplementingClassConstantFilter	(Object)Adapter
-proguard.classfile.attribute.preverification.StackMapAttribute	Visitor
-proguard.classfile.io.LibraryClassReader	(Object)Adapter
-proguard.classfile.editor.LineNumberInfoAdder	(Object)Adapter
-proguard.classfile.editor.ExceptionAdder	(Object)Adapter
-proguard.classfile.editor.Utf8Shrinker	Proxy
-proguard.evaluation.Variables	State
-proguard.evaluation.value.ValueFactory	(Object)Adapter
-proguard.gui.splash.LinearInt	State
-proguard.optimize.info.FieldOptimizationInfo	State
-proguard.classfile.ProgramClass	(Object)Adapter
-proguard.classfile.visitor.ClassVisitor	(Object)Adapter
-proguard.classfile.Member	(Object)Adapter
-proguard.classfile.util.EnumFieldReferenceInitializer	(Object)Adapter
-proguard.classfile.Method	(Object)Adapter
-proguard.classfile.attribute.DeprecatedAttribute	Visitor
-proguard.gui.splash.FontSprite	State
-proguard.classfile.ProgramMethod	State
-proguard.classfile.attribute.annotation.RuntimeVisibleAnnotationsAttribute	Visitor
-proguard.optimize.KeptMemberFilter	Decorator
-proguard.classfile.util.MemberFinder	Proxy2
-proguard.obfuscate.MemberSpecialNameFilter	Decorator
+proguard.evaluation.value.DoubleValue	null	Creator	Factory Method
+proguard.evaluation.value.DoubleValue	negate	FactoryMethod()	Factory Method
+proguard.evaluation.value.DoubleValue	convertToInteger	FactoryMethod()	Factory Method
+proguard.evaluation.value.DoubleValue	convertToLong	FactoryMethod()	Factory Method
+proguard.evaluation.value.DoubleValue	convertToFloat	FactoryMethod()	Factory Method
+proguard.evaluation.value.FloatValue	null	Creator	Factory Method
+proguard.evaluation.value.FloatValue	negate	FactoryMethod()	Factory Method
+proguard.evaluation.value.FloatValue	convertToInteger	FactoryMethod()	Factory Method
+proguard.evaluation.value.FloatValue	convertToLong	FactoryMethod()	Factory Method
+proguard.evaluation.value.FloatValue	convertToDouble	FactoryMethod()	Factory Method
+proguard.evaluation.value.IntegerValue	null	Creator	Factory Method
+proguard.evaluation.value.IntegerValue	negate	FactoryMethod()	Factory Method
+proguard.evaluation.value.IntegerValue	convertToByte	FactoryMethod()	Factory Method
+proguard.evaluation.value.IntegerValue	convertToCharacter	FactoryMethod()	Factory Method
+proguard.evaluation.value.IntegerValue	convertToShort	FactoryMethod()	Factory Method
+proguard.evaluation.value.IntegerValue	convertToLong	FactoryMethod()	Factory Method
+proguard.evaluation.value.IntegerValue	convertToFloat	FactoryMethod()	Factory Method
+proguard.evaluation.value.IntegerValue	convertToDouble	FactoryMethod()	Factory Method
+proguard.evaluation.value.LongValue	null	Creator	Factory Method
+proguard.evaluation.value.LongValue	negate	FactoryMethod()	Factory Method
+proguard.evaluation.value.LongValue	convertToInteger	FactoryMethod()	Factory Method
+proguard.evaluation.value.LongValue	convertToFloat	FactoryMethod()	Factory Method
+proguard.evaluation.value.LongValue	convertToDouble	FactoryMethod()	Factory Method
+proguard.util.StringParser	null	Creator	Factory Method
+proguard.util.StringParser	parse	FactoryMethod()	Factory Method
+proguard.evaluation.value.InstructionOffsetValue	null	Singleton	Singleton
+proguard.evaluation.value.InstructionOffsetValue	null	uniqueInstance	Singleton
+proguard.classfile.Clazz	null	Adaptee	(Object)Adapter
+proguard.classfile.util.DynamicMemberReferenceInitializer	null	Adapter	(Object)Adapter
+proguard.classfile.util.DynamicMemberReferenceInitializer	null	adaptee	(Object)Adapter
+proguard.classfile.util.DynamicMemberReferenceInitializer	visitStringConstant	Request()	(Object)Adapter
+proguard.classfile.Clazz	null	Adaptee	(Object)Adapter
+proguard.classfile.editor.MethodInvocationFixer	null	Adapter	(Object)Adapter
+proguard.classfile.editor.MethodInvocationFixer	null	adaptee	(Object)Adapter
+proguard.classfile.editor.MethodInvocationFixer	null	adaptee	(Object)Adapter
+proguard.classfile.editor.MethodInvocationFixer	visitConstantInstruction	Request()	(Object)Adapter
+proguard.classfile.Clazz	null	Adaptee	(Object)Adapter
+proguard.DescriptorKeepChecker	null	Adapter	(Object)Adapter
+proguard.DescriptorKeepChecker	null	adaptee	(Object)Adapter
+proguard.DescriptorKeepChecker	visitProgramMethod	Request()	(Object)Adapter
+proguard.DescriptorKeepChecker	visitProgramClass	Request()	(Object)Adapter
+proguard.classfile.Clazz	null	Adaptee	(Object)Adapter
+proguard.classfile.attribute.annotation.visitor.AnnotatedClassVisitor	null	Adapter	(Object)Adapter
+proguard.classfile.attribute.annotation.visitor.AnnotatedClassVisitor	null	adaptee	(Object)Adapter
+proguard.classfile.attribute.annotation.visitor.AnnotatedClassVisitor	visitAnnotation	Request()	(Object)Adapter
+proguard.classfile.Clazz	null	Adaptee	(Object)Adapter
+proguard.classfile.util.EnumFieldReferenceInitializer	null	Adapter	(Object)Adapter
+proguard.classfile.util.EnumFieldReferenceInitializer	null	adaptee	(Object)Adapter
+proguard.classfile.util.EnumFieldReferenceInitializer	visitEnumConstantElementValue	Request()	(Object)Adapter
+proguard.classfile.Clazz	null	Adaptee	(Object)Adapter
+proguard.classfile.visitor.ImplementedClassConstantFilter	null	Adapter	(Object)Adapter
+proguard.classfile.visitor.ImplementedClassConstantFilter	null	adaptee	(Object)Adapter
+proguard.classfile.visitor.ImplementedClassConstantFilter	visitClassConstant	Request()	(Object)Adapter
+proguard.classfile.Clazz	null	Adaptee	(Object)Adapter
+proguard.classfile.visitor.ImplementingClassConstantFilter	null	Adapter	(Object)Adapter
+proguard.classfile.visitor.ImplementingClassConstantFilter	null	adaptee	(Object)Adapter
+proguard.classfile.visitor.ImplementingClassConstantFilter	visitClassConstant	Request()	(Object)Adapter
+proguard.classfile.ProgramClass	null	Adaptee	(Object)Adapter
+proguard.optimize.peephole.MethodInliner	null	Adapter	(Object)Adapter
+proguard.optimize.peephole.MethodInliner	null	adaptee	(Object)Adapter
+proguard.optimize.peephole.MethodInliner	visitCodeAttribute	Request()	(Object)Adapter
+proguard.optimize.peephole.MethodInliner	visitProgramMethod	Request()	(Object)Adapter
+proguard.evaluation.ConstantValueFactory	null	Adaptee	(Object)Adapter
+proguard.evaluation.Processor	null	Adapter	(Object)Adapter
+proguard.evaluation.Processor	null	adaptee	(Object)Adapter
+proguard.evaluation.Processor	visitConstantInstruction	Request()	(Object)Adapter
+proguard.evaluation.ClassConstantValueFactory	null	Adaptee	(Object)Adapter
+proguard.evaluation.Processor	null	Adapter	(Object)Adapter
+proguard.evaluation.Processor	null	adaptee	(Object)Adapter
+proguard.evaluation.Processor	visitConstantInstruction	Request()	(Object)Adapter
+proguard.classfile.Clazz	null	Adaptee	(Object)Adapter
+proguard.classfile.editor.SubclassToAdder	null	Adapter	(Object)Adapter
+proguard.classfile.editor.SubclassToAdder	null	adaptee	(Object)Adapter
+proguard.classfile.editor.SubclassToAdder	visitProgramClass	Request()	(Object)Adapter
+proguard.classfile.editor.SubclassToAdder	visitLibraryClass	Request()	(Object)Adapter
+proguard.classfile.visitor.SimilarMemberVisitor	null	Adapter	(Object)Adapter
+proguard.classfile.Clazz	null	Adaptee	(Object)Adapter
+proguard.classfile.visitor.SimilarMemberVisitor	null	adaptee	(Object)Adapter
+proguard.classfile.visitor.SimilarMemberVisitor	visitProgramField	Request()	(Object)Adapter
+proguard.classfile.visitor.SimilarMemberVisitor	visitLibraryField	Request()	(Object)Adapter
+proguard.classfile.visitor.SimilarMemberVisitor	visitProgramMethod	Request()	(Object)Adapter
+proguard.classfile.visitor.SimilarMemberVisitor	visitLibraryMethod	Request()	(Object)Adapter
+proguard.classfile.editor.InstructionAdder	null	Adapter	(Object)Adapter
+proguard.classfile.editor.ConstantAdder	null	Adaptee	(Object)Adapter
+proguard.classfile.editor.InstructionAdder	null	adaptee	(Object)Adapter
+proguard.classfile.editor.InstructionAdder	visitConstantInstruction	Request()	(Object)Adapter
+proguard.classfile.editor.AnnotationAdder	null	Adapter	(Object)Adapter
+proguard.classfile.editor.ConstantAdder	null	Adaptee	(Object)Adapter
+proguard.classfile.editor.AnnotationAdder	null	adaptee	(Object)Adapter
+proguard.classfile.editor.AnnotationAdder	visitAnnotation	Request()	(Object)Adapter
+proguard.classfile.editor.AnnotationAdder	visitAnnotation	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	null	Adapter	(Object)Adapter
+proguard.classfile.editor.ConstantAdder	null	Adaptee	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	null	adaptee	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitUnknownAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitSourceFileAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitSourceDirAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitInnerClassesAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitEnclosingMethodAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitDeprecatedAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitSyntheticAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitSignatureAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitConstantValueAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitExceptionsAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitCodeAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitLineNumberTableAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitLocalVariableTableAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitLocalVariableTypeTableAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitRuntimeVisibleAnnotationsAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitRuntimeInvisibleAnnotationsAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitRuntimeVisibleParameterAnnotationsAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitRuntimeInvisibleParameterAnnotationsAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitAnnotationDefaultAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.MemberAdder	null	Adapter	(Object)Adapter
+proguard.classfile.editor.ConstantAdder	null	Adaptee	(Object)Adapter
+proguard.classfile.editor.MemberAdder	null	adaptee	(Object)Adapter
+proguard.classfile.editor.MemberAdder	visitProgramField	Request()	(Object)Adapter
+proguard.classfile.editor.MemberAdder	visitProgramMethod	Request()	(Object)Adapter
+proguard.classfile.util.DynamicClassReferenceInitializer	null	Adapter	(Object)Adapter
+proguard.classfile.util.WarningPrinter	null	Adaptee	(Object)Adapter
+proguard.classfile.util.DynamicClassReferenceInitializer	null	adaptee	(Object)Adapter
+proguard.classfile.util.DynamicClassReferenceInitializer	visitClassConstant	Request()	(Object)Adapter
+proguard.classfile.editor.AnnotationAdder	null	Adapter	(Object)Adapter
+proguard.classfile.editor.AnnotationsAttributeEditor	null	Adaptee	(Object)Adapter
+proguard.classfile.editor.AnnotationAdder	null	adaptee	(Object)Adapter
+proguard.classfile.editor.AnnotationAdder	visitAnnotation	Request()	(Object)Adapter
+proguard.classfile.editor.AnnotationAdder	null	Adapter	(Object)Adapter
+proguard.classfile.editor.ParameterAnnotationsAttributeEditor	null	Adaptee	(Object)Adapter
+proguard.classfile.editor.AnnotationAdder	null	adaptee	(Object)Adapter
+proguard.classfile.editor.AnnotationAdder	visitAnnotation	Request()	(Object)Adapter
+proguard.classfile.io.LibraryClassReader	null	Adapter	(Object)Adapter
+proguard.classfile.io.RuntimeDataInput	null	Adaptee	(Object)Adapter
+proguard.classfile.io.LibraryClassReader	null	adaptee	(Object)Adapter
+proguard.classfile.io.LibraryClassReader	visitLibraryClass	Request()	(Object)Adapter
+proguard.classfile.io.LibraryClassReader	visitIntegerConstant	Request()	(Object)Adapter
+proguard.classfile.io.LibraryClassReader	visitLongConstant	Request()	(Object)Adapter
+proguard.classfile.io.LibraryClassReader	visitFloatConstant	Request()	(Object)Adapter
+proguard.classfile.io.LibraryClassReader	visitDoubleConstant	Request()	(Object)Adapter
+proguard.classfile.io.LibraryClassReader	visitStringConstant	Request()	(Object)Adapter
+proguard.classfile.io.LibraryClassReader	visitUtf8Constant	Request()	(Object)Adapter
+proguard.classfile.io.LibraryClassReader	visitInvokeDynamicConstant	Request()	(Object)Adapter
+proguard.classfile.io.LibraryClassReader	visitMethodHandleConstant	Request()	(Object)Adapter
+proguard.classfile.io.LibraryClassReader	visitClassConstant	Request()	(Object)Adapter
+proguard.classfile.io.LibraryClassReader	visitMethodTypeConstant	Request()	(Object)Adapter
+proguard.classfile.io.LibraryClassReader	visitNameAndTypeConstant	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	null	Adapter	(Object)Adapter
+proguard.classfile.io.RuntimeDataInput	null	Adaptee	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	null	adaptee	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitProgramClass	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitProgramField	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitProgramMethod	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitIntegerConstant	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitLongConstant	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitFloatConstant	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitDoubleConstant	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitStringConstant	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitUtf8Constant	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitInvokeDynamicConstant	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitMethodHandleConstant	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitClassConstant	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitMethodTypeConstant	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitNameAndTypeConstant	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitUnknownAttribute	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitBootstrapMethodsAttribute	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitSourceFileAttribute	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitSourceDirAttribute	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitInnerClassesAttribute	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitEnclosingMethodAttribute	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitSignatureAttribute	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitConstantValueAttribute	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitExceptionsAttribute	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitCodeAttribute	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitStackMapAttribute	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitStackMapTableAttribute	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitLineNumberTableAttribute	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitLocalVariableTableAttribute	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitLocalVariableTypeTableAttribute	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitBootstrapMethodInfo	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitInnerClassesInfo	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitExceptionInfo	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitSameZeroFrame	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitSameOneFrame	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitLessZeroFrame	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitMoreZeroFrame	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitFullFrame	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitObjectType	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitUninitializedType	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitLineNumberInfo	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitLocalVariableInfo	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitLocalVariableTypeInfo	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitAnnotation	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitConstantElementValue	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitEnumConstantElementValue	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitClassElementValue	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassReader	visitArrayElementValue	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	null	Adapter	(Object)Adapter
+proguard.classfile.editor.AttributesEditor	null	Adaptee	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	null	adaptee	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitUnknownAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitSourceFileAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitSourceDirAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitInnerClassesAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitEnclosingMethodAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitDeprecatedAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitSyntheticAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitSignatureAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitConstantValueAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitExceptionsAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitCodeAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitLineNumberTableAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitLocalVariableTableAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitLocalVariableTypeTableAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitRuntimeVisibleAnnotationsAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitRuntimeInvisibleAnnotationsAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitRuntimeVisibleParameterAnnotationsAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitRuntimeInvisibleParameterAnnotationsAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.AttributeAdder	visitAnnotationDefaultAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.ExceptionAdder	null	Adapter	(Object)Adapter
+proguard.classfile.editor.ExceptionsAttributeEditor	null	Adaptee	(Object)Adapter
+proguard.classfile.editor.ExceptionAdder	null	adaptee	(Object)Adapter
+proguard.classfile.editor.ExceptionAdder	visitClassConstant	Request()	(Object)Adapter
+proguard.classfile.editor.InterfaceAdder	null	Adapter	(Object)Adapter
+proguard.classfile.editor.InterfacesEditor	null	Adaptee	(Object)Adapter
+proguard.classfile.editor.InterfaceAdder	null	adaptee	(Object)Adapter
+proguard.classfile.editor.InterfaceAdder	visitClassConstant	Request()	(Object)Adapter
+proguard.classfile.editor.MemberAdder	null	Adapter	(Object)Adapter
+proguard.classfile.editor.ClassEditor	null	Adaptee	(Object)Adapter
+proguard.classfile.editor.MemberAdder	null	adaptee	(Object)Adapter
+proguard.classfile.editor.MemberAdder	visitProgramField	Request()	(Object)Adapter
+proguard.classfile.editor.MemberAdder	visitProgramMethod	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassWriter	null	Adapter	(Object)Adapter
+proguard.classfile.io.RuntimeDataOutput	null	Adaptee	(Object)Adapter
+proguard.classfile.io.ProgramClassWriter	null	adaptee	(Object)Adapter
+proguard.classfile.io.ProgramClassWriter	visitProgramClass	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassWriter	visitProgramField	Request()	(Object)Adapter
+proguard.classfile.io.ProgramClassWriter	visitProgramMethod	Request()	(Object)Adapter
+proguard.DescriptorKeepChecker	null	Adapter	(Object)Adapter
+proguard.classfile.util.WarningPrinter	null	Adaptee	(Object)Adapter
+proguard.DescriptorKeepChecker	null	adaptee	(Object)Adapter
+proguard.DescriptorKeepChecker	visitProgramClass	Request()	(Object)Adapter
+proguard.classfile.util.ClassReferenceInitializer	null	Adapter	(Object)Adapter
+proguard.classfile.util.WarningPrinter	null	Adaptee	(Object)Adapter
+proguard.classfile.util.ClassReferenceInitializer	null	adaptee	(Object)Adapter
+proguard.classfile.util.ClassReferenceInitializer	visitEnclosingMethodAttribute	Request()	(Object)Adapter
+proguard.DuplicateClassPrinter	null	Adapter	(Object)Adapter
+proguard.classfile.util.WarningPrinter	null	Adaptee	(Object)Adapter
+proguard.DuplicateClassPrinter	null	adaptee	(Object)Adapter
+proguard.DuplicateClassPrinter	visitProgramClass	Request()	(Object)Adapter
+proguard.DuplicateClassPrinter	visitLibraryClass	Request()	(Object)Adapter
+proguard.classfile.util.DynamicMemberReferenceInitializer	null	Adapter	(Object)Adapter
+proguard.classfile.util.WarningPrinter	null	Adaptee	(Object)Adapter
+proguard.classfile.util.DynamicMemberReferenceInitializer	null	adaptee	(Object)Adapter
+proguard.classfile.util.DynamicMemberReferenceInitializer	visitProgramField	Request()	(Object)Adapter
+proguard.classfile.util.DynamicMemberReferenceInitializer	visitProgramMethod	Request()	(Object)Adapter
+proguard.classfile.util.DynamicMemberReferenceInitializer	visitLibraryField	Request()	(Object)Adapter
+proguard.classfile.util.DynamicMemberReferenceInitializer	visitLibraryMethod	Request()	(Object)Adapter
+proguard.classfile.visitor.ClassVisitor	null	Adaptee	(Object)Adapter
+proguard.classfile.visitor.MemberToClassVisitor	null	Adapter	(Object)Adapter
+proguard.classfile.visitor.MemberToClassVisitor	null	adaptee	(Object)Adapter
+proguard.classfile.visitor.MemberToClassVisitor	visitProgramField	Request()	(Object)Adapter
+proguard.classfile.visitor.MemberToClassVisitor	visitProgramMethod	Request()	(Object)Adapter
+proguard.classfile.visitor.MemberToClassVisitor	visitLibraryField	Request()	(Object)Adapter
+proguard.classfile.visitor.MemberToClassVisitor	visitLibraryMethod	Request()	(Object)Adapter
+proguard.classfile.editor.ConstantAdder	null	Adapter	(Object)Adapter
+proguard.classfile.editor.ConstantPoolEditor	null	Adaptee	(Object)Adapter
+proguard.classfile.editor.ConstantAdder	null	adaptee	(Object)Adapter
+proguard.classfile.editor.ConstantAdder	visitIntegerConstant	Request()	(Object)Adapter
+proguard.classfile.editor.ConstantAdder	visitLongConstant	Request()	(Object)Adapter
+proguard.classfile.editor.ConstantAdder	visitFloatConstant	Request()	(Object)Adapter
+proguard.classfile.editor.ConstantAdder	visitDoubleConstant	Request()	(Object)Adapter
+proguard.classfile.editor.ConstantAdder	visitStringConstant	Request()	(Object)Adapter
+proguard.classfile.editor.ConstantAdder	visitUtf8Constant	Request()	(Object)Adapter
+proguard.classfile.editor.ConstantAdder	visitInvokeDynamicConstant	Request()	(Object)Adapter
+proguard.classfile.editor.ConstantAdder	visitMethodHandleConstant	Request()	(Object)Adapter
+proguard.classfile.editor.ConstantAdder	visitFieldrefConstant	Request()	(Object)Adapter
+proguard.classfile.editor.ConstantAdder	visitInterfaceMethodrefConstant	Request()	(Object)Adapter
+proguard.classfile.editor.ConstantAdder	visitMethodrefConstant	Request()	(Object)Adapter
+proguard.classfile.editor.ConstantAdder	visitClassConstant	Request()	(Object)Adapter
+proguard.classfile.editor.ConstantAdder	visitMethodTypeConstant	Request()	(Object)Adapter
+proguard.classfile.editor.ConstantAdder	visitNameAndTypeConstant	Request()	(Object)Adapter
+proguard.classfile.editor.ConstantAdder	null	Adaptee	(Object)Adapter
+proguard.classfile.editor.ExceptionInfoAdder	null	Adapter	(Object)Adapter
+proguard.classfile.editor.ExceptionInfoAdder	null	adaptee	(Object)Adapter
+proguard.classfile.editor.ExceptionInfoAdder	visitExceptionInfo	Request()	(Object)Adapter
+proguard.classfile.Member	null	Adaptee	(Object)Adapter
+proguard.DescriptorKeepChecker	null	Adapter	(Object)Adapter
+proguard.DescriptorKeepChecker	null	adaptee	(Object)Adapter
+proguard.DescriptorKeepChecker	visitProgramClass	Request()	(Object)Adapter
+proguard.classfile.ProgramMethod	null	Adaptee	(Object)Adapter
+proguard.optimize.peephole.MethodInliner	null	Adapter	(Object)Adapter
+proguard.optimize.peephole.MethodInliner	null	adaptee	(Object)Adapter
+proguard.optimize.peephole.MethodInliner	visitCodeAttribute	Request()	(Object)Adapter
+proguard.optimize.peephole.MethodInliner	visitProgramMethod	Request()	(Object)Adapter
+proguard.classfile.editor.ConstantAdder	null	Adaptee	(Object)Adapter
+proguard.classfile.editor.LocalVariableInfoAdder	null	Adapter	(Object)Adapter
+proguard.classfile.editor.LocalVariableInfoAdder	null	adaptee	(Object)Adapter
+proguard.classfile.editor.LocalVariableInfoAdder	visitLocalVariableInfo	Request()	(Object)Adapter
+proguard.classfile.editor.ConstantAdder	null	Adaptee	(Object)Adapter
+proguard.classfile.editor.LocalVariableTypeInfoAdder	null	Adapter	(Object)Adapter
+proguard.classfile.editor.LocalVariableTypeInfoAdder	null	adaptee	(Object)Adapter
+proguard.classfile.editor.LocalVariableTypeInfoAdder	visitLocalVariableTypeInfo	Request()	(Object)Adapter
+proguard.classfile.editor.MethodInvocationFixer	null	Adapter	(Object)Adapter
+proguard.classfile.Member	null	Adaptee	(Object)Adapter
+proguard.classfile.editor.MethodInvocationFixer	null	adaptee	(Object)Adapter
+proguard.classfile.editor.MethodInvocationFixer	visitConstantInstruction	Request()	(Object)Adapter
+proguard.optimize.TailRecursionSimplifier	null	Adapter	(Object)Adapter
+proguard.classfile.Method	null	Adaptee	(Object)Adapter
+proguard.optimize.TailRecursionSimplifier	null	adaptee	(Object)Adapter
+proguard.optimize.TailRecursionSimplifier	visitCodeAttribute	Request()	(Object)Adapter
+proguard.classfile.editor.LocalVariableTableAttributeEditor	null	Adaptee	(Object)Adapter
+proguard.classfile.editor.LocalVariableInfoAdder	null	Adapter	(Object)Adapter
+proguard.classfile.editor.LocalVariableInfoAdder	null	adaptee	(Object)Adapter
+proguard.classfile.editor.LocalVariableInfoAdder	visitLocalVariableInfo	Request()	(Object)Adapter
+proguard.classfile.editor.LocalVariableTypeTableAttributeEditor	null	Adaptee	(Object)Adapter
+proguard.classfile.editor.LocalVariableTypeInfoAdder	null	Adapter	(Object)Adapter
+proguard.classfile.editor.LocalVariableTypeInfoAdder	null	adaptee	(Object)Adapter
+proguard.classfile.editor.LocalVariableTypeInfoAdder	visitLocalVariableTypeInfo	Request()	(Object)Adapter
+proguard.classfile.editor.LineNumberTableAttributeEditor	null	Adaptee	(Object)Adapter
+proguard.classfile.editor.LineNumberInfoAdder	null	Adapter	(Object)Adapter
+proguard.classfile.editor.LineNumberInfoAdder	null	adaptee	(Object)Adapter
+proguard.classfile.editor.LineNumberInfoAdder	visitLineNumberInfo	Request()	(Object)Adapter
+proguard.classfile.editor.ConstantAdder	null	Adaptee	(Object)Adapter
+proguard.classfile.editor.ElementValueAdder	null	Adapter	(Object)Adapter
+proguard.classfile.editor.ElementValueAdder	null	adaptee	(Object)Adapter
+proguard.classfile.editor.ElementValueAdder	visitConstantElementValue	Request()	(Object)Adapter
+proguard.classfile.editor.ElementValueAdder	visitEnumConstantElementValue	Request()	(Object)Adapter
+proguard.classfile.editor.ElementValueAdder	visitClassElementValue	Request()	(Object)Adapter
+proguard.classfile.editor.ElementValueAdder	visitAnnotationElementValue	Request()	(Object)Adapter
+proguard.classfile.editor.ElementValueAdder	visitArrayElementValue	Request()	(Object)Adapter
+proguard.classfile.ClassPool	null	Adaptee	(Object)Adapter
+proguard.obfuscate.MappingKeeper	null	Adapter	(Object)Adapter
+proguard.obfuscate.MappingKeeper	null	adaptee	(Object)Adapter
+proguard.obfuscate.MappingKeeper	processClassMapping	Request()	(Object)Adapter
+proguard.classfile.util.WarningPrinter	null	Adaptee	(Object)Adapter
+proguard.obfuscate.MappingKeeper	null	Adapter	(Object)Adapter
+proguard.obfuscate.MappingKeeper	null	adaptee	(Object)Adapter
+proguard.obfuscate.MappingKeeper	processClassMapping	Request()	(Object)Adapter
+proguard.obfuscate.MappingKeeper	processFieldMapping	Request()	(Object)Adapter
+proguard.obfuscate.MappingKeeper	processMethodMapping	Request()	(Object)Adapter
+proguard.classfile.util.WarningPrinter	null	Adaptee	(Object)Adapter
+proguard.io.ClassReader	null	Adapter	(Object)Adapter
+proguard.io.ClassReader	null	adaptee	(Object)Adapter
+proguard.io.ClassReader	read	Request()	(Object)Adapter
+proguard.classfile.ClassPool	null	Adaptee	(Object)Adapter
+proguard.io.ClassRewriter	null	Adapter	(Object)Adapter
+proguard.io.ClassRewriter	null	adaptee	(Object)Adapter
+proguard.io.ClassRewriter	read	Request()	(Object)Adapter
+proguard.evaluation.Stack	null	Adaptee	(Object)Adapter
+proguard.evaluation.Processor	null	Adapter	(Object)Adapter
+proguard.evaluation.Processor	null	adaptee	(Object)Adapter
+proguard.evaluation.Processor	visitSimpleInstruction	Request()	(Object)Adapter
+proguard.evaluation.Processor	visitConstantInstruction	Request()	(Object)Adapter
+proguard.evaluation.Processor	visitVariableInstruction	Request()	(Object)Adapter
+proguard.evaluation.Processor	visitBranchInstruction	Request()	(Object)Adapter
+proguard.evaluation.Processor	visitTableSwitchInstruction	Request()	(Object)Adapter
+proguard.evaluation.Processor	visitLookUpSwitchInstruction	Request()	(Object)Adapter
+proguard.evaluation.Stack	null	Adaptee	(Object)Adapter
+proguard.evaluation.BasicInvocationUnit	null	Adapter	(Object)Adapter
+proguard.evaluation.BasicInvocationUnit	null	adaptee	(Object)Adapter
+proguard.evaluation.BasicInvocationUnit	visitFieldrefConstant	Request()	(Object)Adapter
+proguard.evaluation.BasicInvocationUnit	visitInvokeDynamicConstant	Request()	(Object)Adapter
+proguard.optimize.evaluation.PartialEvaluator	null	Adapter	(Object)Adapter
+proguard.evaluation.value.ValueFactory	null	Adaptee	(Object)Adapter
+proguard.optimize.evaluation.PartialEvaluator	null	adaptee	(Object)Adapter
+proguard.optimize.evaluation.PartialEvaluator	visitExceptionInfo	Request()	(Object)Adapter
+proguard.evaluation.ConstantValueFactory	null	Adapter	(Object)Adapter
+proguard.evaluation.value.ValueFactory	null	Adaptee	(Object)Adapter
+proguard.evaluation.ConstantValueFactory	null	adaptee	(Object)Adapter
+proguard.evaluation.ConstantValueFactory	visitIntegerConstant	Request()	(Object)Adapter
+proguard.evaluation.ConstantValueFactory	visitLongConstant	Request()	(Object)Adapter
+proguard.evaluation.ConstantValueFactory	visitFloatConstant	Request()	(Object)Adapter
+proguard.evaluation.ConstantValueFactory	visitDoubleConstant	Request()	(Object)Adapter
+proguard.evaluation.ConstantValueFactory	visitStringConstant	Request()	(Object)Adapter
+proguard.evaluation.ConstantValueFactory	visitMethodHandleConstant	Request()	(Object)Adapter
+proguard.evaluation.ConstantValueFactory	visitClassConstant	Request()	(Object)Adapter
+proguard.evaluation.ConstantValueFactory	visitMethodTypeConstant	Request()	(Object)Adapter
+proguard.evaluation.Variables	null	Adaptee	(Object)Adapter
+proguard.evaluation.Processor	null	Adapter	(Object)Adapter
+proguard.evaluation.Processor	null	adaptee	(Object)Adapter
+proguard.evaluation.Processor	visitVariableInstruction	Request()	(Object)Adapter
+proguard.evaluation.value.ValueFactory	null	Adaptee	(Object)Adapter
+proguard.evaluation.Processor	null	Adapter	(Object)Adapter
+proguard.evaluation.Processor	null	adaptee	(Object)Adapter
+proguard.evaluation.Processor	visitSimpleInstruction	Request()	(Object)Adapter
+proguard.evaluation.Processor	visitConstantInstruction	Request()	(Object)Adapter
+proguard.evaluation.Processor	visitVariableInstruction	Request()	(Object)Adapter
+proguard.evaluation.Processor	visitBranchInstruction	Request()	(Object)Adapter
+proguard.evaluation.Processor	visitTableSwitchInstruction	Request()	(Object)Adapter
+proguard.evaluation.Processor	visitLookUpSwitchInstruction	Request()	(Object)Adapter
+proguard.gui.splash.BufferedSprite	null	Adapter	(Object)Adapter
+proguard.gui.splash.VariableInt	null	Adaptee	(Object)Adapter
+proguard.gui.splash.BufferedSprite	null	adaptee	(Object)Adapter
+proguard.gui.splash.BufferedSprite	null	adaptee	(Object)Adapter
+proguard.gui.splash.BufferedSprite	paint	Request()	(Object)Adapter
+proguard.gui.splash.ShadowedSprite	null	Adapter	(Object)Adapter
+proguard.gui.splash.VariableInt	null	Adaptee	(Object)Adapter
+proguard.gui.splash.ShadowedSprite	null	adaptee	(Object)Adapter
+proguard.gui.splash.ShadowedSprite	null	adaptee	(Object)Adapter
+proguard.gui.splash.ShadowedSprite	null	adaptee	(Object)Adapter
+proguard.gui.splash.ShadowedSprite	paint	Request()	(Object)Adapter
+proguard.gui.splash.CircleSprite	null	Adapter	(Object)Adapter
+proguard.gui.splash.VariableInt	null	Adaptee	(Object)Adapter
+proguard.gui.splash.CircleSprite	null	adaptee	(Object)Adapter
+proguard.gui.splash.CircleSprite	null	adaptee	(Object)Adapter
+proguard.gui.splash.CircleSprite	null	adaptee	(Object)Adapter
+proguard.gui.splash.CircleSprite	paint	Request()	(Object)Adapter
+proguard.gui.splash.ImageSprite	null	Adapter	(Object)Adapter
+proguard.gui.splash.VariableInt	null	Adaptee	(Object)Adapter
+proguard.gui.splash.ImageSprite	null	adaptee	(Object)Adapter
+proguard.gui.splash.ImageSprite	null	adaptee	(Object)Adapter
+proguard.gui.splash.ImageSprite	paint	Request()	(Object)Adapter
+proguard.gui.splash.RectangleSprite	null	Adapter	(Object)Adapter
+proguard.gui.splash.VariableInt	null	Adaptee	(Object)Adapter
+proguard.gui.splash.RectangleSprite	null	adaptee	(Object)Adapter
+proguard.gui.splash.RectangleSprite	null	adaptee	(Object)Adapter
+proguard.gui.splash.RectangleSprite	null	adaptee	(Object)Adapter
+proguard.gui.splash.RectangleSprite	null	adaptee	(Object)Adapter
+proguard.gui.splash.RectangleSprite	null	adaptee	(Object)Adapter
+proguard.gui.splash.RectangleSprite	null	adaptee	(Object)Adapter
+proguard.gui.splash.RectangleSprite	paint	Request()	(Object)Adapter
+proguard.gui.splash.TextSprite	null	Adapter	(Object)Adapter
+proguard.gui.splash.VariableInt	null	Adaptee	(Object)Adapter
+proguard.gui.splash.TextSprite	null	adaptee	(Object)Adapter
+proguard.gui.splash.TextSprite	null	adaptee	(Object)Adapter
+proguard.gui.splash.TextSprite	null	adaptee	(Object)Adapter
+proguard.gui.splash.TextSprite	paint	Request()	(Object)Adapter
+proguard.io.DataEntryWriter	null	Adaptee	(Object)Adapter
+proguard.io.ClassRewriter	null	Adapter	(Object)Adapter
+proguard.io.ClassRewriter	null	adaptee	(Object)Adapter
+proguard.io.ClassRewriter	read	Request()	(Object)Adapter
+proguard.io.DataEntryWriter	null	Adaptee	(Object)Adapter
+proguard.io.DataEntryCopier	null	Adapter	(Object)Adapter
+proguard.io.DataEntryCopier	null	adaptee	(Object)Adapter
+proguard.io.DataEntryCopier	read	Request()	(Object)Adapter
+proguard.classfile.util.DynamicClassReferenceInitializer	null	Adapter	(Object)Adapter
+proguard.util.StringMatcher	null	Adaptee	(Object)Adapter
+proguard.classfile.util.DynamicClassReferenceInitializer	null	adaptee	(Object)Adapter
+proguard.classfile.util.DynamicClassReferenceInitializer	visitClassConstant	Request()	(Object)Adapter
+proguard.io.FilteredDataEntryReader	null	Adapter	(Object)Adapter
+proguard.io.DataEntryFilter	null	Adaptee	(Object)Adapter
+proguard.io.FilteredDataEntryReader	null	adaptee	(Object)Adapter
+proguard.io.FilteredDataEntryReader	read	Request()	(Object)Adapter
+proguard.obfuscate.NameFactory	null	Adaptee	(Object)Adapter
+proguard.obfuscate.NameFactoryResetter	null	Adapter	(Object)Adapter
+proguard.obfuscate.NameFactoryResetter	null	adaptee	(Object)Adapter
+proguard.obfuscate.NameFactoryResetter	visitProgramClass	Request()	(Object)Adapter
+proguard.obfuscate.NameFactoryResetter	visitLibraryClass	Request()	(Object)Adapter
+proguard.evaluation.BranchUnit	null	Adaptee	(Object)Adapter
+proguard.evaluation.Processor	null	Adapter	(Object)Adapter
+proguard.evaluation.Processor	null	adaptee	(Object)Adapter
+proguard.evaluation.Processor	visitSimpleInstruction	Request()	(Object)Adapter
+proguard.evaluation.Processor	visitVariableInstruction	Request()	(Object)Adapter
+proguard.evaluation.Processor	visitBranchInstruction	Request()	(Object)Adapter
+proguard.evaluation.Processor	visitTableSwitchInstruction	Request()	(Object)Adapter
+proguard.evaluation.Processor	visitLookUpSwitchInstruction	Request()	(Object)Adapter
+proguard.io.JarWriter	null	Adapter	(Object)Adapter
+proguard.io.DataEntry	null	Adaptee	(Object)Adapter
+proguard.io.JarWriter	null	adaptee	(Object)Adapter
+proguard.io.JarWriter	createDirectory	Request()	(Object)Adapter
+proguard.io.JarWriter	getOutputStream	Request()	(Object)Adapter
+proguard.evaluation.value.InstructionOffsetValue	null	Adaptee	(Object)Adapter
+proguard.evaluation.BasicBranchUnit	null	Adapter	(Object)Adapter
+proguard.evaluation.BasicBranchUnit	null	adaptee	(Object)Adapter
+proguard.evaluation.BasicBranchUnit	branchConditionally	Request()	(Object)Adapter
+proguard.gui.splash.ClipSprite	null	Adapter	(Object)Adapter
+proguard.gui.splash.VariableColor	null	Adaptee	(Object)Adapter
+proguard.gui.splash.ClipSprite	null	adaptee	(Object)Adapter
+proguard.gui.splash.ClipSprite	null	adaptee	(Object)Adapter
+proguard.gui.splash.ClipSprite	paint	Request()	(Object)Adapter
+proguard.gui.splash.ColorSprite	null	Adapter	(Object)Adapter
+proguard.gui.splash.VariableColor	null	Adaptee	(Object)Adapter
+proguard.gui.splash.ColorSprite	null	adaptee	(Object)Adapter
+proguard.gui.splash.ColorSprite	paint	Request()	(Object)Adapter
+proguard.gui.splash.RectangleSprite	null	Adapter	(Object)Adapter
+proguard.gui.splash.VariableColor	null	Adaptee	(Object)Adapter
+proguard.gui.splash.RectangleSprite	null	adaptee	(Object)Adapter
+proguard.gui.splash.RectangleSprite	paint	Request()	(Object)Adapter
+proguard.classfile.Clazz	null	Adaptee	(Object)Adapter
+proguard.obfuscate.MappingKeeper	null	Adapter	(Object)Adapter
+proguard.obfuscate.MappingKeeper	null	adaptee	(Object)Adapter
+proguard.obfuscate.MappingKeeper	processFieldMapping	Request()	(Object)Adapter
+proguard.obfuscate.MappingKeeper	processMethodMapping	Request()	(Object)Adapter
+proguard.evaluation.InvocationUnit	null	Adaptee	(Object)Adapter
+proguard.evaluation.Processor	null	Adapter	(Object)Adapter
+proguard.evaluation.Processor	null	adaptee	(Object)Adapter
+proguard.evaluation.Processor	visitSimpleInstruction	Request()	(Object)Adapter
+proguard.evaluation.Processor	visitConstantInstruction	Request()	(Object)Adapter
+proguard.gui.splash.ShadowedSprite	null	Adapter	(Object)Adapter
+proguard.gui.splash.VariableDouble	null	Adaptee	(Object)Adapter
+proguard.gui.splash.ShadowedSprite	null	adaptee	(Object)Adapter
+proguard.gui.splash.ShadowedSprite	paint	Request()	(Object)Adapter
+proguard.gui.splash.ImageSprite	null	Adapter	(Object)Adapter
+proguard.gui.splash.VariableDouble	null	Adaptee	(Object)Adapter
+proguard.gui.splash.ImageSprite	null	adaptee	(Object)Adapter
+proguard.gui.splash.ImageSprite	null	adaptee	(Object)Adapter
+proguard.gui.splash.ImageSprite	paint	Request()	(Object)Adapter
+proguard.io.DataEntryWriter	null	Adaptee	(Object)Adapter
+proguard.io.DataEntryClassWriter	null	Adapter	(Object)Adapter
+proguard.io.DataEntryClassWriter	null	adaptee	(Object)Adapter
+proguard.io.DataEntryClassWriter	visitProgramClass	Request()	(Object)Adapter
+proguard.gui.splash.FontSprite	null	Adapter	(Object)Adapter
+proguard.gui.splash.VariableFont	null	Adaptee	(Object)Adapter
+proguard.gui.splash.FontSprite	null	adaptee	(Object)Adapter
+proguard.gui.splash.FontSprite	paint	Request()	(Object)Adapter
+proguard.gui.splash.Timing	null	Adaptee	(Object)Adapter
+proguard.gui.splash.LinearColor	null	Adapter	(Object)Adapter
+proguard.gui.splash.LinearColor	null	adaptee	(Object)Adapter
+proguard.gui.splash.LinearColor	getColor	Request()	(Object)Adapter
+proguard.gui.splash.Timing	null	Adaptee	(Object)Adapter
+proguard.gui.splash.LinearDouble	null	Adapter	(Object)Adapter
+proguard.gui.splash.LinearDouble	null	adaptee	(Object)Adapter
+proguard.gui.splash.LinearDouble	getDouble	Request()	(Object)Adapter
+proguard.gui.splash.VariableDouble	null	Adaptee	(Object)Adapter
+proguard.gui.splash.VariableSizeFont	null	Adapter	(Object)Adapter
+proguard.gui.splash.VariableSizeFont	null	adaptee	(Object)Adapter
+proguard.gui.splash.VariableSizeFont	getFont	Request()	(Object)Adapter
+proguard.gui.splash.Timing	null	Adaptee	(Object)Adapter
+proguard.gui.splash.LinearInt	null	Adapter	(Object)Adapter
+proguard.gui.splash.LinearInt	null	adaptee	(Object)Adapter
+proguard.gui.splash.LinearInt	getInt	Request()	(Object)Adapter
+proguard.gui.splash.Timing	null	Adaptee	(Object)Adapter
+proguard.gui.splash.TypeWriterString	null	Adapter	(Object)Adapter
+proguard.gui.splash.TypeWriterString	null	adaptee	(Object)Adapter
+proguard.gui.splash.TypeWriterString	getString	Request()	(Object)Adapter
+proguard.util.StringMatcher	null	Adaptee	(Object)Adapter
+proguard.io.DataEntryNameFilter	null	Adapter	(Object)Adapter
+proguard.io.DataEntryNameFilter	null	adaptee	(Object)Adapter
+proguard.io.DataEntryNameFilter	accepts	Request()	(Object)Adapter
+proguard.io.FilteredDataEntryWriter	null	Adapter	(Object)Adapter
+proguard.io.DataEntryFilter	null	Adaptee	(Object)Adapter
+proguard.io.FilteredDataEntryWriter	null	adaptee	(Object)Adapter
+proguard.io.FilteredDataEntryWriter	createDirectory	Request()	(Object)Adapter
+proguard.io.FilteredDataEntryWriter	getOutputStream	Request()	(Object)Adapter
+proguard.classfile.Clazz	null	Component	Composite
+proguard.classfile.LibraryClass	null	Composite	Composite
+proguard.classfile.LibraryClass	extendsOrImplements	Operation()	Composite
+proguard.classfile.LibraryClass	hierarchyAccept	Operation()	Composite
+proguard.classfile.LibraryClass	extendsOrImplements	Operation()	Composite
+proguard.classfile.Clazz	null	Component	Composite
+proguard.classfile.ProgramClass	null	Composite	Composite
+proguard.classfile.ProgramClass	extendsOrImplements	Operation()	Composite
+proguard.classfile.ProgramClass	extendsOrImplements	Operation()	Composite
+proguard.classfile.ProgramClass	hierarchyAccept	Operation()	Composite
+proguard.classfile.attribute.visitor.AttributeVisitor	null	Component	Composite
+proguard.classfile.attribute.visitor.MultiAttributeVisitor	null	Composite	Composite
+proguard.classfile.attribute.visitor.MultiAttributeVisitor	visitUnknownAttribute	Operation()	Composite
+proguard.classfile.attribute.visitor.MultiAttributeVisitor	visitBootstrapMethodsAttribute	Operation()	Composite
+proguard.classfile.attribute.visitor.MultiAttributeVisitor	visitSourceFileAttribute	Operation()	Composite
+proguard.classfile.attribute.visitor.MultiAttributeVisitor	visitSourceDirAttribute	Operation()	Composite
+proguard.classfile.attribute.visitor.MultiAttributeVisitor	visitInnerClassesAttribute	Operation()	Composite
+proguard.classfile.attribute.visitor.MultiAttributeVisitor	visitEnclosingMethodAttribute	Operation()	Composite
+proguard.classfile.attribute.visitor.MultiAttributeVisitor	visitDeprecatedAttribute	Operation()	Composite
+proguard.classfile.attribute.visitor.MultiAttributeVisitor	visitSyntheticAttribute	Operation()	Composite
+proguard.classfile.attribute.visitor.MultiAttributeVisitor	visitSignatureAttribute	Operation()	Composite
+proguard.classfile.attribute.visitor.MultiAttributeVisitor	visitDeprecatedAttribute	Operation()	Composite
+proguard.classfile.attribute.visitor.MultiAttributeVisitor	visitSyntheticAttribute	Operation()	Composite
+proguard.classfile.attribute.visitor.MultiAttributeVisitor	visitSignatureAttribute	Operation()	Composite
+proguard.classfile.attribute.visitor.MultiAttributeVisitor	visitDeprecatedAttribute	Operation()	Composite
+proguard.classfile.attribute.visitor.MultiAttributeVisitor	visitSyntheticAttribute	Operation()	Composite
+proguard.classfile.attribute.visitor.MultiAttributeVisitor	visitSignatureAttribute	Operation()	Composite
+proguard.classfile.attribute.visitor.MultiAttributeVisitor	visitConstantValueAttribute	Operation()	Composite
+proguard.classfile.attribute.visitor.MultiAttributeVisitor	visitExceptionsAttribute	Operation()	Composite
+proguard.classfile.attribute.visitor.MultiAttributeVisitor	visitCodeAttribute	Operation()	Composite
+proguard.classfile.attribute.visitor.MultiAttributeVisitor	visitStackMapAttribute	Operation()	Composite
+proguard.classfile.attribute.visitor.MultiAttributeVisitor	visitStackMapTableAttribute	Operation()	Composite
+proguard.classfile.attribute.visitor.MultiAttributeVisitor	visitLineNumberTableAttribute	Operation()	Composite
+proguard.classfile.attribute.visitor.MultiAttributeVisitor	visitLocalVariableTableAttribute	Operation()	Composite
+proguard.classfile.attribute.visitor.MultiAttributeVisitor	visitLocalVariableTypeTableAttribute	Operation()	Composite
+proguard.classfile.attribute.visitor.MultiAttributeVisitor	visitRuntimeVisibleAnnotationsAttribute	Operation()	Composite
+proguard.classfile.attribute.visitor.MultiAttributeVisitor	visitRuntimeInvisibleAnnotationsAttribute	Operation()	Composite
+proguard.classfile.attribute.visitor.MultiAttributeVisitor	visitRuntimeVisibleAnnotationsAttribute	Operation()	Composite
+proguard.classfile.attribute.visitor.MultiAttributeVisitor	visitRuntimeInvisibleAnnotationsAttribute	Operation()	Composite
+proguard.classfile.attribute.visitor.MultiAttributeVisitor	visitRuntimeVisibleAnnotationsAttribute	Operation()	Composite
+proguard.classfile.attribute.visitor.MultiAttributeVisitor	visitRuntimeInvisibleAnnotationsAttribute	Operation()	Composite
+proguard.classfile.attribute.visitor.MultiAttributeVisitor	visitRuntimeVisibleParameterAnnotationsAttribute	Operation()	Composite
+proguard.classfile.attribute.visitor.MultiAttributeVisitor	visitRuntimeInvisibleParameterAnnotationsAttribute	Operation()	Composite
+proguard.classfile.attribute.visitor.MultiAttributeVisitor	visitAnnotationDefaultAttribute	Operation()	Composite
+proguard.classfile.visitor.ClassVisitor	null	Component	Composite
+proguard.classfile.visitor.MultiClassVisitor	null	Composite	Composite
+proguard.classfile.visitor.MultiClassVisitor	visitProgramClass	Operation()	Composite
+proguard.classfile.visitor.MultiClassVisitor	visitLibraryClass	Operation()	Composite
+proguard.classfile.visitor.MemberVisitor	null	Component	Composite
+proguard.classfile.visitor.MultiMemberVisitor	null	Composite	Composite
+proguard.classfile.visitor.MultiMemberVisitor	visitProgramField	Operation()	Composite
+proguard.classfile.visitor.MultiMemberVisitor	visitProgramMethod	Operation()	Composite
+proguard.classfile.visitor.MultiMemberVisitor	visitLibraryField	Operation()	Composite
+proguard.classfile.visitor.MultiMemberVisitor	visitLibraryMethod	Operation()	Composite
+proguard.classfile.instruction.visitor.InstructionVisitor	null	Component	Composite
+proguard.classfile.instruction.visitor.MultiInstructionVisitor	null	Composite	Composite
+proguard.classfile.instruction.visitor.MultiInstructionVisitor	visitSimpleInstruction	Operation()	Composite
+proguard.classfile.instruction.visitor.MultiInstructionVisitor	visitVariableInstruction	Operation()	Composite
+proguard.classfile.instruction.visitor.MultiInstructionVisitor	visitConstantInstruction	Operation()	Composite
+proguard.classfile.instruction.visitor.MultiInstructionVisitor	visitBranchInstruction	Operation()	Composite
+proguard.classfile.instruction.visitor.MultiInstructionVisitor	visitTableSwitchInstruction	Operation()	Composite
+proguard.classfile.instruction.visitor.MultiInstructionVisitor	visitLookUpSwitchInstruction	Operation()	Composite
+proguard.classfile.visitor.ClassPoolVisitor	null	Component	Composite
+proguard.classfile.visitor.MultiClassPoolVisitor	null	Composite	Composite
+proguard.classfile.visitor.MultiClassPoolVisitor	visitClassPool	Operation()	Composite
+proguard.classfile.Clazz	null	Component	Decorator
+proguard.classfile.LibraryClass	null	Decorator	Decorator
+proguard.classfile.LibraryClass	null	component	Decorator
+proguard.classfile.LibraryClass	null	component	Decorator
+proguard.classfile.LibraryClass	null	component	Decorator
+proguard.classfile.LibraryClass	extends_	Operation()	Decorator
+proguard.classfile.LibraryClass	extends_	Operation()	Decorator
+proguard.classfile.LibraryClass	extendsOrImplements	Operation()	Decorator
+proguard.classfile.LibraryClass	extendsOrImplements	Operation()	Decorator
+proguard.classfile.LibraryClass	hierarchyAccept	Operation()	Decorator
+proguard.classfile.attribute.visitor.AttributeVisitor	null	Component	Decorator
+proguard.obfuscate.ParameterNameMarker	null	Decorator	Decorator
+proguard.obfuscate.ParameterNameMarker	null	component	Decorator
+proguard.obfuscate.ParameterNameMarker	visitLocalVariableTableAttribute	Operation()	Decorator
+proguard.obfuscate.ParameterNameMarker	visitLocalVariableTypeTableAttribute	Operation()	Decorator
+proguard.classfile.attribute.visitor.AttributeVisitor	null	Component	Decorator
+proguard.optimize.ChangedCodePrinter	null	Decorator	Decorator
+proguard.optimize.ChangedCodePrinter	null	component	Decorator
+proguard.optimize.ChangedCodePrinter	visitUnknownAttribute	Operation()	Decorator
+proguard.optimize.ChangedCodePrinter	visitBootstrapMethodsAttribute	Operation()	Decorator
+proguard.optimize.ChangedCodePrinter	visitSourceFileAttribute	Operation()	Decorator
+proguard.optimize.ChangedCodePrinter	visitSourceDirAttribute	Operation()	Decorator
+proguard.optimize.ChangedCodePrinter	visitInnerClassesAttribute	Operation()	Decorator
+proguard.optimize.ChangedCodePrinter	visitEnclosingMethodAttribute	Operation()	Decorator
+proguard.optimize.ChangedCodePrinter	visitDeprecatedAttribute	Operation()	Decorator
+proguard.optimize.ChangedCodePrinter	visitSyntheticAttribute	Operation()	Decorator
+proguard.optimize.ChangedCodePrinter	visitSignatureAttribute	Operation()	Decorator
+proguard.optimize.ChangedCodePrinter	visitDeprecatedAttribute	Operation()	Decorator
+proguard.optimize.ChangedCodePrinter	visitSyntheticAttribute	Operation()	Decorator
+proguard.optimize.ChangedCodePrinter	visitSignatureAttribute	Operation()	Decorator
+proguard.optimize.ChangedCodePrinter	visitDeprecatedAttribute	Operation()	Decorator
+proguard.optimize.ChangedCodePrinter	visitSyntheticAttribute	Operation()	Decorator
+proguard.optimize.ChangedCodePrinter	visitSignatureAttribute	Operation()	Decorator
+proguard.optimize.ChangedCodePrinter	visitConstantValueAttribute	Operation()	Decorator
+proguard.optimize.ChangedCodePrinter	visitExceptionsAttribute	Operation()	Decorator
+proguard.optimize.ChangedCodePrinter	visitStackMapAttribute	Operation()	Decorator
+proguard.optimize.ChangedCodePrinter	visitStackMapTableAttribute	Operation()	Decorator
+proguard.optimize.ChangedCodePrinter	visitLineNumberTableAttribute	Operation()	Decorator
+proguard.optimize.ChangedCodePrinter	visitLocalVariableTableAttribute	Operation()	Decorator
+proguard.optimize.ChangedCodePrinter	visitLocalVariableTypeTableAttribute	Operation()	Decorator
+proguard.optimize.ChangedCodePrinter	visitRuntimeVisibleAnnotationsAttribute	Operation()	Decorator
+proguard.optimize.ChangedCodePrinter	visitRuntimeInvisibleAnnotationsAttribute	Operation()	Decorator
+proguard.optimize.ChangedCodePrinter	visitRuntimeVisibleAnnotationsAttribute	Operation()	Decorator
+proguard.optimize.ChangedCodePrinter	visitRuntimeInvisibleAnnotationsAttribute	Operation()	Decorator
+proguard.optimize.ChangedCodePrinter	visitRuntimeVisibleAnnotationsAttribute	Operation()	Decorator
+proguard.optimize.ChangedCodePrinter	visitRuntimeInvisibleAnnotationsAttribute	Operation()	Decorator
+proguard.optimize.ChangedCodePrinter	visitRuntimeVisibleParameterAnnotationsAttribute	Operation()	Decorator
+proguard.optimize.ChangedCodePrinter	visitRuntimeInvisibleParameterAnnotationsAttribute	Operation()	Decorator
+proguard.optimize.ChangedCodePrinter	visitAnnotationDefaultAttribute	Operation()	Decorator
+proguard.optimize.ChangedCodePrinter	visitCodeAttribute	Operation()	Decorator
+proguard.classfile.attribute.annotation.visitor.AnnotationVisitor	null	Component	Decorator
+proguard.classfile.attribute.annotation.visitor.AnnotationTypeFilter	null	Decorator	Decorator
+proguard.classfile.attribute.annotation.visitor.AnnotationTypeFilter	null	component	Decorator
+proguard.classfile.attribute.annotation.visitor.AnnotationTypeFilter	visitAnnotation	Operation()	Decorator
+proguard.classfile.attribute.annotation.visitor.AnnotationTypeFilter	visitAnnotation	Operation()	Decorator
+proguard.classfile.attribute.annotation.visitor.AnnotationTypeFilter	visitAnnotation	Operation()	Decorator
+proguard.classfile.attribute.annotation.visitor.AnnotationTypeFilter	visitAnnotation	Operation()	Decorator
+proguard.classfile.attribute.annotation.visitor.ElementValueVisitor	null	Component	Decorator
+proguard.classfile.attribute.annotation.visitor.AllElementValueVisitor	null	Decorator	Decorator
+proguard.classfile.attribute.annotation.visitor.AllElementValueVisitor	null	component	Decorator
+proguard.classfile.attribute.annotation.visitor.AllElementValueVisitor	visitConstantElementValue	Operation()	Decorator
+proguard.classfile.attribute.annotation.visitor.AllElementValueVisitor	visitEnumConstantElementValue	Operation()	Decorator
+proguard.classfile.attribute.annotation.visitor.AllElementValueVisitor	visitClassElementValue	Operation()	Decorator
+proguard.classfile.attribute.annotation.visitor.AllElementValueVisitor	visitAnnotationElementValue	Operation()	Decorator
+proguard.classfile.attribute.annotation.visitor.AllElementValueVisitor	visitArrayElementValue	Operation()	Decorator
+proguard.SubclassedClassFilter	null	Decorator	Decorator
+proguard.classfile.visitor.ClassVisitor	null	Component	Decorator
+proguard.SubclassedClassFilter	null	component	Decorator
+proguard.SubclassedClassFilter	visitProgramClass	Operation()	Decorator
+proguard.SubclassedClassFilter	visitLibraryClass	Operation()	Decorator
+proguard.classfile.visitor.BottomClassFilter	null	Decorator	Decorator
+proguard.classfile.visitor.ClassVisitor	null	Component	Decorator
+proguard.classfile.visitor.BottomClassFilter	null	component	Decorator
+proguard.classfile.visitor.BottomClassFilter	visitProgramClass	Operation()	Decorator
+proguard.classfile.visitor.BottomClassFilter	visitLibraryClass	Operation()	Decorator
+proguard.classfile.visitor.ClassAccessFilter	null	Decorator	Decorator
+proguard.classfile.visitor.ClassVisitor	null	Component	Decorator
+proguard.classfile.visitor.ClassAccessFilter	null	component	Decorator
+proguard.classfile.visitor.ClassAccessFilter	visitProgramClass	Operation()	Decorator
+proguard.classfile.visitor.ClassAccessFilter	visitLibraryClass	Operation()	Decorator
+proguard.classfile.visitor.ClassNameFilter	null	Decorator	Decorator
+proguard.classfile.visitor.ClassVisitor	null	Component	Decorator
+proguard.classfile.visitor.ClassNameFilter	null	component	Decorator
+proguard.classfile.visitor.ClassNameFilter	visitProgramClass	Operation()	Decorator
+proguard.classfile.visitor.ClassNameFilter	visitLibraryClass	Operation()	Decorator
+proguard.classfile.visitor.ClassVersionFilter	null	Decorator	Decorator
+proguard.classfile.visitor.ClassVisitor	null	Component	Decorator
+proguard.classfile.visitor.ClassVersionFilter	null	component	Decorator
+proguard.classfile.visitor.ClassVersionFilter	visitProgramClass	Operation()	Decorator
+proguard.classfile.visitor.ExceptClassFilter	null	Decorator	Decorator
+proguard.classfile.visitor.ClassVisitor	null	Component	Decorator
+proguard.classfile.visitor.ExceptClassFilter	null	component	Decorator
+proguard.classfile.visitor.ExceptClassFilter	visitProgramClass	Operation()	Decorator
+proguard.classfile.visitor.ExceptClassFilter	visitLibraryClass	Operation()	Decorator
+proguard.classfile.visitor.ExceptClassesFilter	null	Decorator	Decorator
+proguard.classfile.visitor.ClassVisitor	null	Component	Decorator
+proguard.classfile.visitor.ExceptClassesFilter	null	component	Decorator
+proguard.classfile.visitor.ExceptClassesFilter	visitProgramClass	Operation()	Decorator
+proguard.classfile.visitor.ExceptClassesFilter	visitLibraryClass	Operation()	Decorator
+proguard.classfile.visitor.ImplementedClassFilter	null	Decorator	Decorator
+proguard.classfile.visitor.ClassVisitor	null	Component	Decorator
+proguard.classfile.visitor.ImplementedClassFilter	null	component	Decorator
+proguard.classfile.visitor.ImplementedClassFilter	visitProgramClass	Operation()	Decorator
+proguard.classfile.visitor.ImplementedClassFilter	visitLibraryClass	Operation()	Decorator
+proguard.classfile.visitor.LibraryClassFilter	null	Decorator	Decorator
+proguard.classfile.visitor.ClassVisitor	null	Component	Decorator
+proguard.classfile.visitor.LibraryClassFilter	null	component	Decorator
+proguard.classfile.visitor.LibraryClassFilter	visitLibraryClass	Operation()	Decorator
+proguard.classfile.visitor.ProgramClassFilter	null	Decorator	Decorator
+proguard.classfile.visitor.ClassVisitor	null	Component	Decorator
+proguard.classfile.visitor.ProgramClassFilter	null	component	Decorator
+proguard.classfile.visitor.ProgramClassFilter	visitProgramClass	Operation()	Decorator
+proguard.classfile.visitor.SubclassFilter	null	Decorator	Decorator
+proguard.classfile.visitor.ClassVisitor	null	Component	Decorator
+proguard.classfile.visitor.SubclassFilter	null	component	Decorator
+proguard.classfile.visitor.SubclassFilter	visitProgramClass	Operation()	Decorator
+proguard.classfile.visitor.SubclassFilter	visitLibraryClass	Operation()	Decorator
+proguard.classfile.visitor.VariableClassVisitor	null	Decorator	Decorator
+proguard.classfile.visitor.ClassVisitor	null	Component	Decorator
+proguard.classfile.visitor.VariableClassVisitor	null	component	Decorator
+proguard.classfile.visitor.VariableClassVisitor	visitProgramClass	Operation()	Decorator
+proguard.classfile.visitor.VariableClassVisitor	visitLibraryClass	Operation()	Decorator
+proguard.optimize.KeptClassFilter	null	Decorator	Decorator
+proguard.classfile.visitor.ClassVisitor	null	Component	Decorator
+proguard.optimize.KeptClassFilter	null	component	Decorator
+proguard.optimize.KeptClassFilter	visitProgramClass	Operation()	Decorator
+proguard.optimize.KeptClassFilter	visitLibraryClass	Operation()	Decorator
+proguard.optimize.info.CaughtClassFilter	null	Decorator	Decorator
+proguard.classfile.visitor.ClassVisitor	null	Component	Decorator
+proguard.optimize.info.CaughtClassFilter	null	component	Decorator
+proguard.optimize.info.CaughtClassFilter	visitProgramClass	Operation()	Decorator
+proguard.optimize.info.CaughtClassFilter	visitLibraryClass	Operation()	Decorator
+proguard.optimize.info.DotClassFilter	null	Decorator	Decorator
+proguard.classfile.visitor.ClassVisitor	null	Component	Decorator
+proguard.optimize.info.DotClassFilter	null	component	Decorator
+proguard.optimize.info.DotClassFilter	visitProgramClass	Operation()	Decorator
+proguard.optimize.info.DotClassFilter	visitLibraryClass	Operation()	Decorator
+proguard.optimize.info.InstanceofClassFilter	null	Decorator	Decorator
+proguard.classfile.visitor.ClassVisitor	null	Component	Decorator
+proguard.optimize.info.InstanceofClassFilter	null	component	Decorator
+proguard.optimize.info.InstanceofClassFilter	visitProgramClass	Operation()	Decorator
+proguard.optimize.info.InstanceofClassFilter	visitLibraryClass	Operation()	Decorator
+proguard.optimize.info.InstantiationClassFilter	null	Decorator	Decorator
+proguard.classfile.visitor.ClassVisitor	null	Component	Decorator
+proguard.optimize.info.InstantiationClassFilter	null	component	Decorator
+proguard.optimize.info.InstantiationClassFilter	visitProgramClass	Operation()	Decorator
+proguard.optimize.info.InstantiationClassFilter	visitLibraryClass	Operation()	Decorator
+proguard.optimize.info.StaticInitializerContainingClassFilter	null	Decorator	Decorator
+proguard.classfile.visitor.ClassVisitor	null	Component	Decorator
+proguard.optimize.info.StaticInitializerContainingClassFilter	null	component	Decorator
+proguard.optimize.info.StaticInitializerContainingClassFilter	visitProgramClass	Operation()	Decorator
+proguard.optimize.info.StaticInitializerContainingClassFilter	visitLibraryClass	Operation()	Decorator
+proguard.optimize.peephole.ClassFinalizer	null	Decorator	Decorator
+proguard.classfile.visitor.ClassVisitor	null	Component	Decorator
+proguard.optimize.peephole.ClassFinalizer	null	component	Decorator
+proguard.optimize.peephole.ClassFinalizer	visitProgramClass	Operation()	Decorator
+proguard.shrink.UsedClassFilter	null	Decorator	Decorator
+proguard.classfile.visitor.ClassVisitor	null	Component	Decorator
+proguard.shrink.UsedClassFilter	null	component	Decorator
+proguard.shrink.UsedClassFilter	visitProgramClass	Operation()	Decorator
+proguard.shrink.UsedClassFilter	visitLibraryClass	Operation()	Decorator
+proguard.classfile.visitor.MemberVisitor	null	Component	Decorator
+proguard.classfile.editor.MemberAdder	null	Decorator	Decorator
+proguard.classfile.editor.MemberAdder	null	component	Decorator
+proguard.classfile.editor.MemberAdder	visitProgramField	Operation()	Decorator
+proguard.classfile.editor.MemberAdder	visitProgramMethod	Operation()	Decorator
+proguard.classfile.visitor.MemberVisitor	null	Component	Decorator
+proguard.classfile.visitor.LibraryMemberFilter	null	Decorator	Decorator
+proguard.classfile.visitor.LibraryMemberFilter	null	component	Decorator
+proguard.classfile.visitor.LibraryMemberFilter	visitLibraryField	Operation()	Decorator
+proguard.classfile.visitor.LibraryMemberFilter	visitLibraryMethod	Operation()	Decorator
+proguard.classfile.visitor.MemberVisitor	null	Component	Decorator
+proguard.classfile.visitor.MemberAccessFilter	null	Decorator	Decorator
+proguard.classfile.visitor.MemberAccessFilter	null	component	Decorator
+proguard.classfile.visitor.MemberAccessFilter	visitProgramField	Operation()	Decorator
+proguard.classfile.visitor.MemberAccessFilter	visitProgramMethod	Operation()	Decorator
+proguard.classfile.visitor.MemberAccessFilter	visitLibraryField	Operation()	Decorator
+proguard.classfile.visitor.MemberAccessFilter	visitLibraryMethod	Operation()	Decorator
+proguard.classfile.visitor.MemberVisitor	null	Component	Decorator
+proguard.classfile.visitor.MemberClassAccessFilter	null	Decorator	Decorator
+proguard.classfile.visitor.MemberClassAccessFilter	null	component	Decorator
+proguard.classfile.visitor.MemberClassAccessFilter	visitProgramField	Operation()	Decorator
+proguard.classfile.visitor.MemberClassAccessFilter	visitProgramMethod	Operation()	Decorator
+proguard.classfile.visitor.MemberClassAccessFilter	visitLibraryField	Operation()	Decorator
+proguard.classfile.visitor.MemberClassAccessFilter	visitLibraryMethod	Operation()	Decorator
+proguard.classfile.visitor.MemberVisitor	null	Component	Decorator
+proguard.classfile.visitor.MemberDescriptorFilter	null	Decorator	Decorator
+proguard.classfile.visitor.MemberDescriptorFilter	null	component	Decorator
+proguard.classfile.visitor.MemberDescriptorFilter	visitProgramField	Operation()	Decorator
+proguard.classfile.visitor.MemberDescriptorFilter	visitProgramMethod	Operation()	Decorator
+proguard.classfile.visitor.MemberDescriptorFilter	visitLibraryField	Operation()	Decorator
+proguard.classfile.visitor.MemberDescriptorFilter	visitLibraryMethod	Operation()	Decorator
+proguard.classfile.visitor.MemberVisitor	null	Component	Decorator
+proguard.classfile.visitor.MemberNameFilter	null	Decorator	Decorator
+proguard.classfile.visitor.MemberNameFilter	null	component	Decorator
+proguard.classfile.visitor.MemberNameFilter	visitProgramField	Operation()	Decorator
+proguard.classfile.visitor.MemberNameFilter	visitProgramMethod	Operation()	Decorator
+proguard.classfile.visitor.MemberNameFilter	visitLibraryField	Operation()	Decorator
+proguard.classfile.visitor.MemberNameFilter	visitLibraryMethod	Operation()	Decorator
+proguard.classfile.visitor.MemberVisitor	null	Component	Decorator
+proguard.classfile.visitor.MethodImplementationFilter	null	Decorator	Decorator
+proguard.classfile.visitor.MethodImplementationFilter	null	component	Decorator
+proguard.classfile.visitor.MethodImplementationFilter	visitProgramMethod	Operation()	Decorator
+proguard.classfile.visitor.MethodImplementationFilter	visitLibraryMethod	Operation()	Decorator
+proguard.classfile.visitor.MemberVisitor	null	Component	Decorator
+proguard.classfile.visitor.ProgramMemberFilter	null	Decorator	Decorator
+proguard.classfile.visitor.ProgramMemberFilter	null	component	Decorator
+proguard.classfile.visitor.ProgramMemberFilter	visitProgramField	Operation()	Decorator
+proguard.classfile.visitor.ProgramMemberFilter	visitProgramMethod	Operation()	Decorator
+proguard.classfile.visitor.MemberVisitor	null	Component	Decorator
+proguard.classfile.visitor.VariableMemberVisitor	null	Decorator	Decorator
+proguard.classfile.visitor.VariableMemberVisitor	null	component	Decorator
+proguard.classfile.visitor.VariableMemberVisitor	visitProgramField	Operation()	Decorator
+proguard.classfile.visitor.VariableMemberVisitor	visitProgramMethod	Operation()	Decorator
+proguard.classfile.visitor.VariableMemberVisitor	visitLibraryField	Operation()	Decorator
+proguard.classfile.visitor.VariableMemberVisitor	visitLibraryMethod	Operation()	Decorator
+proguard.classfile.visitor.MemberVisitor	null	Component	Decorator
+proguard.obfuscate.MemberNameFilter	null	Decorator	Decorator
+proguard.obfuscate.MemberNameFilter	null	component	Decorator
+proguard.obfuscate.MemberNameFilter	visitProgramField	Operation()	Decorator
+proguard.obfuscate.MemberNameFilter	visitProgramMethod	Operation()	Decorator
+proguard.obfuscate.MemberNameFilter	visitLibraryField	Operation()	Decorator
+proguard.obfuscate.MemberNameFilter	visitLibraryMethod	Operation()	Decorator
+proguard.classfile.visitor.MemberVisitor	null	Component	Decorator
+proguard.obfuscate.MemberSpecialNameFilter	null	Decorator	Decorator
+proguard.obfuscate.MemberSpecialNameFilter	null	component	Decorator
+proguard.obfuscate.MemberSpecialNameFilter	visitProgramField	Operation()	Decorator
+proguard.obfuscate.MemberSpecialNameFilter	visitProgramMethod	Operation()	Decorator
+proguard.obfuscate.MemberSpecialNameFilter	visitLibraryField	Operation()	Decorator
+proguard.obfuscate.MemberSpecialNameFilter	visitLibraryMethod	Operation()	Decorator
+proguard.classfile.visitor.MemberVisitor	null	Component	Decorator
+proguard.optimize.ConstantMemberFilter	null	Decorator	Decorator
+proguard.optimize.ConstantMemberFilter	null	component	Decorator
+proguard.optimize.ConstantMemberFilter	visitProgramField	Operation()	Decorator
+proguard.optimize.ConstantMemberFilter	visitProgramMethod	Operation()	Decorator
+proguard.classfile.visitor.MemberVisitor	null	Component	Decorator
+proguard.optimize.ConstantParameterFilter	null	Decorator	Decorator
+proguard.optimize.ConstantParameterFilter	null	component	Decorator
+proguard.optimize.ConstantParameterFilter	visitProgramMethod	Operation()	Decorator
+proguard.classfile.visitor.MemberVisitor	null	Component	Decorator
+proguard.optimize.DuplicateInitializerFixer	null	Decorator	Decorator
+proguard.optimize.DuplicateInitializerFixer	null	component	Decorator
+proguard.optimize.DuplicateInitializerFixer	visitProgramMethod	Operation()	Decorator
+proguard.classfile.visitor.MemberVisitor	null	Component	Decorator
+proguard.optimize.KeptMemberFilter	null	Decorator	Decorator
+proguard.optimize.KeptMemberFilter	null	component	Decorator
+proguard.optimize.KeptMemberFilter	visitProgramField	Operation()	Decorator
+proguard.optimize.KeptMemberFilter	visitProgramMethod	Operation()	Decorator
+proguard.optimize.KeptMemberFilter	visitLibraryField	Operation()	Decorator
+proguard.optimize.KeptMemberFilter	visitLibraryMethod	Operation()	Decorator
+proguard.classfile.visitor.MemberVisitor	null	Component	Decorator
+proguard.optimize.MemberDescriptorSpecializer	null	Decorator	Decorator
+proguard.optimize.MemberDescriptorSpecializer	null	component	Decorator
+proguard.optimize.MemberDescriptorSpecializer	visitProgramField	Operation()	Decorator
+proguard.optimize.MemberDescriptorSpecializer	visitProgramMethod	Operation()	Decorator
+proguard.classfile.visitor.MemberVisitor	null	Component	Decorator
+proguard.optimize.MethodDescriptorShrinker	null	Decorator	Decorator
+proguard.optimize.MethodDescriptorShrinker	null	component	Decorator
+proguard.optimize.MethodDescriptorShrinker	visitProgramMethod	Operation()	Decorator
+proguard.classfile.visitor.MemberVisitor	null	Component	Decorator
+proguard.optimize.MethodStaticizer	null	Decorator	Decorator
+proguard.optimize.MethodStaticizer	null	component	Decorator
+proguard.optimize.MethodStaticizer	visitProgramMethod	Operation()	Decorator
+proguard.classfile.visitor.MemberVisitor	null	Component	Decorator
+proguard.optimize.OptimizationInfoMemberFilter	null	Decorator	Decorator
+proguard.optimize.OptimizationInfoMemberFilter	null	component	Decorator
+proguard.optimize.OptimizationInfoMemberFilter	visitProgramField	Operation()	Decorator
+proguard.optimize.OptimizationInfoMemberFilter	visitLibraryField	Operation()	Decorator
+proguard.optimize.OptimizationInfoMemberFilter	visitProgramMethod	Operation()	Decorator
+proguard.optimize.OptimizationInfoMemberFilter	visitLibraryMethod	Operation()	Decorator
+proguard.classfile.visitor.MemberVisitor	null	Component	Decorator
+proguard.optimize.WriteOnlyFieldFilter	null	Decorator	Decorator
+proguard.optimize.WriteOnlyFieldFilter	null	component	Decorator
+proguard.optimize.WriteOnlyFieldFilter	visitProgramField	Operation()	Decorator
+proguard.classfile.visitor.MemberVisitor	null	Component	Decorator
+proguard.optimize.info.SideEffectMethodFilter	null	Decorator	Decorator
+proguard.optimize.info.SideEffectMethodFilter	null	component	Decorator
+proguard.optimize.info.SideEffectMethodFilter	visitProgramMethod	Operation()	Decorator
+proguard.optimize.info.SideEffectMethodFilter	visitLibraryMethod	Operation()	Decorator
+proguard.classfile.visitor.MemberVisitor	null	Component	Decorator
+proguard.optimize.peephole.MemberPrivatizer	null	Decorator	Decorator
+proguard.optimize.peephole.MemberPrivatizer	null	component	Decorator
+proguard.optimize.peephole.MemberPrivatizer	visitProgramField	Operation()	Decorator
+proguard.optimize.peephole.MemberPrivatizer	visitProgramMethod	Operation()	Decorator
+proguard.classfile.visitor.MemberVisitor	null	Component	Decorator
+proguard.optimize.peephole.MethodFinalizer	null	Decorator	Decorator
+proguard.optimize.peephole.MethodFinalizer	null	component	Decorator
+proguard.optimize.peephole.MethodFinalizer	visitProgramMethod	Operation()	Decorator
+proguard.classfile.visitor.MemberVisitor	null	Component	Decorator
+proguard.shrink.UsedMemberFilter	null	Decorator	Decorator
+proguard.shrink.UsedMemberFilter	null	component	Decorator
+proguard.shrink.UsedMemberFilter	visitProgramField	Operation()	Decorator
+proguard.shrink.UsedMemberFilter	visitProgramMethod	Operation()	Decorator
+proguard.shrink.UsedMemberFilter	visitLibraryField	Operation()	Decorator
+proguard.shrink.UsedMemberFilter	visitLibraryMethod	Operation()	Decorator
+proguard.optimize.TailRecursionSimplifier	null	Decorator	Decorator
+proguard.classfile.instruction.visitor.InstructionVisitor	null	Component	Decorator
+proguard.optimize.TailRecursionSimplifier	null	component	Decorator
+proguard.optimize.TailRecursionSimplifier	visitConstantInstruction	Operation()	Decorator
+proguard.optimize.peephole.GotoCommonCodeReplacer	null	Decorator	Decorator
+proguard.classfile.instruction.visitor.InstructionVisitor	null	Component	Decorator
+proguard.optimize.peephole.GotoCommonCodeReplacer	null	component	Decorator
+proguard.optimize.peephole.GotoCommonCodeReplacer	visitBranchInstruction	Operation()	Decorator
+proguard.optimize.peephole.GotoGotoReplacer	null	Decorator	Decorator
+proguard.classfile.instruction.visitor.InstructionVisitor	null	Component	Decorator
+proguard.optimize.peephole.GotoGotoReplacer	null	component	Decorator
+proguard.optimize.peephole.GotoGotoReplacer	visitBranchInstruction	Operation()	Decorator
+proguard.optimize.peephole.GotoReturnReplacer	null	Decorator	Decorator
+proguard.classfile.instruction.visitor.InstructionVisitor	null	Component	Decorator
+proguard.optimize.peephole.GotoReturnReplacer	null	component	Decorator
+proguard.optimize.peephole.GotoReturnReplacer	visitBranchInstruction	Operation()	Decorator
+proguard.optimize.peephole.MethodInliner	null	Decorator	Decorator
+proguard.classfile.instruction.visitor.InstructionVisitor	null	Component	Decorator
+proguard.optimize.peephole.MethodInliner	null	component	Decorator
+proguard.optimize.peephole.MethodInliner	visitConstantInstruction	Operation()	Decorator
+proguard.optimize.peephole.NopRemover	null	Decorator	Decorator
+proguard.classfile.instruction.visitor.InstructionVisitor	null	Component	Decorator
+proguard.optimize.peephole.NopRemover	null	component	Decorator
+proguard.optimize.peephole.NopRemover	visitSimpleInstruction	Operation()	Decorator
+proguard.classfile.attribute.visitor.ExceptionInfoVisitor	null	Component	Decorator
+proguard.classfile.visitor.ExceptionExcludedOffsetFilter	null	Decorator	Decorator
+proguard.classfile.visitor.ExceptionExcludedOffsetFilter	null	component	Decorator
+proguard.classfile.visitor.ExceptionExcludedOffsetFilter	visitExceptionInfo	Operation()	Decorator
+proguard.classfile.attribute.visitor.ExceptionInfoVisitor	null	Component	Decorator
+proguard.classfile.visitor.ExceptionHandlerFilter	null	Decorator	Decorator
+proguard.classfile.visitor.ExceptionHandlerFilter	null	component	Decorator
+proguard.classfile.visitor.ExceptionHandlerFilter	visitExceptionInfo	Operation()	Decorator
+proguard.classfile.attribute.visitor.ExceptionInfoVisitor	null	Component	Decorator
+proguard.classfile.visitor.ExceptionOffsetFilter	null	Decorator	Decorator
+proguard.classfile.visitor.ExceptionOffsetFilter	null	component	Decorator
+proguard.classfile.visitor.ExceptionOffsetFilter	visitExceptionInfo	Operation()	Decorator
+proguard.classfile.attribute.visitor.ExceptionInfoVisitor	null	Component	Decorator
+proguard.classfile.visitor.ExceptionRangeFilter	null	Decorator	Decorator
+proguard.classfile.visitor.ExceptionRangeFilter	null	component	Decorator
+proguard.classfile.visitor.ExceptionRangeFilter	visitExceptionInfo	Operation()	Decorator
+proguard.classfile.attribute.visitor.ExceptionInfoVisitor	null	Component	Decorator
+proguard.optimize.peephole.UnreachableExceptionRemover	null	Decorator	Decorator
+proguard.optimize.peephole.UnreachableExceptionRemover	null	component	Decorator
+proguard.optimize.peephole.UnreachableExceptionRemover	visitExceptionInfo	Operation()	Decorator
+proguard.classfile.constant.visitor.ExceptClassConstantFilter	null	Decorator	Decorator
+proguard.classfile.constant.visitor.ConstantVisitor	null	Component	Decorator
+proguard.classfile.constant.visitor.ExceptClassConstantFilter	null	component	Decorator
+proguard.classfile.constant.visitor.ExceptClassConstantFilter	visitClassConstant	Operation()	Decorator
+proguard.classfile.visitor.ImplementedClassConstantFilter	null	Decorator	Decorator
+proguard.classfile.constant.visitor.ConstantVisitor	null	Component	Decorator
+proguard.classfile.visitor.ImplementedClassConstantFilter	null	component	Decorator
+proguard.classfile.visitor.ImplementedClassConstantFilter	visitClassConstant	Operation()	Decorator
+proguard.classfile.visitor.ImplementingClassConstantFilter	null	Decorator	Decorator
+proguard.classfile.constant.visitor.ConstantVisitor	null	Component	Decorator
+proguard.classfile.visitor.ImplementingClassConstantFilter	null	component	Decorator
+proguard.classfile.visitor.ImplementingClassConstantFilter	visitClassConstant	Operation()	Decorator
+proguard.io.DataEntryReader	null	Component	Decorator
+proguard.io.DataEntryObfuscator	null	Decorator	Decorator
+proguard.io.DataEntryObfuscator	null	component	Decorator
+proguard.io.DataEntryObfuscator	read	Operation()	Decorator
+proguard.io.DataEntryReader	null	Component	Decorator
+proguard.io.DataEntryRenamer	null	Decorator	Decorator
+proguard.io.DataEntryRenamer	null	component	Decorator
+proguard.io.DataEntryRenamer	null	component	Decorator
+proguard.io.DataEntryRenamer	read	Operation()	Decorator
+proguard.io.DataEntryReader	null	Component	Decorator
+proguard.io.FilteredDataEntryReader	null	Decorator	Decorator
+proguard.io.FilteredDataEntryReader	null	component	Decorator
+proguard.io.FilteredDataEntryReader	null	component	Decorator
+proguard.io.FilteredDataEntryReader	read	Operation()	Decorator
+proguard.io.DataEntryReader	null	Component	Decorator
+proguard.io.JarReader	null	Decorator	Decorator
+proguard.io.JarReader	null	component	Decorator
+proguard.io.JarReader	read	Operation()	Decorator
+proguard.gui.splash.BufferedSprite	null	Decorator	Decorator
+proguard.gui.splash.Sprite	null	Component	Decorator
+proguard.gui.splash.BufferedSprite	null	component	Decorator
+proguard.gui.splash.BufferedSprite	paint	Operation()	Decorator
+proguard.gui.splash.ClipSprite	null	Decorator	Decorator
+proguard.gui.splash.Sprite	null	Component	Decorator
+proguard.gui.splash.ClipSprite	null	component	Decorator
+proguard.gui.splash.ClipSprite	null	component	Decorator
+proguard.gui.splash.ClipSprite	paint	Operation()	Decorator
+proguard.gui.splash.ColorSprite	null	Decorator	Decorator
+proguard.gui.splash.Sprite	null	Component	Decorator
+proguard.gui.splash.ColorSprite	null	component	Decorator
+proguard.gui.splash.ColorSprite	paint	Operation()	Decorator
+proguard.gui.splash.FontSprite	null	Decorator	Decorator
+proguard.gui.splash.Sprite	null	Component	Decorator
+proguard.gui.splash.FontSprite	null	component	Decorator
+proguard.gui.splash.FontSprite	paint	Operation()	Decorator
+proguard.gui.splash.ShadowedSprite	null	Decorator	Decorator
+proguard.gui.splash.Sprite	null	Component	Decorator
+proguard.gui.splash.ShadowedSprite	null	component	Decorator
+proguard.gui.splash.ShadowedSprite	paint	Operation()	Decorator
+proguard.gui.splash.TimeSwitchSprite	null	Decorator	Decorator
+proguard.gui.splash.Sprite	null	Component	Decorator
+proguard.gui.splash.TimeSwitchSprite	null	component	Decorator
+proguard.gui.splash.TimeSwitchSprite	paint	Operation()	Decorator
+proguard.io.DataEntryWriter	null	Component	Decorator
+proguard.io.CascadingDataEntryWriter	null	Decorator	Decorator
+proguard.io.CascadingDataEntryWriter	null	component	Decorator
+proguard.io.CascadingDataEntryWriter	null	component	Decorator
+proguard.io.CascadingDataEntryWriter	createDirectory	Operation()	Decorator
+proguard.io.CascadingDataEntryWriter	getOutputStream	Operation()	Decorator
+proguard.io.CascadingDataEntryWriter	close	Operation()	Decorator
+proguard.io.DataEntryWriter	null	Component	Decorator
+proguard.io.FilteredDataEntryWriter	null	Decorator	Decorator
+proguard.io.FilteredDataEntryWriter	null	component	Decorator
+proguard.io.FilteredDataEntryWriter	null	component	Decorator
+proguard.io.FilteredDataEntryWriter	createDirectory	Operation()	Decorator
+proguard.io.FilteredDataEntryWriter	getOutputStream	Operation()	Decorator
+proguard.io.FilteredDataEntryWriter	close	Operation()	Decorator
+proguard.io.DataEntryWriter	null	Component	Decorator
+proguard.io.JarWriter	null	Decorator	Decorator
+proguard.io.JarWriter	null	component	Decorator
+proguard.io.JarWriter	close	Operation()	Decorator
+proguard.io.DataEntryWriter	null	Component	Decorator
+proguard.io.ParentDataEntryWriter	null	Decorator	Decorator
+proguard.io.ParentDataEntryWriter	null	component	Decorator
+proguard.io.ParentDataEntryWriter	getOutputStream	Operation()	Decorator
+proguard.io.ParentDataEntryWriter	close	Operation()	Decorator
+proguard.io.DataEntryFilter	null	Component	Decorator
+proguard.io.DataEntryParentFilter	null	Decorator	Decorator
+proguard.io.DataEntryParentFilter	null	component	Decorator
+proguard.io.DataEntryParentFilter	accepts	Operation()	Decorator
+proguard.io.DataEntry	null	Component	Decorator
+proguard.io.RenamedDataEntry	null	Decorator	Decorator
+proguard.io.RenamedDataEntry	null	component	Decorator
+proguard.io.RenamedDataEntry	isDirectory	Operation()	Decorator
+proguard.io.RenamedDataEntry	getInputStream	Operation()	Decorator
+proguard.io.RenamedDataEntry	closeInputStream	Operation()	Decorator
+proguard.io.RenamedDataEntry	getParent	Operation()	Decorator
+proguard.obfuscate.NameFactory	null	Component	Decorator
+proguard.obfuscate.DictionaryNameFactory	null	Decorator	Decorator
+proguard.obfuscate.DictionaryNameFactory	null	component	Decorator
+proguard.obfuscate.DictionaryNameFactory	reset	Operation()	Decorator
+proguard.obfuscate.DictionaryNameFactory	nextName	Operation()	Decorator
+proguard.obfuscate.NameFactory	null	Component	Decorator
+proguard.obfuscate.SpecialNameFactory	null	Decorator	Decorator
+proguard.obfuscate.SpecialNameFactory	null	component	Decorator
+proguard.obfuscate.SpecialNameFactory	reset	Operation()	Decorator
+proguard.obfuscate.SpecialNameFactory	nextName	Operation()	Decorator
+proguard.util.AndMatcher	null	Decorator	Decorator
+proguard.util.StringMatcher	null	Component	Decorator
+proguard.util.AndMatcher	null	component	Decorator
+proguard.util.AndMatcher	null	component	Decorator
+proguard.util.AndMatcher	matches	Operation()	Decorator
+proguard.util.FixedStringMatcher	null	Decorator	Decorator
+proguard.util.StringMatcher	null	Component	Decorator
+proguard.util.FixedStringMatcher	null	component	Decorator
+proguard.util.FixedStringMatcher	matches	Operation()	Decorator
+proguard.util.NotMatcher	null	Decorator	Decorator
+proguard.util.StringMatcher	null	Component	Decorator
+proguard.util.NotMatcher	null	component	Decorator
+proguard.util.NotMatcher	matches	Operation()	Decorator
+proguard.util.OrMatcher	null	Decorator	Decorator
+proguard.util.StringMatcher	null	Component	Decorator
+proguard.util.OrMatcher	null	component	Decorator
+proguard.util.OrMatcher	null	component	Decorator
+proguard.util.OrMatcher	matches	Operation()	Decorator
+proguard.util.SettableMatcher	null	Decorator	Decorator
+proguard.util.StringMatcher	null	Component	Decorator
+proguard.util.SettableMatcher	null	component	Decorator
+proguard.util.SettableMatcher	matches	Operation()	Decorator
+proguard.util.VariableStringMatcher	null	Decorator	Decorator
+proguard.util.StringMatcher	null	Component	Decorator
+proguard.util.VariableStringMatcher	null	component	Decorator
+proguard.util.VariableStringMatcher	matches	Operation()	Decorator
+proguard.classfile.instruction.Instruction	null	Observer	Observer
+proguard.classfile.editor.CodeAttributeEditor	null	Subject	Observer
+proguard.classfile.editor.CodeAttributeEditor	canPerformSimpleReplacements	Notify()	Observer
+proguard.evaluation.value.Value	null	Observer	Observer
+proguard.evaluation.Stack	null	Subject	Observer
+proguard.evaluation.Stack	generalize	Notify()	Observer
+proguard.evaluation.value.Value	null	Observer	Observer
+proguard.evaluation.Variables	null	Subject	Observer
+proguard.evaluation.Variables	generalize	Notify()	Observer
+proguard.evaluation.Variables	equals	Notify()	Observer
+proguard.classfile.Clazz	null	State	State
+proguard.classfile.util.DynamicMemberReferenceInitializer	null	Context	State
+proguard.classfile.util.DynamicMemberReferenceInitializer	null	state	State
+proguard.classfile.util.DynamicMemberReferenceInitializer	visitStringConstant	Request()	State
+proguard.classfile.Clazz	null	State	State
+proguard.classfile.editor.MethodInvocationFixer	null	Context	State
+proguard.classfile.editor.MethodInvocationFixer	null	state	State
+proguard.classfile.editor.MethodInvocationFixer	null	state	State
+proguard.classfile.editor.MethodInvocationFixer	visitConstantInstruction	Request()	State
+proguard.classfile.editor.MethodInvocationFixer	visitAnyMethodrefConstant	Request()	State
+proguard.classfile.editor.MethodInvocationFixer	debug	Request()	State
+proguard.classfile.Clazz	null	State	State
+proguard.classfile.editor.AccessFixer	null	Context	State
+proguard.classfile.editor.AccessFixer	null	state	State
+proguard.classfile.editor.AccessFixer	null	state	State
+proguard.classfile.editor.AccessFixer	visitAnyRefConstant	Request()	State
+proguard.classfile.editor.AccessFixer	visitProgramMember	Request()	State
+proguard.classfile.Clazz	null	State	State
+proguard.DescriptorKeepChecker	null	Context	State
+proguard.DescriptorKeepChecker	null	state	State
+proguard.DescriptorKeepChecker	visitProgramMethod	Request()	State
+proguard.DescriptorKeepChecker	visitProgramClass	Request()	State
+proguard.classfile.Clazz	null	State	State
+proguard.classfile.attribute.annotation.visitor.AnnotatedClassVisitor	null	Context	State
+proguard.classfile.attribute.annotation.visitor.AnnotatedClassVisitor	null	state	State
+proguard.classfile.attribute.annotation.visitor.AnnotatedClassVisitor	visitAnnotation	Request()	State
+proguard.classfile.Clazz	null	State	State
+proguard.classfile.util.EnumFieldReferenceInitializer	null	Context	State
+proguard.classfile.util.EnumFieldReferenceInitializer	null	state	State
+proguard.classfile.util.EnumFieldReferenceInitializer	visitEnumConstantElementValue	Request()	State
+proguard.classfile.Clazz	null	State	State
+proguard.classfile.util.MemberFinder	null	Context	State
+proguard.classfile.util.MemberFinder	null	state	State
+proguard.classfile.util.MemberFinder	findMember	Request()	State
+proguard.classfile.util.MemberFinder	isOverriden	Request()	State
+proguard.classfile.util.MemberFinder	isShadowed	Request()	State
+proguard.classfile.Clazz	null	State	State
+proguard.classfile.visitor.ImplementedClassConstantFilter	null	Context	State
+proguard.classfile.visitor.ImplementedClassConstantFilter	null	state	State
+proguard.classfile.visitor.ImplementedClassConstantFilter	visitClassConstant	Request()	State
+proguard.classfile.Clazz	null	State	State
+proguard.classfile.visitor.ImplementingClassConstantFilter	null	Context	State
+proguard.classfile.visitor.ImplementingClassConstantFilter	null	state	State
+proguard.classfile.visitor.ImplementingClassConstantFilter	visitClassConstant	Request()	State
+proguard.classfile.Clazz	null	State	State
+proguard.optimize.info.PackageVisibleMemberInvokingClassMarker	null	Context	State
+proguard.optimize.info.PackageVisibleMemberInvokingClassMarker	null	state	State
+proguard.optimize.info.PackageVisibleMemberInvokingClassMarker	visitAnyClass	Request()	State
+proguard.classfile.Clazz	null	State	State
+proguard.classfile.editor.SubclassToAdder	null	Context	State
+proguard.classfile.editor.SubclassToAdder	null	state	State
+proguard.classfile.editor.SubclassToAdder	visitProgramClass	Request()	State
+proguard.classfile.editor.SubclassToAdder	visitLibraryClass	Request()	State
+proguard.classfile.visitor.MemberClassAccessFilter	null	Context	State
+proguard.classfile.Clazz	null	State	State
+proguard.classfile.visitor.MemberClassAccessFilter	null	state	State
+proguard.classfile.visitor.MemberClassAccessFilter	accepted	Request()	State
+proguard.classfile.visitor.SimilarMemberVisitor	null	Context	State
+proguard.classfile.Clazz	null	State	State
+proguard.classfile.visitor.SimilarMemberVisitor	null	state	State
+proguard.classfile.visitor.SimilarMemberVisitor	visitProgramField	Request()	State
+proguard.classfile.visitor.SimilarMemberVisitor	visitLibraryField	Request()	State
+proguard.classfile.visitor.SimilarMemberVisitor	visitProgramMethod	Request()	State
+proguard.classfile.visitor.SimilarMemberVisitor	visitLibraryMethod	Request()	State
+proguard.classfile.visitor.ClassVisitor	null	State	State
+proguard.classfile.visitor.MemberToClassVisitor	null	Context	State
+proguard.classfile.visitor.MemberToClassVisitor	null	state	State
+proguard.classfile.visitor.MemberToClassVisitor	visitProgramField	Request()	State
+proguard.classfile.visitor.MemberToClassVisitor	visitProgramMethod	Request()	State
+proguard.classfile.visitor.MemberToClassVisitor	visitLibraryField	Request()	State
+proguard.classfile.visitor.MemberToClassVisitor	visitLibraryMethod	Request()	State
+proguard.DescriptorKeepChecker	null	Context	State
+proguard.classfile.Member	null	State	State
+proguard.DescriptorKeepChecker	null	state	State
+proguard.DescriptorKeepChecker	visitProgramClass	Request()	State
+proguard.classfile.editor.MethodInvocationFixer	null	Context	State
+proguard.classfile.Member	null	State	State
+proguard.classfile.editor.MethodInvocationFixer	null	state	State
+proguard.classfile.editor.MethodInvocationFixer	visitConstantInstruction	Request()	State
+proguard.classfile.editor.MethodInvocationFixer	debug	Request()	State
+proguard.classfile.attribute.annotation.visitor.AnnotationToMemberVisitor	null	Context	State
+proguard.classfile.Member	null	State	State
+proguard.classfile.attribute.annotation.visitor.AnnotationToMemberVisitor	null	state	State
+proguard.classfile.attribute.annotation.visitor.AnnotationToMemberVisitor	visitAnnotation	Request()	State
+proguard.optimize.peephole.InstructionSequenceReplacer	null	Context	State
+proguard.classfile.instruction.Instruction	null	State	State
+proguard.optimize.peephole.InstructionSequenceReplacer	null	state	State
+proguard.optimize.peephole.InstructionSequenceReplacer	visitAnyInstruction	Request()	State
+proguard.classfile.editor.CodeAttributeEditor	null	Context	State
+proguard.classfile.instruction.Instruction	null	State	State
+proguard.classfile.editor.CodeAttributeEditor	null	state	State
+proguard.classfile.editor.CodeAttributeEditor	null	state	State
+proguard.classfile.editor.CodeAttributeEditor	null	state	State
+proguard.classfile.editor.CodeAttributeEditor	insertBeforeInstruction	Request()	State
+proguard.classfile.editor.CodeAttributeEditor	replaceInstruction	Request()	State
+proguard.classfile.editor.CodeAttributeEditor	insertAfterInstruction	Request()	State
+proguard.classfile.editor.CodeAttributeEditor	canPerformSimpleReplacements	Request()	State
+proguard.classfile.editor.CodeAttributeEditor	mapInstruction	Request()	State
+proguard.classfile.editor.CodeAttributeEditor	moveInstruction	Request()	State
+proguard.optimize.peephole.InstructionSequenceReplacer$MyReplacementInstructionFactory	null	Context	State
+proguard.classfile.instruction.Instruction	null	State	State
+proguard.optimize.peephole.InstructionSequenceReplacer$MyReplacementInstructionFactory	null	state	State
+proguard.optimize.peephole.InstructionSequenceReplacer$MyReplacementInstructionFactory	create	Request()	State
+proguard.classfile.util.InstructionSequenceMatcher	null	Context	State
+proguard.classfile.instruction.Instruction	null	State	State
+proguard.classfile.util.InstructionSequenceMatcher	null	state	State
+proguard.classfile.util.InstructionSequenceMatcher	checkMatch	Request()	State
+proguard.classfile.Clazz	null	State	State
+proguard.shrink.ShortestUsageMark	null	Context	State
+proguard.shrink.ShortestUsageMark	null	state	State
+proguard.shrink.ShortestUsageMark	acceptClassVisitor	Request()	State
+proguard.shrink.ShortestUsageMark	toString	Request()	State
+proguard.classfile.constant.Constant	null	State	State
+proguard.optimize.peephole.InstructionSequenceConstants	null	Context	State
+proguard.optimize.peephole.InstructionSequenceConstants	null	state	State
+proguard.optimize.peephole.InstructionSequenceConstants	main	Request()	State
+proguard.evaluation.value.Value	null	State	State
+proguard.optimize.info.FieldOptimizationInfo	null	Context	State
+proguard.optimize.info.FieldOptimizationInfo	null	state	State
+proguard.optimize.info.FieldOptimizationInfo	generalizeValue	Request()	State
+proguard.evaluation.InvocationUnit	null	State	State
+proguard.optimize.evaluation.PartialEvaluator	null	Context	State
+proguard.optimize.evaluation.PartialEvaluator	null	state	State
+proguard.optimize.evaluation.PartialEvaluator	initializeParameters	Request()	State
+proguard.classfile.Clazz	null	State	State
+proguard.classfile.LibraryMethod	null	Context	State
+proguard.classfile.LibraryMethod	null	state	State
+proguard.classfile.LibraryMethod	referencedClassesAccept	Request()	State
+proguard.classfile.Clazz	null	State	State
+proguard.classfile.ProgramMethod	null	Context	State
+proguard.classfile.ProgramMethod	null	state	State
+proguard.classfile.ProgramMethod	referencedClassesAccept	Request()	State
+proguard.gui.splash.SplashPanel	null	Context	State
+proguard.gui.splash.Sprite	null	State	State
+proguard.gui.splash.SplashPanel	null	state	State
+proguard.gui.splash.SplashPanel	paintComponent	Request()	State
+proguard.classfile.Clazz	null	State	State
+proguard.classfile.LibraryField	null	Context	State
+proguard.classfile.LibraryField	null	state	State
+proguard.classfile.LibraryField	referencedClassesAccept	Request()	State
+proguard.classfile.Clazz	null	State	State
+proguard.classfile.ProgramField	null	Context	State
+proguard.classfile.ProgramField	null	state	State
+proguard.classfile.ProgramField	referencedClassesAccept	Request()	State
+proguard.evaluation.value.Value	null	State	State
+proguard.evaluation.Stack	null	Context	State
+proguard.evaluation.Stack	null	state	State
+proguard.evaluation.Stack	generalize	Request()	State
+proguard.evaluation.Stack	push	Request()	State
+proguard.evaluation.Stack	pop	Request()	State
+proguard.evaluation.value.Value	null	State	State
+proguard.evaluation.TracedVariables	null	Context	State
+proguard.evaluation.TracedVariables	null	state	State
+proguard.evaluation.TracedVariables	store	Request()	State
+proguard.evaluation.value.Value	null	State	State
+proguard.evaluation.Variables	null	Context	State
+proguard.evaluation.Variables	null	state	State
+proguard.evaluation.Variables	generalize	Request()	State
+proguard.evaluation.Variables	store	Request()	State
+proguard.evaluation.Variables	equals	Request()	State
+proguard.gui.splash.BufferedSprite	null	Context	State
+proguard.gui.splash.VariableInt	null	State	State
+proguard.gui.splash.BufferedSprite	null	state	State
+proguard.gui.splash.BufferedSprite	null	state	State
+proguard.gui.splash.BufferedSprite	paint	Request()	State
+proguard.gui.splash.ShadowedSprite	null	Context	State
+proguard.gui.splash.VariableInt	null	State	State
+proguard.gui.splash.ShadowedSprite	null	state	State
+proguard.gui.splash.ShadowedSprite	null	state	State
+proguard.gui.splash.ShadowedSprite	null	state	State
+proguard.gui.splash.ShadowedSprite	paint	Request()	State
+proguard.gui.splash.CircleSprite	null	Context	State
+proguard.gui.splash.VariableInt	null	State	State
+proguard.gui.splash.CircleSprite	null	state	State
+proguard.gui.splash.CircleSprite	null	state	State
+proguard.gui.splash.CircleSprite	null	state	State
+proguard.gui.splash.CircleSprite	paint	Request()	State
+proguard.gui.splash.ImageSprite	null	Context	State
+proguard.gui.splash.VariableInt	null	State	State
+proguard.gui.splash.ImageSprite	null	state	State
+proguard.gui.splash.ImageSprite	null	state	State
+proguard.gui.splash.ImageSprite	paint	Request()	State
+proguard.gui.splash.RectangleSprite	null	Context	State
+proguard.gui.splash.VariableInt	null	State	State
+proguard.gui.splash.RectangleSprite	null	state	State
+proguard.gui.splash.RectangleSprite	null	state	State
+proguard.gui.splash.RectangleSprite	null	state	State
+proguard.gui.splash.RectangleSprite	null	state	State
+proguard.gui.splash.RectangleSprite	null	state	State
+proguard.gui.splash.RectangleSprite	null	state	State
+proguard.gui.splash.RectangleSprite	paint	Request()	State
+proguard.gui.splash.TextSprite	null	Context	State
+proguard.gui.splash.VariableInt	null	State	State
+proguard.gui.splash.TextSprite	null	state	State
+proguard.gui.splash.TextSprite	null	state	State
+proguard.gui.splash.TextSprite	null	state	State
+proguard.gui.splash.TextSprite	paint	Request()	State
+proguard.evaluation.value.Value	null	State	State
+proguard.optimize.info.MethodOptimizationInfo	null	Context	State
+proguard.optimize.info.MethodOptimizationInfo	null	state	State
+proguard.optimize.info.MethodOptimizationInfo	null	state	State
+proguard.optimize.info.MethodOptimizationInfo	generalizeParameter	Request()	State
+proguard.optimize.info.MethodOptimizationInfo	generalizeReturnValue	Request()	State
+proguard.io.ClassRewriter	null	Context	State
+proguard.io.DataEntryWriter	null	State	State
+proguard.io.ClassRewriter	null	state	State
+proguard.io.ClassRewriter	read	Request()	State
+proguard.io.DataEntryCopier	null	Context	State
+proguard.io.DataEntryWriter	null	State	State
+proguard.io.DataEntryCopier	null	state	State
+proguard.io.DataEntryCopier	read	Request()	State
+proguard.classfile.util.WarningPrinter	null	Context	State
+proguard.util.StringMatcher	null	State	State
+proguard.classfile.util.WarningPrinter	null	state	State
+proguard.classfile.util.WarningPrinter	accepts	Request()	State
+proguard.classfile.util.WarningPrinter	accepts	Request()	State
+proguard.shrink.ShortestUsageMark	null	Context	State
+proguard.classfile.Member	null	State	State
+proguard.shrink.ShortestUsageMark	null	state	State
+proguard.shrink.ShortestUsageMark	acceptMemberVisitor	Request()	State
+proguard.shrink.ShortestUsageMark	toString	Request()	State
+proguard.classfile.util.DynamicClassReferenceInitializer	null	Context	State
+proguard.util.StringMatcher	null	State	State
+proguard.classfile.util.DynamicClassReferenceInitializer	null	state	State
+proguard.classfile.util.DynamicClassReferenceInitializer	visitClassConstant	Request()	State
+proguard.classfile.util.DynamicMemberReferenceInitializer	null	Context	State
+proguard.util.StringMatcher	null	State	State
+proguard.classfile.util.DynamicMemberReferenceInitializer	null	state	State
+proguard.classfile.util.DynamicMemberReferenceInitializer	null	state	State
+proguard.classfile.util.DynamicMemberReferenceInitializer	printDynamicInvocationNote	Request()	State
+proguard.obfuscate.ClassObfuscator	null	Context	State
+proguard.util.StringMatcher	null	State	State
+proguard.obfuscate.ClassObfuscator	null	state	State
+proguard.obfuscate.ClassObfuscator	newPackagePrefix	Request()	State
+proguard.obfuscate.MemberObfuscator	null	Context	State
+proguard.obfuscate.NameFactory	null	State	State
+proguard.obfuscate.MemberObfuscator	null	state	State
+proguard.obfuscate.MemberObfuscator	visitAnyMember	Request()	State
+proguard.io.FilteredDataEntryReader	null	Context	State
+proguard.io.DataEntryFilter	null	State	State
+proguard.io.FilteredDataEntryReader	null	state	State
+proguard.io.FilteredDataEntryReader	read	Request()	State
+proguard.obfuscate.NameFactoryResetter	null	Context	State
+proguard.obfuscate.NameFactory	null	State	State
+proguard.obfuscate.NameFactoryResetter	null	state	State
+proguard.obfuscate.NameFactoryResetter	visitProgramClass	Request()	State
+proguard.obfuscate.NameFactoryResetter	visitLibraryClass	Request()	State
+proguard.classfile.visitor.ClassNameFilter	null	Context	State
+proguard.util.StringMatcher	null	State	State
+proguard.classfile.visitor.ClassNameFilter	null	state	State
+proguard.classfile.visitor.ClassNameFilter	accepted	Request()	State
+proguard.evaluation.Processor	null	Context	State
+proguard.evaluation.BranchUnit	null	State	State
+proguard.evaluation.Processor	null	state	State
+proguard.evaluation.Processor	visitSimpleInstruction	Request()	State
+proguard.evaluation.Processor	visitVariableInstruction	Request()	State
+proguard.evaluation.Processor	visitBranchInstruction	Request()	State
+proguard.evaluation.Processor	visitTableSwitchInstruction	Request()	State
+proguard.evaluation.Processor	visitLookUpSwitchInstruction	Request()	State
+proguard.classfile.Clazz	null	State	State
+proguard.evaluation.value.ReferenceValue	null	Context	State
+proguard.evaluation.value.ReferenceValue	null	state	State
+proguard.evaluation.value.ReferenceValue	instanceOf	Request()	State
+proguard.evaluation.value.ReferenceValue	generalize	Request()	State
+proguard.io.JarWriter	null	Context	State
+proguard.io.DataEntry	null	State	State
+proguard.io.JarWriter	null	state	State
+proguard.io.JarWriter	createDirectory	Request()	State
+proguard.io.JarWriter	getOutputStream	Request()	State
+proguard.io.Finisher	null	State	State
+proguard.io.DirectoryWriter	null	Context	State
+proguard.io.DirectoryWriter	null	state	State
+proguard.io.DirectoryWriter	closeEntry	Request()	State
+proguard.util.StringMatcher	null	State	State
+proguard.classfile.attribute.visitor.AttributeNameFilter	null	Context	State
+proguard.classfile.attribute.visitor.AttributeNameFilter	null	state	State
+proguard.classfile.attribute.visitor.AttributeNameFilter	accepted	Request()	State
+proguard.classfile.visitor.MemberDescriptorFilter	null	Context	State
+proguard.util.StringMatcher	null	State	State
+proguard.classfile.visitor.MemberDescriptorFilter	null	state	State
+proguard.classfile.visitor.MemberDescriptorFilter	accepted	Request()	State
+proguard.classfile.visitor.MemberNameFilter	null	Context	State
+proguard.util.StringMatcher	null	State	State
+proguard.classfile.visitor.MemberNameFilter	null	state	State
+proguard.classfile.visitor.MemberNameFilter	accepted	Request()	State
+proguard.gui.splash.ClipSprite	null	Context	State
+proguard.gui.splash.VariableColor	null	State	State
+proguard.gui.splash.ClipSprite	null	state	State
+proguard.gui.splash.ClipSprite	null	state	State
+proguard.gui.splash.ClipSprite	paint	Request()	State
+proguard.gui.splash.ColorSprite	null	Context	State
+proguard.gui.splash.VariableColor	null	State	State
+proguard.gui.splash.ColorSprite	null	state	State
+proguard.gui.splash.ColorSprite	paint	Request()	State
+proguard.gui.splash.RectangleSprite	null	Context	State
+proguard.gui.splash.VariableColor	null	State	State
+proguard.gui.splash.RectangleSprite	null	state	State
+proguard.gui.splash.RectangleSprite	paint	Request()	State
+proguard.classfile.Clazz	null	State	State
+proguard.obfuscate.MappingKeeper	null	Context	State
+proguard.obfuscate.MappingKeeper	null	state	State
+proguard.obfuscate.MappingKeeper	processFieldMapping	Request()	State
+proguard.obfuscate.MappingKeeper	processMethodMapping	Request()	State
+proguard.evaluation.Processor	null	Context	State
+proguard.evaluation.InvocationUnit	null	State	State
+proguard.evaluation.Processor	null	state	State
+proguard.evaluation.Processor	visitSimpleInstruction	Request()	State
+proguard.evaluation.Processor	visitConstantInstruction	Request()	State
+proguard.gui.splash.ShadowedSprite	null	Context	State
+proguard.gui.splash.VariableDouble	null	State	State
+proguard.gui.splash.ShadowedSprite	null	state	State
+proguard.gui.splash.ShadowedSprite	paint	Request()	State
+proguard.gui.splash.ImageSprite	null	Context	State
+proguard.gui.splash.VariableDouble	null	State	State
+proguard.gui.splash.ImageSprite	null	state	State
+proguard.gui.splash.ImageSprite	null	state	State
+proguard.gui.splash.ImageSprite	paint	Request()	State
+proguard.classfile.attribute.annotation.visitor.AnnotationTypeFilter	null	Context	State
+proguard.util.StringMatcher	null	State	State
+proguard.classfile.attribute.annotation.visitor.AnnotationTypeFilter	null	state	State
+proguard.classfile.attribute.annotation.visitor.AnnotationTypeFilter	accepted	Request()	State
+proguard.io.DataEntryClassWriter	null	Context	State
+proguard.io.DataEntryWriter	null	State	State
+proguard.io.DataEntryClassWriter	null	state	State
+proguard.io.DataEntryClassWriter	visitProgramClass	Request()	State
+proguard.gui.splash.FontSprite	null	Context	State
+proguard.gui.splash.VariableFont	null	State	State
+proguard.gui.splash.FontSprite	null	state	State
+proguard.gui.splash.FontSprite	paint	Request()	State
+proguard.gui.splash.TextSprite	null	Context	State
+proguard.gui.splash.VariableString	null	State	State
+proguard.gui.splash.TextSprite	null	state	State
+proguard.gui.splash.TextSprite	paint	Request()	State
+proguard.gui.splash.LinearColor	null	Context	State
+proguard.gui.splash.Timing	null	State	State
+proguard.gui.splash.LinearColor	null	state	State
+proguard.gui.splash.LinearColor	getColor	Request()	State
+proguard.gui.splash.LinearDouble	null	Context	State
+proguard.gui.splash.Timing	null	State	State
+proguard.gui.splash.LinearDouble	null	state	State
+proguard.gui.splash.LinearDouble	getDouble	Request()	State
+proguard.gui.splash.VariableSizeFont	null	Context	State
+proguard.gui.splash.VariableDouble	null	State	State
+proguard.gui.splash.VariableSizeFont	null	state	State
+proguard.gui.splash.VariableSizeFont	getFont	Request()	State
+proguard.gui.splash.LinearInt	null	Context	State
+proguard.gui.splash.Timing	null	State	State
+proguard.gui.splash.LinearInt	null	state	State
+proguard.gui.splash.LinearInt	getInt	Request()	State
+proguard.gui.splash.TypeWriterString	null	Context	State
+proguard.gui.splash.Timing	null	State	State
+proguard.gui.splash.TypeWriterString	null	state	State
+proguard.gui.splash.TypeWriterString	getString	Request()	State
+proguard.io.DataEntryNameFilter	null	Context	State
+proguard.util.StringMatcher	null	State	State
+proguard.io.DataEntryNameFilter	null	state	State
+proguard.io.DataEntryNameFilter	accepts	Request()	State
+proguard.io.FilteredDataEntryWriter	null	Context	State
+proguard.io.DataEntryFilter	null	State	State
+proguard.io.FilteredDataEntryWriter	null	state	State
+proguard.io.FilteredDataEntryWriter	createDirectory	Request()	State
+proguard.io.FilteredDataEntryWriter	getOutputStream	Request()	State
+proguard.classfile.constant.RefConstant	null	Abstraction	Bridge
+proguard.classfile.Member	null	Implementor	Bridge
+proguard.classfile.constant.RefConstant	null	implementor	Bridge
+proguard.classfile.constant.RefConstant	referencedMemberAccept	Operation()	Bridge
+proguard.classfile.instruction.Instruction	null	AbstractClass	Template Method
+proguard.classfile.instruction.Instruction	write	TemplateMethod()	Template Method
+proguard.classfile.LibraryMember	null	AbstractClass	Template Method
+proguard.classfile.LibraryMember	accept	TemplateMethod()	Template Method
+proguard.classfile.ProgramMember	null	AbstractClass	Template Method
+proguard.classfile.ProgramMember	accept	TemplateMethod()	Template Method
+proguard.evaluation.value.DoubleValue	null	AbstractClass	Template Method
+proguard.evaluation.value.DoubleValue	compareReverse	TemplateMethod()	Template Method
+proguard.evaluation.value.DoubleValue	generalize	TemplateMethod()	Template Method
+proguard.evaluation.value.DoubleValue	add	TemplateMethod()	Template Method
+proguard.evaluation.value.DoubleValue	subtract	TemplateMethod()	Template Method
+proguard.evaluation.value.DoubleValue	subtractFrom	TemplateMethod()	Template Method
+proguard.evaluation.value.DoubleValue	multiply	TemplateMethod()	Template Method
+proguard.evaluation.value.DoubleValue	divide	TemplateMethod()	Template Method
+proguard.evaluation.value.DoubleValue	divideOf	TemplateMethod()	Template Method
+proguard.evaluation.value.DoubleValue	remainder	TemplateMethod()	Template Method
+proguard.evaluation.value.DoubleValue	remainderOf	TemplateMethod()	Template Method
+proguard.evaluation.value.DoubleValue	compare	TemplateMethod()	Template Method
+proguard.evaluation.value.DoubleValue	generalize	TemplateMethod()	Template Method
+proguard.evaluation.value.FloatValue	null	AbstractClass	Template Method
+proguard.evaluation.value.FloatValue	compareReverse	TemplateMethod()	Template Method
+proguard.evaluation.value.FloatValue	generalize	TemplateMethod()	Template Method
+proguard.evaluation.value.FloatValue	add	TemplateMethod()	Template Method
+proguard.evaluation.value.FloatValue	subtract	TemplateMethod()	Template Method
+proguard.evaluation.value.FloatValue	subtractFrom	TemplateMethod()	Template Method
+proguard.evaluation.value.FloatValue	multiply	TemplateMethod()	Template Method
+proguard.evaluation.value.FloatValue	divide	TemplateMethod()	Template Method
+proguard.evaluation.value.FloatValue	divideOf	TemplateMethod()	Template Method
+proguard.evaluation.value.FloatValue	remainder	TemplateMethod()	Template Method
+proguard.evaluation.value.FloatValue	remainderOf	TemplateMethod()	Template Method
+proguard.evaluation.value.FloatValue	compare	TemplateMethod()	Template Method
+proguard.evaluation.value.FloatValue	generalize	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	null	AbstractClass	Template Method
+proguard.evaluation.value.IntegerValue	notEqual	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	greaterThan	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	greaterThanOrEqual	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	generalize	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	add	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	subtract	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	subtractFrom	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	multiply	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	divide	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	divideOf	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	remainder	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	remainderOf	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	shiftLeft	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	shiftRight	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	unsignedShiftRight	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	shiftLeftOf	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	shiftRightOf	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	unsignedShiftRightOf	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	shiftLeftOf	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	shiftRightOf	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	unsignedShiftRightOf	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	and	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	or	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	xor	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	equal	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	lessThan	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	lessThanOrEqual	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	generalize	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	add	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	subtract	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	subtractFrom	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	multiply	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	divide	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	divideOf	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	remainder	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	remainderOf	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	shiftLeft	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	shiftRight	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	unsignedShiftRight	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	shiftLeftOf	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	shiftRightOf	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	unsignedShiftRightOf	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	shiftLeftOf	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	shiftRightOf	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	unsignedShiftRightOf	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	and	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	or	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	xor	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	equal	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	lessThan	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	lessThanOrEqual	TemplateMethod()	Template Method
+proguard.evaluation.value.IntegerValue	generalize	TemplateMethod()	Template Method
+proguard.WordReader	null	AbstractClass	Template Method
+proguard.WordReader	nextWord	TemplateMethod()	Template Method
+proguard.WordReader	locationDescription	TemplateMethod()	Template Method
+proguard.classfile.attribute.BootstrapMethodsAttribute	null	ConcreteElement	Visitor
+proguard.classfile.attribute.visitor.AttributeVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.BootstrapMethodsAttribute	accept	Accept()	Visitor
+proguard.classfile.attribute.CodeAttribute	null	ConcreteElement	Visitor
+proguard.classfile.attribute.visitor.AttributeVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.CodeAttribute	accept	Accept()	Visitor
+proguard.classfile.attribute.ConstantValueAttribute	null	ConcreteElement	Visitor
+proguard.classfile.attribute.visitor.AttributeVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.ConstantValueAttribute	accept	Accept()	Visitor
+proguard.classfile.attribute.DeprecatedAttribute	null	ConcreteElement	Visitor
+proguard.classfile.attribute.visitor.AttributeVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.DeprecatedAttribute	accept	Accept()	Visitor
+proguard.classfile.attribute.DeprecatedAttribute	accept	Accept()	Visitor
+proguard.classfile.attribute.DeprecatedAttribute	accept	Accept()	Visitor
+proguard.classfile.attribute.EnclosingMethodAttribute	null	ConcreteElement	Visitor
+proguard.classfile.attribute.visitor.AttributeVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.EnclosingMethodAttribute	accept	Accept()	Visitor
+proguard.classfile.attribute.ExceptionsAttribute	null	ConcreteElement	Visitor
+proguard.classfile.attribute.visitor.AttributeVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.ExceptionsAttribute	accept	Accept()	Visitor
+proguard.classfile.attribute.InnerClassesAttribute	null	ConcreteElement	Visitor
+proguard.classfile.attribute.visitor.AttributeVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.InnerClassesAttribute	accept	Accept()	Visitor
+proguard.classfile.attribute.LineNumberTableAttribute	null	ConcreteElement	Visitor
+proguard.classfile.attribute.visitor.AttributeVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.LineNumberTableAttribute	accept	Accept()	Visitor
+proguard.classfile.attribute.LocalVariableTableAttribute	null	ConcreteElement	Visitor
+proguard.classfile.attribute.visitor.AttributeVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.LocalVariableTableAttribute	accept	Accept()	Visitor
+proguard.classfile.attribute.LocalVariableTypeTableAttribute	null	ConcreteElement	Visitor
+proguard.classfile.attribute.visitor.AttributeVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.LocalVariableTypeTableAttribute	accept	Accept()	Visitor
+proguard.classfile.attribute.SignatureAttribute	null	ConcreteElement	Visitor
+proguard.classfile.attribute.visitor.AttributeVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.SignatureAttribute	accept	Accept()	Visitor
+proguard.classfile.attribute.SignatureAttribute	accept	Accept()	Visitor
+proguard.classfile.attribute.SignatureAttribute	accept	Accept()	Visitor
+proguard.classfile.attribute.SourceDirAttribute	null	ConcreteElement	Visitor
+proguard.classfile.attribute.visitor.AttributeVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.SourceDirAttribute	accept	Accept()	Visitor
+proguard.classfile.attribute.SourceFileAttribute	null	ConcreteElement	Visitor
+proguard.classfile.attribute.visitor.AttributeVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.SourceFileAttribute	accept	Accept()	Visitor
+proguard.classfile.attribute.SyntheticAttribute	null	ConcreteElement	Visitor
+proguard.classfile.attribute.visitor.AttributeVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.SyntheticAttribute	accept	Accept()	Visitor
+proguard.classfile.attribute.SyntheticAttribute	accept	Accept()	Visitor
+proguard.classfile.attribute.SyntheticAttribute	accept	Accept()	Visitor
+proguard.classfile.attribute.UnknownAttribute	null	ConcreteElement	Visitor
+proguard.classfile.attribute.visitor.AttributeVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.UnknownAttribute	accept	Accept()	Visitor
+proguard.classfile.attribute.UnknownAttribute	accept	Accept()	Visitor
+proguard.classfile.attribute.UnknownAttribute	accept	Accept()	Visitor
+proguard.classfile.attribute.UnknownAttribute	accept	Accept()	Visitor
+proguard.classfile.attribute.annotation.AnnotationDefaultAttribute	null	ConcreteElement	Visitor
+proguard.classfile.attribute.visitor.AttributeVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.annotation.AnnotationDefaultAttribute	accept	Accept()	Visitor
+proguard.classfile.attribute.annotation.RuntimeInvisibleAnnotationsAttribute	null	ConcreteElement	Visitor
+proguard.classfile.attribute.visitor.AttributeVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.annotation.RuntimeInvisibleAnnotationsAttribute	accept	Accept()	Visitor
+proguard.classfile.attribute.annotation.RuntimeInvisibleAnnotationsAttribute	accept	Accept()	Visitor
+proguard.classfile.attribute.annotation.RuntimeInvisibleAnnotationsAttribute	accept	Accept()	Visitor
+proguard.classfile.attribute.annotation.RuntimeInvisibleParameterAnnotationsAttribute	null	ConcreteElement	Visitor
+proguard.classfile.attribute.visitor.AttributeVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.annotation.RuntimeInvisibleParameterAnnotationsAttribute	accept	Accept()	Visitor
+proguard.classfile.attribute.annotation.RuntimeVisibleAnnotationsAttribute	null	ConcreteElement	Visitor
+proguard.classfile.attribute.visitor.AttributeVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.annotation.RuntimeVisibleAnnotationsAttribute	accept	Accept()	Visitor
+proguard.classfile.attribute.annotation.RuntimeVisibleAnnotationsAttribute	accept	Accept()	Visitor
+proguard.classfile.attribute.annotation.RuntimeVisibleAnnotationsAttribute	accept	Accept()	Visitor
+proguard.classfile.attribute.annotation.RuntimeVisibleParameterAnnotationsAttribute	null	ConcreteElement	Visitor
+proguard.classfile.attribute.visitor.AttributeVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.annotation.RuntimeVisibleParameterAnnotationsAttribute	accept	Accept()	Visitor
+proguard.classfile.attribute.preverification.StackMapAttribute	null	ConcreteElement	Visitor
+proguard.classfile.attribute.visitor.AttributeVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.preverification.StackMapAttribute	accept	Accept()	Visitor
+proguard.classfile.attribute.preverification.StackMapTableAttribute	null	ConcreteElement	Visitor
+proguard.classfile.attribute.visitor.AttributeVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.preverification.StackMapTableAttribute	accept	Accept()	Visitor
+proguard.classfile.constant.ClassConstant	null	ConcreteElement	Visitor
+proguard.classfile.constant.visitor.ConstantVisitor	null	Visitor	Visitor
+proguard.classfile.constant.ClassConstant	accept	Accept()	Visitor
+proguard.classfile.constant.DoubleConstant	null	ConcreteElement	Visitor
+proguard.classfile.constant.visitor.ConstantVisitor	null	Visitor	Visitor
+proguard.classfile.constant.DoubleConstant	accept	Accept()	Visitor
+proguard.classfile.constant.FieldrefConstant	null	ConcreteElement	Visitor
+proguard.classfile.constant.visitor.ConstantVisitor	null	Visitor	Visitor
+proguard.classfile.constant.FieldrefConstant	accept	Accept()	Visitor
+proguard.classfile.constant.FloatConstant	null	ConcreteElement	Visitor
+proguard.classfile.constant.visitor.ConstantVisitor	null	Visitor	Visitor
+proguard.classfile.constant.FloatConstant	accept	Accept()	Visitor
+proguard.classfile.constant.IntegerConstant	null	ConcreteElement	Visitor
+proguard.classfile.constant.visitor.ConstantVisitor	null	Visitor	Visitor
+proguard.classfile.constant.IntegerConstant	accept	Accept()	Visitor
+proguard.classfile.constant.InterfaceMethodrefConstant	null	ConcreteElement	Visitor
+proguard.classfile.constant.visitor.ConstantVisitor	null	Visitor	Visitor
+proguard.classfile.constant.InterfaceMethodrefConstant	accept	Accept()	Visitor
+proguard.classfile.constant.InvokeDynamicConstant	null	ConcreteElement	Visitor
+proguard.classfile.constant.visitor.ConstantVisitor	null	Visitor	Visitor
+proguard.classfile.constant.InvokeDynamicConstant	accept	Accept()	Visitor
+proguard.classfile.constant.LongConstant	null	ConcreteElement	Visitor
+proguard.classfile.constant.visitor.ConstantVisitor	null	Visitor	Visitor
+proguard.classfile.constant.LongConstant	accept	Accept()	Visitor
+proguard.classfile.constant.MethodHandleConstant	null	ConcreteElement	Visitor
+proguard.classfile.constant.visitor.ConstantVisitor	null	Visitor	Visitor
+proguard.classfile.constant.MethodHandleConstant	accept	Accept()	Visitor
+proguard.classfile.constant.MethodTypeConstant	null	ConcreteElement	Visitor
+proguard.classfile.constant.visitor.ConstantVisitor	null	Visitor	Visitor
+proguard.classfile.constant.MethodTypeConstant	accept	Accept()	Visitor
+proguard.classfile.constant.MethodrefConstant	null	ConcreteElement	Visitor
+proguard.classfile.constant.visitor.ConstantVisitor	null	Visitor	Visitor
+proguard.classfile.constant.MethodrefConstant	accept	Accept()	Visitor
+proguard.classfile.constant.NameAndTypeConstant	null	ConcreteElement	Visitor
+proguard.classfile.constant.visitor.ConstantVisitor	null	Visitor	Visitor
+proguard.classfile.constant.NameAndTypeConstant	accept	Accept()	Visitor
+proguard.classfile.constant.StringConstant	null	ConcreteElement	Visitor
+proguard.classfile.constant.visitor.ConstantVisitor	null	Visitor	Visitor
+proguard.classfile.constant.StringConstant	accept	Accept()	Visitor
+proguard.classfile.constant.Utf8Constant	null	ConcreteElement	Visitor
+proguard.classfile.constant.visitor.ConstantVisitor	null	Visitor	Visitor
+proguard.classfile.constant.Utf8Constant	accept	Accept()	Visitor
+proguard.classfile.LibraryClass	null	ConcreteElement	Visitor
+proguard.classfile.visitor.ClassVisitor	null	Visitor	Visitor
+proguard.classfile.LibraryClass	accept	Accept()	Visitor
+proguard.classfile.ProgramClass	null	ConcreteElement	Visitor
+proguard.classfile.visitor.ClassVisitor	null	Visitor	Visitor
+proguard.classfile.ProgramClass	accept	Accept()	Visitor
+proguard.classfile.attribute.annotation.AnnotationElementValue	null	ConcreteElement	Visitor
+proguard.classfile.attribute.annotation.visitor.ElementValueVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.annotation.AnnotationElementValue	accept	Accept()	Visitor
+proguard.classfile.attribute.annotation.ArrayElementValue	null	ConcreteElement	Visitor
+proguard.classfile.attribute.annotation.visitor.ElementValueVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.annotation.ArrayElementValue	accept	Accept()	Visitor
+proguard.classfile.attribute.annotation.ClassElementValue	null	ConcreteElement	Visitor
+proguard.classfile.attribute.annotation.visitor.ElementValueVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.annotation.ClassElementValue	accept	Accept()	Visitor
+proguard.classfile.attribute.annotation.ConstantElementValue	null	ConcreteElement	Visitor
+proguard.classfile.attribute.annotation.visitor.ElementValueVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.annotation.ConstantElementValue	accept	Accept()	Visitor
+proguard.classfile.attribute.annotation.EnumConstantElementValue	null	ConcreteElement	Visitor
+proguard.classfile.attribute.annotation.visitor.ElementValueVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.annotation.EnumConstantElementValue	accept	Accept()	Visitor
+proguard.classfile.attribute.preverification.visitor.VerificationTypeVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.preverification.DoubleType	null	ConcreteElement	Visitor
+proguard.classfile.attribute.preverification.DoubleType	accept	Accept()	Visitor
+proguard.classfile.attribute.preverification.DoubleType	stackAccept	Accept()	Visitor
+proguard.classfile.attribute.preverification.DoubleType	variablesAccept	Accept()	Visitor
+proguard.classfile.attribute.preverification.visitor.VerificationTypeVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.preverification.FloatType	null	ConcreteElement	Visitor
+proguard.classfile.attribute.preverification.FloatType	accept	Accept()	Visitor
+proguard.classfile.attribute.preverification.FloatType	stackAccept	Accept()	Visitor
+proguard.classfile.attribute.preverification.FloatType	variablesAccept	Accept()	Visitor
+proguard.classfile.attribute.preverification.visitor.VerificationTypeVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.preverification.IntegerType	null	ConcreteElement	Visitor
+proguard.classfile.attribute.preverification.IntegerType	accept	Accept()	Visitor
+proguard.classfile.attribute.preverification.IntegerType	stackAccept	Accept()	Visitor
+proguard.classfile.attribute.preverification.IntegerType	variablesAccept	Accept()	Visitor
+proguard.classfile.attribute.preverification.visitor.VerificationTypeVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.preverification.LongType	null	ConcreteElement	Visitor
+proguard.classfile.attribute.preverification.LongType	accept	Accept()	Visitor
+proguard.classfile.attribute.preverification.LongType	stackAccept	Accept()	Visitor
+proguard.classfile.attribute.preverification.LongType	variablesAccept	Accept()	Visitor
+proguard.classfile.attribute.preverification.visitor.VerificationTypeVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.preverification.NullType	null	ConcreteElement	Visitor
+proguard.classfile.attribute.preverification.NullType	accept	Accept()	Visitor
+proguard.classfile.attribute.preverification.NullType	stackAccept	Accept()	Visitor
+proguard.classfile.attribute.preverification.NullType	variablesAccept	Accept()	Visitor
+proguard.classfile.attribute.preverification.visitor.VerificationTypeVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.preverification.ObjectType	null	ConcreteElement	Visitor
+proguard.classfile.attribute.preverification.ObjectType	accept	Accept()	Visitor
+proguard.classfile.attribute.preverification.ObjectType	stackAccept	Accept()	Visitor
+proguard.classfile.attribute.preverification.ObjectType	variablesAccept	Accept()	Visitor
+proguard.classfile.attribute.preverification.visitor.VerificationTypeVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.preverification.TopType	null	ConcreteElement	Visitor
+proguard.classfile.attribute.preverification.TopType	accept	Accept()	Visitor
+proguard.classfile.attribute.preverification.TopType	stackAccept	Accept()	Visitor
+proguard.classfile.attribute.preverification.TopType	variablesAccept	Accept()	Visitor
+proguard.classfile.attribute.preverification.visitor.VerificationTypeVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.preverification.UninitializedThisType	null	ConcreteElement	Visitor
+proguard.classfile.attribute.preverification.UninitializedThisType	accept	Accept()	Visitor
+proguard.classfile.attribute.preverification.UninitializedThisType	stackAccept	Accept()	Visitor
+proguard.classfile.attribute.preverification.UninitializedThisType	variablesAccept	Accept()	Visitor
+proguard.classfile.attribute.preverification.visitor.VerificationTypeVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.preverification.UninitializedType	null	ConcreteElement	Visitor
+proguard.classfile.attribute.preverification.UninitializedType	accept	Accept()	Visitor
+proguard.classfile.attribute.preverification.UninitializedType	stackAccept	Accept()	Visitor
+proguard.classfile.attribute.preverification.UninitializedType	variablesAccept	Accept()	Visitor
+proguard.classfile.attribute.CodeAttribute	null	ConcreteElement	Visitor
+proguard.classfile.attribute.visitor.ExceptionInfoVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.CodeAttribute	exceptionsAccept	Accept()	Visitor
+proguard.classfile.attribute.CodeAttribute	exceptionsAccept	Accept()	Visitor
+proguard.classfile.attribute.CodeAttribute	exceptionsAccept	Accept()	Visitor
+proguard.classfile.attribute.preverification.FullFrame	null	ConcreteElement	Visitor
+proguard.classfile.attribute.preverification.visitor.StackMapFrameVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.preverification.FullFrame	accept	Accept()	Visitor
+proguard.classfile.attribute.preverification.LessZeroFrame	null	ConcreteElement	Visitor
+proguard.classfile.attribute.preverification.visitor.StackMapFrameVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.preverification.LessZeroFrame	accept	Accept()	Visitor
+proguard.classfile.attribute.preverification.MoreZeroFrame	null	ConcreteElement	Visitor
+proguard.classfile.attribute.preverification.visitor.StackMapFrameVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.preverification.MoreZeroFrame	accept	Accept()	Visitor
+proguard.classfile.attribute.preverification.SameOneFrame	null	ConcreteElement	Visitor
+proguard.classfile.attribute.preverification.visitor.StackMapFrameVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.preverification.SameOneFrame	accept	Accept()	Visitor
+proguard.classfile.attribute.preverification.SameZeroFrame	null	ConcreteElement	Visitor
+proguard.classfile.attribute.preverification.visitor.StackMapFrameVisitor	null	Visitor	Visitor
+proguard.classfile.attribute.preverification.SameZeroFrame	accept	Accept()	Visitor
+proguard.classfile.instruction.ConstantInstruction	null	ConcreteElement	Visitor
+proguard.classfile.instruction.visitor.InstructionVisitor	null	Visitor	Visitor
+proguard.classfile.instruction.ConstantInstruction	accept	Accept()	Visitor
+proguard.classfile.LibraryField	null	ConcreteElement	Visitor
+proguard.classfile.visitor.MemberVisitor	null	Visitor	Visitor
+proguard.classfile.LibraryField	accept	Accept()	Visitor
+proguard.classfile.LibraryMethod	null	ConcreteElement	Visitor
+proguard.classfile.visitor.MemberVisitor	null	Visitor	Visitor
+proguard.classfile.LibraryMethod	accept	Accept()	Visitor
+proguard.classfile.ProgramField	null	ConcreteElement	Visitor
+proguard.classfile.visitor.MemberVisitor	null	Visitor	Visitor
+proguard.classfile.ProgramField	accept	Accept()	Visitor
+proguard.classfile.ProgramMethod	null	ConcreteElement	Visitor
+proguard.classfile.visitor.MemberVisitor	null	Visitor	Visitor
+proguard.classfile.ProgramMethod	accept	Accept()	Visitor
+proguard.classfile.instruction.BranchInstruction	null	ConcreteElement	Visitor
+proguard.classfile.instruction.visitor.InstructionVisitor	null	Visitor	Visitor
+proguard.classfile.instruction.BranchInstruction	accept	Accept()	Visitor
+proguard.classfile.instruction.LookUpSwitchInstruction	null	ConcreteElement	Visitor
+proguard.classfile.instruction.visitor.InstructionVisitor	null	Visitor	Visitor
+proguard.classfile.instruction.LookUpSwitchInstruction	accept	Accept()	Visitor
+proguard.classfile.instruction.SimpleInstruction	null	ConcreteElement	Visitor
+proguard.classfile.instruction.visitor.InstructionVisitor	null	Visitor	Visitor
+proguard.classfile.instruction.SimpleInstruction	accept	Accept()	Visitor
+proguard.classfile.instruction.TableSwitchInstruction	null	ConcreteElement	Visitor
+proguard.classfile.instruction.visitor.InstructionVisitor	null	Visitor	Visitor
+proguard.classfile.instruction.TableSwitchInstruction	accept	Accept()	Visitor
+proguard.classfile.instruction.VariableInstruction	null	ConcreteElement	Visitor
+proguard.classfile.instruction.visitor.InstructionVisitor	null	Visitor	Visitor
+proguard.classfile.instruction.VariableInstruction	accept	Accept()	Visitor
+proguard.classfile.ClassPool	null	ConcreteElement	Visitor
+proguard.classfile.visitor.ClassPoolVisitor	null	Visitor	Visitor
+proguard.classfile.ClassPool	accept	Accept()	Visitor
+proguard.classfile.editor.CodeAttributeEditor	null	RealSubject	Proxy
+proguard.optimize.peephole.GotoCommonCodeReplacer	null	Proxy	Proxy
+proguard.optimize.peephole.GotoCommonCodeReplacer	visitCodeAttribute	Request()	Proxy
+proguard.classfile.editor.CodeAttributeEditor	null	RealSubject	Proxy
+proguard.optimize.peephole.PeepholeOptimizer	null	Proxy	Proxy
+proguard.optimize.peephole.PeepholeOptimizer	visitCodeAttribute	Request()	Proxy
+proguard.classfile.editor.CodeAttributeEditor	null	RealSubject	Proxy
+proguard.classfile.editor.ConstantPoolRemapper	null	Proxy	Proxy
+proguard.classfile.editor.ConstantPoolRemapper	visitCodeAttribute	Request()	Proxy
+proguard.classfile.editor.CodeAttributeEditor	null	RealSubject	Proxy
+proguard.classfile.editor.InstructionWriter	null	Proxy	Proxy
+proguard.classfile.editor.CodeAttributeEditor	visitSimpleInstruction	Request()	Proxy
+proguard.classfile.editor.CodeAttributeEditor	visitConstantInstruction	Request()	Proxy
+proguard.classfile.editor.CodeAttributeEditor	visitVariableInstruction	Request()	Proxy
+proguard.classfile.editor.CodeAttributeEditor	visitBranchInstruction	Request()	Proxy
+proguard.classfile.editor.InstructionWriter	visitCodeAttribute	Request()	Proxy
+proguard.classfile.editor.CodeAttributeEditor	null	RealSubject	Proxy
+proguard.classfile.editor.MethodInvocationFixer	null	Proxy	Proxy
+proguard.classfile.editor.MethodInvocationFixer	visitCodeAttribute	Request()	Proxy
+proguard.classfile.editor.CodeAttributeEditor	null	RealSubject	Proxy
+proguard.classfile.editor.VariableRemapper	null	Proxy	Proxy
+proguard.classfile.editor.VariableRemapper	visitCodeAttribute	Request()	Proxy
+proguard.classfile.editor.CodeAttributeEditor	null	RealSubject	Proxy
+proguard.optimize.DuplicateInitializerInvocationFixer	null	Proxy	Proxy
+proguard.optimize.DuplicateInitializerInvocationFixer	visitCodeAttribute	Request()	Proxy
+proguard.classfile.editor.StackSizeUpdater	null	RealSubject	Proxy
+proguard.classfile.editor.CodeAttributeComposer	null	Proxy	Proxy
+proguard.classfile.editor.CodeAttributeComposer	visitCodeAttribute	Request()	Proxy
+proguard.classfile.editor.VariableEditor	null	RealSubject	Proxy
+proguard.classfile.editor.VariableRemapper	null	Proxy	Proxy
+proguard.classfile.editor.VariableEditor	visitCodeAttribute	Request()	Proxy
+proguard.classfile.editor.VariableEditor	null	RealSubject	Proxy
+proguard.optimize.peephole.VariableShrinker	null	Proxy	Proxy
+proguard.optimize.peephole.VariableShrinker	visitCodeAttribute	Request()	Proxy
+proguard.optimize.info.VariableUsageMarker	null	RealSubject	Proxy
+proguard.optimize.peephole.VariableShrinker	null	Proxy	Proxy
+proguard.optimize.peephole.VariableShrinker	visitCodeAttribute	Request()	Proxy
+proguard.classfile.editor.ConstantPoolShrinker	null	Proxy	Proxy
+proguard.classfile.editor.ConstantPoolRemapper	null	RealSubject	Proxy
+proguard.classfile.editor.ConstantPoolShrinker	visitProgramClass	Request()	Proxy
+proguard.classfile.editor.Utf8Shrinker	null	Proxy	Proxy
+proguard.classfile.editor.ConstantPoolRemapper	null	RealSubject	Proxy
+proguard.classfile.editor.Utf8Shrinker	visitProgramClass	Request()	Proxy
+proguard.shrink.ClassShrinker	null	Proxy	Proxy
+proguard.classfile.editor.ConstantPoolRemapper	null	RealSubject	Proxy
+proguard.shrink.ClassShrinker	visitProgramClass	Request()	Proxy
+proguard.classfile.editor.ConstantPoolSorter	null	Proxy	Proxy
+proguard.classfile.editor.ConstantPoolRemapper	null	RealSubject	Proxy
+proguard.classfile.editor.ConstantPoolSorter	visitProgramClass	Request()	Proxy
+proguard.classfile.editor.NameAndTypeShrinker	null	Proxy	Proxy
+proguard.classfile.editor.ConstantPoolRemapper	null	RealSubject	Proxy
+proguard.classfile.editor.NameAndTypeShrinker	visitProgramClass	Request()	Proxy
+proguard.classfile.editor.InstructionWriter	null	RealSubject	Proxy
+proguard.classfile.editor.CodeAttributeComposer	null	Proxy	Proxy
+proguard.classfile.editor.CodeAttributeComposer	visitCodeAttribute	Request()	Proxy
+proguard.classfile.editor.InstructionWriter	null	RealSubject	Proxy
+proguard.classfile.editor.CodeAttributeEditor	null	Proxy	Proxy
+proguard.classfile.editor.InstructionWriter	visitCodeAttribute	Request()	Proxy
+proguard.classfile.editor.CodeAttributeEditor	visitSimpleInstruction	Request()	Proxy
+proguard.classfile.editor.CodeAttributeEditor	visitConstantInstruction	Request()	Proxy
+proguard.classfile.editor.CodeAttributeEditor	visitVariableInstruction	Request()	Proxy
+proguard.classfile.editor.CodeAttributeEditor	visitBranchInstruction	Request()	Proxy
+proguard.classfile.editor.VariableSizeUpdater	null	RealSubject	Proxy
+proguard.classfile.editor.CodeAttributeComposer	null	Proxy	Proxy
+proguard.classfile.editor.CodeAttributeComposer	visitCodeAttribute	Request()	Proxy
+proguard.classfile.editor.ConstantPoolRemapper	null	RealSubject	Proxy
+proguard.classfile.editor.CodeAttributeEditor	null	Proxy	Proxy
+proguard.classfile.editor.ConstantPoolRemapper	visitCodeAttribute	Request()	Proxy
+proguard.optimize.evaluation.LivenessAnalyzer	null	Proxy	Proxy
+proguard.optimize.evaluation.PartialEvaluator	null	RealSubject	Proxy
+proguard.optimize.evaluation.LivenessAnalyzer	visitCodeAttribute	Request()	Proxy
+proguard.optimize.evaluation.VariableOptimizer	null	Proxy	Proxy
+proguard.classfile.editor.VariableRemapper	null	RealSubject	Proxy
+proguard.optimize.evaluation.VariableOptimizer	visitCodeAttribute	Request()	Proxy
+proguard.classfile.attribute.visitor.AllAttributeVisitor	null	RealSubject	Proxy2
+proguard.classfile.attribute.visitor.AttributeVisitor	null	Subject	Proxy2
+proguard.classfile.attribute.visitor.AllAttributeVisitor	null	subject	Proxy2
+proguard.classfile.visitor.ReferencedClassVisitor	null	RealSubject	Proxy2
+proguard.classfile.visitor.ClassVisitor	null	Subject	Proxy2
+proguard.classfile.visitor.ReferencedClassVisitor	null	subject	Proxy2
+proguard.classfile.util.MemberFinder	null	RealSubject	Proxy2
+proguard.classfile.visitor.MemberVisitor	null	Subject	Proxy2
+proguard.optimize.peephole.MethodFinalizer	null	Proxy	Proxy2
+proguard.optimize.peephole.MethodFinalizer	null	subject	Proxy2
+proguard.optimize.peephole.MethodFinalizer	visitProgramMethod	Request()	Proxy2
+proguard.classfile.editor.CodeAttributeEditor	null	RealSubject	Proxy2
+proguard.classfile.instruction.visitor.InstructionVisitor	null	Subject	Proxy2
+proguard.optimize.peephole.GotoCommonCodeReplacer	null	Proxy	Proxy2
+proguard.optimize.peephole.GotoCommonCodeReplacer	null	subject	Proxy2
+proguard.optimize.peephole.GotoCommonCodeReplacer	visitBranchInstruction	Request()	Proxy2
+proguard.optimize.peephole.BranchTargetFinder	null	RealSubject	Proxy2
+proguard.classfile.instruction.visitor.InstructionVisitor	null	Subject	Proxy2
+proguard.optimize.peephole.GotoCommonCodeReplacer	null	Proxy	Proxy2
+proguard.optimize.peephole.GotoCommonCodeReplacer	null	subject	Proxy2
+proguard.optimize.peephole.GotoCommonCodeReplacer	visitBranchInstruction	Request()	Proxy2
+proguard.classfile.editor.CodeAttributeComposer	null	RealSubject	Proxy2
+proguard.classfile.instruction.visitor.InstructionVisitor	null	Subject	Proxy2
+proguard.optimize.peephole.MethodInliner	null	Proxy	Proxy2
+proguard.optimize.peephole.MethodInliner	null	subject	Proxy2
+proguard.optimize.peephole.MethodInliner	visitConstantInstruction	Request()	Proxy2
+proguard.classfile.editor.CodeAttributeComposer	null	RealSubject	Proxy2
+proguard.classfile.instruction.visitor.InstructionVisitor	null	Subject	Proxy2
+proguard.optimize.TailRecursionSimplifier	null	Proxy	Proxy2
+proguard.optimize.TailRecursionSimplifier	null	subject	Proxy2
+proguard.optimize.TailRecursionSimplifier	visitConstantInstruction	Request()	Proxy2
+proguard.classfile.attribute.visitor.StackSizeComputer	null	RealSubject	Proxy2
+proguard.classfile.instruction.visitor.InstructionVisitor	null	Subject	Proxy2
+proguard.optimize.peephole.MethodInliner	null	Proxy	Proxy2
+proguard.optimize.peephole.MethodInliner	null	subject	Proxy2
+proguard.optimize.peephole.MethodInliner	visitConstantInstruction	Request()	Proxy2
+proguard.optimize.info.AccessMethodMarker	null	RealSubject	Proxy2
+proguard.classfile.instruction.visitor.InstructionVisitor	null	Subject	Proxy2
+proguard.optimize.peephole.MethodInliner	null	Proxy	Proxy2
+proguard.optimize.peephole.MethodInliner	null	subject	Proxy2
+proguard.optimize.peephole.MethodInliner	visitConstantInstruction	Request()	Proxy2
+proguard.classfile.constant.visitor.ConstantTagFilter	null	RealSubject	Proxy2
+proguard.classfile.constant.visitor.ConstantVisitor	null	Subject	Proxy2
+proguard.classfile.constant.visitor.ConstantTagFilter	null	subject	Proxy2
+proguard.WordReader	null	Handler	Chain of Responsibility
+proguard.WordReader	null	successor	Chain of Responsibility

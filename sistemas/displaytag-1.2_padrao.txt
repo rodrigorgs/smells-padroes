@@ -1,42 +1,150 @@
-org.displaytag.export.BaseExportView	(Object)Adapter
-org.displaytag.model.Cell	Singleton
-org.displaytag.export.excel.ExcelHssfView	(Object)Adapter
-org.displaytag.decorator.DefaultDecoratorFactory$DeprecatedDecoratorWrapper	State
-org.displaytag.util.RequestHelperFactory	Factory Method
-org.displaytag.properties.MediaTypeEnum	Singleton
-org.displaytag.util.RequestHelperFactory	State
-org.displaytag.util.Href	Prototype
-org.displaytag.filter.BufferedResponseWrapper13Impl	(Object)Adapter
-org.displaytag.pagination.PaginatedListSmartListHelper	State
-org.displaytag.sample.decorators.TotalWrapperTemplate	Template Method
-org.displaytag.util.PostHref	Decorator
-org.displaytag.util.RequestHelper	Factory Method
-org.displaytag.render.HtmlTableWriter	State
-org.displaytag.pagination.PaginatedList	State
-org.displaytag.render.HtmlTableWriter	Prototype
-org.displaytag.render.TableWriterTemplate	Template Method
-org.displaytag.decorator.ColumnDecorator	(Object)Adapter
-org.displaytag.export.BaseExportView	Template Method
-org.displaytag.model.TableModel	(Object)Adapter
-org.displaytag.decorator.DefaultDecoratorFactory$DeprecatedDecoratorWrapper	(Object)Adapter
-org.displaytag.export.DefaultItextExportView	Template Method
-org.displaytag.properties.AbstractTitleKeyTest	Template Method
-org.displaytag.tags.TableTag	State
-org.displaytag.export.ExportViewFactory	Singleton
-org.displaytag.exception.SeverityEnum	Singleton
-org.displaytag.util.Anchor	State
-org.displaytag.properties.AbstractTitleKeyAutoColumnTest	Template Method
-org.displaytag.util.PostHref	Prototype
-org.displaytag.util.Href	Decorator
-org.displaytag.decorator.DecoratorFactory	Factory Method
-org.displaytag.properties.AbstractTitleKeyAutoColumnTest	Factory Method
-org.displaytag.decorator.ColumnDecorator	State
-org.displaytag.tags.ColumnTag	Prototype
-org.displaytag.pagination.Pagination	Prototype
-org.displaytag.export.DefaultItextExportView	(Object)Adapter
-org.displaytag.util.Href	State
-org.displaytag.properties.SortOrderEnum	Singleton
-org.displaytag.filter.SimpleServletOutputStream	(Object)Adapter
-org.displaytag.pagination.Pagination	State
-org.displaytag.properties.AbstractTitleKeyTest	Factory Method
-org.displaytag.tags.ColumnTag	State
+org.displaytag.decorator.DecoratorFactory	null	Creator	Factory Method
+org.displaytag.decorator.DecoratorFactory	loadColumnDecorator	FactoryMethod()	Factory Method
+org.displaytag.properties.AbstractTitleKeyAutoColumnTest	null	Creator	Factory Method
+org.displaytag.properties.AbstractTitleKeyAutoColumnTest	getI18nResourceProvider	FactoryMethod()	Factory Method
+org.displaytag.properties.AbstractTitleKeyAutoColumnTest	getResolver	FactoryMethod()	Factory Method
+org.displaytag.properties.AbstractTitleKeyTest	null	Creator	Factory Method
+org.displaytag.properties.AbstractTitleKeyTest	getI18nResourceProvider	FactoryMethod()	Factory Method
+org.displaytag.properties.AbstractTitleKeyTest	getResolver	FactoryMethod()	Factory Method
+org.displaytag.util.RequestHelper	null	Creator	Factory Method
+org.displaytag.util.RequestHelper	getHref	FactoryMethod()	Factory Method
+org.displaytag.util.RequestHelperFactory	null	Creator	Factory Method
+org.displaytag.util.RequestHelperFactory	getRequestHelperInstance	FactoryMethod()	Factory Method
+org.displaytag.render.HtmlTableWriter	null	Client	Prototype
+org.displaytag.util.Href	null	Prototype	Prototype
+org.displaytag.render.HtmlTableWriter	null	prototype	Prototype
+org.displaytag.render.HtmlTableWriter	getSortingHref	Operation()	Prototype
+org.displaytag.render.HtmlTableWriter	writeSearchResultAndNavigation	Operation()	Prototype
+org.displaytag.render.HtmlTableWriter	writeExportLinks	Operation()	Prototype
+org.displaytag.util.PostHref	null	Client	Prototype
+org.displaytag.util.Href	null	Prototype	Prototype
+org.displaytag.util.PostHref	null	prototype	Prototype
+org.displaytag.util.PostHref	clone	Operation()	Prototype
+org.displaytag.util.Href	null	Prototype	Prototype
+org.displaytag.pagination.Pagination	null	Client	Prototype
+org.displaytag.pagination.Pagination	null	prototype	Prototype
+org.displaytag.pagination.Pagination	getFormattedBanner	Operation()	Prototype
+org.displaytag.tags.ColumnTag	null	Client	Prototype
+org.displaytag.util.Href	null	Prototype	Prototype
+org.displaytag.tags.ColumnTag	null	prototype	Prototype
+org.displaytag.tags.ColumnTag	addHeaderToTable	Operation()	Prototype
+org.displaytag.exception.SeverityEnum	null	Singleton	Singleton
+org.displaytag.exception.SeverityEnum	null	uniqueInstance	Singleton
+org.displaytag.exception.SeverityEnum	null	uniqueInstance	Singleton
+org.displaytag.exception.SeverityEnum	null	uniqueInstance	Singleton
+org.displaytag.exception.SeverityEnum	null	uniqueInstance	Singleton
+org.displaytag.exception.SeverityEnum	null	uniqueInstance	Singleton
+org.displaytag.export.ExportViewFactory	null	Singleton	Singleton
+org.displaytag.export.ExportViewFactory	null	uniqueInstance	Singleton
+org.displaytag.model.Cell	null	Singleton	Singleton
+org.displaytag.model.Cell	null	uniqueInstance	Singleton
+org.displaytag.properties.MediaTypeEnum	null	Singleton	Singleton
+org.displaytag.properties.MediaTypeEnum	null	uniqueInstance	Singleton
+org.displaytag.properties.MediaTypeEnum	null	uniqueInstance	Singleton
+org.displaytag.properties.MediaTypeEnum	null	uniqueInstance	Singleton
+org.displaytag.properties.MediaTypeEnum	null	uniqueInstance	Singleton
+org.displaytag.properties.SortOrderEnum	null	Singleton	Singleton
+org.displaytag.properties.SortOrderEnum	null	uniqueInstance	Singleton
+org.displaytag.properties.SortOrderEnum	null	uniqueInstance	Singleton
+org.displaytag.model.TableModel	null	Adaptee	(Object)Adapter
+org.displaytag.export.DefaultItextExportView	null	Adapter	(Object)Adapter
+org.displaytag.export.DefaultItextExportView	null	adaptee	(Object)Adapter
+org.displaytag.export.DefaultItextExportView	doExport	Request()	(Object)Adapter
+org.displaytag.model.TableModel	null	Adaptee	(Object)Adapter
+org.displaytag.export.excel.ExcelHssfView	null	Adapter	(Object)Adapter
+org.displaytag.export.excel.ExcelHssfView	null	adaptee	(Object)Adapter
+org.displaytag.export.excel.ExcelHssfView	doExport	Request()	(Object)Adapter
+org.displaytag.model.TableModel	null	Adaptee	(Object)Adapter
+org.displaytag.export.BaseExportView	null	Adapter	(Object)Adapter
+org.displaytag.export.BaseExportView	null	adaptee	(Object)Adapter
+org.displaytag.export.BaseExportView	doExport	Request()	(Object)Adapter
+org.displaytag.filter.SimpleServletOutputStream	null	Adaptee	(Object)Adapter
+org.displaytag.filter.BufferedResponseWrapper13Impl	null	Adapter	(Object)Adapter
+org.displaytag.filter.BufferedResponseWrapper13Impl	null	adaptee	(Object)Adapter
+org.displaytag.filter.BufferedResponseWrapper13Impl	getContentAsString	Request()	(Object)Adapter
+org.displaytag.decorator.ColumnDecorator	null	Adaptee	(Object)Adapter
+org.displaytag.decorator.DefaultDecoratorFactory$DeprecatedDecoratorWrapper	null	Adapter	(Object)Adapter
+org.displaytag.decorator.DefaultDecoratorFactory$DeprecatedDecoratorWrapper	null	adaptee	(Object)Adapter
+org.displaytag.decorator.DefaultDecoratorFactory$DeprecatedDecoratorWrapper	decorate	Request()	(Object)Adapter
+org.displaytag.util.Href	null	Component	Decorator
+org.displaytag.util.PostHref	null	Decorator	Decorator
+org.displaytag.util.PostHref	null	component	Decorator
+org.displaytag.util.PostHref	addParameter	Operation()	Decorator
+org.displaytag.util.PostHref	addParameter	Operation()	Decorator
+org.displaytag.util.PostHref	addParameterMap	Operation()	Decorator
+org.displaytag.util.PostHref	equals	Operation()	Decorator
+org.displaytag.util.PostHref	getAnchor	Operation()	Decorator
+org.displaytag.util.PostHref	getBaseUrl	Operation()	Decorator
+org.displaytag.util.PostHref	getParameterMap	Operation()	Decorator
+org.displaytag.util.PostHref	removeParameter	Operation()	Decorator
+org.displaytag.util.PostHref	setAnchor	Operation()	Decorator
+org.displaytag.util.PostHref	setFullUrl	Operation()	Decorator
+org.displaytag.util.PostHref	setParameterMap	Operation()	Decorator
+org.displaytag.util.PostHref	clone	Operation()	Decorator
+org.displaytag.render.HtmlTableWriter	null	Context	State
+org.displaytag.util.Href	null	State	State
+org.displaytag.render.HtmlTableWriter	null	state	State
+org.displaytag.render.HtmlTableWriter	writeFormFields	Request()	State
+org.displaytag.render.HtmlTableWriter	getSortingHref	Request()	State
+org.displaytag.render.HtmlTableWriter	writeSearchResultAndNavigation	Request()	State
+org.displaytag.render.HtmlTableWriter	writeExportLinks	Request()	State
+org.displaytag.util.Href	null	State	State
+org.displaytag.util.Anchor	null	Context	State
+org.displaytag.util.Anchor	null	state	State
+org.displaytag.util.Anchor	getHrefString	Request()	State
+org.displaytag.util.Href	null	State	State
+org.displaytag.pagination.Pagination	null	Context	State
+org.displaytag.pagination.Pagination	null	state	State
+org.displaytag.pagination.Pagination	getFormattedBanner	Request()	State
+org.displaytag.pagination.PaginatedListSmartListHelper	null	Context	State
+org.displaytag.pagination.PaginatedList	null	State	State
+org.displaytag.pagination.PaginatedListSmartListHelper	null	state	State
+org.displaytag.pagination.PaginatedListSmartListHelper	computePageCount	Request()	State
+org.displaytag.pagination.PaginatedListSmartListHelper	getFirstIndexForCurrentPage	Request()	State
+org.displaytag.pagination.PaginatedListSmartListHelper	getFirstIndexForPage	Request()	State
+org.displaytag.pagination.PaginatedListSmartListHelper	getLastIndexForCurrentPage	Request()	State
+org.displaytag.pagination.PaginatedListSmartListHelper	getLastIndexForPage	Request()	State
+org.displaytag.pagination.PaginatedListSmartListHelper	getListForCurrentPage	Request()	State
+org.displaytag.pagination.PaginatedListSmartListHelper	getListForPage	Request()	State
+org.displaytag.pagination.PaginatedListSmartListHelper	getPageNavigationBar	Request()	State
+org.displaytag.pagination.PaginatedListSmartListHelper	getSearchResultsSummary	Request()	State
+org.displaytag.tags.ColumnTag	null	Context	State
+org.displaytag.util.Href	null	State	State
+org.displaytag.tags.ColumnTag	null	state	State
+org.displaytag.tags.ColumnTag	addHeaderToTable	Request()	State
+org.displaytag.tags.TableTag	null	Context	State
+org.displaytag.pagination.PaginatedList	null	State	State
+org.displaytag.tags.TableTag	null	state	State
+org.displaytag.tags.TableTag	addColumn	Request()	State
+org.displaytag.tags.TableTag	initParameters	Request()	State
+org.displaytag.tags.TableTag	null	Context	State
+org.displaytag.util.Href	null	State	State
+org.displaytag.tags.TableTag	null	state	State
+org.displaytag.tags.TableTag	initHref	Request()	State
+org.displaytag.decorator.DefaultDecoratorFactory$DeprecatedDecoratorWrapper	null	Context	State
+org.displaytag.decorator.ColumnDecorator	null	State	State
+org.displaytag.decorator.DefaultDecoratorFactory$DeprecatedDecoratorWrapper	null	state	State
+org.displaytag.decorator.DefaultDecoratorFactory$DeprecatedDecoratorWrapper	decorate	Request()	State
+org.displaytag.render.HtmlTableWriter	null	Context	State
+org.displaytag.pagination.PaginatedList	null	State	State
+org.displaytag.render.HtmlTableWriter	null	state	State
+org.displaytag.render.HtmlTableWriter	getSortingHref	Request()	State
+org.displaytag.render.HtmlTableWriter	writeSearchResultAndNavigation	Request()	State
+org.displaytag.tags.TableTag	null	Context	State
+org.displaytag.util.RequestHelperFactory	null	State	State
+org.displaytag.tags.TableTag	null	state	State
+org.displaytag.tags.TableTag	initParameters	Request()	State
+org.displaytag.export.BaseExportView	null	AbstractClass	Template Method
+org.displaytag.export.BaseExportView	doHeaders	TemplateMethod()	Template Method
+org.displaytag.export.BaseExportView	doExport	TemplateMethod()	Template Method
+org.displaytag.export.DefaultItextExportView	null	AbstractClass	Template Method
+org.displaytag.export.DefaultItextExportView	doExport	TemplateMethod()	Template Method
+org.displaytag.properties.AbstractTitleKeyAutoColumnTest	null	AbstractClass	Template Method
+org.displaytag.properties.AbstractTitleKeyAutoColumnTest	doTest	TemplateMethod()	Template Method
+org.displaytag.properties.AbstractTitleKeyTest	null	AbstractClass	Template Method
+org.displaytag.properties.AbstractTitleKeyTest	doTest	TemplateMethod()	Template Method
+org.displaytag.render.TableWriterTemplate	null	AbstractClass	Template Method
+org.displaytag.render.TableWriterTemplate	writeTable	TemplateMethod()	Template Method
+org.displaytag.render.TableWriterTemplate	writeTableBody	TemplateMethod()	Template Method
+org.displaytag.sample.decorators.TotalWrapperTemplate	null	AbstractClass	Template Method
+org.displaytag.sample.decorators.TotalWrapperTemplate	finishRow	TemplateMethod()	Template Method

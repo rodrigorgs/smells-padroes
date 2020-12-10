@@ -1,89 +1,386 @@
-com.jgraph.example.JGraphShadowBorder	Singleton
-org.jgraph.graph.GraphCellEditor	(Object)Adapter
-org.jgraph.graph.AbstractCellView	Decorator
-com.jgraph.example.portlabels.PortLabelVertexView$PortLabelVertexRenderer	Observer
-com.jgraph.layout.hierarchical.JGraphHierarchicalLayout	(Object)Adapter
-com.jgraph.example.panelexample.BusinessObjectEditor2$RealCellEditor	(Object)Adapter
-com.jgraph.layout.graph.JGraphSpringLayout	(Object)Adapter
-org.jgraph.graph.VertexView	(Object)Adapter
-org.jgraph.graph.CellViewFactory	(Object)Adapter
-org.jgraph.JGraph	(Object)Adapter
-com.jgraph.layout.tree.JGraphAbstractTreeLayout	(Object)Adapter
-org.jgraph.graph.AbstractCellView	(Object)Adapter
-org.jgraph.graph.AbstractCellView	Template Method
-com.jgraph.example.mycellmodeleditor.BusinessObjectEditor$RealCellEditor	(Object)Adapter
-com.jgraph.example.adapter.JGraphAdapterBackend	State
-org.jgraph.graph.CellView	Decorator
-com.jgraph.example.GraphTreeModel$GraphModelTreeNode	State
-org.jgraph.graph.CellMapper	State
-com.jgraph.layout.hierarchical.JGraphHierarchicalLayoutStep	(Object)Adapter
-org.jgraph.graph.GraphLayoutCache$GraphLayoutCacheEdit	State
-org.jgraph.JGraph$EmptySelectionModel	Singleton
-org.jgraph.example.GraphEd	(Object)Adapter
-com.jgraph.layout.JGraphModelLayoutExample	State
-org.jgraph.graph.EdgeView	(Object)Adapter
-com.jgraph.algebra.JGraphAlgebra	Singleton
-org.jgraph.graph.VertexRenderer	(Object)Adapter
-com.jgraph.example.GraphSelectionDemo	Singleton
-org.jgraph.example.JGraphIconView$IconDisplay	(Object)Adapter
-org.jgraph.graph.GraphCellEditor	State
-org.jgraph.util.ParallelEdgeRouter	Singleton
-org.jgraph.graph.GraphLayoutCache	Proxy
-com.jgraph.layout.organic.JGraphFastOrganicLayout	(Object)Adapter
-org.jgraph.graph.GraphLayoutCache	(Object)Adapter
-org.jgraph.graph.CellView	(Object)Adapter
-com.jgraph.example.GraphEdMV	State
-org.jgraph.graph.ConnectionSet	(Object)Adapter
-org.jgraph.graph.AttributeMap	(Object)Adapter
-org.jgraph.example.JGraphIconView$IconRenderer	(Object)Adapter
-org.jgraph.graph.DefaultGraphCellEditor	(Object)Adapter
-org.jgraph.graph.CellViewFactory	State
-org.jgraph.graph.GraphModel	State
-org.jgraph.JGraph	State
-com.jgraph.algebra.cost.JGraphCostFunction	State
-org.jgraph.plaf.basic.BasicGraphUI	State
-com.jgraph.layout.organic.JGraphOrganicLayout	(Object)Adapter
-com.jgraph.algebra.cost.JGraphDistanceCostFunction	State
-com.jgraph.example.adapter.JGraphAdapterModel	State
-org.jgraph.graph.DefaultGraphCellEditor	Decorator
-org.jgraph.graph.AttributeMap	Singleton
-com.jgraph.example.portlabels.PortLabelVertexView$PortLabelVertexRenderer	Proxy
-com.jgraph.layout.JGraphLayout	Composite
-org.jgraph.graph.EdgeView$EdgeHandle	(Object)Adapter
-org.jgraph.graph.GraphContext	(Object)Adapter
-org.jgraph.plaf.basic.BasicGraphUI	(Object)Adapter
-org.jgraph.graph.CellView	Observer
-org.jgraph.graph.AbstractCellView	Factory Method
-com.jgraph.layout.hierarchical.model.JGraphAbstractHierarchyCell	Template Method
-org.jgraph.graph.CellHandle	Decorator
-com.jgraph.example.panelexample.PortLabelVertexView$WrapperPortLabelRenderer	(Object)Adapter
-com.jgraph.algebra.cost.JGraphDistanceCostFunction	(Object)Adapter
-com.jgraph.example.portlabels.PortLabelVertexView$PortLabelVertexRenderer	State
-org.jgraph.plaf.basic.BasicGraphUI$RootHandle	Decorator
-com.jgraph.example.panelexample.FlyweightUIComponent	(Object)Adapter
-com.jgraph.layout.JGraphCompoundLayout	Composite
-org.jgraph.graph.GraphContext	Proxy
-org.jgraph.example.JGraphAbstractIconAnimator	Template Method
-org.jgraph.graph.ExecutableChange	Template Method
-org.jgraph.graph.CellMapper	(Object)Adapter
-org.jgraph.graph.GraphSelectionModel	State
-org.jgraph.example.JGraphIconView$DescriptionTextArea	(Object)Adapter
-org.jgraph.graph.VertexView$SizeHandle	(Object)Adapter
-com.jgraph.example.portlabels.PortLabelVertexView$WrapperPortLabelRenderer	Proxy
-com.jgraph.example.mycellmodeleditor.MyEditorComponent	(Object)Adapter
-org.jgraph.plaf.basic.BasicGraphUI$RootHandle	(Object)Adapter
-org.jgraph.plaf.basic.BasicGraphUI$RootHandle	State
-org.jgraph.graph.DefaultGraphSelectionModel	(Object)Adapter
-com.jgraph.layout.hierarchical.JGraphHierarchicalLayout	State
-com.jgraph.example.GraphSelectionDemo$GraphModelTreeNode	State
-org.jgraph.plaf.basic.BasicGraphUI$MouseHandler	State
-com.jgraph.layout.JGraphFacade	State
-com.jgraph.layout.hierarchical.JGraphHierarchicalLayoutStep	State
-org.jgraph.graph.VertexView$SizeHandle	State
-org.jgraph.graph.GraphLayoutCache	State
-com.jgraph.layout.JGraphLayoutProgress	(Object)Adapter
-org.jgraph.graph.GraphCellEditor	Decorator
-com.jgraph.layout.JGraphFacade	(Object)Adapter
-com.jgraph.layout.hierarchical.JGraphMedianHybridCrossingReduction	(Object)Adapter
-org.jgraph.graph.CellHandle	State
-org.jgraph.graph.CellView	State
+org.jgraph.graph.AbstractCellView	null	Creator	Factory Method
+org.jgraph.graph.AbstractCellView	getHandle	FactoryMethod()	Factory Method
+com.jgraph.algebra.JGraphAlgebra	null	Singleton	Singleton
+com.jgraph.algebra.JGraphAlgebra	null	uniqueInstance	Singleton
+com.jgraph.example.GraphSelectionDemo	null	Singleton	Singleton
+com.jgraph.example.GraphSelectionDemo	null	uniqueInstance	Singleton
+com.jgraph.example.JGraphShadowBorder	null	Singleton	Singleton
+com.jgraph.example.JGraphShadowBorder	null	uniqueInstance	Singleton
+org.jgraph.graph.AttributeMap	null	Singleton	Singleton
+org.jgraph.graph.AttributeMap	null	uniqueInstance	Singleton
+org.jgraph.JGraph$EmptySelectionModel	null	Singleton	Singleton
+org.jgraph.JGraph$EmptySelectionModel	null	uniqueInstance	Singleton
+org.jgraph.util.ParallelEdgeRouter	null	Singleton	Singleton
+org.jgraph.util.ParallelEdgeRouter	null	uniqueInstance	Singleton
+org.jgraph.JGraph	null	Adaptee	(Object)Adapter
+org.jgraph.plaf.basic.BasicGraphUI	null	Adapter	(Object)Adapter
+org.jgraph.plaf.basic.BasicGraphUI	null	adaptee	(Object)Adapter
+org.jgraph.plaf.basic.BasicGraphUI	paintCell	Request()	(Object)Adapter
+org.jgraph.plaf.basic.BasicGraphUI	paintPorts	Request()	(Object)Adapter
+org.jgraph.plaf.basic.BasicGraphUI	updateHandle	Request()	(Object)Adapter
+org.jgraph.JGraph	null	Adaptee	(Object)Adapter
+org.jgraph.graph.EdgeView$EdgeHandle	null	Adapter	(Object)Adapter
+org.jgraph.graph.EdgeView$EdgeHandle	null	adaptee	(Object)Adapter
+org.jgraph.graph.EdgeView$EdgeHandle	paint	Request()	(Object)Adapter
+org.jgraph.graph.EdgeView$EdgeHandle	overlay	Request()	(Object)Adapter
+org.jgraph.graph.EdgeView$EdgeHandle	mouseMoved	Request()	(Object)Adapter
+org.jgraph.graph.EdgeView$EdgeHandle	mousePressed	Request()	(Object)Adapter
+org.jgraph.graph.EdgeView$EdgeHandle	mouseDragged	Request()	(Object)Adapter
+org.jgraph.graph.EdgeView$EdgeHandle	mouseReleased	Request()	(Object)Adapter
+org.jgraph.JGraph	null	Adaptee	(Object)Adapter
+org.jgraph.graph.VertexView$SizeHandle	null	Adapter	(Object)Adapter
+org.jgraph.graph.VertexView$SizeHandle	null	adaptee	(Object)Adapter
+org.jgraph.graph.VertexView$SizeHandle	paint	Request()	(Object)Adapter
+org.jgraph.graph.VertexView$SizeHandle	overlay	Request()	(Object)Adapter
+org.jgraph.graph.VertexView$SizeHandle	mouseMoved	Request()	(Object)Adapter
+org.jgraph.graph.VertexView$SizeHandle	mousePressed	Request()	(Object)Adapter
+org.jgraph.graph.VertexView$SizeHandle	mouseDragged	Request()	(Object)Adapter
+org.jgraph.graph.VertexView$SizeHandle	mouseReleased	Request()	(Object)Adapter
+org.jgraph.example.GraphEd	null	Adapter	(Object)Adapter
+org.jgraph.JGraph	null	Adaptee	(Object)Adapter
+org.jgraph.example.GraphEd	null	adaptee	(Object)Adapter
+org.jgraph.example.GraphEd	valueChanged	Request()	(Object)Adapter
+org.jgraph.graph.DefaultGraphCellEditor	null	Adapter	(Object)Adapter
+org.jgraph.JGraph	null	Adaptee	(Object)Adapter
+org.jgraph.graph.DefaultGraphCellEditor	null	adaptee	(Object)Adapter
+org.jgraph.graph.DefaultGraphCellEditor	valueChanged	Request()	(Object)Adapter
+com.jgraph.layout.JGraphFacade	null	Adaptee	(Object)Adapter
+com.jgraph.layout.organic.JGraphOrganicLayout	null	Adapter	(Object)Adapter
+com.jgraph.layout.organic.JGraphOrganicLayout	null	adaptee	(Object)Adapter
+com.jgraph.layout.organic.JGraphOrganicLayout	run	Request()	(Object)Adapter
+com.jgraph.layout.JGraphFacade	null	Adaptee	(Object)Adapter
+com.jgraph.layout.tree.JGraphAbstractTreeLayout	null	Adapter	(Object)Adapter
+com.jgraph.layout.tree.JGraphAbstractTreeLayout	null	adaptee	(Object)Adapter
+com.jgraph.layout.tree.JGraphAbstractTreeLayout	run	Request()	(Object)Adapter
+org.jgraph.graph.CellView	null	Adaptee	(Object)Adapter
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	null	Adapter	(Object)Adapter
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	null	adaptee	(Object)Adapter
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	null	adaptee	(Object)Adapter
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	null	adaptee	(Object)Adapter
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	null	adaptee	(Object)Adapter
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	null	adaptee	(Object)Adapter
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	overlay	Request()	(Object)Adapter
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	mousePressed	Request()	(Object)Adapter
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	mouseDragged	Request()	(Object)Adapter
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	mouseReleased	Request()	(Object)Adapter
+org.jgraph.graph.EdgeView	null	Adaptee	(Object)Adapter
+org.jgraph.graph.EdgeView$EdgeHandle	null	Adapter	(Object)Adapter
+org.jgraph.graph.EdgeView$EdgeHandle	null	adaptee	(Object)Adapter
+org.jgraph.graph.EdgeView$EdgeHandle	null	adaptee	(Object)Adapter
+org.jgraph.graph.EdgeView$EdgeHandle	paint	Request()	(Object)Adapter
+org.jgraph.graph.EdgeView$EdgeHandle	overlay	Request()	(Object)Adapter
+org.jgraph.graph.EdgeView$EdgeHandle	mouseMoved	Request()	(Object)Adapter
+org.jgraph.graph.EdgeView$EdgeHandle	mousePressed	Request()	(Object)Adapter
+org.jgraph.graph.EdgeView$EdgeHandle	mouseDragged	Request()	(Object)Adapter
+org.jgraph.graph.EdgeView$EdgeHandle	mouseReleased	Request()	(Object)Adapter
+org.jgraph.graph.VertexView	null	Adaptee	(Object)Adapter
+org.jgraph.graph.VertexView$SizeHandle	null	Adapter	(Object)Adapter
+org.jgraph.graph.VertexView$SizeHandle	null	adaptee	(Object)Adapter
+org.jgraph.graph.VertexView$SizeHandle	overlay	Request()	(Object)Adapter
+org.jgraph.graph.VertexView$SizeHandle	mousePressed	Request()	(Object)Adapter
+org.jgraph.graph.VertexView$SizeHandle	mouseDragged	Request()	(Object)Adapter
+org.jgraph.graph.VertexView$SizeHandle	mouseReleased	Request()	(Object)Adapter
+org.jgraph.graph.VertexView	null	Adaptee	(Object)Adapter
+org.jgraph.graph.VertexRenderer	null	Adapter	(Object)Adapter
+org.jgraph.graph.VertexRenderer	null	adaptee	(Object)Adapter
+org.jgraph.graph.VertexRenderer	getRendererComponent	Request()	(Object)Adapter
+com.jgraph.layout.JGraphLayoutProgress	null	Adaptee	(Object)Adapter
+com.jgraph.layout.hierarchical.JGraphHierarchicalLayout	null	Adapter	(Object)Adapter
+com.jgraph.layout.hierarchical.JGraphHierarchicalLayout	null	adaptee	(Object)Adapter
+com.jgraph.layout.hierarchical.JGraphHierarchicalLayout	run	Request()	(Object)Adapter
+com.jgraph.layout.JGraphLayoutProgress	null	Adaptee	(Object)Adapter
+com.jgraph.layout.organic.JGraphOrganicLayout	null	Adapter	(Object)Adapter
+com.jgraph.layout.organic.JGraphOrganicLayout	null	adaptee	(Object)Adapter
+com.jgraph.layout.organic.JGraphOrganicLayout	run	Request()	(Object)Adapter
+com.jgraph.layout.JGraphLayoutProgress	null	Adaptee	(Object)Adapter
+com.jgraph.layout.graph.JGraphSpringLayout	null	Adapter	(Object)Adapter
+com.jgraph.layout.graph.JGraphSpringLayout	null	adaptee	(Object)Adapter
+com.jgraph.layout.graph.JGraphSpringLayout	run	Request()	(Object)Adapter
+com.jgraph.layout.JGraphLayoutProgress	null	Adaptee	(Object)Adapter
+com.jgraph.layout.organic.JGraphFastOrganicLayout	null	Adapter	(Object)Adapter
+com.jgraph.layout.organic.JGraphFastOrganicLayout	null	adaptee	(Object)Adapter
+com.jgraph.layout.organic.JGraphFastOrganicLayout	run	Request()	(Object)Adapter
+com.jgraph.example.mycellmodeleditor.MyEditorComponent	null	Adaptee	(Object)Adapter
+com.jgraph.example.mycellmodeleditor.BusinessObjectEditor$RealCellEditor	null	Adapter	(Object)Adapter
+com.jgraph.example.mycellmodeleditor.BusinessObjectEditor$RealCellEditor	null	adaptee	(Object)Adapter
+com.jgraph.example.mycellmodeleditor.BusinessObjectEditor$RealCellEditor	getGraphCellEditorComponent	Request()	(Object)Adapter
+com.jgraph.example.panelexample.FlyweightUIComponent	null	Adaptee	(Object)Adapter
+com.jgraph.example.panelexample.BusinessObjectEditor2$RealCellEditor	null	Adapter	(Object)Adapter
+com.jgraph.example.panelexample.BusinessObjectEditor2$RealCellEditor	null	adaptee	(Object)Adapter
+com.jgraph.example.panelexample.BusinessObjectEditor2$RealCellEditor	getGraphCellEditorComponent	Request()	(Object)Adapter
+com.jgraph.layout.JGraphLayoutProgress	null	Adaptee	(Object)Adapter
+com.jgraph.layout.hierarchical.JGraphMedianHybridCrossingReduction	null	Adapter	(Object)Adapter
+com.jgraph.layout.hierarchical.JGraphMedianHybridCrossingReduction	null	adaptee	(Object)Adapter
+com.jgraph.layout.hierarchical.JGraphMedianHybridCrossingReduction	run	Request()	(Object)Adapter
+org.jgraph.graph.GraphContext	null	Adaptee	(Object)Adapter
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	null	Adapter	(Object)Adapter
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	null	adaptee	(Object)Adapter
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	mousePressed	Request()	(Object)Adapter
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	mouseDragged	Request()	(Object)Adapter
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	mouseReleased	Request()	(Object)Adapter
+org.jgraph.graph.GraphContext	null	Adaptee	(Object)Adapter
+org.jgraph.graph.VertexView$SizeHandle	null	Adapter	(Object)Adapter
+org.jgraph.graph.VertexView$SizeHandle	null	adaptee	(Object)Adapter
+org.jgraph.graph.VertexView$SizeHandle	mousePressed	Request()	(Object)Adapter
+org.jgraph.example.JGraphIconView$DescriptionTextArea	null	Adaptee	(Object)Adapter
+org.jgraph.example.JGraphIconView$IconRenderer	null	Adapter	(Object)Adapter
+org.jgraph.example.JGraphIconView$IconRenderer	null	adaptee	(Object)Adapter
+org.jgraph.example.JGraphIconView$IconRenderer	getRendererComponent	Request()	(Object)Adapter
+org.jgraph.example.JGraphIconView$IconDisplay	null	Adaptee	(Object)Adapter
+org.jgraph.example.JGraphIconView$IconRenderer	null	Adapter	(Object)Adapter
+org.jgraph.example.JGraphIconView$IconRenderer	null	adaptee	(Object)Adapter
+org.jgraph.example.JGraphIconView$IconRenderer	getRendererComponent	Request()	(Object)Adapter
+com.jgraph.example.panelexample.FlyweightUIComponent	null	Adaptee	(Object)Adapter
+com.jgraph.example.panelexample.PortLabelVertexView$WrapperPortLabelRenderer	null	Adapter	(Object)Adapter
+com.jgraph.example.panelexample.PortLabelVertexView$WrapperPortLabelRenderer	null	adaptee	(Object)Adapter
+com.jgraph.example.panelexample.PortLabelVertexView$WrapperPortLabelRenderer	getRendererComponent	Request()	(Object)Adapter
+org.jgraph.graph.GraphContext	null	Adapter	(Object)Adapter
+org.jgraph.JGraph	null	Adaptee	(Object)Adapter
+org.jgraph.graph.GraphContext	null	adaptee	(Object)Adapter
+org.jgraph.graph.GraphContext	getMapping	Request()	(Object)Adapter
+org.jgraph.graph.AbstractCellView	null	Adapter	(Object)Adapter
+org.jgraph.graph.AttributeMap	null	Adaptee	(Object)Adapter
+org.jgraph.graph.AbstractCellView	null	adaptee	(Object)Adapter
+org.jgraph.graph.AbstractCellView	changeAttributes	Request()	(Object)Adapter
+org.jgraph.JGraph	null	Adaptee	(Object)Adapter
+org.jgraph.graph.DefaultGraphSelectionModel	null	Adapter	(Object)Adapter
+org.jgraph.graph.DefaultGraphSelectionModel	null	adaptee	(Object)Adapter
+org.jgraph.graph.DefaultGraphSelectionModel	setSelectionCells	Request()	(Object)Adapter
+org.jgraph.graph.DefaultGraphSelectionModel	addSelectionCells	Request()	(Object)Adapter
+org.jgraph.graph.DefaultGraphSelectionModel	removeSelectionCells	Request()	(Object)Adapter
+org.jgraph.graph.DefaultGraphSelectionModel	getSelectables	Request()	(Object)Adapter
+org.jgraph.graph.DefaultGraphSelectionModel	clearSelection	Request()	(Object)Adapter
+org.jgraph.graph.CellView	null	Adaptee	(Object)Adapter
+org.jgraph.plaf.basic.BasicGraphUI	null	Adapter	(Object)Adapter
+org.jgraph.plaf.basic.BasicGraphUI	null	adaptee	(Object)Adapter
+org.jgraph.plaf.basic.BasicGraphUI	paintCell	Request()	(Object)Adapter
+org.jgraph.graph.GraphCellEditor	null	Adaptee	(Object)Adapter
+org.jgraph.plaf.basic.BasicGraphUI	null	Adapter	(Object)Adapter
+org.jgraph.plaf.basic.BasicGraphUI	null	adaptee	(Object)Adapter
+org.jgraph.plaf.basic.BasicGraphUI	stopEditing	Request()	(Object)Adapter
+org.jgraph.graph.GraphLayoutCache	null	Adaptee	(Object)Adapter
+org.jgraph.plaf.basic.BasicGraphUI	null	Adapter	(Object)Adapter
+org.jgraph.plaf.basic.BasicGraphUI	null	adaptee	(Object)Adapter
+org.jgraph.plaf.basic.BasicGraphUI	updateHandle	Request()	(Object)Adapter
+org.jgraph.graph.ConnectionSet	null	Adaptee	(Object)Adapter
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	null	Adapter	(Object)Adapter
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	null	adaptee	(Object)Adapter
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	mouseReleased	Request()	(Object)Adapter
+com.jgraph.layout.hierarchical.JGraphHierarchicalLayoutStep	null	Adaptee	(Object)Adapter
+com.jgraph.layout.hierarchical.JGraphHierarchicalLayout	null	Adapter	(Object)Adapter
+com.jgraph.layout.hierarchical.JGraphHierarchicalLayout	null	adaptee	(Object)Adapter
+com.jgraph.layout.hierarchical.JGraphHierarchicalLayout	null	adaptee	(Object)Adapter
+com.jgraph.layout.hierarchical.JGraphHierarchicalLayout	null	adaptee	(Object)Adapter
+com.jgraph.layout.hierarchical.JGraphHierarchicalLayout	null	adaptee	(Object)Adapter
+com.jgraph.layout.hierarchical.JGraphHierarchicalLayout	run	Request()	(Object)Adapter
+org.jgraph.graph.CellViewFactory	null	Adaptee	(Object)Adapter
+org.jgraph.graph.GraphLayoutCache	null	Adapter	(Object)Adapter
+org.jgraph.graph.GraphLayoutCache	null	adaptee	(Object)Adapter
+org.jgraph.graph.GraphLayoutCache	getMapping	Request()	(Object)Adapter
+org.jgraph.graph.CellMapper	null	Adaptee	(Object)Adapter
+com.jgraph.algebra.cost.JGraphDistanceCostFunction	null	Adapter	(Object)Adapter
+com.jgraph.algebra.cost.JGraphDistanceCostFunction	null	adaptee	(Object)Adapter
+com.jgraph.algebra.cost.JGraphDistanceCostFunction	getCost	Request()	(Object)Adapter
+com.jgraph.layout.JGraphLayout	null	Component	Composite
+com.jgraph.layout.JGraphCompoundLayout	null	Composite	Composite
+com.jgraph.layout.JGraphCompoundLayout	run	Operation()	Composite
+org.jgraph.graph.GraphCellEditor	null	Component	Decorator
+org.jgraph.graph.DefaultGraphCellEditor	null	Decorator	Decorator
+org.jgraph.graph.DefaultGraphCellEditor	null	component	Decorator
+org.jgraph.graph.DefaultGraphCellEditor	getGraphCellEditorComponent	Operation()	Decorator
+org.jgraph.graph.CellView	null	Component	Decorator
+org.jgraph.graph.AbstractCellView	null	Decorator	Decorator
+org.jgraph.graph.AbstractCellView	null	component	Decorator
+org.jgraph.graph.AbstractCellView	childUpdated	Operation()	Decorator
+org.jgraph.graph.CellHandle	null	Component	Decorator
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	null	Decorator	Decorator
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	null	component	Decorator
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	null	component	Decorator
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	paint	Operation()	Decorator
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	mouseMoved	Operation()	Decorator
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	mousePressed	Operation()	Decorator
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	mouseDragged	Operation()	Decorator
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	mouseReleased	Operation()	Decorator
+org.jgraph.graph.CellView	null	Observer	Observer
+com.jgraph.example.portlabels.PortLabelVertexView$PortLabelVertexRenderer	null	Subject	Observer
+com.jgraph.example.portlabels.PortLabelVertexView$PortLabelVertexRenderer	paintPortLabels	Notify()	Observer
+com.jgraph.example.portlabels.PortLabelVertexView$PortLabelVertexRenderer	getPreferredSize	Notify()	Observer
+com.jgraph.example.GraphSelectionDemo$GraphModelTreeNode	null	Context	State
+org.jgraph.graph.GraphModel	null	State	State
+com.jgraph.example.GraphSelectionDemo$GraphModelTreeNode	null	state	State
+com.jgraph.example.GraphSelectionDemo$GraphModelTreeNode	children	Request()	State
+com.jgraph.example.GraphSelectionDemo$GraphModelTreeNode	getChildAt	Request()	State
+com.jgraph.example.GraphSelectionDemo$GraphModelTreeNode	getChildCount	Request()	State
+com.jgraph.example.GraphSelectionDemo$GraphModelTreeNode	getIndex	Request()	State
+com.jgraph.example.GraphTreeModel$GraphModelTreeNode	null	Context	State
+org.jgraph.graph.GraphModel	null	State	State
+com.jgraph.example.GraphTreeModel$GraphModelTreeNode	null	state	State
+com.jgraph.example.GraphTreeModel$GraphModelTreeNode	children	Request()	State
+com.jgraph.example.GraphTreeModel$GraphModelTreeNode	getChildAt	Request()	State
+com.jgraph.example.GraphTreeModel$GraphModelTreeNode	getChildCount	Request()	State
+com.jgraph.example.GraphTreeModel$GraphModelTreeNode	getIndex	Request()	State
+com.jgraph.layout.JGraphModelLayoutExample	null	Context	State
+org.jgraph.graph.GraphModel	null	State	State
+com.jgraph.layout.JGraphModelLayoutExample	null	state	State
+com.jgraph.layout.JGraphModelLayoutExample	main	Request()	State
+org.jgraph.graph.CellView	null	State	State
+org.jgraph.graph.VertexView$SizeHandle	null	Context	State
+org.jgraph.graph.VertexView$SizeHandle	null	state	State
+org.jgraph.graph.VertexView$SizeHandle	null	state	State
+org.jgraph.graph.VertexView$SizeHandle	overlay	Request()	State
+org.jgraph.graph.VertexView$SizeHandle	mouseDragged	Request()	State
+org.jgraph.graph.CellView	null	State	State
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	null	Context	State
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	null	state	State
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	null	state	State
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	null	state	State
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	null	state	State
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	null	state	State
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	overlay	Request()	State
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	mousePressed	Request()	State
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	findViewForPoint	Request()	State
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	mouseDragged	Request()	State
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	mouseReleased	Request()	State
+org.jgraph.graph.CellView	null	State	State
+com.jgraph.example.portlabels.PortLabelVertexView$PortLabelVertexRenderer	null	Context	State
+com.jgraph.example.portlabels.PortLabelVertexView$PortLabelVertexRenderer	null	state	State
+com.jgraph.example.portlabels.PortLabelVertexView$PortLabelVertexRenderer	getRendererComponent	Request()	State
+com.jgraph.example.portlabels.PortLabelVertexView$PortLabelVertexRenderer	paintPortLabels	Request()	State
+com.jgraph.example.portlabels.PortLabelVertexView$PortLabelVertexRenderer	getPreferredSize	Request()	State
+org.jgraph.graph.GraphModel	null	State	State
+org.jgraph.graph.GraphLayoutCache	null	Context	State
+org.jgraph.graph.GraphLayoutCache	null	state	State
+org.jgraph.graph.GraphLayoutCache	updatePorts	Request()	State
+org.jgraph.graph.GraphLayoutCache	hideCellsForChange	Request()	State
+org.jgraph.graph.GraphLayoutCache	showCellsForChange	Request()	State
+org.jgraph.graph.GraphLayoutCache	insertViews	Request()	State
+org.jgraph.graph.GraphLayoutCache	setVisible	Request()	State
+org.jgraph.graph.GraphLayoutCache	addVisibleDependencies	Request()	State
+org.jgraph.graph.GraphLayoutCache	getParentPorts	Request()	State
+org.jgraph.graph.GraphLayoutCache	getPorts	Request()	State
+org.jgraph.graph.GraphLayoutCache	insert	Request()	State
+org.jgraph.graph.GraphLayoutCache	remove	Request()	State
+org.jgraph.graph.GraphLayoutCache	edit	Request()	State
+org.jgraph.graph.GraphLayoutCache	toBack	Request()	State
+org.jgraph.graph.GraphLayoutCache	toFront	Request()	State
+org.jgraph.graph.GraphLayoutCache	copyRemovedViewValue	Request()	State
+org.jgraph.graph.GraphLayoutCache	getAllDescendants	Request()	State
+org.jgraph.plaf.basic.BasicGraphUI$MouseHandler	null	Context	State
+org.jgraph.graph.CellView	null	State	State
+org.jgraph.plaf.basic.BasicGraphUI$MouseHandler	null	state	State
+org.jgraph.plaf.basic.BasicGraphUI$MouseHandler	mousePressed	Request()	State
+org.jgraph.plaf.basic.BasicGraphUI$MouseHandler	mouseDragged	Request()	State
+org.jgraph.plaf.basic.BasicGraphUI$MouseHandler	mouseReleased	Request()	State
+com.jgraph.layout.JGraphFacade	null	Context	State
+org.jgraph.graph.GraphModel	null	State	State
+com.jgraph.layout.JGraphFacade	null	state	State
+com.jgraph.layout.JGraphFacade	isVertex	Request()	State
+com.jgraph.layout.JGraphFacade	isEdge	Request()	State
+com.jgraph.layout.JGraphFacade	getNeighbours	Request()	State
+com.jgraph.layout.JGraphFacade	getSource	Request()	State
+com.jgraph.layout.JGraphFacade	getTarget	Request()	State
+com.jgraph.layout.JGraphFacade	getSourcePort	Request()	State
+com.jgraph.layout.JGraphFacade	getTargetPort	Request()	State
+com.jgraph.layout.JGraphFacade	getIncomingEdges	Request()	State
+com.jgraph.layout.JGraphFacade	getAttributes	Request()	State
+com.jgraph.layout.JGraphFacade	getGraphOrigin	Request()	State
+com.jgraph.layout.JGraphFacade	getBounds	Request()	State
+com.jgraph.layout.JGraphFacade	setLocation	Request()	State
+com.jgraph.layout.JGraphFacade	translate	Request()	State
+com.jgraph.layout.JGraphFacade	populateGroupHierarchies	Request()	State
+com.jgraph.example.GraphEdMV	null	Context	State
+org.jgraph.graph.GraphModel	null	State	State
+com.jgraph.example.GraphEdMV	null	state	State
+com.jgraph.example.GraphEdMV	main	Request()	State
+org.jgraph.graph.GraphSelectionModel	null	State	State
+org.jgraph.JGraph	null	Context	State
+org.jgraph.JGraph	null	state	State
+org.jgraph.JGraph	getNextViewAt	Request()	State
+org.jgraph.JGraph	setSelectionModel	Request()	State
+org.jgraph.JGraph	addGraphSelectionListener	Request()	State
+org.jgraph.JGraph	removeGraphSelectionListener	Request()	State
+org.jgraph.JGraph	readObject	Request()	State
+org.jgraph.JGraph	null	Context	State
+org.jgraph.graph.GraphModel	null	State	State
+org.jgraph.JGraph	null	state	State
+org.jgraph.JGraph	cloneCells	Request()	State
+org.jgraph.JGraph	getPortViewAt	Request()	State
+org.jgraph.plaf.basic.BasicGraphUI	null	Context	State
+org.jgraph.graph.CellView	null	State	State
+org.jgraph.plaf.basic.BasicGraphUI	null	state	State
+org.jgraph.plaf.basic.BasicGraphUI	getFocusedCell	Request()	State
+org.jgraph.plaf.basic.BasicGraphUI	paintCell	Request()	State
+org.jgraph.graph.GraphCellEditor	null	State	State
+org.jgraph.plaf.basic.BasicGraphUI	null	Context	State
+org.jgraph.plaf.basic.BasicGraphUI	null	state	State
+org.jgraph.plaf.basic.BasicGraphUI	startEditing	Request()	State
+com.jgraph.example.adapter.JGraphAdapterModel	null	Context	State
+com.jgraph.example.adapter.JGraphAdapterBackend	null	State	State
+com.jgraph.example.adapter.JGraphAdapterModel	null	state	State
+com.jgraph.example.adapter.JGraphAdapterModel	fireCommit	Request()	State
+com.jgraph.example.adapter.JGraphAdapterModel	fireRollback	Request()	State
+com.jgraph.example.adapter.JGraphAdapterModel	fireVertexAdded	Request()	State
+com.jgraph.example.adapter.JGraphAdapterModel	fireEdgeAdded	Request()	State
+com.jgraph.example.adapter.JGraphAdapterModel	fireCellRemoved	Request()	State
+com.jgraph.example.adapter.JGraphAdapterModel	fireParentChanged	Request()	State
+com.jgraph.example.adapter.JGraphAdapterModel	fireSourceChanged	Request()	State
+com.jgraph.example.adapter.JGraphAdapterModel	fireTargetChanged	Request()	State
+com.jgraph.example.adapter.JGraphAdapterModel	fireAttributesChanged	Request()	State
+org.jgraph.graph.CellHandle	null	State	State
+org.jgraph.plaf.basic.BasicGraphUI	null	Context	State
+org.jgraph.plaf.basic.BasicGraphUI	null	state	State
+org.jgraph.plaf.basic.BasicGraphUI	paint	Request()	State
+org.jgraph.plaf.basic.BasicGraphUI	drawGraph	Request()	State
+com.jgraph.layout.hierarchical.JGraphHierarchicalLayout	null	Context	State
+com.jgraph.layout.hierarchical.JGraphHierarchicalLayoutStep	null	State	State
+com.jgraph.layout.hierarchical.JGraphHierarchicalLayout	null	state	State
+com.jgraph.layout.hierarchical.JGraphHierarchicalLayout	null	state	State
+com.jgraph.layout.hierarchical.JGraphHierarchicalLayout	null	state	State
+com.jgraph.layout.hierarchical.JGraphHierarchicalLayout	null	state	State
+com.jgraph.layout.hierarchical.JGraphHierarchicalLayout	run	Request()	State
+org.jgraph.graph.CellViewFactory	null	State	State
+org.jgraph.graph.GraphLayoutCache	null	Context	State
+org.jgraph.graph.GraphLayoutCache	null	state	State
+org.jgraph.graph.GraphLayoutCache	getMapping	Request()	State
+org.jgraph.plaf.basic.BasicGraphUI	null	Context	State
+org.jgraph.graph.GraphModel	null	State	State
+org.jgraph.plaf.basic.BasicGraphUI	null	state	State
+org.jgraph.plaf.basic.BasicGraphUI	setModel	Request()	State
+org.jgraph.plaf.basic.BasicGraphUI	installListeners	Request()	State
+org.jgraph.plaf.basic.BasicGraphUI	uninstallListeners	Request()	State
+com.jgraph.layout.JGraphFacade	null	Context	State
+com.jgraph.algebra.cost.JGraphCostFunction	null	State	State
+com.jgraph.layout.JGraphFacade	null	state	State
+com.jgraph.layout.JGraphFacade	getLength	Request()	State
+org.jgraph.plaf.basic.BasicGraphUI	null	Context	State
+org.jgraph.graph.GraphSelectionModel	null	State	State
+org.jgraph.plaf.basic.BasicGraphUI	null	state	State
+org.jgraph.plaf.basic.BasicGraphUI	setSelectionModel	Request()	State
+org.jgraph.plaf.basic.BasicGraphUI	installListeners	Request()	State
+org.jgraph.plaf.basic.BasicGraphUI	uninstallListeners	Request()	State
+com.jgraph.algebra.cost.JGraphDistanceCostFunction	null	Context	State
+org.jgraph.graph.CellMapper	null	State	State
+com.jgraph.algebra.cost.JGraphDistanceCostFunction	null	state	State
+com.jgraph.algebra.cost.JGraphDistanceCostFunction	getCost	Request()	State
+org.jgraph.graph.GraphLayoutCache$GraphLayoutCacheEdit	null	Context	State
+org.jgraph.graph.CellView	null	State	State
+org.jgraph.graph.GraphLayoutCache$GraphLayoutCacheEdit	null	state	State
+org.jgraph.graph.GraphLayoutCache$GraphLayoutCacheEdit	null	state	State
+org.jgraph.graph.GraphLayoutCache$GraphLayoutCacheEdit	execute	Request()	State
+com.jgraph.layout.hierarchical.model.JGraphAbstractHierarchyCell	null	AbstractClass	Template Method
+com.jgraph.layout.hierarchical.model.JGraphAbstractHierarchyCell	setX	TemplateMethod()	Template Method
+com.jgraph.layout.hierarchical.model.JGraphAbstractHierarchyCell	getX	TemplateMethod()	Template Method
+com.jgraph.layout.hierarchical.model.JGraphAbstractHierarchyCell	setY	TemplateMethod()	Template Method
+org.jgraph.example.JGraphAbstractIconAnimator	null	AbstractClass	Template Method
+org.jgraph.example.JGraphAbstractIconAnimator	repaint	TemplateMethod()	Template Method
+org.jgraph.graph.AbstractCellView	null	AbstractClass	Template Method
+org.jgraph.graph.AbstractCellView	getRendererComponent	TemplateMethod()	Template Method
+org.jgraph.graph.ExecutableChange	null	AbstractClass	Template Method
+org.jgraph.graph.ExecutableChange	undo	TemplateMethod()	Template Method
+org.jgraph.graph.ExecutableChange	redo	TemplateMethod()	Template Method
+com.jgraph.example.portlabels.PortLabelVertexView$WrapperPortLabelRenderer	null	Proxy	Proxy
+com.jgraph.example.portlabels.PortLabelVertexView$PortLabelVertexRenderer	null	RealSubject	Proxy
+com.jgraph.example.portlabels.PortLabelVertexView$WrapperPortLabelRenderer	getRendererComponent	Request()	Proxy
+org.jgraph.graph.GraphContext	null	Proxy	Proxy
+org.jgraph.graph.GraphLayoutCache	null	RealSubject	Proxy
+org.jgraph.graph.GraphContext	getMapping	Request()	Proxy

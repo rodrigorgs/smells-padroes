@@ -1,11 +1,38 @@
-net.sf.jmoney.gui.AccountChooser	(Object)Adapter
-net.sf.jmoney.gui.IncomeExpenseReportPanel$Item	State
-net.sf.jmoney.model.Entry	State
-net.sf.jmoney.model.Entry	Singleton
-net.sf.jmoney.io.QIF	(Object)Adapter
-net.sf.jmoney.gui.CategoryPanel	State
-net.sf.jmoney.io.FileFormat	State
-net.sf.jmoney.io.MT940	(Object)Adapter
-net.sf.jmoney.model.Category	State
-net.sf.jmoney.gui.MainFrame	State
-net.sf.jmoney.gui.MainFrame	(Object)Adapter
+net.sf.jmoney.model.Entry	null	Singleton	Singleton
+net.sf.jmoney.model.Entry	null	uniqueInstance	Singleton
+net.sf.jmoney.gui.MainFrame	null	Adaptee	(Object)Adapter
+net.sf.jmoney.io.MT940	null	Adapter	(Object)Adapter
+net.sf.jmoney.io.MT940	null	adaptee	(Object)Adapter
+net.sf.jmoney.io.MT940	importFile	Request()	(Object)Adapter
+net.sf.jmoney.gui.MainFrame	null	Adaptee	(Object)Adapter
+net.sf.jmoney.io.QIF	null	Adapter	(Object)Adapter
+net.sf.jmoney.io.QIF	null	adaptee	(Object)Adapter
+net.sf.jmoney.io.QIF	importFile	Request()	(Object)Adapter
+net.sf.jmoney.io.QIF	exportAccount	Request()	(Object)Adapter
+net.sf.jmoney.gui.AccountChooser	null	Adaptee	(Object)Adapter
+net.sf.jmoney.io.QIF	null	Adapter	(Object)Adapter
+net.sf.jmoney.io.QIF	null	adaptee	(Object)Adapter
+net.sf.jmoney.io.QIF	importFile	Request()	(Object)Adapter
+net.sf.jmoney.model.Category	null	State	State
+net.sf.jmoney.gui.CategoryPanel	null	Context	State
+net.sf.jmoney.gui.CategoryPanel	null	state	State
+net.sf.jmoney.gui.CategoryPanel	categorySelection	Request()	State
+net.sf.jmoney.gui.CategoryPanel	newCategory	Request()	State
+net.sf.jmoney.gui.CategoryPanel	newSubcategory	Request()	State
+net.sf.jmoney.gui.CategoryPanel	deleteCategory	Request()	State
+net.sf.jmoney.model.Category	null	State	State
+net.sf.jmoney.gui.IncomeExpenseReportPanel$Item	null	Context	State
+net.sf.jmoney.gui.IncomeExpenseReportPanel$Item	null	state	State
+net.sf.jmoney.gui.IncomeExpenseReportPanel$Item	getBaseCategory	Request()	State
+net.sf.jmoney.gui.IncomeExpenseReportPanel$Item	getCategory	Request()	State
+net.sf.jmoney.io.FileFormat	null	State	State
+net.sf.jmoney.gui.MainFrame	null	Context	State
+net.sf.jmoney.gui.MainFrame	null	state	State
+net.sf.jmoney.gui.MainFrame	null	state	State
+net.sf.jmoney.gui.MainFrame	importQIF	Request()	State
+net.sf.jmoney.gui.MainFrame	importMT940	Request()	State
+net.sf.jmoney.gui.MainFrame	exportQIF	Request()	State
+net.sf.jmoney.model.Entry	null	Context	State
+net.sf.jmoney.model.Category	null	State	State
+net.sf.jmoney.model.Entry	null	state	State
+net.sf.jmoney.model.Entry	getFullCategoryName	Request()	State

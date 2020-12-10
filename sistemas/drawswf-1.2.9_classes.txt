@@ -1,302 +1,304 @@
-at.bestsolution.drawswf.AboutWindow
-at.bestsolution.drawswf.AbstractPlugin
-at.bestsolution.drawswf.actions.AboutAction
-at.bestsolution.drawswf.actions.AbstractDrawAction
-at.bestsolution.drawswf.actions.ClearAction
-at.bestsolution.drawswf.actions.ExitAction
-at.bestsolution.drawswf.actions.FileAction
-at.bestsolution.drawswf.actions.GraphicTemplateAction
-at.bestsolution.drawswf.actions.NewFileAction
-at.bestsolution.drawswf.actions.ObjectListAction
-at.bestsolution.drawswf.actions.OpenOptionsDialogAction
-at.bestsolution.drawswf.actions.PlayAction
-at.bestsolution.drawswf.actions.RedoAction
-at.bestsolution.drawswf.actions.SaveAction
-at.bestsolution.drawswf.actions.SaveSWFAction
-at.bestsolution.drawswf.actions.SetCanvasSizeAction
-at.bestsolution.drawswf.actions.SetColorAction
-at.bestsolution.drawswf.actions.SetDrawing2GradientAction
-at.bestsolution.drawswf.actions.SetDrawingModeAction
-at.bestsolution.drawswf.actions.SetLineWidthAction
-at.bestsolution.drawswf.actions.UndoAction
-at.bestsolution.drawswf.AnimationThread
-at.bestsolution.drawswf.dialog.FontDialog
-at.bestsolution.drawswf.dialog.OpenList
-at.bestsolution.drawswf.dialog.OptionsDialog
-at.bestsolution.drawswf.DrawingPanel
-at.bestsolution.drawswf.DrawMenuBar
-at.bestsolution.drawswf.DrawObjectList
-at.bestsolution.drawswf.drawobjects.DrawObject
-at.bestsolution.drawswf.drawobjects.DrawObjectFactory
-at.bestsolution.drawswf.drawobjects.DrawSWFFont
-at.bestsolution.drawswf.drawobjects.Ellipse
-at.bestsolution.drawswf.drawobjects.Line
-at.bestsolution.drawswf.drawobjects.Picture
-at.bestsolution.drawswf.drawobjects.Rectangle
-at.bestsolution.drawswf.drawobjects.StraightLine
-at.bestsolution.drawswf.DrawObjectTableCellEditor
-at.bestsolution.drawswf.DrawObjectTableCellEditor$DrawSWFFontDelegate
-at.bestsolution.drawswf.DrawObjectTableCellEditor$ColorDelegate
-at.bestsolution.drawswf.DrawObjectTableCellRenderer
-at.bestsolution.drawswf.DrawToolBar
-at.bestsolution.drawswf.FlashGenerator
-at.bestsolution.drawswf.GenericFileFilter
-at.bestsolution.drawswf.IconProvider
-at.bestsolution.drawswf.LineWidthChooser
-at.bestsolution.drawswf.LineWidthChooser$JLinePanel
-at.bestsolution.drawswf.MainWindow
-at.bestsolution.drawswf.menu.DrawEditMenu
-at.bestsolution.drawswf.menu.DrawFileMenu
-at.bestsolution.drawswf.menu.DrawHelpMenu
-at.bestsolution.drawswf.menu.DrawMenuInterface
-at.bestsolution.drawswf.menu.DrawMovieMenu
-at.bestsolution.drawswf.menu.DrawToolsMenu
-at.bestsolution.drawswf.PictureDialog
-at.bestsolution.drawswf.plugin.remotesave.action.RemoteSaveAction
-at.bestsolution.drawswf.plugin.remotesave.dialog.RemoteSaveDialog
-at.bestsolution.drawswf.plugin.remotesave.RemoteSavePlugin
-at.bestsolution.drawswf.plugin.remotesave.util.RemoteSaveConfig
-at.bestsolution.drawswf.PluginLoader
-at.bestsolution.drawswf.PropertiesDialog
-at.bestsolution.drawswf.SplashScreen
-at.bestsolution.drawswf.toolbar.DrawEditToolbar
-at.bestsolution.drawswf.toolbar.DrawFileToolbar
-at.bestsolution.drawswf.toolbar.DrawMovieToolbar
-at.bestsolution.drawswf.toolbar.DrawToolbarInterface
-at.bestsolution.drawswf.toolbar.DrawToolsToolbar
-at.bestsolution.drawswf.util.DrawSWFConfig
-at.bestsolution.ext.swing.AlphaColorButtonI
-at.bestsolution.ext.swing.AlphaColorJButton
-at.bestsolution.ext.swing.AlphaColorJMenuItem
-at.bestsolution.ext.swing.dialog.AlphaColorChooser
-at.bestsolution.ext.swing.dialog.FilePreviewer
-at.bestsolution.ext.swing.dialog.JGradientChooser
-at.bestsolution.ext.swing.dialog.PreviewPanel
-at.bestsolution.ext.swing.GradientButtonI
-at.bestsolution.ext.swing.GradientJButton
-at.bestsolution.ext.swing.GradientJRadioButton
-at.bestsolution.ext.swing.GradientJRadioButtonMenuItem
-at.bestsolution.ext.swing.icon.GradientIcon
-at.bestsolution.ext.swing.icon.IIconFactory
-at.bestsolution.ext.swing.icon.SolidColoredIcon
-at.bestsolution.util.BestsolutionConfiguration
-at.bestsolution.util.BestsolutionConfigurationEditor
-at.bestsolution.util.BestsolutionConfigurationEditorFactory
-at.bestsolution.util.ExtensionsClassLoader
-com.anotherbigidea.flash.interfaces.SWFActions
-com.anotherbigidea.flash.interfaces.SWFHeader
-com.anotherbigidea.flash.interfaces.SWFShape
-com.anotherbigidea.flash.interfaces.SWFSpriteTagTypes
-com.anotherbigidea.flash.interfaces.SWFTags
-com.anotherbigidea.flash.interfaces.SWFTagTypes
-com.anotherbigidea.flash.interfaces.SWFText
-com.anotherbigidea.flash.interfaces.SWFVectors
-com.anotherbigidea.flash.movie.Actions
-com.anotherbigidea.flash.movie.Button
-com.anotherbigidea.flash.movie.Button$Layer
-com.anotherbigidea.flash.movie.EditField
-com.anotherbigidea.flash.movie.ExportedSymbol
-com.anotherbigidea.flash.movie.Font
-com.anotherbigidea.flash.movie.Font$NoGlyphException
-com.anotherbigidea.flash.movie.Font$Chars
-com.anotherbigidea.flash.movie.FontDefinition
-com.anotherbigidea.flash.movie.FontDefinition$Glyph
-com.anotherbigidea.flash.movie.FontDefinition$KerningPair
-com.anotherbigidea.flash.movie.Frame
-com.anotherbigidea.flash.movie.Image
-com.anotherbigidea.flash.movie.Image$Lossless
-com.anotherbigidea.flash.movie.Image$JPEG
-com.anotherbigidea.flash.movie.ImageUtil
-com.anotherbigidea.flash.movie.ImportedSymbol
-com.anotherbigidea.flash.movie.Instance
-com.anotherbigidea.flash.movie.MorphShape
-com.anotherbigidea.flash.movie.Movie
-com.anotherbigidea.flash.movie.MovieClip
-com.anotherbigidea.flash.movie.Placement
-com.anotherbigidea.flash.movie.QTMovie
-com.anotherbigidea.flash.movie.Shape
-com.anotherbigidea.flash.movie.Shape$Element
-com.anotherbigidea.flash.movie.Shape$Style
-com.anotherbigidea.flash.movie.Shape$FillStyle
-com.anotherbigidea.flash.movie.Shape$ColorFill
-com.anotherbigidea.flash.movie.Shape$ImageFill
-com.anotherbigidea.flash.movie.Shape$GradientFill
-com.anotherbigidea.flash.movie.Shape$LineStyle
-com.anotherbigidea.flash.movie.Shape$SetStyle
-com.anotherbigidea.flash.movie.Shape$SetFillStyle
-com.anotherbigidea.flash.movie.Shape$SetLeftFillStyle
-com.anotherbigidea.flash.movie.Shape$SetRightFillStyle
-com.anotherbigidea.flash.movie.Shape$SetLineStyle
-com.anotherbigidea.flash.movie.Shape$Vector
-com.anotherbigidea.flash.movie.Shape$Move
-com.anotherbigidea.flash.movie.Shape$Line
-com.anotherbigidea.flash.movie.Shape$Curve
-com.anotherbigidea.flash.movie.Sound
-com.anotherbigidea.flash.movie.Symbol
-com.anotherbigidea.flash.movie.SystemFontDefinition
-com.anotherbigidea.flash.movie.TimeLine
-com.anotherbigidea.flash.movie.Transform
-com.anotherbigidea.flash.readers.ActionParser
-com.anotherbigidea.flash.readers.ActionParser$ActionRecord
-com.anotherbigidea.flash.readers.MovieBuilder
-com.anotherbigidea.flash.readers.MovieBuilder$ActionsBuilder
-com.anotherbigidea.flash.readers.MovieBuilder$ButtonActionBuilder
-com.anotherbigidea.flash.readers.MovieBuilder$ClipActionBuilder
-com.anotherbigidea.flash.readers.MovieBuilder$ShapeBuilder
-com.anotherbigidea.flash.readers.MovieBuilder$MorphShapeBuilder
-com.anotherbigidea.flash.readers.MovieBuilder$GlyphBuilder
-com.anotherbigidea.flash.readers.MovieBuilder$TextBuilder
-com.anotherbigidea.flash.readers.SWFReader
-com.anotherbigidea.flash.readers.TagParser
-com.anotherbigidea.flash.sound.ADPCMConstants
-com.anotherbigidea.flash.sound.ADPCMEncodeStream
-com.anotherbigidea.flash.sound.ADPCMHelper
-com.anotherbigidea.flash.sound.ADPCMHelper$ADPCMPacket
-com.anotherbigidea.flash.sound.ADPCMHelper$FramedInputStream
-com.anotherbigidea.flash.sound.MP3Frame
-com.anotherbigidea.flash.sound.MP3Helper
-com.anotherbigidea.flash.sound.RawHelper
-com.anotherbigidea.flash.sound.SoundStreamHead
-com.anotherbigidea.flash.structs.AlphaColor
-com.anotherbigidea.flash.structs.AlphaTransform
-com.anotherbigidea.flash.structs.ButtonRecord
-com.anotherbigidea.flash.structs.ButtonRecord2
-com.anotherbigidea.flash.structs.Color
-com.anotherbigidea.flash.structs.ColorTransform
-com.anotherbigidea.flash.structs.FillStyle
-com.anotherbigidea.flash.structs.LineStyle
-com.anotherbigidea.flash.structs.Matrix
-com.anotherbigidea.flash.structs.Rect
-com.anotherbigidea.flash.structs.SoundInfo
-com.anotherbigidea.flash.structs.SoundInfo$EnvelopePoint
-com.anotherbigidea.flash.structs.Style
-com.anotherbigidea.flash.SWFActionCodes
-com.anotherbigidea.flash.SWFConstants
-com.anotherbigidea.flash.Unprotector
-com.anotherbigidea.flash.writers.ActionTextWriter
-com.anotherbigidea.flash.writers.ActionWriter
-com.anotherbigidea.flash.writers.DummySWFWriter
-com.anotherbigidea.flash.writers.SWFActionsImpl
-com.anotherbigidea.flash.writers.SWFTagDumper
-com.anotherbigidea.flash.writers.SWFTagTypesImpl
-com.anotherbigidea.flash.writers.SWFWriter
-com.anotherbigidea.flash.writers.TagWriter
-com.anotherbigidea.flash.writers.TagWriter$ButtonActionWriter
-com.anotherbigidea.flash.writers.TagWriter$SWFTextImpl
-com.anotherbigidea.flash.writers.TagWriter$SpriteTags
-com.anotherbigidea.flash.writers.TagWriter$SWFShapeImpl
-com.anotherbigidea.flash.writers.TagWriter$MorphShapeImpl
-com.anotherbigidea.flash.writers.TagWriter$Font2ShapeImpl
-com.anotherbigidea.io.Byte4ByteDebugStreams
-com.anotherbigidea.io.InStream
-com.anotherbigidea.io.OutStream
-com.anotherbigidea.util.Base64
-com.anotherbigidea.util.Hex
-com.incors.plaf.ColorUIResource2
-com.incors.plaf.FastGradientPaint
-com.incors.plaf.FastGradientPaintContext
-com.incors.plaf.FastGradientPaintContext$GradientInfo
-com.incors.plaf.FastGradientPaintContext$Gradient
-com.incors.plaf.kunststoff.GradientTheme
-com.incors.plaf.kunststoff.KunststoffButtonUI
-com.incors.plaf.kunststoff.KunststoffCheckBoxIcon
-com.incors.plaf.kunststoff.KunststoffCheckBoxUI
-com.incors.plaf.kunststoff.KunststoffComboBoxUI
-com.incors.plaf.kunststoff.KunststoffComboBoxUI$MyMetalComboBoxButton
-com.incors.plaf.kunststoff.KunststoffGradientTheme
-com.incors.plaf.kunststoff.KunststoffInternalFrameTitlePane
-com.incors.plaf.kunststoff.KunststoffInternalFrameUI
-com.incors.plaf.kunststoff.KunststoffInternalFrameUI$PaletteListener
-com.incors.plaf.kunststoff.KunststoffListUI
-com.incors.plaf.kunststoff.KunststoffLookAndFeel
-com.incors.plaf.kunststoff.KunststoffMenuBarUI
-com.incors.plaf.kunststoff.KunststoffMenuUI
-com.incors.plaf.kunststoff.KunststoffPasswordFieldUI
-com.incors.plaf.kunststoff.KunststoffProgressBarUI
-com.incors.plaf.kunststoff.KunststoffScrollBarUI
-com.incors.plaf.kunststoff.KunststoffScrollButton
-com.incors.plaf.kunststoff.KunststoffTabbedPaneUI
-com.incors.plaf.kunststoff.KunststoffTableHeaderUI
-com.incors.plaf.kunststoff.KunststoffTextAreaUI
-com.incors.plaf.kunststoff.KunststoffTextFieldUI
-com.incors.plaf.kunststoff.KunststoffTheme
-com.incors.plaf.kunststoff.KunststoffToggleButtonUI
-com.incors.plaf.kunststoff.KunststoffToolBarUI
-com.incors.plaf.kunststoff.KunststoffTreeUI
-com.incors.plaf.kunststoff.KunststoffUtilities
-com.incors.plaf.kunststoff.ModifiedDefaultListCellRenderer
-com.incors.plaf.kunststoff.themes.KunststoffDesktopTheme
-com.incors.plaf.kunststoff.themes.KunststoffNotebookTheme
-com.incors.plaf.kunststoff.themes.KunststoffPresentationTheme
-org.apache.batik.ext.awt.AreaOfInterestHintKey
-org.apache.batik.ext.awt.BufferedImageHintKey
-org.apache.batik.ext.awt.ColorSpaceHintKey
-org.apache.batik.ext.awt.image.CompositeRule
-org.apache.batik.ext.awt.image.GraphicsUtil
-org.apache.batik.ext.awt.image.PadMode
-org.apache.batik.ext.awt.image.renderable.Filter
-org.apache.batik.ext.awt.image.renderable.PaintRable
-org.apache.batik.ext.awt.image.rendered.AbstractRed
-org.apache.batik.ext.awt.image.rendered.AbstractTiledRed
-org.apache.batik.ext.awt.image.rendered.AffineRed
-org.apache.batik.ext.awt.image.rendered.Any2LsRGBRed
-org.apache.batik.ext.awt.image.rendered.Any2sRGBRed
-org.apache.batik.ext.awt.image.rendered.BufferedImageCachableRed
-org.apache.batik.ext.awt.image.rendered.CachableRed
-org.apache.batik.ext.awt.image.rendered.FormatRed
-org.apache.batik.ext.awt.image.rendered.LRUCache
-org.apache.batik.ext.awt.image.rendered.LRUCache$LRUObj
-org.apache.batik.ext.awt.image.rendered.LRUCache$LRUNode
-org.apache.batik.ext.awt.image.rendered.MultiplyAlphaRed
-org.apache.batik.ext.awt.image.rendered.PadRed
-org.apache.batik.ext.awt.image.rendered.PadRed$ZeroRecter
-org.apache.batik.ext.awt.image.rendered.PadRed$ZeroRecter_INT_PACK
-org.apache.batik.ext.awt.image.rendered.RenderedImageCachableRed
-org.apache.batik.ext.awt.image.rendered.TileBlock
-org.apache.batik.ext.awt.image.rendered.TileCache
-org.apache.batik.ext.awt.image.rendered.TileGenerator
-org.apache.batik.ext.awt.image.rendered.TileGrid
-org.apache.batik.ext.awt.image.rendered.TileLRUMember
-org.apache.batik.ext.awt.image.rendered.TileMap
-org.apache.batik.ext.awt.image.rendered.TileMap$TileMapLRUMember
-org.apache.batik.ext.awt.image.rendered.TileStore
-org.apache.batik.ext.awt.image.rendered.TranslateRed
-org.apache.batik.ext.awt.image.SVGComposite
-org.apache.batik.ext.awt.image.SVGComposite$AlphaPreCompositeContext
-org.apache.batik.ext.awt.image.SVGComposite$AlphaPreCompositeContext_INT_PACK
-org.apache.batik.ext.awt.image.SVGComposite$OverCompositeContext
-org.apache.batik.ext.awt.image.SVGComposite$OverCompositeContext_NA
-org.apache.batik.ext.awt.image.SVGComposite$OverCompositeContext_INT_PACK
-org.apache.batik.ext.awt.image.SVGComposite$OverCompositeContext_INT_PACK_NA
-org.apache.batik.ext.awt.image.SVGComposite$OverCompositeContext_INT_PACK_UNPRE
-org.apache.batik.ext.awt.image.SVGComposite$InCompositeContext
-org.apache.batik.ext.awt.image.SVGComposite$InCompositeContext_INT_PACK
-org.apache.batik.ext.awt.image.SVGComposite$OutCompositeContext
-org.apache.batik.ext.awt.image.SVGComposite$OutCompositeContext_INT_PACK
-org.apache.batik.ext.awt.image.SVGComposite$AtopCompositeContext
-org.apache.batik.ext.awt.image.SVGComposite$AtopCompositeContext_INT_PACK
-org.apache.batik.ext.awt.image.SVGComposite$XorCompositeContext
-org.apache.batik.ext.awt.image.SVGComposite$XorCompositeContext_INT_PACK
-org.apache.batik.ext.awt.image.SVGComposite$ArithCompositeContext
-org.apache.batik.ext.awt.image.SVGComposite$ArithCompositeContext_INT_PACK
-org.apache.batik.ext.awt.image.SVGComposite$ArithCompositeContext_INT_PACK_LUT
-org.apache.batik.ext.awt.image.SVGComposite$MultiplyCompositeContext
-org.apache.batik.ext.awt.image.SVGComposite$MultiplyCompositeContext_INT_PACK
-org.apache.batik.ext.awt.image.SVGComposite$ScreenCompositeContext
-org.apache.batik.ext.awt.image.SVGComposite$ScreenCompositeContext_INT_PACK
-org.apache.batik.ext.awt.image.SVGComposite$DarkenCompositeContext
-org.apache.batik.ext.awt.image.SVGComposite$DarkenCompositeContext_INT_PACK
-org.apache.batik.ext.awt.image.SVGComposite$LightenCompositeContext
-org.apache.batik.ext.awt.image.SVGComposite$LightenCompositeContext_INT_PACK
-org.apache.batik.ext.awt.LinearGradientPaint
-org.apache.batik.ext.awt.LinearGradientPaintContext
-org.apache.batik.ext.awt.MultipleGradientPaint
-org.apache.batik.ext.awt.MultipleGradientPaint$ColorSpaceEnum
-org.apache.batik.ext.awt.MultipleGradientPaint$CycleMethodEnum
-org.apache.batik.ext.awt.MultipleGradientPaintContext
-org.apache.batik.ext.awt.RadialGradientPaint
-org.apache.batik.ext.awt.RadialGradientPaintContext
-org.apache.batik.ext.awt.RenderingHintsKeyExt
-org.apache.batik.ext.awt.TranscodingHintKey
-org.apache.batik.util.DoublyLinkedList
-org.apache.batik.util.DoublyLinkedList$Node
+org.apache.batik.util.DoublyLinkedList	classe	11
+org.apache.batik.util.DoublyLinkedList$Node	classe	6
+org.apache.batik.ext.awt.TranscodingHintKey	classe	1
+org.apache.batik.ext.awt.BufferedImageHintKey	classe	1
+org.apache.batik.ext.awt.MultipleGradientPaintContext	classe	17
+org.apache.batik.ext.awt.RadialGradientPaint	classe	4
+org.apache.batik.ext.awt.AreaOfInterestHintKey	classe	1
+org.apache.batik.ext.awt.image.GraphicsUtil	classe	34
+org.apache.batik.ext.awt.image.renderable.PaintRable	interface	1
+org.apache.batik.ext.awt.image.renderable.Filter	interface	4
+org.apache.batik.ext.awt.image.CompositeRule	classe	5
+org.apache.batik.ext.awt.image.rendered.AbstractRed	classe	31
+org.apache.batik.ext.awt.image.rendered.PadRed	classe	5
+org.apache.batik.ext.awt.image.rendered.PadRed$ZeroRecter	classe	3
+org.apache.batik.ext.awt.image.rendered.PadRed$ZeroRecter_INT_PACK	classe	1
+org.apache.batik.ext.awt.image.rendered.FormatRed	classe	7
+org.apache.batik.ext.awt.image.rendered.TileCache	classe	4
+org.apache.batik.ext.awt.image.rendered.AbstractTiledRed	classe	18
+org.apache.batik.ext.awt.image.rendered.TileGenerator	interface	1
+org.apache.batik.ext.awt.image.rendered.Any2LsRGBRed	classe	4
+org.apache.batik.ext.awt.image.rendered.CachableRed	interface	3
+org.apache.batik.ext.awt.image.rendered.TileMap	classe	3
+org.apache.batik.ext.awt.image.rendered.TileMap$TileMapLRUMember	classe	1
+org.apache.batik.ext.awt.image.rendered.Any2sRGBRed	classe	5
+org.apache.batik.ext.awt.image.rendered.LRUCache	classe	7
+org.apache.batik.ext.awt.image.rendered.LRUCache$LRUObj	interface	3
+org.apache.batik.ext.awt.image.rendered.LRUCache$LRUNode	classe	2
+org.apache.batik.ext.awt.image.rendered.MultiplyAlphaRed	classe	7
+org.apache.batik.ext.awt.image.rendered.TranslateRed	classe	9
+org.apache.batik.ext.awt.image.rendered.BufferedImageCachableRed	classe	8
+org.apache.batik.ext.awt.image.rendered.TileStore	interface	3
+org.apache.batik.ext.awt.image.rendered.TileBlock	classe	11
+org.apache.batik.ext.awt.image.rendered.TileGrid	classe	3
+org.apache.batik.ext.awt.image.rendered.RenderedImageCachableRed	classe	25
+org.apache.batik.ext.awt.image.rendered.AffineRed	classe	7
+org.apache.batik.ext.awt.image.rendered.TileLRUMember	classe	6
+org.apache.batik.ext.awt.image.SVGComposite	classe	4
+org.apache.batik.ext.awt.image.SVGComposite$AlphaPreCompositeContext	classe	3
+org.apache.batik.ext.awt.image.SVGComposite$AlphaPreCompositeContext_INT_PACK	classe	2
+org.apache.batik.ext.awt.image.SVGComposite$OverCompositeContext	classe	1
+org.apache.batik.ext.awt.image.SVGComposite$OverCompositeContext_NA	classe	1
+org.apache.batik.ext.awt.image.SVGComposite$OverCompositeContext_INT_PACK	classe	1
+org.apache.batik.ext.awt.image.SVGComposite$OverCompositeContext_INT_PACK_NA	classe	1
+org.apache.batik.ext.awt.image.SVGComposite$OverCompositeContext_INT_PACK_UNPRE	classe	2
+org.apache.batik.ext.awt.image.SVGComposite$InCompositeContext	classe	1
+org.apache.batik.ext.awt.image.SVGComposite$InCompositeContext_INT_PACK	classe	1
+org.apache.batik.ext.awt.image.SVGComposite$OutCompositeContext	classe	1
+org.apache.batik.ext.awt.image.SVGComposite$OutCompositeContext_INT_PACK	classe	1
+org.apache.batik.ext.awt.image.SVGComposite$AtopCompositeContext	classe	1
+org.apache.batik.ext.awt.image.SVGComposite$AtopCompositeContext_INT_PACK	classe	1
+org.apache.batik.ext.awt.image.SVGComposite$XorCompositeContext	classe	1
+org.apache.batik.ext.awt.image.SVGComposite$XorCompositeContext_INT_PACK	classe	1
+org.apache.batik.ext.awt.image.SVGComposite$ArithCompositeContext	classe	1
+org.apache.batik.ext.awt.image.SVGComposite$ArithCompositeContext_INT_PACK	classe	1
+org.apache.batik.ext.awt.image.SVGComposite$ArithCompositeContext_INT_PACK_LUT	classe	1
+org.apache.batik.ext.awt.image.SVGComposite$MultiplyCompositeContext	classe	1
+org.apache.batik.ext.awt.image.SVGComposite$MultiplyCompositeContext_INT_PACK	classe	1
+org.apache.batik.ext.awt.image.SVGComposite$ScreenCompositeContext	classe	1
+org.apache.batik.ext.awt.image.SVGComposite$ScreenCompositeContext_INT_PACK	classe	1
+org.apache.batik.ext.awt.image.SVGComposite$DarkenCompositeContext	classe	1
+org.apache.batik.ext.awt.image.SVGComposite$DarkenCompositeContext_INT_PACK	classe	1
+org.apache.batik.ext.awt.image.SVGComposite$LightenCompositeContext	classe	1
+org.apache.batik.ext.awt.image.SVGComposite$LightenCompositeContext_INT_PACK	classe	1
+org.apache.batik.ext.awt.image.PadMode	classe	2
+org.apache.batik.ext.awt.LinearGradientPaint	classe	3
+org.apache.batik.ext.awt.ColorSpaceHintKey	classe	1
+org.apache.batik.ext.awt.RenderingHintsKeyExt	classe	0
+org.apache.batik.ext.awt.MultipleGradientPaint	classe	6
+org.apache.batik.ext.awt.MultipleGradientPaint$ColorSpaceEnum	classe	0
+org.apache.batik.ext.awt.MultipleGradientPaint$CycleMethodEnum	classe	0
+org.apache.batik.ext.awt.RadialGradientPaintContext	classe	5
+org.apache.batik.ext.awt.LinearGradientPaintContext	classe	5
+null.DrawSWF	classe	1
+null.TestGradient	classe	2
+at.bestsolution.util.BestsolutionConfigurationEditor	classe	4
+at.bestsolution.util.ExtensionsClassLoader	classe	3
+at.bestsolution.util.BestsolutionConfigurationEditorFactory	classe	1
+at.bestsolution.util.BestsolutionConfiguration	classe	11
+at.bestsolution.ext.swing.AlphaColorJButton	classe	4
+at.bestsolution.ext.swing.AlphaColorButtonI	interface	2
+at.bestsolution.ext.swing.AlphaColorJMenuItem	classe	3
+at.bestsolution.ext.swing.dialog.JGradientChooser	classe	5
+at.bestsolution.ext.swing.dialog.FilePreviewer	classe	3
+at.bestsolution.ext.swing.dialog.AlphaColorChooser	classe	5
+at.bestsolution.ext.swing.dialog.PreviewPanel	classe	6
+at.bestsolution.ext.swing.GradientJRadioButton	classe	3
+at.bestsolution.ext.swing.icon.GradientIcon	classe	8
+at.bestsolution.ext.swing.icon.SolidColoredIcon	classe	8
+at.bestsolution.ext.swing.icon.IIconFactory	interface	2
+at.bestsolution.ext.swing.GradientButtonI	interface	1
+at.bestsolution.ext.swing.GradientJRadioButtonMenuItem	classe	3
+at.bestsolution.ext.swing.GradientJButton	classe	2
+at.bestsolution.drawswf.LineWidthChooser	classe	1
+at.bestsolution.drawswf.LineWidthChooser$JLinePanel	classe	1
+at.bestsolution.drawswf.util.DrawSWFConfig	classe	3
+at.bestsolution.drawswf.PluginLoader	classe	3
+at.bestsolution.drawswf.DrawObjectTableCellRenderer	classe	1
+at.bestsolution.drawswf.toolbar.DrawToolbarInterface	interface	2
+at.bestsolution.drawswf.toolbar.DrawToolsToolbar	classe	10
+at.bestsolution.drawswf.toolbar.DrawFileToolbar	classe	7
+at.bestsolution.drawswf.toolbar.DrawEditToolbar	classe	6
+at.bestsolution.drawswf.toolbar.DrawMovieToolbar	classe	4
+at.bestsolution.drawswf.plugin.remotesave.util.RemoteSaveConfig	classe	3
+at.bestsolution.drawswf.plugin.remotesave.dialog.RemoteSaveDialog	classe	4
+at.bestsolution.drawswf.plugin.remotesave.action.RemoteSaveAction	classe	1
+at.bestsolution.drawswf.plugin.remotesave.RemoteSavePlugin	classe	6
+at.bestsolution.drawswf.DrawMenuBar	classe	4
+at.bestsolution.drawswf.AboutWindow	classe	3
+at.bestsolution.drawswf.IconProvider	classe	3
+at.bestsolution.drawswf.DrawObjectList	classe	9
+at.bestsolution.drawswf.DrawToolBar	classe	4
+at.bestsolution.drawswf.dialog.OpenList	classe	12
+at.bestsolution.drawswf.dialog.OptionsDialog	classe	7
+at.bestsolution.drawswf.dialog.FontDialog	classe	17
+at.bestsolution.drawswf.DrawObjectTableCellEditor	classe	1
+at.bestsolution.drawswf.DrawObjectTableCellEditor$DrawSWFFontDelegate	classe	5
+at.bestsolution.drawswf.DrawObjectTableCellEditor$ColorDelegate	classe	5
+at.bestsolution.drawswf.drawobjects.Picture	classe	18
+at.bestsolution.drawswf.drawobjects.DrawObject	classe	40
+at.bestsolution.drawswf.drawobjects.Ellipse	classe	24
+at.bestsolution.drawswf.drawobjects.DrawSWFFont	classe	7
+at.bestsolution.drawswf.drawobjects.StraightLine	classe	22
+at.bestsolution.drawswf.drawobjects.Rectangle	classe	24
+at.bestsolution.drawswf.drawobjects.DrawObjectFactory	classe	5
+at.bestsolution.drawswf.drawobjects.Line	classe	18
+at.bestsolution.drawswf.menu.DrawEditMenu	classe	6
+at.bestsolution.drawswf.menu.DrawHelpMenu	classe	3
+at.bestsolution.drawswf.menu.DrawToolsMenu	classe	10
+at.bestsolution.drawswf.menu.DrawFileMenu	classe	8
+at.bestsolution.drawswf.menu.DrawMovieMenu	classe	4
+at.bestsolution.drawswf.menu.DrawMenuInterface	interface	2
+at.bestsolution.drawswf.actions.SetColorAction	classe	3
+at.bestsolution.drawswf.actions.SetCanvasSizeAction	classe	1
+at.bestsolution.drawswf.actions.ExitAction	classe	1
+at.bestsolution.drawswf.actions.SetDrawingModeAction	classe	1
+at.bestsolution.drawswf.actions.NewFileAction	classe	2
+at.bestsolution.drawswf.actions.SetDrawing2GradientAction	classe	1
+at.bestsolution.drawswf.actions.AbstractDrawAction	classe	1
+at.bestsolution.drawswf.actions.GraphicTemplateAction	classe	1
+at.bestsolution.drawswf.actions.SaveAction	classe	1
+at.bestsolution.drawswf.actions.AboutAction	classe	1
+at.bestsolution.drawswf.actions.ObjectListAction	classe	1
+at.bestsolution.drawswf.actions.SaveSWFAction	classe	2
+at.bestsolution.drawswf.actions.RedoAction	classe	1
+at.bestsolution.drawswf.actions.SetLineWidthAction	classe	1
+at.bestsolution.drawswf.actions.OpenOptionsDialogAction	classe	1
+at.bestsolution.drawswf.actions.PlayAction	classe	1
+at.bestsolution.drawswf.actions.FileAction	classe	2
+at.bestsolution.drawswf.actions.UndoAction	classe	1
+at.bestsolution.drawswf.actions.ClearAction	classe	1
+at.bestsolution.drawswf.PropertiesDialog	classe	3
+at.bestsolution.drawswf.FlashGenerator	classe	1
+at.bestsolution.drawswf.MainWindow	classe	13
+at.bestsolution.drawswf.PictureDialog	classe	0
+at.bestsolution.drawswf.AnimationThread	classe	1
+at.bestsolution.drawswf.DrawingPanel	classe	45
+at.bestsolution.drawswf.GenericFileFilter	classe	3
+at.bestsolution.drawswf.AbstractPlugin	classe	5
+at.bestsolution.drawswf.SplashScreen	classe	5
+com.anotherbigidea.util.Base64	classe	6
+com.anotherbigidea.util.Hex	classe	7
+com.anotherbigidea.io.InStream	classe	20
+com.anotherbigidea.io.Byte4ByteDebugStreams	classe	4
+com.anotherbigidea.io.OutStream	classe	29
+com.anotherbigidea.flash.movie.ExportedSymbol	classe	2
+com.anotherbigidea.flash.movie.Image	classe	0
+com.anotherbigidea.flash.movie.Image$Lossless	classe	7
+com.anotherbigidea.flash.movie.Image$JPEG	classe	2
+com.anotherbigidea.flash.movie.Actions	classe	6
+com.anotherbigidea.flash.movie.Transform	classe	4
+com.anotherbigidea.flash.movie.EditField	classe	40
+com.anotherbigidea.flash.movie.Sound	classe	3
+com.anotherbigidea.flash.movie.Frame	classe	27
+com.anotherbigidea.flash.movie.Button	classe	7
+com.anotherbigidea.flash.movie.Button$Layer	classe	17
+com.anotherbigidea.flash.movie.TimeLine	interface	5
+com.anotherbigidea.flash.movie.MorphShape	classe	5
+com.anotherbigidea.flash.movie.Font	classe	13
+com.anotherbigidea.flash.movie.Font$NoGlyphException	classe	0
+com.anotherbigidea.flash.movie.Font$Chars	classe	9
+com.anotherbigidea.flash.movie.MovieClip	classe	7
+com.anotherbigidea.flash.movie.QTMovie	classe	3
+com.anotherbigidea.flash.movie.SystemFontDefinition	classe	4
+com.anotherbigidea.flash.movie.Placement	classe	15
+com.anotherbigidea.flash.movie.Symbol	classe	4
+com.anotherbigidea.flash.movie.Instance	classe	2
+com.anotherbigidea.flash.movie.ImportedSymbol	classe	3
+com.anotherbigidea.flash.movie.FontDefinition	classe	19
+com.anotherbigidea.flash.movie.FontDefinition$Glyph	classe	6
+com.anotherbigidea.flash.movie.FontDefinition$KerningPair	classe	6
+com.anotherbigidea.flash.movie.ImageUtil	classe	4
+com.anotherbigidea.flash.movie.Movie	classe	26
+com.anotherbigidea.flash.movie.Shape	classe	25
+com.anotherbigidea.flash.movie.Shape$Element	classe	0
+com.anotherbigidea.flash.movie.Shape$Style	classe	0
+com.anotherbigidea.flash.movie.Shape$FillStyle	classe	0
+com.anotherbigidea.flash.movie.Shape$ColorFill	classe	2
+com.anotherbigidea.flash.movie.Shape$ImageFill	classe	6
+com.anotherbigidea.flash.movie.Shape$GradientFill	classe	8
+com.anotherbigidea.flash.movie.Shape$LineStyle	classe	4
+com.anotherbigidea.flash.movie.Shape$SetStyle	classe	2
+com.anotherbigidea.flash.movie.Shape$SetFillStyle	classe	0
+com.anotherbigidea.flash.movie.Shape$SetLeftFillStyle	classe	0
+com.anotherbigidea.flash.movie.Shape$SetRightFillStyle	classe	0
+com.anotherbigidea.flash.movie.Shape$SetLineStyle	classe	0
+com.anotherbigidea.flash.movie.Shape$Vector	classe	4
+com.anotherbigidea.flash.movie.Shape$Move	classe	0
+com.anotherbigidea.flash.movie.Shape$Line	classe	0
+com.anotherbigidea.flash.movie.Shape$Curve	classe	4
+com.anotherbigidea.flash.SWFActionCodes	interface	0
+com.anotherbigidea.flash.writers.SWFActionsImpl	classe	104
+com.anotherbigidea.flash.writers.TagWriter	classe	60
+com.anotherbigidea.flash.writers.TagWriter$ButtonActionWriter	classe	2
+com.anotherbigidea.flash.writers.TagWriter$SWFTextImpl	classe	7
+com.anotherbigidea.flash.writers.TagWriter$SpriteTags	classe	2
+com.anotherbigidea.flash.writers.TagWriter$SWFShapeImpl	classe	17
+com.anotherbigidea.flash.writers.TagWriter$MorphShapeImpl	classe	3
+com.anotherbigidea.flash.writers.TagWriter$Font2ShapeImpl	classe	1
+com.anotherbigidea.flash.writers.SWFTagDumper	classe	71
+com.anotherbigidea.flash.writers.DummySWFWriter	classe	2
+com.anotherbigidea.flash.writers.SWFWriter	classe	4
+com.anotherbigidea.flash.writers.SWFTagTypesImpl	classe	50
+com.anotherbigidea.flash.writers.ActionTextWriter	classe	105
+com.anotherbigidea.flash.writers.ActionWriter	classe	110
+com.anotherbigidea.flash.Unprotector	classe	3
+com.anotherbigidea.flash.SWFConstants	interface	0
+com.anotherbigidea.flash.structs.FillStyle	classe	8
+com.anotherbigidea.flash.structs.SoundInfo	classe	8
+com.anotherbigidea.flash.structs.SoundInfo$EnvelopePoint	classe	0
+com.anotherbigidea.flash.structs.ButtonRecord2	classe	6
+com.anotherbigidea.flash.structs.Matrix	classe	14
+com.anotherbigidea.flash.structs.ColorTransform	classe	16
+com.anotherbigidea.flash.structs.AlphaTransform	classe	7
+com.anotherbigidea.flash.structs.ButtonRecord	classe	16
+com.anotherbigidea.flash.structs.LineStyle	classe	4
+com.anotherbigidea.flash.structs.Style	interface	1
+com.anotherbigidea.flash.structs.AlphaColor	classe	6
+com.anotherbigidea.flash.structs.Rect	classe	12
+com.anotherbigidea.flash.structs.Color	classe	11
+com.anotherbigidea.flash.readers.TagParser	classe	36
+com.anotherbigidea.flash.readers.SWFReader	classe	5
+com.anotherbigidea.flash.readers.ActionParser	classe	10
+com.anotherbigidea.flash.readers.ActionParser$ActionRecord	classe	0
+com.anotherbigidea.flash.readers.MovieBuilder	classe	57
+com.anotherbigidea.flash.readers.MovieBuilder$ActionsBuilder	classe	2
+com.anotherbigidea.flash.readers.MovieBuilder$ButtonActionBuilder	classe	1
+com.anotherbigidea.flash.readers.MovieBuilder$ClipActionBuilder	classe	1
+com.anotherbigidea.flash.readers.MovieBuilder$ShapeBuilder	classe	11
+com.anotherbigidea.flash.readers.MovieBuilder$MorphShapeBuilder	classe	1
+com.anotherbigidea.flash.readers.MovieBuilder$GlyphBuilder	classe	1
+com.anotherbigidea.flash.readers.MovieBuilder$TextBuilder	classe	6
+com.anotherbigidea.flash.sound.ADPCMEncodeStream	classe	9
+com.anotherbigidea.flash.sound.SoundStreamHead	classe	1
+com.anotherbigidea.flash.sound.MP3Frame	classe	8
+com.anotherbigidea.flash.sound.ADPCMConstants	interface	0
+com.anotherbigidea.flash.sound.RawHelper	classe	3
+com.anotherbigidea.flash.sound.ADPCMHelper	classe	7
+com.anotherbigidea.flash.sound.ADPCMHelper$ADPCMPacket	classe	0
+com.anotherbigidea.flash.sound.ADPCMHelper$FramedInputStream	classe	1
+com.anotherbigidea.flash.sound.MP3Helper	classe	3
+com.anotherbigidea.flash.interfaces.SWFText	interface	6
+com.anotherbigidea.flash.interfaces.SWFTags	interface	1
+com.anotherbigidea.flash.interfaces.SWFTagTypes	interface	35
+com.anotherbigidea.flash.interfaces.SWFHeader	interface	1
+com.anotherbigidea.flash.interfaces.SWFSpriteTagTypes	interface	13
+com.anotherbigidea.flash.interfaces.SWFActions	interface	103
+com.anotherbigidea.flash.interfaces.SWFVectors	interface	4
+com.anotherbigidea.flash.interfaces.SWFShape	interface	7
+com.incors.plaf.FastGradientPaint	classe	2
+com.incors.plaf.FastGradientPaintContext	classe	3
+com.incors.plaf.FastGradientPaintContext$GradientInfo	classe	3
+com.incors.plaf.FastGradientPaintContext$Gradient	classe	3
+com.incors.plaf.kunststoff.GradientTheme	interface	5
+com.incors.plaf.kunststoff.KunststoffInternalFrameTitlePane	classe	1
+com.incors.plaf.kunststoff.KunststoffComboBoxUI	classe	2
+com.incors.plaf.kunststoff.KunststoffComboBoxUI$MyMetalComboBoxButton	classe	1
+com.incors.plaf.kunststoff.KunststoffTextAreaUI	classe	2
+com.incors.plaf.kunststoff.KunststoffGradientTheme	classe	6
+com.incors.plaf.kunststoff.KunststoffListUI	classe	3
+com.incors.plaf.kunststoff.KunststoffTextFieldUI	classe	2
+com.incors.plaf.kunststoff.KunststoffTabbedPaneUI	classe	4
+com.incors.plaf.kunststoff.KunststoffCheckBoxIcon	classe	1
+com.incors.plaf.kunststoff.KunststoffMenuBarUI	classe	2
+com.incors.plaf.kunststoff.KunststoffUtilities	classe	5
+com.incors.plaf.kunststoff.KunststoffTreeUI	classe	2
+com.incors.plaf.kunststoff.KunststoffScrollBarUI	classe	4
+com.incors.plaf.kunststoff.ModifiedDefaultListCellRenderer	classe	1
+com.incors.plaf.kunststoff.KunststoffInternalFrameUI	classe	6
+com.incors.plaf.kunststoff.KunststoffInternalFrameUI$PaletteListener	classe	1
+com.incors.plaf.kunststoff.KunststoffScrollButton	classe	1
+com.incors.plaf.kunststoff.KunststoffTableHeaderUI	classe	2
+com.incors.plaf.kunststoff.KunststoffPasswordFieldUI	classe	3
+com.incors.plaf.kunststoff.KunststoffToggleButtonUI	classe	2
+com.incors.plaf.kunststoff.KunststoffTheme	classe	7
+com.incors.plaf.kunststoff.KunststoffMenuUI	classe	2
+com.incors.plaf.kunststoff.KunststoffCheckBoxUI	classe	2
+com.incors.plaf.kunststoff.KunststoffProgressBarUI	classe	2
+com.incors.plaf.kunststoff.KunststoffToolBarUI	classe	2
+com.incors.plaf.kunststoff.themes.KunststoffPresentationTheme	classe	13
+com.incors.plaf.kunststoff.themes.KunststoffNotebookTheme	classe	13
+com.incors.plaf.kunststoff.themes.KunststoffDesktopTheme	classe	7
+com.incors.plaf.kunststoff.KunststoffLookAndFeel	classe	17
+com.incors.plaf.kunststoff.KunststoffButtonUI	classe	2
+com.incors.plaf.ColorUIResource2	classe	19

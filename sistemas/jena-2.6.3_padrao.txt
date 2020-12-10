@@ -1,514 +1,2130 @@
-com.hp.hpl.jena.reasoner.Finder	Factory Method
-com.hp.hpl.jena.rdf.model.impl.ModelCom	State
-com.hp.hpl.jena.graph.query.IndexValues	State
-com.hp.hpl.jena.graph.query.SimpleQueryEngine	State
-com.hp.hpl.jena.rdf.arp.NTriple$TwoSH	Decorator
-com.hp.hpl.jena.graph.Node_Variable	Visitor
-com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveReasonerFactory	(Object)Adapter
-com.hp.hpl.jena.rdf.model.Container	(Object)Adapter
-com.hp.hpl.jena.db.impl.PSet_ReifStore_RDB	(Object)Adapter
-com.hp.hpl.jena.graph.query.regexptrees.RegexpTreeGenerator	Factory Method
-com.hp.hpl.jena.rdf.model.InfModel	Factory Method
-com.hp.hpl.jena.reasoner.rulesys.impl.WrappedReasonerFactory	(Object)Adapter
-com.hp.hpl.jena.ontology.impl.OntModelImpl$RdfTypeTestFn	(Object)Adapter
-com.hp.hpl.jena.graph.impl.SimpleEventManager	Composite
-com.hp.hpl.jena.graph.query.StageElement$PutBindings	State
-com.hp.hpl.jena.xmloutput.impl.Unparser$WType	State
-com.hp.hpl.jena.reasoner.rulesys.GenericRuleReasonerFactory	(Object)Adapter
-com.hp.hpl.jena.rdf.model.impl.StatementBase	Factory Method
-com.hp.hpl.jena.db.impl.DBQueryStage	State
-com.hp.hpl.jena.shared.uuid.UUIDFactory	Bridge
-com.hp.hpl.jena.mem.MatchOrBind	(Object)Adapter
-com.hp.hpl.jena.db.impl.DBBulkUpdateHandler	(Object)Adapter
-com.hp.hpl.jena.graph.impl.WrappedGraph	(Object)Adapter
-com.hp.hpl.jena.vocabulary.OntEventsVocab	State
-com.hp.hpl.jena.reasoner.rulesys.impl.BBRuleContext	(Object)Adapter
-com.hp.hpl.jena.db.IDBConnection	Bridge
-com.hp.hpl.jena.reasoner.rulesys.impl.RETERuleContext	State
-com.hp.hpl.jena.db.IDBConnection	(Object)Adapter
-com.hp.hpl.jena.ontology.OntModel	Factory Method
-com.hp.hpl.jena.db.impl.IPSet	(Object)Adapter
-com.hp.hpl.jena.enhanced.EnhNode	State
-com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	(Object)Adapter
-com.hp.hpl.jena.graph.query.StageElement$RunValuatorSet	Decorator
-com.hp.hpl.jena.util.OneToManyMap	(Object)Adapter
-com.hp.hpl.jena.rdf.arp.JenaReader	(Object)Adapter
-com.hp.hpl.jena.graph.impl.SimpleBulkUpdateHandler	State
-com.hp.hpl.jena.reasoner.rulesys.BackwardRuleInfGraphI	State
-com.hp.hpl.jena.graph.impl.GraphWithPerform	State
-com.hp.hpl.jena.shared.uuid.UUID_nil	Singleton
-com.hp.hpl.jena.assembler.Assembler	Singleton
-com.hp.hpl.jena.graph.impl.FileGraph$NotifyOnClose	State
-com.hp.hpl.jena.mem.GraphTripleStoreBase	Bridge
-com.hp.hpl.jena.graph.query.QueryHandler	Factory Method
-com.hp.hpl.jena.reasoner.InfGraph	State
-com.hp.hpl.jena.mem.BunchMap	Bridge
-com.hp.hpl.jena.vocabulary.RDFTest	State
-com.hp.hpl.jena.mem.StoreTripleIterator	State
-com.hp.hpl.jena.graph.impl.TripleStore	Factory Method
-com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$4	State
-com.hp.hpl.jena.graph.impl.WrappedReifier	Decorator
-com.hp.hpl.jena.db.DBConnection	State
-com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$4	(Object)Adapter
-com.hp.hpl.jena.assembler.RuleSet	Singleton
-com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$1	(Object)Adapter
-com.hp.hpl.jena.util.PrintUtil	State
-com.hp.hpl.jena.graph.query.QueryTriple$SimpleApplyer	State
-com.hp.hpl.jena.reasoner.rulesys.OWLFBRuleReasonerFactory	(Object)Adapter
-com.hp.hpl.jena.rdf.model.ResourceFactory$Interface	Factory Method
-com.hp.hpl.jena.rdf.arp.states.FrameI	State
-com.hp.hpl.jena.graph.NodeVisitor	Visitor
-com.hp.hpl.jena.graph.query.IndexValues	(Object)Adapter
-com.hp.hpl.jena.n3.turtle.TurtleEventHandler	State
-com.hp.hpl.jena.reasoner.ReasonerFactory	Decorator
-com.hp.hpl.jena.reasoner.rulesys.RuleContext	State
-com.hp.hpl.jena.graph.Node_URI	Visitor
-com.hp.hpl.jena.db.IDBConnection	State
-com.hp.hpl.jena.rdf.model.RDFWriterF	State
-com.hp.hpl.jena.graph.Graph	Factory Method
-com.hp.hpl.jena.util.iterator.ClosableIterator	State
-com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveInfGraph	State
-com.hp.hpl.jena.graph.query.VariableIndexes	State
-com.hp.hpl.jena.graph.query.Stage	Chain of Responsibility
-com.hp.hpl.jena.reasoner.ReasonerRegistry	Singleton
-com.hp.hpl.jena.reasoner.rulesys.RuleDerivation	State
-com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine	State
-jena.schemagen$SchemagenOptions	State
-com.hp.hpl.jena.db.impl.DBPropDatabase	(Object)Adapter
-com.hp.hpl.jena.rdf.model.impl.ModelMakerImpl	(Object)Adapter
-com.hp.hpl.jena.reasoner.rulesys.FBRuleReasoner	State
-com.hp.hpl.jena.rdf.model.impl.NTripleWriter	State
-com.hp.hpl.jena.reasoner.Finder	State
-com.hp.hpl.jena.graph.query.Expression	Singleton
-com.hp.hpl.jena.rdf.model.ResourceFactory$Interface	State
-com.hp.hpl.jena.vocabulary.OWLResults	State
-com.hp.hpl.jena.graph.query.VariableIndexes	(Object)Adapter
-com.hp.hpl.jena.graph.query.regexptrees.PerlPatternParser	State
-com.hp.hpl.jena.db.impl.DriverRDB	Bridge
-com.hp.hpl.jena.reasoner.rulesys.DAMLMicroReasonerFactory	(Object)Adapter
-com.hp.hpl.jena.reasoner.InfGraph	Factory Method
-com.hp.hpl.jena.graph.Triple$Field	Singleton
-com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleReasoner	State
-com.hp.hpl.jena.graph.impl.GraphBase	Bridge
-com.hp.hpl.jena.graph.impl.ReificationWrapper	(Object)Adapter
-com.hp.hpl.jena.vocabulary.DAML_OIL	Singleton
-com.hp.hpl.jena.ontology.OntDocumentManager	State
-com.hp.hpl.jena.graph.query.Element	State
-com.hp.hpl.jena.rdf.model.ModelMaker	State
-com.hp.hpl.jena.db.impl.DBReifierGraph	Proxy
-com.hp.hpl.jena.graph.TripleBoundary	(Object)Adapter
-com.hp.hpl.jena.graph.impl.FileGraph	(Object)Adapter
-com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	(Object)Adapter
-com.hp.hpl.jena.rdf.model.Model	State
-com.hp.hpl.jena.rdf.arp.impl.ARPSaxErrorHandler	State
-com.hp.hpl.jena.graph.query.TripleSorter	Singleton
-com.hp.hpl.jena.util.iterator.Filter	Singleton
-com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	State
-com.hp.hpl.jena.rdf.model.SimpleSelector	State
-com.hp.hpl.jena.mem.GraphMemBaseQueryHandler	State
-com.hp.hpl.jena.graph.impl.GraphWithPerform	(Object)Adapter
-com.hp.hpl.jena.rdf.model.Property	State
-com.hp.hpl.jena.graph.GraphEventManager	State
-com.hp.hpl.jena.rdf.model.impl.ResourceImpl	Visitor
-com.hp.hpl.jena.graph.query.Applyer	(Object)Adapter
-com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleReasoner	State
-com.hp.hpl.jena.graph.query.QueryNode	(Object)Adapter
-com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	(Object)Adapter
-com.hp.hpl.jena.graph.query.regexptrees.RegexpTree	Singleton
-com.hp.hpl.jena.rdf.model.RDFErrorHandler	(Object)Adapter
-com.hp.hpl.jena.graph.Reifier	(Object)Adapter
-com.hp.hpl.jena.reasoner.rulesys.GenericRuleReasonerFactory	Singleton
-com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleReasoner	(Object)Adapter
-com.hp.hpl.jena.db.impl.DBReifier	State
-com.hp.hpl.jena.graph.Triple	State
-com.hp.hpl.jena.reasoner.rulesys.impl.LPTopGoalIterator	State
-com.hp.hpl.jena.mem.faster.FasterTripleStore	(Object)Adapter
-com.hp.hpl.jena.rdf.model.impl.ContNodeIteratorImpl	State
-jena.cmdline.CommandLine	State
-com.hp.hpl.jena.graph.impl.GraphMatcher	State
-com.hp.hpl.jena.graph.impl.ReifierFragmentsMap	State
-com.hp.hpl.jena.mem.faster.GraphMemFaster$GraphMemFasterStatisticsHandler	State
-com.hp.hpl.jena.xmloutput.impl.SimpleLogger	(Object)Adapter
-com.hp.hpl.jena.n3.turtle.TurtleRDFGraphInserter	(Object)Adapter
-com.hp.hpl.jena.db.impl.DBReifier	(Object)Adapter
-com.hp.hpl.jena.db.impl.IPSet	Factory Method
-com.hp.hpl.jena.ontology.OntResource	Factory Method
-com.hp.hpl.jena.shared.ReificationStyle	(Object)Adapter
-com.hp.hpl.jena.vocabulary.OWL	State
-com.hp.hpl.jena.db.impl.ResultSetReifIterator	(Object)Adapter
-com.hp.hpl.jena.graph.impl.ReificationWrapper	State
-com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache	(Object)Adapter
-com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleInfGraph	(Object)Adapter
-com.hp.hpl.jena.reasoner.rulesys.impl.LPBindingEnvironment	(Object)Adapter
-com.hp.hpl.jena.rdf.model.Model	(Object)Adapter
-com.hp.hpl.jena.graph.Triple$Field	Factory Method
-com.hp.hpl.jena.graph.impl.GraphMatcher$SomeResource	State
-com.hp.hpl.jena.reasoner.rulesys.impl.RETESinkNode	State
-com.hp.hpl.jena.rdf.model.impl.NTripleReader	(Object)Adapter
-com.hp.hpl.jena.graph.Graph	Decorator
-com.hp.hpl.jena.graph.Node	(Object)Adapter
-com.hp.hpl.jena.reasoner.rulesys.RDFSFBRuleReasonerFactory	(Object)Adapter
-com.hp.hpl.jena.rdf.arp.StatementHandler	Decorator
-com.hp.hpl.jena.assembler.Assembler	State
-com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier$GetReifier	(Object)Adapter
-com.hp.hpl.jena.graph.query.StageElement	Decorator
-com.hp.hpl.jena.mem.HashCommon$NotifyEmpty	Singleton
-com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode	Singleton
-com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$2	(Object)Adapter
-com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	Template Method
-com.hp.hpl.jena.vocabulary.DCTypes	State
-com.hp.hpl.jena.reasoner.BaseInfGraph	Template Method
-com.hp.hpl.jena.enhanced.EnhGraph	State
-com.hp.hpl.jena.reasoner.rulesys.impl.BFRuleContext	State
-com.hp.hpl.jena.graph.BulkUpdateHandler	Decorator
-com.hp.hpl.jena.mem.HashCommon$MovedKeysIterator	State
-com.hp.hpl.jena.rdf.model.impl.NTripleWriter	(Object)Adapter
-com.hp.hpl.jena.graph.Graph	Bridge
-com.hp.hpl.jena.graph.Triple$Field	Bridge
-com.hp.hpl.jena.mem.NodeToTriplesMapBase	State
-com.hp.hpl.jena.mem.MatchOrBind$1	State
-com.hp.hpl.jena.graph.impl.FileGraph$NotifyOnClose	Singleton
-com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveReasonerFactory	State
-com.hp.hpl.jena.reasoner.FGraph	State
-com.hp.hpl.jena.graph.impl.FileGraphTransactionHandler	(Object)Adapter
-com.hp.hpl.jena.reasoner.Finder	(Object)Adapter
-com.hp.hpl.jena.shared.uuid.JenaUUID	Bridge
-com.hp.hpl.jena.rdf.arp.states.WantsObjectI	Bridge
-com.hp.hpl.jena.mem.MixedGraphMem	(Object)Adapter
-com.hp.hpl.jena.rdf.model.Resource	(Object)Adapter
-com.hp.hpl.jena.db.impl.ResultSetTripleIterator	State
-com.hp.hpl.jena.rdf.model.impl.ModelReifier	State
-com.hp.hpl.jena.graph.compose.PolyadicPrefixMappingImpl	(Object)Adapter
-com.hp.hpl.jena.db.impl.SQLCache	(Object)Adapter
-com.hp.hpl.jena.mem.NodeToTriplesMapBase	(Object)Adapter
-com.hp.hpl.jena.graph.query.regexptrees.RegexpTree	Decorator
-com.hp.hpl.jena.reasoner.ReasonerFactory	Factory Method
-com.hp.hpl.jena.reasoner.TriplePattern	State
-com.hp.hpl.jena.shared.PrefixMapping	Singleton
-com.hp.hpl.jena.reasoner.rulesys.impl.Generator$LFlag	Singleton
-com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	Decorator
-com.hp.hpl.jena.assembler.assemblers.ModelAssembler	Template Method
-com.hp.hpl.jena.util.iterator.Filter	State
-com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	Bridge
-com.hp.hpl.jena.rdf.arp.ExtendedHandler	State
-com.hp.hpl.jena.rdf.model.RDFReaderF	State
-com.hp.hpl.jena.assembler.assemblers.AssemblerBase$MapObjectToContent	State
-com.hp.hpl.jena.rdf.arp.impl.XMLHandler	State
-com.hp.hpl.jena.ontology.OntDocumentManager	Singleton
-com.hp.hpl.jena.db.DBConnection	(Object)Adapter
-com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$PlainAssemblerGroup	Proxy
-jena.rdfcat	State
-com.hp.hpl.jena.rdf.model.impl.ModelReifier	(Object)Adapter
-com.hp.hpl.jena.db.impl.ResultSetReifIterator	State
-com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache	State
-com.hp.hpl.jena.graph.TripleBoundary	Singleton
-com.hp.hpl.jena.rdf.model.Property	(Object)Adapter
-com.hp.hpl.jena.rdf.model.RDFList	Factory Method
-com.hp.hpl.jena.ontology.impl.AbstractProfile	Template Method
-com.hp.hpl.jena.rdf.model.impl.NodeIteratorFactory	Factory Method
-com.hp.hpl.jena.ontology.ProfileRegistry	Singleton
-com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleInfGraph	State
-com.hp.hpl.jena.vocabulary.DCTerms	State
-com.hp.hpl.jena.datatypes.RDFDatatype	(Object)Adapter
-com.hp.hpl.jena.mem.GraphTripleStoreBase	(Object)Adapter
-com.hp.hpl.jena.graph.Node	Template Method
-jena.util.DBcmd	Template Method
-com.hp.hpl.jena.graph.query.Stage	Factory Method
-com.hp.hpl.jena.reasoner.rulesys.impl.RETESinkNode	Prototype
-jena.cmdline.ArgHandler	State
-com.hp.hpl.jena.db.GraphRDB	State
-com.hp.hpl.jena.vocabulary.DAML_OIL	State
-com.hp.hpl.jena.reasoner.rulesys.impl.LPBRuleEngine	(Object)Adapter
-com.hp.hpl.jena.rdf.model.StatementBoundary	State
-com.hp.hpl.jena.graph.Node	State
-com.hp.hpl.jena.graph.Graph	Singleton
-com.hp.hpl.jena.graph.Graph	State
-com.hp.hpl.jena.rdf.model.impl.StatementImpl	State
-com.hp.hpl.jena.util.iterator.FilterIterator	State
-com.hp.hpl.jena.reasoner.rulesys.impl.WrappedReasonerFactory	Decorator
-com.hp.hpl.jena.rdf.model.impl.StatementImpl	(Object)Adapter
-com.hp.hpl.jena.rdf.arp.StatementHandler	State
-com.hp.hpl.jena.reasoner.rulesys.OWLMiniReasonerFactory	State
-com.hp.hpl.jena.n3.turtle.TurtleRDFGraphInserter	State
-com.hp.hpl.jena.reasoner.rulesys.BuiltinRegistry	Singleton
-com.hp.hpl.jena.graph.GraphMaker	State
-com.hp.hpl.jena.rdf.model.StatementTripleBoundary	State
-com.hp.hpl.jena.util.iterator.LateBindingIterator	Template Method
-com.hp.hpl.jena.reasoner.rulesys.DAMLMicroReasonerFactory	State
-com.hp.hpl.jena.graph.impl.SimpleReifierFragmentHandler	(Object)Adapter
-com.hp.hpl.jena.rdf.arp.JenaHandler	(Object)Adapter
-com.hp.hpl.jena.reasoner.rulesys.OWLFBRuleReasonerFactory	State
-com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$ExpandingAssemblerGroup	Proxy
-com.hp.hpl.jena.graph.query.Expression	Decorator
-com.hp.hpl.jena.graph.impl.GraphMatcher$AnonStatement	State
-com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	Decorator
-com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	(Object)Adapter
-com.hp.hpl.jena.reasoner.rulesys.impl.RETEClauseFilter	State
-com.hp.hpl.jena.reasoner.rulesys.RDFSFBRuleReasonerFactory	State
-com.hp.hpl.jena.graph.impl.SimpleReifierFragmentHandler	Template Method
-com.hp.hpl.jena.rdf.model.StatementTripleBoundary	(Object)Adapter
-com.hp.hpl.jena.rdf.arp.ARP	(Object)Adapter
-com.hp.hpl.jena.rdf.arp.impl.Taint	Bridge
-com.hp.hpl.jena.shared.PrefixMapping	(Object)Adapter
-com.hp.hpl.jena.graph.query.Pipe	(Object)Adapter
-com.hp.hpl.jena.db.ModelRDB	(Object)Adapter
-com.hp.hpl.jena.reasoner.rulesys.Rule$Parser	State
-com.hp.hpl.jena.mem.MatchOrBind	State
-com.hp.hpl.jena.reasoner.rulesys.impl.BFRuleContext	(Object)Adapter
-com.hp.hpl.jena.rdf.model.impl.ModelCom	(Object)Adapter
-com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveInfGraph	(Object)Adapter
-com.hp.hpl.jena.graph.compose.Dyadic	Bridge
-com.hp.hpl.jena.reasoner.rulesys.GenericRuleReasonerFactory	State
-com.hp.hpl.jena.rdf.model.Model	Factory Method
-com.hp.hpl.jena.xmloutput.impl.SimpleLogger	Bridge
-com.hp.hpl.jena.graph.Node_Literal	Visitor
-com.hp.hpl.jena.assembler.Mode	Singleton
-com.hp.hpl.jena.graph.compose.Delta	Decorator
-com.hp.hpl.jena.rdf.model.Statement	(Object)Adapter
-com.hp.hpl.jena.graph.impl.LiteralLabelImpl	(Object)Adapter
-com.hp.hpl.jena.reasoner.rulesys.BindingEnvironment	Factory Method
-com.hp.hpl.jena.datatypes.RDFDatatype	State
-com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleInfGraph	State
-com.hp.hpl.jena.n3.JenaReaderBase	(Object)Adapter
-com.hp.hpl.jena.graph.impl.ReifierTripleMap	State
-com.hp.hpl.jena.db.impl.GraphRDBMaker	State
-com.hp.hpl.jena.rdf.arp.impl.AbsXMLContext	Chain of Responsibility
-com.hp.hpl.jena.shared.PrefixMapping	Bridge
-com.hp.hpl.jena.rdf.model.impl.StmtIteratorImpl	State
-com.hp.hpl.jena.enhanced.Implementation	Factory Method
-com.hp.hpl.jena.enhanced.Polymorphic	Chain of Responsibility
-com.hp.hpl.jena.db.GraphRDB	(Object)Adapter
-com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleReasoner	(Object)Adapter
-com.hp.hpl.jena.graph.query.Query	(Object)Adapter
-com.hp.hpl.jena.util.FileManager	Observer
-com.hp.hpl.jena.graph.Node_Blank	Visitor
-com.hp.hpl.jena.graph.Reifier	Bridge
-com.hp.hpl.jena.graph.query.Expression$Valof	State
-com.hp.hpl.jena.graph.Reifier	State
-com.hp.hpl.jena.graph.impl.LiteralLabelImpl	State
-com.hp.hpl.jena.graph.query.StageElement$FindTriples	(Object)Adapter
-com.hp.hpl.jena.graph.GraphEventManager	(Object)Adapter
-com.hp.hpl.jena.rdf.arp.impl.AbsXMLContext	Template Method
-com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier$GetReifier	State
-com.hp.hpl.jena.util.iterator.ExtendedIterator	Factory Method
-com.hp.hpl.jena.vocabulary.TestManifestX	State
-com.hp.hpl.jena.shared.wg.LazyInputStream	Template Method
-com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreterContext	State
-com.hp.hpl.jena.rdf.model.impl.ModelMakerImpl	State
-com.hp.hpl.jena.rdf.arp.JenaReader	State
-com.hp.hpl.jena.reasoner.BaseInfGraph	(Object)Adapter
-com.hp.hpl.jena.db.impl.DBProp	Bridge
-com.hp.hpl.jena.reasoner.rulesys.impl.LPTopGoalIterator	(Object)Adapter
-com.hp.hpl.jena.mem.HashCommon$NotifyEmpty	State
-com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$3	State
-com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	State
-com.hp.hpl.jena.reasoner.rulesys.Builtin	State
-com.hp.hpl.jena.rdf.model.ModelChangedListener	(Object)Adapter
-com.hp.hpl.jena.graph.TripleBoundary	State
-com.hp.hpl.jena.graph.impl.GraphMatcher$FixedResource	State
-com.hp.hpl.jena.reasoner.rulesys.BackwardRuleInfGraphI	(Object)Adapter
-com.hp.hpl.jena.util.FileManager	Singleton
-com.hp.hpl.jena.graph.impl.ReifierTripleMap	(Object)Adapter
-com.hp.hpl.jena.db.impl.IRDBDriver	(Object)Adapter
-com.hp.hpl.jena.reasoner.ReasonerFactory	State
-com.hp.hpl.jena.db.impl.IPSet	State
-com.hp.hpl.jena.mem.HashCommon$BasicKeyIterator	State
-com.hp.hpl.jena.mem.MatchOrBind$2	State
-com.hp.hpl.jena.reasoner.rulesys.impl.ConsumerChoicePointFrame	State
-com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB	(Object)Adapter
-com.hp.hpl.jena.mem.faster.GraphMemFaster$GraphMemFasterStatisticsHandler	(Object)Adapter
-jena.schemagen$SchemagenOptionsImpl	State
-com.hp.hpl.jena.util.Locator	Observer
-com.hp.hpl.jena.db.impl.ICache	State
-com.hp.hpl.jena.reasoner.rulesys.impl.RETETerminal	(Object)Adapter
-com.hp.hpl.jena.rdf.model.ModelExtract	State
-com.hp.hpl.jena.db.impl.DBBulkUpdateHandler	State
-com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngineI	(Object)Adapter
-com.hp.hpl.jena.db.impl.IPSet	Bridge
-com.hp.hpl.jena.rdf.model.RDFErrorHandler	Bridge
-com.hp.hpl.jena.util.iterator.MapFilterIterator	State
-com.hp.hpl.jena.graph.BulkUpdateHandler	State
-com.hp.hpl.jena.graph.query.Dyadic	Decorator
-com.hp.hpl.jena.vocabulary.TestManifest	State
-com.hp.hpl.jena.graph.query.QueryNode	State
-com.hp.hpl.jena.enhanced.EnhNode	(Object)Adapter
-com.hp.hpl.jena.graph.query.SimpleQueryHandler	State
-com.hp.hpl.jena.mem.MatchOrBind$2	(Object)Adapter
-com.hp.hpl.jena.graph.impl.FileGraph	State
-com.hp.hpl.jena.db.impl.DBPattern	State
-com.hp.hpl.jena.graph.Triple	(Object)Adapter
-com.hp.hpl.jena.graph.query.Pattern	State
-com.hp.hpl.jena.n3.JenaReaderBase	Bridge
-com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	State
-com.hp.hpl.jena.assembler.Content	Singleton
-com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	State
-com.hp.hpl.jena.graph.query.QueryNodeFactory	Factory Method
-com.hp.hpl.jena.graph.impl.SimpleReifier	(Object)Adapter
-com.hp.hpl.jena.graph.impl.ReifierFragmentsMap	(Object)Adapter
-com.hp.hpl.jena.reasoner.rulesys.impl.WrappedReasonerFactory	State
-com.hp.hpl.jena.rdf.arp.states.Collection	Bridge
-com.hp.hpl.jena.rdf.arp.impl.RDFXMLParser	(Object)Adapter
-com.hp.hpl.jena.n3.turtle.ParserBase	State
-com.hp.hpl.jena.reasoner.ReasonerRegistry	State
-com.hp.hpl.jena.db.impl.SpecializedGraph	Bridge
-com.hp.hpl.jena.graph.Node_ANY	Visitor
-com.hp.hpl.jena.rdf.model.RDFNode	(Object)Adapter
-com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreter	(Object)Adapter
-com.hp.hpl.jena.graph.impl.FragmentTripleIterator	Template Method
-com.hp.hpl.jena.graph.query.StageElement$FindTriples	State
-com.hp.hpl.jena.rdf.model.SimpleSelector	(Object)Adapter
-com.hp.hpl.jena.graph.compose.Polyadic	Observer
-com.hp.hpl.jena.graph.query.StageElement$PutBindings	(Object)Adapter
-com.hp.hpl.jena.vocabulary.OntDocManagerVocab	State
-com.hp.hpl.jena.ontology.OntModelSpec	State
-com.hp.hpl.jena.rdf.model.impl.ContNodeIteratorImpl	(Object)Adapter
-com.hp.hpl.jena.assembler.ImportManager	Singleton
-com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$3	(Object)Adapter
-com.hp.hpl.jena.util.iterator.MapFilter	State
-com.hp.hpl.jena.reasoner.rulesys.impl.RETEQueue	Prototype
-com.hp.hpl.jena.graph.impl.GraphMatcher$FixedResource	(Object)Adapter
-com.hp.hpl.jena.graph.query.PatternCompiler	Factory Method
-com.hp.hpl.jena.graph.impl.GraphAddList	(Object)Adapter
-com.hp.hpl.jena.graph.GraphExtract$Extraction	State
-com.hp.hpl.jena.db.impl.IRDBDriver	State
-com.hp.hpl.jena.reasoner.rulesys.impl.TempNodeCache	(Object)Adapter
-com.hp.hpl.jena.reasoner.rulesys.RDFSRuleReasonerFactory	(Object)Adapter
-com.hp.hpl.jena.reasoner.Reasoner	Factory Method
-com.hp.hpl.jena.ontology.impl.OntModelImpl	(Object)Adapter
-com.hp.hpl.jena.rdf.model.ModelChangedListener	State
-com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreter	State
-com.hp.hpl.jena.util.cache.Cache	State
-com.hp.hpl.jena.mem.GraphMemBase	Factory Method
-com.hp.hpl.jena.util.LocationMapper	Singleton
-com.hp.hpl.jena.graph.Reifier	Decorator
-com.hp.hpl.jena.graph.impl.SimpleReifier	State
-com.hp.hpl.jena.reasoner.rulesys.OWLMicroReasonerFactory	State
-com.hp.hpl.jena.graph.GraphMaker	(Object)Adapter
-com.hp.hpl.jena.vocabulary.VCARD	State
-com.hp.hpl.jena.graph.Triple$Field	Template Method
-com.hp.hpl.jena.ontology.OntModel	State
-com.hp.hpl.jena.mem.NodeToTriplesMapBase	Bridge
-com.hp.hpl.jena.util.iterator.LazyIterator	Template Method
-com.hp.hpl.jena.rdf.arp.impl.AbsXMLContext	Bridge
-com.hp.hpl.jena.db.impl.ResultSetTripleIterator	(Object)Adapter
-com.hp.hpl.jena.ontology.OntModelSpec	(Object)Adapter
-com.hp.hpl.jena.graph.query.SimpleQueryPlan	(Object)Adapter
-com.hp.hpl.jena.db.impl.DBTransactionHandler	State
-com.hp.hpl.jena.rdf.model.RDFReaderF	(Object)Adapter
-com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$1	State
-com.hp.hpl.jena.graph.GraphEvents	Singleton
-com.hp.hpl.jena.reasoner.rulesys.ForwardRuleInfGraphI	State
-com.hp.hpl.jena.db.impl.SpecializedGraphReifier	State
-com.hp.hpl.jena.graph.query.Rewrite$DyadicLiteral	Template Method
-com.hp.hpl.jena.util.iterator.LazyIterator	Decorator
-com.hp.hpl.jena.db.impl.SQLCache	State
-com.hp.hpl.jena.mem.TripleBunch	Factory Method
-com.hp.hpl.jena.n3.N3JenaWriterCommon	Proxy
-com.hp.hpl.jena.rdf.model.RDFVisitor	Visitor
-com.hp.hpl.jena.reasoner.rulesys.ForwardRuleInfGraphI	(Object)Adapter
-com.hp.hpl.jena.graph.query.regexptrees.Paren	Decorator
-com.hp.hpl.jena.db.impl.SpecializedGraphReifier	(Object)Adapter
-com.hp.hpl.jena.n3.N3JenaWriter	Proxy
-com.hp.hpl.jena.reasoner.Finder	Decorator
-com.hp.hpl.jena.db.impl.LRUCache	(Object)Adapter
-com.hp.hpl.jena.graph.Graph	(Object)Adapter
-com.hp.hpl.jena.graph.query.Expression$Valof	(Object)Adapter
-com.hp.hpl.jena.graph.query.SimpleTreeQueryPlan	State
-com.hp.hpl.jena.ontology.OntModelSpec	Singleton
-com.hp.hpl.jena.vocabulary.OWLTest	State
-com.hp.hpl.jena.rdf.model.ResourceFactory	State
-com.hp.hpl.jena.reasoner.rulesys.impl.RETEQueue	Decorator
-com.hp.hpl.jena.xmloutput.impl.Unparser	State
-com.hp.hpl.jena.db.impl.SpecializedGraph_TripleStore	Bridge
-com.hp.hpl.jena.ontology.impl.BooleanClassDescriptionImpl	Template Method
-com.hp.hpl.jena.rdf.model.RDFList	State
-com.hp.hpl.jena.graph.impl.WrappedGraph	State
-com.hp.hpl.jena.rdf.model.impl.RDFListImpl$RDFListIterator	State
-com.hp.hpl.jena.reasoner.Reasoner	State
-com.hp.hpl.jena.reasoner.FinderUtil$Cascade	Decorator
-com.hp.hpl.jena.datatypes.TypeMapper	Singleton
-com.hp.hpl.jena.reasoner.ReasonerFactory	(Object)Adapter
-com.hp.hpl.jena.graph.query.SimpleQueryEngine$1	State
-com.hp.hpl.jena.graph.compose.Polyadic	(Object)Adapter
-com.hp.hpl.jena.reasoner.rulesys.OWLMicroReasonerFactory	(Object)Adapter
-com.hp.hpl.jena.graph.impl.GraphBase	Template Method
-com.hp.hpl.jena.reasoner.rulesys.impl.RETEClauseFilter	Prototype
-com.hp.hpl.jena.rdf.arp.JenaHandler	State
-com.hp.hpl.jena.rdf.arp.impl.AbsXMLContext	Factory Method
-com.hp.hpl.jena.shared.PrefixMapping	State
-com.hp.hpl.jena.rdf.model.impl.SeqNodeIteratorImpl	(Object)Adapter
-com.hp.hpl.jena.graph.Triple	Singleton
-com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	(Object)Adapter
-com.hp.hpl.jena.graph.query.Matcher	Singleton
-com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$Frame	State
-com.hp.hpl.jena.graph.query.SimpleQueryHandler	(Object)Adapter
-com.hp.hpl.jena.reasoner.rulesys.RDFSRuleReasonerFactory	State
-com.hp.hpl.jena.reasoner.rulesys.impl.BBRuleContext	State
-com.hp.hpl.jena.mem.GraphMemBase	Template Method
-com.hp.hpl.jena.rdf.model.impl.NTripleReader	State
-com.hp.hpl.jena.reasoner.rulesys.impl.ConsumerChoicePointFrame	(Object)Adapter
-com.hp.hpl.jena.db.GraphRDB	Proxy
-com.hp.hpl.jena.graph.query.StageElement$RunValuatorSet	(Object)Adapter
-com.hp.hpl.jena.graph.Graph	Observer
-com.hp.hpl.jena.rdf.model.impl.SeqNodeIteratorImpl	State
-com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleInfGraph	(Object)Adapter
-com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngineI	State
-com.hp.hpl.jena.rdf.arp.states.Collection	Template Method
-com.hp.hpl.jena.db.impl.ReificationCacheMap	(Object)Adapter
-com.hp.hpl.jena.graph.impl.SimpleBulkUpdateHandler	(Object)Adapter
-jena.util.DBcmd	Bridge
-com.hp.hpl.jena.db.impl.DriverRDB	Template Method
-com.hp.hpl.jena.reasoner.rulesys.OWLMiniReasonerFactory	(Object)Adapter
-com.hp.hpl.jena.graph.query.Pipe	State
-com.hp.hpl.jena.rdf.model.Container	State
-com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$ExpandingAssemblerGroup	(Object)Adapter
-com.hp.hpl.jena.rdf.model.Resource	State
-com.hp.hpl.jena.ontology.impl.OntModelImpl$RdfTypeTestFn	State
-com.hp.hpl.jena.reasoner.rulesys.Rule	(Object)Adapter
-com.hp.hpl.jena.assembler.assemblers.AssemblerBase	Template Method
-com.hp.hpl.jena.enhanced.Polymorphic	Template Method
-com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	State
-com.hp.hpl.jena.graph.impl.SimpleReifierFragmentsMap	(Object)Adapter
-com.hp.hpl.jena.reasoner.rulesys.impl.TempNodeCache$NodePair	State
-com.hp.hpl.jena.rdf.model.impl.StatementBase	Template Method
-com.hp.hpl.jena.graph.query.Applyer	Singleton
-com.hp.hpl.jena.reasoner.rulesys.impl.StateFlag	Singleton
-com.hp.hpl.jena.db.impl.ResultSetIterator	Template Method
-com.hp.hpl.jena.vocabulary.DC_11	State
-com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$2	State
-com.hp.hpl.jena.graph.query.ValuatorSet	(Object)Adapter
-com.hp.hpl.jena.graph.GraphListener	Composite
-com.hp.hpl.jena.shared.uuid.JenaUUID	Template Method
-com.hp.hpl.jena.reasoner.rulesys.impl.RETERuleContext	(Object)Adapter
-com.hp.hpl.jena.reasoner.rulesys.RuleDerivation	(Object)Adapter
-com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$ExpandingAssemblerGroup	State
-com.hp.hpl.jena.reasoner.BaseInfGraph$InfTransactionHandler	(Object)Adapter
-com.hp.hpl.jena.graph.Node	Singleton
-com.hp.hpl.jena.rdf.model.impl.LiteralImpl	Visitor
-com.hp.hpl.jena.mem.MixedGraphMemStore	(Object)Adapter
-com.hp.hpl.jena.graph.query.regexptrees.RegexpTreeGenerator	State
-com.hp.hpl.jena.reasoner.FGraph	(Object)Adapter
-com.hp.hpl.jena.datatypes.xsd.XSDDatatype	Singleton
-com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine	(Object)Adapter
-com.hp.hpl.jena.util.iterator.ExtendedIterator	Decorator
-com.hp.hpl.jena.graph.query.TripleSorter	State
-com.hp.hpl.jena.ontology.OntDocumentManager$ReadHook	State
-com.hp.hpl.jena.reasoner.rulesys.Functor	State
-jena.schemagen	State
-com.hp.hpl.jena.mem.ObjectIterator	Template Method
-com.hp.hpl.jena.rdf.model.Statement	State
-com.hp.hpl.jena.n3.JenaReaderBase	Template Method
-com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	(Object)Adapter
-com.hp.hpl.jena.graph.query.Fixed	(Object)Adapter
-com.hp.hpl.jena.rdf.arp.impl.QNameLexer	Template Method
-com.hp.hpl.jena.graph.Node$NodeMaker	Factory Method
-com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine	State
-com.hp.hpl.jena.shared.ReificationStyle	Singleton
-com.hp.hpl.jena.graph.query.Element	Singleton
-com.hp.hpl.jena.rdf.model.RDFErrorHandler	State
-com.hp.hpl.jena.mem.MatchOrBind$1	(Object)Adapter
-com.hp.hpl.jena.graph.query.Applyer	State
-com.hp.hpl.jena.reasoner.rulesys.Node_RuleVariable	Singleton
-com.hp.hpl.jena.db.impl.DriverRDB	(Object)Adapter
-com.hp.hpl.jena.reasoner.rulesys.impl.RETESinkNode	Decorator
-com.hp.hpl.jena.graph.impl.TripleStore	State
+com.hp.hpl.jena.db.impl.IPSet	null	Creator	Factory Method
+com.hp.hpl.jena.db.impl.IPSet	find	FactoryMethod()	Factory Method
+com.hp.hpl.jena.enhanced.Implementation	null	Creator	Factory Method
+com.hp.hpl.jena.enhanced.Implementation	wrap	FactoryMethod()	Factory Method
+com.hp.hpl.jena.graph.Graph	null	Creator	Factory Method
+com.hp.hpl.jena.graph.Graph	getCapabilities	FactoryMethod()	Factory Method
+com.hp.hpl.jena.graph.Graph	getBulkUpdateHandler	FactoryMethod()	Factory Method
+com.hp.hpl.jena.graph.Graph	getReifier	FactoryMethod()	Factory Method
+com.hp.hpl.jena.graph.Graph	getPrefixMapping	FactoryMethod()	Factory Method
+com.hp.hpl.jena.graph.Graph	getTransactionHandler	FactoryMethod()	Factory Method
+com.hp.hpl.jena.graph.Graph	queryHandler	FactoryMethod()	Factory Method
+com.hp.hpl.jena.graph.impl.TripleStore	null	Creator	Factory Method
+com.hp.hpl.jena.graph.impl.TripleStore	listObjects	FactoryMethod()	Factory Method
+com.hp.hpl.jena.graph.impl.TripleStore	find	FactoryMethod()	Factory Method
+com.hp.hpl.jena.graph.Node$NodeMaker	null	Creator	Factory Method
+com.hp.hpl.jena.graph.Node$NodeMaker	construct	FactoryMethod()	Factory Method
+com.hp.hpl.jena.graph.query.PatternCompiler	null	Creator	Factory Method
+com.hp.hpl.jena.graph.query.PatternCompiler	fixed	FactoryMethod()	Factory Method
+com.hp.hpl.jena.graph.query.PatternCompiler	bound	FactoryMethod()	Factory Method
+com.hp.hpl.jena.graph.query.PatternCompiler	bind	FactoryMethod()	Factory Method
+com.hp.hpl.jena.graph.query.QueryHandler	null	Creator	Factory Method
+com.hp.hpl.jena.graph.query.QueryHandler	patternStage	FactoryMethod()	Factory Method
+com.hp.hpl.jena.graph.query.QueryHandler	prepareBindings	FactoryMethod()	Factory Method
+com.hp.hpl.jena.graph.query.QueryHandler	prepareTree	FactoryMethod()	Factory Method
+com.hp.hpl.jena.graph.query.QueryNodeFactory	null	Creator	Factory Method
+com.hp.hpl.jena.graph.query.QueryNodeFactory	createAny	FactoryMethod()	Factory Method
+com.hp.hpl.jena.graph.query.QueryNodeFactory	createFixed	FactoryMethod()	Factory Method
+com.hp.hpl.jena.graph.query.QueryNodeFactory	createBind	FactoryMethod()	Factory Method
+com.hp.hpl.jena.graph.query.QueryNodeFactory	createJustBound	FactoryMethod()	Factory Method
+com.hp.hpl.jena.graph.query.QueryNodeFactory	createBound	FactoryMethod()	Factory Method
+com.hp.hpl.jena.graph.query.QueryNodeFactory	createTriple	FactoryMethod()	Factory Method
+com.hp.hpl.jena.graph.query.regexptrees.RegexpTreeGenerator	null	Creator	Factory Method
+com.hp.hpl.jena.graph.query.regexptrees.RegexpTreeGenerator	getZeroOrMore	FactoryMethod()	Factory Method
+com.hp.hpl.jena.graph.query.regexptrees.RegexpTreeGenerator	getOneOrMore	FactoryMethod()	Factory Method
+com.hp.hpl.jena.graph.query.regexptrees.RegexpTreeGenerator	getOptional	FactoryMethod()	Factory Method
+com.hp.hpl.jena.graph.query.regexptrees.RegexpTreeGenerator	getBackReference	FactoryMethod()	Factory Method
+com.hp.hpl.jena.graph.query.regexptrees.RegexpTreeGenerator	getClass	FactoryMethod()	Factory Method
+com.hp.hpl.jena.graph.query.regexptrees.RegexpTreeGenerator	getParen	FactoryMethod()	Factory Method
+com.hp.hpl.jena.graph.query.Stage	null	Creator	Factory Method
+com.hp.hpl.jena.graph.query.Stage	deliver	FactoryMethod()	Factory Method
+com.hp.hpl.jena.graph.Triple$Field	null	Creator	Factory Method
+com.hp.hpl.jena.graph.Triple$Field	filterOn	FactoryMethod()	Factory Method
+com.hp.hpl.jena.mem.GraphMemBase	null	Creator	Factory Method
+com.hp.hpl.jena.mem.GraphMemBase	createTripleStore	FactoryMethod()	Factory Method
+com.hp.hpl.jena.mem.TripleBunch	null	Creator	Factory Method
+com.hp.hpl.jena.mem.TripleBunch	iterator	FactoryMethod()	Factory Method
+com.hp.hpl.jena.ontology.OntModel	null	Creator	Factory Method
+com.hp.hpl.jena.ontology.OntModel	listAnnotationProperties	FactoryMethod()	Factory Method
+com.hp.hpl.jena.ontology.OntResource	null	Creator	Factory Method
+com.hp.hpl.jena.ontology.OntResource	listPropertyValues	FactoryMethod()	Factory Method
+com.hp.hpl.jena.rdf.arp.impl.AbsXMLContext	null	Creator	Factory Method
+com.hp.hpl.jena.rdf.arp.impl.AbsXMLContext	clone	FactoryMethod()	Factory Method
+com.hp.hpl.jena.rdf.model.impl.NodeIteratorFactory	null	Creator	Factory Method
+com.hp.hpl.jena.rdf.model.impl.NodeIteratorFactory	createIterator	FactoryMethod()	Factory Method
+com.hp.hpl.jena.rdf.model.impl.StatementBase	null	Creator	Factory Method
+com.hp.hpl.jena.rdf.model.impl.StatementBase	replace	FactoryMethod()	Factory Method
+com.hp.hpl.jena.rdf.model.InfModel	null	Creator	Factory Method
+com.hp.hpl.jena.rdf.model.InfModel	getRawModel	FactoryMethod()	Factory Method
+com.hp.hpl.jena.rdf.model.InfModel	getDeductionsModel	FactoryMethod()	Factory Method
+com.hp.hpl.jena.rdf.model.Model	null	Creator	Factory Method
+com.hp.hpl.jena.rdf.model.Model	createResource	FactoryMethod()	Factory Method
+com.hp.hpl.jena.rdf.model.Model	createTypedLiteral	FactoryMethod()	Factory Method
+com.hp.hpl.jena.rdf.model.Model	createTypedLiteral	FactoryMethod()	Factory Method
+com.hp.hpl.jena.rdf.model.Model	createTypedLiteral	FactoryMethod()	Factory Method
+com.hp.hpl.jena.rdf.model.Model	listNameSpaces	FactoryMethod()	Factory Method
+com.hp.hpl.jena.rdf.model.Model	listStatements	FactoryMethod()	Factory Method
+com.hp.hpl.jena.rdf.model.Model	createStatement	FactoryMethod()	Factory Method
+com.hp.hpl.jena.rdf.model.RDFList	null	Creator	Factory Method
+com.hp.hpl.jena.rdf.model.RDFList	iterator	FactoryMethod()	Factory Method
+com.hp.hpl.jena.rdf.model.ResourceFactory$Interface	null	Creator	Factory Method
+com.hp.hpl.jena.rdf.model.ResourceFactory$Interface	createResource	FactoryMethod()	Factory Method
+com.hp.hpl.jena.rdf.model.ResourceFactory$Interface	createResource	FactoryMethod()	Factory Method
+com.hp.hpl.jena.rdf.model.ResourceFactory$Interface	createPlainLiteral	FactoryMethod()	Factory Method
+com.hp.hpl.jena.rdf.model.ResourceFactory$Interface	createTypedLiteral	FactoryMethod()	Factory Method
+com.hp.hpl.jena.rdf.model.ResourceFactory$Interface	createTypedLiteral	FactoryMethod()	Factory Method
+com.hp.hpl.jena.rdf.model.ResourceFactory$Interface	createProperty	FactoryMethod()	Factory Method
+com.hp.hpl.jena.rdf.model.ResourceFactory$Interface	createProperty	FactoryMethod()	Factory Method
+com.hp.hpl.jena.rdf.model.ResourceFactory$Interface	createStatement	FactoryMethod()	Factory Method
+com.hp.hpl.jena.reasoner.Finder	null	Creator	Factory Method
+com.hp.hpl.jena.reasoner.Finder	find	FactoryMethod()	Factory Method
+com.hp.hpl.jena.reasoner.Finder	findWithContinuation	FactoryMethod()	Factory Method
+com.hp.hpl.jena.reasoner.InfGraph	null	Creator	Factory Method
+com.hp.hpl.jena.reasoner.InfGraph	validate	FactoryMethod()	Factory Method
+com.hp.hpl.jena.reasoner.Reasoner	null	Creator	Factory Method
+com.hp.hpl.jena.reasoner.Reasoner	bindSchema	FactoryMethod()	Factory Method
+com.hp.hpl.jena.reasoner.Reasoner	bindSchema	FactoryMethod()	Factory Method
+com.hp.hpl.jena.reasoner.Reasoner	bind	FactoryMethod()	Factory Method
+com.hp.hpl.jena.reasoner.Reasoner	getGraphCapabilities	FactoryMethod()	Factory Method
+com.hp.hpl.jena.reasoner.ReasonerFactory	null	Creator	Factory Method
+com.hp.hpl.jena.reasoner.ReasonerFactory	create	FactoryMethod()	Factory Method
+com.hp.hpl.jena.reasoner.rulesys.BindingEnvironment	null	Creator	Factory Method
+com.hp.hpl.jena.reasoner.rulesys.BindingEnvironment	instantiate	FactoryMethod()	Factory Method
+com.hp.hpl.jena.util.iterator.ExtendedIterator	null	Creator	Factory Method
+com.hp.hpl.jena.util.iterator.ExtendedIterator	filterKeep	FactoryMethod()	Factory Method
+com.hp.hpl.jena.util.iterator.ExtendedIterator	filterDrop	FactoryMethod()	Factory Method
+com.hp.hpl.jena.util.iterator.ExtendedIterator	mapWith	FactoryMethod()	Factory Method
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEClauseFilter	null	Client	Prototype
+com.hp.hpl.jena.reasoner.rulesys.impl.RETESinkNode	null	Prototype	Prototype
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEClauseFilter	null	prototype	Prototype
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEClauseFilter	clone	Operation()	Prototype
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEQueue	null	Client	Prototype
+com.hp.hpl.jena.reasoner.rulesys.impl.RETESinkNode	null	Prototype	Prototype
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEQueue	null	prototype	Prototype
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEQueue	clone	Operation()	Prototype
+com.hp.hpl.jena.assembler.Assembler	null	Singleton	Singleton
+com.hp.hpl.jena.assembler.Assembler	null	uniqueInstance	Singleton
+com.hp.hpl.jena.assembler.Assembler	null	uniqueInstance	Singleton
+com.hp.hpl.jena.assembler.Assembler	null	uniqueInstance	Singleton
+com.hp.hpl.jena.assembler.Assembler	null	uniqueInstance	Singleton
+com.hp.hpl.jena.assembler.Assembler	null	uniqueInstance	Singleton
+com.hp.hpl.jena.assembler.Assembler	null	uniqueInstance	Singleton
+com.hp.hpl.jena.assembler.Assembler	null	uniqueInstance	Singleton
+com.hp.hpl.jena.assembler.Assembler	null	uniqueInstance	Singleton
+com.hp.hpl.jena.assembler.Assembler	null	uniqueInstance	Singleton
+com.hp.hpl.jena.assembler.Assembler	null	uniqueInstance	Singleton
+com.hp.hpl.jena.assembler.Assembler	null	uniqueInstance	Singleton
+com.hp.hpl.jena.assembler.Assembler	null	uniqueInstance	Singleton
+com.hp.hpl.jena.assembler.Assembler	null	uniqueInstance	Singleton
+com.hp.hpl.jena.assembler.Assembler	null	uniqueInstance	Singleton
+com.hp.hpl.jena.assembler.Assembler	null	uniqueInstance	Singleton
+com.hp.hpl.jena.assembler.Assembler	null	uniqueInstance	Singleton
+com.hp.hpl.jena.assembler.Assembler	null	uniqueInstance	Singleton
+com.hp.hpl.jena.assembler.Content	null	Singleton	Singleton
+com.hp.hpl.jena.assembler.Content	null	uniqueInstance	Singleton
+com.hp.hpl.jena.assembler.ImportManager	null	Singleton	Singleton
+com.hp.hpl.jena.assembler.ImportManager	null	uniqueInstance	Singleton
+com.hp.hpl.jena.assembler.Mode	null	Singleton	Singleton
+com.hp.hpl.jena.assembler.Mode	null	uniqueInstance	Singleton
+com.hp.hpl.jena.assembler.Mode	null	uniqueInstance	Singleton
+com.hp.hpl.jena.assembler.Mode	null	uniqueInstance	Singleton
+com.hp.hpl.jena.assembler.Mode	null	uniqueInstance	Singleton
+com.hp.hpl.jena.assembler.RuleSet	null	Singleton	Singleton
+com.hp.hpl.jena.assembler.RuleSet	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.TypeMapper	null	Singleton	Singleton
+com.hp.hpl.jena.datatypes.TypeMapper	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	Singleton	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.datatypes.xsd.XSDDatatype	null	uniqueInstance	Singleton
+com.hp.hpl.jena.graph.Graph	null	Singleton	Singleton
+com.hp.hpl.jena.graph.Graph	null	uniqueInstance	Singleton
+com.hp.hpl.jena.graph.GraphEvents	null	Singleton	Singleton
+com.hp.hpl.jena.graph.GraphEvents	null	uniqueInstance	Singleton
+com.hp.hpl.jena.graph.GraphEvents	null	uniqueInstance	Singleton
+com.hp.hpl.jena.graph.GraphEvents	null	uniqueInstance	Singleton
+com.hp.hpl.jena.graph.impl.FileGraph$NotifyOnClose	null	Singleton	Singleton
+com.hp.hpl.jena.graph.impl.FileGraph$NotifyOnClose	null	uniqueInstance	Singleton
+com.hp.hpl.jena.graph.Node	null	Singleton	Singleton
+com.hp.hpl.jena.graph.Node	null	uniqueInstance	Singleton
+com.hp.hpl.jena.graph.Node	null	uniqueInstance	Singleton
+com.hp.hpl.jena.graph.query.Applyer	null	Singleton	Singleton
+com.hp.hpl.jena.graph.query.Applyer	null	uniqueInstance	Singleton
+com.hp.hpl.jena.graph.query.Element	null	Singleton	Singleton
+com.hp.hpl.jena.graph.query.Element	null	uniqueInstance	Singleton
+com.hp.hpl.jena.graph.query.Expression	null	Singleton	Singleton
+com.hp.hpl.jena.graph.query.Expression	null	uniqueInstance	Singleton
+com.hp.hpl.jena.graph.query.Expression	null	uniqueInstance	Singleton
+com.hp.hpl.jena.graph.query.Matcher	null	Singleton	Singleton
+com.hp.hpl.jena.graph.query.Matcher	null	uniqueInstance	Singleton
+com.hp.hpl.jena.graph.query.regexptrees.RegexpTree	null	Singleton	Singleton
+com.hp.hpl.jena.graph.query.regexptrees.RegexpTree	null	uniqueInstance	Singleton
+com.hp.hpl.jena.graph.query.regexptrees.RegexpTree	null	uniqueInstance	Singleton
+com.hp.hpl.jena.graph.query.regexptrees.RegexpTree	null	uniqueInstance	Singleton
+com.hp.hpl.jena.graph.query.regexptrees.RegexpTree	null	uniqueInstance	Singleton
+com.hp.hpl.jena.graph.query.TripleSorter	null	Singleton	Singleton
+com.hp.hpl.jena.graph.query.TripleSorter	null	uniqueInstance	Singleton
+com.hp.hpl.jena.graph.Triple$Field	null	Singleton	Singleton
+com.hp.hpl.jena.graph.Triple$Field	null	uniqueInstance	Singleton
+com.hp.hpl.jena.graph.Triple$Field	null	uniqueInstance	Singleton
+com.hp.hpl.jena.graph.Triple$Field	null	uniqueInstance	Singleton
+com.hp.hpl.jena.graph.Triple	null	Singleton	Singleton
+com.hp.hpl.jena.graph.Triple	null	uniqueInstance	Singleton
+com.hp.hpl.jena.graph.TripleBoundary	null	Singleton	Singleton
+com.hp.hpl.jena.graph.TripleBoundary	null	uniqueInstance	Singleton
+com.hp.hpl.jena.graph.TripleBoundary	null	uniqueInstance	Singleton
+com.hp.hpl.jena.mem.HashCommon$NotifyEmpty	null	Singleton	Singleton
+com.hp.hpl.jena.mem.HashCommon$NotifyEmpty	null	uniqueInstance	Singleton
+com.hp.hpl.jena.ontology.OntDocumentManager	null	Singleton	Singleton
+com.hp.hpl.jena.ontology.OntDocumentManager	null	uniqueInstance	Singleton
+com.hp.hpl.jena.ontology.OntModelSpec	null	Singleton	Singleton
+com.hp.hpl.jena.ontology.OntModelSpec	null	uniqueInstance	Singleton
+com.hp.hpl.jena.ontology.OntModelSpec	null	uniqueInstance	Singleton
+com.hp.hpl.jena.ontology.OntModelSpec	null	uniqueInstance	Singleton
+com.hp.hpl.jena.ontology.OntModelSpec	null	uniqueInstance	Singleton
+com.hp.hpl.jena.ontology.OntModelSpec	null	uniqueInstance	Singleton
+com.hp.hpl.jena.ontology.OntModelSpec	null	uniqueInstance	Singleton
+com.hp.hpl.jena.ontology.OntModelSpec	null	uniqueInstance	Singleton
+com.hp.hpl.jena.ontology.OntModelSpec	null	uniqueInstance	Singleton
+com.hp.hpl.jena.ontology.OntModelSpec	null	uniqueInstance	Singleton
+com.hp.hpl.jena.ontology.OntModelSpec	null	uniqueInstance	Singleton
+com.hp.hpl.jena.ontology.OntModelSpec	null	uniqueInstance	Singleton
+com.hp.hpl.jena.ontology.OntModelSpec	null	uniqueInstance	Singleton
+com.hp.hpl.jena.ontology.OntModelSpec	null	uniqueInstance	Singleton
+com.hp.hpl.jena.ontology.OntModelSpec	null	uniqueInstance	Singleton
+com.hp.hpl.jena.ontology.OntModelSpec	null	uniqueInstance	Singleton
+com.hp.hpl.jena.ontology.OntModelSpec	null	uniqueInstance	Singleton
+com.hp.hpl.jena.ontology.OntModelSpec	null	uniqueInstance	Singleton
+com.hp.hpl.jena.ontology.OntModelSpec	null	uniqueInstance	Singleton
+com.hp.hpl.jena.ontology.OntModelSpec	null	uniqueInstance	Singleton
+com.hp.hpl.jena.ontology.OntModelSpec	null	uniqueInstance	Singleton
+com.hp.hpl.jena.ontology.OntModelSpec	null	uniqueInstance	Singleton
+com.hp.hpl.jena.ontology.ProfileRegistry	null	Singleton	Singleton
+com.hp.hpl.jena.ontology.ProfileRegistry	null	uniqueInstance	Singleton
+com.hp.hpl.jena.reasoner.ReasonerRegistry	null	Singleton	Singleton
+com.hp.hpl.jena.reasoner.ReasonerRegistry	null	uniqueInstance	Singleton
+com.hp.hpl.jena.reasoner.rulesys.BuiltinRegistry	null	Singleton	Singleton
+com.hp.hpl.jena.reasoner.rulesys.BuiltinRegistry	null	uniqueInstance	Singleton
+com.hp.hpl.jena.reasoner.rulesys.GenericRuleReasonerFactory	null	Singleton	Singleton
+com.hp.hpl.jena.reasoner.rulesys.GenericRuleReasonerFactory	null	uniqueInstance	Singleton
+com.hp.hpl.jena.reasoner.rulesys.impl.Generator$LFlag	null	Singleton	Singleton
+com.hp.hpl.jena.reasoner.rulesys.impl.Generator$LFlag	null	uniqueInstance	Singleton
+com.hp.hpl.jena.reasoner.rulesys.impl.Generator$LFlag	null	uniqueInstance	Singleton
+com.hp.hpl.jena.reasoner.rulesys.impl.Generator$LFlag	null	uniqueInstance	Singleton
+com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode	null	Singleton	Singleton
+com.hp.hpl.jena.reasoner.rulesys.impl.RuleClauseCode	null	uniqueInstance	Singleton
+com.hp.hpl.jena.reasoner.rulesys.impl.StateFlag	null	Singleton	Singleton
+com.hp.hpl.jena.reasoner.rulesys.impl.StateFlag	null	uniqueInstance	Singleton
+com.hp.hpl.jena.reasoner.rulesys.impl.StateFlag	null	uniqueInstance	Singleton
+com.hp.hpl.jena.reasoner.rulesys.impl.StateFlag	null	uniqueInstance	Singleton
+com.hp.hpl.jena.reasoner.rulesys.impl.StateFlag	null	uniqueInstance	Singleton
+com.hp.hpl.jena.reasoner.rulesys.Node_RuleVariable	null	Singleton	Singleton
+com.hp.hpl.jena.reasoner.rulesys.Node_RuleVariable	null	uniqueInstance	Singleton
+com.hp.hpl.jena.shared.PrefixMapping	null	Singleton	Singleton
+com.hp.hpl.jena.shared.PrefixMapping	null	uniqueInstance	Singleton
+com.hp.hpl.jena.shared.PrefixMapping	null	uniqueInstance	Singleton
+com.hp.hpl.jena.shared.ReificationStyle	null	Singleton	Singleton
+com.hp.hpl.jena.shared.ReificationStyle	null	uniqueInstance	Singleton
+com.hp.hpl.jena.shared.ReificationStyle	null	uniqueInstance	Singleton
+com.hp.hpl.jena.shared.ReificationStyle	null	uniqueInstance	Singleton
+com.hp.hpl.jena.shared.uuid.UUID_nil	null	Singleton	Singleton
+com.hp.hpl.jena.shared.uuid.UUID_nil	null	uniqueInstance	Singleton
+com.hp.hpl.jena.util.FileManager	null	Singleton	Singleton
+com.hp.hpl.jena.util.FileManager	null	uniqueInstance	Singleton
+com.hp.hpl.jena.util.iterator.Filter	null	Singleton	Singleton
+com.hp.hpl.jena.util.iterator.Filter	null	uniqueInstance	Singleton
+com.hp.hpl.jena.util.LocationMapper	null	Singleton	Singleton
+com.hp.hpl.jena.util.LocationMapper	null	uniqueInstance	Singleton
+com.hp.hpl.jena.vocabulary.DAML_OIL	null	Singleton	Singleton
+com.hp.hpl.jena.vocabulary.DAML_OIL	null	uniqueInstance	Singleton
+com.hp.hpl.jena.rdf.model.impl.ModelReifier	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelCom	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelCom	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelCom	getReificationStyle	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelCom	listReifiedStatements	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelCom	listReifiedStatements	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelCom	isReified	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelCom	getAnyReifiedStatement	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelCom	removeAllReifications	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelCom	removeReification	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelCom	createReifiedStatement	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelCom	createReifiedStatement	Request()	(Object)Adapter
+com.hp.hpl.jena.ontology.OntModelSpec	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.ontology.impl.OntModelImpl	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.ontology.impl.OntModelImpl	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.ontology.impl.OntModelImpl	getDocumentManager	Request()	(Object)Adapter
+com.hp.hpl.jena.ontology.impl.OntModelImpl	getProfile	Request()	(Object)Adapter
+com.hp.hpl.jena.ontology.impl.OntModelImpl	getImportModelMaker	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleInfGraph	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.util.OneToManyMap	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleInfGraph	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleInfGraph	logDerivation	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleInfGraph	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.TempNodeCache	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleInfGraph	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleInfGraph	getTemp	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleInfGraph	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.LPBRuleEngine	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleInfGraph	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleInfGraph	findWithContinuation	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.TempNodeCache	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	getTemp	Request()	(Object)Adapter
+com.hp.hpl.jena.mem.MixedGraphMem	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.mem.MixedGraphMemStore	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.mem.MixedGraphMem	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.mem.MixedGraphMem	isEmpty	Request()	(Object)Adapter
+com.hp.hpl.jena.mem.MixedGraphMem	clear	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.Graph	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.impl.WrappedGraph	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.graph.impl.WrappedGraph	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.impl.WrappedGraph	performAdd	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.WrappedGraph	performDelete	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.RDFNode	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.StatementImpl	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.StatementImpl	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.StatementImpl	getBag	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.StatementImpl	getAlt	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.StatementImpl	getSeq	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.SQLCache	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.db.impl.DriverRDB	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.db.impl.DriverRDB	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.db.impl.DriverRDB	tryLockDB	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.DriverRDB	unlockDB	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.DriverRDB	createTable	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.DriverRDB	deleteTable	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.DriverRDB	transactionsSupported	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.DriverRDB	getInsertID	Request()	(Object)Adapter
+com.hp.hpl.jena.util.OneToManyMap	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleInfGraph	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleInfGraph	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleInfGraph	logDerivation	Request()	(Object)Adapter
+com.hp.hpl.jena.db.GraphRDB	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.db.ModelRDB	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.db.ModelRDB	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.db.ModelRDB	close	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.DBPropDatabase	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.db.impl.DriverRDB	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.db.impl.DriverRDB	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.db.impl.DriverRDB	getSystemSpecializedGraph	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.DriverRDB	removeSpecializedGraphs	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.ForwardRuleInfGraphI	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine	fastInit	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngineI	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleInfGraph	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleInfGraph	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleInfGraph	shouldTrace	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.compose.Polyadic	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.compose.PolyadicPrefixMappingImpl	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.graph.compose.PolyadicPrefixMappingImpl	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.compose.PolyadicPrefixMappingImpl	getNsPrefixURI	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.compose.PolyadicPrefixMappingImpl	getNsPrefixMap	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.compose.PolyadicPrefixMappingImpl	getNsURIPrefix	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.compose.PolyadicPrefixMappingImpl	expandPrefix	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.compose.PolyadicPrefixMappingImpl	shortForm	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.compose.PolyadicPrefixMappingImpl	qnameFor	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.arp.impl.RDFXMLParser	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.arp.ARP	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.rdf.arp.ARP	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.arp.ARP	getHandlers	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.arp.ARP	setHandlersWith	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.arp.ARP	getOptions	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.arp.ARP	setOptionsWith	Request()	(Object)Adapter
+com.hp.hpl.jena.datatypes.RDFDatatype	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.impl.LiteralLabelImpl	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.graph.impl.LiteralLabelImpl	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.impl.LiteralLabelImpl	toString	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.LiteralLabelImpl	getLexicalForm	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.LiteralLabelImpl	getDatatypeURI	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.LiteralLabelImpl	hashCode	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.GraphEventManager	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	add	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	add	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	add	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	add	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	add	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	delete	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	delete	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	delete	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	delete	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	delete	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	removeAll	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	remove	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.GraphEventManager	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.db.impl.DBBulkUpdateHandler	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.db.impl.DBBulkUpdateHandler	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.db.impl.DBBulkUpdateHandler	add	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.DBBulkUpdateHandler	add	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.DBBulkUpdateHandler	add	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.DBBulkUpdateHandler	delete	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.DBBulkUpdateHandler	delete	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.DBBulkUpdateHandler	delete	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.DBBulkUpdateHandler	removeAll	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.DBBulkUpdateHandler	remove	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.GraphEventManager	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleBulkUpdateHandler	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleBulkUpdateHandler	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleBulkUpdateHandler	add	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleBulkUpdateHandler	add	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleBulkUpdateHandler	delete	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleBulkUpdateHandler	delete	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleBulkUpdateHandler	remove	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.ReificationCacheMap	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB	add	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB	delete	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.Node	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.enhanced.EnhNode	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.enhanced.EnhNode	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.enhanced.EnhNode	equals	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.util.OneToManyMap	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine	fastInit	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine	setRuleStore	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.arp.JenaHandler	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.arp.JenaReader	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.rdf.arp.JenaReader	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.arp.JenaReader	setErrorHandler	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreter	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.LPTopGoalIterator	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.LPTopGoalIterator	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.LPTopGoalIterator	close	Request()	(Object)Adapter
+com.hp.hpl.jena.db.GraphRDB	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.db.impl.DBBulkUpdateHandler	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.db.impl.DBBulkUpdateHandler	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.db.impl.DBBulkUpdateHandler	removeAll	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.GraphWithPerform	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleBulkUpdateHandler	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleBulkUpdateHandler	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleBulkUpdateHandler	add	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleBulkUpdateHandler	delete	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.PSet_ReifStore_RDB	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB	add	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB	delete	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB	findReifiedNodes	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.SpecializedGraphReifier_RDB	findReifiedTriple	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.Model	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$ExpandingAssemblerGroup	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$ExpandingAssemblerGroup	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$ExpandingAssemblerGroup	implementWith	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.Graph	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.query.SimpleQueryHandler	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.graph.query.SimpleQueryHandler	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.query.SimpleQueryHandler	containsNode	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.SQLCache	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	cleanDB	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	rowCount	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	storeTripleList	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	deleteTripleList	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	find	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	removeStatementsFromDB	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.IPSet	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.db.impl.ResultSetReifIterator	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.db.impl.ResultSetReifIterator	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.db.impl.ResultSetReifIterator	extractRow	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.IPSet	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.db.impl.ResultSetTripleIterator	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.db.impl.ResultSetTripleIterator	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.db.impl.ResultSetTripleIterator	extractRow	Request()	(Object)Adapter
+com.hp.hpl.jena.shared.ReificationStyle	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.db.impl.DBReifier	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.db.impl.DBReifier	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.db.impl.DBReifier	findEither	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.DBReifier	size	Request()	(Object)Adapter
+com.hp.hpl.jena.shared.ReificationStyle	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.impl.ReificationWrapper	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.graph.impl.ReificationWrapper	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.impl.ReificationWrapper	findEither	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.ReificationWrapper	size	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleInfGraph	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.reasoner.Finder	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleInfGraph	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleInfGraph	findDataMatches	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleInfGraph	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.reasoner.FGraph	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleInfGraph	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleInfGraph	getSchemaGraph	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.reasoner.Finder	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	findDataMatches	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveInfGraph	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.reasoner.Finder	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveInfGraph	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveInfGraph	findWithContinuation	Request()	(Object)Adapter
+com.hp.hpl.jena.mem.NodeToTriplesMapBase	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.mem.GraphTripleStoreBase	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.mem.GraphTripleStoreBase	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.mem.GraphTripleStoreBase	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.mem.GraphTripleStoreBase	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.mem.GraphTripleStoreBase	add	Request()	(Object)Adapter
+com.hp.hpl.jena.mem.GraphTripleStoreBase	delete	Request()	(Object)Adapter
+com.hp.hpl.jena.mem.GraphTripleStoreBase	clear	Request()	(Object)Adapter
+com.hp.hpl.jena.mem.GraphTripleStoreBase	size	Request()	(Object)Adapter
+com.hp.hpl.jena.mem.GraphTripleStoreBase	isEmpty	Request()	(Object)Adapter
+com.hp.hpl.jena.mem.GraphTripleStoreBase	listSubjects	Request()	(Object)Adapter
+com.hp.hpl.jena.mem.GraphTripleStoreBase	listPredicates	Request()	(Object)Adapter
+com.hp.hpl.jena.mem.GraphTripleStoreBase	listObjects	Request()	(Object)Adapter
+com.hp.hpl.jena.mem.GraphTripleStoreBase	contains	Request()	(Object)Adapter
+com.hp.hpl.jena.mem.GraphTripleStoreBase	find	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.ReasonerFactory	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleReasoner	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleReasoner	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleReasoner	getReasonerCapabilities	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleReasoner	supportsProperty	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.ReasonerFactory	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleReasoner	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleReasoner	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleReasoner	getReasonerCapabilities	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleReasoner	supportsProperty	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.RETERuleContext	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.RETERuleContext	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.RETERuleContext	remove	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.RETERuleContext	add	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.Graph	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.impl.ReificationWrapper	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.graph.impl.ReificationWrapper	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.impl.ReificationWrapper	allNodes	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.ReificationWrapper	find	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.ReificationWrapper	handledAdd	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.ReificationWrapper	remove	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.ReificationWrapper	hasTriple	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.ReifierTripleMap	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleReifier	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleReifier	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleReifier	allNodes	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleReifier	allNodes	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleReifier	reifyAs	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleReifier	remove	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleReifier	remove	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleReifier	hasTriple	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleReifier	find	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleReifier	size	Request()	(Object)Adapter
+com.hp.hpl.jena.db.IDBConnection	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.db.impl.DriverRDB	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.db.impl.DriverRDB	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.db.impl.DriverRDB	DBisLocked	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.IRDBDriver	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.db.DBConnection	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.db.DBConnection	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.db.DBConnection	close	Request()	(Object)Adapter
+com.hp.hpl.jena.db.DBConnection	cleanDB	Request()	(Object)Adapter
+com.hp.hpl.jena.db.DBConnection	isFormatOK	Request()	(Object)Adapter
+com.hp.hpl.jena.db.DBConnection	setDatabaseProperties	Request()	(Object)Adapter
+com.hp.hpl.jena.db.DBConnection	getDatabaseProperties	Request()	(Object)Adapter
+com.hp.hpl.jena.db.DBConnection	getDefaultModelProperties	Request()	(Object)Adapter
+com.hp.hpl.jena.db.DBConnection	getAllModelNames	Request()	(Object)Adapter
+com.hp.hpl.jena.db.DBConnection	containsModel	Request()	(Object)Adapter
+com.hp.hpl.jena.db.DBConnection	getDriver	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.ConsumerChoicePointFrame	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.LPTopGoalIterator	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.LPTopGoalIterator	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.LPTopGoalIterator	isReady	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.IRDBDriver	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	extractTripleFromRowData	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	find	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.ModelChangedListener	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	notifyAddArray	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	notifyDeleteArray	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	notifyAddTriple	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	notifyAddList	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	notifyAddIterator	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	notifyAddGraph	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	notifyDeleteIterator	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	notifyDeleteTriple	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	notifyDeleteList	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	notifyDeleteGraph	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	notifyEvent	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelCom	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	notifyAddArray	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	notifyDeleteArray	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	notifyAddTriple	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	notifyAddList	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	notifyAddIterator	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	notifyAddGraph	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	notifyDeleteIterator	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	notifyDeleteTriple	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	notifyDeleteList	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	notifyDeleteGraph	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.GraphMaker	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelMakerImpl	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelMakerImpl	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelMakerImpl	close	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelMakerImpl	openModel	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelMakerImpl	createModel	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelMakerImpl	removeModel	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelMakerImpl	hasModel	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelMakerImpl	listModels	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.FileGraph	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.impl.FileGraphTransactionHandler	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.graph.impl.FileGraphTransactionHandler	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.impl.FileGraphTransactionHandler	begin	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.FileGraphTransactionHandler	abort	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.FileGraphTransactionHandler	commit	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.BaseInfGraph	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.BaseInfGraph$InfTransactionHandler	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.reasoner.BaseInfGraph$InfTransactionHandler	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.BaseInfGraph$InfTransactionHandler	abort	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.DAMLMicroReasonerFactory	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.rdf.model.Model	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.DAMLMicroReasonerFactory	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.DAMLMicroReasonerFactory	getCapabilities	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.OWLFBRuleReasonerFactory	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.rdf.model.Model	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.OWLFBRuleReasonerFactory	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.OWLFBRuleReasonerFactory	getCapabilities	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.OWLMicroReasonerFactory	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.rdf.model.Model	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.OWLMicroReasonerFactory	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.OWLMicroReasonerFactory	getCapabilities	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.OWLMiniReasonerFactory	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.rdf.model.Model	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.OWLMiniReasonerFactory	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.OWLMiniReasonerFactory	getCapabilities	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.RDFSFBRuleReasonerFactory	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.rdf.model.Model	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.RDFSFBRuleReasonerFactory	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.RDFSFBRuleReasonerFactory	getCapabilities	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.RDFSRuleReasonerFactory	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.rdf.model.Model	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.RDFSRuleReasonerFactory	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.RDFSRuleReasonerFactory	getCapabilities	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.WrappedReasonerFactory	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.rdf.model.Model	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.WrappedReasonerFactory	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.WrappedReasonerFactory	create	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveReasonerFactory	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.rdf.model.Model	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveReasonerFactory	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveReasonerFactory	getCapabilities	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.GenericRuleReasonerFactory	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.rdf.model.Model	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.GenericRuleReasonerFactory	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.GenericRuleReasonerFactory	getCapabilities	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.Rule	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.BFRuleContext	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.BFRuleContext	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.BFRuleContext	add	Request()	(Object)Adapter
+com.hp.hpl.jena.mem.MatchOrBind	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$1	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$1	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$1	applyToTriples	Request()	(Object)Adapter
+com.hp.hpl.jena.mem.MatchOrBind	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$2	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$2	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$2	applyToTriples	Request()	(Object)Adapter
+com.hp.hpl.jena.mem.MatchOrBind	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$3	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$3	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$3	applyToTriples	Request()	(Object)Adapter
+com.hp.hpl.jena.mem.MatchOrBind	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$4	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$4	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$4	applyToTriples	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.LRUCache	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.db.impl.DriverRDB	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.db.impl.DriverRDB	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.db.impl.DriverRDB	getCompressCacheSize	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.DriverRDB	setCompressCacheSize	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleReifierFragmentsMap	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleReifierFragmentHandler	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleReifierFragmentHandler	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleReifierFragmentHandler	clashedWith	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleReifierFragmentHandler	reifyIfCompleteQuad	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleReifierFragmentHandler	removeFragment	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.query.Query	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.query.SimpleQueryPlan	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.graph.query.SimpleQueryPlan	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.query.SimpleQueryPlan	executeBindings	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.RDFErrorHandler	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.n3.JenaReaderBase	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.n3.JenaReaderBase	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.n3.JenaReaderBase	read	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.RDFErrorHandler	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.arp.JenaReader	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.rdf.arp.JenaReader	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.arp.JenaReader	setProperty	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.RDFErrorHandler	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.NTripleReader	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.NTripleReader	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.NTripleReader	setProperty	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.BackwardRuleInfGraphI	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.BBRuleContext	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.BBRuleContext	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.BBRuleContext	find	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.BBRuleContext	remove	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.ForwardRuleInfGraphI	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.BFRuleContext	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.BFRuleContext	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.BFRuleContext	add	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.BFRuleContext	find	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.ForwardRuleInfGraphI	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.RETERuleContext	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.RETERuleContext	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.RETERuleContext	find	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.RETERuleContext	remove	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.RETERuleContext	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.RETETerminal	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.RETETerminal	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.RETETerminal	fire	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.SpecializedGraphReifier	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.db.impl.DBReifier	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.db.impl.DBReifier	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.db.impl.DBReifier	reifyAs	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.DBReifier	hasTriple	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.DBReifier	hasTriple	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.DBReifier	allNodes	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.DBReifier	allNodes	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.DBReifier	remove	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.DBReifier	remove	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.DBReifier	handledAdd	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.DBReifier	handledRemove	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.ReifierFragmentsMap	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleReifier	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleReifier	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleReifier	handledAdd	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleReifier	handledRemove	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleReifier	find	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.impl.SimpleReifier	size	Request()	(Object)Adapter
+com.hp.hpl.jena.xmloutput.impl.SimpleLogger	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	setProperty	Request()	(Object)Adapter
+com.hp.hpl.jena.mem.faster.FasterTripleStore	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.mem.faster.GraphMemFaster$GraphMemFasterStatisticsHandler	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.mem.faster.GraphMemFaster$GraphMemFasterStatisticsHandler	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.mem.faster.GraphMemFaster$GraphMemFasterStatisticsHandler	getStatistic	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.query.StageElement$FindTriples	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.graph.query.Applyer	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.query.StageElement$FindTriples	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.query.StageElement$FindTriples	run	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreter	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.LPBindingEnvironment	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.LPBindingEnvironment	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.impl.LPBindingEnvironment	bind	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.RDFReaderF	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelCom	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelCom	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelCom	read	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelCom	read	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelCom	read	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelCom	read	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelCom	read	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ModelCom	read	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.Node	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.impl.GraphMatcher$FixedResource	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.graph.impl.GraphMatcher$FixedResource	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.impl.GraphMatcher$FixedResource	mightBeEqual	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.Rule	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.RuleDerivation	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.RuleDerivation	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.RuleDerivation	toString	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.TripleBoundary	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.model.StatementTripleBoundary	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.rdf.model.StatementTripleBoundary	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.model.StatementTripleBoundary	stopAt	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.Statement	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ContNodeIteratorImpl	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ContNodeIteratorImpl	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ContNodeIteratorImpl	next	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ContNodeIteratorImpl	remove	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.Statement	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.SeqNodeIteratorImpl	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.SeqNodeIteratorImpl	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.SeqNodeIteratorImpl	next	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.SeqNodeIteratorImpl	remove	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.Graph	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.n3.turtle.TurtleRDFGraphInserter	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.n3.turtle.TurtleRDFGraphInserter	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.n3.turtle.TurtleRDFGraphInserter	triple	Request()	(Object)Adapter
+com.hp.hpl.jena.n3.turtle.TurtleRDFGraphInserter	prefix	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.Graph	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.FGraph	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.reasoner.FGraph	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.FGraph	find	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.FGraph	findWithContinuation	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.FGraph	contains	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.Node	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache	findWithContinuation	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache	find	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.Node	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.query.Fixed	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.graph.query.Fixed	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.query.Fixed	match	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.query.QueryNode	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.mem.MatchOrBind$1	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.mem.MatchOrBind$1	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.mem.MatchOrBind$1	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.mem.MatchOrBind$1	matches	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.query.QueryNode	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.mem.MatchOrBind$2	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.mem.MatchOrBind$2	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.mem.MatchOrBind$2	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.mem.MatchOrBind$2	matches	Request()	(Object)Adapter
+com.hp.hpl.jena.shared.PrefixMapping	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.arp.JenaHandler	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.rdf.arp.JenaHandler	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.arp.JenaHandler	startPrefixMapping	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.Container	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ContNodeIteratorImpl	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ContNodeIteratorImpl	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.ContNodeIteratorImpl	remove	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.RDFErrorHandler	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.NTripleWriter	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.NTripleWriter	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.NTripleWriter	write	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.impl.NTripleWriter	write	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.Resource	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.ontology.impl.OntModelImpl$RdfTypeTestFn	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.ontology.impl.OntModelImpl$RdfTypeTestFn	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.ontology.impl.OntModelImpl$RdfTypeTestFn	reduce	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.Triple	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.impl.GraphAddList	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.graph.impl.GraphAddList	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.impl.GraphAddList	add	Request()	(Object)Adapter
+com.hp.hpl.jena.db.impl.ResultSetReifIterator	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.graph.Node	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.db.impl.ResultSetReifIterator	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.db.impl.ResultSetReifIterator	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.db.impl.ResultSetReifIterator	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.db.impl.ResultSetReifIterator	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.db.impl.ResultSetReifIterator	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.db.impl.ResultSetReifIterator	extractRow	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.Reifier	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.mem.faster.GraphMemFaster$GraphMemFasterStatisticsHandler	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.mem.faster.GraphMemFaster$GraphMemFasterStatisticsHandler	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.mem.faster.GraphMemFaster$GraphMemFasterStatisticsHandler	getStatistic	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier$GetReifier	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	allNodes	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	allNodes	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	find	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	findEither	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	findExposed	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	hasTriple	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	hasTriple	Request()	(Object)Adapter
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	size	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.query.IndexValues	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.query.Expression$Valof	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.graph.query.Expression$Valof	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.query.Expression$Valof	get	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.query.StageElement$RunValuatorSet	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.graph.query.ValuatorSet	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.query.StageElement$RunValuatorSet	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.query.StageElement$RunValuatorSet	run	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.query.Pipe	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.query.StageElement$PutBindings	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.graph.query.StageElement$PutBindings	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.query.StageElement$PutBindings	run	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.query.VariableIndexes	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.query.Expression$Valof	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.graph.query.Expression$Valof	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.graph.query.Expression$Valof	get	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.Property	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.model.SimpleSelector	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.rdf.model.SimpleSelector	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.model.SimpleSelector	test	Request()	(Object)Adapter
+com.hp.hpl.jena.rdf.model.Resource	null	Adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.model.SimpleSelector	null	Adapter	(Object)Adapter
+com.hp.hpl.jena.rdf.model.SimpleSelector	null	adaptee	(Object)Adapter
+com.hp.hpl.jena.rdf.model.SimpleSelector	test	Request()	(Object)Adapter
+com.hp.hpl.jena.graph.GraphListener	null	Component	Composite
+com.hp.hpl.jena.graph.impl.SimpleEventManager	null	Composite	Composite
+com.hp.hpl.jena.graph.impl.SimpleEventManager	notifyAddTriple	Operation()	Composite
+com.hp.hpl.jena.graph.impl.SimpleEventManager	notifyAddArray	Operation()	Composite
+com.hp.hpl.jena.graph.impl.SimpleEventManager	notifyAddList	Operation()	Composite
+com.hp.hpl.jena.graph.impl.SimpleEventManager	notifyAddGraph	Operation()	Composite
+com.hp.hpl.jena.graph.impl.SimpleEventManager	notifyDeleteTriple	Operation()	Composite
+com.hp.hpl.jena.graph.impl.SimpleEventManager	notifyDeleteArray	Operation()	Composite
+com.hp.hpl.jena.graph.impl.SimpleEventManager	notifyDeleteList	Operation()	Composite
+com.hp.hpl.jena.graph.impl.SimpleEventManager	notifyDeleteGraph	Operation()	Composite
+com.hp.hpl.jena.graph.impl.SimpleEventManager	notifyEvent	Operation()	Composite
+com.hp.hpl.jena.graph.query.regexptrees.RegexpTree	null	Component	Decorator
+com.hp.hpl.jena.graph.query.regexptrees.Paren	null	Decorator	Decorator
+com.hp.hpl.jena.graph.query.regexptrees.Paren	null	component	Decorator
+com.hp.hpl.jena.graph.query.regexptrees.Paren	equals	Operation()	Decorator
+com.hp.hpl.jena.graph.query.regexptrees.Paren	hashCode	Operation()	Decorator
+com.hp.hpl.jena.graph.query.StageElement	null	Component	Decorator
+com.hp.hpl.jena.graph.query.StageElement$RunValuatorSet	null	Decorator	Decorator
+com.hp.hpl.jena.graph.query.StageElement$RunValuatorSet	null	component	Decorator
+com.hp.hpl.jena.graph.query.StageElement$RunValuatorSet	run	Operation()	Decorator
+com.hp.hpl.jena.graph.Graph	null	Component	Decorator
+com.hp.hpl.jena.graph.compose.Delta	null	Decorator	Decorator
+com.hp.hpl.jena.graph.compose.Delta	null	component	Decorator
+com.hp.hpl.jena.graph.compose.Delta	close	Operation()	Decorator
+com.hp.hpl.jena.util.iterator.ExtendedIterator	null	Component	Decorator
+com.hp.hpl.jena.util.iterator.LazyIterator	null	Decorator	Decorator
+com.hp.hpl.jena.util.iterator.LazyIterator	null	component	Decorator
+com.hp.hpl.jena.util.iterator.LazyIterator	filterKeep	Operation()	Decorator
+com.hp.hpl.jena.util.iterator.LazyIterator	filterDrop	Operation()	Decorator
+com.hp.hpl.jena.graph.query.Expression	null	Component	Decorator
+com.hp.hpl.jena.graph.query.Dyadic	null	Decorator	Decorator
+com.hp.hpl.jena.graph.query.Dyadic	null	component	Decorator
+com.hp.hpl.jena.graph.query.Dyadic	null	component	Decorator
+com.hp.hpl.jena.graph.query.Dyadic	prepare	Operation()	Decorator
+com.hp.hpl.jena.graph.BulkUpdateHandler	null	Component	Decorator
+com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	null	Decorator	Decorator
+com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	null	component	Decorator
+com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	add	Operation()	Decorator
+com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	add	Operation()	Decorator
+com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	add	Operation()	Decorator
+com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	add	Operation()	Decorator
+com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	delete	Operation()	Decorator
+com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	delete	Operation()	Decorator
+com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	delete	Operation()	Decorator
+com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	delete	Operation()	Decorator
+com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	removeAll	Operation()	Decorator
+com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	remove	Operation()	Decorator
+com.hp.hpl.jena.rdf.arp.StatementHandler	null	Component	Decorator
+com.hp.hpl.jena.rdf.arp.NTriple$TwoSH	null	Decorator	Decorator
+com.hp.hpl.jena.rdf.arp.NTriple$TwoSH	null	component	Decorator
+com.hp.hpl.jena.rdf.arp.NTriple$TwoSH	null	component	Decorator
+com.hp.hpl.jena.rdf.arp.NTriple$TwoSH	statement	Operation()	Decorator
+com.hp.hpl.jena.rdf.arp.NTriple$TwoSH	statement	Operation()	Decorator
+com.hp.hpl.jena.reasoner.ReasonerFactory	null	Component	Decorator
+com.hp.hpl.jena.reasoner.rulesys.impl.WrappedReasonerFactory	null	Decorator	Decorator
+com.hp.hpl.jena.reasoner.rulesys.impl.WrappedReasonerFactory	null	component	Decorator
+com.hp.hpl.jena.reasoner.rulesys.impl.WrappedReasonerFactory	create	Operation()	Decorator
+com.hp.hpl.jena.reasoner.rulesys.impl.WrappedReasonerFactory	getCapabilities	Operation()	Decorator
+com.hp.hpl.jena.reasoner.rulesys.impl.WrappedReasonerFactory	getURI	Operation()	Decorator
+com.hp.hpl.jena.graph.Reifier	null	Component	Decorator
+com.hp.hpl.jena.graph.impl.WrappedReifier	null	Decorator	Decorator
+com.hp.hpl.jena.graph.impl.WrappedReifier	null	component	Decorator
+com.hp.hpl.jena.graph.impl.WrappedReifier	getStyle	Operation()	Decorator
+com.hp.hpl.jena.graph.impl.WrappedReifier	find	Operation()	Decorator
+com.hp.hpl.jena.graph.impl.WrappedReifier	findExposed	Operation()	Decorator
+com.hp.hpl.jena.graph.impl.WrappedReifier	findEither	Operation()	Decorator
+com.hp.hpl.jena.graph.impl.WrappedReifier	size	Operation()	Decorator
+com.hp.hpl.jena.graph.impl.WrappedReifier	reifyAs	Operation()	Decorator
+com.hp.hpl.jena.graph.impl.WrappedReifier	hasTriple	Operation()	Decorator
+com.hp.hpl.jena.graph.impl.WrappedReifier	hasTriple	Operation()	Decorator
+com.hp.hpl.jena.graph.impl.WrappedReifier	allNodes	Operation()	Decorator
+com.hp.hpl.jena.graph.impl.WrappedReifier	allNodes	Operation()	Decorator
+com.hp.hpl.jena.graph.impl.WrappedReifier	remove	Operation()	Decorator
+com.hp.hpl.jena.graph.impl.WrappedReifier	remove	Operation()	Decorator
+com.hp.hpl.jena.graph.impl.WrappedReifier	handledAdd	Operation()	Decorator
+com.hp.hpl.jena.graph.impl.WrappedReifier	handledRemove	Operation()	Decorator
+com.hp.hpl.jena.graph.impl.WrappedReifier	close	Operation()	Decorator
+com.hp.hpl.jena.graph.Reifier	null	Component	Decorator
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	null	Decorator	Decorator
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	null	component	Decorator
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	allNodes	Operation()	Decorator
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	allNodes	Operation()	Decorator
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	close	Operation()	Decorator
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	find	Operation()	Decorator
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	findEither	Operation()	Decorator
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	findExposed	Operation()	Decorator
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	getStyle	Operation()	Decorator
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	handledAdd	Operation()	Decorator
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	handledRemove	Operation()	Decorator
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	hasTriple	Operation()	Decorator
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	hasTriple	Operation()	Decorator
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	reifyAs	Operation()	Decorator
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	remove	Operation()	Decorator
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	remove	Operation()	Decorator
+com.hp.hpl.jena.reasoner.Finder	null	Component	Decorator
+com.hp.hpl.jena.reasoner.FinderUtil$Cascade	null	Decorator	Decorator
+com.hp.hpl.jena.reasoner.FinderUtil$Cascade	null	component	Decorator
+com.hp.hpl.jena.reasoner.FinderUtil$Cascade	null	component	Decorator
+com.hp.hpl.jena.reasoner.FinderUtil$Cascade	find	Operation()	Decorator
+com.hp.hpl.jena.reasoner.rulesys.impl.RETESinkNode	null	Component	Decorator
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEQueue	null	Decorator	Decorator
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEQueue	null	component	Decorator
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEQueue	fire	Operation()	Decorator
+com.hp.hpl.jena.graph.Graph	null	Observer	Observer
+com.hp.hpl.jena.graph.compose.Polyadic	null	Subject	Observer
+com.hp.hpl.jena.graph.compose.Polyadic	close	Notify()	Observer
+com.hp.hpl.jena.util.Locator	null	Observer	Observer
+com.hp.hpl.jena.util.FileManager	null	Subject	Observer
+com.hp.hpl.jena.util.FileManager	openNoMapOrNull	Notify()	Observer
+com.hp.hpl.jena.rdf.arp.impl.XMLHandler	null	Context	State
+com.hp.hpl.jena.rdf.arp.states.FrameI	null	State	State
+com.hp.hpl.jena.rdf.arp.impl.XMLHandler	null	state	State
+com.hp.hpl.jena.rdf.arp.impl.XMLHandler	startElement	Request()	State
+com.hp.hpl.jena.rdf.arp.impl.XMLHandler	endElement	Request()	State
+com.hp.hpl.jena.rdf.arp.impl.XMLHandler	characters	Request()	State
+com.hp.hpl.jena.rdf.arp.impl.XMLHandler	comment	Request()	State
+com.hp.hpl.jena.rdf.arp.impl.XMLHandler	processingInstruction	Request()	State
+com.hp.hpl.jena.rdf.arp.impl.XMLHandler	afterParse	Request()	State
+com.hp.hpl.jena.rdf.model.Model	null	State	State
+jena.rdfcat	null	Context	State
+jena.rdfcat	null	state	State
+jena.rdfcat	go	Request()	State
+jena.rdfcat	readInput	Request()	State
+com.hp.hpl.jena.rdf.model.Model	null	State	State
+com.hp.hpl.jena.reasoner.ReasonerRegistry	null	Context	State
+com.hp.hpl.jena.reasoner.ReasonerRegistry	null	state	State
+com.hp.hpl.jena.reasoner.ReasonerRegistry	register	Request()	State
+com.hp.hpl.jena.reasoner.ReasonerRegistry	register	Request()	State
+com.hp.hpl.jena.reasoner.ReasonerRegistry	getDescription	Request()	State
+com.hp.hpl.jena.rdf.model.Model	null	State	State
+com.hp.hpl.jena.vocabulary.DCTerms	null	Context	State
+com.hp.hpl.jena.vocabulary.DCTerms	null	state	State
+com.hp.hpl.jena.vocabulary.DCTerms	<clinit>	Request()	State
+com.hp.hpl.jena.rdf.model.Model	null	State	State
+com.hp.hpl.jena.vocabulary.DCTypes	null	Context	State
+com.hp.hpl.jena.vocabulary.DCTypes	null	state	State
+com.hp.hpl.jena.vocabulary.DCTypes	<clinit>	Request()	State
+com.hp.hpl.jena.rdf.model.Model	null	State	State
+com.hp.hpl.jena.vocabulary.OWL	null	Context	State
+com.hp.hpl.jena.vocabulary.OWL	null	state	State
+com.hp.hpl.jena.vocabulary.OWL	<clinit>	Request()	State
+com.hp.hpl.jena.rdf.model.Model	null	State	State
+com.hp.hpl.jena.vocabulary.OWLResults	null	Context	State
+com.hp.hpl.jena.vocabulary.OWLResults	null	state	State
+com.hp.hpl.jena.vocabulary.OWLResults	<clinit>	Request()	State
+com.hp.hpl.jena.rdf.model.Model	null	State	State
+com.hp.hpl.jena.vocabulary.OWLTest	null	Context	State
+com.hp.hpl.jena.vocabulary.OWLTest	null	state	State
+com.hp.hpl.jena.vocabulary.OWLTest	<clinit>	Request()	State
+com.hp.hpl.jena.rdf.model.Model	null	State	State
+com.hp.hpl.jena.vocabulary.OntDocManagerVocab	null	Context	State
+com.hp.hpl.jena.vocabulary.OntDocManagerVocab	null	state	State
+com.hp.hpl.jena.vocabulary.OntDocManagerVocab	<clinit>	Request()	State
+com.hp.hpl.jena.rdf.model.Model	null	State	State
+com.hp.hpl.jena.vocabulary.RDFTest	null	Context	State
+com.hp.hpl.jena.vocabulary.RDFTest	null	state	State
+com.hp.hpl.jena.vocabulary.RDFTest	<clinit>	Request()	State
+com.hp.hpl.jena.rdf.model.Model	null	State	State
+com.hp.hpl.jena.vocabulary.TestManifest	null	Context	State
+com.hp.hpl.jena.vocabulary.TestManifest	null	state	State
+com.hp.hpl.jena.vocabulary.TestManifest	<clinit>	Request()	State
+com.hp.hpl.jena.rdf.model.Model	null	State	State
+com.hp.hpl.jena.vocabulary.TestManifestX	null	Context	State
+com.hp.hpl.jena.vocabulary.TestManifestX	null	state	State
+com.hp.hpl.jena.vocabulary.TestManifestX	<clinit>	Request()	State
+com.hp.hpl.jena.rdf.model.Model	null	State	State
+com.hp.hpl.jena.vocabulary.VCARD	null	Context	State
+com.hp.hpl.jena.vocabulary.VCARD	null	state	State
+com.hp.hpl.jena.vocabulary.VCARD	<clinit>	Request()	State
+com.hp.hpl.jena.rdf.model.Model	null	State	State
+com.hp.hpl.jena.xmloutput.impl.Unparser	null	Context	State
+com.hp.hpl.jena.xmloutput.impl.Unparser	null	state	State
+com.hp.hpl.jena.xmloutput.impl.Unparser	addTypeNameSpaces	Request()	State
+com.hp.hpl.jena.xmloutput.impl.Unparser	wantReification	Request()	State
+com.hp.hpl.jena.xmloutput.impl.Unparser	findInfiniteCycles	Request()	State
+com.hp.hpl.jena.xmloutput.impl.Unparser	pleasingTypeIterator	Request()	State
+com.hp.hpl.jena.xmloutput.impl.Unparser	listSubjects	Request()	State
+com.hp.hpl.jena.xmloutput.impl.Unparser	modelListSubjects	Request()	State
+com.hp.hpl.jena.graph.impl.WrappedGraph	null	Context	State
+com.hp.hpl.jena.graph.Graph	null	State	State
+com.hp.hpl.jena.graph.impl.WrappedGraph	null	state	State
+com.hp.hpl.jena.graph.impl.WrappedGraph	dependsOn	Request()	State
+com.hp.hpl.jena.graph.impl.WrappedGraph	queryHandler	Request()	State
+com.hp.hpl.jena.graph.impl.WrappedGraph	getTransactionHandler	Request()	State
+com.hp.hpl.jena.graph.impl.WrappedGraph	getBulkUpdateHandler	Request()	State
+com.hp.hpl.jena.graph.impl.WrappedGraph	getStatisticsHandler	Request()	State
+com.hp.hpl.jena.graph.impl.WrappedGraph	getCapabilities	Request()	State
+com.hp.hpl.jena.graph.impl.WrappedGraph	getPrefixMapping	Request()	State
+com.hp.hpl.jena.graph.impl.WrappedGraph	delete	Request()	State
+com.hp.hpl.jena.graph.impl.WrappedGraph	find	Request()	State
+com.hp.hpl.jena.graph.impl.WrappedGraph	find	Request()	State
+com.hp.hpl.jena.graph.impl.WrappedGraph	isIsomorphicWith	Request()	State
+com.hp.hpl.jena.graph.impl.WrappedGraph	contains	Request()	State
+com.hp.hpl.jena.graph.impl.WrappedGraph	contains	Request()	State
+com.hp.hpl.jena.graph.impl.WrappedGraph	close	Request()	State
+com.hp.hpl.jena.graph.impl.WrappedGraph	isClosed	Request()	State
+com.hp.hpl.jena.graph.impl.WrappedGraph	isEmpty	Request()	State
+com.hp.hpl.jena.graph.impl.WrappedGraph	size	Request()	State
+com.hp.hpl.jena.graph.impl.WrappedGraph	performDelete	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleInfGraph	null	Context	State
+com.hp.hpl.jena.graph.Graph	null	State	State
+com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleInfGraph	null	state	State
+com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleInfGraph	createDeductionsGraph	Request()	State
+com.hp.hpl.jena.shared.PrefixMapping	null	State	State
+com.hp.hpl.jena.ontology.OntDocumentManager	null	Context	State
+com.hp.hpl.jena.ontology.OntDocumentManager	null	state	State
+com.hp.hpl.jena.ontology.OntDocumentManager	setDefaultPrefixMappings	Request()	State
+com.hp.hpl.jena.shared.PrefixMapping	null	State	State
+com.hp.hpl.jena.reasoner.rulesys.Rule$Parser	null	Context	State
+com.hp.hpl.jena.reasoner.rulesys.Rule$Parser	null	state	State
+com.hp.hpl.jena.reasoner.rulesys.Rule$Parser	registerPrefix	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.Rule$Parser	registerPrefixMap	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.Rule$Parser	getPrefixMap	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.Rule$Parser	parseNode	Request()	State
+com.hp.hpl.jena.shared.PrefixMapping	null	State	State
+com.hp.hpl.jena.util.PrintUtil	null	Context	State
+com.hp.hpl.jena.util.PrintUtil	null	state	State
+com.hp.hpl.jena.util.PrintUtil	registerPrefix	Request()	State
+com.hp.hpl.jena.util.PrintUtil	registerPrefixMap	Request()	State
+com.hp.hpl.jena.util.PrintUtil	removePrefix	Request()	State
+com.hp.hpl.jena.util.PrintUtil	removePrefixMap	Request()	State
+com.hp.hpl.jena.util.PrintUtil	expandQname	Request()	State
+com.hp.hpl.jena.rdf.model.impl.StatementImpl	null	Context	State
+com.hp.hpl.jena.rdf.model.Resource	null	State	State
+com.hp.hpl.jena.rdf.model.impl.StatementImpl	null	state	State
+com.hp.hpl.jena.rdf.model.impl.StatementImpl	sameAs	Request()	State
+com.hp.hpl.jena.rdf.model.Resource	null	State	State
+com.hp.hpl.jena.ontology.OntDocumentManager	null	Context	State
+com.hp.hpl.jena.ontology.OntDocumentManager	null	state	State
+com.hp.hpl.jena.ontology.OntDocumentManager	null	state	State
+com.hp.hpl.jena.ontology.OntDocumentManager	processMetadata	Request()	State
+com.hp.hpl.jena.rdf.model.Resource	null	State	State
+com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$Frame	null	Context	State
+com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$Frame	null	state	State
+com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$Frame	null	state	State
+com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$Frame	same	Request()	State
+com.hp.hpl.jena.graph.Node	null	State	State
+com.hp.hpl.jena.reasoner.rulesys.impl.TempNodeCache$NodePair	null	Context	State
+com.hp.hpl.jena.reasoner.rulesys.impl.TempNodeCache$NodePair	null	state	State
+com.hp.hpl.jena.reasoner.rulesys.impl.TempNodeCache$NodePair	null	state	State
+com.hp.hpl.jena.reasoner.rulesys.impl.TempNodeCache$NodePair	equals	Request()	State
+jena.schemagen	null	Context	State
+jena.schemagen$SchemagenOptions	null	State	State
+jena.schemagen	null	state	State
+jena.schemagen	go	Request()	State
+jena.schemagen	addIncludes	Request()	State
+jena.schemagen	determineLanguage	Request()	State
+jena.schemagen	selectInput	Request()	State
+jena.schemagen	selectOutput	Request()	State
+jena.schemagen	processHeader	Request()	State
+jena.schemagen	processFooter	Request()	State
+jena.schemagen	setGlobalReplacements	Request()	State
+jena.schemagen	addReplacementPattern	Request()	State
+jena.schemagen	getClassName	Request()	State
+jena.schemagen	useOntology	Request()	State
+jena.schemagen	noComments	Request()	State
+jena.schemagen	includeSource	Request()	State
+jena.schemagen	writeClassDeclaration	Request()	State
+jena.schemagen	writeInitialDeclarations	Request()	State
+jena.schemagen	writeModelDeclaration	Request()	State
+jena.schemagen	getOptionNamespace	Request()	State
+jena.schemagen	writeProperties	Request()	State
+jena.schemagen	writeObjectProperties	Request()	State
+jena.schemagen	writeDatatypeProperties	Request()	State
+jena.schemagen	writeAnnotationProperties	Request()	State
+jena.schemagen	writeRDFProperties	Request()	State
+jena.schemagen	writeClasses	Request()	State
+jena.schemagen	writeOntClasses	Request()	State
+jena.schemagen	writeRDFClasses	Request()	State
+jena.schemagen	writeIndividuals	Request()	State
+jena.schemagen	writeOntIndividuals	Request()	State
+jena.schemagen	writeRDFIndividuals	Request()	State
+jena.schemagen	filter	Request()	State
+jena.schemagen	getValueName	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.FBRuleReasoner	null	Context	State
+com.hp.hpl.jena.reasoner.InfGraph	null	State	State
+com.hp.hpl.jena.reasoner.rulesys.FBRuleReasoner	null	state	State
+com.hp.hpl.jena.reasoner.rulesys.FBRuleReasoner	getPreload	Request()	State
+com.hp.hpl.jena.vocabulary.OntEventsVocab	null	Context	State
+com.hp.hpl.jena.ontology.OntModel	null	State	State
+com.hp.hpl.jena.vocabulary.OntEventsVocab	null	state	State
+com.hp.hpl.jena.vocabulary.OntEventsVocab	<clinit>	Request()	State
+jena.schemagen	null	Context	State
+com.hp.hpl.jena.ontology.OntModel	null	State	State
+jena.schemagen	null	state	State
+jena.schemagen	determineLanguage	Request()	State
+jena.schemagen	writeSource	Request()	State
+jena.schemagen	getDefaultPrefixNamespace	Request()	State
+jena.schemagen	getOntologyElementNamespace	Request()	State
+jena.schemagen	writeObjectProperties	Request()	State
+jena.schemagen	writeDatatypeProperties	Request()	State
+jena.schemagen	writeAnnotationProperties	Request()	State
+jena.schemagen	writeOntClasses	Request()	State
+com.hp.hpl.jena.enhanced.EnhGraph	null	Context	State
+com.hp.hpl.jena.graph.Graph	null	State	State
+com.hp.hpl.jena.enhanced.EnhGraph	null	state	State
+com.hp.hpl.jena.enhanced.EnhGraph	isIsomorphicWith	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine	null	Context	State
+com.hp.hpl.jena.reasoner.rulesys.ForwardRuleInfGraphI	null	State	State
+com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine	null	state	State
+com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine	addSet	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine	findAndProcessAxioms	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngine	matchClauseList	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine	null	Context	State
+com.hp.hpl.jena.reasoner.rulesys.ForwardRuleInfGraphI	null	State	State
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine	null	state	State
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine	addTriple	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine	deleteTriple	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEEngine	inject	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleInfGraph	null	Context	State
+com.hp.hpl.jena.reasoner.rulesys.impl.FRuleEngineI	null	State	State
+com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleInfGraph	null	state	State
+com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleInfGraph	setRuleStore	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleInfGraph	prepare	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleInfGraph	preloadDeductions	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleInfGraph	performAdd	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleInfGraph	setDerivationLogging	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleInfGraph	shouldTrace	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleInfGraph	getNRulesFired	Request()	State
+com.hp.hpl.jena.graph.impl.LiteralLabelImpl	null	Context	State
+com.hp.hpl.jena.datatypes.RDFDatatype	null	State	State
+com.hp.hpl.jena.graph.impl.LiteralLabelImpl	null	state	State
+com.hp.hpl.jena.graph.impl.LiteralLabelImpl	setLiteralLabel_2	Request()	State
+com.hp.hpl.jena.graph.impl.LiteralLabelImpl	setValue	Request()	State
+com.hp.hpl.jena.graph.impl.LiteralLabelImpl	normalize	Request()	State
+com.hp.hpl.jena.graph.impl.LiteralLabelImpl	toString	Request()	State
+com.hp.hpl.jena.graph.impl.LiteralLabelImpl	getLexicalForm	Request()	State
+com.hp.hpl.jena.graph.impl.LiteralLabelImpl	getDatatypeURI	Request()	State
+com.hp.hpl.jena.graph.impl.LiteralLabelImpl	isTypedLiteralSameValueAsOther	Request()	State
+com.hp.hpl.jena.graph.impl.LiteralLabelImpl	hashCode	Request()	State
+com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	null	Context	State
+com.hp.hpl.jena.graph.GraphEventManager	null	State	State
+com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	null	state	State
+com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	add	Request()	State
+com.hp.hpl.jena.graph.impl.WrappedBulkUpdateHandler	delete	Request()	State
+com.hp.hpl.jena.db.impl.DBBulkUpdateHandler	null	Context	State
+com.hp.hpl.jena.graph.GraphEventManager	null	State	State
+com.hp.hpl.jena.db.impl.DBBulkUpdateHandler	null	state	State
+com.hp.hpl.jena.db.impl.DBBulkUpdateHandler	add	Request()	State
+com.hp.hpl.jena.db.impl.DBBulkUpdateHandler	delete	Request()	State
+com.hp.hpl.jena.graph.impl.SimpleBulkUpdateHandler	null	Context	State
+com.hp.hpl.jena.graph.GraphEventManager	null	State	State
+com.hp.hpl.jena.graph.impl.SimpleBulkUpdateHandler	null	state	State
+com.hp.hpl.jena.graph.impl.SimpleBulkUpdateHandler	addIterator	Request()	State
+com.hp.hpl.jena.graph.impl.SimpleBulkUpdateHandler	deleteIterator	Request()	State
+com.hp.hpl.jena.graph.Graph	null	State	State
+com.hp.hpl.jena.graph.GraphExtract$Extraction	null	Context	State
+com.hp.hpl.jena.graph.GraphExtract$Extraction	null	state	State
+com.hp.hpl.jena.graph.GraphExtract$Extraction	null	state	State
+com.hp.hpl.jena.graph.GraphExtract$Extraction	extractInto	Request()	State
+com.hp.hpl.jena.graph.Graph	null	State	State
+com.hp.hpl.jena.graph.impl.GraphMatcher	null	Context	State
+com.hp.hpl.jena.graph.impl.GraphMatcher	null	state	State
+com.hp.hpl.jena.graph.impl.GraphMatcher	match	Request()	State
+com.hp.hpl.jena.graph.impl.GraphMatcher	prepare	Request()	State
+com.hp.hpl.jena.enhanced.EnhNode	null	Context	State
+com.hp.hpl.jena.graph.Node	null	State	State
+com.hp.hpl.jena.enhanced.EnhNode	null	state	State
+com.hp.hpl.jena.enhanced.EnhNode	equals	Request()	State
+com.hp.hpl.jena.rdf.model.Model	null	State	State
+com.hp.hpl.jena.graph.impl.FileGraph	null	Context	State
+com.hp.hpl.jena.graph.impl.FileGraph	null	state	State
+com.hp.hpl.jena.graph.impl.FileGraph	readModelFrom	Request()	State
+com.hp.hpl.jena.graph.impl.FileGraph	saveContents	Request()	State
+com.hp.hpl.jena.rdf.arp.StatementHandler	null	State	State
+com.hp.hpl.jena.rdf.arp.impl.XMLHandler	null	Context	State
+com.hp.hpl.jena.rdf.arp.impl.XMLHandler	null	state	State
+com.hp.hpl.jena.rdf.arp.impl.XMLHandler	triple	Request()	State
+com.hp.hpl.jena.ontology.OntModelSpec	null	Context	State
+com.hp.hpl.jena.reasoner.ReasonerFactory	null	State	State
+com.hp.hpl.jena.ontology.OntModelSpec	null	state	State
+com.hp.hpl.jena.ontology.OntModelSpec	getReasoner	Request()	State
+com.hp.hpl.jena.graph.impl.GraphWithPerform	null	State	State
+com.hp.hpl.jena.graph.impl.SimpleBulkUpdateHandler	null	Context	State
+com.hp.hpl.jena.graph.impl.SimpleBulkUpdateHandler	null	state	State
+com.hp.hpl.jena.graph.impl.SimpleBulkUpdateHandler	add	Request()	State
+com.hp.hpl.jena.graph.impl.SimpleBulkUpdateHandler	add	Request()	State
+com.hp.hpl.jena.graph.impl.SimpleBulkUpdateHandler	delete	Request()	State
+com.hp.hpl.jena.graph.impl.SimpleBulkUpdateHandler	delete	Request()	State
+com.hp.hpl.jena.graph.impl.GraphMatcher$SomeResource	null	State	State
+com.hp.hpl.jena.graph.impl.GraphMatcher$AnonStatement	null	Context	State
+com.hp.hpl.jena.graph.impl.GraphMatcher$AnonStatement	null	state	State
+com.hp.hpl.jena.graph.impl.GraphMatcher$AnonStatement	null	state	State
+com.hp.hpl.jena.graph.impl.GraphMatcher$AnonStatement	null	state	State
+com.hp.hpl.jena.graph.impl.GraphMatcher$AnonStatement	myHashCode	Request()	State
+com.hp.hpl.jena.graph.impl.GraphMatcher$AnonStatement	contextualEquals	Request()	State
+com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$ExpandingAssemblerGroup	null	Context	State
+com.hp.hpl.jena.rdf.model.Model	null	State	State
+com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$ExpandingAssemblerGroup	null	state	State
+com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$ExpandingAssemblerGroup	open	Request()	State
+com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$ExpandingAssemblerGroup	implementsTypes	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreter	null	Context	State
+com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreterContext	null	State	State
+com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreter	null	state	State
+com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreter	run	Request()	State
+com.hp.hpl.jena.reasoner.TriplePattern	null	Context	State
+com.hp.hpl.jena.graph.Node	null	State	State
+com.hp.hpl.jena.reasoner.TriplePattern	null	state	State
+com.hp.hpl.jena.reasoner.TriplePattern	null	state	State
+com.hp.hpl.jena.reasoner.TriplePattern	null	state	State
+com.hp.hpl.jena.reasoner.TriplePattern	compatibleWith	Request()	State
+com.hp.hpl.jena.reasoner.TriplePattern	subsumes	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreter	null	Context	State
+com.hp.hpl.jena.reasoner.rulesys.RuleContext	null	State	State
+com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreter	null	state	State
+com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreter	run	Request()	State
+com.hp.hpl.jena.graph.Graph	null	State	State
+com.hp.hpl.jena.graph.query.SimpleQueryHandler	null	Context	State
+com.hp.hpl.jena.graph.query.SimpleQueryHandler	null	state	State
+com.hp.hpl.jena.graph.query.SimpleQueryHandler	containsNode	Request()	State
+com.hp.hpl.jena.db.impl.ResultSetReifIterator	null	Context	State
+com.hp.hpl.jena.db.impl.IPSet	null	State	State
+com.hp.hpl.jena.db.impl.ResultSetReifIterator	null	state	State
+com.hp.hpl.jena.db.impl.ResultSetReifIterator	extractRow	Request()	State
+com.hp.hpl.jena.db.impl.ResultSetTripleIterator	null	Context	State
+com.hp.hpl.jena.db.impl.IPSet	null	State	State
+com.hp.hpl.jena.db.impl.ResultSetTripleIterator	null	state	State
+com.hp.hpl.jena.db.impl.ResultSetTripleIterator	extractRow	Request()	State
+com.hp.hpl.jena.db.impl.ResultSetTripleIterator	remove	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelReifier	null	Context	State
+com.hp.hpl.jena.graph.Reifier	null	State	State
+com.hp.hpl.jena.rdf.model.impl.ModelReifier	null	state	State
+com.hp.hpl.jena.rdf.model.impl.ModelReifier	getReificationStyle	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelReifier	isReified	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelReifier	removeAllReifications	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelReifier	removeReification	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelReifier	findReifiedStatements	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelReifier	findReifiedStatements	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleInfGraph	null	Context	State
+com.hp.hpl.jena.reasoner.Finder	null	State	State
+com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleInfGraph	null	state	State
+com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleInfGraph	findDataMatches	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	null	Context	State
+com.hp.hpl.jena.reasoner.Finder	null	State	State
+com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	null	state	State
+com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	findDataMatches	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph	findDataMatches	Request()	State
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveInfGraph	null	Context	State
+com.hp.hpl.jena.reasoner.Finder	null	State	State
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveInfGraph	null	state	State
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveInfGraph	findWithContinuation	Request()	State
+com.hp.hpl.jena.db.impl.DBPattern	null	Context	State
+com.hp.hpl.jena.graph.query.Element	null	State	State
+com.hp.hpl.jena.db.impl.DBPattern	null	state	State
+com.hp.hpl.jena.db.impl.DBPattern	shareFixedSubject	Request()	State
+com.hp.hpl.jena.graph.query.Pattern	null	Context	State
+com.hp.hpl.jena.graph.query.Element	null	State	State
+com.hp.hpl.jena.graph.query.Pattern	null	state	State
+com.hp.hpl.jena.graph.query.Pattern	null	state	State
+com.hp.hpl.jena.graph.query.Pattern	null	state	State
+com.hp.hpl.jena.graph.query.Pattern	asTripleMatch	Request()	State
+com.hp.hpl.jena.graph.query.Pattern	match	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleReasoner	null	Context	State
+com.hp.hpl.jena.reasoner.ReasonerFactory	null	State	State
+com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleReasoner	null	state	State
+com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleReasoner	getReasonerCapabilities	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.BasicForwardRuleReasoner	supportsProperty	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleReasoner	null	Context	State
+com.hp.hpl.jena.reasoner.ReasonerFactory	null	State	State
+com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleReasoner	null	state	State
+com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleReasoner	getReasonerCapabilities	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.LPBackwardRuleReasoner	supportsProperty	Request()	State
+com.hp.hpl.jena.reasoner.ReasonerFactory	null	State	State
+com.hp.hpl.jena.reasoner.rulesys.FBRuleReasoner	null	Context	State
+com.hp.hpl.jena.reasoner.rulesys.FBRuleReasoner	null	state	State
+com.hp.hpl.jena.reasoner.rulesys.FBRuleReasoner	getReasonerCapabilities	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.FBRuleReasoner	supportsProperty	Request()	State
+com.hp.hpl.jena.graph.Graph	null	State	State
+com.hp.hpl.jena.graph.impl.ReificationWrapper	null	Context	State
+com.hp.hpl.jena.graph.impl.ReificationWrapper	null	state	State
+com.hp.hpl.jena.graph.impl.ReificationWrapper	allNodes	Request()	State
+com.hp.hpl.jena.graph.impl.ReificationWrapper	find	Request()	State
+com.hp.hpl.jena.graph.impl.ReificationWrapper	checkQuadElementFree	Request()	State
+com.hp.hpl.jena.graph.impl.ReificationWrapper	remove	Request()	State
+com.hp.hpl.jena.graph.impl.ReificationWrapper	countQuadlets	Request()	State
+com.hp.hpl.jena.graph.impl.ReificationWrapper	hasTriple	Request()	State
+com.hp.hpl.jena.graph.impl.ReificationWrapper	getTriple	Request()	State
+com.hp.hpl.jena.mem.StoreTripleIterator	null	Context	State
+com.hp.hpl.jena.graph.Graph	null	State	State
+com.hp.hpl.jena.mem.StoreTripleIterator	null	state	State
+com.hp.hpl.jena.mem.StoreTripleIterator	remove	Request()	State
+com.hp.hpl.jena.graph.query.regexptrees.PerlPatternParser	null	Context	State
+com.hp.hpl.jena.graph.query.regexptrees.RegexpTreeGenerator	null	State	State
+com.hp.hpl.jena.graph.query.regexptrees.PerlPatternParser	null	state	State
+com.hp.hpl.jena.graph.query.regexptrees.PerlPatternParser	parseAtom	Request()	State
+com.hp.hpl.jena.graph.query.regexptrees.PerlPatternParser	parseClass	Request()	State
+com.hp.hpl.jena.graph.query.regexptrees.PerlPatternParser	parseParens	Request()	State
+com.hp.hpl.jena.graph.query.regexptrees.PerlPatternParser	parseBackslash	Request()	State
+com.hp.hpl.jena.graph.query.regexptrees.PerlPatternParser	backReferenceOrOctalChar	Request()	State
+com.hp.hpl.jena.graph.query.regexptrees.PerlPatternParser	parseQuantifier	Request()	State
+com.hp.hpl.jena.graph.query.regexptrees.PerlPatternParser	parseSeq	Request()	State
+com.hp.hpl.jena.graph.query.regexptrees.PerlPatternParser	parseAlts	Request()	State
+com.hp.hpl.jena.rdf.model.impl.NTripleReader	null	Context	State
+com.hp.hpl.jena.rdf.model.Model	null	State	State
+com.hp.hpl.jena.rdf.model.impl.NTripleReader	null	state	State
+com.hp.hpl.jena.rdf.model.impl.NTripleReader	readRDF	Request()	State
+com.hp.hpl.jena.rdf.model.impl.NTripleReader	readResource	Request()	State
+com.hp.hpl.jena.rdf.model.impl.NTripleReader	readLiteral	Request()	State
+com.hp.hpl.jena.rdf.model.impl.NTripleReader	lookupResource	Request()	State
+com.hp.hpl.jena.graph.impl.SimpleReifier	null	Context	State
+com.hp.hpl.jena.graph.impl.ReifierTripleMap	null	State	State
+com.hp.hpl.jena.graph.impl.SimpleReifier	null	state	State
+com.hp.hpl.jena.graph.impl.SimpleReifier	getTriple	Request()	State
+com.hp.hpl.jena.graph.impl.SimpleReifier	allNodes	Request()	State
+com.hp.hpl.jena.graph.impl.SimpleReifier	allNodes	Request()	State
+com.hp.hpl.jena.graph.impl.SimpleReifier	clear	Request()	State
+com.hp.hpl.jena.graph.impl.SimpleReifier	reifyAs	Request()	State
+com.hp.hpl.jena.graph.impl.SimpleReifier	reifyNewTriple	Request()	State
+com.hp.hpl.jena.graph.impl.SimpleReifier	remove	Request()	State
+com.hp.hpl.jena.graph.impl.SimpleReifier	remove	Request()	State
+com.hp.hpl.jena.graph.impl.SimpleReifier	hasTriple	Request()	State
+com.hp.hpl.jena.graph.impl.SimpleReifier	addFragment	Request()	State
+com.hp.hpl.jena.graph.impl.SimpleReifier	updateFragments	Request()	State
+com.hp.hpl.jena.graph.impl.SimpleReifier	removeFragment	Request()	State
+com.hp.hpl.jena.graph.impl.SimpleReifier	find	Request()	State
+com.hp.hpl.jena.graph.impl.SimpleReifier	size	Request()	State
+com.hp.hpl.jena.util.iterator.MapFilterIterator	null	Context	State
+com.hp.hpl.jena.util.iterator.ClosableIterator	null	State	State
+com.hp.hpl.jena.util.iterator.MapFilterIterator	null	state	State
+com.hp.hpl.jena.util.iterator.MapFilterIterator	close	Request()	State
+com.hp.hpl.jena.db.DBConnection	null	Context	State
+com.hp.hpl.jena.db.impl.IRDBDriver	null	State	State
+com.hp.hpl.jena.db.DBConnection	null	state	State
+com.hp.hpl.jena.db.DBConnection	close	Request()	State
+com.hp.hpl.jena.db.DBConnection	cleanDB	Request()	State
+com.hp.hpl.jena.db.DBConnection	isFormatOK	Request()	State
+com.hp.hpl.jena.db.DBConnection	setDatabaseProperties	Request()	State
+com.hp.hpl.jena.db.DBConnection	getDatabaseProperties	Request()	State
+com.hp.hpl.jena.db.DBConnection	getDefaultModelProperties	Request()	State
+com.hp.hpl.jena.db.DBConnection	getAllModelNames	Request()	State
+com.hp.hpl.jena.db.DBConnection	containsModel	Request()	State
+com.hp.hpl.jena.db.DBConnection	getDriver	Request()	State
+com.hp.hpl.jena.rdf.model.Property	null	State	State
+com.hp.hpl.jena.xmloutput.impl.Unparser	null	Context	State
+com.hp.hpl.jena.xmloutput.impl.Unparser	null	state	State
+com.hp.hpl.jena.xmloutput.impl.Unparser	null	state	State
+com.hp.hpl.jena.xmloutput.impl.Unparser	<clinit>	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.impl.LPInterpreterContext	null	State	State
+com.hp.hpl.jena.reasoner.rulesys.impl.ConsumerChoicePointFrame	null	Context	State
+com.hp.hpl.jena.reasoner.rulesys.impl.ConsumerChoicePointFrame	null	state	State
+com.hp.hpl.jena.reasoner.rulesys.impl.ConsumerChoicePointFrame	setReady	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.impl.ConsumerChoicePointFrame	setFinished	Request()	State
+com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	null	Context	State
+com.hp.hpl.jena.db.impl.IRDBDriver	null	State	State
+com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	null	state	State
+com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	extractTripleFromRowData	Request()	State
+com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	deleteTripleAR	Request()	State
+com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	storeTripleAR	Request()	State
+com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	find	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	null	Context	State
+com.hp.hpl.jena.rdf.model.ModelChangedListener	null	State	State
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	null	state	State
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	notifyAddArray	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	notifyDeleteArray	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	notifyAddTriple	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	notifyAddList	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	notifyAddIterator	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	notifyAddGraph	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	notifyDeleteIterator	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	notifyDeleteTriple	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	notifyAddIterator	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	notifyDeleteList	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	notifyDeleteGraph	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelListenerAdapter	notifyEvent	Request()	State
+com.hp.hpl.jena.rdf.model.ResourceFactory	null	Context	State
+com.hp.hpl.jena.rdf.model.ResourceFactory$Interface	null	State	State
+com.hp.hpl.jena.rdf.model.ResourceFactory	null	state	State
+com.hp.hpl.jena.rdf.model.ResourceFactory	createResource	Request()	State
+com.hp.hpl.jena.rdf.model.ResourceFactory	createResource	Request()	State
+com.hp.hpl.jena.rdf.model.ResourceFactory	createPlainLiteral	Request()	State
+com.hp.hpl.jena.rdf.model.ResourceFactory	createTypedLiteral	Request()	State
+com.hp.hpl.jena.rdf.model.ResourceFactory	createTypedLiteral	Request()	State
+com.hp.hpl.jena.rdf.model.ResourceFactory	createProperty	Request()	State
+com.hp.hpl.jena.rdf.model.ResourceFactory	createProperty	Request()	State
+com.hp.hpl.jena.rdf.model.ResourceFactory	createStatement	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelMakerImpl	null	Context	State
+com.hp.hpl.jena.graph.GraphMaker	null	State	State
+com.hp.hpl.jena.rdf.model.impl.ModelMakerImpl	null	state	State
+com.hp.hpl.jena.rdf.model.impl.ModelMakerImpl	close	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelMakerImpl	openModel	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelMakerImpl	openModelIfPresent	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelMakerImpl	openModel	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelMakerImpl	createModel	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelMakerImpl	createFreshModel	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelMakerImpl	createDefaultModel	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelMakerImpl	removeModel	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelMakerImpl	hasModel	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelMakerImpl	listModels	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.DAMLMicroReasonerFactory	null	Context	State
+com.hp.hpl.jena.rdf.model.Model	null	State	State
+com.hp.hpl.jena.reasoner.rulesys.DAMLMicroReasonerFactory	null	state	State
+com.hp.hpl.jena.reasoner.rulesys.DAMLMicroReasonerFactory	getCapabilities	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.OWLFBRuleReasonerFactory	null	Context	State
+com.hp.hpl.jena.rdf.model.Model	null	State	State
+com.hp.hpl.jena.reasoner.rulesys.OWLFBRuleReasonerFactory	null	state	State
+com.hp.hpl.jena.reasoner.rulesys.OWLFBRuleReasonerFactory	getCapabilities	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.OWLMicroReasonerFactory	null	Context	State
+com.hp.hpl.jena.rdf.model.Model	null	State	State
+com.hp.hpl.jena.reasoner.rulesys.OWLMicroReasonerFactory	null	state	State
+com.hp.hpl.jena.reasoner.rulesys.OWLMicroReasonerFactory	getCapabilities	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.OWLMiniReasonerFactory	null	Context	State
+com.hp.hpl.jena.rdf.model.Model	null	State	State
+com.hp.hpl.jena.reasoner.rulesys.OWLMiniReasonerFactory	null	state	State
+com.hp.hpl.jena.reasoner.rulesys.OWLMiniReasonerFactory	getCapabilities	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.RDFSFBRuleReasonerFactory	null	Context	State
+com.hp.hpl.jena.rdf.model.Model	null	State	State
+com.hp.hpl.jena.reasoner.rulesys.RDFSFBRuleReasonerFactory	null	state	State
+com.hp.hpl.jena.reasoner.rulesys.RDFSFBRuleReasonerFactory	getCapabilities	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.RDFSRuleReasonerFactory	null	Context	State
+com.hp.hpl.jena.rdf.model.Model	null	State	State
+com.hp.hpl.jena.reasoner.rulesys.RDFSRuleReasonerFactory	null	state	State
+com.hp.hpl.jena.reasoner.rulesys.RDFSRuleReasonerFactory	getCapabilities	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.impl.WrappedReasonerFactory	null	Context	State
+com.hp.hpl.jena.rdf.model.Model	null	State	State
+com.hp.hpl.jena.reasoner.rulesys.impl.WrappedReasonerFactory	null	state	State
+com.hp.hpl.jena.reasoner.rulesys.impl.WrappedReasonerFactory	create	Request()	State
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveReasonerFactory	null	Context	State
+com.hp.hpl.jena.rdf.model.Model	null	State	State
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveReasonerFactory	null	state	State
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveReasonerFactory	getCapabilities	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.GenericRuleReasonerFactory	null	Context	State
+com.hp.hpl.jena.rdf.model.Model	null	State	State
+com.hp.hpl.jena.reasoner.rulesys.GenericRuleReasonerFactory	null	state	State
+com.hp.hpl.jena.reasoner.rulesys.GenericRuleReasonerFactory	getCapabilities	Request()	State
+com.hp.hpl.jena.xmloutput.impl.Unparser	null	Context	State
+com.hp.hpl.jena.xmloutput.impl.Unparser$WType	null	State	State
+com.hp.hpl.jena.xmloutput.impl.Unparser	null	state	State
+com.hp.hpl.jena.xmloutput.impl.Unparser	wTypedNodeNoProperties	Request()	State
+com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$1	null	Context	State
+com.hp.hpl.jena.mem.MatchOrBind	null	State	State
+com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$1	null	state	State
+com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$1	applyToTriples	Request()	State
+com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$2	null	Context	State
+com.hp.hpl.jena.mem.MatchOrBind	null	State	State
+com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$2	null	state	State
+com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$2	applyToTriples	Request()	State
+com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$3	null	Context	State
+com.hp.hpl.jena.mem.MatchOrBind	null	State	State
+com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$3	null	state	State
+com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$3	applyToTriples	Request()	State
+com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$4	null	Context	State
+com.hp.hpl.jena.mem.MatchOrBind	null	State	State
+com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$4	null	state	State
+com.hp.hpl.jena.mem.faster.NodeToTriplesMapFaster$4	applyToTriples	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.Functor	null	Context	State
+com.hp.hpl.jena.reasoner.rulesys.Builtin	null	State	State
+com.hp.hpl.jena.reasoner.rulesys.Functor	null	state	State
+com.hp.hpl.jena.reasoner.rulesys.Functor	evalAsBodyClause	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.Functor	safeEvalAsBodyClause	Request()	State
+com.hp.hpl.jena.util.iterator.Filter	null	State	State
+com.hp.hpl.jena.util.iterator.FilterIterator	null	Context	State
+com.hp.hpl.jena.util.iterator.FilterIterator	null	state	State
+com.hp.hpl.jena.util.iterator.FilterIterator	accept	Request()	State
+com.hp.hpl.jena.db.impl.IRDBDriver	null	State	State
+com.hp.hpl.jena.db.GraphRDB	null	Context	State
+com.hp.hpl.jena.db.GraphRDB	null	state	State
+com.hp.hpl.jena.db.GraphRDB	remove	Request()	State
+com.hp.hpl.jena.db.GraphRDB	getConnection	Request()	State
+com.hp.hpl.jena.db.GraphRDB	getDoDuplicateCheck	Request()	State
+com.hp.hpl.jena.db.GraphRDB	setDoDuplicateCheck	Request()	State
+com.hp.hpl.jena.mem.StoreTripleIterator	null	Context	State
+com.hp.hpl.jena.mem.NodeToTriplesMapBase	null	State	State
+com.hp.hpl.jena.mem.StoreTripleIterator	null	state	State
+com.hp.hpl.jena.mem.StoreTripleIterator	null	state	State
+com.hp.hpl.jena.mem.StoreTripleIterator	null	state	State
+com.hp.hpl.jena.mem.StoreTripleIterator	remove	Request()	State
+com.hp.hpl.jena.rdf.arp.JenaReader	null	Context	State
+com.hp.hpl.jena.rdf.model.RDFErrorHandler	null	State	State
+com.hp.hpl.jena.rdf.arp.JenaReader	null	state	State
+com.hp.hpl.jena.rdf.arp.JenaReader	setProperty	Request()	State
+com.hp.hpl.jena.rdf.model.impl.NTripleReader	null	Context	State
+com.hp.hpl.jena.rdf.model.RDFErrorHandler	null	State	State
+com.hp.hpl.jena.rdf.model.impl.NTripleReader	null	state	State
+com.hp.hpl.jena.rdf.model.impl.NTripleReader	setProperty	Request()	State
+com.hp.hpl.jena.rdf.model.impl.NTripleReader	unwrappedReadRDF	Request()	State
+com.hp.hpl.jena.rdf.model.impl.NTripleReader	deprecated	Request()	State
+com.hp.hpl.jena.rdf.model.impl.NTripleReader	syntaxError	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.BackwardRuleInfGraphI	null	State	State
+com.hp.hpl.jena.reasoner.rulesys.impl.BBRuleContext	null	Context	State
+com.hp.hpl.jena.reasoner.rulesys.impl.BBRuleContext	null	state	State
+com.hp.hpl.jena.reasoner.rulesys.impl.BBRuleContext	find	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.impl.BBRuleContext	getTemp	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.impl.BFRuleContext	null	Context	State
+com.hp.hpl.jena.reasoner.rulesys.ForwardRuleInfGraphI	null	State	State
+com.hp.hpl.jena.reasoner.rulesys.impl.BFRuleContext	null	state	State
+com.hp.hpl.jena.reasoner.rulesys.impl.BFRuleContext	addTriple	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.impl.BFRuleContext	add	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.impl.BFRuleContext	flushPending	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.impl.BFRuleContext	find	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.impl.RETERuleContext	null	Context	State
+com.hp.hpl.jena.reasoner.rulesys.ForwardRuleInfGraphI	null	State	State
+com.hp.hpl.jena.reasoner.rulesys.impl.RETERuleContext	null	state	State
+com.hp.hpl.jena.reasoner.rulesys.impl.RETERuleContext	find	Request()	State
+com.hp.hpl.jena.db.impl.DBReifier	null	Context	State
+com.hp.hpl.jena.db.impl.SpecializedGraphReifier	null	State	State
+com.hp.hpl.jena.db.impl.DBReifier	null	state	State
+com.hp.hpl.jena.db.impl.DBReifier	reifyAs	Request()	State
+com.hp.hpl.jena.db.impl.DBReifier	hasTriple	Request()	State
+com.hp.hpl.jena.db.impl.DBReifier	hasTriple	Request()	State
+com.hp.hpl.jena.db.impl.DBReifier	allNodes	Request()	State
+com.hp.hpl.jena.db.impl.DBReifier	allNodes	Request()	State
+com.hp.hpl.jena.db.impl.DBReifier	remove	Request()	State
+com.hp.hpl.jena.db.impl.DBReifier	remove	Request()	State
+com.hp.hpl.jena.db.impl.DBReifier	getTriple	Request()	State
+com.hp.hpl.jena.graph.impl.SimpleReifier	null	Context	State
+com.hp.hpl.jena.graph.impl.ReifierFragmentsMap	null	State	State
+com.hp.hpl.jena.graph.impl.SimpleReifier	null	state	State
+com.hp.hpl.jena.graph.impl.SimpleReifier	clear	Request()	State
+com.hp.hpl.jena.graph.impl.SimpleReifier	reifyNewTriple	Request()	State
+com.hp.hpl.jena.graph.impl.SimpleReifier	handledAdd	Request()	State
+com.hp.hpl.jena.graph.impl.SimpleReifier	handledRemove	Request()	State
+com.hp.hpl.jena.graph.impl.SimpleReifier	find	Request()	State
+com.hp.hpl.jena.graph.impl.SimpleReifier	size	Request()	State
+com.hp.hpl.jena.ontology.OntModelSpec	null	Context	State
+com.hp.hpl.jena.rdf.model.ModelMaker	null	State	State
+com.hp.hpl.jena.ontology.OntModelSpec	null	state	State
+com.hp.hpl.jena.ontology.OntModelSpec	doCreateModel	Request()	State
+com.hp.hpl.jena.ontology.OntModelSpec	implementCreateModelOver	Request()	State
+com.hp.hpl.jena.graph.Triple	null	Context	State
+com.hp.hpl.jena.graph.Node	null	State	State
+com.hp.hpl.jena.graph.Triple	null	state	State
+com.hp.hpl.jena.graph.Triple	null	state	State
+com.hp.hpl.jena.graph.Triple	null	state	State
+com.hp.hpl.jena.graph.Triple	isConcrete	Request()	State
+com.hp.hpl.jena.graph.Triple	sameAs	Request()	State
+com.hp.hpl.jena.graph.query.StageElement$FindTriples	null	Context	State
+com.hp.hpl.jena.graph.query.Applyer	null	State	State
+com.hp.hpl.jena.graph.query.StageElement$FindTriples	null	state	State
+com.hp.hpl.jena.graph.query.StageElement$FindTriples	run	Request()	State
+com.hp.hpl.jena.rdf.arp.impl.XMLHandler	null	Context	State
+com.hp.hpl.jena.rdf.arp.ExtendedHandler	null	State	State
+com.hp.hpl.jena.rdf.arp.impl.XMLHandler	null	state	State
+com.hp.hpl.jena.rdf.arp.impl.XMLHandler	endLocalScope	Request()	State
+com.hp.hpl.jena.rdf.arp.impl.XMLHandler	endBnodeScope	Request()	State
+com.hp.hpl.jena.reasoner.Reasoner	null	State	State
+com.hp.hpl.jena.reasoner.ReasonerRegistry	null	Context	State
+com.hp.hpl.jena.reasoner.ReasonerRegistry	null	state	State
+com.hp.hpl.jena.reasoner.ReasonerRegistry	getRDFSSimpleReasoner	Request()	State
+com.hp.hpl.jena.rdf.model.RDFList	null	State	State
+com.hp.hpl.jena.rdf.model.impl.RDFListImpl$RDFListIterator	null	Context	State
+com.hp.hpl.jena.rdf.model.impl.RDFListImpl$RDFListIterator	null	state	State
+com.hp.hpl.jena.rdf.model.impl.RDFListImpl$RDFListIterator	null	state	State
+com.hp.hpl.jena.rdf.model.impl.RDFListImpl$RDFListIterator	hasNext	Request()	State
+com.hp.hpl.jena.rdf.model.impl.RDFListImpl$RDFListIterator	next	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelCom	null	Context	State
+com.hp.hpl.jena.rdf.model.RDFReaderF	null	State	State
+com.hp.hpl.jena.rdf.model.impl.ModelCom	null	state	State
+com.hp.hpl.jena.rdf.model.impl.ModelCom	getReader	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelCom	getReader	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelCom	setReaderClassName	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelCom	read	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelCom	read	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelCom	read	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelCom	read	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelCom	read	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelCom	read	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelCom	null	Context	State
+com.hp.hpl.jena.rdf.model.RDFWriterF	null	State	State
+com.hp.hpl.jena.rdf.model.impl.ModelCom	null	state	State
+com.hp.hpl.jena.rdf.model.impl.ModelCom	getWriter	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelCom	getWriter	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ModelCom	setWriterClassName	Request()	State
+com.hp.hpl.jena.db.impl.GraphRDBMaker	null	Context	State
+com.hp.hpl.jena.db.IDBConnection	null	State	State
+com.hp.hpl.jena.db.impl.GraphRDBMaker	null	state	State
+com.hp.hpl.jena.db.impl.GraphRDBMaker	getGraph	Request()	State
+com.hp.hpl.jena.db.impl.GraphRDBMaker	openGraph	Request()	State
+com.hp.hpl.jena.db.impl.GraphRDBMaker	consGraph	Request()	State
+com.hp.hpl.jena.db.impl.GraphRDBMaker	hasGraph	Request()	State
+com.hp.hpl.jena.db.impl.GraphRDBMaker	listGraphs	Request()	State
+com.hp.hpl.jena.graph.impl.GraphMatcher$FixedResource	null	Context	State
+com.hp.hpl.jena.graph.Node	null	State	State
+com.hp.hpl.jena.graph.impl.GraphMatcher$FixedResource	null	state	State
+com.hp.hpl.jena.graph.impl.GraphMatcher$FixedResource	mightBeEqual	Request()	State
+com.hp.hpl.jena.db.impl.DBTransactionHandler	null	Context	State
+com.hp.hpl.jena.db.impl.IRDBDriver	null	State	State
+com.hp.hpl.jena.db.impl.DBTransactionHandler	null	state	State
+com.hp.hpl.jena.db.impl.DBTransactionHandler	transactionsSupported	Request()	State
+com.hp.hpl.jena.db.impl.DBTransactionHandler	begin	Request()	State
+com.hp.hpl.jena.db.impl.DBTransactionHandler	abort	Request()	State
+com.hp.hpl.jena.db.impl.DBTransactionHandler	commit	Request()	State
+com.hp.hpl.jena.graph.impl.FileGraph	null	Context	State
+com.hp.hpl.jena.graph.impl.FileGraph$NotifyOnClose	null	State	State
+com.hp.hpl.jena.graph.impl.FileGraph	null	state	State
+com.hp.hpl.jena.graph.impl.FileGraph	close	Request()	State
+com.hp.hpl.jena.n3.turtle.ParserBase	null	Context	State
+com.hp.hpl.jena.n3.turtle.TurtleEventHandler	null	State	State
+com.hp.hpl.jena.n3.turtle.ParserBase	null	state	State
+com.hp.hpl.jena.n3.turtle.ParserBase	emitTriple	Request()	State
+com.hp.hpl.jena.n3.turtle.ParserBase	startFormula	Request()	State
+com.hp.hpl.jena.n3.turtle.ParserBase	endFormula	Request()	State
+com.hp.hpl.jena.n3.turtle.ParserBase	setPrefix	Request()	State
+com.hp.hpl.jena.n3.turtle.ParserBase	null	Context	State
+com.hp.hpl.jena.shared.PrefixMapping	null	State	State
+com.hp.hpl.jena.n3.turtle.ParserBase	null	state	State
+com.hp.hpl.jena.n3.turtle.ParserBase	setPrefix	Request()	State
+com.hp.hpl.jena.rdf.arp.impl.ARPSaxErrorHandler	null	Context	State
+com.hp.hpl.jena.rdf.model.RDFErrorHandler	null	State	State
+com.hp.hpl.jena.rdf.arp.impl.ARPSaxErrorHandler	null	state	State
+com.hp.hpl.jena.rdf.arp.impl.ARPSaxErrorHandler	error	Request()	State
+com.hp.hpl.jena.rdf.arp.impl.ARPSaxErrorHandler	warning	Request()	State
+com.hp.hpl.jena.rdf.arp.impl.ARPSaxErrorHandler	fatalError	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.FBRuleReasoner	null	Context	State
+com.hp.hpl.jena.rdf.model.Resource	null	State	State
+com.hp.hpl.jena.reasoner.rulesys.FBRuleReasoner	null	state	State
+com.hp.hpl.jena.reasoner.rulesys.FBRuleReasoner	addDescription	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEClauseFilter	null	Context	State
+com.hp.hpl.jena.reasoner.rulesys.impl.RETESinkNode	null	State	State
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEClauseFilter	null	state	State
+com.hp.hpl.jena.reasoner.rulesys.impl.RETEClauseFilter	fire	Request()	State
+com.hp.hpl.jena.mem.HashCommon$BasicKeyIterator	null	Context	State
+com.hp.hpl.jena.mem.HashCommon$NotifyEmpty	null	State	State
+com.hp.hpl.jena.mem.HashCommon$BasicKeyIterator	null	state	State
+com.hp.hpl.jena.mem.HashCommon$BasicKeyIterator	remove	Request()	State
+com.hp.hpl.jena.mem.HashCommon$MovedKeysIterator	null	Context	State
+com.hp.hpl.jena.mem.HashCommon$NotifyEmpty	null	State	State
+com.hp.hpl.jena.mem.HashCommon$MovedKeysIterator	null	state	State
+com.hp.hpl.jena.mem.HashCommon$MovedKeysIterator	remove	Request()	State
+com.hp.hpl.jena.assembler.Assembler	null	State	State
+com.hp.hpl.jena.assembler.assemblers.AssemblerBase$MapObjectToContent	null	Context	State
+com.hp.hpl.jena.assembler.assemblers.AssemblerBase$MapObjectToContent	null	state	State
+com.hp.hpl.jena.assembler.assemblers.AssemblerBase$MapObjectToContent	map1	Request()	State
+com.hp.hpl.jena.db.impl.SQLCache	null	Context	State
+com.hp.hpl.jena.db.IDBConnection	null	State	State
+com.hp.hpl.jena.db.impl.SQLCache	null	state	State
+com.hp.hpl.jena.db.impl.SQLCache	getConnection	Request()	State
+com.hp.hpl.jena.db.impl.SQLCache	genSQLStmtFindReif	Request()	State
+com.hp.hpl.jena.rdf.model.StatementTripleBoundary	null	Context	State
+com.hp.hpl.jena.graph.TripleBoundary	null	State	State
+com.hp.hpl.jena.rdf.model.StatementTripleBoundary	null	state	State
+com.hp.hpl.jena.rdf.model.StatementTripleBoundary	stopAt	Request()	State
+com.hp.hpl.jena.mem.GraphMemBaseQueryHandler	null	Context	State
+com.hp.hpl.jena.graph.impl.TripleStore	null	State	State
+com.hp.hpl.jena.mem.GraphMemBaseQueryHandler	null	state	State
+com.hp.hpl.jena.mem.GraphMemBaseQueryHandler	findPredicates	Request()	State
+com.hp.hpl.jena.mem.GraphMemBaseQueryHandler	findObjects	Request()	State
+com.hp.hpl.jena.mem.GraphMemBaseQueryHandler	findSubjects	Request()	State
+com.hp.hpl.jena.ontology.OntDocumentManager	null	Context	State
+com.hp.hpl.jena.ontology.OntDocumentManager$ReadHook	null	State	State
+com.hp.hpl.jena.ontology.OntDocumentManager	null	state	State
+com.hp.hpl.jena.ontology.OntDocumentManager	read	Request()	State
+jena.schemagen$SchemagenOptionsImpl	null	Context	State
+com.hp.hpl.jena.rdf.model.Model	null	State	State
+jena.schemagen$SchemagenOptionsImpl	null	state	State
+jena.schemagen$SchemagenOptionsImpl	determineConfigRoot	Request()	State
+com.hp.hpl.jena.graph.query.SimpleQueryEngine$1	null	Context	State
+com.hp.hpl.jena.graph.query.Pipe	null	State	State
+com.hp.hpl.jena.graph.query.SimpleQueryEngine$1	null	state	State
+com.hp.hpl.jena.graph.query.SimpleQueryEngine$1	next	Request()	State
+com.hp.hpl.jena.graph.query.SimpleQueryEngine$1	hasNext	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ContNodeIteratorImpl	null	Context	State
+com.hp.hpl.jena.rdf.model.Statement	null	State	State
+com.hp.hpl.jena.rdf.model.impl.ContNodeIteratorImpl	null	state	State
+com.hp.hpl.jena.rdf.model.impl.ContNodeIteratorImpl	next	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ContNodeIteratorImpl	remove	Request()	State
+com.hp.hpl.jena.rdf.model.impl.SeqNodeIteratorImpl	null	Context	State
+com.hp.hpl.jena.rdf.model.Statement	null	State	State
+com.hp.hpl.jena.rdf.model.impl.SeqNodeIteratorImpl	null	state	State
+com.hp.hpl.jena.rdf.model.impl.SeqNodeIteratorImpl	next	Request()	State
+com.hp.hpl.jena.rdf.model.impl.SeqNodeIteratorImpl	remove	Request()	State
+com.hp.hpl.jena.rdf.model.impl.StmtIteratorImpl	null	Context	State
+com.hp.hpl.jena.rdf.model.Statement	null	State	State
+com.hp.hpl.jena.rdf.model.impl.StmtIteratorImpl	null	state	State
+com.hp.hpl.jena.rdf.model.impl.StmtIteratorImpl	remove	Request()	State
+com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	null	Context	State
+com.hp.hpl.jena.db.impl.ICache	null	State	State
+com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	null	state	State
+com.hp.hpl.jena.db.impl.PSet_TripleStore_RDB	getLiteralFromCache	Request()	State
+com.hp.hpl.jena.enhanced.EnhGraph	null	Context	State
+com.hp.hpl.jena.util.cache.Cache	null	State	State
+com.hp.hpl.jena.enhanced.EnhGraph	null	state	State
+com.hp.hpl.jena.enhanced.EnhGraph	getNodeAs	Request()	State
+com.hp.hpl.jena.rdf.arp.JenaHandler	null	Context	State
+com.hp.hpl.jena.graph.BulkUpdateHandler	null	State	State
+com.hp.hpl.jena.rdf.arp.JenaHandler	null	state	State
+com.hp.hpl.jena.rdf.arp.JenaHandler	bulkUpdate	Request()	State
+com.hp.hpl.jena.graph.query.SimpleTreeQueryPlan	null	Context	State
+com.hp.hpl.jena.graph.Graph	null	State	State
+com.hp.hpl.jena.graph.query.SimpleTreeQueryPlan	null	state	State
+com.hp.hpl.jena.graph.query.SimpleTreeQueryPlan	null	state	State
+com.hp.hpl.jena.graph.query.SimpleTreeQueryPlan	handleRoot	Request()	State
+com.hp.hpl.jena.n3.turtle.TurtleRDFGraphInserter	null	Context	State
+com.hp.hpl.jena.graph.Graph	null	State	State
+com.hp.hpl.jena.n3.turtle.TurtleRDFGraphInserter	null	state	State
+com.hp.hpl.jena.n3.turtle.TurtleRDFGraphInserter	prefix	Request()	State
+com.hp.hpl.jena.reasoner.FGraph	null	Context	State
+com.hp.hpl.jena.graph.Graph	null	State	State
+com.hp.hpl.jena.reasoner.FGraph	null	state	State
+com.hp.hpl.jena.reasoner.FGraph	find	Request()	State
+com.hp.hpl.jena.reasoner.FGraph	findWithContinuation	Request()	State
+com.hp.hpl.jena.reasoner.FGraph	contains	Request()	State
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache	null	Context	State
+com.hp.hpl.jena.graph.Node	null	State	State
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache	null	state	State
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache	null	state	State
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache	findWithContinuation	Request()	State
+com.hp.hpl.jena.reasoner.transitiveReasoner.TransitiveGraphCache	find	Request()	State
+com.hp.hpl.jena.mem.MatchOrBind$1	null	Context	State
+com.hp.hpl.jena.graph.query.QueryNode	null	State	State
+com.hp.hpl.jena.mem.MatchOrBind$1	null	state	State
+com.hp.hpl.jena.mem.MatchOrBind$1	null	state	State
+com.hp.hpl.jena.mem.MatchOrBind$1	matches	Request()	State
+com.hp.hpl.jena.mem.MatchOrBind$2	null	Context	State
+com.hp.hpl.jena.graph.query.QueryNode	null	State	State
+com.hp.hpl.jena.mem.MatchOrBind$2	null	state	State
+com.hp.hpl.jena.mem.MatchOrBind$2	null	state	State
+com.hp.hpl.jena.mem.MatchOrBind$2	matches	Request()	State
+com.hp.hpl.jena.rdf.arp.JenaHandler	null	Context	State
+com.hp.hpl.jena.shared.PrefixMapping	null	State	State
+com.hp.hpl.jena.rdf.arp.JenaHandler	null	state	State
+com.hp.hpl.jena.rdf.arp.JenaHandler	startPrefixMapping	Request()	State
+com.hp.hpl.jena.rdf.model.impl.ContNodeIteratorImpl	null	Context	State
+com.hp.hpl.jena.rdf.model.Container	null	State	State
+com.hp.hpl.jena.rdf.model.impl.ContNodeIteratorImpl	null	state	State
+com.hp.hpl.jena.rdf.model.impl.ContNodeIteratorImpl	remove	Request()	State
+com.hp.hpl.jena.vocabulary.DAML_OIL	null	Context	State
+com.hp.hpl.jena.rdf.model.Model	null	State	State
+com.hp.hpl.jena.vocabulary.DAML_OIL	null	state	State
+com.hp.hpl.jena.vocabulary.DAML_OIL	<clinit>	Request()	State
+com.hp.hpl.jena.rdf.model.RDFErrorHandler	null	State	State
+com.hp.hpl.jena.rdf.model.impl.NTripleWriter	null	Context	State
+com.hp.hpl.jena.rdf.model.impl.NTripleWriter	null	state	State
+com.hp.hpl.jena.rdf.model.impl.NTripleWriter	write	Request()	State
+com.hp.hpl.jena.rdf.model.impl.NTripleWriter	write	Request()	State
+com.hp.hpl.jena.ontology.impl.OntModelImpl$RdfTypeTestFn	null	Context	State
+com.hp.hpl.jena.rdf.model.Resource	null	State	State
+com.hp.hpl.jena.ontology.impl.OntModelImpl$RdfTypeTestFn	null	state	State
+com.hp.hpl.jena.ontology.impl.OntModelImpl$RdfTypeTestFn	reduce	Request()	State
+jena.schemagen$SchemagenOptionsImpl	null	Context	State
+com.hp.hpl.jena.rdf.model.Resource	null	State	State
+jena.schemagen$SchemagenOptionsImpl	null	state	State
+jena.schemagen$SchemagenOptionsImpl	getAllValues	Request()	State
+com.hp.hpl.jena.vocabulary.DC_11	null	Context	State
+com.hp.hpl.jena.rdf.model.Model	null	State	State
+com.hp.hpl.jena.vocabulary.DC_11	null	state	State
+com.hp.hpl.jena.vocabulary.DC_11	<clinit>	Request()	State
+jena.cmdline.ArgHandler	null	State	State
+jena.cmdline.CommandLine	null	Context	State
+jena.cmdline.CommandLine	null	state	State
+jena.cmdline.CommandLine	process	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.FBRuleReasoner	null	Context	State
+com.hp.hpl.jena.graph.Graph	null	State	State
+com.hp.hpl.jena.reasoner.rulesys.FBRuleReasoner	null	state	State
+com.hp.hpl.jena.reasoner.rulesys.FBRuleReasoner	bind	Request()	State
+com.hp.hpl.jena.db.impl.ResultSetReifIterator	null	Context	State
+com.hp.hpl.jena.graph.Node	null	State	State
+com.hp.hpl.jena.db.impl.ResultSetReifIterator	null	state	State
+com.hp.hpl.jena.db.impl.ResultSetReifIterator	null	state	State
+com.hp.hpl.jena.db.impl.ResultSetReifIterator	null	state	State
+com.hp.hpl.jena.db.impl.ResultSetReifIterator	null	state	State
+com.hp.hpl.jena.db.impl.ResultSetReifIterator	null	state	State
+com.hp.hpl.jena.db.impl.ResultSetReifIterator	extractRow	Request()	State
+com.hp.hpl.jena.db.impl.ResultSetReifIterator	getRow	Request()	State
+com.hp.hpl.jena.mem.faster.GraphMemFaster$GraphMemFasterStatisticsHandler	null	Context	State
+com.hp.hpl.jena.graph.Reifier	null	State	State
+com.hp.hpl.jena.mem.faster.GraphMemFaster$GraphMemFasterStatisticsHandler	null	state	State
+com.hp.hpl.jena.mem.faster.GraphMemFaster$GraphMemFasterStatisticsHandler	getStatistic	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	null	Context	State
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier$GetReifier	null	State	State
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	null	state	State
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	allNodes	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	allNodes	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	find	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	findEither	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	findExposed	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	hasTriple	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	hasTriple	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	size	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.BasicFBReifier	getTriple	Request()	State
+com.hp.hpl.jena.graph.GraphExtract$Extraction	null	Context	State
+com.hp.hpl.jena.graph.TripleBoundary	null	State	State
+com.hp.hpl.jena.graph.GraphExtract$Extraction	null	state	State
+com.hp.hpl.jena.graph.GraphExtract$Extraction	extractInto	Request()	State
+com.hp.hpl.jena.graph.query.QueryTriple$SimpleApplyer	null	Context	State
+com.hp.hpl.jena.graph.Graph	null	State	State
+com.hp.hpl.jena.graph.query.QueryTriple$SimpleApplyer	null	state	State
+com.hp.hpl.jena.graph.query.QueryTriple$SimpleApplyer	find	Request()	State
+com.hp.hpl.jena.graph.query.Expression$Valof	null	Context	State
+com.hp.hpl.jena.graph.query.IndexValues	null	State	State
+com.hp.hpl.jena.graph.query.Expression$Valof	null	state	State
+com.hp.hpl.jena.graph.query.Expression$Valof	get	Request()	State
+com.hp.hpl.jena.db.impl.DBQueryStage	null	Context	State
+com.hp.hpl.jena.graph.Graph	null	State	State
+com.hp.hpl.jena.db.impl.DBQueryStage	null	state	State
+com.hp.hpl.jena.db.impl.DBQueryStage	compile	Request()	State
+com.hp.hpl.jena.graph.query.StageElement$PutBindings	null	Context	State
+com.hp.hpl.jena.graph.query.Pipe	null	State	State
+com.hp.hpl.jena.graph.query.StageElement$PutBindings	null	state	State
+com.hp.hpl.jena.graph.query.StageElement$PutBindings	run	Request()	State
+com.hp.hpl.jena.graph.query.TripleSorter	null	State	State
+com.hp.hpl.jena.graph.query.SimpleQueryEngine	null	Context	State
+com.hp.hpl.jena.graph.query.SimpleQueryEngine	null	state	State
+com.hp.hpl.jena.graph.query.SimpleQueryEngine	sortTriples	Request()	State
+com.hp.hpl.jena.graph.query.Expression$Valof	null	Context	State
+com.hp.hpl.jena.graph.query.VariableIndexes	null	State	State
+com.hp.hpl.jena.graph.query.Expression$Valof	null	state	State
+com.hp.hpl.jena.graph.query.Expression$Valof	get	Request()	State
+com.hp.hpl.jena.rdf.model.SimpleSelector	null	Context	State
+com.hp.hpl.jena.rdf.model.Resource	null	State	State
+com.hp.hpl.jena.rdf.model.SimpleSelector	null	state	State
+com.hp.hpl.jena.rdf.model.SimpleSelector	test	Request()	State
+com.hp.hpl.jena.rdf.model.ModelExtract	null	Context	State
+com.hp.hpl.jena.rdf.model.StatementBoundary	null	State	State
+com.hp.hpl.jena.rdf.model.ModelExtract	null	state	State
+com.hp.hpl.jena.rdf.model.ModelExtract	extractInto	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.RuleDerivation	null	Context	State
+com.hp.hpl.jena.reasoner.InfGraph	null	State	State
+com.hp.hpl.jena.reasoner.rulesys.RuleDerivation	null	state	State
+com.hp.hpl.jena.reasoner.rulesys.RuleDerivation	printTrace	Request()	State
+com.hp.hpl.jena.reasoner.rulesys.impl.LPTopGoalIterator	null	Context	State
+com.hp.hpl.jena.reasoner.rulesys.BackwardRuleInfGraphI	null	State	State
+com.hp.hpl.jena.reasoner.rulesys.impl.LPTopGoalIterator	null	state	State
+com.hp.hpl.jena.reasoner.rulesys.impl.LPTopGoalIterator	checkCME	Request()	State
+com.hp.hpl.jena.util.iterator.MapFilterIterator	null	Context	State
+com.hp.hpl.jena.util.iterator.MapFilter	null	State	State
+com.hp.hpl.jena.util.iterator.MapFilterIterator	null	state	State
+com.hp.hpl.jena.util.iterator.MapFilterIterator	hasNext	Request()	State
+com.hp.hpl.jena.graph.compose.Dyadic	null	Abstraction	Bridge
+com.hp.hpl.jena.graph.Graph	null	Implementor	Bridge
+com.hp.hpl.jena.graph.compose.Dyadic	null	implementor	Bridge
+com.hp.hpl.jena.graph.compose.Dyadic	null	implementor	Bridge
+com.hp.hpl.jena.graph.compose.Dyadic	close	Operation()	Bridge
+com.hp.hpl.jena.graph.compose.Dyadic	dependsOn	Operation()	Bridge
+com.hp.hpl.jena.rdf.arp.impl.AbsXMLContext	null	Abstraction	Bridge
+com.hp.hpl.jena.rdf.arp.impl.Taint	null	Implementor	Bridge
+com.hp.hpl.jena.rdf.arp.impl.AbsXMLContext	null	implementor	Bridge
+com.hp.hpl.jena.rdf.arp.impl.AbsXMLContext	getLang	Operation()	Bridge
+com.hp.hpl.jena.graph.impl.GraphBase	null	Abstraction	Bridge
+com.hp.hpl.jena.graph.Reifier	null	Implementor	Bridge
+com.hp.hpl.jena.graph.impl.GraphBase	null	implementor	Bridge
+com.hp.hpl.jena.graph.impl.GraphBase	close	Operation()	Bridge
+com.hp.hpl.jena.db.impl.SpecializedGraph_TripleStore	null	Abstraction	Bridge
+com.hp.hpl.jena.db.impl.IPSet	null	Implementor	Bridge
+com.hp.hpl.jena.db.impl.SpecializedGraph_TripleStore	null	implementor	Bridge
+com.hp.hpl.jena.db.impl.SpecializedGraph_TripleStore	add	Operation()	Bridge
+com.hp.hpl.jena.db.impl.SpecializedGraph_TripleStore	add	Operation()	Bridge
+com.hp.hpl.jena.db.impl.SpecializedGraph_TripleStore	delete	Operation()	Bridge
+com.hp.hpl.jena.db.impl.SpecializedGraph_TripleStore	delete	Operation()	Bridge
+com.hp.hpl.jena.db.impl.SpecializedGraph_TripleStore	tripleCount	Operation()	Bridge
+com.hp.hpl.jena.db.impl.SpecializedGraph_TripleStore	contains	Operation()	Bridge
+com.hp.hpl.jena.db.impl.SpecializedGraph_TripleStore	find	Operation()	Bridge
+com.hp.hpl.jena.db.impl.SpecializedGraph_TripleStore	close	Operation()	Bridge
+com.hp.hpl.jena.db.impl.SpecializedGraph_TripleStore	clear	Operation()	Bridge
+com.hp.hpl.jena.shared.uuid.JenaUUID	null	Abstraction	Bridge
+com.hp.hpl.jena.shared.uuid.UUIDFactory	null	Implementor	Bridge
+com.hp.hpl.jena.shared.uuid.JenaUUID	null	implementor	Bridge
+com.hp.hpl.jena.shared.uuid.JenaUUID	generate	Operation()	Bridge
+com.hp.hpl.jena.shared.uuid.JenaUUID	reset	Operation()	Bridge
+com.hp.hpl.jena.mem.GraphTripleStoreBase	null	Abstraction	Bridge
+com.hp.hpl.jena.mem.NodeToTriplesMapBase	null	Implementor	Bridge
+com.hp.hpl.jena.mem.GraphTripleStoreBase	null	implementor	Bridge
+com.hp.hpl.jena.mem.GraphTripleStoreBase	null	implementor	Bridge
+com.hp.hpl.jena.mem.GraphTripleStoreBase	null	implementor	Bridge
+com.hp.hpl.jena.mem.GraphTripleStoreBase	add	Operation()	Bridge
+com.hp.hpl.jena.mem.GraphTripleStoreBase	delete	Operation()	Bridge
+com.hp.hpl.jena.mem.GraphTripleStoreBase	contains	Operation()	Bridge
+com.hp.hpl.jena.mem.GraphTripleStoreBase	containsByEquality	Operation()	Bridge
+com.hp.hpl.jena.mem.GraphTripleStoreBase	find	Operation()	Bridge
+com.hp.hpl.jena.db.impl.DriverRDB	null	Abstraction	Bridge
+com.hp.hpl.jena.db.IDBConnection	null	Implementor	Bridge
+com.hp.hpl.jena.db.impl.DriverRDB	null	implementor	Bridge
+com.hp.hpl.jena.db.impl.DriverRDB	formatAndConstructSystemSpecializedGraph	Operation()	Bridge
+com.hp.hpl.jena.db.impl.DriverRDB	DBisLocked	Operation()	Bridge
+com.hp.hpl.jena.db.impl.DriverRDB	getAllTables	Operation()	Bridge
+com.hp.hpl.jena.db.impl.DriverRDB	getTableCount	Operation()	Bridge
+com.hp.hpl.jena.db.impl.DBProp	null	Abstraction	Bridge
+com.hp.hpl.jena.db.impl.SpecializedGraph	null	Implementor	Bridge
+com.hp.hpl.jena.db.impl.DBProp	null	implementor	Bridge
+com.hp.hpl.jena.db.impl.DBProp	putPropNode	Operation()	Bridge
+com.hp.hpl.jena.db.impl.DBProp	getPropNode	Operation()	Bridge
+com.hp.hpl.jena.db.impl.DBProp	remove	Operation()	Bridge
+com.hp.hpl.jena.db.impl.DBProp	showGraph	Operation()	Bridge
+com.hp.hpl.jena.mem.NodeToTriplesMapBase	null	Abstraction	Bridge
+com.hp.hpl.jena.mem.BunchMap	null	Implementor	Bridge
+com.hp.hpl.jena.mem.NodeToTriplesMapBase	null	implementor	Bridge
+com.hp.hpl.jena.mem.NodeToTriplesMapBase	domain	Operation()	Bridge
+com.hp.hpl.jena.mem.NodeToTriplesMapBase	clear	Operation()	Bridge
+com.hp.hpl.jena.n3.JenaReaderBase	null	Abstraction	Bridge
+com.hp.hpl.jena.rdf.model.RDFErrorHandler	null	Implementor	Bridge
+com.hp.hpl.jena.n3.JenaReaderBase	null	implementor	Bridge
+com.hp.hpl.jena.n3.JenaReaderBase	read	Operation()	Bridge
+com.hp.hpl.jena.n3.JenaReaderBase	readImpl	Operation()	Bridge
+com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	null	Abstraction	Bridge
+com.hp.hpl.jena.xmloutput.impl.SimpleLogger	null	Implementor	Bridge
+com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	null	implementor	Bridge
+com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	tag	Operation()	Bridge
+com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	writeXMLDeclaration	Operation()	Bridge
+com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	setProperty	Operation()	Bridge
+com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	setAttributeQuoteChar	Operation()	Bridge
+com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	setWidth	Operation()	Bridge
+com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	setTab	Operation()	Bridge
+com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	setTypes	Operation()	Bridge
+com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	checkLegalPrefix	Operation()	Bridge
+com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	str2flags	Operation()	Bridge
+com.hp.hpl.jena.mem.NodeToTriplesMapBase	null	Abstraction	Bridge
+com.hp.hpl.jena.graph.Triple$Field	null	Implementor	Bridge
+com.hp.hpl.jena.mem.NodeToTriplesMapBase	null	implementor	Bridge
+com.hp.hpl.jena.mem.NodeToTriplesMapBase	getIndexField	Operation()	Bridge
+com.hp.hpl.jena.rdf.arp.states.Collection	null	Abstraction	Bridge
+com.hp.hpl.jena.rdf.arp.states.WantsObjectI	null	Implementor	Bridge
+com.hp.hpl.jena.rdf.arp.states.Collection	null	implementor	Bridge
+com.hp.hpl.jena.rdf.arp.states.Collection	startElement	Operation()	Bridge
+com.hp.hpl.jena.rdf.arp.states.Collection	endElement	Operation()	Bridge
+jena.util.DBcmd	null	Abstraction	Bridge
+com.hp.hpl.jena.db.IDBConnection	null	Implementor	Bridge
+jena.util.DBcmd	null	implementor	Bridge
+jena.util.DBcmd	closeConnection	Operation()	Bridge
+com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	null	Abstraction	Bridge
+com.hp.hpl.jena.shared.PrefixMapping	null	Implementor	Bridge
+com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	null	implementor	Bridge
+com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	substitutedAttribute	Operation()	Bridge
+com.hp.hpl.jena.assembler.assemblers.AssemblerBase	null	AbstractClass	Template Method
+com.hp.hpl.jena.assembler.assemblers.AssemblerBase	open	TemplateMethod()	Template Method
+com.hp.hpl.jena.assembler.assemblers.AssemblerBase	openModel	TemplateMethod()	Template Method
+com.hp.hpl.jena.assembler.assemblers.ModelAssembler	null	AbstractClass	Template Method
+com.hp.hpl.jena.assembler.assemblers.ModelAssembler	openModel	TemplateMethod()	Template Method
+com.hp.hpl.jena.db.impl.DriverRDB	null	AbstractClass	Template Method
+com.hp.hpl.jena.db.impl.DriverRDB	getSystemSpecializedGraph	TemplateMethod()	Template Method
+com.hp.hpl.jena.db.impl.DriverRDB	formatAndConstructSystemSpecializedGraph	TemplateMethod()	Template Method
+com.hp.hpl.jena.db.impl.DriverRDB	createSpecializedGraphs	TemplateMethod()	Template Method
+com.hp.hpl.jena.db.impl.DriverRDB	createTable	TemplateMethod()	Template Method
+com.hp.hpl.jena.db.impl.ResultSetIterator	null	AbstractClass	Template Method
+com.hp.hpl.jena.db.impl.ResultSetIterator	moveForward	TemplateMethod()	Template Method
+com.hp.hpl.jena.enhanced.Polymorphic	null	AbstractClass	Template Method
+com.hp.hpl.jena.enhanced.Polymorphic	findExistingView	TemplateMethod()	Template Method
+com.hp.hpl.jena.graph.impl.FragmentTripleIterator	null	AbstractClass	Template Method
+com.hp.hpl.jena.graph.impl.FragmentTripleIterator	refillFrom	TemplateMethod()	Template Method
+com.hp.hpl.jena.graph.impl.GraphBase	null	AbstractClass	Template Method
+com.hp.hpl.jena.graph.impl.GraphBase	find	TemplateMethod()	Template Method
+com.hp.hpl.jena.graph.impl.GraphBase	forTestingOnly_graphBaseFind	TemplateMethod()	Template Method
+com.hp.hpl.jena.graph.impl.SimpleReifierFragmentHandler	null	AbstractClass	Template Method
+com.hp.hpl.jena.graph.impl.SimpleReifierFragmentHandler	clashedWith	TemplateMethod()	Template Method
+com.hp.hpl.jena.graph.Node	null	AbstractClass	Template Method
+com.hp.hpl.jena.graph.Node	sameValueAs	TemplateMethod()	Template Method
+com.hp.hpl.jena.graph.Node	matches	TemplateMethod()	Template Method
+com.hp.hpl.jena.graph.query.Rewrite$DyadicLiteral	null	AbstractClass	Template Method
+com.hp.hpl.jena.graph.query.Rewrite$DyadicLiteral	evalBool	TemplateMethod()	Template Method
+com.hp.hpl.jena.graph.Triple$Field	null	AbstractClass	Template Method
+com.hp.hpl.jena.graph.Triple$Field	filterOn	TemplateMethod()	Template Method
+com.hp.hpl.jena.mem.GraphMemBase	null	AbstractClass	Template Method
+com.hp.hpl.jena.mem.GraphMemBase	close	TemplateMethod()	Template Method
+com.hp.hpl.jena.mem.ObjectIterator	null	AbstractClass	Template Method
+com.hp.hpl.jena.mem.ObjectIterator	refillPending	TemplateMethod()	Template Method
+com.hp.hpl.jena.n3.JenaReaderBase	null	AbstractClass	Template Method
+com.hp.hpl.jena.n3.JenaReaderBase	readImpl	TemplateMethod()	Template Method
+com.hp.hpl.jena.ontology.impl.AbstractProfile	null	AbstractClass	Template Method
+com.hp.hpl.jena.ontology.impl.AbstractProfile	aliasMap	TemplateMethod()	Template Method
+com.hp.hpl.jena.ontology.impl.BooleanClassDescriptionImpl	null	AbstractClass	Template Method
+com.hp.hpl.jena.ontology.impl.BooleanClassDescriptionImpl	setOperands	TemplateMethod()	Template Method
+com.hp.hpl.jena.ontology.impl.BooleanClassDescriptionImpl	addOperand	TemplateMethod()	Template Method
+com.hp.hpl.jena.ontology.impl.BooleanClassDescriptionImpl	getOperands	TemplateMethod()	Template Method
+com.hp.hpl.jena.rdf.arp.impl.AbsXMLContext	null	AbstractClass	Template Method
+com.hp.hpl.jena.rdf.arp.impl.AbsXMLContext	withBase	TemplateMethod()	Template Method
+com.hp.hpl.jena.rdf.arp.impl.AbsXMLContext	withLang	TemplateMethod()	Template Method
+com.hp.hpl.jena.rdf.arp.impl.AbsXMLContext	resolveAsURI	TemplateMethod()	Template Method
+com.hp.hpl.jena.rdf.arp.impl.QNameLexer	null	AbstractClass	Template Method
+com.hp.hpl.jena.rdf.arp.impl.QNameLexer	xml	TemplateMethod()	Template Method
+com.hp.hpl.jena.rdf.arp.impl.QNameLexer	rdf	TemplateMethod()	Template Method
+com.hp.hpl.jena.rdf.arp.impl.QNameLexer	lookup	TemplateMethod()	Template Method
+com.hp.hpl.jena.rdf.arp.impl.QNameLexer	lookupNoMsg	TemplateMethod()	Template Method
+com.hp.hpl.jena.rdf.arp.states.Collection	null	AbstractClass	Template Method
+com.hp.hpl.jena.rdf.arp.states.Collection	startElement	TemplateMethod()	Template Method
+com.hp.hpl.jena.rdf.arp.states.Collection	endElement	TemplateMethod()	Template Method
+com.hp.hpl.jena.rdf.model.impl.StatementBase	null	AbstractClass	Template Method
+com.hp.hpl.jena.rdf.model.impl.StatementBase	stringReplace	TemplateMethod()	Template Method
+com.hp.hpl.jena.rdf.model.impl.StatementBase	changeObject	TemplateMethod()	Template Method
+com.hp.hpl.jena.rdf.model.impl.StatementBase	getBoolean	TemplateMethod()	Template Method
+com.hp.hpl.jena.rdf.model.impl.StatementBase	getByte	TemplateMethod()	Template Method
+com.hp.hpl.jena.rdf.model.impl.StatementBase	getShort	TemplateMethod()	Template Method
+com.hp.hpl.jena.rdf.model.impl.StatementBase	getInt	TemplateMethod()	Template Method
+com.hp.hpl.jena.rdf.model.impl.StatementBase	getLong	TemplateMethod()	Template Method
+com.hp.hpl.jena.rdf.model.impl.StatementBase	getChar	TemplateMethod()	Template Method
+com.hp.hpl.jena.rdf.model.impl.StatementBase	getFloat	TemplateMethod()	Template Method
+com.hp.hpl.jena.rdf.model.impl.StatementBase	getDouble	TemplateMethod()	Template Method
+com.hp.hpl.jena.rdf.model.impl.StatementBase	getString	TemplateMethod()	Template Method
+com.hp.hpl.jena.rdf.model.impl.StatementBase	getLanguage	TemplateMethod()	Template Method
+com.hp.hpl.jena.rdf.model.impl.StatementBase	hasWellFormedXML	TemplateMethod()	Template Method
+com.hp.hpl.jena.rdf.model.impl.StatementBase	toString	TemplateMethod()	Template Method
+com.hp.hpl.jena.reasoner.BaseInfGraph	null	AbstractClass	Template Method
+com.hp.hpl.jena.reasoner.BaseInfGraph	graphBaseFind	TemplateMethod()	Template Method
+com.hp.hpl.jena.reasoner.BaseInfGraph	find	TemplateMethod()	Template Method
+com.hp.hpl.jena.reasoner.BaseInfGraph	cloneWithPremises	TemplateMethod()	Template Method
+com.hp.hpl.jena.shared.uuid.JenaUUID	null	AbstractClass	Template Method
+com.hp.hpl.jena.shared.uuid.JenaUUID	asUUID	TemplateMethod()	Template Method
+com.hp.hpl.jena.shared.wg.LazyInputStream	null	AbstractClass	Template Method
+com.hp.hpl.jena.shared.wg.LazyInputStream	connect	TemplateMethod()	Template Method
+com.hp.hpl.jena.shared.wg.LazyInputStream	read	TemplateMethod()	Template Method
+com.hp.hpl.jena.util.iterator.LateBindingIterator	null	AbstractClass	Template Method
+com.hp.hpl.jena.util.iterator.LateBindingIterator	lazy	TemplateMethod()	Template Method
+com.hp.hpl.jena.util.iterator.LazyIterator	null	AbstractClass	Template Method
+com.hp.hpl.jena.util.iterator.LazyIterator	lazy	TemplateMethod()	Template Method
+com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	null	AbstractClass	Template Method
+com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	writeXMLBody	TemplateMethod()	Template Method
+com.hp.hpl.jena.xmloutput.impl.BaseXMLWriter	setBlockRules	TemplateMethod()	Template Method
+jena.util.DBcmd	null	AbstractClass	Template Method
+jena.util.DBcmd	exec	TemplateMethod()	Template Method
+com.hp.hpl.jena.rdf.model.impl.ResourceImpl	null	ConcreteElement	Visitor
+com.hp.hpl.jena.rdf.model.RDFVisitor	null	Visitor	Visitor
+com.hp.hpl.jena.rdf.model.impl.ResourceImpl	visitWith	Accept()	Visitor
+com.hp.hpl.jena.graph.Node_ANY	null	ConcreteElement	Visitor
+com.hp.hpl.jena.graph.NodeVisitor	null	Visitor	Visitor
+com.hp.hpl.jena.graph.Node_ANY	visitWith	Accept()	Visitor
+com.hp.hpl.jena.graph.Node_Blank	null	ConcreteElement	Visitor
+com.hp.hpl.jena.graph.NodeVisitor	null	Visitor	Visitor
+com.hp.hpl.jena.graph.Node_Blank	visitWith	Accept()	Visitor
+com.hp.hpl.jena.graph.Node_Literal	null	ConcreteElement	Visitor
+com.hp.hpl.jena.graph.NodeVisitor	null	Visitor	Visitor
+com.hp.hpl.jena.graph.Node_Literal	visitWith	Accept()	Visitor
+com.hp.hpl.jena.graph.Node_URI	null	ConcreteElement	Visitor
+com.hp.hpl.jena.graph.NodeVisitor	null	Visitor	Visitor
+com.hp.hpl.jena.graph.Node_URI	visitWith	Accept()	Visitor
+com.hp.hpl.jena.graph.Node_Variable	null	ConcreteElement	Visitor
+com.hp.hpl.jena.graph.NodeVisitor	null	Visitor	Visitor
+com.hp.hpl.jena.graph.Node_Variable	visitWith	Accept()	Visitor
+com.hp.hpl.jena.rdf.model.impl.LiteralImpl	null	ConcreteElement	Visitor
+com.hp.hpl.jena.rdf.model.RDFVisitor	null	Visitor	Visitor
+com.hp.hpl.jena.rdf.model.impl.LiteralImpl	visitWith	Accept()	Visitor
+com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$ExpandingAssemblerGroup	null	Proxy	Proxy
+com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$PlainAssemblerGroup	null	RealSubject	Proxy
+com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$ExpandingAssemblerGroup	open	Request()	Proxy
+com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$ExpandingAssemblerGroup	implementWith	Request()	Proxy
+com.hp.hpl.jena.assembler.assemblers.AssemblerGroup$ExpandingAssemblerGroup	assemblerFor	Request()	Proxy
+com.hp.hpl.jena.db.impl.DBReifierGraph	null	Proxy	Proxy
+com.hp.hpl.jena.db.GraphRDB	null	RealSubject	Proxy
+com.hp.hpl.jena.db.impl.DBReifierGraph	getPrefixMapping	Request()	Proxy
+com.hp.hpl.jena.db.impl.DBReifierGraph	getTransactionHandler	Request()	Proxy
+com.hp.hpl.jena.db.impl.DBReifierGraph	getBulkUpdateHandler	Request()	Proxy
+com.hp.hpl.jena.n3.N3JenaWriter	null	Proxy	Proxy
+com.hp.hpl.jena.n3.N3JenaWriterCommon	null	RealSubject	Proxy
+com.hp.hpl.jena.n3.N3JenaWriter	write	Request()	Proxy
+com.hp.hpl.jena.n3.N3JenaWriter	write	Request()	Proxy
+com.hp.hpl.jena.n3.N3JenaWriter	setProperty	Request()	Proxy
+com.hp.hpl.jena.n3.N3JenaWriter	setErrorHandler	Request()	Proxy
+com.hp.hpl.jena.enhanced.Polymorphic	null	Handler	Chain of Responsibility
+com.hp.hpl.jena.enhanced.Polymorphic	null	successor	Chain of Responsibility
+com.hp.hpl.jena.graph.query.Stage	null	Handler	Chain of Responsibility
+com.hp.hpl.jena.graph.query.Stage	null	successor	Chain of Responsibility
+com.hp.hpl.jena.rdf.arp.impl.AbsXMLContext	null	Handler	Chain of Responsibility
+com.hp.hpl.jena.rdf.arp.impl.AbsXMLContext	null	successor	Chain of Responsibility
