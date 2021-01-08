@@ -2,13 +2,14 @@ rm(list=ls())
 library(readr)
 library(dplyr)
 
-# project <- "displaytag"
-# project <- "commons-io"
+# projects <- "fastjson"
+# projects <- "commons-collections"
 projects <- c("fastjson", "displaytag", "commons-io", "commons-collections")
 
 # Carrega dados
+USE_CACHE = TRUE
 SAVE_FILE = "padroes_smells.RData"
-if (file.exists(SAVE_FILE)) {
+if (USE_CACHE && file.exists(SAVE_FILE)) {
   load(SAVE_FILE)
 } else {
   BASE_PATH <- "~/Dropbox/ARTIGOS/arquivos_2020/arquivos_para_analise/"
@@ -27,36 +28,56 @@ if (file.exists(SAVE_FILE)) {
     smells_orig <- smells_orig %>% bind_rows(x)
   }
   
-  save(padroes_orig, smells_orig, file = SAVE_FILE)
+  if (USE_CACHE) {
+    save(padroes_orig, smells_orig, file = SAVE_FILE)
+  }
 }
 
 ##########
 
 #' # Estatísticas
 
-#' Número de commits analisados
+#' ## Número de commits analisados
 
 n_distinct(padroes_orig$commit)
 n_distinct(smells_orig$commit)
 
-#' Número de classes analisadas
+padroes_orig %>% 
+  group_by(project) %>%
+  tally(n_distinct(commit)) %>%
+  arrange(desc(n))
+
+smells_orig %>% 
+  group_by(project) %>%
+  tally(n_distinct(commit)) %>%
+  arrange(desc(n))
+
+#' ## Número de classes analisadas
 # TODO: são somente as classes que tiveram algum smell ou algum padrão em algum momento?
 
 n_distinct(padroes_orig$classe)
 n_distinct(smells_orig$classe)
 
-padroes_orig %>% group_by(project) %>% summarise(n_distinct(classe))
+padroes_orig %>%
+  group_by(project) %>%
+  summarise(n = n_distinct(classe)) %>%
+  arrange(desc(n))
+
+smells_orig %>%
+  group_by(project) %>%
+  summarise(n = n_distinct(classe)) %>%
+  arrange(desc(n))
+
+
 padroes_orig %>% group_by(project, classe) %>% summarise(n())
 
 n_distinct(padroes_orig$classe)
 n_distinct(smells_orig$classe)
 
-#' Ocorrências de adição de padrão/smell
+#' ## Ocorrências de adição de padrão/smell
 
 sum(padroes_orig$operacao == "Adicionado")
 sum(smells_orig$operacao == "Adicionado")
-
-#' Ocorrências de adição de padrão/smell por projeto
 
 padroes_orig %>% 
   filter(operacao == "Adicionado") %>%
@@ -121,6 +142,8 @@ t <- xtabs(~ padrao + added_smell, data=data2, exclude=NULL, na.action=na.pass)
 t
 mosaicplot(t, shade=T)
 chisq.test(t)
+
+# xtabs(~ padrao + added_smell + project, data=data2, exclude=NULL, na.action=na.pass)
 
 # t <- xtabs(~ padrao + removed_smell, data=data2, exclude=NULL, na.action=na.pass)
 # t
